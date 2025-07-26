@@ -28,6 +28,31 @@ Real-time voice-powered AI interview practice platform
 
 ## Getting Started
 
+### Prerequisites
+
+#### Flutter SDK Installation (Windows)
+1. **Download and Install:**
+   ```bash
+   git clone https://github.com/flutter/flutter.git -b stable C:\flutter
+   ```
+
+2. **Add to PATH:**
+   - Windows Search → "Environment Variables" → "Edit system environment variables"
+   - Click "Environment Variables"
+   - In System Variables, select "Path" → "Edit"
+   - Click "New" → Add `C:\flutter\bin`
+   - Restart terminal
+
+3. **Verify Installation:**
+   ```bash
+   flutter doctor
+   ```
+
+4. **Install Dependencies:**
+   - ✅ Android Studio (for Android development)
+   - ✅ Visual Studio (for Windows development)
+   - ✅ VS Code + Flutter extension (recommended)
+
 ### Backend Setup
 ```bash
 cd backend
@@ -45,5 +70,6 @@ npm start
 ### Flutter App Setup
 ```bash
 cd flutter_app
+flutter pub get
 flutter run
 ```

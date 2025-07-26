@@ -17,7 +17,11 @@
       "Bash(curl:*)",
       "Bash(git pull:*)",
       "Bash(cp:*)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(flutter:*)",
+      "Bash(powershell:*)",
+      "Bash(git clone:*)",
+      "Bash(C:flutterbinflutter doctor)"
     ],
     "deny": []
   }
