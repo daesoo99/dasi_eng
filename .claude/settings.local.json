@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git --version)",
+      "Bash(gh:*)",
+      "Bash(mkdir:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(ls:*)",
+      "Bash(pkill:*)",
+      "Bash(true)",
+      "Bash(curl:*)"
+    ],
+    "deny": []
+  }
+}
