@@ -21,7 +21,10 @@
       "Bash(flutter:*)",
       "Bash(powershell:*)",
       "Bash(git clone:*)",
-      "Bash(C:flutterbinflutter doctor)"
+      "Bash(C:flutterbinflutter doctor)",
+      "Bash(git rm:*)",
+      "Bash(cmd /c:*)",
+      "Bash(echo $PATH)"
     ],
     "deny": []
   }

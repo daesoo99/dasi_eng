@@ -50,8 +50,22 @@ Real-time voice-powered AI interview practice platform
 
 4. **Install Dependencies:**
    - ✅ Android Studio (for Android development)
-   - ✅ Visual Studio (for Windows development)
+   - ⚠️ Visual Studio (optional - Windows desktop apps only)
    - ✅ VS Code + Flutter extension (recommended)
+
+#### Development Environment Status
+✅ **Ready for Development:**
+- Flutter SDK (v3.32.8)
+- Android toolchain (Android SDK v36.0.0)
+- Chrome (web development)
+- Android Studio (v2025.1.1)
+- VS Code with Flutter extension
+
+🎯 **Supported Platforms:**
+- ✅ Android mobile apps
+- ✅ Web applications (Chrome/browsers)
+- ⚠️ Windows desktop apps (requires Visual Studio C++ components)
+- ❌ iOS apps (requires Mac)
 
 ### Backend Setup
 ```bash
