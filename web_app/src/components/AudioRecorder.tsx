@@ -152,8 +152,8 @@ const AudioRecorder: React.FC<Props> = ({ onAnswerComplete, disabled }) => {
       setIsRecording(true);
       setTranscription('');
     } catch (error) {
-      console.error('녹음 시작 오류:', error);
-      alert('마이크 접근 권한이 필요합니다.');
+      console.error('Recording start error:', error);
+      alert('Microphone access permission is required.');
     }
   }, []);
 
@@ -180,10 +180,10 @@ const AudioRecorder: React.FC<Props> = ({ onAnswerComplete, disabled }) => {
   };
 
   const getStatusText = () => {
-    if (disabled || isProcessing) return '처리 중...';
-    if (isRecording) return '🎤 녹음 중... (클릭하여 중지)';
-    if (transcription) return '답변이 인식되었습니다. 제출하세요.';
-    return '🎤 클릭하여 답변 시작';
+    if (disabled || isProcessing) return 'Processing...';
+    if (isRecording) return '🎤 Recording... (Click to stop)';
+    if (transcription) return 'Answer recognized. Please submit.';
+    return '🎤 Click to start answering';
   };
 
   return (
@@ -200,13 +200,13 @@ const AudioRecorder: React.FC<Props> = ({ onAnswerComplete, disabled }) => {
       
       {transcription && (
         <TranscriptionBox>
-          <strong>인식된 답변:</strong>
+          <strong>Recognized Answer:</strong>
           <TranscriptionText>{transcription}</TranscriptionText>
           <SubmitButton 
             onClick={handleSubmitAnswer}
             disabled={!transcription.trim() || isProcessing}
           >
-            답변 제출
+            Submit Answer
           </SubmitButton>
         </TranscriptionBox>
       )}

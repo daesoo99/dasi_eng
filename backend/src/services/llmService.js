@@ -7,24 +7,24 @@ const openai = new OpenAI({
 async function generateQuestion(position, experience, previousQuestions = []) {
   try {
     const previousQuestionsText = previousQuestions.length > 0 
-      ? `이전 질문들: ${previousQuestions.join(', ')}\n` 
+      ? `Previous questions: ${previousQuestions.join(', ')}\n` 
       : '';
 
     const prompt = `
-당신은 전문 면접관입니다. 다음 조건에 맞는 면접 질문을 1개 생성해주세요.
+You are a professional interviewer. Please generate 1 interview question that meets the following conditions.
 
-지원 직무: ${position}
-경력: ${experience}
+Position Applied: ${position}
+Experience Level: ${experience}
 ${previousQuestionsText}
 
-조건:
-1. 해당 직무에 적합한 실무 중심의 질문
-2. 이전 질문과 중복되지 않는 내용
-3. 지원자의 경력 수준에 맞는 난이도
-4. 한국어로 작성
-5. 질문만 답변하고 부연설명은 하지 마세요
+Conditions:
+1. Practical-focused questions suitable for the position
+2. Content that does not duplicate previous questions
+3. Difficulty level appropriate for the candidate's experience level
+4. Written in English
+5. Only provide the question without additional explanation
 
-질문:`;
+Question:`;
 
     const response = await openai.chat.completions.create({
       model: "gpt-3.5-turbo",
@@ -35,30 +35,30 @@ ${previousQuestionsText}
 
     return response.choices[0].message.content.trim();
   } catch (error) {
-    console.error('LLM 질문 생성 오류:', error);
-    return '자기소개를 간단히 해주세요.';
+    console.error('LLM question generation error:', error);
+    return 'Please briefly introduce yourself.';
   }
 }
 
 async function evaluateAnswer(question, answer, position) {
   try {
     const prompt = `
-다음 면접 질문과 답변을 평가해주세요.
+Please evaluate the following interview question and answer.
 
-직무: ${position}
-질문: ${question}
-답변: ${answer}
+Position: ${position}
+Question: ${question}
+Answer: ${answer}
 
-평가 기준:
-1. 답변의 적절성 (0-25점)
-2. 전문성 (0-25점)
-3. 구체성 (0-25점)
-4. 논리성 (0-25점)
+Evaluation Criteria:
+1. Appropriateness of answer (0-25 points)
+2. Professionalism (0-25 points)
+3. Specificity (0-25 points)
+4. Logical reasoning (0-25 points)
 
-다음 형식으로 답변해주세요:
-총점: [점수]/100
-강점: [강점 설명]
-개선점: [개선점 설명]
+Please respond in the following format:
+Total Score: [score]/100
+Strengths: [description of strengths]
+Areas for Improvement: [description of improvements]
 `;
 
     const response = await openai.chat.completions.create({
@@ -70,8 +70,8 @@ async function evaluateAnswer(question, answer, position) {
 
     return response.choices[0].message.content.trim();
   } catch (error) {
-    console.error('LLM 답변 평가 오류:', error);
-    return '총점: 70/100\n강점: 답변을 제공해주셨습니다.\n개선점: 더 구체적인 예시를 들어주시면 좋겠습니다.';
+    console.error('LLM answer evaluation error:', error);
+    return 'Total Score: 70/100\nStrengths: You provided an answer.\nAreas for Improvement: More specific examples would be helpful.';
   }
 }
 

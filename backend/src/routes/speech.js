@@ -12,7 +12,7 @@ const upload = multer({
 router.post('/stt', upload.single('audio'), async (req, res) => {
   try {
     if (!req.file) {
-      return res.status(400).json({ error: '오디오 파일이 필요합니다' });
+      return res.status(400).json({ error: 'Audio file is required' });
     }
 
     const transcription = await speechToText(req.file.buffer);
@@ -22,8 +22,8 @@ router.post('/stt', upload.single('audio'), async (req, res) => {
       status: 'success'
     });
   } catch (error) {
-    console.error('STT 오류:', error);
-    res.status(500).json({ error: '음성을 텍스트로 변환할 수 없습니다' });
+    console.error('STT error:', error);
+    res.status(500).json({ error: 'Cannot convert speech to text' });
   }
 });
 
@@ -32,7 +32,7 @@ router.post('/tts', async (req, res) => {
     const { text, language = 'ko-KR' } = req.body;
     
     if (!text) {
-      return res.status(400).json({ error: '텍스트가 필요합니다' });
+      return res.status(400).json({ error: 'Text is required' });
     }
 
     const audioBuffer = await textToSpeech(text, language);
@@ -44,8 +44,8 @@ router.post('/tts', async (req, res) => {
     
     res.send(audioBuffer);
   } catch (error) {
-    console.error('TTS 오류:', error);
-    res.status(500).json({ error: '텍스트를 음성으로 변환할 수 없습니다' });
+    console.error('TTS error:', error);
+    res.status(500).json({ error: 'Cannot convert text to speech' });
   }
 });
 

@@ -99,7 +99,7 @@ const QuestionDisplay: React.FC<Props> = ({ question, isLoading }) => {
     <QuestionContainer>
       <div style={{ width: '100%' }}>
         <SpeakerIcon>
-          면접관 질문
+          Interviewer Question
           {!isLoading && (
             <button
               onClick={playTextToSpeech}
@@ -110,7 +110,7 @@ const QuestionDisplay: React.FC<Props> = ({ question, isLoading }) => {
                 fontSize: '1.2rem',
                 marginLeft: 'auto'
               }}
-              title="질문 듣기"
+              title="Listen to Question"
             >
               🔊
             </button>
@@ -118,7 +118,7 @@ const QuestionDisplay: React.FC<Props> = ({ question, isLoading }) => {
         </SpeakerIcon>
         {isLoading ? (
           <div style={{ textAlign: 'center', color: '#666' }}>
-            다음 질문을 준비 중입니다
+            Preparing next question
             <LoadingDots />
           </div>
         ) : (

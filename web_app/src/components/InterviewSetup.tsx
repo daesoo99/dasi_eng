@@ -102,52 +102,52 @@ const InterviewSetup: React.FC<Props> = ({ onStartInterview }) => {
 
   return (
     <SetupContainer>
-      <Title>면접 설정</Title>
+      <Title>Interview Setup</Title>
       <form onSubmit={handleSubmit}>
         <FormGroup>
-          <Label htmlFor="position">지원 직무</Label>
+          <Label htmlFor="position">Position Applied</Label>
           <Input
             id="position"
             type="text"
             value={position}
             onChange={(e) => setPosition(e.target.value)}
-            placeholder="예: 프론트엔드 개발자, 백엔드 개발자"
+            placeholder="e.g. Frontend Developer, Backend Developer"
             required
           />
         </FormGroup>
         
         <FormGroup>
-          <Label htmlFor="experience">경력</Label>
+          <Label htmlFor="experience">Experience Level</Label>
           <Select
             id="experience"
             value={experience}
             onChange={(e) => setExperience(e.target.value)}
             required
           >
-            <option value="">경력을 선택해주세요</option>
-            <option value="신입">신입 (0년)</option>
-            <option value="주니어">주니어 (1-3년)</option>
-            <option value="미들">미들 (4-7년)</option>
-            <option value="시니어">시니어 (8년 이상)</option>
+            <option value="">Please select your experience level</option>
+            <option value="Entry-level">Entry-level (0 years)</option>
+            <option value="Junior">Junior (1-3 years)</option>
+            <option value="Mid-level">Mid-level (4-7 years)</option>
+            <option value="Senior">Senior (8+ years)</option>
           </Select>
         </FormGroup>
         
         <FormGroup>
-          <Label htmlFor="duration">면접 시간 (분)</Label>
+          <Label htmlFor="duration">Interview Duration (minutes)</Label>
           <Select
             id="duration"
             value={duration}
             onChange={(e) => setDuration(Number(e.target.value))}
           >
-            <option value={10}>10분</option>
-            <option value={15}>15분</option>
-            <option value={20}>20분</option>
-            <option value={30}>30분</option>
+            <option value={10}>10 minutes</option>
+            <option value={15}>15 minutes</option>
+            <option value={20}>20 minutes</option>
+            <option value={30}>30 minutes</option>
           </Select>
         </FormGroup>
         
         <StartButton type="submit" disabled={!position || !experience}>
-          면접 시작하기
+          Start Interview
         </StartButton>
       </form>
     </SetupContainer>

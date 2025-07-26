@@ -126,7 +126,7 @@ const InterviewRoom: React.FC<Props> = ({ config, onEndInterview }) => {
       setQuestionCount(1);
       setIsLoading(false);
     } catch (error) {
-      console.error('면접 시작 오류:', error);
+      console.error('Interview start error:', error);
       setIsLoading(false);
     }
   };
@@ -143,7 +143,7 @@ const InterviewRoom: React.FC<Props> = ({ config, onEndInterview }) => {
         position: config.position
       });
       
-      console.log('답변 평가:', evaluation);
+      console.log('Answer evaluation:', evaluation);
       
       if (questionCount < 5) {
         const nextQuestion = await interviewAPI.getNextQuestion({
@@ -165,7 +165,7 @@ const InterviewRoom: React.FC<Props> = ({ config, onEndInterview }) => {
       
       setIsLoading(false);
     } catch (error) {
-      console.error('답변 처리 오류:', error);
+      console.error('Answer processing error:', error);
       setIsLoading(false);
     }
   };
@@ -187,7 +187,7 @@ const InterviewRoom: React.FC<Props> = ({ config, onEndInterview }) => {
     return (
       <RoomContainer>
         <LoadingSpinner>
-          면접을 준비 중입니다...
+          Preparing interview...
         </LoadingSpinner>
       </RoomContainer>
     );
@@ -196,7 +196,7 @@ const InterviewRoom: React.FC<Props> = ({ config, onEndInterview }) => {
   return (
     <RoomContainer>
       <Header>
-        <QuestionCounter>질문 {questionCount}/5</QuestionCounter>
+        <QuestionCounter>Question {questionCount}/5</QuestionCounter>
         <Timer>{formatTime(timeLeft)}</Timer>
       </Header>
       
@@ -214,7 +214,7 @@ const InterviewRoom: React.FC<Props> = ({ config, onEndInterview }) => {
       
       <ControlButtons>
         <ControlButton variant="danger" onClick={handleEndInterview}>
-          면접 종료
+          End Interview
         </ControlButton>
       </ControlButtons>
     </RoomContainer>

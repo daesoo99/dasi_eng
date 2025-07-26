@@ -29,11 +29,11 @@ app.use('/api/interview', interviewRoutes);
 app.use('/api/speech', speechRoutes);
 
 io.on('connection', (socket) => {
-  console.log('클라이언트 연결됨:', socket.id);
+  console.log('Client connected:', socket.id);
 
   socket.on('join-interview', (interviewId) => {
     socket.join(interviewId);
-    console.log(`소켓 ${socket.id}이 면접방 ${interviewId}에 참가`);
+    console.log(`Socket ${socket.id} joined interview room ${interviewId}`);
   });
 
   socket.on('audio-data', (data) => {
@@ -45,10 +45,10 @@ io.on('connection', (socket) => {
   });
 
   socket.on('disconnect', () => {
-    console.log('클라이언트 연결 해제됨:', socket.id);
+    console.log('Client disconnected:', socket.id);
   });
 });
 
 server.listen(PORT, () => {
-  console.log(`서버가 포트 ${PORT}에서 실행 중입니다`);
+  console.log(`Server is running on port ${PORT}`);
 });

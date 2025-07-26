@@ -27,19 +27,19 @@ async function speechToText(audioBuffer) {
 
     return transcription || '';
   } catch (error) {
-    console.error('Google STT 오류:', error);
+    console.error('Google STT error:', error);
     
     try {
       return await fallbackWebSpeechAPI(audioBuffer);
     } catch (fallbackError) {
-      console.error('Fallback STT 오류:', fallbackError);
-      throw new Error('음성 인식을 할 수 없습니다');
+      console.error('Fallback STT error:', fallbackError);
+      throw new Error('Speech recognition is not available');
     }
   }
 }
 
 async function fallbackWebSpeechAPI(audioBuffer) {
-  return "음성 인식 결과 (임시)";
+  return "Speech recognition result (temporary)";
 }
 
 module.exports = {

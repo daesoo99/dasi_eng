@@ -46,7 +46,7 @@ function App() {
   return (
     <AppContainer>
       <Header>
-        <h1>🎤 AI 면접 시뮬레이터</h1>
+        <h1>🎤 AI Interview Simulator</h1>
       </Header>
       
       {!interviewStarted ? (

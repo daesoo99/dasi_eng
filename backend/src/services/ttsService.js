@@ -25,19 +25,19 @@ async function textToSpeech(text, languageCode = 'ko-KR') {
     const [response] = await client.synthesizeSpeech(request);
     return response.audioContent;
   } catch (error) {
-    console.error('Google TTS 오류:', error);
+    console.error('Google TTS error:', error);
     
     try {
       return await fallbackTTS(text);
     } catch (fallbackError) {
-      console.error('Fallback TTS 오류:', fallbackError);
-      throw new Error('음성 합성을 할 수 없습니다');
+      console.error('Fallback TTS error:', fallbackError);
+      throw new Error('Text-to-speech synthesis is not available');
     }
   }
 }
 
 async function fallbackTTS(text) {
-  const buffer = Buffer.from('임시 오디오 데이터');
+  const buffer = Buffer.from('temporary audio data');
   return buffer;
 }
 

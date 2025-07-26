@@ -1,12 +1,12 @@
-# API 문서
+# API Documentation
 
-## 기본 정보
+## Basic Information
 - Base URL: `http://localhost:3000/api`
 - Content-Type: `application/json`
 
-## 면접 API
+## Interview API
 
-### 1. 면접 시작
+### 1. Start Interview
 ```
 POST /interview/start
 ```
@@ -14,8 +14,8 @@ POST /interview/start
 **Request Body:**
 ```json
 {
-  "position": "프론트엔드 개발자",
-  "experience": "주니어"
+  "position": "Frontend Developer",
+  "experience": "Junior"
 }
 ```
 
@@ -23,12 +23,12 @@ POST /interview/start
 ```json
 {
   "interviewId": "interview_1234567890",
-  "question": "자기소개를 간단히 해주세요.",
+  "question": "Please briefly introduce yourself.",
   "status": "started"
 }
 ```
 
-### 2. 다음 질문 요청
+### 2. Request Next Question
 ```
 POST /interview/question
 ```
@@ -37,21 +37,21 @@ POST /interview/question
 ```json
 {
   "interviewId": "interview_1234567890",
-  "position": "프론트엔드 개발자",
-  "experience": "주니어",
-  "previousQuestions": ["자기소개를 간단히 해주세요."]
+  "position": "Frontend Developer",
+  "experience": "Junior",
+  "previousQuestions": ["Please briefly introduce yourself."]
 }
 ```
 
 **Response:**
 ```json
 {
-  "question": "React와 Vue.js의 차이점에 대해 설명해주세요.",
+  "question": "Please explain the differences between React and Vue.js.",
   "status": "continue"
 }
 ```
 
-### 3. 답변 평가
+### 3. Evaluate Answer
 ```
 POST /interview/evaluate
 ```
@@ -59,21 +59,21 @@ POST /interview/evaluate
 **Request Body:**
 ```json
 {
-  "question": "자기소개를 간단히 해주세요.",
-  "answer": "안녕하세요. 저는 3년차 프론트엔드 개발자입니다...",
-  "position": "프론트엔드 개발자"
+  "question": "Please briefly introduce yourself.",
+  "answer": "Hello. I am a 3-year frontend developer...",
+  "position": "Frontend Developer"
 }
 ```
 
 **Response:**
 ```json
 {
-  "evaluation": "총점: 85/100\n강점: 명확한 자기소개\n개선점: 더 구체적인 프로젝트 예시",
+  "evaluation": "Total Score: 85/100\nStrengths: Clear self-introduction\nAreas for Improvement: More specific project examples",
   "status": "evaluated"
 }
 ```
 
-### 4. 면접 종료
+### 4. End Interview
 ```
 POST /interview/end
 ```
@@ -83,30 +83,30 @@ POST /interview/end
 {
   "interviewId": "interview_1234567890",
   "totalScore": 85,
-  "feedback": "전반적으로 좋은 답변이었습니다."
+  "feedback": "Overall, it was a good answer."
 }
 ```
 
-## 음성 API
+## Speech API
 
-### 1. 음성을 텍스트로 변환 (STT)
+### 1. Speech to Text (STT)
 ```
 POST /speech/stt
 ```
 
 **Request:**
 - Content-Type: `multipart/form-data`
-- Body: audio file (10MB 이하)
+- Body: audio file (max 10MB)
 
 **Response:**
 ```json
 {
-  "text": "인식된 텍스트 내용",
+  "text": "Recognized text content",
   "status": "success"
 }
 ```
 
-### 2. 텍스트를 음성으로 변환 (TTS)
+### 2. Text to Speech (TTS)
 ```
 POST /speech/tts
 ```
@@ -114,7 +114,7 @@ POST /speech/tts
 **Request Body:**
 ```json
 {
-  "text": "안녕하세요. 첫 번째 질문입니다.",
+  "text": "Hello. This is the first question.",
   "language": "ko-KR"
 }
 ```
@@ -123,21 +123,21 @@ POST /speech/tts
 - Content-Type: `audio/mp3`
 - Body: audio binary data
 
-## WebSocket 이벤트
+## WebSocket Events
 
-### 클라이언트 → 서버
-- `join-interview`: 면접방 참가
-- `audio-data`: 실시간 오디오 데이터 전송
-- `interview-message`: 면접 메시지 전송
+### Client → Server
+- `join-interview`: Join interview room
+- `audio-data`: Send real-time audio data
+- `interview-message`: Send interview message
 
-### 서버 → 클라이언트  
-- `audio-data`: 실시간 오디오 데이터 수신
-- `interview-message`: 면접 메시지 수신
+### Server → Client
+- `audio-data`: Receive real-time audio data
+- `interview-message`: Receive interview message
 
-## 오류 코드
+## Error Codes
 
-| 코드 | 설명 |
+| Code | Description |
 |------|------|
-| 400 | 잘못된 요청 |
-| 401 | 인증 실패 |
-| 500 | 서버 내부 오류 |
+| 400 | Bad Request |
+| 401 | Authentication Failed |
+| 500 | Internal Server Error |

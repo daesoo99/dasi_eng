@@ -1,20 +1,20 @@
-# 설치 및 실행 가이드
+# Installation and Setup Guide
 
-## 사전 요구사항
+## Prerequisites
 
-- Node.js 18.0 이상
-- npm 또는 yarn
-- Flutter SDK (모바일 앱 개발 시)
+- Node.js 18.0 or higher
+- npm or yarn
+- Flutter SDK (for mobile app development)
 - Git
 
-## 환경 변수 설정
+## Environment Variables Setup
 
-### 백엔드 (.env)
+### Backend (.env)
 ```bash
 cp backend/.env.example backend/.env
 ```
 
-다음 값들을 설정하세요:
+Configure the following values:
 ```env
 PORT=3000
 OPENAI_API_KEY=your_openai_api_key_here
@@ -23,14 +23,14 @@ GOOGLE_CLOUD_KEY_FILE=path/to/your/google-cloud-key.json
 MONGODB_URI=mongodb://localhost:27017/ai-interview-simulator
 ```
 
-### 웹앱 (.env)
+### Web App (.env)
 ```bash
 # web_app/.env
 REACT_APP_API_URL=http://localhost:3000/api
 REACT_APP_SOCKET_URL=http://localhost:3000
 ```
 
-## 백엔드 실행
+## Backend Setup
 
 ```bash
 cd backend
@@ -38,9 +38,9 @@ npm install
 npm run dev
 ```
 
-서버가 http://localhost:3000 에서 실행됩니다.
+Server will run on http://localhost:3000
 
-## 웹앱 실행
+## Web App Setup
 
 ```bash
 cd web_app
@@ -48,9 +48,9 @@ npm install
 npm start
 ```
 
-웹앱이 http://localhost:3001 에서 실행됩니다.
+Web app will run on http://localhost:3001
 
-## Flutter 앱 실행
+## Flutter App Setup
 
 ```bash
 cd flutter_app
@@ -58,72 +58,72 @@ flutter pub get
 flutter run
 ```
 
-## API 키 설정 가이드
+## API Key Setup Guide
 
 ### OpenAI API Key
-1. https://platform.openai.com/ 접속
-2. API Keys 섹션에서 새 키 생성
-3. `.env` 파일의 `OPENAI_API_KEY`에 설정
+1. Visit https://platform.openai.com/
+2. Create a new key in the API Keys section
+3. Set it in the `.env` file as `OPENAI_API_KEY`
 
 ### Google Cloud Speech API
-1. Google Cloud Console에서 프로젝트 생성
-2. Speech-to-Text API 및 Text-to-Speech API 활성화
-3. 서비스 계정 키 다운로드
-4. 키 파일 경로를 `.env`에 설정
+1. Create a project in Google Cloud Console
+2. Enable Speech-to-Text API and Text-to-Speech API
+3. Download service account key
+4. Set the key file path in `.env`
 
-## 개발 모드
+## Development Mode
 
-### 백엔드 개발 모드
+### Backend Development Mode
 ```bash
-npm run dev  # nodemon으로 자동 재시작
+npm run dev  # Auto-restart with nodemon
 ```
 
-### 웹앱 개발 모드
+### Web App Development Mode
 ```bash
-npm start  # Hot reload 지원
+npm start  # Hot reload support
 ```
 
-## 테스트
+## Testing
 
-### 백엔드 테스트
+### Backend Testing
 ```bash
 cd backend
 npm test
 ```
 
-### 웹앱 테스트
+### Web App Testing
 ```bash
 cd web_app
 npm test
 ```
 
-## 빌드 및 배포
+## Build and Deployment
 
-### 웹앱 빌드
+### Web App Build
 ```bash
 cd web_app
 npm run build
 ```
 
-### Flutter 앱 빌드
+### Flutter App Build
 ```bash
 cd flutter_app
 flutter build apk  # Android
 flutter build ios  # iOS
 ```
 
-## 문제 해결
+## Troubleshooting
 
-### 마이크 권한 오류
-- HTTPS 환경에서 실행하거나 localhost에서 테스트
-- 브라우저 설정에서 마이크 권한 확인
+### Microphone Permission Error
+- Run in HTTPS environment or test on localhost
+- Check microphone permissions in browser settings
 
-### API 연결 오류
-- 백엔드 서버가 실행 중인지 확인
-- CORS 설정 확인
-- 네트워크 방화벽 설정 확인
+### API Connection Error
+- Verify backend server is running
+- Check CORS configuration
+- Check network firewall settings
 
-### 음성 인식 오류
-- Google Cloud API 키 확인
-- 인터넷 연결 상태 확인
-- Web Speech API 지원 브라우저 사용
+### Speech Recognition Error
+- Verify Google Cloud API key
+- Check internet connection
+- Use a Web Speech API supported browser

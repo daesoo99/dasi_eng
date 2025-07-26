@@ -14,7 +14,10 @@
       "Bash(ls:*)",
       "Bash(pkill:*)",
       "Bash(true)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(git pull:*)",
+      "Bash(cp:*)",
+      "Bash(rm:*)"
     ],
     "deny": []
   }

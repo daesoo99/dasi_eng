@@ -15,8 +15,8 @@ router.post('/start', async (req, res) => {
       status: 'started'
     });
   } catch (error) {
-    console.error('면접 시작 오류:', error);
-    res.status(500).json({ error: '면접을 시작할 수 없습니다' });
+    console.error('Interview start error:', error);
+    res.status(500).json({ error: 'Cannot start interview' });
   }
 });
 
@@ -31,8 +31,8 @@ router.post('/question', async (req, res) => {
       status: 'continue'
     });
   } catch (error) {
-    console.error('질문 생성 오류:', error);
-    res.status(500).json({ error: '질문을 생성할 수 없습니다' });
+    console.error('Question generation error:', error);
+    res.status(500).json({ error: 'Cannot generate question' });
   }
 });
 
@@ -47,8 +47,8 @@ router.post('/evaluate', async (req, res) => {
       status: 'evaluated'
     });
   } catch (error) {
-    console.error('답변 평가 오류:', error);
-    res.status(500).json({ error: '답변을 평가할 수 없습니다' });
+    console.error('Answer evaluation error:', error);
+    res.status(500).json({ error: 'Cannot evaluate answer' });
   }
 });
 
@@ -57,14 +57,14 @@ router.post('/end', async (req, res) => {
     const { interviewId, totalScore, feedback } = req.body;
     
     res.json({
-      message: '면접이 완료되었습니다',
+      message: 'Interview completed',
       totalScore,
       feedback,
       status: 'completed'
     });
   } catch (error) {
-    console.error('면접 종료 오류:', error);
-    res.status(500).json({ error: '면접을 종료할 수 없습니다' });
+    console.error('Interview end error:', error);
+    res.status(500).json({ error: 'Cannot end interview' });
   }
 });
 
