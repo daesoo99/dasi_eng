@@ -1,87 +1,52 @@
-// Using ElevenLabs REST API directly (more reliable than SDK)
-const https = require('https');
+// Simple TTS implementation - client-side Web Speech API will be used
+// This service returns metadata for the frontend to handle TTS
 
 async function textToSpeech(text, languageCode = 'ko-KR') {
   try {
-    // Try ElevenLabs API
-    return await textToSpeechWithElevenLabs(text, languageCode);
-  } catch (error) {
-    console.error('ElevenLabs TTS error:', error);
+    // For MVP: Return TTS instruction for client-side processing
+    const ttsData = {
+      text: text,
+      language: languageCode,
+      voice: languageCode === 'ko-KR' ? 'ko-KR' : 'en-US',
+      rate: 1.0,
+      pitch: 1.0,
+      volume: 1.0,
+      useClientSideTTS: true
+    };
     
-    try {
-      return await fallbackTTS(text);
-    } catch (fallbackError) {
-      console.error('Fallback TTS error:', fallbackError);
-      throw new Error('Text-to-speech synthesis is not available');
-    }
+    console.log(`TTS request: "${text}" in ${languageCode}`);
+    
+    // Return JSON instruction instead of audio buffer
+    return JSON.stringify(ttsData);
+  } catch (error) {
+    console.error('TTS service error:', error);
+    
+    // Return fallback instruction
+    return JSON.stringify({
+      text: text,
+      language: languageCode,
+      useClientSideTTS: true,
+      fallback: true
+    });
   }
 }
 
+// Future: Add server-side TTS services here
 async function textToSpeechWithElevenLabs(text, languageCode = 'ko-KR') {
+  // ElevenLabs implementation (when API key is available)
   const apiKey = process.env.ELEVENLABS_API_KEY;
   
   if (!apiKey || apiKey === 'placeholder_elevenlabs_key') {
     throw new Error('ElevenLabs API key not configured');
   }
-
-  // ElevenLabs voice IDs for different languages
-  const voiceId = languageCode === 'ko-KR' 
-    ? process.env.ELEVENLABS_VOICE_ID_KO || 'pNInz6obpgDQGcFmaJgB' // Adam voice (multilingual)
-    : process.env.ELEVENLABS_VOICE_ID_EN || 'EXAVITQu4vr4xnSDxMaL'; // Sarah voice
-
-  const requestData = JSON.stringify({
-    text: text,
-    model_id: 'eleven_multilingual_v2',
-    voice_settings: {
-      stability: 0.5,
-      similarity_boost: 0.5,
-      style: 0.0,
-      use_speaker_boost: true
-    }
-  });
-
-  const options = {
-    hostname: 'api.elevenlabs.io',
-    port: 443,
-    path: `/v1/text-to-speech/${voiceId}`,
-    method: 'POST',
-    headers: {
-      'Accept': 'audio/mpeg',
-      'Content-Type': 'application/json',
-      'xi-api-key': apiKey,
-      'Content-Length': Buffer.byteLength(requestData)
-    }
-  };
-
-  return new Promise((resolve, reject) => {
-    const req = https.request(options, (res) => {
-      const chunks = [];
-      
-      res.on('data', (chunk) => {
-        chunks.push(chunk);
-      });
-      
-      res.on('end', () => {
-        if (res.statusCode === 200) {
-          resolve(Buffer.concat(chunks));
-        } else {
-          reject(new Error(`ElevenLabs API error: ${res.statusCode}`));
-        }
-      });
-    });
-
-    req.on('error', (error) => {
-      reject(error);
-    });
-
-    req.write(requestData);
-    req.end();
-  });
+  
+  // Implementation here when needed
+  throw new Error('ElevenLabs not configured for this MVP version');
 }
 
-async function fallbackTTS(text) {
-  const buffer = Buffer.from('temporary audio data (fallback)');
-  return buffer;
+async function textToSpeechWithGoogle(text, languageCode = 'ko-KR') {
+  // Google TTS implementation (future enhancement)
+  throw new Error('Google TTS not configured for this MVP version');
 }
 
 module.exports = {
