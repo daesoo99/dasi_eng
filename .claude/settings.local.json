@@ -24,7 +24,9 @@
       "Bash(C:flutterbinflutter doctor)",
       "Bash(git rm:*)",
       "Bash(cmd /c:*)",
-      "Bash(echo $PATH)"
+      "Bash(echo $PATH)",
+      "Bash(nvm:*)",
+      "Bash(timeout 10 npm start)"
     ],
     "deny": []
   }

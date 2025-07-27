@@ -1,31 +1,37 @@
-const textToSpeech = require('@google-cloud/text-to-speech');
+const { ElevenLabsAPI } = require('elevenlabs');
 
-const client = new textToSpeech.TextToSpeechClient({
-  keyFilename: process.env.GOOGLE_CLOUD_KEY_FILE,
-  projectId: process.env.GOOGLE_CLOUD_PROJECT_ID
+const elevenlabs = new ElevenLabsAPI({
+  apiKey: process.env.ELEVENLABS_API_KEY
 });
 
 async function textToSpeech(text, languageCode = 'ko-KR') {
   try {
-    const request = {
-      input: { text: text },
-      voice: {
-        languageCode: languageCode,
-        name: languageCode === 'ko-KR' ? 'ko-KR-Wavenet-A' : 'en-US-Wavenet-D',
-        ssmlGender: 'NEUTRAL'
-      },
-      audioConfig: {
-        audioEncoding: 'MP3',
-        speakingRate: 1.0,
-        pitch: 0.0,
-        volumeGainDb: 0.0
-      }
-    };
+    // ElevenLabs voice IDs for different languages
+    const voiceId = languageCode === 'ko-KR' 
+      ? process.env.ELEVENLABS_VOICE_ID_KO || 'pNInz6obpgDQGcFmaJgB' // Adam voice (multilingual)
+      : process.env.ELEVENLABS_VOICE_ID_EN || 'EXAVITQu4vr4xnSDxMaL'; // Sarah voice
 
-    const [response] = await client.synthesizeSpeech(request);
-    return response.audioContent;
+    const audioStream = await elevenlabs.generate({
+      voice: voiceId,
+      text: text,
+      model_id: 'eleven_multilingual_v2',
+      voice_settings: {
+        stability: 0.5,
+        similarity_boost: 0.5,
+        style: 0.0,
+        use_speaker_boost: true
+      }
+    });
+
+    // Convert stream to buffer
+    const chunks = [];
+    for await (const chunk of audioStream) {
+      chunks.push(chunk);
+    }
+    
+    return Buffer.concat(chunks);
   } catch (error) {
-    console.error('Google TTS error:', error);
+    console.error('ElevenLabs TTS error:', error);
     
     try {
       return await fallbackTTS(text);
@@ -37,7 +43,7 @@ async function textToSpeech(text, languageCode = 'ko-KR') {
 }
 
 async function fallbackTTS(text) {
-  const buffer = Buffer.from('temporary audio data');
+  const buffer = Buffer.from('temporary audio data (fallback)');
   return buffer;
 }
 

@@ -1,33 +1,29 @@
-const speech = require('@google-cloud/speech');
+const { createClient } = require('@deepgram/sdk');
 
-const client = new speech.SpeechClient({
-  keyFilename: process.env.GOOGLE_CLOUD_KEY_FILE,
-  projectId: process.env.GOOGLE_CLOUD_PROJECT_ID
-});
+const deepgram = createClient(process.env.DEEPGRAM_API_KEY);
 
 async function speechToText(audioBuffer) {
   try {
-    const request = {
-      audio: {
-        content: audioBuffer.toString('base64')
-      },
-      config: {
-        encoding: 'WEBM_OPUS',
-        sampleRateHertz: 16000,
-        languageCode: 'ko-KR',
-        enableAutomaticPunctuation: true,
-        model: 'latest_long'
+    const { result, error } = await deepgram.listen.prerecorded.transcribeFile(
+      audioBuffer,
+      {
+        model: 'nova-2',
+        language: 'ko',
+        smart_format: true,
+        punctuate: true,
+        filler_words: false,
+        utterances: true
       }
-    };
+    );
 
-    const [response] = await client.recognize(request);
-    const transcription = response.results
-      .map(result => result.alternatives[0].transcript)
-      .join('\n');
+    if (error) {
+      throw error;
+    }
 
+    const transcription = result.results.channels[0].alternatives[0].transcript;
     return transcription || '';
   } catch (error) {
-    console.error('Google STT error:', error);
+    console.error('Deepgram STT error:', error);
     
     try {
       return await fallbackWebSpeechAPI(audioBuffer);
@@ -39,7 +35,7 @@ async function speechToText(audioBuffer) {
 }
 
 async function fallbackWebSpeechAPI(audioBuffer) {
-  return "Speech recognition result (temporary)";
+  return "Speech recognition result (temporary fallback)";
 }
 
 module.exports = {
