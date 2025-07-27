@@ -26,7 +26,10 @@
       "Bash(cmd /c:*)",
       "Bash(echo $PATH)",
       "Bash(nvm:*)",
-      "Bash(timeout 10 npm start)"
+      "Bash(timeout 10 npm start)",
+      "Bash(timeout 5 npm start:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(timeout 3 npm start)"
     ],
     "deny": []
   }
