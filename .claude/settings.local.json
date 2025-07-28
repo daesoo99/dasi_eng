@@ -29,7 +29,25 @@
       "Bash(timeout 10 npm start)",
       "Bash(timeout 5 npm start:*)",
       "Bash(npm uninstall:*)",
-      "Bash(timeout 3 npm start)"
+      "Bash(timeout 3 npm start)",
+      "Bash(npm start)",
+      "Bash(set PORT=3001)",
+      "Bash(./gradlew signingReport)",
+      "Bash(dir flutter_app)",
+      "Bash(.gradlew.bat signingReport)",
+      "Bash(keytool:*)",
+      "Bash(C:flutterbinflutter create flutter_app)",
+      "Bash(tmux new-session:*)",
+      "Bash(where:*)",
+      "Bash(uv tool install:*)",
+      "Bash(claude-monitor)",
+      "Bash(copy:*)",
+      "Bash(node:*)",
+      "Bash(set PORT=3002)",
+      "Bash(set PORT=3003)",
+      "Bash(npm:*)",
+      "Bash(taskkill:*)",
+      "Bash(touch:*)"
     ],
     "deny": []
   }

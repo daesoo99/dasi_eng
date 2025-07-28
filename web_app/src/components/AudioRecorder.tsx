@@ -1,99 +1,4 @@
 import React, { useState, useRef, useCallback } from 'react';
-import styled, { keyframes } from 'styled-components';
-
-const pulse = keyframes`
-  0% { transform: scale(1); }
-  50% { transform: scale(1.05); }
-  100% { transform: scale(1); }
-`;
-
-const RecorderContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  margin: 30px 0;
-`;
-
-const RecordButton = styled.button<{ isRecording: boolean }>`
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2rem;
-  transition: all 0.3s;
-  
-  ${props => props.isRecording ? `
-    background: #ff4757;
-    color: white;
-    animation: ${pulse} 1s infinite;
-    
-    &:hover {
-      background: #ff3742;
-    }
-  ` : `
-    background: #667eea;
-    color: white;
-    
-    &:hover {
-      background: #5a6fd8;
-    }
-  `}
-  
-  &:disabled {
-    opacity: 0.6;
-    cursor: not-allowed;
-    animation: none;
-  }
-`;
-
-const StatusText = styled.div`
-  font-size: 1.1rem;
-  color: #666;
-  text-align: center;
-`;
-
-const TranscriptionBox = styled.div`
-  background: #f8f9fc;
-  padding: 20px;
-  border-radius: 8px;
-  border: 2px solid #e0e0e0;
-  min-height: 100px;
-  width: 100%;
-  margin-top: 20px;
-`;
-
-const TranscriptionText = styled.p`
-  margin: 0;
-  color: #333;
-  line-height: 1.5;
-  font-size: 1rem;
-`;
-
-const SubmitButton = styled.button`
-  background: #2ed573;
-  color: white;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 8px;
-  font-size: 16px;
-  font-weight: 600;
-  cursor: pointer;
-  margin-top: 15px;
-  
-  &:hover {
-    background: #26d468;
-  }
-  
-  &:disabled {
-    opacity: 0.6;
-    cursor: not-allowed;
-  }
-`;
 
 interface Props {
   onAnswerComplete: (transcription: string) => void;
@@ -105,13 +10,13 @@ const AudioRecorder: React.FC<Props> = ({ onAnswerComplete, disabled }) => {
   const [transcription, setTranscription] = useState('');
   const [isProcessing, setIsProcessing] = useState(false);
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
-  const audioChunksRef = useRef<Blob[]>([]);
   const recognitionRef = useRef<any>(null);
 
   const startRecording = useCallback(async () => {
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
       
+      // Web Speech API 사용
       if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
         const SpeechRecognition = (window as any).webkitSpeechRecognition || (window as any).SpeechRecognition;
         recognitionRef.current = new SpeechRecognition();
@@ -140,20 +45,13 @@ const AudioRecorder: React.FC<Props> = ({ onAnswerComplete, disabled }) => {
       
       const mediaRecorder = new MediaRecorder(stream);
       mediaRecorderRef.current = mediaRecorder;
-      audioChunksRef.current = [];
-      
-      mediaRecorder.ondataavailable = (event) => {
-        if (event.data.size > 0) {
-          audioChunksRef.current.push(event.data);
-        }
-      };
       
       mediaRecorder.start();
       setIsRecording(true);
       setTranscription('');
     } catch (error) {
       console.error('Recording start error:', error);
-      alert('Microphone access permission is required.');
+      alert('마이크 접근 권한이 필요합니다.');
     }
   }, []);
 
@@ -180,37 +78,111 @@ const AudioRecorder: React.FC<Props> = ({ onAnswerComplete, disabled }) => {
   };
 
   const getStatusText = () => {
-    if (disabled || isProcessing) return 'Processing...';
-    if (isRecording) return '🎤 Recording... (Click to stop)';
-    if (transcription) return 'Answer recognized. Please submit.';
-    return '🎤 Click to start answering';
+    if (disabled || isProcessing) return '처리 중...';
+    if (isRecording) return '🎤 녹음 중... (클릭하여 중지)';
+    if (transcription) return '답변이 인식되었습니다. 제출해주세요.';
+    return '🎤 클릭하여 답변 시작';
   };
 
   return (
-    <RecorderContainer>
-      <RecordButton
-        isRecording={isRecording}
+    <div style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      gap: '20px',
+      margin: '30px 0'
+    }}>
+      <button
         onClick={isRecording ? stopRecording : startRecording}
         disabled={disabled || isProcessing}
+        style={{
+          width: '80px',
+          height: '80px',
+          borderRadius: '50%',
+          border: 'none',
+          cursor: disabled || isProcessing ? 'not-allowed' : 'pointer',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          fontSize: '2rem',
+          transition: 'all 0.3s',
+          background: isRecording ? '#ff4757' : '#667eea',
+          color: 'white',
+          opacity: disabled || isProcessing ? 0.6 : 1,
+          transform: isRecording ? 'scale(1.05)' : 'scale(1)'
+        }}
+        onMouseEnter={(e) => {
+          if (!disabled && !isProcessing) {
+            e.currentTarget.style.background = isRecording ? '#ff3742' : '#5a6fd8';
+          }
+        }}
+        onMouseLeave={(e) => {
+          if (!disabled && !isProcessing) {
+            e.currentTarget.style.background = isRecording ? '#ff4757' : '#667eea';
+          }
+        }}
       >
         {isRecording ? '⏹️' : '🎤'}
-      </RecordButton>
+      </button>
       
-      <StatusText>{getStatusText()}</StatusText>
+      <div style={{
+        fontSize: '1.1rem',
+        color: '#666',
+        textAlign: 'center'
+      }}>
+        {getStatusText()}
+      </div>
       
       {transcription && (
-        <TranscriptionBox>
-          <strong>Recognized Answer:</strong>
-          <TranscriptionText>{transcription}</TranscriptionText>
-          <SubmitButton 
+        <div style={{
+          background: '#f8f9fc',
+          padding: '20px',
+          borderRadius: '8px',
+          border: '2px solid #e0e0e0',
+          minHeight: '100px',
+          width: '100%',
+          marginTop: '20px'
+        }}>
+          <strong>인식된 답변:</strong>
+          <p style={{
+            margin: '10px 0 0 0',
+            color: '#333',
+            lineHeight: '1.5',
+            fontSize: '1rem'
+          }}>
+            {transcription}
+          </p>
+          <button 
             onClick={handleSubmitAnswer}
             disabled={!transcription.trim() || isProcessing}
+            style={{
+              background: '#2ed573',
+              color: 'white',
+              border: 'none',
+              padding: '12px 24px',
+              borderRadius: '8px',
+              fontSize: '16px',
+              fontWeight: '600',
+              cursor: !transcription.trim() || isProcessing ? 'not-allowed' : 'pointer',
+              marginTop: '15px',
+              opacity: !transcription.trim() || isProcessing ? 0.6 : 1
+            }}
+            onMouseEnter={(e) => {
+              if (transcription.trim() && !isProcessing) {
+                e.currentTarget.style.background = '#26d468';
+              }
+            }}
+            onMouseLeave={(e) => {
+              if (transcription.trim() && !isProcessing) {
+                e.currentTarget.style.background = '#2ed573';
+              }
+            }}
           >
-            Submit Answer
-          </SubmitButton>
-        </TranscriptionBox>
+            답변 제출
+          </button>
+        </div>
       )}
-    </RecorderContainer>
+    </div>
   );
 };
 

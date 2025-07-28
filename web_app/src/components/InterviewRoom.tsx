@@ -1,132 +1,47 @@
 import React, { useState, useEffect, useRef } from 'react';
-import styled from 'styled-components';
-import { InterviewConfig, InterviewQuestion } from '../types/interview';
-import AudioRecorder from './AudioRecorder';
-import QuestionDisplay from './QuestionDisplay';
-import { interviewAPI } from '../services/api';
+import AudioRecorder from './AudioRecorder.tsx';
+import QuestionDisplay from './QuestionDisplay.tsx';
 
-const RoomContainer = styled.div`
-  background: white;
-  padding: 30px;
-  border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-  max-width: 800px;
-  width: 90%;
-  min-height: 500px;
-`;
-
-const Header = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 30px;
-  padding-bottom: 20px;
-  border-bottom: 2px solid #f0f0f0;
-`;
-
-const Timer = styled.div`
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #667eea;
-`;
-
-const QuestionCounter = styled.div`
-  font-size: 1.2rem;
-  color: #666;
-`;
-
-const ControlButtons = styled.div`
-  display: flex;
-  gap: 15px;
-  justify-content: center;
-  margin-top: 30px;
-`;
-
-const ControlButton = styled.button<{ variant?: 'danger' }>`
-  padding: 12px 24px;
-  border: none;
-  border-radius: 8px;
-  font-size: 16px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s;
-  
-  ${props => props.variant === 'danger' ? `
-    background: #ff4757;
-    color: white;
-    
-    &:hover {
-      background: #ff3742;
-    }
-  ` : `
-    background: #667eea;
-    color: white;
-    
-    &:hover {
-      background: #5a6fd8;
-    }
-  `}
-`;
-
-const LoadingSpinner = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  font-size: 1.2rem;
-  color: #666;
-`;
+interface InterviewConfig {
+  position: string;
+  experience: string;
+}
 
 interface Props {
   config: InterviewConfig;
-  onEndInterview: () => void;
+  onEnd: () => void;
 }
 
-const InterviewRoom: React.FC<Props> = ({ config, onEndInterview }) => {
-  const [currentQuestion, setCurrentQuestion] = useState<InterviewQuestion | null>(null);
+const InterviewRoom: React.FC<Props> = ({ config, onEnd }) => {
+  const [currentQuestion, setCurrentQuestion] = useState<string>('');
   const [questionCount, setQuestionCount] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(config.duration * 60);
   const [isLoading, setIsLoading] = useState(true);
   const [interviewId, setInterviewId] = useState<string>('');
-  const timerRef = useRef<NodeJS.Timeout>();
 
   useEffect(() => {
     startInterview();
-    
-    timerRef.current = setInterval(() => {
-      setTimeLeft(prev => {
-        if (prev <= 1) {
-          handleEndInterview();
-          return 0;
-        }
-        return prev - 1;
-      });
-    }, 1000);
-
-    return () => {
-      if (timerRef.current) {
-        clearInterval(timerRef.current);
-      }
-    };
   }, []);
 
   const startInterview = async () => {
     try {
-      const response = await interviewAPI.start({
-        position: config.position,
-        experience: config.experience
+      const response = await fetch('/api/interview/start', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          position: config.position,
+          experience: config.experience
+        })
       });
       
-      setInterviewId(response.interviewId);
-      setCurrentQuestion({
-        id: Date.now().toString(),
-        text: response.question,
-        timestamp: Date.now()
-      });
+      const data = await response.json();
+      setInterviewId(data.interviewId);
+      setCurrentQuestion(data.question);
       setQuestionCount(1);
       setIsLoading(false);
     } catch (error) {
       console.error('Interview start error:', error);
+      setCurrentQuestion('자기소개를 해주세요.');
+      setQuestionCount(1);
       setIsLoading(false);
     }
   };
@@ -137,30 +52,40 @@ const InterviewRoom: React.FC<Props> = ({ config, onEndInterview }) => {
     try {
       setIsLoading(true);
       
-      const evaluation = await interviewAPI.evaluate({
-        question: currentQuestion.text,
-        answer: transcription,
-        position: config.position
+      // 답변 평가
+      const evaluationResponse = await fetch('/api/interview/evaluate', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          question: currentQuestion,
+          answer: transcription,
+          position: config.position
+        })
       });
       
-      console.log('Answer evaluation:', evaluation);
+      const evaluation = await evaluationResponse.json();
+      console.log('평가 결과:', evaluation);
       
+      // 다음 질문 생성 (최대 5개)
       if (questionCount < 5) {
-        const nextQuestion = await interviewAPI.getNextQuestion({
-          interviewId,
-          position: config.position,
-          experience: config.experience,
-          previousQuestions: [currentQuestion.text]
+        const nextQuestionResponse = await fetch('/api/interview/question', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            interviewId,
+            position: config.position,
+            experience: config.experience,
+            previousQuestions: [currentQuestion]
+          })
         });
         
-        setCurrentQuestion({
-          id: Date.now().toString(),
-          text: nextQuestion.question,
-          timestamp: Date.now()
-        });
+        const nextData = await nextQuestionResponse.json();
+        setCurrentQuestion(nextData.question);
         setQuestionCount(prev => prev + 1);
       } else {
-        handleEndInterview();
+        // 면접 종료
+        alert('면접이 완료되었습니다!');
+        onEnd();
       }
       
       setIsLoading(false);
@@ -170,54 +95,98 @@ const InterviewRoom: React.FC<Props> = ({ config, onEndInterview }) => {
     }
   };
 
-  const handleEndInterview = () => {
-    if (timerRef.current) {
-      clearInterval(timerRef.current);
-    }
-    onEndInterview();
-  };
-
-  const formatTime = (seconds: number) => {
-    const mins = Math.floor(seconds / 60);
-    const secs = seconds % 60;
-    return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
-  };
-
-  if (isLoading && !currentQuestion) {
-    return (
-      <RoomContainer>
-        <LoadingSpinner>
-          Preparing interview...
-        </LoadingSpinner>
-      </RoomContainer>
-    );
-  }
-
   return (
-    <RoomContainer>
-      <Header>
-        <QuestionCounter>Question {questionCount}/5</QuestionCounter>
-        <Timer>{formatTime(timeLeft)}</Timer>
-      </Header>
-      
-      {currentQuestion && (
-        <QuestionDisplay 
-          question={currentQuestion.text}
-          isLoading={isLoading}
-        />
-      )}
-      
-      <AudioRecorder 
-        onAnswerComplete={handleAnswerComplete}
-        disabled={isLoading}
-      />
-      
-      <ControlButtons>
-        <ControlButton variant="danger" onClick={handleEndInterview}>
-          End Interview
-        </ControlButton>
-      </ControlButtons>
-    </RoomContainer>
+    <div style={{
+      minHeight: '100vh',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      padding: '20px'
+    }}>
+      <div style={{
+        background: 'rgba(255,255,255,0.95)',
+        padding: '40px',
+        borderRadius: '15px',
+        boxShadow: '0 10px 30px rgba(0,0,0,0.2)',
+        maxWidth: '800px',
+        width: '100%',
+        minHeight: '500px'
+      }}>
+        <div style={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          marginBottom: '30px',
+          paddingBottom: '20px',
+          borderBottom: '2px solid #f0f0f0'
+        }}>
+          <div style={{ fontSize: '1.2rem', color: '#666' }}>
+            질문 {questionCount}/5
+          </div>
+          <div style={{
+            fontSize: '1.8rem',
+            fontWeight: 'bold',
+            color: '#333'
+          }}>
+            {config.position} 면접
+          </div>
+        </div>
+        
+        {isLoading && !currentQuestion ? (
+          <div style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            height: '200px',
+            fontSize: '1.2rem',
+            color: '#666'
+          }}>
+            면접을 준비하고 있습니다...
+          </div>
+        ) : (
+          <>
+            <QuestionDisplay 
+              question={currentQuestion}
+              isLoading={isLoading}
+            />
+            
+            <AudioRecorder 
+              onAnswerComplete={handleAnswerComplete}
+              disabled={isLoading}
+            />
+          </>
+        )}
+        
+        <div style={{
+          display: 'flex',
+          justifyContent: 'center',
+          marginTop: '30px'
+        }}>
+          <button 
+            onClick={onEnd}
+            style={{
+              padding: '12px 24px',
+              background: '#ff4757',
+              color: 'white',
+              border: 'none',
+              borderRadius: '8px',
+              fontSize: '16px',
+              fontWeight: '600',
+              cursor: 'pointer',
+              transition: 'background 0.3s'
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = '#ff3742';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = '#ff4757';
+            }}
+          >
+            면접 종료
+          </button>
+        </div>
+      </div>
+    </div>
   );
 };
 

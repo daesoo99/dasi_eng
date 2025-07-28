@@ -1,63 +1,46 @@
 import React, { useState } from 'react';
-import styled from 'styled-components';
-import InterviewSetup from './components/InterviewSetup';
-import InterviewRoom from './components/InterviewRoom';
-import { InterviewConfig } from './types/interview';
+import InterviewSetup from './components/InterviewSetup.tsx';
+import InterviewRoom from './components/InterviewRoom.tsx';
 
-const AppContainer = styled.div`
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-`;
+type AppState = 'setup' | 'interview';
 
-const Header = styled.header`
-  position: absolute;
-  top: 0;
-  width: 100%;
-  text-align: center;
-  padding: 20px;
-  color: white;
-  
-  h1 {
-    margin: 0;
-    font-size: 2.5rem;
-    font-weight: 300;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
-  }
-`;
+interface InterviewConfig {
+  position: string;
+  experience: string;
+}
 
 function App() {
-  const [interviewStarted, setInterviewStarted] = useState(false);
+  const [currentState, setCurrentState] = useState<AppState>('setup');
   const [interviewConfig, setInterviewConfig] = useState<InterviewConfig | null>(null);
 
-  const handleStartInterview = (config: InterviewConfig) => {
+  const startInterview = (config: InterviewConfig) => {
     setInterviewConfig(config);
-    setInterviewStarted(true);
+    setCurrentState('interview');
   };
 
-  const handleEndInterview = () => {
-    setInterviewStarted(false);
+  const endInterview = () => {
+    setCurrentState('setup');
     setInterviewConfig(null);
   };
 
   return (
-    <AppContainer>
-      <Header>
-        <h1>🎤 AI Interview Simulator</h1>
-      </Header>
+    <div style={{
+      minHeight: '100vh',
+      background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+      color: 'white',
+      fontFamily: 'Arial, sans-serif'
+    }}>
+      {currentState === 'setup' && (
+        <InterviewSetup onStart={startInterview} />
+      )}
       
-      {!interviewStarted ? (
-        <InterviewSetup onStartInterview={handleStartInterview} />
-      ) : (
+      {currentState === 'interview' && interviewConfig && (
         <InterviewRoom 
-          config={interviewConfig!} 
-          onEndInterview={handleEndInterview} 
+          config={interviewConfig} 
+          onEnd={endInterview}
         />
       )}
-    </AppContainer>
+    </div>
   );
 }
 
