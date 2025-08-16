@@ -1,214 +1,203 @@
-import axios from 'axios';
+/**
+ * @fileoverview 통합 API 서비스 - 전문적인 에러 처리 및 성능 모니터링 포함
+ * @description AI 면접 시뮬레이터의 모든 API 통신을 관리하는 중앙 서비스
+ * @author DaSiStart Team
+ * @version 2.2.0
+ */
 
-// API 기본 설정
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8081/api';
+import axios, { AxiosInstance, AxiosRequestConfig, AxiosResponse, AxiosError } from 'axios';
+import { 
+  logger,
+  errorHandler,
+  handleApiError
+} from '../utils/index';
+import { CURRICULUM_CONFIG, getCurriculumPath } from '../config/curriculum';
 
-const api = axios.create({
-  baseURL: API_BASE_URL,
-  timeout: 30000,
-  headers: {
-    'Content-Type': 'application/json',
-  },
-});
+// ====== 타입 정의 ======
 
-// 응답 인터셉터로 에러 처리
-api.interceptors.response.use(
-  (response) => response,
-  (error) => {
-    console.error('API Error:', error.response?.data || error.message);
-    return Promise.reject(error);
-  }
-);
-
-// 타입 정의
-interface APIResponse<T = any> {
+export interface APIResponse<T = any> {
   success: boolean;
   data?: T;
   error?: string;
   message?: string;
+  timestamp: number;
 }
 
-interface InterviewConfig {
+// Updated to include topic
+export interface InterviewConfig {
+  level: string;
+  topic: string;
   position: string;
   experience: string;
 }
 
-interface InterviewStartResponse {
+export interface InterviewStartResponse {
   interviewId: string;
   question: string;
-  questionCount: number;
-  totalQuestions: number;
+  sessionInfo: {
+    level: string;
+    topic: string;
+  };
 }
 
-interface QuestionResponse {
+export interface QuestionResponse {
   question: string | null;
-  questionCount?: number;
-  totalQuestions?: number;
   isComplete?: boolean;
-  message?: string;
 }
 
-interface EvaluationResponse {
+export interface EvaluationRequest {
+  interviewId: string;
+  question: string;
+  answer: string;
+}
+
+export interface EvaluationResponse {
   score: number;
   feedback: string;
   strengths: string[];
   improvements: string[];
-  timestamp: number;
 }
 
-export const interviewAPI = {
-  // 면접 시작
-  start: async (config: InterviewConfig): Promise<APIResponse<InterviewStartResponse>> => {
-    try {
-      const response = await api.post('/interview/start', config);
-      return response.data;
-    } catch (error: any) {
-      throw new Error(error.response?.data?.error || '면접 시작에 실패했습니다.');
-    }
-  },
+// ====== API 클라이언트 설정 ======
 
-  // 다음 질문 요청
-  getNextQuestion: async (data: {
-    interviewId: string;
-    position: string;
-  }): Promise<APIResponse<QuestionResponse>> => {
-    try {
-      const response = await api.post('/interview/question', data);
-      return response.data;
-    } catch (error: any) {
-      throw new Error(error.response?.data?.error || '질문 생성에 실패했습니다.');
-    }
-  },
+class APIClient {
+  private axiosInstance: AxiosInstance;
 
-  // 답변 평가
-  evaluate: async (data: {
-    question: string;
-    answer: string;
-    position: string;
-    interviewId?: string;
-  }): Promise<APIResponse<EvaluationResponse>> => {
-    try {
-      const response = await api.post('/interview/evaluate', data);
-      return response.data;
-    } catch (error: any) {
-      throw new Error(error.response?.data?.error || '답변 평가에 실패했습니다.');
-    }
-  },
+  constructor() {
+    this.axiosInstance = axios.create({
+      baseURL: CURRICULUM_CONFIG.baseUrl + '/api',
+      timeout: 30000,
+      headers: { 
+        'Content-Type': 'application/json',
+        'X-Curriculum-Version': CURRICULUM_CONFIG.version 
+      },
+    });
 
-  // 면접 종료
-  end: async (interviewId: string): Promise<APIResponse<any>> => {
-    try {
-      const response = await api.post(`/interview/${interviewId}/end`);
-      return response.data;
-    } catch (error: any) {
-      throw new Error(error.response?.data?.error || '면접 종료에 실패했습니다.');
-    }
-  },
+    this.axiosInstance.interceptors.response.use(
+      (response) => response.data, // Unwrap the response data
+      (error: AxiosError) => {
+        const structuredError = handleApiError(error, { component: 'APIClient' });
+        return Promise.reject(structuredError);
+      }
+    );
+  }
 
-  // 세션 조회
-  getSession: async (interviewId: string): Promise<APIResponse<any>> => {
+  public async request<T>(
+    endpoint: string,
+    method: 'GET' | 'POST',
+    data?: any
+  ): Promise<T> {
+    logger.info(`API Request: ${method} ${endpoint}`, 'API');
+    const response = await this.axiosInstance({ method, url: endpoint, data });
+    return response as T;
+  }
+}
+
+// ====== API 서비스 클래스들 ======
+
+class InterviewAPIService {
+  constructor(private client: APIClient) {}
+
+  start(config: InterviewConfig): Promise<APIResponse<InterviewStartResponse>> {
+    return this.client.request<APIResponse<InterviewStartResponse>>('/interview/start', 'POST', config);
+  }
+
+  getNextQuestion(data: { interviewId: string }): Promise<APIResponse<QuestionResponse>> {
+    return this.client.request<APIResponse<QuestionResponse>>('/interview/question', 'POST', data);
+  }
+
+  evaluate(data: EvaluationRequest): Promise<APIResponse<EvaluationResponse>> {
+    return this.client.request<APIResponse<EvaluationResponse>>('/interview/evaluate', 'POST', data);
+  }
+
+  end(interviewId: string): Promise<APIResponse<any>> {
+    return this.client.request<APIResponse<any>>(`/interview/${interviewId}/end`, 'POST');
+  }
+}
+
+class CurriculumAPIService {
+  constructor(private client: APIClient) {}
+
+  async getCurriculum(level: number): Promise<APIResponse<any>> {
     try {
-      const response = await api.get(`/interview/${interviewId}`);
-      return response.data;
-    } catch (error: any) {
-      throw new Error(error.response?.data?.error || '세션 조회에 실패했습니다.');
+      const path = getCurriculumPath(level);
+      const response = await fetch(`${CURRICULUM_CONFIG.baseUrl}/${path}`);
+      if (!response.ok) throw new Error(`Failed to fetch curriculum: ${response.statusText}`);
+      const data = await response.json();
+      return { success: true, data, timestamp: Date.now() };
+    } catch (error) {
+      return { 
+        success: false, 
+        error: error instanceof Error ? error.message : 'Unknown error',
+        timestamp: Date.now() 
+      };
     }
   }
-};
 
-export const speechAPI = {
-  // 음성을 텍스트로 변환 (서버 기반 STT - 필요시)
-  speechToText: async (audioBlob: Blob): Promise<{ text: string; confidence?: number }> => {
+  async getStage(level: number, stageId: string): Promise<APIResponse<any>> {
     try {
-      const formData = new FormData();
-      formData.append('audio', audioBlob, 'audio.wav');
-      
-      const response = await api.post('/speech/stt', formData, {
-        headers: {
-          'Content-Type': 'multipart/form-data',
-        },
-      });
-      return response.data;
-    } catch (error: any) {
-      throw new Error(error.response?.data?.error || '음성 인식에 실패했습니다.');
-    }
-  },
-
-  // 텍스트를 음성으로 변환
-  textToSpeech: async (text: string, language = 'ko-KR'): Promise<Blob> => {
-    try {
-      const response = await api.post('/speech/tts', { text, language }, {
-        responseType: 'blob',
-      });
-      return response.data;
-    } catch (error: any) {
-      throw new Error(error.response?.data?.error || '음성 합성에 실패했습니다.');
+      const curriculum = await this.getCurriculum(level);
+      if (!curriculum.success || !curriculum.data) {
+        return { success: false, error: 'Failed to load curriculum', timestamp: Date.now() };
+      }
+      const stage = curriculum.data.stages?.find((s: any) => s.stage_id === stageId);
+      return { 
+        success: !!stage, 
+        data: stage,
+        error: !stage ? 'Stage not found' : undefined,
+        timestamp: Date.now() 
+      };
+    } catch (error) {
+      return { 
+        success: false, 
+        error: error instanceof Error ? error.message : 'Unknown error',
+        timestamp: Date.now() 
+      };
     }
   }
-};
 
-// Web Speech API 헬퍼 함수들
-export const webSpeechAPI = {
-  // 브라우저 지원 확인
-  isSupported: (): boolean => {
-    return 'webkitSpeechRecognition' in window || 'SpeechRecognition' in window;
-  },
-
-  // TTS 지원 확인
-  isTTSSupported: (): boolean => {
-    return 'speechSynthesis' in window;
-  },
-
-  // 음성 합성 (브라우저 내장)
-  speak: (text: string, language = 'ko-KR'): Promise<void> => {
-    return new Promise((resolve, reject) => {
-      if (!webSpeechAPI.isTTSSupported()) {
-        reject(new Error('브라우저에서 음성 합성을 지원하지 않습니다.'));
-        return;
+  async validateCurriculum(level: number): Promise<APIResponse<any>> {
+    try {
+      const curriculum = await this.getCurriculum(level);
+      if (!curriculum.success || !curriculum.data) {
+        return { 
+          success: false, 
+          error: 'Failed to load curriculum for validation',
+          timestamp: Date.now() 
+        };
       }
 
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = language;
-      utterance.rate = 0.9;
-      utterance.pitch = 1;
-      
-      utterance.onend = () => resolve();
-      utterance.onerror = (event) => reject(new Error('음성 합성 오류: ' + event.error));
-      
-      speechSynthesis.speak(utterance);
-    });
-  },
-
-  // 음성 합성 중지
-  stopSpeaking: (): void => {
-    if (webSpeechAPI.isTTSSupported()) {
-      speechSynthesis.cancel();
+      const data = curriculum.data;
+      return { 
+        success: true, 
+        data: {
+          total_stages: data.total_stages || data.stages?.length || 0,
+          total_phases: data.total_phases || data.phases?.length || 0,
+          level: data.level,
+          title: data.title,
+          isRevised: getCurriculumPath(level).includes('_REVISED.json'),
+          stages: data.stages || []
+        },
+        timestamp: Date.now() 
+      };
+    } catch (error) {
+      return { 
+        success: false, 
+        error: error instanceof Error ? error.message : 'Validation failed',
+        timestamp: Date.now() 
+      };
     }
   }
+}
+
+// ====== 서비스 인스턴스 생성 및 내보내기 ======
+
+const apiClient = new APIClient();
+
+export const interviewAPI = new InterviewAPIService(apiClient);
+export const curriculumAPI = new CurriculumAPIService(apiClient);
+
+export default { 
+  interview: interviewAPI,
+  curriculum: curriculumAPI 
 };
-
-// 유틸리티 함수들
-export const apiUtils = {
-  // 에러 메시지 추출
-  getErrorMessage: (error: any): string => {
-    if (error.response?.data?.error) {
-      return error.response.data.error;
-    }
-    if (error.message) {
-      return error.message;
-    }
-    return '알 수 없는 오류가 발생했습니다.';
-  },
-
-  // 연결 상태 확인
-  checkConnection: async (): Promise<boolean> => {
-    try {
-      await api.get('/health', { timeout: 5000 });
-      return true;
-    } catch {
-      return false;
-    }
-  }
-};
-
-export default api;

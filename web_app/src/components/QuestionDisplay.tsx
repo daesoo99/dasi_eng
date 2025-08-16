@@ -9,7 +9,7 @@ const QuestionDisplay: React.FC<Props> = ({ question, isLoading }) => {
   const playTextToSpeech = () => {
     if ('speechSynthesis' in window) {
       const utterance = new SpeechSynthesisUtterance(question);
-      utterance.lang = 'ko-KR';
+      utterance.lang = 'en-US'; // Changed to English
       utterance.rate = 0.9;
       speechSynthesis.speak(utterance);
     }
@@ -36,7 +36,7 @@ const QuestionDisplay: React.FC<Props> = ({ question, isLoading }) => {
           color: '#667eea',
           fontWeight: '600'
         }}>
-          🎤 면접관 질문
+          🤖 AI Question
           {!isLoading && (
             <button
               onClick={playTextToSpeech}
@@ -47,7 +47,7 @@ const QuestionDisplay: React.FC<Props> = ({ question, isLoading }) => {
                 fontSize: '1.2rem',
                 marginLeft: 'auto'
               }}
-              title="질문 듣기"
+              title="Listen to question"
             >
               🔊
             </button>
@@ -55,7 +55,7 @@ const QuestionDisplay: React.FC<Props> = ({ question, isLoading }) => {
         </div>
         {isLoading ? (
           <div style={{ textAlign: 'center', color: '#666', fontSize: '1.2rem' }}>
-            다음 질문을 준비하고 있습니다...
+            Preparing the next question...
           </div>
         ) : (
           <div style={{

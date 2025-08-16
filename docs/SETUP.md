@@ -1,129 +1,90 @@
-# Installation and Setup Guide
+# Development Environment Setup
 
-## Prerequisites
+This document provides instructions on how to set up the development environment for the DASI English project.
 
-- Node.js 18.0 or higher
-- npm or yarn
-- Flutter SDK (for mobile app development)
-- Git
+## 1. Prerequisites
 
-## Environment Variables Setup
+Ensure you have the following software installed on your system:
 
-### Backend (.env)
-```bash
-cp backend/.env.example backend/.env
-```
+*   **Node.js:** (v18.x or later recommended) - [Download Node.js](https://nodejs.org/)
+*   **npm:** (Comes with Node.js)
+*   **Git:** - [Download Git](https://git-scm.com/)
 
-Configure the following values:
-```env
-PORT=3000
-OPENAI_API_KEY=your_openai_api_key_here
-GOOGLE_CLOUD_PROJECT_ID=your_google_cloud_project_id
-GOOGLE_CLOUD_KEY_FILE=path/to/your/google-cloud-key.json
-MONGODB_URI=mongodb://localhost:27017/ai-interview-simulator
-```
+## 2. Project Installation
 
-### Web App (.env)
-```bash
-# web_app/.env
-REACT_APP_API_URL=http://localhost:3000/api
-REACT_APP_SOCKET_URL=http://localhost:3000
-```
+1.  **Clone the repository:**
+    ```bash
+    git clone <repository-url>
+    cd DaSi_eng
+    ```
 
-## Backend Setup
+2.  **Install Backend Dependencies:**
+    ```bash
+    cd backend
+    npm install
+    ```
 
-```bash
-cd backend
-npm install
-npm run dev
-```
+3.  **Install Frontend Dependencies:**
+    ```bash
+    cd ../web_app
+    npm install
+    ```
 
-Server will run on http://localhost:3000
+## 3. Environment Variables
 
-## Web App Setup
+Both the backend and frontend require environment variables to function correctly.
+
+### Backend (`/backend/.env`)
+
+Create a `.env` file in the `backend` directory by copying the example file:
 
 ```bash
-cd web_app
-npm install
-npm start
+cp .env.example .env
 ```
 
-Web app will run on http://localhost:3001
+Then, fill in the required API keys and configurations:
 
-## Flutter App Setup
+```
+# Server Configuration
+PORT=8081
 
-```bash
-cd flutter_app
-flutter pub get
-flutter run
+# Google Gemini API Key
+# You can obtain a key from Google AI Studio: https://aistudio.google.com/app/apikey
+GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
+
+# Redis Configuration (Optional, but recommended)
+# If you are not using Redis, the app will use an in-memory store.
+REDIS_HOST=127.0.0.1
+REDIS_PORT=6379
+# REDIS_PASSWORD="your_redis_password" # Uncomment if your Redis server requires a password
+
+# Fallback OpenAI API Key (Optional)
+# Used only if the Gemini API fails.
+OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
 ```
 
-## API Key Setup Guide
+### Frontend (`/web_app/.env`)
 
-### OpenAI API Key
-1. Visit https://platform.openai.com/
-2. Create a new key in the API Keys section
-3. Set it in the `.env` file as `OPENAI_API_KEY`
+Create a `.env` file in the `web_app` directory. This is used to specify the backend API server address.
 
-### Google Cloud Speech API
-1. Create a project in Google Cloud Console
-2. Enable Speech-to-Text API and Text-to-Speech API
-3. Download service account key
-4. Set the key file path in `.env`
-
-## Development Mode
-
-### Backend Development Mode
-```bash
-npm run dev  # Auto-restart with nodemon
+```
+REACT_APP_API_URL=http://localhost:8081/api
 ```
 
-### Web App Development Mode
-```bash
-npm start  # Hot reload support
-```
+## 4. Running the Application
 
-## Testing
+You need to run both the backend and frontend servers simultaneously in separate terminals.
 
-### Backend Testing
-```bash
-cd backend
-npm test
-```
+*   **To start the Backend Server:**
+    ```bash
+    cd backend
+    npm start
+    ```
+    The backend server will be running at `http://localhost:8081`.
 
-### Web App Testing
-```bash
-cd web_app
-npm test
-```
-
-## Build and Deployment
-
-### Web App Build
-```bash
-cd web_app
-npm run build
-```
-
-### Flutter App Build
-```bash
-cd flutter_app
-flutter build apk  # Android
-flutter build ios  # iOS
-```
-
-## Troubleshooting
-
-### Microphone Permission Error
-- Run in HTTPS environment or test on localhost
-- Check microphone permissions in browser settings
-
-### API Connection Error
-- Verify backend server is running
-- Check CORS configuration
-- Check network firewall settings
-
-### Speech Recognition Error
-- Verify Google Cloud API key
-- Check internet connection
-- Use a Web Speech API supported browser
+*   **To start the Frontend Development Server:**
+    ```bash
+    cd web_app
+    npm start
+    ```
+    The frontend application will open automatically in your browser at `http://localhost:3000`.

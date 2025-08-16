@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DASI English - 메인 홈</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #4338ca, #7c3aed);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.3em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 40px 30px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section:last-child {
+            margin-bottom: 0;
+        }
+        
+        .section-title {
+            font-size: 1.4em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #374151;
+            border-left: 4px solid #667eea;
+            padding-left: 15px;
+        }
+        
+        .main-learning .section-title {
+            border-left-color: #10b981;
+        }
+        
+        .learning-management .section-title {
+            border-left-color: #f59e0b;
+        }
+        
+        .support-learning .section-title {
+            border-left-color: #8b5cf6;
+        }
+        
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .card {
+            background: white;
+            border: 2px solid #e5e7eb;
+            border-radius: 15px;
+            padding: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .card:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+        
+        .card:hover:before {
+            transform: scaleX(1);
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            border-color: #667eea;
+        }
+        
+        .main-learning .card:hover {
+            border-color: #10b981;
+        }
+        
+        .main-learning .card:before {
+            background: linear-gradient(90deg, #10b981, #059669);
+        }
+        
+        .learning-management .card:hover {
+            border-color: #f59e0b;
+        }
+        
+        .learning-management .card:before {
+            background: linear-gradient(90deg, #f59e0b, #d97706);
+        }
+        
+        .support-learning .card:hover {
+            border-color: #8b5cf6;
+        }
+        
+        .support-learning .card:before {
+            background: linear-gradient(90deg, #8b5cf6, #7c3aed);
+        }
+        
+        .card-icon {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+        
+        .card-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #1f2937;
+        }
+        
+        .card-description {
+            color: #6b7280;
+            line-height: 1.5;
+        }
+        
+        .card-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: #ef4444;
+            color: white;
+            font-size: 0.7em;
+            padding: 4px 8px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+        
+        .coming-soon {
+            opacity: 0.7;
+            position: relative;
+        }
+        
+        .coming-soon .card-badge {
+            background: #6b7280;
+        }
+        
+        .stats-preview {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            padding: 20px;
+            background: #f8fafc;
+            border-radius: 10px;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #4338ca;
+        }
+        
+        .stat-label {
+            font-size: 0.9em;
+            color: #6b7280;
+            margin-top: 5px;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.2em;
+            }
+            
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .stats-preview {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎯 DASI English</h1>
+            <p>다시 영어 - 한국인 특화 AI 영어 학습</p>
+        </div>
+        
+        <div class="content">
+            <!-- 메인 학습 -->
+            <div class="section main-learning">
+                <h2 class="section-title">메인 학습</h2>
+                <div class="cards-grid">
+                    <a href="level-system.html" class="card">
+                        <div class="card-icon">📚</div>
+                        <div class="card-title">패턴 학습 (Lv1~10)</div>
+                        <div class="card-description">
+                            한국인 특화 27개 문법 패턴을 3초→1초 속도로 완전 자동화하는 체계적 훈련
+                        </div>
+                    </a>
+                    
+                    <div class="card coming-soon" onclick="showComingSoon('모방 학습')">
+                        <div class="card-badge">준비중</div>
+                        <div class="card-icon">🎭</div>
+                        <div class="card-title">모방 학습 (Lv1~10)</div>
+                        <div class="card-description">
+                            원어민 대화를 듣고 자신의 말로 재구성하는 자연스러운 회화 훈련
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 학습 관리 -->
+            <div class="section learning-management">
+                <h2 class="section-title">학습 관리</h2>
+                <div class="cards-grid">
+                    <div class="card coming-soon" onclick="showComingSoon('진도관리')">
+                        <div class="card-badge">준비중</div>
+                        <div class="card-icon">📊</div>
+                        <div class="card-title">진도관리</div>
+                        <div class="card-description">
+                            망각곡선 기반 복습 알림, 학습 현황 및 다음 단계 추천
+                        </div>
+                    </div>
+                    
+                    <div class="card coming-soon" onclick="showComingSoon('통계·성과')">
+                        <div class="card-badge">준비중</div>
+                        <div class="card-icon">📈</div>
+                        <div class="card-title">통계·성과</div>
+                        <div class="card-description">
+                            정답률, 학습시간, 레벨별 성취도 및 주/월별 학습 패턴 분석
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 보조 학습 -->
+            <div class="section support-learning">
+                <h2 class="section-title">보조 학습</h2>
+                <div class="cards-grid">
+                    <a href="lv1_patterns_viewer.html" class="card">
+                        <div class="card-icon">📖</div>
+                        <div class="card-title">단어장</div>
+                        <div class="card-description">
+                            20,000개 어휘 검색, 레벨별 단어 목록, 개인 즐겨찾기 관리
+                        </div>
+                    </a>
+                    
+                    <div class="card coming-soon" onclick="showComingSoon('설정')">
+                        <div class="card-badge">준비중</div>
+                        <div class="card-icon">⚙️</div>
+                        <div class="card-title">설정</div>
+                        <div class="card-description">
+                            음성 설정, 알림 설정, 학습 환경 개인화 및 계정 관리
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 학습 현황 미리보기 -->
+            <div class="stats-preview">
+                <div class="stat-item">
+                    <div class="stat-number">1</div>
+                    <div class="stat-label">현재 레벨</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">376</div>
+                    <div class="stat-label">패턴 데이터베이스</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">27</div>
+                    <div class="stat-label">한국인 특화 패턴</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">20K</div>
+                    <div class="stat-label">어휘 데이터베이스</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showComingSoon(feature) {
+            alert(`🚧 ${feature} 기능은 현재 개발 중입니다.\n\n곧 만나보실 수 있습니다! 😊`);
+        }
+        
+        // 카드 호버 효과 개선
+        document.querySelectorAll('.card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-8px)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+            });
+        });
+        
+        // 통계 숫자 애니메이션
+        function animateStats() {
+            const statNumbers = document.querySelectorAll('.stat-number');
+            const targets = [1, 376, 27, '20K'];
+            
+            statNumbers.forEach((element, index) => {
+                if (index < 3) {
+                    let current = 0;
+                    const target = targets[index];
+                    const increment = target / 50;
+                    
+                    const timer = setInterval(() => {
+                        current += increment;
+                        if (current >= target) {
+                            current = target;
+                            clearInterval(timer);
+                        }
+                        element.textContent = Math.floor(current);
+                    }, 30);
+                }
+            });
+        }
+        
+        // 페이지 로드 시 애니메이션 실행
+        window.addEventListener('load', () => {
+            setTimeout(animateStats, 500);
+        });
+    </script>
+</body>
+</html>

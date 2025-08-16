@@ -2,6 +2,10 @@ export interface InterviewConfig {
   position: string;
   experience: string;
   duration: number;
+  company: string;
+  jobDescription: string;
+  companyType?: string;
+  industryType?: string;
 }
 
 export interface InterviewQuestion {

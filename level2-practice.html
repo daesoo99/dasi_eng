@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DASI English - Level 2 연습</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #4338ca, #7c3aed);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .stage-info {
+            background: rgba(255,255,255,0.2);
+            border-radius: 12px;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        
+        .content {
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .question-card {
+            background: #f8fafc;
+            border: 2px solid #e5e7eb;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px 0;
+            min-height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .korean-text {
+            font-size: 1.8em;
+            color: #1f2937;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        
+        .answer-input {
+            font-size: 1.5em;
+            padding: 15px;
+            border: 2px solid #d1d5db;
+            border-radius: 10px;
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .answer-input:focus {
+            outline: none;
+            border-color: #4338ca;
+            box-shadow: 0 0 0 3px rgba(67, 56, 202, 0.1);
+        }
+        
+        .buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: white;
+        }
+        
+        .btn-secondary {
+            background: #6b7280;
+            color: white;
+        }
+        
+        .btn-danger {
+            background: #ef4444;
+            color: white;
+        }
+        
+        .btn-ai {
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            color: white;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        
+        .progress {
+            background: #e5e7eb;
+            height: 8px;
+            border-radius: 4px;
+            margin: 20px 0;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            background: linear-gradient(90deg, #10b981, #059669);
+            height: 100%;
+            transition: width 0.3s ease;
+        }
+        
+        .feedback {
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px 0;
+            font-weight: bold;
+            display: none;
+        }
+        
+        .feedback.correct {
+            background: #d1fae5;
+            color: #065f46;
+            border: 2px solid #10b981;
+        }
+        
+        .feedback.incorrect {
+            background: #fee2e2;
+            color: #991b1b;
+            border: 2px solid #ef4444;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            background: #f1f5f9;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #4338ca;
+        }
+        
+        .stat-label {
+            font-size: 0.9em;
+            color: #6b7280;
+            margin-top: 5px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        @media (max-width: 768px) {
+            .content {
+                padding: 20px;
+            }
+            
+            .korean-text {
+                font-size: 1.4em;
+            }
+            
+            .answer-input {
+                font-size: 1.2em;
+            }
+            
+            .buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .btn {
+                width: 200px;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎯 Level 2 연습</h1>
+            <p id="stage-title">기본 문법 패턴</p>
+            <div class="stage-info">
+                <div id="stage-description">스테이지 정보를 불러오는 중...</div>
+                <div class="progress">
+                    <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
+                </div>
+                <div style="display: flex; justify-content: space-between; margin-top: 10px; font-size: 0.9em;">
+                    <span id="current-question">1</span>
+                    <span id="total-questions">15</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number" id="correct-count">0</div>
+                    <div class="stat-label">정답</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="accuracy">0%</div>
+                    <div class="stat-label">정확도</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="remaining">15</div>
+                    <div class="stat-label">남은 문제</div>
+                </div>
+            </div>
+            
+            <div class="question-card">
+                <div class="korean-text" id="korean-question">문제를 불러오는 중...</div>
+                <input type="text" class="answer-input" id="answer-input" placeholder="영어로 번역하세요" autocomplete="off">
+                <div class="feedback" id="feedback"></div>
+            </div>
+            
+            <div class="buttons">
+                <button class="btn btn-primary" id="check-btn">✓ 답안 확인</button>
+                <button class="btn btn-secondary" id="skip-btn">→ 넘어가기</button>
+                <button class="btn btn-secondary" id="hint-btn">💡 힌트</button>
+                <button class="btn btn-ai" id="ai-btn">🤖 AI 코칭</button>
+                <a href="level-system.html" class="btn btn-danger">← 돌아가기</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // URL 파라미터에서 스테이지 정보 가져오기
+        const urlParams = new URLSearchParams(window.location.search);
+        const stageNumber = parseInt(urlParams.get('stage')) || 1;
+        
+        // Level 2 스테이지 데이터 로드
+        let stageData = null;
+        let currentQuestions = [];
+        let currentQuestionIndex = 0;
+        let correctAnswers = 0;
+        let totalAttempts = 0;
+        
+        // Level 2 JSON 데이터를 동적으로 로드
+        async function loadLevel2Data() {
+            try {
+                const response = await fetch('/patterns/level_2_basic_grammar/lv2_stage_system.json');
+                const data = await response.json();
+                
+                stageData = data.stages.find(stage => stage.stage === stageNumber);
+                if (!stageData) {
+                    throw new Error(`Stage ${stageNumber} not found`);
+                }
+                
+                initializeStage();
+            } catch (error) {
+                console.error('Level 2 데이터 로드 실패:', error);
+                alert('스테이지 데이터를 불러올 수 없습니다.');
+                window.location.href = 'level-system.html';
+            }
+        }
+        
+        // 스테이지 초기화
+        function initializeStage() {
+            // 헤더 정보 업데이트
+            document.getElementById('stage-title').textContent = `Stage ${stageNumber}: ${stageData.title}`;
+            
+            // 풍부한 스테이지 정보 표시
+            const patterns = stageData.patterns ? stageData.patterns.join(' | ') : '';
+            const totalSentences = Object.values(stageData.sentence_variations).reduce((sum, variations) => sum + variations.length, 0);
+            
+            document.getElementById('stage-description').innerHTML = `
+                <div style="margin-bottom: 10px;">
+                    <strong>📚 학습 목표:</strong> ${stageData.grammar_focus}
+                </div>
+                <div style="margin-bottom: 10px; font-size: 0.9em; opacity: 0.9;">
+                    <strong>🔢 문제 구성:</strong> ${totalSentences}개 문장 | 
+                    <strong>🎯 목표 정확도:</strong> 80% 이상
+                </div>
+                ${patterns ? `<div style="font-size: 0.85em; opacity: 0.8;"><strong>패턴:</strong> ${patterns}</div>` : ''}
+            `;
+            
+            // 모든 문장 변형을 하나의 배열로 합치기
+            currentQuestions = [];
+            
+            Object.values(stageData.sentence_variations).forEach(variations => {
+                currentQuestions.push(...variations);
+            });
+            
+            // 문제 순서 섞기
+            currentQuestions = shuffleArray(currentQuestions);
+            
+            // 총 문제 수 업데이트
+            document.getElementById('total-questions').textContent = currentQuestions.length;
+            document.getElementById('remaining').textContent = currentQuestions.length;
+            
+            // 첫 번째 문제 표시
+            showCurrentQuestion();
+        }
+        
+        // 배열 섞기 함수
+        function shuffleArray(array) {
+            const shuffled = [...array];
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled;
+        }
+        
+        // 현재 문제 표시
+        function showCurrentQuestion() {
+            if (currentQuestionIndex >= currentQuestions.length) {
+                showResults();
+                return;
+            }
+            
+            const question = currentQuestions[currentQuestionIndex];
+            
+            // 문제 표시
+            document.getElementById('korean-question').textContent = question.ko;
+            document.getElementById('answer-input').value = '';
+            document.getElementById('answer-input').focus();
+            
+            // 진행 상황 업데이트
+            document.getElementById('current-question').textContent = currentQuestionIndex + 1;
+            document.getElementById('remaining').textContent = currentQuestions.length - currentQuestionIndex;
+            
+            const progress = ((currentQuestionIndex) / currentQuestions.length) * 100;
+            document.getElementById('progress-fill').style.width = progress + '%';
+            
+            // 피드백 숨기기
+            document.getElementById('feedback').style.display = 'none';
+        }
+        
+        // 답안 확인
+        function checkAnswer() {
+            const userAnswer = document.getElementById('answer-input').value.trim().toLowerCase();
+            const correctAnswer = currentQuestions[currentQuestionIndex].en.toLowerCase();
+            const feedback = document.getElementById('feedback');
+            
+            totalAttempts++;
+            
+            // 간단한 답안 검증 (공백과 대소문자 무시, 구두점 허용)
+            const normalizeAnswer = (text) => {
+                return text.replace(/[.,!?]/g, '').replace(/\s+/g, ' ').trim();
+            };
+            
+            const isCorrect = normalizeAnswer(userAnswer) === normalizeAnswer(correctAnswer);
+            
+            if (isCorrect) {
+                correctAnswers++;
+                feedback.className = 'feedback correct';
+                feedback.textContent = '🎉 정답입니다!';
+                feedback.style.display = 'block';
+                
+                setTimeout(() => {
+                    nextQuestion();
+                }, 1500);
+            } else {
+                feedback.className = 'feedback incorrect';
+                feedback.textContent = `❌ 정답: ${currentQuestions[currentQuestionIndex].en}`;
+                feedback.style.display = 'block';
+                
+                setTimeout(() => {
+                    nextQuestion();
+                }, 2500);
+            }
+            
+            updateStats();
+        }
+        
+        // 다음 문제로
+        function nextQuestion() {
+            currentQuestionIndex++;
+            showCurrentQuestion();
+        }
+        
+        // 넘어가기
+        function skipQuestion() {
+            const feedback = document.getElementById('feedback');
+            feedback.className = 'feedback incorrect';
+            feedback.textContent = `정답: ${currentQuestions[currentQuestionIndex].en}`;
+            feedback.style.display = 'block';
+            
+            totalAttempts++;
+            
+            setTimeout(() => {
+                nextQuestion();
+            }, 2000);
+            
+            updateStats();
+        }
+        
+        // 힌트 표시
+        function showHint() {
+            const correctAnswer = currentQuestions[currentQuestionIndex].en;
+            const hintLength = Math.min(3, Math.floor(correctAnswer.length / 3));
+            const hint = correctAnswer.substring(0, hintLength) + '...';
+            
+            const feedback = document.getElementById('feedback');
+            feedback.className = 'feedback';
+            feedback.style.background = '#fef3c7';
+            feedback.style.color = '#92400e';
+            feedback.style.border = '2px solid #f59e0b';
+            feedback.textContent = `💡 힌트: ${hint}`;
+            feedback.style.display = 'block';
+        }
+        
+        // AI 코칭 기능
+        async function showAICoaching() {
+            const userAnswer = document.getElementById('answer-input').value.trim();
+            const correctAnswer = currentQuestions[currentQuestionIndex].en;
+            const koreanQuestion = currentQuestions[currentQuestionIndex].ko;
+            const feedback = document.getElementById('feedback');
+            
+            if (!userAnswer) {
+                feedback.className = 'feedback';
+                feedback.style.background = '#fff3cd';
+                feedback.style.color = '#856404';
+                feedback.style.border = '2px solid #ffc107';
+                feedback.textContent = '🤖 먼저 답을 입력해주세요!';
+                feedback.style.display = 'block';
+                return;
+            }
+            
+            // AI 분석 중 표시
+            feedback.className = 'feedback';
+            feedback.style.background = '#e3f2fd';
+            feedback.style.color = '#1565c0';
+            feedback.style.border = '2px solid #2196f3';
+            feedback.innerHTML = '🤖 AI가 분석 중입니다... <div style="margin-top: 10px;"><div style="width: 20px; height: 20px; border: 2px solid #ccc; border-top: 2px solid #1565c0; border-radius: 50%; animation: spin 1s linear infinite; margin: 0 auto;"></div></div>';
+            feedback.style.display = 'block';
+            
+            // 간단한 딜레이 추가 (AI 분석 시뮬레이션)
+            await new Promise(resolve => setTimeout(resolve, 1500));
+            
+            const aiResponse = generateLevel2AIFeedback(userAnswer, correctAnswer, koreanQuestion, stageData);
+            
+            feedback.className = 'feedback';
+            feedback.style.background = '#e8f5e8';
+            feedback.style.color = '#2d5a2d';
+            feedback.style.border = '2px solid #4caf50';
+            feedback.innerHTML = aiResponse;
+            feedback.style.display = 'block';
+        }
+        
+        // Level 2 AI 피드백 생성
+        function generateLevel2AIFeedback(userAnswer, correctAnswer, koreanQuestion, stageData) {
+            const isCorrect = userAnswer.toLowerCase().trim() === correctAnswer.toLowerCase().trim();
+            
+            if (isCorrect) {
+                return `
+🎯 **정확해요!** "${userAnswer}"<br><br>
+📚 **문법 포인트**: ${stageData.title} 패턴을 완벽하게 적용했어요!<br>
+💡 **한국인 특화 팁**: ${stageData.grammar_focus}<br>
+✨ **기억법**: 이 패턴 구조를 잘 기억하고 있네요!<br>
+🔥 **격려**: 기본 문법을 확실히 다지고 있습니다! 계속 화이팅! 💪
+                `;
+            }
+            
+            const differences = analyzeLevel2Differences(userAnswer, correctAnswer);
+            const grammarTip = getLevel2GrammarTip(stageData);
+            
+            return `
+🎯 **분석**: ${differences}<br><br>
+📚 **문법 포인트**: ${grammarTip}<br>
+💡 **한국인 특화 팁**: "${correctAnswer}" - 어순과 동사 형태에 주의!<br>
+✨ **기억법**: ${getLevel2MemoryTip(stageData, correctAnswer)}<br>
+🔥 **격려**: 기본기가 중요해요. 천천히 정확하게 연습하세요! 🌟
+            `;
+        }
+        
+        // Level 2 답변 차이점 분석
+        function analyzeLevel2Differences(userAnswer, correctAnswer) {
+            if (!userAnswer) return "답변을 입력해주세요.";
+            
+            const userLower = userAnswer.toLowerCase().trim();
+            const correctLower = correctAnswer.toLowerCase().trim();
+            
+            if (userLower === correctLower) return "정확합니다!";
+            
+            // be동사 vs 일반동사 구분
+            if (correctAnswer.includes(" am ") || correctAnswer.includes(" are ") || correctAnswer.includes(" is ")) {
+                if (!userAnswer.includes(" am ") && !userAnswer.includes(" are ") && !userAnswer.includes(" is ")) {
+                    return "be동사(am/are/is)가 빠졌습니다.";
+                }
+            }
+            
+            // Do/Does 구분
+            if (correctAnswer.toLowerCase().startsWith("do ") || correctAnswer.toLowerCase().startsWith("does ")) {
+                if (userAnswer.toLowerCase().startsWith("does ") && correctAnswer.toLowerCase().startsWith("do ")) {
+                    return "Do you (2인칭)를 사용하세요.";
+                } else if (userAnswer.toLowerCase().startsWith("do ") && correctAnswer.toLowerCase().startsWith("does ")) {
+                    return "Does he/she (3인칭)를 사용하세요.";
+                }
+            }
+            
+            return `"${userAnswer}" → "${correctAnswer}"로 수정이 필요해요.`;
+        }
+        
+        // Level 2 문법 팁
+        function getLevel2GrammarTip(stageData) {
+            const basicTips = {
+                "be동사": "am/are/is는 상태나 존재를 나타냅니다.",
+                "일반동사": "동작을 나타내며 3인칭 단수는 -s를 붙입니다.",
+                "현재진행형": "be동사 + ing형으로 현재 진행중인 동작 표현",
+                "can": "능력이나 가능성을 나타내는 조동사",
+                "과거형": "과거의 동작이나 상태를 나타냄",
+                "미래형": "will + 동사원형으로 미래 계획 표현"
+            };
+            
+            // 스테이지 제목에서 핵심 키워드 찾기
+            const title = stageData.title.toLowerCase();
+            for (const [keyword, tip] of Object.entries(basicTips)) {
+                if (title.includes(keyword.toLowerCase())) {
+                    return tip;
+                }
+            }
+            
+            return stageData.grammar_focus || "기본 문법 패턴을 정확히 익혀보세요.";
+        }
+        
+        // Level 2 기억법 팁
+        function getLevel2MemoryTip(stageData, correctAnswer) {
+            const tips = [
+                `"${correctAnswer}" - 3번 큰 소리로 따라 읽어보세요!`,
+                "패턴을 몸에 익히는 게 가장 중요해요.",
+                "비슷한 문장을 3개 더 만들어보세요.",
+                "첫 단어부터 천천히 순서대로 기억하세요.",
+                "매일 5분씩 같은 패턴 반복 연습해보세요!"
+            ];
+            
+            return tips[Math.floor(Math.random() * tips.length)];
+        }
+        
+        // 통계 업데이트
+        function updateStats() {
+            document.getElementById('correct-count').textContent = correctAnswers;
+            
+            const accuracy = totalAttempts > 0 ? Math.round((correctAnswers / totalAttempts) * 100) : 0;
+            document.getElementById('accuracy').textContent = accuracy + '%';
+        }
+        
+        // 결과 표시
+        function showResults() {
+            const accuracy = totalAttempts > 0 ? Math.round((correctAnswers / totalAttempts) * 100) : 0;
+            
+            alert(`
+🎉 Stage ${stageNumber} 완료!
+
+📊 결과:
+• 정답: ${correctAnswers}/${totalAttempts}
+• 정확도: ${accuracy}%
+• 패턴: ${stageData.title}
+
+${accuracy >= 80 ? '✅ 목표 달성!' : '📚 더 연습이 필요합니다.'}
+            `);
+            
+            // 메인 화면으로 돌아가기
+            window.location.href = 'level-system.html';
+        }
+        
+        // 이벤트 리스너
+        document.getElementById('check-btn').addEventListener('click', checkAnswer);
+        document.getElementById('skip-btn').addEventListener('click', skipQuestion);
+        document.getElementById('hint-btn').addEventListener('click', showHint);
+        document.getElementById('ai-btn').addEventListener('click', showAICoaching);
+        
+        // Enter 키로 답안 확인
+        document.getElementById('answer-input').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                checkAnswer();
+            }
+        });
+        
+        // 초기화
+        loadLevel2Data();
+    </script>
+</body>
+</html>

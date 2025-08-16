@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DASI English - Level 3 Speaking 연습</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        h1 {
+            background: linear-gradient(135deg, #7c3aed, #c026d3);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.2em;
+        }
+        
+        .stage-info {
+            background: linear-gradient(135deg, #f3e5f5, #e8f5e8);
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            border-left: 5px solid #7c3aed;
+        }
+        
+        .phase-indicator {
+            display: inline-block;
+            background: #7c3aed;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .grammar-pattern {
+            background: #fef3c7;
+            padding: 10px 15px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            font-size: 1em;
+            color: #92400e;
+            border-left: 4px solid #f59e0b;
+        }
+
+        .stage-selector {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        .stage-btn {
+            padding: 15px 25px;
+            border: 3px solid #ddd;
+            border-radius: 10px;
+            background: white;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        .stage-btn.active {
+            border-color: #7c3aed;
+            background: #7c3aed;
+            color: white;
+        }
+        .stage-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .progress-bar {
+            background: #f0f0f0;
+            border-radius: 10px;
+            height: 8px;
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+        .progress-fill {
+            background: linear-gradient(90deg, #7c3aed, #c026d3);
+            height: 100%;
+            border-radius: 10px;
+            transition: width 0.5s ease;
+            width: 0%;
+        }
+        
+        .question-area {
+            text-align: center;
+            margin: 40px 0;
+            min-height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .korean-text {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #1f2937;
+            margin-bottom: 20px;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .english-answer {
+            font-size: 2em;
+            color: #7c3aed;
+            font-weight: 600;
+            min-height: 50px;
+            margin-bottom: 20px;
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+        .english-answer.show {
+            opacity: 1;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .control-btn {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            min-width: 150px;
+        }
+        .start-btn {
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: white;
+        }
+        .pause-btn {
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            color: white;
+        }
+        .reset-btn {
+            background: linear-gradient(135deg, #6b7280, #4b5563);
+            color: white;
+        }
+        .control-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        .control-btn:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .stat-card {
+            background: #f8fafc;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px solid #e2e8f0;
+        }
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #7c3aed;
+        }
+        .stat-label {
+            color: #64748b;
+            margin-top: 5px;
+        }
+
+        .timer-circle {
+            width: 60px;
+            height: 60px;
+            border: 4px solid #e2e8f0;
+            border-top: 4px solid #7c3aed;
+            border-radius: 50%;
+            margin: 0 auto;
+            animation: spin 1s linear infinite;
+            display: none;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* 음성 인식 영역 */
+        #speech-test-area {
+            background: linear-gradient(135deg, #f0f8ff, #e6f3ff);
+            border: 2px dashed #7c3aed;
+            border-radius: 15px;
+            padding: 25px;
+            margin-top: 20px;
+            display: none;
+        }
+
+        #mic-status {
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        #mic-status.listening {
+            background: #ef4444;
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        #speech-result {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #e2e8f0;
+            min-height: 50px;
+            font-size: 18px;
+            text-align: center;
+            margin: 15px 0;
+        }
+
+        #answer-evaluation {
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        .correct {
+            background: #d1fae5;
+            color: #065f46;
+            border: 2px solid #10b981;
+        }
+
+        .incorrect {
+            background: #fee2e2;
+            color: #991b1b;
+            border: 2px solid #ef4444;
+        }
+
+        .back-btn {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: #6b7280;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+    </style>
+</head>
+<body>
+    <button class="back-btn" onclick="window.close()">← 돌아가기</button>
+    
+    <div class="container">
+        <h1>🎯 Level 3 Speaking</h1>
+        <p class="subtitle">고급 문법 패턴 - 한국어 듣고 영어로 말하기</p>
+        
+        <div class="stage-info">
+            <div class="phase-indicator" id="phase-indicator">Phase 1</div>
+            <h3 id="stage-title" style="color: #1f2937; margin: 10px 0;">스테이지 정보를 불러오는 중...</h3>
+            <div class="grammar-pattern" id="grammar-pattern">문법 패턴을 불러오는 중...</div>
+        </div>
+
+        <!-- 단계 선택 -->
+        <div class="stage-selector">
+            <div class="stage-btn active" data-stage="1">
+                1단계<br><small>순서대로 (3초)</small>
+            </div>
+            <div class="stage-btn" data-stage="2">
+                2단계<br><small>조금 섞기 (2초)</small>
+            </div>
+            <div class="stage-btn" data-stage="3">
+                3단계<br><small>완전 섞기 (1초)</small>
+            </div>
+        </div>
+
+        <!-- 진행률 -->
+        <div class="progress-bar">
+            <div class="progress-fill" id="progress-fill"></div>
+        </div>
+
+        <!-- 질문 영역 -->
+        <div class="question-area">
+            <div class="korean-text" id="korean-text">한국어를 듣고 영어로 말해보세요</div>
+            <div class="english-answer" id="english-answer"></div>
+            <div class="timer-circle" id="timer"></div>
+            
+            <!-- 음성 인식 테스트 영역 -->
+            <div id="speech-test-area">
+                <div style="text-align: center; margin-bottom: 15px;">
+                    <div id="countdown-timer" style="font-size: 24px; font-weight: bold; color: #ef4444; margin-bottom: 10px;">
+                        3초 후 음성 인식 시작...
+                    </div>
+                    <div id="mic-status">
+                        🎤 준비 중...
+                    </div>
+                </div>
+                <div id="speech-result">
+                    잠시 후 자동으로 음성 인식이 시작됩니다
+                </div>
+                <div id="answer-evaluation" style="display: none;">
+                </div>
+            </div>
+        </div>
+
+        <!-- 컨트롤 -->
+        <div class="controls">
+            <button class="control-btn start-btn" id="start-btn">🚀 시작하기</button>
+            <button class="control-btn pause-btn" id="pause-btn" disabled>⏸️ 일시정지</button>
+            <button class="control-btn reset-btn" id="reset-btn">🔄 다시하기</button>
+        </div>
+
+        <!-- 통계 -->
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number" id="current-question">0</div>
+                <div class="stat-label">현재 문제</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="total-questions">0</div>
+                <div class="stat-label">전체 문제</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="completion-rate">0%</div>
+                <div class="stat-label">완료율</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // URL 파라미터에서 스테이지 정보 가져오기
+        const urlParams = new URLSearchParams(window.location.search);
+        const stageNumber = parseInt(urlParams.get('stage')) || 1;
+        
+        // Level 3 스테이지 데이터
+        let stageData = null;
+        let currentQuestions = [];
+        let currentIndex = 0;
+        let isRunning = false;
+        let isPaused = false;
+        let currentStage = 1;
+        
+        // 글로벌 타이머 변수들 (일시정지 기능을 위한)
+        let remainingCountdownTime = 0;
+        let remainingRecognitionTime = 0;
+        let remainingWaitTime = 0;
+        let currentCountdownInterval = null;
+        let currentRecognitionCountdown = null;
+        let currentWaitTimeout = null;
+        let currentPhase = 'idle'; // 'tts', 'countdown', 'recognition', 'waiting', 'idle'
+        
+        // Level 3 JSON 데이터를 동적으로 로드
+        async function loadLevel3Data() {
+            try {
+                const response = await fetch('/patterns/level_3_advanced_grammar/lv3_stage_system.json');
+                const data = await response.json();
+                
+                stageData = data.stages.find(stage => stage.stage === stageNumber);
+                if (!stageData) {
+                    throw new Error(`Stage ${stageNumber} not found`);
+                }
+                
+                initializeStage();
+            } catch (error) {
+                console.error('Level 3 데이터 로드 실패:', error);
+                // 개발자 모드 또는 테스트를 위한 더미 데이터
+                loadDummyData();
+            }
+        }
+        
+        // 테스트용 더미 데이터
+        function loadDummyData() {
+            stageData = {
+                stage: stageNumber,
+                phase: 1,
+                title: "미래형 심화 (will vs be going to)",
+                grammar_focus: "의도/계획 vs 예측/즉석 결정의 구분",
+                patterns: [
+                    "I'm going to + [동사원형] (계획)",
+                    "I will + [동사원형] (즉석 결정)",
+                    "It's going to + [동사원형] (예측)"
+                ],
+                sentence_variations: {
+                    planned_actions: [
+                        {"en": "I'm going to study abroad next year", "ko": "나는 내년에 유학갈 예정이야"},
+                        {"en": "We're going to move to Seoul", "ko": "우리는 서울로 이사할 예정이야"},
+                        {"en": "She's going to change her job", "ko": "그녀는 직업을 바꿀 예정이야"},
+                        {"en": "They're going to buy a new car", "ko": "그들은 새 차를 살 예정이야"},
+                        {"en": "He's going to learn English", "ko": "그는 영어를 배울 예정이야"}
+                    ],
+                    spontaneous_decisions: [
+                        {"en": "I will help you with that", "ko": "그것 도와줄게"},
+                        {"en": "We will call you later", "ko": "나중에 전화할게"},
+                        {"en": "She will answer the phone", "ko": "그녀가 전화를 받을게"},
+                        {"en": "They will fix this problem", "ko": "그들이 이 문제를 해결할게"},
+                        {"en": "He will drive you home", "ko": "그가 집까지 데려다줄게"}
+                    ],
+                    predictions: [
+                        {"en": "It's going to rain tomorrow", "ko": "내일 비가 올 것 같아"},
+                        {"en": "The meeting is going to be long", "ko": "회의가 길어질 것 같아"},
+                        {"en": "This project is going to succeed", "ko": "이 프로젝트는 성공할 것 같아"},
+                        {"en": "The test is going to be difficult", "ko": "시험이 어려울 것 같아"},
+                        {"en": "Traffic is going to be heavy", "ko": "교통이 막힐 것 같아"}
+                    ]
+                }
+            };
+            
+            initializeStage();
+        }
+        
+        // 스테이지 초기화
+        function initializeStage() {
+            // 헤더 정보 업데이트
+            document.getElementById('stage-title').textContent = `Stage ${stageNumber}: ${stageData.title}`;
+            document.getElementById('phase-indicator').textContent = `Phase ${stageData.phase}`;
+            document.getElementById('grammar-pattern').textContent = stageData.patterns ? stageData.patterns.join(' / ') : '고급 문법 패턴';
+            
+            // 모든 문장 변형을 하나의 배열로 합치기
+            currentQuestions = [];
+            Object.values(stageData.sentence_variations).forEach(variations => {
+                currentQuestions.push(...variations);
+            });
+            
+            // 총 문제 수 업데이트
+            document.getElementById('total-questions').textContent = currentQuestions.length;
+            updateProgress();
+            
+            console.log(`Level 3 Stage ${stageNumber} 로드 완료: ${currentQuestions.length}개 문제`);
+        }
+        
+        // 단계 선택
+        document.querySelectorAll('.stage-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelector('.stage-btn.active').classList.remove('active');
+                btn.classList.add('active');
+                currentStage = parseInt(btn.dataset.stage);
+                resetTraining();
+            });
+        });
+        
+        // 진행률 업데이트
+        function updateProgress() {
+            const progress = currentQuestions.length > 0 ? (currentIndex / currentQuestions.length) * 100 : 0;
+            document.getElementById('progress-fill').style.width = progress + '%';
+            document.getElementById('current-question').textContent = currentIndex + 1;
+            document.getElementById('completion-rate').textContent = Math.round(progress) + '%';
+        }
+        
+        // 질문 섞기 (단계별)
+        function shuffleQuestions() {
+            if (currentStage === 1) {
+                // 1단계: 순서대로
+                return [...currentQuestions];
+            } else if (currentStage === 2) {
+                // 2단계: 조금 섞기
+                const shuffled = [...currentQuestions];
+                for (let i = shuffled.length - 1; i > 0; i -= 2) {
+                    const j = Math.max(0, i - 1);
+                    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+                }
+                return shuffled;
+            } else {
+                // 3단계: 완전 섞기
+                const shuffled = [...currentQuestions];
+                for (let i = shuffled.length - 1; i > 0; i--) {
+                    const j = Math.floor(Math.random() * (i + 1));
+                    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+                }
+                return shuffled;
+            }
+        }
+        
+        // 훈련 시작
+        function startTraining() {
+            if (isRunning && !isPaused) return;
+            
+            if (!isRunning) {
+                currentQuestions = shuffleQuestions();
+                currentIndex = 0;
+                currentPhase = 'idle';
+            }
+            
+            isRunning = true;
+            isPaused = false;
+            
+            document.getElementById('start-btn').disabled = true;
+            document.getElementById('pause-btn').disabled = false;
+            
+            // 일시정지에서 재개하는 경우
+            if (currentPhase === 'countdown' && remainingCountdownTime > 0) {
+                console.log(`▶️ [${new Date().toLocaleTimeString()}] 카운트다운 재개 - ${remainingCountdownTime}초 남음`);
+                resumeCountdown();
+            } else if (currentPhase === 'recognition' && remainingRecognitionTime > 0) {
+                console.log(`▶️ [${new Date().toLocaleTimeString()}] 음성인식 재개 - ${remainingRecognitionTime}초 남음`);
+                resumeRecognition();
+            } else if (currentPhase === 'waiting' && remainingWaitTime > 0) {
+                console.log(`▶️ [${new Date().toLocaleTimeString()}] 대기시간 재개 - ${remainingWaitTime}초 남음`);
+                resumeWaiting();
+            } else {
+                showNextQuestion();
+            }
+        }
+        
+        // 카운트다운 재개
+        function resumeCountdown() {
+            const countdownTimer = document.getElementById('countdown-timer');
+            
+            currentCountdownInterval = setInterval(() => {
+                remainingCountdownTime--;
+                console.log(`⏳ [${new Date().toLocaleTimeString()}] 사고시간 남음: ${remainingCountdownTime}초`);
+                countdownTimer.textContent = `${remainingCountdownTime}초 후 음성 인식 시작...`;
+                
+                if (remainingCountdownTime <= 0) {
+                    clearInterval(currentCountdownInterval);
+                    currentCountdownInterval = null;
+                    currentPhase = 'recognition';
+                    countdownTimer.textContent = '지금 영어로 말해주세요!';
+                    console.log(`🔔 [${new Date().toLocaleTimeString()}] 사고시간 종료 - 마이크 시작음 재생`);
+                    
+                    // 마이크 시작 소리 재생
+                    playMicrophoneStartSound();
+                    
+                    // 실제 음성 인식 시작
+                    setTimeout(() => {
+                        const currentQuestion = currentQuestions[currentIndex];
+                        if ('webkitSpeechRecognition' in window) {
+                            startWebSpeechRecognition(currentQuestion.en);
+                        } else {
+                            simulateSpeechRecognition(currentQuestion.en);
+                        }
+                    }, 200);
+                }
+            }, 1000);
+        }
+        
+        // 음성인식 재개
+        function resumeRecognition() {
+            const countdownTimer = document.getElementById('countdown-timer');
+            const speechTestArea = document.getElementById('speech-test-area');
+            const micStatus = document.getElementById('mic-status');
+            const speechResult = document.getElementById('speech-result');
+            
+            // UI 복원
+            speechTestArea.style.display = 'block';
+            micStatus.textContent = '🎤 듣고 있습니다...';
+            micStatus.classList.add('listening');
+            speechResult.textContent = '음성을 인식하고 있습니다...';
+            
+            countdownTimer.textContent = `${remainingRecognitionTime}초 남음`;
+            countdownTimer.style.color = remainingRecognitionTime <= 3 ? '#ef4444' : remainingRecognitionTime <= 5 ? '#f59e0b' : '#10b981';
+            
+            currentRecognitionCountdown = setInterval(() => {
+                remainingRecognitionTime--;
+                console.log(`⏱️ [${new Date().toLocaleTimeString()}] 음성인식 남은시간: ${remainingRecognitionTime}초`);
+                
+                if (remainingRecognitionTime > 0) {
+                    countdownTimer.textContent = `${remainingRecognitionTime}초 남음`;
+                    
+                    if (remainingRecognitionTime <= 3) {
+                        countdownTimer.style.color = '#ef4444';
+                    } else if (remainingRecognitionTime <= 5) {
+                        countdownTimer.style.color = '#f59e0b';
+                    }
+                } else {
+                    clearInterval(currentRecognitionCountdown);
+                    currentRecognitionCountdown = null;
+                    currentPhase = 'idle';
+                    countdownTimer.textContent = '시간 종료!';
+                    countdownTimer.style.color = '#ef4444';
+                    
+                    // 시간 초과 처리
+                    speechResult.textContent = '시간이 초과되었습니다.';
+                    setTimeout(() => {
+                        nextQuestion();
+                    }, 2000);
+                }
+            }, 1000);
+            
+            // 새로운 음성 인식 시작
+            const currentQuestion = currentQuestions[currentIndex];
+            if ('webkitSpeechRecognition' in window) {
+                startWebSpeechRecognition(currentQuestion.en);
+            }
+        }
+        
+        // 대기시간 재개
+        function resumeWaiting() {
+            const countdownTimer = document.getElementById('countdown-timer');
+            
+            countdownTimer.textContent = `${remainingWaitTime}초 후 다음 문제`;
+            countdownTimer.style.color = '#10b981';
+            
+            currentWaitTimeout = setInterval(() => {
+                remainingWaitTime--;
+                console.log(`⏱️ [${new Date().toLocaleTimeString()}] 다음 문제까지 ${remainingWaitTime}초 남음`);
+                
+                if (remainingWaitTime > 0) {
+                    countdownTimer.textContent = `${remainingWaitTime}초 후 다음 문제`;
+                } else {
+                    clearInterval(currentWaitTimeout);
+                    currentWaitTimeout = null;
+                    currentPhase = 'idle';
+                    nextQuestion();
+                }
+            }, 1000);
+        }
+        
+        // 다음 질문 표시
+        function showNextQuestion() {
+            if (!isRunning || isPaused) return;
+            
+            if (currentIndex >= currentQuestions.length) {
+                completeTraining();
+                return;
+            }
+            
+            const question = currentQuestions[currentIndex];
+            const koreanText = document.getElementById('korean-text');
+            const englishAnswer = document.getElementById('english-answer');
+            const speechTestArea = document.getElementById('speech-test-area');
+            
+            // 한국어 텍스트 표시 (선택적)
+            koreanText.textContent = question.ko;
+            englishAnswer.classList.remove('show');
+            speechTestArea.style.display = 'none';
+            
+            // 한국어 TTS 재생
+            if ('speechSynthesis' in window) {
+                const koreanUtterance = new SpeechSynthesisUtterance(question.ko);
+                koreanUtterance.lang = 'ko-KR';
+                koreanUtterance.rate = 0.8;
+                speechSynthesis.speak(koreanUtterance);
+            }
+            
+            // 타이머 표시
+            const timer = document.getElementById('timer');
+            timer.style.display = 'block';
+            
+            const delay = currentStage === 1 ? 3000 : currentStage === 2 ? 2000 : 1000;
+            
+            setTimeout(() => {
+                if (!isRunning || isPaused) return;
+                
+                timer.style.display = 'none';
+                
+                // 음성 인식 시작 (사용자가 영어로 답변)
+                startSpeechRecognition(question.en);
+                
+            }, delay);
+            
+            updateProgress();
+        }
+        
+        // 음성 인식 시작
+        function startSpeechRecognition(correctAnswer) {
+            const speechTestArea = document.getElementById('speech-test-area');
+            const micStatus = document.getElementById('mic-status');
+            const speechResult = document.getElementById('speech-result');
+            const answerEvaluation = document.getElementById('answer-evaluation');
+            const countdownTimer = document.getElementById('countdown-timer');
+            
+            speechTestArea.style.display = 'block';
+            answerEvaluation.style.display = 'none';
+            
+            // 단계별 카운트다운 (1단계:3초, 2단계:2초, 3단계:1초)
+            const waitTime = currentStage === 1 ? 3 : currentStage === 2 ? 2 : 1;
+            console.log(`⏳ [${new Date().toLocaleTimeString()}] 사고시간 카운트다운 시작 - ${waitTime}초 대기`);
+            
+            // 현재 단계를 countdown으로 설정
+            currentPhase = 'countdown';
+            remainingCountdownTime = waitTime;
+            
+            currentCountdownInterval = setInterval(() => {
+                remainingCountdownTime--;
+                console.log(`⏳ [${new Date().toLocaleTimeString()}] 사고시간 남음: ${remainingCountdownTime}초`);
+                countdownTimer.textContent = `${remainingCountdownTime}초 후 음성 인식 시작...`;
+                
+                if (remainingCountdownTime <= 0) {
+                    clearInterval(currentCountdownInterval);
+                    currentCountdownInterval = null;
+                    currentPhase = 'recognition';
+                    countdownTimer.textContent = '지금 영어로 말해주세요!';
+                    console.log(`🔔 [${new Date().toLocaleTimeString()}] 사고시간 종료 - 마이크 시작음 재생`);
+                    
+                    // 마이크 시작 소리 재생
+                    playMicrophoneStartSound();
+                    
+                    // 실제 음성 인식 시작
+                    setTimeout(() => {
+                        console.log(`🎤 [${new Date().toLocaleTimeString()}] 음성인식 함수 호출 시작`);
+                        if ('webkitSpeechRecognition' in window) {
+                            startWebSpeechRecognition(correctAnswer);
+                        } else {
+                            // 음성 인식 미지원 시 시뮬레이션
+                            simulateSpeechRecognition(correctAnswer);
+                        }
+                    }, 200); // 비프음 재생 후 약간의 딜레이
+                }
+            }, 1000);
+        }
+        
+        // 마이크 시작 소리 재생
+        function playMicrophoneStartSound() {
+            // Web Audio API를 사용하여 짧은 비프음 생성
+            if ('AudioContext' in window || 'webkitAudioContext' in window) {
+                const AudioContext = window.AudioContext || window.webkitAudioContext;
+                const audioCtx = new AudioContext();
+                
+                const oscillator = audioCtx.createOscillator();
+                const gainNode = audioCtx.createGain();
+                
+                oscillator.connect(gainNode);
+                gainNode.connect(audioCtx.destination);
+                
+                oscillator.frequency.setValueAtTime(800, audioCtx.currentTime); // 800Hz 톤
+                gainNode.gain.setValueAtTime(0.3, audioCtx.currentTime); // 30% 볼륨
+                gainNode.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + 0.2); // 0.2초 페이드아웃
+                
+                oscillator.start(audioCtx.currentTime);
+                oscillator.stop(audioCtx.currentTime + 0.2);
+            }
+        }
+        
+        // 웹 음성 인식
+        function startWebSpeechRecognition(correctAnswer) {
+            const startTime = Date.now();
+            console.log(`🎤 [${new Date().toLocaleTimeString()}] 음성인식 시작 - 6초 제한시간`);
+            
+            const recognition = new webkitSpeechRecognition();
+            recognition.lang = 'en-US';
+            recognition.continuous = false;
+            recognition.interimResults = true;
+            recognition.maxAlternatives = 5;
+            
+            // 음성인식 정확도 개선 설정  
+            if (recognition.serviceURI) {
+                recognition.serviceURI = 'wss://www.google.com/speech-api/v2/recognize';
+            }
+            
+            const micStatus = document.getElementById('mic-status');
+            const speechResult = document.getElementById('speech-result');
+            const answerEvaluation = document.getElementById('answer-evaluation');
+            const countdownTimer = document.getElementById('countdown-timer');
+            
+            micStatus.textContent = '🎤 듣고 있습니다...';
+            micStatus.classList.add('listening');
+            speechResult.textContent = '음성을 인식하고 있습니다...';
+            
+            // 실시간 카운트다운 시작 (6초)
+            remainingRecognitionTime = 6;
+            countdownTimer.textContent = `${remainingRecognitionTime}초 남음`;
+            countdownTimer.style.color = '#10b981'; // 초록색
+            
+            currentRecognitionCountdown = setInterval(() => {
+                remainingRecognitionTime--;
+                console.log(`⏱️ [${new Date().toLocaleTimeString()}] 음성인식 남은시간: ${remainingRecognitionTime}초`);
+                
+                if (remainingRecognitionTime > 0) {
+                    countdownTimer.textContent = `${remainingRecognitionTime}초 남음`;
+                    
+                    // 시간에 따른 색상 변경
+                    if (remainingRecognitionTime <= 3) {
+                        countdownTimer.style.color = '#ef4444'; // 빨간색
+                    } else if (remainingRecognitionTime <= 5) {
+                        countdownTimer.style.color = '#f59e0b'; // 노란색
+                    }
+                } else {
+                    clearInterval(currentRecognitionCountdown);
+                    currentRecognitionCountdown = null;
+                    countdownTimer.textContent = '시간 종료!';
+                    countdownTimer.style.color = '#ef4444';
+                }
+            }, 1000);
+            
+            let isCompleted = false;
+            
+            recognition.onresult = function(event) {
+                if (isCompleted) return;
+                isCompleted = true;
+                
+                const endTime = Date.now();
+                const responseTime = (endTime - startTime) / 1000;
+                
+                const userSpeech = event.results[0][0].transcript;
+                console.log(`✅ [${new Date().toLocaleTimeString()}] 음성인식 완료 - 응답시간: ${responseTime.toFixed(1)}초`);
+                console.log(`📝 [${new Date().toLocaleTimeString()}] 인식된 음성: "${userSpeech}"`);
+                
+                if (currentRecognitionCountdown) {
+                    clearInterval(currentRecognitionCountdown);
+                    currentRecognitionCountdown = null;
+                }
+                currentPhase = 'idle';
+                
+                speechResult.textContent = `인식된 음성: "${userSpeech}"`;
+                countdownTimer.textContent = `응답시간: ${responseTime.toFixed(1)}초`;
+                countdownTimer.style.color = '#10b981';
+                
+                evaluateAnswer(userSpeech, correctAnswer);
+            };
+            
+            recognition.onerror = function(event) {
+                if (isCompleted) return;
+                isCompleted = true;
+                
+                console.log(`❌ [${new Date().toLocaleTimeString()}] 음성인식 오류: ${event.error}`);
+                if (currentRecognitionCountdown) {
+                    clearInterval(currentRecognitionCountdown);
+                    currentRecognitionCountdown = null;
+                }
+                currentPhase = 'idle';
+                
+                speechResult.textContent = '음성 인식 오류가 발생했습니다.';
+                setTimeout(() => {
+                    nextQuestion();
+                }, 2000);
+            };
+            
+            recognition.onend = function() {
+                micStatus.classList.remove('listening');
+                console.log(`🔇 [${new Date().toLocaleTimeString()}] 음성인식 종료`);
+            };
+            
+            recognition.start();
+            
+            // 10초 후 자동 종료
+            setTimeout(() => {
+                if (isCompleted) return;
+                isCompleted = true;
+                
+                console.log(`⏰ [${new Date().toLocaleTimeString()}] 음성인식 시간초과 (6초)`);
+                recognition.stop();
+                if (currentRecognitionCountdown) {
+                    clearInterval(currentRecognitionCountdown);
+                    currentRecognitionCountdown = null;
+                }
+                currentPhase = 'idle';
+                
+                if (speechResult.textContent.includes('인식하고 있습니다')) {
+                    speechResult.textContent = '시간이 초과되었습니다.';
+                    countdownTimer.textContent = '시간 초과!';
+                    countdownTimer.style.color = '#ef4444';
+                    
+                    setTimeout(() => {
+                        nextQuestion();
+                    }, 2000);
+                }
+            }, 6000); // 6초로 제한
+        }
+        
+        // 음성 인식 시뮬레이션
+        function simulateSpeechRecognition(correctAnswer) {
+            const micStatus = document.getElementById('mic-status');
+            const speechResult = document.getElementById('speech-result');
+            
+            micStatus.textContent = '🎤 시뮬레이션 모드';
+            speechResult.textContent = '음성 인식을 시뮬레이션하고 있습니다...';
+            
+            setTimeout(() => {
+                const simulatedAnswer = correctAnswer; // 시뮬레이션에서는 정답으로 가정
+                speechResult.textContent = `시뮬레이션 결과: "${simulatedAnswer}"`;
+                evaluateAnswer(simulatedAnswer, correctAnswer);
+            }, 3000);
+        }
+        
+        // 답변 평가
+        function evaluateAnswer(userAnswer, correctAnswer) {
+            const answerEvaluation = document.getElementById('answer-evaluation');
+            const englishAnswer = document.getElementById('english-answer');
+            const countdownTimer = document.getElementById('countdown-timer');
+            
+            // 정답 표시
+            englishAnswer.textContent = correctAnswer;
+            englishAnswer.classList.add('show');
+            
+            // 영어 정답 TTS 재생
+            if ('speechSynthesis' in window) {
+                const englishUtterance = new SpeechSynthesisUtterance(correctAnswer);
+                englishUtterance.lang = 'en-US';
+                englishUtterance.rate = 0.8;
+                speechSynthesis.speak(englishUtterance);
+            }
+            
+            // 간단한 유사도 검사
+            const similarity = calculateSimilarity(userAnswer.toLowerCase(), correctAnswer.toLowerCase());
+            
+            answerEvaluation.style.display = 'block';
+            
+            if (similarity > 0.8) {
+                answerEvaluation.className = 'correct';
+                answerEvaluation.textContent = '🎉 훌륭합니다! 정확한 발음이에요.';
+            } else if (similarity > 0.6) {
+                answerEvaluation.className = 'correct';
+                answerEvaluation.textContent = '✅ 좋아요! 조금 더 연습하면 완벽해요.';
+            } else {
+                answerEvaluation.className = 'incorrect';
+                answerEvaluation.textContent = `❌ 다시 한번! 정답: "${correctAnswer}"`;
+            }
+            
+            // Phase를 waiting으로 설정하고 4초 대기
+            currentPhase = 'waiting';
+            remainingWaitTime = 4;
+            
+            console.log(`⏱️ [${new Date().toLocaleTimeString()}] 답변 평가 완료 - 4초 후 다음 문제로 이동`);
+            countdownTimer.textContent = `${remainingWaitTime}초 후 다음 문제`;
+            countdownTimer.style.color = '#10b981';
+            
+            // 1초마다 카운트다운
+            const waitInterval = setInterval(() => {
+                remainingWaitTime--;
+                console.log(`⏱️ [${new Date().toLocaleTimeString()}] 다음 문제까지 ${remainingWaitTime}초 남음`);
+                
+                if (remainingWaitTime > 0) {
+                    countdownTimer.textContent = `${remainingWaitTime}초 후 다음 문제`;
+                } else {
+                    clearInterval(waitInterval);
+                    currentPhase = 'idle';
+                    nextQuestion();
+                }
+            }, 1000);
+            
+            // 글로벌 변수에 저장하여 일시정지 시 관리 가능하도록
+            currentWaitTimeout = waitInterval;
+        }
+        
+        // 문자열 유사도 계산
+        function calculateSimilarity(str1, str2) {
+            const longer = str1.length > str2.length ? str1 : str2;
+            const shorter = str1.length > str2.length ? str2 : str1;
+            
+            if (longer.length === 0) return 1.0;
+            
+            const distance = levenshteinDistance(longer, shorter);
+            return (longer.length - distance) / longer.length;
+        }
+        
+        // 레벤슈타인 거리 계산
+        function levenshteinDistance(str1, str2) {
+            const matrix = [];
+            
+            for (let i = 0; i <= str2.length; i++) {
+                matrix[i] = [i];
+            }
+            
+            for (let j = 0; j <= str1.length; j++) {
+                matrix[0][j] = j;
+            }
+            
+            for (let i = 1; i <= str2.length; i++) {
+                for (let j = 1; j <= str1.length; j++) {
+                    if (str2.charAt(i - 1) === str1.charAt(j - 1)) {
+                        matrix[i][j] = matrix[i - 1][j - 1];
+                    } else {
+                        matrix[i][j] = Math.min(
+                            matrix[i - 1][j - 1] + 1,
+                            matrix[i][j - 1] + 1,
+                            matrix[i - 1][j] + 1
+                        );
+                    }
+                }
+            }
+            
+            return matrix[str2.length][str1.length];
+        }
+        
+        // 다음 질문으로
+        function nextQuestion() {
+            currentIndex++;
+            
+            setTimeout(() => {
+                showNextQuestion();
+            }, 1000);
+        }
+        
+        // 훈련 일시정지
+        function pauseTraining() {
+            if (!isRunning) return;
+            
+            console.log(`⏸️ [${new Date().toLocaleTimeString()}] 일시정지 - 현재 Phase: ${currentPhase}`);
+            
+            isPaused = true;
+            
+            // 모든 타이머 중단
+            if (currentCountdownInterval) {
+                clearInterval(currentCountdownInterval);
+                currentCountdownInterval = null;
+                console.log(`⏸️ [${new Date().toLocaleTimeString()}] 카운트다운 타이머 중단 - 남은 시간: ${remainingCountdownTime}초`);
+            }
+            
+            if (currentRecognitionCountdown) {
+                clearInterval(currentRecognitionCountdown);
+                currentRecognitionCountdown = null;
+                console.log(`⏸️ [${new Date().toLocaleTimeString()}] 음성인식 타이머 중단 - 남은 시간: ${remainingRecognitionTime}초`);
+            }
+            
+            if (currentWaitTimeout) {
+                clearInterval(currentWaitTimeout);
+                currentWaitTimeout = null;
+                console.log(`⏸️ [${new Date().toLocaleTimeString()}] 대기 타이머 중단 - 남은 시간: ${remainingWaitTime}초`);
+            }
+            
+            // UI 업데이트
+            document.getElementById('start-btn').disabled = false;
+            document.getElementById('pause-btn').disabled = true;
+            
+            // 현재 상태에 따라 pause 상태 표시
+            const countdownTimer = document.getElementById('countdown-timer');
+            if (currentPhase === 'countdown') {
+                countdownTimer.textContent = `일시정지됨 - 사고시간 ${remainingCountdownTime}초 남음`;
+                countdownTimer.style.color = '#f59e0b';
+            } else if (currentPhase === 'recognition') {
+                countdownTimer.textContent = `일시정지됨 - 음성인식 ${remainingRecognitionTime}초 남음`;
+                countdownTimer.style.color = '#f59e0b';
+            } else if (currentPhase === 'waiting') {
+                countdownTimer.textContent = `일시정지됨 - 다음 문제까지 ${remainingWaitTime}초 남음`;
+                countdownTimer.style.color = '#f59e0b';
+            }
+        }
+        
+        // 훈련 재설정
+        function resetTraining() {
+            isRunning = false;
+            isPaused = false;
+            currentIndex = 0;
+            
+            // 모든 글로벌 타이머 정리
+            if (currentCountdownInterval) {
+                clearInterval(currentCountdownInterval);
+                currentCountdownInterval = null;
+            }
+            if (currentRecognitionCountdown) {
+                clearInterval(currentRecognitionCountdown);
+                currentRecognitionCountdown = null;
+            }
+            if (currentWaitTimeout) {
+                clearInterval(currentWaitTimeout);
+                currentWaitTimeout = null;
+            }
+            
+            // 글로벌 변수 초기화
+            remainingCountdownTime = 0;
+            remainingRecognitionTime = 0;
+            remainingWaitTime = 0;
+            currentPhase = 'idle';
+            
+            document.getElementById('start-btn').disabled = false;
+            document.getElementById('pause-btn').disabled = true;
+            document.getElementById('korean-text').textContent = '한국어를 듣고 영어로 말해보세요';
+            document.getElementById('english-answer').textContent = '';
+            document.getElementById('english-answer').classList.remove('show');
+            document.getElementById('timer').style.display = 'none';
+            document.getElementById('speech-test-area').style.display = 'none';
+            
+            updateProgress();
+        }
+        
+        // 훈련 완료
+        function completeTraining() {
+            isRunning = false;
+            
+            alert(`🎉 Stage ${stageNumber} 훈련 완료!\n\n모든 고급 문법 패턴을 연습했습니다.\n계속해서 다른 스테이지도 도전해보세요!`);
+            
+            document.getElementById('korean-text').textContent = '훈련 완료! 수고하셨습니다.';
+            document.getElementById('english-answer').textContent = '';
+            document.getElementById('english-answer').classList.remove('show');
+            document.getElementById('timer').style.display = 'none';
+            document.getElementById('speech-test-area').style.display = 'none';
+            
+            document.getElementById('start-btn').disabled = false;
+            document.getElementById('pause-btn').disabled = true;
+        }
+        
+        // 이벤트 리스너
+        document.getElementById('start-btn').addEventListener('click', startTraining);
+        document.getElementById('pause-btn').addEventListener('click', pauseTraining);
+        document.getElementById('reset-btn').addEventListener('click', resetTraining);
+        
+        // 초기화
+        loadLevel3Data();
+    </script>
+</body>
+</html>

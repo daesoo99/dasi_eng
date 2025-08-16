@@ -1,0 +1,50 @@
+level,phase,stageId,title,classification,bank_status
+2,P1,Lv2-P1-S01,일상 습관 + 빈도부사,core,completed
+2,P1,Lv2-P1-S02,빈도부사 + 현재진행,core,batch2_pending
+2,P1,Lv2-P1-S03,빈도부사 + 과거시제,core,pending
+2,P1,Lv2-P1-S04,빈도부사 + 미래시제,core,pending
+2,P2,Lv2-P2-S09,조동사(의무/허가/가능/권고),core,completed
+2,P2,Lv2-P2-S10,정중 요청·제안,core,batch2_pending
+2,P2,Lv2-P2-S11,조동사 + 과거,core,pending
+2,P2,Lv2-P2-S12,조동사 + 추측,core,pending
+2,P3,Lv2-P3-S04,There is/are + This/That/These/Those + 관사,core,completed
+2,P3,Lv2-P3-S05,수량·가산/불가산,core,batch2_pending
+2,P3,Lv2-P3-S06,지시어 + 위치 표현,core,pending
+2,P3,Lv2-P3-S07,소유격 + 관사 조합,core,pending
+2,P4,Lv2-P4-S11,Wh-의문문(현재·과거·빈도·수량),core,completed
+2,P4,Lv2-P4-S12,Wh-의문 혼합,core,batch2_pending
+2,P4,Lv2-P4-S13,간접의문문 기초,core,pending
+2,P4,Lv2-P4-S14,Tag questions,core,pending
+2,P5,Lv2-P5-S15,비교급/최상급 기초,core,pending
+2,P5,Lv2-P5-S16,비교 표현 확장,core,pending
+2,P5,Lv2-P5-S17,동등비교 (as...as),core,pending
+2,P5,Lv2-P5-S18,비교급 + 상황맥락,core,pending
+2,P6,Lv2-P6-S19,약속·예약 표현,core,pending
+2,P6,Lv2-P6-S20,시간 약속 변경,core,pending
+2,P6,Lv2-P6-S21,계획 표현 (going to),core,pending
+2,P6,Lv2-P6-S22,미래 의지 (will),bridge,pending
+3,P1,Lv3-P1-S02,감정 표현 + 경험 공유,core,completed
+3,P1,Lv3-P1-S03,의견·동의·부분동의,core,batch2_pending
+3,P1,Lv3-P1-S04,감정 원인·결과 표현,core,pending
+3,P1,Lv3-P1-S05,경험 비교·대조,core,pending
+3,P2,Lv3-P2-S06,현재완료(경험/결과/최근),core,completed
+3,P2,Lv3-P2-S07,현재완료 진행,core,batch2_pending
+3,P2,Lv3-P2-S08,현재완료 vs 과거 구분,core,pending
+3,P2,Lv3-P2-S09,현재완료 + 시간부사,core,pending
+3,P3,Lv3-P3-S10,수동태 기초,core,pending
+3,P3,Lv3-P3-S11,수동태 + 시제,core,pending
+3,P3,Lv3-P3-S12,수동태 + 조동사,core,pending
+3,P3,Lv3-P3-S13,능동↔수동 전환,core,pending
+3,P4,Lv3-P4-S14,조건문 0형 (일반적 사실),core,pending
+3,P4,Lv3-P4-S15,조건문 1형 (현실적 가정),core,pending
+3,P4,Lv3-P4-S16,조건문 혼합 패턴,core,pending
+3,P4,Lv3-P4-S17,Unless 조건문,bridge,pending
+3,P5,Lv3-P5-S18,이유·결과 (because/so),core,pending
+3,P5,Lv3-P5-S19,대조·양보 (although/however),core,pending
+3,P5,Lv3-P5-S20,목적 (to/in order to),core,pending
+3,P5,Lv3-P5-S21,연결어 종합,core,pending
+3,P6,Lv3-P6-S22,부가의문문,core,pending
+3,P6,Lv3-P6-S23,간접의문문 고급,core,pending
+3,P6,Lv3-P6-S24,관계대명사 기초,core,pending
+3,P6,Lv3-P6-S25,관계대명사 + 전치사,bridge,pending
+3,P6,Lv3-P6-S26,고급 문장 연결,bridge,pending

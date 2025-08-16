@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 1 영어 패턴 뷰어</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-left: 4px solid #667eea;
+        }
+        
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .stat-label {
+            color: #666;
+            margin-top: 5px;
+        }
+        
+        .grammar-section {
+            background: white;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .grammar-header {
+            background: #667eea;
+            color: white;
+            padding: 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background-color 0.3s;
+        }
+        
+        .grammar-header:hover {
+            background: #5a6fd8;
+        }
+        
+        .grammar-title {
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+        
+        .grammar-count {
+            background: rgba(255,255,255,0.2);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        
+        .toggle-icon {
+            font-size: 1.2em;
+            transition: transform 0.3s;
+        }
+        
+        .grammar-content {
+            padding: 20px;
+            display: none;
+        }
+        
+        .grammar-content.active {
+            display: block;
+            animation: slideDown 0.3s ease-out;
+        }
+        
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .expression-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 15px;
+        }
+        
+        .expression-card {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 15px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .expression-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        
+        .expression-text {
+            font-size: 1.1em;
+            color: #2c3e50;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+        
+        .expression-korean {
+            font-size: 0.9em;
+            color: #6c757d;
+            font-style: italic;
+        }
+        
+        .search-container {
+            margin-bottom: 30px;
+        }
+        
+        .search-box {
+            width: 100%;
+            padding: 15px;
+            font-size: 1.1em;
+            border: 2px solid #e9ecef;
+            border-radius: 25px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        
+        .search-box:focus {
+            border-color: #667eea;
+        }
+        
+        .filter-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-btn {
+            padding: 8px 16px;
+            border: 2px solid #667eea;
+            background: white;
+            color: #667eea;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 0.9em;
+        }
+        
+        .filter-btn:hover,
+        .filter-btn.active {
+            background: #667eea;
+            color: white;
+        }
+        
+        .highlight {
+            background-color: #fff3cd;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .expression-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📚 Level 1 영어 패턴 데이터베이스</h1>
+            <p>20,000단어 목록에서 추출한 기초 영어 표현들</p>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number" id="totalExpressions">376</div>
+                <div class="stat-label">총 표현 수</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">10</div>
+                <div class="stat-label">문법 카테고리</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">20K</div>
+                <div class="stat-label">단어 데이터베이스</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">실용성</div>
+            </div>
+        </div>
+        
+        <div class="search-container">
+            <input type="text" class="search-box" placeholder="표현 검색... (예: happy, go, school)" id="searchInput">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">전체</button>
+                <button class="filter-btn" data-filter="be">Be동사</button>
+                <button class="filter-btn" data-filter="present">현재형</button>
+                <button class="filter-btn" data-filter="past">과거형</button>
+                <button class="filter-btn" data-filter="future">미래형</button>
+                <button class="filter-btn" data-filter="negative">부정문</button>
+                <button class="filter-btn" data-filter="question">의문문</button>
+            </div>
+        </div>
+        
+        <div id="grammarSections">
+            <!-- JavaScript로 동적 생성 -->
+        </div>
+    </div>
+
+    <script>
+        // 패턴 데이터
+        const patterns = {
+            "1_be동사_표현": {
+                title: "1. Be동사 표현 (am/is/are)",
+                description: "상태, 위치, 신분 표현",
+                expressions: {
+                    "상태_형용사": [
+                        ["I am happy", "나는 행복하다"],
+                        ["I am sad", "나는 슬프다"],
+                        ["I am tired", "나는 피곤하다"],
+                        ["I am hungry", "나는 배고프다"],
+                        ["You are good", "너는 좋다"],
+                        ["You are bad", "너는 나쁘다"],
+                        ["You are right", "너는 맞다"],
+                        ["You are wrong", "너는 틀렸다"],
+                        ["He is tall", "그는 키가 크다"],
+                        ["He is short", "그는 키가 작다"],
+                        ["He is young", "그는 젊다"],
+                        ["He is old", "그는 늙었다"],
+                        ["She is nice", "그녀는 친절하다"],
+                        ["She is smart", "그녀는 똑똑하다"],
+                        ["She is kind", "그녀는 친절하다"],
+                        ["She is busy", "그녀는 바쁘다"],
+                        ["It is hot", "그것은 뜨겁다"],
+                        ["It is cold", "그것은 차갑다"],
+                        ["It is big", "그것은 크다"],
+                        ["It is small", "그것은 작다"],
+                        ["We are ready", "우리는 준비되었다"],
+                        ["We are late", "우리는 늦었다"],
+                        ["We are early", "우리는 일찍 왔다"],
+                        ["We are free", "우리는 자유롭다"],
+                        ["They are fast", "그들은 빠르다"],
+                        ["They are slow", "그들은 느리다"],
+                        ["They are careful", "그들은 조심스럽다"],
+                        ["They are safe", "그들은 안전하다"]
+                    ],
+                    "위치_장소": [
+                        ["I am at home", "나는 집에 있다"],
+                        ["I am at school", "나는 학교에 있다"],
+                        ["I am at work", "나는 직장에 있다"],
+                        ["I am at the park", "나는 공원에 있다"],
+                        ["You are in the room", "너는 방에 있다"],
+                        ["You are in the car", "너는 차에 있다"],
+                        ["You are in the kitchen", "너는 부엌에 있다"],
+                        ["He is on the bus", "그는 버스에 있다"],
+                        ["He is on the train", "그는 기차에 있다"],
+                        ["He is on the bed", "그는 침대에 있다"],
+                        ["She is near the door", "그녀는 문 근처에 있다"],
+                        ["She is near the window", "그녀는 창문 근처에 있다"],
+                        ["She is near the tree", "그녀는 나무 근처에 있다"],
+                        ["It is under the table", "그것은 테이블 아래에 있다"],
+                        ["It is under the chair", "그것은 의자 아래에 있다"],
+                        ["It is under the bed", "그것은 침대 아래에 있다"],
+                        ["We are in the office", "우리는 사무실에 있다"],
+                        ["We are in the shop", "우리는 가게에 있다"],
+                        ["We are in the garden", "우리는 정원에 있다"],
+                        ["They are at the airport", "그들은 공항에 있다"],
+                        ["They are at the station", "그들은 역에 있다"],
+                        ["They are at the hospital", "그들은 병원에 있다"]
+                    ],
+                    "신분_직업": [
+                        ["I am a student", "나는 학생이다"],
+                        ["I am a teacher", "나는 선생님이다"],
+                        ["I am a doctor", "나는 의사다"],
+                        ["I am a worker", "나는 직장인이다"],
+                        ["You are a friend", "너는 친구다"],
+                        ["You are a neighbor", "너는 이웃이다"],
+                        ["You are a customer", "너는 고객이다"],
+                        ["He is a driver", "그는 운전기사다"],
+                        ["He is a cook", "그는 요리사다"],
+                        ["He is a manager", "그는 매니저다"],
+                        ["He is a player", "그는 선수다"],
+                        ["She is a nurse", "그녀는 간호사다"],
+                        ["She is an artist", "그녀는 예술가다"],
+                        ["She is a writer", "그녀는 작가다"],
+                        ["She is a singer", "그녀는 가수다"],
+                        ["We are family", "우리는 가족이다"],
+                        ["We are friends", "우리는 친구들이다"],
+                        ["We are team", "우리는 팀이다"],
+                        ["We are partners", "우리는 파트너다"],
+                        ["They are guests", "그들은 손님들이다"],
+                        ["They are visitors", "그들은 방문객들이다"],
+                        ["They are children", "그들은 아이들이다"],
+                        ["They are adults", "그들은 어른들이다"]
+                    ]
+                }
+            },
+            "2_일반동사_현재형": {
+                title: "2. 일반동사 현재형",
+                description: "기본 동사 + 목적어/부사",
+                expressions: {
+                    "일상_활동": [
+                        ["I eat breakfast", "나는 아침을 먹는다"],
+                        ["I drink water", "나는 물을 마신다"],
+                        ["I watch TV", "나는 TV를 본다"],
+                        ["I read books", "나는 책을 읽는다"],
+                        ["You play games", "너는 게임을 한다"],
+                        ["You listen music", "너는 음악을 듣는다"],
+                        ["You cook food", "너는 음식을 요리한다"],
+                        ["You clean house", "너는 집을 청소한다"],
+                        ["He drives car", "그는 차를 운전한다"],
+                        ["He works hard", "그는 열심히 일한다"],
+                        ["He studies English", "그는 영어를 공부한다"],
+                        ["He helps people", "그는 사람들을 돕는다"],
+                        ["She walks fast", "그녀는 빨리 걷는다"],
+                        ["She talks loud", "그녀는 크게 말한다"],
+                        ["She smiles often", "그녀는 자주 웃는다"],
+                        ["She writes letters", "그녀는 편지를 쓴다"],
+                        ["We meet friends", "우리는 친구들을 만난다"],
+                        ["We visit family", "우리는 가족을 방문한다"],
+                        ["We enjoy time", "우리는 시간을 즐긴다"],
+                        ["We share food", "우리는 음식을 나눈다"],
+                        ["They run fast", "그들은 빨리 달린다"],
+                        ["They jump high", "그들은 높이 뛴다"],
+                        ["They sing songs", "그들은 노래를 부른다"],
+                        ["They dance well", "그들은 춤을 잘 춘다"]
+                    ],
+                    "이동_동사": [
+                        ["I go home", "나는 집에 간다"],
+                        ["I come here", "나는 여기에 온다"],
+                        ["I walk slowly", "나는 천천히 걷는다"],
+                        ["I run quickly", "나는 빠르게 뛴다"],
+                        ["You travel far", "너는 멀리 여행한다"],
+                        ["You move house", "너는 이사한다"],
+                        ["You climb mountain", "너는 산을 오른다"],
+                        ["You swim well", "너는 수영을 잘한다"],
+                        ["He flies airplane", "그는 비행기를 조종한다"],
+                        ["He rides bike", "그는 자전거를 탄다"],
+                        ["He drives car", "그는 차를 운전한다"],
+                        ["He takes bus", "그는 버스를 탄다"],
+                        ["She goes shopping", "그녀는 쇼핑을 간다"],
+                        ["She comes back", "그녀는 돌아온다"],
+                        ["She walks dog", "그녀는 개를 산책시킨다"],
+                        ["She runs morning", "그녀는 아침에 뛴다"],
+                        ["We go together", "우리는 함께 간다"],
+                        ["We come early", "우리는 일찍 온다"],
+                        ["We walk park", "우리는 공원을 걷는다"],
+                        ["We run everyday", "우리는 매일 뛴다"],
+                        ["They go school", "그들은 학교에 간다"],
+                        ["They come party", "그들은 파티에 온다"],
+                        ["They walk street", "그들은 거리를 걷는다"],
+                        ["They run race", "그들은 경주한다"]
+                    ]
+                }
+            },
+            "3_과거형_표현": {
+                title: "3. 과거형 표현",
+                description: "규칙/불규칙 과거형 기본 패턴",
+                expressions: {
+                    "규칙_과거형": [
+                        ["I played soccer", "나는 축구를 했다"],
+                        ["I watched movie", "나는 영화를 봤다"],
+                        ["I walked home", "나는 집까지 걸었다"],
+                        ["I worked yesterday", "나는 어제 일했다"],
+                        ["You helped me", "너는 나를 도왔다"],
+                        ["You called mom", "너는 엄마에게 전화했다"],
+                        ["You visited friend", "너는 친구를 방문했다"],
+                        ["You studied hard", "너는 열심히 공부했다"],
+                        ["He cooked dinner", "그는 저녁을 요리했다"],
+                        ["He cleaned room", "그는 방을 청소했다"],
+                        ["He listened music", "그는 음악을 들었다"],
+                        ["He finished work", "그는 일을 끝냈다"],
+                        ["She smiled at me", "그녀는 나에게 웃었다"],
+                        ["She talked loudly", "그녀는 크게 말했다"],
+                        ["She danced well", "그녀는 춤을 잘 췄다"],
+                        ["She painted picture", "그녀는 그림을 그렸다"],
+                        ["We played games", "우리는 게임을 했다"],
+                        ["We watched TV", "우리는 TV를 봤다"],
+                        ["We walked together", "우리는 함께 걸었다"],
+                        ["We worked team", "우리는 팀으로 일했다"],
+                        ["They visited us", "그들은 우리를 방문했다"],
+                        ["They helped poor", "그들은 가난한 사람들을 도왔다"],
+                        ["They enjoyed party", "그들은 파티를 즐겼다"],
+                        ["They learned English", "그들은 영어를 배웠다"]
+                    ],
+                    "불규칙_과거형": [
+                        ["I went school", "나는 학교에 갔다"],
+                        ["I came home", "나는 집에 왔다"],
+                        ["I ate lunch", "나는 점심을 먹었다"],
+                        ["I saw movie", "나는 영화를 봤다"],
+                        ["You made cake", "너는 케이크를 만들었다"],
+                        ["You took bus", "너는 버스를 탔다"],
+                        ["You had fun", "너는 재미있게 놀았다"],
+                        ["You got gift", "너는 선물을 받았다"],
+                        ["He ran fast", "그는 빠르게 달렸다"],
+                        ["He wrote letter", "그는 편지를 썼다"],
+                        ["He read book", "그는 책을 읽었다"],
+                        ["He gave money", "그는 돈을 줬다"],
+                        ["She sang song", "그녀는 노래를 불렀다"],
+                        ["She bought dress", "그녀는 드레스를 샀다"],
+                        ["She found key", "그녀는 열쇠를 찾았다"],
+                        ["She told story", "그녀는 이야기를 했다"],
+                        ["We met friends", "우리는 친구들을 만났다"],
+                        ["We did homework", "우리는 숙제를 했다"],
+                        ["We left early", "우리는 일찍 떠났다"],
+                        ["We felt happy", "우리는 행복했다"],
+                        ["They came late", "그들은 늦게 왔다"],
+                        ["They brought food", "그들은 음식을 가져왔다"],
+                        ["They knew answer", "그들은 답을 알았다"],
+                        ["They said hello", "그들은 안녕이라고 말했다"]
+                    ]
+                }
+            },
+            "4_미래형_will": {
+                title: "4. 미래형 (will)",
+                description: "will + 동사원형 - 예측과 의지",
+                expressions: {
+                    "계획_의지": [
+                        ["I will go tomorrow", "나는 내일 갈 것이다"],
+                        ["I will call you", "나는 너에게 전화할 것이다"],
+                        ["I will help him", "나는 그를 도울 것이다"],
+                        ["I will study hard", "나는 열심히 공부할 것이다"],
+                        ["You will be happy", "너는 행복할 것이다"],
+                        ["You will succeed", "너는 성공할 것이다"],
+                        ["You will find way", "너는 방법을 찾을 것이다"],
+                        ["You will understand", "너는 이해할 것이다"],
+                        ["He will come back", "그는 돌아올 것이다"],
+                        ["He will work here", "그는 여기서 일할 것이다"],
+                        ["He will buy car", "그는 차를 살 것이다"],
+                        ["He will marry her", "그는 그녀와 결혼할 것이다"],
+                        ["She will cook dinner", "그녀는 저녁을 요리할 것이다"],
+                        ["She will visit us", "그녀는 우리를 방문할 것이다"],
+                        ["She will learn piano", "그녀는 피아노를 배울 것이다"],
+                        ["She will travel world", "그녀는 세계를 여행할 것이다"],
+                        ["We will meet again", "우리는 다시 만날 것이다"],
+                        ["We will win game", "우리는 경기에서 이길 것이다"],
+                        ["We will build house", "우리는 집을 지을 것이다"],
+                        ["We will save money", "우리는 돈을 모을 것이다"],
+                        ["They will arrive soon", "그들은 곧 도착할 것이다"],
+                        ["They will help us", "그들은 우리를 도울 것이다"],
+                        ["They will bring food", "그들은 음식을 가져올 것이다"],
+                        ["They will stay here", "그들은 여기 머물 것이다"]
+                    ],
+                    "예측_추측": [
+                        ["It will rain tomorrow", "내일 비가 올 것이다"],
+                        ["It will be sunny", "날이 맑을 것이다"],
+                        ["It will be hot", "더울 것이다"],
+                        ["It will be cold", "추울 것이다"],
+                        ["The bus will come", "버스가 올 것이다"],
+                        ["The store will open", "가게가 열 것이다"],
+                        ["The movie will start", "영화가 시작될 것이다"],
+                        ["The game will end", "게임이 끝날 것이다"]
+                    ]
+                }
+            },
+            "5_부정문_표현": {
+                title: "5. 부정문 표현",
+                description: "don't/doesn't + 동사원형",
+                expressions: {
+                    "일상_부정": [
+                        ["I don't like coffee", "나는 커피를 좋아하지 않는다"],
+                        ["I don't eat meat", "나는 고기를 먹지 않는다"],
+                        ["I don't watch TV", "나는 TV를 보지 않는다"],
+                        ["I don't smoke", "나는 담배를 피우지 않는다"],
+                        ["You don't know me", "너는 나를 모른다"],
+                        ["You don't understand", "너는 이해하지 못한다"],
+                        ["You don't believe it", "너는 그것을 믿지 않는다"],
+                        ["You don't care", "너는 신경쓰지 않는다"],
+                        ["He doesn't work here", "그는 여기서 일하지 않는다"],
+                        ["He doesn't live far", "그는 멀리 살지 않는다"],
+                        ["He doesn't speak English", "그는 영어를 하지 않는다"],
+                        ["He doesn't drive", "그는 운전하지 않는다"],
+                        ["She doesn't cook often", "그녀는 자주 요리하지 않는다"],
+                        ["She doesn't play piano", "그녀는 피아노를 치지 않는다"],
+                        ["She doesn't wear glasses", "그녀는 안경을 쓰지 않는다"],
+                        ["She doesn't dance", "그녀는 춤추지 않는다"],
+                        ["We don't have time", "우리는 시간이 없다"],
+                        ["We don't need help", "우리는 도움이 필요하지 않다"],
+                        ["We don't want money", "우리는 돈을 원하지 않는다"],
+                        ["We don't go there", "우리는 거기 가지 않는다"],
+                        ["They don't come often", "그들은 자주 오지 않는다"],
+                        ["They don't eat fish", "그들은 생선을 먹지 않는다"],
+                        ["They don't play games", "그들은 게임을 하지 않는다"],
+                        ["They don't work late", "그들은 늦게 일하지 않는다"]
+                    ]
+                }
+            },
+            "6_의문문_표현": {
+                title: "6. 의문문 표현",
+                description: "Do/Are + 주어 + 동사?",
+                expressions: {
+                    "do_질문": [
+                        ["Do you like pizza?", "너는 피자를 좋아하니?"],
+                        ["Do you speak Korean?", "너는 한국어를 하니?"],
+                        ["Do you have car?", "너는 차가 있니?"],
+                        ["Do you know him?", "너는 그를 아니?"],
+                        ["Do you work here?", "너는 여기서 일하니?"],
+                        ["Do you live near?", "너는 근처에 사니?"],
+                        ["Do you play soccer?", "너는 축구를 하니?"],
+                        ["Do you cook well?", "너는 요리를 잘하니?"],
+                        ["Does he come often?", "그는 자주 오나?"],
+                        ["Does he work hard?", "그는 열심히 일하나?"],
+                        ["Does he live alone?", "그는 혼자 사나?"],
+                        ["Does he drive car?", "그는 차를 운전하나?"],
+                        ["Does she speak English?", "그녀는 영어를 하나?"],
+                        ["Does she play piano?", "그녀는 피아노를 치나?"],
+                        ["Does she work late?", "그녀는 늦게 일하나?"],
+                        ["Does she cook dinner?", "그녀는 저녁을 요리하나?"]
+                    ],
+                    "are_질문": [
+                        ["Are you happy?", "너는 행복하니?"],
+                        ["Are you ready?", "너는 준비됐니?"],
+                        ["Are you tired?", "너는 피곤하니?"],
+                        ["Are you busy?", "너는 바쁘니?"],
+                        ["Are you at home?", "너는 집에 있니?"],
+                        ["Are you in office?", "너는 사무실에 있니?"],
+                        ["Are you from Korea?", "너는 한국 출신이니?"],
+                        ["Are you student?", "너는 학생이니?"],
+                        ["Is he your friend?", "그는 너의 친구니?"],
+                        ["Is he at work?", "그는 직장에 있나?"],
+                        ["Is he very tall?", "그는 매우 키가 크나?"],
+                        ["Is he good player?", "그는 좋은 선수인가?"],
+                        ["Is she your sister?", "그녀는 너의 자매니?"],
+                        ["Is she at school?", "그녀는 학교에 있나?"],
+                        ["Is she very smart?", "그녀는 매우 똑똑한가?"],
+                        ["Is she good cook?", "그녀는 요리를 잘하나?"]
+                    ]
+                }
+            },
+            "10_there_is_are": {
+                title: "10. There is/are 표현",
+                description: "존재 표현 - ~이 있다/없다",
+                expressions: {
+                    "긍정_존재": [
+                        ["There is a cat", "고양이가 있다"],
+                        ["There is water", "물이 있다"],
+                        ["There is food", "음식이 있다"],
+                        ["There is time", "시간이 있다"],
+                        ["There are books", "책들이 있다"],
+                        ["There are people", "사람들이 있다"],
+                        ["There are cars", "차들이 있다"],
+                        ["There are trees", "나무들이 있다"],
+                        ["There is milk in fridge", "냉장고에 우유가 있다"],
+                        ["There are apples on table", "테이블에 사과들이 있다"],
+                        ["There is money in bag", "가방에 돈이 있다"]
+                    ],
+                    "부정_존재": [
+                        ["There is no water", "물이 없다"],
+                        ["There is no food", "음식이 없다"],
+                        ["There is no time", "시간이 없다"],
+                        ["There is no money", "돈이 없다"],
+                        ["There are no books", "책이 없다"],
+                        ["There are no people", "사람이 없다"],
+                        ["There are no cars", "차가 없다"],
+                        ["There are no trees", "나무가 없다"]
+                    ],
+                    "의문_존재": [
+                        ["Is there water?", "물이 있나?"],
+                        ["Is there food?", "음식이 있나?"],
+                        ["Is there time?", "시간이 있나?"],
+                        ["Is there money?", "돈이 있나?"],
+                        ["Are there books?", "책이 있나?"],
+                        ["Are there people?", "사람이 있나?"],
+                        ["Are there cars?", "차가 있나?"],
+                        ["Are there trees?", "나무가 있나?"]
+                    ]
+                }
+            }
+        };
+        
+        // DOM 요소들
+        const grammarSections = document.getElementById('grammarSections');
+        const searchInput = document.getElementById('searchInput');
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const totalExpressionsEl = document.getElementById('totalExpressions');
+        
+        let currentFilter = 'all';
+        let searchTerm = '';
+        
+        // 초기화
+        function init() {
+            renderGrammarSections();
+            updateTotalCount();
+            setupEventListeners();
+        }
+        
+        // 문법 섹션 렌더링
+        function renderGrammarSections() {
+            grammarSections.innerHTML = '';
+            
+            Object.entries(patterns).forEach(([key, section]) => {
+                if (!shouldShowSection(key, section)) return;
+                
+                const sectionEl = createGrammarSection(key, section);
+                grammarSections.appendChild(sectionEl);
+            });
+        }
+        
+        // 섹션 표시 여부 결정
+        function shouldShowSection(key, section) {
+            if (currentFilter === 'all') return true;
+            
+            const filterMap = {
+                'be': '1_be동사',
+                'present': '2_일반동사',
+                'past': '3_과거형',
+                'future': '4_미래형',
+                'negative': '5_부정문',
+                'question': '6_의문문'
+            };
+            
+            return key.includes(filterMap[currentFilter]);
+        }
+        
+        // 문법 섹션 생성
+        function createGrammarSection(key, section) {
+            const sectionEl = document.createElement('div');
+            sectionEl.className = 'grammar-section';
+            
+            const expressions = getAllExpressions(section.expressions);
+            const filteredExpressions = filterExpressions(expressions);
+            
+            if (filteredExpressions.length === 0) {
+                sectionEl.style.display = 'none';
+                return sectionEl;
+            }
+            
+            sectionEl.innerHTML = `
+                <div class="grammar-header" onclick="toggleSection('${key}')">
+                    <div>
+                        <div class="grammar-title">${section.title}</div>
+                        <div class="grammar-description">${section.description}</div>
+                    </div>
+                    <div class="grammar-count">${filteredExpressions.length}개</div>
+                    <div class="toggle-icon" id="icon-${key}">▼</div>
+                </div>
+                <div class="grammar-content" id="content-${key}">
+                    <div class="expression-grid">
+                        ${filteredExpressions.map(expr => `
+                            <div class="expression-card">
+                                <div class="expression-text">${highlightText(expr[0])}</div>
+                                <div class="expression-korean">${expr[1]}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+            
+            return sectionEl;
+        }
+        
+        // 모든 표현 가져오기
+        function getAllExpressions(expressions) {
+            const all = [];
+            Object.values(expressions).forEach(category => {
+                all.push(...category);
+            });
+            return all;
+        }
+        
+        // 표현 필터링
+        function filterExpressions(expressions) {
+            if (!searchTerm) return expressions;
+            
+            return expressions.filter(expr => 
+                expr[0].toLowerCase().includes(searchTerm.toLowerCase()) ||
+                expr[1].includes(searchTerm)
+            );
+        }
+        
+        // 텍스트 하이라이트
+        function highlightText(text) {
+            if (!searchTerm) return text;
+            
+            const regex = new RegExp(`(${searchTerm})`, 'gi');
+            return text.replace(regex, '<span class="highlight">$1</span>');
+        }
+        
+        // 섹션 토글
+        function toggleSection(key) {
+            const content = document.getElementById(`content-${key}`);
+            const icon = document.getElementById(`icon-${key}`);
+            
+            if (content.classList.contains('active')) {
+                content.classList.remove('active');
+                icon.textContent = '▼';
+            } else {
+                content.classList.add('active');
+                icon.textContent = '▲';
+            }
+        }
+        
+        // 전체 표현 수 업데이트
+        function updateTotalCount() {
+            let total = 0;
+            Object.values(patterns).forEach(section => {
+                const expressions = getAllExpressions(section.expressions);
+                total += filterExpressions(expressions).length;
+            });
+            totalExpressionsEl.textContent = total;
+        }
+        
+        // 이벤트 리스너 설정
+        function setupEventListeners() {
+            // 검색
+            searchInput.addEventListener('input', (e) => {
+                searchTerm = e.target.value;
+                renderGrammarSections();
+                updateTotalCount();
+            });
+            
+            // 필터 버튼
+            filterButtons.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    filterButtons.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    currentFilter = btn.dataset.filter;
+                    renderGrammarSections();
+                    updateTotalCount();
+                });
+            });
+        }
+        
+        // 전역 함수로 만들기 (HTML에서 호출)
+        window.toggleSection = toggleSection;
+        
+        // 초기화 실행
+        init();
+    </script>
+</body>
+</html>
