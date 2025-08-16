@@ -459,6 +459,26 @@ app.post('/api/curriculum/upsert', async (req, res) => {
   }
 });
 
+// Level 1 데이터 로더
+const fs = require('fs');
+const path = require('path');
+
+let level1Data = null;
+
+function loadLevel1Data() {
+  if (!level1Data) {
+    try {
+      const filePath = path.join(__dirname, '../level1_generated_data.json');
+      level1Data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      console.log('✅ Level 1 데이터 로드 완료');
+    } catch (error) {
+      console.error('❌ Level 1 데이터 로드 실패:', error);
+      level1Data = {};
+    }
+  }
+  return level1Data;
+}
+
 // 학습 카드 API 엔드포인트
 app.get('/api/cards', async (req, res) => {
   try {
@@ -473,7 +493,46 @@ app.get('/api/cards', async (req, res) => {
 
     console.log(`🎯 카드 조회: Level ${level}, Stage ${stage}`);
 
-    // Firestore에서 해당 레벨/스테이지의 카드 조회
+    // Level 1 특별 처리
+    if (parseInt(level) === 1) {
+      const l1Data = loadLevel1Data();
+      const stageData = l1Data[stage];
+      
+      if (!stageData) {
+        return res.status(404).json({ 
+          success: false, 
+          error: `Level 1 Stage ${stage} not found` 
+        });
+      }
+
+      // Level 1 카드 데이터 변환
+      const cards = stageData.cards?.map(card => ({
+        id: card.id,
+        front_ko: card.front_ko,
+        target_en: card.target_en,
+        form: 'aff', // Level 1은 모두 긍정문
+        grammar_tags: [card.pattern]
+      })) || [];
+
+      res.json({ 
+        success: true, 
+        data: {
+          level: parseInt(level),
+          stage: parseInt(stage),
+          cards: cards,
+          totalCards: cards.length,
+          stageInfo: {
+            id: `Lv1-S${stage.toString().padStart(2, '0')}`,
+            title: cards[0]?.title || `Level 1 Stage ${stage}`,
+            focus: [cards[0]?.pattern || 'Basic Patterns'],
+            grammar_meta: cards[0]?.key_structures || []
+          }
+        }
+      });
+      return;
+    }
+
+    // Level 2-6 기존 Firestore 처리
     const stageId = `Lv${level}-P${Math.ceil(stage/6)}-S${stage.toString().padStart(2, '0')}`;
     
     const docRef = db.collection('curricula').doc(level.toString())
@@ -1164,8 +1223,8 @@ app.get('/api/health', (req, res) => {
     success: true, 
     status: 'healthy',
     timestamp: new Date().toISOString(),
-    availableLevels: [2, 3, 4, 5],
-    features: ['personalized-packs', 'scenario-dialogue', 'random-review']
+    availableLevels: [1, 2, 3, 4, 5, 6],
+    features: ['level-1-local', 'personalized-packs', 'scenario-dialogue', 'random-review']
   });
 });
 

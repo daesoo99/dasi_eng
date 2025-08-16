@@ -1,0 +1,82 @@
+{
+  "id": "Lv4-A3-S12",
+  "title": "확정 및 거래 마무리",
+  "intent": "협상이나 거래를 성공적으로 마무리하고 향후 관계를 위한 기반을 다진다.",
+  "focus": [
+    "DEAL-CLOSING",
+    "CONFIRMATION",
+    "FUTURE-RELATIONSHIP",
+    "PROFESSIONAL-CLOSURE"
+  ],
+  "lexset": [
+    "finalize, confirm, agreement, contract, handshake, deal, partnership, cooperation, future, relationship"
+  ],
+  "traps": [
+    "확정 표현의 정확성",
+    "미래 관계 언급 방법",
+    "감사 표현의 진정성",
+    "후속 연락 약속"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.8,
+    "neg": 0.1,
+    "wh_q": 0.1
+  },
+  "variants": [
+    "거래 규모",
+    "관계 유형",
+    "후속 계획",
+    "만족도"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "계약을 확정하겠습니다.",
+      "en": "Let's finalize the contract."
+    },
+    {
+      "kr": "성공적인 거래였습니다.",
+      "en": "This has been a successful deal."
+    },
+    {
+      "kr": "앞으로도 좋은 파트너십을 기대합니다.",
+      "en": "I look forward to a great partnership."
+    },
+    {
+      "kr": "모든 조건에 합의했습니다.",
+      "en": "We've agreed on all terms."
+    },
+    {
+      "kr": "계약서에 서명하겠습니다.",
+      "en": "We'll sign the contract."
+    },
+    {
+      "kr": "향후 협력 방안을 논의합시다.",
+      "en": "Let's discuss future cooperation."
+    },
+    {
+      "kr": "만족스러운 결과입니다.",
+      "en": "This is a satisfactory outcome."
+    },
+    {
+      "kr": "다음 주에 서류를 준비하겠습니다.",
+      "en": "We'll prepare the documents next week."
+    },
+    {
+      "kr": "연락을 계속 유지하겠습니다.",
+      "en": "We'll stay in touch."
+    },
+    {
+      "kr": "함께 일할 수 있어서 기쁩니다.",
+      "en": "It's a pleasure doing business with you."
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "Lv2-P2-S10",
+  "title": "정중 요청·제안 — Would/Could/Let's/Why don't we/Shall we",
+  "intent": "speaking",
+  "focus": [
+    "modals",
+    "polite_requests",
+    "suggestions"
+  ],
+  "lexset": {
+    "modals": [
+      "could",
+      "would",
+      "would you mind",
+      "may",
+      "shall",
+      "let's",
+      "why don't we"
+    ],
+    "softeners": [
+      "please",
+      "maybe",
+      "a bit",
+      "if it's okay",
+      "if you don't mind"
+    ]
+  },
+  "traps": [
+    "MODAL",
+    "WORD-ORDER",
+    "POLITENESS-LVL",
+    "V-ING_AFTER_MIND"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.7,
+    "neg": 0.1,
+    "wh_q": 0.2
+  },
+  "variants": {
+    "subj": [
+      "I",
+      "we",
+      "you"
+    ],
+    "tasks": [
+      "open the window",
+      "join the call",
+      "send the file",
+      "grab a coffee",
+      "sit here",
+      "speak slower",
+      "wait a minute",
+      "have dinner together"
+    ],
+    "time": [
+      "now",
+      "tonight",
+      "this afternoon",
+      "for a second"
+    ]
+  },
+  "engine": {
+    "randomPick": true,
+    "retryWeighted": true,
+    "delaySec": 2,
+    "randomize": true
+  },
+  "seeds": [
+    {
+      "kr": "창문 좀 열어 줄 수 있어?",
+      "en": "Could you open the window, please?"
+    },
+    {
+      "kr": "오늘 오후에 통화 가능해?",
+      "en": "Could we jump on a call this afternoon?"
+    },
+    {
+      "kr": "파일 좀 보내 주시겠어요?",
+      "en": "Would you send me the file, please?"
+    },
+    {
+      "kr": "커피 한 잔 하실래요?",
+      "en": "Would you like to grab a coffee?"
+    },
+    {
+      "kr": "조금만 천천히 말해 주시겠어요?",
+      "en": "Could you speak a bit slower?"
+    },
+    {
+      "kr": "제가 여기 앉아도 될까요?",
+      "en": "May I sit here?"
+    },
+    {
+      "kr": "지금 잠깐 기다려 줄래?",
+      "en": "Could you wait a minute?"
+    },
+    {
+      "kr": "오늘 밤에 저녁 같이 먹을래?",
+      "en": "Shall we have dinner tonight?"
+    },
+    {
+      "kr": "지금 회의에 참여할까?",
+      "en": "Shall we join the meeting now?"
+    },
+    {
+      "kr": "그럼 이걸 나중에 하는 게 어때?",
+      "en": "Why don't we do this later?"
+    }
+  ]
+}

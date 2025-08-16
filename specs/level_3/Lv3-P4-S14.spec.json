@@ -1,0 +1,82 @@
+{
+  "id": "Lv3-P4-S14",
+  "title": "조건문 0형 — 일반적 사실 (If + 현재, 현재)",
+  "intent": "If + 현재시제, 현재시제로 일반적 사실, 자연 법칙, 습관을 자연스럽게 표현한다.",
+  "focus": [
+    "ZERO-CONDITIONAL",
+    "GENERAL-TRUTHS",
+    "IF-PRESENT",
+    "NATURAL-LAWS"
+  ],
+  "lexset": [
+    "heat, boil, freeze, rain, sunny, exercise, study, work, eat, drink, sleep, wake up"
+  ],
+  "traps": [
+    "시제 혼동(If it will rain ✗ → If it rains)",
+    "조건문 구조(If you heat water, it boils)",
+    "when vs if 구분(자연법칙엔 when 가능)",
+    "콤마 사용(If 절이 앞에 올 때)"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.7,
+    "neg": 0.1,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "자연법칙",
+    "습관",
+    "일반사실",
+    "if/when"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "물을 끓이면 수증기가 나와.",
+      "en": "If you heat water, it boils."
+    },
+    {
+      "kr": "운동하면 건강해져.",
+      "en": "If you exercise, you get healthy."
+    },
+    {
+      "kr": "비가 오면 젖어.",
+      "en": "If it rains, you get wet."
+    },
+    {
+      "kr": "공부하면 성적이 올라.",
+      "en": "If you study, your grades improve."
+    },
+    {
+      "kr": "늦게 자면 피곤해.",
+      "en": "If you sleep late, you feel tired."
+    },
+    {
+      "kr": "햇빛이 나면 따뜻해져.",
+      "en": "If the sun shines, it gets warm."
+    },
+    {
+      "kr": "많이 먹으면 배불러.",
+      "en": "If you eat a lot, you feel full."
+    },
+    {
+      "kr": "물이 얼면 얼음이 돼.",
+      "en": "If water freezes, it becomes ice."
+    },
+    {
+      "kr": "일찍 일어나면 시간이 많아.",
+      "en": "If you wake up early, you have more time."
+    },
+    {
+      "kr": "열심히 일하면 성공해.",
+      "en": "If you work hard, you succeed."
+    }
+  ]
+}

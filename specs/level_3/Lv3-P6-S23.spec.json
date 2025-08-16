@@ -1,0 +1,82 @@
+{
+  "id": "Lv3-P6-S23",
+  "title": "간접의문문 고급 — 복잡한 구조",
+  "intent": "복잡한 간접의문문을 정확한 어순으로 구성하고 자연스럽게 사용한다.",
+  "focus": [
+    "INDIRECT-QUESTIONS",
+    "WORD-ORDER",
+    "COMPLEX-STRUCTURES",
+    "EMBEDDED-QUESTIONS"
+  ],
+  "lexset": [
+    "wonder, ask, tell, know, remember, forget, understand, explain, find out, figure out"
+  ],
+  "traps": [
+    "간접의문문 어순(평서문 어순 유지)",
+    "do/does/did 제거",
+    "시제 일치 고려",
+    "의문사 vs if/whether"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.5,
+    "neg": 0.2,
+    "wh_q": 0.3
+  },
+  "variants": [
+    "복잡도",
+    "시제",
+    "의문사 유형",
+    "동사"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "그가 언제 올지 궁금해.",
+      "en": "I wonder when he will come."
+    },
+    {
+      "kr": "어디서 만날지 물어봤어.",
+      "en": "I asked where we should meet."
+    },
+    {
+      "kr": "왜 늦었는지 말해줘.",
+      "en": "Tell me why you were late."
+    },
+    {
+      "kr": "어떻게 하는지 잊어버렸어.",
+      "en": "I forgot how to do it."
+    },
+    {
+      "kr": "그가 올지 안 올지 모르겠어.",
+      "en": "I don't know if he will come."
+    },
+    {
+      "kr": "뭘 하고 있었는지 기억 안 나.",
+      "en": "I don't remember what I was doing."
+    },
+    {
+      "kr": "누가 전화했는지 알아?",
+      "en": "Do you know who called?"
+    },
+    {
+      "kr": "얼마나 걸릴지 생각해 봐.",
+      "en": "Think about how long it will take."
+    },
+    {
+      "kr": "어느 것이 더 나은지 결정할 수 없어.",
+      "en": "I can't decide which one is better."
+    },
+    {
+      "kr": "그것이 맞는지 확실하지 않아.",
+      "en": "I'm not sure if that's correct."
+    }
+  ]
+}

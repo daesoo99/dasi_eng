@@ -1,0 +1,82 @@
+{
+  "id": "Lv3-P3-S14",
+  "title": "간접화법 확장 (시제 일치)",
+  "intent": "간접화법에서 시제 일치 규칙을 정확히 적용하고 다양한 동사를 사용한다.",
+  "focus": [
+    "REPORTED-SPEECH-ADVANCED",
+    "TENSE-SHIFT",
+    "REPORTING-VERBS",
+    "TIME-ADVERB-CHANGE"
+  ],
+  "lexset": [
+    "said, told, asked, explained, mentioned, admitted, suggested, promised, warned, complained"
+  ],
+  "traps": [
+    "시제 일치 (현재→과거, 과거→과거완료)",
+    "시간/장소 부사 변화",
+    "명령문/의문문 간접화법",
+    "reporting verb 선택"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "발화 유형",
+    "시제 조합",
+    "reporting verb",
+    "격식도"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "그는 내일 올 것이라고 말했어요.",
+      "en": "He said he would come tomorrow."
+    },
+    {
+      "kr": "그녀는 이미 숙제를 했다고 했습니다.",
+      "en": "She said she had already done her homework."
+    },
+    {
+      "kr": "선생님은 우리에게 열심히 공부하라고 하셨어요.",
+      "en": "The teacher told us to study hard."
+    },
+    {
+      "kr": "그들은 어디에 있는지 물어봤어요.",
+      "en": "They asked where I was."
+    },
+    {
+      "kr": "그는 도움이 필요하다고 설명했습니다.",
+      "en": "He explained that he needed help."
+    },
+    {
+      "kr": "그녀는 실수했다고 인정했어요.",
+      "en": "She admitted that she had made a mistake."
+    },
+    {
+      "kr": "의사는 휴식을 취하라고 조언했습니다.",
+      "en": "The doctor advised me to take a rest."
+    },
+    {
+      "kr": "그들은 회의가 언제인지 물었어요.",
+      "en": "They asked when the meeting was."
+    },
+    {
+      "kr": "그는 약속을 지키겠다고 했습니다.",
+      "en": "He promised that he would keep his promise."
+    },
+    {
+      "kr": "그녀는 너무 바쁘다고 불평했어요.",
+      "en": "She complained that she was too busy."
+    }
+  ]
+}

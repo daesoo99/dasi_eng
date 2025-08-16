@@ -1,0 +1,82 @@
+{
+  "id": "Lv2-P6-S19",
+  "title": "약속·예약·제안 — Let's/Shall we/Would you like",
+  "intent": "약속 잡기, 예약하기, 제안하기를 Let's/Shall we/Would you like to로 자연스럽게 말하고 응답한다.",
+  "focus": [
+    "SUGGESTIONS",
+    "INVITATIONS",
+    "ARRANGEMENTS",
+    "POLITENESS"
+  ],
+  "lexset": [
+    "meet, have lunch/dinner, go out, make a reservation, book, schedule, arrange, plan, suggest, invite"
+  ],
+  "traps": [
+    "Let's vs Shall we 혼동(Let's go vs Shall we go?)",
+    "Would you like + to 구조(Would you like go ✗)",
+    "응답 매칭(Yes, let's vs Yes, I'd like to)",
+    "시간 전치사(at 3 o'clock, on Monday)"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.5,
+    "neg": 0.2,
+    "wh_q": 0.3
+  },
+  "variants": [
+    "제안 방식",
+    "응답 유형",
+    "시간/장소",
+    "정중도"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "점심 같이 먹을까?",
+      "en": "Shall we have lunch together?"
+    },
+    {
+      "kr": "커피 한 잔 할래?",
+      "en": "Would you like to have coffee?"
+    },
+    {
+      "kr": "영화 보러 가자.",
+      "en": "Let's go see a movie."
+    },
+    {
+      "kr": "내일 만날까?",
+      "en": "Shall we meet tomorrow?"
+    },
+    {
+      "kr": "레스토랑 예약할게.",
+      "en": "I'll make a restaurant reservation."
+    },
+    {
+      "kr": "몇 시에 만날까?",
+      "en": "What time shall we meet?"
+    },
+    {
+      "kr": "좋은 생각이야!",
+      "en": "That's a great idea!"
+    },
+    {
+      "kr": "미안, 그날은 바빠.",
+      "en": "Sorry, I'm busy that day."
+    },
+    {
+      "kr": "다른 날은 어때?",
+      "en": "How about another day?"
+    },
+    {
+      "kr": "7시에 만나자.",
+      "en": "Let's meet at seven."
+    }
+  ]
+}

@@ -1,0 +1,734 @@
+{
+  "stage_id": "Lv6-D4-S10",
+  "title": "금융 투자 분석 및 포트폴리오",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv6-D4-S10-001",
+      "kr": "포트폴리오 다각화가 리스크를 감소시킵니다. (전문 1)",
+      "en": "Portfolio diversification reduces risk. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-002",
+      "kr": "투자 수익률이 벤치마크를 상회했습니다. (전문 1)",
+      "en": "Investment returns exceeded the benchmark. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-003",
+      "kr": "자산 배분 전략이 수립되었습니다. (전문 1)",
+      "en": "Asset allocation strategy has been established. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-004",
+      "kr": "변동성이 예상 범위 내에 있습니다. (전문 1)",
+      "en": "Volatility is within the expected range. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-005",
+      "kr": "샤프 지수가 우수한 성과를 나타냅니다. (전문 1)",
+      "en": "The Sharpe ratio indicates excellent performance. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-006",
+      "kr": "베타 계수가 시장 민감도를 보여줍니다. (전문 1)",
+      "en": "The beta coefficient shows market sensitivity. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-007",
+      "kr": "위험가치가 계산되었습니다. (전문 1)",
+      "en": "Value at Risk has been calculated. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-008",
+      "kr": "유동성 리스크를 고려해야 합니다. (전문 1)",
+      "en": "Liquidity risk must be considered. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-009",
+      "kr": "헤지 전략이 효과적이었습니다. (전문 1)",
+      "en": "The hedging strategy was effective. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-010",
+      "kr": "차익거래 기회가 식별되었습니다. (전문 1)",
+      "en": "Arbitrage opportunities have been identified. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-011",
+      "kr": "포트폴리오 다각화가 리스크를 감소시킵니다. (전문 2)",
+      "en": "Portfolio diversification reduces risk. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-012",
+      "kr": "투자 수익률이 벤치마크를 상회했습니다. (전문 2)",
+      "en": "Investment returns exceeded the benchmark. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-013",
+      "kr": "자산 배분 전략이 수립되었습니다. (전문 2)",
+      "en": "Asset allocation strategy has been established. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-014",
+      "kr": "변동성이 예상 범위 내에 있습니다. (전문 2)",
+      "en": "Volatility is within the expected range. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-015",
+      "kr": "샤프 지수가 우수한 성과를 나타냅니다. (전문 2)",
+      "en": "The Sharpe ratio indicates excellent performance. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-016",
+      "kr": "베타 계수가 시장 민감도를 보여줍니다. (전문 2)",
+      "en": "The beta coefficient shows market sensitivity. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-017",
+      "kr": "위험가치가 계산되었습니다. (전문 2)",
+      "en": "Value at Risk has been calculated. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-018",
+      "kr": "유동성 리스크를 고려해야 합니다. (전문 2)",
+      "en": "Liquidity risk must be considered. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-019",
+      "kr": "헤지 전략이 효과적이었습니다. (전문 2)",
+      "en": "The hedging strategy was effective. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-020",
+      "kr": "차익거래 기회가 식별되었습니다. (전문 2)",
+      "en": "Arbitrage opportunities have been identified. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-021",
+      "kr": "포트폴리오 다각화가 리스크를 감소시킵니다. (전문 3)",
+      "en": "Portfolio diversification reduces risk. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-022",
+      "kr": "투자 수익률이 벤치마크를 상회했습니다. (전문 3)",
+      "en": "Investment returns exceeded the benchmark. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-023",
+      "kr": "자산 배분 전략이 수립되었습니다. (전문 3)",
+      "en": "Asset allocation strategy has been established. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-024",
+      "kr": "변동성이 예상 범위 내에 있습니다. (전문 3)",
+      "en": "Volatility is within the expected range. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-025",
+      "kr": "샤프 지수가 우수한 성과를 나타냅니다. (전문 3)",
+      "en": "The Sharpe ratio indicates excellent performance. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-026",
+      "kr": "베타 계수가 시장 민감도를 보여줍니다. (전문 3)",
+      "en": "The beta coefficient shows market sensitivity. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-027",
+      "kr": "위험가치가 계산되었습니다. (전문 3)",
+      "en": "Value at Risk has been calculated. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-028",
+      "kr": "유동성 리스크를 고려해야 합니다. (전문 3)",
+      "en": "Liquidity risk must be considered. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-029",
+      "kr": "헤지 전략이 효과적이었습니다. (전문 3)",
+      "en": "The hedging strategy was effective. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-030",
+      "kr": "차익거래 기회가 식별되었습니다. (전문 3)",
+      "en": "Arbitrage opportunities have been identified. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-031",
+      "kr": "포트폴리오 다각화가 리스크를 감소시킵니다. (전문 4)",
+      "en": "Portfolio diversification reduces risk. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-032",
+      "kr": "투자 수익률이 벤치마크를 상회했습니다. (전문 4)",
+      "en": "Investment returns exceeded the benchmark. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-033",
+      "kr": "자산 배분 전략이 수립되었습니다. (전문 4)",
+      "en": "Asset allocation strategy has been established. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-034",
+      "kr": "변동성이 예상 범위 내에 있습니다. (전문 4)",
+      "en": "Volatility is within the expected range. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-035",
+      "kr": "샤프 지수가 우수한 성과를 나타냅니다. (전문 4)",
+      "en": "The Sharpe ratio indicates excellent performance. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-036",
+      "kr": "베타 계수가 시장 민감도를 보여줍니다. (전문 4)",
+      "en": "The beta coefficient shows market sensitivity. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-037",
+      "kr": "위험가치가 계산되었습니다. (전문 4)",
+      "en": "Value at Risk has been calculated. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-038",
+      "kr": "유동성 리스크를 고려해야 합니다. (전문 4)",
+      "en": "Liquidity risk must be considered. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-039",
+      "kr": "헤지 전략이 효과적이었습니다. (전문 4)",
+      "en": "The hedging strategy was effective. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-040",
+      "kr": "차익거래 기회가 식별되었습니다. (전문 4)",
+      "en": "Arbitrage opportunities have been identified. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-041",
+      "kr": "포트폴리오 다각화가 리스크를 감소시킵니다. (전문 5)",
+      "en": "Portfolio diversification reduces risk. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-042",
+      "kr": "투자 수익률이 벤치마크를 상회했습니다. (전문 5)",
+      "en": "Investment returns exceeded the benchmark. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-043",
+      "kr": "자산 배분 전략이 수립되었습니다. (전문 5)",
+      "en": "Asset allocation strategy has been established. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-044",
+      "kr": "변동성이 예상 범위 내에 있습니다. (전문 5)",
+      "en": "Volatility is within the expected range. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-045",
+      "kr": "샤프 지수가 우수한 성과를 나타냅니다. (전문 5)",
+      "en": "The Sharpe ratio indicates excellent performance. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-046",
+      "kr": "베타 계수가 시장 민감도를 보여줍니다. (전문 5)",
+      "en": "The beta coefficient shows market sensitivity. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-047",
+      "kr": "위험가치가 계산되었습니다. (전문 5)",
+      "en": "Value at Risk has been calculated. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-048",
+      "kr": "유동성 리스크를 고려해야 합니다. (전문 5)",
+      "en": "Liquidity risk must be considered. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-049",
+      "kr": "헤지 전략이 효과적이었습니다. (전문 5)",
+      "en": "The hedging strategy was effective. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S10-050",
+      "kr": "차익거래 기회가 식별되었습니다. (전문 5)",
+      "en": "Arbitrage opportunities have been identified. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "FINANCIAL-CONDITIONALS",
+        "STATISTICAL-LANGUAGE",
+        "RISK-EXPRESSIONS",
+        "ANALYTICAL-STRUCTURES"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10
+  },
+  "grammar_meta": [
+    "FINANCIAL-CONDITIONALS",
+    "STATISTICAL-LANGUAGE",
+    "RISK-EXPRESSIONS",
+    "ANALYTICAL-STRUCTURES"
+  ],
+  "domain_vocabulary": [
+    "alpha",
+    "beta",
+    "sharpe-ratio",
+    "VaR",
+    "drawdown",
+    "liquidity",
+    "duration",
+    "convexity",
+    "arbitrage",
+    "hedge"
+  ],
+  "professional_level": "C2",
+  "domain": "FINANCE",
+  "status": "generated",
+  "batch": "L6_Professional_Batch1"
+}

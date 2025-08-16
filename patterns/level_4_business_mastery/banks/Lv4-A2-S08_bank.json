@@ -1,0 +1,314 @@
+{
+  "stage_id": "Lv4-A2-S08",
+  "title": "Q&A 및 피드백 처리 (Bridge)",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv4-A2-S08-001",
+      "kr": "좋은 질문입니다. (v1)",
+      "en": "That's an excellent question. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-002",
+      "kr": "좀 더 자세히 설명해 드리겠습니다. (v1)",
+      "en": "Let me elaborate on that point. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-003",
+      "kr": "정확히 무엇을 의미하시는지 확인하고 싶습니다. (v1)",
+      "en": "I'd like to clarify what you mean exactly. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-004",
+      "kr": "그 부분은 확인해서 나중에 답변드리겠습니다. (v1)",
+      "en": "I'll check on that and get back to you. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-005",
+      "kr": "귀중한 피드백 감사합니다. (v1)",
+      "en": "Thank you for that valuable feedback. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-006",
+      "kr": "다른 관점에서 보시는군요. (v1)",
+      "en": "I see you're looking at it from a different perspective. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-007",
+      "kr": "제가 놓친 부분을 지적해 주셨습니다. (v1)",
+      "en": "You've pointed out something I missed. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-008",
+      "kr": "그 문제를 해결할 방법이 있습니다. (v1)",
+      "en": "There's a way to address that concern. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-009",
+      "kr": "더 질문 있으시면 언제든 말씀해 주세요. (v1)",
+      "en": "Please feel free to ask if you have more questions. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-010",
+      "kr": "시간 관계상 마지막 질문을 받겠습니다. (v1)",
+      "en": "Due to time constraints, I'll take one final question. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-011",
+      "kr": "좋은 질문입니다. (v2)",
+      "en": "That's an excellent question. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-012",
+      "kr": "좀 더 자세히 설명해 드리겠습니다. (v2)",
+      "en": "Let me elaborate on that point. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-013",
+      "kr": "정확히 무엇을 의미하시는지 확인하고 싶습니다. (v2)",
+      "en": "I'd like to clarify what you mean exactly. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-014",
+      "kr": "그 부분은 확인해서 나중에 답변드리겠습니다. (v2)",
+      "en": "I'll check on that and get back to you. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-015",
+      "kr": "귀중한 피드백 감사합니다. (v2)",
+      "en": "Thank you for that valuable feedback. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-016",
+      "kr": "다른 관점에서 보시는군요. (v2)",
+      "en": "I see you're looking at it from a different perspective. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-017",
+      "kr": "제가 놓친 부분을 지적해 주셨습니다. (v2)",
+      "en": "You've pointed out something I missed. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-018",
+      "kr": "그 문제를 해결할 방법이 있습니다. (v2)",
+      "en": "There's a way to address that concern. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-019",
+      "kr": "더 질문 있으시면 언제든 말씀해 주세요. (v2)",
+      "en": "Please feel free to ask if you have more questions. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-020",
+      "kr": "시간 관계상 마지막 질문을 받겠습니다. (v2)",
+      "en": "Due to time constraints, I'll take one final question. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-021",
+      "kr": "좋은 질문입니다. (v3)",
+      "en": "That's an excellent question. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-022",
+      "kr": "좀 더 자세히 설명해 드리겠습니다. (v3)",
+      "en": "Let me elaborate on that point. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-023",
+      "kr": "정확히 무엇을 의미하시는지 확인하고 싶습니다. (v3)",
+      "en": "I'd like to clarify what you mean exactly. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-024",
+      "kr": "그 부분은 확인해서 나중에 답변드리겠습니다. (v3)",
+      "en": "I'll check on that and get back to you. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-025",
+      "kr": "귀중한 피드백 감사합니다. (v3)",
+      "en": "Thank you for that valuable feedback. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-026",
+      "kr": "다른 관점에서 보시는군요. (v3)",
+      "en": "I see you're looking at it from a different perspective. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-027",
+      "kr": "제가 놓친 부분을 지적해 주셨습니다. (v3)",
+      "en": "You've pointed out something I missed. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-028",
+      "kr": "그 문제를 해결할 방법이 있습니다. (v3)",
+      "en": "There's a way to address that concern. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-029",
+      "kr": "더 질문 있으시면 언제든 말씀해 주세요. (v3)",
+      "en": "Please feel free to ask if you have more questions. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-030",
+      "kr": "시간 관계상 마지막 질문을 받겠습니다. (v3)",
+      "en": "Due to time constraints, I'll take one final question. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-031",
+      "kr": "좋은 질문입니다. (v4)",
+      "en": "That's an excellent question. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-032",
+      "kr": "좀 더 자세히 설명해 드리겠습니다. (v4)",
+      "en": "Let me elaborate on that point. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-033",
+      "kr": "정확히 무엇을 의미하시는지 확인하고 싶습니다. (v4)",
+      "en": "I'd like to clarify what you mean exactly. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-034",
+      "kr": "그 부분은 확인해서 나중에 답변드리겠습니다. (v4)",
+      "en": "I'll check on that and get back to you. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-035",
+      "kr": "귀중한 피드백 감사합니다. (v4)",
+      "en": "Thank you for that valuable feedback. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S08-036",
+      "kr": "다른 관점에서 보시는군요. (v4)",
+      "en": "I see you're looking at it from a different perspective. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S08-037",
+      "kr": "제가 놓친 부분을 지적해 주셨습니다. (v4)",
+      "en": "You've pointed out something I missed. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S08-038",
+      "kr": "그 문제를 해결할 방법이 있습니다. (v4)",
+      "en": "There's a way to address that concern. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S08-039",
+      "kr": "더 질문 있으시면 언제든 말씀해 주세요. (v4)",
+      "en": "Please feel free to ask if you have more questions. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S08-040",
+      "kr": "시간 관계상 마지막 질문을 받겠습니다. (v4)",
+      "en": "Due to time constraints, I'll take one final question. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S08-041",
+      "kr": "좋은 질문입니다. (v5)",
+      "en": "That's an excellent question. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S08-042",
+      "kr": "좀 더 자세히 설명해 드리겠습니다. (v5)",
+      "en": "Let me elaborate on that point. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S08-043",
+      "kr": "정확히 무엇을 의미하시는지 확인하고 싶습니다. (v5)",
+      "en": "I'd like to clarify what you mean exactly. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S08-044",
+      "kr": "그 부분은 확인해서 나중에 답변드리겠습니다. (v5)",
+      "en": "I'll check on that and get back to you. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S08-045",
+      "kr": "귀중한 피드백 감사합니다. (v5)",
+      "en": "Thank you for that valuable feedback. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S08-046",
+      "kr": "다른 관점에서 보시는군요. (v5)",
+      "en": "I see you're looking at it from a different perspective. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A2-S08-047",
+      "kr": "제가 놓친 부분을 지적해 주셨습니다. (v5)",
+      "en": "You've pointed out something I missed. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A2-S08-048",
+      "kr": "그 문제를 해결할 방법이 있습니다. (v5)",
+      "en": "There's a way to address that concern. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A2-S08-049",
+      "kr": "더 질문 있으시면 언제든 말씀해 주세요. (v5)",
+      "en": "Please feel free to ask if you have more questions. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A2-S08-050",
+      "kr": "시간 관계상 마지막 질문을 받겠습니다. (v5)",
+      "en": "Due to time constraints, I'll take one final question. (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 10,
+    "wh_q": 5
+  },
+  "status": "generated",
+  "batch": "L4_Business_Batch1"
+}

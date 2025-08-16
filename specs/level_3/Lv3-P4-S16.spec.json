@@ -1,0 +1,82 @@
+{
+  "id": "Lv3-P4-S16",
+  "title": "조건문 혼합 패턴 — 0/1/2형 실제 사용",
+  "intent": "조건문 0형, 1형, 2형을 실제 상황에서 적절히 선택하여 자연스럽게 사용한다.",
+  "focus": [
+    "MIXED-CONDITIONALS",
+    "REAL-USAGE",
+    "SITUATION-MATCHING",
+    "CONDITIONAL-CHOICE"
+  ],
+  "lexset": [
+    "fact, possibility, advice, regret, warning, prediction, suggestion, consequence"
+  ],
+  "traps": [
+    "조건문 유형 선택(사실/가능성/비현실)",
+    "시제 혼동 방지",
+    "상황별 적절성",
+    "unless vs if not"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "조건문 유형",
+    "상황",
+    "시간성",
+    "현실성"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "물을 끓이면 증발해.",
+      "en": "If you boil water, it evaporates."
+    },
+    {
+      "kr": "비가 오면 집에 있을게.",
+      "en": "If it rains, I'll stay home."
+    },
+    {
+      "kr": "돈이 있다면 새 차를 살 텐데.",
+      "en": "If I had money, I would buy a new car."
+    },
+    {
+      "kr": "일찍 오면 좋은 자리 구할 수 있어.",
+      "en": "If you come early, you can get a good seat."
+    },
+    {
+      "kr": "내가 너라면 사과할 거야.",
+      "en": "If I were you, I would apologize."
+    },
+    {
+      "kr": "늦지 않으면 영화 볼 수 있어.",
+      "en": "Unless you're late, you can watch the movie."
+    },
+    {
+      "kr": "열심히 공부하면 성공해.",
+      "en": "If you study hard, you succeed."
+    },
+    {
+      "kr": "시간이 있다면 같이 갈 텐데.",
+      "en": "If I had time, I would go with you."
+    },
+    {
+      "kr": "비가 안 오면 소풍갈 거야.",
+      "en": "If it doesn't rain, we'll go on a picnic."
+    },
+    {
+      "kr": "건강하다면 등산할 수 있을 텐데.",
+      "en": "If I were healthy, I could go hiking."
+    }
+  ]
+}

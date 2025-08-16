@@ -1,0 +1,83 @@
+{
+  "id": "Lv2-P5-S17",
+  "title": "조건문 2형 기초 — If I were/had",
+  "intent": "If I were you, If I had money 등으로 가상의 상황과 조언을 자연스럽게 표현한다.",
+  "focus": [
+    "SECOND-CONDITIONAL",
+    "IF-WERE",
+    "IF-HAD",
+    "HYPOTHETICAL",
+    "ADVICE"
+  ],
+  "lexset": [
+    "were, had, could, would, might, rich, young, free, different, possible, advice, choice"
+  ],
+  "traps": [
+    "was vs were in conditional(If I was vs If I were)",
+    "주절 조동사(I would go, not I will go)",
+    "시제 일치(If + past, would + base)",
+    "비현실적 상황 이해"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "가정 유형",
+    "조언",
+    "소망",
+    "가능성"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "내가 너라면 그렇게 안 할 거야.",
+      "en": "If I were you, I wouldn't do that."
+    },
+    {
+      "kr": "돈이 있다면 여행갈 텐데.",
+      "en": "If I had money, I would travel."
+    },
+    {
+      "kr": "시간이 있다면 도와줄 텐데.",
+      "en": "If I had time, I could help you."
+    },
+    {
+      "kr": "젊다면 다시 공부할 거야.",
+      "en": "If I were young, I would study again."
+    },
+    {
+      "kr": "그가 온다면 좋을 텐데.",
+      "en": "It would be nice if he came."
+    },
+    {
+      "kr": "부자라면 뭘 할 거야?",
+      "en": "What would you do if you were rich?"
+    },
+    {
+      "kr": "다시 선택할 수 있다면 달리 할 거야.",
+      "en": "If I could choose again, I would do differently."
+    },
+    {
+      "kr": "그녀가 여기 있다면 도와줄 텐데.",
+      "en": "If she were here, she would help."
+    },
+    {
+      "kr": "차가 있다면 데리러 갈 텐데.",
+      "en": "If I had a car, I would pick you up."
+    },
+    {
+      "kr": "자유롭다면 세계여행을 할 거야.",
+      "en": "If I were free, I would travel the world."
+    }
+  ]
+}

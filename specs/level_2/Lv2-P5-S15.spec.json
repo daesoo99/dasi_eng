@@ -1,0 +1,82 @@
+{
+  "id": "Lv2-P5-S15",
+  "title": "비교급/최상급 — 형용사·부사 기본",
+  "intent": "형용사·부사의 비교급/최상급을 자연스럽게 말하고, than/the most와 함께 비교 표현을 정확히 구성한다.",
+  "focus": [
+    "COMPARATIVE",
+    "SUPERLATIVE",
+    "THAN",
+    "ADJECTIVE-ADVERB"
+  ],
+  "lexset": [
+    "big, small, fast, slow, expensive, cheap, good, bad, far, old, young, tall, short, easy, difficult"
+  ],
+  "traps": [
+    "이중 비교급(more better ✗ → better)",
+    "불규칙 변화(good→better→best, bad→worse→worst)",
+    "than 누락(bigger me ✗ → bigger than me)",
+    "최상급 정관사(most expensive ✗ → the most expensive)"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "형용사/부사",
+    "규칙/불규칙 변화",
+    "비교 대상",
+    "맥락(가격/크기/속도)"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "이게 더 비싸.",
+      "en": "This is more expensive."
+    },
+    {
+      "kr": "그게 제일 좋은 선택이야.",
+      "en": "That's the best choice."
+    },
+    {
+      "kr": "오늘이 어제보다 더 따뜻해.",
+      "en": "Today is warmer than yesterday."
+    },
+    {
+      "kr": "이 방법이 더 쉬워.",
+      "en": "This way is easier."
+    },
+    {
+      "kr": "그는 나보다 키가 커.",
+      "en": "He is taller than me."
+    },
+    {
+      "kr": "이게 세상에서 제일 맛있어.",
+      "en": "This is the most delicious in the world."
+    },
+    {
+      "kr": "너는 더 빨리 달릴 수 있어.",
+      "en": "You can run faster."
+    },
+    {
+      "kr": "이 문제가 더 어려워.",
+      "en": "This problem is more difficult."
+    },
+    {
+      "kr": "그녀가 우리 중에서 제일 똑똑해.",
+      "en": "She is the smartest among us."
+    },
+    {
+      "kr": "이 길이 더 짧아.",
+      "en": "This road is shorter."
+    }
+  ]
+}

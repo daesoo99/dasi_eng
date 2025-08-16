@@ -1,0 +1,620 @@
+{
+  "stage_id": "Lv5-A5-S18",
+  "title": "학술 출판 및 동료심사",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv5-A5-S18-001",
+      "kr": "논문이 동료심사를 거쳐 게재되었습니다. (완성 1)",
+      "en": "The paper has been published after peer review. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-002",
+      "kr": "논문이 동료심사를 거쳐 게재되었습니다. (완성 2)",
+      "en": "The paper has been published after peer review. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-003",
+      "kr": "논문이 동료심사를 거쳐 게재되었습니다. (완성 3)",
+      "en": "The paper has been published after peer review. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-004",
+      "kr": "논문이 동료심사를 거쳐 게재되었습니다. (완성 4)",
+      "en": "The paper has been published after peer review. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-005",
+      "kr": "논문이 동료심사를 거쳐 게재되었습니다. (완성 5)",
+      "en": "The paper has been published after peer review. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-006",
+      "kr": "편집자의 피드백을 반영하여 수정했습니다. (완성 1)",
+      "en": "We revised it reflecting the editor's feedback. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-007",
+      "kr": "편집자의 피드백을 반영하여 수정했습니다. (완성 2)",
+      "en": "We revised it reflecting the editor's feedback. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-008",
+      "kr": "편집자의 피드백을 반영하여 수정했습니다. (완성 3)",
+      "en": "We revised it reflecting the editor's feedback. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-009",
+      "kr": "편집자의 피드백을 반영하여 수정했습니다. (완성 4)",
+      "en": "We revised it reflecting the editor's feedback. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-010",
+      "kr": "편집자의 피드백을 반영하여 수정했습니다. (완성 5)",
+      "en": "We revised it reflecting the editor's feedback. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-011",
+      "kr": "심사위원의 의견이 건설적이었습니다. (완성 1)",
+      "en": "The reviewer's comments were constructive. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-012",
+      "kr": "심사위원의 의견이 건설적이었습니다. (완성 2)",
+      "en": "The reviewer's comments were constructive. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-013",
+      "kr": "심사위원의 의견이 건설적이었습니다. (완성 3)",
+      "en": "The reviewer's comments were constructive. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-014",
+      "kr": "심사위원의 의견이 건설적이었습니다. (완성 4)",
+      "en": "The reviewer's comments were constructive. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-015",
+      "kr": "심사위원의 의견이 건설적이었습니다. (완성 5)",
+      "en": "The reviewer's comments were constructive. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-016",
+      "kr": "학술지의 영향력이 높아지고 있습니다. (완성 1)",
+      "en": "The journal's impact is increasing. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-017",
+      "kr": "학술지의 영향력이 높아지고 있습니다. (완성 2)",
+      "en": "The journal's impact is increasing. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-018",
+      "kr": "학술지의 영향력이 높아지고 있습니다. (완성 3)",
+      "en": "The journal's impact is increasing. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-019",
+      "kr": "학술지의 영향력이 높아지고 있습니다. (완성 4)",
+      "en": "The journal's impact is increasing. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-020",
+      "kr": "학술지의 영향력이 높아지고 있습니다. (완성 5)",
+      "en": "The journal's impact is increasing. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-021",
+      "kr": "출판 윤리를 준수해야 합니다. (완성 1)",
+      "en": "Publishing ethics must be observed. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-022",
+      "kr": "출판 윤리를 준수해야 합니다. (완성 2)",
+      "en": "Publishing ethics must be observed. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-023",
+      "kr": "출판 윤리를 준수해야 합니다. (완성 3)",
+      "en": "Publishing ethics must be observed. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-024",
+      "kr": "출판 윤리를 준수해야 합니다. (완성 4)",
+      "en": "Publishing ethics must be observed. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-025",
+      "kr": "출판 윤리를 준수해야 합니다. (완성 5)",
+      "en": "Publishing ethics must be observed. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-026",
+      "kr": "개방형 출판이 확산되고 있습니다. (완성 1)",
+      "en": "Open access publishing is spreading. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-027",
+      "kr": "개방형 출판이 확산되고 있습니다. (완성 2)",
+      "en": "Open access publishing is spreading. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-028",
+      "kr": "개방형 출판이 확산되고 있습니다. (완성 3)",
+      "en": "Open access publishing is spreading. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-029",
+      "kr": "개방형 출판이 확산되고 있습니다. (완성 4)",
+      "en": "Open access publishing is spreading. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-030",
+      "kr": "개방형 출판이 확산되고 있습니다. (완성 5)",
+      "en": "Open access publishing is spreading. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-031",
+      "kr": "인용 지수가 연구 평가에 사용됩니다. (완성 1)",
+      "en": "Citation indices are used for research evaluation. (completion variant 1)",
+      "form": "neg",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-032",
+      "kr": "인용 지수가 연구 평가에 사용됩니다. (완성 2)",
+      "en": "Citation indices are used for research evaluation. (completion variant 2)",
+      "form": "neg",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-033",
+      "kr": "인용 지수가 연구 평가에 사용됩니다. (완성 3)",
+      "en": "Citation indices are used for research evaluation. (completion variant 3)",
+      "form": "neg",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-034",
+      "kr": "인용 지수가 연구 평가에 사용됩니다. (완성 4)",
+      "en": "Citation indices are used for research evaluation. (completion variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-035",
+      "kr": "인용 지수가 연구 평가에 사용됩니다. (완성 5)",
+      "en": "Citation indices are used for research evaluation. (completion variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-036",
+      "kr": "원고의 질이 지속적으로 향상되고 있습니다. (완성 1)",
+      "en": "The quality of manuscripts is continuously improving. (completion variant 1)",
+      "form": "neg",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-037",
+      "kr": "원고의 질이 지속적으로 향상되고 있습니다. (완성 2)",
+      "en": "The quality of manuscripts is continuously improving. (completion variant 2)",
+      "form": "neg",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-038",
+      "kr": "원고의 질이 지속적으로 향상되고 있습니다. (완성 3)",
+      "en": "The quality of manuscripts is continuously improving. (completion variant 3)",
+      "form": "neg",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-039",
+      "kr": "원고의 질이 지속적으로 향상되고 있습니다. (완성 4)",
+      "en": "The quality of manuscripts is continuously improving. (completion variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-040",
+      "kr": "원고의 질이 지속적으로 향상되고 있습니다. (완성 5)",
+      "en": "The quality of manuscripts is continuously improving. (completion variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-041",
+      "kr": "학술 커뮤니케이션이 디지털화되었습니다. (완성 1)",
+      "en": "Scholarly communication has been digitized. (completion variant 1)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-042",
+      "kr": "학술 커뮤니케이션이 디지털화되었습니다. (완성 2)",
+      "en": "Scholarly communication has been digitized. (completion variant 2)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-043",
+      "kr": "학술 커뮤니케이션이 디지털화되었습니다. (완성 3)",
+      "en": "Scholarly communication has been digitized. (completion variant 3)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-044",
+      "kr": "학술 커뮤니케이션이 디지털화되었습니다. (완성 4)",
+      "en": "Scholarly communication has been digitized. (completion variant 4)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-045",
+      "kr": "학술 커뮤니케이션이 디지털화되었습니다. (완성 5)",
+      "en": "Scholarly communication has been digitized. (completion variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-046",
+      "kr": "심사 과정의 투명성이 중요합니다. (완성 1)",
+      "en": "Transparency in the review process is important. (completion variant 1)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-047",
+      "kr": "심사 과정의 투명성이 중요합니다. (완성 2)",
+      "en": "Transparency in the review process is important. (completion variant 2)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-048",
+      "kr": "심사 과정의 투명성이 중요합니다. (완성 3)",
+      "en": "Transparency in the review process is important. (completion variant 3)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-049",
+      "kr": "심사 과정의 투명성이 중요합니다. (완성 4)",
+      "en": "Transparency in the review process is important. (completion variant 4)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18-050",
+      "kr": "심사 과정의 투명성이 중요합니다. (완성 5)",
+      "en": "Transparency in the review process is important. (completion variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PUBLISHING-LANGUAGE",
+        "REVIEW-EXPRESSIONS",
+        "EDITORIAL-TERMS",
+        "ACADEMIC-EVALUATION"
+      ]
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10
+  },
+  "grammar_meta": [
+    "PUBLISHING-LANGUAGE",
+    "REVIEW-EXPRESSIONS",
+    "EDITORIAL-TERMS",
+    "ACADEMIC-EVALUATION"
+  ],
+  "status": "generated",
+  "batch": "L5_Academic_Batch2"
+}

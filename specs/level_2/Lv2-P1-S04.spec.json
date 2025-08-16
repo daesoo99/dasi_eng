@@ -1,0 +1,82 @@
+{
+  "id": "Lv2-P1-S04",
+  "title": "빈도·시간 결합 — every/each + 시간표현",
+  "intent": "every day/week/month, each time 등으로 정기적인 습관과 반복을 자연스럽게 표현한다.",
+  "focus": [
+    "FREQUENCY-TIME",
+    "EVERY-EACH",
+    "REGULAR-HABITS",
+    "TIME-EXPRESSIONS"
+  ],
+  "lexset": [
+    "every day/week/month/year, each time/morning, once/twice, daily, weekly, monthly, regularly"
+  ],
+  "traps": [
+    "every vs each 구분(every student vs each student)",
+    "시간 전치사(every Monday vs on Mondays)",
+    "단복수(every day vs every days ✗)",
+    "once/twice + 시간 단위(once a week)"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "시간 단위",
+    "빈도 정도",
+    "규칙성",
+    "개인/일반"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "매일 운동해.",
+      "en": "I exercise every day."
+    },
+    {
+      "kr": "매주 월요일에 회의가 있어.",
+      "en": "We have a meeting every Monday."
+    },
+    {
+      "kr": "한 달에 한 번 영화 봐.",
+      "en": "I watch a movie once a month."
+    },
+    {
+      "kr": "매번 늦어.",
+      "en": "I'm late each time."
+    },
+    {
+      "kr": "일주일에 두 번 수영해.",
+      "en": "I swim twice a week."
+    },
+    {
+      "kr": "매년 여행가.",
+      "en": "I travel every year."
+    },
+    {
+      "kr": "정기적으로 검진 받아.",
+      "en": "I get checkups regularly."
+    },
+    {
+      "kr": "매일 아침 커피 마셔.",
+      "en": "I drink coffee each morning."
+    },
+    {
+      "kr": "한 주에 몇 번 운동해?",
+      "en": "How many times a week do you exercise?"
+    },
+    {
+      "kr": "매달 책을 몇 권 읽어.",
+      "en": "I read several books every month."
+    }
+  ]
+}

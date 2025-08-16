@@ -1,0 +1,82 @@
+{
+  "id": "Lv3-P3-S10",
+  "title": "수동태 기초 — 현재/과거, 사람·도구 by-구",
+  "intent": "be + 과거분사로 현재/과거 수동태를 만들고, by-구로 행위자·도구를 자연스럽게 표현한다.",
+  "focus": [
+    "PASSIVE-VOICE",
+    "BE-PAST-PARTICIPLE",
+    "BY-AGENT",
+    "PRESENT-PAST-PASSIVE"
+  ],
+  "lexset": [
+    "make, build, write, design, create, repair, clean, teach, sell, buy, deliver, send"
+  ],
+  "traps": [
+    "by vs with 혼동(by someone vs with something)",
+    "시제 일치(is made vs was made)",
+    "과거분사 형태(builded ✗ → built)",
+    "불필요한 by-구(The door was opened by someone ✗)"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "현재/과거",
+    "행위자/도구",
+    "규칙/불규칙 과거분사",
+    "필요성"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "이 집은 1990년에 지어졌어.",
+      "en": "This house was built in 1990."
+    },
+    {
+      "kr": "편지가 어제 보내졌어.",
+      "en": "The letter was sent yesterday."
+    },
+    {
+      "kr": "이 책은 유명한 작가가 썼어.",
+      "en": "This book was written by a famous writer."
+    },
+    {
+      "kr": "음식이 식당에서 만들어져.",
+      "en": "Food is made in the restaurant."
+    },
+    {
+      "kr": "차가 정비소에서 수리됐어.",
+      "en": "The car was repaired at the garage."
+    },
+    {
+      "kr": "이 제품은 한국에서 만들어져.",
+      "en": "This product is made in Korea."
+    },
+    {
+      "kr": "방이 어제 청소됐어.",
+      "en": "The room was cleaned yesterday."
+    },
+    {
+      "kr": "영어가 전 세계에서 사용돼.",
+      "en": "English is spoken all over the world."
+    },
+    {
+      "kr": "이 건물은 유명한 건축가가 설계했어.",
+      "en": "This building was designed by a famous architect."
+    },
+    {
+      "kr": "소포가 내일 배달될 거야.",
+      "en": "The package will be delivered tomorrow."
+    }
+  ]
+}

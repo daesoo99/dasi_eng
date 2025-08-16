@@ -1,0 +1,620 @@
+{
+  "stage_id": "Lv5-A4-S15",
+  "title": "연구 영향력 및 사회적 기여",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv5-A4-S15-001",
+      "kr": "연구가 사회에 미치는 영향을 평가합니다. (완성 1)",
+      "en": "We assess the impact of research on society. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-002",
+      "kr": "연구가 사회에 미치는 영향을 평가합니다. (완성 2)",
+      "en": "We assess the impact of research on society. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-003",
+      "kr": "연구가 사회에 미치는 영향을 평가합니다. (완성 3)",
+      "en": "We assess the impact of research on society. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-004",
+      "kr": "연구가 사회에 미치는 영향을 평가합니다. (완성 4)",
+      "en": "We assess the impact of research on society. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-005",
+      "kr": "연구가 사회에 미치는 영향을 평가합니다. (완성 5)",
+      "en": "We assess the impact of research on society. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-006",
+      "kr": "지식 전달이 연구의 중요한 목표입니다. (완성 1)",
+      "en": "Knowledge transfer is an important goal of research. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-007",
+      "kr": "지식 전달이 연구의 중요한 목표입니다. (완성 2)",
+      "en": "Knowledge transfer is an important goal of research. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-008",
+      "kr": "지식 전달이 연구의 중요한 목표입니다. (완성 3)",
+      "en": "Knowledge transfer is an important goal of research. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-009",
+      "kr": "지식 전달이 연구의 중요한 목표입니다. (완성 4)",
+      "en": "Knowledge transfer is an important goal of research. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-010",
+      "kr": "지식 전달이 연구의 중요한 목표입니다. (완성 5)",
+      "en": "Knowledge transfer is an important goal of research. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-011",
+      "kr": "대중과의 소통이 강화되어야 합니다. (완성 1)",
+      "en": "Communication with the public should be strengthened. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-012",
+      "kr": "대중과의 소통이 강화되어야 합니다. (완성 2)",
+      "en": "Communication with the public should be strengthened. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-013",
+      "kr": "대중과의 소통이 강화되어야 합니다. (완성 3)",
+      "en": "Communication with the public should be strengthened. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-014",
+      "kr": "대중과의 소통이 강화되어야 합니다. (완성 4)",
+      "en": "Communication with the public should be strengthened. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-015",
+      "kr": "대중과의 소통이 강화되어야 합니다. (완성 5)",
+      "en": "Communication with the public should be strengthened. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-016",
+      "kr": "연구 성과를 사회에 환원합니다. (완성 1)",
+      "en": "We return research results to society. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-017",
+      "kr": "연구 성과를 사회에 환원합니다. (완성 2)",
+      "en": "We return research results to society. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-018",
+      "kr": "연구 성과를 사회에 환원합니다. (완성 3)",
+      "en": "We return research results to society. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-019",
+      "kr": "연구 성과를 사회에 환원합니다. (완성 4)",
+      "en": "We return research results to society. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-020",
+      "kr": "연구 성과를 사회에 환원합니다. (완성 5)",
+      "en": "We return research results to society. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-021",
+      "kr": "학술 연구의 실용적 가치가 중요합니다. (완성 1)",
+      "en": "The practical value of academic research is important. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-022",
+      "kr": "학술 연구의 실용적 가치가 중요합니다. (완성 2)",
+      "en": "The practical value of academic research is important. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-023",
+      "kr": "학술 연구의 실용적 가치가 중요합니다. (완성 3)",
+      "en": "The practical value of academic research is important. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-024",
+      "kr": "학술 연구의 실용적 가치가 중요합니다. (완성 4)",
+      "en": "The practical value of academic research is important. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-025",
+      "kr": "학술 연구의 실용적 가치가 중요합니다. (완성 5)",
+      "en": "The practical value of academic research is important. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-026",
+      "kr": "사회적 참여가 연구의 질을 높입니다. (완성 1)",
+      "en": "Social engagement enhances research quality. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-027",
+      "kr": "사회적 참여가 연구의 질을 높입니다. (완성 2)",
+      "en": "Social engagement enhances research quality. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-028",
+      "kr": "사회적 참여가 연구의 질을 높입니다. (완성 3)",
+      "en": "Social engagement enhances research quality. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-029",
+      "kr": "사회적 참여가 연구의 질을 높입니다. (완성 4)",
+      "en": "Social engagement enhances research quality. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-030",
+      "kr": "사회적 참여가 연구의 질을 높입니다. (완성 5)",
+      "en": "Social engagement enhances research quality. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-031",
+      "kr": "연구 결과를 널리 확산시켜야 합니다. (완성 1)",
+      "en": "Research results should be widely disseminated. (completion variant 1)",
+      "form": "neg",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-032",
+      "kr": "연구 결과를 널리 확산시켜야 합니다. (완성 2)",
+      "en": "Research results should be widely disseminated. (completion variant 2)",
+      "form": "neg",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-033",
+      "kr": "연구 결과를 널리 확산시켜야 합니다. (완성 3)",
+      "en": "Research results should be widely disseminated. (completion variant 3)",
+      "form": "neg",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-034",
+      "kr": "연구 결과를 널리 확산시켜야 합니다. (완성 4)",
+      "en": "Research results should be widely disseminated. (completion variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-035",
+      "kr": "연구 결과를 널리 확산시켜야 합니다. (완성 5)",
+      "en": "Research results should be widely disseminated. (completion variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-036",
+      "kr": "학계와 산업계의 연결이 필요합니다. (완성 1)",
+      "en": "Connection between academia and industry is necessary. (completion variant 1)",
+      "form": "neg",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-037",
+      "kr": "학계와 산업계의 연결이 필요합니다. (완성 2)",
+      "en": "Connection between academia and industry is necessary. (completion variant 2)",
+      "form": "neg",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-038",
+      "kr": "학계와 산업계의 연결이 필요합니다. (완성 3)",
+      "en": "Connection between academia and industry is necessary. (completion variant 3)",
+      "form": "neg",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-039",
+      "kr": "학계와 산업계의 연결이 필요합니다. (완성 4)",
+      "en": "Connection between academia and industry is necessary. (completion variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-040",
+      "kr": "학계와 산업계의 연결이 필요합니다. (완성 5)",
+      "en": "Connection between academia and industry is necessary. (completion variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-041",
+      "kr": "공공 정책에 연구가 기여할 수 있습니다. (완성 1)",
+      "en": "Research can contribute to public policy. (completion variant 1)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-042",
+      "kr": "공공 정책에 연구가 기여할 수 있습니다. (완성 2)",
+      "en": "Research can contribute to public policy. (completion variant 2)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-043",
+      "kr": "공공 정책에 연구가 기여할 수 있습니다. (완성 3)",
+      "en": "Research can contribute to public policy. (completion variant 3)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-044",
+      "kr": "공공 정책에 연구가 기여할 수 있습니다. (완성 4)",
+      "en": "Research can contribute to public policy. (completion variant 4)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-045",
+      "kr": "공공 정책에 연구가 기여할 수 있습니다. (완성 5)",
+      "en": "Research can contribute to public policy. (completion variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-046",
+      "kr": "사회적 문제 해결에 학술이 역할합니다. (완성 1)",
+      "en": "Academia plays a role in solving social problems. (completion variant 1)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-047",
+      "kr": "사회적 문제 해결에 학술이 역할합니다. (완성 2)",
+      "en": "Academia plays a role in solving social problems. (completion variant 2)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-048",
+      "kr": "사회적 문제 해결에 학술이 역할합니다. (완성 3)",
+      "en": "Academia plays a role in solving social problems. (completion variant 3)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-049",
+      "kr": "사회적 문제 해결에 학술이 역할합니다. (완성 4)",
+      "en": "Academia plays a role in solving social problems. (completion variant 4)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15-050",
+      "kr": "사회적 문제 해결에 학술이 역할합니다. (완성 5)",
+      "en": "Academia plays a role in solving social problems. (completion variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "IMPACT-ASSESSMENT",
+        "CONTRIBUTION-LANGUAGE",
+        "TRANSFER-EXPRESSIONS",
+        "SOCIAL-BENEFIT"
+      ]
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10
+  },
+  "grammar_meta": [
+    "IMPACT-ASSESSMENT",
+    "CONTRIBUTION-LANGUAGE",
+    "TRANSFER-EXPRESSIONS",
+    "SOCIAL-BENEFIT"
+  ],
+  "status": "generated",
+  "batch": "L5_Academic_Batch2"
+}

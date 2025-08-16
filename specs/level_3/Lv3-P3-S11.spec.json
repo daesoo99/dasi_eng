@@ -1,0 +1,83 @@
+{
+  "id": "Lv3-P3-S11",
+  "title": "수동태 + 시제 — 과거완료/미래/현재완료 수동",
+  "intent": "다양한 시제의 수동태를 정확히 구성하고 자연스럽게 사용한다.",
+  "focus": [
+    "PASSIVE-TENSES",
+    "HAD-BEEN",
+    "WILL-BE",
+    "HAVE-BEEN",
+    "COMPLEX-PASSIVE"
+  ],
+  "lexset": [
+    "build, complete, repair, publish, discover, invent, solve, announce, cancel, postpone"
+  ],
+  "traps": [
+    "시제별 수동태 구조(will be done, has been done)",
+    "과거완료 수동태(had been built)",
+    "by-구 필요성 판단",
+    "능동-수동 시제 일치"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "시제",
+    "동사 유형",
+    "by-구",
+    "필요성"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "집이 이미 팔렸어.",
+      "en": "The house has been sold."
+    },
+    {
+      "kr": "다리가 내년에 완공될 거야.",
+      "en": "The bridge will be completed next year."
+    },
+    {
+      "kr": "건물이 이미 철거됐었어.",
+      "en": "The building had already been demolished."
+    },
+    {
+      "kr": "책이 여러 언어로 번역됐어.",
+      "en": "The book has been translated into several languages."
+    },
+    {
+      "kr": "회의가 취소될 거야.",
+      "en": "The meeting will be cancelled."
+    },
+    {
+      "kr": "문제가 해결됐어.",
+      "en": "The problem has been solved."
+    },
+    {
+      "kr": "새로운 약이 발견됐어.",
+      "en": "A new medicine has been discovered."
+    },
+    {
+      "kr": "공항이 폐쇄될 예정이야.",
+      "en": "The airport will be closed."
+    },
+    {
+      "kr": "보고서가 이미 제출됐었어.",
+      "en": "The report had already been submitted."
+    },
+    {
+      "kr": "계획이 발표될 거야.",
+      "en": "The plan will be announced."
+    }
+  ]
+}

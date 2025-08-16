@@ -1,0 +1,53 @@
+{
+  "name": "dasi-english-web",
+  "version": "1.0.0",
+  "description": "DASI English - AI-Powered Language Learning",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@types/node": "^18.15.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.1.0",
+    "autoprefixer": "^10.4.0",
+    "axios": "^1.11.0",
+    "firebase": "^10.4.0",
+    "postcss": "^8.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0",
+    "tailwindcss": "^3.3.0",
+    "typescript": "5.3.3",
+    "vite": "5.2.0",
+    "zustand": "^4.4.0"
+  },
+  "devDependencies": {
+    "typescript": "5.3.3",
+    "vite": "5.2.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:8081"
+}

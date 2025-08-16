@@ -1,0 +1,82 @@
+{
+  "id": "Lv3-P4-S15",
+  "title": "조건문 1형 — 현실적 가정 (If + 현재, will)",
+  "intent": "If + 현재시제, will + 동사원형으로 미래의 현실적 가능성과 계획을 자연스럽게 표현한다.",
+  "focus": [
+    "FIRST-CONDITIONAL",
+    "REAL-POSSIBILITY",
+    "IF-WILL",
+    "FUTURE-PLANS"
+  ],
+  "lexset": [
+    "pass, fail, arrive, miss, finish, start, call, come, go, buy, sell, win, lose"
+  ],
+  "traps": [
+    "if절에 will 사용 금지(If you will come ✗)",
+    "주절 시제(you will be happy)",
+    "unless = if not 이해",
+    "조건 vs 시간(when vs if)"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "가능성 정도",
+    "긍정/부정",
+    "계획/예상",
+    "unless"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "시험에 통과하면 축하할게.",
+      "en": "If you pass the exam, I'll congratulate you."
+    },
+    {
+      "kr": "늦으면 놓칠 거야.",
+      "en": "If you're late, you'll miss it."
+    },
+    {
+      "kr": "비가 오면 집에 있을게.",
+      "en": "If it rains, I'll stay home."
+    },
+    {
+      "kr": "시간이 있으면 전화할게.",
+      "en": "If I have time, I'll call you."
+    },
+    {
+      "kr": "그가 오면 같이 갈 거야.",
+      "en": "If he comes, we'll go together."
+    },
+    {
+      "kr": "돈이 있으면 살 거야.",
+      "en": "If I have money, I'll buy it."
+    },
+    {
+      "kr": "일찍 끝나면 만날 수 있어.",
+      "en": "If we finish early, we can meet."
+    },
+    {
+      "kr": "도착하면 연락할게.",
+      "en": "If I arrive, I'll contact you."
+    },
+    {
+      "kr": "이기면 파티할 거야.",
+      "en": "If we win, we'll have a party."
+    },
+    {
+      "kr": "안 오면 기다리지 않을게.",
+      "en": "If you don't come, I won't wait."
+    }
+  ]
+}

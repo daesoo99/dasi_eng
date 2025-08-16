@@ -1,0 +1,82 @@
+{
+  "id": "Lv2-P2-S12",
+  "title": "미래표현 혼합 — will/be going to/현재진행형 미래",
+  "intent": "will(즉석 결정), be going to(계획), 현재진행형(확정 일정)의 차이를 이해하고 상황에 맞게 선택한다.",
+  "focus": [
+    "FUTURE-WILL",
+    "BE-GOING-TO",
+    "PRESENT-CONTINUOUS-FUTURE",
+    "FUTURE-PLANS"
+  ],
+  "lexset": [
+    "decide, plan, arrange, schedule, promise, predict, intend, expect, probably, definitely"
+  ],
+  "traps": [
+    "will vs be going to 선택(즉석 vs 계획)",
+    "현재진행형 미래(I'm meeting him tomorrow)",
+    "be going to 축약(I'm gonna go ✗ in formal)",
+    "미래 시간부사(tomorrow, next week)"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "미래 유형",
+    "확실성",
+    "계획성",
+    "시간"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "내일 비가 올 거야.",
+      "en": "It will rain tomorrow."
+    },
+    {
+      "kr": "주말에 쇼핑할 계획이야.",
+      "en": "I'm going to go shopping this weekend."
+    },
+    {
+      "kr": "내일 친구 만나기로 했어.",
+      "en": "I'm meeting a friend tomorrow."
+    },
+    {
+      "kr": "도와줄게.",
+      "en": "I'll help you."
+    },
+    {
+      "kr": "새 차 살 거야.",
+      "en": "I'm going to buy a new car."
+    },
+    {
+      "kr": "7시에 영화 보러 가.",
+      "en": "I'm watching a movie at seven."
+    },
+    {
+      "kr": "아마 늦을 거야.",
+      "en": "I'll probably be late."
+    },
+    {
+      "kr": "내년에 결혼할 예정이야.",
+      "en": "I'm going to get married next year."
+    },
+    {
+      "kr": "뭐 할 거야?",
+      "en": "What are you going to do?"
+    },
+    {
+      "kr": "곧 출발해.",
+      "en": "I'm leaving soon."
+    }
+  ]
+}

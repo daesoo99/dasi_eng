@@ -1,0 +1,82 @@
+{
+  "id": "Lv2-P2-S11",
+  "title": "like to / like -ing / would like 구분",
+  "intent": "like to do, like doing, would like to의 의미와 뉘앙스 차이를 이해하고 상황에 맞게 선택하여 말한다.",
+  "focus": [
+    "LIKE-PATTERNS",
+    "INFINITIVE-GERUND",
+    "WOULD-LIKE",
+    "PREFERENCES"
+  ],
+  "lexset": [
+    "read, watch, play, listen, travel, cook, study, exercise, shop, dance, swim, sing"
+  ],
+  "traps": [
+    "like + to vs -ing 혼동",
+    "would like + -ing 오류(would like going ✗)",
+    "일반적 취향 vs 즉시 원하는 것 구분",
+    "정중함 정도(like vs would like)"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "패턴 유형",
+    "시간성",
+    "정중도",
+    "맥락"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "읽는 걸 좋아해.",
+      "en": "I like reading."
+    },
+    {
+      "kr": "영화 보고 싶어.",
+      "en": "I would like to watch a movie."
+    },
+    {
+      "kr": "요리하는 걸 좋아해.",
+      "en": "I like to cook."
+    },
+    {
+      "kr": "커피 한 잔 하고 싶어요.",
+      "en": "I would like to have coffee."
+    },
+    {
+      "kr": "수영하는 걸 좋아하지 않아.",
+      "en": "I don't like swimming."
+    },
+    {
+      "kr": "음악 듣는 걸 좋아해.",
+      "en": "I like listening to music."
+    },
+    {
+      "kr": "여행가고 싶어.",
+      "en": "I would like to travel."
+    },
+    {
+      "kr": "춤추는 걸 좋아해?",
+      "en": "Do you like dancing?"
+    },
+    {
+      "kr": "뭘 하고 싶어?",
+      "en": "What would you like to do?"
+    },
+    {
+      "kr": "운동하는 걸 좋아해.",
+      "en": "I like exercising."
+    }
+  ]
+}

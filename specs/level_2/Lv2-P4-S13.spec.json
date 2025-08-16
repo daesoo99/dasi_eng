@@ -1,0 +1,82 @@
+{
+  "id": "Lv2-P4-S13",
+  "title": "There is/are 확장 — 수량·형용사·전치사 결합",
+  "intent": "There is/are를 수량표현, 형용사, 전치사구와 결합하여 복잡한 존재·위치 설명을 자연스럽게 한다.",
+  "focus": [
+    "THERE-IS-EXTENDED",
+    "QUANTIFIERS",
+    "ADJECTIVES",
+    "PREPOSITIONAL-PHRASES"
+  ],
+  "lexset": [
+    "some, many, few, several, a lot of, noise, traffic, problem, solution, reason, way, place"
+  ],
+  "traps": [
+    "There's + 복수명사(There's many ✗)",
+    "수량사 선택(few vs a few)",
+    "형용사 위치(There are problems big ✗)",
+    "전치사구 연결(There is a book on the table)"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "수량 정도",
+    "형용사 유형",
+    "전치사구",
+    "복잡도"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "밖에 소음이 많아.",
+      "en": "There's a lot of noise outside."
+    },
+    {
+      "kr": "책상 위에 책이 몇 권 있어.",
+      "en": "There are several books on the desk."
+    },
+    {
+      "kr": "해결할 방법이 거의 없어.",
+      "en": "There are few ways to solve it."
+    },
+    {
+      "kr": "좋은 이유가 있어.",
+      "en": "There's a good reason."
+    },
+    {
+      "kr": "교통이 별로 없어.",
+      "en": "There isn't much traffic."
+    },
+    {
+      "kr": "큰 문제가 하나 있어.",
+      "en": "There's one big problem."
+    },
+    {
+      "kr": "갈 곳이 많아.",
+      "en": "There are many places to go."
+    },
+    {
+      "kr": "냉장고에 음식이 좀 있어.",
+      "en": "There's some food in the fridge."
+    },
+    {
+      "kr": "좋은 소식이 있어.",
+      "en": "There's good news."
+    },
+    {
+      "kr": "할 일이 너무 많아.",
+      "en": "There's too much to do."
+    }
+  ]
+}

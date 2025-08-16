@@ -1,0 +1,82 @@
+{
+  "id": "Lv3-P3-S12",
+  "title": "관계대명사 심화 (that/which/who 정확한 구분)",
+  "intent": "관계대명사의 제한적/비제한적 용법을 구분하고 쉼표 사용법을 익힌다.",
+  "focus": [
+    "RELATIVE-PRONOUN-ADVANCED",
+    "RESTRICTIVE-VS-NON-RESTRICTIVE",
+    "COMMA-USAGE",
+    "WHO-WHICH-THAT"
+  ],
+  "lexset": [
+    "who, which, that, whom, whose, where, when, why, person, thing"
+  ],
+  "traps": [
+    "제한적 vs 비제한적 관계절",
+    "쉼표 사용 여부",
+    "that vs which 구분",
+    "관계대명사 생략 조건"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.7,
+    "neg": 0.1,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "사람/사물",
+    "제한/비제한",
+    "주격/목적격",
+    "쉼표 유무"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "어제 만난 사람이 선생님이었어요.",
+      "en": "The person who I met yesterday was a teacher."
+    },
+    {
+      "kr": "그 책은 매우 유명한데, 작년에 출간되었습니다.",
+      "en": "The book, which was published last year, is very famous."
+    },
+    {
+      "kr": "영어를 배우는 학생들이 열심히 공부합니다.",
+      "en": "Students who learn English study hard."
+    },
+    {
+      "kr": "이것이 제가 찾던 것입니다.",
+      "en": "This is what I was looking for."
+    },
+    {
+      "kr": "파리는 제가 가장 좋아하는 도시입니다.",
+      "en": "Paris, which is my favorite city, is beautiful."
+    },
+    {
+      "kr": "차 키를 가진 사람이 누구예요?",
+      "en": "Who is the person that has the car keys?"
+    },
+    {
+      "kr": "그것이 제가 말한 이유입니다.",
+      "en": "That's the reason why I said it."
+    },
+    {
+      "kr": "그들이 살고 있는 집이 매우 크네요.",
+      "en": "The house where they live is very big."
+    },
+    {
+      "kr": "우리가 처음 만난 날을 기억해요.",
+      "en": "I remember the day when we first met."
+    },
+    {
+      "kr": "도움이 필요한 사람들을 도와야 합니다.",
+      "en": "We should help people who need help."
+    }
+  ]
+}

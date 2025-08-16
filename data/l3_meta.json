@@ -1,0 +1,8 @@
+{
+  "level": 3,
+  "version": "revised",
+  "totalPhases": 6,
+  "totalStages": 26,
+  "bridges": ["Lv3-B2-S05","Lv3-B3-S10","Lv3-B4-S15"],
+  "classificationTally": {"core":23,"bridge":3,"optional":0}
+}

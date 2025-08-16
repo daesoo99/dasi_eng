@@ -1,0 +1,82 @@
+{
+  "id": "Lv3-P2-S08",
+  "title": "현재완료 vs 과거 정확한 구분",
+  "intent": "현재완료와 과거시제의 차이를 명확히 이해하고 상황에 맞게 정확히 선택한다.",
+  "focus": [
+    "PRESENT-PERFECT-VS-PAST",
+    "TIME-REFERENCE",
+    "RESULT-VS-WHEN",
+    "CONTEXT"
+  ],
+  "lexset": [
+    "yesterday, last week, ago, recently, lately, just, already, yet, ever, never, since, for"
+  ],
+  "traps": [
+    "시간 표현과 시제(yesterday + present perfect ✗)",
+    "완료 vs 과거(I have seen vs I saw)",
+    "결과 vs 시점 중요도",
+    "질문-답변 시제 일치"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.5,
+    "neg": 0.2,
+    "wh_q": 0.3
+  },
+  "variants": [
+    "시간 표현",
+    "맥락",
+    "중요도",
+    "질문 유형"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "어제 영화 봤어.",
+      "en": "I saw a movie yesterday."
+    },
+    {
+      "kr": "그 영화 본 적 있어?",
+      "en": "Have you seen that movie?"
+    },
+    {
+      "kr": "방금 도착했어.",
+      "en": "I have just arrived."
+    },
+    {
+      "kr": "언제 도착했어?",
+      "en": "When did you arrive?"
+    },
+    {
+      "kr": "최근에 바빴어.",
+      "en": "I have been busy recently."
+    },
+    {
+      "kr": "지난주에 바빴어.",
+      "en": "I was busy last week."
+    },
+    {
+      "kr": "이미 끝냈어.",
+      "en": "I have already finished."
+    },
+    {
+      "kr": "1시간 전에 끝냈어.",
+      "en": "I finished an hour ago."
+    },
+    {
+      "kr": "런던에 가 본 적 있어?",
+      "en": "Have you ever been to London?"
+    },
+    {
+      "kr": "작년에 런던에 갔어.",
+      "en": "I went to London last year."
+    }
+  ]
+}

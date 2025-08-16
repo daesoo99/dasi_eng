@@ -57,9 +57,17 @@ Thumbs.db
 **/ios/Flutter/Generated.xcconfig
 **/ios/Runner/GeneratedPluginRegistrant.*
 
-# Google Cloud credentials
-google-cloud-key.json
-*.json
+# Firebase credentials
+**/firebase-service-account*.json
+**/firebaseServiceAccountKey.json
+
+# Keep important JSON files
+!package.json
+!package-lock.json
+!tsconfig.json
+!data/*.json
+!patterns/**/*.json
+!banks/**/*.json
 
 # Temporary files
 tmp/

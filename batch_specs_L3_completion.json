@@ -1,0 +1,442 @@
+{
+  "batch": "L3_Completion_Final",
+  "createdAt": "2025-08-15T02:15:00Z",
+  "description": "L3 고급 문법 완성 - 잔여 16스테이지 (시제/가정법/관계사/담화 표현)",
+  "stages": [
+    {
+      "id": "Lv3-P1-S01",
+      "title": "미래형 심화 (will vs be going to vs 현재진행형)",
+      "intent": "다양한 미래 표현의 뉘앙스 차이를 이해하고 상황에 맞게 적절히 사용한다.",
+      "focus": ["FUTURE-NUANCES", "PLANNING-VS-PREDICTION", "INTENTION-DISTINCTION", "TIME-CONTEXT"],
+      "lexset": ["plan, intend, expect, predict, schedule, decide, promise, announce, forecast, arrange"],
+      "traps": [
+        "will vs be going to 의도/계획 구분",
+        "현재진행형 미래 (확정된 계획)",
+        "시간 표현과의 조합",
+        "주관적 예측 vs 객관적 계획"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["시간 맥락", "확실성 정도", "계획 vs 예측", "격식도"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "내일 비가 올 것 같습니다.", "en": "It's going to rain tomorrow." },
+        { "kr": "다음 주에 여행을 갈 예정입니다.", "en": "I'm going to travel next week." },
+        { "kr": "언젠가는 성공할 것입니다.", "en": "I will succeed someday." },
+        { "kr": "오늘 저녁에 친구를 만날 거예요.", "en": "I'm meeting a friend tonight." },
+        { "kr": "그 일은 쉽지 않을 것입니다.", "en": "It won't be easy." },
+        { "kr": "계획을 바꿀 생각입니다.", "en": "I'm going to change the plan." },
+        { "kr": "회의는 언제 시작할 예정인가요?", "en": "When is the meeting going to start?" },
+        { "kr": "그들은 곧 도착할 것입니다.", "en": "They will arrive soon." },
+        { "kr": "새로운 프로젝트를 시작할 거예요.", "en": "We're starting a new project." },
+        { "kr": "날씨가 좋아질 것 같아요.", "en": "The weather is going to get better." }
+      ]
+    },
+    {
+      "id": "Lv3-P1-S04",
+      "title": "과거완료 기본 (선행/완료)",
+      "intent": "과거의 두 시점을 구분하여 먼저 일어난 일을 과거완료로 표현한다.",
+      "focus": ["PAST-PERFECT-BASIC", "TIME-SEQUENCE", "BEFORE-RELATIONSHIP", "COMPLETION-EMPHASIS"],
+      "lexset": ["already, just, never, ever, before, after, until, since, by the time, finished"],
+      "traps": [
+        "had + p.p. 형태",
+        "과거 vs 과거완료 시점 구분",
+        "시간 부사와의 조합",
+        "already/just/never 위치"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["시간 순서", "완료 시점", "경험 유무", "결과 강조"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "그가 도착했을 때 이미 회의가 끝나 있었습니다.", "en": "The meeting had already finished when he arrived." },
+        { "kr": "영화가 시작하기 전에 표를 샀어요.", "en": "I had bought tickets before the movie started." },
+        { "kr": "그들은 전에 그곳에 가본 적이 없었습니다.", "en": "They had never been there before." },
+        { "kr": "숙제를 다 했을 때 친구가 전화했어요.", "en": "My friend called when I had finished homework." },
+        { "kr": "그녀는 이미 저녁을 먹었다고 했습니다.", "en": "She said she had already had dinner." },
+        { "kr": "비가 그치고 나서 밖에 나갔어요.", "en": "I went out after the rain had stopped." },
+        { "kr": "10시까지 모든 일을 마쳤습니다.", "en": "I had completed everything by 10 o'clock." },
+        { "kr": "그 책을 읽어본 적이 있었나요?", "en": "Had you read that book before?" },
+        { "kr": "우리가 도착했을 때 그들은 이미 떠났어요.", "en": "They had already left when we arrived." },
+        { "kr": "그는 전에 그런 경험을 해본 적이 없었습니다.", "en": "He had never experienced that before." }
+      ]
+    },
+    {
+      "id": "Lv3-P1-S05",
+      "title": "과거완료진행형 (계속)",
+      "intent": "과거 특정 시점까지 계속되던 동작이나 상태를 과거완료진행형으로 표현한다.",
+      "focus": ["PAST-PERFECT-CONTINUOUS", "DURATION-EMPHASIS", "ONGOING-ACTION", "TIME-PERIOD"],
+      "lexset": ["for, since, how long, until, by the time, still, working, studying, waiting, living"],
+      "traps": [
+        "had been + -ing 형태",
+        "기간 표현 (for/since)",
+        "진행형 vs 완료진행형",
+        "상태동사 제외"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["기간 길이", "활동 유형", "중단 시점", "결과 연결"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "그가 올 때까지 2시간 동안 기다리고 있었어요.", "en": "I had been waiting for two hours when he came." },
+        { "kr": "그들은 10년 동안 그곳에서 살고 있었습니다.", "en": "They had been living there for ten years." },
+        { "kr": "회의 전에 1시간 동안 준비하고 있었어요.", "en": "I had been preparing for an hour before the meeting." },
+        { "kr": "얼마나 오래 영어를 공부하고 있었나요?", "en": "How long had you been studying English?" },
+        { "kr": "아침부터 계속 비가 내리고 있었습니다.", "en": "It had been raining since morning." },
+        { "kr": "그녀는 3년 동안 그 회사에서 일하고 있었어요.", "en": "She had been working at that company for three years." },
+        { "kr": "점심시간까지 계속 회의를 하고 있었습니다.", "en": "We had been meeting until lunch time." },
+        { "kr": "그들은 왜 그렇게 오래 기다리고 있었나요?", "en": "Why had they been waiting so long?" },
+        { "kr": "그는 아침부터 운동하고 있었어요.", "en": "He had been exercising since morning." },
+        { "kr": "우리는 1주일 동안 그 문제를 논의하고 있었습니다.", "en": "We had been discussing the issue for a week." }
+      ]
+    },
+    {
+      "id": "Lv3-P2-S09",
+      "title": "조건문 심화 (2형/3형)",
+      "intent": "현재 가정 상황과 과거 가정 상황을 구분하여 적절한 조건문을 사용한다.",
+      "focus": ["CONDITIONAL-ADVANCED", "REAL-VS-UNREAL", "PAST-HYPOTHETICAL", "REGRET-EXPRESSION"],
+      "lexset": ["if, unless, suppose, imagine, wish, regret, would, could, might, should"],
+      "traps": [
+        "2형: If + 과거, would + 원형",
+        "3형: If + 과거완료, would have + p.p.",
+        "were vs was 사용",
+        "혼합 조건문"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.5, "neg": 0.3, "wh_q": 0.2 },
+      "variants": ["가정 유형", "시제 조합", "후회 표현", "가능성"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "만약 부자라면 세계여행을 할 텐데요.", "en": "If I were rich, I would travel around the world." },
+        { "kr": "만약 일찍 출발했다면 지각하지 않았을 거예요.", "en": "If I had left early, I wouldn't have been late." },
+        { "kr": "시간이 있다면 당신을 도와줄 수 있어요.", "en": "If I had time, I could help you." },
+        { "kr": "만약 그것을 알았다면 말해줬을 텐데요.", "en": "If I had known that, I would have told you." },
+        { "kr": "더 열심히 공부했다면 합격했을 거예요.", "en": "If I had studied harder, I would have passed." },
+        { "kr": "만약 날씨가 좋다면 피크닉을 갈 텐데요.", "en": "If the weather were nice, we would go on a picnic." },
+        { "kr": "그 조언을 들었다면 실수하지 않았을 거예요.", "en": "If I had listened to the advice, I wouldn't have made mistakes." },
+        { "kr": "만약 당신이라면 어떻게 하겠어요?", "en": "What would you do if you were me?" },
+        { "kr": "만약 그 기회가 있었다면 잡았을 거예요.", "en": "If I had had the opportunity, I would have taken it." },
+        { "kr": "더 젊다면 다시 도전할 텐데요.", "en": "If I were younger, I would try again." }
+      ]
+    },
+    {
+      "id": "Lv3-P3-S12",
+      "title": "관계대명사 심화 (that/which/who 정확한 구분)",
+      "intent": "관계대명사의 제한적/비제한적 용법을 구분하고 쉼표 사용법을 익힌다.",
+      "focus": ["RELATIVE-PRONOUN-ADVANCED", "RESTRICTIVE-VS-NON-RESTRICTIVE", "COMMA-USAGE", "WHO-WHICH-THAT"],
+      "lexset": ["who, which, that, whom, whose, where, when, why, person, thing"],
+      "traps": [
+        "제한적 vs 비제한적 관계절",
+        "쉼표 사용 여부",
+        "that vs which 구분",
+        "관계대명사 생략 조건"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.7, "neg": 0.1, "wh_q": 0.2 },
+      "variants": ["사람/사물", "제한/비제한", "주격/목적격", "쉼표 유무"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "어제 만난 사람이 선생님이었어요.", "en": "The person who I met yesterday was a teacher." },
+        { "kr": "그 책은 매우 유명한데, 작년에 출간되었습니다.", "en": "The book, which was published last year, is very famous." },
+        { "kr": "영어를 배우는 학생들이 열심히 공부합니다.", "en": "Students who learn English study hard." },
+        { "kr": "이것이 제가 찾던 것입니다.", "en": "This is what I was looking for." },
+        { "kr": "파리는 제가 가장 좋아하는 도시입니다.", "en": "Paris, which is my favorite city, is beautiful." },
+        { "kr": "차 키를 가진 사람이 누구예요?", "en": "Who is the person that has the car keys?" },
+        { "kr": "그것이 제가 말한 이유입니다.", "en": "That's the reason why I said it." },
+        { "kr": "그들이 살고 있는 집이 매우 크네요.", "en": "The house where they live is very big." },
+        { "kr": "우리가 처음 만난 날을 기억해요.", "en": "I remember the day when we first met." },
+        { "kr": "도움이 필요한 사람들을 도와야 합니다.", "en": "We should help people who need help." }
+      ]
+    },
+    {
+      "id": "Lv3-P3-S13",
+      "title": "관계부사 (when/where/why/how)",
+      "intent": "시간, 장소, 이유, 방법을 나타내는 관계부사를 정확하게 사용한다.",
+      "focus": ["RELATIVE-ADVERBS", "TIME-PLACE-REASON-METHOD", "WHEN-WHERE-WHY-HOW", "CLAUSE-CONNECTION"],
+      "lexset": ["when, where, why, how, time, place, reason, way, moment, situation"],
+      "traps": [
+        "관계부사 vs 관계대명사",
+        "전치사 + which vs 관계부사",
+        "the reason why vs why",
+        "the way how 중복 오류"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.7, "neg": 0.1, "wh_q": 0.2 },
+      "variants": ["시간/장소/이유/방법", "선행사 유무", "격식도", "명확성"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "우리가 만난 장소를 기억해요.", "en": "I remember the place where we met." },
+        { "kr": "그것이 제가 늦은 이유입니다.", "en": "That's the reason why I was late." },
+        { "kr": "그가 떠난 때가 언제인지 아세요?", "en": "Do you know when he left?" },
+        { "kr": "이것이 제가 하는 방식입니다.", "en": "This is how I do it." },
+        { "kr": "우리가 살았던 도시가 그리워요.", "en": "I miss the city where we lived." },
+        { "kr": "그들이 성공한 이유가 무엇인가요?", "en": "What's the reason why they succeeded?" },
+        { "kr": "제가 태어난 병원이 여기예요.", "en": "This is the hospital where I was born." },
+        { "kr": "우리가 처음 만난 순간을 잊을 수 없어요.", "en": "I can't forget the moment when we first met." },
+        { "kr": "그것이 문제를 해결하는 방법입니다.", "en": "That's how we solve the problem." },
+        { "kr": "제가 공부했던 학교가 저기예요.", "en": "That's the school where I studied." }
+      ]
+    },
+    {
+      "id": "Lv3-P3-S14",
+      "title": "간접화법 확장 (시제 일치)",
+      "intent": "간접화법에서 시제 일치 규칙을 정확히 적용하고 다양한 동사를 사용한다.",
+      "focus": ["REPORTED-SPEECH-ADVANCED", "TENSE-SHIFT", "REPORTING-VERBS", "TIME-ADVERB-CHANGE"],
+      "lexset": ["said, told, asked, explained, mentioned, admitted, suggested, promised, warned, complained"],
+      "traps": [
+        "시제 일치 (현재→과거, 과거→과거완료)",
+        "시간/장소 부사 변화",
+        "명령문/의문문 간접화법",
+        "reporting verb 선택"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["발화 유형", "시제 조합", "reporting verb", "격식도"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "그는 내일 올 것이라고 말했어요.", "en": "He said he would come tomorrow." },
+        { "kr": "그녀는 이미 숙제를 했다고 했습니다.", "en": "She said she had already done her homework." },
+        { "kr": "선생님은 우리에게 열심히 공부하라고 하셨어요.", "en": "The teacher told us to study hard." },
+        { "kr": "그들은 어디에 있는지 물어봤어요.", "en": "They asked where I was." },
+        { "kr": "그는 도움이 필요하다고 설명했습니다.", "en": "He explained that he needed help." },
+        { "kr": "그녀는 실수했다고 인정했어요.", "en": "She admitted that she had made a mistake." },
+        { "kr": "의사는 휴식을 취하라고 조언했습니다.", "en": "The doctor advised me to take a rest." },
+        { "kr": "그들은 회의가 언제인지 물었어요.", "en": "They asked when the meeting was." },
+        { "kr": "그는 약속을 지키겠다고 했습니다.", "en": "He promised that he would keep his promise." },
+        { "kr": "그녀는 너무 바쁘다고 불평했어요.", "en": "She complained that she was too busy." }
+      ]
+    },
+    {
+      "id": "Lv3-P3-S15",
+      "title": "간접의문문 (I wonder/I don't know)",
+      "intent": "의문사가 포함된 간접의문문의 어순과 시제를 정확히 구사한다.",
+      "focus": ["INDIRECT-QUESTIONS", "WORD-ORDER", "WONDER-PHRASES", "POLITE-INQUIRY"],
+      "lexset": ["wonder, know, remember, forget, understand, explain, tell, ask, question, curious"],
+      "traps": [
+        "간접의문문 어순 (주어+동사)",
+        "의문사 + 평서문 어순",
+        "Yes/No 의문문 → if/whether",
+        "시제 일치"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.5, "neg": 0.3, "wh_q": 0.2 },
+      "variants": ["의문사 유형", "정중함 정도", "확실성", "시제"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "그가 언제 올지 궁금해요.", "en": "I wonder when he will come." },
+        { "kr": "그들이 어디에 있는지 모르겠어요.", "en": "I don't know where they are." },
+        { "kr": "이 문제를 어떻게 해결할지 생각 중이에요.", "en": "I'm thinking about how to solve this problem." },
+        { "kr": "그가 올지 안 올지 확실하지 않아요.", "en": "I'm not sure if he will come or not." },
+        { "kr": "왜 그런 일이 일어났는지 이해할 수 없어요.", "en": "I can't understand why that happened." },
+        { "kr": "누가 이것을 했는지 알고 싶어요.", "en": "I want to know who did this." },
+        { "kr": "언제 끝날지 말해주세요.", "en": "Please tell me when it will finish." },
+        { "kr": "그것이 얼마인지 기억나지 않아요.", "en": "I don't remember how much it costs." },
+        { "kr": "어느 것이 더 좋은지 결정할 수 없어요.", "en": "I can't decide which one is better." },
+        { "kr": "그들이 성공할 수 있을지 의문이에요.", "en": "I wonder if they can succeed." }
+      ]
+    },
+    {
+      "id": "Lv3-P4-S20",
+      "title": "순서/결론 연결어 (First/Finally/Therefore)",
+      "intent": "논리적 순서와 결론을 나타내는 연결어를 사용하여 체계적으로 의견을 전개한다.",
+      "focus": ["LOGICAL-SEQUENCE", "CONCLUSION-MARKERS", "ORGANIZATION", "DISCOURSE-STRUCTURE"],
+      "lexset": ["first, second, next, then, finally, therefore, thus, so, consequently, in conclusion"],
+      "traps": [
+        "연결어 위치와 쉼표",
+        "at first vs first",
+        "so vs therefore 격식도",
+        "finally vs at last"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.7, "neg": 0.1, "wh_q": 0.2 },
+      "variants": ["순서 표현", "결론 강도", "격식도", "논리성"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "먼저 계획을 세워야 합니다.", "en": "First, we need to make a plan." },
+        { "kr": "그 다음에 실행에 옮기겠습니다.", "en": "Then, we will put it into action." },
+        { "kr": "마지막으로 결과를 확인하겠습니다.", "en": "Finally, we will check the results." },
+        { "kr": "따라서 이것이 최선의 선택입니다.", "en": "Therefore, this is the best choice." },
+        { "kr": "결론적으로 성공할 것입니다.", "en": "In conclusion, we will succeed." },
+        { "kr": "두 번째로 예산을 고려해야 합니다.", "en": "Second, we need to consider the budget." },
+        { "kr": "그 결과 모든 것이 바뀌었습니다.", "en": "As a result, everything changed." },
+        { "kr": "다음 단계는 팀을 구성하는 것입니다.", "en": "The next step is to form a team." },
+        { "kr": "그러므로 더 노력해야 합니다.", "en": "Thus, we need to work harder." },
+        { "kr": "궁극적으로 목표를 달성할 것입니다.", "en": "Ultimately, we will achieve our goal." }
+      ]
+    },
+    {
+      "id": "Lv3-P4-S21",
+      "title": "조건부 조언 (If I were you)",
+      "intent": "가정법을 사용하여 정중하고 효과적인 조언을 제시한다.",
+      "focus": ["CONDITIONAL-ADVICE", "POLITE-SUGGESTION", "HYPOTHETICAL-SITUATION", "RECOMMENDATION"],
+      "lexset": ["if I were you, suggest, recommend, advise, consider, try, avoid, better, should, would"],
+      "traps": [
+        "If I were you 고정 표현",
+        "조언 표현의 정중함 정도",
+        "would vs should in advice",
+        "가정법 vs 직설법"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["조언 강도", "정중함", "상황", "확신도"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "제가 당신이라면 의사와 상담하겠어요.", "en": "If I were you, I would consult a doctor." },
+        { "kr": "그 일을 다시 생각해보는 것이 좋겠어요.", "en": "I would reconsider that decision if I were you." },
+        { "kr": "좀 더 기다려보시는 게 어떨까요?", "en": "If I were you, I would wait a little longer." },
+        { "kr": "전문가의 도움을 받으시길 권합니다.", "en": "I would recommend getting expert help if I were you." },
+        { "kr": "그 기회를 놓치지 마세요.", "en": "If I were you, I wouldn't miss that opportunity." },
+        { "kr": "더 신중하게 결정하시는 게 좋겠어요.", "en": "I would be more careful with that decision if I were you." },
+        { "kr": "다른 방법을 시도해보세요.", "en": "If I were you, I would try a different approach." },
+        { "kr": "그것에 대해 걱정하지 않겠어요.", "en": "I wouldn't worry about that if I were you." },
+        { "kr": "좀 더 연습해보시는 게 어떨까요?", "en": "If I were you, I would practice more." },
+        { "kr": "그 제안을 받아들이겠어요.", "en": "I would accept that offer if I were you." }
+      ]
+    },
+    {
+      "id": "Lv3-P5-S25",
+      "title": "경험 공유 심화 (I've been to/I've never)",
+      "intent": "현재완료를 사용하여 다양한 경험을 자연스럽게 공유하고 토론한다.",
+      "focus": ["EXPERIENCE-SHARING", "PRESENT-PERFECT-EXPERIENCE", "NEVER-EVER", "LIFE-EXPERIENCES"],
+      "lexset": ["been to, visited, tried, experienced, seen, heard, met, done, accomplished, achieved"],
+      "traps": [
+        "have been to vs have gone to",
+        "ever/never 위치",
+        "경험 vs 완료 구분",
+        "시간 표현 조합"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.5, "neg": 0.3, "wh_q": 0.2 },
+      "variants": ["경험 유형", "시간 범위", "감정", "빈도"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "저는 유럽에 가본 적이 있어요.", "en": "I have been to Europe." },
+        { "kr": "그런 음식을 먹어본 적이 없어요.", "en": "I have never tried that kind of food." },
+        { "kr": "그 영화를 본 적이 있나요?", "en": "Have you ever seen that movie?" },
+        { "kr": "저는 스카이다이빙을 해봤어요.", "en": "I have tried skydiving." },
+        { "kr": "그들은 그런 경험을 해본 적이 없습니다.", "en": "They have never had such an experience." },
+        { "kr": "제가 만난 가장 친절한 사람이었어요.", "en": "He was the kindest person I have ever met." },
+        { "kr": "그곳에 몇 번 가본 적이 있어요.", "en": "I have been there several times." },
+        { "kr": "그런 일은 들어본 적이 없어요.", "en": "I have never heard of such a thing." },
+        { "kr": "최근에 흥미로운 책을 읽었어요.", "en": "I have recently read an interesting book." },
+        { "kr": "그 언어를 배운 적이 있나요?", "en": "Have you ever learned that language?" }
+      ]
+    },
+    {
+      "id": "Lv3-P5-S26",
+      "title": "강조 구문 (It is/was that)",
+      "intent": "강조 구문을 사용하여 문장의 특정 부분을 효과적으로 강조한다.",
+      "focus": ["EMPHASIS-STRUCTURE", "IT-CLEFT", "FOCUS-HIGHLIGHTING", "INFORMATION-PROMINENCE"],
+      "lexset": ["it is, it was, that, who, when, where, what, emphasis, important, significant"],
+      "traps": [
+        "It is/was + 강조 부분 + that",
+        "강조 대상에 따른 관계사 선택",
+        "시제 일치",
+        "what vs that 구분"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.7, "neg": 0.1, "wh_q": 0.2 },
+      "variants": ["강조 대상", "시제", "관계사", "문맥"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "바로 그것이 제가 원하는 것입니다.", "en": "It is exactly what I want." },
+        { "kr": "그가 그 일을 한 것이었어요.", "en": "It was he who did that work." },
+        { "kr": "어제 그들을 만난 것입니다.", "en": "It was yesterday that I met them." },
+        { "kr": "그곳에서 일어난 일이었어요.", "en": "It was there that it happened." },
+        { "kr": "이것이 가장 중요한 것입니다.", "en": "It is this that is most important." },
+        { "kr": "그때서야 이해했어요.", "en": "It was then that I understood." },
+        { "kr": "바로 그 이유 때문입니다.", "en": "It is for that reason." },
+        { "kr": "그녀가 승리한 것이었어요.", "en": "It was she who won." },
+        { "kr": "이 방법이 최선입니다.", "en": "It is this method that is best." },
+        { "kr": "그들이 도착한 것은 밤이었어요.", "en": "It was at night that they arrived." }
+      ]
+    },
+    {
+      "id": "Lv3-P5-S27",
+      "title": "강조 부사 (really/actually/exactly)",
+      "intent": "다양한 강조 부사를 사용하여 감정과 의견을 효과적으로 전달한다.",
+      "focus": ["EMPHASIS-ADVERBS", "EMOTION-EXPRESSION", "OPINION-STRENGTHENING", "CONVERSATIONAL-MARKERS"],
+      "lexset": ["really, actually, exactly, absolutely, definitely, certainly, obviously, clearly, truly, indeed"],
+      "traps": [
+        "부사 위치 (동사 앞/뒤)",
+        "really vs very 구분",
+        "actually 의미 (실제로/사실은)",
+        "강조 정도 차이"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["강조 정도", "감정", "확신도", "상황"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "정말 좋은 아이디어네요.", "en": "That's really a good idea." },
+        { "kr": "사실 그렇게 생각하지 않아요.", "en": "Actually, I don't think so." },
+        { "kr": "정확히 그것이 제가 말하고 싶은 것입니다.", "en": "That's exactly what I want to say." },
+        { "kr": "절대적으로 동의합니다.", "en": "I absolutely agree." },
+        { "kr": "확실히 더 나은 방법이 있을 거예요.", "en": "There's definitely a better way." },
+        { "kr": "분명히 성공할 것입니다.", "en": "We will certainly succeed." },
+        { "kr": "명백히 잘못된 결정이었어요.", "en": "It was obviously a wrong decision." },
+        { "kr": "진짜로 감사합니다.", "en": "I'm truly grateful." },
+        { "kr": "실제로 그런 일이 일어났어요.", "en": "It actually happened." },
+        { "kr": "정말로 놀라운 결과입니다.", "en": "It's really an amazing result." }
+      ]
+    },
+    {
+      "id": "Lv3-P6-S29",
+      "title": "수량/정도 표현 심화 (plenty of/a bit)",
+      "intent": "다양한 수량과 정도 표현을 상황에 맞게 정확하고 자연스럽게 사용한다.",
+      "focus": ["QUANTITY-DEGREE", "PRECISION-EXPRESSIONS", "FORMAL-INFORMAL", "GRADATION"],
+      "lexset": ["plenty of, a bit, a little, quite, rather, fairly, extremely, slightly, considerably, enormous"],
+      "traps": [
+        "a little vs little 구분",
+        "quite의 두 가지 의미",
+        "rather의 용법",
+        "가산/불가산 명사와의 조합"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["수량/정도", "격식도", "가산성", "맥락"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "충분한 시간이 있어요.", "en": "We have plenty of time." },
+        { "kr": "조금 피곤해요.", "en": "I'm a bit tired." },
+        { "kr": "꽤 어려운 문제네요.", "en": "It's quite a difficult problem." },
+        { "kr": "다소 비싼 것 같아요.", "en": "It seems rather expensive." },
+        { "kr": "상당히 많은 사람들이 왔어요.", "en": "Quite a lot of people came." },
+        { "kr": "약간 걱정이 되네요.", "en": "I'm slightly worried." },
+        { "kr": "엄청나게 많은 일이 있어요.", "en": "There's an enormous amount of work." },
+        { "kr": "꽤 공정한 제안이에요.", "en": "That's a fairly fair proposal." },
+        { "kr": "극도로 중요한 일입니다.", "en": "It's extremely important." },
+        { "kr": "상당히 개선되었어요.", "en": "It has improved considerably." }
+      ]
+    },
+    {
+      "id": "Lv3-P6-S30",
+      "title": "의견 변경/정정 (On second thought/Actually)",
+      "intent": "생각의 변화나 정정을 자연스럽고 정중하게 표현한다.",
+      "focus": ["OPINION-CHANGE", "CORRECTION", "RECONSIDERATION", "POLITE-ADJUSTMENT"],
+      "lexset": ["on second thought, actually, come to think of it, wait, correction, change mind, reconsider, realize"],
+      "traps": [
+        "의견 변경의 정중한 표현",
+        "actually vs in fact",
+        "come to think of it 용법",
+        "실수 정정 vs 의견 변경"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.5, "neg": 0.3, "wh_q": 0.2 },
+      "variants": ["변경 이유", "정중함", "확신도", "상황"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "다시 생각해보니 그게 맞는 것 같아요.", "en": "On second thought, I think that's right." },
+        { "kr": "사실 제가 틀렸네요.", "en": "Actually, I was wrong." },
+        { "kr": "생각해보니 더 좋은 방법이 있을 것 같아요.", "en": "Come to think of it, there might be a better way." },
+        { "kr": "잠깐, 그게 아니에요.", "en": "Wait, that's not right." },
+        { "kr": "정정하자면, 어제가 아니라 그제였어요.", "en": "Let me correct that - it was the day before yesterday, not yesterday." },
+        { "kr": "마음을 바꿨어요.", "en": "I've changed my mind." },
+        { "kr": "다시 고려해보겠어요.", "en": "I'll reconsider it." },
+        { "kr": "이제 깨달았는데, 그때 실수했네요.", "en": "I realize now that I made a mistake then." },
+        { "kr": "아, 그렇다면 다른 얘기네요.", "en": "Oh, then that's a different story." },
+        { "kr": "다시 말하지만, 확실하지 않아요.", "en": "Then again, I'm not sure." }
+      ]
+    }
+  ]
+}

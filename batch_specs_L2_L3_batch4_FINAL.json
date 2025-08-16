@@ -1,0 +1,355 @@
+{
+  "batch": "Batch4_L2_L3_FINAL",
+  "createdAt": "2025-08-15T01:30:00Z", 
+  "description": "L2/L3 완전 커버리지 달성 - 최종 12스테이지 (L2 잔여 6 + L3 잔여 6)",
+  "stages": [
+    {
+      "id": "Lv2-P1-S04",
+      "title": "빈도·시간 결합 — every/each + 시간표현",
+      "intent": "every day/week/month, each time 등으로 정기적인 습관과 반복을 자연스럽게 표현한다.",
+      "focus": ["FREQUENCY-TIME", "EVERY-EACH", "REGULAR-HABITS", "TIME-EXPRESSIONS"],
+      "lexset": ["every day/week/month/year, each time/morning, once/twice, daily, weekly, monthly, regularly"],
+      "traps": [
+        "every vs each 구분(every student vs each student)",
+        "시간 전치사(every Monday vs on Mondays)",
+        "단복수(every day vs every days ✗)",
+        "once/twice + 시간 단위(once a week)"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["시간 단위", "빈도 정도", "규칙성", "개인/일반"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "매일 운동해.", "en": "I exercise every day." },
+        { "kr": "매주 월요일에 회의가 있어.", "en": "We have a meeting every Monday." },
+        { "kr": "한 달에 한 번 영화 봐.", "en": "I watch a movie once a month." },
+        { "kr": "매번 늦어.", "en": "I'm late each time." },
+        { "kr": "일주일에 두 번 수영해.", "en": "I swim twice a week." },
+        { "kr": "매년 여행가.", "en": "I travel every year." },
+        { "kr": "정기적으로 검진 받아.", "en": "I get checkups regularly." },
+        { "kr": "매일 아침 커피 마셔.", "en": "I drink coffee each morning." },
+        { "kr": "한 주에 몇 번 운동해?", "en": "How many times a week do you exercise?" },
+        { "kr": "매달 책을 몇 권 읽어.", "en": "I read several books every month." }
+      ]
+    },
+    {
+      "id": "Lv2-P2-S12",
+      "title": "미래표현 혼합 — will/be going to/현재진행형 미래",
+      "intent": "will(즉석 결정), be going to(계획), 현재진행형(확정 일정)의 차이를 이해하고 상황에 맞게 선택한다.",
+      "focus": ["FUTURE-WILL", "BE-GOING-TO", "PRESENT-CONTINUOUS-FUTURE", "FUTURE-PLANS"],
+      "lexset": ["decide, plan, arrange, schedule, promise, predict, intend, expect, probably, definitely"],
+      "traps": [
+        "will vs be going to 선택(즉석 vs 계획)",
+        "현재진행형 미래(I'm meeting him tomorrow)",
+        "be going to 축약(I'm gonna go ✗ in formal)",
+        "미래 시간부사(tomorrow, next week)"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["미래 유형", "확실성", "계획성", "시간"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "내일 비가 올 거야.", "en": "It will rain tomorrow." },
+        { "kr": "주말에 쇼핑할 계획이야.", "en": "I'm going to go shopping this weekend." },
+        { "kr": "내일 친구 만나기로 했어.", "en": "I'm meeting a friend tomorrow." },
+        { "kr": "도와줄게.", "en": "I'll help you." },
+        { "kr": "새 차 살 거야.", "en": "I'm going to buy a new car." },
+        { "kr": "7시에 영화 보러 가.", "en": "I'm watching a movie at seven." },
+        { "kr": "아마 늦을 거야.", "en": "I'll probably be late." },
+        { "kr": "내년에 결혼할 예정이야.", "en": "I'm going to get married next year." },
+        { "kr": "뭐 할 거야?", "en": "What are you going to do?" },
+        { "kr": "곧 출발해.", "en": "I'm leaving soon." }
+      ]
+    },
+    {
+      "id": "Lv2-P3-S07",
+      "title": "전치사구 심화 — 장소·방향·시간 복합",
+      "intent": "전치사구를 복합적으로 사용하여 정확한 위치, 방향, 시간을 세밀하게 표현한다.",
+      "focus": ["COMPLEX-PREPOSITIONS", "LOCATION-DIRECTION", "TIME-PLACE", "PREPOSITIONAL-PHRASES"],
+      "lexset": ["in front of, behind, next to, between, among, across from, through, around, towards, away from"],
+      "traps": [
+        "복합 전치사 순서(in front of vs front of ✗)",
+        "between vs among(두 개 vs 여러 개)",
+        "towards vs to 차이",
+        "across vs through 구분"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["복합도", "정확도", "방향성", "관계"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "은행 앞에서 만나자.", "en": "Let's meet in front of the bank." },
+        { "kr": "두 건물 사이에 있어.", "en": "It's between the two buildings." },
+        { "kr": "공원을 가로질러 갔어.", "en": "I walked through the park." },
+        { "kr": "학교 뒤편에 주차했어.", "en": "I parked behind the school." },
+        { "kr": "역 건너편에 살아.", "en": "I live across from the station." },
+        { "kr": "사람들 사이에 끼어 있었어.", "en": "I was among the people." },
+        { "kr": "집을 향해 걸었어.", "en": "I walked towards home." },
+        { "kr": "카페 옆에 서점이 있어.", "en": "There's a bookstore next to the cafe." },
+        { "kr": "어디서 만날까?", "en": "Where shall we meet?" },
+        { "kr": "시내 중심가 근처야.", "en": "It's near the city center." }
+      ]
+    },
+    {
+      "id": "Lv2-P4-S14",
+      "title": "의문사 + to부정사 — What/How/Where to do",
+      "intent": "의문사 + to부정사로 방법, 선택, 계획을 간결하게 묻고 답한다.",
+      "focus": ["WH-TO-INFINITIVE", "HOW-TO", "WHAT-TO", "WHERE-TO", "INDIRECT-QUESTIONS"],
+      "lexset": ["know, learn, decide, choose, find out, figure out, remember, forget, understand, explain"],
+      "traps": [
+        "의문사 + to 구조(What to do vs What I should do)",
+        "동사 선택(know how to vs know to how ✗)",
+        "to 생략 금지(how do vs how to do)",
+        "간접의문문과 구분"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.5, "neg": 0.2, "wh_q": 0.3 },
+      "variants": ["의문사 유형", "동사", "맥락", "복잡도"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "뭘 해야 할지 모르겠어.", "en": "I don't know what to do." },
+        { "kr": "어떻게 하는지 알려줘.", "en": "Tell me how to do it." },
+        { "kr": "어디로 갈지 정했어?", "en": "Have you decided where to go?" },
+        { "kr": "언제 만날지 알려줘.", "en": "Let me know when to meet." },
+        { "kr": "누구한테 물어볼지 모르겠어.", "en": "I don't know who to ask." },
+        { "kr": "어떤 걸 선택할지 고민이야.", "en": "I'm thinking about which one to choose." },
+        { "kr": "요리하는 법을 배우고 싶어.", "en": "I want to learn how to cook." },
+        { "kr": "어디서 살지 결정해야 해.", "en": "I need to decide where to live." },
+        { "kr": "뭘 입을지 모르겠어.", "en": "I don't know what to wear." },
+        { "kr": "어떻게 갈지 알려줄게.", "en": "I'll tell you how to get there." }
+      ]
+    },
+    {
+      "id": "Lv2-P5-S17",
+      "title": "조건문 2형 기초 — If I were/had",
+      "intent": "If I were you, If I had money 등으로 가상의 상황과 조언을 자연스럽게 표현한다.",
+      "focus": ["SECOND-CONDITIONAL", "IF-WERE", "IF-HAD", "HYPOTHETICAL", "ADVICE"],
+      "lexset": ["were, had, could, would, might, rich, young, free, different, possible, advice, choice"],
+      "traps": [
+        "was vs were in conditional(If I was vs If I were)",
+        "주절 조동사(I would go, not I will go)",
+        "시제 일치(If + past, would + base)",
+        "비현실적 상황 이해"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["가정 유형", "조언", "소망", "가능성"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "내가 너라면 그렇게 안 할 거야.", "en": "If I were you, I wouldn't do that." },
+        { "kr": "돈이 있다면 여행갈 텐데.", "en": "If I had money, I would travel." },
+        { "kr": "시간이 있다면 도와줄 텐데.", "en": "If I had time, I could help you." },
+        { "kr": "젊다면 다시 공부할 거야.", "en": "If I were young, I would study again." },
+        { "kr": "그가 온다면 좋을 텐데.", "en": "It would be nice if he came." },
+        { "kr": "부자라면 뭘 할 거야?", "en": "What would you do if you were rich?" },
+        { "kr": "다시 선택할 수 있다면 달리 할 거야.", "en": "If I could choose again, I would do differently." },
+        { "kr": "그녀가 여기 있다면 도와줄 텐데.", "en": "If she were here, she would help." },
+        { "kr": "차가 있다면 데리러 갈 텐데.", "en": "If I had a car, I would pick you up." },
+        { "kr": "자유롭다면 세계여행을 할 거야.", "en": "If I were free, I would travel the world." }
+      ]
+    },
+    {
+      "id": "Lv2-P6-S21",
+      "title": "Tag Questions — isn't it? / don't you? / 확인 질문",
+      "intent": "부가의문문으로 확인, 동의, 놀라움을 자연스럽게 표현하고 적절히 응답한다.",
+      "focus": ["TAG-QUESTIONS", "CONFIRMATION", "AGREEMENT", "INTONATION"],
+      "lexset": ["nice, good, difficult, expensive, late, early, busy, tired, happy, cold, hot, right, wrong"],
+      "traps": [
+        "긍정-부정 매칭(It is, isn't it? / It isn't, is it?)",
+        "조동사 매칭(You can, can't you?)",
+        "대답 방식(Yes, it is / No, it isn't)",
+        "억양 차이(확인 vs 놀라움)"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.5, "neg": 0.2, "wh_q": 0.3 },
+      "variants": ["동사 유형", "시제", "응답", "억양"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "좋은 날씨지, 그렇지?", "en": "It's nice weather, isn't it?" },
+        { "kr": "어려웠지, 안 그래?", "en": "It was difficult, wasn't it?" },
+        { "kr": "너 바쁘지 않지, 그렇지?", "en": "You're not busy, are you?" },
+        { "kr": "할 수 있지, 그렇지?", "en": "You can do it, can't you?" },
+        { "kr": "그는 안 왔지, 그렇지?", "en": "He didn't come, did he?" },
+        { "kr": "비싸지, 안 그래?", "en": "It's expensive, isn't it?" },
+        { "kr": "늦었지, 그렇지?", "en": "We're late, aren't we?" },
+        { "kr": "재밌었지, 안 그래?", "en": "It was fun, wasn't it?" },
+        { "kr": "춥지, 그렇지?", "en": "It's cold, isn't it?" },
+        { "kr": "맞지, 안 그래?", "en": "That's right, isn't it?" }
+      ]
+    },
+    {
+      "id": "Lv3-P2-S08",
+      "title": "현재완료 vs 과거 정확한 구분",
+      "intent": "현재완료와 과거시제의 차이를 명확히 이해하고 상황에 맞게 정확히 선택한다.",
+      "focus": ["PRESENT-PERFECT-VS-PAST", "TIME-REFERENCE", "RESULT-VS-WHEN", "CONTEXT"],
+      "lexset": ["yesterday, last week, ago, recently, lately, just, already, yet, ever, never, since, for"],
+      "traps": [
+        "시간 표현과 시제(yesterday + present perfect ✗)",
+        "완료 vs 과거(I have seen vs I saw)",
+        "결과 vs 시점 중요도",
+        "질문-답변 시제 일치"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.5, "neg": 0.2, "wh_q": 0.3 },
+      "variants": ["시간 표현", "맥락", "중요도", "질문 유형"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "어제 영화 봤어.", "en": "I saw a movie yesterday." },
+        { "kr": "그 영화 본 적 있어?", "en": "Have you seen that movie?" },
+        { "kr": "방금 도착했어.", "en": "I have just arrived." },
+        { "kr": "언제 도착했어?", "en": "When did you arrive?" },
+        { "kr": "최근에 바빴어.", "en": "I have been busy recently." },
+        { "kr": "지난주에 바빴어.", "en": "I was busy last week." },
+        { "kr": "이미 끝냈어.", "en": "I have already finished." },
+        { "kr": "1시간 전에 끝냈어.", "en": "I finished an hour ago." },
+        { "kr": "런던에 가 본 적 있어?", "en": "Have you ever been to London?" },
+        { "kr": "작년에 런던에 갔어.", "en": "I went to London last year." }
+      ]
+    },
+    {
+      "id": "Lv3-P3-S11",
+      "title": "수동태 + 시제 — 과거완료/미래/현재완료 수동",
+      "intent": "다양한 시제의 수동태를 정확히 구성하고 자연스럽게 사용한다.",
+      "focus": ["PASSIVE-TENSES", "HAD-BEEN", "WILL-BE", "HAVE-BEEN", "COMPLEX-PASSIVE"],
+      "lexset": ["build, complete, repair, publish, discover, invent, solve, announce, cancel, postpone"],
+      "traps": [
+        "시제별 수동태 구조(will be done, has been done)",
+        "과거완료 수동태(had been built)",
+        "by-구 필요성 판단",
+        "능동-수동 시제 일치"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["시제", "동사 유형", "by-구", "필요성"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "집이 이미 팔렸어.", "en": "The house has been sold." },
+        { "kr": "다리가 내년에 완공될 거야.", "en": "The bridge will be completed next year." },
+        { "kr": "건물이 이미 철거됐었어.", "en": "The building had already been demolished." },
+        { "kr": "책이 여러 언어로 번역됐어.", "en": "The book has been translated into several languages." },
+        { "kr": "회의가 취소될 거야.", "en": "The meeting will be cancelled." },
+        { "kr": "문제가 해결됐어.", "en": "The problem has been solved." },
+        { "kr": "새로운 약이 발견됐어.", "en": "A new medicine has been discovered." },
+        { "kr": "공항이 폐쇄될 예정이야.", "en": "The airport will be closed." },
+        { "kr": "보고서가 이미 제출됐었어.", "en": "The report had already been submitted." },
+        { "kr": "계획이 발표될 거야.", "en": "The plan will be announced." }
+      ]
+    },
+    {
+      "id": "Lv3-P4-S16",
+      "title": "조건문 혼합 패턴 — 0/1/2형 실제 사용",
+      "intent": "조건문 0형, 1형, 2형을 실제 상황에서 적절히 선택하여 자연스럽게 사용한다.",
+      "focus": ["MIXED-CONDITIONALS", "REAL-USAGE", "SITUATION-MATCHING", "CONDITIONAL-CHOICE"],
+      "lexset": ["fact, possibility, advice, regret, warning, prediction, suggestion, consequence"],
+      "traps": [
+        "조건문 유형 선택(사실/가능성/비현실)",
+        "시제 혼동 방지",
+        "상황별 적절성",
+        "unless vs if not"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["조건문 유형", "상황", "시간성", "현실성"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "물을 끓이면 증발해.", "en": "If you boil water, it evaporates." },
+        { "kr": "비가 오면 집에 있을게.", "en": "If it rains, I'll stay home." },
+        { "kr": "돈이 있다면 새 차를 살 텐데.", "en": "If I had money, I would buy a new car." },
+        { "kr": "일찍 오면 좋은 자리 구할 수 있어.", "en": "If you come early, you can get a good seat." },
+        { "kr": "내가 너라면 사과할 거야.", "en": "If I were you, I would apologize." },
+        { "kr": "늦지 않으면 영화 볼 수 있어.", "en": "Unless you're late, you can watch the movie." },
+        { "kr": "열심히 공부하면 성공해.", "en": "If you study hard, you succeed." },
+        { "kr": "시간이 있다면 같이 갈 텐데.", "en": "If I had time, I would go with you." },
+        { "kr": "비가 안 오면 소풍갈 거야.", "en": "If it doesn't rain, we'll go on a picnic." },
+        { "kr": "건강하다면 등산할 수 있을 텐데.", "en": "If I were healthy, I could go hiking." }
+      ]
+    },
+    {
+      "id": "Lv3-P5-S19",
+      "title": "대조·양보 — although/however/on the other hand",
+      "intent": "although, however, on the other hand로 대조와 양보를 논리적으로 표현한다.",
+      "focus": ["CONTRAST", "CONCESSION", "ALTHOUGH", "HOWEVER", "LOGICAL-CONNECTORS"],
+      "lexset": ["although, though, however, nevertheless, on the other hand, in contrast, despite, whereas"],
+      "traps": [
+        "although vs but 동시 사용 금지",
+        "however 위치와 쉼표",
+        "despite + 명사 vs although + 절",
+        "문장 구조 차이"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.7, "neg": 0.1, "wh_q": 0.2 },
+      "variants": ["연결어 유형", "강도", "위치", "격식도"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "비가 왔지만 나갔어.", "en": "Although it was raining, I went out." },
+        { "kr": "어렵다. 하지만 재밌어.", "en": "It's difficult. However, it's interesting." },
+        { "kr": "그는 바빠. 반면에 나는 여유로워.", "en": "He's busy. On the other hand, I'm free." },
+        { "kr": "피곤했지만 계속 일했어.", "en": "Though I was tired, I kept working." },
+        { "kr": "비싸다. 그럼에도 좋아.", "en": "It's expensive. Nevertheless, it's good." },
+        { "kr": "공부했지만 시험을 못 봤어.", "en": "Although I studied, I failed the exam." },
+        { "kr": "날씨가 좋지 않았어. 하지만 즐거웠어.", "en": "The weather wasn't good. However, we enjoyed it." },
+        { "kr": "돈이 없지만 행복해.", "en": "Though I don't have money, I'm happy." },
+        { "kr": "그는 젊어. 반면에 경험이 많아.", "en": "He's young. On the other hand, he's experienced." },
+        { "kr": "늦었지만 참석했어.", "en": "Although I was late, I attended." }
+      ]
+    },
+    {
+      "id": "Lv3-P6-S23",
+      "title": "간접의문문 고급 — 복잡한 구조",
+      "intent": "복잡한 간접의문문을 정확한 어순으로 구성하고 자연스럽게 사용한다.",
+      "focus": ["INDIRECT-QUESTIONS", "WORD-ORDER", "COMPLEX-STRUCTURES", "EMBEDDED-QUESTIONS"],
+      "lexset": ["wonder, ask, tell, know, remember, forget, understand, explain, find out, figure out"],
+      "traps": [
+        "간접의문문 어순(평서문 어순 유지)",
+        "do/does/did 제거",
+        "시제 일치 고려",
+        "의문사 vs if/whether"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.5, "neg": 0.2, "wh_q": 0.3 },
+      "variants": ["복잡도", "시제", "의문사 유형", "동사"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "그가 언제 올지 궁금해.", "en": "I wonder when he will come." },
+        { "kr": "어디서 만날지 물어봤어.", "en": "I asked where we should meet." },
+        { "kr": "왜 늦었는지 말해줘.", "en": "Tell me why you were late." },
+        { "kr": "어떻게 하는지 잊어버렸어.", "en": "I forgot how to do it." },
+        { "kr": "그가 올지 안 올지 모르겠어.", "en": "I don't know if he will come." },
+        { "kr": "뭘 하고 있었는지 기억 안 나.", "en": "I don't remember what I was doing." },
+        { "kr": "누가 전화했는지 알아?", "en": "Do you know who called?" },
+        { "kr": "얼마나 걸릴지 생각해 봐.", "en": "Think about how long it will take." },
+        { "kr": "어느 것이 더 나은지 결정할 수 없어.", "en": "I can't decide which one is better." },
+        { "kr": "그것이 맞는지 확실하지 않아.", "en": "I'm not sure if that's correct." }
+      ]
+    },
+    {
+      "id": "Lv3-P6-S24",
+      "title": "관계대명사 기초 — who/which/that",
+      "intent": "관계대명사 who, which, that으로 문장을 자연스럽게 연결하고 정보를 추가한다.",
+      "focus": ["RELATIVE-PRONOUNS", "WHO-WHICH-THAT", "DEFINING-CLAUSES", "SENTENCE-COMBINING"],
+      "lexset": ["person, people, man, woman, book, movie, place, thing, idea, problem, solution, way"],
+      "traps": [
+        "who vs which vs that 선택",
+        "관계절 어순 유지",
+        "필수 vs 비필수 관계절",
+        "전치사 위치(the person I talked to)"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["관계대명사 유형", "명사 유형", "필수성", "복잡도"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "어제 만난 사람이야.", "en": "He's the person who I met yesterday." },
+        { "kr": "내가 읽은 책이야.", "en": "It's the book that I read." },
+        { "kr": "우리가 본 영화가 재밌었어.", "en": "The movie which we saw was interesting." },
+        { "kr": "영어를 가르치는 선생님이야.", "en": "She's the teacher who teaches English." },
+        { "kr": "내가 산 컴퓨터야.", "en": "It's the computer that I bought." },
+        { "kr": "우리가 사는 곳이야.", "en": "It's the place where we live." },
+        { "kr": "내가 좋아하는 음식이야.", "en": "It's the food that I like." },
+        { "kr": "나를 도와준 친구야.", "en": "He's the friend who helped me." },
+        { "kr": "우리가 이야기한 문제야.", "en": "It's the problem that we discussed." },
+        { "kr": "내가 찾던 방법이야.", "en": "It's the way that I was looking for." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "Lv3-P2-S07",
+  "title": "현재완료 진행/기간 — for/since, recently/lately",
+  "intent": "speaking",
+  "focus": [
+    "present_perfect_continuous",
+    "duration_for_since"
+  ],
+  "lexset": {
+    "duration": [
+      "for three years",
+      "for a while",
+      "for two weeks",
+      "for months"
+    ],
+    "since": [
+      "since noon",
+      "since 2020",
+      "since last week",
+      "since this morning"
+    ],
+    "adverbs": [
+      "recently",
+      "lately",
+      "so far"
+    ]
+  },
+  "traps": [
+    "TENSE-PERF",
+    "FOR-SINCE",
+    "ASPECT-CHOICE",
+    "SPELLING"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": {
+    "subj": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "activity": [
+      "study English",
+      "work on this",
+      "wait",
+      "exercise",
+      "look for a job",
+      "live here"
+    ]
+  },
+  "engine": {
+    "randomPick": true,
+    "retryWeighted": true,
+    "delaySec": 1,
+    "randomize": true
+  },
+  "seeds": [
+    {
+      "kr": "나는 3년째 영어를 공부해 오고 있어.",
+      "en": "I've been studying English for three years."
+    },
+    {
+      "kr": "그녀는 정오부터 기다리고 있어.",
+      "en": "She's been waiting since noon."
+    },
+    {
+      "kr": "우리는 하루 종일 이걸 하고 있어.",
+      "en": "We've been working on this all day."
+    },
+    {
+      "kr": "최근에 잠을 잘 못 잤어.",
+      "en": "I haven't been sleeping well lately."
+    },
+    {
+      "kr": "요즘 운동 열심히 하고 있어?",
+      "en": "Have you been exercising lately?"
+    },
+    {
+      "kr": "그들은 몇 달째 여기 살고 있어.",
+      "en": "They've been living here for months."
+    },
+    {
+      "kr": "그는 아침부터 일자리를 찾고 있어.",
+      "en": "He's been looking for a job since this morning."
+    },
+    {
+      "kr": "최근에 뉴스 많이 보고 있어.",
+      "en": "I've been watching the news a lot recently."
+    },
+    {
+      "kr": "우리는 한동안 만나지 못했어.",
+      "en": "We haven't been meeting for a while."
+    },
+    {
+      "kr": "그 일은 지금까지 잘 진행되고 있어.",
+      "en": "It's been going well so far."
+    }
+  ]
+}

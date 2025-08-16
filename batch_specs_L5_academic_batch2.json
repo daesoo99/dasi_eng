@@ -1,0 +1,379 @@
+{
+  "batch": "L5_Academic_Batch2",
+  "createdAt": "2025-08-15T05:00:00Z",
+  "description": "L5 학술·연구 마스터리 2차 - 학술 심화/국제협력/연구윤리 (CEFR C1-C2 완성)",
+  "stages": [
+    {
+      "id": "Lv5-A4-S13",
+      "title": "학제간 연구 협력",
+      "intent": "다양한 학문 분야 간의 협력 연구를 기획하고 조율하여 통합적 접근을 실현한다.",
+      "focus": ["INTERDISCIPLINARY-RESEARCH", "COLLABORATION", "INTEGRATION", "HOLISTIC-APPROACH"],
+      "lexset": ["interdisciplinary, multidisciplinary, collaboration, integration, synergy, convergence, holistic, perspective, methodology, framework"],
+      "grammar_meta": ["COMPLEX-COORDINATION", "COLLABORATIVE-LANGUAGE", "INTEGRATION-EXPRESSIONS", "ACADEMIC-COOPERATION"],
+      "academic_level": "C1-C2",
+      "traps": [
+        "학제간 vs 다학제 구분",
+        "협력 vs 통합 표현",
+        "관점 조율 언어",
+        "방법론 통합 설명"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["분야 조합", "협력 방식", "통합 수준", "성과 형태"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "학제간 접근이 복잡한 문제 해결에 필수적입니다.", "en": "An interdisciplinary approach is essential for solving complex problems." },
+        { "kr": "다양한 분야의 전문가들이 협력하고 있습니다.", "en": "Experts from various fields are collaborating." },
+        { "kr": "통합적 관점에서 현상을 분석합니다.", "en": "We analyze the phenomenon from an integrated perspective." },
+        { "kr": "학문 간 경계를 넘나드는 연구가 증가하고 있습니다.", "en": "Research that crosses disciplinary boundaries is increasing." },
+        { "kr": "시너지 효과가 기대되는 협력 프로젝트입니다.", "en": "This is a collaborative project where synergistic effects are expected." },
+        { "kr": "융합 연구가 새로운 패러다임을 제시합니다.", "en": "Convergence research presents new paradigms." },
+        { "kr": "전체론적 접근이 필요한 연구 영역입니다.", "en": "This is a research area that requires a holistic approach." },
+        { "kr": "다학제적 팀이 구성되었습니다.", "en": "A multidisciplinary team has been formed." },
+        { "kr": "통합 방법론을 개발해야 합니다.", "en": "An integrated methodology needs to be developed." },
+        { "kr": "학문적 경계를 허무는 것이 중요합니다.", "en": "Breaking down academic boundaries is important." }
+      ]
+    },
+    {
+      "id": "Lv5-A4-S14",
+      "title": "국제 학술 협력",
+      "intent": "국제적 학술 협력을 통해 글로벌 연구 네트워크를 구축하고 문화 간 이해를 증진한다.",
+      "focus": ["INTERNATIONAL-COOPERATION", "GLOBAL-RESEARCH", "CROSS-CULTURAL", "ACADEMIC-EXCHANGE"],
+      "lexset": ["international, global, cooperation, collaboration, exchange, network, partnership, mobility, diversity, cultural"],
+      "grammar_meta": ["INTERNATIONAL-LANGUAGE", "CULTURAL-EXPRESSIONS", "COOPERATION-STRUCTURES", "GLOBAL-DISCOURSE"],
+      "academic_level": "C1-C2",
+      "traps": [
+        "국제 vs 글로벌 구분",
+        "문화적 차이 표현",
+        "협력 vs 교류",
+        "네트워크 vs 파트너십"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["협력 형태", "지역/국가", "문화적 요소", "교류 방식"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "국제 공동 연구가 확대되고 있습니다.", "en": "International joint research is expanding." },
+        { "kr": "글로벌 학술 네트워크를 구축했습니다.", "en": "We have established a global academic network." },
+        { "kr": "문화 간 이해가 연구에 중요한 역할을 합니다.", "en": "Cross-cultural understanding plays an important role in research." },
+        { "kr": "학술 교류가 활발히 이루어지고 있습니다.", "en": "Academic exchange is actively taking place." },
+        { "kr": "다양성이 연구의 질을 향상시킵니다.", "en": "Diversity enhances the quality of research." },
+        { "kr": "국제적 파트너십이 형성되었습니다.", "en": "International partnerships have been formed." },
+        { "kr": "연구자 이동성이 증가하고 있습니다.", "en": "Researcher mobility is increasing." },
+        { "kr": "글로벌 도전 과제에 공동 대응합니다.", "en": "We jointly respond to global challenges." },
+        { "kr": "국경을 넘나드는 협력이 중요합니다.", "en": "Cross-border cooperation is important." },
+        { "kr": "문화적 다양성을 존중하는 연구입니다.", "en": "This is research that respects cultural diversity." }
+      ]
+    },
+    {
+      "id": "Lv5-A4-S15",
+      "title": "연구 영향력 및 사회적 기여",
+      "intent": "연구의 사회적 영향력을 평가하고 학술 연구가 사회에 기여하는 방안을 모색한다.",
+      "focus": ["RESEARCH-IMPACT", "SOCIAL-CONTRIBUTION", "KNOWLEDGE-TRANSFER", "PUBLIC-ENGAGEMENT"],
+      "lexset": ["impact, influence, contribution, transfer, engagement, outreach, dissemination, application, benefit, society"],
+      "grammar_meta": ["IMPACT-ASSESSMENT", "CONTRIBUTION-LANGUAGE", "TRANSFER-EXPRESSIONS", "SOCIAL-BENEFIT"],
+      "academic_level": "C1-C2",
+      "traps": [
+        "영향력 vs 기여도",
+        "지식 전달 vs 확산",
+        "사회적 vs 학술적",
+        "참여 vs 소통"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["영향 범위", "기여 방식", "전달 매체", "대상 집단"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "연구가 사회에 미치는 영향을 평가합니다.", "en": "We assess the impact of research on society." },
+        { "kr": "지식 전달이 연구의 중요한 목표입니다.", "en": "Knowledge transfer is an important goal of research." },
+        { "kr": "대중과의 소통이 강화되어야 합니다.", "en": "Communication with the public should be strengthened." },
+        { "kr": "연구 성과를 사회에 환원합니다.", "en": "We return research results to society." },
+        { "kr": "학술 연구의 실용적 가치가 중요합니다.", "en": "The practical value of academic research is important." },
+        { "kr": "사회적 참여가 연구의 질을 높입니다.", "en": "Social engagement enhances research quality." },
+        { "kr": "연구 결과를 널리 확산시켜야 합니다.", "en": "Research results should be widely disseminated." },
+        { "kr": "학계와 산업계의 연결이 필요합니다.", "en": "Connection between academia and industry is necessary." },
+        { "kr": "공공 정책에 연구가 기여할 수 있습니다.", "en": "Research can contribute to public policy." },
+        { "kr": "사회적 문제 해결에 학술이 역할합니다.", "en": "Academia plays a role in solving social problems." }
+      ]
+    },
+    {
+      "id": "Lv5-A4-S16",
+      "title": "학술 리더십 및 멘토링 (Bridge)",
+      "intent": "학술 공동체에서 리더십을 발휘하고 후진을 양성하는 멘토링 역할을 수행한다.",
+      "focus": ["ACADEMIC-LEADERSHIP", "MENTORING", "COMMUNITY-BUILDING", "KNOWLEDGE-CULTIVATION"],
+      "lexset": ["leadership, mentoring, guidance, development, cultivation, community, legacy, succession, inspiration, empowerment"],
+      "grammar_meta": ["LEADERSHIP-LANGUAGE", "MENTORING-EXPRESSIONS", "GUIDANCE-STRUCTURES", "DEVELOPMENT-TERMS"],
+      "academic_level": "C1-C2",
+      "traps": [
+        "리더십 vs 관리",
+        "멘토링 vs 지도",
+        "영감 vs 동기부여",
+        "양성 vs 교육"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.7, "neg": 0.1, "wh_q": 0.2 },
+      "variants": ["리더십 스타일", "멘토링 방식", "공동체 규모", "영향력 범위"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "학술 리더십이 공동체 발전에 중요합니다.", "en": "Academic leadership is important for community development." },
+        { "kr": "후배 연구자들을 멘토링하고 있습니다.", "en": "We are mentoring junior researchers." },
+        { "kr": "학문적 전통을 계승하고 발전시켜야 합니다.", "en": "Academic traditions must be inherited and developed." },
+        { "kr": "영감을 주는 연구 환경을 조성합니다.", "en": "We create an inspiring research environment." },
+        { "kr": "차세대 학자들을 양성하는 것이 중요합니다.", "en": "Cultivating next-generation scholars is important." },
+        { "kr": "학술 공동체의 결속력을 높여야 합니다.", "en": "The cohesion of the academic community should be strengthened." },
+        { "kr": "지식 전수가 우리의 책임입니다.", "en": "Knowledge transmission is our responsibility." },
+        { "kr": "연구 문화를 선도하는 역할을 합니다.", "en": "We play a role in leading research culture." },
+        { "kr": "학문적 유산을 다음 세대에 물려줍니다.", "en": "We pass on academic legacy to the next generation." },
+        { "kr": "협력적 연구 환경을 구축합니다.", "en": "We build a collaborative research environment." }
+      ]
+    },
+    {
+      "id": "Lv5-A5-S17",
+      "title": "연구 데이터 관리 및 공유",
+      "intent": "연구 데이터를 체계적으로 관리하고 학술 공동체와 투명하게 공유한다.",
+      "focus": ["DATA-MANAGEMENT", "DATA-SHARING", "TRANSPARENCY", "REPRODUCIBILITY"],
+      "lexset": ["data, management, sharing, transparency, reproducibility, accessibility, preservation, archive, repository, metadata"],
+      "grammar_meta": ["DATA-STRUCTURES", "MANAGEMENT-LANGUAGE", "SHARING-PROTOCOLS", "TECHNICAL-SPECIFICATIONS"],
+      "academic_level": "C1-C2",
+      "traps": [
+        "데이터 vs 자료",
+        "관리 vs 보관",
+        "공유 vs 공개",
+        "투명성 vs 접근성"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["데이터 유형", "관리 방식", "공유 범위", "보안 수준"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "연구 데이터를 체계적으로 관리해야 합니다.", "en": "Research data must be systematically managed." },
+        { "kr": "데이터 공유가 과학 발전에 기여합니다.", "en": "Data sharing contributes to scientific advancement." },
+        { "kr": "투명성이 연구 신뢰성을 보장합니다.", "en": "Transparency ensures research credibility." },
+        { "kr": "재현 가능성이 과학의 핵심 원칙입니다.", "en": "Reproducibility is a core principle of science." },
+        { "kr": "데이터 저장소를 구축했습니다.", "en": "We have established a data repository." },
+        { "kr": "메타데이터가 적절히 기록되었습니다.", "en": "Metadata has been properly documented." },
+        { "kr": "데이터 접근성을 향상시켜야 합니다.", "en": "Data accessibility should be improved." },
+        { "kr": "장기 보존 전략이 필요합니다.", "en": "Long-term preservation strategies are needed." },
+        { "kr": "데이터 품질을 지속적으로 관리합니다.", "en": "We continuously manage data quality." },
+        { "kr": "개방형 과학이 추진되고 있습니다.", "en": "Open science is being promoted." }
+      ]
+    },
+    {
+      "id": "Lv5-A5-S18",
+      "title": "학술 출판 및 동료심사",
+      "intent": "학술 출판 과정을 이해하고 동료심사 시스템에 능동적으로 참여한다.",
+      "focus": ["ACADEMIC-PUBLISHING", "PEER-REVIEW", "EDITORIAL-PROCESS", "SCHOLARLY-COMMUNICATION"],
+      "lexset": ["publishing, publication, peer-review, editorial, manuscript, journal, revision, acceptance, rejection, impact"],
+      "grammar_meta": ["PUBLISHING-LANGUAGE", "REVIEW-EXPRESSIONS", "EDITORIAL-TERMS", "ACADEMIC-EVALUATION"],
+      "academic_level": "C1-C2",
+      "traps": [
+        "출판 vs 발행",
+        "심사 vs 검토",
+        "수정 vs 개정",
+        "영향력 vs 인용도"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["출판 유형", "심사 과정", "저널 등급", "피드백 방식"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "논문이 동료심사를 거쳐 게재되었습니다.", "en": "The paper has been published after peer review." },
+        { "kr": "편집자의 피드백을 반영하여 수정했습니다.", "en": "We revised it reflecting the editor's feedback." },
+        { "kr": "심사위원의 의견이 건설적이었습니다.", "en": "The reviewer's comments were constructive." },
+        { "kr": "학술지의 영향력이 높아지고 있습니다.", "en": "The journal's impact is increasing." },
+        { "kr": "출판 윤리를 준수해야 합니다.", "en": "Publishing ethics must be observed." },
+        { "kr": "개방형 출판이 확산되고 있습니다.", "en": "Open access publishing is spreading." },
+        { "kr": "인용 지수가 연구 평가에 사용됩니다.", "en": "Citation indices are used for research evaluation." },
+        { "kr": "원고의 질이 지속적으로 향상되고 있습니다.", "en": "The quality of manuscripts is continuously improving." },
+        { "kr": "학술 커뮤니케이션이 디지털화되었습니다.", "en": "Scholarly communication has been digitized." },
+        { "kr": "심사 과정의 투명성이 중요합니다.", "en": "Transparency in the review process is important." }
+      ]
+    },
+    {
+      "id": "Lv5-A5-S19",
+      "title": "연구비 획득 및 관리",
+      "intent": "연구비를 성공적으로 획득하고 효율적으로 관리하여 연구 목표를 달성한다.",
+      "focus": ["RESEARCH-FUNDING", "GRANT-APPLICATION", "BUDGET-MANAGEMENT", "RESOURCE-ALLOCATION"],
+      "lexset": ["funding, grant, budget, allocation, resource, proposal, application, award, management, efficiency"],
+      "grammar_meta": ["FUNDING-LANGUAGE", "APPLICATION-STRUCTURES", "BUDGET-EXPRESSIONS", "MANAGEMENT-TERMS"],
+      "academic_level": "C1-C2",
+      "traps": [
+        "연구비 vs 지원금",
+        "신청 vs 지원",
+        "예산 vs 자원",
+        "관리 vs 운영"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["기금 유형", "신청 과정", "예산 규모", "관리 방식"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "연구비 신청서를 제출했습니다.", "en": "We have submitted a grant application." },
+        { "kr": "예산을 효율적으로 배분해야 합니다.", "en": "The budget must be allocated efficiently." },
+        { "kr": "연구 자원이 적절히 활용되고 있습니다.", "en": "Research resources are being utilized appropriately." },
+        { "kr": "기금 운영의 투명성을 유지합니다.", "en": "We maintain transparency in fund management." },
+        { "kr": "연구비 수주가 성공적이었습니다.", "en": "Grant acquisition was successful." },
+        { "kr": "예산 집행을 주기적으로 점검합니다.", "en": "We regularly monitor budget execution." },
+        { "kr": "연구 제안서의 질이 중요합니다.", "en": "The quality of research proposals is important." },
+        { "kr": "다양한 기금원을 확보해야 합니다.", "en": "Various funding sources must be secured." },
+        { "kr": "연구비 관리 규정을 준수합니다.", "en": "We comply with research fund management regulations." },
+        { "kr": "성과 기반 평가가 시행되고 있습니다.", "en": "Performance-based evaluation is being implemented." }
+      ]
+    },
+    {
+      "id": "Lv5-A5-S20",
+      "title": "학술 네트워킹 및 컨퍼런스 (Bridge)",
+      "intent": "학술 네트워크를 구축하고 국제 컨퍼런스에서 효과적으로 소통한다.",
+      "focus": ["ACADEMIC-NETWORKING", "CONFERENCE-PARTICIPATION", "PROFESSIONAL-RELATIONSHIPS", "KNOWLEDGE-EXCHANGE"],
+      "lexset": ["networking, conference, symposium, workshop, collaboration, connection, relationship, exchange, interaction, community"],
+      "grammar_meta": ["NETWORKING-LANGUAGE", "CONFERENCE-EXPRESSIONS", "RELATIONSHIP-BUILDING", "INTERACTION-TERMS"],
+      "academic_level": "C1-C2",
+      "traps": [
+        "네트워킹 vs 인맥",
+        "컨퍼런스 vs 학회",
+        "교류 vs 소통",
+        "관계 vs 연결"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["네트워크 규모", "행사 유형", "참여 방식", "관계 깊이"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "학술 네트워크를 적극적으로 구축하고 있습니다.", "en": "We are actively building academic networks." },
+        { "kr": "국제 컨퍼런스에서 발표할 예정입니다.", "en": "We are scheduled to present at an international conference." },
+        { "kr": "동료들과의 협력 관계를 강화했습니다.", "en": "We have strengthened collaborative relationships with colleagues." },
+        { "kr": "학술 교류가 연구에 도움이 됩니다.", "en": "Academic exchange is helpful for research." },
+        { "kr": "전문가들과의 네트워킹이 중요합니다.", "en": "Networking with experts is important." },
+        { "kr": "워크샵에서 유익한 정보를 얻었습니다.", "en": "We obtained valuable information from the workshop." },
+        { "kr": "학술 공동체와의 연결을 유지합니다.", "en": "We maintain connections with the academic community." },
+        { "kr": "지식 공유가 상호 이익이 됩니다.", "en": "Knowledge sharing is mutually beneficial." },
+        { "kr": "국제적 협력 네트워크가 확장되었습니다.", "en": "The international collaboration network has expanded." },
+        { "kr": "학술 행사 참여가 시야를 넓혀줍니다.", "en": "Participation in academic events broadens perspectives." }
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21",
+      "title": "미래 연구 동향 및 예측",
+      "intent": "학술 분야의 미래 동향을 분석하고 연구 발전 방향을 예측한다.",
+      "focus": ["FUTURE-TRENDS", "RESEARCH-PREDICTION", "EMERGING-FIELDS", "TECHNOLOGICAL-ADVANCEMENT"],
+      "lexset": ["trend, prediction, forecasting, emerging, future, evolution, advancement, innovation, transformation, paradigm"],
+      "grammar_meta": ["FUTURE-PREDICTION", "TREND-ANALYSIS", "FORECASTING-LANGUAGE", "EMERGING-EXPRESSIONS"],
+      "academic_level": "C1-C2",
+      "traps": [
+        "예측 vs 전망",
+        "동향 vs 추세",
+        "신흥 vs 새로운",
+        "혁신 vs 발전"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["예측 범위", "시간 규모", "확실성 정도", "영향력"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "미래 연구 동향을 예측하는 것이 중요합니다.", "en": "Predicting future research trends is important." },
+        { "kr": "신흥 분야가 빠르게 발전하고 있습니다.", "en": "Emerging fields are developing rapidly." },
+        { "kr": "기술 발전이 연구 방식을 변화시키고 있습니다.", "en": "Technological advancement is changing research methods." },
+        { "kr": "패러다임 전환이 예상됩니다.", "en": "A paradigm shift is anticipated." },
+        { "kr": "학문적 진화가 지속되고 있습니다.", "en": "Academic evolution continues." },
+        { "kr": "혁신적 접근법이 요구됩니다.", "en": "Innovative approaches are required." },
+        { "kr": "연구 생태계가 변모하고 있습니다.", "en": "The research ecosystem is transforming." },
+        { "kr": "미래 도전 과제를 준비해야 합니다.", "en": "We must prepare for future challenges." },
+        { "kr": "학술 분야의 융합이 가속화되고 있습니다.", "en": "The convergence of academic fields is accelerating." },
+        { "kr": "예측 모델링이 더욱 정교해지고 있습니다.", "en": "Predictive modeling is becoming more sophisticated." }
+      ]
+    },
+    {
+      "id": "Lv5-A6-S22",
+      "title": "연구 혁신 및 창의성",
+      "intent": "연구에서 창의적 사고를 발휘하고 혁신적 접근법을 개발한다.",
+      "focus": ["RESEARCH-INNOVATION", "CREATIVITY", "NOVEL-APPROACHES", "BREAKTHROUGH"],
+      "lexset": ["innovation, creativity, novel, breakthrough, original, pioneering, revolutionary, groundbreaking, inventive, ingenious"],
+      "grammar_meta": ["INNOVATION-LANGUAGE", "CREATIVITY-EXPRESSIONS", "BREAKTHROUGH-TERMS", "ORIGINAL-THINKING"],
+      "academic_level": "C1-C2",
+      "traps": [
+        "혁신 vs 개선",
+        "창의적 vs 독창적",
+        "돌파구 vs 발견",
+        "선구적 vs 혁명적"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["혁신 유형", "창의성 수준", "영향 범위", "실현 가능성"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "혁신적 연구 방법을 개발했습니다.", "en": "We have developed innovative research methods." },
+        { "kr": "창의적 사고가 돌파구를 제공합니다.", "en": "Creative thinking provides breakthroughs." },
+        { "kr": "독창적 접근법이 새로운 가능성을 열어줍니다.", "en": "Original approaches open new possibilities." },
+        { "kr": "획기적인 발견이 기대됩니다.", "en": "Groundbreaking discoveries are expected." },
+        { "kr": "선구적 연구가 분야를 선도합니다.", "en": "Pioneering research leads the field." },
+        { "kr": "혁명적 변화가 시작되었습니다.", "en": "Revolutionary change has begun." },
+        { "kr": "창의성이 연구의 핵심 동력입니다.", "en": "Creativity is the core driving force of research." },
+        { "kr": "새로운 패러다임을 제시합니다.", "en": "We present a new paradigm." },
+        { "kr": "독창성이 학술적 가치를 높입니다.", "en": "Originality enhances academic value." },
+        { "kr": "혁신적 아이디어를 구현해야 합니다.", "en": "Innovative ideas must be implemented." }
+      ]
+    },
+    {
+      "id": "Lv5-A6-S23",
+      "title": "학술적 비판적 사고",
+      "intent": "학술 정보를 비판적으로 분석하고 논리적 추론을 통해 결론을 도출한다.",
+      "focus": ["CRITICAL-THINKING", "ANALYTICAL-REASONING", "LOGICAL-EVALUATION", "SKEPTICAL-INQUIRY"],
+      "lexset": ["critical, analytical, logical, reasoning, evaluation, assessment, skepticism, scrutiny, examination, judgment"],
+      "grammar_meta": ["CRITICAL-ANALYSIS", "REASONING-STRUCTURES", "EVALUATION-LANGUAGE", "LOGICAL-CONNECTORS"],
+      "academic_level": "C2",
+      "traps": [
+        "비판적 vs 부정적",
+        "분석적 vs 해석적",
+        "논리적 vs 합리적",
+        "회의적 vs 의심적"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.5, "neg": 0.3, "wh_q": 0.2 },
+      "variants": ["분석 대상", "비판 수준", "추론 방식", "결론 도출"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "비판적 사고가 연구의 기본입니다.", "en": "Critical thinking is fundamental to research." },
+        { "kr": "논리적 추론을 통해 결론에 도달했습니다.", "en": "We reached conclusions through logical reasoning." },
+        { "kr": "분석적 접근이 필요한 문제입니다.", "en": "This is a problem that requires an analytical approach." },
+        { "kr": "회의적 관점에서 검토해야 합니다.", "en": "It should be examined from a skeptical perspective." },
+        { "kr": "엄밀한 검증이 요구됩니다.", "en": "Rigorous verification is required." },
+        { "kr": "판단력이 연구자의 핵심 능력입니다.", "en": "Judgment is a core ability of researchers." },
+        { "kr": "비판적 평가를 통해 개선합니다.", "en": "We improve through critical evaluation." },
+        { "kr": "논리적 일관성을 유지해야 합니다.", "en": "Logical consistency must be maintained." },
+        { "kr": "분석적 사고가 깊이를 더해줍니다.", "en": "Analytical thinking adds depth." },
+        { "kr": "비판적 검토가 질을 보장합니다.", "en": "Critical review ensures quality." }
+      ]
+    },
+    {
+      "id": "Lv5-A6-S24",
+      "title": "학술 유산 및 지속가능성 (Bridge)",
+      "intent": "학술적 유산을 보존하고 지속가능한 연구 문화를 구축한다.",
+      "focus": ["ACADEMIC-LEGACY", "SUSTAINABILITY", "PRESERVATION", "CONTINUITY"],
+      "lexset": ["legacy, heritage, sustainability, preservation, continuity, tradition, succession, perpetuation, conservation, endurance"],
+      "grammar_meta": ["LEGACY-LANGUAGE", "SUSTAINABILITY-EXPRESSIONS", "PRESERVATION-TERMS", "CONTINUITY-STRUCTURES"],
+      "academic_level": "C1-C2",
+      "traps": [
+        "유산 vs 전통",
+        "지속가능성 vs 지속성",
+        "보존 vs 보호",
+        "계승 vs 상속"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.7, "neg": 0.1, "wh_q": 0.2 },
+      "variants": ["유산 유형", "지속성 방식", "보존 방법", "계승 범위"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "학술적 유산을 다음 세대에 전수해야 합니다.", "en": "Academic legacy must be passed on to the next generation." },
+        { "kr": "지속가능한 연구 문화를 구축하고 있습니다.", "en": "We are building a sustainable research culture." },
+        { "kr": "학문적 전통을 보존하면서 발전시켜야 합니다.", "en": "Academic traditions must be preserved while being developed." },
+        { "kr": "연구의 연속성이 중요합니다.", "en": "Continuity of research is important." },
+        { "kr": "지식의 영속성을 보장해야 합니다.", "en": "The perpetuity of knowledge must be ensured." },
+        { "kr": "학술적 가치가 보존되어야 합니다.", "en": "Academic values must be preserved." },
+        { "kr": "연구 문화의 지속성이 필요합니다.", "en": "Sustainability of research culture is necessary." },
+        { "kr": "학문적 계승이 이루어지고 있습니다.", "en": "Academic succession is taking place." },
+        { "kr": "전통과 혁신의 균형이 중요합니다.", "en": "Balance between tradition and innovation is important." },
+        { "kr": "학술적 유산이 인류의 자산입니다.", "en": "Academic legacy is humanity's asset." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "Lv2-P6-S20",
+  "title": "비교급 + 상황맥락 — 실생활 선택·판단",
+  "intent": "비교급/최상급을 실생활 상황(쇼핑, 선택, 판단)에서 자연스럽게 사용하여 의견을 표현하고 설득한다.",
+  "focus": [
+    "PRACTICAL-COMPARISON",
+    "DECISION-MAKING",
+    "SHOPPING",
+    "PREFERENCES"
+  ],
+  "lexset": [
+    "choose, decide, prefer, recommend, suggest, buy, expensive, cheap, quality, size, color, brand"
+  ],
+  "traps": [
+    "비교 없는 비교급(This is better ✗ - better than what?)",
+    "추천 표현(You should buy the most expensive ✗)",
+    "이유 연결(because it's cheaper)",
+    "선호도 표현(I prefer A to B)"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.7,
+    "neg": 0.1,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "상황 유형",
+    "선택 기준",
+    "이유",
+    "추천 방식"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "이게 더 좋은 선택이야.",
+      "en": "This is a better choice."
+    },
+    {
+      "kr": "품질이 더 중요해.",
+      "en": "Quality is more important."
+    },
+    {
+      "kr": "저렴한 걸 추천해.",
+      "en": "I recommend the cheaper one."
+    },
+    {
+      "kr": "이 브랜드가 제일 좋아.",
+      "en": "This brand is the best."
+    },
+    {
+      "kr": "크기가 더 적당해.",
+      "en": "The size is more suitable."
+    },
+    {
+      "kr": "가격 대비 더 낫다.",
+      "en": "It's better for the price."
+    },
+    {
+      "kr": "이색깔이 더 예뻐.",
+      "en": "This color is prettier."
+    },
+    {
+      "kr": "어느 게 더 나아?",
+      "en": "Which one is better?"
+    },
+    {
+      "kr": "가장 인기 있는 걸로 해.",
+      "en": "Let's go with the most popular one."
+    },
+    {
+      "kr": "이게 가장 실용적이야.",
+      "en": "This is the most practical."
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "Lv2-P3-S05",
+  "title": "수량·가산/불가산 — how much/many, some/any, many/much",
+  "intent": "speaking",
+  "focus": [
+    "quantifiers",
+    "count_uncount"
+  ],
+  "lexset": {
+    "count_nouns": [
+      "apples",
+      "books",
+      "tickets",
+      "emails",
+      "people",
+      "ideas"
+    ],
+    "uncount_nouns": [
+      "water",
+      "money",
+      "time",
+      "advice",
+      "information",
+      "coffee"
+    ],
+    "quantifiers": [
+      "some",
+      "any",
+      "many",
+      "much",
+      "a lot of",
+      "a few",
+      "a little",
+      "how many",
+      "how much"
+    ]
+  },
+  "traps": [
+    "COUNTABILITY",
+    "ARTICLE",
+    "DO-AUX",
+    "AGREE-NUM"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.5,
+    "neg": 0.2,
+    "wh_q": 0.3
+  },
+  "variants": {
+    "place": [
+      "at home",
+      "at the store",
+      "in the office",
+      "online"
+    ],
+    "time": [
+      "today",
+      "this morning",
+      "right now",
+      "on weekend"
+    ]
+  },
+  "engine": {
+    "randomPick": true,
+    "retryWeighted": true,
+    "delaySec": 2,
+    "randomize": true
+  },
+  "seeds": [
+    {
+      "kr": "물 얼마나 남았어?",
+      "en": "How much water is left?"
+    },
+    {
+      "kr": "사과 몇 개 샀어?",
+      "en": "How many apples did you buy?"
+    },
+    {
+      "kr": "시간이 별로 없어.",
+      "en": "I don't have much time."
+    },
+    {
+      "kr": "티켓이 몇 장 더 필요해.",
+      "en": "We need a few more tickets."
+    },
+    {
+      "kr": "현금 좀 있어?",
+      "en": "Do you have any cash?"
+    },
+    {
+      "kr": "그 정보는 별로 도움이 안 돼.",
+      "en": "That information isn't very helpful."
+    },
+    {
+      "kr": "커피 조금만 더 마실래?",
+      "en": "Would you like a little more coffee?"
+    },
+    {
+      "kr": "이메일이 너무 많아.",
+      "en": "I have too many emails."
+    },
+    {
+      "kr": "오늘 물건이 많이 팔렸어.",
+      "en": "We sold a lot of items today."
+    },
+    {
+      "kr": "조언 좀 해줄 수 있어?",
+      "en": "Could you give me some advice?"
+    }
+  ]
+}

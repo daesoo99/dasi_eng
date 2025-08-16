@@ -1,0 +1,750 @@
+{
+  "basic_patterns_for_levels_1_5": {
+    "level_1_patterns": {
+      "description": "기본 현재시제 패턴",
+      "patterns": [
+        {
+          "original_sentence": "I am honored to be with you today",
+          "basic_pattern": "I am + 형용사",
+          "practice_examples": [
+            "I am happy",
+            "I am tired", 
+            "I am ready"
+          ]
+        },
+        {
+          "original_sentence": "Truth be told I never graduated from college",
+          "basic_pattern": "I never + 동사과거형",
+          "practice_examples": [
+            "I never went there",
+            "I never saw it",
+            "I never tried it"
+          ]
+        },
+        {
+          "original_sentence": "Today I want to tell you three stories",
+          "basic_pattern": "I want to + 동사원형",
+          "practice_examples": [
+            "I want to go",
+            "I want to eat",
+            "I want to sleep"
+          ]
+        },
+        {
+          "original_sentence": "I dropped out of Reed College",
+          "basic_pattern": "I + 동사과거형",
+          "practice_examples": [
+            "I worked yesterday",
+            "I studied English",
+            "I walked home"
+          ]
+        }
+      ]
+    },
+    "level_2_patterns": {
+      "description": "의문문과 부정문 패턴",
+      "patterns": [
+        {
+          "original_sentence": "So why did I drop out?",
+          "basic_pattern": "Why did I + 동사원형?",
+          "practice_examples": [
+            "Why did I come here?",
+            "Why did I do that?",
+            "Why did I say yes?"
+          ]
+        },
+        {
+          "original_sentence": "do you want him?",
+          "basic_pattern": "Do you want + 명사?",
+          "practice_examples": [
+            "Do you want coffee?",
+            "Do you want help?",
+            "Do you want this?"
+          ]
+        },
+        {
+          "original_sentence": "I had no idea what I wanted to do",
+          "basic_pattern": "I had no + 명사",
+          "practice_examples": [
+            "I had no time",
+            "I had no money",
+            "I had no choice"
+          ]
+        },
+        {
+          "original_sentence": "I couldn't see the value in it",
+          "basic_pattern": "I couldn't + 동사원형",
+          "practice_examples": [
+            "I couldn't understand",
+            "I couldn't believe it",
+            "I couldn't find it"
+          ]
+        }
+      ]
+    },
+    "level_3_patterns": {
+      "description": "과거시제와 진행형 패턴",
+      "patterns": [
+        {
+          "original_sentence": "It started before I was born",
+          "basic_pattern": "It started + 시간표현",
+          "practice_examples": [
+            "It started last week",
+            "It started this morning",
+            "It started yesterday"
+          ]
+        },
+        {
+          "original_sentence": "I was spending all of the money",
+          "basic_pattern": "I was + -ing",
+          "practice_examples": [
+            "I was working",
+            "I was studying",
+            "I was waiting"
+          ]
+        },
+        {
+          "original_sentence": "She decided to put me up for adoption",
+          "basic_pattern": "She decided to + 동사원형",
+          "practice_examples": [
+            "She decided to go",
+            "She decided to stay",
+            "She decided to call"
+          ]
+        },
+        {
+          "original_sentence": "looking back it was one of the best decisions",
+          "basic_pattern": "It was one of the + 최상급",
+          "practice_examples": [
+            "It was one of the best days",
+            "It was one of the worst things",
+            "It was one of the easiest tests"
+          ]
+        }
+      ]
+    },
+    "level_4_patterns": {
+      "description": "조동사와 복합시제 패턴",
+      "patterns": [
+        {
+          "original_sentence": "I would walk the 7 miles across town",
+          "basic_pattern": "I would + 동사원형",
+          "practice_examples": [
+            "I would call you",
+            "I would help him",
+            "I would come back"
+          ]
+        },
+        {
+          "original_sentence": "it all came back to me",
+          "basic_pattern": "it came back to + 대명사",
+          "practice_examples": [
+            "It came back to me",
+            "It came back to him", 
+            "It came back to us"
+          ]
+        },
+        {
+          "original_sentence": "I had never dropped in on that single course",
+          "basic_pattern": "I had never + 과거분사",
+          "practice_examples": [
+            "I had never seen it",
+            "I had never been there",
+            "I had never tried it"
+          ]
+        },
+        {
+          "original_sentence": "You have to trust in something",
+          "basic_pattern": "You have to + 동사원형",
+          "practice_examples": [
+            "You have to go now",
+            "You have to study hard",
+            "You have to be careful"
+          ]
+        }
+      ]
+    },
+    "level_5_patterns": {
+      "description": "가정법과 복잡한 문장구조",
+      "patterns": [
+        {
+          "original_sentence": "If I had never dropped out, I would have never dropped in",
+          "basic_pattern": "If I had + 과거분사, I would have + 과거분사",
+          "practice_examples": [
+            "If I had known, I would have come",
+            "If I had studied, I would have passed",
+            "If I had called, I would have told you"
+          ]
+        },
+        {
+          "original_sentence": "Even when it leads you off the well worn path",
+          "basic_pattern": "Even when + 주어 + 동사",
+          "practice_examples": [
+            "Even when it rains",
+            "Even when I'm tired",
+            "Even when it's difficult"
+          ]
+        },
+        {
+          "original_sentence": "How can you get fired from a company you started?",
+          "basic_pattern": "How can you + 동사원형?",
+          "practice_examples": [
+            "How can you do that?",
+            "How can you say no?",
+            "How can you be sure?"
+          ]
+        },
+        {
+          "original_sentence": "I'm convinced that the only thing that kept me going was that I loved what I did",
+          "basic_pattern": "I'm convinced that + 문장",
+          "practice_examples": [
+            "I'm convinced that he's right",
+            "I'm convinced that it works",
+            "I'm convinced that we can do it"
+          ]
+        }
+      ]
+    },
+    "korean_confusion_patterns": {
+      "description": "한국인이 특히 헷갈려하는 패턴들",
+      "be_vs_do_patterns": [
+        {
+          "original_sentence": "I am honored to be with you",
+          "pattern_type": "be동사 + 형용사",
+          "korean_confusion": "Are you honored? (NOT: Do you honored?)",
+          "practice": [
+            "Are you ready?",
+            "Are you tired?", 
+            "Are you happy?"
+          ]
+        },
+        {
+          "original_sentence": "I want to tell you",
+          "pattern_type": "일반동사 의문문",
+          "korean_confusion": "Do you want to go? (NOT: Are you want to go?)",
+          "practice": [
+            "Do you want coffee?",
+            "Do you like music?",
+            "Do you understand?"
+          ]
+        }
+      ],
+      "past_tense_patterns": [
+        {
+          "original_sentence": "I dropped out of Reed College",
+          "pattern_type": "과거형 긍정문",
+          "korean_confusion": "I went there (NOT: I was go there)",
+          "practice": [
+            "I studied English",
+            "I worked yesterday",
+            "I called him"
+          ]
+        },
+        {
+          "original_sentence": "So why did I drop out?",
+          "pattern_type": "과거형 의문문",
+          "korean_confusion": "Why did you go? (NOT: Why you went?)",
+          "practice": [
+            "When did you come?",
+            "Where did you go?",
+            "What did you do?"
+          ]
+        }
+      ],
+      "preposition_patterns": [
+        {
+          "original_sentence": "I slept on the floor in friends' rooms",
+          "pattern_type": "장소 전치사",
+          "korean_confusion": "on the floor, in the room (위치에 따라 다름)",
+          "practice": [
+            "on the table",
+            "in the box",
+            "at school"
+          ]
+        },
+        {
+          "original_sentence": "I would walk the 7 miles across town",
+          "pattern_type": "이동 전치사",
+          "korean_confusion": "walk to school (NOT: walk school)",
+          "practice": [
+            "go to work",
+            "come to class",
+            "walk to the store"
+          ]
+        }
+      ],
+      "article_patterns": [
+        {
+          "original_sentence": "go to college",
+          "pattern_type": "무관사 (일반적 목적)",
+          "korean_confusion": "go to school (NOT: go to the school)",
+          "practice": [
+            "go to work",
+            "go to bed",
+            "go to church"
+          ]
+        },
+        {
+          "original_sentence": "the first computer with beautiful typography",
+          "pattern_type": "정관사 (특정한 것)",
+          "korean_confusion": "the first time (특정한 순서)",
+          "practice": [
+            "the best way",
+            "the only solution",
+            "the right answer"
+          ]
+        }
+      ],
+      "time_expressions": [
+        {
+          "original_sentence": "for the past 33 years",
+          "pattern_type": "기간 표현 for",
+          "korean_confusion": "for 3 years (기간) vs since 2020 (시점)",
+          "practice": [
+            "for 2 hours",
+            "for a long time",
+            "since yesterday"
+          ]
+        },
+        {
+          "original_sentence": "When I was 17",
+          "pattern_type": "과거 시점",
+          "korean_confusion": "When I was young (NOT: When I had young)",
+          "practice": [
+            "When I was a student",
+            "When I was tired",
+            "When I was ready"
+          ]
+        }
+      ]
+    },
+    "useful_expressions": {
+      "description": "실용적인 표현들",
+      "daily_expressions": [
+        {
+          "original": "Thank you",
+          "variations": ["Thanks", "Thank you very much", "Thanks a lot"]
+        },
+        {
+          "original": "That's it",
+          "meaning": "끝이야, 그게 다야",
+          "practice": ["That's all", "That's enough", "That's right"]
+        },
+        {
+          "original": "No big deal",
+          "meaning": "별거 아니야",
+          "practice": ["No problem", "No worries", "It's okay"]
+        },
+        {
+          "original": "looking back",
+          "meaning": "돌이켜보면",
+          "practice": ["Looking forward", "Looking ahead", "Looking around"]
+        }
+      ],
+      "connector_words": [
+        {
+          "word": "So",
+          "usage": "그래서, 결론적으로",
+          "example": "So I decided to drop out"
+        },
+        {
+          "word": "But",
+          "usage": "하지만",
+          "example": "But something slowly began to dawn on me"
+        },
+        {
+          "word": "And",
+          "usage": "그리고",
+          "example": "And that will make all the difference"
+        },
+        {
+          "word": "Because",
+          "usage": "왜냐하면",
+          "example": "Because I had dropped out"
+        }
+      ]
+    },
+    "level_6_animation_patterns": {
+      "description": "애니메이션 대화에서 추출한 일상 회화 패턴 (레벨 6 기준)",
+      "basic_questions": [
+        {
+          "original": "did he just say we couldn't have dessert?",
+          "pattern": "Did + 주어 + just + 동사원형?",
+          "level_1_practice": [
+            "Did you just call me?",
+            "Did she just leave?",
+            "Did we just finish?"
+          ]
+        },
+        {
+          "original": "what are we gonna do?",
+          "pattern": "What are we gonna + 동사원형?",
+          "level_2_practice": [
+            "What are we gonna eat?",
+            "What are we gonna watch?",
+            "What are we gonna buy?"
+          ]
+        },
+        {
+          "original": "where we came back?",
+          "pattern": "Where + did + 주어 + 동사원형?",
+          "level_2_practice": [
+            "Where did you go?",
+            "Where did she come from?",
+            "Where did we meet?"
+          ]
+        }
+      ],
+      "daily_expressions": [
+        {
+          "original": "that's anger",
+          "pattern": "That's + 명사/형용사",
+          "level_1_practice": [
+            "That's good",
+            "That's my book",
+            "That's wrong"
+          ]
+        },
+        {
+          "original": "oh sure",
+          "pattern": "감정 표현",
+          "level_1_practice": [
+            "Oh no",
+            "Oh yes",
+            "Oh really?"
+          ]
+        },
+        {
+          "original": "wait a minute",
+          "pattern": "시간 표현",
+          "level_1_practice": [
+            "Wait here",
+            "Wait for me",
+            "Just a minute"
+          ]
+        }
+      ],
+      "negative_patterns": [
+        {
+          "original": "we couldn't have dessert",
+          "pattern": "we couldn't + 동사원형",
+          "level_3_practice": [
+            "We couldn't go there",
+            "We couldn't find it",
+            "We couldn't understand"
+          ]
+        },
+        {
+          "original": "nobody is done",
+          "pattern": "nobody + be동사 + 형용사",
+          "level_2_practice": [
+            "Nobody is ready",
+            "Nobody is happy",
+            "Nobody is here"
+          ]
+        },
+        {
+          "original": "I wouldn't call it that",
+          "pattern": "I wouldn't + 동사원형",
+          "level_4_practice": [
+            "I wouldn't do that",
+            "I wouldn't say that",
+            "I wouldn't go there"
+          ]
+        }
+      ],
+      "future_plans": [
+        {
+          "original": "we're gonna get rabies",
+          "pattern": "we're gonna + 동사원형",
+          "level_2_practice": [
+            "We're gonna go home",
+            "We're gonna eat dinner",
+            "We're gonna watch TV"
+          ]
+        },
+        {
+          "original": "let's go check it out",
+          "pattern": "let's + 동사원형",
+          "level_1_practice": [
+            "Let's go home",
+            "Let's eat lunch",
+            "Let's try it"
+          ]
+        },
+        {
+          "original": "gotta be great",
+          "pattern": "gotta be + 형용사",
+          "level_3_practice": [
+            "Gotta be careful",
+            "Gotta be quick",
+            "Gotta be ready"
+          ]
+        }
+      ],
+      "emotional_expressions": [
+        {
+          "original": "I'm gonna be socially dead",
+          "pattern": "I'm gonna be + 형용사",
+          "level_2_practice": [
+            "I'm gonna be late",
+            "I'm gonna be tired",
+            "I'm gonna be happy"
+          ]
+        },
+        {
+          "original": "she cares very deeply about things",
+          "pattern": "주어 + cares about + 명사",
+          "level_3_practice": [
+            "I care about you",
+            "He cares about work",
+            "We care about family"
+          ]
+        }
+      ],
+      "korean_confusion_from_animation": [
+        {
+          "original": "are we really doing this?",
+          "confusion": "Are we...? (NOT: Do we...?) - 진행형 의문문",
+          "correct_pattern": "Are + 주어 + -ing?",
+          "practice": [
+            "Are you going home?",
+            "Are we starting now?", 
+            "Are they coming?"
+          ]
+        },
+        {
+          "original": "you're too dumb to understand",
+          "confusion": "too + 형용사 + to + 동사원형",
+          "correct_pattern": "too + 형용사 + to + 동사",
+          "practice": [
+            "too tired to walk",
+            "too young to drive",
+            "too busy to call"
+          ]
+        },
+        {
+          "original": "what would you do if you're so smart?",
+          "confusion": "What would you do? (가정법 의문문)",
+          "correct_pattern": "What would + 주어 + 동사원형?",
+          "practice": [
+            "What would you say?",
+            "What would she do?",
+            "What would we need?"
+          ]
+        }
+      ]
+    },
+    "level_8_literary_patterns": {
+      "description": "문학적 스토리텔링에서 추출한 기초 패턴들 (레벨 8 기준 → 레벨 1-5 활용)",
+      "basic_questions_from_complex": [
+        {
+          "original_complex": "Questions that rarely have answers",
+          "simplified_pattern": "Questions + that + 동사",
+          "level_2_practice": [
+            "Books that I like",
+            "People that help me",
+            "Things that matter"
+          ]
+        },
+        {
+          "original_complex": "Who am I?",
+          "simplified_pattern": "Who + be동사 + 주어?",
+          "level_1_practice": [
+            "Who are you?",
+            "Who is she?",
+            "Who are they?"
+          ]
+        },
+        {
+          "original_complex": "How much does luck have to do in all this?",
+          "simplified_pattern": "How much + does + 주어 + 동사?",
+          "level_3_practice": [
+            "How much does it cost?",
+            "How much do you need?",
+            "How much does she work?"
+          ]
+        }
+      ],
+      "past_tense_narratives": [
+        {
+          "original_complex": "I was the first child of parents who dreamed",
+          "simplified_pattern": "I was + 명사",
+          "level_1_practice": [
+            "I was a student",
+            "I was tired",
+            "I was ready"
+          ]
+        },
+        {
+          "original_complex": "I got used to having more things than I needed",
+          "simplified_pattern": "I got + 형용사/과거분사",
+          "level_3_practice": [
+            "I got tired",
+            "I got lost",
+            "I got ready"
+          ]
+        },
+        {
+          "original_complex": "Until one morning I had a lucky accident",
+          "simplified_pattern": "Until + 시간 + I + 동사과거형",
+          "level_2_practice": [
+            "Until yesterday I worked",
+            "Until Monday I studied",
+            "Until now I waited"
+          ]
+        }
+      ],
+      "present_continuous_extracted": [
+        {
+          "original_complex": "we're printing the second",
+          "simplified_pattern": "we're + -ing",
+          "level_2_practice": [
+            "We're going home",
+            "We're eating lunch",
+            "We're studying now"
+          ]
+        },
+        {
+          "original_complex": "What are you working on now?",
+          "simplified_pattern": "What are you + -ing?",
+          "level_2_practice": [
+            "What are you doing?",
+            "What are you eating?",
+            "What are you reading?"
+          ]
+        }
+      ],
+      "modal_patterns_simplified": [
+        {
+          "original_complex": "I can tell you've never received a delivery",
+          "simplified_pattern": "I can + 동사원형",
+          "level_2_practice": [
+            "I can help you",
+            "I can speak English",
+            "I can drive"
+          ]
+        },
+        {
+          "original_complex": "Maybe it was just being at the right time",
+          "simplified_pattern": "Maybe + 주어 + was/were",
+          "level_3_practice": [
+            "Maybe it was true",
+            "Maybe she was right",
+            "Maybe we were late"
+          ]
+        },
+        {
+          "original_complex": "I would love to see you",
+          "simplified_pattern": "I would love to + 동사원형",
+          "level_4_practice": [
+            "I would love to go",
+            "I would love to meet",
+            "I would love to try"
+          ]
+        }
+      ],
+      "time_expressions_basic": [
+        {
+          "original_complex": "In the mornings I use it to go to the theater school",
+          "simplified_pattern": "In the morning/afternoon + I + 동사",
+          "level_1_practice": [
+            "In the morning I work",
+            "In the afternoon I study",
+            "In the evening I rest"
+          ]
+        },
+        {
+          "original_complex": "for the first time I have the leading role",
+          "simplified_pattern": "for the first time + I + 동사",
+          "level_2_practice": [
+            "For the first time I went",
+            "For the first time I tried",
+            "For the first time I saw"
+          ]
+        }
+      ],
+      "preposition_patterns_extracted": [
+        {
+          "original_complex": "I grew up with my grandparents",
+          "simplified_pattern": "grow up with + 사람",
+          "level_3_practice": [
+            "live with family",
+            "work with friends",
+            "study with classmates"
+          ]
+        },
+        {
+          "original_complex": "When I went to work at the delivery company",
+          "simplified_pattern": "go to work at + 장소",
+          "level_2_practice": [
+            "work at school",
+            "study at home",
+            "eat at restaurant"
+          ]
+        }
+      ],
+      "everyday_conversation_patterns": [
+        {
+          "original_complex": "Good afternoon. Who are you?",
+          "simplified_pattern": "Good + 시간. Who + be동사 + 주어?",
+          "level_1_practice": [
+            "Good morning. How are you?",
+            "Good evening. Where are you?",
+            "Good night. What is this?"
+          ]
+        },
+        {
+          "original_complex": "Come in. Don't just stay there",
+          "simplified_pattern": "명령문 + Don't + 동사원형",
+          "level_1_practice": [
+            "Sit down. Don't stand",
+            "Come here. Don't go",
+            "Listen. Don't talk"
+          ]
+        },
+        {
+          "original_complex": "Do you want one?",
+          "simplified_pattern": "Do you want + 명사?",
+          "level_1_practice": [
+            "Do you want coffee?",
+            "Do you want help?",
+            "Do you want this?"
+          ]
+        }
+      ],
+      "korean_confusion_literary": [
+        {
+          "original": "Things went well",
+          "confusion": "Things went well (NOT: Things were go well)",
+          "correct_pattern": "Things + 동사과거형 + 부사",
+          "practice": [
+            "Things look good",
+            "Things sound nice",
+            "Things feel right"
+          ]
+        },
+        {
+          "original": "I'm not used to signing standing up",
+          "confusion": "be used to + -ing (NOT: be used to + 동사원형)",
+          "correct_pattern": "be used to + -ing",
+          "practice": [
+            "I'm used to working",
+            "I'm used to walking",
+            "I'm used to waiting"
+          ]
+        },
+        {
+          "original": "Time passed by",
+          "confusion": "Time passed (시간이 지났다) vs Time passes (시간이 지난다)",
+          "correct_pattern": "시간 + passed/passes",
+          "practice": [
+            "Days passed quickly",
+            "Years pass slowly",
+            "Time passes fast"
+          ]
+        }
+      ]
+    }
+  }
+}

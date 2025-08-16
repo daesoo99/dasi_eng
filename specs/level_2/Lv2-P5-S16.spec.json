@@ -1,0 +1,82 @@
+{
+  "id": "Lv2-P5-S16",
+  "title": "비교 표현 묶음 — as ~ as / not as ~ as / a bit / much",
+  "intent": "동등비교(as ~ as), 정도부사(a bit, much, far), 부정 비교를 사용해 세밀한 비교 표현을 자연스럽게 한다.",
+  "focus": [
+    "AS-AS",
+    "DEGREE-ADVERBS",
+    "NEGATIVE-COMPARISON",
+    "FINE-COMPARISON"
+  ],
+  "lexset": [
+    "tall, fast, expensive, good, interesting, difficult, important, beautiful, comfortable, convenient"
+  ],
+  "traps": [
+    "as ~ as 구조(as tall than ✗)",
+    "정도부사 위치(much more better ✗)",
+    "not as ~ as vs not so ~ as",
+    "이중 비교(more faster ✗)"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.3,
+    "wh_q": 0.1
+  },
+  "variants": [
+    "비교 유형",
+    "정도부사",
+    "긍정/부정",
+    "맥락"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "너만큼 키가 커.",
+      "en": "I'm as tall as you."
+    },
+    {
+      "kr": "이게 훨씬 더 비싸.",
+      "en": "This is much more expensive."
+    },
+    {
+      "kr": "그것만큼 좋지 않아.",
+      "en": "It's not as good as that."
+    },
+    {
+      "kr": "조금 더 빨라.",
+      "en": "It's a bit faster."
+    },
+    {
+      "kr": "훨씬 더 쉬워.",
+      "en": "It's much easier."
+    },
+    {
+      "kr": "예상만큼 어렵지 않아.",
+      "en": "It's not as difficult as expected."
+    },
+    {
+      "kr": "그만큼 중요해.",
+      "en": "It's as important as that."
+    },
+    {
+      "kr": "훨씬 더 편해.",
+      "en": "It's far more comfortable."
+    },
+    {
+      "kr": "생각만큼 나쁘지 않아.",
+      "en": "It's not as bad as I thought."
+    },
+    {
+      "kr": "조금 더 일찍 와.",
+      "en": "Come a bit earlier."
+    }
+  ]
+}

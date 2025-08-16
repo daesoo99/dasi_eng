@@ -1,0 +1,83 @@
+{
+  "id": "Lv3-P5-S19",
+  "title": "대조·양보 — although/however/on the other hand",
+  "intent": "although, however, on the other hand로 대조와 양보를 논리적으로 표현한다.",
+  "focus": [
+    "CONTRAST",
+    "CONCESSION",
+    "ALTHOUGH",
+    "HOWEVER",
+    "LOGICAL-CONNECTORS"
+  ],
+  "lexset": [
+    "although, though, however, nevertheless, on the other hand, in contrast, despite, whereas"
+  ],
+  "traps": [
+    "although vs but 동시 사용 금지",
+    "however 위치와 쉼표",
+    "despite + 명사 vs although + 절",
+    "문장 구조 차이"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.7,
+    "neg": 0.1,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "연결어 유형",
+    "강도",
+    "위치",
+    "격식도"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "비가 왔지만 나갔어.",
+      "en": "Although it was raining, I went out."
+    },
+    {
+      "kr": "어렵다. 하지만 재밌어.",
+      "en": "It's difficult. However, it's interesting."
+    },
+    {
+      "kr": "그는 바빠. 반면에 나는 여유로워.",
+      "en": "He's busy. On the other hand, I'm free."
+    },
+    {
+      "kr": "피곤했지만 계속 일했어.",
+      "en": "Though I was tired, I kept working."
+    },
+    {
+      "kr": "비싸다. 그럼에도 좋아.",
+      "en": "It's expensive. Nevertheless, it's good."
+    },
+    {
+      "kr": "공부했지만 시험을 못 봤어.",
+      "en": "Although I studied, I failed the exam."
+    },
+    {
+      "kr": "날씨가 좋지 않았어. 하지만 즐거웠어.",
+      "en": "The weather wasn't good. However, we enjoyed it."
+    },
+    {
+      "kr": "돈이 없지만 행복해.",
+      "en": "Though I don't have money, I'm happy."
+    },
+    {
+      "kr": "그는 젊어. 반면에 경험이 많아.",
+      "en": "He's young. On the other hand, he's experienced."
+    },
+    {
+      "kr": "늦었지만 참석했어.",
+      "en": "Although I was late, I attended."
+    }
+  ]
+}

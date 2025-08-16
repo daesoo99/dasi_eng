@@ -1,0 +1,183 @@
+{
+  "batch_info": {
+    "name": "L5_Academic_Batch2",
+    "description": "L5 학술 영어 마스터리 - 2차 배치 (S13-S24)",
+    "level": 5,
+    "cefr_level": "C1-C2",
+    "total_stages": 12,
+    "sentences_per_stage": 50,
+    "total_sentences": 600,
+    "focus": "Advanced academic discourse, research methodology, critical analysis",
+    "created_at": "2025-08-15"
+  },
+  "stages": [
+    {
+      "id": "Lv5-A3-S13",
+      "title": "고급 논증 구조",
+      "intent": "복합적인 논증을 구조화하고 반박을 다루는 학술적 표현",
+      "focus": ["ARGUMENTATIVE-STRUCTURE", "COUNTER-ARGUMENT", "THESIS-DEVELOPMENT"],
+      "lexset": ["contend", "premise", "assertion", "postulate", "refute", "undermine", "substantiate", "corroborate"],
+      "traps": ["논리적 일관성", "근거와 결론의 연결", "반박 처리"],
+      "variants": ["formal_argumentation", "counter_claims", "logical_progression"],
+      "seeds": [
+        {"kr": "이 논문은 기존 이론에 도전한다고 주장합니다.", "en": "This paper contends that existing theories should be challenged."},
+        {"kr": "그의 전제는 실증 데이터에 의해 뒷받침됩니다.", "en": "His premise is substantiated by empirical data."},
+        {"kr": "반대 논리를 고려해야 합니다.", "en": "Counter-arguments must be taken into consideration."}
+      ]
+    },
+    {
+      "id": "Lv5-A3-S14", 
+      "title": "연구 방법론 서술",
+      "intent": "연구 설계와 방법론을 정확하고 상세하게 설명하는 표현",
+      "focus": ["METHODOLOGY-DESCRIPTION", "RESEARCH-DESIGN", "DATA-COLLECTION"],
+      "lexset": ["methodology", "paradigm", "quantitative", "qualitative", "variables", "sampling", "validity", "reliability"],
+      "traps": ["방법론 용어 정확성", "절차 순서", "기술적 세부사항"],
+      "variants": ["experimental_design", "data_analysis", "research_procedures"],
+      "seeds": [
+        {"kr": "혼합 방법론 접근법을 채택했습니다.", "en": "A mixed-methods approach was adopted."},
+        {"kr": "표본 크기는 통계적 유의성을 위해 계산되었습니다.", "en": "Sample size was calculated for statistical significance."},
+        {"kr": "데이터 수집은 엄격한 프로토콜을 따랐습니다.", "en": "Data collection followed strict protocols."}
+      ]
+    },
+    {
+      "id": "Lv5-A3-S15",
+      "title": "문헌 검토 및 종합",
+      "intent": "기존 연구를 체계적으로 검토하고 종합하는 학술적 표현",
+      "focus": ["LITERATURE-REVIEW", "SYNTHESIS", "CRITICAL-EVALUATION"],
+      "lexset": ["comprehensive", "systematic", "synthesis", "meta-analysis", "discourse", "scholarship", "paradigm", "theoretical"],
+      "traps": ["출처 인용 방식", "비판적 평가", "문헌 종합"],
+      "variants": ["systematic_review", "critical_analysis", "theoretical_framework"],
+      "seeds": [
+        {"kr": "기존 문헌에서 일관된 패턴이 나타납니다.", "en": "Consistent patterns emerge from existing literature."},
+        {"kr": "이론적 격차가 명확히 식별되었습니다.", "en": "Theoretical gaps have been clearly identified."},
+        {"kr": "연구들 간의 모순을 해결해야 합니다.", "en": "Contradictions between studies need to be resolved."}
+      ]
+    },
+    {
+      "id": "Lv5-A4-S16",
+      "title": "데이터 해석 및 분석",
+      "intent": "연구 결과를 해석하고 통계적 분석을 설명하는 표현",
+      "focus": ["DATA-INTERPRETATION", "STATISTICAL-ANALYSIS", "FINDINGS-DISCUSSION"],
+      "lexset": ["correlation", "causation", "significance", "regression", "variance", "distribution", "outliers", "patterns"],
+      "traps": ["통계 용어 정확성", "인과관계 vs 상관관계", "데이터 한계"],
+      "variants": ["statistical_reporting", "data_visualization", "trend_analysis"],
+      "seeds": [
+        {"kr": "결과는 통계적으로 유의미한 상관관계를 보여줍니다.", "en": "Results show a statistically significant correlation."},
+        {"kr": "이상치가 전체 분석에 미치는 영향을 고려해야 합니다.", "en": "The impact of outliers on overall analysis must be considered."},
+        {"kr": "회귀 분석은 강한 예측 모델을 제시합니다.", "en": "Regression analysis presents a robust predictive model."}
+      ]
+    },
+    {
+      "id": "Lv5-A4-S17",
+      "title": "이론 구축 및 모델링",
+      "intent": "새로운 이론을 제시하거나 기존 모델을 개선하는 학술적 표현",
+      "focus": ["THEORY-BUILDING", "CONCEPTUAL-FRAMEWORK", "MODEL-DEVELOPMENT"],
+      "lexset": ["conceptualize", "operationalize", "framework", "construct", "hypothesis", "proposition", "assumptions", "implications"],
+      "traps": ["개념 정의", "이론적 일관성", "모델 설명"],
+      "variants": ["theoretical_innovation", "conceptual_development", "framework_construction"],
+      "seeds": [
+        {"kr": "새로운 개념적 프레임워크가 제안됩니다.", "en": "A novel conceptual framework is proposed."},
+        {"kr": "이 모델은 기존 이론의 한계를 극복합니다.", "en": "This model overcomes limitations of existing theories."},
+        {"kr": "가설은 실증적 검증이 필요합니다.", "en": "Hypotheses require empirical validation."}
+      ]
+    },
+    {
+      "id": "Lv5-A4-S18",
+      "title": "학제간 연구 접근",
+      "intent": "여러 학문 분야를 통합하는 학제간 연구 표현",
+      "focus": ["INTERDISCIPLINARY", "CROSS-DISCIPLINARY", "MULTI-PERSPECTIVE"],
+      "lexset": ["interdisciplinary", "multidisciplinary", "convergence", "integration", "synthesis", "perspective", "holistic", "comprehensive"],
+      "traps": ["학문간 경계", "통합적 접근", "다양한 관점"],
+      "variants": ["field_integration", "cross_domain", "holistic_approach"],
+      "seeds": [
+        {"kr": "학제간 접근이 복잡한 문제 해결에 필수적입니다.", "en": "Interdisciplinary approaches are essential for solving complex problems."},
+        {"kr": "다양한 분야의 관점을 통합해야 합니다.", "en": "Perspectives from various fields must be integrated."},
+        {"kr": "융합 연구가 혁신적 발견을 가능하게 합니다.", "en": "Convergence research enables innovative discoveries."}
+      ]
+    },
+    {
+      "id": "Lv5-A5-S19",
+      "title": "연구 윤리 및 한계",
+      "intent": "연구의 윤리적 고려사항과 한계를 다루는 학술적 표현",
+      "focus": ["RESEARCH-ETHICS", "LIMITATIONS", "ETHICAL-CONSIDERATIONS"],
+      "lexset": ["ethical", "limitations", "constraints", "bias", "validity", "generalizability", "confidentiality", "consent"],
+      "traps": ["윤리적 이슈", "연구 한계 인정", "편향성 고려"],
+      "variants": ["ethical_framework", "methodological_limitations", "bias_acknowledgment"],
+      "seeds": [
+        {"kr": "연구의 한계를 명확히 인정해야 합니다.", "en": "Research limitations must be clearly acknowledged."},
+        {"kr": "윤리적 승인이 모든 절차에 선행되었습니다.", "en": "Ethical approval preceded all procedures."},
+        {"kr": "잠재적 편향을 최소화하기 위한 조치를 취했습니다.", "en": "Measures were taken to minimize potential bias."}
+      ]
+    },
+    {
+      "id": "Lv5-A5-S20",
+      "title": "정책 함의 및 권고",
+      "intent": "연구 결과의 정책적 함의와 실용적 권고사항 제시",
+      "focus": ["POLICY-IMPLICATIONS", "RECOMMENDATIONS", "PRACTICAL-APPLICATIONS"],
+      "lexset": ["implications", "recommendations", "policy", "implementation", "stakeholders", "guidelines", "framework", "strategy"],
+      "traps": ["정책 연결", "실용적 적용", "이해관계자 고려"],
+      "variants": ["policy_development", "practical_implementation", "stakeholder_engagement"],
+      "seeds": [
+        {"kr": "연구 결과는 정책 개발에 중요한 함의를 갖습니다.", "en": "Research findings have important implications for policy development."},
+        {"kr": "실무자들을 위한 구체적 지침이 필요합니다.", "en": "Specific guidelines for practitioners are needed."},
+        {"kr": "이해관계자들의 협력이 성공적 실행의 핵심입니다.", "en": "Stakeholder collaboration is key to successful implementation."}
+      ]
+    },
+    {
+      "id": "Lv5-A5-S21",
+      "title": "미래 연구 방향",
+      "intent": "향후 연구 과제와 방향을 제시하는 학술적 표현",
+      "focus": ["FUTURE-RESEARCH", "RESEARCH-AGENDA", "EMERGING-TRENDS"],
+      "lexset": ["prospective", "longitudinal", "emerging", "innovative", "frontier", "breakthrough", "advancement", "trajectory"],
+      "traps": ["연구 방향 설정", "혁신적 접근", "미래 트렌드"],
+      "variants": ["research_roadmap", "emerging_paradigms", "future_directions"],
+      "seeds": [
+        {"kr": "종단 연구가 인과관계 규명에 필요합니다.", "en": "Longitudinal studies are needed to establish causal relationships."},
+        {"kr": "새로운 기술이 연구 방법론을 혁신하고 있습니다.", "en": "Emerging technologies are revolutionizing research methodologies."},
+        {"kr": "미래 연구는 더욱 통합적 접근을 요구할 것입니다.", "en": "Future research will require more integrated approaches."}
+      ]
+    },
+    {
+      "id": "Lv5-A6-S22",
+      "title": "국제적 협력 연구",
+      "intent": "글로벌 협력과 국제적 연구 네트워크 구축 표현",
+      "focus": ["INTERNATIONAL-COLLABORATION", "GLOBAL-RESEARCH", "CROSS-CULTURAL"],
+      "lexset": ["collaboration", "consortium", "multinational", "cross-cultural", "global", "partnership", "network", "exchange"],
+      "traps": ["국제적 맥락", "문화간 차이", "협력 체계"],
+      "variants": ["global_partnership", "international_network", "cross_cultural_research"],
+      "seeds": [
+        {"kr": "국제적 협력이 연구의 질을 크게 향상시킵니다.", "en": "International collaboration significantly enhances research quality."},
+        {"kr": "다국적 연구 컨소시엄이 구성되었습니다.", "en": "A multinational research consortium has been established."},
+        {"kr": "문화간 차이를 고려한 연구 설계가 필요합니다.", "en": "Research design must consider cross-cultural differences."}
+      ]
+    },
+    {
+      "id": "Lv5-A6-S23",
+      "title": "지식 전달 및 확산",
+      "intent": "연구 성과의 효과적인 전달과 사회적 확산 방법",
+      "focus": ["KNOWLEDGE-TRANSFER", "DISSEMINATION", "PUBLIC-ENGAGEMENT"],
+      "lexset": ["dissemination", "transfer", "outreach", "engagement", "communication", "accessibility", "impact", "translation"],
+      "traps": ["지식 전달", "대중 소통", "사회적 영향"],
+      "variants": ["public_communication", "knowledge_translation", "social_impact"],
+      "seeds": [
+        {"kr": "연구 성과의 사회적 확산이 중요합니다.", "en": "Social dissemination of research outcomes is crucial."},
+        {"kr": "일반 대중이 이해할 수 있는 언어로 번역해야 합니다.", "en": "Translation into accessible language for the general public is necessary."},
+        {"kr": "지식 전달 전략이 연구 영향력을 결정합니다.", "en": "Knowledge transfer strategies determine research impact."}
+      ]
+    },
+    {
+      "id": "Lv5-A6-S24",
+      "title": "학술적 성과 평가",
+      "intent": "연구 성과와 학술적 기여도를 평가하는 메트릭과 방법",
+      "focus": ["RESEARCH-IMPACT", "ACADEMIC-METRICS", "EVALUATION-CRITERIA"],
+      "lexset": ["metrics", "citation", "impact", "evaluation", "assessment", "contribution", "significance", "excellence"],
+      "traps": ["성과 측정", "평가 기준", "학술적 기여"],
+      "variants": ["impact_assessment", "performance_metrics", "academic_excellence"],
+      "seeds": [
+        {"kr": "연구 영향력은 다양한 지표로 측정되어야 합니다.", "en": "Research impact should be measured through diverse indicators."},
+        {"kr": "학술적 기여도를 정량적으로 평가하기 어렵습니다.", "en": "Quantitative evaluation of academic contribution is challenging."},
+        {"kr": "피어 리뷰가 질적 평가의 핵심입니다.", "en": "Peer review is central to qualitative assessment."}
+      ]
+    }
+  ]
+}

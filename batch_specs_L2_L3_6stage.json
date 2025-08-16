@@ -1,0 +1,197 @@
+{
+  "batch_name": "L2_L3_6stage_gold_specs",
+  "version": "2025-08-15",
+  "description": "Level 2-3 골드 스펙 6개 스테이지 - CLI 확장/린트 준비",
+  "stages": [
+    {
+      "id": "Lv2-P1-S01",
+      "title": "일상 습관 + 빈도부사",
+      "intent": "일상 루틴과 습관을 빈도부사(always/usually/often/sometimes/rarely/hardly ever/never)로 자연스럽게 말하고, 의문/부정에서도 위치를 정확히 유지한다.",
+      "focus": ["FREQUENCY-ADVERBS", "WORD-ORDER", "PRESENT-SIMPLE"],
+      "lexset": ["wake up, have breakfast, work out, check email/phone, cook, read, commute, go to bed, meet, study, drink coffee/water, take a walk"],
+      "traps": [
+        "빈도부사 위치 오류(일반동사 앞: I often go / 조동사 뒤: I can often go / be동사 뒤: I am often late)",
+        "3인칭 단수 -s 누락(He usually go → goes)",
+        "never와 부정 중복(I don't never → I never)"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["주어(1/2/3인칭)", "시간(아침/점심/저녁/주말/평일)", "장소(집/회사/헬스장/도서관)", "빈도(부사/횟수표현)", "목적어 교체"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "나는 보통 7시에 일어나.", "en": "I usually wake up at seven." },
+        { "kr": "그녀는 항상 아침을 먹어.", "en": "She always has breakfast." },
+        { "kr": "우리는 주말마다 운동해.", "en": "We work out every weekend." },
+        { "kr": "나는 가끔 점심을 거른다.", "en": "I sometimes skip lunch." },
+        { "kr": "그는 종종 집에서 일해.", "en": "He often works from home." },
+        { "kr": "나는 거의 밤에 커피를 안 마셔.", "en": "I hardly ever drink coffee at night." },
+        { "kr": "나는 절대 늦게 자지 않아.", "en": "I never stay up late." },
+        { "kr": "그녀는 보통 10시에 잠자리에 들어.", "en": "She usually goes to bed at ten." },
+        { "kr": "너는 얼마나 자주 운동해?", "en": "How often do you work out?" },
+        { "kr": "그는 항상 아침에 이메일을 확인해.", "en": "He always checks his email in the morning." },
+        { "kr": "나는 자주 팟캐스트를 들어.", "en": "I often listen to podcasts." },
+        { "kr": "그들은 거의 TV를 보지 않아.", "en": "They rarely watch TV." }
+      ]
+    },
+    {
+      "id": "Lv2-P2-S09",
+      "title": "조동사(의무/허가/가능/권고)",
+      "intent": "조동사(can/could/should/must/have to/don't have to/may/need to)로 요청·권고·의무·허가를 자연스럽게 말하고 물어본다.",
+      "focus": ["MODAL", "REQUESTS", "OBLIGATION", "PERMISSION", "POLITENESS"],
+      "lexset": ["help, call back, finish, submit, attend, bring, wear, borrow, lend, open, use, park, schedule, reschedule, cancel, join, leave"],
+      "traps": [
+        "mustn't(금지) vs don't have to(필요 없음) 혼동",
+        "조동사 뒤 동사원형 유지(can to go ✗)",
+        "의문문 do-support 사용 금지(Can you...?, Should I...?)",
+        "어순 오류 및 공손도(could/may의 정중함) 미스매치"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.5, "neg": 0.2, "wh_q": 0.3 },
+      "variants": ["주어(1/2/3인칭/복수)", "상황(학교/회사/집/병원)", "시간(오늘/지금/내일/마감)", "정중도(can/could/may)"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "이것 좀 도와줄 수 있어?", "en": "Can you help me with this?" },
+        { "kr": "다시 전화해야 해.", "en": "I have to call him back." },
+        { "kr": "여기서는 담배 피우면 안 돼.", "en": "You must not smoke here." },
+        { "kr": "오늘 안에 끝내야 해.", "en": "I need to finish this today." },
+        { "kr": "그건 걱정할 필요 없어.", "en": "You don't have to worry about that." },
+        { "kr": "좀 더 천천히 말해 주시겠어요?", "en": "Could you speak a bit more slowly?" },
+        { "kr": "창문을 열어도 될까요?", "en": "May I open the window?" },
+        { "kr": "회의에 꼭 참석해야 해.", "en": "We must attend the meeting." },
+        { "kr": "그 제안을 다시 고려하는 게 좋겠어.", "en": "You should reconsider that proposal." },
+        { "kr": "내일 일찍 떠나도 돼.", "en": "You can leave early tomorrow." },
+        { "kr": "자리를 좀 맡아줄래?", "en": "Could you save my seat?" },
+        { "kr": "내가 네게 질문해도 돼?", "en": "Can I ask you a question?" }
+      ]
+    },
+    {
+      "id": "Lv2-P3-S04",
+      "title": "There is/are + This/That/These/Those + 관사",
+      "intent": "존재·위치 설명(There is/are)와 지시어(This/That/These/Those), a/an/the/무관사 사용을 정확히 구분한다.",
+      "focus": ["THERE-IS", "DEMONSTRATIVES", "ARTICLES", "COUNT-UNCOUNT"],
+      "lexset": ["seat, idea, problem, charger, restroom, meeting room, copy, coffee, noise, people, document, bus stop, café, umbrella, bottle"],
+      "traps": [
+        "There is/are vs It is/They are 혼동",
+        "단복수 일치(There's many seats ✗ → There are many seats)",
+        "관사 누락(a charger / the charger / Ø coffee)",
+        "지시어 거리감/수 일치(this/that/these/those)"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.15, "wh_q": 0.25 },
+      "variants": ["단수/복수", "가산/불가산", "거리감(가까움/멀음)", "장소(여기/저기/그 방/복도)"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "저쪽에 자리가 몇 개 있어.", "en": "There are some seats over there." },
+        { "kr": "이건 좋은 아이디어야.", "en": "This is a good idea." },
+        { "kr": "그건 좋은 생각이 아니야.", "en": "That is not a good idea." },
+        { "kr": "이 층에 화장실이 있나요?", "en": "Is there a restroom on this floor?" },
+        { "kr": "여기 근처에 카페가 하나 있어.", "en": "There is a café near here." },
+        { "kr": "이것이 요청하신 문서들입니다.", "en": "These are the documents you asked for." },
+        { "kr": "그 버스 정류장은 모퉁이에 있어.", "en": "There is a bus stop on the corner." },
+        { "kr": "그 방에는 사람 거의 없어.", "en": "There aren't many people in that room." },
+        { "kr": "저건 내 우산이야.", "en": "That is my umbrella." },
+        { "kr": "이 병엔 물이 좀 있어.", "en": "There is some water in this bottle." },
+        { "kr": "충전기 하나 있나요?", "en": "Is there a charger?" },
+        { "kr": "이것들은 내 메모들이야.", "en": "These are my notes." }
+      ]
+    },
+    {
+      "id": "Lv2-P4-S11",
+      "title": "Wh-의문문(현재·과거·빈도·수량)",
+      "intent": "What/Where/When/Who/Why/How(+often/many/much)로 자연스러운 정보 질문을 만들고 답한다.",
+      "focus": ["WH-QUESTIONS", "DO-SUPPORT", "WORD-ORDER", "COUNT-UNCOUNT"],
+      "lexset": ["go, come, buy, cost, start, finish, meet, call, study, work out, take, take time, happen"],
+      "traps": [
+        "be동사 vs 일반동사 의문문 구분(Where are you? / Where do you go?)",
+        "전치사 위치(Who did you talk to?)",
+        "How much/many 가산/불가산",
+        "시제 일치(When did you move?)"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.2, "neg": 0.1, "wh_q": 0.7 },
+      "variants": ["현재/과거", "빈도/수량", "장소/시간/이유/방법", "주어/목적어 who"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "보통 어디서 운동해?", "en": "Where do you usually work out?" },
+        { "kr": "언제 이사 왔어?", "en": "When did you move here?" },
+        { "kr": "뭘 찾고 있어?", "en": "What are you looking for?" },
+        { "kr": "누구랑 통화했어?", "en": "Who did you talk to?" },
+        { "kr": "왜 늦었어?", "en": "Why were you late?" },
+        { "kr": "얼마나 자주 거기 가?", "en": "How often do you go there?" },
+        { "kr": "그건 얼마예요?", "en": "How much does it cost?" },
+        { "kr": "몇 명이 올 거야?", "en": "How many people are coming?" },
+        { "kr": "회의는 몇 시에 시작해?", "en": "What time does the meeting start?" },
+        { "kr": "어디로 가고 있어?", "en": "Where are you heading?" },
+        { "kr": "왜 그걸 샀어?", "en": "Why did you buy that?" },
+        { "kr": "어떻게 여기에 왔어?", "en": "How did you get here?" }
+      ]
+    },
+    {
+      "id": "Lv3-P1-S02",
+      "title": "감정 표현 + 경험 공유(의견·반응)",
+      "intent": "감정을 형용사/동사 콜로케이션으로 자연스럽게 말하고, 간단한 과거 경험/반응을 연결해서 설명한다.",
+      "focus": ["FEELINGS", "ADJ+PREP", "SOUND/LOOK/SEEM", "REPORTING-PAST", "GERUND-AFTER-PREP"],
+      "lexset": ["excited about, worried about, disappointed with, proud of, tired of, interested in, curious about, looking forward to ~ing, it sounds/looks/seems ~"],
+      "traps": [
+        "전치사 선택(about/with/of/in)",
+        "look forward to + 동명사",
+        "It sounds/looks + adj 구조",
+        "so vs very vs really 강조어 남용"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.1, "wh_q": 0.3 },
+      "variants": ["정도부사(really, quite, a bit, pretty)", "시점(오늘/어제/최근)", "원인절(because/that-clause)"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "여행이 정말 기대돼.", "en": "I'm really excited about the trip." },
+        { "kr": "결과가 좀 실망스러웠어.", "en": "I was a bit disappointed with the result." },
+        { "kr": "내일이 걱정돼.", "en": "I'm worried about tomorrow." },
+        { "kr": "그거 꽤 흥미롭게 들려.", "en": "That sounds quite interesting." },
+        { "kr": "지금 훨씬 나아.", "en": "I feel much better now." },
+        { "kr": "너를 만나는 게 기대돼.", "en": "I'm looking forward to seeing you." },
+        { "kr": "그 소식이 정말 놀라웠어.", "en": "The news was really surprising." },
+        { "kr": "그건 내겐 좀 어려웠어.", "en": "It seemed a bit difficult to me." },
+        { "kr": "나는 그 영화가 기대 이하였다고 느꼈어.", "en": "I felt the movie was below my expectations." },
+        { "kr": "그는 자신의 팀이 자랑스러웠어.", "en": "He was proud of his team." },
+        { "kr": "나는 그 문제에 관심이 있어.", "en": "I'm interested in that issue." },
+        { "kr": "그게 왜 그런지 궁금해.", "en": "I'm curious about why that is." }
+      ]
+    },
+    {
+      "id": "Lv3-P2-S06",
+      "title": "현재완료(경험/결과/최근) — 핵심 패턴",
+      "intent": "ever/never/just/already/yet, for/since를 사용해 경험/최근 변화/결과를 현재완료로 자연스럽게 말한다.",
+      "focus": ["PRESENT-PERFECT", "EVER-NEVER", "JUST-ALREADY-YET", "FOR-SINCE", "RESULT-vs-PAST"],
+      "lexset": ["try, visit, hear, finish, lose, start, move, change, know, meet, arrive, decide, break, catch, learn"],
+      "traps": [
+        "현재완료 vs 과거시제 혼동(I saw vs I have seen)",
+        "since/for 잘못 사용",
+        "gone/been 구분(He has gone to vs been to)",
+        "yet의 위치(부정/의문에서 문장 끝)"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.55, "neg": 0.2, "wh_q": 0.25 },
+      "variants": ["경험 질문(Have you ever ~?)", "최근 완료(just/already)", "미완료(yet)", "기간(for/since)"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "방금 끝냈어.", "en": "I've just finished it." },
+        { "kr": "이미 이메일을 보냈어.", "en": "I've already sent the email." },
+        { "kr": "아직 결정 못 했어.", "en": "I haven't decided yet." },
+        { "kr": "거기 가 본 적 있어?", "en": "Have you ever been there?" },
+        { "kr": "요즘 정말 바빴어.", "en": "I've been really busy lately." },
+        { "kr": "그를 여러 번 만난 적 있어.", "en": "I've met him several times." },
+        { "kr": "그는 파리에 가 본 적 없어.", "en": "He has never been to Paris." },
+        { "kr": "그녀는 방금 도착했어.", "en": "She has just arrived." },
+        { "kr": "우리는 오래전부터 서로 알아.", "en": "We have known each other for a long time." },
+        { "kr": "아직 티켓을 못 샀어.", "en": "I haven't bought the tickets yet." },
+        { "kr": "그는 최근에 회사를 옮겼어.", "en": "He has recently changed jobs." },
+        { "kr": "그 뉴스 들어본 적 있어?", "en": "Have you ever heard that news?" }
+      ]
+    }
+  ],
+  "expansion_hints": {
+    "form_coverage": "aff 60% / neg 20% / wh_q 20% (Wh 중심 스테이지는 wh_q 70%까지 상향)",
+    "variant_axes": "주어×시점×장소×목적어×정중도(필요시) 격자 조합",
+    "quality_guards": "관사/전치사/시제/어순 린트 + 중복/어색 콜로케이션 플래그"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "Lv2-P4-S12",
+  "title": "Wh-의문 혼합 — 과거/빈도/수량(What/When/Where/Why/How often/How many)",
+  "intent": "speaking",
+  "focus": [
+    "wh_questions",
+    "past_simple",
+    "frequency",
+    "quantity"
+  ],
+  "lexset": {
+    "wh": [
+      "what",
+      "when",
+      "where",
+      "why",
+      "who",
+      "how",
+      "how often",
+      "how many"
+    ],
+    "time": [
+      "last night",
+      "yesterday",
+      "last weekend",
+      "this morning"
+    ],
+    "freq": [
+      "often",
+      "usually",
+      "sometimes"
+    ]
+  },
+  "traps": [
+    "DO-AUX",
+    "WORD-ORDER",
+    "PAST-DID",
+    "COUNTABILITY"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.2,
+    "neg": 0.1,
+    "wh_q": 0.7
+  },
+  "variants": {
+    "subj": [
+      "you",
+      "he",
+      "she",
+      "they"
+    ],
+    "topic": [
+      "exercise",
+      "study",
+      "commute",
+      "call",
+      "buy"
+    ]
+  },
+  "engine": {
+    "randomPick": true,
+    "retryWeighted": true,
+    "delaySec": 2,
+    "randomize": true
+  },
+  "seeds": [
+    {
+      "kr": "지난 주말에 뭐 했어?",
+      "en": "What did you do last weekend?"
+    },
+    {
+      "kr": "왜 늦었어?",
+      "en": "Why were you late?"
+    },
+    {
+      "kr": "얼마나 자주 운동해?",
+      "en": "How often do you exercise?"
+    },
+    {
+      "kr": "어제 어디에 있었어?",
+      "en": "Where were you yesterday?"
+    },
+    {
+      "kr": "언제 여기로 이사 왔어?",
+      "en": "When did you move here?"
+    },
+    {
+      "kr": "몇 명이 올 거야?",
+      "en": "How many people will come?"
+    },
+    {
+      "kr": "왜 그 회의를 취소했어?",
+      "en": "Why did you cancel the meeting?"
+    },
+    {
+      "kr": "오늘 아침에 누구랑 통화했어?",
+      "en": "Who did you talk to this morning?"
+    },
+    {
+      "kr": "보통 몇 시에 집에 가?",
+      "en": "What time do you usually go home?"
+    },
+    {
+      "kr": "어디서 점심 먹을 거야?",
+      "en": "Where are you going to have lunch?"
+    }
+  ]
+}

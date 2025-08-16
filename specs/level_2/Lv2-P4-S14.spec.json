@@ -1,0 +1,83 @@
+{
+  "id": "Lv2-P4-S14",
+  "title": "의문사 + to부정사 — What/How/Where to do",
+  "intent": "의문사 + to부정사로 방법, 선택, 계획을 간결하게 묻고 답한다.",
+  "focus": [
+    "WH-TO-INFINITIVE",
+    "HOW-TO",
+    "WHAT-TO",
+    "WHERE-TO",
+    "INDIRECT-QUESTIONS"
+  ],
+  "lexset": [
+    "know, learn, decide, choose, find out, figure out, remember, forget, understand, explain"
+  ],
+  "traps": [
+    "의문사 + to 구조(What to do vs What I should do)",
+    "동사 선택(know how to vs know to how ✗)",
+    "to 생략 금지(how do vs how to do)",
+    "간접의문문과 구분"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.5,
+    "neg": 0.2,
+    "wh_q": 0.3
+  },
+  "variants": [
+    "의문사 유형",
+    "동사",
+    "맥락",
+    "복잡도"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "뭘 해야 할지 모르겠어.",
+      "en": "I don't know what to do."
+    },
+    {
+      "kr": "어떻게 하는지 알려줘.",
+      "en": "Tell me how to do it."
+    },
+    {
+      "kr": "어디로 갈지 정했어?",
+      "en": "Have you decided where to go?"
+    },
+    {
+      "kr": "언제 만날지 알려줘.",
+      "en": "Let me know when to meet."
+    },
+    {
+      "kr": "누구한테 물어볼지 모르겠어.",
+      "en": "I don't know who to ask."
+    },
+    {
+      "kr": "어떤 걸 선택할지 고민이야.",
+      "en": "I'm thinking about which one to choose."
+    },
+    {
+      "kr": "요리하는 법을 배우고 싶어.",
+      "en": "I want to learn how to cook."
+    },
+    {
+      "kr": "어디서 살지 결정해야 해.",
+      "en": "I need to decide where to live."
+    },
+    {
+      "kr": "뭘 입을지 모르겠어.",
+      "en": "I don't know what to wear."
+    },
+    {
+      "kr": "어떻게 갈지 알려줄게.",
+      "en": "I'll tell you how to get there."
+    }
+  ]
+}

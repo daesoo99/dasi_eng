@@ -1,0 +1,88 @@
+{
+  "id": "Lv4-A6-S23",
+  "title": "변화 관리 및 적응",
+  "intent": "조직의 변화를 효과적으로 관리하고 팀원들의 적응을 돕는다.",
+  "focus": [
+    "CHANGE-MANAGEMENT",
+    "ADAPTATION",
+    "TRANSITION",
+    "SUPPORT"
+  ],
+  "lexset": [
+    "change, adapt, transition, adjust, flexible, support, challenge, opportunity, innovation, transform"
+  ],
+  "grammar_meta": [
+    "CONDITIONAL-1ST-2ND",
+    "FUTURE-WILL-GOING",
+    "MODAL-NEED-HAVE-TO",
+    "PRESENT-PERFECT"
+  ],
+  "traps": [
+    "변화 vs 개선 표현",
+    "적응 지원 언어",
+    "도전 vs 기회 관점",
+    "점진적 변화 설명"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "변화 유형",
+    "적응 속도",
+    "지원 방식",
+    "저항 처리"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "변화에 적응하는 것이 중요합니다.",
+      "en": "It's important to adapt to change."
+    },
+    {
+      "kr": "새로운 시스템으로 전환하겠습니다.",
+      "en": "We will transition to a new system."
+    },
+    {
+      "kr": "유연성을 가지고 대응해야 합니다.",
+      "en": "We need to respond with flexibility."
+    },
+    {
+      "kr": "변화를 기회로 받아들입시다.",
+      "en": "Let's accept change as an opportunity."
+    },
+    {
+      "kr": "적응 과정에서 지원을 제공하겠습니다.",
+      "en": "We will provide support during the adaptation process."
+    },
+    {
+      "kr": "혁신을 통해 발전할 수 있습니다.",
+      "en": "We can develop through innovation."
+    },
+    {
+      "kr": "도전을 극복하며 성장합시다.",
+      "en": "Let's grow by overcoming challenges."
+    },
+    {
+      "kr": "변화 관리 계획이 필요합니다.",
+      "en": "A change management plan is needed."
+    },
+    {
+      "kr": "점진적으로 변화를 도입하겠습니다.",
+      "en": "We will introduce changes gradually."
+    },
+    {
+      "kr": "모든 팀원이 변화에 참여해야 합니다.",
+      "en": "All team members need to participate in the change."
+    }
+  ]
+}

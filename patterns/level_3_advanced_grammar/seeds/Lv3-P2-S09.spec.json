@@ -1,0 +1,82 @@
+{
+  "id": "Lv3-P2-S09",
+  "title": "조건문 심화 (2형/3형)",
+  "intent": "현재 가정 상황과 과거 가정 상황을 구분하여 적절한 조건문을 사용한다.",
+  "focus": [
+    "CONDITIONAL-ADVANCED",
+    "REAL-VS-UNREAL",
+    "PAST-HYPOTHETICAL",
+    "REGRET-EXPRESSION"
+  ],
+  "lexset": [
+    "if, unless, suppose, imagine, wish, regret, would, could, might, should"
+  ],
+  "traps": [
+    "2형: If + 과거, would + 원형",
+    "3형: If + 과거완료, would have + p.p.",
+    "were vs was 사용",
+    "혼합 조건문"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.5,
+    "neg": 0.3,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "가정 유형",
+    "시제 조합",
+    "후회 표현",
+    "가능성"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "만약 부자라면 세계여행을 할 텐데요.",
+      "en": "If I were rich, I would travel around the world."
+    },
+    {
+      "kr": "만약 일찍 출발했다면 지각하지 않았을 거예요.",
+      "en": "If I had left early, I wouldn't have been late."
+    },
+    {
+      "kr": "시간이 있다면 당신을 도와줄 수 있어요.",
+      "en": "If I had time, I could help you."
+    },
+    {
+      "kr": "만약 그것을 알았다면 말해줬을 텐데요.",
+      "en": "If I had known that, I would have told you."
+    },
+    {
+      "kr": "더 열심히 공부했다면 합격했을 거예요.",
+      "en": "If I had studied harder, I would have passed."
+    },
+    {
+      "kr": "만약 날씨가 좋다면 피크닉을 갈 텐데요.",
+      "en": "If the weather were nice, we would go on a picnic."
+    },
+    {
+      "kr": "그 조언을 들었다면 실수하지 않았을 거예요.",
+      "en": "If I had listened to the advice, I wouldn't have made mistakes."
+    },
+    {
+      "kr": "만약 당신이라면 어떻게 하겠어요?",
+      "en": "What would you do if you were me?"
+    },
+    {
+      "kr": "만약 그 기회가 있었다면 잡았을 거예요.",
+      "en": "If I had had the opportunity, I would have taken it."
+    },
+    {
+      "kr": "더 젊다면 다시 도전할 텐데요.",
+      "en": "If I were younger, I would try again."
+    }
+  ]
+}

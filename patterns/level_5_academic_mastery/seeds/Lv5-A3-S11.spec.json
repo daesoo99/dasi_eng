@@ -1,0 +1,89 @@
+{
+  "id": "Lv5-A3-S11",
+  "title": "학술 글쓰기 논증 및 증명",
+  "intent": "학술 글쓰기에서 논리적 논증을 구성하고 주장을 체계적으로 증명한다.",
+  "focus": [
+    "ACADEMIC-ARGUMENTATION",
+    "LOGICAL-PROOF",
+    "EVIDENCE-BASED",
+    "SCHOLARLY-REASONING"
+  ],
+  "lexset": [
+    "argument, evidence, proof, demonstrate, substantiate, validate, justify, reasoning, logic, premise"
+  ],
+  "grammar_meta": [
+    "COMPLEX-CONDITIONALS",
+    "CAUSAL-CLAUSES",
+    "EVIDENTIAL-EXPRESSIONS",
+    "LOGICAL-CONNECTORS"
+  ],
+  "academic_level": "C2",
+  "traps": [
+    "논증 vs 설명 구분",
+    "증거 제시 순서",
+    "논리적 연결어 사용",
+    "반박 예상 및 대응"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "논증 유형",
+    "증거 강도",
+    "논리 구조",
+    "반박 처리"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "논증의 핵심은 실증적 근거에 있습니다.",
+      "en": "The core of the argument lies in empirical evidence."
+    },
+    {
+      "kr": "논리적 추론을 통해 결론에 도달했습니다.",
+      "en": "We reached the conclusion through logical reasoning."
+    },
+    {
+      "kr": "여러 관점에서 주장을 검증해야 합니다.",
+      "en": "The argument should be verified from multiple perspectives."
+    },
+    {
+      "kr": "반박 가능한 논점들을 미리 고려했습니다.",
+      "en": "We have considered potentially refutable points in advance."
+    },
+    {
+      "kr": "체계적 증명을 통해 가설을 입증합니다.",
+      "en": "We prove the hypothesis through systematic demonstration."
+    },
+    {
+      "kr": "논리적 일관성이 논증의 신뢰성을 보장합니다.",
+      "en": "Logical consistency ensures the credibility of the argument."
+    },
+    {
+      "kr": "다양한 증거들이 같은 결론을 뒷받침합니다.",
+      "en": "Various pieces of evidence support the same conclusion."
+    },
+    {
+      "kr": "전제로부터 논리적으로 결론을 도출했습니다.",
+      "en": "We logically derived the conclusion from the premises."
+    },
+    {
+      "kr": "비판적 검토를 거쳐 논증을 강화했습니다.",
+      "en": "We strengthened the argument through critical review."
+    },
+    {
+      "kr": "이론적 토대가 논증의 타당성을 뒷받침합니다.",
+      "en": "The theoretical foundation supports the validity of the argument."
+    }
+  ]
+}

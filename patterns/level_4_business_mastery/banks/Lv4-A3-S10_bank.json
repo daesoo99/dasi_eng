@@ -1,0 +1,314 @@
+{
+  "stage_id": "Lv4-A3-S10",
+  "title": "양보 및 대안 제시",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv4-A3-S10-001",
+      "kr": "가격을 조정할 수 있습니다. (v1)",
+      "en": "We can adjust the price. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-002",
+      "kr": "중간점을 찾아보겠습니다. (v1)",
+      "en": "Let's find a middle ground. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-003",
+      "kr": "다른 방법이 있을 수 있습니다. (v1)",
+      "en": "There might be another way. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-004",
+      "kr": "조건을 수정해서 다시 제안하겠습니다. (v1)",
+      "en": "Let me modify the terms and make a new proposal. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-005",
+      "kr": "배송 조건에서 양보할 수 있습니다. (v1)",
+      "en": "We can make concessions on delivery terms. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-006",
+      "kr": "대신에 다른 혜택을 제공하겠습니다. (v1)",
+      "en": "Instead, we can offer other benefits. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-007",
+      "kr": "절충안을 찾아야겠습니다. (v1)",
+      "en": "We need to find a compromise. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-008",
+      "kr": "win-win 상황을 만들 수 있습니다. (v1)",
+      "en": "We can create a win-win situation. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-009",
+      "kr": "그 조건이라면 재고해볼 수 있습니다. (v1)",
+      "en": "We could reconsider under those conditions. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-010",
+      "kr": "패키지 딜로 제안합니다. (v1)",
+      "en": "Let me propose a package deal. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-011",
+      "kr": "가격을 조정할 수 있습니다. (v2)",
+      "en": "We can adjust the price. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-012",
+      "kr": "중간점을 찾아보겠습니다. (v2)",
+      "en": "Let's find a middle ground. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-013",
+      "kr": "다른 방법이 있을 수 있습니다. (v2)",
+      "en": "There might be another way. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-014",
+      "kr": "조건을 수정해서 다시 제안하겠습니다. (v2)",
+      "en": "Let me modify the terms and make a new proposal. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-015",
+      "kr": "배송 조건에서 양보할 수 있습니다. (v2)",
+      "en": "We can make concessions on delivery terms. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-016",
+      "kr": "대신에 다른 혜택을 제공하겠습니다. (v2)",
+      "en": "Instead, we can offer other benefits. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-017",
+      "kr": "절충안을 찾아야겠습니다. (v2)",
+      "en": "We need to find a compromise. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-018",
+      "kr": "win-win 상황을 만들 수 있습니다. (v2)",
+      "en": "We can create a win-win situation. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-019",
+      "kr": "그 조건이라면 재고해볼 수 있습니다. (v2)",
+      "en": "We could reconsider under those conditions. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-020",
+      "kr": "패키지 딜로 제안합니다. (v2)",
+      "en": "Let me propose a package deal. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-021",
+      "kr": "가격을 조정할 수 있습니다. (v3)",
+      "en": "We can adjust the price. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-022",
+      "kr": "중간점을 찾아보겠습니다. (v3)",
+      "en": "Let's find a middle ground. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-023",
+      "kr": "다른 방법이 있을 수 있습니다. (v3)",
+      "en": "There might be another way. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-024",
+      "kr": "조건을 수정해서 다시 제안하겠습니다. (v3)",
+      "en": "Let me modify the terms and make a new proposal. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-025",
+      "kr": "배송 조건에서 양보할 수 있습니다. (v3)",
+      "en": "We can make concessions on delivery terms. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-026",
+      "kr": "대신에 다른 혜택을 제공하겠습니다. (v3)",
+      "en": "Instead, we can offer other benefits. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-027",
+      "kr": "절충안을 찾아야겠습니다. (v3)",
+      "en": "We need to find a compromise. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-028",
+      "kr": "win-win 상황을 만들 수 있습니다. (v3)",
+      "en": "We can create a win-win situation. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-029",
+      "kr": "그 조건이라면 재고해볼 수 있습니다. (v3)",
+      "en": "We could reconsider under those conditions. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-030",
+      "kr": "패키지 딜로 제안합니다. (v3)",
+      "en": "Let me propose a package deal. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-031",
+      "kr": "가격을 조정할 수 있습니다. (v4)",
+      "en": "We can adjust the price. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-032",
+      "kr": "중간점을 찾아보겠습니다. (v4)",
+      "en": "Let's find a middle ground. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-033",
+      "kr": "다른 방법이 있을 수 있습니다. (v4)",
+      "en": "There might be another way. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-034",
+      "kr": "조건을 수정해서 다시 제안하겠습니다. (v4)",
+      "en": "Let me modify the terms and make a new proposal. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-035",
+      "kr": "배송 조건에서 양보할 수 있습니다. (v4)",
+      "en": "We can make concessions on delivery terms. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S10-036",
+      "kr": "대신에 다른 혜택을 제공하겠습니다. (v4)",
+      "en": "Instead, we can offer other benefits. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S10-037",
+      "kr": "절충안을 찾아야겠습니다. (v4)",
+      "en": "We need to find a compromise. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S10-038",
+      "kr": "win-win 상황을 만들 수 있습니다. (v4)",
+      "en": "We can create a win-win situation. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S10-039",
+      "kr": "그 조건이라면 재고해볼 수 있습니다. (v4)",
+      "en": "We could reconsider under those conditions. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S10-040",
+      "kr": "패키지 딜로 제안합니다. (v4)",
+      "en": "Let me propose a package deal. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S10-041",
+      "kr": "가격을 조정할 수 있습니다. (v5)",
+      "en": "We can adjust the price. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S10-042",
+      "kr": "중간점을 찾아보겠습니다. (v5)",
+      "en": "Let's find a middle ground. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S10-043",
+      "kr": "다른 방법이 있을 수 있습니다. (v5)",
+      "en": "There might be another way. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S10-044",
+      "kr": "조건을 수정해서 다시 제안하겠습니다. (v5)",
+      "en": "Let me modify the terms and make a new proposal. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S10-045",
+      "kr": "배송 조건에서 양보할 수 있습니다. (v5)",
+      "en": "We can make concessions on delivery terms. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S10-046",
+      "kr": "대신에 다른 혜택을 제공하겠습니다. (v5)",
+      "en": "Instead, we can offer other benefits. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A3-S10-047",
+      "kr": "절충안을 찾아야겠습니다. (v5)",
+      "en": "We need to find a compromise. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A3-S10-048",
+      "kr": "win-win 상황을 만들 수 있습니다. (v5)",
+      "en": "We can create a win-win situation. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A3-S10-049",
+      "kr": "그 조건이라면 재고해볼 수 있습니다. (v5)",
+      "en": "We could reconsider under those conditions. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A3-S10-050",
+      "kr": "패키지 딜로 제안합니다. (v5)",
+      "en": "Let me propose a package deal. (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 10,
+    "wh_q": 5
+  },
+  "status": "generated",
+  "batch": "L4_Business_Batch1"
+}

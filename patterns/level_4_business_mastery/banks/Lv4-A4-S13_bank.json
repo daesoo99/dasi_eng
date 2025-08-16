@@ -1,0 +1,620 @@
+{
+  "stage_id": "Lv4-A4-S13",
+  "title": "이메일 요청 및 정중 표현",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv4-A4-S13-001",
+      "kr": "첨부 파일을 확인해 주시겠어요? (비즈니스 1)",
+      "en": "Could you please check the attached file? (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-002",
+      "kr": "회의 일정을 조정해야 할 것 같습니다. (비즈니스 1)",
+      "en": "The meeting schedule would need to be adjusted. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-003",
+      "kr": "마감일이 연장되었습니다. (비즈니스 1)",
+      "en": "The deadline has been extended. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-004",
+      "kr": "귀하의 빠른 답변을 부탁드립니다. (비즈니스 1)",
+      "en": "Your prompt response would be greatly appreciated. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-005",
+      "kr": "이 문제에 대해 논의하고 싶습니다. (비즈니스 1)",
+      "en": "I would like to discuss this matter. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-006",
+      "kr": "추가 정보가 필요합니다. (비즈니스 1)",
+      "en": "Additional information is required. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-007",
+      "kr": "회신을 기다리고 있겠습니다. (비즈니스 1)",
+      "en": "I will be waiting for your reply. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-008",
+      "kr": "이전 이메일을 참조해 주세요. (비즈니스 1)",
+      "en": "Please refer to my previous email. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-009",
+      "kr": "상황이 변경되었음을 알려드립니다. (비즈니스 1)",
+      "en": "I would like to inform you that the situation has changed. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-010",
+      "kr": "협조해 주신다면 감사하겠습니다. (비즈니스 1)",
+      "en": "I would appreciate your cooperation. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-011",
+      "kr": "첨부 파일을 확인해 주시겠어요? (비즈니스 2)",
+      "en": "Could you please check the attached file? (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-012",
+      "kr": "회의 일정을 조정해야 할 것 같습니다. (비즈니스 2)",
+      "en": "The meeting schedule would need to be adjusted. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-013",
+      "kr": "마감일이 연장되었습니다. (비즈니스 2)",
+      "en": "The deadline has been extended. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-014",
+      "kr": "귀하의 빠른 답변을 부탁드립니다. (비즈니스 2)",
+      "en": "Your prompt response would be greatly appreciated. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-015",
+      "kr": "이 문제에 대해 논의하고 싶습니다. (비즈니스 2)",
+      "en": "I would like to discuss this matter. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-016",
+      "kr": "추가 정보가 필요합니다. (비즈니스 2)",
+      "en": "Additional information is required. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-017",
+      "kr": "회신을 기다리고 있겠습니다. (비즈니스 2)",
+      "en": "I have be waiting for your reply. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-018",
+      "kr": "이전 이메일을 참조해 주세요. (비즈니스 2)",
+      "en": "Please refer to my previous email. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-019",
+      "kr": "상황이 변경되었음을 알려드립니다. (비즈니스 2)",
+      "en": "I would like to inform you that the situation has changed. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-020",
+      "kr": "협조해 주신다면 감사하겠습니다. (비즈니스 2)",
+      "en": "I would appreciate your cooperation. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-021",
+      "kr": "첨부 파일을 확인해 주시겠어요? (비즈니스 3)",
+      "en": "If needed, could you please check the attached file? (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-022",
+      "kr": "회의 일정을 조정해야 할 것 같습니다. (비즈니스 3)",
+      "en": "If needed, the meeting schedule would need to be adjusted. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-023",
+      "kr": "마감일이 연장되었습니다. (비즈니스 3)",
+      "en": "If needed, the deadline has been extended. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-024",
+      "kr": "귀하의 빠른 답변을 부탁드립니다. (비즈니스 3)",
+      "en": "If needed, your prompt response would be greatly appreciated. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-025",
+      "kr": "이 문제에 대해 논의하고 싶습니다. (비즈니스 3)",
+      "en": "If needed, i would like to discuss this matter. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-026",
+      "kr": "추가 정보가 필요합니다. (비즈니스 3)",
+      "en": "If needed, additional information is required. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-027",
+      "kr": "회신을 기다리고 있겠습니다. (비즈니스 3)",
+      "en": "If needed, i have be waiting for your reply. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-028",
+      "kr": "이전 이메일을 참조해 주세요. (비즈니스 3)",
+      "en": "If needed, please refer to my previous email. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-029",
+      "kr": "상황이 변경되었음을 알려드립니다. (비즈니스 3)",
+      "en": "If needed, i would like to inform you that the situation has changed. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-030",
+      "kr": "협조해 주신다면 감사하겠습니다. (비즈니스 3)",
+      "en": "If needed, i would appreciate your cooperation. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-031",
+      "kr": "첨부 파일을 확인해 주시겠어요? (비즈니스 4)",
+      "en": "If needed, could you please check the attached file? (business variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-032",
+      "kr": "회의 일정을 조정해야 할 것 같습니다. (비즈니스 4)",
+      "en": "If needed, the meeting schedule would need to be adjusted. (business variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-033",
+      "kr": "마감일이 연장되었습니다. (비즈니스 4)",
+      "en": "If needed, the deadline has been extended. (business variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-034",
+      "kr": "귀하의 빠른 답변을 부탁드립니다. (비즈니스 4)",
+      "en": "If needed, your prompt response would be greatly appreciated. (business variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-035",
+      "kr": "이 문제에 대해 논의하고 싶습니다. (비즈니스 4)",
+      "en": "If needed, i would like to discuss this matter. (business variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-036",
+      "kr": "추가 정보가 필요합니다. (비즈니스 4)",
+      "en": "If needed, additional information is required. (business variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-037",
+      "kr": "회신을 기다리고 있겠습니다. (비즈니스 4)",
+      "en": "If needed, i have be waiting for your reply. (business variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-038",
+      "kr": "이전 이메일을 참조해 주세요. (비즈니스 4)",
+      "en": "If needed, please refer to my previous email. (business variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-039",
+      "kr": "상황이 변경되었음을 알려드립니다. (비즈니스 4)",
+      "en": "If needed, i would like to inform you that the situation has changed. (business variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-040",
+      "kr": "협조해 주신다면 감사하겠습니다. (비즈니스 4)",
+      "en": "If needed, i would appreciate your cooperation. (business variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-041",
+      "kr": "첨부 파일을 확인해 주시겠어요? (비즈니스 5)",
+      "en": "If needed, could you please check the attached file? (business variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-042",
+      "kr": "회의 일정을 조정해야 할 것 같습니다. (비즈니스 5)",
+      "en": "If needed, the meeting schedule would need to be adjusted. (business variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-043",
+      "kr": "마감일이 연장되었습니다. (비즈니스 5)",
+      "en": "If needed, the deadline has been extended. (business variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-044",
+      "kr": "귀하의 빠른 답변을 부탁드립니다. (비즈니스 5)",
+      "en": "If needed, your prompt response would be greatly appreciated. (business variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-045",
+      "kr": "이 문제에 대해 논의하고 싶습니다. (비즈니스 5)",
+      "en": "If needed, i would like to discuss this matter. (business variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-046",
+      "kr": "추가 정보가 필요합니다. (비즈니스 5)",
+      "en": "If needed, additional information is required. (business variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-047",
+      "kr": "회신을 기다리고 있겠습니다. (비즈니스 5)",
+      "en": "If needed, i have be waiting for your reply. (business variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-048",
+      "kr": "이전 이메일을 참조해 주세요. (비즈니스 5)",
+      "en": "If needed, please refer to my previous email. (business variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-049",
+      "kr": "상황이 변경되었음을 알려드립니다. (비즈니스 5)",
+      "en": "If needed, i would like to inform you that the situation has changed. (business variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S13-050",
+      "kr": "협조해 주신다면 감사하겠습니다. (비즈니스 5)",
+      "en": "If needed, i would appreciate your cooperation. (business variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "MODAL-COULD-WOULD",
+        "PASSIVE-VOICE",
+        "CONDITIONAL-1ST",
+        "PRESENT-PERFECT"
+      ]
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 10,
+    "wh_q": 5
+  },
+  "grammar_meta": [
+    "MODAL-COULD-WOULD",
+    "PASSIVE-VOICE",
+    "CONDITIONAL-1ST",
+    "PRESENT-PERFECT"
+  ],
+  "status": "generated",
+  "batch": "L4_Business_Batch2"
+}

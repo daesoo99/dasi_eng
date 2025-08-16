@@ -1,0 +1,31 @@
+{
+  "name": "dasi-backend",
+  "version": "1.0.0",
+  "description": "Backend for DaSi English Speaking Learning App",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "firebase",
+    "firestore",
+    "gemini-api",
+    "fcm"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.15.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.7.0",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

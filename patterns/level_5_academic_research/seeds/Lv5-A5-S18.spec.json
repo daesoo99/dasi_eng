@@ -1,0 +1,89 @@
+{
+  "id": "Lv5-A5-S18",
+  "title": "학술 출판 및 동료심사",
+  "intent": "학술 출판 과정을 이해하고 동료심사 시스템에 능동적으로 참여한다.",
+  "focus": [
+    "ACADEMIC-PUBLISHING",
+    "PEER-REVIEW",
+    "EDITORIAL-PROCESS",
+    "SCHOLARLY-COMMUNICATION"
+  ],
+  "lexset": [
+    "publishing, publication, peer-review, editorial, manuscript, journal, revision, acceptance, rejection, impact"
+  ],
+  "grammar_meta": [
+    "PUBLISHING-LANGUAGE",
+    "REVIEW-EXPRESSIONS",
+    "EDITORIAL-TERMS",
+    "ACADEMIC-EVALUATION"
+  ],
+  "academic_level": "C1-C2",
+  "traps": [
+    "출판 vs 발행",
+    "심사 vs 검토",
+    "수정 vs 개정",
+    "영향력 vs 인용도"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "출판 유형",
+    "심사 과정",
+    "저널 등급",
+    "피드백 방식"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "논문이 동료심사를 거쳐 게재되었습니다.",
+      "en": "The paper has been published after peer review."
+    },
+    {
+      "kr": "편집자의 피드백을 반영하여 수정했습니다.",
+      "en": "We revised it reflecting the editor's feedback."
+    },
+    {
+      "kr": "심사위원의 의견이 건설적이었습니다.",
+      "en": "The reviewer's comments were constructive."
+    },
+    {
+      "kr": "학술지의 영향력이 높아지고 있습니다.",
+      "en": "The journal's impact is increasing."
+    },
+    {
+      "kr": "출판 윤리를 준수해야 합니다.",
+      "en": "Publishing ethics must be observed."
+    },
+    {
+      "kr": "개방형 출판이 확산되고 있습니다.",
+      "en": "Open access publishing is spreading."
+    },
+    {
+      "kr": "인용 지수가 연구 평가에 사용됩니다.",
+      "en": "Citation indices are used for research evaluation."
+    },
+    {
+      "kr": "원고의 질이 지속적으로 향상되고 있습니다.",
+      "en": "The quality of manuscripts is continuously improving."
+    },
+    {
+      "kr": "학술 커뮤니케이션이 디지털화되었습니다.",
+      "en": "Scholarly communication has been digitized."
+    },
+    {
+      "kr": "심사 과정의 투명성이 중요합니다.",
+      "en": "Transparency in the review process is important."
+    }
+  ]
+}

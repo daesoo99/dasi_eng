@@ -1,0 +1,82 @@
+{
+  "id": "Lv2-P6-S21",
+  "title": "Tag Questions — isn't it? / don't you? / 확인 질문",
+  "intent": "부가의문문으로 확인, 동의, 놀라움을 자연스럽게 표현하고 적절히 응답한다.",
+  "focus": [
+    "TAG-QUESTIONS",
+    "CONFIRMATION",
+    "AGREEMENT",
+    "INTONATION"
+  ],
+  "lexset": [
+    "nice, good, difficult, expensive, late, early, busy, tired, happy, cold, hot, right, wrong"
+  ],
+  "traps": [
+    "긍정-부정 매칭(It is, isn't it? / It isn't, is it?)",
+    "조동사 매칭(You can, can't you?)",
+    "대답 방식(Yes, it is / No, it isn't)",
+    "억양 차이(확인 vs 놀라움)"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.5,
+    "neg": 0.2,
+    "wh_q": 0.3
+  },
+  "variants": [
+    "동사 유형",
+    "시제",
+    "응답",
+    "억양"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "좋은 날씨지, 그렇지?",
+      "en": "It's nice weather, isn't it?"
+    },
+    {
+      "kr": "어려웠지, 안 그래?",
+      "en": "It was difficult, wasn't it?"
+    },
+    {
+      "kr": "너 바쁘지 않지, 그렇지?",
+      "en": "You're not busy, are you?"
+    },
+    {
+      "kr": "할 수 있지, 그렇지?",
+      "en": "You can do it, can't you?"
+    },
+    {
+      "kr": "그는 안 왔지, 그렇지?",
+      "en": "He didn't come, did he?"
+    },
+    {
+      "kr": "비싸지, 안 그래?",
+      "en": "It's expensive, isn't it?"
+    },
+    {
+      "kr": "늦었지, 그렇지?",
+      "en": "We're late, aren't we?"
+    },
+    {
+      "kr": "재밌었지, 안 그래?",
+      "en": "It was fun, wasn't it?"
+    },
+    {
+      "kr": "춥지, 그렇지?",
+      "en": "It's cold, isn't it?"
+    },
+    {
+      "kr": "맞지, 안 그래?",
+      "en": "That's right, isn't it?"
+    }
+  ]
+}

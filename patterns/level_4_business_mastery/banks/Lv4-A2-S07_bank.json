@@ -1,0 +1,314 @@
+{
+  "stage_id": "Lv4-A2-S07",
+  "title": "결론 및 권고사항",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv4-A2-S07-001",
+      "kr": "결론적으로 새로운 시스템 도입을 권합니다. (v1)",
+      "en": "In conclusion, I recommend implementing the new system. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-002",
+      "kr": "이 전략의 주요 이점은 비용 절감입니다. (v1)",
+      "en": "The main benefit of this strategy is cost reduction. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-003",
+      "kr": "즉시 실행할 수 있는 솔루션입니다. (v1)",
+      "en": "This is a solution we can implement immediately. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-004",
+      "kr": "예상 결과는 다음과 같습니다. (v1)",
+      "en": "The expected outcomes are as follows. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-005",
+      "kr": "이 제안을 채택하면 경쟁 우위를 확보할 수 있습니다. (v1)",
+      "en": "Adopting this proposal will give us a competitive advantage. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-006",
+      "kr": "투자 대비 수익률이 높을 것으로 예상됩니다. (v1)",
+      "en": "We expect a high return on investment. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-007",
+      "kr": "3개월 내에 결과를 볼 수 있을 것입니다. (v1)",
+      "en": "We should see results within three months. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-008",
+      "kr": "모든 부서의 협력이 필요합니다. (v1)",
+      "en": "We'll need cooperation from all departments. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-009",
+      "kr": "리스크는 최소화하고 이익은 극대화할 수 있습니다. (v1)",
+      "en": "We can minimize risks while maximizing benefits. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-010",
+      "kr": "다음 단계로 파일럿 프로그램을 제안합니다. (v1)",
+      "en": "As the next step, I propose a pilot program. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-011",
+      "kr": "결론적으로 새로운 시스템 도입을 권합니다. (v2)",
+      "en": "In conclusion, I recommend implementing the new system. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-012",
+      "kr": "이 전략의 주요 이점은 비용 절감입니다. (v2)",
+      "en": "The main benefit of this strategy is cost reduction. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-013",
+      "kr": "즉시 실행할 수 있는 솔루션입니다. (v2)",
+      "en": "This is a solution we can implement immediately. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-014",
+      "kr": "예상 결과는 다음과 같습니다. (v2)",
+      "en": "The expected outcomes are as follows. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-015",
+      "kr": "이 제안을 채택하면 경쟁 우위를 확보할 수 있습니다. (v2)",
+      "en": "Adopting this proposal will give us a competitive advantage. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-016",
+      "kr": "투자 대비 수익률이 높을 것으로 예상됩니다. (v2)",
+      "en": "We expect a high return on investment. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-017",
+      "kr": "3개월 내에 결과를 볼 수 있을 것입니다. (v2)",
+      "en": "We should see results within three months. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-018",
+      "kr": "모든 부서의 협력이 필요합니다. (v2)",
+      "en": "We'll need cooperation from all departments. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-019",
+      "kr": "리스크는 최소화하고 이익은 극대화할 수 있습니다. (v2)",
+      "en": "We can minimize risks while maximizing benefits. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-020",
+      "kr": "다음 단계로 파일럿 프로그램을 제안합니다. (v2)",
+      "en": "As the next step, I propose a pilot program. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-021",
+      "kr": "결론적으로 새로운 시스템 도입을 권합니다. (v3)",
+      "en": "In conclusion, I recommend implementing the new system. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-022",
+      "kr": "이 전략의 주요 이점은 비용 절감입니다. (v3)",
+      "en": "The main benefit of this strategy is cost reduction. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-023",
+      "kr": "즉시 실행할 수 있는 솔루션입니다. (v3)",
+      "en": "This is a solution we can implement immediately. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-024",
+      "kr": "예상 결과는 다음과 같습니다. (v3)",
+      "en": "The expected outcomes are as follows. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-025",
+      "kr": "이 제안을 채택하면 경쟁 우위를 확보할 수 있습니다. (v3)",
+      "en": "Adopting this proposal will give us a competitive advantage. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-026",
+      "kr": "투자 대비 수익률이 높을 것으로 예상됩니다. (v3)",
+      "en": "We expect a high return on investment. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-027",
+      "kr": "3개월 내에 결과를 볼 수 있을 것입니다. (v3)",
+      "en": "We should see results within three months. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-028",
+      "kr": "모든 부서의 협력이 필요합니다. (v3)",
+      "en": "We'll need cooperation from all departments. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-029",
+      "kr": "리스크는 최소화하고 이익은 극대화할 수 있습니다. (v3)",
+      "en": "We can minimize risks while maximizing benefits. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-030",
+      "kr": "다음 단계로 파일럿 프로그램을 제안합니다. (v3)",
+      "en": "As the next step, I propose a pilot program. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-031",
+      "kr": "결론적으로 새로운 시스템 도입을 권합니다. (v4)",
+      "en": "In conclusion, I recommend implementing the new system. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-032",
+      "kr": "이 전략의 주요 이점은 비용 절감입니다. (v4)",
+      "en": "The main benefit of this strategy is cost reduction. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-033",
+      "kr": "즉시 실행할 수 있는 솔루션입니다. (v4)",
+      "en": "This is a solution we can implement immediately. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-034",
+      "kr": "예상 결과는 다음과 같습니다. (v4)",
+      "en": "The expected outcomes are as follows. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-035",
+      "kr": "이 제안을 채택하면 경쟁 우위를 확보할 수 있습니다. (v4)",
+      "en": "Adopting this proposal will give us a competitive advantage. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S07-036",
+      "kr": "투자 대비 수익률이 높을 것으로 예상됩니다. (v4)",
+      "en": "We expect a high return on investment. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S07-037",
+      "kr": "3개월 내에 결과를 볼 수 있을 것입니다. (v4)",
+      "en": "We should see results within three months. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S07-038",
+      "kr": "모든 부서의 협력이 필요합니다. (v4)",
+      "en": "We'll need cooperation from all departments. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S07-039",
+      "kr": "리스크는 최소화하고 이익은 극대화할 수 있습니다. (v4)",
+      "en": "We can minimize risks while maximizing benefits. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S07-040",
+      "kr": "다음 단계로 파일럿 프로그램을 제안합니다. (v4)",
+      "en": "As the next step, I propose a pilot program. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S07-041",
+      "kr": "결론적으로 새로운 시스템 도입을 권합니다. (v5)",
+      "en": "In conclusion, I recommend implementing the new system. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S07-042",
+      "kr": "이 전략의 주요 이점은 비용 절감입니다. (v5)",
+      "en": "The main benefit of this strategy is cost reduction. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S07-043",
+      "kr": "즉시 실행할 수 있는 솔루션입니다. (v5)",
+      "en": "This is a solution we can implement immediately. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S07-044",
+      "kr": "예상 결과는 다음과 같습니다. (v5)",
+      "en": "The expected outcomes are as follows. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S07-045",
+      "kr": "이 제안을 채택하면 경쟁 우위를 확보할 수 있습니다. (v5)",
+      "en": "Adopting this proposal will give us a competitive advantage. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S07-046",
+      "kr": "투자 대비 수익률이 높을 것으로 예상됩니다. (v5)",
+      "en": "We expect a high return on investment. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A2-S07-047",
+      "kr": "3개월 내에 결과를 볼 수 있을 것입니다. (v5)",
+      "en": "We should see results within three months. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A2-S07-048",
+      "kr": "모든 부서의 협력이 필요합니다. (v5)",
+      "en": "We'll need cooperation from all departments. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A2-S07-049",
+      "kr": "리스크는 최소화하고 이익은 극대화할 수 있습니다. (v5)",
+      "en": "We can minimize risks while maximizing benefits. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A2-S07-050",
+      "kr": "다음 단계로 파일럿 프로그램을 제안합니다. (v5)",
+      "en": "As the next step, I propose a pilot program. (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 10,
+    "wh_q": 5
+  },
+  "status": "generated",
+  "batch": "L4_Business_Batch1"
+}

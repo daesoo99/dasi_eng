@@ -1,0 +1,734 @@
+{
+  "stage_id": "Lv6-D4-S11",
+  "title": "금융 리스크 관리",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv6-D4-S11-001",
+      "kr": "신용 리스크가 증가하고 있습니다. (전문 1)",
+      "en": "Credit risk is increasing. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-002",
+      "kr": "시장 리스크 노출도가 측정되었습니다. (전문 1)",
+      "en": "Market risk exposure has been measured. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-003",
+      "kr": "운영 리스크 관리가 강화되었습니다. (전문 1)",
+      "en": "Operational risk management has been strengthened. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-004",
+      "kr": "스트레스 테스트가 실시되었습니다. (전문 1)",
+      "en": "Stress testing has been conducted. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-005",
+      "kr": "시나리오 분석이 수행되었습니다. (전문 1)",
+      "en": "Scenario analysis has been performed. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-006",
+      "kr": "상대방 리스크를 평가해야 합니다. (전문 1)",
+      "en": "Counterparty risk must be assessed. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-007",
+      "kr": "담보 요구사항이 강화되었습니다. (전문 1)",
+      "en": "Collateral requirements have been strengthened. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-008",
+      "kr": "규제 자본이 충분합니다. (전문 1)",
+      "en": "Regulatory capital is adequate. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-009",
+      "kr": "리스크 한도가 설정되었습니다. (전문 1)",
+      "en": "Risk limits have been established. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-010",
+      "kr": "백테스팅 결과가 만족스럽습니다. (전문 1)",
+      "en": "Backtesting results are satisfactory. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-011",
+      "kr": "신용 리스크가 증가하고 있습니다. (전문 2)",
+      "en": "Credit risk is increasing. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-012",
+      "kr": "시장 리스크 노출도가 측정되었습니다. (전문 2)",
+      "en": "Market risk exposure has been measured. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-013",
+      "kr": "운영 리스크 관리가 강화되었습니다. (전문 2)",
+      "en": "Operational risk management has been strengthened. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-014",
+      "kr": "스트레스 테스트가 실시되었습니다. (전문 2)",
+      "en": "Stress testing has been conducted. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-015",
+      "kr": "시나리오 분석이 수행되었습니다. (전문 2)",
+      "en": "Scenario analysis has been performed. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-016",
+      "kr": "상대방 리스크를 평가해야 합니다. (전문 2)",
+      "en": "Counterparty risk must be assessed. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-017",
+      "kr": "담보 요구사항이 강화되었습니다. (전문 2)",
+      "en": "Collateral requirements have been strengthened. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-018",
+      "kr": "규제 자본이 충분합니다. (전문 2)",
+      "en": "Regulatory capital is adequate. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-019",
+      "kr": "리스크 한도가 설정되었습니다. (전문 2)",
+      "en": "Risk limits have been established. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-020",
+      "kr": "백테스팅 결과가 만족스럽습니다. (전문 2)",
+      "en": "Backtesting results are satisfactory. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-021",
+      "kr": "신용 리스크가 증가하고 있습니다. (전문 3)",
+      "en": "Credit risk is increasing. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-022",
+      "kr": "시장 리스크 노출도가 측정되었습니다. (전문 3)",
+      "en": "Market risk exposure has been measured. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-023",
+      "kr": "운영 리스크 관리가 강화되었습니다. (전문 3)",
+      "en": "Operational risk management has been strengthened. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-024",
+      "kr": "스트레스 테스트가 실시되었습니다. (전문 3)",
+      "en": "Stress testing has been conducted. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-025",
+      "kr": "시나리오 분석이 수행되었습니다. (전문 3)",
+      "en": "Scenario analysis has been performed. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-026",
+      "kr": "상대방 리스크를 평가해야 합니다. (전문 3)",
+      "en": "Counterparty risk must be assessed. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-027",
+      "kr": "담보 요구사항이 강화되었습니다. (전문 3)",
+      "en": "Collateral requirements have been strengthened. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-028",
+      "kr": "규제 자본이 충분합니다. (전문 3)",
+      "en": "Regulatory capital is adequate. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-029",
+      "kr": "리스크 한도가 설정되었습니다. (전문 3)",
+      "en": "Risk limits have been established. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-030",
+      "kr": "백테스팅 결과가 만족스럽습니다. (전문 3)",
+      "en": "Backtesting results are satisfactory. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-031",
+      "kr": "신용 리스크가 증가하고 있습니다. (전문 4)",
+      "en": "Credit risk is increasing. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-032",
+      "kr": "시장 리스크 노출도가 측정되었습니다. (전문 4)",
+      "en": "Market risk exposure has been measured. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-033",
+      "kr": "운영 리스크 관리가 강화되었습니다. (전문 4)",
+      "en": "Operational risk management has been strengthened. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-034",
+      "kr": "스트레스 테스트가 실시되었습니다. (전문 4)",
+      "en": "Stress testing has been conducted. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-035",
+      "kr": "시나리오 분석이 수행되었습니다. (전문 4)",
+      "en": "Scenario analysis has been performed. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-036",
+      "kr": "상대방 리스크를 평가해야 합니다. (전문 4)",
+      "en": "Counterparty risk must be assessed. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-037",
+      "kr": "담보 요구사항이 강화되었습니다. (전문 4)",
+      "en": "Collateral requirements have been strengthened. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-038",
+      "kr": "규제 자본이 충분합니다. (전문 4)",
+      "en": "Regulatory capital is adequate. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-039",
+      "kr": "리스크 한도가 설정되었습니다. (전문 4)",
+      "en": "Risk limits have been established. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-040",
+      "kr": "백테스팅 결과가 만족스럽습니다. (전문 4)",
+      "en": "Backtesting results are satisfactory. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-041",
+      "kr": "신용 리스크가 증가하고 있습니다. (전문 5)",
+      "en": "Credit risk is increasing. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-042",
+      "kr": "시장 리스크 노출도가 측정되었습니다. (전문 5)",
+      "en": "Market risk exposure has been measured. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-043",
+      "kr": "운영 리스크 관리가 강화되었습니다. (전문 5)",
+      "en": "Operational risk management has been strengthened. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-044",
+      "kr": "스트레스 테스트가 실시되었습니다. (전문 5)",
+      "en": "Stress testing has been conducted. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-045",
+      "kr": "시나리오 분석이 수행되었습니다. (전문 5)",
+      "en": "Scenario analysis has been performed. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-046",
+      "kr": "상대방 리스크를 평가해야 합니다. (전문 5)",
+      "en": "Counterparty risk must be assessed. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-047",
+      "kr": "담보 요구사항이 강화되었습니다. (전문 5)",
+      "en": "Collateral requirements have been strengthened. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-048",
+      "kr": "규제 자본이 충분합니다. (전문 5)",
+      "en": "Regulatory capital is adequate. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-049",
+      "kr": "리스크 한도가 설정되었습니다. (전문 5)",
+      "en": "Risk limits have been established. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    },
+    {
+      "id": "Lv6-D4-S11-050",
+      "kr": "백테스팅 결과가 만족스럽습니다. (전문 5)",
+      "en": "Backtesting results are satisfactory. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "RISK-CONDITIONALS",
+        "PROBABILITY-EXPRESSIONS",
+        "MITIGATION-LANGUAGE",
+        "REGULATORY-COMPLIANCE"
+      ],
+      "professional_level": "C2",
+      "domain": "FINANCE"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10
+  },
+  "grammar_meta": [
+    "RISK-CONDITIONALS",
+    "PROBABILITY-EXPRESSIONS",
+    "MITIGATION-LANGUAGE",
+    "REGULATORY-COMPLIANCE"
+  ],
+  "domain_vocabulary": [
+    "stress-testing",
+    "scenario-analysis",
+    "Monte-Carlo",
+    "backtesting",
+    "correlation",
+    "contagion",
+    "haircut",
+    "margin",
+    "collateral",
+    "covenant"
+  ],
+  "professional_level": "C2",
+  "domain": "FINANCE",
+  "status": "generated",
+  "batch": "L6_Professional_Batch1"
+}

@@ -1,0 +1,660 @@
+{
+  "batch": "Batch2_L2_L3",
+  "createdAt": "2025-08-15T00:56:15.396071Z",
+  "stages": [
+    {
+      "id": "Lv2-P1-S02",
+      "title": "빈도부사 + 현재진행 (~ing) — 습관/불만 강조",
+      "intent": "speaking",
+      "focus": [
+        "frequency_adverbs",
+        "present_progressive",
+        "habitual_annoyance"
+      ],
+      "lexset": {
+        "adverbs_core": [
+          "always",
+          "usually",
+          "often",
+          "sometimes",
+          "rarely",
+          "hardly ever",
+          "never",
+          "constantly"
+        ],
+        "time_refs": [
+          "these days",
+          "this week",
+          "right now",
+          "at the moment",
+          "on Mondays",
+          "in the mornings"
+        ]
+      },
+      "traps": [
+        "WORD-ORDER",
+        "ADV-POSITION",
+        "BE-COP",
+        "SUBJ-AGR"
+      ],
+      "bankMin": 50,
+      "forms": {
+        "aff": 0.6,
+        "neg": 0.2,
+        "wh_q": 0.2
+      },
+      "variants": {
+        "subj": [
+          "I",
+          "you",
+          "he",
+          "she",
+          "we",
+          "they"
+        ],
+        "place": [
+          "at home",
+          "at work",
+          "at school",
+          "in the office",
+          "on the bus",
+          "in class"
+        ],
+        "time": [
+          "these days",
+          "right now",
+          "this week",
+          "on Mondays"
+        ]
+      },
+      "engine": {
+        "randomPick": true,
+        "retryWeighted": true,
+        "delaySec": 2,
+        "randomize": true
+      },
+      "seeds": [
+        {
+          "kr": "나는 요즘 자꾸 열쇠를 잃어버려.",
+          "en": "I'm always losing my keys these days."
+        },
+        {
+          "kr": "그는 회의에 항상 늦게 와.",
+          "en": "He's always arriving late to meetings."
+        },
+        {
+          "kr": "그녀는 계속 폰만 보고 있어.",
+          "en": "She's constantly checking her phone."
+        },
+        {
+          "kr": "나는 가끔 집에서 일하고 있어.",
+          "en": "I'm sometimes working from home."
+        },
+        {
+          "kr": "우리는 요즘 자주 온라인으로 만나고 있어.",
+          "en": "We're often meeting online these days."
+        },
+        {
+          "kr": "그들은 요즘 퇴근이 늦어.",
+          "en": "They're often working late this week."
+        },
+        {
+          "kr": "나는 월요일이면 항상 급하게 움직여.",
+          "en": "I'm always rushing on Mondays."
+        },
+        {
+          "kr": "그녀는 아침에 TV를 절대 보지 않아.",
+          "en": "She's never watching TV in the morning."
+        },
+        {
+          "kr": "너는 요즘 운동을 자주 하고 있니?",
+          "en": "Are you often working out these days?"
+        },
+        {
+          "kr": "왜 그렇게 자꾸 불평만 하고 있어?",
+          "en": "Why are you always complaining like that?"
+        }
+      ]
+    },
+    {
+      "id": "Lv2-P2-S10",
+      "title": "정중 요청·제안 — Would/Could/Let's/Why don't we/Shall we",
+      "intent": "speaking",
+      "focus": [
+        "modals",
+        "polite_requests",
+        "suggestions"
+      ],
+      "lexset": {
+        "modals": [
+          "could",
+          "would",
+          "would you mind",
+          "may",
+          "shall",
+          "let's",
+          "why don't we"
+        ],
+        "softeners": [
+          "please",
+          "maybe",
+          "a bit",
+          "if it's okay",
+          "if you don't mind"
+        ]
+      },
+      "traps": [
+        "MODAL",
+        "WORD-ORDER",
+        "POLITENESS-LVL",
+        "V-ING_AFTER_MIND"
+      ],
+      "bankMin": 50,
+      "forms": {
+        "aff": 0.7,
+        "neg": 0.1,
+        "wh_q": 0.2
+      },
+      "variants": {
+        "subj": [
+          "I",
+          "we",
+          "you"
+        ],
+        "tasks": [
+          "open the window",
+          "join the call",
+          "send the file",
+          "grab a coffee",
+          "sit here",
+          "speak slower",
+          "wait a minute",
+          "have dinner together"
+        ],
+        "time": [
+          "now",
+          "tonight",
+          "this afternoon",
+          "for a second"
+        ]
+      },
+      "engine": {
+        "randomPick": true,
+        "retryWeighted": true,
+        "delaySec": 2,
+        "randomize": true
+      },
+      "seeds": [
+        {
+          "kr": "창문 좀 열어 줄 수 있어?",
+          "en": "Could you open the window, please?"
+        },
+        {
+          "kr": "오늘 오후에 통화 가능해?",
+          "en": "Could we jump on a call this afternoon?"
+        },
+        {
+          "kr": "파일 좀 보내 주시겠어요?",
+          "en": "Would you send me the file, please?"
+        },
+        {
+          "kr": "커피 한 잔 하실래요?",
+          "en": "Would you like to grab a coffee?"
+        },
+        {
+          "kr": "조금만 천천히 말해 주시겠어요?",
+          "en": "Could you speak a bit slower?"
+        },
+        {
+          "kr": "제가 여기 앉아도 될까요?",
+          "en": "May I sit here?"
+        },
+        {
+          "kr": "지금 잠깐 기다려 줄래?",
+          "en": "Could you wait a minute?"
+        },
+        {
+          "kr": "오늘 밤에 저녁 같이 먹을래?",
+          "en": "Shall we have dinner tonight?"
+        },
+        {
+          "kr": "지금 회의에 참여할까?",
+          "en": "Shall we join the meeting now?"
+        },
+        {
+          "kr": "그럼 이걸 나중에 하는 게 어때?",
+          "en": "Why don't we do this later?"
+        }
+      ]
+    },
+    {
+      "id": "Lv2-P3-S05",
+      "title": "수량·가산/불가산 — how much/many, some/any, many/much",
+      "intent": "speaking",
+      "focus": [
+        "quantifiers",
+        "count_uncount"
+      ],
+      "lexset": {
+        "count_nouns": [
+          "apples",
+          "books",
+          "tickets",
+          "emails",
+          "people",
+          "ideas"
+        ],
+        "uncount_nouns": [
+          "water",
+          "money",
+          "time",
+          "advice",
+          "information",
+          "coffee"
+        ],
+        "quantifiers": [
+          "some",
+          "any",
+          "many",
+          "much",
+          "a lot of",
+          "a few",
+          "a little",
+          "how many",
+          "how much"
+        ]
+      },
+      "traps": [
+        "COUNTABILITY",
+        "ARTICLE",
+        "DO-AUX",
+        "AGREE-NUM"
+      ],
+      "bankMin": 50,
+      "forms": {
+        "aff": 0.5,
+        "neg": 0.2,
+        "wh_q": 0.3
+      },
+      "variants": {
+        "place": [
+          "at home",
+          "at the store",
+          "in the office",
+          "online"
+        ],
+        "time": [
+          "today",
+          "this morning",
+          "right now",
+          "on weekend"
+        ]
+      },
+      "engine": {
+        "randomPick": true,
+        "retryWeighted": true,
+        "delaySec": 2,
+        "randomize": true
+      },
+      "seeds": [
+        {
+          "kr": "물 얼마나 남았어?",
+          "en": "How much water is left?"
+        },
+        {
+          "kr": "사과 몇 개 샀어?",
+          "en": "How many apples did you buy?"
+        },
+        {
+          "kr": "시간이 별로 없어.",
+          "en": "I don't have much time."
+        },
+        {
+          "kr": "티켓이 몇 장 더 필요해.",
+          "en": "We need a few more tickets."
+        },
+        {
+          "kr": "현금 좀 있어?",
+          "en": "Do you have any cash?"
+        },
+        {
+          "kr": "그 정보는 별로 도움이 안 돼.",
+          "en": "That information isn't very helpful."
+        },
+        {
+          "kr": "커피 조금만 더 마실래?",
+          "en": "Would you like a little more coffee?"
+        },
+        {
+          "kr": "이메일이 너무 많아.",
+          "en": "I have too many emails."
+        },
+        {
+          "kr": "오늘 물건이 많이 팔렸어.",
+          "en": "We sold a lot of items today."
+        },
+        {
+          "kr": "조언 좀 해줄 수 있어?",
+          "en": "Could you give me some advice?"
+        }
+      ]
+    },
+    {
+      "id": "Lv2-P4-S12",
+      "title": "Wh-의문 혼합 — 과거/빈도/수량(What/When/Where/Why/How often/How many)",
+      "intent": "speaking",
+      "focus": [
+        "wh_questions",
+        "past_simple",
+        "frequency",
+        "quantity"
+      ],
+      "lexset": {
+        "wh": [
+          "what",
+          "when",
+          "where",
+          "why",
+          "who",
+          "how",
+          "how often",
+          "how many"
+        ],
+        "time": [
+          "last night",
+          "yesterday",
+          "last weekend",
+          "this morning"
+        ],
+        "freq": [
+          "often",
+          "usually",
+          "sometimes"
+        ]
+      },
+      "traps": [
+        "DO-AUX",
+        "WORD-ORDER",
+        "PAST-DID",
+        "COUNTABILITY"
+      ],
+      "bankMin": 50,
+      "forms": {
+        "aff": 0.2,
+        "neg": 0.1,
+        "wh_q": 0.7
+      },
+      "variants": {
+        "subj": [
+          "you",
+          "he",
+          "she",
+          "they"
+        ],
+        "topic": [
+          "exercise",
+          "study",
+          "commute",
+          "call",
+          "buy"
+        ]
+      },
+      "engine": {
+        "randomPick": true,
+        "retryWeighted": true,
+        "delaySec": 2,
+        "randomize": true
+      },
+      "seeds": [
+        {
+          "kr": "지난 주말에 뭐 했어?",
+          "en": "What did you do last weekend?"
+        },
+        {
+          "kr": "왜 늦었어?",
+          "en": "Why were you late?"
+        },
+        {
+          "kr": "얼마나 자주 운동해?",
+          "en": "How often do you exercise?"
+        },
+        {
+          "kr": "어제 어디에 있었어?",
+          "en": "Where were you yesterday?"
+        },
+        {
+          "kr": "언제 여기로 이사 왔어?",
+          "en": "When did you move here?"
+        },
+        {
+          "kr": "몇 명이 올 거야?",
+          "en": "How many people will come?"
+        },
+        {
+          "kr": "왜 그 회의를 취소했어?",
+          "en": "Why did you cancel the meeting?"
+        },
+        {
+          "kr": "오늘 아침에 누구랑 통화했어?",
+          "en": "Who did you talk to this morning?"
+        },
+        {
+          "kr": "보통 몇 시에 집에 가?",
+          "en": "What time do you usually go home?"
+        },
+        {
+          "kr": "어디서 점심 먹을 거야?",
+          "en": "Where are you going to have lunch?"
+        }
+      ]
+    },
+    {
+      "id": "Lv3-P1-S03",
+      "title": "의견·동의·부분동의 — I think / I see your point, but…",
+      "intent": "speaking",
+      "focus": [
+        "opinions",
+        "agreement",
+        "hedging"
+      ],
+      "lexset": {
+        "frames": [
+          "I think",
+          "In my opinion",
+          "It seems to me",
+          "From my perspective",
+          "I agree",
+          "I’m not sure I agree",
+          "I see your point, but"
+        ],
+        "hedges": [
+          "maybe",
+          "a bit",
+          "kind of",
+          "to be honest",
+          "frankly"
+        ],
+        "softeners": [
+          "I might be wrong, but",
+          "What if we"
+        ]
+      },
+      "traps": [
+        "REGISTER",
+        "CLAUSE-THAT",
+        "RUN-ON",
+        "INTENSITY"
+      ],
+      "bankMin": 50,
+      "forms": {
+        "aff": 0.7,
+        "neg": 0.0,
+        "wh_q": 0.3
+      },
+      "variants": {
+        "topic": [
+          "timeline",
+          "budget",
+          "design",
+          "plan",
+          "risk",
+          "priority"
+        ]
+      },
+      "engine": {
+        "randomPick": true,
+        "retryWeighted": true,
+        "delaySec": 1,
+        "randomize": true
+      },
+      "seeds": [
+        {
+          "kr": "내 생각에는 그 일정이 너무 빡빡해.",
+          "en": "I think that timeline is too tight."
+        },
+        {
+          "kr": "내 의견으로는 지금은 위험해 보여.",
+          "en": "In my opinion, it's risky right now."
+        },
+        {
+          "kr": "네 말 이해하지만, 비용이 문제야.",
+          "en": "I see your point, but the cost is an issue."
+        },
+        {
+          "kr": "그건 시도해 볼 만한 것 같아.",
+          "en": "That seems worth a try."
+        },
+        {
+          "kr": "솔직히, 우선순위를 다시 정해야 해.",
+          "en": "To be honest, we need to reprioritize."
+        },
+        {
+          "kr": "그건 좋은 아이디어야. 동의해.",
+          "en": "That's a good idea. I agree."
+        },
+        {
+          "kr": "완전히 동의하진 않아.",
+          "en": "I'm not sure I fully agree."
+        },
+        {
+          "kr": "만약 우리가 시간을 더 준다면 어때?",
+          "en": "What if we give it more time?"
+        },
+        {
+          "kr": "그건 좀 과장된 것 같아.",
+          "en": "That sounds a bit exaggerated."
+        },
+        {
+          "kr": "내가 틀릴 수도 있지만, 다른 옵션도 있어.",
+          "en": "I might be wrong, but there is another option."
+        }
+      ]
+    },
+    {
+      "id": "Lv3-P2-S07",
+      "title": "현재완료 진행/기간 — for/since, recently/lately",
+      "intent": "speaking",
+      "focus": [
+        "present_perfect_continuous",
+        "duration_for_since"
+      ],
+      "lexset": {
+        "duration": [
+          "for three years",
+          "for a while",
+          "for two weeks",
+          "for months"
+        ],
+        "since": [
+          "since noon",
+          "since 2020",
+          "since last week",
+          "since this morning"
+        ],
+        "adverbs": [
+          "recently",
+          "lately",
+          "so far"
+        ]
+      },
+      "traps": [
+        "TENSE-PERF",
+        "FOR-SINCE",
+        "ASPECT-CHOICE",
+        "SPELLING"
+      ],
+      "bankMin": 50,
+      "forms": {
+        "aff": 0.6,
+        "neg": 0.2,
+        "wh_q": 0.2
+      },
+      "variants": {
+        "subj": [
+          "I",
+          "you",
+          "he",
+          "she",
+          "we",
+          "they"
+        ],
+        "activity": [
+          "study English",
+          "work on this",
+          "wait",
+          "exercise",
+          "look for a job",
+          "live here"
+        ]
+      },
+      "engine": {
+        "randomPick": true,
+        "retryWeighted": true,
+        "delaySec": 1,
+        "randomize": true
+      },
+      "seeds": [
+        {
+          "kr": "나는 3년째 영어를 공부해 오고 있어.",
+          "en": "I've been studying English for three years."
+        },
+        {
+          "kr": "그녀는 정오부터 기다리고 있어.",
+          "en": "She's been waiting since noon."
+        },
+        {
+          "kr": "우리는 하루 종일 이걸 하고 있어.",
+          "en": "We've been working on this all day."
+        },
+        {
+          "kr": "최근에 잠을 잘 못 잤어.",
+          "en": "I haven't been sleeping well lately."
+        },
+        {
+          "kr": "요즘 운동 열심히 하고 있어?",
+          "en": "Have you been exercising lately?"
+        },
+        {
+          "kr": "그들은 몇 달째 여기 살고 있어.",
+          "en": "They've been living here for months."
+        },
+        {
+          "kr": "그는 아침부터 일자리를 찾고 있어.",
+          "en": "He's been looking for a job since this morning."
+        },
+        {
+          "kr": "최근에 뉴스 많이 보고 있어.",
+          "en": "I've been watching the news a lot recently."
+        },
+        {
+          "kr": "우리는 한동안 만나지 못했어.",
+          "en": "We haven't been meeting for a while."
+        },
+        {
+          "kr": "그 일은 지금까지 잘 진행되고 있어.",
+          "en": "It's been going well so far."
+        }
+      ]
+    }
+  ]
+}

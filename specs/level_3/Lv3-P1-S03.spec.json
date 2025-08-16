@@ -1,0 +1,102 @@
+{
+  "id": "Lv3-P1-S03",
+  "title": "의견·동의·부분동의 — I think / I see your point, but…",
+  "intent": "speaking",
+  "focus": [
+    "opinions",
+    "agreement",
+    "hedging"
+  ],
+  "lexset": {
+    "frames": [
+      "I think",
+      "In my opinion",
+      "It seems to me",
+      "From my perspective",
+      "I agree",
+      "I’m not sure I agree",
+      "I see your point, but"
+    ],
+    "hedges": [
+      "maybe",
+      "a bit",
+      "kind of",
+      "to be honest",
+      "frankly"
+    ],
+    "softeners": [
+      "I might be wrong, but",
+      "What if we"
+    ]
+  },
+  "traps": [
+    "REGISTER",
+    "CLAUSE-THAT",
+    "RUN-ON",
+    "INTENSITY"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.7,
+    "neg": 0,
+    "wh_q": 0.3
+  },
+  "variants": {
+    "topic": [
+      "timeline",
+      "budget",
+      "design",
+      "plan",
+      "risk",
+      "priority"
+    ]
+  },
+  "engine": {
+    "randomPick": true,
+    "retryWeighted": true,
+    "delaySec": 1,
+    "randomize": true
+  },
+  "seeds": [
+    {
+      "kr": "내 생각에는 그 일정이 너무 빡빡해.",
+      "en": "I think that timeline is too tight."
+    },
+    {
+      "kr": "내 의견으로는 지금은 위험해 보여.",
+      "en": "In my opinion, it's risky right now."
+    },
+    {
+      "kr": "네 말 이해하지만, 비용이 문제야.",
+      "en": "I see your point, but the cost is an issue."
+    },
+    {
+      "kr": "그건 시도해 볼 만한 것 같아.",
+      "en": "That seems worth a try."
+    },
+    {
+      "kr": "솔직히, 우선순위를 다시 정해야 해.",
+      "en": "To be honest, we need to reprioritize."
+    },
+    {
+      "kr": "그건 좋은 아이디어야. 동의해.",
+      "en": "That's a good idea. I agree."
+    },
+    {
+      "kr": "완전히 동의하진 않아.",
+      "en": "I'm not sure I fully agree."
+    },
+    {
+      "kr": "만약 우리가 시간을 더 준다면 어때?",
+      "en": "What if we give it more time?"
+    },
+    {
+      "kr": "그건 좀 과장된 것 같아.",
+      "en": "That sounds a bit exaggerated."
+    },
+    {
+      "kr": "내가 틀릴 수도 있지만, 다른 옵션도 있어.",
+      "en": "I might be wrong, but there is another option."
+    }
+  ]
+}

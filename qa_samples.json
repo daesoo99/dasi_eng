@@ -1,0 +1,2942 @@
+{
+  "timestamp": "2025-08-15T08:16:54.537Z",
+  "totalSamples": 367,
+  "samples": [
+    {
+      "index": 5,
+      "id": "Lv3-P1-S01-006",
+      "kr": "계획을 바꿀 생각입니다. (확장 1)",
+      "en": "I'm going to change the plan. (variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 25,
+      "id": "Lv3-P1-S01-026",
+      "kr": "계획을 바꿀 생각입니다. (확장 3)",
+      "en": "I'm going to change the plan. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 40,
+      "id": "Lv3-P1-S01-041",
+      "kr": "내일 비가 올 것 같습니다. (확장 5)",
+      "en": "It's going to rain tomorrow. (variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 11,
+      "id": "Lv3-P1-S01-012",
+      "kr": "다음 주에 여행을 갈 예정입니다. (확장 2)",
+      "en": "I'm going to travel next week. (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 33,
+      "id": "Lv3-P1-S01-034",
+      "kr": "오늘 저녁에 친구를 만날 거예요. (확장 4)",
+      "en": "I'm meeting a friend tonight. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 42,
+      "id": "Lv3-P1-S01-043",
+      "kr": "언젠가는 성공할 것입니다. (확장 5)",
+      "en": "I will succeed someday. (variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 18,
+      "id": "Lv3-P1-S01-019",
+      "kr": "새로운 프로젝트를 시작할 거예요. (확장 2)",
+      "en": "We're starting a new project. (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 28,
+      "id": "Lv3-P1-S01-029",
+      "kr": "새로운 프로젝트를 시작할 거예요. (확장 3)",
+      "en": "We're starting a new project. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 31,
+      "id": "Lv3-P1-S01-032",
+      "kr": "다음 주에 여행을 갈 예정입니다. (확장 4)",
+      "en": "I'm going to travel next week. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 47,
+      "id": "Lv3-P1-S04-048",
+      "kr": "그 책을 읽어본 적이 있었나요? (확장 5)",
+      "en": "Had you read that book before? (variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 43,
+      "id": "Lv3-P1-S04-044",
+      "kr": "숙제를 다 했을 때 친구가 전화했어요. (확장 5)",
+      "en": "My friend called when I had finished homework. (variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 36,
+      "id": "Lv3-P1-S04-037",
+      "kr": "10시까지 모든 일을 마쳤습니다. (확장 4)",
+      "en": "I had completed everything by 10 o'clock. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 11,
+      "id": "Lv3-P1-S04-012",
+      "kr": "영화가 시작하기 전에 표를 샀어요. (확장 2)",
+      "en": "I had bought tickets before the movie started. (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 6,
+      "id": "Lv3-P1-S04-007",
+      "kr": "10시까지 모든 일을 마쳤습니다. (확장 1)",
+      "en": "I had completed everything by 10 o'clock. (variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 3,
+      "id": "Lv3-P1-S04-004",
+      "kr": "숙제를 다 했을 때 친구가 전화했어요. (확장 1)",
+      "en": "My friend called when I had finished homework. (variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 17,
+      "id": "Lv3-P1-S04-018",
+      "kr": "그 책을 읽어본 적이 있었나요? (확장 2)",
+      "en": "Had you read that book before? (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 29,
+      "id": "Lv3-P1-S04-030",
+      "kr": "그는 전에 그런 경험을 해본 적이 없었습니다. (확장 3)",
+      "en": "He had never experienced that before. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 13,
+      "id": "Lv3-P1-S04-014",
+      "kr": "숙제를 다 했을 때 친구가 전화했어요. (확장 2)",
+      "en": "My friend called when I had finished homework. (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 15,
+      "id": "Lv3-P1-S05-016",
+      "kr": "그녀는 3년 동안 그 회사에서 일하고 있었어요. (확장 2)",
+      "en": "She had been working at that company for three years. (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 27,
+      "id": "Lv3-P1-S05-028",
+      "kr": "그들은 왜 그렇게 오래 기다리고 있었나요? (확장 3)",
+      "en": "Why had they been waiting so long? (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 2,
+      "id": "Lv3-P1-S05-003",
+      "kr": "회의 전에 1시간 동안 준비하고 있었어요. (확장 1)",
+      "en": "I had been preparing for an hour before the meeting. (variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 39,
+      "id": "Lv3-P1-S05-040",
+      "kr": "우리는 1주일 동안 그 문제를 논의하고 있었습니다. (확장 4)",
+      "en": "We had been discussing the issue for a week. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 35,
+      "id": "Lv3-P1-S05-036",
+      "kr": "그녀는 3년 동안 그 회사에서 일하고 있었어요. (확장 4)",
+      "en": "She had been working at that company for three years. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 36,
+      "id": "Lv3-P1-S05-037",
+      "kr": "점심시간까지 계속 회의를 하고 있었습니다. (확장 4)",
+      "en": "We had been meeting until lunch time. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 45,
+      "id": "Lv3-P1-S05-046",
+      "kr": "그녀는 3년 동안 그 회사에서 일하고 있었어요. (확장 5)",
+      "en": "She had been working at that company for three years. (variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 36,
+      "id": "Lv3-P1-S06-037",
+      "kr": "결과가 곧 발표될 것입니다. (완성 4)",
+      "en": "The results will be announced soon. (completion variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 43,
+      "id": "Lv3-P1-S06-044",
+      "kr": "프로젝트가 성공적으로 완료되었습니다. (완성 5)",
+      "en": "The project has been completed successfully. (completion variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 45,
+      "id": "Lv3-P1-S06-046",
+      "kr": "문제가 해결되어야 합니다. (완성 5)",
+      "en": "The problem must be solved. (completion variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 7,
+      "id": "Lv3-P1-S06-008",
+      "kr": "이 제품은 한국에서 만들어집니다. (완성 1)",
+      "en": "This product is made in Korea. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 4,
+      "id": "Lv3-P1-S06-005",
+      "kr": "새로운 정책이 시행되고 있습니다. (완성 1)",
+      "en": "New policies are being implemented. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 3,
+      "id": "Lv3-P1-S06-004",
+      "kr": "프로젝트가 성공적으로 완료되었습니다. (완성 1)",
+      "en": "The project has been completed successfully. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 10,
+      "id": "Lv3-P1-S06-011",
+      "kr": "이 건물은 1950년에 지어졌습니다. (완성 2)",
+      "en": "This building was built in 1950. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 19,
+      "id": "Lv3-P1-S06-020",
+      "kr": "계획이 수정되었습니다. (완성 2)",
+      "en": "The plan has been modified. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 48,
+      "id": "Lv3-P1-S06-049",
+      "kr": "편지가 어제 보내졌습니다. (완성 5)",
+      "en": "The letter was sent yesterday. (completion variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 24,
+      "id": "Lv3-P2-S09-025",
+      "kr": "더 열심히 공부했다면 합격했을 거예요. (확장 3)",
+      "en": "If I had studied harder, I would have passed. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 21,
+      "id": "Lv3-P2-S09-022",
+      "kr": "만약 일찍 출발했다면 지각하지 않았을 거예요. (확장 3)",
+      "en": "If I had left early, I wouldn't have been late. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 27,
+      "id": "Lv3-P2-S09-028",
+      "kr": "만약 당신이라면 어떻게 하겠어요? (확장 3)",
+      "en": "What would you do if you were me? (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 34,
+      "id": "Lv3-P2-S09-035",
+      "kr": "더 열심히 공부했다면 합격했을 거예요. (확장 4)",
+      "en": "If I had studied harder, I would have passed. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 30,
+      "id": "Lv3-P2-S09-031",
+      "kr": "만약 부자라면 세계여행을 할 텐데요. (확장 4)",
+      "en": "If I were rich, I would travel around the world. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 26,
+      "id": "Lv3-P2-S09-027",
+      "kr": "그 조언을 들었다면 실수하지 않았을 거예요. (확장 3)",
+      "en": "If I had listened to the advice, I wouldn't have made mistakes. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 0,
+      "id": "Lv3-P2-S09-001",
+      "kr": "만약 부자라면 세계여행을 할 텐데요. (확장 1)",
+      "en": "If I were rich, I would travel around the world. (variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 4,
+      "id": "Lv3-P2-S09-005",
+      "kr": "더 열심히 공부했다면 합격했을 거예요. (확장 1)",
+      "en": "If I had studied harder, I would have passed. (variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 11,
+      "id": "Lv3-P2-S09-012",
+      "kr": "만약 일찍 출발했다면 지각하지 않았을 거예요. (확장 2)",
+      "en": "If I had left early, I wouldn't have been late. (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 32,
+      "id": "Lv3-P2-S09-033",
+      "kr": "시간이 있다면 당신을 도와줄 수 있어요. (확장 4)",
+      "en": "If I had time, I could help you. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 45,
+      "id": "Lv3-P3-S12-046",
+      "kr": "차 키를 가진 사람이 누구예요? (확장 5)",
+      "en": "Who is the person that has the car keys? (variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 0,
+      "id": "Lv3-P3-S12-001",
+      "kr": "어제 만난 사람이 선생님이었어요. (확장 1)",
+      "en": "The person who I met yesterday was a teacher. (variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 19,
+      "id": "Lv3-P3-S12-020",
+      "kr": "도움이 필요한 사람들을 도와야 합니다. (확장 2)",
+      "en": "We should help people who need help. (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 6,
+      "id": "Lv3-P3-S12-007",
+      "kr": "그것이 제가 말한 이유입니다. (확장 1)",
+      "en": "That's the reason why I said it. (variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 36,
+      "id": "Lv3-P3-S12-037",
+      "kr": "그것이 제가 말한 이유입니다. (확장 4)",
+      "en": "That's the reason why I said it. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 14,
+      "id": "Lv3-P3-S12-015",
+      "kr": "파리는 제가 가장 좋아하는 도시입니다. (확장 2)",
+      "en": "Paris, which is my favorite city, is beautiful. (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 12,
+      "id": "Lv3-P3-S12-013",
+      "kr": "영어를 배우는 학생들이 열심히 공부합니다. (확장 2)",
+      "en": "Students who learn English study hard. (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 35,
+      "id": "Lv3-P3-S12-036",
+      "kr": "차 키를 가진 사람이 누구예요? (확장 4)",
+      "en": "Who is the person that has the car keys? (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 16,
+      "id": "Lv3-P3-S12-017",
+      "kr": "그것이 제가 말한 이유입니다. (확장 2)",
+      "en": "That's the reason why I said it. (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 18,
+      "id": "Lv3-P3-S13-019",
+      "kr": "그것이 문제를 해결하는 방법입니다. (확장 2)",
+      "en": "That's how we solve the problem. (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 10,
+      "id": "Lv3-P3-S13-011",
+      "kr": "우리가 만난 장소를 기억해요. (확장 2)",
+      "en": "I remember the place where we met. (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 48,
+      "id": "Lv3-P3-S13-049",
+      "kr": "그것이 문제를 해결하는 방법입니다. (확장 5)",
+      "en": "That's how we solve the problem. (variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 24,
+      "id": "Lv3-P3-S13-025",
+      "kr": "우리가 살았던 도시가 그리워요. (확장 3)",
+      "en": "I miss the city where we lived. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 38,
+      "id": "Lv3-P3-S13-039",
+      "kr": "그것이 문제를 해결하는 방법입니다. (확장 4)",
+      "en": "That's how we solve the problem. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 47,
+      "id": "Lv3-P3-S13-048",
+      "kr": "우리가 처음 만난 순간을 잊을 수 없어요. (확장 5)",
+      "en": "I can't forget the moment when we first met. (variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 20,
+      "id": "Lv3-P3-S13-021",
+      "kr": "우리가 만난 장소를 기억해요. (확장 3)",
+      "en": "I remember the place where we met. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 3,
+      "id": "Lv3-P3-S13-004",
+      "kr": "이것이 제가 하는 방식입니다. (확장 1)",
+      "en": "This is how I do it. (variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 25,
+      "id": "Lv3-P3-S13-026",
+      "kr": "그들이 성공한 이유가 무엇인가요? (확장 3)",
+      "en": "What's the reason why they succeeded? (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 42,
+      "id": "Lv3-P3-S13-043",
+      "kr": "그가 떠난 때가 언제인지 아세요? (확장 5)",
+      "en": "Do you know when he left? (variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 3,
+      "id": "Lv3-P3-S14-004",
+      "kr": "그들은 어디에 있는지 물어봤어요. (확장 1)",
+      "en": "They asked where I was. (variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 6,
+      "id": "Lv3-P3-S14-007",
+      "kr": "의사는 휴식을 취하라고 조언했습니다. (확장 1)",
+      "en": "The doctor advised me to take a rest. (variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 32,
+      "id": "Lv3-P3-S14-033",
+      "kr": "선생님은 우리에게 열심히 공부하라고 하셨어요. (확장 4)",
+      "en": "The teacher told us to study hard. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 5,
+      "id": "Lv3-P3-S14-006",
+      "kr": "그녀는 실수했다고 인정했어요. (확장 1)",
+      "en": "She admitted that she had made a mistake. (variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 37,
+      "id": "Lv3-P3-S14-038",
+      "kr": "그들은 회의가 언제인지 물었어요. (확장 4)",
+      "en": "They asked when the meeting was. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 36,
+      "id": "Lv3-P3-S14-037",
+      "kr": "의사는 휴식을 취하라고 조언했습니다. (확장 4)",
+      "en": "The doctor advised me to take a rest. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 26,
+      "id": "Lv3-P3-S14-027",
+      "kr": "의사는 휴식을 취하라고 조언했습니다. (확장 3)",
+      "en": "The doctor advised me to take a rest. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 12,
+      "id": "Lv3-P3-S14-013",
+      "kr": "선생님은 우리에게 열심히 공부하라고 하셨어요. (확장 2)",
+      "en": "The teacher told us to study hard. (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 18,
+      "id": "Lv3-P3-S14-019",
+      "kr": "그는 약속을 지키겠다고 했습니다. (확장 2)",
+      "en": "He promised that he would keep his promise. (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 35,
+      "id": "Lv3-P3-S14-036",
+      "kr": "그녀는 실수했다고 인정했어요. (확장 4)",
+      "en": "She admitted that she had made a mistake. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 31,
+      "id": "Lv3-P3-S15-032",
+      "kr": "그들이 어디에 있는지 모르겠어요. (확장 4)",
+      "en": "I don't know where they are. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 37,
+      "id": "Lv3-P3-S15-038",
+      "kr": "그것이 얼마인지 기억나지 않아요. (확장 4)",
+      "en": "I don't remember how much it costs. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 35,
+      "id": "Lv3-P3-S15-036",
+      "kr": "누가 이것을 했는지 알고 싶어요. (확장 4)",
+      "en": "I want to know who did this. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 16,
+      "id": "Lv3-P3-S15-017",
+      "kr": "언제 끝날지 말해주세요. (확장 2)",
+      "en": "Please tell me when it will finish. (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 21,
+      "id": "Lv3-P3-S15-022",
+      "kr": "그들이 어디에 있는지 모르겠어요. (확장 3)",
+      "en": "I don't know where they are. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 30,
+      "id": "Lv3-P3-S15-031",
+      "kr": "그가 언제 올지 궁금해요. (확장 4)",
+      "en": "I wonder when he will come. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 8,
+      "id": "Lv3-P3-S15-009",
+      "kr": "어느 것이 더 좋은지 결정할 수 없어요. (확장 1)",
+      "en": "I can't decide which one is better. (variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 19,
+      "id": "Lv3-P3-S15-020",
+      "kr": "그들이 성공할 수 있을지 의문이에요. (확장 2)",
+      "en": "I wonder if they can succeed. (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 23,
+      "id": "Lv3-P3-S15-024",
+      "kr": "그가 올지 안 올지 확실하지 않아요. (확장 3)",
+      "en": "I'm not sure if he will come or not. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 24,
+      "id": "Lv3-P3-S15-025",
+      "kr": "왜 그런 일이 일어났는지 이해할 수 없어요. (확장 3)",
+      "en": "I can't understand why that happened. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 20,
+      "id": "Lv3-P4-S20-021",
+      "kr": "먼저 계획을 세워야 합니다. (확장 3)",
+      "en": "First, we need to make a plan. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 28,
+      "id": "Lv3-P4-S20-029",
+      "kr": "그러므로 더 노력해야 합니다. (확장 3)",
+      "en": "Thus, we need to work harder. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 8,
+      "id": "Lv3-P4-S20-009",
+      "kr": "그러므로 더 노력해야 합니다. (확장 1)",
+      "en": "Thus, we need to work harder. (variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 47,
+      "id": "Lv3-P4-S20-048",
+      "kr": "다음 단계는 팀을 구성하는 것입니다. (확장 5)",
+      "en": "The next step is to form a team. (variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 37,
+      "id": "Lv3-P4-S20-038",
+      "kr": "다음 단계는 팀을 구성하는 것입니다. (확장 4)",
+      "en": "The next step is to form a team. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 40,
+      "id": "Lv3-P4-S20-041",
+      "kr": "먼저 계획을 세워야 합니다. (확장 5)",
+      "en": "First, we need to make a plan. (variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 3,
+      "id": "Lv3-P4-S20-004",
+      "kr": "따라서 이것이 최선의 선택입니다. (확장 1)",
+      "en": "Therefore, this is the best choice. (variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 42,
+      "id": "Lv3-P4-S20-043",
+      "kr": "마지막으로 결과를 확인하겠습니다. (확장 5)",
+      "en": "Finally, we will check the results. (variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 27,
+      "id": "Lv3-P4-S20-028",
+      "kr": "다음 단계는 팀을 구성하는 것입니다. (확장 3)",
+      "en": "The next step is to form a team. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 35,
+      "id": "Lv3-P4-S20-036",
+      "kr": "두 번째로 예산을 고려해야 합니다. (확장 4)",
+      "en": "Second, we need to consider the budget. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 6,
+      "id": "Lv3-P4-S21-007",
+      "kr": "다른 방법을 시도해보세요. (확장 1)",
+      "en": "If I were you, I would try a different approach. (variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 1,
+      "id": "Lv3-P4-S21-002",
+      "kr": "그 일을 다시 생각해보는 것이 좋겠어요. (확장 1)",
+      "en": "I would reconsider that decision if I were you. (variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 30,
+      "id": "Lv3-P4-S21-031",
+      "kr": "제가 당신이라면 의사와 상담하겠어요. (확장 4)",
+      "en": "If I were you, I would consult a doctor. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 16,
+      "id": "Lv3-P4-S21-017",
+      "kr": "다른 방법을 시도해보세요. (확장 2)",
+      "en": "If I were you, I would try a different approach. (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 36,
+      "id": "Lv3-P4-S21-037",
+      "kr": "다른 방법을 시도해보세요. (확장 4)",
+      "en": "If I were you, I would try a different approach. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 37,
+      "id": "Lv3-P4-S21-038",
+      "kr": "그것에 대해 걱정하지 않겠어요. (확장 4)",
+      "en": "I wouldn't worry about that if I were you. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 41,
+      "id": "Lv3-P4-S21-042",
+      "kr": "그 일을 다시 생각해보는 것이 좋겠어요. (확장 5)",
+      "en": "I would reconsider that decision if I were you. (variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 33,
+      "id": "Lv3-P4-S21-034",
+      "kr": "전문가의 도움을 받으시길 권합니다. (확장 4)",
+      "en": "I would recommend getting expert help if I were you. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 48,
+      "id": "Lv3-P5-S25-049",
+      "kr": "최근에 흥미로운 책을 읽었어요. (확장 5)",
+      "en": "I have recently read an interesting book. (variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 42,
+      "id": "Lv3-P5-S25-043",
+      "kr": "그 영화를 본 적이 있나요? (확장 5)",
+      "en": "Have you ever seen that movie? (variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 25,
+      "id": "Lv3-P5-S25-026",
+      "kr": "제가 만난 가장 친절한 사람이었어요. (확장 3)",
+      "en": "He was the kindest person I have ever met. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 20,
+      "id": "Lv3-P5-S25-021",
+      "kr": "저는 유럽에 가본 적이 있어요. (확장 3)",
+      "en": "I have been to Europe. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 1,
+      "id": "Lv3-P5-S25-002",
+      "kr": "그런 음식을 먹어본 적이 없어요. (확장 1)",
+      "en": "I have never tried that kind of food. (variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 29,
+      "id": "Lv3-P5-S25-030",
+      "kr": "그 언어를 배운 적이 있나요? (확장 3)",
+      "en": "Have you ever learned that language? (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 13,
+      "id": "Lv3-P5-S25-014",
+      "kr": "저는 스카이다이빙을 해봤어요. (확장 2)",
+      "en": "I have tried skydiving. (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 12,
+      "id": "Lv3-P5-S25-013",
+      "kr": "그 영화를 본 적이 있나요? (확장 2)",
+      "en": "Have you ever seen that movie? (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 11,
+      "id": "Lv3-P5-S25-012",
+      "kr": "그런 음식을 먹어본 적이 없어요. (확장 2)",
+      "en": "I have never tried that kind of food. (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 44,
+      "id": "Lv3-P5-S25-045",
+      "kr": "그들은 그런 경험을 해본 적이 없습니다. (확장 5)",
+      "en": "They have never had such an experience. (variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 43,
+      "id": "Lv3-P5-S26-044",
+      "kr": "그곳에서 일어난 일이었어요. (확장 5)",
+      "en": "It was there that it happened. (variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 26,
+      "id": "Lv3-P5-S26-027",
+      "kr": "바로 그 이유 때문입니다. (확장 3)",
+      "en": "It is for that reason. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 44,
+      "id": "Lv3-P5-S26-045",
+      "kr": "이것이 가장 중요한 것입니다. (확장 5)",
+      "en": "It is this that is most important. (variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 6,
+      "id": "Lv3-P5-S26-007",
+      "kr": "바로 그 이유 때문입니다. (확장 1)",
+      "en": "It is for that reason. (variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 28,
+      "id": "Lv3-P5-S26-029",
+      "kr": "이 방법이 최선입니다. (확장 3)",
+      "en": "It is this method that is best. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 10,
+      "id": "Lv3-P5-S26-011",
+      "kr": "바로 그것이 제가 원하는 것입니다. (확장 2)",
+      "en": "It is exactly what I want. (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 7,
+      "id": "Lv3-P5-S26-008",
+      "kr": "그녀가 승리한 것이었어요. (확장 1)",
+      "en": "It was she who won. (variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 39,
+      "id": "Lv3-P5-S26-040",
+      "kr": "그들이 도착한 것은 밤이었어요. (확장 4)",
+      "en": "It was at night that they arrived. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 12,
+      "id": "Lv3-P5-S26-013",
+      "kr": "어제 그들을 만난 것입니다. (확장 2)",
+      "en": "It was yesterday that I met them. (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 22,
+      "id": "Lv3-P5-S26-023",
+      "kr": "어제 그들을 만난 것입니다. (확장 3)",
+      "en": "It was yesterday that I met them. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 15,
+      "id": "Lv3-P6-S30-016",
+      "kr": "마음을 바꿨어요. (확장 2)",
+      "en": "I've changed my mind. (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 35,
+      "id": "Lv3-P6-S30-036",
+      "kr": "마음을 바꿨어요. (확장 4)",
+      "en": "I've changed my mind. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 27,
+      "id": "Lv3-P6-S30-028",
+      "kr": "이제 깨달았는데, 그때 실수했네요. (확장 3)",
+      "en": "I realize now that I made a mistake then. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 49,
+      "id": "Lv3-P6-S30-050",
+      "kr": "다시 말하지만, 확실하지 않아요. (확장 5)",
+      "en": "Then again, I'm not sure. (variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 22,
+      "id": "Lv3-P6-S30-023",
+      "kr": "생각해보니 더 좋은 방법이 있을 것 같아요. (확장 3)",
+      "en": "Come to think of it, there might be a better way. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 29,
+      "id": "Lv3-P6-S30-030",
+      "kr": "다시 말하지만, 확실하지 않아요. (확장 3)",
+      "en": "Then again, I'm not sure. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 31,
+      "id": "Lv3-P6-S30-032",
+      "kr": "사실 제가 틀렸네요. (확장 4)",
+      "en": "Actually, I was wrong. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 8,
+      "id": "Lv3-P6-S30-009",
+      "kr": "아, 그렇다면 다른 얘기네요. (확장 1)",
+      "en": "Oh, then that's a different story. (variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 24,
+      "id": "Lv3-P6-S29-025",
+      "kr": "상당히 많은 사람들이 왔어요. (확장 3)",
+      "en": "Quite a lot of people came. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 16,
+      "id": "Lv3-P6-S29-017",
+      "kr": "엄청나게 많은 일이 있어요. (확장 2)",
+      "en": "There's an enormous amount of work. (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 26,
+      "id": "Lv3-P6-S29-027",
+      "kr": "엄청나게 많은 일이 있어요. (확장 3)",
+      "en": "There's an enormous amount of work. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 33,
+      "id": "Lv3-P6-S29-034",
+      "kr": "다소 비싼 것 같아요. (확장 4)",
+      "en": "It seems rather expensive. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 32,
+      "id": "Lv3-P6-S29-033",
+      "kr": "꽤 어려운 문제네요. (확장 4)",
+      "en": "It's quite a difficult problem. (variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 10,
+      "id": "Lv3-P6-S29-011",
+      "kr": "충분한 시간이 있어요. (확장 2)",
+      "en": "We have plenty of time. (variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 21,
+      "id": "Lv3-P6-S29-022",
+      "kr": "조금 피곤해요. (확장 3)",
+      "en": "I'm a bit tired. (variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 4,
+      "id": "Lv3-P6-S29-005",
+      "kr": "상당히 많은 사람들이 왔어요. (확장 1)",
+      "en": "Quite a lot of people came. (variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 3,
+      "id": "Lv3-P6-S29-004",
+      "kr": "다소 비싼 것 같아요. (확장 1)",
+      "en": "It seems rather expensive. (variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 49,
+      "id": "Lv3-P6-S29-050",
+      "kr": "상당히 개선되었어요. (확장 5)",
+      "en": "It has improved considerably. (variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 2,
+      "id": "Lv3-P5-S27-003",
+      "kr": "정확히 그것이 제가 말하고 싶은 것입니다. (확장 1)",
+      "en": "That's exactly what I want to say. (variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 45,
+      "id": "Lv3-P5-S27-046",
+      "kr": "분명히 성공할 것입니다. (확장 5)",
+      "en": "We will certainly succeed. (variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 18,
+      "id": "Lv3-P5-S27-019",
+      "kr": "실제로 그런 일이 일어났어요. (확장 2)",
+      "en": "It actually happened. (variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 46,
+      "id": "Lv3-P5-S27-047",
+      "kr": "명백히 잘못된 결정이었어요. (확장 5)",
+      "en": "It was obviously a wrong decision. (variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 47,
+      "id": "Lv3-P5-S27-048",
+      "kr": "진짜로 감사합니다. (확장 5)",
+      "en": "I'm truly grateful. (variant 5)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 1,
+      "id": "Lv3-P5-S27-002",
+      "kr": "사실 그렇게 생각하지 않아요. (확장 1)",
+      "en": "Actually, I don't think so. (variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 38,
+      "id": "Lv3-P5-S27-039",
+      "kr": "실제로 그런 일이 일어났어요. (확장 4)",
+      "en": "It actually happened. (variant 4)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 7,
+      "id": "Lv3-P5-S27-008",
+      "kr": "진짜로 감사합니다. (확장 1)",
+      "en": "I'm truly grateful. (variant 1)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 1,
+      "id": "Lv5-A4-S13-002",
+      "kr": "학제간 접근이 복잡한 문제 해결에 필수적입니다. (완성 2)",
+      "en": "An interdisciplinary approach is essential for solving complex problems. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 31,
+      "id": "Lv5-A4-S13-032",
+      "kr": "전체론적 접근이 필요한 연구 영역입니다. (완성 2)",
+      "en": "This is a research area that requires a holistic approach. (completion variant 2)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 25,
+      "id": "Lv5-A4-S13-026",
+      "kr": "융합 연구가 새로운 패러다임을 제시합니다. (완성 1)",
+      "en": "Convergence research presents new paradigms. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 14,
+      "id": "Lv5-A4-S13-015",
+      "kr": "통합적 관점에서 현상을 분석합니다. (완성 5)",
+      "en": "We analyze the phenomenon from an integrated perspective. (completion variant 5)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 35,
+      "id": "Lv5-A4-S13-036",
+      "kr": "다학제적 팀이 구성되었습니다. (완성 1)",
+      "en": "A multidisciplinary team has been formed. (completion variant 1)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 20,
+      "id": "Lv5-A4-S13-021",
+      "kr": "시너지 효과가 기대되는 협력 프로젝트입니다. (완성 1)",
+      "en": "This is a collaborative project where synergistic effects are expected. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 10,
+      "id": "Lv5-A4-S13-011",
+      "kr": "통합적 관점에서 현상을 분석합니다. (완성 1)",
+      "en": "We analyze the phenomenon from an integrated perspective. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 49,
+      "id": "Lv5-A4-S13-050",
+      "kr": "학문적 경계를 허무는 것이 중요합니다. (완성 5)",
+      "en": "Breaking down academic boundaries is important. (completion variant 5)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 15,
+      "id": "Lv5-A4-S13-016",
+      "kr": "학문 간 경계를 넘나드는 연구가 증가하고 있습니다. (완성 1)",
+      "en": "Research that crosses disciplinary boundaries is increasing. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 16,
+      "id": "Lv5-A4-S15-017",
+      "kr": "연구 성과를 사회에 환원합니다. (완성 2)",
+      "en": "We return research results to society. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 38,
+      "id": "Lv5-A4-S15-039",
+      "kr": "학계와 산업계의 연결이 필요합니다. (완성 4)",
+      "en": "Connection between academia and industry is necessary. (completion variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 27,
+      "id": "Lv5-A4-S15-028",
+      "kr": "사회적 참여가 연구의 질을 높입니다. (완성 3)",
+      "en": "Social engagement enhances research quality. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 3,
+      "id": "Lv5-A4-S15-004",
+      "kr": "연구가 사회에 미치는 영향을 평가합니다. (완성 4)",
+      "en": "We assess the impact of research on society. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 39,
+      "id": "Lv5-A4-S15-040",
+      "kr": "학계와 산업계의 연결이 필요합니다. (완성 5)",
+      "en": "Connection between academia and industry is necessary. (completion variant 5)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 24,
+      "id": "Lv5-A4-S15-025",
+      "kr": "학술 연구의 실용적 가치가 중요합니다. (완성 5)",
+      "en": "The practical value of academic research is important. (completion variant 5)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 7,
+      "id": "Lv5-A4-S15-008",
+      "kr": "지식 전달이 연구의 중요한 목표입니다. (완성 3)",
+      "en": "Knowledge transfer is an important goal of research. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 36,
+      "id": "Lv5-A4-S15-037",
+      "kr": "학계와 산업계의 연결이 필요합니다. (완성 2)",
+      "en": "Connection between academia and industry is necessary. (completion variant 2)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 11,
+      "id": "Lv5-A4-S16-012",
+      "kr": "학문적 전통을 계승하고 발전시켜야 합니다. (완성 2)",
+      "en": "Academic traditions must be inherited and developed. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 25,
+      "id": "Lv5-A4-S16-026",
+      "kr": "학술 공동체의 결속력을 높여야 합니다. (완성 1)",
+      "en": "The cohesion of the academic community should be strengthened. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 38,
+      "id": "Lv5-A4-S16-039",
+      "kr": "연구 문화를 선도하는 역할을 합니다. (완성 4)",
+      "en": "We play a role in leading research culture. (completion variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 42,
+      "id": "Lv5-A4-S16-043",
+      "kr": "학문적 유산을 다음 세대에 물려줍니다. (완성 3)",
+      "en": "We pass on academic legacy to the next generation. (completion variant 3)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 2,
+      "id": "Lv5-A4-S16-003",
+      "kr": "학술 리더십이 공동체 발전에 중요합니다. (완성 3)",
+      "en": "Academic leadership is important for community development. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 6,
+      "id": "Lv5-A4-S16-007",
+      "kr": "후배 연구자들을 멘토링하고 있습니다. (완성 2)",
+      "en": "We are mentoring junior researchers. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 20,
+      "id": "Lv5-A4-S16-021",
+      "kr": "차세대 학자들을 양성하는 것이 중요합니다. (완성 1)",
+      "en": "Cultivating next-generation scholars is important. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 41,
+      "id": "Lv5-A4-S16-042",
+      "kr": "학문적 유산을 다음 세대에 물려줍니다. (완성 2)",
+      "en": "We pass on academic legacy to the next generation. (completion variant 2)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 13,
+      "id": "Lv5-A4-S16-014",
+      "kr": "학문적 전통을 계승하고 발전시켜야 합니다. (완성 4)",
+      "en": "Academic traditions must be inherited and developed. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 23,
+      "id": "Lv5-A5-S18-024",
+      "kr": "출판 윤리를 준수해야 합니다. (완성 4)",
+      "en": "Publishing ethics must be observed. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 17,
+      "id": "Lv5-A5-S18-018",
+      "kr": "학술지의 영향력이 높아지고 있습니다. (완성 3)",
+      "en": "The journal's impact is increasing. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 7,
+      "id": "Lv5-A5-S18-008",
+      "kr": "편집자의 피드백을 반영하여 수정했습니다. (완성 3)",
+      "en": "We revised it reflecting the editor's feedback. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 45,
+      "id": "Lv5-A5-S18-046",
+      "kr": "심사 과정의 투명성이 중요합니다. (완성 1)",
+      "en": "Transparency in the review process is important. (completion variant 1)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 16,
+      "id": "Lv5-A5-S18-017",
+      "kr": "학술지의 영향력이 높아지고 있습니다. (완성 2)",
+      "en": "The journal's impact is increasing. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 9,
+      "id": "Lv5-A5-S18-010",
+      "kr": "편집자의 피드백을 반영하여 수정했습니다. (완성 5)",
+      "en": "We revised it reflecting the editor's feedback. (completion variant 5)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 42,
+      "id": "Lv5-A5-S18-043",
+      "kr": "학술 커뮤니케이션이 디지털화되었습니다. (완성 3)",
+      "en": "Scholarly communication has been digitized. (completion variant 3)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 46,
+      "id": "Lv5-A5-S18-047",
+      "kr": "심사 과정의 투명성이 중요합니다. (완성 2)",
+      "en": "Transparency in the review process is important. (completion variant 2)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 4,
+      "id": "Lv5-A5-S18-005",
+      "kr": "논문이 동료심사를 거쳐 게재되었습니다. (완성 5)",
+      "en": "The paper has been published after peer review. (completion variant 5)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 35,
+      "id": "Lv5-A6-S24-036",
+      "kr": "학문적 계승이 이루어지고 있습니다. (완성 1)",
+      "en": "Academic succession is taking place. (completion variant 1)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 28,
+      "id": "Lv5-A6-S24-029",
+      "kr": "학술적 가치가 보존되어야 합니다. (완성 4)",
+      "en": "Academic values must be preserved. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 44,
+      "id": "Lv5-A6-S24-045",
+      "kr": "전통과 혁신의 균형이 중요합니다. (완성 5)",
+      "en": "Balance between tradition and innovation is important. (completion variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 9,
+      "id": "Lv5-A6-S24-010",
+      "kr": "지속가능한 연구 문화를 구축하고 있습니다. (완성 5)",
+      "en": "We are building a sustainable research culture. (completion variant 5)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 24,
+      "id": "Lv5-A6-S24-025",
+      "kr": "지식의 영속성을 보장해야 합니다. (완성 5)",
+      "en": "The perpetuity of knowledge must be ensured. (completion variant 5)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 27,
+      "id": "Lv5-A6-S24-028",
+      "kr": "학술적 가치가 보존되어야 합니다. (완성 3)",
+      "en": "Academic values must be preserved. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 48,
+      "id": "Lv5-A6-S24-049",
+      "kr": "학술적 유산이 인류의 자산입니다. (완성 4)",
+      "en": "Academic legacy is humanity's asset. (completion variant 4)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 40,
+      "id": "Lv5-A6-S24-041",
+      "kr": "전통과 혁신의 균형이 중요합니다. (완성 1)",
+      "en": "Balance between tradition and innovation is important. (completion variant 1)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 6,
+      "id": "Lv5-A6-S24-007",
+      "kr": "지속가능한 연구 문화를 구축하고 있습니다. (완성 2)",
+      "en": "We are building a sustainable research culture. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 3,
+      "id": "Lv5-A5-S20-004",
+      "kr": "학술 네트워크를 적극적으로 구축하고 있습니다. (완성 4)",
+      "en": "We are actively building academic networks. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 18,
+      "id": "Lv5-A5-S20-019",
+      "kr": "학술 교류가 연구에 도움이 됩니다. (완성 4)",
+      "en": "Academic exchange is helpful for research. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 41,
+      "id": "Lv5-A5-S20-042",
+      "kr": "국제적 협력 네트워크가 확장되었습니다. (완성 2)",
+      "en": "The international collaboration network has expanded. (completion variant 2)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 33,
+      "id": "Lv5-A5-S20-034",
+      "kr": "학술 공동체와의 연결을 유지합니다. (완성 4)",
+      "en": "We maintain connections with the academic community. (completion variant 4)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 7,
+      "id": "Lv5-A5-S20-008",
+      "kr": "국제 컨퍼런스에서 발표할 예정입니다. (완성 3)",
+      "en": "We are scheduled to present at an international conference. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 45,
+      "id": "Lv5-A5-S20-046",
+      "kr": "학술 행사 참여가 시야를 넓혀줍니다. (완성 1)",
+      "en": "Participation in academic events broadens perspectives. (completion variant 1)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 15,
+      "id": "Lv5-A5-S20-016",
+      "kr": "학술 교류가 연구에 도움이 됩니다. (완성 1)",
+      "en": "Academic exchange is helpful for research. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 49,
+      "id": "Lv5-A5-S20-050",
+      "kr": "학술 행사 참여가 시야를 넓혀줍니다. (완성 5)",
+      "en": "Participation in academic events broadens perspectives. (completion variant 5)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 20,
+      "id": "Lv5-A5-S20-021",
+      "kr": "전문가들과의 네트워킹이 중요합니다. (완성 1)",
+      "en": "Networking with experts is important. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 23,
+      "id": "Lv5-A5-S20-024",
+      "kr": "전문가들과의 네트워킹이 중요합니다. (완성 4)",
+      "en": "Networking with experts is important. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 49,
+      "id": "Lv5-A4-S14-050",
+      "kr": "문화적 다양성을 존중하는 연구입니다. (완성 5)",
+      "en": "This is research that respects cultural diversity. (completion variant 5)",
+      "form": "wh_q",
+      "qualityScore": 90
+    },
+    {
+      "index": 16,
+      "id": "Lv5-A4-S14-017",
+      "kr": "학술 교류가 활발히 이루어지고 있습니다. (완성 2)",
+      "en": "Academic exchange is actively taking place. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 26,
+      "id": "Lv5-A4-S14-027",
+      "kr": "국제적 파트너십이 형성되었습니다. (완성 2)",
+      "en": "International partnerships have been formed. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 15,
+      "id": "Lv5-A4-S14-016",
+      "kr": "학술 교류가 활발히 이루어지고 있습니다. (완성 1)",
+      "en": "Academic exchange is actively taking place. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 24,
+      "id": "Lv5-A4-S14-025",
+      "kr": "다양성이 연구의 질을 향상시킵니다. (완성 5)",
+      "en": "Diversity enhances the quality of research. (completion variant 5)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 9,
+      "id": "Lv5-A4-S14-010",
+      "kr": "글로벌 학술 네트워크를 구축했습니다. (완성 5)",
+      "en": "We have established a global academic network. (completion variant 5)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 1,
+      "id": "Lv5-A4-S14-002",
+      "kr": "국제 공동 연구가 확대되고 있습니다. (완성 2)",
+      "en": "International joint research is expanding. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 2,
+      "id": "Lv5-A4-S14-003",
+      "kr": "국제 공동 연구가 확대되고 있습니다. (완성 3)",
+      "en": "International joint research is expanding. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 21,
+      "id": "Lv5-A4-S14-022",
+      "kr": "다양성이 연구의 질을 향상시킵니다. (완성 2)",
+      "en": "Diversity enhances the quality of research. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 38,
+      "id": "Lv5-A4-S14-039",
+      "kr": "글로벌 도전 과제에 공동 대응합니다. (완성 4)",
+      "en": "We jointly respond to global challenges. (completion variant 4)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 7,
+      "id": "Lv5-A6-S23-008",
+      "kr": "논리적 추론을 통해 결론에 도달했습니다. (완성 3)",
+      "en": "We reached conclusions through logical reasoning. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 26,
+      "id": "Lv5-A6-S23-027",
+      "kr": "판단력이 연구자의 핵심 능력입니다. (완성 2)",
+      "en": "Judgment is a core ability of researchers. (completion variant 2)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 20,
+      "id": "Lv5-A6-S23-021",
+      "kr": "엄밀한 검증이 요구됩니다. (완성 1)",
+      "en": "Rigorous verification is required. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 29,
+      "id": "Lv5-A6-S23-030",
+      "kr": "판단력이 연구자의 핵심 능력입니다. (완성 5)",
+      "en": "Judgment is a core ability of researchers. (completion variant 5)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 22,
+      "id": "Lv5-A6-S23-023",
+      "kr": "엄밀한 검증이 요구됩니다. (완성 3)",
+      "en": "Rigorous verification is required. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 40,
+      "id": "Lv5-A6-S23-041",
+      "kr": "분석적 사고가 깊이를 더해줍니다. (완성 1)",
+      "en": "Analytical thinking adds depth. (completion variant 1)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 3,
+      "id": "Lv5-A6-S23-004",
+      "kr": "비판적 사고가 연구의 기본입니다. (완성 4)",
+      "en": "Critical thinking is fundamental to research. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 22,
+      "id": "Lv5-A5-S19-023",
+      "kr": "연구비 수주가 성공적이었습니다. (완성 3)",
+      "en": "Grant acquisition was successful. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 34,
+      "id": "Lv5-A5-S19-035",
+      "kr": "연구 제안서의 질이 중요합니다. (완성 5)",
+      "en": "The quality of research proposals is important. (completion variant 5)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 39,
+      "id": "Lv5-A5-S19-040",
+      "kr": "다양한 기금원을 확보해야 합니다. (완성 5)",
+      "en": "Various funding sources must be secured. (completion variant 5)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 25,
+      "id": "Lv5-A5-S19-026",
+      "kr": "예산 집행을 주기적으로 점검합니다. (완성 1)",
+      "en": "We regularly monitor budget execution. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 38,
+      "id": "Lv5-A5-S19-039",
+      "kr": "다양한 기금원을 확보해야 합니다. (완성 4)",
+      "en": "Various funding sources must be secured. (completion variant 4)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 17,
+      "id": "Lv5-A5-S19-018",
+      "kr": "기금 운영의 투명성을 유지합니다. (완성 3)",
+      "en": "We maintain transparency in fund management. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 13,
+      "id": "Lv5-A5-S19-014",
+      "kr": "연구 자원이 적절히 활용되고 있습니다. (완성 4)",
+      "en": "Research resources are being utilized appropriately. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 21,
+      "id": "Lv5-A5-S19-022",
+      "kr": "연구비 수주가 성공적이었습니다. (완성 2)",
+      "en": "Grant acquisition was successful. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 19,
+      "id": "Lv5-A5-S19-020",
+      "kr": "기금 운영의 투명성을 유지합니다. (완성 5)",
+      "en": "We maintain transparency in fund management. (completion variant 5)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 45,
+      "id": "Lv5-A5-S19-046",
+      "kr": "성과 기반 평가가 시행되고 있습니다. (완성 1)",
+      "en": "Performance-based evaluation is being implemented. (completion variant 1)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 21,
+      "id": "Lv5-A5-S17-022",
+      "kr": "데이터 저장소를 구축했습니다. (완성 2)",
+      "en": "We have established a data repository. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 13,
+      "id": "Lv5-A5-S17-014",
+      "kr": "투명성이 연구 신뢰성을 보장합니다. (완성 4)",
+      "en": "Transparency ensures research credibility. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 27,
+      "id": "Lv5-A5-S17-028",
+      "kr": "메타데이터가 적절히 기록되었습니다. (완성 3)",
+      "en": "Metadata has been properly documented. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 29,
+      "id": "Lv5-A5-S17-030",
+      "kr": "메타데이터가 적절히 기록되었습니다. (완성 5)",
+      "en": "Metadata has been properly documented. (completion variant 5)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 9,
+      "id": "Lv5-A5-S17-010",
+      "kr": "데이터 공유가 과학 발전에 기여합니다. (완성 5)",
+      "en": "Data sharing contributes to scientific advancement. (completion variant 5)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 22,
+      "id": "Lv5-A5-S17-023",
+      "kr": "데이터 저장소를 구축했습니다. (완성 3)",
+      "en": "We have established a data repository. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 43,
+      "id": "Lv5-A5-S17-044",
+      "kr": "데이터 품질을 지속적으로 관리합니다. (완성 4)",
+      "en": "We continuously manage data quality. (completion variant 4)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 32,
+      "id": "Lv5-A5-S17-033",
+      "kr": "데이터 접근성을 향상시켜야 합니다. (완성 3)",
+      "en": "Data accessibility should be improved. (completion variant 3)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 11,
+      "id": "Lv5-A5-S17-012",
+      "kr": "투명성이 연구 신뢰성을 보장합니다. (완성 2)",
+      "en": "Transparency ensures research credibility. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 17,
+      "id": "Lv5-A6-S21-018",
+      "kr": "패러다임 전환이 예상됩니다. (완성 3)",
+      "en": "A paradigm shift is anticipated. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 13,
+      "id": "Lv5-A6-S21-014",
+      "kr": "기술 발전이 연구 방식을 변화시키고 있습니다. (완성 4)",
+      "en": "Technological advancement is changing research methods. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 26,
+      "id": "Lv5-A6-S21-027",
+      "kr": "혁신적 접근법이 요구됩니다. (완성 2)",
+      "en": "Innovative approaches are required. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 10,
+      "id": "Lv5-A6-S21-011",
+      "kr": "기술 발전이 연구 방식을 변화시키고 있습니다. (완성 1)",
+      "en": "Technological advancement is changing research methods. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 20,
+      "id": "Lv5-A6-S21-021",
+      "kr": "학문적 진화가 지속되고 있습니다. (완성 1)",
+      "en": "Academic evolution continues. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 28,
+      "id": "Lv5-A6-S21-029",
+      "kr": "혁신적 접근법이 요구됩니다. (완성 4)",
+      "en": "Innovative approaches are required. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 29,
+      "id": "Lv5-A6-S21-030",
+      "kr": "혁신적 접근법이 요구됩니다. (완성 5)",
+      "en": "Innovative approaches are required. (completion variant 5)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 33,
+      "id": "Lv5-A6-S21-034",
+      "kr": "연구 생태계가 변모하고 있습니다. (완성 4)",
+      "en": "The research ecosystem is transforming. (completion variant 4)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 32,
+      "id": "Lv5-A6-S21-033",
+      "kr": "연구 생태계가 변모하고 있습니다. (완성 3)",
+      "en": "The research ecosystem is transforming. (completion variant 3)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 27,
+      "id": "Lv5-A6-S22-028",
+      "kr": "혁명적 변화가 시작되었습니다. (완성 3)",
+      "en": "Revolutionary change has begun. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 41,
+      "id": "Lv5-A6-S22-042",
+      "kr": "독창성이 학술적 가치를 높입니다. (완성 2)",
+      "en": "Originality enhances academic value. (completion variant 2)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 31,
+      "id": "Lv5-A6-S22-032",
+      "kr": "창의성이 연구의 핵심 동력입니다. (완성 2)",
+      "en": "Creativity is the core driving force of research. (completion variant 2)",
+      "form": "neg",
+      "qualityScore": 90
+    },
+    {
+      "index": 10,
+      "id": "Lv5-A6-S22-011",
+      "kr": "독창적 접근법이 새로운 가능성을 열어줍니다. (완성 1)",
+      "en": "Original approaches open new possibilities. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 19,
+      "id": "Lv5-A6-S22-020",
+      "kr": "획기적인 발견이 기대됩니다. (완성 5)",
+      "en": "Groundbreaking discoveries are expected. (completion variant 5)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 28,
+      "id": "Lv5-A6-S22-029",
+      "kr": "혁명적 변화가 시작되었습니다. (완성 4)",
+      "en": "Revolutionary change has begun. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 29,
+      "id": "Lv5-A6-S22-030",
+      "kr": "혁명적 변화가 시작되었습니다. (완성 5)",
+      "en": "Revolutionary change has begun. (completion variant 5)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 23,
+      "id": "Lv5-A6-S22-024",
+      "kr": "선구적 연구가 분야를 선도합니다. (완성 4)",
+      "en": "Pioneering research leads the field. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 48,
+      "id": "Lv5-A6-S22-049",
+      "kr": "혁신적 아이디어를 구현해야 합니다. (완성 4)",
+      "en": "Innovative ideas must be implemented. (completion variant 4)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 2,
+      "id": "Lv5-A6-S22-003",
+      "kr": "혁신적 연구 방법을 개발했습니다. (완성 3)",
+      "en": "We have developed innovative research methods. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 30,
+      "id": "Lv6-D1-S13-031",
+      "kr": "국제법원의 판결이 구속력을 갖습니다. (완성 1)",
+      "en": "The International Court of Justice ruling is binding. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 35,
+      "id": "Lv6-D1-S13-036",
+      "kr": "외교적 의정서를 준수해야 합니다. (완성 1)",
+      "en": "Diplomatic protocol shall be observed. (completion variant 1)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 32,
+      "id": "Lv6-D1-S13-033",
+      "kr": "국제법원의 판결이 구속력을 갖습니다. (완성 3)",
+      "en": "The International Court of Justice ruling is binding. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 41,
+      "id": "Lv6-D1-S13-042",
+      "kr": "국제규약이 발효되었습니다. (완성 2)",
+      "en": "The international covenant has entered into force. (completion variant 2)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 26,
+      "id": "Lv6-D1-S13-027",
+      "kr": "다자간 협정이 체결되었습니다. (완성 2)",
+      "en": "A multilateral contract has been concluded. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 0,
+      "id": "Lv6-D1-S13-001",
+      "kr": "국제조약이 양국간에 체결되었습니다. (완성 1)",
+      "en": "An international treaty has been concluded between the two nations. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 90
+    },
+    {
+      "index": 38,
+      "id": "Lv6-D1-S13-039",
+      "kr": "외교적 의정서를 준수해야 합니다. (완성 4)",
+      "en": "Diplomatic protocol shall be observed. (completion variant 4)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 19,
+      "id": "Lv6-D1-S13-020",
+      "kr": "중재 절차를 통해 분쟁을 해결합니다. (완성 5)",
+      "en": "Disputes are resolved through arbitration procedures. (completion variant 5)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 20,
+      "id": "Lv6-D1-S13-021",
+      "kr": "주권 원칙이 존중되어야 합니다. (완성 1)",
+      "en": "The principle of sovereignty shall be respected. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 25,
+      "id": "Lv6-D1-S14-026",
+      "kr": "배상 조항이 포함되어 있습니다. (완성 1)",
+      "en": "Indemnification clauses are included. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 6,
+      "id": "Lv6-D1-S14-007",
+      "kr": "규제 요구사항을 준수해야 합니다. (완성 2)",
+      "en": "Regulatory requirements shall be complied with. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 45,
+      "id": "Lv6-D1-S14-046",
+      "kr": "리스크 평가를 정기적으로 수행합니다. (완성 1)",
+      "en": "Risk assessments are conducted regularly. (completion variant 1)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 30,
+      "id": "Lv6-D1-S14-031",
+      "kr": "내부 감사가 실시되고 있습니다. (완성 1)",
+      "en": "Internal audits are being conducted. (completion variant 1)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 1,
+      "id": "Lv6-D1-S14-002",
+      "kr": "컴플라이언스 체계가 강화되었습니다. (완성 2)",
+      "en": "The compliance framework has been strengthened. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 27,
+      "id": "Lv6-D1-S14-028",
+      "kr": "배상 조항이 포함되어 있습니다. (완성 3)",
+      "en": "Indemnification clauses are included. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 13,
+      "id": "Lv6-D1-S14-014",
+      "kr": "신탁의무가 엄격히 적용됩니다. (완성 4)",
+      "en": "Fiduciary duties are strictly applied. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 5,
+      "id": "Lv6-D1-S14-006",
+      "kr": "규제 요구사항을 준수해야 합니다. (완성 1)",
+      "en": "Regulatory requirements shall be complied with. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 28,
+      "id": "Lv6-D1-S14-029",
+      "kr": "배상 조항이 포함되어 있습니다. (완성 4)",
+      "en": "Indemnification clauses are included. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 33,
+      "id": "Lv6-D1-S15-034",
+      "kr": "특허 심사가 진행 중입니다. (완성 4)",
+      "en": "Patent prosecution is in progress. (completion variant 4)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 8,
+      "id": "Lv6-D1-S15-009",
+      "kr": "상표권 침해가 발생했습니다. (완성 4)",
+      "en": "Trademark infringement has occurred. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 30,
+      "id": "Lv6-D1-S15-031",
+      "kr": "특허 심사가 진행 중입니다. (완성 1)",
+      "en": "Patent prosecution is in progress. (completion variant 1)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 3,
+      "id": "Lv6-D1-S15-004",
+      "kr": "특허 출원이 승인되었습니다. (완성 4)",
+      "en": "The patent application has been approved. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 34,
+      "id": "Lv6-D1-S15-035",
+      "kr": "특허 심사가 진행 중입니다. (완성 5)",
+      "en": "Patent prosecution is in progress. (completion variant 5)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 15,
+      "id": "Lv6-D1-S15-016",
+      "kr": "로열티 지급이 합의되었습니다. (완성 1)",
+      "en": "Royalty payment has been agreed upon. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 24,
+      "id": "Lv6-D1-S15-025",
+      "kr": "라이선스 계약을 체결했습니다. (완성 5)",
+      "en": "We have concluded a licensing contract. (completion variant 5)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 6,
+      "id": "Lv6-D1-S15-007",
+      "kr": "상표권 침해가 발생했습니다. (완성 2)",
+      "en": "Trademark infringement has occurred. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 48,
+      "id": "Lv6-D1-S15-049",
+      "kr": "지식재산권이 등록되었습니다. (완성 4)",
+      "en": "Intellectual property rights have been registered. (completion variant 4)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 4,
+      "id": "Lv6-D2-S16-005",
+      "kr": "인공지능이 진단 정확도를 향상시킵니다. (완성 5)",
+      "en": "Artificial intelligence enhances diagnostic accuracy. (completion variant 5)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 21,
+      "id": "Lv6-D2-S16-022",
+      "kr": "유전체학 분석이 완료되었습니다. (완성 2)",
+      "en": "Genomics analysis has been completed. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 25,
+      "id": "Lv6-D2-S16-026",
+      "kr": "원격의료 서비스가 확대되고 있습니다. (완성 1)",
+      "en": "Telemedicine services are expanding. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 10,
+      "id": "Lv6-D2-S16-011",
+      "kr": "정밀의학이 치료 효과를 높입니다. (완성 1)",
+      "en": "Precision pharmaceutical improves therapy efficacy. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 36,
+      "id": "Lv6-D2-S16-037",
+      "kr": "개인맞춤치료가 제공됩니다. (완성 2)",
+      "en": "Personalized therapy is provided. (completion variant 2)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 28,
+      "id": "Lv6-D2-S16-029",
+      "kr": "원격의료 서비스가 확대되고 있습니다. (완성 4)",
+      "en": "Telemedicine services are expanding. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 37,
+      "id": "Lv6-D2-S16-038",
+      "kr": "개인맞춤치료가 제공됩니다. (완성 3)",
+      "en": "Personalized therapy is provided. (completion variant 3)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 30,
+      "id": "Lv6-D2-S16-031",
+      "kr": "로봇수술이 성공적으로 시행되었습니다. (완성 1)",
+      "en": "Robotic surgery has been successfully performed. (completion variant 1)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 13,
+      "id": "Lv6-D2-S16-014",
+      "kr": "정밀의학이 치료 효과를 높입니다. (완성 4)",
+      "en": "Precision pharmaceutical improves therapy efficacy. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 14,
+      "id": "Lv6-D2-S16-015",
+      "kr": "정밀의학이 치료 효과를 높입니다. (완성 5)",
+      "en": "Precision pharmaceutical improves therapy efficacy. (completion variant 5)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 23,
+      "id": "Lv6-D2-S17-024",
+      "kr": "안전성 프로파일이 양호합니다. (완성 4)",
+      "en": "The safety profile is favorable. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 6,
+      "id": "Lv6-D2-S17-007",
+      "kr": "이중맹검 연구가 설계되었습니다. (완성 2)",
+      "en": "A double-blind study has been designed. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 25,
+      "id": "Lv6-D2-S17-026",
+      "kr": "이상반응이 모니터링되고 있습니다. (완성 1)",
+      "en": "Adverse events are being monitored. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 44,
+      "id": "Lv6-D2-S17-045",
+      "kr": "규제 기관에 제출되었습니다. (완성 5)",
+      "en": "It has been submitted to regulatory authorities. (completion variant 5)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 19,
+      "id": "Lv6-D2-S17-020",
+      "kr": "약물의 효능이 입증되었습니다. (완성 5)",
+      "en": "The drug's efficacy has been demonstrated. (completion variant 5)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 24,
+      "id": "Lv6-D2-S17-025",
+      "kr": "안전성 프로파일이 양호합니다. (완성 5)",
+      "en": "The safety profile is favorable. (completion variant 5)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 47,
+      "id": "Lv6-D2-S17-048",
+      "kr": "약물감시 활동이 지속됩니다. (완성 3)",
+      "en": "Pharmacovigilance activities continue. (completion variant 3)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 2,
+      "id": "Lv6-D2-S17-003",
+      "kr": "3상 임상시험이 진행되고 있습니다. (완성 3)",
+      "en": "Phase III clinical trials are in progress. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 28,
+      "id": "Lv6-D2-S17-029",
+      "kr": "이상반응이 모니터링되고 있습니다. (완성 4)",
+      "en": "Adverse events are being monitored. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 43,
+      "id": "Lv6-D2-S18-044",
+      "kr": "사건보고가 의무화되어 있습니다. (완성 4)",
+      "en": "Incident reporting is mandatory. (completion variant 4)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 11,
+      "id": "Lv6-D2-S18-012",
+      "kr": "환자의 자율성이 존중됩니다. (완성 2)",
+      "en": "Patient autonomy is respected. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 31,
+      "id": "Lv6-D2-S18-032",
+      "kr": "품질보증 시스템이 구축되었습니다. (완성 2)",
+      "en": "A quality assurance system has been established. (completion variant 2)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 18,
+      "id": "Lv6-D2-S18-019",
+      "kr": "선행의 원칙을 따릅니다. (완성 4)",
+      "en": "We follow the principle of beneficence. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 16,
+      "id": "Lv6-D2-S18-017",
+      "kr": "선행의 원칙을 따릅니다. (완성 2)",
+      "en": "We follow the principle of beneficence. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 15,
+      "id": "Lv6-D2-S18-016",
+      "kr": "선행의 원칙을 따릅니다. (완성 1)",
+      "en": "We follow the principle of beneficence. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 47,
+      "id": "Lv6-D2-S18-048",
+      "kr": "윤리적 검토를 거쳤습니다. (완성 3)",
+      "en": "It has undergone ethical review. (completion variant 3)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 42,
+      "id": "Lv6-D2-S18-043",
+      "kr": "사건보고가 의무화되어 있습니다. (완성 3)",
+      "en": "Incident reporting is mandatory. (completion variant 3)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 13,
+      "id": "Lv6-D2-S18-014",
+      "kr": "환자의 자율성이 존중됩니다. (완성 4)",
+      "en": "Patient autonomy is respected. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 42,
+      "id": "Lv6-D3-S19-043",
+      "kr": "열전도도가 우수합니다. (완성 3)",
+      "en": "Thermal conductivity is excellent. (completion variant 3)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 30,
+      "id": "Lv6-D3-S19-031",
+      "kr": "재료 특성화가 완료되었습니다. (완성 1)",
+      "en": "Material characterization has been completed. (completion variant 1)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 3,
+      "id": "Lv6-D3-S19-004",
+      "kr": "나노재료가 개발되었습니다. (완성 4)",
+      "en": "Nanomaterials have been developed. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 11,
+      "id": "Lv6-D3-S19-012",
+      "kr": "고분자의 구조가 분석되었습니다. (완성 2)",
+      "en": "The structure of the polymer has been analyzed. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 33,
+      "id": "Lv6-D3-S19-034",
+      "kr": "재료 특성화가 완료되었습니다. (완성 4)",
+      "en": "Material characterization has been completed. (completion variant 4)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 40,
+      "id": "Lv6-D3-S19-041",
+      "kr": "열전도도가 우수합니다. (완성 1)",
+      "en": "Thermal conductivity is excellent. (completion variant 1)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 43,
+      "id": "Lv6-D3-S19-044",
+      "kr": "열전도도가 우수합니다. (완성 4)",
+      "en": "Thermal conductivity is excellent. (completion variant 4)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 21,
+      "id": "Lv6-D3-S19-022",
+      "kr": "미세구조를 관찰했습니다. (완성 2)",
+      "en": "The microstructure has been observed. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 1,
+      "id": "Lv6-D3-S19-002",
+      "kr": "나노재료가 개발되었습니다. (완성 2)",
+      "en": "Nanomaterials have been developed. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 40,
+      "id": "Lv6-D3-S20-041",
+      "kr": "산업용 IoT가 도입되었습니다. (완성 1)",
+      "en": "Industrial IoT has been introduced. (completion variant 1)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 10,
+      "id": "Lv6-D3-S20-011",
+      "kr": "제어 시스템이 업그레이드되었습니다. (완성 1)",
+      "en": "The control system has been upgraded. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 13,
+      "id": "Lv6-D3-S20-014",
+      "kr": "제어 시스템이 업그레이드되었습니다. (완성 4)",
+      "en": "The control system has been upgraded. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 43,
+      "id": "Lv6-D3-S20-044",
+      "kr": "산업용 IoT가 도입되었습니다. (완성 4)",
+      "en": "Industrial IoT has been introduced. (completion variant 4)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 6,
+      "id": "Lv6-D3-S20-007",
+      "kr": "자동화 시스템이 구축되었습니다. (완성 2)",
+      "en": "An automation system has been established. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 15,
+      "id": "Lv6-D3-S20-016",
+      "kr": "공정 최적화를 통해 효율성이 향상되었습니다. (완성 1)",
+      "en": "Efficiency has been improved through process optimization. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 22,
+      "id": "Lv6-D3-S20-023",
+      "kr": "시스템의 확장성이 확보되었습니다. (완성 3)",
+      "en": "System scalability has been secured. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 19,
+      "id": "Lv6-D3-S20-020",
+      "kr": "공정 최적화를 통해 효율성이 향상되었습니다. (완성 5)",
+      "en": "Efficiency has been improved through process optimization. (completion variant 5)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 12,
+      "id": "Lv6-D3-S20-013",
+      "kr": "제어 시스템이 업그레이드되었습니다. (완성 3)",
+      "en": "The control system has been upgraded. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 30,
+      "id": "Lv6-D3-S20-031",
+      "kr": "실시간 모니터링이 가능합니다. (완성 1)",
+      "en": "Real-time monitoring is possible. (completion variant 1)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 8,
+      "id": "Lv6-D3-S21-009",
+      "kr": "재생에너지 시스템이 도입되었습니다. (완성 4)",
+      "en": "A renewable energy system has been introduced. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 22,
+      "id": "Lv6-D3-S21-023",
+      "kr": "순환경제 모델을 적용합니다. (완성 3)",
+      "en": "We apply a circular economy model. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 10,
+      "id": "Lv6-D3-S21-011",
+      "kr": "탄소발자국이 크게 감소했습니다. (완성 1)",
+      "en": "The carbon footprint has been significantly reduced. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 16,
+      "id": "Lv6-D3-S21-017",
+      "kr": "생애주기 평가를 실시했습니다. (완성 2)",
+      "en": "A lifecycle assessment has been conducted. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 21,
+      "id": "Lv6-D3-S21-022",
+      "kr": "순환경제 모델을 적용합니다. (완성 2)",
+      "en": "We apply a circular economy model. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 45,
+      "id": "Lv6-D3-S21-046",
+      "kr": "친환경 솔루션을 제공합니다. (완성 1)",
+      "en": "We provide eco-friendly solutions. (completion variant 1)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 12,
+      "id": "Lv6-D3-S21-013",
+      "kr": "탄소발자국이 크게 감소했습니다. (완성 3)",
+      "en": "The carbon footprint has been significantly reduced. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 33,
+      "id": "Lv6-D3-S21-034",
+      "kr": "환경영향이 최소화되었습니다. (완성 4)",
+      "en": "Environmental impact has been minimized. (completion variant 4)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 17,
+      "id": "Lv6-D4-S22-018",
+      "kr": "실사 과정이 진행되고 있습니다. (완성 3)",
+      "en": "The due diligence process is underway. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 36,
+      "id": "Lv6-D4-S22-037",
+      "kr": "기업공개가 성공적으로 이루어졌습니다. (완성 2)",
+      "en": "The initial public offering was successful. (completion variant 2)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 16,
+      "id": "Lv6-D4-S22-017",
+      "kr": "실사 과정이 진행되고 있습니다. (완성 2)",
+      "en": "The due diligence process is underway. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 27,
+      "id": "Lv6-D4-S22-028",
+      "kr": "기업가치 평가가 완료되었습니다. (완성 3)",
+      "en": "Corporate valuation has been completed. (completion variant 3)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 46,
+      "id": "Lv6-D4-S22-047",
+      "kr": "신디케이션이 구성되었습니다. (완성 2)",
+      "en": "A syndication has been formed. (completion variant 2)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 35,
+      "id": "Lv6-D4-S22-036",
+      "kr": "기업공개가 성공적으로 이루어졌습니다. (완성 1)",
+      "en": "The initial public offering was successful. (completion variant 1)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 41,
+      "id": "Lv6-D4-S22-042",
+      "kr": "인수업무를 담당했습니다. (완성 2)",
+      "en": "We handled the underwriting business. (completion variant 2)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 18,
+      "id": "Lv6-D4-S22-019",
+      "kr": "실사 과정이 진행되고 있습니다. (완성 4)",
+      "en": "The due diligence process is underway. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 33,
+      "id": "Lv6-D4-S22-034",
+      "kr": "차입매수가 실행되었습니다. (완성 4)",
+      "en": "A leveraged buyout has been executed. (completion variant 4)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 45,
+      "id": "Lv6-D4-S22-046",
+      "kr": "신디케이션이 구성되었습니다. (완성 1)",
+      "en": "A syndication has been formed. (completion variant 1)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 18,
+      "id": "Lv6-D4-S23-019",
+      "kr": "옵션 거래가 실행되었습니다. (완성 4)",
+      "en": "Options trading has been executed. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 31,
+      "id": "Lv6-D4-S23-032",
+      "kr": "위험가치가 계산되었습니다. (완성 2)",
+      "en": "Value-at-risk has been calculated. (completion variant 2)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 42,
+      "id": "Lv6-D4-S23-043",
+      "kr": "거래상대방 위험이 평가되었습니다. (완성 3)",
+      "en": "Counterparty risk has been assessed. (completion variant 3)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 46,
+      "id": "Lv6-D4-S23-047",
+      "kr": "담보가 제공되었습니다. (완성 2)",
+      "en": "Collateral has been provided. (completion variant 2)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 24,
+      "id": "Lv6-D4-S23-025",
+      "kr": "선물 계약을 통해 위험을 관리합니다. (완성 5)",
+      "en": "We manage risk through futures contracts. (completion variant 5)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 47,
+      "id": "Lv6-D4-S23-048",
+      "kr": "담보가 제공되었습니다. (완성 3)",
+      "en": "Collateral has been provided. (completion variant 3)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 36,
+      "id": "Lv6-D4-S23-037",
+      "kr": "스트레스 테스트를 실시했습니다. (완성 2)",
+      "en": "We conducted stress testing. (completion variant 2)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 0,
+      "id": "Lv6-D4-S23-001",
+      "kr": "파생상품 포트폴리오가 구성되었습니다. (완성 1)",
+      "en": "A derivatives portfolio has been constructed. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 11,
+      "id": "Lv6-D4-S23-012",
+      "kr": "스왑 계약이 체결되었습니다. (완성 2)",
+      "en": "A swap contract has been concluded. (completion variant 2)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 37,
+      "id": "Lv6-D4-S24-038",
+      "kr": "스튜어드십 활동을 전개합니다. (완성 3)",
+      "en": "We engage in stewardship activities. (completion variant 3)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 23,
+      "id": "Lv6-D4-S24-024",
+      "kr": "탄소크레딧이 거래되었습니다. (완성 4)",
+      "en": "Carbon credits have been traded. (completion variant 4)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 47,
+      "id": "Lv6-D4-S24-048",
+      "kr": "기후 위험이 평가되었습니다. (완성 3)",
+      "en": "Climate risk has been assessed. (completion variant 3)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 44,
+      "id": "Lv6-D4-S24-045",
+      "kr": "전환 금융이 지원되고 있습니다. (완성 5)",
+      "en": "Transition finance is being supported. (completion variant 5)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 14,
+      "id": "Lv6-D4-S24-015",
+      "kr": "녹색채권이 발행되었습니다. (완성 5)",
+      "en": "Green bonds have been issued. (completion variant 5)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 45,
+      "id": "Lv6-D4-S24-046",
+      "kr": "기후 위험이 평가되었습니다. (완성 1)",
+      "en": "Climate risk has been assessed. (completion variant 1)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 41,
+      "id": "Lv6-D4-S24-042",
+      "kr": "전환 금융이 지원되고 있습니다. (완성 2)",
+      "en": "Transition finance is being supported. (completion variant 2)",
+      "form": "wh_q",
+      "qualityScore": 75
+    },
+    {
+      "index": 32,
+      "id": "Lv6-D4-S24-033",
+      "kr": "ESG 공시가 강화되었습니다. (완성 3)",
+      "en": "ESG disclosure has been strengthened. (completion variant 3)",
+      "form": "neg",
+      "qualityScore": 75
+    },
+    {
+      "index": 15,
+      "id": "Lv6-D4-S24-016",
+      "kr": "임팩트 투자가 증가하고 있습니다. (완성 1)",
+      "en": "Impact investing is increasing. (completion variant 1)",
+      "form": "aff",
+      "qualityScore": 75
+    },
+    {
+      "index": 42,
+      "id": "Lv6-D4-S24-043",
+      "kr": "전환 금융이 지원되고 있습니다. (완성 3)",
+      "en": "Transition finance is being supported. (completion variant 3)",
+      "form": "wh_q",
+      "qualityScore": 75
+    }
+  ]
+}

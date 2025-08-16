@@ -7,7 +7,6 @@ export const HomePage: React.FC = () => {
   const user = useUser();
   const learningMode = useLearningMode();
   const { setUserLevel, setUserStage, setLearningMode } = useAppStore();
-  const [showLevelSelector, setShowLevelSelector] = useState(false);
 
   const handleStartStudy = () => {
     navigate('/study');
@@ -16,11 +15,18 @@ export const HomePage: React.FC = () => {
   const handleLevelSelect = (level: number, stage: number = 1) => {
     setUserLevel(level);
     setUserStage(stage);
-    setShowLevelSelector(false);
   };
 
   // 완성된 레벨들과 사용 가능한 스테이지 정보
   const availableLevels = [
+    { 
+      level: 1, 
+      title: '기초 표현', 
+      description: 'A1 영어 기초 패턴', 
+      stages: 19, 
+      completed: true,
+      color: 'bg-emerald-500'
+    },
     { 
       level: 2, 
       title: '기본 패턴', 
@@ -52,6 +58,14 @@ export const HomePage: React.FC = () => {
       stages: 12, 
       completed: false, // 1차만 완성
       color: 'bg-indigo-500'
+    },
+    { 
+      level: 6, 
+      title: '실용 영어', 
+      description: 'C2 고급 활용', 
+      stages: 24, 
+      completed: true,
+      color: 'bg-orange-500'
     }
   ];
 
@@ -141,109 +155,76 @@ export const HomePage: React.FC = () => {
           </div>
         </div>
 
-        {/* Study Buttons */}
-        <div className="space-y-3 mb-4">
+        {/* Main Study Section */}
+        <div className="space-y-4 mb-6">
+          {/* Quick Level Selector */}
+          <div className="bg-gray-50 rounded-lg p-4">
+            <h3 className="font-semibold text-gray-800 mb-3">📚 레벨 선택</h3>
+            <div className="grid grid-cols-3 gap-2">
+              {availableLevels.map((levelInfo) => (
+                <button
+                  key={levelInfo.level}
+                  onClick={() => handleLevelSelect(levelInfo.level, 1)}
+                  className={`p-3 rounded-lg text-center transition-all duration-200 ${
+                    user.level === levelInfo.level
+                      ? `${levelInfo.color} text-white shadow-lg`
+                      : 'bg-white border border-gray-200 hover:border-gray-300'
+                  }`}
+                >
+                  <div className="font-bold text-lg">L{levelInfo.level}</div>
+                  <div className="text-xs mt-1 opacity-80">{levelInfo.title}</div>
+                  <div className="text-xs mt-1">{levelInfo.stages}단계</div>
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* Main Study Button */}
           <button
             onClick={handleStartStudy}
-            className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-6 rounded-lg transition-colors duration-200 text-lg"
+            className="w-full bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white font-bold py-4 px-6 rounded-lg transition-all duration-200 text-lg shadow-lg"
           >
-            🎯 현재 레벨 학습 시작
-          </button>
-          
-          <button
-            onClick={() => setShowLevelSelector(!showLevelSelector)}
-            className="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg transition-colors duration-200"
-          >
-            📚 다른 레벨 선택
+            🎯 Level {user.level} 학습 시작
           </button>
 
-          <button
-            onClick={() => navigate('/smart-review')}
-            className="w-full bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white font-bold py-3 px-6 rounded-lg transition-all duration-200"
-          >
-            🧠 스마트 복습 (AI 맞춤)
-          </button>
+          {/* Secondary Options */}
+          <div className="grid grid-cols-2 gap-3">
+            <button
+              onClick={() => navigate('/all-mode')}
+              className="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-3 px-4 rounded-lg transition-all duration-200 text-sm"
+            >
+              🔄 ALL 모드
+              <div className="text-xs opacity-90 mt-1">망각곡선 복습</div>
+            </button>
 
-          <button
-            onClick={() => navigate('/all-mode')}
-            className="w-full bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-3 px-6 rounded-lg transition-all duration-200"
-          >
-            🔄 ALL 모드 (망각곡선 복습)
-          </button>
+            <button
+              onClick={() => navigate('/personalized')}
+              className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold py-3 px-4 rounded-lg transition-all duration-200 text-sm"
+            >
+              🤖 맞춤팩
+              <div className="text-xs opacity-90 mt-1">AI 자동생성</div>
+            </button>
+          </div>
+        </div>
 
-          <button
-            onClick={() => navigate('/personalized')}
-            className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold py-3 px-6 rounded-lg transition-all duration-200"
-          >
-            🤖 개인 맞춤팩 (AI 완전자동)
-          </button>
-
-          <button
-            onClick={() => navigate('/scenario')}
-            className="w-full bg-gradient-to-r from-teal-600 to-cyan-600 hover:from-teal-700 hover:to-cyan-700 text-white font-bold py-3 px-6 rounded-lg transition-all duration-200"
-          >
-            🎭 시나리오 대화 (5-10턴)
-          </button>
-
-          <button
-            onClick={() => navigate('/progress')}
-            className="w-full bg-gradient-to-r from-emerald-600 to-green-600 hover:from-emerald-700 hover:to-green-700 text-white font-bold py-3 px-6 rounded-lg transition-all duration-200"
-          >
-            📊 진도 관리 (상세 분석)
-          </button>
-
-          <button
-            onClick={() => navigate('/speed-mode')}
-            className="w-full bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 text-white font-bold py-3 px-6 rounded-lg transition-all duration-200"
-          >
-            ⚡ 속도/난이도 조절 모드
-          </button>
-
-          <button
-            onClick={() => navigate('/stage-focus')}
-            className="w-full bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-700 hover:to-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-all duration-200"
-          >
-            🎯 Stage 집중 모드 (정밀 연습)
-          </button>
-          
-          {showLevelSelector && (
-            <div className="bg-white border border-gray-200 rounded-lg p-4 space-y-3">
-              <h3 className="font-semibold text-gray-800 mb-3">완성된 레벨들</h3>
-              {availableLevels.map((levelInfo) => (
-                <div key={levelInfo.level} className="border border-gray-200 rounded-lg p-3">
-                  <div className="flex items-center justify-between mb-2">
-                    <div>
-                      <h4 className="font-medium text-gray-800">
-                        Level {levelInfo.level} - {levelInfo.title}
-                      </h4>
-                      <p className="text-sm text-gray-600">{levelInfo.description}</p>
-                    </div>
-                    <span className={`px-2 py-1 rounded text-xs text-white ${levelInfo.completed ? 'bg-green-500' : 'bg-orange-500'}`}>
-                      {levelInfo.completed ? '완성' : '부분완성'}
-                    </span>
-                  </div>
-                  <div className="text-xs text-gray-500 mb-2">
-                    {levelInfo.stages}개 스테이지 이용 가능
-                  </div>
-                  <button
-                    onClick={() => handleLevelSelect(levelInfo.level, 1)}
-                    className={`w-full ${levelInfo.color} hover:opacity-90 text-white font-medium py-2 px-4 rounded transition-opacity duration-200`}
-                  >
-                    Level {levelInfo.level} 시작하기
-                  </button>
-                </div>
-              ))}
-              
-              <div className="border-t border-gray-200 pt-3">
-                <button
-                  onClick={() => window.open('../lv1_patterns_viewer.html', '_blank')}
-                  className="w-full bg-gray-500 hover:bg-gray-600 text-white font-medium py-2 px-4 rounded transition-colors duration-200"
-                >
-                  📖 Level 1 패턴 학습 (별도 페이지)
-                </button>
-              </div>
-            </div>
-          )}
+        {/* Advanced Features */}
+        <div className="bg-gray-50 rounded-lg p-4 mb-4">
+          <h3 className="font-semibold text-gray-800 mb-3">🚀 고급 기능</h3>
+          <div className="space-y-2">
+            <button
+              onClick={() => navigate('/scenario')}
+              className="w-full bg-teal-500 hover:bg-teal-600 text-white font-medium py-2 px-4 rounded transition-colors duration-200 text-sm"
+            >
+              🎭 시나리오 대화
+            </button>
+            
+            <button
+              onClick={() => navigate('/progress')}
+              className="w-full bg-indigo-500 hover:bg-indigo-600 text-white font-medium py-2 px-4 rounded transition-colors duration-200 text-sm"
+            >
+              📊 진도 관리
+            </button>
+          </div>
         </div>
 
         {/* Quick Stats */}
@@ -274,58 +255,43 @@ export const HomePage: React.FC = () => {
           </div>
           <div className="flex items-center space-x-3">
             <span className="text-orange-500">📚</span>
-            <span>376개 기초 패턴 데이터베이스</span>
-          </div>
-          <div className="flex items-center space-x-3">
-            <span className="text-pink-500">🤖</span>
-            <span>AI 완전자동 맞춤팩 (오답+망각곡선+약점패턴)</span>
-          </div>
-          <div className="flex items-center space-x-3">
-            <span className="text-teal-500">🎭</span>
-            <span>실전 시나리오 기반 대화 연습</span>
+            <span>1000+ 학습 카드 데이터베이스</span>
           </div>
         </div>
 
-        {/* Navigation Links */}
-        <div className="mt-8 pt-6 border-t border-gray-200">
-          <div className="flex justify-center space-x-4 text-sm">
-            <button 
-              onClick={() => navigate('/progress')}
-              className="text-blue-600 hover:text-blue-800 transition-colors"
-            >
-              📊 진행상황
-            </button>
-            <button 
-              onClick={() => window.open('../lv1_patterns_viewer.html', '_blank')}
-              className="text-orange-600 hover:text-orange-800 transition-colors"
-            >
-              📚 패턴학습
-            </button>
-            <button 
-              onClick={() => navigate('/curriculum-test')}
-              className="text-purple-600 hover:text-purple-800 transition-colors"
-            >
-              🧪 커리큘럼 테스트
-            </button>
-            <button 
-              onClick={() => navigate('/curriculum-lint')}
-              className="text-indigo-600 hover:text-indigo-800 transition-colors"
-            >
-              📋 콘텐츠 린트
-            </button>
-            <button 
-              onClick={() => navigate('/audio-test')}
-              className="text-red-600 hover:text-red-800 transition-colors"
-            >
-              🎵 AudioV2 테스트
-            </button>
-            <button 
-              onClick={() => navigate('/settings')}
-              className="text-gray-600 hover:text-gray-800 transition-colors"
-            >
-              ⚙️ 설정
-            </button>
-          </div>
+        {/* Development Tools */}
+        <div className="mt-6 pt-4 border-t border-gray-200">
+          <details className="group">
+            <summary className="cursor-pointer text-sm text-gray-500 hover:text-gray-700 transition-colors">
+              🔧 개발 도구
+            </summary>
+            <div className="mt-3 grid grid-cols-2 gap-2 text-xs">
+              <button 
+                onClick={() => navigate('/curriculum-test')}
+                className="text-purple-600 hover:text-purple-800 transition-colors p-2 bg-purple-50 rounded"
+              >
+                🧪 커리큘럼 테스트
+              </button>
+              <button 
+                onClick={() => navigate('/curriculum-lint')}
+                className="text-indigo-600 hover:text-indigo-800 transition-colors p-2 bg-indigo-50 rounded"
+              >
+                📋 콘텐츠 린트
+              </button>
+              <button 
+                onClick={() => navigate('/audio-test')}
+                className="text-red-600 hover:text-red-800 transition-colors p-2 bg-red-50 rounded"
+              >
+                🎵 AudioV2 테스트
+              </button>
+              <button 
+                onClick={() => navigate('/settings')}
+                className="text-gray-600 hover:text-gray-800 transition-colors p-2 bg-gray-50 rounded"
+              >
+                ⚙️ 설정
+              </button>
+            </div>
+          </details>
         </div>
       </div>
     </div>

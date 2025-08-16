@@ -1,0 +1,314 @@
+{
+  "stage_id": "Lv4-A1-S01",
+  "title": "회의 시작 및 안건 소개",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv4-A1-S01-001",
+      "kr": "오늘 회의를 시작하겠습니다. (v1)",
+      "en": "Let's begin today's meeting. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-002",
+      "kr": "첫 번째 안건은 예산 검토입니다. (v1)",
+      "en": "The first item on the agenda is budget review. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-003",
+      "kr": "이번 분기 성과에 대해 논의하겠습니다. (v1)",
+      "en": "We'll discuss this quarter's performance. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-004",
+      "kr": "모든 참석자분들 환영합니다. (v1)",
+      "en": "Welcome everyone to the meeting. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-005",
+      "kr": "오늘의 주요 목적은 전략 수정입니다. (v1)",
+      "en": "The main purpose today is strategy revision. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-006",
+      "kr": "시간이 제한되어 있으니 효율적으로 진행하겠습니다. (v1)",
+      "en": "We have limited time, so let's be efficient. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-007",
+      "kr": "먼저 지난 회의 결과를 검토하겠습니다. (v1)",
+      "en": "First, let's review the results from our last meeting. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-008",
+      "kr": "질문이 있으시면 언제든 말씀해 주세요. (v1)",
+      "en": "Please feel free to ask questions at any time. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-009",
+      "kr": "우선순위가 높은 이슈부터 다루겠습니다. (v1)",
+      "en": "We'll address the high-priority issues first. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-010",
+      "kr": "회의 자료를 모두 받으셨나요? (v1)",
+      "en": "Has everyone received the meeting materials? (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-011",
+      "kr": "오늘 회의를 시작하겠습니다. (v2)",
+      "en": "Let's begin today's meeting. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-012",
+      "kr": "첫 번째 안건은 예산 검토입니다. (v2)",
+      "en": "The first item on the agenda is budget review. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-013",
+      "kr": "이번 분기 성과에 대해 논의하겠습니다. (v2)",
+      "en": "We'll discuss this quarter's performance. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-014",
+      "kr": "모든 참석자분들 환영합니다. (v2)",
+      "en": "Welcome everyone to the meeting. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-015",
+      "kr": "오늘의 주요 목적은 전략 수정입니다. (v2)",
+      "en": "The main purpose today is strategy revision. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-016",
+      "kr": "시간이 제한되어 있으니 효율적으로 진행하겠습니다. (v2)",
+      "en": "We have limited time, so let's be efficient. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-017",
+      "kr": "먼저 지난 회의 결과를 검토하겠습니다. (v2)",
+      "en": "First, let's review the results from our last meeting. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-018",
+      "kr": "질문이 있으시면 언제든 말씀해 주세요. (v2)",
+      "en": "Please feel free to ask questions at any time. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-019",
+      "kr": "우선순위가 높은 이슈부터 다루겠습니다. (v2)",
+      "en": "We'll address the high-priority issues first. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-020",
+      "kr": "회의 자료를 모두 받으셨나요? (v2)",
+      "en": "Has everyone received the meeting materials? (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-021",
+      "kr": "오늘 회의를 시작하겠습니다. (v3)",
+      "en": "Let's begin today's meeting. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-022",
+      "kr": "첫 번째 안건은 예산 검토입니다. (v3)",
+      "en": "The first item on the agenda is budget review. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-023",
+      "kr": "이번 분기 성과에 대해 논의하겠습니다. (v3)",
+      "en": "We'll discuss this quarter's performance. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-024",
+      "kr": "모든 참석자분들 환영합니다. (v3)",
+      "en": "Welcome everyone to the meeting. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-025",
+      "kr": "오늘의 주요 목적은 전략 수정입니다. (v3)",
+      "en": "The main purpose today is strategy revision. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-026",
+      "kr": "시간이 제한되어 있으니 효율적으로 진행하겠습니다. (v3)",
+      "en": "We have limited time, so let's be efficient. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-027",
+      "kr": "먼저 지난 회의 결과를 검토하겠습니다. (v3)",
+      "en": "First, let's review the results from our last meeting. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-028",
+      "kr": "질문이 있으시면 언제든 말씀해 주세요. (v3)",
+      "en": "Please feel free to ask questions at any time. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-029",
+      "kr": "우선순위가 높은 이슈부터 다루겠습니다. (v3)",
+      "en": "We'll address the high-priority issues first. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-030",
+      "kr": "회의 자료를 모두 받으셨나요? (v3)",
+      "en": "Has everyone received the meeting materials? (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-031",
+      "kr": "오늘 회의를 시작하겠습니다. (v4)",
+      "en": "Let's begin today's meeting. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-032",
+      "kr": "첫 번째 안건은 예산 검토입니다. (v4)",
+      "en": "The first item on the agenda is budget review. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-033",
+      "kr": "이번 분기 성과에 대해 논의하겠습니다. (v4)",
+      "en": "We'll discuss this quarter's performance. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-034",
+      "kr": "모든 참석자분들 환영합니다. (v4)",
+      "en": "Welcome everyone to the meeting. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-035",
+      "kr": "오늘의 주요 목적은 전략 수정입니다. (v4)",
+      "en": "The main purpose today is strategy revision. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S01-036",
+      "kr": "시간이 제한되어 있으니 효율적으로 진행하겠습니다. (v4)",
+      "en": "We have limited time, so let's be efficient. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S01-037",
+      "kr": "먼저 지난 회의 결과를 검토하겠습니다. (v4)",
+      "en": "First, let's review the results from our last meeting. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S01-038",
+      "kr": "질문이 있으시면 언제든 말씀해 주세요. (v4)",
+      "en": "Please feel free to ask questions at any time. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S01-039",
+      "kr": "우선순위가 높은 이슈부터 다루겠습니다. (v4)",
+      "en": "We'll address the high-priority issues first. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S01-040",
+      "kr": "회의 자료를 모두 받으셨나요? (v4)",
+      "en": "Has everyone received the meeting materials? (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S01-041",
+      "kr": "오늘 회의를 시작하겠습니다. (v5)",
+      "en": "Let's begin today's meeting. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S01-042",
+      "kr": "첫 번째 안건은 예산 검토입니다. (v5)",
+      "en": "The first item on the agenda is budget review. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S01-043",
+      "kr": "이번 분기 성과에 대해 논의하겠습니다. (v5)",
+      "en": "We'll discuss this quarter's performance. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S01-044",
+      "kr": "모든 참석자분들 환영합니다. (v5)",
+      "en": "Welcome everyone to the meeting. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S01-045",
+      "kr": "오늘의 주요 목적은 전략 수정입니다. (v5)",
+      "en": "The main purpose today is strategy revision. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S01-046",
+      "kr": "시간이 제한되어 있으니 효율적으로 진행하겠습니다. (v5)",
+      "en": "We have limited time, so let's be efficient. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A1-S01-047",
+      "kr": "먼저 지난 회의 결과를 검토하겠습니다. (v5)",
+      "en": "First, let's review the results from our last meeting. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A1-S01-048",
+      "kr": "질문이 있으시면 언제든 말씀해 주세요. (v5)",
+      "en": "Please feel free to ask questions at any time. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A1-S01-049",
+      "kr": "우선순위가 높은 이슈부터 다루겠습니다. (v5)",
+      "en": "We'll address the high-priority issues first. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A1-S01-050",
+      "kr": "회의 자료를 모두 받으셨나요? (v5)",
+      "en": "Has everyone received the meeting materials? (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 10,
+    "wh_q": 5
+  },
+  "status": "generated",
+  "batch": "L4_Business_Batch1"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "Lv2-P1-S03",
+  "title": "장소·시간 전치사 심화 — at/in/on/by/for/during",
+  "intent": "시간과 장소 전치사(at/in/on/by/for/during)를 상황에 맞게 정확히 선택하여 자연스럽게 말한다.",
+  "focus": [
+    "PREPOSITIONS-TIME",
+    "PREPOSITIONS-PLACE",
+    "AT-IN-ON",
+    "BY-FOR-DURING"
+  ],
+  "lexset": [
+    "morning, afternoon, evening, Monday, weekend, home, office, school, station, airport, corner"
+  ],
+  "traps": [
+    "시간 전치사 혼동(in the morning, on Monday, at 3 o'clock)",
+    "장소 전치사 선택(at home vs in the house)",
+    "by vs until 차이(by 5 o'clock vs until 5 o'clock)",
+    "for vs during 구분(for 2 hours vs during the meeting)"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "시간/장소",
+    "구체성 정도",
+    "기간/시점",
+    "일상 상황"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "월요일 아침에 만나자.",
+      "en": "Let's meet on Monday morning."
+    },
+    {
+      "kr": "집에 있어.",
+      "en": "I'm at home."
+    },
+    {
+      "kr": "5시까지 끝낼게.",
+      "en": "I'll finish by five."
+    },
+    {
+      "kr": "2시간 동안 기다렸어.",
+      "en": "I waited for two hours."
+    },
+    {
+      "kr": "회의 중에 전화가 왔어.",
+      "en": "The phone rang during the meeting."
+    },
+    {
+      "kr": "모퉁이에서 만나자.",
+      "en": "Let's meet at the corner."
+    },
+    {
+      "kr": "주말에 뭐 해?",
+      "en": "What do you do on weekends?"
+    },
+    {
+      "kr": "저녁에 시간 있어?",
+      "en": "Are you free in the evening?"
+    },
+    {
+      "kr": "공항에서 데리러 갈게.",
+      "en": "I'll pick you up at the airport."
+    },
+    {
+      "kr": "학교에서 일해.",
+      "en": "I work at school."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "Lv3-P1-S02",
+  "title": "감정 표현 + 경험 공유(의견·반응)",
+  "intent": "감정을 형용사/동사 콜로케이션으로 자연스럽게 말하고, 간단한 과거 경험/반응을 연결해서 설명한다.",
+  "focus": [
+    "FEELINGS",
+    "ADJ+PREP",
+    "SOUND/LOOK/SEEM",
+    "REPORTING-PAST",
+    "GERUND-AFTER-PREP"
+  ],
+  "lexset": [
+    "excited about, worried about, disappointed with, proud of, tired of, interested in, curious about, looking forward to ~ing, it sounds/looks/seems ~"
+  ],
+  "traps": [
+    "전치사 선택(about/with/of/in)",
+    "look forward to + 동명사",
+    "It sounds/looks + adj 구조",
+    "so vs very vs really 강조어 남용"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.1,
+    "wh_q": 0.3
+  },
+  "variants": [
+    "정도부사(really, quite, a bit, pretty)",
+    "시점(오늘/어제/최근)",
+    "원인절(because/that-clause)"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "여행이 정말 기대돼.",
+      "en": "I'm really excited about the trip."
+    },
+    {
+      "kr": "결과가 좀 실망스러웠어.",
+      "en": "I was a bit disappointed with the result."
+    },
+    {
+      "kr": "내일이 걱정돼.",
+      "en": "I'm worried about tomorrow."
+    },
+    {
+      "kr": "그거 꽤 흥미롭게 들려.",
+      "en": "That sounds quite interesting."
+    },
+    {
+      "kr": "지금 훨씬 나아.",
+      "en": "I feel much better now."
+    },
+    {
+      "kr": "너를 만나는 게 기대돼.",
+      "en": "I'm looking forward to seeing you."
+    },
+    {
+      "kr": "그 소식이 정말 놀라웠어.",
+      "en": "The news was really surprising."
+    },
+    {
+      "kr": "그건 내겐 좀 어려웠어.",
+      "en": "It seemed a bit difficult to me."
+    },
+    {
+      "kr": "나는 그 영화가 기대 이하였다고 느꼈어.",
+      "en": "I felt the movie was below my expectations."
+    },
+    {
+      "kr": "그는 자신의 팀이 자랑스러웠어.",
+      "en": "He was proud of his team."
+    },
+    {
+      "kr": "나는 그 문제에 관심이 있어.",
+      "en": "I'm interested in that issue."
+    },
+    {
+      "kr": "그게 왜 그런지 궁금해.",
+      "en": "I'm curious about why that is."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "Lv4-A3-S09",
+  "title": "조건부 제안 및 협상 시작",
+  "intent": "비즈니스 협상에서 조건부 제안을 하고 상대방의 요구사항을 파악하며 협상 분위기를 조성한다.",
+  "focus": [
+    "CONDITIONAL-OFFERS",
+    "NEGOTIATION-OPENING",
+    "REQUIREMENTS-ASSESSMENT",
+    "PROPOSAL-LANGUAGE"
+  ],
+  "lexset": [
+    "propose, offer, condition, terms, agreement, negotiate, discuss, consider, flexible, requirements"
+  ],
+  "traps": [
+    "조건문 정확한 사용 (If you..., we will...)",
+    "제안 표현의 정중함",
+    "협상 용어 정확성",
+    "가정법 활용 (would, could, might)"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "제안 유형",
+    "조건",
+    "협상 단계",
+    "유연성"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "만약 수량을 늘리신다면 할인을 제공할 수 있습니다.",
+      "en": "If you increase the quantity, we could offer a discount."
+    },
+    {
+      "kr": "귀하의 요구사항을 들어보고 싶습니다.",
+      "en": "I'd like to hear your requirements."
+    },
+    {
+      "kr": "다음 조건으로 제안합니다.",
+      "en": "We propose the following terms."
+    },
+    {
+      "kr": "상호 이익이 되는 방안을 찾아보겠습니다.",
+      "en": "Let's find a mutually beneficial solution."
+    },
+    {
+      "kr": "어느 정도 융통성이 있습니다.",
+      "en": "We have some flexibility in this matter."
+    },
+    {
+      "kr": "계약 조건을 논의해 봅시다.",
+      "en": "Let's discuss the contract terms."
+    },
+    {
+      "kr": "예산 범위 내에서 최선을 다하겠습니다.",
+      "en": "We'll do our best within your budget range."
+    },
+    {
+      "kr": "대안을 제시해 보겠습니다.",
+      "en": "Let me suggest an alternative."
+    },
+    {
+      "kr": "이 제안을 검토해 보시겠습니까?",
+      "en": "Would you consider this proposal?"
+    },
+    {
+      "kr": "양측 모두에게 공정한 거래입니다.",
+      "en": "This is a fair deal for both parties."
+    }
+  ]
+}

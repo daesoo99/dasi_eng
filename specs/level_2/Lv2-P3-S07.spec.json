@@ -1,0 +1,82 @@
+{
+  "id": "Lv2-P3-S07",
+  "title": "전치사구 심화 — 장소·방향·시간 복합",
+  "intent": "전치사구를 복합적으로 사용하여 정확한 위치, 방향, 시간을 세밀하게 표현한다.",
+  "focus": [
+    "COMPLEX-PREPOSITIONS",
+    "LOCATION-DIRECTION",
+    "TIME-PLACE",
+    "PREPOSITIONAL-PHRASES"
+  ],
+  "lexset": [
+    "in front of, behind, next to, between, among, across from, through, around, towards, away from"
+  ],
+  "traps": [
+    "복합 전치사 순서(in front of vs front of ✗)",
+    "between vs among(두 개 vs 여러 개)",
+    "towards vs to 차이",
+    "across vs through 구분"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "복합도",
+    "정확도",
+    "방향성",
+    "관계"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "은행 앞에서 만나자.",
+      "en": "Let's meet in front of the bank."
+    },
+    {
+      "kr": "두 건물 사이에 있어.",
+      "en": "It's between the two buildings."
+    },
+    {
+      "kr": "공원을 가로질러 갔어.",
+      "en": "I walked through the park."
+    },
+    {
+      "kr": "학교 뒤편에 주차했어.",
+      "en": "I parked behind the school."
+    },
+    {
+      "kr": "역 건너편에 살아.",
+      "en": "I live across from the station."
+    },
+    {
+      "kr": "사람들 사이에 끼어 있었어.",
+      "en": "I was among the people."
+    },
+    {
+      "kr": "집을 향해 걸었어.",
+      "en": "I walked towards home."
+    },
+    {
+      "kr": "카페 옆에 서점이 있어.",
+      "en": "There's a bookstore next to the cafe."
+    },
+    {
+      "kr": "어디서 만날까?",
+      "en": "Where shall we meet?"
+    },
+    {
+      "kr": "시내 중심가 근처야.",
+      "en": "It's near the city center."
+    }
+  ]
+}

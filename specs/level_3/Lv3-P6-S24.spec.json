@@ -1,0 +1,82 @@
+{
+  "id": "Lv3-P6-S24",
+  "title": "관계대명사 기초 — who/which/that",
+  "intent": "관계대명사 who, which, that으로 문장을 자연스럽게 연결하고 정보를 추가한다.",
+  "focus": [
+    "RELATIVE-PRONOUNS",
+    "WHO-WHICH-THAT",
+    "DEFINING-CLAUSES",
+    "SENTENCE-COMBINING"
+  ],
+  "lexset": [
+    "person, people, man, woman, book, movie, place, thing, idea, problem, solution, way"
+  ],
+  "traps": [
+    "who vs which vs that 선택",
+    "관계절 어순 유지",
+    "필수 vs 비필수 관계절",
+    "전치사 위치(the person I talked to)"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "관계대명사 유형",
+    "명사 유형",
+    "필수성",
+    "복잡도"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "어제 만난 사람이야.",
+      "en": "He's the person who I met yesterday."
+    },
+    {
+      "kr": "내가 읽은 책이야.",
+      "en": "It's the book that I read."
+    },
+    {
+      "kr": "우리가 본 영화가 재밌었어.",
+      "en": "The movie which we saw was interesting."
+    },
+    {
+      "kr": "영어를 가르치는 선생님이야.",
+      "en": "She's the teacher who teaches English."
+    },
+    {
+      "kr": "내가 산 컴퓨터야.",
+      "en": "It's the computer that I bought."
+    },
+    {
+      "kr": "우리가 사는 곳이야.",
+      "en": "It's the place where we live."
+    },
+    {
+      "kr": "내가 좋아하는 음식이야.",
+      "en": "It's the food that I like."
+    },
+    {
+      "kr": "나를 도와준 친구야.",
+      "en": "He's the friend who helped me."
+    },
+    {
+      "kr": "우리가 이야기한 문제야.",
+      "en": "It's the problem that we discussed."
+    },
+    {
+      "kr": "내가 찾던 방법이야.",
+      "en": "It's the way that I was looking for."
+    }
+  ]
+}

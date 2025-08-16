@@ -1,0 +1,82 @@
+{
+  "id": "Lv4-A2-S06",
+  "title": "데이터 설명 및 분석",
+  "intent": "차트, 그래프, 수치 데이터를 명확하게 설명하고 비즈니스적 의미를 분석하여 전달한다.",
+  "focus": [
+    "DATA-EXPLANATION",
+    "CHART-DESCRIPTION",
+    "TREND-ANALYSIS",
+    "NUMERICAL-LANGUAGE"
+  ],
+  "lexset": [
+    "increase, decrease, rise, fall, percentage, graph, chart, trend, significant, dramatic, steady"
+  ],
+  "traps": [
+    "수치 표현 (percent vs percentage)",
+    "변화 동사 시제 (has increased vs increased)",
+    "정도 부사 (significantly, slightly)",
+    "전치사 (increase by vs increase to)"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.7,
+    "neg": 0.2,
+    "wh_q": 0.1
+  },
+  "variants": [
+    "데이터 유형",
+    "변화 정도",
+    "시간대",
+    "비교"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "매출이 20% 증가했습니다.",
+      "en": "Sales have increased by 20%."
+    },
+    {
+      "kr": "이 그래프는 지속적인 상승 추세를 보여줍니다.",
+      "en": "This graph shows a steady upward trend."
+    },
+    {
+      "kr": "작년 대비 상당한 개선이 있었습니다.",
+      "en": "There's been significant improvement compared to last year."
+    },
+    {
+      "kr": "수치를 자세히 살펴보겠습니다.",
+      "en": "Let's look at the figures in detail."
+    },
+    {
+      "kr": "시장 점유율이 급격히 하락했습니다.",
+      "en": "Market share has dropped dramatically."
+    },
+    {
+      "kr": "이 데이터가 보여주는 것은 명확합니다.",
+      "en": "What this data shows is clear."
+    },
+    {
+      "kr": "최고점에서 최저점까지의 변화입니다.",
+      "en": "This shows the change from peak to lowest point."
+    },
+    {
+      "kr": "평균적으로 월 10% 성장하고 있습니다.",
+      "en": "We're growing at an average of 10% per month."
+    },
+    {
+      "kr": "예상치를 상회하는 결과입니다.",
+      "en": "The results exceed our expectations."
+    },
+    {
+      "kr": "다음 분기 전망은 긍정적입니다.",
+      "en": "The outlook for next quarter is positive."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "Lv3-P5-S18",
+  "title": "이유·결과 — because/so/therefore/that's why",
+  "intent": "because, so, therefore, that's why로 이유와 결과를 논리적으로 연결하여 자연스럽게 설명한다.",
+  "focus": [
+    "CAUSE-EFFECT",
+    "BECAUSE",
+    "SO",
+    "THEREFORE",
+    "LOGICAL-CONNECTION"
+  ],
+  "lexset": [
+    "tired, busy, late, sick, happy, angry, worried, excited, disappointed, successful"
+  ],
+  "traps": [
+    "because vs so 동시 사용 금지(Because I'm tired, so I'll rest ✗)",
+    "therefore 위치(문장 시작 또는 중간)",
+    "that's why 사용법",
+    "쉼표 규칙(Because it's late, I'm going home)"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.7,
+    "neg": 0.1,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "연결어 유형",
+    "이유/결과",
+    "정도",
+    "맥락"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "피곤해서 일찍 잘 거야.",
+      "en": "I'm tired, so I'll go to bed early."
+    },
+    {
+      "kr": "비가 와서 집에 있었어.",
+      "en": "I stayed home because it was raining."
+    },
+    {
+      "kr": "그래서 늦었어.",
+      "en": "That's why I was late."
+    },
+    {
+      "kr": "바빠서 전화 못 했어.",
+      "en": "I couldn't call because I was busy."
+    },
+    {
+      "kr": "따라서 계획을 바꿨어.",
+      "en": "Therefore, we changed the plan."
+    },
+    {
+      "kr": "아파서 못 왔어.",
+      "en": "I couldn't come because I was sick."
+    },
+    {
+      "kr": "성공해서 기뻐.",
+      "en": "I'm happy because I succeeded."
+    },
+    {
+      "kr": "그래서 화났구나.",
+      "en": "So that's why you were angry."
+    },
+    {
+      "kr": "걱정돼서 잠을 못 잤어.",
+      "en": "I couldn't sleep because I was worried."
+    },
+    {
+      "kr": "따라서 결정했어.",
+      "en": "Therefore, I decided."
+    }
+  ]
+}

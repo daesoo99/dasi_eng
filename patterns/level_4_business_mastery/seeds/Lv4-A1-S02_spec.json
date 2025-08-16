@@ -1,0 +1,82 @@
+{
+  "id": "Lv4-A1-S02",
+  "title": "의견 제시 및 근거 설명",
+  "intent": "비즈니스 맥락에서 자신의 의견을 논리적으로 제시하고 구체적인 근거와 데이터로 뒷받침한다.",
+  "focus": [
+    "OPINION-EXPRESSING",
+    "EVIDENCE-SUPPORTING",
+    "LOGICAL-REASONING",
+    "DATA-PRESENTATION"
+  ],
+  "lexset": [
+    "suggest, propose, recommend, believe, analysis, data, evidence, statistics, research, findings"
+  ],
+  "traps": [
+    "I think vs I believe vs I suggest 구분",
+    "근거 제시 연결어 (because, since, due to)",
+    "데이터 인용 표현",
+    "정중한 의견 제시 (might, could, would)"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "의견 강도",
+    "근거 유형",
+    "데이터/경험",
+    "정중도"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "제 의견으로는 마케팅 예산을 늘려야 합니다.",
+      "en": "In my opinion, we should increase the marketing budget."
+    },
+    {
+      "kr": "데이터에 따르면 고객 만족도가 향상되었습니다.",
+      "en": "According to the data, customer satisfaction has improved."
+    },
+    {
+      "kr": "연구 결과를 바탕으로 새로운 전략을 제안합니다.",
+      "en": "Based on research findings, I propose a new strategy."
+    },
+    {
+      "kr": "경험상 이 방법이 더 효과적입니다.",
+      "en": "From experience, this approach is more effective."
+    },
+    {
+      "kr": "통계를 보면 분명한 추세가 나타납니다.",
+      "en": "The statistics show a clear trend."
+    },
+    {
+      "kr": "분석 결과 두 가지 옵션을 고려해볼 수 있습니다.",
+      "en": "The analysis suggests we consider two options."
+    },
+    {
+      "kr": "이유는 세 가지입니다.",
+      "en": "There are three reasons for this."
+    },
+    {
+      "kr": "증거가 이 결론을 뒷받침합니다.",
+      "en": "The evidence supports this conclusion."
+    },
+    {
+      "kr": "시장 조사에 의하면 수요가 증가하고 있습니다.",
+      "en": "Market research indicates increasing demand."
+    },
+    {
+      "kr": "강력히 권합니다.",
+      "en": "I strongly recommend this approach."
+    }
+  ]
+}

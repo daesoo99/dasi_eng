@@ -1,0 +1,620 @@
+{
+  "stage_id": "Lv6-D4-S24",
+  "title": "ESG 투자 및 지속가능 금융",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv6-D4-S24-001",
+      "kr": "ESG 투자가 확대되고 있습니다. (완성 1)",
+      "en": "ESG investing is expanding. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-002",
+      "kr": "ESG 투자가 확대되고 있습니다. (완성 2)",
+      "en": "ESG investing is expanding. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-003",
+      "kr": "ESG 투자가 확대되고 있습니다. (완성 3)",
+      "en": "ESG investing is expanding. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-004",
+      "kr": "ESG 투자가 확대되고 있습니다. (완성 4)",
+      "en": "ESG investing is expanding. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-005",
+      "kr": "ESG 투자가 확대되고 있습니다. (완성 5)",
+      "en": "ESG investing is expanding. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-006",
+      "kr": "지속가능 금융 상품이 출시되었습니다. (완성 1)",
+      "en": "Sustainable finance products have been launched. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-007",
+      "kr": "지속가능 금융 상품이 출시되었습니다. (완성 2)",
+      "en": "Sustainable finance products have been launched. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-008",
+      "kr": "지속가능 금융 상품이 출시되었습니다. (완성 3)",
+      "en": "Sustainable finance products have been launched. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-009",
+      "kr": "지속가능 금융 상품이 출시되었습니다. (완성 4)",
+      "en": "Sustainable finance products have been launched. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-010",
+      "kr": "지속가능 금융 상품이 출시되었습니다. (완성 5)",
+      "en": "Sustainable finance products have been launched. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-011",
+      "kr": "녹색채권이 발행되었습니다. (완성 1)",
+      "en": "Green bonds have been issued. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-012",
+      "kr": "녹색채권이 발행되었습니다. (완성 2)",
+      "en": "Green bonds have been issued. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-013",
+      "kr": "녹색채권이 발행되었습니다. (완성 3)",
+      "en": "Green bonds have been issued. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-014",
+      "kr": "녹색채권이 발행되었습니다. (완성 4)",
+      "en": "Green bonds have been issued. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-015",
+      "kr": "녹색채권이 발행되었습니다. (완성 5)",
+      "en": "Green bonds have been issued. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-016",
+      "kr": "임팩트 투자가 증가하고 있습니다. (완성 1)",
+      "en": "Impact investing is increasing. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-017",
+      "kr": "임팩트 투자가 증가하고 있습니다. (완성 2)",
+      "en": "Impact investing is increasing. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-018",
+      "kr": "임팩트 투자가 증가하고 있습니다. (완성 3)",
+      "en": "Impact investing is increasing. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-019",
+      "kr": "임팩트 투자가 증가하고 있습니다. (완성 4)",
+      "en": "Impact investing is increasing. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-020",
+      "kr": "임팩트 투자가 증가하고 있습니다. (완성 5)",
+      "en": "Impact investing is increasing. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-021",
+      "kr": "탄소크레딧이 거래되었습니다. (완성 1)",
+      "en": "Carbon credits have been traded. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-022",
+      "kr": "탄소크레딧이 거래되었습니다. (완성 2)",
+      "en": "Carbon credits have been traded. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-023",
+      "kr": "탄소크레딧이 거래되었습니다. (완성 3)",
+      "en": "Carbon credits have been traded. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-024",
+      "kr": "탄소크레딧이 거래되었습니다. (완성 4)",
+      "en": "Carbon credits have been traded. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-025",
+      "kr": "탄소크레딧이 거래되었습니다. (완성 5)",
+      "en": "Carbon credits have been traded. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-026",
+      "kr": "분류체계가 적용되었습니다. (완성 1)",
+      "en": "The taxonomy has been applied. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-027",
+      "kr": "분류체계가 적용되었습니다. (완성 2)",
+      "en": "The taxonomy has been applied. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-028",
+      "kr": "분류체계가 적용되었습니다. (완성 3)",
+      "en": "The taxonomy has been applied. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-029",
+      "kr": "분류체계가 적용되었습니다. (완성 4)",
+      "en": "The taxonomy has been applied. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-030",
+      "kr": "분류체계가 적용되었습니다. (완성 5)",
+      "en": "The taxonomy has been applied. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-031",
+      "kr": "ESG 공시가 강화되었습니다. (완성 1)",
+      "en": "ESG disclosure has been strengthened. (completion variant 1)",
+      "form": "neg",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-032",
+      "kr": "ESG 공시가 강화되었습니다. (완성 2)",
+      "en": "ESG disclosure has been strengthened. (completion variant 2)",
+      "form": "neg",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-033",
+      "kr": "ESG 공시가 강화되었습니다. (완성 3)",
+      "en": "ESG disclosure has been strengthened. (completion variant 3)",
+      "form": "neg",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-034",
+      "kr": "ESG 공시가 강화되었습니다. (완성 4)",
+      "en": "ESG disclosure has been strengthened. (completion variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-035",
+      "kr": "ESG 공시가 강화되었습니다. (완성 5)",
+      "en": "ESG disclosure has been strengthened. (completion variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-036",
+      "kr": "스튜어드십 활동을 전개합니다. (완성 1)",
+      "en": "We engage in stewardship activities. (completion variant 1)",
+      "form": "neg",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-037",
+      "kr": "스튜어드십 활동을 전개합니다. (완성 2)",
+      "en": "We engage in stewardship activities. (completion variant 2)",
+      "form": "neg",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-038",
+      "kr": "스튜어드십 활동을 전개합니다. (완성 3)",
+      "en": "We engage in stewardship activities. (completion variant 3)",
+      "form": "neg",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-039",
+      "kr": "스튜어드십 활동을 전개합니다. (완성 4)",
+      "en": "We engage in stewardship activities. (completion variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-040",
+      "kr": "스튜어드십 활동을 전개합니다. (완성 5)",
+      "en": "We engage in stewardship activities. (completion variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-041",
+      "kr": "전환 금융이 지원되고 있습니다. (완성 1)",
+      "en": "Transition finance is being supported. (completion variant 1)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-042",
+      "kr": "전환 금융이 지원되고 있습니다. (완성 2)",
+      "en": "Transition finance is being supported. (completion variant 2)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-043",
+      "kr": "전환 금융이 지원되고 있습니다. (완성 3)",
+      "en": "Transition finance is being supported. (completion variant 3)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-044",
+      "kr": "전환 금융이 지원되고 있습니다. (완성 4)",
+      "en": "Transition finance is being supported. (completion variant 4)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-045",
+      "kr": "전환 금융이 지원되고 있습니다. (완성 5)",
+      "en": "Transition finance is being supported. (completion variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-046",
+      "kr": "기후 위험이 평가되었습니다. (완성 1)",
+      "en": "Climate risk has been assessed. (completion variant 1)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-047",
+      "kr": "기후 위험이 평가되었습니다. (완성 2)",
+      "en": "Climate risk has been assessed. (completion variant 2)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-048",
+      "kr": "기후 위험이 평가되었습니다. (완성 3)",
+      "en": "Climate risk has been assessed. (completion variant 3)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-049",
+      "kr": "기후 위험이 평가되었습니다. (완성 4)",
+      "en": "Climate risk has been assessed. (completion variant 4)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24-050",
+      "kr": "기후 위험이 평가되었습니다. (완성 5)",
+      "en": "Climate risk has been assessed. (completion variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "ESG-TERMINOLOGY",
+        "SUSTAINABILITY-FINANCE",
+        "IMPACT-LANGUAGE",
+        "CLIMATE-FINANCE"
+      ]
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10
+  },
+  "grammar_meta": [
+    "ESG-TERMINOLOGY",
+    "SUSTAINABILITY-FINANCE",
+    "IMPACT-LANGUAGE",
+    "CLIMATE-FINANCE"
+  ],
+  "status": "generated",
+  "batch": "L6_Professional_Batch2"
+}

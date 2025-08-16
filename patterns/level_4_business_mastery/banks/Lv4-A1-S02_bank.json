@@ -1,0 +1,314 @@
+{
+  "stage_id": "Lv4-A1-S02",
+  "title": "의견 제시 및 근거 설명",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv4-A1-S02-001",
+      "kr": "제 의견으로는 마케팅 예산을 늘려야 합니다. (v1)",
+      "en": "In my opinion, we should increase the marketing budget. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-002",
+      "kr": "데이터에 따르면 고객 만족도가 향상되었습니다. (v1)",
+      "en": "According to the data, customer satisfaction has improved. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-003",
+      "kr": "연구 결과를 바탕으로 새로운 전략을 제안합니다. (v1)",
+      "en": "Based on research findings, I propose a new strategy. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-004",
+      "kr": "경험상 이 방법이 더 효과적입니다. (v1)",
+      "en": "From experience, this approach is more effective. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-005",
+      "kr": "통계를 보면 분명한 추세가 나타납니다. (v1)",
+      "en": "The statistics show a clear trend. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-006",
+      "kr": "분석 결과 두 가지 옵션을 고려해볼 수 있습니다. (v1)",
+      "en": "The analysis suggests we consider two options. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-007",
+      "kr": "이유는 세 가지입니다. (v1)",
+      "en": "There are three reasons for this. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-008",
+      "kr": "증거가 이 결론을 뒷받침합니다. (v1)",
+      "en": "The evidence supports this conclusion. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-009",
+      "kr": "시장 조사에 의하면 수요가 증가하고 있습니다. (v1)",
+      "en": "Market research indicates increasing demand. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-010",
+      "kr": "강력히 권합니다. (v1)",
+      "en": "I strongly recommend this approach. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-011",
+      "kr": "제 의견으로는 마케팅 예산을 늘려야 합니다. (v2)",
+      "en": "In my opinion, we should increase the marketing budget. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-012",
+      "kr": "데이터에 따르면 고객 만족도가 향상되었습니다. (v2)",
+      "en": "According to the data, customer satisfaction has improved. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-013",
+      "kr": "연구 결과를 바탕으로 새로운 전략을 제안합니다. (v2)",
+      "en": "Based on research findings, I propose a new strategy. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-014",
+      "kr": "경험상 이 방법이 더 효과적입니다. (v2)",
+      "en": "From experience, this approach is more effective. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-015",
+      "kr": "통계를 보면 분명한 추세가 나타납니다. (v2)",
+      "en": "The statistics show a clear trend. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-016",
+      "kr": "분석 결과 두 가지 옵션을 고려해볼 수 있습니다. (v2)",
+      "en": "The analysis suggests we consider two options. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-017",
+      "kr": "이유는 세 가지입니다. (v2)",
+      "en": "There are three reasons for this. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-018",
+      "kr": "증거가 이 결론을 뒷받침합니다. (v2)",
+      "en": "The evidence supports this conclusion. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-019",
+      "kr": "시장 조사에 의하면 수요가 증가하고 있습니다. (v2)",
+      "en": "Market research indicates increasing demand. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-020",
+      "kr": "강력히 권합니다. (v2)",
+      "en": "I strongly recommend this approach. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-021",
+      "kr": "제 의견으로는 마케팅 예산을 늘려야 합니다. (v3)",
+      "en": "In my opinion, we should increase the marketing budget. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-022",
+      "kr": "데이터에 따르면 고객 만족도가 향상되었습니다. (v3)",
+      "en": "According to the data, customer satisfaction has improved. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-023",
+      "kr": "연구 결과를 바탕으로 새로운 전략을 제안합니다. (v3)",
+      "en": "Based on research findings, I propose a new strategy. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-024",
+      "kr": "경험상 이 방법이 더 효과적입니다. (v3)",
+      "en": "From experience, this approach is more effective. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-025",
+      "kr": "통계를 보면 분명한 추세가 나타납니다. (v3)",
+      "en": "The statistics show a clear trend. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-026",
+      "kr": "분석 결과 두 가지 옵션을 고려해볼 수 있습니다. (v3)",
+      "en": "The analysis suggests we consider two options. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-027",
+      "kr": "이유는 세 가지입니다. (v3)",
+      "en": "There are three reasons for this. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-028",
+      "kr": "증거가 이 결론을 뒷받침합니다. (v3)",
+      "en": "The evidence supports this conclusion. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-029",
+      "kr": "시장 조사에 의하면 수요가 증가하고 있습니다. (v3)",
+      "en": "Market research indicates increasing demand. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-030",
+      "kr": "강력히 권합니다. (v3)",
+      "en": "I strongly recommend this approach. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-031",
+      "kr": "제 의견으로는 마케팅 예산을 늘려야 합니다. (v4)",
+      "en": "In my opinion, we should increase the marketing budget. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-032",
+      "kr": "데이터에 따르면 고객 만족도가 향상되었습니다. (v4)",
+      "en": "According to the data, customer satisfaction has improved. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-033",
+      "kr": "연구 결과를 바탕으로 새로운 전략을 제안합니다. (v4)",
+      "en": "Based on research findings, I propose a new strategy. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-034",
+      "kr": "경험상 이 방법이 더 효과적입니다. (v4)",
+      "en": "From experience, this approach is more effective. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-035",
+      "kr": "통계를 보면 분명한 추세가 나타납니다. (v4)",
+      "en": "The statistics show a clear trend. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S02-036",
+      "kr": "분석 결과 두 가지 옵션을 고려해볼 수 있습니다. (v4)",
+      "en": "The analysis suggests we consider two options. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S02-037",
+      "kr": "이유는 세 가지입니다. (v4)",
+      "en": "There are three reasons for this. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S02-038",
+      "kr": "증거가 이 결론을 뒷받침합니다. (v4)",
+      "en": "The evidence supports this conclusion. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S02-039",
+      "kr": "시장 조사에 의하면 수요가 증가하고 있습니다. (v4)",
+      "en": "Market research indicates increasing demand. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S02-040",
+      "kr": "강력히 권합니다. (v4)",
+      "en": "I strongly recommend this approach. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S02-041",
+      "kr": "제 의견으로는 마케팅 예산을 늘려야 합니다. (v5)",
+      "en": "In my opinion, we should increase the marketing budget. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S02-042",
+      "kr": "데이터에 따르면 고객 만족도가 향상되었습니다. (v5)",
+      "en": "According to the data, customer satisfaction has improved. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S02-043",
+      "kr": "연구 결과를 바탕으로 새로운 전략을 제안합니다. (v5)",
+      "en": "Based on research findings, I propose a new strategy. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S02-044",
+      "kr": "경험상 이 방법이 더 효과적입니다. (v5)",
+      "en": "From experience, this approach is more effective. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S02-045",
+      "kr": "통계를 보면 분명한 추세가 나타납니다. (v5)",
+      "en": "The statistics show a clear trend. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S02-046",
+      "kr": "분석 결과 두 가지 옵션을 고려해볼 수 있습니다. (v5)",
+      "en": "The analysis suggests we consider two options. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A1-S02-047",
+      "kr": "이유는 세 가지입니다. (v5)",
+      "en": "There are three reasons for this. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A1-S02-048",
+      "kr": "증거가 이 결론을 뒷받침합니다. (v5)",
+      "en": "The evidence supports this conclusion. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A1-S02-049",
+      "kr": "시장 조사에 의하면 수요가 증가하고 있습니다. (v5)",
+      "en": "Market research indicates increasing demand. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A1-S02-050",
+      "kr": "강력히 권합니다. (v5)",
+      "en": "I strongly recommend this approach. (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 10,
+    "wh_q": 5
+  },
+  "status": "generated",
+  "batch": "L4_Business_Batch1"
+}

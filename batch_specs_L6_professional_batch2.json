@@ -1,0 +1,379 @@
+{
+  "batch": "L6_Professional_Batch2",
+  "createdAt": "2025-08-15T05:30:00Z",
+  "description": "L6 전문 산업 마스터리 2차 - 고급 전문 분야 완성 (CEFR C2 최고급)",
+  "stages": [
+    {
+      "id": "Lv6-D1-S13",
+      "title": "국제법 및 조약",
+      "intent": "국제법과 조약 체결 과정에서 사용되는 전문 언어를 마스터하고 법적 정확성을 구현한다.",
+      "focus": ["INTERNATIONAL-LAW", "TREATY-LANGUAGE", "DIPLOMATIC-PROTOCOL", "LEGAL-PRECISION"],
+      "lexset": ["treaty, protocol, jurisdiction, sovereignty, ratification, arbitration, bilateral, multilateral, covenant, statute"],
+      "grammar_meta": ["LEGAL-PRECISION", "FORMAL-STRUCTURES", "CONDITIONAL-CLAUSES", "TECHNICAL-TERMINOLOGY"],
+      "professional_domain": "Law - International",
+      "traps": [
+        "조약 vs 협정 구분",
+        "관할권 vs 주권",
+        "비준 vs 승인", 
+        "중재 vs 조정"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.7, "neg": 0.1, "wh_q": 0.2 },
+      "variants": ["조약 유형", "법적 효력", "당사국 범위", "이행 방식"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "국제조약이 양국간에 체결되었습니다.", "en": "An international treaty has been concluded between the two nations." },
+        { "kr": "관할권이 명확히 정의되어야 합니다.", "en": "Jurisdiction must be clearly defined." },
+        { "kr": "조약의 비준 절차가 진행 중입니다.", "en": "The treaty ratification process is underway." },
+        { "kr": "중재 절차를 통해 분쟁을 해결합니다.", "en": "Disputes are resolved through arbitration procedures." },
+        { "kr": "주권 원칙이 존중되어야 합니다.", "en": "The principle of sovereignty must be respected." },
+        { "kr": "다자간 협정이 체결되었습니다.", "en": "A multilateral agreement has been concluded." },
+        { "kr": "국제법원의 판결이 구속력을 갖습니다.", "en": "The International Court of Justice ruling is binding." },
+        { "kr": "외교적 의정서를 준수해야 합니다.", "en": "Diplomatic protocol must be observed." },
+        { "kr": "국제규약이 발효되었습니다.", "en": "The international covenant has entered into force." },
+        { "kr": "법적 근거가 명확히 제시되어야 합니다.", "en": "Legal grounds must be clearly presented." }
+      ]
+    },
+    {
+      "id": "Lv6-D1-S14",
+      "title": "기업법무 및 컴플라이언스",
+      "intent": "기업 법무와 컴플라이언스 체계에서 요구되는 전문 법률 언어를 완벽히 구사한다.",
+      "focus": ["CORPORATE-LAW", "COMPLIANCE-SYSTEMS", "REGULATORY-FRAMEWORK", "LEGAL-RISK"],
+      "lexset": ["compliance, governance, regulatory, fiduciary, statutory, liability, indemnification, disclosure, audit, sanctions"],
+      "grammar_meta": ["COMPLIANCE-LANGUAGE", "REGULATORY-TERMS", "RISK-ASSESSMENT", "CORPORATE-STRUCTURES"],
+      "professional_domain": "Law - Corporate",
+      "traps": [
+        "컴플라이언스 vs 준수",
+        "규제 vs 규정",
+        "책임 vs 의무",
+        "공시 vs 공개"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["규제 분야", "리스크 수준", "보고 방식", "제재 유형"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "컴플라이언스 체계가 강화되었습니다.", "en": "The compliance framework has been strengthened." },
+        { "kr": "규제 요구사항을 준수해야 합니다.", "en": "Regulatory requirements must be complied with." },
+        { "kr": "신탁의무가 엄격히 적용됩니다.", "en": "Fiduciary duties are strictly applied." },
+        { "kr": "법정 공시가 완료되었습니다.", "en": "Statutory disclosure has been completed." },
+        { "kr": "법적 책임이 제한됩니다.", "en": "Legal liability is limited." },
+        { "kr": "배상 조항이 포함되어 있습니다.", "en": "Indemnification clauses are included." },
+        { "kr": "내부 감사가 실시되고 있습니다.", "en": "Internal audits are being conducted." },
+        { "kr": "제재 조치가 부과될 수 있습니다.", "en": "Sanctions may be imposed." },
+        { "kr": "거버넌스 구조를 개선합니다.", "en": "We are improving the governance structure." },
+        { "kr": "리스크 평가를 정기적으로 수행합니다.", "en": "Risk assessments are conducted regularly." }
+      ]
+    },
+    {
+      "id": "Lv6-D1-S15",
+      "title": "지적재산권 및 특허법",
+      "intent": "지적재산권과 특허법 분야의 복잡한 법적 개념과 절차를 전문적으로 다룬다.",
+      "focus": ["INTELLECTUAL-PROPERTY", "PATENT-LAW", "COPYRIGHT-PROTECTION", "TRADEMARK-RIGHTS"],
+      "lexset": ["patent, trademark, copyright, infringement, royalty, licensing, prior-art, prosecution, invalidation, enforcement"],
+      "grammar_meta": ["IP-TERMINOLOGY", "PATENT-PROCEDURES", "PROTECTION-LANGUAGE", "TECHNICAL-CLAIMS"],
+      "professional_domain": "Law - IP",
+      "traps": [
+        "특허 vs 상표",
+        "저작권 vs 판권",
+        "침해 vs 위반",
+        "라이선스 vs 허가"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["권리 유형", "보호 범위", "침해 정도", "구제 방법"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "특허 출원이 승인되었습니다.", "en": "The patent application has been approved." },
+        { "kr": "상표권 침해가 발생했습니다.", "en": "Trademark infringement has occurred." },
+        { "kr": "저작권이 보호받고 있습니다.", "en": "Copyright is being protected." },
+        { "kr": "로열티 지급이 합의되었습니다.", "en": "Royalty payment has been agreed upon." },
+        { "kr": "라이선스 계약을 체결했습니다.", "en": "We have concluded a licensing agreement." },
+        { "kr": "선행기술이 검토되었습니다.", "en": "Prior art has been reviewed." },
+        { "kr": "특허 심사가 진행 중입니다.", "en": "Patent prosecution is in progress." },
+        { "kr": "무효 심판이 청구되었습니다.", "en": "An invalidation trial has been requested." },
+        { "kr": "권리 행사를 통해 구제받습니다.", "en": "Relief is obtained through enforcement of rights." },
+        { "kr": "지식재산권이 등록되었습니다.", "en": "Intellectual property rights have been registered." }
+      ]
+    },
+    {
+      "id": "Lv6-D2-S16",
+      "title": "첨단 의료기술 및 AI",
+      "intent": "첨단 의료기술과 AI를 활용한 진단 및 치료에서 사용되는 최신 의학 용어를 마스터한다.",
+      "focus": ["ADVANCED-MEDICAL-TECH", "AI-DIAGNOSTICS", "PRECISION-MEDICINE", "DIGITAL-HEALTH"],
+      "lexset": ["artificial-intelligence, machine-learning, precision-medicine, biomarker, genomics, telemedicine, robotic-surgery, personalized-therapy, digital-pathology, predictive-analytics"],
+      "grammar_meta": ["TECH-MEDICAL", "AI-TERMINOLOGY", "PRECISION-LANGUAGE", "DIGITAL-INTEGRATION"],
+      "professional_domain": "Medicine - Technology",
+      "traps": [
+        "인공지능 vs 머신러닝",
+        "정밀의학 vs 개인맞춤의학",
+        "원격의료 vs 디지털헬스",
+        "바이오마커 vs 생체지표"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["기술 유형", "적용 분야", "정확도 수준", "임상 단계"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "인공지능이 진단 정확도를 향상시킵니다.", "en": "Artificial intelligence enhances diagnostic accuracy." },
+        { "kr": "머신러닝 알고리즘이 적용되었습니다.", "en": "Machine learning algorithms have been applied." },
+        { "kr": "정밀의학이 치료 효과를 높입니다.", "en": "Precision medicine improves treatment efficacy." },
+        { "kr": "바이오마커가 식별되었습니다.", "en": "Biomarkers have been identified." },
+        { "kr": "유전체학 분석이 완료되었습니다.", "en": "Genomics analysis has been completed." },
+        { "kr": "원격의료 서비스가 확대되고 있습니다.", "en": "Telemedicine services are expanding." },
+        { "kr": "로봇수술이 성공적으로 시행되었습니다.", "en": "Robotic surgery has been successfully performed." },
+        { "kr": "개인맞춤치료가 제공됩니다.", "en": "Personalized therapy is provided." },
+        { "kr": "디지털 병리학이 도입되었습니다.", "en": "Digital pathology has been introduced." },
+        { "kr": "예측 분석을 통해 위험을 평가합니다.", "en": "Risk is assessed through predictive analytics." }
+      ]
+    },
+    {
+      "id": "Lv6-D2-S17",
+      "title": "임상시험 및 신약개발",
+      "intent": "임상시험과 신약개발 과정에서 요구되는 엄격한 의학적 표현과 규제 언어를 구사한다.",
+      "focus": ["CLINICAL-TRIALS", "DRUG-DEVELOPMENT", "REGULATORY-APPROVAL", "PHARMACOVIGILANCE"],
+      "lexset": ["clinical-trial, placebo-controlled, randomized, double-blind, efficacy, safety-profile, adverse-event, pharmacokinetics, bioavailability, regulatory-submission"],
+      "grammar_meta": ["CLINICAL-TERMINOLOGY", "TRIAL-METHODOLOGY", "REGULATORY-LANGUAGE", "SAFETY-REPORTING"],
+      "professional_domain": "Medicine - Clinical",
+      "traps": [
+        "효능 vs 효과",
+        "임상시험 vs 임상연구",
+        "이상반응 vs 부작용",
+        "생체이용률 vs 생체동등성"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["시험 단계", "승인 과정", "안전성 수준", "효능 정도"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "3상 임상시험이 진행되고 있습니다.", "en": "Phase III clinical trials are in progress." },
+        { "kr": "이중맹검 연구가 설계되었습니다.", "en": "A double-blind study has been designed." },
+        { "kr": "무작위 대조군 시험이 실시됩니다.", "en": "A randomized controlled trial is being conducted." },
+        { "kr": "약물의 효능이 입증되었습니다.", "en": "The drug's efficacy has been demonstrated." },
+        { "kr": "안전성 프로파일이 양호합니다.", "en": "The safety profile is favorable." },
+        { "kr": "이상반응이 모니터링되고 있습니다.", "en": "Adverse events are being monitored." },
+        { "kr": "약동학 연구가 완료되었습니다.", "en": "Pharmacokinetic studies have been completed." },
+        { "kr": "생체이용률이 평가되었습니다.", "en": "Bioavailability has been assessed." },
+        { "kr": "규제 기관에 제출되었습니다.", "en": "It has been submitted to regulatory authorities." },
+        { "kr": "약물감시 활동이 지속됩니다.", "en": "Pharmacovigilance activities continue." }
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18",
+      "title": "의료윤리 및 환자안전",
+      "intent": "의료윤리와 환자안전 분야의 복잡한 윤리적 딜레마와 안전 기준을 전문적으로 다룬다.",
+      "focus": ["MEDICAL-ETHICS", "PATIENT-SAFETY", "INFORMED-CONSENT", "QUALITY-ASSURANCE"],
+      "lexset": ["bioethics, informed-consent, autonomy, beneficence, non-maleficence, patient-safety, quality-assurance, risk-management, incident-reporting, ethical-review"],
+      "grammar_meta": ["ETHICAL-DISCOURSE", "SAFETY-PROTOCOLS", "CONSENT-PROCEDURES", "QUALITY-STANDARDS"],
+      "professional_domain": "Medicine - Ethics",
+      "traps": [
+        "생명윤리 vs 의료윤리",
+        "자율성 vs 독립성",
+        "선행 vs 무해",
+        "사고 vs 오류"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["윤리 원칙", "안전 수준", "동의 유형", "품질 기준"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "생명윤리 위원회가 검토했습니다.", "en": "The bioethics committee has reviewed it." },
+        { "kr": "충분한 설명에 의한 동의가 필요합니다.", "en": "Informed consent is required." },
+        { "kr": "환자의 자율성이 존중됩니다.", "en": "Patient autonomy is respected." },
+        { "kr": "선행의 원칙을 따릅니다.", "en": "We follow the principle of beneficence." },
+        { "kr": "무해의 원칙이 우선됩니다.", "en": "The principle of non-maleficence takes priority." },
+        { "kr": "환자안전이 최우선입니다.", "en": "Patient safety is the top priority." },
+        { "kr": "품질보증 시스템이 구축되었습니다.", "en": "A quality assurance system has been established." },
+        { "kr": "위험관리가 체계적으로 이루어집니다.", "en": "Risk management is systematically conducted." },
+        { "kr": "사건보고가 의무화되어 있습니다.", "en": "Incident reporting is mandatory." },
+        { "kr": "윤리적 검토를 거쳤습니다.", "en": "It has undergone ethical review." }
+      ]
+    },
+    {
+      "id": "Lv6-D3-S19",
+      "title": "첨단 재료공학 및 나노기술",
+      "intent": "첨단 재료공학과 나노기술 분야의 최신 기술 용어와 공학적 정밀성을 마스터한다.",
+      "focus": ["ADVANCED-MATERIALS", "NANOTECHNOLOGY", "MATERIAL-SCIENCE", "ENGINEERING-PRECISION"],
+      "lexset": ["nanomaterial, composite, polymer, crystalline, microstructure, fabrication, characterization, mechanical-properties, thermal-conductivity, biocompatibility"],
+      "grammar_meta": ["MATERIALS-TERMINOLOGY", "TECHNICAL-PRECISION", "ENGINEERING-PROCESSES", "SCIENTIFIC-DESCRIPTION"],
+      "professional_domain": "Engineering - Materials",
+      "traps": [
+        "나노재료 vs 나노기술",
+        "복합체 vs 합성체",
+        "제작 vs 가공",
+        "특성화 vs 분석"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["재료 유형", "공정 방법", "특성 분석", "응용 분야"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "나노재료가 개발되었습니다.", "en": "Nanomaterials have been developed." },
+        { "kr": "복합재료의 특성이 향상되었습니다.", "en": "The properties of composite materials have been enhanced." },
+        { "kr": "고분자의 구조가 분석되었습니다.", "en": "The structure of the polymer has been analyzed." },
+        { "kr": "결정구조가 확인되었습니다.", "en": "The crystalline structure has been confirmed." },
+        { "kr": "미세구조를 관찰했습니다.", "en": "The microstructure has been observed." },
+        { "kr": "제작 공정이 최적화되었습니다.", "en": "The fabrication process has been optimized." },
+        { "kr": "재료 특성화가 완료되었습니다.", "en": "Material characterization has been completed." },
+        { "kr": "기계적 특성이 측정되었습니다.", "en": "Mechanical properties have been measured." },
+        { "kr": "열전도도가 우수합니다.", "en": "Thermal conductivity is excellent." },
+        { "kr": "생체적합성이 검증되었습니다.", "en": "Biocompatibility has been verified." }
+      ]
+    },
+    {
+      "id": "Lv6-D3-S20",
+      "title": "시스템 통합 및 자동화",
+      "intent": "복잡한 시스템 통합과 자동화 프로젝트에서 요구되는 고급 엔지니어링 언어를 구사한다.",
+      "focus": ["SYSTEM-INTEGRATION", "AUTOMATION-CONTROL", "PROCESS-OPTIMIZATION", "INDUSTRIAL-IOT"],
+      "lexset": ["integration, automation, control-system, optimization, scalability, interoperability, real-time, supervisory-control, industrial-iot, predictive-maintenance"],
+      "grammar_meta": ["SYSTEM-LANGUAGE", "AUTOMATION-TERMS", "CONTROL-STRUCTURES", "OPTIMIZATION-CONCEPTS"],
+      "professional_domain": "Engineering - Systems",
+      "traps": [
+        "통합 vs 연동",
+        "자동화 vs 무인화",
+        "최적화 vs 개선",
+        "확장성 vs 호환성"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["시스템 규모", "자동화 수준", "통합 범위", "제어 방식"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "시스템 통합이 성공적으로 완료되었습니다.", "en": "System integration has been successfully completed." },
+        { "kr": "자동화 시스템이 구축되었습니다.", "en": "An automation system has been established." },
+        { "kr": "제어 시스템이 업그레이드되었습니다.", "en": "The control system has been upgraded." },
+        { "kr": "공정 최적화를 통해 효율성이 향상되었습니다.", "en": "Efficiency has been improved through process optimization." },
+        { "kr": "시스템의 확장성이 확보되었습니다.", "en": "System scalability has been secured." },
+        { "kr": "상호 운용성이 보장됩니다.", "en": "Interoperability is guaranteed." },
+        { "kr": "실시간 모니터링이 가능합니다.", "en": "Real-time monitoring is possible." },
+        { "kr": "감시제어시스템이 설치되었습니다.", "en": "A supervisory control system has been installed." },
+        { "kr": "산업용 IoT가 도입되었습니다.", "en": "Industrial IoT has been introduced." },
+        { "kr": "예측 유지보수가 실시됩니다.", "en": "Predictive maintenance is conducted." }
+      ]
+    },
+    {
+      "id": "Lv6-D3-S21",
+      "title": "지속가능 공학 및 환경기술",
+      "intent": "지속가능한 공학과 환경기술 분야의 혁신적 접근법과 환경 친화적 솔루션을 전문적으로 다룬다.",
+      "focus": ["SUSTAINABLE-ENGINEERING", "ENVIRONMENTAL-TECH", "GREEN-INNOVATION", "CIRCULAR-ECONOMY"],
+      "lexset": ["sustainability, renewable-energy, carbon-footprint, lifecycle-assessment, circular-economy, green-technology, environmental-impact, resource-efficiency, waste-minimization, eco-friendly"],
+      "grammar_meta": ["SUSTAINABILITY-LANGUAGE", "ENVIRONMENTAL-TERMS", "GREEN-TECHNOLOGY", "IMPACT-ASSESSMENT"],
+      "professional_domain": "Engineering - Environmental",
+      "traps": [
+        "지속가능성 vs 친환경",
+        "재생에너지 vs 신재생에너지",
+        "탄소발자국 vs 탄소배출",
+        "순환경제 vs 재활용경제"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["기술 유형", "환경 영향", "지속가능성 수준", "효율성 개선"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "지속가능한 공학 설계를 적용했습니다.", "en": "Sustainable engineering design has been applied." },
+        { "kr": "재생에너지 시스템이 도입되었습니다.", "en": "A renewable energy system has been introduced." },
+        { "kr": "탄소발자국이 크게 감소했습니다.", "en": "The carbon footprint has been significantly reduced." },
+        { "kr": "생애주기 평가를 실시했습니다.", "en": "A lifecycle assessment has been conducted." },
+        { "kr": "순환경제 모델을 적용합니다.", "en": "We apply a circular economy model." },
+        { "kr": "녹색기술이 개발되었습니다.", "en": "Green technology has been developed." },
+        { "kr": "환경영향이 최소화되었습니다.", "en": "Environmental impact has been minimized." },
+        { "kr": "자원 효율성이 향상되었습니다.", "en": "Resource efficiency has been improved." },
+        { "kr": "폐기물 최소화를 달성했습니다.", "en": "Waste minimization has been achieved." },
+        { "kr": "친환경 솔루션을 제공합니다.", "en": "We provide eco-friendly solutions." }
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22",
+      "title": "글로벌 투자은행 및 M&A",
+      "intent": "글로벌 투자은행업무와 M&A 거래에서 사용되는 최고 수준의 금융 전문 언어를 마스터한다.",
+      "focus": ["INVESTMENT-BANKING", "MERGERS-ACQUISITIONS", "CAPITAL-MARKETS", "CORPORATE-FINANCE"],
+      "lexset": ["investment-banking, merger, acquisition, due-diligence, synergy, valuation, leveraged-buyout, initial-public-offering, underwriting, syndication"],
+      "grammar_meta": ["IB-TERMINOLOGY", "M&A-LANGUAGE", "VALUATION-TERMS", "TRANSACTION-STRUCTURES"],
+      "professional_domain": "Finance - Investment Banking",
+      "traps": [
+        "합병 vs 인수",
+        "실사 vs 심사",
+        "평가 vs 가치평가",
+        "인수합병 vs 기업결합"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["거래 유형", "규모", "복잡성", "시장 조건"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "투자은행이 거래를 주선했습니다.", "en": "The investment bank arranged the transaction." },
+        { "kr": "합병 거래가 완료되었습니다.", "en": "The merger transaction has been completed." },
+        { "kr": "기업 인수가 발표되었습니다.", "en": "A corporate acquisition has been announced." },
+        { "kr": "실사 과정이 진행되고 있습니다.", "en": "The due diligence process is underway." },
+        { "kr": "시너지 효과가 기대됩니다.", "en": "Synergy effects are expected." },
+        { "kr": "기업가치 평가가 완료되었습니다.", "en": "Corporate valuation has been completed." },
+        { "kr": "차입매수가 실행되었습니다.", "en": "A leveraged buyout has been executed." },
+        { "kr": "기업공개가 성공적으로 이루어졌습니다.", "en": "The initial public offering was successful." },
+        { "kr": "인수업무를 담당했습니다.", "en": "We handled the underwriting business." },
+        { "kr": "신디케이션이 구성되었습니다.", "en": "A syndication has been formed." }
+      ]
+    },
+    {
+      "id": "Lv6-D4-S23",
+      "title": "파생상품 및 위험관리",
+      "intent": "복잡한 파생상품과 위험관리 전략에서 요구되는 고도의 금융 전문성을 발휘한다.",
+      "focus": ["DERIVATIVES", "RISK-MANAGEMENT", "QUANTITATIVE-FINANCE", "HEDGING-STRATEGIES"],
+      "lexset": ["derivative, hedge, swap, option, futures, volatility, value-at-risk, stress-testing, counterparty-risk, collateral"],
+      "grammar_meta": ["DERIVATIVES-TERMINOLOGY", "RISK-LANGUAGE", "QUANTITATIVE-TERMS", "HEDGING-CONCEPTS"],
+      "professional_domain": "Finance - Derivatives",
+      "traps": [
+        "파생상품 vs 파생금융상품",
+        "헤지 vs 보험",
+        "변동성 vs 불안정성",
+        "담보 vs 보증"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["상품 유형", "위험 수준", "헤지 전략", "시장 조건"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "파생상품 포트폴리오가 구성되었습니다.", "en": "A derivatives portfolio has been constructed." },
+        { "kr": "위험을 헤지하기 위한 전략을 수립했습니다.", "en": "We have established a strategy to hedge risks." },
+        { "kr": "스왑 계약이 체결되었습니다.", "en": "A swap contract has been concluded." },
+        { "kr": "옵션 거래가 실행되었습니다.", "en": "Options trading has been executed." },
+        { "kr": "선물 계약을 통해 위험을 관리합니다.", "en": "We manage risk through futures contracts." },
+        { "kr": "변동성이 증가하고 있습니다.", "en": "Volatility is increasing." },
+        { "kr": "위험가치가 계산되었습니다.", "en": "Value-at-risk has been calculated." },
+        { "kr": "스트레스 테스트를 실시했습니다.", "en": "We conducted stress testing." },
+        { "kr": "거래상대방 위험이 평가되었습니다.", "en": "Counterparty risk has been assessed." },
+        { "kr": "담보가 제공되었습니다.", "en": "Collateral has been provided." }
+      ]
+    },
+    {
+      "id": "Lv6-D4-S24",
+      "title": "ESG 투자 및 지속가능 금융",
+      "intent": "ESG 투자와 지속가능 금융 분야의 최신 트렌드와 전문 용어를 완벽히 구사한다.",
+      "focus": ["ESG-INVESTING", "SUSTAINABLE-FINANCE", "GREEN-BONDS", "IMPACT-INVESTING"],
+      "lexset": ["environmental-social-governance, sustainable-finance, green-bond, impact-investing, carbon-credit, taxonomy, disclosure, stewardship, transition-finance, climate-risk"],
+      "grammar_meta": ["ESG-TERMINOLOGY", "SUSTAINABILITY-FINANCE", "IMPACT-LANGUAGE", "CLIMATE-FINANCE"],
+      "professional_domain": "Finance - ESG",
+      "traps": [
+        "ESG vs CSR",
+        "지속가능금융 vs 녹색금융",
+        "영향투자 vs 사회책임투자",
+        "전환금융 vs 기후금융"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["투자 유형", "영향 범위", "지속가능성 수준", "리스크 요인"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "ESG 투자가 확대되고 있습니다.", "en": "ESG investing is expanding." },
+        { "kr": "지속가능 금융 상품이 출시되었습니다.", "en": "Sustainable finance products have been launched." },
+        { "kr": "녹색채권이 발행되었습니다.", "en": "Green bonds have been issued." },
+        { "kr": "임팩트 투자가 증가하고 있습니다.", "en": "Impact investing is increasing." },
+        { "kr": "탄소크레딧이 거래되었습니다.", "en": "Carbon credits have been traded." },
+        { "kr": "분류체계가 적용되었습니다.", "en": "The taxonomy has been applied." },
+        { "kr": "ESG 공시가 강화되었습니다.", "en": "ESG disclosure has been strengthened." },
+        { "kr": "스튜어드십 활동을 전개합니다.", "en": "We engage in stewardship activities." },
+        { "kr": "전환 금융이 지원되고 있습니다.", "en": "Transition finance is being supported." },
+        { "kr": "기후 위험이 평가되었습니다.", "en": "Climate risk has been assessed." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "Lv6-D3-S20",
+  "title": "시스템 통합 및 자동화",
+  "intent": "복잡한 시스템 통합과 자동화 프로젝트에서 요구되는 고급 엔지니어링 언어를 구사한다.",
+  "focus": [
+    "SYSTEM-INTEGRATION",
+    "AUTOMATION-CONTROL",
+    "PROCESS-OPTIMIZATION",
+    "INDUSTRIAL-IOT"
+  ],
+  "lexset": [
+    "integration, automation, control-system, optimization, scalability, interoperability, real-time, supervisory-control, industrial-iot, predictive-maintenance"
+  ],
+  "grammar_meta": [
+    "SYSTEM-LANGUAGE",
+    "AUTOMATION-TERMS",
+    "CONTROL-STRUCTURES",
+    "OPTIMIZATION-CONCEPTS"
+  ],
+  "professional_domain": "Engineering - Systems",
+  "traps": [
+    "통합 vs 연동",
+    "자동화 vs 무인화",
+    "최적화 vs 개선",
+    "확장성 vs 호환성"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "시스템 규모",
+    "자동화 수준",
+    "통합 범위",
+    "제어 방식"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "시스템 통합이 성공적으로 완료되었습니다.",
+      "en": "System integration has been successfully completed."
+    },
+    {
+      "kr": "자동화 시스템이 구축되었습니다.",
+      "en": "An automation system has been established."
+    },
+    {
+      "kr": "제어 시스템이 업그레이드되었습니다.",
+      "en": "The control system has been upgraded."
+    },
+    {
+      "kr": "공정 최적화를 통해 효율성이 향상되었습니다.",
+      "en": "Efficiency has been improved through process optimization."
+    },
+    {
+      "kr": "시스템의 확장성이 확보되었습니다.",
+      "en": "System scalability has been secured."
+    },
+    {
+      "kr": "상호 운용성이 보장됩니다.",
+      "en": "Interoperability is guaranteed."
+    },
+    {
+      "kr": "실시간 모니터링이 가능합니다.",
+      "en": "Real-time monitoring is possible."
+    },
+    {
+      "kr": "감시제어시스템이 설치되었습니다.",
+      "en": "A supervisory control system has been installed."
+    },
+    {
+      "kr": "산업용 IoT가 도입되었습니다.",
+      "en": "Industrial IoT has been introduced."
+    },
+    {
+      "kr": "예측 유지보수가 실시됩니다.",
+      "en": "Predictive maintenance is conducted."
+    }
+  ]
+}

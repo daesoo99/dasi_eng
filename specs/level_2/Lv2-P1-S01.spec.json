@@ -1,0 +1,89 @@
+{
+  "id": "Lv2-P1-S01",
+  "title": "일상 습관 + 빈도부사",
+  "intent": "일상 루틴과 습관을 빈도부사(always/usually/often/sometimes/rarely/hardly ever/never)로 자연스럽게 말하고, 의문/부정에서도 위치를 정확히 유지한다.",
+  "focus": [
+    "FREQUENCY-ADVERBS",
+    "WORD-ORDER",
+    "PRESENT-SIMPLE"
+  ],
+  "lexset": [
+    "wake up, have breakfast, work out, check email/phone, cook, read, commute, go to bed, meet, study, drink coffee/water, take a walk"
+  ],
+  "traps": [
+    "빈도부사 위치 오류(일반동사 앞: I often go / 조동사 뒤: I can often go / be동사 뒤: I am often late)",
+    "3인칭 단수 -s 누락(He usually go → goes)",
+    "never와 부정 중복(I don't never → I never)"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "주어(1/2/3인칭)",
+    "시간(아침/점심/저녁/주말/평일)",
+    "장소(집/회사/헬스장/도서관)",
+    "빈도(부사/횟수표현)",
+    "목적어 교체"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "나는 보통 7시에 일어나.",
+      "en": "I usually wake up at seven."
+    },
+    {
+      "kr": "그녀는 항상 아침을 먹어.",
+      "en": "She always has breakfast."
+    },
+    {
+      "kr": "우리는 주말마다 운동해.",
+      "en": "We work out every weekend."
+    },
+    {
+      "kr": "나는 가끔 점심을 거른다.",
+      "en": "I sometimes skip lunch."
+    },
+    {
+      "kr": "그는 종종 집에서 일해.",
+      "en": "He often works from home."
+    },
+    {
+      "kr": "나는 거의 밤에 커피를 안 마셔.",
+      "en": "I hardly ever drink coffee at night."
+    },
+    {
+      "kr": "나는 절대 늦게 자지 않아.",
+      "en": "I never stay up late."
+    },
+    {
+      "kr": "그녀는 보통 10시에 잠자리에 들어.",
+      "en": "She usually goes to bed at ten."
+    },
+    {
+      "kr": "너는 얼마나 자주 운동해?",
+      "en": "How often do you work out?"
+    },
+    {
+      "kr": "그는 항상 아침에 이메일을 확인해.",
+      "en": "He always checks his email in the morning."
+    },
+    {
+      "kr": "나는 자주 팟캐스트를 들어.",
+      "en": "I often listen to podcasts."
+    },
+    {
+      "kr": "그들은 거의 TV를 보지 않아.",
+      "en": "They rarely watch TV."
+    }
+  ]
+}

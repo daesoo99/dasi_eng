@@ -1,0 +1,82 @@
+{
+  "id": "Lv2-P3-S06",
+  "title": "수량표현 확장 — some/any/much/many + How much/many",
+  "intent": "가산/불가산명사와 some/any/much/many를 정확히 구분하고, How much/many로 수량을 자연스럽게 묻는다.",
+  "focus": [
+    "QUANTIFIERS",
+    "COUNT-UNCOUNT",
+    "HOW-MUCH-MANY",
+    "SOME-ANY"
+  ],
+  "lexset": [
+    "water, coffee, milk, money, time, people, books, chairs, advice, information, rice, bread"
+  ],
+  "traps": [
+    "가산/불가산 혼동(How many water ✗)",
+    "some/any 문맥(긍정 some, 부정/의문 any)",
+    "much/many 선택(much people ✗)",
+    "불가산명사 복수(advices ✗ → advice)"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.4,
+    "neg": 0.2,
+    "wh_q": 0.4
+  },
+  "variants": [
+    "가산/불가산",
+    "긍정/부정/의문",
+    "수량 정도",
+    "실생활 맥락"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "물을 얼마나 마셔?",
+      "en": "How much water do you drink?"
+    },
+    {
+      "kr": "사람이 몇 명 와?",
+      "en": "How many people are coming?"
+    },
+    {
+      "kr": "돈이 좀 있어.",
+      "en": "I have some money."
+    },
+    {
+      "kr": "시간이 별로 없어.",
+      "en": "I don't have much time."
+    },
+    {
+      "kr": "책을 많이 읽어.",
+      "en": "I read many books."
+    },
+    {
+      "kr": "커피 좀 더 줄래?",
+      "en": "Can I have some more coffee?"
+    },
+    {
+      "kr": "조언이 필요해.",
+      "en": "I need some advice."
+    },
+    {
+      "kr": "의자가 몇 개 필요해?",
+      "en": "How many chairs do you need?"
+    },
+    {
+      "kr": "정보가 별로 없어.",
+      "en": "There isn't much information."
+    },
+    {
+      "kr": "빵을 좀 샀어.",
+      "en": "I bought some bread."
+    }
+  ]
+}

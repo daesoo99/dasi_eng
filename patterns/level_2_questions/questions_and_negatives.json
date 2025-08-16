@@ -1,0 +1,91 @@
+{
+  "level_2_questions_negatives": {
+    "description": "레벨 2: 의문문과 부정문 패턴",
+    "do_questions": [
+      {
+        "pattern": "Do you + 동사원형?",
+        "examples": [
+          "Do you want coffee?",
+          "Do you like music?",
+          "Do you understand?"
+        ],
+        "source": "문학적: Do you want one?"
+      },
+      {
+        "pattern": "What do you + 동사원형?",
+        "examples": [
+          "What do you do?",
+          "What do you want?",
+          "What do you think?"
+        ]
+      }
+    ],
+    "are_questions": [
+      {
+        "pattern": "Are you + 형용사/명사?",
+        "examples": [
+          "Are you ready?",
+          "Are you tired?", 
+          "Are you happy?"
+        ]
+      },
+      {
+        "pattern": "What are you + -ing?",
+        "examples": [
+          "What are you doing?",
+          "What are you eating?",
+          "What are you reading?"
+        ],
+        "source": "문학적: What are you working on?"
+      }
+    ],
+    "past_questions": [
+      {
+        "pattern": "Why did I + 동사원형?",
+        "examples": [
+          "Why did I come here?",
+          "Why did I do that?",
+          "Why did I say yes?"
+        ],
+        "source": "스티브 잡스: Why did I drop out?"
+      },
+      {
+        "pattern": "Where did you + 동사원형?",
+        "examples": [
+          "Where did you go?",
+          "Where did she come from?",
+          "Where did we meet?"
+        ]
+      }
+    ],
+    "negatives": [
+      {
+        "pattern": "I don't + 동사원형",
+        "examples": [
+          "I don't know",
+          "I don't understand",
+          "I don't like it"
+        ]
+      },
+      {
+        "pattern": "I can't + 동사원형",
+        "examples": [
+          "I can't go",
+          "I can't see",
+          "I can't hear"
+        ]
+      }
+    ],
+    "gonna_future": [
+      {
+        "pattern": "What are we gonna + 동사원형?",
+        "examples": [
+          "What are we gonna eat?",
+          "What are we gonna watch?",
+          "What are we gonna buy?"
+        ],
+        "source": "애니메이션: What are we gonna do?"
+      }
+    ]
+  }
+}

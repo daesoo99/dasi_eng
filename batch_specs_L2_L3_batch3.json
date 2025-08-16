@@ -1,0 +1,355 @@
+{
+  "batch": "Batch3_L2_L3",
+  "createdAt": "2025-08-15T01:15:00Z",
+  "description": "대량 처리 12스테이지 - 비교급, 약속표현, 수동태, 조건문 중심",
+  "stages": [
+    {
+      "id": "Lv2-P5-S15",
+      "title": "비교급/최상급 — 형용사·부사 기본",
+      "intent": "형용사·부사의 비교급/최상급을 자연스럽게 말하고, than/the most와 함께 비교 표현을 정확히 구성한다.",
+      "focus": ["COMPARATIVE", "SUPERLATIVE", "THAN", "ADJECTIVE-ADVERB"],
+      "lexset": ["big, small, fast, slow, expensive, cheap, good, bad, far, old, young, tall, short, easy, difficult"],
+      "traps": [
+        "이중 비교급(more better ✗ → better)",
+        "불규칙 변화(good→better→best, bad→worse→worst)",
+        "than 누락(bigger me ✗ → bigger than me)",
+        "최상급 정관사(most expensive ✗ → the most expensive)"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["형용사/부사", "규칙/불규칙 변화", "비교 대상", "맥락(가격/크기/속도)"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "이게 더 비싸.", "en": "This is more expensive." },
+        { "kr": "그게 제일 좋은 선택이야.", "en": "That's the best choice." },
+        { "kr": "오늘이 어제보다 더 따뜻해.", "en": "Today is warmer than yesterday." },
+        { "kr": "이 방법이 더 쉬워.", "en": "This way is easier." },
+        { "kr": "그는 나보다 키가 커.", "en": "He is taller than me." },
+        { "kr": "이게 세상에서 제일 맛있어.", "en": "This is the most delicious in the world." },
+        { "kr": "너는 더 빨리 달릴 수 있어.", "en": "You can run faster." },
+        { "kr": "이 문제가 더 어려워.", "en": "This problem is more difficult." },
+        { "kr": "그녀가 우리 중에서 제일 똑똑해.", "en": "She is the smartest among us." },
+        { "kr": "이 길이 더 짧아.", "en": "This road is shorter." }
+      ]
+    },
+    {
+      "id": "Lv2-P6-S19",
+      "title": "약속·예약·제안 — Let's/Shall we/Would you like",
+      "intent": "약속 잡기, 예약하기, 제안하기를 Let's/Shall we/Would you like to로 자연스럽게 말하고 응답한다.",
+      "focus": ["SUGGESTIONS", "INVITATIONS", "ARRANGEMENTS", "POLITENESS"],
+      "lexset": ["meet, have lunch/dinner, go out, make a reservation, book, schedule, arrange, plan, suggest, invite"],
+      "traps": [
+        "Let's vs Shall we 혼동(Let's go vs Shall we go?)",
+        "Would you like + to 구조(Would you like go ✗)",
+        "응답 매칭(Yes, let's vs Yes, I'd like to)",
+        "시간 전치사(at 3 o'clock, on Monday)"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.5, "neg": 0.2, "wh_q": 0.3 },
+      "variants": ["제안 방식", "응답 유형", "시간/장소", "정중도"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "점심 같이 먹을까?", "en": "Shall we have lunch together?" },
+        { "kr": "커피 한 잔 할래?", "en": "Would you like to have coffee?" },
+        { "kr": "영화 보러 가자.", "en": "Let's go see a movie." },
+        { "kr": "내일 만날까?", "en": "Shall we meet tomorrow?" },
+        { "kr": "레스토랑 예약할게.", "en": "I'll make a restaurant reservation." },
+        { "kr": "몇 시에 만날까?", "en": "What time shall we meet?" },
+        { "kr": "좋은 생각이야!", "en": "That's a great idea!" },
+        { "kr": "미안, 그날은 바빠.", "en": "Sorry, I'm busy that day." },
+        { "kr": "다른 날은 어때?", "en": "How about another day?" },
+        { "kr": "7시에 만나자.", "en": "Let's meet at seven." }
+      ]
+    },
+    {
+      "id": "Lv2-P3-S06",
+      "title": "수량표현 확장 — some/any/much/many + How much/many",
+      "intent": "가산/불가산명사와 some/any/much/many를 정확히 구분하고, How much/many로 수량을 자연스럽게 묻는다.",
+      "focus": ["QUANTIFIERS", "COUNT-UNCOUNT", "HOW-MUCH-MANY", "SOME-ANY"],
+      "lexset": ["water, coffee, milk, money, time, people, books, chairs, advice, information, rice, bread"],
+      "traps": [
+        "가산/불가산 혼동(How many water ✗)",
+        "some/any 문맥(긍정 some, 부정/의문 any)",
+        "much/many 선택(much people ✗)",
+        "불가산명사 복수(advices ✗ → advice)"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.4, "neg": 0.2, "wh_q": 0.4 },
+      "variants": ["가산/불가산", "긍정/부정/의문", "수량 정도", "실생활 맥락"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "물을 얼마나 마셔?", "en": "How much water do you drink?" },
+        { "kr": "사람이 몇 명 와?", "en": "How many people are coming?" },
+        { "kr": "돈이 좀 있어.", "en": "I have some money." },
+        { "kr": "시간이 별로 없어.", "en": "I don't have much time." },
+        { "kr": "책을 많이 읽어.", "en": "I read many books." },
+        { "kr": "커피 좀 더 줄래?", "en": "Can I have some more coffee?" },
+        { "kr": "조언이 필요해.", "en": "I need some advice." },
+        { "kr": "의자가 몇 개 필요해?", "en": "How many chairs do you need?" },
+        { "kr": "정보가 별로 없어.", "en": "There isn't much information." },
+        { "kr": "빵을 좀 샀어.", "en": "I bought some bread." }
+      ]
+    },
+    {
+      "id": "Lv2-P1-S03",
+      "title": "장소·시간 전치사 심화 — at/in/on/by/for/during",
+      "intent": "시간과 장소 전치사(at/in/on/by/for/during)를 상황에 맞게 정확히 선택하여 자연스럽게 말한다.",
+      "focus": ["PREPOSITIONS-TIME", "PREPOSITIONS-PLACE", "AT-IN-ON", "BY-FOR-DURING"],
+      "lexset": ["morning, afternoon, evening, Monday, weekend, home, office, school, station, airport, corner"],
+      "traps": [
+        "시간 전치사 혼동(in the morning, on Monday, at 3 o'clock)",
+        "장소 전치사 선택(at home vs in the house)",
+        "by vs until 차이(by 5 o'clock vs until 5 o'clock)",
+        "for vs during 구분(for 2 hours vs during the meeting)"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["시간/장소", "구체성 정도", "기간/시점", "일상 상황"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "월요일 아침에 만나자.", "en": "Let's meet on Monday morning." },
+        { "kr": "집에 있어.", "en": "I'm at home." },
+        { "kr": "5시까지 끝낼게.", "en": "I'll finish by five." },
+        { "kr": "2시간 동안 기다렸어.", "en": "I waited for two hours." },
+        { "kr": "회의 중에 전화가 왔어.", "en": "The phone rang during the meeting." },
+        { "kr": "모퉁이에서 만나자.", "en": "Let's meet at the corner." },
+        { "kr": "주말에 뭐 해?", "en": "What do you do on weekends?" },
+        { "kr": "저녁에 시간 있어?", "en": "Are you free in the evening?" },
+        { "kr": "공항에서 데리러 갈게.", "en": "I'll pick you up at the airport." },
+        { "kr": "학교에서 일해.", "en": "I work at school." }
+      ]
+    },
+    {
+      "id": "Lv2-P2-S11",
+      "title": "like to / like -ing / would like 구분",
+      "intent": "like to do, like doing, would like to의 의미와 뉘앙스 차이를 이해하고 상황에 맞게 선택하여 말한다.",
+      "focus": ["LIKE-PATTERNS", "INFINITIVE-GERUND", "WOULD-LIKE", "PREFERENCES"],
+      "lexset": ["read, watch, play, listen, travel, cook, study, exercise, shop, dance, swim, sing"],
+      "traps": [
+        "like + to vs -ing 혼동",
+        "would like + -ing 오류(would like going ✗)",
+        "일반적 취향 vs 즉시 원하는 것 구분",
+        "정중함 정도(like vs would like)"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["패턴 유형", "시간성", "정중도", "맥락"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "읽는 걸 좋아해.", "en": "I like reading." },
+        { "kr": "영화 보고 싶어.", "en": "I would like to watch a movie." },
+        { "kr": "요리하는 걸 좋아해.", "en": "I like to cook." },
+        { "kr": "커피 한 잔 하고 싶어요.", "en": "I would like to have coffee." },
+        { "kr": "수영하는 걸 좋아하지 않아.", "en": "I don't like swimming." },
+        { "kr": "음악 듣는 걸 좋아해.", "en": "I like listening to music." },
+        { "kr": "여행가고 싶어.", "en": "I would like to travel." },
+        { "kr": "춤추는 걸 좋아해?", "en": "Do you like dancing?" },
+        { "kr": "뭘 하고 싶어?", "en": "What would you like to do?" },
+        { "kr": "운동하는 걸 좋아해.", "en": "I like exercising." }
+      ]
+    },
+    {
+      "id": "Lv2-P4-S13",
+      "title": "There is/are 확장 — 수량·형용사·전치사 결합",
+      "intent": "There is/are를 수량표현, 형용사, 전치사구와 결합하여 복잡한 존재·위치 설명을 자연스럽게 한다.",
+      "focus": ["THERE-IS-EXTENDED", "QUANTIFIERS", "ADJECTIVES", "PREPOSITIONAL-PHRASES"],
+      "lexset": ["some, many, few, several, a lot of, noise, traffic, problem, solution, reason, way, place"],
+      "traps": [
+        "There's + 복수명사(There's many ✗)",
+        "수량사 선택(few vs a few)",
+        "형용사 위치(There are problems big ✗)",
+        "전치사구 연결(There is a book on the table)"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["수량 정도", "형용사 유형", "전치사구", "복잡도"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "밖에 소음이 많아.", "en": "There's a lot of noise outside." },
+        { "kr": "책상 위에 책이 몇 권 있어.", "en": "There are several books on the desk." },
+        { "kr": "해결할 방법이 거의 없어.", "en": "There are few ways to solve it." },
+        { "kr": "좋은 이유가 있어.", "en": "There's a good reason." },
+        { "kr": "교통이 별로 없어.", "en": "There isn't much traffic." },
+        { "kr": "큰 문제가 하나 있어.", "en": "There's one big problem." },
+        { "kr": "갈 곳이 많아.", "en": "There are many places to go." },
+        { "kr": "냉장고에 음식이 좀 있어.", "en": "There's some food in the fridge." },
+        { "kr": "좋은 소식이 있어.", "en": "There's good news." },
+        { "kr": "할 일이 너무 많아.", "en": "There's too much to do." }
+      ]
+    },
+    {
+      "id": "Lv2-P5-S16",
+      "title": "비교 표현 묶음 — as ~ as / not as ~ as / a bit / much",
+      "intent": "동등비교(as ~ as), 정도부사(a bit, much, far), 부정 비교를 사용해 세밀한 비교 표현을 자연스럽게 한다.",
+      "focus": ["AS-AS", "DEGREE-ADVERBS", "NEGATIVE-COMPARISON", "FINE-COMPARISON"],
+      "lexset": ["tall, fast, expensive, good, interesting, difficult, important, beautiful, comfortable, convenient"],
+      "traps": [
+        "as ~ as 구조(as tall than ✗)",
+        "정도부사 위치(much more better ✗)",
+        "not as ~ as vs not so ~ as",
+        "이중 비교(more faster ✗)"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.3, "wh_q": 0.1 },
+      "variants": ["비교 유형", "정도부사", "긍정/부정", "맥락"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "너만큼 키가 커.", "en": "I'm as tall as you." },
+        { "kr": "이게 훨씬 더 비싸.", "en": "This is much more expensive." },
+        { "kr": "그것만큼 좋지 않아.", "en": "It's not as good as that." },
+        { "kr": "조금 더 빨라.", "en": "It's a bit faster." },
+        { "kr": "훨씬 더 쉬워.", "en": "It's much easier." },
+        { "kr": "예상만큼 어렵지 않아.", "en": "It's not as difficult as expected." },
+        { "kr": "그만큼 중요해.", "en": "It's as important as that." },
+        { "kr": "훨씬 더 편해.", "en": "It's far more comfortable." },
+        { "kr": "생각만큼 나쁘지 않아.", "en": "It's not as bad as I thought." },
+        { "kr": "조금 더 일찍 와.", "en": "Come a bit earlier." }
+      ]
+    },
+    {
+      "id": "Lv2-P6-S20",
+      "title": "비교급 + 상황맥락 — 실생활 선택·판단",
+      "intent": "비교급/최상급을 실생활 상황(쇼핑, 선택, 판단)에서 자연스럽게 사용하여 의견을 표현하고 설득한다.",
+      "focus": ["PRACTICAL-COMPARISON", "DECISION-MAKING", "SHOPPING", "PREFERENCES"],
+      "lexset": ["choose, decide, prefer, recommend, suggest, buy, expensive, cheap, quality, size, color, brand"],
+      "traps": [
+        "비교 없는 비교급(This is better ✗ - better than what?)",
+        "추천 표현(You should buy the most expensive ✗)",
+        "이유 연결(because it's cheaper)",
+        "선호도 표현(I prefer A to B)"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.7, "neg": 0.1, "wh_q": 0.2 },
+      "variants": ["상황 유형", "선택 기준", "이유", "추천 방식"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "이게 더 좋은 선택이야.", "en": "This is a better choice." },
+        { "kr": "품질이 더 중요해.", "en": "Quality is more important." },
+        { "kr": "저렴한 걸 추천해.", "en": "I recommend the cheaper one." },
+        { "kr": "이 브랜드가 제일 좋아.", "en": "This brand is the best." },
+        { "kr": "크기가 더 적당해.", "en": "The size is more suitable." },
+        { "kr": "가격 대비 더 낫다.", "en": "It's better for the price." },
+        { "kr": "이색깔이 더 예뻐.", "en": "This color is prettier." },
+        { "kr": "어느 게 더 나아?", "en": "Which one is better?" },
+        { "kr": "가장 인기 있는 걸로 해.", "en": "Let's go with the most popular one." },
+        { "kr": "이게 가장 실용적이야.", "en": "This is the most practical." }
+      ]
+    },
+    {
+      "id": "Lv3-P3-S10",
+      "title": "수동태 기초 — 현재/과거, 사람·도구 by-구",
+      "intent": "be + 과거분사로 현재/과거 수동태를 만들고, by-구로 행위자·도구를 자연스럽게 표현한다.",
+      "focus": ["PASSIVE-VOICE", "BE-PAST-PARTICIPLE", "BY-AGENT", "PRESENT-PAST-PASSIVE"],
+      "lexset": ["make, build, write, design, create, repair, clean, teach, sell, buy, deliver, send"],
+      "traps": [
+        "by vs with 혼동(by someone vs with something)",
+        "시제 일치(is made vs was made)",
+        "과거분사 형태(builded ✗ → built)",
+        "불필요한 by-구(The door was opened by someone ✗)"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["현재/과거", "행위자/도구", "규칙/불규칙 과거분사", "필요성"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "이 집은 1990년에 지어졌어.", "en": "This house was built in 1990." },
+        { "kr": "편지가 어제 보내졌어.", "en": "The letter was sent yesterday." },
+        { "kr": "이 책은 유명한 작가가 썼어.", "en": "This book was written by a famous writer." },
+        { "kr": "음식이 식당에서 만들어져.", "en": "Food is made in the restaurant." },
+        { "kr": "차가 정비소에서 수리됐어.", "en": "The car was repaired at the garage." },
+        { "kr": "이 제품은 한국에서 만들어져.", "en": "This product is made in Korea." },
+        { "kr": "방이 어제 청소됐어.", "en": "The room was cleaned yesterday." },
+        { "kr": "영어가 전 세계에서 사용돼.", "en": "English is spoken all over the world." },
+        { "kr": "이 건물은 유명한 건축가가 설계했어.", "en": "This building was designed by a famous architect." },
+        { "kr": "소포가 내일 배달될 거야.", "en": "The package will be delivered tomorrow." }
+      ]
+    },
+    {
+      "id": "Lv3-P4-S14",
+      "title": "조건문 0형 — 일반적 사실 (If + 현재, 현재)",
+      "intent": "If + 현재시제, 현재시제로 일반적 사실, 자연 법칙, 습관을 자연스럽게 표현한다.",
+      "focus": ["ZERO-CONDITIONAL", "GENERAL-TRUTHS", "IF-PRESENT", "NATURAL-LAWS"],
+      "lexset": ["heat, boil, freeze, rain, sunny, exercise, study, work, eat, drink, sleep, wake up"],
+      "traps": [
+        "시제 혼동(If it will rain ✗ → If it rains)",
+        "조건문 구조(If you heat water, it boils)",
+        "when vs if 구분(자연법칙엔 when 가능)",
+        "콤마 사용(If 절이 앞에 올 때)"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.7, "neg": 0.1, "wh_q": 0.2 },
+      "variants": ["자연법칙", "습관", "일반사실", "if/when"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "물을 끓이면 수증기가 나와.", "en": "If you heat water, it boils." },
+        { "kr": "운동하면 건강해져.", "en": "If you exercise, you get healthy." },
+        { "kr": "비가 오면 젖어.", "en": "If it rains, you get wet." },
+        { "kr": "공부하면 성적이 올라.", "en": "If you study, your grades improve." },
+        { "kr": "늦게 자면 피곤해.", "en": "If you sleep late, you feel tired." },
+        { "kr": "햇빛이 나면 따뜻해져.", "en": "If the sun shines, it gets warm." },
+        { "kr": "많이 먹으면 배불러.", "en": "If you eat a lot, you feel full." },
+        { "kr": "물이 얼면 얼음이 돼.", "en": "If water freezes, it becomes ice." },
+        { "kr": "일찍 일어나면 시간이 많아.", "en": "If you wake up early, you have more time." },
+        { "kr": "열심히 일하면 성공해.", "en": "If you work hard, you succeed." }
+      ]
+    },
+    {
+      "id": "Lv3-P4-S15",
+      "title": "조건문 1형 — 현실적 가정 (If + 현재, will)",
+      "intent": "If + 현재시제, will + 동사원형으로 미래의 현실적 가능성과 계획을 자연스럽게 표현한다.",
+      "focus": ["FIRST-CONDITIONAL", "REAL-POSSIBILITY", "IF-WILL", "FUTURE-PLANS"],
+      "lexset": ["pass, fail, arrive, miss, finish, start, call, come, go, buy, sell, win, lose"],
+      "traps": [
+        "if절에 will 사용 금지(If you will come ✗)",
+        "주절 시제(you will be happy)",
+        "unless = if not 이해",
+        "조건 vs 시간(when vs if)"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.6, "neg": 0.2, "wh_q": 0.2 },
+      "variants": ["가능성 정도", "긍정/부정", "계획/예상", "unless"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "시험에 통과하면 축하할게.", "en": "If you pass the exam, I'll congratulate you." },
+        { "kr": "늦으면 놓칠 거야.", "en": "If you're late, you'll miss it." },
+        { "kr": "비가 오면 집에 있을게.", "en": "If it rains, I'll stay home." },
+        { "kr": "시간이 있으면 전화할게.", "en": "If I have time, I'll call you." },
+        { "kr": "그가 오면 같이 갈 거야.", "en": "If he comes, we'll go together." },
+        { "kr": "돈이 있으면 살 거야.", "en": "If I have money, I'll buy it." },
+        { "kr": "일찍 끝나면 만날 수 있어.", "en": "If we finish early, we can meet." },
+        { "kr": "도착하면 연락할게.", "en": "If I arrive, I'll contact you." },
+        { "kr": "이기면 파티할 거야.", "en": "If we win, we'll have a party." },
+        { "kr": "안 오면 기다리지 않을게.", "en": "If you don't come, I won't wait." }
+      ]
+    },
+    {
+      "id": "Lv3-P5-S18",
+      "title": "이유·결과 — because/so/therefore/that's why",
+      "intent": "because, so, therefore, that's why로 이유와 결과를 논리적으로 연결하여 자연스럽게 설명한다.",
+      "focus": ["CAUSE-EFFECT", "BECAUSE", "SO", "THEREFORE", "LOGICAL-CONNECTION"],
+      "lexset": ["tired, busy, late, sick, happy, angry, worried, excited, disappointed, successful"],
+      "traps": [
+        "because vs so 동시 사용 금지(Because I'm tired, so I'll rest ✗)",
+        "therefore 위치(문장 시작 또는 중간)",
+        "that's why 사용법",
+        "쉼표 규칙(Because it's late, I'm going home)"
+      ],
+      "bankMin": 50,
+      "forms": { "aff": 0.7, "neg": 0.1, "wh_q": 0.2 },
+      "variants": ["연결어 유형", "이유/결과", "정도", "맥락"],
+      "engine": { "randomPick": [5,8], "retryWeighted": true, "excludeRecent": true },
+      "seeds": [
+        { "kr": "피곤해서 일찍 잘 거야.", "en": "I'm tired, so I'll go to bed early." },
+        { "kr": "비가 와서 집에 있었어.", "en": "I stayed home because it was raining." },
+        { "kr": "그래서 늦었어.", "en": "That's why I was late." },
+        { "kr": "바빠서 전화 못 했어.", "en": "I couldn't call because I was busy." },
+        { "kr": "따라서 계획을 바꿨어.", "en": "Therefore, we changed the plan." },
+        { "kr": "아파서 못 왔어.", "en": "I couldn't come because I was sick." },
+        { "kr": "성공해서 기뻐.", "en": "I'm happy because I succeeded." },
+        { "kr": "그래서 화났구나.", "en": "So that's why you were angry." },
+        { "kr": "걱정돼서 잠을 못 잤어.", "en": "I couldn't sleep because I was worried." },
+        { "kr": "따라서 결정했어.", "en": "Therefore, I decided." }
+      ]
+    }
+  ]
+}

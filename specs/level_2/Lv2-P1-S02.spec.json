@@ -1,0 +1,114 @@
+{
+  "id": "Lv2-P1-S02",
+  "title": "빈도부사 + 현재진행 (~ing) — 습관/불만 강조",
+  "intent": "speaking",
+  "focus": [
+    "frequency_adverbs",
+    "present_progressive",
+    "habitual_annoyance"
+  ],
+  "lexset": {
+    "adverbs_core": [
+      "always",
+      "usually",
+      "often",
+      "sometimes",
+      "rarely",
+      "hardly ever",
+      "never",
+      "constantly"
+    ],
+    "time_refs": [
+      "these days",
+      "this week",
+      "right now",
+      "at the moment",
+      "on Mondays",
+      "in the mornings"
+    ]
+  },
+  "traps": [
+    "WORD-ORDER",
+    "ADV-POSITION",
+    "BE-COP",
+    "SUBJ-AGR"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": {
+    "subj": [
+      "I",
+      "you",
+      "he",
+      "she",
+      "we",
+      "they"
+    ],
+    "place": [
+      "at home",
+      "at work",
+      "at school",
+      "in the office",
+      "on the bus",
+      "in class"
+    ],
+    "time": [
+      "these days",
+      "right now",
+      "this week",
+      "on Mondays"
+    ]
+  },
+  "engine": {
+    "randomPick": true,
+    "retryWeighted": true,
+    "delaySec": 2,
+    "randomize": true
+  },
+  "seeds": [
+    {
+      "kr": "나는 요즘 자꾸 열쇠를 잃어버려.",
+      "en": "I'm always losing my keys these days."
+    },
+    {
+      "kr": "그는 회의에 항상 늦게 와.",
+      "en": "He's always arriving late to meetings."
+    },
+    {
+      "kr": "그녀는 계속 폰만 보고 있어.",
+      "en": "She's constantly checking her phone."
+    },
+    {
+      "kr": "나는 가끔 집에서 일하고 있어.",
+      "en": "I'm sometimes working from home."
+    },
+    {
+      "kr": "우리는 요즘 자주 온라인으로 만나고 있어.",
+      "en": "We're often meeting online these days."
+    },
+    {
+      "kr": "그들은 요즘 퇴근이 늦어.",
+      "en": "They're often working late this week."
+    },
+    {
+      "kr": "나는 월요일이면 항상 급하게 움직여.",
+      "en": "I'm always rushing on Mondays."
+    },
+    {
+      "kr": "그녀는 아침에 TV를 절대 보지 않아.",
+      "en": "She's never watching TV in the morning."
+    },
+    {
+      "kr": "너는 요즘 운동을 자주 하고 있니?",
+      "en": "Are you often working out these days?"
+    },
+    {
+      "kr": "왜 그렇게 자꾸 불평만 하고 있어?",
+      "en": "Why are you always complaining like that?"
+    }
+  ]
+}
