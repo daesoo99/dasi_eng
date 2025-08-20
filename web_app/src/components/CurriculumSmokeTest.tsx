@@ -1,6 +1,6 @@
 /**
  * 커리큘럼 REVISED 소스 스모크 테스트 컴포넌트
- * Level 1-3 REVISED 버전이 올바르게 로드되는지 확인
+ * Level 1-10 REVISED 버전이 올바르게 로드되는지 확인
  */
 
 import React, { useState, useEffect } from 'react';
@@ -53,8 +53,8 @@ export const CurriculumSmokeTest: React.FC = () => {
     setIsRunning(true);
     const results: TestResult[] = [];
 
-    // Level 1-4 테스트
-    for (let level = 1; level <= 4; level++) {
+    // Level 1-10 테스트
+    for (let level = 1; level <= 10; level++) {
       const config = VALIDATION_CONFIG[`lv${level}` as keyof typeof VALIDATION_CONFIG];
       
       try {
@@ -292,9 +292,15 @@ export const CurriculumSmokeTest: React.FC = () => {
         <h4 className="font-semibold mb-2">검증 기준</h4>
         <ul className="text-sm text-gray-600 space-y-1">
           <li>• <strong>Level 1:</strong> 19 스테이지, 5 페이즈 (전치사·관사·지시어 재배치)</li>
-          <li>• <strong>Level 2:</strong> 22 스테이지, 6 페이즈 (브릿지 +2, 상황별 재구성)</li>
-          <li>• <strong>Level 3:</strong> 26 스테이지, 6 페이즈 (문법→상황 전환)</li>
-          <li>• <strong>Level 4:</strong> 24 스테이지, 6 페이즈 (비즈니스 상황별 고급 표현)</li>
+          <li>• <strong>Level 2:</strong> 20 스테이지, 6 페이즈 (브릿지 +2, 상황별 재구성)</li>
+          <li>• <strong>Level 3:</strong> 28 스테이지, 6 페이즈 (문법→상황 전환)</li>
+          <li>• <strong>Level 4:</strong> 29 스테이지, 6 페이즈 (비즈니스 상황별 고급 표현)</li>
+          <li>• <strong>Level 5:</strong> 29 스테이지, 6 페이즈 (고급 비즈니스 영어)</li>
+          <li>• <strong>Level 6:</strong> 34 스테이지, 6 페이즈 (도메인 전문성)</li>
+          <li>• <strong>Level 7:</strong> 42 스테이지, 6 페이즈 (비즈니스 영어)</li>
+          <li>• <strong>Level 8:</strong> 46 스테이지, 6 페이즈 (고급 담화)</li>
+          <li>• <strong>Level 9:</strong> 52 스테이지, 10 페이즈 (전문가 담화)</li>
+          <li>• <strong>Level 10:</strong> 52 스테이지, 10 페이즈 (원어민 수준)</li>
         </ul>
         
         <h4 className="font-semibold mb-2 mt-4">🔧 엔진 메타데이터 검증 (DoD 기준)</h4>

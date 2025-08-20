@@ -1,0 +1,88 @@
+{
+  "id": "Lv4-A6-S22",
+  "title": "성과 평가 및 피드백",
+  "intent": "팀원들의 성과를 객관적으로 평가하고 건설적인 피드백을 제공한다.",
+  "focus": [
+    "PERFORMANCE-EVALUATION",
+    "CONSTRUCTIVE-FEEDBACK",
+    "IMPROVEMENT-SUGGESTION",
+    "RECOGNITION"
+  ],
+  "lexset": [
+    "evaluate, assess, performance, feedback, improve, strength, weakness, achievement, progress, development"
+  ],
+  "grammar_meta": [
+    "PRESENT-PERFECT",
+    "COMPARATIVE",
+    "CONDITIONAL-2ND",
+    "MODAL-COULD-SHOULD"
+  ],
+  "traps": [
+    "객관적 vs 주관적 평가",
+    "건설적 피드백 언어",
+    "개선 제안 방식",
+    "성과 인정 표현"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "평가 기준",
+    "피드백 방식",
+    "개선 영역",
+    "인정 정도"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "전반적으로 좋은 성과를 보여주셨습니다.",
+      "en": "You have shown good performance overall."
+    },
+    {
+      "kr": "이 부분을 개선하면 더 좋을 것 같습니다.",
+      "en": "It would be better if this part could be improved."
+    },
+    {
+      "kr": "귀하의 노력을 높이 평가합니다.",
+      "en": "I highly appreciate your efforts."
+    },
+    {
+      "kr": "목표를 달성하는 데 성공했습니다.",
+      "en": "You have succeeded in achieving the goal."
+    },
+    {
+      "kr": "지속적인 발전이 필요합니다.",
+      "en": "Continuous development is needed."
+    },
+    {
+      "kr": "강점을 더욱 발휘해 주세요.",
+      "en": "Please demonstrate your strengths even more."
+    },
+    {
+      "kr": "피드백을 건설적으로 받아들여 주세요.",
+      "en": "Please accept the feedback constructively."
+    },
+    {
+      "kr": "다음 분기에는 더 나은 결과를 기대합니다.",
+      "en": "I expect better results next quarter."
+    },
+    {
+      "kr": "팀에 큰 기여를 해주셨습니다.",
+      "en": "You have made a great contribution to the team."
+    },
+    {
+      "kr": "개선 계획을 함께 세워봅시다.",
+      "en": "Let's create an improvement plan together."
+    }
+  ]
+}

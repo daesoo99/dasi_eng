@@ -1,6 +1,12 @@
 import { useState, useCallback, useRef } from 'react';
 import { BrowserSTT, BrowserTTS, CloudSTT, AudioRecorder, STTResult } from '@/utils/speechUtils';
 
+// Helper function to detect Korean text
+const isKorean = (text: string): boolean => {
+  const koreanRegex = /[\u3131-\u318E\uAC00-\uD7A3]/;
+  return koreanRegex.test(text);
+};
+
 export interface UseSpeechOptions {
   apiBaseUrl?: string;
   preferCloudSTT?: boolean;
@@ -108,20 +114,25 @@ export const useSpeech = (options: UseSpeechOptions = {}) => {
     }
   }, [options.preferCloudSTT, options.language]);
 
-  // Text-to-Speech
+  // Text-to-Speech with language detection
   const speak = useCallback(async (text: string, voiceOptions: {
     rate?: number;
     pitch?: number;
     volume?: number;
+    lang?: string;
   } = {}) => {
     try {
       if (!browserTTS.current.isAvailable()) {
         throw new Error('브라우저에서 음성 합성을 지원하지 않습니다');
       }
 
+      // Auto-detect language if not specified
+      const detectedLang = voiceOptions.lang || 
+        (isKorean(text) ? 'ko-KR' : options.language || 'en-US');
+
       await browserTTS.current.speak(text, {
-        lang: options.language || 'en-US',
-        rate: voiceOptions.rate || 0.9,
+        lang: detectedLang,
+        rate: voiceOptions.rate || (detectedLang === 'ko-KR' ? 0.8 : 0.9),
         pitch: voiceOptions.pitch || 1.0,
         volume: voiceOptions.volume || 1.0,
       });
@@ -133,6 +144,79 @@ export const useSpeech = (options: UseSpeechOptions = {}) => {
       }));
     }
   }, [options.language]);
+
+  // Play beep sound
+  const playBeep = useCallback(async (frequency: number = 800, duration: number = 500) => {
+    try {
+      const audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
+      const oscillator = audioContext.createOscillator();
+      const gainNode = audioContext.createGain();
+      
+      oscillator.connect(gainNode);
+      gainNode.connect(audioContext.destination);
+      
+      oscillator.frequency.value = frequency;
+      oscillator.type = 'sine';
+      
+      gainNode.gain.setValueAtTime(0.3, audioContext.currentTime);
+      gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + duration / 1000);
+      
+      oscillator.start(audioContext.currentTime);
+      oscillator.stop(audioContext.currentTime + duration / 1000);
+      
+      return new Promise<void>((resolve) => {
+        oscillator.onended = () => {
+          audioContext.close();
+          resolve();
+        };
+      });
+    } catch (error) {
+      console.warn('Beep sound failed:', error);
+      // Fallback: create a brief pause
+      return new Promise<void>(resolve => setTimeout(resolve, 300));
+    }
+  }, []);
+
+  // Auto-flow for speaking mode with better error handling
+  const startAutoFlow = useCallback(async (koreanText: string, onReadyForSpeech?: () => void) => {
+    try {
+      setState(prev => ({ ...prev, error: null }));
+      
+      // Check TTS availability before starting
+      if (!browserTTS.current.isAvailable()) {
+        throw new Error('음성 합성을 지원하지 않는 브라우저입니다');
+      }
+      
+      // Step 1: Play Korean TTS with timeout protection
+      const ttsPromise = speak(koreanText, { lang: 'ko-KR' });
+      const timeoutPromise = new Promise<void>((_, reject) => 
+        setTimeout(() => reject(new Error('TTS 시간 초과')), 10000)
+      );
+      
+      await Promise.race([ttsPromise, timeoutPromise]);
+      
+      // Small delay to ensure TTS is completely finished
+      await new Promise(resolve => setTimeout(resolve, 200));
+      
+      // Step 2: Play beep sound
+      await playBeep();
+      
+      // Small delay after beep
+      await new Promise(resolve => setTimeout(resolve, 300));
+      
+      // Step 3: Callback to indicate ready for speech
+      if (onReadyForSpeech) {
+        onReadyForSpeech();
+      }
+      
+    } catch (error) {
+      setState(prev => ({
+        ...prev,
+        error: error instanceof Error ? error.message : '자동 플로우 실행 실패',
+      }));
+      throw error; // Re-throw to allow component to handle state reset
+    }
+  }, [speak, playBeep]);
 
   // Stop all speech activities
   const stopAll = useCallback(() => {
@@ -174,6 +258,8 @@ export const useSpeech = (options: UseSpeechOptions = {}) => {
     startRecording,
     stopRecording,
     speak,
+    playBeep,
+    startAutoFlow,
     stopAll,
     clearError,
     getVoices,

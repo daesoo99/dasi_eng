@@ -1,0 +1,160 @@
+{
+  "level_1_complete_guide": {
+    "description": "레벨 1 완전판 - 기존 + 추가 필수 요소",
+    
+    "기존_내용": {
+      "be_verb": ["am", "is", "are"],
+      "basic_subjects": ["I", "you", "he", "she", "it", "we", "they"],
+      "daily_verbs": ["go", "come", "eat", "drink", "see", "like", "have", "want", "make"],
+      "basic_tenses": ["present", "past", "future"],
+      "negatives": ["don't", "doesn't"],
+      "questions": ["Do you...?", "Are you...?"],
+      "pronouns": {
+        "subject": ["I", "you", "he", "she", "it", "we", "they"],
+        "object": ["me", "you", "him", "her", "it", "us", "them"],
+        "possessive": ["my", "your", "his", "her", "its", "our", "their"]
+      },
+      "greetings": ["Hello", "Hi", "Good morning", "Bye"],
+      "responses": ["Yes", "No", "Okay", "Sure", "Thank you", "Sorry"]
+    },
+
+    "추가_필수_요소": {
+      "위치_전치사": {
+        "description": "기본 위치 표현 (한국인 필수)",
+        "patterns": [
+          "in + 공간 (in the room, in Korea)",
+          "on + 표면 (on the table, on TV)", 
+          "at + 지점 (at school, at home, at work)"
+        ],
+        "practice": [
+          "I am at school",
+          "The book is on the table", 
+          "She is in the room"
+        ]
+      },
+      
+      "this_that_구분": {
+        "description": "지시대명사 (한국인 헷갈림 포인트)",
+        "patterns": [
+          "This is + 명사 (가까운 것)",
+          "That is + 명사 (먼 것)"
+        ],
+        "practice": [
+          "This is my pen",
+          "That is your car",
+          "This is good",
+          "That is bad"
+        ]
+      },
+
+      "관사_기초": {
+        "description": "a/an/the 기본 규칙",
+        "patterns": [
+          "a + 자음시작 단어 (a book, a car)",
+          "an + 모음시작 단어 (an apple, an egg)",
+          "the + 특정한 것 (the book, the car)"
+        ],
+        "practice": [
+          "I have a dog",
+          "This is an apple", 
+          "Where is the book?"
+        ]
+      },
+
+      "숫자_기초": {
+        "description": "1-10, 기본 수량 표현",
+        "numbers": ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"],
+        "practice": [
+          "I have two cats",
+          "She is ten years old",
+          "We need three books"
+        ]
+      },
+
+      "시간_기초": {
+        "description": "기본 시간 표현",
+        "patterns": [
+          "What time is it?",
+          "It's + 시간 (It's 3 o'clock)",
+          "in the morning/afternoon/evening"
+        ],
+        "practice": [
+          "What time is it?",
+          "It's 7 o'clock",
+          "I go to work in the morning"
+        ]
+      },
+
+      "there_is_있다": {
+        "description": "~이 있다/없다 표현 (한국인 필수)",
+        "patterns": [
+          "There is + 단수 (There is a book)",
+          "There are + 복수 (There are books)",
+          "Is there + 단수? (Is there a pen?)",
+          "Are there + 복수? (Are there pens?)"
+        ],
+        "practice": [
+          "There is a cat",
+          "There are two dogs", 
+          "Is there water?",
+          "Are there books?"
+        ]
+      },
+
+      "명령문_부탁": {
+        "description": "명령문과 정중한 부탁",
+        "patterns": [
+          "Please + 동사원형 (Please sit down)",
+          "Can you + 동사원형? (Can you help me?)",
+          "Let's + 동사원형 (Let's go)"
+        ],
+        "practice": [
+          "Please come here",
+          "Can you open the door?",
+          "Let's eat lunch"
+        ]
+      },
+
+      "빈도부사_기초": {
+        "description": "always, sometimes, never",
+        "patterns": [
+          "I always + 동사 (I always eat breakfast)",
+          "I sometimes + 동사 (I sometimes watch TV)",
+          "I never + 동사 (I never smoke)"
+        ],
+        "practice": [
+          "I always study English",
+          "She sometimes comes late",
+          "We never eat meat"
+        ]
+      }
+    },
+
+    "한국인_특별_주의사항": {
+      "주어_생략_금지": {
+        "wrong": "Am student (주어 없음)",
+        "correct": "I am a student",
+        "rule": "영어는 주어 반드시 필요"
+      },
+      "be동사_일반동사_구분": {
+        "wrong": "I am go school",
+        "correct": "I go to school",
+        "rule": "be동사와 일반동사 함께 사용 금지"
+      },
+      "관사_생략_주의": {
+        "wrong": "I am student",
+        "correct": "I am a student", 
+        "rule": "가산명사에는 관사 필수"
+      }
+    },
+
+    "실생활_필수표현_추가": {
+      "식사": ["I'm hungry", "I'm thirsty", "It's delicious", "I'm full"],
+      "쇼핑": ["How much?", "I want this", "Do you have...?", "Where is...?"],
+      "길찾기": ["Where is the bathroom?", "Go straight", "Turn left/right"],
+      "감정": ["I'm tired", "I'm happy", "I'm sad", "I'm angry", "I'm worried"],
+      "날씨": ["It's sunny", "It's rainy", "It's hot", "It's cold"],
+      "시간관련": ["I'm late", "I'm early", "Wait a minute", "Hurry up"]
+    }
+  }
+}

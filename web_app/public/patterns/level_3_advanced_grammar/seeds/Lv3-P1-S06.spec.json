@@ -1,0 +1,88 @@
+{
+  "id": "Lv3-P1-S06",
+  "title": "수동태 심화 (시제별 수동태)",
+  "intent": "다양한 시제의 수동태를 정확히 사용하고 능동태와의 전환을 자유자재로 구사한다.",
+  "focus": [
+    "PASSIVE-ADVANCED",
+    "TENSE-VARIATIONS",
+    "ACTIVE-PASSIVE-CONVERSION",
+    "AGENT-BY-PHRASE"
+  ],
+  "lexset": [
+    "passive, active, agent, subject, object, transform, convert, construct, perform, execute"
+  ],
+  "grammar_meta": [
+    "PASSIVE-ALL-TENSES",
+    "BY-PHRASE",
+    "AGENT-OMISSION",
+    "PASSIVE-MODALS"
+  ],
+  "traps": [
+    "시제별 수동태 형태 (am/is/are + p.p., was/were + p.p., will be + p.p.)",
+    "by + 행위자 생략/명시",
+    "조동사 + be + p.p.",
+    "완료형 수동태 (have been + p.p.)"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "시제",
+    "행위자",
+    "조동사",
+    "격식도"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "이 건물은 1950년에 지어졌습니다.",
+      "en": "This building was built in 1950."
+    },
+    {
+      "kr": "회의가 내일 개최될 예정입니다.",
+      "en": "The meeting will be held tomorrow."
+    },
+    {
+      "kr": "이 책은 많은 사람들에게 읽히고 있습니다.",
+      "en": "This book is being read by many people."
+    },
+    {
+      "kr": "프로젝트가 성공적으로 완료되었습니다.",
+      "en": "The project has been completed successfully."
+    },
+    {
+      "kr": "새로운 정책이 시행되고 있습니다.",
+      "en": "New policies are being implemented."
+    },
+    {
+      "kr": "문제가 해결되어야 합니다.",
+      "en": "The problem must be solved."
+    },
+    {
+      "kr": "결과가 곧 발표될 것입니다.",
+      "en": "The results will be announced soon."
+    },
+    {
+      "kr": "이 제품은 한국에서 만들어집니다.",
+      "en": "This product is made in Korea."
+    },
+    {
+      "kr": "편지가 어제 보내졌습니다.",
+      "en": "The letter was sent yesterday."
+    },
+    {
+      "kr": "계획이 수정되었습니다.",
+      "en": "The plan has been modified."
+    }
+  ]
+}

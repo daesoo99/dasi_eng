@@ -1,0 +1,89 @@
+{
+  "id": "Lv5-A3-S09",
+  "title": "논문 서론 및 문제 제기",
+  "intent": "논문의 서론에서 연구 문제를 명확히 제기하고 연구의 필요성을 논증한다.",
+  "focus": [
+    "PAPER-INTRODUCTION",
+    "PROBLEM-STATEMENT",
+    "RESEARCH-JUSTIFICATION",
+    "ACADEMIC-WRITING"
+  ],
+  "lexset": [
+    "introduction, problem, issue, gap, necessity, justify, establish, address, explore, investigate"
+  ],
+  "grammar_meta": [
+    "PRESENT-PERFECT-LITERATURE",
+    "PASSIVE-ACADEMIC",
+    "COMPLEX-NOUN-PHRASES",
+    "CAUSAL-RELATIONSHIPS"
+  ],
+  "academic_level": "C1",
+  "traps": [
+    "연구 문제 vs 실무 문제",
+    "논문 서론 구조",
+    "문제 제기의 객관성",
+    "연구 필요성 논증"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "문제 유형",
+    "필요성 강도",
+    "연구 범위",
+    "이론적 위치"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "서론에서 연구 문제의 중요성을 부각시킵니다.",
+      "en": "The introduction highlights the importance of the research problem."
+    },
+    {
+      "kr": "기존 연구의 공백이 새로운 탐구를 필요로 합니다.",
+      "en": "Gaps in existing research necessitate new exploration."
+    },
+    {
+      "kr": "이론적 토대를 구축하기 위한 연구가 시급합니다.",
+      "en": "Research to establish theoretical foundations is urgent."
+    },
+    {
+      "kr": "현상에 대한 체계적 이해가 부족한 상황입니다.",
+      "en": "There is a lack of systematic understanding of the phenomenon."
+    },
+    {
+      "kr": "학술적 논의를 발전시키기 위한 연구입니다.",
+      "en": "This is research to advance academic discourse."
+    },
+    {
+      "kr": "실증적 검증이 이론 발전에 필수적입니다.",
+      "en": "Empirical verification is essential for theoretical development."
+    },
+    {
+      "kr": "복합적 문제에 대한 다각적 접근이 요구됩니다.",
+      "en": "A multi-faceted approach to complex problems is required."
+    },
+    {
+      "kr": "연구 문제가 학계의 관심을 집중시키고 있습니다.",
+      "en": "The research problem is attracting academic attention."
+    },
+    {
+      "kr": "이론과 실무 간의 괴리를 해소할 필요가 있습니다.",
+      "en": "There is a need to bridge the gap between theory and practice."
+    },
+    {
+      "kr": "새로운 관점에서 기존 이론을 재검토합니다.",
+      "en": "We re-examine existing theories from a new perspective."
+    }
+  ]
+}

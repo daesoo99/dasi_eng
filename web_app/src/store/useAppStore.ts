@@ -12,17 +12,30 @@ interface AppStore {
   // Global Learning Mode
   learningMode: LearningMode;
   setLearningMode: (mode: LearningMode) => void;
+  
+  // Speaking Stage (1단계 3초, 2단계 2초, 3단계 1초)
+  speakingStage: 1 | 2 | 3;
+  setSpeakingStage: (stage: 1 | 2 | 3) => void;
 
   // User state
   user: {
     id: string | null;
     level: number;
-    stage: number;
+    stage: number | 'ALL';
     isAuthenticated: boolean;
   };
   setUser: (user: Partial<AppStore['user']>) => void;
   setUserLevel: (level: number) => void;
-  setUserStage: (stage: number) => void;
+  setUserStage: (stage: number | 'ALL') => void;
+
+  // Stage selection state
+  stageSelection: {
+    selectedLevel: number | null;
+    isStageModalOpen: boolean;
+  };
+  setSelectedLevel: (level: number | null) => void;
+  setStageModalOpen: (isOpen: boolean) => void;
+  selectLevelAndStage: (level: number, stage: number | 'ALL') => void;
 
   // Study session state
   study: StudyState;
@@ -71,6 +84,11 @@ const initialUserState = {
   isAuthenticated: false,
 };
 
+const initialStageSelectionState = {
+  selectedLevel: null,
+  isStageModalOpen: false,
+};
+
 const initialUIState = {
   isLoading: false,
   error: null,
@@ -93,6 +111,13 @@ export const useAppStore = create<AppStore>()(
         set((state) => ({
           learningMode: mode,
         })),
+      
+      // Speaking Stage
+      speakingStage: 1, // 기본값: 1단계 (3초)
+      setSpeakingStage: (stage) =>
+        set((state) => ({
+          speakingStage: stage,
+        })),
 
       // User
       user: initialUserState,
@@ -109,6 +134,32 @@ export const useAppStore = create<AppStore>()(
       setUserStage: (stage) =>
         set((state) => ({
           user: { ...state.user, stage },
+        })),
+
+      // Stage selection
+      stageSelection: initialStageSelectionState,
+      
+      setSelectedLevel: (level) =>
+        set((state) => ({
+          stageSelection: { ...state.stageSelection, selectedLevel: level },
+        })),
+
+      setStageModalOpen: (isOpen) =>
+        set((state) => ({
+          stageSelection: { ...state.stageSelection, isStageModalOpen: isOpen },
+        })),
+
+      selectLevelAndStage: (level, stage) =>
+        set((state) => ({
+          user: { 
+            ...state.user, 
+            level, 
+            stage 
+          },
+          stageSelection: { 
+            selectedLevel: null, 
+            isStageModalOpen: false 
+          },
         })),
 
       // Study session
@@ -197,6 +248,24 @@ export const useAppStore = create<AppStore>()(
 // Selectors for easier access
 export const useSettings = () => useAppStore((state) => state.settings);
 export const useUser = () => useAppStore((state) => state.user);
-export const useStudy = () => useAppStore((state) => state.study);
+export const useStudy = () => useAppStore((state) => ({
+  ...state.study,
+  cards: state.study.cards || [],
+}));
 export const useUI = () => useAppStore((state) => state.ui);
-export const useLearningMode = () => useAppStore((state) => state.learningMode);
+export const useLearningMode = () => useAppStore((state) => ({
+  mode: state.learningMode,
+  setLearningMode: state.setLearningMode,
+}));
+
+export const useSpeakingStage = () => useAppStore((state) => ({
+  stage: state.speakingStage,
+  setSpeakingStage: state.setSpeakingStage,
+}));
+
+export const useStageSelection = () => useAppStore((state) => ({
+  stageSelection: state.stageSelection,
+  setSelectedLevel: state.setSelectedLevel,
+  setStageModalOpen: state.setStageModalOpen,
+  selectLevelAndStage: state.selectLevelAndStage,
+}));

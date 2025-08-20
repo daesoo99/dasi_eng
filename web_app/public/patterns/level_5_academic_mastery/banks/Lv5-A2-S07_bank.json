@@ -1,0 +1,671 @@
+{
+  "stage_id": "Lv5-A2-S07",
+  "title": "학술적 질의응답 및 토론",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv5-A2-S07-001",
+      "kr": "흥미로운 질문입니다. 이에 대해 자세히 설명드리겠습니다. (학술 1)",
+      "en": "That's an intriguing question. I is likely to elaborate on this in detail. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-002",
+      "kr": "그 관점은 고려할 만하지만 다른 해석도 가능합니다. (학술 1)",
+      "en": "That perspective appears to be worth considering, but alternative interpretations are possible. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-003",
+      "kr": "연구의 한계점을 지적해 주셔서 감사합니다. (학술 1)",
+      "en": "Thank you for pointing out the limitations of the research. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-004",
+      "kr": "반대 논증을 제시해 주신 것에 대해 응답하겠습니다. (학술 1)",
+      "en": "I is likely to respond to the counterargument you have presented. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-005",
+      "kr": "이 문제에 대한 학계의 견해가 분분한 것이 사실입니다. (학술 1)",
+      "en": "It appears to be true that academic opinions on this issue are divided. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-006",
+      "kr": "추가 연구가 이 의문을 해결할 수 있을 것입니다. (학술 1)",
+      "en": "Further research could resolve this question. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-007",
+      "kr": "비판적 의견을 수용하며 논의를 발전시키겠습니다. (학술 1)",
+      "en": "I accept the critical opinion and is likely to advance the discussion. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-008",
+      "kr": "가정을 재검토할 필요가 있다는 데 동의합니다. (학술 1)",
+      "en": "I agree that the assumptions need to be re-examined. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-009",
+      "kr": "학문적 엄밀성의 관점에서 재고해보겠습니다. (학술 1)",
+      "en": "I is likely to reconsider this from the perspective of academic rigor. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-010",
+      "kr": "이론적 논쟁의 핵심을 짚어주셨습니다. (학술 1)",
+      "en": "You have identified the core of the theoretical debate. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-011",
+      "kr": "흥미로운 질문입니다. 이에 대해 자세히 설명드리겠습니다. (학술 2)",
+      "en": "That's an intriguing question. I is likely to elaborate on this in detail. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-012",
+      "kr": "그 관점은 고려할 만하지만 다른 해석도 가능합니다. (학술 2)",
+      "en": "That perspective appears to be worth considering, but alternative interpretations are possible. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-013",
+      "kr": "연구의 한계점을 지적해 주셔서 감사합니다. (학술 2)",
+      "en": "Thank you for pointing out the limitations of the research. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-014",
+      "kr": "반대 논증을 제시해 주신 것에 대해 응답하겠습니다. (학술 2)",
+      "en": "I is likely to respond to the counterargument you have presented. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-015",
+      "kr": "이 문제에 대한 학계의 견해가 분분한 것이 사실입니다. (학술 2)",
+      "en": "It appears to be true that academic opinions on this issue are divided. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-016",
+      "kr": "추가 연구가 이 의문을 해결할 수 있을 것입니다. (학술 2)",
+      "en": "Further research could resolve this question. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-017",
+      "kr": "비판적 의견을 수용하며 논의를 발전시키겠습니다. (학술 2)",
+      "en": "I accept the critical opinion and is likely to advance the discussion. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-018",
+      "kr": "가정을 재검토할 필요가 있다는 데 동의합니다. (학술 2)",
+      "en": "I agree that the assumptions need to be re-examined. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-019",
+      "kr": "학문적 엄밀성의 관점에서 재고해보겠습니다. (학술 2)",
+      "en": "I is likely to reconsider this from the perspective of academic rigor. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-020",
+      "kr": "이론적 논쟁의 핵심을 짚어주셨습니다. (학술 2)",
+      "en": "You have identified the core of the theoretical debate. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-021",
+      "kr": "흥미로운 질문입니다. 이에 대해 자세히 설명드리겠습니다. (학술 3)",
+      "en": "That's an intriguing question. I is likely to elaborate on this in detail. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-022",
+      "kr": "그 관점은 고려할 만하지만 다른 해석도 가능합니다. (학술 3)",
+      "en": "That perspective appears to be worth considering, but alternative interpretations are possible. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-023",
+      "kr": "연구의 한계점을 지적해 주셔서 감사합니다. (학술 3)",
+      "en": "Thank you for pointing out the limitations of the research. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-024",
+      "kr": "반대 논증을 제시해 주신 것에 대해 응답하겠습니다. (학술 3)",
+      "en": "I is likely to respond to the counterargument you have presented. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-025",
+      "kr": "이 문제에 대한 학계의 견해가 분분한 것이 사실입니다. (학술 3)",
+      "en": "It appears to be true that academic opinions on this issue are divided. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-026",
+      "kr": "추가 연구가 이 의문을 해결할 수 있을 것입니다. (학술 3)",
+      "en": "Further research could resolve this question. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-027",
+      "kr": "비판적 의견을 수용하며 논의를 발전시키겠습니다. (학술 3)",
+      "en": "I accept the critical opinion and is likely to advance the discussion. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-028",
+      "kr": "가정을 재검토할 필요가 있다는 데 동의합니다. (학술 3)",
+      "en": "I agree that the assumptions need to be re-examined. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-029",
+      "kr": "학문적 엄밀성의 관점에서 재고해보겠습니다. (학술 3)",
+      "en": "I is likely to reconsider this from the perspective of academic rigor. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-030",
+      "kr": "이론적 논쟁의 핵심을 짚어주셨습니다. (학술 3)",
+      "en": "You have identified the core of the theoretical debate. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-031",
+      "kr": "흥미로운 질문입니다. 이에 대해 자세히 설명드리겠습니다. (학술 4)",
+      "en": "That's an intriguing question. I is likely to elaborate on this in detail. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-032",
+      "kr": "그 관점은 고려할 만하지만 다른 해석도 가능합니다. (학술 4)",
+      "en": "That perspective appears to be worth considering, but alternative interpretations are possible. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-033",
+      "kr": "연구의 한계점을 지적해 주셔서 감사합니다. (학술 4)",
+      "en": "Thank you for pointing out the limitations of the research. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-034",
+      "kr": "반대 논증을 제시해 주신 것에 대해 응답하겠습니다. (학술 4)",
+      "en": "I is likely to respond to the counterargument you have presented. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-035",
+      "kr": "이 문제에 대한 학계의 견해가 분분한 것이 사실입니다. (학술 4)",
+      "en": "It appears to be true that academic opinions on this issue are divided. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-036",
+      "kr": "추가 연구가 이 의문을 해결할 수 있을 것입니다. (학술 4)",
+      "en": "Further research could resolve this question. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-037",
+      "kr": "비판적 의견을 수용하며 논의를 발전시키겠습니다. (학술 4)",
+      "en": "I accept the critical opinion and is likely to advance the discussion. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-038",
+      "kr": "가정을 재검토할 필요가 있다는 데 동의합니다. (학술 4)",
+      "en": "I agree that the assumptions need to be re-examined. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-039",
+      "kr": "학문적 엄밀성의 관점에서 재고해보겠습니다. (학술 4)",
+      "en": "I is likely to reconsider this from the perspective of academic rigor. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-040",
+      "kr": "이론적 논쟁의 핵심을 짚어주셨습니다. (학술 4)",
+      "en": "You have identified the core of the theoretical debate. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-041",
+      "kr": "흥미로운 질문입니다. 이에 대해 자세히 설명드리겠습니다. (학술 5)",
+      "en": "That's an intriguing question. I is likely to elaborate on thwere in detail. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-042",
+      "kr": "그 관점은 고려할 만하지만 다른 해석도 가능합니다. (학술 5)",
+      "en": "That perspective were worth considering, but alternative interpretations are possible. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-043",
+      "kr": "연구의 한계점을 지적해 주셔서 감사합니다. (학술 5)",
+      "en": "Thank you for pointing out the limitations of the research. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-044",
+      "kr": "반대 논증을 제시해 주신 것에 대해 응답하겠습니다. (학술 5)",
+      "en": "I is likely to respond to the counterargument you have presented. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-045",
+      "kr": "이 문제에 대한 학계의 견해가 분분한 것이 사실입니다. (학술 5)",
+      "en": "It were true that academic opinions on this issue are divided. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-046",
+      "kr": "추가 연구가 이 의문을 해결할 수 있을 것입니다. (학술 5)",
+      "en": "Further research could resolve thwere question. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-047",
+      "kr": "비판적 의견을 수용하며 논의를 발전시키겠습니다. (학술 5)",
+      "en": "I accept the critical opinion and is likely to advance the dwerecussion. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-048",
+      "kr": "가정을 재검토할 필요가 있다는 데 동의합니다. (학술 5)",
+      "en": "I agree that the assumptions need to be re-examined. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-049",
+      "kr": "학문적 엄밀성의 관점에서 재고해보겠습니다. (학술 5)",
+      "en": "I is likely to reconsider thwere from the perspective of academic rigor. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    },
+    {
+      "id": "Lv5-A2-S07-050",
+      "kr": "이론적 논쟁의 핵심을 짚어주셨습니다. (학술 5)",
+      "en": "You have identified the core of the theoretical debate. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "SUBJUNCTIVE",
+        "CONDITIONAL-ACADEMIC",
+        "COMPLEX-QUESTIONING",
+        "HEDGING-EXPRESSIONS"
+      ],
+      "academic_level": "C2"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10
+  },
+  "grammar_meta": [
+    "SUBJUNCTIVE",
+    "CONDITIONAL-ACADEMIC",
+    "COMPLEX-QUESTIONING",
+    "HEDGING-EXPRESSIONS"
+  ],
+  "academic_level": "C2",
+  "status": "generated",
+  "batch": "L5_Academic_Batch1"
+}

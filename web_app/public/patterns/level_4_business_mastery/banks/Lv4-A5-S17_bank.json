@@ -1,0 +1,620 @@
+{
+  "stage_id": "Lv4-A5-S17",
+  "title": "고객 문의 응답 및 안내",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv4-A5-S17-001",
+      "kr": "문의해 주셔서 감사합니다. (비즈니스 1)",
+      "en": "Thank you for your inquiry. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-002",
+      "kr": "기꺼이 도움을 드리겠습니다. (비즈니스 1)",
+      "en": "I will be happy to assist you. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-003",
+      "kr": "요청하신 정보를 제공해 드립니다. (비즈니스 1)",
+      "en": "I can provide the information you requested. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-004",
+      "kr": "절차는 다음과 같습니다. (비즈니스 1)",
+      "en": "The procedure is as follows. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-005",
+      "kr": "추가 도움이 필요하시면 연락주세요. (비즈니스 1)",
+      "en": "Please contact us if you need further assistance. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-006",
+      "kr": "서비스에 대해 자세히 설명드리겠습니다. (비즈니스 1)",
+      "en": "I will explain the service in detail. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-007",
+      "kr": "모든 옵션을 검토해드렸습니다. (비즈니스 1)",
+      "en": "I have reviewed all available options. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-008",
+      "kr": "귀하의 요구사항을 이해했습니다. (비즈니스 1)",
+      "en": "I understand your requirements. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-009",
+      "kr": "최상의 해결책을 제안드립니다. (비즈니스 1)",
+      "en": "I suggest the best solution. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-010",
+      "kr": "언제든지 문의하실 수 있습니다. (비즈니스 1)",
+      "en": "You can contact us at any time. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-011",
+      "kr": "문의해 주셔서 감사합니다. (비즈니스 2)",
+      "en": "Thank you for your inquiry. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-012",
+      "kr": "기꺼이 도움을 드리겠습니다. (비즈니스 2)",
+      "en": "I have be happy to assist you. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-013",
+      "kr": "요청하신 정보를 제공해 드립니다. (비즈니스 2)",
+      "en": "I can provide the information you requested. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-014",
+      "kr": "절차는 다음과 같습니다. (비즈니스 2)",
+      "en": "The procedure is as follows. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-015",
+      "kr": "추가 도움이 필요하시면 연락주세요. (비즈니스 2)",
+      "en": "Please contact us if you need further assistance. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-016",
+      "kr": "서비스에 대해 자세히 설명드리겠습니다. (비즈니스 2)",
+      "en": "I have explain the service in detail. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-017",
+      "kr": "모든 옵션을 검토해드렸습니다. (비즈니스 2)",
+      "en": "I have reviewed all available options. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-018",
+      "kr": "귀하의 요구사항을 이해했습니다. (비즈니스 2)",
+      "en": "I understand your requirements. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-019",
+      "kr": "최상의 해결책을 제안드립니다. (비즈니스 2)",
+      "en": "I suggest the best solution. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-020",
+      "kr": "언제든지 문의하실 수 있습니다. (비즈니스 2)",
+      "en": "You can contact us at any time. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-021",
+      "kr": "문의해 주셔서 감사합니다. (비즈니스 3)",
+      "en": "Thank you for your inquiry. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-022",
+      "kr": "기꺼이 도움을 드리겠습니다. (비즈니스 3)",
+      "en": "I have be happy to assist you. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-023",
+      "kr": "요청하신 정보를 제공해 드립니다. (비즈니스 3)",
+      "en": "I can provide the information you requested. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-024",
+      "kr": "절차는 다음과 같습니다. (비즈니스 3)",
+      "en": "The procedure is as follows. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-025",
+      "kr": "추가 도움이 필요하시면 연락주세요. (비즈니스 3)",
+      "en": "Please contact us if you need further assistance. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-026",
+      "kr": "서비스에 대해 자세히 설명드리겠습니다. (비즈니스 3)",
+      "en": "I have explain the service in detail. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-027",
+      "kr": "모든 옵션을 검토해드렸습니다. (비즈니스 3)",
+      "en": "I have reviewed all available options. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-028",
+      "kr": "귀하의 요구사항을 이해했습니다. (비즈니스 3)",
+      "en": "I understand your requirements. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-029",
+      "kr": "최상의 해결책을 제안드립니다. (비즈니스 3)",
+      "en": "I suggest the best solution. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-030",
+      "kr": "언제든지 문의하실 수 있습니다. (비즈니스 3)",
+      "en": "You can contact us at any time. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-031",
+      "kr": "문의해 주셔서 감사합니다. (비즈니스 4)",
+      "en": "Thank you for your inquiry. (business variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-032",
+      "kr": "기꺼이 도움을 드리겠습니다. (비즈니스 4)",
+      "en": "I have be happy to assist you. (business variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-033",
+      "kr": "요청하신 정보를 제공해 드립니다. (비즈니스 4)",
+      "en": "I can provide the information you requested. (business variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-034",
+      "kr": "절차는 다음과 같습니다. (비즈니스 4)",
+      "en": "The procedure is as follows. (business variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-035",
+      "kr": "추가 도움이 필요하시면 연락주세요. (비즈니스 4)",
+      "en": "Please contact us if you need further assistance. (business variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-036",
+      "kr": "서비스에 대해 자세히 설명드리겠습니다. (비즈니스 4)",
+      "en": "I have explain the service in detail. (business variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-037",
+      "kr": "모든 옵션을 검토해드렸습니다. (비즈니스 4)",
+      "en": "I have reviewed all available options. (business variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-038",
+      "kr": "귀하의 요구사항을 이해했습니다. (비즈니스 4)",
+      "en": "I understand your requirements. (business variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-039",
+      "kr": "최상의 해결책을 제안드립니다. (비즈니스 4)",
+      "en": "I suggest the best solution. (business variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-040",
+      "kr": "언제든지 문의하실 수 있습니다. (비즈니스 4)",
+      "en": "You can contact us at any time. (business variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-041",
+      "kr": "문의해 주셔서 감사합니다. (비즈니스 5)",
+      "en": "Thank you for your inquiry. (business variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-042",
+      "kr": "기꺼이 도움을 드리겠습니다. (비즈니스 5)",
+      "en": "I have be happy to assist you. (business variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-043",
+      "kr": "요청하신 정보를 제공해 드립니다. (비즈니스 5)",
+      "en": "I can provide the information you requested. (business variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-044",
+      "kr": "절차는 다음과 같습니다. (비즈니스 5)",
+      "en": "The procedure is as follows. (business variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-045",
+      "kr": "추가 도움이 필요하시면 연락주세요. (비즈니스 5)",
+      "en": "Please contact us if you need further assistance. (business variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-046",
+      "kr": "서비스에 대해 자세히 설명드리겠습니다. (비즈니스 5)",
+      "en": "I have explain the service in detail. (business variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-047",
+      "kr": "모든 옵션을 검토해드렸습니다. (비즈니스 5)",
+      "en": "I have reviewed all available options. (business variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-048",
+      "kr": "귀하의 요구사항을 이해했습니다. (비즈니스 5)",
+      "en": "I understand your requirements. (business variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-049",
+      "kr": "최상의 해결책을 제안드립니다. (비즈니스 5)",
+      "en": "I suggest the best solution. (business variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S17-050",
+      "kr": "언제든지 문의하실 수 있습니다. (비즈니스 5)",
+      "en": "You can contact us at any time. (business variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "MODAL-CAN-WILL",
+        "PRESENT-PERFECT",
+        "RELATIVE-PRONOUNS",
+        "PASSIVE-VOICE"
+      ]
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 10,
+    "wh_q": 5
+  },
+  "grammar_meta": [
+    "MODAL-CAN-WILL",
+    "PRESENT-PERFECT",
+    "RELATIVE-PRONOUNS",
+    "PASSIVE-VOICE"
+  ],
+  "status": "generated",
+  "batch": "L4_Business_Batch2"
+}

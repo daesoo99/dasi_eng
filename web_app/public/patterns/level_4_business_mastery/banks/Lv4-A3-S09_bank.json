@@ -1,0 +1,314 @@
+{
+  "stage_id": "Lv4-A3-S09",
+  "title": "조건부 제안 및 협상 시작",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv4-A3-S09-001",
+      "kr": "만약 수량을 늘리신다면 할인을 제공할 수 있습니다. (v1)",
+      "en": "If you increase the quantity, we could offer a discount. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-002",
+      "kr": "귀하의 요구사항을 들어보고 싶습니다. (v1)",
+      "en": "I'd like to hear your requirements. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-003",
+      "kr": "다음 조건으로 제안합니다. (v1)",
+      "en": "We propose the following terms. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-004",
+      "kr": "상호 이익이 되는 방안을 찾아보겠습니다. (v1)",
+      "en": "Let's find a mutually beneficial solution. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-005",
+      "kr": "어느 정도 융통성이 있습니다. (v1)",
+      "en": "We have some flexibility in this matter. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-006",
+      "kr": "계약 조건을 논의해 봅시다. (v1)",
+      "en": "Let's discuss the contract terms. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-007",
+      "kr": "예산 범위 내에서 최선을 다하겠습니다. (v1)",
+      "en": "We'll do our best within your budget range. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-008",
+      "kr": "대안을 제시해 보겠습니다. (v1)",
+      "en": "Let me suggest an alternative. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-009",
+      "kr": "이 제안을 검토해 보시겠습니까? (v1)",
+      "en": "Would you consider this proposal? (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-010",
+      "kr": "양측 모두에게 공정한 거래입니다. (v1)",
+      "en": "This is a fair deal for both parties. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-011",
+      "kr": "만약 수량을 늘리신다면 할인을 제공할 수 있습니다. (v2)",
+      "en": "If you increase the quantity, we could offer a discount. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-012",
+      "kr": "귀하의 요구사항을 들어보고 싶습니다. (v2)",
+      "en": "I'd like to hear your requirements. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-013",
+      "kr": "다음 조건으로 제안합니다. (v2)",
+      "en": "We propose the following terms. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-014",
+      "kr": "상호 이익이 되는 방안을 찾아보겠습니다. (v2)",
+      "en": "Let's find a mutually beneficial solution. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-015",
+      "kr": "어느 정도 융통성이 있습니다. (v2)",
+      "en": "We have some flexibility in this matter. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-016",
+      "kr": "계약 조건을 논의해 봅시다. (v2)",
+      "en": "Let's discuss the contract terms. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-017",
+      "kr": "예산 범위 내에서 최선을 다하겠습니다. (v2)",
+      "en": "We'll do our best within your budget range. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-018",
+      "kr": "대안을 제시해 보겠습니다. (v2)",
+      "en": "Let me suggest an alternative. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-019",
+      "kr": "이 제안을 검토해 보시겠습니까? (v2)",
+      "en": "Would you consider this proposal? (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-020",
+      "kr": "양측 모두에게 공정한 거래입니다. (v2)",
+      "en": "This is a fair deal for both parties. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-021",
+      "kr": "만약 수량을 늘리신다면 할인을 제공할 수 있습니다. (v3)",
+      "en": "If you increase the quantity, we could offer a discount. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-022",
+      "kr": "귀하의 요구사항을 들어보고 싶습니다. (v3)",
+      "en": "I'd like to hear your requirements. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-023",
+      "kr": "다음 조건으로 제안합니다. (v3)",
+      "en": "We propose the following terms. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-024",
+      "kr": "상호 이익이 되는 방안을 찾아보겠습니다. (v3)",
+      "en": "Let's find a mutually beneficial solution. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-025",
+      "kr": "어느 정도 융통성이 있습니다. (v3)",
+      "en": "We have some flexibility in this matter. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-026",
+      "kr": "계약 조건을 논의해 봅시다. (v3)",
+      "en": "Let's discuss the contract terms. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-027",
+      "kr": "예산 범위 내에서 최선을 다하겠습니다. (v3)",
+      "en": "We'll do our best within your budget range. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-028",
+      "kr": "대안을 제시해 보겠습니다. (v3)",
+      "en": "Let me suggest an alternative. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-029",
+      "kr": "이 제안을 검토해 보시겠습니까? (v3)",
+      "en": "Would you consider this proposal? (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-030",
+      "kr": "양측 모두에게 공정한 거래입니다. (v3)",
+      "en": "This is a fair deal for both parties. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-031",
+      "kr": "만약 수량을 늘리신다면 할인을 제공할 수 있습니다. (v4)",
+      "en": "If you increase the quantity, we could offer a discount. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-032",
+      "kr": "귀하의 요구사항을 들어보고 싶습니다. (v4)",
+      "en": "I'd like to hear your requirements. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-033",
+      "kr": "다음 조건으로 제안합니다. (v4)",
+      "en": "We propose the following terms. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-034",
+      "kr": "상호 이익이 되는 방안을 찾아보겠습니다. (v4)",
+      "en": "Let's find a mutually beneficial solution. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-035",
+      "kr": "어느 정도 융통성이 있습니다. (v4)",
+      "en": "We have some flexibility in this matter. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S09-036",
+      "kr": "계약 조건을 논의해 봅시다. (v4)",
+      "en": "Let's discuss the contract terms. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S09-037",
+      "kr": "예산 범위 내에서 최선을 다하겠습니다. (v4)",
+      "en": "We'll do our best within your budget range. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S09-038",
+      "kr": "대안을 제시해 보겠습니다. (v4)",
+      "en": "Let me suggest an alternative. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S09-039",
+      "kr": "이 제안을 검토해 보시겠습니까? (v4)",
+      "en": "Would you consider this proposal? (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S09-040",
+      "kr": "양측 모두에게 공정한 거래입니다. (v4)",
+      "en": "This is a fair deal for both parties. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S09-041",
+      "kr": "만약 수량을 늘리신다면 할인을 제공할 수 있습니다. (v5)",
+      "en": "If you increase the quantity, we could offer a discount. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S09-042",
+      "kr": "귀하의 요구사항을 들어보고 싶습니다. (v5)",
+      "en": "I'd like to hear your requirements. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S09-043",
+      "kr": "다음 조건으로 제안합니다. (v5)",
+      "en": "We propose the following terms. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S09-044",
+      "kr": "상호 이익이 되는 방안을 찾아보겠습니다. (v5)",
+      "en": "Let's find a mutually beneficial solution. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S09-045",
+      "kr": "어느 정도 융통성이 있습니다. (v5)",
+      "en": "We have some flexibility in this matter. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S09-046",
+      "kr": "계약 조건을 논의해 봅시다. (v5)",
+      "en": "Let's discuss the contract terms. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A3-S09-047",
+      "kr": "예산 범위 내에서 최선을 다하겠습니다. (v5)",
+      "en": "We'll do our best within your budget range. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A3-S09-048",
+      "kr": "대안을 제시해 보겠습니다. (v5)",
+      "en": "Let me suggest an alternative. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A3-S09-049",
+      "kr": "이 제안을 검토해 보시겠습니까? (v5)",
+      "en": "Would you consider this proposal? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A3-S09-050",
+      "kr": "양측 모두에게 공정한 거래입니다. (v5)",
+      "en": "This is a fair deal for both parties. (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 10,
+    "wh_q": 5
+  },
+  "status": "generated",
+  "batch": "L4_Business_Batch1"
+}

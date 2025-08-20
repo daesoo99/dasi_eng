@@ -69,7 +69,7 @@ export const AudioV2Test: React.FC = () => {
       <div className="mb-6 p-4 border rounded-lg bg-gray-50">
         <h3 className="text-lg font-semibold mb-3">Create Session</h3>
         <div className="flex gap-2 flex-wrap">
-          {[1, 2, 3, 4, 5, 6].map(level => (
+          {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(level => (
             <button
               key={level}
               onClick={() => createSession(level)}
@@ -172,7 +172,7 @@ export const AudioV2Test: React.FC = () => {
       <div className="mt-6 p-4 border rounded-lg bg-blue-50">
         <h3 className="text-lg font-semibold mb-2 text-blue-800">Test Instructions</h3>
         <ol className="list-decimal list-inside text-sm text-blue-700 space-y-1">
-          <li>Create a session for any level (L1-L6)</li>
+          <li>Create a session for any level (L1-L10)</li>
           <li>Start the session to begin the standard lifecycle</li>
           <li>Test pause/resume functionality during different states</li>
           <li>Test cancel to ensure proper cleanup</li>

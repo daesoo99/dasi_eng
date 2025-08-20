@@ -1,0 +1,82 @@
+{
+  "id": "Lv4-A2-S07",
+  "title": "결론 및 권고사항",
+  "intent": "프레젠테이션의 핵심 내용을 요약하고 구체적이고 실행 가능한 권고사항을 제시한다.",
+  "focus": [
+    "CONCLUSION-SUMMARY",
+    "RECOMMENDATIONS",
+    "ACTION-ORIENTED",
+    "PERSUASIVE-LANGUAGE"
+  ],
+  "lexset": [
+    "recommend, suggest, propose, implement, strategy, solution, benefit, advantage, result, outcome"
+  ],
+  "traps": [
+    "권고 표현 (recommend vs suggest vs advise)",
+    "조건부 표현 (If we implement this, we will...)",
+    "이익/결과 연결 (This will result in...)",
+    "요약 연결어 정확한 사용"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.7,
+    "neg": 0.1,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "권고 강도",
+    "실행 방안",
+    "예상 결과",
+    "시간 계획"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "결론적으로 새로운 시스템 도입을 권합니다.",
+      "en": "In conclusion, I recommend implementing the new system."
+    },
+    {
+      "kr": "이 전략의 주요 이점은 비용 절감입니다.",
+      "en": "The main benefit of this strategy is cost reduction."
+    },
+    {
+      "kr": "즉시 실행할 수 있는 솔루션입니다.",
+      "en": "This is a solution we can implement immediately."
+    },
+    {
+      "kr": "예상 결과는 다음과 같습니다.",
+      "en": "The expected outcomes are as follows."
+    },
+    {
+      "kr": "이 제안을 채택하면 경쟁 우위를 확보할 수 있습니다.",
+      "en": "Adopting this proposal will give us a competitive advantage."
+    },
+    {
+      "kr": "투자 대비 수익률이 높을 것으로 예상됩니다.",
+      "en": "We expect a high return on investment."
+    },
+    {
+      "kr": "3개월 내에 결과를 볼 수 있을 것입니다.",
+      "en": "We should see results within three months."
+    },
+    {
+      "kr": "모든 부서의 협력이 필요합니다.",
+      "en": "We'll need cooperation from all departments."
+    },
+    {
+      "kr": "리스크는 최소화하고 이익은 극대화할 수 있습니다.",
+      "en": "We can minimize risks while maximizing benefits."
+    },
+    {
+      "kr": "다음 단계로 파일럿 프로그램을 제안합니다.",
+      "en": "As the next step, I propose a pilot program."
+    }
+  ]
+}

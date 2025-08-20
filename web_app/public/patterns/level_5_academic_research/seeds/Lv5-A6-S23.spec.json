@@ -1,0 +1,89 @@
+{
+  "id": "Lv5-A6-S23",
+  "title": "학술적 비판적 사고",
+  "intent": "학술 정보를 비판적으로 분석하고 논리적 추론을 통해 결론을 도출한다.",
+  "focus": [
+    "CRITICAL-THINKING",
+    "ANALYTICAL-REASONING",
+    "LOGICAL-EVALUATION",
+    "SKEPTICAL-INQUIRY"
+  ],
+  "lexset": [
+    "critical, analytical, logical, reasoning, evaluation, assessment, skepticism, scrutiny, examination, judgment"
+  ],
+  "grammar_meta": [
+    "CRITICAL-ANALYSIS",
+    "REASONING-STRUCTURES",
+    "EVALUATION-LANGUAGE",
+    "LOGICAL-CONNECTORS"
+  ],
+  "academic_level": "C2",
+  "traps": [
+    "비판적 vs 부정적",
+    "분석적 vs 해석적",
+    "논리적 vs 합리적",
+    "회의적 vs 의심적"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.5,
+    "neg": 0.3,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "분석 대상",
+    "비판 수준",
+    "추론 방식",
+    "결론 도출"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "비판적 사고가 연구의 기본입니다.",
+      "en": "Critical thinking is fundamental to research."
+    },
+    {
+      "kr": "논리적 추론을 통해 결론에 도달했습니다.",
+      "en": "We reached conclusions through logical reasoning."
+    },
+    {
+      "kr": "분석적 접근이 필요한 문제입니다.",
+      "en": "This is a problem that requires an analytical approach."
+    },
+    {
+      "kr": "회의적 관점에서 검토해야 합니다.",
+      "en": "It should be examined from a skeptical perspective."
+    },
+    {
+      "kr": "엄밀한 검증이 요구됩니다.",
+      "en": "Rigorous verification is required."
+    },
+    {
+      "kr": "판단력이 연구자의 핵심 능력입니다.",
+      "en": "Judgment is a core ability of researchers."
+    },
+    {
+      "kr": "비판적 평가를 통해 개선합니다.",
+      "en": "We improve through critical evaluation."
+    },
+    {
+      "kr": "논리적 일관성을 유지해야 합니다.",
+      "en": "Logical consistency must be maintained."
+    },
+    {
+      "kr": "분석적 사고가 깊이를 더해줍니다.",
+      "en": "Analytical thinking adds depth."
+    },
+    {
+      "kr": "비판적 검토가 질을 보장합니다.",
+      "en": "Critical review ensures quality."
+    }
+  ]
+}

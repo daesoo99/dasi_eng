@@ -512,7 +512,9 @@
         // 훈련 시작
         function startTraining() {
             if (isRunning && !isPaused) return;
-            
+              // 재시작/재개 전, 남아있을 수 있는 리소스 정리
+            stopAllAudio();
+
             if (!isRunning) {
                 currentQuestions = shuffleQuestions();
                 currentIndex = 0;
@@ -1057,6 +1059,7 @@
         
         // 훈련 재설정
         function resetTraining() {
+            stopAllAudio();
             isRunning = false;
             isPaused = false;
             currentIndex = 0;

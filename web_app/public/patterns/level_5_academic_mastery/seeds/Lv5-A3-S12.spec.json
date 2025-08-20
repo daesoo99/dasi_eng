@@ -1,0 +1,89 @@
+{
+  "id": "Lv5-A3-S12",
+  "title": "학술 윤리 및 연구 무결성 (Bridge)",
+  "intent": "학술 연구에서 윤리적 기준을 준수하고 연구 무결성을 확보한다.",
+  "focus": [
+    "RESEARCH-ETHICS",
+    "ACADEMIC-INTEGRITY",
+    "SCHOLARLY-STANDARDS",
+    "ETHICAL-CONSIDERATIONS"
+  ],
+  "lexset": [
+    "ethics, integrity, responsibility, transparency, accountability, plagiarism, fabrication, misconduct, standards, protocol"
+  ],
+  "grammar_meta": [
+    "MODAL-OBLIGATION",
+    "PASSIVE-ETHICS",
+    "CONDITIONAL-ETHICS",
+    "NORMATIVE-EXPRESSIONS"
+  ],
+  "academic_level": "C1",
+  "traps": [
+    "윤리적 의무 표현",
+    "연구 부정행위 용어",
+    "투명성 확보 방법",
+    "책임감 있는 연구 언어"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.3,
+    "wh_q": 0.1
+  },
+  "variants": [
+    "윤리 영역",
+    "준수 수준",
+    "투명성",
+    "책임감"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "연구 윤리 기준을 엄격히 준수해야 합니다.",
+      "en": "Research ethical standards must be strictly observed."
+    },
+    {
+      "kr": "학술적 무결성이 연구의 신뢰성을 보장합니다.",
+      "en": "Academic integrity ensures research credibility."
+    },
+    {
+      "kr": "투명한 연구 과정이 윤리적 책임을 나타냅니다.",
+      "en": "Transparent research processes demonstrate ethical responsibility."
+    },
+    {
+      "kr": "표절과 같은 연구 부정행위를 방지해야 합니다.",
+      "en": "Research misconduct such as plagiarism must be prevented."
+    },
+    {
+      "kr": "연구자는 사회적 책임을 인식해야 합니다.",
+      "en": "Researchers must recognize their social responsibility."
+    },
+    {
+      "kr": "윤리 위원회의 승인을 받은 연구입니다.",
+      "en": "This research has been approved by the ethics committee."
+    },
+    {
+      "kr": "데이터 조작이나 위조는 용납될 수 없습니다.",
+      "en": "Data manipulation or fabrication cannot be tolerated."
+    },
+    {
+      "kr": "연구 참여자의 권익을 보호해야 합니다.",
+      "en": "The rights and interests of research participants must be protected."
+    },
+    {
+      "kr": "학술적 정직성이 연구의 기본 원칙입니다.",
+      "en": "Academic honesty is a fundamental principle of research."
+    },
+    {
+      "kr": "윤리적 딜레마에 대한 신중한 고려가 필요합니다.",
+      "en": "Careful consideration of ethical dilemmas is necessary."
+    }
+  ]
+}

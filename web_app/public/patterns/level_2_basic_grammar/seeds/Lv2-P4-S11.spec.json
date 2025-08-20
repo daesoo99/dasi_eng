@@ -1,0 +1,90 @@
+{
+  "id": "Lv2-P4-S11",
+  "title": "Wh-의문문(현재·과거·빈도·수량)",
+  "intent": "What/Where/When/Who/Why/How(+often/many/much)로 자연스러운 정보 질문을 만들고 답한다.",
+  "focus": [
+    "WH-QUESTIONS",
+    "DO-SUPPORT",
+    "WORD-ORDER",
+    "COUNT-UNCOUNT"
+  ],
+  "lexset": [
+    "go, come, buy, cost, start, finish, meet, call, study, work out, take, take time, happen"
+  ],
+  "traps": [
+    "be동사 vs 일반동사 의문문 구분(Where are you? / Where do you go?)",
+    "전치사 위치(Who did you talk to?)",
+    "How much/many 가산/불가산",
+    "시제 일치(When did you move?)"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.2,
+    "neg": 0.1,
+    "wh_q": 0.7
+  },
+  "variants": [
+    "현재/과거",
+    "빈도/수량",
+    "장소/시간/이유/방법",
+    "주어/목적어 who"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "보통 어디서 운동해?",
+      "en": "Where do you usually work out?"
+    },
+    {
+      "kr": "언제 이사 왔어?",
+      "en": "When did you move here?"
+    },
+    {
+      "kr": "뭘 찾고 있어?",
+      "en": "What are you looking for?"
+    },
+    {
+      "kr": "누구랑 통화했어?",
+      "en": "Who did you talk to?"
+    },
+    {
+      "kr": "왜 늦었어?",
+      "en": "Why were you late?"
+    },
+    {
+      "kr": "얼마나 자주 거기 가?",
+      "en": "How often do you go there?"
+    },
+    {
+      "kr": "그건 얼마예요?",
+      "en": "How much does it cost?"
+    },
+    {
+      "kr": "몇 명이 올 거야?",
+      "en": "How many people are coming?"
+    },
+    {
+      "kr": "회의는 몇 시에 시작해?",
+      "en": "What time does the meeting start?"
+    },
+    {
+      "kr": "어디로 가고 있어?",
+      "en": "Where are you heading?"
+    },
+    {
+      "kr": "왜 그걸 샀어?",
+      "en": "Why did you buy that?"
+    },
+    {
+      "kr": "어떻게 여기에 왔어?",
+      "en": "How did you get here?"
+    }
+  ]
+}

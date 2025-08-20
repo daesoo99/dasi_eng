@@ -10,27 +10,59 @@ interface WritingModeInputProps {
     stage: number;
     difficulty: 'easy' | 'medium' | 'hard';
   };
+  value?: string;
   onSubmit: (userInput: string, feedback: WritingFeedback) => void;
+  onInputChange?: (value: string) => void;
   onCorrectAnswer?: () => void;
+  onAutoNext?: () => void;
   disabled?: boolean;
 }
 
 export const WritingModeInput: React.FC<WritingModeInputProps> = ({
   question,
+  value = '',
   onSubmit,
+  onInputChange,
   onCorrectAnswer,
+  onAutoNext,
   disabled = false
 }) => {
-  const [userInput, setUserInput] = useState('');
+  const [userInput, setUserInput] = useState(value);
   const [isProcessing, setIsProcessing] = useState(false);
   const [showRealTimeFeedback, setShowRealTimeFeedback] = useState(false);
   const [realTimeErrors, setRealTimeErrors] = useState<{
     grammar: GrammarError[];
     spelling: SpellingError[];
   }>({ grammar: [], spelling: [] });
+  const [feedbackSubmitted, setFeedbackSubmitted] = useState(false);
   
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const debounceRef = useRef<NodeJS.Timeout>();
+
+  // External value 변경 시 내부 상태 동기화 및 자동 포커스
+  useEffect(() => {
+    setUserInput(value);
+    // 새 카드일 때만 feedbackSubmitted 리셋 (value가 ''일 때)
+    if (value === '') {
+      setFeedbackSubmitted(false);
+    }
+    
+    // 새 카드로 전환 시 입력창에 자동 포커스
+    if (textareaRef.current && value === '') {
+      setTimeout(() => {
+        textareaRef.current?.focus();
+      }, 150); // 약간 더 긴 딜레이로 안정성 보장
+    }
+  }, [value]);
+
+  // 컴포넌트 마운트 시 자동 포커스
+  useEffect(() => {
+    if (textareaRef.current && !disabled) {
+      setTimeout(() => {
+        textareaRef.current?.focus();
+      }, 200);
+    }
+  }, [disabled]);
 
   // 실시간 문법/맞춤법 체크 (디바운스)
   useEffect(() => {
@@ -84,10 +116,15 @@ export const WritingModeInput: React.FC<WritingModeInputProps> = ({
       );
 
       onSubmit(userInput, feedback);
+      setFeedbackSubmitted(true);
+      console.log('✅ 피드백 제출 완료, feedbackSubmitted:', true);
 
       if (feedback.isCorrect && onCorrectAnswer) {
         onCorrectAnswer();
       }
+
+      // 피드백 처리 완료 - 자동 진행은 두 번째 엔터키로만 가능
+      // 더 이상 자동 카운트다운 없음
     } catch (error) {
       console.error('Writing 피드백 생성 실패:', error);
     } finally {
@@ -98,7 +135,18 @@ export const WritingModeInput: React.FC<WritingModeInputProps> = ({
   const handleKeyPress = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter' && !e.shiftKey) {
       e.preventDefault();
-      handleSubmit();
+      
+      console.log('🔍 엔터키 눌림:', { feedbackSubmitted, onAutoNext: !!onAutoNext });
+      
+      if (feedbackSubmitted && onAutoNext) {
+        // 피드백이 이미 제출된 상태에서 엔터키 = 즉시 다음 카드로 진행
+        console.log('✅ 다음 카드로 진행');
+        onAutoNext();
+      } else {
+        // 첫 번째 엔터키 = 답안 제출
+        console.log('📝 답안 제출');
+        handleSubmit();
+      }
     }
   };
 
@@ -147,11 +195,15 @@ export const WritingModeInput: React.FC<WritingModeInputProps> = ({
           <textarea
             ref={textareaRef}
             value={userInput}
-            onChange={(e) => setUserInput(e.target.value)}
+            onChange={(e) => {
+              const newValue = e.target.value;
+              setUserInput(newValue);
+              onInputChange?.(newValue);
+            }}
             onKeyPress={handleKeyPress}
-            className={`w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none text-lg ${
-              disabled ? 'bg-gray-100 cursor-not-allowed' : ''
-            } ${showRealTimeFeedback ? 'border-yellow-400' : 'border-gray-300'}`}
+            className={`w-full px-4 py-4 border rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent resize-none text-body ${
+              disabled ? 'bg-secondary-100 cursor-not-allowed' : ''
+            } ${showRealTimeFeedback ? 'border-warning' : 'border-secondary-300'}`}
             placeholder="영어로 작성하세요... (Enter로 제출, Shift+Enter로 줄바꿈)"
             rows={3}
             disabled={disabled || isProcessing}
@@ -169,7 +221,7 @@ export const WritingModeInput: React.FC<WritingModeInputProps> = ({
         </div>
 
         {/* 글자 수 표시 */}
-        <div className="flex justify-between items-center mt-2 text-sm text-gray-500">
+        <div className="flex justify-between items-center mt-4 text-caption text-secondary-500">
           <span>{userInput.length} characters</span>
           <span>Enter로 제출</span>
         </div>
@@ -230,7 +282,7 @@ export const WritingModeInput: React.FC<WritingModeInputProps> = ({
       <button
         onClick={handleSubmit}
         disabled={!userInput.trim() || isProcessing || disabled}
-        className="w-full bg-blue-600 hover:bg-blue-700 disabled:bg-gray-400 text-white font-bold py-3 px-6 rounded-lg transition-colors text-lg"
+        className="w-full bg-primary-600 hover:bg-primary-700 disabled:bg-secondary-400 text-white py-4 px-8 rounded-lg transition-colors text-h3"
       >
         {isProcessing ? (
           <div className="flex items-center justify-center">
@@ -238,18 +290,34 @@ export const WritingModeInput: React.FC<WritingModeInputProps> = ({
             문법 검사 중...
           </div>
         ) : (
-          '✍️ 작성 완료 및 검사'
+          '작성 완료 및 검사'
         )}
       </button>
 
+      {/* 다음 카드 진행 안내 */}
+      {feedbackSubmitted && (
+        <div className="bg-accent-50 border border-accent-200 rounded-lg p-4 text-center">
+          <div className="text-accent-800">
+            <div className="text-h3 mb-4">답변이 제출되었습니다!</div>
+            <div className="text-caption">
+              <span className="font-medium">Enter키</span>를 눌러 다음 카드로 진행하세요
+            </div>
+            <div className="mt-2 text-small text-accent-600">
+              또는 "다음 카드" 버튼을 클릭하세요
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* 도움말 */}
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-3">
-        <div className="text-sm text-blue-800">
-          <strong>💡 Writing 모드 팁:</strong>
-          <ul className="mt-1 space-y-1 text-xs">
+      <div className="bg-primary-50 border border-primary-200 rounded-lg p-4">
+        <div className="text-caption text-primary-800">
+          <div className="text-h3 mb-4">Writing 모드 팁</div>
+          <ul className="space-y-2 text-small">
             <li>• 실시간으로 문법과 맞춤법이 체크됩니다</li>
             <li>• 오류가 발견되면 클릭해서 바로 수정할 수 있습니다</li>
             <li>• 제출 후 상세한 개선 제안을 받을 수 있습니다</li>
+            <li>• 첫 번째 엔터키로 제출, 두 번째 엔터키로 다음 카드 진행</li>
           </ul>
         </div>
       </div>

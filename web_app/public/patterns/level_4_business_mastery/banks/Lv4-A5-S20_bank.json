@@ -1,0 +1,620 @@
+{
+  "stage_id": "Lv4-A5-S20",
+  "title": "서비스 종료 및 관계 유지",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv4-A5-S20-001",
+      "kr": "서비스가 성공적으로 완료되었습니다. (비즈니스 1)",
+      "en": "The service has been successfully completed. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-002",
+      "kr": "만족스러우셨기를 바랍니다. (비즈니스 1)",
+      "en": "I hope you were satisfied. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-003",
+      "kr": "언제든지 다시 연락주세요. (비즈니스 1)",
+      "en": "Please contact us again anytime. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-004",
+      "kr": "앞으로도 좋은 관계를 유지하고 싶습니다. (비즈니스 1)",
+      "en": "We would like to maintain a good relationship. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-005",
+      "kr": "추천해 주시면 감사하겠습니다. (비즈니스 1)",
+      "en": "We would appreciate your recommendation. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-006",
+      "kr": "서비스 경험이 좋으셨나요? (비즈니스 1)",
+      "en": "Was your service experience good? (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-007",
+      "kr": "향후 기회가 있다면 함께 일하고 싶습니다. (비즈니스 1)",
+      "en": "We would like to work together if there are future opportunities. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-008",
+      "kr": "피드백을 남겨주시면 도움이 됩니다. (비즈니스 1)",
+      "en": "Your feedback would be helpful. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-009",
+      "kr": "함께 일할 수 있어서 즐거웠습니다. (비즈니스 1)",
+      "en": "It has been a pleasure working with you. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-010",
+      "kr": "필요하실 때 언제든 도움을 드리겠습니다. (비즈니스 1)",
+      "en": "We will assist you whenever you need it. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-011",
+      "kr": "서비스가 성공적으로 완료되었습니다. (비즈니스 2)",
+      "en": "The service has been successfully completed. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-012",
+      "kr": "만족스러우셨기를 바랍니다. (비즈니스 2)",
+      "en": "I hope you were satisfied. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-013",
+      "kr": "언제든지 다시 연락주세요. (비즈니스 2)",
+      "en": "Please contact us again anytime. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-014",
+      "kr": "앞으로도 좋은 관계를 유지하고 싶습니다. (비즈니스 2)",
+      "en": "We would like to maintain a good relationship. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-015",
+      "kr": "추천해 주시면 감사하겠습니다. (비즈니스 2)",
+      "en": "We would appreciate your recommendation. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-016",
+      "kr": "서비스 경험이 좋으셨나요? (비즈니스 2)",
+      "en": "Was your service experience good? (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-017",
+      "kr": "향후 기회가 있다면 함께 일하고 싶습니다. (비즈니스 2)",
+      "en": "We would like to work together if there are future opportunities. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-018",
+      "kr": "피드백을 남겨주시면 도움이 됩니다. (비즈니스 2)",
+      "en": "Your feedback would be helpful. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-019",
+      "kr": "함께 일할 수 있어서 즐거웠습니다. (비즈니스 2)",
+      "en": "It has been a pleasure working with you. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-020",
+      "kr": "필요하실 때 언제든 도움을 드리겠습니다. (비즈니스 2)",
+      "en": "We have assist you whenever you need it. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-021",
+      "kr": "서비스가 성공적으로 완료되었습니다. (비즈니스 3)",
+      "en": "If needed, the service has been successfully completed. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-022",
+      "kr": "만족스러우셨기를 바랍니다. (비즈니스 3)",
+      "en": "If needed, i hope you were satisfied. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-023",
+      "kr": "언제든지 다시 연락주세요. (비즈니스 3)",
+      "en": "If needed, please contact us again anytime. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-024",
+      "kr": "앞으로도 좋은 관계를 유지하고 싶습니다. (비즈니스 3)",
+      "en": "If needed, we would like to maintain a good relationship. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-025",
+      "kr": "추천해 주시면 감사하겠습니다. (비즈니스 3)",
+      "en": "If needed, we would appreciate your recommendation. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-026",
+      "kr": "서비스 경험이 좋으셨나요? (비즈니스 3)",
+      "en": "If needed, was your service experience good? (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-027",
+      "kr": "향후 기회가 있다면 함께 일하고 싶습니다. (비즈니스 3)",
+      "en": "If needed, we would like to work together if there are future opportunities. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-028",
+      "kr": "피드백을 남겨주시면 도움이 됩니다. (비즈니스 3)",
+      "en": "If needed, your feedback would be helpful. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-029",
+      "kr": "함께 일할 수 있어서 즐거웠습니다. (비즈니스 3)",
+      "en": "If needed, it has been a pleasure working with you. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-030",
+      "kr": "필요하실 때 언제든 도움을 드리겠습니다. (비즈니스 3)",
+      "en": "If needed, we have assist you whenever you need it. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-031",
+      "kr": "서비스가 성공적으로 완료되었습니다. (비즈니스 4)",
+      "en": "If needed, the service has been successfully completed. (business variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-032",
+      "kr": "만족스러우셨기를 바랍니다. (비즈니스 4)",
+      "en": "If needed, i hope you were satisfied. (business variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-033",
+      "kr": "언제든지 다시 연락주세요. (비즈니스 4)",
+      "en": "If needed, please contact us again anytime. (business variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-034",
+      "kr": "앞으로도 좋은 관계를 유지하고 싶습니다. (비즈니스 4)",
+      "en": "If needed, we would like to maintain a good relationship. (business variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-035",
+      "kr": "추천해 주시면 감사하겠습니다. (비즈니스 4)",
+      "en": "If needed, we would appreciate your recommendation. (business variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-036",
+      "kr": "서비스 경험이 좋으셨나요? (비즈니스 4)",
+      "en": "If needed, was your service experience good? (business variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-037",
+      "kr": "향후 기회가 있다면 함께 일하고 싶습니다. (비즈니스 4)",
+      "en": "If needed, we would like to work together if there are future opportunities. (business variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-038",
+      "kr": "피드백을 남겨주시면 도움이 됩니다. (비즈니스 4)",
+      "en": "If needed, your feedback would be helpful. (business variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-039",
+      "kr": "함께 일할 수 있어서 즐거웠습니다. (비즈니스 4)",
+      "en": "If needed, it has been a pleasure working with you. (business variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-040",
+      "kr": "필요하실 때 언제든 도움을 드리겠습니다. (비즈니스 4)",
+      "en": "If needed, we have assist you whenever you need it. (business variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-041",
+      "kr": "서비스가 성공적으로 완료되었습니다. (비즈니스 5)",
+      "en": "If needed, the service has been successfully completed. (business variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-042",
+      "kr": "만족스러우셨기를 바랍니다. (비즈니스 5)",
+      "en": "If needed, i hope you were satisfied. (business variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-043",
+      "kr": "언제든지 다시 연락주세요. (비즈니스 5)",
+      "en": "If needed, please contact us again anytime. (business variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-044",
+      "kr": "앞으로도 좋은 관계를 유지하고 싶습니다. (비즈니스 5)",
+      "en": "If needed, we would like to maintain a good relationship. (business variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-045",
+      "kr": "추천해 주시면 감사하겠습니다. (비즈니스 5)",
+      "en": "If needed, we would appreciate your recommendation. (business variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-046",
+      "kr": "서비스 경험이 좋으셨나요? (비즈니스 5)",
+      "en": "If needed, was your service experience good? (business variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-047",
+      "kr": "향후 기회가 있다면 함께 일하고 싶습니다. (비즈니스 5)",
+      "en": "If needed, we would like to work together if there are future opportunities. (business variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-048",
+      "kr": "피드백을 남겨주시면 도움이 됩니다. (비즈니스 5)",
+      "en": "If needed, your feedback would be helpful. (business variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-049",
+      "kr": "함께 일할 수 있어서 즐거웠습니다. (비즈니스 5)",
+      "en": "If needed, it has been a pleasure working with you. (business variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    },
+    {
+      "id": "Lv4-A5-S20-050",
+      "kr": "필요하실 때 언제든 도움을 드리겠습니다. (비즈니스 5)",
+      "en": "If needed, we have assist you whenever you need it. (business variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PRESENT-PERFECT",
+        "FUTURE-WILL",
+        "CONDITIONAL-1ST",
+        "MODAL-WOULD"
+      ]
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 10,
+    "wh_q": 5
+  },
+  "grammar_meta": [
+    "PRESENT-PERFECT",
+    "FUTURE-WILL",
+    "CONDITIONAL-1ST",
+    "MODAL-WOULD"
+  ],
+  "status": "generated",
+  "batch": "L4_Business_Batch2"
+}

@@ -1,0 +1,671 @@
+{
+  "stage_id": "Lv5-A1-S04",
+  "title": "데이터 수집 및 분석 (Bridge)",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv5-A1-S04-001",
+      "kr": "데이터 수집이 완료된 후 분석을 시작했습니다. (학술 1)",
+      "en": "Analysis began after data collection was completed. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-002",
+      "kr": "통계적 유의성이 모든 변수에서 확인되었습니다. (학술 1)",
+      "en": "Statistical significance was confirmed across all variables. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-003",
+      "kr": "상관관계 분석 결과 강한 연관성이 나타났습니다. (학술 1)",
+      "en": "Correlation analysis revealed strong associations. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-004",
+      "kr": "표본의 대표성이 모집단 추론을 가능하게 합니다. (학술 1)",
+      "en": "Sample representativeness enables population inference. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-005",
+      "kr": "분산 분석을 통해 집단 간 차이를 검증했습니다. (학술 1)",
+      "en": "We verified group differences through variance analysis. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-006",
+      "kr": "회귀 분석이 예측 모형의 정확성을 보여줍니다. (학술 1)",
+      "en": "Regression analysis demonstrates the accuracy of the predictive model. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-007",
+      "kr": "수집된 증거가 가설을 뒷받침합니다. (학술 1)",
+      "en": "The collected evidence supports the hypothesis. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-008",
+      "kr": "분포의 정규성이 분석 방법 선택에 영향을 미쳤습니다. (학술 1)",
+      "en": "The normality of distribution influenced the choice of analytical methods. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-009",
+      "kr": "다변량 분석을 통해 복합적 관계를 규명했습니다. (학술 1)",
+      "en": "We identified complex relationships through multivariate analysis. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-010",
+      "kr": "데이터의 신뢰구간이 결과의 정확성을 보장합니다. (학술 1)",
+      "en": "The confidence interval of data ensures result accuracy. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-011",
+      "kr": "데이터 수집이 완료된 후 분석을 시작했습니다. (학술 2)",
+      "en": "Analysis began after data collection was completed. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-012",
+      "kr": "통계적 유의성이 모든 변수에서 확인되었습니다. (학술 2)",
+      "en": "Statistical significance was confirmed across all variables. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-013",
+      "kr": "상관관계 분석 결과 강한 연관성이 나타났습니다. (학술 2)",
+      "en": "Correlation analysis revealed strong associations. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-014",
+      "kr": "표본의 대표성이 모집단 추론을 가능하게 합니다. (학술 2)",
+      "en": "Sample representativeness enables population inference. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-015",
+      "kr": "분산 분석을 통해 집단 간 차이를 검증했습니다. (학술 2)",
+      "en": "We verified group differences through variance analysis. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-016",
+      "kr": "회귀 분석이 예측 모형의 정확성을 보여줍니다. (학술 2)",
+      "en": "Regression analysis demonstrates the accuracy of the predictive model. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-017",
+      "kr": "수집된 증거가 가설을 뒷받침합니다. (학술 2)",
+      "en": "The collected evidence supports the hypothesis. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-018",
+      "kr": "분포의 정규성이 분석 방법 선택에 영향을 미쳤습니다. (학술 2)",
+      "en": "The normality of distribution influenced the choice of analytical methods. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-019",
+      "kr": "다변량 분석을 통해 복합적 관계를 규명했습니다. (학술 2)",
+      "en": "We identified complex relationships through multivariate analysis. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-020",
+      "kr": "데이터의 신뢰구간이 결과의 정확성을 보장합니다. (학술 2)",
+      "en": "The confidence interval of data ensures result accuracy. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-021",
+      "kr": "데이터 수집이 완료된 후 분석을 시작했습니다. (학술 3)",
+      "en": "Analysis began after data collection was completed. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-022",
+      "kr": "통계적 유의성이 모든 변수에서 확인되었습니다. (학술 3)",
+      "en": "Statistical significance was confirmed across all variables. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-023",
+      "kr": "상관관계 분석 결과 강한 연관성이 나타났습니다. (학술 3)",
+      "en": "Correlation analysis revealed strong associations. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-024",
+      "kr": "표본의 대표성이 모집단 추론을 가능하게 합니다. (학술 3)",
+      "en": "Sample representativeness enables population inference. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-025",
+      "kr": "분산 분석을 통해 집단 간 차이를 검증했습니다. (학술 3)",
+      "en": "We verified group differences through variance analysis. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-026",
+      "kr": "회귀 분석이 예측 모형의 정확성을 보여줍니다. (학술 3)",
+      "en": "Regression analysis demonstrates the accuracy of the predictive model. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-027",
+      "kr": "수집된 증거가 가설을 뒷받침합니다. (학술 3)",
+      "en": "The collected evidence supports the hypothesis. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-028",
+      "kr": "분포의 정규성이 분석 방법 선택에 영향을 미쳤습니다. (학술 3)",
+      "en": "The normality of distribution influenced the choice of analytical methods. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-029",
+      "kr": "다변량 분석을 통해 복합적 관계를 규명했습니다. (학술 3)",
+      "en": "We identified complex relationships through multivariate analysis. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-030",
+      "kr": "데이터의 신뢰구간이 결과의 정확성을 보장합니다. (학술 3)",
+      "en": "The confidence interval of data ensures result accuracy. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-031",
+      "kr": "데이터 수집이 완료된 후 분석을 시작했습니다. (학술 4)",
+      "en": "Analysis began after data collection was completed. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-032",
+      "kr": "통계적 유의성이 모든 변수에서 확인되었습니다. (학술 4)",
+      "en": "Statistical significance was confirmed across all variables. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-033",
+      "kr": "상관관계 분석 결과 강한 연관성이 나타났습니다. (학술 4)",
+      "en": "Correlation analysis revealed strong associations. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-034",
+      "kr": "표본의 대표성이 모집단 추론을 가능하게 합니다. (학술 4)",
+      "en": "Sample representativeness enables population inference. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-035",
+      "kr": "분산 분석을 통해 집단 간 차이를 검증했습니다. (학술 4)",
+      "en": "We verified group differences through variance analysis. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-036",
+      "kr": "회귀 분석이 예측 모형의 정확성을 보여줍니다. (학술 4)",
+      "en": "Regression analysis demonstrates the accuracy of the predictive model. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-037",
+      "kr": "수집된 증거가 가설을 뒷받침합니다. (학술 4)",
+      "en": "The collected evidence supports the hypothesis. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-038",
+      "kr": "분포의 정규성이 분석 방법 선택에 영향을 미쳤습니다. (학술 4)",
+      "en": "The normality of distribution influenced the choice of analytical methods. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-039",
+      "kr": "다변량 분석을 통해 복합적 관계를 규명했습니다. (학술 4)",
+      "en": "We identified complex relationships through multivariate analysis. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-040",
+      "kr": "데이터의 신뢰구간이 결과의 정확성을 보장합니다. (학술 4)",
+      "en": "The confidence interval of data ensures result accuracy. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-041",
+      "kr": "데이터 수집이 완료된 후 분석을 시작했습니다. (학술 5)",
+      "en": "Analysis began after data collection was completed. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-042",
+      "kr": "통계적 유의성이 모든 변수에서 확인되었습니다. (학술 5)",
+      "en": "Statistical significance was confirmed across all variables. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-043",
+      "kr": "상관관계 분석 결과 강한 연관성이 나타났습니다. (학술 5)",
+      "en": "Correlation analysis revealed strong associations. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-044",
+      "kr": "표본의 대표성이 모집단 추론을 가능하게 합니다. (학술 5)",
+      "en": "Sample representativeness enables population inference. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-045",
+      "kr": "분산 분석을 통해 집단 간 차이를 검증했습니다. (학술 5)",
+      "en": "We verified group differences through variance analysis. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-046",
+      "kr": "회귀 분석이 예측 모형의 정확성을 보여줍니다. (학술 5)",
+      "en": "Regression analysis demonstrates the accuracy of the predictive model. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-047",
+      "kr": "수집된 증거가 가설을 뒷받침합니다. (학술 5)",
+      "en": "The collected evidence supports the hypothesis. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-048",
+      "kr": "분포의 정규성이 분석 방법 선택에 영향을 미쳤습니다. (학술 5)",
+      "en": "The normality of distribution influenced the choice of analytical methods. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-049",
+      "kr": "다변량 분석을 통해 복합적 관계를 규명했습니다. (학술 5)",
+      "en": "We identified complex relationships through multivariate analysis. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A1-S04-050",
+      "kr": "데이터의 신뢰구간이 결과의 정확성을 보장합니다. (학술 5)",
+      "en": "The confidence interval of data ensures result accuracy. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PAST-PERFECT-RESEARCH",
+        "PASSIVE-DATA",
+        "RELATIVE-COMPLEX",
+        "CONDITIONAL-RESULTS"
+      ],
+      "academic_level": "C1"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10
+  },
+  "grammar_meta": [
+    "PAST-PERFECT-RESEARCH",
+    "PASSIVE-DATA",
+    "RELATIVE-COMPLEX",
+    "CONDITIONAL-RESULTS"
+  ],
+  "academic_level": "C1",
+  "status": "generated",
+  "batch": "L5_Academic_Batch1"
+}

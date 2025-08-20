@@ -20,12 +20,15 @@ const smartReviewService = require('./services/smartReviewService');
 const app = express();
 const server = http.createServer(app);
 
-// Socket.io 설정
+// Socket.io 설정 - 개발 환경에서 더 유연한 CORS 설정
 const io = socketIo(server, {
   cors: {
-    origin: process.env.FRONTEND_URL || "*",
-    methods: ["GET", "POST"],
-    credentials: true
+    origin: process.env.NODE_ENV === 'production' 
+      ? process.env.FRONTEND_URL 
+      : ["http://localhost:3016", "http://localhost:3017", "http://localhost:3018", "http://localhost:3019", "http://localhost:5173", "http://127.0.0.1:3016", "http://127.0.0.1:3017", "http://127.0.0.1:3018", "http://127.0.0.1:3019", "http://127.0.0.1:5173"],
+    methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
+    credentials: true,
+    allowedHeaders: ["Content-Type", "Authorization", "X-Curriculum-Version"]
   },
   pingTimeout: 60000,
   pingInterval: 25000
@@ -33,42 +36,143 @@ const io = socketIo(server, {
 
 const PORT = process.env.PORT || 8080;
 
-// 미들웨어 설정
+// 미들웨어 설정 - 개발 환경에서 더 유연한 CORS 설정
 app.use(cors({
-  origin: process.env.FRONTEND_URL || "*",
-  credentials: true
+  origin: function (origin, callback) {
+    // 개발 환경에서는 origin이 undefined인 경우(Postman, curl 등) 허용
+    if (process.env.NODE_ENV === 'development' && !origin) {
+      return callback(null, true);
+    }
+    
+    const allowedOrigins = process.env.NODE_ENV === 'production' 
+      ? [process.env.FRONTEND_URL]
+      : [
+          "http://localhost:3016", 
+          "http://localhost:3017", 
+          "http://localhost:3018", 
+          "http://localhost:3019", 
+          "http://localhost:5173",
+          "http://localhost:5174",
+          "http://localhost:8080",
+          "http://127.0.0.1:3016", 
+          "http://127.0.0.1:3017", 
+          "http://127.0.0.1:3018", 
+          "http://127.0.0.1:3019", 
+          "http://127.0.0.1:5173",
+          "http://127.0.0.1:5174",
+          "http://127.0.0.1:8080",
+          process.env.FRONTEND_URL
+        ].filter(Boolean);
+
+    if (allowedOrigins.includes(origin) || process.env.NODE_ENV === 'development') {
+      callback(null, true);
+    } else {
+      console.warn(`CORS blocked origin: ${origin}`);
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  credentials: true,
+  methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization", "X-Curriculum-Version", "X-Requested-With"],
+  exposedHeaders: ["X-Total-Count", "X-Page-Count"],
+  optionsSuccessStatus: 200,
+  preflightContinue: false
 }));
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ limit: '10mb', extended: true }));
 
-// Firebase 인증 미들웨어 (개발 모드 수정)
+// 요청 로깅 미들웨어 (개발 모드에서만)
+if (process.env.NODE_ENV === 'development') {
+  app.use((req, res, next) => {
+    console.log(`${new Date().toISOString()} ${req.method} ${req.path}`);
+    next();
+  });
+}
+
+// Request timeout 미들웨어
+app.use((req, res, next) => {
+  res.setTimeout(30000, () => {
+    console.error('Request timeout:', req.path);
+    res.status(408).json({
+      success: false,
+      error: 'Request timeout',
+      code: 'REQUEST_TIMEOUT'
+    });
+  });
+  next();
+});
+
+// Firebase 인증 미들웨어 (개선된 개발 모드)
 const authenticateFirebaseToken = async (req, res, next) => {
   const idToken = req.headers.authorization?.split('Bearer ')[1];
+  const isDevelopment = process.env.NODE_ENV === 'development';
 
   // 개발 모드에서는 토큰 없이도 통과
   if (!idToken) {
-    console.log('⚠️  개발 모드: 인증 토큰 없이 진행');
-    req.user = { uid: 'dev-user', email: 'dev@example.com' }; // Mock user
-    return next();
+    if (isDevelopment) {
+      console.log('🔓 개발 모드: 인증 토큰 없이 진행');
+      req.user = { 
+        uid: 'dev-user', 
+        email: 'dev@example.com',
+        name: 'Development User',
+        picture: null,
+        email_verified: true
+      };
+      return next();
+    } else {
+      return res.status(401).json({ 
+        success: false, 
+        error: 'Authorization token required',
+        code: 'AUTH_TOKEN_MISSING'
+      });
+    }
   }
 
   try {
-    if (admin.apps.length === 0) {
-      // Firebase 초기화되지 않음 - 개발 모드로 진행
-      console.log('⚠️  개발 모드: Firebase 미초기화 상태');
-      req.user = { uid: 'dev-user', email: 'dev@example.com' }; // Mock user
-      return next();
+    if (admin.apps.length === 0 || !admin.auth) {
+      if (isDevelopment) {
+        console.log('🔓 개발 모드: Firebase 미초기화 상태');
+        req.user = { 
+          uid: 'dev-user', 
+          email: 'dev@example.com',
+          name: 'Development User',
+          picture: null,
+          email_verified: true
+        };
+        return next();
+      } else {
+        return res.status(500).json({ 
+          success: false, 
+          error: 'Authentication service unavailable',
+          code: 'AUTH_SERVICE_ERROR'
+        });
+      }
     }
     
     const decodedToken = await admin.auth().verifyIdToken(idToken);
     req.user = decodedToken;
+    console.log(`✅ 사용자 인증 성공: ${decodedToken.email || decodedToken.uid}`);
     next();
   } catch (error) {
-    console.error('Error verifying Firebase ID token:', error);
-    // 개발 모드에서는 에러 시에도 진행
-    console.log('⚠️  개발 모드: 토큰 인증 실패하여 Mock user로 진행');
-    req.user = { uid: 'dev-user', email: 'dev@example.com' };
-    next();
+    console.error('Firebase ID 토큰 검증 실패:', error.message);
+    
+    if (isDevelopment) {
+      console.log('🔓 개발 모드: 토큰 인증 실패하여 Mock user로 진행');
+      req.user = { 
+        uid: 'dev-user', 
+        email: 'dev@example.com',
+        name: 'Development User',
+        picture: null,
+        email_verified: true
+      };
+      next();
+    } else {
+      res.status(401).json({ 
+        success: false, 
+        error: 'Invalid or expired token',
+        code: 'AUTH_TOKEN_INVALID'
+      });
+    }
   }
 };
 
@@ -459,27 +563,136 @@ app.post('/api/curriculum/upsert', async (req, res) => {
   }
 });
 
-// Level 1 데이터 로더
+// Level 1 데이터 로더 및 캐싱 시스템
 const fs = require('fs');
 const path = require('path');
 
-let level1Data = null;
+// 메모리 캐시
+const cache = {
+  level1Data: null,
+  curriculumData: new Map(),
+  lastAccessed: new Map()
+};
+
+const CACHE_TTL = 5 * 60 * 1000; // 5분 TTL
 
 function loadLevel1Data() {
-  if (!level1Data) {
-    try {
-      const filePath = path.join(__dirname, '../level1_generated_data.json');
-      level1Data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-      console.log('✅ Level 1 데이터 로드 완료');
-    } catch (error) {
-      console.error('❌ Level 1 데이터 로드 실패:', error);
-      level1Data = {};
-    }
+  // 캐시 확인
+  const cacheKey = 'level1';
+  const lastAccess = cache.lastAccessed.get(cacheKey);
+  const now = Date.now();
+  
+  if (cache.level1Data && lastAccess && (now - lastAccess) < CACHE_TTL) {
+    return cache.level1Data;
   }
-  return level1Data;
+  
+  try {
+    const filePath = path.join(__dirname, '../level1_generated_data.json');
+    console.log(`📂 Level 1 데이터 파일 경로: ${filePath}`);
+    
+    // 파일 존재 여부 확인
+    if (!fs.existsSync(filePath)) {
+      throw new Error(`Level 1 데이터 파일이 존재하지 않습니다: ${filePath}`);
+    }
+    
+    const fileContent = fs.readFileSync(filePath, 'utf8');
+    const data = JSON.parse(fileContent);
+    
+    // 캐시 업데이트
+    cache.level1Data = data;
+    cache.lastAccessed.set(cacheKey, now);
+    
+    const stageCount = Object.keys(data).length;
+    console.log(`✅ Level 1 데이터 로드 완료: ${stageCount}개 스테이지 (캐시됨)`);
+    console.log(`📋 Available stages: ${Object.keys(data).join(', ')}`);
+    
+    return data;
+  } catch (error) {
+    console.error('❌ Level 1 데이터 로드 실패:', error.message);
+    const fallbackData = {};
+    cache.level1Data = fallbackData;
+    cache.lastAccessed.set(cacheKey, now);
+    return fallbackData;
+  }
 }
 
-// 학습 카드 API 엔드포인트
+// ALL 모드용 레벨별 모든 카드 로드 함수
+async function getAllLevelCards(level) {
+  const allCards = [];
+  
+  try {
+    if (level === 1) {
+      // Level 1 처리
+      const l1Data = loadLevel1Data();
+      
+      Object.keys(l1Data).forEach(stageKey => {
+        const stageData = l1Data[stageKey];
+        if (stageData.cards && Array.isArray(stageData.cards)) {
+          const stageCards = stageData.cards.map(card => ({
+            id: `${card.id}_stage${stageKey}`,
+            level: 1,
+            stage: parseInt(stageKey),
+            front_ko: card.front_ko,
+            target_en: card.target_en,
+            difficulty: 1,
+            pattern_tags: [card.pattern],
+            form: 'aff',
+            grammar_tags: [card.pattern],
+            sourceStage: stageKey
+          }));
+          allCards.push(...stageCards);
+        }
+      });
+      
+    } else {
+      // Level 2-6 Firestore 처리
+      const levelRef = db.collection('curricula').doc(level.toString())
+                        .collection('versions').doc('revised')
+                        .collection('stages');
+      
+      const stagesSnapshot = await levelRef.get();
+      
+      // 병렬 처리로 성능 개선
+      const stagePromises = stagesSnapshot.docs.map(async (stageDoc) => {
+        const stageData = stageDoc.data();
+        
+        if (stageData.sentences && Array.isArray(stageData.sentences)) {
+          return stageData.sentences.map(sentence => ({
+            id: `${sentence.id}_${stageDoc.id}`,
+            level: level,
+            stage: stageDoc.id,
+            front_ko: sentence.kr,
+            target_en: sentence.en,
+            difficulty: Math.min(level, 5),
+            pattern_tags: sentence.grammar_tags || [],
+            form: sentence.form,
+            grammar_tags: sentence.grammar_tags || [],
+            sourceStage: stageDoc.id
+          }));
+        }
+        return [];
+      });
+      
+      const stageResults = await Promise.all(stagePromises);
+      stageResults.forEach(stageCards => allCards.push(...stageCards));
+    }
+    
+    // Fisher-Yates 셔플
+    for (let i = allCards.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [allCards[i], allCards[j]] = [allCards[j], allCards[i]];
+    }
+    
+    console.log(`✅ Level ${level} ALL 모드: ${allCards.length}개 카드 로드 완료`);
+    return allCards;
+    
+  } catch (error) {
+    console.error(`❌ Level ${level} ALL 모드 카드 로드 실패:`, error);
+    throw error;
+  }
+}
+
+// 학습 카드 API 엔드포인트 (캐싱 추가)
 app.get('/api/cards', async (req, res) => {
   try {
     const { level, stage } = req.query;
@@ -487,32 +700,103 @@ app.get('/api/cards', async (req, res) => {
     if (!level || !stage) {
       return res.status(400).json({ 
         success: false, 
-        error: 'level and stage parameters are required' 
+        error: 'level and stage parameters are required',
+        code: 'MISSING_REQUIRED_PARAMS'
       });
     }
 
     console.log(`🎯 카드 조회: Level ${level}, Stage ${stage}`);
+    
+    // 캐시 확인
+    const cacheKey = `cards_${level}_${stage}`;
+    const lastAccess = cache.lastAccessed.get(cacheKey);
+    const now = Date.now();
+    
+    if (cache.curriculumData.has(cacheKey) && lastAccess && (now - lastAccess) < CACHE_TTL) {
+      console.log(`🚀 캐시에서 카드 데이터 반환: Level ${level}, Stage ${stage}`);
+      const cachedData = cache.curriculumData.get(cacheKey);
+      cache.lastAccessed.set(cacheKey, now); // 액세스 시간 업데이트
+      return res.json(cachedData);
+    }
+
+    // ALL 모드 처리
+    if (stage === 'ALL') {
+      console.log(`🔄 ALL 모드 처리: Level ${level}`);
+      
+      try {
+        const allCards = await getAllLevelCards(parseInt(level));
+        
+        const responseData = { 
+          success: true, 
+          data: {
+            level: parseInt(level),
+            stage: 'ALL',
+            mode: 'ALL',
+            cards: allCards,
+            totalCards: allCards.length,
+            stageInfo: {
+              id: `Lv${level}-ALL`,
+              title: `Level ${level} - ALL Mode`,
+              focus: ['All patterns from this level'],
+              grammar_meta: ['Mixed patterns']
+            }
+          }
+        };
+        
+        // 결과 캐시
+        cache.curriculumData.set(cacheKey, responseData);
+        cache.lastAccessed.set(cacheKey, now);
+        
+        res.json(responseData);
+        return;
+      } catch (error) {
+        console.error('ALL 모드 처리 실패:', error);
+        return res.status(500).json({ 
+          success: false, 
+          error: 'Failed to load ALL mode cards',
+          code: 'ALL_MODE_ERROR'
+        });
+      }
+    }
 
     // Level 1 특별 처리
     if (parseInt(level) === 1) {
+      console.log(`📚 Level 1 처리 시작`);
+      
       const l1Data = loadLevel1Data();
-      const stageData = l1Data[stage];
+      console.log(`📂 Level 1 데이터 로드 결과:`, Object.keys(l1Data));
+      
+      // stage를 문자열로 변환하여 접근
+      const stageKey = stage.toString();
+      const stageData = l1Data[stageKey];
+      
+      console.log(`🔍 Stage ${stageKey} 데이터 조회:`, stageData ? '✅ 존재' : '❌ 없음');
       
       if (!stageData) {
+        console.error(`❌ Level 1 Stage ${stage} not found. Available stages:`, Object.keys(l1Data));
         return res.status(404).json({ 
           success: false, 
-          error: `Level 1 Stage ${stage} not found` 
+          error: `Level 1 Stage ${stage} not found. Available stages: ${Object.keys(l1Data).join(', ')}` 
         });
       }
 
-      // Level 1 카드 데이터 변환
+      console.log(`📊 Stage ${stage} 카드 개수:`, stageData.cards?.length || 0);
+
+      // Level 1 카드 데이터 변환 (프론트엔드 DrillCard 타입에 맞춤)
       const cards = stageData.cards?.map(card => ({
         id: card.id,
+        level: parseInt(level),
+        stage: parseInt(stage),
         front_ko: card.front_ko,
         target_en: card.target_en,
-        form: 'aff', // Level 1은 모두 긍정문
+        difficulty: 1, // Level 1은 기본 난이도 1
+        pattern_tags: [card.pattern],
+        // 백엔드 전용 필드들 (호환성을 위해 유지)
+        form: 'aff',
         grammar_tags: [card.pattern]
       })) || [];
+
+      console.log(`✅ Level 1 Stage ${stage} 카드 ${cards.length}개 반환`);
 
       res.json({ 
         success: true, 
@@ -535,11 +819,22 @@ app.get('/api/cards', async (req, res) => {
     // Level 2-6 기존 Firestore 처리
     const stageId = `Lv${level}-P${Math.ceil(stage/6)}-S${stage.toString().padStart(2, '0')}`;
     
+    console.log(`🔍 Firestore 조회 경로: curricula/${level}/versions/revised/stages/${stageId}`);
+    
     const docRef = db.collection('curricula').doc(level.toString())
                      .collection('versions').doc('revised')
                      .collection('stages').doc(stageId);
     
     const snapshot = await docRef.get();
+    
+    if (!snapshot.exists) {
+      // 실제 존재하는 스테이지들을 확인해보자
+      const stagesRef = db.collection('curricula').doc(level.toString())
+                          .collection('versions').doc('revised')
+                          .collection('stages');
+      const allStages = await stagesRef.limit(5).get();
+      console.log(`📋 Level ${level}에서 찾은 스테이지들:`, allStages.docs.map(d => d.id));
+    }
     
     if (!snapshot.exists) {
       return res.status(404).json({ 
@@ -550,11 +845,16 @@ app.get('/api/cards', async (req, res) => {
 
     const data = snapshot.data();
     
-    // 카드 데이터 변환
+    // 카드 데이터 변환 (프론트엔드 DrillCard 타입에 맞춤)
     const cards = data.sentences?.map(sentence => ({
       id: sentence.id,
+      level: parseInt(level),
+      stage: parseInt(stage),
       front_ko: sentence.kr,
       target_en: sentence.en,
+      difficulty: Math.min(parseInt(level), 5), // Level을 난이도로 매핑 (최대 5)
+      pattern_tags: sentence.grammar_tags || [],
+      // 백엔드 전용 필드들 (호환성을 위해 유지)
       form: sentence.form,
       grammar_tags: sentence.grammar_tags || []
     })) || [];
@@ -594,6 +894,48 @@ app.get('/api/cards', async (req, res) => {
     res.status(500).json({ 
       success: false, 
       error: 'Internal server error' 
+    });
+  }
+});
+
+// ALL 모드 전용 API 엔드포인트
+app.get('/api/cards/all', async (req, res) => {
+  try {
+    const { level } = req.query;
+    
+    if (!level) {
+      return res.status(400).json({ 
+        success: false, 
+        error: 'level parameter is required' 
+      });
+    }
+
+    console.log(`🔄 ALL 모드 전용 API: Level ${level}`);
+    
+    const allCards = await getAllLevelCards(parseInt(level));
+    
+    res.json({ 
+      success: true, 
+      data: {
+        level: parseInt(level),
+        mode: 'ALL',
+        cards: allCards,
+        totalCards: allCards.length,
+        shuffled: true,
+        stageInfo: {
+          id: `Lv${level}-ALL`,
+          title: `Level ${level} - ALL Mode`,
+          focus: ['All patterns from this level'],
+          grammar_meta: ['Mixed patterns']
+        }
+      }
+    });
+
+  } catch (error) {
+    console.error('ALL 모드 전용 API 실패:', error);
+    res.status(500).json({ 
+      success: false, 
+      error: 'Failed to load ALL mode cards' 
     });
   }
 });
@@ -664,33 +1006,65 @@ app.post('/api/feedback', async (req, res) => {
 app.post('/api/session/start', async (req, res) => {
   try {
     const { userId, level, stage, cardIds } = req.body;
+    const userUid = req.user?.uid || userId || 'anonymous';
+    
+    // 입력 검증
+    if (!level || !stage) {
+      return res.status(400).json({ 
+        success: false, 
+        error: 'level and stage are required',
+        code: 'MISSING_REQUIRED_PARAMS'
+      });
+    }
     
     const sessionId = `session_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
     
-    // 세션 데이터를 Firestore에 저장 (선택적)
+    // 세션 데이터 구조
     const sessionData = {
       id: sessionId,
-      userId: userId,
-      level: level,
-      stage: stage,
-      cardIds: cardIds,
-      startedAt: admin.firestore.FieldValue.serverTimestamp(),
+      userId: userUid,
+      level: parseInt(level),
+      stage: stage === 'ALL' ? 'ALL' : parseInt(stage),
+      cardIds: cardIds || [],
+      startedAt: admin.firestore?.FieldValue?.serverTimestamp() || new Date().toISOString(),
       status: 'active',
-      items: []
+      items: [],
+      metadata: {
+        userAgent: req.headers['user-agent'],
+        ip: req.ip || req.connection.remoteAddress,
+        createdAt: new Date().toISOString()
+      }
     };
 
-    console.log(`🎮 세션 시작: ${sessionId} (Level ${level}.${stage})`);
+    // Firestore에 세션 저장 시도 (실패해도 계속 진행)
+    try {
+      if (db && db.collection) {
+        await db.collection('studySessions').doc(sessionId).set(sessionData);
+        console.log(`💾 세션 데이터 저장 완료: ${sessionId}`);
+      }
+    } catch (dbError) {
+      console.warn('세션 데이터 저장 실패 (계속 진행):', dbError.message);
+    }
+
+    console.log(`🎮 세션 시작: ${sessionId} (Level ${level}.${stage}, User: ${userUid})`);
 
     res.json({ 
       success: true, 
-      data: { sessionId: sessionId }
+      data: { 
+        sessionId: sessionId,
+        userId: userUid,
+        level: parseInt(level),
+        stage: stage,
+        startedAt: sessionData.startedAt
+      }
     });
 
   } catch (error) {
     console.error('세션 시작 실패:', error);
     res.status(500).json({ 
       success: false, 
-      error: 'Internal server error' 
+      error: 'Failed to start session',
+      code: 'SESSION_START_ERROR'
     });
   }
 });
@@ -698,21 +1072,73 @@ app.post('/api/session/start', async (req, res) => {
 app.post('/api/session/submit', async (req, res) => {
   try {
     const { sessionId, cardId, userAnswer, isCorrect, score, timeSpent } = req.body;
+    const userUid = req.user?.uid || 'anonymous';
     
-    console.log(`📝 답안 제출: ${sessionId} - ${cardId} (${isCorrect ? '정답' : '오답'})`);
+    // 입력 검증
+    if (!sessionId || !cardId || userAnswer === undefined || isCorrect === undefined) {
+      return res.status(400).json({ 
+        success: false, 
+        error: 'sessionId, cardId, userAnswer, and isCorrect are required',
+        code: 'MISSING_REQUIRED_PARAMS'
+      });
+    }
+    
+    // 답안 데이터 구조
+    const submissionData = {
+      cardId: cardId,
+      userAnswer: userAnswer,
+      isCorrect: isCorrect,
+      score: score || 0,
+      timeSpent: timeSpent || 0,
+      submittedAt: new Date().toISOString(),
+      userId: userUid
+    };
 
-    // 여기서 학습 진도나 통계를 업데이트할 수 있음
-    
+    // Firestore에 답안 데이터 저장 시도
+    try {
+      if (db && db.collection) {
+        // 세션 문서에 답안 추가
+        const sessionRef = db.collection('studySessions').doc(sessionId);
+        await sessionRef.update({
+          [`items.${cardId}`]: submissionData,
+          lastUpdated: admin.firestore?.FieldValue?.serverTimestamp() || new Date().toISOString()
+        });
+        
+        // 사용자 통계 업데이트
+        const userStatsRef = db.collection('userStats').doc(userUid);
+        await userStatsRef.set({
+          totalAnswers: admin.firestore.FieldValue.increment(1),
+          correctAnswers: admin.firestore.FieldValue.increment(isCorrect ? 1 : 0),
+          totalScore: admin.firestore.FieldValue.increment(score || 0),
+          lastActivity: admin.firestore?.FieldValue?.serverTimestamp() || new Date().toISOString()
+        }, { merge: true });
+        
+        console.log(`💾 답안 데이터 저장 완료: ${sessionId}/${cardId}`);
+      }
+    } catch (dbError) {
+      console.warn('답안 데이터 저장 실패 (계속 진행):', dbError.message);
+    }
+
+    console.log(`📝 답안 제출: ${sessionId} - ${cardId} (${isCorrect ? '정답' : '오답'}, Score: ${score})`);
+
     res.json({ 
       success: true, 
-      data: { progress: { submitted: true } }
+      data: { 
+        progress: { 
+          submitted: true,
+          cardId: cardId,
+          isCorrect: isCorrect,
+          score: score
+        }
+      }
     });
 
   } catch (error) {
     console.error('답안 제출 실패:', error);
     res.status(500).json({ 
       success: false, 
-      error: 'Internal server error' 
+      error: 'Failed to submit answer',
+      code: 'SUBMIT_ANSWER_ERROR'
     });
   }
 });
@@ -720,18 +1146,71 @@ app.post('/api/session/submit', async (req, res) => {
 app.post('/api/session/finish', async (req, res) => {
   try {
     const { sessionId } = req.body;
+    const userUid = req.user?.uid || 'anonymous';
     
-    console.log(`🏁 세션 완료: ${sessionId}`);
+    if (!sessionId) {
+      return res.status(400).json({ 
+        success: false, 
+        error: 'sessionId is required',
+        code: 'MISSING_SESSION_ID'
+      });
+    }
+    
+    console.log(`🏁 세션 완료 요청: ${sessionId}`);
 
-    // 임시 요약 데이터 (실제로는 세션 데이터를 집계)
-    const summary = {
-      totalCards: 10,
-      correctAnswers: 7,
-      accuracy: 70,
-      averageScore: 75,
-      totalTime: 300,
-      averageTimePerCard: 30
+    let summary = {
+      totalCards: 0,
+      correctAnswers: 0,
+      accuracy: 0,
+      averageScore: 0,
+      totalTime: 0,
+      averageTimePerCard: 0,
+      sessionId: sessionId
     };
+
+    // Firestore에서 세션 데이터 조회 및 요약 생성
+    try {
+      if (db && db.collection) {
+        const sessionDoc = await db.collection('studySessions').doc(sessionId).get();
+        
+        if (sessionDoc.exists) {
+          const sessionData = sessionDoc.data();
+          const items = sessionData.items || {};
+          
+          const totalCards = Object.keys(items).length;
+          const correctAnswers = Object.values(items).filter(item => item.isCorrect).length;
+          const totalScore = Object.values(items).reduce((sum, item) => sum + (item.score || 0), 0);
+          const totalTime = Object.values(items).reduce((sum, item) => sum + (item.timeSpent || 0), 0);
+          
+          summary = {
+            totalCards: totalCards,
+            correctAnswers: correctAnswers,
+            accuracy: totalCards > 0 ? Math.round((correctAnswers / totalCards) * 100) : 0,
+            averageScore: totalCards > 0 ? Math.round(totalScore / totalCards) : 0,
+            totalTime: Math.round(totalTime / 1000), // 초 단위로 변환
+            averageTimePerCard: totalCards > 0 ? Math.round(totalTime / totalCards / 1000) : 0,
+            sessionId: sessionId,
+            level: sessionData.level,
+            stage: sessionData.stage,
+            startedAt: sessionData.startedAt,
+            finishedAt: new Date().toISOString()
+          };
+          
+          // 세션 상태 업데이트
+          await sessionDoc.ref.update({
+            status: 'completed',
+            finishedAt: admin.firestore?.FieldValue?.serverTimestamp() || new Date().toISOString(),
+            summary: summary
+          });
+          
+          console.log(`📊 세션 요약 생성 완료: ${totalCards}개 문제, ${correctAnswers}개 정답`);
+        } else {
+          console.warn(`세션 데이터를 찾을 수 없음: ${sessionId}`);
+        }
+      }
+    } catch (dbError) {
+      console.warn('세션 데이터 조회 실패 (기본 요약 반환):', dbError.message);
+    }
 
     res.json({ 
       success: true, 
@@ -742,7 +1221,8 @@ app.post('/api/session/finish', async (req, res) => {
     console.error('세션 완료 실패:', error);
     res.status(500).json({ 
       success: false, 
-      error: 'Internal server error' 
+      error: 'Failed to finish session',
+      code: 'SESSION_FINISH_ERROR'
     });
   }
 });

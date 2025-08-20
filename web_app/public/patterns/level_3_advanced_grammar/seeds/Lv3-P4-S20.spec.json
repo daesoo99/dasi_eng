@@ -1,0 +1,82 @@
+{
+  "id": "Lv3-P4-S20",
+  "title": "순서/결론 연결어 (First/Finally/Therefore)",
+  "intent": "논리적 순서와 결론을 나타내는 연결어를 사용하여 체계적으로 의견을 전개한다.",
+  "focus": [
+    "LOGICAL-SEQUENCE",
+    "CONCLUSION-MARKERS",
+    "ORGANIZATION",
+    "DISCOURSE-STRUCTURE"
+  ],
+  "lexset": [
+    "first, second, next, then, finally, therefore, thus, so, consequently, in conclusion"
+  ],
+  "traps": [
+    "연결어 위치와 쉼표",
+    "at first vs first",
+    "so vs therefore 격식도",
+    "finally vs at last"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.7,
+    "neg": 0.1,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "순서 표현",
+    "결론 강도",
+    "격식도",
+    "논리성"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "먼저 계획을 세워야 합니다.",
+      "en": "First, we need to make a plan."
+    },
+    {
+      "kr": "그 다음에 실행에 옮기겠습니다.",
+      "en": "Then, we will put it into action."
+    },
+    {
+      "kr": "마지막으로 결과를 확인하겠습니다.",
+      "en": "Finally, we will check the results."
+    },
+    {
+      "kr": "따라서 이것이 최선의 선택입니다.",
+      "en": "Therefore, this is the best choice."
+    },
+    {
+      "kr": "결론적으로 성공할 것입니다.",
+      "en": "In conclusion, we will succeed."
+    },
+    {
+      "kr": "두 번째로 예산을 고려해야 합니다.",
+      "en": "Second, we need to consider the budget."
+    },
+    {
+      "kr": "그 결과 모든 것이 바뀌었습니다.",
+      "en": "As a result, everything changed."
+    },
+    {
+      "kr": "다음 단계는 팀을 구성하는 것입니다.",
+      "en": "The next step is to form a team."
+    },
+    {
+      "kr": "그러므로 더 노력해야 합니다.",
+      "en": "Thus, we need to work harder."
+    },
+    {
+      "kr": "궁극적으로 목표를 달성할 것입니다.",
+      "en": "Ultimately, we will achieve our goal."
+    }
+  ]
+}

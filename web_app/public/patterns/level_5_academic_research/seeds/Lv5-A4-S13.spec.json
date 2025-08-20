@@ -1,0 +1,89 @@
+{
+  "id": "Lv5-A4-S13",
+  "title": "학제간 연구 협력",
+  "intent": "다양한 학문 분야 간의 협력 연구를 기획하고 조율하여 통합적 접근을 실현한다.",
+  "focus": [
+    "INTERDISCIPLINARY-RESEARCH",
+    "COLLABORATION",
+    "INTEGRATION",
+    "HOLISTIC-APPROACH"
+  ],
+  "lexset": [
+    "interdisciplinary, multidisciplinary, collaboration, integration, synergy, convergence, holistic, perspective, methodology, framework"
+  ],
+  "grammar_meta": [
+    "COMPLEX-COORDINATION",
+    "COLLABORATIVE-LANGUAGE",
+    "INTEGRATION-EXPRESSIONS",
+    "ACADEMIC-COOPERATION"
+  ],
+  "academic_level": "C1-C2",
+  "traps": [
+    "학제간 vs 다학제 구분",
+    "협력 vs 통합 표현",
+    "관점 조율 언어",
+    "방법론 통합 설명"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "분야 조합",
+    "협력 방식",
+    "통합 수준",
+    "성과 형태"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "학제간 접근이 복잡한 문제 해결에 필수적입니다.",
+      "en": "An interdisciplinary approach is essential for solving complex problems."
+    },
+    {
+      "kr": "다양한 분야의 전문가들이 협력하고 있습니다.",
+      "en": "Experts from various fields are collaborating."
+    },
+    {
+      "kr": "통합적 관점에서 현상을 분석합니다.",
+      "en": "We analyze the phenomenon from an integrated perspective."
+    },
+    {
+      "kr": "학문 간 경계를 넘나드는 연구가 증가하고 있습니다.",
+      "en": "Research that crosses disciplinary boundaries is increasing."
+    },
+    {
+      "kr": "시너지 효과가 기대되는 협력 프로젝트입니다.",
+      "en": "This is a collaborative project where synergistic effects are expected."
+    },
+    {
+      "kr": "융합 연구가 새로운 패러다임을 제시합니다.",
+      "en": "Convergence research presents new paradigms."
+    },
+    {
+      "kr": "전체론적 접근이 필요한 연구 영역입니다.",
+      "en": "This is a research area that requires a holistic approach."
+    },
+    {
+      "kr": "다학제적 팀이 구성되었습니다.",
+      "en": "A multidisciplinary team has been formed."
+    },
+    {
+      "kr": "통합 방법론을 개발해야 합니다.",
+      "en": "An integrated methodology needs to be developed."
+    },
+    {
+      "kr": "학문적 경계를 허무는 것이 중요합니다.",
+      "en": "Breaking down academic boundaries is important."
+    }
+  ]
+}

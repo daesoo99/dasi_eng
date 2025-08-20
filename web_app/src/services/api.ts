@@ -156,6 +156,63 @@ class CurriculumAPIService {
     }
   }
 
+  async getAllLevelPatterns(level: number): Promise<APIResponse<any>> {
+    try {
+      const curriculum = await this.getCurriculum(level);
+      if (!curriculum.success || !curriculum.data) {
+        return { success: false, error: 'Failed to load curriculum', timestamp: Date.now() };
+      }
+
+      const allPatterns: any[] = [];
+      
+      // 모든 스테이지의 패턴들을 수집
+      if (curriculum.data.stages) {
+        curriculum.data.stages.forEach((stage: any) => {
+          if (stage.patterns) {
+            stage.patterns.forEach((pattern: any) => {
+              allPatterns.push({
+                ...pattern,
+                stage_id: stage.stage_id,
+                stage_title: stage.title,
+              });
+            });
+          }
+        });
+      }
+
+      // 패턴들을 랜덤하게 섞기
+      const shuffledPatterns = this.shuffleArray([...allPatterns]);
+
+      return { 
+        success: true, 
+        data: {
+          level,
+          mode: 'ALL',
+          total_patterns: shuffledPatterns.length,
+          patterns: shuffledPatterns,
+          title: `Level ${level} - ALL Mode`,
+          description: `All patterns from Level ${level} in random order`
+        },
+        timestamp: Date.now() 
+      };
+    } catch (error) {
+      return { 
+        success: false, 
+        error: error instanceof Error ? error.message : 'Unknown error',
+        timestamp: Date.now() 
+      };
+    }
+  }
+
+  private shuffleArray<T>(array: T[]): T[] {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  }
+
   async validateCurriculum(level: number): Promise<APIResponse<any>> {
     try {
       const curriculum = await this.getCurriculum(level);

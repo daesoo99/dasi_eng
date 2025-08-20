@@ -1,0 +1,604 @@
+{
+  "level": 9,
+  "title": "Level 9 - 전문가 수준 담화 능력 (Expert Discourse Mastery)",
+  "description": "영어 스피킹의 정점에 가까운 단계로, 고급 담화표현, 학술/비즈니스 어휘, 수사적 장치, 문화적 레퍼런스 등을 구사하여 청중을 설득하거나 감동시킬 수 있는 수준을 지향합니다.",
+  "total_phases": 10,
+  "total_stages": 52,
+  "revision_info": {
+    "date": "2025-08-17",
+    "reason": "전문가 수준 담화 능력 신규 구축 - 52개 Stage, 10개 Phase 체계",
+    "changes": "고급 담화표지, 가정법, 학술보고체, 수사적 장치, 어순조절, 구어표현, 토론패턴, 문화표현, 복합패턴, 고급어휘 총망라"
+  },
+  "difficulty": "expert_professional",
+  "schema_version": "REVISED_2025-08-17",
+  "drill": {
+    "delaySec": 1,
+    "randomize": true,
+    "minCorrectToAdvance": 6,
+    "reviewWeight": 0.85
+  },
+  "phases": [
+    {
+      "phase_id": 1,
+      "title": "고급 담화 연결 및 구조 (Discourse Mastery)",
+      "description": "고급 담화표지와 전환표현을 활용하여 논리적이고 설득력 있는 스피치 구조를 마스터합니다.",
+      "stages": ["Lv9-P1-S01", "Lv9-P1-S02", "Lv9-P1-S03", "Lv9-P1-S04", "Lv9-P1-S05", "Lv9-P1-S06", "Lv9-P1-S07"]
+    },
+    {
+      "phase_id": 2,
+      "title": "고급 가정법과 반사실적 상황 (Hypotheticals & Counterfactuals)",
+      "description": "복잡한 가정법과 도치구문을 자유자재로 구사하여 세련된 표현력을 완성합니다.",
+      "stages": ["Lv9-P2-S08", "Lv9-P2-S09", "Lv9-P2-S10", "Lv9-P2-S11", "Lv9-P2-S12", "Lv9-P2-S13"]
+    },
+    {
+      "phase_id": 3,
+      "title": "학술/비즈니스 보고체 (Academic & Formal Reporting Style)",
+      "description": "객관적이고 체계적인 보고서 문체와 격식있는 프레젠테이션 언어를 습득합니다.",
+      "stages": ["Lv9-P3-S14", "Lv9-P3-S15", "Lv9-P3-S16", "Lv9-P3-S17", "Lv9-P3-S18", "Lv9-P3-S19"]
+    },
+    {
+      "phase_id": 4,
+      "title": "문학적/수사적 장치 (Rhetorical & Literary Devices)",
+      "description": "은유, 직유, 대구법 등 수사적 장치를 활용하여 감동적이고 인상적인 표현을 구사합니다.",
+      "stages": ["Lv9-P4-S20", "Lv9-P4-S21", "Lv9-P4-S22", "Lv9-P4-S23", "Lv9-P4-S24"]
+    },
+    {
+      "phase_id": 5,
+      "title": "고급 어순/리듬 조절 (Advanced Syntax & Rhythm)",
+      "description": "문장 리듬과 어순 변화를 통해 말하기의 미적 완성도를 높입니다.",
+      "stages": ["Lv9-P5-S25", "Lv9-P5-S26", "Lv9-P5-S27", "Lv9-P5-S28"]
+    },
+    {
+      "phase_id": 6,
+      "title": "원어민식 구어/은어 (Native Colloquialisms & Slang)",
+      "description": "원어민 특유의 자연스러운 구어체와 캐주얼한 표현을 적절히 구사합니다.",
+      "stages": ["Lv9-P6-S29", "Lv9-P6-S30", "Lv9-P6-S31", "Lv9-P6-S32"]
+    },
+    {
+      "phase_id": 7,
+      "title": "토론/설득 패턴 (Debate & Persuasion Patterns)",
+      "description": "체계적인 논리전개와 설득기법을 통해 상대방을 설득하는 고급 담화 능력을 기릅니다.",
+      "stages": ["Lv9-P7-S33", "Lv9-P7-S34", "Lv9-P7-S35", "Lv9-P7-S36"]
+    },
+    {
+      "phase_id": 8,
+      "title": "문화/문맥 기반 표현 (Cultural & Contextual Expressions)",
+      "description": "문화적 배경지식과 관용구를 활용하여 깊이 있는 의사소통을 구현합니다.",
+      "stages": ["Lv9-P8-S37", "Lv9-P8-S38", "Lv9-P8-S39", "Lv9-P8-S40"]
+    },
+    {
+      "phase_id": 9,
+      "title": "복합 패턴 통합 (Complex Pattern Integration)",
+      "description": "모든 고급 기법을 통합하여 복잡하고 세련된 표현을 자연스럽게 구사합니다.",
+      "stages": ["Lv9-P9-S41", "Lv9-P9-S42", "Lv9-P9-S43", "Lv9-P9-S44", "Lv9-P9-S45"]
+    },
+    {
+      "phase_id": 10,
+      "title": "고급 어휘 확장 (Vocabulary Expansion for Precision)",
+      "description": "전문 분야의 정확하고 세밀한 어휘를 활용하여 표현의 정밀도를 극대화합니다.",
+      "stages": ["Lv9-P10-S46", "Lv9-P10-S47", "Lv9-P10-S48", "Lv9-P10-S49", "Lv9-P10-S50", "Lv9-P10-S51", "Lv9-P10-S52"]
+    }
+  ],
+  "stage_details": {
+    "Lv9-P1-S01": {
+      "title": "고급 담화표지 I – on a related note, having said that",
+      "focus": ["DISCOURSE-MARKERS", "TOPIC-TRANSITION", "CONVERSATIONAL-FLOW"],
+      "grammar_meta": "ADVANCED-DISCOURSE",
+      "seeds": [
+        "Our profits are up this quarter. On a related note, our expenses have also increased.",
+        "The product is innovative. Having said that, it needs further testing.",
+        "She's a talented designer. On a related note, her project management skills are equally impressive."
+      ]
+    },
+    "Lv9-P1-S02": {
+      "title": "고급 담화표지 II – be that as it may, in any case",
+      "focus": ["FORMAL-DISCOURSE", "CONCESSION-PATTERNS", "SOPHISTICATED-TRANSITIONS"],
+      "grammar_meta": "FORMAL-DISCOURSE-MARKERS",
+      "seeds": [
+        "He's not perfect; be that as it may, he's the best we have.",
+        "We might not win. In any case, we'll try our best.",
+        "The plan has flaws. Be that as it may, it's our only option."
+      ]
+    },
+    "Lv9-P1-S03": {
+      "title": "역접/전환 I – nonetheless, nevertheless",
+      "focus": ["CONTRAST-MARKERS", "PERSUASIVE-DISCOURSE", "LOGICAL-OPPOSITION"],
+      "grammar_meta": "ADVANCED-CONTRAST",
+      "seeds": [
+        "It's a risky plan. Nevertheless, I believe it's worth trying.",
+        "The market is volatile. Nonetheless, we must proceed with the launch.",
+        "She lacks experience. Nevertheless, her potential is undeniable."
+      ]
+    },
+    "Lv9-P1-S04": {
+      "title": "역접/전환 II – notwithstanding, for all that",
+      "focus": ["FORMAL-CONTRAST", "LITERARY-EXPRESSIONS", "SOPHISTICATED-CONCESSION"],
+      "grammar_meta": "LITERARY-DISCOURSE",
+      "seeds": [
+        "She is inexperienced, notwithstanding, she has great potential.",
+        "He's quite blunt, but for all that, I like his honesty.",
+        "The project faces challenges, notwithstanding, we remain optimistic."
+      ]
+    },
+    "Lv9-P1-S05": {
+      "title": "조건+결과 결합 – in the event that, in which case",
+      "focus": ["CONDITIONAL-STRUCTURES", "RESULT-CLAUSES", "COMPLEX-LOGIC"],
+      "grammar_meta": "CONDITIONAL-DISCOURSE",
+      "seeds": [
+        "We'll set aside extra funds in the event that we need more resources.",
+        "We might not finish by Friday, in which case we'll ask for an extension.",
+        "The system could fail, in the event that happens, we have backups ready."
+      ]
+    },
+    "Lv9-P1-S06": {
+      "title": "강조+완곡 – far from it, to put it mildly",
+      "focus": ["EMPHASIS-TECHNIQUES", "EUPHEMISM", "CORRECTIVE-DISCOURSE"],
+      "grammar_meta": "EMPHASIS-CORRECTION",
+      "seeds": [
+        "Do I think he's lazy? Far from it – he works nonstop.",
+        "The results were disappointing, to put it mildly.",
+        "Is she satisfied with the outcome? Far from it – she's quite frustrated."
+      ]
+    },
+    "Lv9-P1-S07": {
+      "title": "문장 도입부 변형 – Given, Considering, Assuming",
+      "focus": ["SENTENCE-STARTERS", "CONTEXTUAL-FRAMING", "PREMISE-SETTING"],
+      "grammar_meta": "CONTEXTUAL-DISCOURSE",
+      "seeds": [
+        "Given the complexity of the task, a delay is understandable.",
+        "Considering our budget constraints, this is the best option.",
+        "Assuming we get approval, production will start in May."
+      ]
+    },
+    "Lv9-P2-S08": {
+      "title": "혼합 가정법 ① – 과거→현재 연결",
+      "focus": ["MIXED-CONDITIONALS", "TIME-SHIFT", "COUNTERFACTUAL-THINKING"],
+      "grammar_meta": "COMPLEX-CONDITIONALS",
+      "seeds": [
+        "If the company had invested in R&D earlier, it would be the market leader now.",
+        "Had they studied harder, they would have better job prospects today.",
+        "If we had hired more staff last year, we wouldn't be so overwhelmed now."
+      ]
+    },
+    "Lv9-P2-S09": {
+      "title": "혼합 가정법 ② – 현재→과거 연결",
+      "focus": ["REVERSE-CONDITIONALS", "PERSONALITY-BASED", "HYPOTHETICAL-PAST"],
+      "grammar_meta": "REVERSE-CONDITIONALS",
+      "seeds": [
+        "If I were more confident, I would have spoken up in the meeting.",
+        "If she were more organized, she wouldn't have missed the deadline.",
+        "If we were better prepared, we could have seized that opportunity."
+      ]
+    },
+    "Lv9-P2-S10": {
+      "title": "가정법+도치 ① – Had I known 패턴",
+      "focus": ["CONDITIONAL-INVERSION", "FORMAL-STRUCTURES", "REGRET-EXPRESSIONS"],
+      "grammar_meta": "INVERTED-CONDITIONALS",
+      "seeds": [
+        "Had I known about the traffic, I would have left earlier.",
+        "Had we been informed of the changes, we could have adapted.",
+        "Had she studied medicine, she would be a doctor now."
+      ]
+    },
+    "Lv9-P2-S11": {
+      "title": "가정법+도치 ② – Were I to 패턴",
+      "focus": ["FUTURE-CONDITIONALS", "FORMAL-POLITENESS", "HYPOTHETICAL-FUTURE"],
+      "grammar_meta": "FORMAL-FUTURE-CONDITIONALS",
+      "seeds": [
+        "Were I to win the award, I'd dedicate it to my team.",
+        "Were we to receive additional funding, we could expand globally.",
+        "Were she to accept the position, it would be a great honor."
+      ]
+    },
+    "Lv9-P2-S12": {
+      "title": "격식체 가정 – Should this occur",
+      "focus": ["FORMAL-CONDITIONS", "BUSINESS-LANGUAGE", "CONTINGENCY-PLANNING"],
+      "grammar_meta": "FORMAL-CONDITIONAL-PLANNING",
+      "seeds": [
+        "Should this measure fail, we have backup plans.",
+        "Should you require assistance, please don't hesitate to contact us.",
+        "Should the situation deteriorate, we'll implement emergency protocols."
+      ]
+    },
+    "Lv9-P2-S13": {
+      "title": "이중 조건 – if and only if, provided that",
+      "focus": ["STRICT-CONDITIONS", "LOGICAL-PRECISION", "CONTRACT-LANGUAGE"],
+      "grammar_meta": "STRICT-CONDITIONALS",
+      "seeds": [
+        "We will sign the contract if and only if all terms are agreed upon.",
+        "I'll help, provided that you do your part.",
+        "The plan will succeed if and only if everyone commits fully."
+      ]
+    },
+    "Lv9-P3-S14": {
+      "title": "객관화 표현 I – It is evident that",
+      "focus": ["OBJECTIVITY", "ACADEMIC-STYLE", "EVIDENCE-PRESENTATION"],
+      "grammar_meta": "ACADEMIC-OBJECTIVITY",
+      "seeds": [
+        "It is evident that our strategy needs revision.",
+        "It becomes clear that customer preferences are changing.",
+        "It is apparent that technology is reshaping the industry."
+      ]
+    },
+    "Lv9-P3-S15": {
+      "title": "객관화 표현 II – The data suggest that",
+      "focus": ["DATA-INTERPRETATION", "SCIENTIFIC-LANGUAGE", "EVIDENCE-BASED"],
+      "grammar_meta": "SCIENTIFIC-REPORTING",
+      "seeds": [
+        "The data suggest that customer satisfaction has improved.",
+        "Research indicates that remote work increases productivity.",
+        "Studies show that early intervention yields better outcomes."
+      ]
+    },
+    "Lv9-P3-S16": {
+      "title": "결과 강조 – This led to, Consequently",
+      "focus": ["CAUSE-EFFECT", "LOGICAL-SEQUENCE", "ANALYTICAL-THINKING"],
+      "grammar_meta": "CAUSAL-ANALYSIS",
+      "seeds": [
+        "Sales dropped. Consequently, profits shrank significantly.",
+        "This led to a complete restructuring of our operations.",
+        "As a result, we had to reconsider our entire approach."
+      ]
+    },
+    "Lv9-P3-S17": {
+      "title": "비교/대조 – in comparison with, as opposed to",
+      "focus": ["ANALYTICAL-COMPARISON", "CONTRASTING-IDEAS", "EVALUATION"],
+      "grammar_meta": "COMPARATIVE-ANALYSIS",
+      "seeds": [
+        "In comparison with last year, this year's performance is better.",
+        "We spend 30%, as opposed to 20% in the previous quarter.",
+        "This approach differs significantly from traditional methods."
+      ]
+    },
+    "Lv9-P3-S18": {
+      "title": "인용/출처 표기 – according to X, as cited in",
+      "focus": ["CITATION", "AUTHORITY", "ACADEMIC-REFERENCES"],
+      "grammar_meta": "ACADEMIC-CITATION",
+      "seeds": [
+        "According to Professor Lee, this is a common issue.",
+        "The results, as cited in the Journal, confirm our hypothesis.",
+        "As reported by the Financial Times, markets are recovering."
+      ]
+    },
+    "Lv9-P3-S19": {
+      "title": "결론부 정리 – in conclusion, to summarize",
+      "focus": ["CONCLUSION", "SUMMARY", "PRESENTATION-CLOSURE"],
+      "grammar_meta": "CONCLUSION-MARKERS",
+      "seeds": [
+        "In conclusion, we achieved our goals ahead of schedule.",
+        "To summarize, our plan is both feasible and profitable.",
+        "In brief, the project exceeded all expectations."
+      ]
+    },
+    "Lv9-P4-S20": {
+      "title": "은유/직유 – metaphor, simile 사용",
+      "focus": ["METAPHORICAL-THINKING", "CREATIVE-EXPRESSION", "VIVID-IMAGERY"],
+      "grammar_meta": "LITERARY-DEVICES",
+      "seeds": [
+        "Life is a journey filled with unexpected turns.",
+        "He fought like a lion defending his territory.",
+        "The market is a battlefield where only the strong survive."
+      ]
+    },
+    "Lv9-P4-S21": {
+      "title": "의인법/과장법 – personification, hyperbole",
+      "focus": ["PERSONIFICATION", "HYPERBOLE", "DRAMATIC-EFFECT"],
+      "grammar_meta": "DRAMATIC-DEVICES",
+      "seeds": [
+        "The wind whispered secrets through the trees.",
+        "I'm so hungry I could eat a horse.",
+        "Time marched on relentlessly toward the deadline."
+      ]
+    },
+    "Lv9-P4-S22": {
+      "title": "대구법/반복법 – parallelism, repetition",
+      "focus": ["PARALLELISM", "RHYTHMIC-SPEECH", "MEMORABLE-PHRASES"],
+      "grammar_meta": "RHETORICAL-STRUCTURES",
+      "seeds": [
+        "Ask not what your country can do for you – ask what you can do for your country.",
+        "We came, we saw, we conquered the challenges before us.",
+        "Excellence requires dedication, determination, and discipline."
+      ]
+    },
+    "Lv9-P4-S23": {
+      "title": "아이러니/역설 – irony, paradox",
+      "focus": ["IRONY", "PARADOX", "SOPHISTICATED-HUMOR"],
+      "grammar_meta": "IRONIC-EXPRESSION",
+      "seeds": [
+        "The fire station burned down – how ironic.",
+        "Nothing is certain except uncertainty itself.",
+        "The more you know, the more you realize you don't know."
+      ]
+    },
+    "Lv9-P4-S24": {
+      "title": "3단 구성법 – rule of three",
+      "focus": ["RULE-OF-THREE", "MEMORABLE-STRUCTURE", "PERSUASIVE-PATTERNS"],
+      "grammar_meta": "TRIADIC-STRUCTURE",
+      "seeds": [
+        "Government of the people, by the people, for the people.",
+        "We need vision, execution, and perseverance to succeed.",
+        "Education enlightens, empowers, and elevates society."
+      ]
+    },
+    "Lv9-P5-S25": {
+      "title": "문장 리듬 ① – 절 길이 변화",
+      "focus": ["SENTENCE-RHYTHM", "CLAUSE-VARIATION", "STYLISTIC-CONTROL"],
+      "grammar_meta": "RHYTHMIC-VARIATION",
+      "seeds": [
+        "He came, he saw, and then, after long deliberation and much hesitation, he conquered.",
+        "We tried. We failed. We learned from our mistakes and tried again.",
+        "Success requires planning, preparation, and the courage to take decisive action."
+      ]
+    },
+    "Lv9-P5-S26": {
+      "title": "문장 리듬 ② – 구조 변환",
+      "focus": ["STRUCTURAL-TRANSFORMATION", "STYLISTIC-ALTERNATIVES", "SENTENCE-VARIETY"],
+      "grammar_meta": "STRUCTURAL-VARIATION",
+      "seeds": [
+        "The experiment failed. It was disappointing.",
+        "The experiment failed, which was disappointing.",
+        "That the experiment failed was deeply disappointing to everyone involved."
+      ]
+    },
+    "Lv9-P5-S27": {
+      "title": "대구적 어순 변화 – What we need is",
+      "focus": ["CLEFT-SENTENCES", "EMPHASIS-STRUCTURES", "FOCUS-MANIPULATION"],
+      "grammar_meta": "EMPHATIC-STRUCTURES",
+      "seeds": [
+        "What we need is immediate action, not endless discussion.",
+        "What matters most is not the outcome, but the effort.",
+        "What distinguishes great leaders is their ability to inspire others."
+      ]
+    },
+    "Lv9-P5-S28": {
+      "title": "삽입+도치 동시 활용",
+      "focus": ["INSERTION-INVERSION", "COMPLEX-SYNTAX", "SOPHISTICATED-STYLE"],
+      "grammar_meta": "COMPLEX-INSERTION",
+      "seeds": [
+        "The plan, as was explained earlier, will continue as scheduled.",
+        "Never before, in all my years of experience, have I seen such dedication.",
+        "The results – and this is crucial – exceed our wildest expectations."
+      ]
+    },
+    "Lv9-P6-S29": {
+      "title": "구어적 완곡 – you know what I mean, so to speak",
+      "focus": ["COLLOQUIAL-SOFTENING", "CONVERSATIONAL-BRIDGES", "INFORMAL-HEDGING"],
+      "grammar_meta": "COLLOQUIAL-HEDGING",
+      "seeds": [
+        "It's kind of strange, you know what I mean?",
+        "He's a bit eccentric, so to speak.",
+        "The situation is complicated, if you catch my drift."
+      ]
+    },
+    "Lv9-P6-S30": {
+      "title": "강조 슬랭 – big time, legit",
+      "focus": ["EMPHASIS-SLANG", "CASUAL-INTENSIFIERS", "INFORMAL-EMPHASIS"],
+      "grammar_meta": "SLANG-INTENSIFIERS",
+      "seeds": [
+        "That movie was awesome, big time.",
+        "Her excuse was legit and totally understandable.",
+        "We messed up, big time, but learned from it."
+      ]
+    },
+    "Lv9-P6-S31": {
+      "title": "완곡 거절/동의 – I'm afraid, Fair point",
+      "focus": ["POLITE-DISAGREEMENT", "DIPLOMATIC-RESPONSES", "FACE-SAVING"],
+      "grammar_meta": "DIPLOMATIC-LANGUAGE",
+      "seeds": [
+        "I'm afraid I can't agree with that assessment.",
+        "Fair point, but I see it differently.",
+        "That's a valid concern, I'll grant you that."
+      ]
+    },
+    "Lv9-P6-S32": {
+      "title": "아이러니한 동의/부정 – Yeah, right / Tell me about it",
+      "focus": ["SARCASTIC-AGREEMENT", "IRONIC-RESPONSES", "CONVERSATIONAL-IRONY"],
+      "grammar_meta": "IRONIC-RESPONSES",
+      "seeds": [
+        "He's reliable? Yeah, right.",
+        "Traffic is bad? Tell me about it!",
+        "You think this is easy? Give me a break."
+      ]
+    },
+    "Lv9-P7-S33": {
+      "title": "반박 구조 – While I understand, I must disagree",
+      "focus": ["STRUCTURED-DISAGREEMENT", "RESPECTFUL-OPPOSITION", "LOGICAL-REFUTATION"],
+      "grammar_meta": "ARGUMENTATIVE-STRUCTURE",
+      "seeds": [
+        "While I understand your point, I must disagree with the conclusion.",
+        "I appreciate your perspective, however, the evidence suggests otherwise.",
+        "Although your argument has merit, I believe there's a flaw in the reasoning."
+      ]
+    },
+    "Lv9-P7-S34": {
+      "title": "양보 후 반박 – Admittedly, however",
+      "focus": ["CONCESSION-REFUTATION", "BALANCED-ARGUMENT", "STRATEGIC-AGREEMENT"],
+      "grammar_meta": "CONCESSIVE-ARGUMENTATION",
+      "seeds": [
+        "Admittedly, the plan has risks; however, the potential benefits are enormous.",
+        "True, costs will increase; nevertheless, the long-term savings justify the investment.",
+        "Granted, it's challenging; however, that's precisely why we must act now."
+      ]
+    },
+    "Lv9-P7-S35": {
+      "title": "근거 제시 – The evidence indicates, Studies show",
+      "focus": ["EVIDENCE-PRESENTATION", "AUTHORITY-BACKING", "CREDIBLE-SUPPORT"],
+      "grammar_meta": "EVIDENCE-BASED-ARGUMENT",
+      "seeds": [
+        "The evidence indicates that early intervention is crucial.",
+        "Studies consistently show that diverse teams perform better.",
+        "Research demonstrates that this approach yields superior results."
+      ]
+    },
+    "Lv9-P7-S36": {
+      "title": "청중 설득 – You might consider, It's worth noting",
+      "focus": ["GENTLE-PERSUASION", "SUGGESTION-TECHNIQUE", "AUDIENCE-ENGAGEMENT"],
+      "grammar_meta": "PERSUASIVE-SUGGESTION",
+      "seeds": [
+        "You might consider hiring more staff to handle the increased workload.",
+        "It's worth noting that we broke even last year despite market challenges.",
+        "Perhaps it would be wise to reconsider our current strategy."
+      ]
+    },
+    "Lv9-P8-S37": {
+      "title": "문화적 관용구 – When in Rome",
+      "focus": ["CULTURAL-IDIOMS", "WISDOM-EXPRESSIONS", "CROSS-CULTURAL"],
+      "grammar_meta": "CULTURAL-EXPRESSIONS",
+      "seeds": [
+        "When in Rome, do as the Romans do.",
+        "Don't count your chickens before they hatch.",
+        "The early bird catches the worm, as they say."
+      ]
+    },
+    "Lv9-P8-S38": {
+      "title": "역사/문화 비유 – Trojan horse, Waterloo moment",
+      "focus": ["HISTORICAL-REFERENCES", "CULTURAL-METAPHORS", "EDUCATED-ALLUSIONS"],
+      "grammar_meta": "HISTORICAL-ALLUSIONS",
+      "seeds": [
+        "This deal could be a Trojan horse in disguise.",
+        "The product launch was his Waterloo moment.",
+        "We need to avoid creating a Frankenstein's monster."
+      ]
+    },
+    "Lv9-P8-S39": {
+      "title": "영미 속담 – A stitch in time saves nine",
+      "focus": ["TRADITIONAL-WISDOM", "PROVERBIAL-EXPRESSIONS", "CULTURAL-KNOWLEDGE"],
+      "grammar_meta": "PROVERBIAL-WISDOM",
+      "seeds": [
+        "A stitch in time saves nine, so let's fix this now.",
+        "Don't put all your eggs in one basket.",
+        "Actions speak louder than words, after all."
+      ]
+    },
+    "Lv9-P8-S40": {
+      "title": "지역 방언/구어 – gonna, y'all, ain't",
+      "focus": ["REGIONAL-VARIATIONS", "DIALECTAL-AWARENESS", "INFORMAL-SPEECH"],
+      "grammar_meta": "DIALECTAL-EXPRESSIONS",
+      "seeds": [
+        "We're gonna make this work, no matter what.",
+        "Y'all are welcome to join us for dinner.",
+        "That ain't necessarily a bad thing, you know."
+      ]
+    },
+    "Lv9-P9-S41": {
+      "title": "조건+가정+담화표지 I",
+      "focus": ["MULTI-ELEMENT-INTEGRATION", "COMPLEX-DISCOURSE", "LAYERED-MEANING"],
+      "grammar_meta": "INTEGRATED-COMPLEXITY",
+      "seeds": [
+        "If I had known earlier – and I'm being honest here – I would have reacted differently.",
+        "Had we been prepared, frankly speaking, this crisis could have been avoided.",
+        "Were I to succeed – and let's be realistic – it would require everyone's support."
+      ]
+    },
+    "Lv9-P9-S42": {
+      "title": "조건+가정+담화표지 II",
+      "focus": ["SOPHISTICATED-COMBINATION", "NUANCED-EXPRESSION", "MULTI-LAYERED"],
+      "grammar_meta": "ADVANCED-INTEGRATION",
+      "seeds": [
+        "I could have helped, had I been there, which, needless to say, I wasn't.",
+        "She might have succeeded, to be perfectly honest, if circumstances had been different.",
+        "We would have acted sooner, quite frankly, had we known the full extent."
+      ]
+    },
+    "Lv9-P9-S43": {
+      "title": "전치사+분사+삽입+강조 I",
+      "focus": ["SYNTACTIC-COMPLEXITY", "EMBEDDED-STRUCTURES", "INFORMATION-DENSITY"],
+      "grammar_meta": "COMPLEX-EMBEDDING",
+      "seeds": [
+        "The meeting, which was, in all honesty, quite boring, ended with a surprising proposal.",
+        "Having considered all options, the committee – somewhat reluctantly – approved the plan.",
+        "Despite facing obstacles, the team, showing remarkable resilience, achieved their goals."
+      ]
+    },
+    "Lv9-P9-S44": {
+      "title": "전치사+분사+삽입+강조 II",
+      "focus": ["MASTERFUL-COMPLEXITY", "ELEGANT-EMBEDDING", "SOPHISTICATED-STYLE"],
+      "grammar_meta": "MASTERFUL-SYNTAX",
+      "seeds": [
+        "Without hesitation, she – being the professional she is – accepted the challenge gracefully.",
+        "Through careful planning, the project, surprisingly enough, finished ahead of schedule.",
+        "By working together, we – against all odds – turned the company around."
+      ]
+    },
+    "Lv9-P9-S45": {
+      "title": "인용+비유+강조",
+      "focus": ["MULTI-DEVICE-INTEGRATION", "RHETORICAL-MASTERY", "PERSUASIVE-COMBINATION"],
+      "grammar_meta": "RHETORICAL-INTEGRATION",
+      "seeds": [
+        "As the saying goes, not all that glitters is gold, which is exactly why we need to investigate further.",
+        "Like a lighthouse in a storm, leadership – as Winston Churchill noted – guides us through darkness.",
+        "Time, as Einstein reminded us, is relative, which is precisely why deadlines feel so urgent."
+      ]
+    },
+    "Lv9-P10-S46": {
+      "title": "높은 정확도 동사 I – substantiate, exacerbate",
+      "focus": ["PRECISION-VERBS", "ACADEMIC-VOCABULARY", "EXACT-MEANING"],
+      "grammar_meta": "PRECISION-VOCABULARY",
+      "seeds": [
+        "We need concrete evidence to substantiate these claims.",
+        "Poor communication will only exacerbate the existing problems.",
+        "The research serves to corroborate our initial findings."
+      ]
+    },
+    "Lv9-P10-S47": {
+      "title": "높은 정확도 동사 II – galvanize, mitigate",
+      "focus": ["SOPHISTICATED-VERBS", "PROFESSIONAL-LANGUAGE", "NUANCED-ACTION"],
+      "grammar_meta": "SOPHISTICATED-VERBS",
+      "seeds": [
+        "The crisis helped galvanize the team into immediate action.",
+        "We must take steps to mitigate the potential risks.",
+        "This experience will undoubtedly consolidate our market position."
+      ]
+    },
+    "Lv9-P10-S48": {
+      "title": "고급 형용사 I – inextricable, unequivocal",
+      "focus": ["PRECISE-ADJECTIVES", "ACADEMIC-DESCRIPTORS", "SUBTLE-DISTINCTIONS"],
+      "grammar_meta": "PRECISION-ADJECTIVES",
+      "seeds": [
+        "There's an inextricable link between education and prosperity.",
+        "The results provide unequivocal evidence of success.",
+        "Her commitment to excellence is truly exemplary."
+      ]
+    },
+    "Lv9-P10-S49": {
+      "title": "고급 형용사 II – ubiquitous, negligible",
+      "focus": ["SOPHISTICATED-ADJECTIVES", "TECHNICAL-DESCRIPTORS", "PRECISE-QUALITIES"],
+      "grammar_meta": "SOPHISTICATED-ADJECTIVES",
+      "seeds": [
+        "Smartphones have become ubiquitous in modern society.",
+        "The environmental impact is negligible compared to the benefits.",
+        "Her contributions to the field are truly invaluable."
+      ]
+    },
+    "Lv9-P10-S50": {
+      "title": "고급 부사 – ostensibly, perennially",
+      "focus": ["SOPHISTICATED-ADVERBS", "NUANCED-MODIFICATION", "SUBTLE-MEANING"],
+      "grammar_meta": "SOPHISTICATED-ADVERBS",
+      "seeds": [
+        "The policy was ostensibly designed to help small businesses.",
+        "This issue has perennially plagued the industry.",
+        "The solution is inherently flawed and needs revision."
+      ]
+    },
+    "Lv9-P10-S51": {
+      "title": "학술/정치 용어 – hegemony, laissez-faire",
+      "focus": ["ACADEMIC-CONCEPTS", "POLITICAL-TERMINOLOGY", "INTELLECTUAL-DISCOURSE"],
+      "grammar_meta": "CONCEPTUAL-VOCABULARY",
+      "seeds": [
+        "The country's economic hegemony is being challenged.",
+        "A laissez-faire approach may not be appropriate here.",
+        "The paradigm shift has transformed our understanding."
+      ]
+    },
+    "Lv9-P10-S52": {
+      "title": "비즈니스/경제 용어 – due diligence, ROI",
+      "focus": ["BUSINESS-TERMINOLOGY", "FINANCIAL-CONCEPTS", "PROFESSIONAL-ACRONYMS"],
+      "grammar_meta": "BUSINESS-VOCABULARY",
+      "seeds": [
+        "We need to conduct thorough due diligence before proceeding.",
+        "The ROI on this investment exceeds our expectations.",
+        "Our EBITDA has improved significantly this quarter."
+      ]
+    }
+  }
+}

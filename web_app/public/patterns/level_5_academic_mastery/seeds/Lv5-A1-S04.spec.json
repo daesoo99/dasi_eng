@@ -1,0 +1,89 @@
+{
+  "id": "Lv5-A1-S04",
+  "title": "데이터 수집 및 분석 (Bridge)",
+  "intent": "체계적인 데이터 수집 과정을 설명하고 적절한 분석 방법을 적용한다.",
+  "focus": [
+    "DATA-COLLECTION",
+    "ANALYTICAL-METHODS",
+    "STATISTICAL-ANALYSIS",
+    "EVIDENCE-GATHERING"
+  ],
+  "lexset": [
+    "data, statistics, correlation, regression, significance, distribution, variance, sample, population, inference"
+  ],
+  "grammar_meta": [
+    "PAST-PERFECT-RESEARCH",
+    "PASSIVE-DATA",
+    "RELATIVE-COMPLEX",
+    "CONDITIONAL-RESULTS"
+  ],
+  "academic_level": "C1",
+  "traps": [
+    "통계 용어 정확성",
+    "데이터 vs 결과 시제",
+    "유의성 표현",
+    "인과관계 vs 상관관계"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "데이터 유형",
+    "분석 도구",
+    "통계 방법",
+    "표본 특성"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "데이터 수집이 완료된 후 분석을 시작했습니다.",
+      "en": "Analysis began after data collection was completed."
+    },
+    {
+      "kr": "통계적 유의성이 모든 변수에서 확인되었습니다.",
+      "en": "Statistical significance was confirmed across all variables."
+    },
+    {
+      "kr": "상관관계 분석 결과 강한 연관성이 나타났습니다.",
+      "en": "Correlation analysis revealed strong associations."
+    },
+    {
+      "kr": "표본의 대표성이 모집단 추론을 가능하게 합니다.",
+      "en": "Sample representativeness enables population inference."
+    },
+    {
+      "kr": "분산 분석을 통해 집단 간 차이를 검증했습니다.",
+      "en": "We verified group differences through variance analysis."
+    },
+    {
+      "kr": "회귀 분석이 예측 모형의 정확성을 보여줍니다.",
+      "en": "Regression analysis demonstrates the accuracy of the predictive model."
+    },
+    {
+      "kr": "수집된 증거가 가설을 뒷받침합니다.",
+      "en": "The collected evidence supports the hypothesis."
+    },
+    {
+      "kr": "분포의 정규성이 분석 방법 선택에 영향을 미쳤습니다.",
+      "en": "The normality of distribution influenced the choice of analytical methods."
+    },
+    {
+      "kr": "다변량 분석을 통해 복합적 관계를 규명했습니다.",
+      "en": "We identified complex relationships through multivariate analysis."
+    },
+    {
+      "kr": "데이터의 신뢰구간이 결과의 정확성을 보장합니다.",
+      "en": "The confidence interval of data ensures result accuracy."
+    }
+  ]
+}

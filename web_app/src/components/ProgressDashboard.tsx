@@ -42,7 +42,7 @@ const ProgressDashboard: React.FC<ProgressDashboardProps> = ({ userId }) => {
       // 전체 진도와 레벨별 진도를 병렬로 로드
       const [overall, ...levels] = await Promise.all([
         progressManagementService.getOverallProgress(userId),
-        ...Array.from({length: 6}, (_, i) => 
+        ...Array.from({length: 10}, (_, i) => 
           progressManagementService.getLevelProgress(userId, i + 1)
         )
       ]);
@@ -81,12 +81,16 @@ const ProgressDashboard: React.FC<ProgressDashboardProps> = ({ userId }) => {
 
   const getLevelTitle = (level: number): string => {
     const titles = {
-      1: '기초 패턴',
-      2: '기본 문법',
+      1: '기초 표현',
+      2: '기본 패턴',
       3: '고급 문법',
       4: '비즈니스',
       5: '학술 연구',
-      6: '전문 실무'
+      6: '실용 영어',
+      7: '비즈니스 영어',
+      8: '고급 담화',
+      9: '전문가 담화',
+      10: '원어민 수준'
     };
     return titles[level as keyof typeof titles] || `Level ${level}`;
   };

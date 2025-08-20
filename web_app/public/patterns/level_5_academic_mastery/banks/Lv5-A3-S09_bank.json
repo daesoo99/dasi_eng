@@ -1,0 +1,671 @@
+{
+  "stage_id": "Lv5-A3-S09",
+  "title": "논문 서론 및 문제 제기",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv5-A3-S09-001",
+      "kr": "서론에서 연구 문제의 중요성을 부각시킵니다. (학술 1)",
+      "en": "The introduction highlights the importance of the research problem. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-002",
+      "kr": "기존 연구의 공백이 새로운 탐구를 필요로 합니다. (학술 1)",
+      "en": "Gaps in existing research necessitate new exploration. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-003",
+      "kr": "이론적 토대를 구축하기 위한 연구가 시급합니다. (학술 1)",
+      "en": "Research to establish theoretical foundations appears to be urgent. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-004",
+      "kr": "현상에 대한 체계적 이해가 부족한 상황입니다. (학술 1)",
+      "en": "There appears to be a lack of systematic understanding of the phenomenon. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-005",
+      "kr": "학술적 논의를 발전시키기 위한 연구입니다. (학술 1)",
+      "en": "This appears to be research to advance academic discourse. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-006",
+      "kr": "실증적 검증이 이론 발전에 필수적입니다. (학술 1)",
+      "en": "Empirical verification appears to be essential for theoretical development. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-007",
+      "kr": "복합적 문제에 대한 다각적 접근이 요구됩니다. (학술 1)",
+      "en": "A multi-faceted approach to complex problems appears to be required. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-008",
+      "kr": "연구 문제가 학계의 관심을 집중시키고 있습니다. (학술 1)",
+      "en": "The research problem appears to be attracting academic attention. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-009",
+      "kr": "이론과 실무 간의 괴리를 해소할 필요가 있습니다. (학술 1)",
+      "en": "There appears to be a need to bridge the gap between theory and practice. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-010",
+      "kr": "새로운 관점에서 기존 이론을 재검토합니다. (학술 1)",
+      "en": "We re-examine existing theories from a new perspective. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-011",
+      "kr": "서론에서 연구 문제의 중요성을 부각시킵니다. (학술 2)",
+      "en": "The introduction highlights the importance of the research problem. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-012",
+      "kr": "기존 연구의 공백이 새로운 탐구를 필요로 합니다. (학술 2)",
+      "en": "Gaps in existing research necessitate new exploration. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-013",
+      "kr": "이론적 토대를 구축하기 위한 연구가 시급합니다. (학술 2)",
+      "en": "Research to establish theoretical foundations appears to be urgent. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-014",
+      "kr": "현상에 대한 체계적 이해가 부족한 상황입니다. (학술 2)",
+      "en": "There appears to be a lack of systematic understanding of the phenomenon. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-015",
+      "kr": "학술적 논의를 발전시키기 위한 연구입니다. (학술 2)",
+      "en": "This appears to be research to advance academic discourse. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-016",
+      "kr": "실증적 검증이 이론 발전에 필수적입니다. (학술 2)",
+      "en": "Empirical verification appears to be essential for theoretical development. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-017",
+      "kr": "복합적 문제에 대한 다각적 접근이 요구됩니다. (학술 2)",
+      "en": "A multi-faceted approach to complex problems appears to be required. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-018",
+      "kr": "연구 문제가 학계의 관심을 집중시키고 있습니다. (학술 2)",
+      "en": "The research problem appears to be attracting academic attention. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-019",
+      "kr": "이론과 실무 간의 괴리를 해소할 필요가 있습니다. (학술 2)",
+      "en": "There appears to be a need to bridge the gap between theory and practice. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-020",
+      "kr": "새로운 관점에서 기존 이론을 재검토합니다. (학술 2)",
+      "en": "We re-examine existing theories from a new perspective. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-021",
+      "kr": "서론에서 연구 문제의 중요성을 부각시킵니다. (학술 3)",
+      "en": "The introduction highlights the importance of the research problem. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-022",
+      "kr": "기존 연구의 공백이 새로운 탐구를 필요로 합니다. (학술 3)",
+      "en": "Gaps in existing research necessitate new exploration. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-023",
+      "kr": "이론적 토대를 구축하기 위한 연구가 시급합니다. (학술 3)",
+      "en": "Research to establish theoretical foundations appears to be urgent. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-024",
+      "kr": "현상에 대한 체계적 이해가 부족한 상황입니다. (학술 3)",
+      "en": "There appears to be a lack of systematic understanding of the phenomenon. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-025",
+      "kr": "학술적 논의를 발전시키기 위한 연구입니다. (학술 3)",
+      "en": "This appears to be research to advance academic discourse. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-026",
+      "kr": "실증적 검증이 이론 발전에 필수적입니다. (학술 3)",
+      "en": "Empirical verification appears to be essential for theoretical development. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-027",
+      "kr": "복합적 문제에 대한 다각적 접근이 요구됩니다. (학술 3)",
+      "en": "A multi-faceted approach to complex problems appears to be required. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-028",
+      "kr": "연구 문제가 학계의 관심을 집중시키고 있습니다. (학술 3)",
+      "en": "The research problem appears to be attracting academic attention. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-029",
+      "kr": "이론과 실무 간의 괴리를 해소할 필요가 있습니다. (학술 3)",
+      "en": "There appears to be a need to bridge the gap between theory and practice. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-030",
+      "kr": "새로운 관점에서 기존 이론을 재검토합니다. (학술 3)",
+      "en": "We re-examine existing theories from a new perspective. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-031",
+      "kr": "서론에서 연구 문제의 중요성을 부각시킵니다. (학술 4)",
+      "en": "The introduction highlights the importance of the research problem. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-032",
+      "kr": "기존 연구의 공백이 새로운 탐구를 필요로 합니다. (학술 4)",
+      "en": "Gaps in existing research necessitate new exploration. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-033",
+      "kr": "이론적 토대를 구축하기 위한 연구가 시급합니다. (학술 4)",
+      "en": "Research to establish theoretical foundations appears to be urgent. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-034",
+      "kr": "현상에 대한 체계적 이해가 부족한 상황입니다. (학술 4)",
+      "en": "There appears to be a lack of systematic understanding of the phenomenon. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-035",
+      "kr": "학술적 논의를 발전시키기 위한 연구입니다. (학술 4)",
+      "en": "This appears to be research to advance academic discourse. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-036",
+      "kr": "실증적 검증이 이론 발전에 필수적입니다. (학술 4)",
+      "en": "Empirical verification appears to be essential for theoretical development. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-037",
+      "kr": "복합적 문제에 대한 다각적 접근이 요구됩니다. (학술 4)",
+      "en": "A multi-faceted approach to complex problems appears to be required. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-038",
+      "kr": "연구 문제가 학계의 관심을 집중시키고 있습니다. (학술 4)",
+      "en": "The research problem appears to be attracting academic attention. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-039",
+      "kr": "이론과 실무 간의 괴리를 해소할 필요가 있습니다. (학술 4)",
+      "en": "There appears to be a need to bridge the gap between theory and practice. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-040",
+      "kr": "새로운 관점에서 기존 이론을 재검토합니다. (학술 4)",
+      "en": "We re-examine existing theories from a new perspective. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-041",
+      "kr": "서론에서 연구 문제의 중요성을 부각시킵니다. (학술 5)",
+      "en": "The introduction highlights the importance of the research problem. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-042",
+      "kr": "기존 연구의 공백이 새로운 탐구를 필요로 합니다. (학술 5)",
+      "en": "Gaps in existing research necessitate new exploration. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-043",
+      "kr": "이론적 토대를 구축하기 위한 연구가 시급합니다. (학술 5)",
+      "en": "Research to establish theoretical foundations appears to be urgent. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-044",
+      "kr": "현상에 대한 체계적 이해가 부족한 상황입니다. (학술 5)",
+      "en": "There appears to be a lack of systematic understanding of the phenomenon. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-045",
+      "kr": "학술적 논의를 발전시키기 위한 연구입니다. (학술 5)",
+      "en": "This appears to be research to advance academic discourse. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-046",
+      "kr": "실증적 검증이 이론 발전에 필수적입니다. (학술 5)",
+      "en": "Empirical verification appears to be essential for theoretical development. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-047",
+      "kr": "복합적 문제에 대한 다각적 접근이 요구됩니다. (학술 5)",
+      "en": "A multi-faceted approach to complex problems appears to be required. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-048",
+      "kr": "연구 문제가 학계의 관심을 집중시키고 있습니다. (학술 5)",
+      "en": "The research problem appears to be attracting academic attention. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-049",
+      "kr": "이론과 실무 간의 괴리를 해소할 필요가 있습니다. (학술 5)",
+      "en": "There appears to be a need to bridge the gap between theory and practice. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    },
+    {
+      "id": "Lv5-A3-S09-050",
+      "kr": "새로운 관점에서 기존 이론을 재검토합니다. (학술 5)",
+      "en": "We re-examine existing theories from a new perspective. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PRESENT-PERFECT-LITERATURE",
+        "PASSIVE-ACADEMIC",
+        "COMPLEX-NOUN-PHRASES",
+        "CAUSAL-RELATIONSHIPS"
+      ],
+      "academic_level": "C1"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10
+  },
+  "grammar_meta": [
+    "PRESENT-PERFECT-LITERATURE",
+    "PASSIVE-ACADEMIC",
+    "COMPLEX-NOUN-PHRASES",
+    "CAUSAL-RELATIONSHIPS"
+  ],
+  "academic_level": "C1",
+  "status": "generated",
+  "batch": "L5_Academic_Batch1"
+}

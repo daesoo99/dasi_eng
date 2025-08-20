@@ -1,0 +1,986 @@
+[
+  {
+    "id": "Lv4-A1-S01",
+    "title": "회의 시작 및 안건 소개",
+    "intent": "비즈니스 회의를 전문적으로 시작하고 안건을 명확히 소개하며 참석자들의 주의를 집중시킨다.",
+    "focus": [
+      "MEETING-OPENING",
+      "AGENDA-INTRODUCTION",
+      "PROFESSIONAL-LANGUAGE",
+      "ATTENTION-GETTING"
+    ],
+    "lexset": [
+      "meeting, agenda, discuss, review, address, welcome, purpose, objective, schedule, priority"
+    ],
+    "traps": [
+      "격식체 vs 비격식체 혼동",
+      "회의 용어의 정확한 사용",
+      "시제 일치 (예정된 안건들)",
+      "복수형 처리 (items, issues)"
+    ],
+    "bankMin": 50,
+    "forms": {
+      "aff": 0.7,
+      "neg": 0.1,
+      "wh_q": 0.2
+    },
+    "variants": [
+      "회의 유형",
+      "격식도",
+      "참석자",
+      "안건 수"
+    ],
+    "engine": {
+      "randomPick": [
+        5,
+        8
+      ],
+      "retryWeighted": true,
+      "excludeRecent": true
+    },
+    "seeds": [
+      {
+        "kr": "오늘 회의를 시작하겠습니다.",
+        "en": "Let's begin today's meeting."
+      },
+      {
+        "kr": "첫 번째 안건은 예산 검토입니다.",
+        "en": "The first item on the agenda is budget review."
+      },
+      {
+        "kr": "이번 분기 성과에 대해 논의하겠습니다.",
+        "en": "We'll discuss this quarter's performance."
+      },
+      {
+        "kr": "모든 참석자분들 환영합니다.",
+        "en": "Welcome everyone to the meeting."
+      },
+      {
+        "kr": "오늘의 주요 목적은 전략 수정입니다.",
+        "en": "The main purpose today is strategy revision."
+      },
+      {
+        "kr": "시간이 제한되어 있으니 효율적으로 진행하겠습니다.",
+        "en": "We have limited time, so let's be efficient."
+      },
+      {
+        "kr": "먼저 지난 회의 결과를 검토하겠습니다.",
+        "en": "First, let's review the results from our last meeting."
+      },
+      {
+        "kr": "질문이 있으시면 언제든 말씀해 주세요.",
+        "en": "Please feel free to ask questions at any time."
+      },
+      {
+        "kr": "우선순위가 높은 이슈부터 다루겠습니다.",
+        "en": "We'll address the high-priority issues first."
+      },
+      {
+        "kr": "회의 자료를 모두 받으셨나요?",
+        "en": "Has everyone received the meeting materials?"
+      }
+    ]
+  },
+  {
+    "id": "Lv4-A1-S02",
+    "title": "의견 제시 및 근거 설명",
+    "intent": "비즈니스 맥락에서 자신의 의견을 논리적으로 제시하고 구체적인 근거와 데이터로 뒷받침한다.",
+    "focus": [
+      "OPINION-EXPRESSING",
+      "EVIDENCE-SUPPORTING",
+      "LOGICAL-REASONING",
+      "DATA-PRESENTATION"
+    ],
+    "lexset": [
+      "suggest, propose, recommend, believe, analysis, data, evidence, statistics, research, findings"
+    ],
+    "traps": [
+      "I think vs I believe vs I suggest 구분",
+      "근거 제시 연결어 (because, since, due to)",
+      "데이터 인용 표현",
+      "정중한 의견 제시 (might, could, would)"
+    ],
+    "bankMin": 50,
+    "forms": {
+      "aff": 0.6,
+      "neg": 0.2,
+      "wh_q": 0.2
+    },
+    "variants": [
+      "의견 강도",
+      "근거 유형",
+      "데이터/경험",
+      "정중도"
+    ],
+    "engine": {
+      "randomPick": [
+        5,
+        8
+      ],
+      "retryWeighted": true,
+      "excludeRecent": true
+    },
+    "seeds": [
+      {
+        "kr": "제 의견으로는 마케팅 예산을 늘려야 합니다.",
+        "en": "In my opinion, we should increase the marketing budget."
+      },
+      {
+        "kr": "데이터에 따르면 고객 만족도가 향상되었습니다.",
+        "en": "According to the data, customer satisfaction has improved."
+      },
+      {
+        "kr": "연구 결과를 바탕으로 새로운 전략을 제안합니다.",
+        "en": "Based on research findings, I propose a new strategy."
+      },
+      {
+        "kr": "경험상 이 방법이 더 효과적입니다.",
+        "en": "From experience, this approach is more effective."
+      },
+      {
+        "kr": "통계를 보면 분명한 추세가 나타납니다.",
+        "en": "The statistics show a clear trend."
+      },
+      {
+        "kr": "분석 결과 두 가지 옵션을 고려해볼 수 있습니다.",
+        "en": "The analysis suggests we consider two options."
+      },
+      {
+        "kr": "이유는 세 가지입니다.",
+        "en": "There are three reasons for this."
+      },
+      {
+        "kr": "증거가 이 결론을 뒷받침합니다.",
+        "en": "The evidence supports this conclusion."
+      },
+      {
+        "kr": "시장 조사에 의하면 수요가 증가하고 있습니다.",
+        "en": "Market research indicates increasing demand."
+      },
+      {
+        "kr": "강력히 권합니다.",
+        "en": "I strongly recommend this approach."
+      }
+    ]
+  },
+  {
+    "id": "Lv4-A1-S03",
+    "title": "동의 및 반대 표현",
+    "intent": "비즈니스 회의에서 전문적이고 정중하게 동의나 반대 의견을 표현하며 건설적인 토론을 이끈다.",
+    "focus": [
+      "AGREEMENT-DISAGREEMENT",
+      "DIPLOMATIC-LANGUAGE",
+      "CONSTRUCTIVE-FEEDBACK",
+      "PROFESSIONAL-TONE"
+    ],
+    "lexset": [
+      "agree, disagree, support, oppose, concern, issue, alternative, perspective, valid, point"
+    ],
+    "traps": [
+      "직접적 반대 vs 완곡한 반대",
+      "부분 동의 표현 (I agree to some extent)",
+      "대안 제시 연결어",
+      "감정적 표현 피하기"
+    ],
+    "bankMin": 50,
+    "forms": {
+      "aff": 0.5,
+      "neg": 0.3,
+      "wh_q": 0.2
+    },
+    "variants": [
+      "동의 정도",
+      "반대 강도",
+      "대안 유무",
+      "정중도"
+    ],
+    "engine": {
+      "randomPick": [
+        5,
+        8
+      ],
+      "retryWeighted": true,
+      "excludeRecent": true
+    },
+    "seeds": [
+      {
+        "kr": "그 의견에 전적으로 동의합니다.",
+        "en": "I completely agree with that opinion."
+      },
+      {
+        "kr": "좋은 지적이지만 다른 관점도 있습니다.",
+        "en": "That's a valid point, but there's another perspective."
+      },
+      {
+        "kr": "어느 정도는 동의하지만 우려사항이 있습니다.",
+        "en": "I agree to some extent, but I have concerns."
+      },
+      {
+        "kr": "죄송하지만 그 제안에 반대합니다.",
+        "en": "I'm sorry, but I have to disagree with that proposal."
+      },
+      {
+        "kr": "대안을 제시해 보겠습니다.",
+        "en": "Let me suggest an alternative."
+      },
+      {
+        "kr": "그 아이디어를 지지합니다.",
+        "en": "I support that idea."
+      },
+      {
+        "kr": "다른 접근법을 고려해 볼 수 있을까요?",
+        "en": "Could we consider a different approach?"
+      },
+      {
+        "kr": "정확히 그렇습니다.",
+        "en": "That's exactly right."
+      },
+      {
+        "kr": "그 점에 대해서는 의견이 다릅니다.",
+        "en": "I have a different opinion on that point."
+      },
+      {
+        "kr": "훌륭한 제안입니다.",
+        "en": "That's an excellent suggestion."
+      }
+    ]
+  },
+  {
+    "id": "Lv4-A1-S04",
+    "title": "회의 결론 및 다음 단계",
+    "intent": "회의 내용을 요약하고 결정사항을 정리하며 구체적인 실행 계획과 책임자를 명확히 정한다.",
+    "focus": [
+      "MEETING-CONCLUSION",
+      "ACTION-ITEMS",
+      "RESPONSIBILITY-ASSIGNMENT",
+      "FOLLOW-UP"
+    ],
+    "lexset": [
+      "conclude, summarize, decide, action, responsibility, deadline, follow-up, implement, assign, next"
+    ],
+    "traps": [
+      "미래 시제 정확한 사용 (will vs going to)",
+      "책임 할당 표현 (be responsible for)",
+      "마감일 표현 (by, until)",
+      "요약 연결어 (in summary, to conclude)"
+    ],
+    "bankMin": 50,
+    "forms": {
+      "aff": 0.7,
+      "neg": 0.1,
+      "wh_q": 0.2
+    },
+    "variants": [
+      "요약 방식",
+      "실행 계획",
+      "마감일",
+      "책임자"
+    ],
+    "engine": {
+      "randomPick": [
+        5,
+        8
+      ],
+      "retryWeighted": true,
+      "excludeRecent": true
+    },
+    "seeds": [
+      {
+        "kr": "결론적으로 새로운 전략을 채택하기로 했습니다.",
+        "en": "In conclusion, we've decided to adopt the new strategy."
+      },
+      {
+        "kr": "김 과장님이 이 프로젝트를 담당하시게 됩니다.",
+        "en": "Manager Kim will be responsible for this project."
+      },
+      {
+        "kr": "다음 주까지 보고서를 완성해야 합니다.",
+        "en": "We need to complete the report by next week."
+      },
+      {
+        "kr": "오늘 논의한 내용을 요약하겠습니다.",
+        "en": "Let me summarize what we discussed today."
+      },
+      {
+        "kr": "다음 회의는 월요일에 하겠습니다.",
+        "en": "The next meeting will be on Monday."
+      },
+      {
+        "kr": "실행 계획을 수립해야 합니다.",
+        "en": "We need to develop an action plan."
+      },
+      {
+        "kr": "진행상황을 주간 보고로 확인하겠습니다.",
+        "en": "We'll track progress through weekly reports."
+      },
+      {
+        "kr": "이번 회의에서 세 가지를 결정했습니다.",
+        "en": "We made three decisions in this meeting."
+      },
+      {
+        "kr": "후속 조치가 필요한 사항들입니다.",
+        "en": "These are the items that require follow-up."
+      },
+      {
+        "kr": "모든 분들 수고하셨습니다.",
+        "en": "Thank you all for your participation."
+      }
+    ]
+  },
+  {
+    "id": "Lv4-A2-S05",
+    "title": "프레젠테이션 도입 및 목적 제시",
+    "intent": "청중의 관심을 끌고 프레젠테이션의 목적과 구조를 명확히 제시하여 효과적인 발표를 시작한다.",
+    "focus": [
+      "PRESENTATION-OPENING",
+      "PURPOSE-STATEMENT",
+      "STRUCTURE-OUTLINE",
+      "AUDIENCE-ENGAGEMENT"
+    ],
+    "lexset": [
+      "presentation, introduce, overview, outline, structure, objective, cover, demonstrate, explain, highlight"
+    ],
+    "traps": [
+      "미래 시제 (I will explain vs I'm going to show)",
+      "순서 표현 (first, then, finally)",
+      "청중 언급 (ladies and gentlemen vs everyone)",
+      "프레젠테이션 용어 정확성"
+    ],
+    "bankMin": 50,
+    "forms": {
+      "aff": 0.8,
+      "neg": 0.1,
+      "wh_q": 0.1
+    },
+    "variants": [
+      "청중 유형",
+      "발표 주제",
+      "격식도",
+      "구조"
+    ],
+    "engine": {
+      "randomPick": [
+        5,
+        8
+      ],
+      "retryWeighted": true,
+      "excludeRecent": true
+    },
+    "seeds": [
+      {
+        "kr": "오늘 발표를 시작하겠습니다.",
+        "en": "I'd like to begin today's presentation."
+      },
+      {
+        "kr": "제 소개를 먼저 하겠습니다.",
+        "en": "Let me start by introducing myself."
+      },
+      {
+        "kr": "오늘의 목적은 새로운 제품을 소개하는 것입니다.",
+        "en": "The purpose of today's presentation is to introduce our new product."
+      },
+      {
+        "kr": "세 부분으로 나누어 설명하겠습니다.",
+        "en": "I'll divide this into three parts."
+      },
+      {
+        "kr": "먼저 현재 상황을 살펴보겠습니다.",
+        "en": "First, let's look at the current situation."
+      },
+      {
+        "kr": "이 차트를 보시면 명확해집니다.",
+        "en": "This chart will make it clear."
+      },
+      {
+        "kr": "질문은 발표 후에 받겠습니다.",
+        "en": "I'll take questions after the presentation."
+      },
+      {
+        "kr": "예상 시간은 20분입니다.",
+        "en": "This should take about 20 minutes."
+      },
+      {
+        "kr": "핵심 요점들을 강조하겠습니다.",
+        "en": "I'll highlight the key points."
+      },
+      {
+        "kr": "여러분의 관심을 끌고 싶은 것이 있습니다.",
+        "en": "There's something I'd like to draw your attention to."
+      }
+    ]
+  },
+  {
+    "id": "Lv4-A2-S06",
+    "title": "데이터 설명 및 분석",
+    "intent": "차트, 그래프, 수치 데이터를 명확하게 설명하고 비즈니스적 의미를 분석하여 전달한다.",
+    "focus": [
+      "DATA-EXPLANATION",
+      "CHART-DESCRIPTION",
+      "TREND-ANALYSIS",
+      "NUMERICAL-LANGUAGE"
+    ],
+    "lexset": [
+      "increase, decrease, rise, fall, percentage, graph, chart, trend, significant, dramatic, steady"
+    ],
+    "traps": [
+      "수치 표현 (percent vs percentage)",
+      "변화 동사 시제 (has increased vs increased)",
+      "정도 부사 (significantly, slightly)",
+      "전치사 (increase by vs increase to)"
+    ],
+    "bankMin": 50,
+    "forms": {
+      "aff": 0.7,
+      "neg": 0.2,
+      "wh_q": 0.1
+    },
+    "variants": [
+      "데이터 유형",
+      "변화 정도",
+      "시간대",
+      "비교"
+    ],
+    "engine": {
+      "randomPick": [
+        5,
+        8
+      ],
+      "retryWeighted": true,
+      "excludeRecent": true
+    },
+    "seeds": [
+      {
+        "kr": "매출이 20% 증가했습니다.",
+        "en": "Sales have increased by 20%."
+      },
+      {
+        "kr": "이 그래프는 지속적인 상승 추세를 보여줍니다.",
+        "en": "This graph shows a steady upward trend."
+      },
+      {
+        "kr": "작년 대비 상당한 개선이 있었습니다.",
+        "en": "There's been significant improvement compared to last year."
+      },
+      {
+        "kr": "수치를 자세히 살펴보겠습니다.",
+        "en": "Let's look at the figures in detail."
+      },
+      {
+        "kr": "시장 점유율이 급격히 하락했습니다.",
+        "en": "Market share has dropped dramatically."
+      },
+      {
+        "kr": "이 데이터가 보여주는 것은 명확합니다.",
+        "en": "What this data shows is clear."
+      },
+      {
+        "kr": "최고점에서 최저점까지의 변화입니다.",
+        "en": "This shows the change from peak to lowest point."
+      },
+      {
+        "kr": "평균적으로 월 10% 성장하고 있습니다.",
+        "en": "We're growing at an average of 10% per month."
+      },
+      {
+        "kr": "예상치를 상회하는 결과입니다.",
+        "en": "The results exceed our expectations."
+      },
+      {
+        "kr": "다음 분기 전망은 긍정적입니다.",
+        "en": "The outlook for next quarter is positive."
+      }
+    ]
+  },
+  {
+    "id": "Lv4-A2-S07",
+    "title": "결론 및 권고사항",
+    "intent": "프레젠테이션의 핵심 내용을 요약하고 구체적이고 실행 가능한 권고사항을 제시한다.",
+    "focus": [
+      "CONCLUSION-SUMMARY",
+      "RECOMMENDATIONS",
+      "ACTION-ORIENTED",
+      "PERSUASIVE-LANGUAGE"
+    ],
+    "lexset": [
+      "recommend, suggest, propose, implement, strategy, solution, benefit, advantage, result, outcome"
+    ],
+    "traps": [
+      "권고 표현 (recommend vs suggest vs advise)",
+      "조건부 표현 (If we implement this, we will...)",
+      "이익/결과 연결 (This will result in...)",
+      "요약 연결어 정확한 사용"
+    ],
+    "bankMin": 50,
+    "forms": {
+      "aff": 0.7,
+      "neg": 0.1,
+      "wh_q": 0.2
+    },
+    "variants": [
+      "권고 강도",
+      "실행 방안",
+      "예상 결과",
+      "시간 계획"
+    ],
+    "engine": {
+      "randomPick": [
+        5,
+        8
+      ],
+      "retryWeighted": true,
+      "excludeRecent": true
+    },
+    "seeds": [
+      {
+        "kr": "결론적으로 새로운 시스템 도입을 권합니다.",
+        "en": "In conclusion, I recommend implementing the new system."
+      },
+      {
+        "kr": "이 전략의 주요 이점은 비용 절감입니다.",
+        "en": "The main benefit of this strategy is cost reduction."
+      },
+      {
+        "kr": "즉시 실행할 수 있는 솔루션입니다.",
+        "en": "This is a solution we can implement immediately."
+      },
+      {
+        "kr": "예상 결과는 다음과 같습니다.",
+        "en": "The expected outcomes are as follows."
+      },
+      {
+        "kr": "이 제안을 채택하면 경쟁 우위를 확보할 수 있습니다.",
+        "en": "Adopting this proposal will give us a competitive advantage."
+      },
+      {
+        "kr": "투자 대비 수익률이 높을 것으로 예상됩니다.",
+        "en": "We expect a high return on investment."
+      },
+      {
+        "kr": "3개월 내에 결과를 볼 수 있을 것입니다.",
+        "en": "We should see results within three months."
+      },
+      {
+        "kr": "모든 부서의 협력이 필요합니다.",
+        "en": "We'll need cooperation from all departments."
+      },
+      {
+        "kr": "리스크는 최소화하고 이익은 극대화할 수 있습니다.",
+        "en": "We can minimize risks while maximizing benefits."
+      },
+      {
+        "kr": "다음 단계로 파일럿 프로그램을 제안합니다.",
+        "en": "As the next step, I propose a pilot program."
+      }
+    ]
+  },
+  {
+    "id": "Lv4-A2-S08",
+    "title": "Q&A 및 피드백 처리 (Bridge)",
+    "intent": "질문에 전문적으로 대답하고 피드백을 수용하며 추가 논의를 효과적으로 관리한다.",
+    "focus": [
+      "QUESTION-HANDLING",
+      "FEEDBACK-MANAGEMENT",
+      "CLARIFICATION",
+      "PROFESSIONAL-RESPONSE"
+    ],
+    "lexset": [
+      "question, clarify, explain, elaborate, feedback, comment, point, understand, appreciate, address"
+    ],
+    "traps": [
+      "질문 반복/확인 표현",
+      "모르는 것 인정하는 방법",
+      "나중에 답변 약속 표현",
+      "감사 표현의 다양성"
+    ],
+    "bankMin": 50,
+    "forms": {
+      "aff": 0.6,
+      "neg": 0.2,
+      "wh_q": 0.2
+    },
+    "variants": [
+      "질문 유형",
+      "대답 방식",
+      "모르는 경우",
+      "감사 표현"
+    ],
+    "engine": {
+      "randomPick": [
+        5,
+        8
+      ],
+      "retryWeighted": true,
+      "excludeRecent": true
+    },
+    "seeds": [
+      {
+        "kr": "좋은 질문입니다.",
+        "en": "That's an excellent question."
+      },
+      {
+        "kr": "좀 더 자세히 설명해 드리겠습니다.",
+        "en": "Let me elaborate on that point."
+      },
+      {
+        "kr": "정확히 무엇을 의미하시는지 확인하고 싶습니다.",
+        "en": "I'd like to clarify what you mean exactly."
+      },
+      {
+        "kr": "그 부분은 확인해서 나중에 답변드리겠습니다.",
+        "en": "I'll check on that and get back to you."
+      },
+      {
+        "kr": "귀중한 피드백 감사합니다.",
+        "en": "Thank you for that valuable feedback."
+      },
+      {
+        "kr": "다른 관점에서 보시는군요.",
+        "en": "I see you're looking at it from a different perspective."
+      },
+      {
+        "kr": "제가 놓친 부분을 지적해 주셨습니다.",
+        "en": "You've pointed out something I missed."
+      },
+      {
+        "kr": "그 문제를 해결할 방법이 있습니다.",
+        "en": "There's a way to address that concern."
+      },
+      {
+        "kr": "더 질문 있으시면 언제든 말씀해 주세요.",
+        "en": "Please feel free to ask if you have more questions."
+      },
+      {
+        "kr": "시간 관계상 마지막 질문을 받겠습니다.",
+        "en": "Due to time constraints, I'll take one final question."
+      }
+    ]
+  },
+  {
+    "id": "Lv4-A3-S09",
+    "title": "조건부 제안 및 협상 시작",
+    "intent": "비즈니스 협상에서 조건부 제안을 하고 상대방의 요구사항을 파악하며 협상 분위기를 조성한다.",
+    "focus": [
+      "CONDITIONAL-OFFERS",
+      "NEGOTIATION-OPENING",
+      "REQUIREMENTS-ASSESSMENT",
+      "PROPOSAL-LANGUAGE"
+    ],
+    "lexset": [
+      "propose, offer, condition, terms, agreement, negotiate, discuss, consider, flexible, requirements"
+    ],
+    "traps": [
+      "조건문 정확한 사용 (If you..., we will...)",
+      "제안 표현의 정중함",
+      "협상 용어 정확성",
+      "가정법 활용 (would, could, might)"
+    ],
+    "bankMin": 50,
+    "forms": {
+      "aff": 0.6,
+      "neg": 0.2,
+      "wh_q": 0.2
+    },
+    "variants": [
+      "제안 유형",
+      "조건",
+      "협상 단계",
+      "유연성"
+    ],
+    "engine": {
+      "randomPick": [
+        5,
+        8
+      ],
+      "retryWeighted": true,
+      "excludeRecent": true
+    },
+    "seeds": [
+      {
+        "kr": "만약 수량을 늘리신다면 할인을 제공할 수 있습니다.",
+        "en": "If you increase the quantity, we could offer a discount."
+      },
+      {
+        "kr": "귀하의 요구사항을 들어보고 싶습니다.",
+        "en": "I'd like to hear your requirements."
+      },
+      {
+        "kr": "다음 조건으로 제안합니다.",
+        "en": "We propose the following terms."
+      },
+      {
+        "kr": "상호 이익이 되는 방안을 찾아보겠습니다.",
+        "en": "Let's find a mutually beneficial solution."
+      },
+      {
+        "kr": "어느 정도 융통성이 있습니다.",
+        "en": "We have some flexibility in this matter."
+      },
+      {
+        "kr": "계약 조건을 논의해 봅시다.",
+        "en": "Let's discuss the contract terms."
+      },
+      {
+        "kr": "예산 범위 내에서 최선을 다하겠습니다.",
+        "en": "We'll do our best within your budget range."
+      },
+      {
+        "kr": "대안을 제시해 보겠습니다.",
+        "en": "Let me suggest an alternative."
+      },
+      {
+        "kr": "이 제안을 검토해 보시겠습니까?",
+        "en": "Would you consider this proposal?"
+      },
+      {
+        "kr": "양측 모두에게 공정한 거래입니다.",
+        "en": "This is a fair deal for both parties."
+      }
+    ]
+  },
+  {
+    "id": "Lv4-A3-S10",
+    "title": "양보 및 대안 제시",
+    "intent": "협상 과정에서 적절한 양보를 하고 창의적인 대안을 제시하여 합의점을 찾아간다.",
+    "focus": [
+      "CONCESSIONS",
+      "ALTERNATIVE-SOLUTIONS",
+      "COMPROMISE",
+      "WIN-WIN-SITUATIONS"
+    ],
+    "lexset": [
+      "compromise, concession, alternative, option, adjust, modify, reconsider, trade-off, balance, middle"
+    ],
+    "traps": [
+      "양보 표현의 단계적 사용",
+      "대안 제시 연결어",
+      "조건부 양보 (provided that, as long as)",
+      "균형잡힌 협상 언어"
+    ],
+    "bankMin": 50,
+    "forms": {
+      "aff": 0.6,
+      "neg": 0.2,
+      "wh_q": 0.2
+    },
+    "variants": [
+      "양보 정도",
+      "대안 유형",
+      "조건",
+      "창의성"
+    ],
+    "engine": {
+      "randomPick": [
+        5,
+        8
+      ],
+      "retryWeighted": true,
+      "excludeRecent": true
+    },
+    "seeds": [
+      {
+        "kr": "가격을 조정할 수 있습니다.",
+        "en": "We can adjust the price."
+      },
+      {
+        "kr": "중간점을 찾아보겠습니다.",
+        "en": "Let's find a middle ground."
+      },
+      {
+        "kr": "다른 방법이 있을 수 있습니다.",
+        "en": "There might be another way."
+      },
+      {
+        "kr": "조건을 수정해서 다시 제안하겠습니다.",
+        "en": "Let me modify the terms and make a new proposal."
+      },
+      {
+        "kr": "배송 조건에서 양보할 수 있습니다.",
+        "en": "We can make concessions on delivery terms."
+      },
+      {
+        "kr": "대신에 다른 혜택을 제공하겠습니다.",
+        "en": "Instead, we can offer other benefits."
+      },
+      {
+        "kr": "절충안을 찾아야겠습니다.",
+        "en": "We need to find a compromise."
+      },
+      {
+        "kr": "win-win 상황을 만들 수 있습니다.",
+        "en": "We can create a win-win situation."
+      },
+      {
+        "kr": "그 조건이라면 재고해볼 수 있습니다.",
+        "en": "We could reconsider under those conditions."
+      },
+      {
+        "kr": "패키지 딜로 제안합니다.",
+        "en": "Let me propose a package deal."
+      }
+    ]
+  },
+  {
+    "id": "Lv4-A3-S11",
+    "title": "문제 해결 언어",
+    "intent": "고객의 문제나 불만을 전문적으로 처리하고 효과적인 해결책을 제시한다.",
+    "focus": [
+      "PROBLEM-SOLVING",
+      "CUSTOMER-SERVICE",
+      "SOLUTION-ORIENTED",
+      "EMPATHY-EXPRESSION"
+    ],
+    "lexset": [
+      "problem, issue, concern, solution, resolve, address, apologize, understand, investigate, improve"
+    ],
+    "traps": [
+      "사과 표현의 적절성",
+      "문제 인정 vs 책임 회피",
+      "해결책 제시 방법",
+      "고객 감정 공감 표현"
+    ],
+    "bankMin": 50,
+    "forms": {
+      "aff": 0.6,
+      "neg": 0.3,
+      "wh_q": 0.1
+    },
+    "variants": [
+      "문제 유형",
+      "해결 방법",
+      "사과 정도",
+      "후속 조치"
+    ],
+    "engine": {
+      "randomPick": [
+        5,
+        8
+      ],
+      "retryWeighted": true,
+      "excludeRecent": true
+    },
+    "seeds": [
+      {
+        "kr": "불편을 끼쳐드려 죄송합니다.",
+        "en": "I apologize for any inconvenience caused."
+      },
+      {
+        "kr": "문제를 이해하겠습니다.",
+        "en": "I understand the problem."
+      },
+      {
+        "kr": "즉시 조사해보겠습니다.",
+        "en": "I'll investigate this immediately."
+      },
+      {
+        "kr": "해결책을 찾아드리겠습니다.",
+        "en": "Let me find a solution for you."
+      },
+      {
+        "kr": "이런 일이 다시 발생하지 않도록 하겠습니다.",
+        "en": "We'll ensure this doesn't happen again."
+      },
+      {
+        "kr": "고객님의 입장을 충분히 이해합니다.",
+        "en": "I completely understand your position."
+      },
+      {
+        "kr": "보상 방안을 검토해보겠습니다.",
+        "en": "I'll look into compensation options."
+      },
+      {
+        "kr": "문제의 원인을 파악하겠습니다.",
+        "en": "Let me identify the root cause."
+      },
+      {
+        "kr": "개선 방안을 마련하겠습니다.",
+        "en": "We'll develop an improvement plan."
+      },
+      {
+        "kr": "귀하의 피드백은 매우 중요합니다.",
+        "en": "Your feedback is very important to us."
+      }
+    ]
+  },
+  {
+    "id": "Lv4-A3-S12",
+    "title": "확정 및 거래 마무리",
+    "intent": "협상이나 거래를 성공적으로 마무리하고 향후 관계를 위한 기반을 다진다.",
+    "focus": [
+      "DEAL-CLOSING",
+      "CONFIRMATION",
+      "FUTURE-RELATIONSHIP",
+      "PROFESSIONAL-CLOSURE"
+    ],
+    "lexset": [
+      "finalize, confirm, agreement, contract, handshake, deal, partnership, cooperation, future, relationship"
+    ],
+    "traps": [
+      "확정 표현의 정확성",
+      "미래 관계 언급 방법",
+      "감사 표현의 진정성",
+      "후속 연락 약속"
+    ],
+    "bankMin": 50,
+    "forms": {
+      "aff": 0.8,
+      "neg": 0.1,
+      "wh_q": 0.1
+    },
+    "variants": [
+      "거래 규모",
+      "관계 유형",
+      "후속 계획",
+      "만족도"
+    ],
+    "engine": {
+      "randomPick": [
+        5,
+        8
+      ],
+      "retryWeighted": true,
+      "excludeRecent": true
+    },
+    "seeds": [
+      {
+        "kr": "계약을 확정하겠습니다.",
+        "en": "Let's finalize the contract."
+      },
+      {
+        "kr": "성공적인 거래였습니다.",
+        "en": "This has been a successful deal."
+      },
+      {
+        "kr": "앞으로도 좋은 파트너십을 기대합니다.",
+        "en": "I look forward to a great partnership."
+      },
+      {
+        "kr": "모든 조건에 합의했습니다.",
+        "en": "We've agreed on all terms."
+      },
+      {
+        "kr": "계약서에 서명하겠습니다.",
+        "en": "We'll sign the contract."
+      },
+      {
+        "kr": "향후 협력 방안을 논의합시다.",
+        "en": "Let's discuss future cooperation."
+      },
+      {
+        "kr": "만족스러운 결과입니다.",
+        "en": "This is a satisfactory outcome."
+      },
+      {
+        "kr": "다음 주에 서류를 준비하겠습니다.",
+        "en": "We'll prepare the documents next week."
+      },
+      {
+        "kr": "연락을 계속 유지하겠습니다.",
+        "en": "We'll stay in touch."
+      },
+      {
+        "kr": "함께 일할 수 있어서 기쁩니다.",
+        "en": "It's a pleasure doing business with you."
+      }
+    ]
+  }
+]

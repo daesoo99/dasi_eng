@@ -1,0 +1,88 @@
+{
+  "id": "Lv4-A6-S21",
+  "title": "팀 협업 및 역할 분담",
+  "intent": "팀 프로젝트에서 효과적인 협업을 위해 역할을 분담하고 커뮤니케이션을 조율한다.",
+  "focus": [
+    "TEAM-COLLABORATION",
+    "ROLE-ASSIGNMENT",
+    "COORDINATION",
+    "RESPONSIBILITY"
+  ],
+  "lexset": [
+    "collaborate, coordinate, assign, responsibility, delegate, teamwork, support, contribute, communicate, organize"
+  ],
+  "grammar_meta": [
+    "MODAL-WILL-SHOULD",
+    "PASSIVE-VOICE",
+    "RELATIVE-PRONOUNS",
+    "PRESENT-PERFECT"
+  ],
+  "traps": [
+    "역할 할당 vs 요청",
+    "책임 표현 방식",
+    "협업 동사 선택",
+    "팀워크 강조 언어"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "팀 크기",
+    "역할 유형",
+    "협업 방식",
+    "책임 범위"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "함께 협력해서 프로젝트를 완성합시다.",
+      "en": "Let's collaborate to complete the project."
+    },
+    {
+      "kr": "각자의 역할을 명확히 해야 합니다.",
+      "en": "We need to clarify each person's role."
+    },
+    {
+      "kr": "이 업무를 누구에게 맡길까요?",
+      "en": "Who should we assign this task to?"
+    },
+    {
+      "kr": "팀워크가 성공의 열쇠입니다.",
+      "en": "Teamwork is the key to success."
+    },
+    {
+      "kr": "서로 지원하며 일해야 합니다.",
+      "en": "We should work by supporting each other."
+    },
+    {
+      "kr": "모든 팀원이 기여할 수 있습니다.",
+      "en": "All team members can contribute."
+    },
+    {
+      "kr": "정기적으로 소통하는 것이 중요합니다.",
+      "en": "Regular communication is important."
+    },
+    {
+      "kr": "업무를 효율적으로 분배했습니다.",
+      "en": "We have distributed tasks efficiently."
+    },
+    {
+      "kr": "각자의 강점을 활용해야 합니다.",
+      "en": "We should utilize each person's strengths."
+    },
+    {
+      "kr": "팀 목표를 달성하기 위해 노력합시다.",
+      "en": "Let's work to achieve team goals."
+    }
+  ]
+}

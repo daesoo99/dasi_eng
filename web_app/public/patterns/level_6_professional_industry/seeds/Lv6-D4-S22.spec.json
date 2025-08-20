@@ -1,0 +1,89 @@
+{
+  "id": "Lv6-D4-S22",
+  "title": "글로벌 투자은행 및 M&A",
+  "intent": "글로벌 투자은행업무와 M&A 거래에서 사용되는 최고 수준의 금융 전문 언어를 마스터한다.",
+  "focus": [
+    "INVESTMENT-BANKING",
+    "MERGERS-ACQUISITIONS",
+    "CAPITAL-MARKETS",
+    "CORPORATE-FINANCE"
+  ],
+  "lexset": [
+    "investment-banking, merger, acquisition, due-diligence, synergy, valuation, leveraged-buyout, initial-public-offering, underwriting, syndication"
+  ],
+  "grammar_meta": [
+    "IB-TERMINOLOGY",
+    "M&A-LANGUAGE",
+    "VALUATION-TERMS",
+    "TRANSACTION-STRUCTURES"
+  ],
+  "professional_domain": "Finance - Investment Banking",
+  "traps": [
+    "합병 vs 인수",
+    "실사 vs 심사",
+    "평가 vs 가치평가",
+    "인수합병 vs 기업결합"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "거래 유형",
+    "규모",
+    "복잡성",
+    "시장 조건"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "투자은행이 거래를 주선했습니다.",
+      "en": "The investment bank arranged the transaction."
+    },
+    {
+      "kr": "합병 거래가 완료되었습니다.",
+      "en": "The merger transaction has been completed."
+    },
+    {
+      "kr": "기업 인수가 발표되었습니다.",
+      "en": "A corporate acquisition has been announced."
+    },
+    {
+      "kr": "실사 과정이 진행되고 있습니다.",
+      "en": "The due diligence process is underway."
+    },
+    {
+      "kr": "시너지 효과가 기대됩니다.",
+      "en": "Synergy effects are expected."
+    },
+    {
+      "kr": "기업가치 평가가 완료되었습니다.",
+      "en": "Corporate valuation has been completed."
+    },
+    {
+      "kr": "차입매수가 실행되었습니다.",
+      "en": "A leveraged buyout has been executed."
+    },
+    {
+      "kr": "기업공개가 성공적으로 이루어졌습니다.",
+      "en": "The initial public offering was successful."
+    },
+    {
+      "kr": "인수업무를 담당했습니다.",
+      "en": "We handled the underwriting business."
+    },
+    {
+      "kr": "신디케이션이 구성되었습니다.",
+      "en": "A syndication has been formed."
+    }
+  ]
+}

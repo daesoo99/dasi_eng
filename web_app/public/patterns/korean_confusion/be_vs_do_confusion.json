@@ -1,0 +1,71 @@
+{
+  "korean_confusion_be_vs_do": {
+    "description": "한국인이 가장 헷갈려하는 be동사 vs 일반동사 패턴",
+    "be_verb_correct": [
+      {
+        "correct": "Are you ready?",
+        "wrong": "Do you ready?",
+        "rule": "형용사 앞에는 be동사 사용",
+        "practice": [
+          "Are you happy?",
+          "Are you tired?",
+          "Are you busy?"
+        ]
+      },
+      {
+        "correct": "Are you going?",
+        "wrong": "Do you going?", 
+        "rule": "진행형(-ing)에는 be동사 사용",
+        "practice": [
+          "Are you coming?",
+          "Are you working?",
+          "Are you studying?"
+        ]
+      }
+    ],
+    "do_verb_correct": [
+      {
+        "correct": "Do you want coffee?",
+        "wrong": "Are you want coffee?",
+        "rule": "일반동사(want, like, know 등) 앞에는 do 사용",
+        "practice": [
+          "Do you like it?",
+          "Do you know him?",
+          "Do you understand?"
+        ]
+      },
+      {
+        "correct": "Do you work here?",
+        "wrong": "Are you work here?",
+        "rule": "직업/행동 동사에는 do 사용",
+        "practice": [
+          "Do you live here?",
+          "Do you study English?",
+          "Do you play soccer?"
+        ]
+      }
+    ],
+    "past_tense_confusion": [
+      {
+        "correct": "I went there",
+        "wrong": "I was go there",
+        "rule": "과거시제는 동사 자체가 변화 (be동사 불필요)",
+        "practice": [
+          "I studied English",
+          "I worked yesterday", 
+          "I called him"
+        ]
+      },
+      {
+        "correct": "Why did you go?",
+        "wrong": "Why you went?",
+        "rule": "과거 의문문은 did + 동사원형",
+        "practice": [
+          "When did you come?",
+          "Where did you go?",
+          "What did you do?"
+        ]
+      }
+    ]
+  }
+}

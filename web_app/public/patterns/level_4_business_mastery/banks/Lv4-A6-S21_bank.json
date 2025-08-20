@@ -1,0 +1,620 @@
+{
+  "stage_id": "Lv4-A6-S21",
+  "title": "팀 협업 및 역할 분담",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv4-A6-S21-001",
+      "kr": "함께 협력해서 프로젝트를 완성합시다. (비즈니스 1)",
+      "en": "Let's collaborate to complete the project. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-002",
+      "kr": "각자의 역할을 명확히 해야 합니다. (비즈니스 1)",
+      "en": "We need to clarify each person's role. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-003",
+      "kr": "이 업무를 누구에게 맡길까요? (비즈니스 1)",
+      "en": "Who should we assign this task to? (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-004",
+      "kr": "팀워크가 성공의 열쇠입니다. (비즈니스 1)",
+      "en": "Teamwork is the key to success. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-005",
+      "kr": "서로 지원하며 일해야 합니다. (비즈니스 1)",
+      "en": "We should work by supporting each other. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-006",
+      "kr": "모든 팀원이 기여할 수 있습니다. (비즈니스 1)",
+      "en": "All team members can contribute. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-007",
+      "kr": "정기적으로 소통하는 것이 중요합니다. (비즈니스 1)",
+      "en": "Regular communication is important. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-008",
+      "kr": "업무를 효율적으로 분배했습니다. (비즈니스 1)",
+      "en": "We have distributed tasks efficiently. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-009",
+      "kr": "각자의 강점을 활용해야 합니다. (비즈니스 1)",
+      "en": "We should utilize each person's strengths. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-010",
+      "kr": "팀 목표를 달성하기 위해 노력합시다. (비즈니스 1)",
+      "en": "Let's work to achieve team goals. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-011",
+      "kr": "함께 협력해서 프로젝트를 완성합시다. (비즈니스 2)",
+      "en": "Let's collaborate to complete the project. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-012",
+      "kr": "각자의 역할을 명확히 해야 합니다. (비즈니스 2)",
+      "en": "We need to clarify each person's role. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-013",
+      "kr": "이 업무를 누구에게 맡길까요? (비즈니스 2)",
+      "en": "Who should we assign this task to? (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-014",
+      "kr": "팀워크가 성공의 열쇠입니다. (비즈니스 2)",
+      "en": "Teamwork is the key to success. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-015",
+      "kr": "서로 지원하며 일해야 합니다. (비즈니스 2)",
+      "en": "We should work by supporting each other. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-016",
+      "kr": "모든 팀원이 기여할 수 있습니다. (비즈니스 2)",
+      "en": "All team members can contribute. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-017",
+      "kr": "정기적으로 소통하는 것이 중요합니다. (비즈니스 2)",
+      "en": "Regular communication is important. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-018",
+      "kr": "업무를 효율적으로 분배했습니다. (비즈니스 2)",
+      "en": "We have distributed tasks efficiently. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-019",
+      "kr": "각자의 강점을 활용해야 합니다. (비즈니스 2)",
+      "en": "We should utilize each person's strengths. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-020",
+      "kr": "팀 목표를 달성하기 위해 노력합시다. (비즈니스 2)",
+      "en": "Let's work to achieve team goals. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-021",
+      "kr": "함께 협력해서 프로젝트를 완성합시다. (비즈니스 3)",
+      "en": "Let's collaborate to complete the project. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-022",
+      "kr": "각자의 역할을 명확히 해야 합니다. (비즈니스 3)",
+      "en": "We need to clarify each person's role. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-023",
+      "kr": "이 업무를 누구에게 맡길까요? (비즈니스 3)",
+      "en": "Who should we assign this task to? (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-024",
+      "kr": "팀워크가 성공의 열쇠입니다. (비즈니스 3)",
+      "en": "Teamwork is the key to success. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-025",
+      "kr": "서로 지원하며 일해야 합니다. (비즈니스 3)",
+      "en": "We should work by supporting each other. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-026",
+      "kr": "모든 팀원이 기여할 수 있습니다. (비즈니스 3)",
+      "en": "All team members can contribute. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-027",
+      "kr": "정기적으로 소통하는 것이 중요합니다. (비즈니스 3)",
+      "en": "Regular communication is important. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-028",
+      "kr": "업무를 효율적으로 분배했습니다. (비즈니스 3)",
+      "en": "We have distributed tasks efficiently. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-029",
+      "kr": "각자의 강점을 활용해야 합니다. (비즈니스 3)",
+      "en": "We should utilize each person's strengths. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-030",
+      "kr": "팀 목표를 달성하기 위해 노력합시다. (비즈니스 3)",
+      "en": "Let's work to achieve team goals. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-031",
+      "kr": "함께 협력해서 프로젝트를 완성합시다. (비즈니스 4)",
+      "en": "Let's collaborate to complete the project. (business variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-032",
+      "kr": "각자의 역할을 명확히 해야 합니다. (비즈니스 4)",
+      "en": "We need to clarify each person's role. (business variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-033",
+      "kr": "이 업무를 누구에게 맡길까요? (비즈니스 4)",
+      "en": "Who should  by us (business variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-034",
+      "kr": "팀워크가 성공의 열쇠입니다. (비즈니스 4)",
+      "en": "Teamwork is the key to success. (business variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-035",
+      "kr": "서로 지원하며 일해야 합니다. (비즈니스 4)",
+      "en": "We should work by supporting each other. (business variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-036",
+      "kr": "모든 팀원이 기여할 수 있습니다. (비즈니스 4)",
+      "en": "All team members can contribute. (business variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-037",
+      "kr": "정기적으로 소통하는 것이 중요합니다. (비즈니스 4)",
+      "en": "Regular communication is important. (business variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-038",
+      "kr": "업무를 효율적으로 분배했습니다. (비즈니스 4)",
+      "en": "We have distributed tasks efficiently. (business variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-039",
+      "kr": "각자의 강점을 활용해야 합니다. (비즈니스 4)",
+      "en": "We should utilize each person's strengths. (business variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-040",
+      "kr": "팀 목표를 달성하기 위해 노력합시다. (비즈니스 4)",
+      "en": "Let's work to achieve team goals. (business variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-041",
+      "kr": "함께 협력해서 프로젝트를 완성합시다. (비즈니스 5)",
+      "en": "Let's collaborate to complete the project. (business variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-042",
+      "kr": "각자의 역할을 명확히 해야 합니다. (비즈니스 5)",
+      "en": "We need to clarify each person's role. (business variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-043",
+      "kr": "이 업무를 누구에게 맡길까요? (비즈니스 5)",
+      "en": "Who should  by us (business variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-044",
+      "kr": "팀워크가 성공의 열쇠입니다. (비즈니스 5)",
+      "en": "Teamwork is the key to success. (business variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-045",
+      "kr": "서로 지원하며 일해야 합니다. (비즈니스 5)",
+      "en": "We should work by supporting each other. (business variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-046",
+      "kr": "모든 팀원이 기여할 수 있습니다. (비즈니스 5)",
+      "en": "All team members can contribute. (business variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-047",
+      "kr": "정기적으로 소통하는 것이 중요합니다. (비즈니스 5)",
+      "en": "Regular communication is important. (business variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-048",
+      "kr": "업무를 효율적으로 분배했습니다. (비즈니스 5)",
+      "en": "We have distributed tasks efficiently. (business variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-049",
+      "kr": "각자의 강점을 활용해야 합니다. (비즈니스 5)",
+      "en": "We should utilize each person's strengths. (business variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    },
+    {
+      "id": "Lv4-A6-S21-050",
+      "kr": "팀 목표를 달성하기 위해 노력합시다. (비즈니스 5)",
+      "en": "Let's work to achieve team goals. (business variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "MODAL-WILL-SHOULD",
+        "PASSIVE-VOICE",
+        "RELATIVE-PRONOUNS",
+        "PRESENT-PERFECT"
+      ]
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 10,
+    "wh_q": 5
+  },
+  "grammar_meta": [
+    "MODAL-WILL-SHOULD",
+    "PASSIVE-VOICE",
+    "RELATIVE-PRONOUNS",
+    "PRESENT-PERFECT"
+  ],
+  "status": "generated",
+  "batch": "L4_Business_Batch2"
+}

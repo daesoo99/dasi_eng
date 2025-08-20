@@ -105,6 +105,9 @@
       "Bash(PORT=8086 npm start)",
       "Bash(git remote remove:*)"
     ],
-    "deny": []
+    "deny": [],
+    "additionalDirectories": [
+      "C:\\c\\Users\\kimdaesoo\\source\\claude\\DaSi_eng"
+    ]
   }
 }

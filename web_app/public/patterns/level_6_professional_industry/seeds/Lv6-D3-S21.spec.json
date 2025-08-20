@@ -1,0 +1,89 @@
+{
+  "id": "Lv6-D3-S21",
+  "title": "지속가능 공학 및 환경기술",
+  "intent": "지속가능한 공학과 환경기술 분야의 혁신적 접근법과 환경 친화적 솔루션을 전문적으로 다룬다.",
+  "focus": [
+    "SUSTAINABLE-ENGINEERING",
+    "ENVIRONMENTAL-TECH",
+    "GREEN-INNOVATION",
+    "CIRCULAR-ECONOMY"
+  ],
+  "lexset": [
+    "sustainability, renewable-energy, carbon-footprint, lifecycle-assessment, circular-economy, green-technology, environmental-impact, resource-efficiency, waste-minimization, eco-friendly"
+  ],
+  "grammar_meta": [
+    "SUSTAINABILITY-LANGUAGE",
+    "ENVIRONMENTAL-TERMS",
+    "GREEN-TECHNOLOGY",
+    "IMPACT-ASSESSMENT"
+  ],
+  "professional_domain": "Engineering - Environmental",
+  "traps": [
+    "지속가능성 vs 친환경",
+    "재생에너지 vs 신재생에너지",
+    "탄소발자국 vs 탄소배출",
+    "순환경제 vs 재활용경제"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "기술 유형",
+    "환경 영향",
+    "지속가능성 수준",
+    "효율성 개선"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "지속가능한 공학 설계를 적용했습니다.",
+      "en": "Sustainable engineering design has been applied."
+    },
+    {
+      "kr": "재생에너지 시스템이 도입되었습니다.",
+      "en": "A renewable energy system has been introduced."
+    },
+    {
+      "kr": "탄소발자국이 크게 감소했습니다.",
+      "en": "The carbon footprint has been significantly reduced."
+    },
+    {
+      "kr": "생애주기 평가를 실시했습니다.",
+      "en": "A lifecycle assessment has been conducted."
+    },
+    {
+      "kr": "순환경제 모델을 적용합니다.",
+      "en": "We apply a circular economy model."
+    },
+    {
+      "kr": "녹색기술이 개발되었습니다.",
+      "en": "Green technology has been developed."
+    },
+    {
+      "kr": "환경영향이 최소화되었습니다.",
+      "en": "Environmental impact has been minimized."
+    },
+    {
+      "kr": "자원 효율성이 향상되었습니다.",
+      "en": "Resource efficiency has been improved."
+    },
+    {
+      "kr": "폐기물 최소화를 달성했습니다.",
+      "en": "Waste minimization has been achieved."
+    },
+    {
+      "kr": "친환경 솔루션을 제공합니다.",
+      "en": "We provide eco-friendly solutions."
+    }
+  ]
+}

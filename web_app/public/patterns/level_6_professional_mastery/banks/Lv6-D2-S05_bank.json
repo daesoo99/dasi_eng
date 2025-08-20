@@ -1,0 +1,725 @@
+{
+  "stage_id": "Lv6-D2-S05",
+  "title": "의료 연구 및 임상시험",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv6-D2-S05-001",
+      "kr": "무작위 대조 시험을 실시했습니다. (전문 1)",
+      "en": "A randomized controlled trial was conducted. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-002",
+      "kr": "통계적 유의성이 확인되었습니다. (전문 1)",
+      "en": "Statistical significance was established. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-003",
+      "kr": "이중맹검법을 적용했습니다. (전문 1)",
+      "en": "Double-blind methodology was employed. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-004",
+      "kr": "주요 평가변수가 설정되었습니다. (전문 1)",
+      "en": "Primary endpoints were established. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-005",
+      "kr": "부작용 프로파일이 양호합니다. (전문 1)",
+      "en": "The safety profile is favorable. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-006",
+      "kr": "유효성이 입증되었습니다. (전문 1)",
+      "en": "Efficacy has been demonstrated. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-007",
+      "kr": "코호트 연구가 진행 중입니다. (전문 1)",
+      "en": "A cohort study is in progress. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-008",
+      "kr": "생체지표 분석이 필요합니다. (전문 1)",
+      "en": "Biomarker analysis is required. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-009",
+      "kr": "역학 조사를 수행했습니다. (전문 1)",
+      "en": "An epidemiological investigation was performed. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-010",
+      "kr": "임상 프로토콜을 준수해야 합니다. (전문 1)",
+      "en": "Clinical protocols must be adhered to. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-011",
+      "kr": "무작위 대조 시험을 실시했습니다. (전문 2)",
+      "en": "A randomized controlled trial was conducted. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-012",
+      "kr": "통계적 유의성이 확인되었습니다. (전문 2)",
+      "en": "Statistical significance was established. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-013",
+      "kr": "이중맹검법을 적용했습니다. (전문 2)",
+      "en": "Double-blind methodology was employed. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-014",
+      "kr": "주요 평가변수가 설정되었습니다. (전문 2)",
+      "en": "Primary endpoints were established. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-015",
+      "kr": "부작용 프로파일이 양호합니다. (전문 2)",
+      "en": "The safety profile is favorable. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-016",
+      "kr": "유효성이 입증되었습니다. (전문 2)",
+      "en": "Efficacy has been demonstrated. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-017",
+      "kr": "코호트 연구가 진행 중입니다. (전문 2)",
+      "en": "A cohort study is in progress. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-018",
+      "kr": "생체지표 분석이 필요합니다. (전문 2)",
+      "en": "Biomarker analysis is required. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-019",
+      "kr": "역학 조사를 수행했습니다. (전문 2)",
+      "en": "An epidemiological investigation was performed. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-020",
+      "kr": "임상 프로토콜을 준수해야 합니다. (전문 2)",
+      "en": "Clinical protocols must be adhered to. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-021",
+      "kr": "무작위 대조 시험을 실시했습니다. (전문 3)",
+      "en": "A randomized controlled trial was conducted. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-022",
+      "kr": "통계적 유의성이 확인되었습니다. (전문 3)",
+      "en": "Statistical significance was established. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-023",
+      "kr": "이중맹검법을 적용했습니다. (전문 3)",
+      "en": "Double-blind methodology was employed. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-024",
+      "kr": "주요 평가변수가 설정되었습니다. (전문 3)",
+      "en": "Primary endpoints were established. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-025",
+      "kr": "부작용 프로파일이 양호합니다. (전문 3)",
+      "en": "The safety profile is favorable. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-026",
+      "kr": "유효성이 입증되었습니다. (전문 3)",
+      "en": "Efficacy has been demonstrated. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-027",
+      "kr": "코호트 연구가 진행 중입니다. (전문 3)",
+      "en": "A cohort study is in progress. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-028",
+      "kr": "생체지표 분석이 필요합니다. (전문 3)",
+      "en": "Biomarker analysis is required. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-029",
+      "kr": "역학 조사를 수행했습니다. (전문 3)",
+      "en": "An epidemiological investigation was performed. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-030",
+      "kr": "임상 프로토콜을 준수해야 합니다. (전문 3)",
+      "en": "Clinical protocols must be adhered to. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-031",
+      "kr": "무작위 대조 시험을 실시했습니다. (전문 4)",
+      "en": "A randomized controlled trial was conducted. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-032",
+      "kr": "통계적 유의성이 확인되었습니다. (전문 4)",
+      "en": "Statistical significance was established. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-033",
+      "kr": "이중맹검법을 적용했습니다. (전문 4)",
+      "en": "Double-blind methodology was employed. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-034",
+      "kr": "주요 평가변수가 설정되었습니다. (전문 4)",
+      "en": "Primary endpoints were established. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-035",
+      "kr": "부작용 프로파일이 양호합니다. (전문 4)",
+      "en": "The safety profile is favorable. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-036",
+      "kr": "유효성이 입증되었습니다. (전문 4)",
+      "en": "Efficacy has been demonstrated. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-037",
+      "kr": "코호트 연구가 진행 중입니다. (전문 4)",
+      "en": "A cohort study is in progress. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-038",
+      "kr": "생체지표 분석이 필요합니다. (전문 4)",
+      "en": "Biomarker analysis is required. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-039",
+      "kr": "역학 조사를 수행했습니다. (전문 4)",
+      "en": "An epidemiological investigation was performed. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-040",
+      "kr": "임상 프로토콜을 준수해야 합니다. (전문 4)",
+      "en": "Clinical protocols must be adhered to. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-041",
+      "kr": "무작위 대조 시험을 실시했습니다. (전문 5)",
+      "en": "A randomized controlled trial was conducted. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-042",
+      "kr": "통계적 유의성이 확인되었습니다. (전문 5)",
+      "en": "Statistical significance was established. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-043",
+      "kr": "이중맹검법을 적용했습니다. (전문 5)",
+      "en": "Double-blind methodology was employed. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-044",
+      "kr": "주요 평가변수가 설정되었습니다. (전문 5)",
+      "en": "Primary endpoints were established. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-045",
+      "kr": "부작용 프로파일이 양호합니다. (전문 5)",
+      "en": "The safety profile is favorable. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-046",
+      "kr": "유효성이 입증되었습니다. (전문 5)",
+      "en": "Efficacy has been demonstrated. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-047",
+      "kr": "코호트 연구가 진행 중입니다. (전문 5)",
+      "en": "A cohort study is in progress. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-048",
+      "kr": "생체지표 분석이 필요합니다. (전문 5)",
+      "en": "Biomarker analysis is required. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-049",
+      "kr": "역학 조사를 수행했습니다. (전문 5)",
+      "en": "An epidemiological investigation was performed. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    },
+    {
+      "id": "Lv6-D2-S05-050",
+      "kr": "임상 프로토콜을 준수해야 합니다. (전문 5)",
+      "en": "Clinical protocols must be adhered to. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "RESEARCH-CONDITIONALS",
+        "STATISTICAL-EXPRESSIONS",
+        "METHODOLOGY-PASSIVE",
+        "SCIENTIFIC-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "MEDICINE"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10
+  },
+  "grammar_meta": [
+    "RESEARCH-CONDITIONALS",
+    "STATISTICAL-EXPRESSIONS",
+    "METHODOLOGY-PASSIVE",
+    "SCIENTIFIC-HEDGING"
+  ],
+  "domain_vocabulary": [
+    "double-blind, crossover, cohort, epidemiology, incidence, prevalence, mortality, morbidity, statistical, significance"
+  ],
+  "professional_level": "C2",
+  "domain": "MEDICINE",
+  "status": "generated",
+  "batch": "L6_Professional_Batch1"
+}

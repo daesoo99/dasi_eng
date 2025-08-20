@@ -1,0 +1,82 @@
+{
+  "id": "Lv4-A1-S04",
+  "title": "회의 결론 및 다음 단계",
+  "intent": "회의 내용을 요약하고 결정사항을 정리하며 구체적인 실행 계획과 책임자를 명확히 정한다.",
+  "focus": [
+    "MEETING-CONCLUSION",
+    "ACTION-ITEMS",
+    "RESPONSIBILITY-ASSIGNMENT",
+    "FOLLOW-UP"
+  ],
+  "lexset": [
+    "conclude, summarize, decide, action, responsibility, deadline, follow-up, implement, assign, next"
+  ],
+  "traps": [
+    "미래 시제 정확한 사용 (will vs going to)",
+    "책임 할당 표현 (be responsible for)",
+    "마감일 표현 (by, until)",
+    "요약 연결어 (in summary, to conclude)"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.7,
+    "neg": 0.1,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "요약 방식",
+    "실행 계획",
+    "마감일",
+    "책임자"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "결론적으로 새로운 전략을 채택하기로 했습니다.",
+      "en": "In conclusion, we've decided to adopt the new strategy."
+    },
+    {
+      "kr": "김 과장님이 이 프로젝트를 담당하시게 됩니다.",
+      "en": "Manager Kim will be responsible for this project."
+    },
+    {
+      "kr": "다음 주까지 보고서를 완성해야 합니다.",
+      "en": "We need to complete the report by next week."
+    },
+    {
+      "kr": "오늘 논의한 내용을 요약하겠습니다.",
+      "en": "Let me summarize what we discussed today."
+    },
+    {
+      "kr": "다음 회의는 월요일에 하겠습니다.",
+      "en": "The next meeting will be on Monday."
+    },
+    {
+      "kr": "실행 계획을 수립해야 합니다.",
+      "en": "We need to develop an action plan."
+    },
+    {
+      "kr": "진행상황을 주간 보고로 확인하겠습니다.",
+      "en": "We'll track progress through weekly reports."
+    },
+    {
+      "kr": "이번 회의에서 세 가지를 결정했습니다.",
+      "en": "We made three decisions in this meeting."
+    },
+    {
+      "kr": "후속 조치가 필요한 사항들입니다.",
+      "en": "These are the items that require follow-up."
+    },
+    {
+      "kr": "모든 분들 수고하셨습니다.",
+      "en": "Thank you all for your participation."
+    }
+  ]
+}

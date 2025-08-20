@@ -1,0 +1,725 @@
+{
+  "stage_id": "Lv6-D1-S03",
+  "title": "법률 자문 및 리스크 분석",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv6-D1-S03-001",
+      "kr": "법적 리스크가 상당한 수준입니다. (전문 1)",
+      "en": "The legal risk is at a substantial level. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-002",
+      "kr": "규정 준수가 필수적입니다. (전문 1)",
+      "en": "Regulatory compliance is imperative. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-003",
+      "kr": "실사 조사를 권고합니다. (전문 1)",
+      "en": "Due diligence investigation is recommended. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-004",
+      "kr": "법적 책임을 최소화해야 합니다. (전문 1)",
+      "en": "Legal liability shall be minimized. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-005",
+      "kr": "기밀 유지 의무가 있습니다. (전문 1)",
+      "en": "There is an obligation of confidentiality. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-006",
+      "kr": "제재 조치가 가해질 수 있습니다. (전문 1)",
+      "en": "Sanctions may be imposed. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-007",
+      "kr": "법적 전략을 수립해야 합니다. (전문 1)",
+      "en": "A legal strategy shall be developed. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-008",
+      "kr": "과실 책임이 인정될 가능성이 있습니다. (전문 1)",
+      "en": "Negligence liability may be established. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-009",
+      "kr": "금지 명령이 발부될 수 있습니다. (전문 1)",
+      "en": "An injunction may be issued. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-010",
+      "kr": "법률 자문 특권이 적용됩니다. (전문 1)",
+      "en": "Attorney-client privilege applies. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-011",
+      "kr": "법적 리스크가 상당한 수준입니다. (전문 2)",
+      "en": "The legal risk is at a substantial level. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-012",
+      "kr": "규정 준수가 필수적입니다. (전문 2)",
+      "en": "Regulatory compliance is imperative. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-013",
+      "kr": "실사 조사를 권고합니다. (전문 2)",
+      "en": "Due diligence investigation is recommended. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-014",
+      "kr": "법적 책임을 최소화해야 합니다. (전문 2)",
+      "en": "Legal liability shall be minimized. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-015",
+      "kr": "기밀 유지 의무가 있습니다. (전문 2)",
+      "en": "There is an obligation of confidentiality. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-016",
+      "kr": "제재 조치가 가해질 수 있습니다. (전문 2)",
+      "en": "Sanctions may be imposed. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-017",
+      "kr": "법적 전략을 수립해야 합니다. (전문 2)",
+      "en": "A legal strategy shall be developed. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-018",
+      "kr": "과실 책임이 인정될 가능성이 있습니다. (전문 2)",
+      "en": "Negligence liability may be established. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-019",
+      "kr": "금지 명령이 발부될 수 있습니다. (전문 2)",
+      "en": "An injunction may be issued. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-020",
+      "kr": "법률 자문 특권이 적용됩니다. (전문 2)",
+      "en": "Attorney-client privilege applies. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-021",
+      "kr": "법적 리스크가 상당한 수준입니다. (전문 3)",
+      "en": "The legal risk is at a substantial level. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-022",
+      "kr": "규정 준수가 필수적입니다. (전문 3)",
+      "en": "Regulatory compliance is imperative. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-023",
+      "kr": "실사 조사를 권고합니다. (전문 3)",
+      "en": "Due diligence investigation is recommended. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-024",
+      "kr": "법적 책임을 최소화해야 합니다. (전문 3)",
+      "en": "Legal liability shall be minimized. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-025",
+      "kr": "기밀 유지 의무가 있습니다. (전문 3)",
+      "en": "There is an obligation of confidentiality. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-026",
+      "kr": "제재 조치가 가해질 수 있습니다. (전문 3)",
+      "en": "Sanctions may be imposed. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-027",
+      "kr": "법적 전략을 수립해야 합니다. (전문 3)",
+      "en": "A legal strategy shall be developed. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-028",
+      "kr": "과실 책임이 인정될 가능성이 있습니다. (전문 3)",
+      "en": "Negligence liability may be established. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-029",
+      "kr": "금지 명령이 발부될 수 있습니다. (전문 3)",
+      "en": "An injunction may be issued. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-030",
+      "kr": "법률 자문 특권이 적용됩니다. (전문 3)",
+      "en": "Attorney-client privilege applies. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-031",
+      "kr": "법적 리스크가 상당한 수준입니다. (전문 4)",
+      "en": "The legal risk is at a substantial level. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-032",
+      "kr": "규정 준수가 필수적입니다. (전문 4)",
+      "en": "Regulatory compliance is imperative. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-033",
+      "kr": "실사 조사를 권고합니다. (전문 4)",
+      "en": "Due diligence investigation is recommended. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-034",
+      "kr": "법적 책임을 최소화해야 합니다. (전문 4)",
+      "en": "Legal liability shall be minimized. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-035",
+      "kr": "기밀 유지 의무가 있습니다. (전문 4)",
+      "en": "There is an obligation of confidentiality. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-036",
+      "kr": "제재 조치가 가해질 수 있습니다. (전문 4)",
+      "en": "Sanctions may be imposed. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-037",
+      "kr": "법적 전략을 수립해야 합니다. (전문 4)",
+      "en": "A legal strategy shall be developed. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-038",
+      "kr": "과실 책임이 인정될 가능성이 있습니다. (전문 4)",
+      "en": "Negligence liability may be established. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-039",
+      "kr": "금지 명령이 발부될 수 있습니다. (전문 4)",
+      "en": "An injunction may be issued. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-040",
+      "kr": "법률 자문 특권이 적용됩니다. (전문 4)",
+      "en": "Attorney-client privilege applies. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-041",
+      "kr": "법적 리스크가 상당한 수준입니다. (전문 5)",
+      "en": "The legal risk is at a substantial level. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-042",
+      "kr": "규정 준수가 필수적입니다. (전문 5)",
+      "en": "Regulatory compliance is imperative. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-043",
+      "kr": "실사 조사를 권고합니다. (전문 5)",
+      "en": "Due diligence investigation is recommended. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-044",
+      "kr": "법적 책임을 최소화해야 합니다. (전문 5)",
+      "en": "Legal liability shall be minimized. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-045",
+      "kr": "기밀 유지 의무가 있습니다. (전문 5)",
+      "en": "There is an obligation of confidentiality. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-046",
+      "kr": "제재 조치가 가해질 수 있습니다. (전문 5)",
+      "en": "Sanctions may be imposed. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-047",
+      "kr": "법적 전략을 수립해야 합니다. (전문 5)",
+      "en": "A legal strategy shall be developed. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-048",
+      "kr": "과실 책임이 인정될 가능성이 있습니다. (전문 5)",
+      "en": "Negligence liability may be established. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-049",
+      "kr": "금지 명령이 발부될 수 있습니다. (전문 5)",
+      "en": "An injunction may be issued. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S03-050",
+      "kr": "법률 자문 특권이 적용됩니다. (전문 5)",
+      "en": "Attorney-client privilege applies. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "CONDITIONAL-RISK",
+        "MODAL-PROBABILITY",
+        "COMPLEX-RELATIVE",
+        "PROFESSIONAL-HEDGING"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10
+  },
+  "grammar_meta": [
+    "CONDITIONAL-RISK",
+    "MODAL-PROBABILITY",
+    "COMPLEX-RELATIVE",
+    "PROFESSIONAL-HEDGING"
+  ],
+  "domain_vocabulary": [
+    "tort, negligence, malpractice, confidentiality, privilege, disclosure, whistleblower, sanctions, penalty, injunction"
+  ],
+  "professional_level": "C2",
+  "domain": "LAW",
+  "status": "generated",
+  "batch": "L6_Professional_Batch1"
+}

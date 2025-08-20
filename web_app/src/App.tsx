@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { useAppStore } from '@/store/useAppStore';
 
 // Pages
-import { HomePage } from '@/pages/HomePage';
+import { LandingHome } from '@/pages/LandingHome';
+import { DashboardHome } from '@/pages/DashboardHome';
 import { StudyPage } from '@/pages/StudyPage';
 import { ReviewPage } from '@/pages/ReviewPage';
 import { ResultPage } from '@/pages/ResultPage';
@@ -18,6 +19,8 @@ import { AudioV2TestPage } from '@/pages/AudioV2TestPage';
 import SpeedModePage from '@/pages/SpeedModePage';
 import StageFocusPage from '@/pages/StageFocusPage';
 import { AllModePage } from '@/pages/AllModePage';
+import { PatternTrainingPage } from '@/pages/PatternTrainingPage';
+import { PatternTestPage } from '@/pages/PatternTestPage';
 
 function App() {
   const { setUser } = useAppStore();
@@ -39,7 +42,8 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/" element={<LandingHome />} />
+          <Route path="/dashboard" element={<DashboardHome />} />
           <Route path="/study" element={<StudyPage />} />
           <Route path="/review" element={<ReviewPage />} />
           <Route path="/result" element={<ResultPage />} />
@@ -54,6 +58,10 @@ function App() {
           <Route path="/speed-mode" element={<SpeedModePage />} />
           <Route path="/stage-focus" element={<StageFocusPage />} />
           <Route path="/all-mode" element={<AllModePage />} />
+          <Route path="/pattern-training" element={<PatternTrainingPage />} />
+          <Route path="/pattern-test" element={<PatternTestPage />} />
+          {/* 안전장치: 알 수 없는 경로는 랜딩으로 */}
+          <Route path="*" element={<LandingHome />} />
         </Routes>
       </div>
     </Router>

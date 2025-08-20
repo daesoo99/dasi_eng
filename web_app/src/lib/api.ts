@@ -1,7 +1,7 @@
 // API utilities for DASI English backend
 import type { FeedbackResponse, DrillCard, StudySession, ApiResponse } from '@/types';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8087/api';
 
 class ApiClient {
   private baseUrl: string;
@@ -51,13 +51,25 @@ class ApiClient {
   }
 
   // Get drill cards for a specific level and stage
-  async getCards(level: number, stage: number): Promise<ApiResponse<{
+  async getCards(level: number, stage: number | 'ALL'): Promise<ApiResponse<{
     level: number;
-    stage: number;
+    stage: number | 'ALL';
     cards: DrillCard[];
     totalCards: number;
+    mode?: 'ALL';
   }>> {
     return this.request(`/cards?level=${level}&stage=${stage}`);
+  }
+
+  // Get all cards for a level (ALL mode)
+  async getAllLevelCards(level: number): Promise<ApiResponse<{
+    level: number;
+    mode: 'ALL';
+    cards: DrillCard[];
+    totalCards: number;
+    shuffled: boolean;
+  }>> {
+    return this.request(`/cards/all?level=${level}`);
   }
 
   // Get feedback from AI for user's answer
