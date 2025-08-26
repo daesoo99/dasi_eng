@@ -69,6 +69,31 @@ Thumbs.db
 !patterns/**/*.json
 !banks/**/*.json
 
+# Additional build/cache outputs
+.next/
+.nuxt/
+.parcel-cache/
+.turbo/
+.vite/
+.firebase/
+.vercel/
+
+# Flutter/Dart (additional)
+.dart_tool/
+ios/Pods/
+android/.gradle/
+
+# Backups/Archive folders
+backups/
+archive_*/
+patterns_backup_*/
+patterns_backup_20250823/
+patterns_backup_20250823_171453/
+archive_completed_work/
+
+# Additional logs
+pnpm-debug.log*
+
 # Temporary files
 tmp/
 temp/
