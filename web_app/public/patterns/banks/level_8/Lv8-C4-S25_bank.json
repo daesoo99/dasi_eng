@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv8-C4-S25",
+  "title": "수동 분사구문",
+  "description": "수동 분사구문을 활용하여 객관적이고 격식 있는 표현을 만드는 방법을 연습합니다.",
+  "grammar_pattern": "PASSIVE-PARTICIPLE-CONSTRUCTION",
+  "examples": [
+    "Written by experts, the report provides valuable insights.",
+    "Approved by the committee, the proposal will be implemented next month.",
+    "Damaged by the storm, the building required extensive repairs."
+  ],
+  "learning_points": "수동 분사구문을 통한 객관적이고 격식 있는 표현",
+  "phase": 4,
+  "stage_number": 25,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv8-C4-S25-001",
+      "kr": "전문가들에 의해 작성된 이 보고서는 귀중한 통찰력을 제공합니다.",
+      "en": "Written by experts, the report provides valuable insights.",
+      "pattern": "PASSIVE-PARTICIPLE-CONSTRUCTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S25-002",
+      "kr": "위원회에 의해 승인된 제안서는 다음 달에 실행될 예정입니다.",
+      "en": "Approved by the committee, the proposal will be implemented next month.",
+      "pattern": "PASSIVE-PARTICIPLE-CONSTRUCTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S25-003",
+      "kr": "폭풍에 의해 손상된 건물은 대규모 수리가 필요했습니다.",
+      "en": "Damaged by the storm, the building required extensive repairs.",
+      "pattern": "PASSIVE-PARTICIPLE-CONSTRUCTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S25-004",
+      "kr": "고객들에 의해 높이 평가받은 제품은 시장에서 큰 성공을 거두었습니다.",
+      "en": "Highly rated by customers, the product achieved great success in the market.",
+      "pattern": "PASSIVE-PARTICIPLE-CONSTRUCTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S25-005",
+      "kr": "정부에 의해 지원받은 연구는 중요한 결과를 가져왔습니다.",
+      "en": "Supported by the government, the research produced important results.",
+      "pattern": "PASSIVE-PARTICIPLE-CONSTRUCTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S25-006",
+      "kr": "국제적으로 인정받은 이 상은 매우 권위가 있습니다.",
+      "en": "Internationally recognized, this award is very prestigious.",
+      "pattern": "PASSIVE-PARTICIPLE-CONSTRUCTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S25-007",
+      "kr": "신중하게 선택된 팀원들은 뛰어난 성과를 보였습니다.",
+      "en": "Carefully selected, the team members showed excellent performance.",
+      "pattern": "PASSIVE-PARTICIPLE-CONSTRUCTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S25-008",
+      "kr": "첨단 기술로 제조된 제품은 높은 품질을 자랑합니다.",
+      "en": "Manufactured with advanced technology, the product boasts high quality.",
+      "pattern": "PASSIVE-PARTICIPLE-CONSTRUCTION",
+      "form": "aff"
+    }
+  ]
+}

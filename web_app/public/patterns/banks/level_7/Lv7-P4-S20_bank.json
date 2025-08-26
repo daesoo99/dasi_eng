@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv7-P4-S20",
+  "title": "양보 부사절 심화",
+  "description": "even though와 유사한 much as, even if 등의 표현을 연습합니다.",
+  "grammar_pattern": "ADVANCED-CONCESSIVE-CLAUSES",
+  "examples": [
+    "Much as I admire his dedication, I cannot support his methods.",
+    "However difficult the task may seem, we must complete it on time.",
+    "Regardless of how busy she is, she always finds time for her family."
+  ],
+  "learning_points": "다양한 양보 부사절을 통한 대조와 인정의 세밀한 표현",
+  "phase": 4,
+  "stage_number": 20,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv7-P4-S20-001",
+      "kr": "그의 헌신을 존경하지만, 그의 방법을 지지할 수는 없다.",
+      "en": "Much as I admire his dedication, I cannot support his methods.",
+      "pattern": "ADVANCED-CONCESSIVE-CLAUSES",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P4-S20-002",
+      "kr": "그 업무가 아무리 어려워 보여도, 우리는 제시간에 완료해야 한다.",
+      "en": "However difficult the task may seem, we must complete it on time.",
+      "pattern": "ADVANCED-CONCESSIVE-CLAUSES",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P4-S20-003",
+      "kr": "그녀가 아무리 바빠도, 항상 가족을 위한 시간을 찾는다.",
+      "en": "Regardless of how busy she is, she always finds time for her family.",
+      "pattern": "ADVANCED-CONCESSIVE-CLAUSES",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P4-S20-004",
+      "kr": "날씨가 어떻든, 행사는 예정대로 진행될 것이다.",
+      "en": "Whatever the weather conditions, the event will proceed as scheduled.",
+      "pattern": "ADVANCED-CONCESSIVE-CLAUSES",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P4-S20-005",
+      "kr": "그들이 우리의 제안을 거절할지라도, 우리는 다른 옵션을 탐색할 것이다.",
+      "en": "Even should they reject our proposal, we will explore other options.",
+      "pattern": "ADVANCED-CONCESSIVE-CLAUSES",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P4-S20-006",
+      "kr": "비용이 얼마나 많이 들든, 품질을 타협하지 않을 것이다.",
+      "en": "No matter how much it costs, we won't compromise on quality.",
+      "pattern": "ADVANCED-CONCESSIVE-CLAUSES",
+      "form": "neg"
+    },
+    {
+      "id": "Lv7-P4-S20-007",
+      "kr": "그가 아무리 열심히 노력해도, 완벽한 결과를 보장할 수는 없다.",
+      "en": "Hard as he may try, he cannot guarantee perfect results.",
+      "pattern": "ADVANCED-CONCESSIVE-CLAUSES",
+      "form": "neg"
+    },
+    {
+      "id": "Lv7-P4-S20-008",
+      "kr": "시간이 얼마나 걸리든, 우리는 목표를 달성할 것이다.",
+      "en": "However long it takes, we will achieve our goal.",
+      "pattern": "ADVANCED-CONCESSIVE-CLAUSES",
+      "form": "aff"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv10-S28",
+  "title": "뉘앙스 전달 - 관계적 뉘앙스",
+  "description": "인간관계의 미묘한 뉘앙스를 자연스럽게 전달하는 원어민 수준의 표현을 구사합니다.",
+  "grammar_pattern": "RELATIONAL-NUANCE-CONVEYANCE",
+  "examples": [
+    "Things seem to have gotten a bit awkward between us.",
+    "I think it's better to keep some distance from that person.",
+    "I feel like we're connecting on some level."
+  ],
+  "learning_points": "원어민 수준의 자연스러운 관계적 뉘앙스 표현 구사",
+  "phase": 3,
+  "stage_number": 28,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv10-S28-001",
+      "kr": "우리 사이가 좀 어색해진 것 같아.",
+      "en": "Things seem to have gotten a bit awkward between us.",
+      "pattern": "RELATIONAL-NUANCE-CONVEYANCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S28-002",
+      "kr": "그 사람하고는 좀 거리를 두는 게 좋을 것 같아.",
+      "en": "I think it's better to keep some distance from that person.",
+      "pattern": "RELATIONAL-NUANCE-CONVEYANCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S28-003",
+      "kr": "뭔가 마음이 통하는 느낌이야.",
+      "en": "I feel like we're connecting on some level.",
+      "pattern": "RELATIONAL-NUANCE-CONVEYANCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S28-004",
+      "kr": "서로 조금씩 맞춰가는 중인 것 같아.",
+      "en": "I think we're gradually adjusting to each other.",
+      "pattern": "RELATIONAL-NUANCE-CONVEYANCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S28-005",
+      "kr": "좀 더 가까워진 것 같아. 기분 좋네.",
+      "en": "We seem to have gotten closer. That feels good.",
+      "pattern": "RELATIONAL-NUANCE-CONVEYANCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S28-006",
+      "kr": "아직은 서먹한 사이인 것 같아.",
+      "en": "I think we're still a bit distant with each other.",
+      "pattern": "RELATIONAL-NUANCE-CONVEYANCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S28-007",
+      "kr": "그 사람 기분을 좀 상하게 한 것 같아.",
+      "en": "I think I might have hurt that person's feelings a bit.",
+      "pattern": "RELATIONAL-NUANCE-CONVEYANCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S28-008",
+      "kr": "우리끼리는 편한 사이잖아. 솔직히 말해봐.",
+      "en": "We're comfortable with each other, aren't we? Be honest with me.",
+      "pattern": "RELATIONAL-NUANCE-CONVEYANCE",
+      "form": "aff"
+    }
+  ]
+}

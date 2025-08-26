@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv4-P2-S06",
+  "title": "수동태 응용",
+  "description": "수동태를 더 깊이 있게 다룹니다. 동명사의 수동형과 완료형 수동태를 연습하며, 수동태와 다른 문법(시제, 조동사)을 동시에 적용해 더 복잡한 문장을 만들어봅니다.",
+  "grammar_pattern": "being + p.p. (동명사 수동) / have/has been + p.p. (완료 수동) / 조동사 + have been + p.p.",
+  "examples": ["I don't like being told what to do.", "He has been given a second chance.", "The project should have been completed by now."],
+  "learning_points": "동명사 수동형과 완료시제, 조동사와의 결합 구조",
+  "phase": 2,
+  "stage_number": 6,
+  "count": 0,
+  "sentences": []
+}

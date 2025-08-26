@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv10-S26",
+  "title": "뉘앙스 전달 - 감정적 뉘앙스",
+  "description": "감정과 느낌의 미묘한 뉘앙스를 자연스럽게 전달하는 원어민 수준의 표현을 구사합니다.",
+  "grammar_pattern": "EMOTIONAL-NUANCE-CONVEYANCE",
+  "examples": [
+    "I'm feeling kind of nostalgic. It brings back old memories.",
+    "It's a bit bittersweet. But there's nothing we can do about it.",
+    "My feelings are mixed. I'm both happy and sorry."
+  ],
+  "learning_points": "원어민 수준의 자연스러운 감정적 뉘앙스 표현 구사",
+  "phase": 3,
+  "stage_number": 26,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv10-S26-001",
+      "kr": "뭔가 아련한 기분이 드네. 옛날 생각이 나.",
+      "en": "I'm feeling kind of nostalgic. It brings back old memories.",
+      "pattern": "EMOTIONAL-NUANCE-CONVEYANCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S26-002",
+      "kr": "좀 씁쓸하긴 해. 하지만 어쩔 수 없지 뭐.",
+      "en": "It's a bit bittersweet. But there's nothing we can do about it.",
+      "pattern": "EMOTIONAL-NUANCE-CONVEYANCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S26-003",
+      "kr": "마음이 복잡해. 기쁘기도 하고 아쉽기도 하고.",
+      "en": "My feelings are mixed. I'm both happy and sorry.",
+      "pattern": "EMOTIONAL-NUANCE-CONVEYANCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S26-004",
+      "kr": "뭔지 모르게 허전한 느낌이야.",
+      "en": "There's this inexplicable feeling of emptiness.",
+      "pattern": "EMOTIONAL-NUANCE-CONVEYANCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S26-005",
+      "kr": "가슴이 뭉클해지네. 정말 감동적이야.",
+      "en": "It's really touching. I'm genuinely moved.",
+      "pattern": "EMOTIONAL-NUANCE-CONVEYANCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S26-006",
+      "kr": "조금 어색하긴 하지만, 나쁘지는 않아.",
+      "en": "It's a bit awkward, but it's not bad.",
+      "pattern": "EMOTIONAL-NUANCE-CONVEYANCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S26-007",
+      "kr": "왠지 모르게 기분이 좋아져.",
+      "en": "For some reason, it makes me feel good.",
+      "pattern": "EMOTIONAL-NUANCE-CONVEYANCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S26-008",
+      "kr": "살짝 아쉬운 마음이 들어. 더 할 수 있었을 텐데.",
+      "en": "I feel slightly disappointed. We could have done more.",
+      "pattern": "EMOTIONAL-NUANCE-CONVEYANCE",
+      "form": "aff"
+    }
+  ]
+}

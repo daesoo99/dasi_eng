@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv8-C5-S33",
+  "title": "비즈니스 담화 전환",
+  "description": "비즈니스 환경에서 담화를 전문적이고 효과적으로 전환하는 표현들을 연습합니다.",
+  "grammar_pattern": "BUSINESS-DISCOURSE-TRANSITION",
+  "examples": [
+    "With regard to the quarterly results, I'd like to highlight several key points.",
+    "Turning to the strategic initiatives, we have made significant progress.",
+    "In terms of market performance, the data shows encouraging trends."
+  ],
+  "learning_points": "비즈니스 담화에서의 전문적이고 효과적인 전환 표현",
+  "phase": 5,
+  "stage_number": 33,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv8-C5-S33-001",
+      "kr": "분기별 결과와 관련하여 몇 가지 핵심 사항을 강조하고 싶습니다.",
+      "en": "With regard to the quarterly results, I'd like to highlight several key points.",
+      "pattern": "BUSINESS-DISCOURSE-TRANSITION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C5-S33-002",
+      "kr": "전략적 이니셔티브로 화제를 돌리면 상당한 진전을 이뤘습니다.",
+      "en": "Turning to the strategic initiatives, we have made significant progress.",
+      "pattern": "BUSINESS-DISCOURSE-TRANSITION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C5-S33-003",
+      "kr": "시장 성과 측면에서 데이터는 고무적인 추세를 보여줍니다.",
+      "en": "In terms of market performance, the data shows encouraging trends.",
+      "pattern": "BUSINESS-DISCOURSE-TRANSITION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C5-S33-004",
+      "kr": "재무적 관점에서 보면 수익성이 크게 향상되었습니다.",
+      "en": "From a financial perspective, profitability has improved significantly.",
+      "pattern": "BUSINESS-DISCOURSE-TRANSITION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C5-S33-005",
+      "kr": "운영 효율성에 관해 말씀드리면 새로운 시스템이 효과적입니다.",
+      "en": "Speaking of operational efficiency, the new system has been effective.",
+      "pattern": "BUSINESS-DISCOURSE-TRANSITION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C5-S33-006",
+      "kr": "고객 만족도 부분으로 넘어가면 긍정적인 피드백을 받고 있습니다.",
+      "en": "Moving to customer satisfaction, we're receiving positive feedback.",
+      "pattern": "BUSINESS-DISCOURSE-TRANSITION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C5-S33-007",
+      "kr": "혁신 측면에서 우리는 업계를 선도하고 있습니다.",
+      "en": "In the area of innovation, we are leading the industry.",
+      "pattern": "BUSINESS-DISCOURSE-TRANSITION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C5-S33-008",
+      "kr": "위험 관리에 대해 논의해보면 새로운 프로토콜이 필요합니다.",
+      "en": "Addressing risk management, we need new protocols.",
+      "pattern": "BUSINESS-DISCOURSE-TRANSITION",
+      "form": "aff"
+    }
+  ]
+}

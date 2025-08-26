@@ -87,4 +87,4 @@ You need to run both the backend and frontend servers simultaneously in separate
     cd web_app
     npm start
     ```
-    The frontend application will open automatically in your browser at `http://localhost:3000`.
+    The frontend application will open automatically in your browser at `http://localhost:3500`.

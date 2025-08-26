@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv7-P7-S42",
+  "title": "문장 길이와 호흡 조절",
+  "description": "긴 문장을 자유롭게 구사하되, 숨 쉴 부분과 강세 줄 부분을 미리 계획하며 말하는 연습을 합니다.",
+  "grammar_pattern": "BREATH-CONTROL-PACING",
+  "examples": [
+    "While we acknowledge the challenges ahead, and despite the complex nature of this undertaking, we remain confident that our team's expertise and dedication will ultimately lead us to success.",
+    "The proposal, which has been carefully reviewed by multiple departments, addresses not only our immediate concerns but also positions us strategically for future growth opportunities.",
+    "Given the market conditions we currently face, coupled with our company's strong financial position and innovative capabilities, this represents an ideal moment to expand our operations internationally."
+  ],
+  "learning_points": "복잡하고 긴 문장에서의 자연스러운 호흡 조절과 명확한 의미 전달",
+  "phase": 7,
+  "stage_number": 42,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv7-P7-S42-001",
+      "kr": "앞에 놓인 도전을 인정하고, 이 사업의 복잡한 성격에도 불구하고, 우리 팀의 전문성과 헌신이 궁극적으로 성공으로 이끌 것이라고 확신합니다.",
+      "en": "While we acknowledge the challenges ahead, and despite the complex nature of this undertaking, we remain confident that our team's expertise and dedication will ultimately lead us to success.",
+      "pattern": "BREATH-CONTROL-PACING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P7-S42-002",
+      "kr": "여러 부서에서 신중히 검토한 이 제안은 즉각적인 우려사항을 다룰 뿐만 아니라 향후 성장 기회를 위한 전략적 위치를 확보해 줍니다.",
+      "en": "The proposal, which has been carefully reviewed by multiple departments, addresses not only our immediate concerns but also positions us strategically for future growth opportunities.",
+      "pattern": "BREATH-CONTROL-PACING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P7-S42-003",
+      "kr": "현재 직면한 시장 상황과 우리 회사의 강력한 재정 상태 및 혁신 역량을 고려할 때, 이는 해외 사업을 확장할 이상적인 순간을 나타냅니다.",
+      "en": "Given the market conditions we currently face, coupled with our company's strong financial position and innovative capabilities, this represents an ideal moment to expand our operations internationally.",
+      "pattern": "BREATH-CONTROL-PACING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P7-S42-004",
+      "kr": "연구 결과에 따르면, 고객 만족도가 지속적으로 향상되고 있으며, 이는 우리의 서비스 개선 노력이 의미 있는 영향을 미치고 있음을 보여주고, 앞으로도 이러한 긍정적 추세가 계속될 것으로 예상됩니다.",
+      "en": "According to research findings, customer satisfaction has been steadily improving, which demonstrates that our service enhancement efforts are making a meaningful impact, and we anticipate this positive trend will continue in the future.",
+      "pattern": "BREATH-CONTROL-PACING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P7-S42-005",
+      "kr": "기술 발전의 속도가 가속화되고 있는 현재 환경에서, 우리는 혁신에 대한 투자를 계속하면서도 기존 시스템의 안정성을 유지해야 하는 균형을 찾아야 합니다.",
+      "en": "In the current environment where technological advancement is accelerating, we must find a balance between continuing to invest in innovation while maintaining the stability of our existing systems.",
+      "pattern": "BREATH-CONTROL-PACING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P7-S42-006",
+      "kr": "프로젝트의 성공을 위해서는 모든 이해관계자들의 적극적인 참여와 협력이 필수적이며, 이를 통해서만 우리가 설정한 야심찬 목표를 달성할 수 있을 것입니다.",
+      "en": "For the project's success, active participation and cooperation from all stakeholders is essential, and only through this collaborative effort will we be able to achieve the ambitious goals we have set.",
+      "pattern": "BREATH-CONTROL-PACING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P7-S42-007",
+      "kr": "경쟁이 치열해지는 시장에서 우위를 유지하기 위해, 우리는 제품 품질 향상, 고객 서비스 개선, 그리고 지속적인 혁신이라는 세 가지 핵심 영역에 집중해야 합니다.",
+      "en": "To maintain our competitive advantage in an increasingly challenging market, we must focus on three key areas: improving product quality, enhancing customer service, and pursuing continuous innovation.",
+      "pattern": "BREATH-CONTROL-PACING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P7-S42-008",
+      "kr": "장기적인 관점에서 볼 때, 현재의 투자 결정들이 향후 5년간 회사의 성장 궤도를 결정할 것이며, 따라서 신중하면서도 과감한 선택이 필요한 시점입니다.",
+      "en": "From a long-term perspective, current investment decisions will determine our company's growth trajectory over the next five years, making this a critical moment for choices that are both prudent and bold.",
+      "pattern": "BREATH-CONTROL-PACING",
+      "form": "aff"
+    }
+  ]
+}

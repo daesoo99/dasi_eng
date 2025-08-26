@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv7-P3-S15",
+  "title": "수동태 + 조동사 결합",
+  "description": "must be done, should be given, could have been avoided 등 조동사+수동태 문장을 실제 상황과 함께 연습합니다.",
+  "grammar_pattern": "PASSIVE-MODAL-COMBINATIONS",
+  "examples": [
+    "The problem must be solved immediately to prevent further complications.",
+    "The documents should have been submitted by last Friday.",
+    "The accident could have been avoided if proper safety measures had been taken."
+  ],
+  "learning_points": "조동사와 수동태의 결합을 통한 필요성, 의무, 가능성 표현",
+  "phase": 3,
+  "stage_number": 15,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv7-P3-S15-001",
+      "kr": "더 이상의 합병증을 예방하기 위해 그 문제가 즉시 해결되어야 한다.",
+      "en": "The problem must be solved immediately to prevent further complications.",
+      "pattern": "PASSIVE-MODAL-COMBINATIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P3-S15-002",
+      "kr": "그 서류들은 지난 금요일까지 제출되었어야 했다.",
+      "en": "The documents should have been submitted by last Friday.",
+      "pattern": "PASSIVE-MODAL-COMBINATIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P3-S15-003",
+      "kr": "적절한 안전 조치가 취해졌다면 그 사고는 피할 수 있었을 것이다.",
+      "en": "The accident could have been avoided if proper safety measures had been taken.",
+      "pattern": "PASSIVE-MODAL-COMBINATIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P3-S15-004",
+      "kr": "새로운 규정이 모든 직원들에게 전달되어야 한다.",
+      "en": "The new regulations must be communicated to all employees.",
+      "pattern": "PASSIVE-MODAL-COMBINATIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P3-S15-005",
+      "kr": "그 데이터는 더 신중하게 처리되었어야 했다.",
+      "en": "The data should have been handled more carefully.",
+      "pattern": "PASSIVE-MODAL-COMBINATIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P3-S15-006",
+      "kr": "환경 오염은 더 이상 무시될 수 없다.",
+      "en": "Environmental pollution can no longer be ignored.",
+      "pattern": "PASSIVE-MODAL-COMBINATIONS",
+      "form": "neg"
+    },
+    {
+      "id": "Lv7-P3-S15-007",
+      "kr": "더 나은 결과가 더 많은 투자로 달성될 수 있었을 것이다.",
+      "en": "Better results could have been achieved with more investment.",
+      "pattern": "PASSIVE-MODAL-COMBINATIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P3-S15-008",
+      "kr": "모든 안전 점검이 정기적으로 수행되어야 한다.",
+      "en": "All safety inspections must be conducted regularly.",
+      "pattern": "PASSIVE-MODAL-COMBINATIONS",
+      "form": "aff"
+    }
+  ]
+}

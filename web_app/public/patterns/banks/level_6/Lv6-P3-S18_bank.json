@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv6-P3-S18",
+  "title": "이중 조건문 다루기",
+  "description": "If and only if, provided that 등 복잡한 조건 결합 표현을 전문적으로 활용합니다. DOUBLE-CONDITIONAL-HANDLING 패턴을 연습합니다.",
+  "grammar_pattern": "DOUBLE-CONDITIONAL-HANDLING",
+  "examples": [
+    "We will proceed if and only if we receive approval from the board.",
+    "Expansion is possible, provided the market grows.",
+    "The contract is valid only if both parties agree to the terms."
+  ],
+  "learning_points": "복잡한 계약 조건과 논리적 조건문의 정확한 표현",
+  "phase": 3,
+  "stage_number": 18,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv6-P3-S18-001",
+      "kr": "이사회의 승인을 받은 경우에만 진행하겠습니다.",
+      "en": "We will proceed if and only if we receive approval from the board.",
+      "pattern": "DOUBLE-CONDITIONAL-HANDLING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P3-S18-002",
+      "kr": "시장이 성장한다는 조건 하에 확장이 가능합니다.",
+      "en": "Expansion is possible, provided the market grows.",
+      "pattern": "DOUBLE-CONDITIONAL-HANDLING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P3-S18-003",
+      "kr": "양 당사자가 조건에 동의할 때만 계약이 유효합니다.",
+      "en": "The contract is valid only if both parties agree to the terms.",
+      "pattern": "DOUBLE-CONDITIONAL-HANDLING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P3-S18-004",
+      "kr": "자금 조달이 성공하고 팀이 완성될 경우에만 프로젝트를 시작할 수 있습니다.",
+      "en": "We can start the project if and only if funding is secured and the team is complete.",
+      "pattern": "DOUBLE-CONDITIONAL-HANDLING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P3-S18-005",
+      "kr": "법적 승인을 받는다는 전제 하에 새로운 서비스를 출시하겠습니다.",
+      "en": "We will launch the new service, provided that we obtain legal approval.",
+      "pattern": "DOUBLE-CONDITIONAL-HANDLING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P3-S18-006",
+      "kr": "모든 직원이 교육을 이수한 경우에만 시스템 변경을 적용하겠습니다.",
+      "en": "System changes will be implemented only if all employees complete the training.",
+      "pattern": "DOUBLE-CONDITIONAL-HANDLING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P3-S18-007",
+      "kr": "예산이 배정되고 인력이 확보될 경우에만 연구를 계속할 수 있습니다.",
+      "en": "Research can continue if and only if budget is allocated and personnel are secured.",
+      "pattern": "DOUBLE-CONDITIONAL-HANDLING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P3-S18-008",
+      "kr": "고객 만족도가 개선된다는 조건 하에 서비스를 확대하겠습니다.",
+      "en": "We will expand services, provided that customer satisfaction improves.",
+      "pattern": "DOUBLE-CONDITIONAL-HANDLING",
+      "form": "aff"
+    }
+  ]
+}

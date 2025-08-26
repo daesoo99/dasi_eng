@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv3-P2-S10",
+  "title": "가정법 (3rd 조건문)",
+  "description": "3차 조건문(과거 가정법)을 배워 과거에 일어나지 않은 일을 가정해봅니다. 복잡한 가정 상황을 표현하며 과거의 다른 선택이 가져올 수 있었던 결과를 상상해봅니다.",
+  "grammar_pattern": "If + had p.p., would have + p.p. (과거 가정법)",
+  "examples": ["If I had studied harder, I would have passed the exam.", "She wouldn't have been late if she had left earlier."],
+  "learning_points": "과거 사실과 반대되는 가정 상황으로 후회나 아쉬움 표현",
+  "phase": 2,
+  "stage_number": 10,
+  "count": 0,
+  "sentences": []
+}

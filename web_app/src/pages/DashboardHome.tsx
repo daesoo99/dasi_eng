@@ -1,12 +1,27 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 
 export const DashboardHome: React.FC = () => {
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
   const [isDeveloperMode, setIsDeveloperMode] = useState(false);
   const [currentViewLevel, setCurrentViewLevel] = useState<number | null>(null);
   const [selectedStage, setSelectedStage] = useState<number | string | null>(null);
-  const [currentView, setCurrentView] = useState<'levels' | 'stage' | 'review' | 'stats' | 'curve'>('levels');
+  const [currentView, setCurrentView] = useState<'levels' | 'stage' | 'review' | 'stats' | 'curve' | 'situational'>('levels');
+  const [currentTab, setCurrentTab] = useState<'pattern' | 'situational'>('pattern');
+
+  // URL 파라미터 확인하여 바로 스테이지 뷰 열기
+  useEffect(() => {
+    const levelParam = searchParams.get('level');
+    const viewParam = searchParams.get('view');
+    
+    if (levelParam && viewParam === 'stage') {
+      const level = parseInt(levelParam);
+      if (level >= 1 && level <= 10) {
+        showStageView(level);
+      }
+    }
+  }, [searchParams]);
 
   // 레벨 데이터 정의 (level-system.html과 동일)
   const levelData = [
@@ -152,6 +167,194 @@ export const DashboardHome: React.FC = () => {
         1: ["coordinate"], 2: ["negotiate"], 3: ["prioritize"], 4: ["implement"], 5: ["evaluate"],
         6: ["coordinate", "negotiate"], 7: ["prioritize", "implement"], 8: ["evaluate", "coordinate"], 9: ["negotiate", "prioritize"], 10: ["coordinate", "negotiate", "prioritize", "implement", "evaluate"]
       }
+    }
+  ];
+
+  // 상황학습 6그룹 데이터
+  const situationalData = [
+    {
+      group: 1,
+      title: "Customer Excellence",
+      subtitle: "고객 서비스 완성",
+      stages: "A5-S17~S20",
+      difficulty: 2,
+      description: "고객과의 서비스 완료 및 관계 유지",
+      scenarios: ["서비스 문의 응답", "문제 해결 제안", "서비스 품질 확인", "서비스 종료 및 관계 유지"],
+      completed: false,
+      progress: 0
+    },
+    {
+      group: 2,
+      title: "Professional Communication",
+      subtitle: "전문 소통 능력",
+      stages: "A4-S13~S16",
+      difficulty: 3,
+      description: "이메일, 보고서, 업무 커뮤니케이션",
+      scenarios: ["이메일 감사 및 확인", "보고서 작성 및 검토", "보고서 권고사항 및 실행계획", "문서 승인 및 피드백"],
+      completed: false,
+      progress: 0
+    },
+    {
+      group: 3,
+      title: "Meeting Leadership",
+      subtitle: "회의 진행 리더십",
+      stages: "A1-S01~S04",
+      difficulty: 3,
+      description: "회의 주도 및 효과적 진행",
+      scenarios: ["회의 시작 및 목적 설명", "안건 제시 및 논의 유도", "의견 조율 및 합의 도출", "회의 정리 및 후속 조치"],
+      completed: false,
+      progress: 0
+    },
+    {
+      group: 4,
+      title: "Presentation Mastery",
+      subtitle: "발표 완성도",
+      stages: "A2-S05~S08",
+      difficulty: 3,
+      description: "효과적인 프레젠테이션 및 설득",
+      scenarios: ["발표 시작 및 개요 소개", "핵심 내용 전달", "질의응답 및 토론", "발표 마무리 및 감사"],
+      completed: false,
+      progress: 0
+    },
+    {
+      group: 5,
+      title: "Strategic Negotiation",
+      subtitle: "전략적 협상",
+      stages: "A3-S09~S12",
+      difficulty: 4,
+      description: "비즈니스 협상 및 거래 성사",
+      scenarios: ["협상 시작 및 조건 제시", "상호 이익 탐색", "양보 및 대안 모색", "확정 및 거래 마무리"],
+      completed: false,
+      progress: 0
+    },
+    {
+      group: 6,
+      title: "Team Leadership",
+      subtitle: "팀 리더십",
+      stages: "A6-S21~S24",
+      difficulty: 4,
+      description: "팀 관리 및 프로젝트 리더십",
+      scenarios: ["팀 동기부여 및 목표 설정", "성과 피드백 및 코칭", "갈등 해결 및 팀 조율", "프로젝트 완료 및 성과 공유"],
+      completed: false,
+      progress: 0
+    }
+  ];
+
+  // Level 5 학술연구 6그룹 데이터
+  const level5SituationalData = [
+    {
+      group: 1,
+      title: "Research Foundation",
+      subtitle: "연구 기초 설정",
+      stages: "A1-S01~S04",
+      difficulty: 3,
+      description: "연구 목적, 가설, 이론적 근거 설정",
+      scenarios: ["연구 목적 및 가설 제시", "이론적 근거 수립", "연구 디자인 설정", "선행연구 검토"],
+      completed: false,
+      progress: 0
+    },
+    {
+      group: 2,
+      title: "Academic Presentation",
+      subtitle: "학술 발표 마스터리",
+      stages: "A2-S05~S08",
+      difficulty: 3,
+      description: "학술 발표 및 논문 발표 기법",
+      scenarios: ["학술 발표 도입 및 구조화", "연구 결과 제시", "논의 및 토론 진행", "발표 마무리 및 Q&A"],
+      completed: false,
+      progress: 0
+    },
+    {
+      group: 3,
+      title: "Research Methodology",
+      subtitle: "연구방법론 전문성",
+      stages: "A3-S09~S12",
+      difficulty: 4,
+      description: "연구방법, 데이터 분석 및 해석",
+      scenarios: ["연구방법 선택 및 설명", "데이터 수집 및 분석", "결과 해석 및 논의", "연구의 한계 인정"],
+      completed: false,
+      progress: 0
+    },
+    {
+      group: 4,
+      title: "Interdisciplinary Research",
+      subtitle: "학제간 연구 협력",
+      stages: "A4-S13~S16",
+      difficulty: 4,
+      description: "다학제 연구 및 협력 프로젝트",
+      scenarios: ["학제간 연구 협력", "통합 방법론 개발", "공동연구 프로젝트", "연구성과 공유"],
+      completed: false,
+      progress: 0
+    },
+    {
+      group: 5,
+      title: "Publication & Peer Review",
+      subtitle: "논문 출판 및 심사",
+      stages: "A5-S17~S20",
+      difficulty: 4,
+      description: "학술지 발표 및 동료심사 과정",
+      scenarios: ["논문 작성 및 제출", "동료심사 대응", "수정 및 재제출", "학술적 기여도 평가"],
+      completed: false,
+      progress: 0
+    },
+    {
+      group: 6,
+      title: "Academic Leadership",
+      subtitle: "학술 리더십",
+      stages: "A6-S21~S24",
+      difficulty: 5,
+      description: "연구팀 리더십 및 학술계 기여",
+      scenarios: ["연구팀 리더십", "학술 네트워킹", "연구비 획득 및 관리", "학계 기여 및 영향력"],
+      completed: false,
+      progress: 0
+    }
+  ];
+
+  // Level 6 전문분야 4그룹 데이터
+  const level6SituationalData = [
+    {
+      group: 1,
+      title: "Legal Excellence",
+      subtitle: "법률 전문성",
+      stages: "D1-S01~S03",
+      difficulty: 5,
+      description: "법률 계약서 작성 및 법률 자문",
+      scenarios: ["법률 계약서 작성 및 검토", "법률 자문 및 상담", "법적 분쟁 해결"],
+      completed: false,
+      progress: 0
+    },
+    {
+      group: 2,
+      title: "Medical Professional",
+      subtitle: "의료 전문성",
+      stages: "D2-S04~S06",
+      difficulty: 5,
+      description: "의료 진료 및 환자 커뮤니케이션",
+      scenarios: ["환자 진료 및 상담", "의료진 소통", "진단 및 치료 계획"],
+      completed: false,
+      progress: 0
+    },
+    {
+      group: 3,
+      title: "Technical Engineering",
+      subtitle: "기술 엔지니어링",
+      stages: "D3-S07~S09",
+      difficulty: 5,
+      description: "기술 설계 및 엔지니어링 커뮤니케이션",
+      scenarios: ["기술 설계 및 개발", "엔지니어링 커뮤니케이션", "품질 보증 및 최적화"],
+      completed: false,
+      progress: 0
+    },
+    {
+      group: 4,
+      title: "Financial Expertise",
+      subtitle: "금융 전문성",
+      stages: "D4-S10~S12",
+      difficulty: 5,
+      description: "금융 분석 및 투자 자문",
+      scenarios: ["금융 상품 설계", "투자 자문 및 위험관리", "금융시장 분석"],
+      completed: false,
+      progress: 0
     }
   ];
 
@@ -564,6 +767,55 @@ export const DashboardHome: React.FC = () => {
           <h1 style={{ fontSize: '2.5em', marginBottom: '10px' }}>🎯 DASI English</h1>
           <p style={{ fontSize: '1.2em', opacity: 0.9 }}>Do you vs Are you 완전 정복 - 10레벨 시스템</p>
           
+          {/* 탭 버튼 */}
+          <div style={{
+            display: 'flex',
+            justifyContent: 'center',
+            gap: '10px',
+            marginTop: '25px'
+          }}>
+            <button
+              onClick={() => {
+                setCurrentTab('pattern');
+                setCurrentView('levels');
+              }}
+              style={{
+                background: currentTab === 'pattern' ? 'rgba(255,255,255,0.3)' : 'rgba(255,255,255,0.1)',
+                border: '1px solid rgba(255,255,255,0.3)',
+                color: 'white',
+                padding: '12px 24px',
+                borderRadius: '25px',
+                cursor: 'pointer',
+                fontSize: '16px',
+                fontWeight: 'bold',
+                backdropFilter: 'blur(10px)',
+                transition: 'all 0.3s'
+              }}
+            >
+              📖 패턴학습
+            </button>
+            <button
+              onClick={() => {
+                setCurrentTab('situational');
+                setCurrentView('situational');
+              }}
+              style={{
+                background: currentTab === 'situational' ? 'rgba(255,255,255,0.3)' : 'rgba(255,255,255,0.1)',
+                border: '1px solid rgba(255,255,255,0.3)',
+                color: 'white',
+                padding: '12px 24px',
+                borderRadius: '25px',
+                cursor: 'pointer',
+                fontSize: '16px',
+                fontWeight: 'bold',
+                backdropFilter: 'blur(10px)',
+                transition: 'all 0.3s'
+              }}
+            >
+              💼 상황학습
+            </button>
+          </div>
+          
           <div style={{
             display: 'flex',
             justifyContent: 'center',
@@ -593,8 +845,8 @@ export const DashboardHome: React.FC = () => {
           </div>
         </div>
 
-        {/* 레벨 선택 화면 */}
-        {currentView === 'levels' && (
+        {/* 패턴학습 - 레벨 선택 화면 */}
+        {currentView === 'levels' && currentTab === 'pattern' && (
           <div style={{ padding: '30px' }}>
             <div style={{
               display: 'grid',
@@ -606,7 +858,246 @@ export const DashboardHome: React.FC = () => {
           </div>
         )}
 
-        {/* 스테이지 상세 화면 */}
+        {/* 상황학습 화면 */}
+        {currentView === 'situational' && (
+          <div style={{ padding: '30px' }}>
+            {/* Level 4 비즈니스 */}
+            <div style={{ marginBottom: '50px' }}>
+              <h2 style={{ color: '#1f2937', fontSize: '1.8em', marginBottom: '20px', textAlign: 'center' }}>
+                💼 Level 4: Business Mastery
+              </h2>
+              <div style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))',
+                gap: '20px'
+              }}>
+                {situationalData.map(group => {
+                  const isCompleted = group.completed;
+                  const difficultyStars = '⭐'.repeat(group.difficulty);
+                  
+                  return (
+                    <div
+                      key={group.group}
+                      className={`situational-card ${isCompleted ? 'completed' : 'available'}`}
+                      onClick={() => navigate(`/situational-training?level=4&group=${group.group}&title=${encodeURIComponent(group.title)}`)}
+                      style={{
+                        background: isCompleted ? 'linear-gradient(135deg, #fef3c7, #fbbf24)' : 'linear-gradient(135deg, #f8fafc, #e2e8f0)',
+                        borderRadius: '15px',
+                        padding: '25px',
+                        cursor: 'pointer',
+                        transition: 'all 0.3s ease',
+                        border: isCompleted ? '3px solid #f59e0b' : '3px solid #10b981',
+                        position: 'relative',
+                        opacity: 1
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.transform = 'translateY(-5px)';
+                        e.currentTarget.style.boxShadow = '0 10px 30px rgba(0,0,0,0.15)';
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.transform = 'translateY(0)';
+                        e.currentTarget.style.boxShadow = 'none';
+                      }}
+                    >
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '15px' }}>
+                        <div style={{ fontSize: '1.3em', fontWeight: 'bold', color: '#1f2937' }}>Group {group.group}</div>
+                        <div style={{ fontSize: '1.5em' }}>{difficultyStars}</div>
+                      </div>
+                      <div style={{ background: '#e5e7eb', borderRadius: '10px', height: '8px', marginBottom: '15px', overflow: 'hidden' }}>
+                        <div style={{ 
+                          background: 'linear-gradient(90deg, #10b981, #059669)', 
+                          height: '100%', 
+                          borderRadius: '10px', 
+                          transition: 'width 0.5s ease',
+                          width: `${group.progress}%`
+                        }}></div>
+                      </div>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.9em', color: '#64748b' }}>
+                        <span>진행률: {group.progress}%</span>
+                        <span>{group.stages}</span>
+                      </div>
+                      <h3 style={{ margin: '10px 0 5px 0', color: '#1f2937' }}>{group.title}</h3>
+                      <div style={{ fontSize: '1em', color: '#4338ca', fontWeight: '600', marginBottom: '8px' }}>{group.subtitle}</div>
+                      <div style={{ fontSize: '0.9em', color: '#64748b', marginBottom: '15px' }}>{group.description}</div>
+                      <div style={{ 
+                        background: '#f1f5f9', 
+                        borderRadius: '8px', 
+                        padding: '12px', 
+                        fontSize: '0.8em', 
+                        color: '#475569' 
+                      }}>
+                        <strong>주요 상황:</strong>
+                        <ul style={{ margin: '5px 0 0 15px', lineHeight: '1.4' }}>
+                          {group.scenarios.map((scenario, idx) => (
+                            <li key={idx}>{scenario}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+            
+            {/* Level 5 학술연구 */}
+            <div style={{ marginBottom: '50px' }}>
+              <h2 style={{ color: '#1f2937', fontSize: '1.8em', marginBottom: '20px', textAlign: 'center' }}>
+                🎓 Level 5: Academic Research Excellence
+              </h2>
+              <div style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))',
+                gap: '20px'
+              }}>
+                {level5SituationalData.map(group => {
+                  const isCompleted = group.completed;
+                  const difficultyStars = '⭐'.repeat(group.difficulty);
+                  
+                  return (
+                    <div
+                      key={group.group}
+                      className={`situational-card ${isCompleted ? 'completed' : 'available'}`}
+                      onClick={() => navigate(`/situational-training?level=5&group=${group.group}&title=${encodeURIComponent(group.title)}`)}
+                      style={{
+                        background: isCompleted ? 'linear-gradient(135deg, #fef3c7, #fbbf24)' : 'linear-gradient(135deg, #f0f9ff, #e0f2fe)',
+                        borderRadius: '15px',
+                        padding: '25px',
+                        cursor: 'pointer',
+                        transition: 'all 0.3s ease',
+                        border: isCompleted ? '3px solid #f59e0b' : '3px solid #0ea5e9',
+                        position: 'relative',
+                        opacity: 1
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.transform = 'translateY(-5px)';
+                        e.currentTarget.style.boxShadow = '0 10px 30px rgba(0,0,0,0.15)';
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.transform = 'translateY(0)';
+                        e.currentTarget.style.boxShadow = 'none';
+                      }}
+                    >
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '15px' }}>
+                        <div style={{ fontSize: '1.3em', fontWeight: 'bold', color: '#1f2937' }}>Group {group.group}</div>
+                        <div style={{ fontSize: '1.5em' }}>{difficultyStars}</div>
+                      </div>
+                      <div style={{ background: '#e5e7eb', borderRadius: '10px', height: '8px', marginBottom: '15px', overflow: 'hidden' }}>
+                        <div style={{ 
+                          background: 'linear-gradient(90deg, #0ea5e9, #0284c7)', 
+                          height: '100%', 
+                          borderRadius: '10px', 
+                          transition: 'width 0.5s ease',
+                          width: `${group.progress}%`
+                        }}></div>
+                      </div>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.9em', color: '#64748b' }}>
+                        <span>진행률: {group.progress}%</span>
+                        <span>{group.stages}</span>
+                      </div>
+                      <h3 style={{ margin: '10px 0 5px 0', color: '#1f2937' }}>{group.title}</h3>
+                      <div style={{ fontSize: '1em', color: '#0c4a6e', fontWeight: '600', marginBottom: '8px' }}>{group.subtitle}</div>
+                      <div style={{ fontSize: '0.9em', color: '#64748b', marginBottom: '15px' }}>{group.description}</div>
+                      <div style={{ 
+                        background: '#f0f9ff', 
+                        borderRadius: '8px', 
+                        padding: '12px', 
+                        fontSize: '0.8em', 
+                        color: '#0c4a6e' 
+                      }}>
+                        <strong>주요 상황:</strong>
+                        <ul style={{ margin: '5px 0 0 15px', lineHeight: '1.4' }}>
+                          {group.scenarios.map((scenario, idx) => (
+                            <li key={idx}>{scenario}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+            
+            {/* Level 6 전문분야 */}
+            <div>
+              <h2 style={{ color: '#1f2937', fontSize: '1.8em', marginBottom: '20px', textAlign: 'center' }}>
+                🎯 Level 6: Professional Domain Expertise
+              </h2>
+              <div style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))',
+                gap: '20px'
+              }}>
+                {level6SituationalData.map(group => {
+                  const isCompleted = group.completed;
+                  const difficultyStars = '⭐'.repeat(group.difficulty);
+                  
+                  return (
+                    <div
+                      key={group.group}
+                      className={`situational-card ${isCompleted ? 'completed' : 'available'}`}
+                      onClick={() => navigate(`/situational-training?level=6&group=${group.group}&title=${encodeURIComponent(group.title)}`)}
+                      style={{
+                        background: isCompleted ? 'linear-gradient(135deg, #fef3c7, #fbbf24)' : 'linear-gradient(135deg, #fdf4ff, #fae8ff)',
+                        borderRadius: '15px',
+                        padding: '25px',
+                        cursor: 'pointer',
+                        transition: 'all 0.3s ease',
+                        border: isCompleted ? '3px solid #f59e0b' : '3px solid #c084fc',
+                        position: 'relative',
+                        opacity: 1
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.transform = 'translateY(-5px)';
+                        e.currentTarget.style.boxShadow = '0 10px 30px rgba(0,0,0,0.15)';
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.transform = 'translateY(0)';
+                        e.currentTarget.style.boxShadow = 'none';
+                      }}
+                    >
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '15px' }}>
+                        <div style={{ fontSize: '1.3em', fontWeight: 'bold', color: '#1f2937' }}>Group {group.group}</div>
+                        <div style={{ fontSize: '1.5em' }}>{difficultyStars}</div>
+                      </div>
+                      <div style={{ background: '#e5e7eb', borderRadius: '10px', height: '8px', marginBottom: '15px', overflow: 'hidden' }}>
+                        <div style={{ 
+                          background: 'linear-gradient(90deg, #c084fc, #a855f7)', 
+                          height: '100%', 
+                          borderRadius: '10px', 
+                          transition: 'width 0.5s ease',
+                          width: `${group.progress}%`
+                        }}></div>
+                      </div>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.9em', color: '#64748b' }}>
+                        <span>진행률: {group.progress}%</span>
+                        <span>{group.stages}</span>
+                      </div>
+                      <h3 style={{ margin: '10px 0 5px 0', color: '#1f2937' }}>{group.title}</h3>
+                      <div style={{ fontSize: '1em', color: '#7c2d92', fontWeight: '600', marginBottom: '8px' }}>{group.subtitle}</div>
+                      <div style={{ fontSize: '0.9em', color: '#64748b', marginBottom: '15px' }}>{group.description}</div>
+                      <div style={{ 
+                        background: '#fdf4ff', 
+                        borderRadius: '8px', 
+                        padding: '12px', 
+                        fontSize: '0.8em', 
+                        color: '#7c2d92' 
+                      }}>
+                        <strong>주요 상황:</strong>
+                        <ul style={{ margin: '5px 0 0 15px', lineHeight: '1.4' }}>
+                          {group.scenarios.map((scenario, idx) => (
+                            <li key={idx}>{scenario}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* 패턴학습 - 스테이지 상세 화면 */}
         {currentView === 'stage' && currentLevel && (
           <div style={{ padding: '30px' }}>
             <div style={{

@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv7-P7-S41",
+  "title": "구어체 표현 섞어 쓰기",
+  "description": "격식을 유지하되 적절히 구어체 표현을 섞어 친근함을 주는 연습도 합니다.",
+  "grammar_pattern": "FORMAL-INFORMAL-MIXING",
+  "examples": [
+    "Our proposal, if I'm not mistaken, will cost around $2M and deliver substantial returns.",
+    "The results are quite impressive, to say the least, and exceed all expectations.",
+    "This solution, frankly speaking, addresses all our major concerns effectively."
+  ],
+  "learning_points": "격식체와 구어체의 적절한 조화를 통한 자연스럽고 효과적인 소통",
+  "phase": 7,
+  "stage_number": 41,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv7-P7-S41-001",
+      "kr": "제가 틀리지 않았다면, 우리 제안은 약 200만 달러가 소요되고 상당한 수익을 가져다 줄 것입니다.",
+      "en": "Our proposal, if I'm not mistaken, will cost around $2M and deliver substantial returns.",
+      "pattern": "FORMAL-INFORMAL-MIXING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P7-S41-002",
+      "kr": "결과는 적어도 말하자면 매우 인상적이고, 모든 기대를 뛰어넘습니다.",
+      "en": "The results are quite impressive, to say the least, and exceed all expectations.",
+      "pattern": "FORMAL-INFORMAL-MIXING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P7-S41-003",
+      "kr": "솔직히 말하면, 이 해결책은 우리의 모든 주요 우려사항을 효과적으로 다룹니다.",
+      "en": "This solution, frankly speaking, addresses all our major concerns effectively.",
+      "pattern": "FORMAL-INFORMAL-MIXING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P7-S41-004",
+      "kr": "분석 결과는, 말할 필요도 없이, 우리 전략이 올바른 방향임을 보여줍니다.",
+      "en": "The analysis shows, needless to say, that our strategy is heading in the right direction.",
+      "pattern": "FORMAL-INFORMAL-MIXING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P7-S41-005",
+      "kr": "이 프로젝트는, 정말로, 회사의 미래를 위한 중요한 투자입니다.",
+      "en": "This project is, quite honestly, a crucial investment for our company's future.",
+      "pattern": "FORMAL-INFORMAL-MIXING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P7-S41-006",
+      "kr": "시장 반응은, 예상했듯이, 매우 긍정적이고 고무적입니다.",
+      "en": "Market response has been, as expected, very positive and encouraging.",
+      "pattern": "FORMAL-INFORMAL-MIXING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P7-S41-007",
+      "kr": "경쟁사들은, 솔직히, 우리의 혁신을 따라잡지 못하고 있습니다.",
+      "en": "Our competitors are, frankly, struggling to keep up with our innovations.",
+      "pattern": "FORMAL-INFORMAL-MIXING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P7-S41-008",
+      "kr": "팀의 성과는, 간단히 말해서, 예외적이고 칭찬받을 만합니다.",
+      "en": "The team's performance has been, simply put, exceptional and commendable.",
+      "pattern": "FORMAL-INFORMAL-MIXING",
+      "form": "aff"
+    }
+  ]
+}

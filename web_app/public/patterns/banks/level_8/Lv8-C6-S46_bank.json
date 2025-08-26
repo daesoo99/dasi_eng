@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv8-C6-S46",
+  "title": "최종 워크숍",
+  "description": "Level 8의 모든 고급 표현 기법들을 종합하여 실제 상황에서 활용하는 종합 워크숍을 진행합니다.",
+  "grammar_pattern": "COMPREHENSIVE-WORKSHOP",
+  "examples": [
+    "Having synthesized all the evidence, I propose we implement a multifaceted approach.",
+    "This comprehensive analysis demonstrates unequivocally that our strategy is sound.",
+    "In light of these compelling arguments, I believe we have reached a consensus."
+  ],
+  "learning_points": "Level 8 전체 학습 내용의 종합적 활용과 실전 적용",
+  "phase": 6,
+  "stage_number": 46,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv8-C6-S46-001",
+      "kr": "모든 증거를 종합한 결과, 다각적 접근법을 시행할 것을 제안합니다.",
+      "en": "Having synthesized all the evidence, I propose we implement a multifaceted approach.",
+      "pattern": "COMPREHENSIVE-WORKSHOP",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S46-002",
+      "kr": "이 종합적 분석은 우리의 전략이 건전하다는 것을 명백히 보여줍니다.",
+      "en": "This comprehensive analysis demonstrates unequivocally that our strategy is sound.",
+      "pattern": "COMPREHENSIVE-WORKSHOP",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S46-003",
+      "kr": "이러한 설득력 있는 논거들을 고려할 때, 우리가 합의에 도달했다고 생각합니다.",
+      "en": "In light of these compelling arguments, I believe we have reached a consensus.",
+      "pattern": "COMPREHENSIVE-WORKSHOP",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S46-004",
+      "kr": "모든 관점을 신중히 고려한 후, 이것이 최적의 해결책이라는 확신에 이르렀습니다.",
+      "en": "Having carefully weighed all perspectives, I'm convinced this is the optimal solution.",
+      "pattern": "COMPREHENSIVE-WORKSHOP",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S46-005",
+      "kr": "이 포괄적 검토를 통해 우리의 가정이 실증적으로 타당함이 확인되었습니다.",
+      "en": "Through this comprehensive review, our assumptions have been empirically validated.",
+      "pattern": "COMPREHENSIVE-WORKSHOP",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S46-006",
+      "kr": "모든 이해관계자의 의견을 통합하여, 균형 잡힌 접근법을 개발했습니다.",
+      "en": "Integrating all stakeholder perspectives, we've developed a balanced approach.",
+      "pattern": "COMPREHENSIVE-WORKSHOP",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S46-007",
+      "kr": "이 심도 있는 분석 결과, 우리가 올바른 방향으로 나아가고 있음이 분명해졌습니다.",
+      "en": "This in-depth analysis makes it clear that we're moving in the right direction.",
+      "pattern": "COMPREHENSIVE-WORKSHOP",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S46-008",
+      "kr": "모든 요소를 종합적으로 평가한 결과, 이 이니셔티브가 성공할 것이라 확신합니다.",
+      "en": "Having evaluated all factors comprehensively, I'm confident this initiative will succeed.",
+      "pattern": "COMPREHENSIVE-WORKSHOP",
+      "form": "aff"
+    }
+  ]
+}

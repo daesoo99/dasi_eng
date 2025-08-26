@@ -21,6 +21,7 @@ import StageFocusPage from '@/pages/StageFocusPage';
 import { AllModePage } from '@/pages/AllModePage';
 import { PatternTrainingPage } from '@/pages/PatternTrainingPage';
 import { PatternTestPage } from '@/pages/PatternTestPage';
+import { SituationalTrainingPage } from '@/pages/SituationalTrainingPage';
 
 function App() {
   const { setUser } = useAppStore();
@@ -60,6 +61,7 @@ function App() {
           <Route path="/all-mode" element={<AllModePage />} />
           <Route path="/pattern-training" element={<PatternTrainingPage />} />
           <Route path="/pattern-test" element={<PatternTestPage />} />
+          <Route path="/situational-training" element={<SituationalTrainingPage />} />
           {/* 안전장치: 알 수 없는 경로는 랜딩으로 */}
           <Route path="*" element={<LandingHome />} />
         </Routes>

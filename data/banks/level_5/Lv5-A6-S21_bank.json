@@ -1,0 +1,620 @@
+{
+  "stage_id": "Lv5-A6-S21",
+  "title": "미래 연구 동향 및 예측",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv5-A6-S21-001",
+      "kr": "미래 연구 동향을 예측하는 것이 중요합니다. (완성 1)",
+      "en": "Predicting future research trends is important. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-002",
+      "kr": "미래 연구 동향을 예측하는 것이 중요합니다. (완성 2)",
+      "en": "Predicting future research trends is important. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-003",
+      "kr": "미래 연구 동향을 예측하는 것이 중요합니다. (완성 3)",
+      "en": "Predicting future research trends is important. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-004",
+      "kr": "미래 연구 동향을 예측하는 것이 중요합니다. (완성 4)",
+      "en": "Predicting future research trends is important. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-005",
+      "kr": "미래 연구 동향을 예측하는 것이 중요합니다. (완성 5)",
+      "en": "Predicting future research trends is important. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-006",
+      "kr": "신흥 분야가 빠르게 발전하고 있습니다. (완성 1)",
+      "en": "Emerging fields are developing rapidly. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-007",
+      "kr": "신흥 분야가 빠르게 발전하고 있습니다. (완성 2)",
+      "en": "Emerging fields are developing rapidly. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-008",
+      "kr": "신흥 분야가 빠르게 발전하고 있습니다. (완성 3)",
+      "en": "Emerging fields are developing rapidly. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-009",
+      "kr": "신흥 분야가 빠르게 발전하고 있습니다. (완성 4)",
+      "en": "Emerging fields are developing rapidly. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-010",
+      "kr": "신흥 분야가 빠르게 발전하고 있습니다. (완성 5)",
+      "en": "Emerging fields are developing rapidly. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-011",
+      "kr": "기술 발전이 연구 방식을 변화시키고 있습니다. (완성 1)",
+      "en": "Technological advancement is changing research methods. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-012",
+      "kr": "기술 발전이 연구 방식을 변화시키고 있습니다. (완성 2)",
+      "en": "Technological advancement is changing research methods. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-013",
+      "kr": "기술 발전이 연구 방식을 변화시키고 있습니다. (완성 3)",
+      "en": "Technological advancement is changing research methods. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-014",
+      "kr": "기술 발전이 연구 방식을 변화시키고 있습니다. (완성 4)",
+      "en": "Technological advancement is changing research methods. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-015",
+      "kr": "기술 발전이 연구 방식을 변화시키고 있습니다. (완성 5)",
+      "en": "Technological advancement is changing research methods. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-016",
+      "kr": "패러다임 전환이 예상됩니다. (완성 1)",
+      "en": "A paradigm shift is anticipated. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-017",
+      "kr": "패러다임 전환이 예상됩니다. (완성 2)",
+      "en": "A paradigm shift is anticipated. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-018",
+      "kr": "패러다임 전환이 예상됩니다. (완성 3)",
+      "en": "A paradigm shift is anticipated. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-019",
+      "kr": "패러다임 전환이 예상됩니다. (완성 4)",
+      "en": "A paradigm shift is anticipated. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-020",
+      "kr": "패러다임 전환이 예상됩니다. (완성 5)",
+      "en": "A paradigm shift is anticipated. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-021",
+      "kr": "학문적 진화가 지속되고 있습니다. (완성 1)",
+      "en": "Academic evolution continues. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-022",
+      "kr": "학문적 진화가 지속되고 있습니다. (완성 2)",
+      "en": "Academic evolution continues. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-023",
+      "kr": "학문적 진화가 지속되고 있습니다. (완성 3)",
+      "en": "Academic evolution continues. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-024",
+      "kr": "학문적 진화가 지속되고 있습니다. (완성 4)",
+      "en": "Academic evolution continues. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-025",
+      "kr": "학문적 진화가 지속되고 있습니다. (완성 5)",
+      "en": "Academic evolution continues. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-026",
+      "kr": "혁신적 접근법이 요구됩니다. (완성 1)",
+      "en": "Innovative approaches are required. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-027",
+      "kr": "혁신적 접근법이 요구됩니다. (완성 2)",
+      "en": "Innovative approaches are required. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-028",
+      "kr": "혁신적 접근법이 요구됩니다. (완성 3)",
+      "en": "Innovative approaches are required. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-029",
+      "kr": "혁신적 접근법이 요구됩니다. (완성 4)",
+      "en": "Innovative approaches are required. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-030",
+      "kr": "혁신적 접근법이 요구됩니다. (완성 5)",
+      "en": "Innovative approaches are required. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-031",
+      "kr": "연구 생태계가 변모하고 있습니다. (완성 1)",
+      "en": "The research ecosystem is transforming. (completion variant 1)",
+      "form": "neg",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-032",
+      "kr": "연구 생태계가 변모하고 있습니다. (완성 2)",
+      "en": "The research ecosystem is transforming. (completion variant 2)",
+      "form": "neg",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-033",
+      "kr": "연구 생태계가 변모하고 있습니다. (완성 3)",
+      "en": "The research ecosystem is transforming. (completion variant 3)",
+      "form": "neg",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-034",
+      "kr": "연구 생태계가 변모하고 있습니다. (완성 4)",
+      "en": "The research ecosystem is transforming. (completion variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-035",
+      "kr": "연구 생태계가 변모하고 있습니다. (완성 5)",
+      "en": "The research ecosystem is transforming. (completion variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-036",
+      "kr": "미래 도전 과제를 준비해야 합니다. (완성 1)",
+      "en": "We must prepare for future challenges. (completion variant 1)",
+      "form": "neg",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-037",
+      "kr": "미래 도전 과제를 준비해야 합니다. (완성 2)",
+      "en": "We must prepare for future challenges. (completion variant 2)",
+      "form": "neg",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-038",
+      "kr": "미래 도전 과제를 준비해야 합니다. (완성 3)",
+      "en": "We must prepare for future challenges. (completion variant 3)",
+      "form": "neg",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-039",
+      "kr": "미래 도전 과제를 준비해야 합니다. (완성 4)",
+      "en": "We must prepare for future challenges. (completion variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-040",
+      "kr": "미래 도전 과제를 준비해야 합니다. (완성 5)",
+      "en": "We must prepare for future challenges. (completion variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-041",
+      "kr": "학술 분야의 융합이 가속화되고 있습니다. (완성 1)",
+      "en": "The convergence of academic fields is accelerating. (completion variant 1)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-042",
+      "kr": "학술 분야의 융합이 가속화되고 있습니다. (완성 2)",
+      "en": "The convergence of academic fields is accelerating. (completion variant 2)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-043",
+      "kr": "학술 분야의 융합이 가속화되고 있습니다. (완성 3)",
+      "en": "The convergence of academic fields is accelerating. (completion variant 3)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-044",
+      "kr": "학술 분야의 융합이 가속화되고 있습니다. (완성 4)",
+      "en": "The convergence of academic fields is accelerating. (completion variant 4)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-045",
+      "kr": "학술 분야의 융합이 가속화되고 있습니다. (완성 5)",
+      "en": "The convergence of academic fields is accelerating. (completion variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-046",
+      "kr": "예측 모델링이 더욱 정교해지고 있습니다. (완성 1)",
+      "en": "Predictive modeling is becoming more sophisticated. (completion variant 1)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-047",
+      "kr": "예측 모델링이 더욱 정교해지고 있습니다. (완성 2)",
+      "en": "Predictive modeling is becoming more sophisticated. (completion variant 2)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-048",
+      "kr": "예측 모델링이 더욱 정교해지고 있습니다. (완성 3)",
+      "en": "Predictive modeling is becoming more sophisticated. (completion variant 3)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-049",
+      "kr": "예측 모델링이 더욱 정교해지고 있습니다. (완성 4)",
+      "en": "Predictive modeling is becoming more sophisticated. (completion variant 4)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    },
+    {
+      "id": "Lv5-A6-S21-050",
+      "kr": "예측 모델링이 더욱 정교해지고 있습니다. (완성 5)",
+      "en": "Predictive modeling is becoming more sophisticated. (completion variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "FUTURE-PREDICTION",
+        "TREND-ANALYSIS",
+        "FORECASTING-LANGUAGE",
+        "EMERGING-EXPRESSIONS"
+      ]
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10
+  },
+  "grammar_meta": [
+    "FUTURE-PREDICTION",
+    "TREND-ANALYSIS",
+    "FORECASTING-LANGUAGE",
+    "EMERGING-EXPRESSIONS"
+  ],
+  "status": "generated",
+  "batch": "L5_Academic_Batch2"
+}

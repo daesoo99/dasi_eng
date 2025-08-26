@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv2-P3-S09",
+  "title": "Can으로 능력 표현",
+  "description": "Can을 사용해 능력이나 가능 여부를 말합니다. 또한 Can I ~?로 허락 요청을 연습합니다. 일상에서 자주 쓰이는 Can의 긍정/부정/의문 형태를 모두 말해 봅니다.",
+  "grammar_pattern": "주어 + can/can't + 동사원형 / Can I/you + 동사원형?",
+  "examples": ["I can swim.", "I can't drive.", "Can I open the window?"],
+  "learning_points": "'캔'(can)과 '캔트'(can't) 발음 구별에도 주의",
+  "phase": 3,
+  "stage_number": 9,
+  "count": 0,
+  "sentences": []
+}

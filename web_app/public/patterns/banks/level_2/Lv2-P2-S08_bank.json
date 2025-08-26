@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv2-P2-S08",
+  "title": "빈도부사 + 진행형",
+  "description": "진행형과 빈도부사를 함께 써서 불평이나 강조의 뉘앙스를 배웁니다. 이러한 표현으로 감정 섞인 말하기를 연습하고, 평서문과의 뉘앙스 차이를 토의합니다.",
+  "grammar_pattern": "주어 + be + always/constantly + 동사ing",
+  "examples": ["He is always playing games.", "She is constantly checking her phone."],
+  "learning_points": "항상 게임만 한다(불평), 계속 폰만 본다(강조) 등의 감정 표현",
+  "phase": 2,
+  "stage_number": 8,
+  "count": 0,
+  "sentences": []
+}

@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv2-P1-S02",
+  "title": "현재진행형 응용",
+  "description": "WH-질문과 결합하여 진행형을 확장합니다. 'What are you doing (now)?'처럼 무엇을/어디로 ~하는 중이니?를 묻고 답하기 연습을 합니다.",
+  "grammar_pattern": "What/Where + am/is/are + 주어 + 동사ing?",
+  "examples": ["Where are you going?", "I'm going to the store."],
+  "learning_points": "질문 대화 패턴으로 실제 상황을 가정해 말해 보기",
+  "phase": 1,
+  "stage_number": 2,
+  "count": 0,
+  "sentences": []
+}

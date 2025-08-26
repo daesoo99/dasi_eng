@@ -1,0 +1,19 @@
+{
+  "stage_id": "Lv2-P1-S01",
+  "title": "일상 습관 + 빈도부사",
+  "generated_count": 50,
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10
+  },
+  "sample_sentences": [
+    { "kr": "나는 보통 7시에 일어나.", "en": "I usually wake up at seven.", "form": "aff" },
+    { "kr": "그녀는 항상 아침을 먹어.", "en": "She always has breakfast.", "form": "aff" },
+    { "kr": "너는 얼마나 자주 운동해?", "en": "How often do you work out?", "form": "wh_q" },
+    { "kr": "나는 거의 밤에 커피를 안 마셔.", "en": "I hardly ever drink coffee at night.", "form": "neg" },
+    { "kr": "그는 항상 아침에 이메일을 확인해.", "en": "He always checks his email in the morning.", "form": "aff" }
+  ],
+  "status": "generated",
+  "timestamp": "2025-08-15T00:25:00Z"
+}

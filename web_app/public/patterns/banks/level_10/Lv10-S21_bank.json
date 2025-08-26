@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv10-S21",
+  "title": "즉흥적 평가 - 순간 반응",
+  "description": "순간적인 반응과 평가를 자연스럽게 표현하는 원어민 수준의 평가 표현을 구사합니다.",
+  "grammar_pattern": "SPONTANEOUS-INSTANT-EVALUATION",
+  "examples": [
+    "Wow, this is way better than I expected!",
+    "Hmm, it's a bit different from what I expected.",
+    "Oh, this is pretty good! I like it."
+  ],
+  "learning_points": "원어민 수준의 자연스러운 순간 반응 표현 구사",
+  "phase": 3,
+  "stage_number": 21,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv10-S21-001",
+      "kr": "와, 생각보다 훨씬 좋네!",
+      "en": "Wow, this is way better than I expected!",
+      "pattern": "SPONTANEOUS-INSTANT-EVALUATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S21-002",
+      "kr": "음, 기대했던 것과는 좀 다르네.",
+      "en": "Hmm, it's a bit different from what I expected.",
+      "pattern": "SPONTANEOUS-INSTANT-EVALUATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S21-003",
+      "kr": "오, 이거 괜찮은데? 마음에 들어.",
+      "en": "Oh, this is pretty good! I like it.",
+      "pattern": "SPONTANEOUS-INSTANT-EVALUATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S21-004",
+      "kr": "어? 이상하네. 뭔가 어색해.",
+      "en": "Huh? That's weird. Something feels awkward.",
+      "pattern": "SPONTANEOUS-INSTANT-EVALUATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S21-005",
+      "kr": "우와, 완전 대박이야! 정말 놀랍네.",
+      "en": "Wow, this is absolutely amazing! So impressive.",
+      "pattern": "SPONTANEOUS-INSTANT-EVALUATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S21-006",
+      "kr": "에이, 실망이야. 이 정도밖에 안 돼?",
+      "en": "Aw, I'm disappointed. Is this all there is?",
+      "pattern": "SPONTANEOUS-INSTANT-EVALUATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S21-007",
+      "kr": "헉, 이런 걸 기대했던 건 아니었는데.",
+      "en": "Whoa, this isn't what I was expecting at all.",
+      "pattern": "SPONTANEOUS-INSTANT-EVALUATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S21-008",
+      "kr": "오호, 흥미롭네. 좀 더 봐야겠어.",
+      "en": "Oh ho, interesting. I need to look at this more.",
+      "pattern": "SPONTANEOUS-INSTANT-EVALUATION",
+      "form": "aff"
+    }
+  ]
+}

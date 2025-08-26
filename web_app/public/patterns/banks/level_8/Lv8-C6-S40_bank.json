@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv8-C6-S40",
+  "title": "문어체 전환",
+  "description": "구어체에서 격식있는 문어체로 전환하여 공식적이고 학술적인 표현을 연습합니다.",
+  "grammar_pattern": "COLLOQUIAL-TO-FORMAL-TRANSITION",
+  "examples": [
+    "This phenomenon can be attributed to several underlying factors.",
+    "The data demonstrates a significant correlation between these variables.",
+    "It is imperative that we examine this matter with utmost care."
+  ],
+  "learning_points": "문어체 전환을 통한 격식있고 학술적인 의사소통",
+  "phase": 6,
+  "stage_number": 40,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv8-C6-S40-001",
+      "kr": "이 현상은 여러 근본적인 요인들에 기인한다고 볼 수 있습니다.",
+      "en": "This phenomenon can be attributed to several underlying factors.",
+      "pattern": "COLLOQUIAL-TO-FORMAL-TRANSITION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S40-002",
+      "kr": "데이터는 이들 변수 간의 유의미한 상관관계를 보여줍니다.",
+      "en": "The data demonstrates a significant correlation between these variables.",
+      "pattern": "COLLOQUIAL-TO-FORMAL-TRANSITION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S40-003",
+      "kr": "이 문제를 최대한 신중하게 검토하는 것이 필수적입니다.",
+      "en": "It is imperative that we examine this matter with utmost care.",
+      "pattern": "COLLOQUIAL-TO-FORMAL-TRANSITION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S40-004",
+      "kr": "연구 결과는 이론적 가설을 강력하게 뒷받침합니다.",
+      "en": "The research findings provide substantial support for the theoretical hypothesis.",
+      "pattern": "COLLOQUIAL-TO-FORMAL-TRANSITION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S40-005",
+      "kr": "이 접근법의 효과는 다양한 실증적 증거에 의해 입증되었습니다.",
+      "en": "The efficacy of this approach has been validated through various empirical evidence.",
+      "pattern": "COLLOQUIAL-TO-FORMAL-TRANSITION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S40-006",
+      "kr": "현재의 분석은 기존 연구와 일치하는 결과를 나타냅니다.",
+      "en": "The current analysis yields results consistent with previous studies.",
+      "pattern": "COLLOQUIAL-TO-FORMAL-TRANSITION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S40-007",
+      "kr": "이 방법론은 연구의 타당성과 신뢰성을 보장합니다.",
+      "en": "This methodology ensures the validity and reliability of the research.",
+      "pattern": "COLLOQUIAL-TO-FORMAL-TRANSITION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S40-008",
+      "kr": "결론적으로, 제시된 증거는 가설을 명확히 뒷받침합니다.",
+      "en": "In conclusion, the presented evidence unequivocally supports the hypothesis.",
+      "pattern": "COLLOQUIAL-TO-FORMAL-TRANSITION",
+      "form": "aff"
+    }
+  ]
+}

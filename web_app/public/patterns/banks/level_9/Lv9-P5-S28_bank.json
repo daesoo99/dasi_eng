@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv9-P5-S28",
+  "title": "삽입+도치 동시 활용",
+  "description": "The plan, as was explained earlier, will continue. 등의 문장에서 삽입 (as was explained)와 주절 도치(will continue) 감안해 말하기. 혹은 The plan – and this is crucial – needs funding. 삽입 강조.",
+  "grammar_pattern": "INSERTION-INVERSION",
+  "examples": [
+    "The plan, as was explained earlier, will continue.",
+    "The strategy – and this is crucial – needs immediate funding.",
+    "Our approach, as I mentioned before, requires patience."
+  ],
+  "learning_points": "삽입과 도치를 동시에 활용한 고급 문장 구성 기법",
+  "phase": 5,
+  "stage_number": 28,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv9-P5-S28-001",
+      "kr": "앞서 설명했듯이, 계획은 계속 진행될 것입니다.",
+      "en": "The plan, as was explained earlier, will continue.",
+      "pattern": "INSERTION-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P5-S28-002",
+      "kr": "전략 - 그리고 이것이 결정적입니다 - 에는 즉시 자금이 필요합니다.",
+      "en": "The strategy – and this is crucial – needs immediate funding.",
+      "pattern": "INSERTION-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P5-S28-003",
+      "kr": "앞서 언급했듯이, 우리의 접근법에는 인내가 필요합니다.",
+      "en": "Our approach, as I mentioned before, requires patience.",
+      "pattern": "INSERTION-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P5-S28-004",
+      "kr": "프로젝트 - 그리고 이를 강조하고 싶습니다 - 는 대성공이었습니다.",
+      "en": "The project – and I want to emphasize this – was a great success.",
+      "pattern": "INSERTION-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P5-S28-005",
+      "kr": "마치 예상한 바와 같이, 결과가 예상을 뛰어넘었습니다.",
+      "en": "The results, as expected, exceeded our projections.",
+      "pattern": "INSERTION-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P5-S28-006",
+      "kr": "결정 - 그리고 이건 반드시 기억해야 합니다 - 은 우리 모두에게 영향을 미칩니다.",
+      "en": "The decision – and we must remember this – affects us all.",
+      "pattern": "INSERTION-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P5-S28-007",
+      "kr": "전문가들이 결론 내린 바와 같이, 이 방법이 가장 효과적입니다.",
+      "en": "This method, as experts concluded, is most effective.",
+      "pattern": "INSERTION-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P5-S28-008",
+      "kr": "시장 - 그리고 이는 놀란 일이 아닙니다 - 이 빠르게 변하고 있습니다.",
+      "en": "The market – and this is no surprise – is changing rapidly.",
+      "pattern": "INSERTION-INVERSION",
+      "form": "aff"
+    }
+  ]
+}

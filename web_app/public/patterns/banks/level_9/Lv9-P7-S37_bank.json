@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv9-P7-S37",
+  "title": "문화적 맥락 함축",
+  "description": "문화적 배경과 맥락을 함축적으로 드러내는 고급 표현 기법. 직접 언급하지 않고도 문화적 뉘앙스를 전달하는 세련된 담화 구성.",
+  "grammar_pattern": "CULTURAL-IMPLICATION",
+  "examples": [
+    "Like ships passing in the night, our ideas rarely meet.",
+    "We're building bridges where others see only walls.",
+    "Rome wasn't built in a day, and neither will our success."
+  ],
+  "learning_points": "문화적 관용구와 은유를 통한 함축적 의미 전달",
+  "phase": 7,
+  "stage_number": 37,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv9-P7-S37-001",
+      "kr": "밤에 지나가는 배들처럼, 우리의 아이디어들은 좀처럼 만나지 않습니다.",
+      "en": "Like ships passing in the night, our ideas rarely meet.",
+      "pattern": "CULTURAL-IMPLICATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S37-002",
+      "kr": "다른 사람들이 벽만 보는 곳에 우리는 다리를 짓고 있습니다.",
+      "en": "We're building bridges where others see only walls.",
+      "pattern": "CULTURAL-IMPLICATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S37-003",
+      "kr": "로마도 하루아침에 건설되지 않았듯이, 우리의 성공도 마찬가지입니다.",
+      "en": "Rome wasn't built in a day, and neither will our success.",
+      "pattern": "CULTURAL-IMPLICATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S37-004",
+      "kr": "모든 길이 로마로 통하듯이, 모든 노력은 목표로 향합니다.",
+      "en": "All roads lead to Rome, and all efforts point toward our goal.",
+      "pattern": "CULTURAL-IMPLICATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S37-005",
+      "kr": "피닉스가 재에서 일어나듯이, 우리도 도전에서 다시 일어납니다.",
+      "en": "Like the phoenix rising from ashes, we emerge stronger from challenges.",
+      "pattern": "CULTURAL-IMPLICATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S37-006",
+      "kr": "아킬레스건이 있듯이, 모든 계획에는 약점이 있습니다.",
+      "en": "Every plan has its Achilles' heel, and ours is no exception.",
+      "pattern": "CULTURAL-IMPLICATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S37-007",
+      "kr": "트로이 목마처럼, 겉으로는 선물이지만 속에는 다른 의도가 있습니다.",
+      "en": "Like a Trojan horse, it appears as a gift with hidden intentions.",
+      "pattern": "CULTURAL-IMPLICATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S37-008",
+      "kr": "판도라의 상자를 열듯이, 새로운 가능성과 함께 위험도 따라옵니다.",
+      "en": "Opening Pandora's box brings new possibilities along with unforeseen risks.",
+      "pattern": "CULTURAL-IMPLICATION",
+      "form": "aff"
+    }
+  ]
+}

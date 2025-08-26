@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv5-P1-S05",
+  "title": "강조 도치",
+  "description": "강조 도치을 연습합니다. EMPHASIS-INVERSION 패턴을 활용하여 고급 영어 표현을 익힙니다.",
+  "grammar_pattern": "EMPHASIS-INVERSION",
+  "examples": [
+    "Only then did I realize my mistake.",
+    "Only after arriving home did I realize I had lost my keys.",
+    "Only by studying hard can you succeed."
+  ],
+  "learning_points": "inversion 관련 고급 표현과 실용적 활용",
+  "phase": 1,
+  "stage_number": 5,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv5-P1-S05-001",
+      "kr": "그때서야 비로소 실수를 깨달았습니다.",
+      "en": "Only then did I realize my mistake.",
+      "pattern": "EMPHASIS-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P1-S05-002",
+      "kr": "집에 도착한 후에야 열쇠를 잃어버린 것을 알았습니다.",
+      "en": "Only after arriving home did I realize I had lost my keys.",
+      "pattern": "EMPHASIS-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P1-S05-003",
+      "kr": "열심히 공부해야만 성공할 수 있습니다.",
+      "en": "Only by studying hard can you succeed.",
+      "pattern": "EMPHASIS-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P1-S05-004",
+      "kr": "그때서야 문제의 심각성을 이해했습니다.",
+      "en": "Only then did we understand the seriousness of the problem.",
+      "pattern": "EMPHASIS-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P1-S05-005",
+      "kr": "팀워크를 통해서만 목표를 달성할 수 있습니다.",
+      "en": "Only through teamwork can we achieve our goals.",
+      "pattern": "EMPHASIS-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P1-S05-006",
+      "kr": "모든 정보를 얻은 후에야 결정을 내렸습니다.",
+      "en": "Only after getting all the information did I make a decision.",
+      "pattern": "EMPHASIS-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P1-S05-007",
+      "kr": "경험을 통해서만 진정한 지혜를 얻을 수 있습니다.",
+      "en": "Only through experience can one gain true wisdom.",
+      "pattern": "EMPHASIS-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P1-S05-008",
+      "kr": "그 순간에서야 진실을 알게 되었습니다.",
+      "en": "Only at that moment did I learn the truth.",
+      "pattern": "EMPHASIS-INVERSION",
+      "form": "aff"
+    }
+  ]
+}

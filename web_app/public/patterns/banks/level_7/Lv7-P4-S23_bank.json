@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv7-P4-S23",
+  "title": "명사절/부사절 축약 (분사구문 변형)",
+  "description": "Level 4~6의 축약을 응용해 더 복잡한 문장을 축약합니다.",
+  "grammar_pattern": "ADVANCED-CLAUSE-REDUCTION",
+  "examples": [
+    "Having completed the analysis, we proceeded to write the final report.",
+    "Being concerned about the deadline, the team worked overtime to finish the project.",
+    "Not having received any response, we decided to contact them directly."
+  ],
+  "learning_points": "고급 분사구문과 축약절을 통한 효율적이고 세련된 표현",
+  "phase": 4,
+  "stage_number": 23,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv7-P4-S23-001",
+      "kr": "분석을 완료한 후, 우리는 최종 보고서를 작성하기 시작했다.",
+      "en": "Having completed the analysis, we proceeded to write the final report.",
+      "pattern": "ADVANCED-CLAUSE-REDUCTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P4-S23-002",
+      "kr": "마감일을 걱정하여, 팀은 프로젝트를 완료하기 위해 야근했다.",
+      "en": "Being concerned about the deadline, the team worked overtime to finish the project.",
+      "pattern": "ADVANCED-CLAUSE-REDUCTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P4-S23-003",
+      "kr": "아무런 응답을 받지 못했기 때문에, 우리는 직접 연락하기로 결정했다.",
+      "en": "Not having received any response, we decided to contact them directly.",
+      "pattern": "ADVANCED-CLAUSE-REDUCTION",
+      "form": "neg"
+    },
+    {
+      "id": "Lv7-P4-S23-004",
+      "kr": "자금이 부족하여, 회사는 일부 프로젝트를 연기해야 했다.",
+      "en": "Being short of funds, the company had to postpone some projects.",
+      "pattern": "ADVANCED-CLAUSE-REDUCTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P4-S23-005",
+      "kr": "시장 조사를 수행한 후, 우리는 새로운 전략을 개발했다.",
+      "en": "Having conducted market research, we developed a new strategy.",
+      "pattern": "ADVANCED-CLAUSE-REDUCTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P4-S23-006",
+      "kr": "경험이 부족했기 때문에, 그는 전문가의 조언을 구했다.",
+      "en": "Lacking experience, he sought advice from experts.",
+      "pattern": "ADVANCED-CLAUSE-REDUCTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P4-S23-007",
+      "kr": "모든 요구사항을 충족한 후, 시스템이 승인되었다.",
+      "en": "Having met all requirements, the system was approved.",
+      "pattern": "ADVANCED-CLAUSE-REDUCTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P4-S23-008",
+      "kr": "충분한 데이터를 수집하지 못했기 때문에, 연구가 불완전했다.",
+      "en": "Not having gathered sufficient data, the research remained incomplete.",
+      "pattern": "ADVANCED-CLAUSE-REDUCTION",
+      "form": "neg"
+    }
+  ]
+}

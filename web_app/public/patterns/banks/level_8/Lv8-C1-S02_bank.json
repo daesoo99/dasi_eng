@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv8-C1-S02",
+  "title": "조건 + 부사 강조 도치",
+  "description": "조건을 나타내는 구문과 부사 강조 도치를 함께 사용하여 복합적인 강조 효과를 연습합니다.",
+  "grammar_pattern": "CONDITIONAL-ADVERB-INVERSION",
+  "examples": [
+    "So determined was she that nothing could stop her.",
+    "Such was the impact that everyone remembered it.",
+    "Barely had we arrived when the meeting started."
+  ],
+  "learning_points": "조건과 부사 강조 도치의 결합을 통한 복합 강조 표현",
+  "phase": 1,
+  "stage_number": 2,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv8-C1-S02-001",
+      "kr": "그녀가 너무나 결심이 굳어서 아무것도 그녀를 막을 수 없었습니다.",
+      "en": "So determined was she that nothing could stop her.",
+      "pattern": "CONDITIONAL-ADVERB-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S02-002",
+      "kr": "그 충격이 워낙 컸던지라 모든 사람이 기억하고 있습니다.",
+      "en": "Such was the impact that everyone remembered it.",
+      "pattern": "CONDITIONAL-ADVERB-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S02-003",
+      "kr": "우리가 도착하자마자 회의가 시작되었습니다.",
+      "en": "Barely had we arrived when the meeting started.",
+      "pattern": "CONDITIONAL-ADVERB-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S02-004",
+      "kr": "그 소식이 너무나 놀라워서 말문이 막혔습니다.",
+      "en": "So surprising was the news that we were speechless.",
+      "pattern": "CONDITIONAL-ADVERB-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S02-005",
+      "kr": "그의 재능이 워낙 뛰어나서 모든 사람이 감탄했습니다.",
+      "en": "Such was his talent that everyone admired him.",
+      "pattern": "CONDITIONAL-ADVERB-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S02-006",
+      "kr": "간신히 문제를 해결했더니 새로운 도전이 기다리고 있었습니다.",
+      "en": "Hardly had we solved the problem when a new challenge awaited.",
+      "pattern": "CONDITIONAL-ADVERB-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S02-007",
+      "kr": "그 상황이 너무나 복잡해서 아무도 이해할 수 없었습니다.",
+      "en": "So complex was the situation that nobody could understand it.",
+      "pattern": "CONDITIONAL-ADVERB-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S02-008",
+      "kr": "그의 헌신이 워낙 깊어서 모든 사람이 존경했습니다.",
+      "en": "Such was his dedication that everyone respected him.",
+      "pattern": "CONDITIONAL-ADVERB-INVERSION",
+      "form": "aff"
+    }
+  ]
+}

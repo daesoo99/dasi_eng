@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv9-P8-S46",
+  "title": "다층적 의미 구조",
+  "description": "하나의 표현에 여러 층위의 의미를 내포시켜 풍부하고 깊이 있는 의사소통을 가능하게 하는 고급 담화 기법.",
+  "grammar_pattern": "MULTILAYERED-MEANING",
+  "examples": [
+    "This investment will plant seeds for tomorrow's harvest while weathering today's storm.",
+    "We're not just building a company; we're crafting a legacy that echoes through generations.",
+    "Success here means more than profit; it's about writing the next chapter of our industry."
+  ],
+  "learning_points": "단일 표현 내 복수 의미 층위를 통한 풍부한 의미 전달",
+  "phase": 8,
+  "stage_number": 46,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv9-P8-S46-001",
+      "kr": "이 투자는 오늘의 폭풍을 견디며 내일의 수확을 위한 씨앗을 심을 것입니다.",
+      "en": "This investment will plant seeds for tomorrow's harvest while weathering today's storm.",
+      "pattern": "MULTILAYERED-MEANING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P8-S46-002",
+      "kr": "우리는 단순히 회사를 세우는 게 아니라, 세대를 관통하는 유산을 만들고 있습니다.",
+      "en": "We're not just building a company; we're crafting a legacy that echoes through generations.",
+      "pattern": "MULTILAYERED-MEANING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P8-S46-003",
+      "kr": "여기서의 성공은 단순한 이익 이상의 의미로, 우리 산업의 새로운 장을 쓰는 것입니다.",
+      "en": "Success here means more than profit; it's about writing the next chapter of our industry.",
+      "pattern": "MULTILAYERED-MEANING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P8-S46-004",
+      "kr": "이 프로젝트는 현재의 도전이자 미래의 기회이며, 우리 역량의 시험대입니다.",
+      "en": "This project serves as today's challenge, tomorrow's opportunity, and our capability's proving ground.",
+      "pattern": "MULTILAYERED-MEANING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P8-S46-005",
+      "kr": "우리의 혁신은 기술적 돌파구이자 문화적 전환점이며, 인류 진보의 이정표입니다.",
+      "en": "Our innovation represents technological breakthrough, cultural turning point, and humanity's milestone.",
+      "pattern": "MULTILAYERED-MEANING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P8-S46-006",
+      "kr": "이 결정은 전략적 선택이면서 도덕적 명령이고, 미래 세대를 향한 약속입니다.",
+      "en": "This decision embodies strategic choice, moral imperative, and promise to future generations.",
+      "pattern": "MULTILAYERED-MEANING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P8-S46-007",
+      "kr": "우리가 창조하는 것은 제품이자 비전이며, 현실을 바꾸는 힘입니다.",
+      "en": "What we create stands as product, vision, and force that transforms reality.",
+      "pattern": "MULTILAYERED-MEANING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P8-S46-008",
+      "kr": "이 여정은 사업적 모험이자 개인적 성장이며, 집단적 진화의 과정입니다.",
+      "en": "This journey constitutes business venture, personal growth, and collective evolution process.",
+      "pattern": "MULTILAYERED-MEANING",
+      "form": "aff"
+    }
+  ]
+}

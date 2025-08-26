@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv8-C5-S35",
+  "title": "강조된 의견 제시",
+  "description": "의견을 강조하여 제시하는 다양한 고급 표현들을 활용하여 설득력 있는 논증을 연습합니다.",
+  "grammar_pattern": "EMPHASIZED-OPINION-EXPRESSION",
+  "examples": [
+    "It is my firm conviction that this strategy will succeed.",
+    "I cannot stress enough how important this decision is.",
+    "There can be no doubt that immediate action is required."
+  ],
+  "learning_points": "강조된 의견 제시를 통한 설득력 있는 논증 표현",
+  "phase": 5,
+  "stage_number": 35,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv8-C5-S35-001",
+      "kr": "이 전략이 성공할 것이라는 것이 제 확고한 신념입니다.",
+      "en": "It is my firm conviction that this strategy will succeed.",
+      "pattern": "EMPHASIZED-OPINION-EXPRESSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C5-S35-002",
+      "kr": "이 결정이 얼마나 중요한지 아무리 강조해도 지나치지 않습니다.",
+      "en": "I cannot stress enough how important this decision is.",
+      "pattern": "EMPHASIZED-OPINION-EXPRESSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C5-S35-003",
+      "kr": "즉각적인 조치가 필요하다는 것은 의심의 여지가 없습니다.",
+      "en": "There can be no doubt that immediate action is required.",
+      "pattern": "EMPHASIZED-OPINION-EXPRESSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C5-S35-004",
+      "kr": "품질이 우리의 최우선 순위여야 한다고 강력히 믿습니다.",
+      "en": "I firmly believe that quality must be our top priority.",
+      "pattern": "EMPHASIZED-OPINION-EXPRESSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C5-S35-005",
+      "kr": "이 기회를 놓치는 것은 절대적으로 잘못된 것입니다.",
+      "en": "It would be absolutely wrong to miss this opportunity.",
+      "pattern": "EMPHASIZED-OPINION-EXPRESSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C5-S35-006",
+      "kr": "협력이 성공의 열쇠라는 것을 확신합니다.",
+      "en": "I am convinced that collaboration is the key to success.",
+      "pattern": "EMPHASIZED-OPINION-EXPRESSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C5-S35-007",
+      "kr": "혁신이 우리의 미래를 보장할 것이라는 데 확신합니다.",
+      "en": "I have no doubt that innovation will secure our future.",
+      "pattern": "EMPHASIZED-OPINION-EXPRESSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C5-S35-008",
+      "kr": "이 프로젝트의 중요성을 과소평가할 수 없습니다.",
+      "en": "The importance of this project cannot be underestimated.",
+      "pattern": "EMPHASIZED-OPINION-EXPRESSION",
+      "form": "aff"
+    }
+  ]
+}

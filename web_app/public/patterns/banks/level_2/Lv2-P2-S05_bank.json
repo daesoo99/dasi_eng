@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv2-P2-S05",
+  "title": "빈도부사 위치 연습",
+  "description": "always, usually, often, sometimes, never 등의 빈도부사를 배우고 현재형 문장에서 위치를 연습합니다. 일반동사 문장에서는 주어 다음, be동사 문장에서는 be동사 뒤에 위치합니다.",
+  "grammar_pattern": "주어 + 빈도부사 + 동사 / 주어 + be동사 + 빈도부사",
+  "examples": ["I always get up at 7.", "He sometimes plays soccer."],
+  "learning_points": "부사의 위치에 따라 의미가 달라지지 않음을 확인하며 자연스럽게 습관 말하기 연습",
+  "phase": 2,
+  "stage_number": 5,
+  "count": 0,
+  "sentences": []
+}

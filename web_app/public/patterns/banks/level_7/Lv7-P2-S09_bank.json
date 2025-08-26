@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv7-P2-S09",
+  "title": "가정법에서 조동사 변화",
+  "description": "가정법 결과절에서 could/might/would have p.p.의 뉘앙스 차이를 연습합니다.",
+  "grammar_pattern": "CONDITIONAL-MODAL-VARIATIONS",
+  "examples": [
+    "If she had studied harder, she could have gotten a scholarship (ability/possibility).",
+    "If we had left earlier, we might have avoided the traffic (uncertainty/possibility).",
+    "If they had been more careful, they would have prevented the accident (definite result)."
+  ],
+  "learning_points": "가정법 결과절에서 조동사별 의미 차이와 적절한 활용",
+  "phase": 2,
+  "stage_number": 9,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv7-P2-S09-001",
+      "kr": "만약 그녀가 더 열심히 공부했다면, 장학금을 받을 수 있었을 것이다. (능력/가능성)",
+      "en": "If she had studied harder, she could have gotten a scholarship.",
+      "pattern": "CONDITIONAL-MODAL-VARIATIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P2-S09-002",
+      "kr": "만약 우리가 더 일찍 출발했다면, 교통체증을 피할 수 있었을지도 모른다. (불확실성/가능성)",
+      "en": "If we had left earlier, we might have avoided the traffic.",
+      "pattern": "CONDITIONAL-MODAL-VARIATIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P2-S09-003",
+      "kr": "만약 그들이 더 조심했다면, 사고를 예방했을 것이다. (확실한 결과)",
+      "en": "If they had been more careful, they would have prevented the accident.",
+      "pattern": "CONDITIONAL-MODAL-VARIATIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P2-S09-004",
+      "kr": "만약 그가 더 자신감을 가졌다면, 면접에서 더 좋은 인상을 줄 수 있었을 것이다.",
+      "en": "If he had been more confident, he could have made a better impression in the interview.",
+      "pattern": "CONDITIONAL-MODAL-VARIATIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P2-S09-005",
+      "kr": "만약 날씨가 더 좋았다면, 우리는 소풍을 갔을지도 모른다.",
+      "en": "If the weather had been better, we might have gone on a picnic.",
+      "pattern": "CONDITIONAL-MODAL-VARIATIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P2-S09-006",
+      "kr": "만약 팀이 더 체계적으로 준비했다면, 프레젠테이션이 성공했을 것이다.",
+      "en": "If the team had prepared more systematically, the presentation would have been successful.",
+      "pattern": "CONDITIONAL-MODAL-VARIATIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P2-S09-007",
+      "kr": "만약 기술적 문제가 없었다면, 그들은 제품을 일찍 출시할 수 있었을 것이다.",
+      "en": "If there hadn't been technical problems, they could have launched the product earlier.",
+      "pattern": "CONDITIONAL-MODAL-VARIATIONS",
+      "form": "neg"
+    },
+    {
+      "id": "Lv7-P2-S09-008",
+      "kr": "만약 투자자들이 더 관심을 보였다면, 스타트업이 성공했을지도 모른다.",
+      "en": "If investors had shown more interest, the startup might have succeeded.",
+      "pattern": "CONDITIONAL-MODAL-VARIATIONS",
+      "form": "aff"
+    }
+  ]
+}

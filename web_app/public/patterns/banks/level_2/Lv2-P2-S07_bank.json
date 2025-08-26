@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv2-P2-S07",
+  "title": "일상 루틴 설명",
+  "description": "현재형+빈도부사 조합으로 자신의 일상을 서술합니다. 'I usually + 동사…' 패턴을 이용해 하루 일과를 5~6개 문장으로 연결해 말해 봅니다.",
+  "grammar_pattern": "I usually + 동사 / 연결된 루틴 문장들",
+  "examples": ["I usually go to work at 9. I have lunch at 12. I often watch TV in the evening."],
+  "learning_points": "익숙한 일상 동사 표현들을 제공하고, 학습자가 자기 루틴에 맞게 문장을 만들어 말하도록 유도",
+  "phase": 2,
+  "stage_number": 7,
+  "count": 0,
+  "sentences": []
+}

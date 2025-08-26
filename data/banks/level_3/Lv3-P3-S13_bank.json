@@ -1,0 +1,314 @@
+{
+  "stage_id": "Lv3-P3-S13",
+  "title": "관계부사 (when/where/why/how)",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv3-P3-S13-001",
+      "kr": "우리가 만난 장소를 기억해요. (확장 1)",
+      "en": "I remember the place where we met. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-002",
+      "kr": "그것이 제가 늦은 이유입니다. (확장 1)",
+      "en": "That's the reason why I was late. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-003",
+      "kr": "그가 떠난 때가 언제인지 아세요? (확장 1)",
+      "en": "Do you know when he left? (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-004",
+      "kr": "이것이 제가 하는 방식입니다. (확장 1)",
+      "en": "This is how I do it. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-005",
+      "kr": "우리가 살았던 도시가 그리워요. (확장 1)",
+      "en": "I miss the city where we lived. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-006",
+      "kr": "그들이 성공한 이유가 무엇인가요? (확장 1)",
+      "en": "What's the reason why they succeeded? (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-007",
+      "kr": "제가 태어난 병원이 여기예요. (확장 1)",
+      "en": "This is the hospital where I was born. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-008",
+      "kr": "우리가 처음 만난 순간을 잊을 수 없어요. (확장 1)",
+      "en": "I can't forget the moment when we first met. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-009",
+      "kr": "그것이 문제를 해결하는 방법입니다. (확장 1)",
+      "en": "That's how we solve the problem. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-010",
+      "kr": "제가 공부했던 학교가 저기예요. (확장 1)",
+      "en": "That's the school where I studied. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-011",
+      "kr": "우리가 만난 장소를 기억해요. (확장 2)",
+      "en": "I remember the place where we met. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-012",
+      "kr": "그것이 제가 늦은 이유입니다. (확장 2)",
+      "en": "That's the reason why I was late. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-013",
+      "kr": "그가 떠난 때가 언제인지 아세요? (확장 2)",
+      "en": "Do you know when he left? (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-014",
+      "kr": "이것이 제가 하는 방식입니다. (확장 2)",
+      "en": "This is how I do it. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-015",
+      "kr": "우리가 살았던 도시가 그리워요. (확장 2)",
+      "en": "I miss the city where we lived. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-016",
+      "kr": "그들이 성공한 이유가 무엇인가요? (확장 2)",
+      "en": "What's the reason why they succeeded? (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-017",
+      "kr": "제가 태어난 병원이 여기예요. (확장 2)",
+      "en": "This is the hospital where I was born. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-018",
+      "kr": "우리가 처음 만난 순간을 잊을 수 없어요. (확장 2)",
+      "en": "I can't forget the moment when we first met. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-019",
+      "kr": "그것이 문제를 해결하는 방법입니다. (확장 2)",
+      "en": "That's how we solve the problem. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-020",
+      "kr": "제가 공부했던 학교가 저기예요. (확장 2)",
+      "en": "That's the school where I studied. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-021",
+      "kr": "우리가 만난 장소를 기억해요. (확장 3)",
+      "en": "I remember the place where we met. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-022",
+      "kr": "그것이 제가 늦은 이유입니다. (확장 3)",
+      "en": "That's the reason why I was late. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-023",
+      "kr": "그가 떠난 때가 언제인지 아세요? (확장 3)",
+      "en": "Do you know when he left? (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-024",
+      "kr": "이것이 제가 하는 방식입니다. (확장 3)",
+      "en": "This is how I do it. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-025",
+      "kr": "우리가 살았던 도시가 그리워요. (확장 3)",
+      "en": "I miss the city where we lived. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-026",
+      "kr": "그들이 성공한 이유가 무엇인가요? (확장 3)",
+      "en": "What's the reason why they succeeded? (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-027",
+      "kr": "제가 태어난 병원이 여기예요. (확장 3)",
+      "en": "This is the hospital where I was born. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-028",
+      "kr": "우리가 처음 만난 순간을 잊을 수 없어요. (확장 3)",
+      "en": "I can't forget the moment when we first met. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-029",
+      "kr": "그것이 문제를 해결하는 방법입니다. (확장 3)",
+      "en": "That's how we solve the problem. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-030",
+      "kr": "제가 공부했던 학교가 저기예요. (확장 3)",
+      "en": "That's the school where I studied. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S13-031",
+      "kr": "우리가 만난 장소를 기억해요. (확장 4)",
+      "en": "I remember the place where we met. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S13-032",
+      "kr": "그것이 제가 늦은 이유입니다. (확장 4)",
+      "en": "That's the reason why I was late. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S13-033",
+      "kr": "그가 떠난 때가 언제인지 아세요? (확장 4)",
+      "en": "Do you know when he left? (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S13-034",
+      "kr": "이것이 제가 하는 방식입니다. (확장 4)",
+      "en": "This is how I do it. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S13-035",
+      "kr": "우리가 살았던 도시가 그리워요. (확장 4)",
+      "en": "I miss the city where we lived. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S13-036",
+      "kr": "그들이 성공한 이유가 무엇인가요? (확장 4)",
+      "en": "What's the reason why they succeeded? (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S13-037",
+      "kr": "제가 태어난 병원이 여기예요. (확장 4)",
+      "en": "This is the hospital where I was born. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S13-038",
+      "kr": "우리가 처음 만난 순간을 잊을 수 없어요. (확장 4)",
+      "en": "I can't forget the moment when we first met. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S13-039",
+      "kr": "그것이 문제를 해결하는 방법입니다. (확장 4)",
+      "en": "That's how we solve the problem. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S13-040",
+      "kr": "제가 공부했던 학교가 저기예요. (확장 4)",
+      "en": "That's the school where I studied. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S13-041",
+      "kr": "우리가 만난 장소를 기억해요. (확장 5)",
+      "en": "I remember the place where we met. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S13-042",
+      "kr": "그것이 제가 늦은 이유입니다. (확장 5)",
+      "en": "That's the reason why I was late. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S13-043",
+      "kr": "그가 떠난 때가 언제인지 아세요? (확장 5)",
+      "en": "Do you know when he left? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S13-044",
+      "kr": "이것이 제가 하는 방식입니다. (확장 5)",
+      "en": "This is how I do it. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S13-045",
+      "kr": "우리가 살았던 도시가 그리워요. (확장 5)",
+      "en": "I miss the city where we lived. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S13-046",
+      "kr": "그들이 성공한 이유가 무엇인가요? (확장 5)",
+      "en": "What's the reason why they succeeded? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S13-047",
+      "kr": "제가 태어난 병원이 여기예요. (확장 5)",
+      "en": "This is the hospital where I was born. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S13-048",
+      "kr": "우리가 처음 만난 순간을 잊을 수 없어요. (확장 5)",
+      "en": "I can't forget the moment when we first met. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S13-049",
+      "kr": "그것이 문제를 해결하는 방법입니다. (확장 5)",
+      "en": "That's how we solve the problem. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S13-050",
+      "kr": "제가 공부했던 학교가 저기예요. (확장 5)",
+      "en": "That's the school where I studied. (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10
+  },
+  "status": "generated",
+  "batch": "L3_Completion_Final"
+}

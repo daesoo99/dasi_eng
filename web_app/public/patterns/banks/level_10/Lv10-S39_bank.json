@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv10-S39",
+  "title": "고급 회피 표현 - 정중한 회피",
+  "description": "정중하면서도 명확한 의사를 전달하는 원어민 수준의 회피 표현을 구사합니다.",
+  "grammar_pattern": "POLITE-AVOIDANCE-MASTERY",
+  "examples": [
+    "I'm sorry, but I think it might be difficult right now.",
+    "I appreciate the offer, but I'll pass this time.",
+    "It's a good proposal, but let me think about it a bit more."
+  ],
+  "learning_points": "원어민 수준의 자연스러운 정중한 회피 표현 구사",
+  "phase": 4,
+  "stage_number": 39,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv10-S39-001",
+      "kr": "죄송하지만, 지금은 좀 어려울 것 같아요.",
+      "en": "I'm sorry, but I think it might be difficult right now.",
+      "pattern": "POLITE-AVOIDANCE-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S39-002",
+      "kr": "감사한 말씀이지만, 이번엔 패스할게요.",
+      "en": "I appreciate the offer, but I'll pass this time.",
+      "pattern": "POLITE-AVOIDANCE-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S39-003",
+      "kr": "좋은 제안이긴 한데, 시간을 좀 더 생각해볼게요.",
+      "en": "It's a good proposal, but let me think about it a bit more.",
+      "pattern": "POLITE-AVOIDANCE-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S39-004",
+      "kr": "마음은 굴뚝같지만, 현실적으로는 힘들 것 같아요.",
+      "en": "I'd love to, but realistically it seems difficult.",
+      "pattern": "POLITE-AVOIDANCE-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S39-005",
+      "kr": "정말 하고 싶은 마음은 있는데, 상황이 여의치 않네요.",
+      "en": "I really want to do it, but the circumstances aren't favorable.",
+      "pattern": "POLITE-AVOIDANCE-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S39-006",
+      "kr": "다른 때였다면 모르겠지만, 지금은 좀 그래요.",
+      "en": "It might be different at another time, but right now it's a bit...",
+      "pattern": "POLITE-AVOIDANCE-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S39-007",
+      "kr": "취지는 충분히 이해하지만, 제 입장도 있어서요.",
+      "en": "I fully understand the intention, but I have my own situation too.",
+      "pattern": "POLITE-AVOIDANCE-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S39-008",
+      "kr": "좋은 기회인 건 알지만, 이번엔 어려울 것 같아요.",
+      "en": "I know it's a good opportunity, but this time might be difficult.",
+      "pattern": "POLITE-AVOIDANCE-MASTERY",
+      "form": "aff"
+    }
+  ]
+}

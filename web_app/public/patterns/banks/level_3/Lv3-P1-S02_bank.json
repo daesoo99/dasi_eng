@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv3-P1-S02",
+  "title": "현재완료 (Have p.p.) 용법",
+  "description": "현재완료 시제를 4가지 용법별로 연습합니다: 경험/완료/결과/계속. 각 용법별로 자신의 사례를 말해보며 현재완료의 다양한 의미를 체득합니다.",
+  "grammar_pattern": "주어 + have/has + p.p. (경험/완료/결과/계속)",
+  "examples": ["I have been to Japan. (경험)", "I have just finished my work. (완료)", "He has lost his key. (결과)", "We have known each other for 5 years. (계속)"],
+  "learning_points": "한국어에는 정확히 대응되는 시제가 없으므로 다양한 예시를 통해 감각적으로 익히기",
+  "phase": 1,
+  "stage_number": 2,
+  "count": 0,
+  "sentences": []
+}

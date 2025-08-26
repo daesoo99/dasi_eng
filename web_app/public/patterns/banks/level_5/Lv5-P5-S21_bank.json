@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv5-P5-S21",
+  "title": "논리적 조건-결과 구조",
+  "description": "논리적 조건-결과 구조을 연습합니다. CONDITION-RESULT-LOGIC 패턴을 활용하여 고급 영어 표현을 익힙니다.",
+  "grammar_pattern": "CONDITION-RESULT-LOGIC",
+  "examples": [
+    "Assuming that we get the funding, we can start the project next month.",
+    "Given that sales have dropped, we need a new strategy.",
+    "Provided that all conditions are met, we can sign the contract."
+  ],
+  "learning_points": "logical-structure 관련 고급 표현과 실용적 활용",
+  "phase": 5,
+  "stage_number": 21,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv5-P5-S21-001",
+      "kr": "자금 지원을 받는다고 가정하면 다음 달부터 프로젝트를 시작할 수 있습니다.",
+      "en": "Assuming that we get the funding, we can start the project next month.",
+      "pattern": "CONDITION-RESULT-LOGIC",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S21-002",
+      "kr": "매출이 감소했다는 점을 고려할 때, 새로운 전략이 필요합니다.",
+      "en": "Given that sales have dropped, we need a new strategy.",
+      "pattern": "CONDITION-RESULT-LOGIC",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S21-003",
+      "kr": "모든 조건이 충족된다는 전제하에 계약을 체결할 수 있습니다.",
+      "en": "Provided that all conditions are met, we can sign the contract.",
+      "pattern": "CONDITION-RESULT-LOGIC",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S21-004",
+      "kr": "시장 상황이 개선될 것으로 예상되므로 투자를 확대할 예정입니다.",
+      "en": "As market conditions are expected to improve, we plan to expand investment.",
+      "pattern": "CONDITION-RESULT-LOGIC",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S21-005",
+      "kr": "팀이 협력한다는 조건하에 성공할 수 있습니다.",
+      "en": "On condition that the team cooperates, we can succeed.",
+      "pattern": "CONDITION-RESULT-LOGIC",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S21-006",
+      "kr": "경쟁이 치열해지고 있다는 점을 감안할 때, 혁신이 필수입니다.",
+      "en": "In view of the fact that competition is intensifying, innovation is essential.",
+      "pattern": "CONDITION-RESULT-LOGIC",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S21-007",
+      "kr": "예산이 승인된다면 새로운 장비를 구입할 것입니다.",
+      "en": "In the event that the budget is approved, we will purchase new equipment.",
+      "pattern": "CONDITION-RESULT-LOGIC",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S21-008",
+      "kr": "모든 부서가 참여한다는 가정하에 프로젝트가 성공할 것입니다.",
+      "en": "On the assumption that all departments participate, the project will succeed.",
+      "pattern": "CONDITION-RESULT-LOGIC",
+      "form": "aff"
+    }
+  ]
+}

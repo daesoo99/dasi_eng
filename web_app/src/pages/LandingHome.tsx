@@ -100,7 +100,7 @@ export const LandingHome: React.FC = () => {
     navigate('/dashboard');
   };
 
-  // 통계 애니메이션
+  // 통계 애니메이션 및 스테이지 모달 이벤트 리스너
   useEffect(() => {
     const animateStats = () => {
       const statElements = document.querySelectorAll('.stat-number');
@@ -124,9 +124,23 @@ export const LandingHome: React.FC = () => {
       });
     };
 
+    // 패턴 트레이닝에서 뒤로가기 시 스테이지 모달 열기
+    const handleOpenStageModal = (event: CustomEvent) => {
+      const { level } = event.detail;
+      setSelectedLevel(level);
+      setStageModalOpen(true);
+    };
+
     const timer = setTimeout(animateStats, 500);
-    return () => clearTimeout(timer);
-  }, []);
+    
+    // 커스텀 이벤트 리스너 등록
+    window.addEventListener('openStageModal', handleOpenStageModal as EventListener);
+    
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener('openStageModal', handleOpenStageModal as EventListener);
+    };
+  }, [setSelectedLevel, setStageModalOpen]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-400 via-purple-500 to-purple-600 p-5">

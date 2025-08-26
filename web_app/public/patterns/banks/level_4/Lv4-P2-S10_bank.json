@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv4-P2-S10",
+  "title": "병렬 구조와 등위접속사",
+  "description": "and, or, but, so, yet, for 등의 등위접속사를 사용하여 병렬 구조를 만드는 연습을 합니다. 명사와 명사, 구와 구, 절과 절을 연결할 때 형태를 맞추는 법(parallelism)을 배우고, 긴 문장도 논리적으로 균형 있게 말할 수 있도록 연습합니다.",
+  "grammar_pattern": "A and B (동일 형태) / not only A but also B / either A or B / neither A nor B",
+  "examples": ["I like swimming and running.", "He is smart but also very kind.", "Either we leave now, or we'll be late.", "Neither the weather nor the food was good."],
+  "learning_points": "병렬 구조의 형태 일치 원칙과 균형 잡힌 문장 구성",
+  "phase": 2,
+  "stage_number": 10,
+  "count": 0,
+  "sentences": []
+}

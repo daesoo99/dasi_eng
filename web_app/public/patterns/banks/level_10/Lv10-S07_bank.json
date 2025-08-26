@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv10-S07",
+  "title": "고급 대조 표현 - 미묘한 차이",
+  "description": "미묘한 뉘앙스 차이를 표현하는 원어민 수준의 정교한 대조 표현을 구사합니다.",
+  "grammar_pattern": "NUANCED-CONTRAST-MASTERY",
+  "examples": [
+    "They're similar, but there's a subtle difference.",
+    "On the surface they look the same, but they're fundamentally different.",
+    "Unlike the general case, this is a special situation."
+  ],
+  "learning_points": "원어민 수준의 자연스러운 미묘한 차이 표현 구사",
+  "phase": 1,
+  "stage_number": 7,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv10-S07-001",
+      "kr": "비슷하긴 하지만, 미묘한 차이가 있어.",
+      "en": "They're similar, but there's a subtle difference.",
+      "pattern": "NUANCED-CONTRAST-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S07-002",
+      "kr": "표면적으론 같아 보이지만, 본질은 완전히 달라.",
+      "en": "On the surface they look the same, but they're fundamentally different.",
+      "pattern": "NUANCED-CONTRAST-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S07-003",
+      "kr": "일반적인 경우와는 달리, 이건 특별한 상황이야.",
+      "en": "Unlike the general case, this is a special situation.",
+      "pattern": "NUANCED-CONTRAST-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S07-004",
+      "kr": "예상과는 반대로, 결과가 훨씬 좋았어.",
+      "en": "Contrary to expectations, the results were much better.",
+      "pattern": "NUANCED-CONTRAST-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S07-005",
+      "kr": "다른 방법들과 구별되는 점은 효율성이야.",
+      "en": "What sets it apart from other methods is its efficiency.",
+      "pattern": "NUANCED-CONTRAST-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S07-006",
+      "kr": "전통적인 접근법과 대비해서, 이건 혁신적이야.",
+      "en": "In contrast to traditional approaches, this is groundbreaking.",
+      "pattern": "NUANCED-CONTRAST-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S07-007",
+      "kr": "보통의 경우와 차별화되는 건 속도야.",
+      "en": "What differentiates it from typical cases is the speed.",
+      "pattern": "NUANCED-CONTRAST-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S07-008",
+      "kr": "이전 버전과 비교하면, 성능이 현저히 개선됐어.",
+      "en": "Compared to the previous version, performance has improved dramatically.",
+      "pattern": "NUANCED-CONTRAST-MASTERY",
+      "form": "aff"
+    }
+  ]
+}

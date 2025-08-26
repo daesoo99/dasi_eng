@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv3-P3-S15",
+  "title": "간접명령문",
+  "description": "명령문, 요청문, 제안을 간접화법으로 바꾸는 간접명령문을 배웁니다. tell, ask, suggest 등의 동사와 함께 to부정사를 사용하여 다른 사람의 요청이나 명령을 전달합니다.",
+  "grammar_pattern": "tell/ask + 목적어 + to 동사원형 / suggest + ~ing",
+  "examples": ["'Close the door.' → He told me to close the door.", "'Please help me.' → She asked me to help her.", "'Let's go together.' → He suggested going together."],
+  "learning_points": "명령, 요청, 제안의 간접화법 구분 및 적절한 동사 선택",
+  "phase": 3,
+  "stage_number": 15,
+  "count": 0,
+  "sentences": []
+}

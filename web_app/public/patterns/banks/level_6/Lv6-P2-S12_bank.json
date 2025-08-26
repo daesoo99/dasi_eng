@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv6-P2-S12",
+  "title": "조동사 + 수동태",
+  "description": "must, should, could 등 조동사와 결합한 수동태 표현을 연습합니다.",
+  "grammar_pattern": "MODAL-PASSIVE",
+  "examples": [
+    "This issue must be resolved immediately.",
+    "The report should be submitted by tomorrow.",
+    "The system could be upgraded next year."
+  ],
+  "learning_points": "조동사와 수동태의 결합 패턴",
+  "phase": 2,
+  "stage_number": 12,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv6-P2-S12-001",
+      "kr": "이 문제는 즉시 해결되어야 합니다.",
+      "en": "This issue must be resolved immediately.",
+      "pattern": "MODAL-PASSIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P2-S12-002",
+      "kr": "보고서는 내일까지 제출되어야 합니다.",
+      "en": "The report should be submitted by tomorrow.",
+      "pattern": "MODAL-PASSIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P2-S12-003",
+      "kr": "시스템이 내년에 업그레이드될 수 있습니다.",
+      "en": "The system could be upgraded next year.",
+      "pattern": "MODAL-PASSIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P2-S12-004",
+      "kr": "모든 데이터가 보안상 암호화되어야 합니다.",
+      "en": "All data must be encrypted for security.",
+      "pattern": "MODAL-PASSIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P2-S12-005",
+      "kr": "새로운 정책이 직원들에게 설명되어야 합니다.",
+      "en": "The new policy should be explained to employees.",
+      "pattern": "MODAL-PASSIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P2-S12-006",
+      "kr": "이 정보는 외부에 공개되면 안 됩니다.",
+      "en": "This information should not be disclosed externally.",
+      "pattern": "MODAL-PASSIVE",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-P2-S12-007",
+      "kr": "제품이 더 많은 시장에서 판매될 수 있습니다.",
+      "en": "The product could be sold in more markets.",
+      "pattern": "MODAL-PASSIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P2-S12-008",
+      "kr": "회의가 다음 주로 연기될 것 같습니다.",
+      "en": "The meeting might be postponed to next week.",
+      "pattern": "MODAL-PASSIVE",
+      "form": "aff"
+    }
+  ]
+}

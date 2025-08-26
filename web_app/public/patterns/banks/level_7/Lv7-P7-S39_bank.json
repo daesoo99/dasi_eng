@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv7-P7-S39",
+  "title": "완곡한 반론 및 대화 유지",
+  "description": "I see what you mean, but…, You could be right, but have you considered…? 등의 완곡한 반론 표현을 연습합니다.",
+  "grammar_pattern": "DIPLOMATIC-DISAGREEMENT",
+  "examples": [
+    "I see what you mean, but have you considered the long-term implications?",
+    "You could be right, but I think there might be another perspective to consider.",
+    "That's an interesting point, but I wonder if we're overlooking some important factors."
+  ],
+  "learning_points": "협력적 분위기를 유지하면서도 효과적인 반론을 제시하는 기술",
+  "phase": 7,
+  "stage_number": 39,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv7-P7-S39-001",
+      "kr": "무슨 말씀인지 이해하지만, 장기적 영향을 고려해 보셨나요?",
+      "en": "I see what you mean, but have you considered the long-term implications?",
+      "pattern": "DIPLOMATIC-DISAGREEMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P7-S39-002",
+      "kr": "맞을 수도 있지만, 고려해볼 다른 관점이 있을 것 같습니다.",
+      "en": "You could be right, but I think there might be another perspective to consider.",
+      "pattern": "DIPLOMATIC-DISAGREEMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P7-S39-003",
+      "kr": "흥미로운 지적이지만, 중요한 요소들을 놓치고 있는 것은 아닌지 궁금합니다.",
+      "en": "That's an interesting point, but I wonder if we're overlooking some important factors.",
+      "pattern": "DIPLOMATIC-DISAGREEMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P7-S39-004",
+      "kr": "그 접근 방식을 이해하지만, 실행 가능성에 대한 의문이 있습니다.",
+      "en": "I understand that approach, but I have some questions about its feasibility.",
+      "pattern": "DIPLOMATIC-DISAGREEMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P7-S39-005",
+      "kr": "좋은 아이디어지만, 예산 제약을 어떻게 해결할지 고민해봐야 할 것 같습니다.",
+      "en": "It's a good idea, but I think we need to address how we'll handle budget constraints.",
+      "pattern": "DIPLOMATIC-DISAGREEMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P7-S39-006",
+      "kr": "타당한 논리지만, 시장 반응이 예상과 다를 가능성도 있지 않을까요?",
+      "en": "That's valid reasoning, but couldn't market reactions be different from what we expect?",
+      "pattern": "DIPLOMATIC-DISAGREEMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P7-S39-007",
+      "kr": "원칙적으로 동의하지만, 실제 구현에서 어려움이 있을 수 있다고 봅니다.",
+      "en": "I agree in principle, but I believe there could be challenges in actual implementation.",
+      "pattern": "DIPLOMATIC-DISAGREEMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P7-S39-008",
+      "kr": "설득력 있는 제안이지만, 경쟁사의 반응도 고려해야 하지 않을까요?",
+      "en": "That's a compelling proposal, but shouldn't we also consider our competitors' reactions?",
+      "pattern": "DIPLOMATIC-DISAGREEMENT",
+      "form": "aff"
+    }
+  ]
+}

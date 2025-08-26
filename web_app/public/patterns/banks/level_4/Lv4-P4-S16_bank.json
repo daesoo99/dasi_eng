@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv4-P4-S16",
+  "title": "의견 조율하기",
+  "description": "대화나 회의 중 상대 의견을 인정하면서 내 의견을 말하는 방법을 배웁니다. I see your point but, You have a point however처럼 먼저 상대 의견의 타당성을 언급하고 내 주장을 덧붙이는 연습을 하여, 토론 시 원만한 분위기를 유지하면서 할 말은 다 하는 기술을 길러줍니다.",
+  "grammar_pattern": "I see your point, but... / You have a point, however... / I agree up to a point, but...",
+  "examples": ["I see your point, but I think there's another way.", "You have a point, however, we need to consider the cost.", "I agree up to a point, but the timing might be wrong.", "That's a valid concern, nevertheless, we should try."],
+  "learning_points": "상대 의견 인정 후 자신의 견해를 추가하는 원만한 토론 기법",
+  "phase": 4,
+  "stage_number": 16,
+  "count": 0,
+  "sentences": []
+}

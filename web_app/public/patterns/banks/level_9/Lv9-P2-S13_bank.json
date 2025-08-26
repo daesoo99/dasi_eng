@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv9-P2-S13",
+  "title": "이중 조건",
+  "description": "If and only if..., provided that... 같은 두 요소 조건. 예) We will sign the contract if and only if all terms are agreed upon., I'll help, provided that you do your part. 강조된 조건 표현을 말해 봅니다.",
+  "grammar_pattern": "DUAL-CONDITIONS",
+  "examples": [
+    "We will sign the contract if and only if all terms are agreed upon.",
+    "I'll help, provided that you do your part.",
+    "The project will proceed if and only if we secure funding."
+  ],
+  "learning_points": "이중 조건을 사용한 엄격한 조건 제시",
+  "phase": 2,
+  "stage_number": 13,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv9-P2-S13-001",
+      "kr": "모든 조건에 합의하는 경우에만 계약을 체결할 것입니다.",
+      "en": "We will sign the contract if and only if all terms are agreed upon.",
+      "pattern": "DUAL-CONDITIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P2-S13-002",
+      "kr": "당신이 당신의 역할을 하는 조건하에 도울 것입니다.",
+      "en": "I'll help, provided that you do your part.",
+      "pattern": "DUAL-CONDITIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P2-S13-003",
+      "kr": "자금을 확보하는 경우에만 프로젝트가 진행될 것입니다.",
+      "en": "The project will proceed if and only if we secure funding.",
+      "pattern": "DUAL-CONDITIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P2-S13-004",
+      "kr": "모든 안전 규정을 준수하는 조건하에 참여할 수 있습니다.",
+      "en": "You can participate, provided that all safety regulations are followed.",
+      "pattern": "DUAL-CONDITIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P2-S13-005",
+      "kr": "예산이 승인되는 경우에만 확장 계획을 실행할 것입니다.",
+      "en": "We will execute expansion plans if and only if the budget is approved.",
+      "pattern": "DUAL-CONDITIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P2-S13-006",
+      "kr": "최고의 품질을 보장하는 조건하에 주문을 받겠습니다.",
+      "en": "We will accept orders, provided that we can guarantee the highest quality.",
+      "pattern": "DUAL-CONDITIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P2-S13-007",
+      "kr": "모든 이해관계자가 동의하는 경우에만 대형 변화를 단행할 것입니다.",
+      "en": "We will implement major changes if and only if all stakeholders agree.",
+      "pattern": "DUAL-CONDITIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P2-S13-008",
+      "kr": "기술적 타당성이 입증되는 조건하에 새로운 시스템을 도입하겠습니다.",
+      "en": "We will adopt the new system, provided that its technical feasibility is proven.",
+      "pattern": "DUAL-CONDITIONS",
+      "form": "aff"
+    }
+  ]
+}

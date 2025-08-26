@@ -1,0 +1,314 @@
+{
+  "stage_id": "Lv1-P3-S09",
+  "title": "기본 전치사 (위치) - at/in/on",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv1-P3-S09-001",
+      "kr": "나는 집에 있습니다. (v1)",
+      "en": "I am at home. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-002",
+      "kr": "그녀는 학교에 있습니다. (v1)",
+      "en": "She is at school. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-003",
+      "kr": "책이 테이블 위에 있습니다. (v1)",
+      "en": "The book is on the table. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-004",
+      "kr": "그는 방 안에 있습니다. (v1)",
+      "en": "He is in the room. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-005",
+      "kr": "우리는 직장에 있습니다. (v1)",
+      "en": "We are at work. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-006",
+      "kr": "고양이가 침대 위에 있습니다. (v1)",
+      "en": "The cat is on the bed. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-007",
+      "kr": "그들은 한국에 있습니다. (v1)",
+      "en": "They are in Korea. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-008",
+      "kr": "나는 병원에 있습니다. (v1)",
+      "en": "I am at the hospital. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-009",
+      "kr": "펜이 책상 위에 있습니다. (v1)",
+      "en": "The pen is on the desk. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-010",
+      "kr": "그는 차 안에 있습니다. (v1)",
+      "en": "He is in the car. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-011",
+      "kr": "나는 집에 있습니다. (v2)",
+      "en": "I am at home. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-012",
+      "kr": "그녀는 학교에 있습니다. (v2)",
+      "en": "She is at school. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-013",
+      "kr": "책이 테이블 위에 있습니다. (v2)",
+      "en": "The book is on the table. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-014",
+      "kr": "그는 방 안에 있습니다. (v2)",
+      "en": "He is in the room. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-015",
+      "kr": "우리는 직장에 있습니다. (v2)",
+      "en": "We are at work. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-016",
+      "kr": "고양이가 침대 위에 있습니다. (v2)",
+      "en": "The cat is on the bed. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-017",
+      "kr": "그들은 한국에 있습니다. (v2)",
+      "en": "They are in Korea. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-018",
+      "kr": "나는 병원에 있습니다. (v2)",
+      "en": "I am at the hospital. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-019",
+      "kr": "펜이 책상 위에 있습니다. (v2)",
+      "en": "The pen is on the desk. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-020",
+      "kr": "그는 차 안에 있습니다. (v2)",
+      "en": "He is in the car. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-021",
+      "kr": "나는 집에 있습니다. (v3)",
+      "en": "I am at home. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-022",
+      "kr": "그녀는 학교에 있습니다. (v3)",
+      "en": "She is at school. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-023",
+      "kr": "책이 테이블 위에 있습니다. (v3)",
+      "en": "The book is on the table. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-024",
+      "kr": "그는 방 안에 있습니다. (v3)",
+      "en": "He is in the room. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-025",
+      "kr": "우리는 직장에 있습니다. (v3)",
+      "en": "We are at work. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-026",
+      "kr": "고양이가 침대 위에 있습니다. (v3)",
+      "en": "The cat is on the bed. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-027",
+      "kr": "그들은 한국에 있습니다. (v3)",
+      "en": "They are in Korea. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-028",
+      "kr": "나는 병원에 있습니다. (v3)",
+      "en": "I am at the hospital. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-029",
+      "kr": "펜이 책상 위에 있습니다. (v3)",
+      "en": "The pen is on the desk. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-030",
+      "kr": "그는 차 안에 있습니다. (v3)",
+      "en": "He is in the car. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-031",
+      "kr": "나는 집에 있습니다. (v4)",
+      "en": "I am at home. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-032",
+      "kr": "그녀는 학교에 있습니다. (v4)",
+      "en": "She is at school. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-033",
+      "kr": "책이 테이블 위에 있습니다. (v4)",
+      "en": "The book is on the table. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-034",
+      "kr": "그는 방 안에 있습니다. (v4)",
+      "en": "He is in the room. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-035",
+      "kr": "우리는 직장에 있습니다. (v4)",
+      "en": "We are at work. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-036",
+      "kr": "고양이가 침대 위에 없습니다. (v4)",
+      "en": "The cat is not on the bed. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P3-S09-037",
+      "kr": "그들은 한국에 없습니다. (v4)",
+      "en": "They are not in Korea. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P3-S09-038",
+      "kr": "나는 병원에 없습니다. (v4)",
+      "en": "I am not at the hospital. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P3-S09-039",
+      "kr": "펜이 책상 위에 없습니다. (v4)",
+      "en": "The pen is not on the desk. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P3-S09-040",
+      "kr": "그는 차 안에 없습니다. (v4)",
+      "en": "He is not in the car. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P3-S09-041",
+      "kr": "나는 집에 있습니다. (v5)",
+      "en": "I am at home. (variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-042",
+      "kr": "그녀는 학교에 있습니다. (v5)",
+      "en": "She is at school. (variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-043",
+      "kr": "책이 테이블 위에 있습니다. (v5)",
+      "en": "The book is on the table. (variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-044",
+      "kr": "그는 방 안에 있습니다. (v5)",
+      "en": "He is in the room. (variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-045",
+      "kr": "우리는 직장에 있습니다. (v5)",
+      "en": "We are at work. (variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S09-046",
+      "kr": "어디에 고양이가 있습니까? (v5)",
+      "en": "Where is the cat? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P3-S09-047",
+      "kr": "누가 한국에 있습니까? (v5)",
+      "en": "Who is in Korea? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P3-S09-048",
+      "kr": "언제 나는 병원에 있습니까? (v5)",
+      "en": "When am I at the hospital? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P3-S09-049",
+      "kr": "무엇이 책상 위에 있습니까? (v5)",
+      "en": "What is on the desk? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P3-S09-050",
+      "kr": "왜 그는 차 안에 있습니까? (v5)",
+      "en": "Why is he in the car? (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 10,
+    "wh_q": 5
+  },
+  "status": "generated",
+  "batch": "L1_Basic_Batch1"
+}

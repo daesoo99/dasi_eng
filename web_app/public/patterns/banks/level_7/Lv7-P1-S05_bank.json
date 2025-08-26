@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv7-P1-S05",
+  "title": "미래완료진행 응용",
+  "description": "미래완료진행을 스토리텔링에 써봅니다.",
+  "grammar_pattern": "FUTURE-PERFECT-CONTINUOUS-APPLICATION",
+  "examples": [
+    "By next December, I will have been working at this company for exactly five years.",
+    "When the new century begins, humanity will have been exploring space for over sixty years.",
+    "By the time she returns, we will have been waiting for her for three hours."
+  ],
+  "learning_points": "미래완료진행형을 활용한 스토리텔링과 시간 표현",
+  "phase": 1,
+  "stage_number": 5,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv7-P1-S05-001",
+      "kr": "다음 12월이 되면, 나는 이 회사에서 정확히 5년 동안 일하고 있을 것이다.",
+      "en": "By next December, I will have been working at this company for exactly five years.",
+      "pattern": "FUTURE-PERFECT-CONTINUOUS-APPLICATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P1-S05-002",
+      "kr": "새로운 세기가 시작될 때, 인류는 60년 이상 우주를 탐험해오고 있을 것이다.",
+      "en": "When the new century begins, humanity will have been exploring space for over sixty years.",
+      "pattern": "FUTURE-PERFECT-CONTINUOUS-APPLICATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P1-S05-003",
+      "kr": "그녀가 돌아올 때쯤이면, 우리는 3시간 동안 그녀를 기다리고 있을 것이다.",
+      "en": "By the time she returns, we will have been waiting for her for three hours.",
+      "pattern": "FUTURE-PERFECT-CONTINUOUS-APPLICATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P1-S05-004",
+      "kr": "2025년까지는 이 프로젝트를 2년 동안 개발해오고 있을 것이다.",
+      "en": "By 2025, we will have been developing this project for two years.",
+      "pattern": "FUTURE-PERFECT-CONTINUOUS-APPLICATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P1-S05-005",
+      "kr": "그가 마라톤을 완주할 때쯤이면, 4시간 동안 달리고 있을 것이다.",
+      "en": "When he finishes the marathon, he will have been running for four hours.",
+      "pattern": "FUTURE-PERFECT-CONTINUOUS-APPLICATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P1-S05-006",
+      "kr": "다음 주 이맘때까지는 우리가 아직 해결책을 찾고 있지 않을 것이다.",
+      "en": "By this time next week, we will not have been looking for a solution yet.",
+      "pattern": "FUTURE-PERFECT-CONTINUOUS-APPLICATION",
+      "form": "neg"
+    },
+    {
+      "id": "Lv7-P1-S05-007",
+      "kr": "새로운 CEO가 취임할 때쯤이면, 회사는 1년 동안 변화를 겪고 있을 것이다.",
+      "en": "By the time the new CEO takes office, the company will have been undergoing changes for a year.",
+      "pattern": "FUTURE-PERFECT-CONTINUOUS-APPLICATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P1-S05-008",
+      "kr": "그들이 졸업할 때쯤이면, 4년 동안 대학에서 공부해오고 있을 것이다.",
+      "en": "When they graduate, they will have been studying at university for four years.",
+      "pattern": "FUTURE-PERFECT-CONTINUOUS-APPLICATION",
+      "form": "aff"
+    }
+  ]
+}

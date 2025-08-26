@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv4-P3-S12",
+  "title": "형용사절 축약",
+  "description": "관계절 축약으로 문장을 간결하게 만드는 법을 배웁니다. 주격 관계대명사+be 동사를 생략하고 현재분사로 바꾸거나, 수동일 경우 과거분사를 활용하며, to부정사로도 축약 가능한 경우를 연습하여 말을 압축하는 스킬을 익힙니다.",
+  "grammar_pattern": "관계대명사 + be + ~ing → ~ing / 관계대명사 + be + p.p. → p.p. / 관계대명사 + 동사 → to부정사",
+  "examples": ["The man standing over there is my uncle.", "We have a house built in 1950.", "I have a report to finish.", "The people waiting outside are customers."],
+  "learning_points": "관계절 축약을 통한 문장 간결화와 자연스러운 표현력 향상",
+  "phase": 3,
+  "stage_number": 12,
+  "count": 0,
+  "sentences": []
+}

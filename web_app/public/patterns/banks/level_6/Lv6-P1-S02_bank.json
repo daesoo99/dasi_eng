@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv6-P1-S02",
+  "title": "과거완료진행 심화",
+  "description": "과거완료진행 (had been ~ing)을 써서 복잡한 사건 관계를 설명합니다.",
+  "grammar_pattern": "PAST-PERFECT-CONTINUOUS-ADVANCED",
+  "examples": [
+    "I had been working on the project for three months when the budget was cut.",
+    "She had been studying Korean for two years before she moved to Seoul.",
+    "The company had been developing the product for several years before launching it."
+  ],
+  "learning_points": "과거완료진행 시제로 복잡한 시간 관계와 지속 동작 표현",
+  "phase": 1,
+  "stage_number": 2,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv6-P1-S02-001",
+      "kr": "예산이 삭감되었을 때 나는 그 프로젝트를 3개월 동안 진행하고 있었다.",
+      "en": "I had been working on the project for three months when the budget was cut.",
+      "pattern": "PAST-PERFECT-CONTINUOUS-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P1-S02-002",
+      "kr": "그녀는 서울로 이주하기 전에 2년 동안 한국어를 공부해오고 있었다.",
+      "en": "She had been studying Korean for two years before she moved to Seoul.",
+      "pattern": "PAST-PERFECT-CONTINUOUS-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P1-S02-003",
+      "kr": "회사는 제품을 출시하기 전에 수년간 개발해오고 있었다.",
+      "en": "The company had been developing the product for several years before launching it.",
+      "pattern": "PAST-PERFECT-CONTINUOUS-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P1-S02-004",
+      "kr": "그들은 새로운 정책이 발표되기 전까지 오랫동안 협상해오고 있었다.",
+      "en": "They had been negotiating for a long time before the new policy was announced.",
+      "pattern": "PAST-PERFECT-CONTINUOUS-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P1-S02-005",
+      "kr": "팀은 최종 결정이 내려지기 전까지 몇 주 동안 계획을 수정해오고 있었다.",
+      "en": "The team had been revising the plan for several weeks before the final decision was made.",
+      "pattern": "PAST-PERFECT-CONTINUOUS-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P1-S02-006",
+      "kr": "CEO는 사임 발표 전까지 1년 동안 회사 매각을 고려해오고 있지 않았다.",
+      "en": "The CEO had not been considering selling the company for a year before announcing his resignation.",
+      "pattern": "PAST-PERFECT-CONTINUOUS-ADVANCED",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-P1-S02-007",
+      "kr": "연구진은 획기적인 발견을 하기 전까지 10년 동안 실험을 계속해오고 있었다.",
+      "en": "The researchers had been conducting experiments for ten years before making the breakthrough discovery.",
+      "pattern": "PAST-PERFECT-CONTINUOUS-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P1-S02-008",
+      "kr": "시장이 붕괴되기 전까지 투자자들이 6개월 동안 경고 신호를 무시해오고 있었다.",
+      "en": "Investors had been ignoring warning signs for six months before the market collapsed.",
+      "pattern": "PAST-PERFECT-CONTINUOUS-ADVANCED",
+      "form": "aff"
+    }
+  ]
+}

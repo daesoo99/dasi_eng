@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv5-P3-S13",
+  "title": "이중 접속사 활용",
+  "description": "이중 접속사 활용을 연습합니다. CORRELATIVE-CONJUNCTIONS 패턴을 활용하여 고급 영어 표현을 익힙니다.",
+  "grammar_pattern": "CORRELATIVE-CONJUNCTIONS",
+  "examples": [
+    "She is not only smart but also hardworking.",
+    "We have tea as well as coffee.",
+    "Along with the report, I sent an email."
+  ],
+  "learning_points": "conjunction 관련 고급 표현과 실용적 활용",
+  "phase": 3,
+  "stage_number": 13,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv5-P3-S13-001",
+      "kr": "그녀는 똑똑할 뿐만 아니라 부지런합니다.",
+      "en": "She is not only smart but also hardworking.",
+      "pattern": "CORRELATIVE-CONJUNCTIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P3-S13-002",
+      "kr": "우리는 차뿐만 아니라 커피도 있습니다.",
+      "en": "We have tea as well as coffee.",
+      "pattern": "CORRELATIVE-CONJUNCTIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P3-S13-003",
+      "kr": "보고서와 함께 이메일을 보냈습니다.",
+      "en": "Along with the report, I sent an email.",
+      "pattern": "CORRELATIVE-CONJUNCTIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P3-S13-004",
+      "kr": "그는 피아노뿐만 아니라 기타도 칩니다.",
+      "en": "He plays not only piano but also guitar.",
+      "pattern": "CORRELATIVE-CONJUNCTIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P3-S13-005",
+      "kr": "경험과 함께 열정도 필요합니다.",
+      "en": "Along with experience, passion is also needed.",
+      "pattern": "CORRELATIVE-CONJUNCTIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P3-S13-006",
+      "kr": "그 회사는 품질뿐만 아니라 서비스도 훌륭합니다.",
+      "en": "The company has not only quality but also excellent service.",
+      "pattern": "CORRELATIVE-CONJUNCTIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P3-S13-007",
+      "kr": "급여와 함께 복지혜택도 받습니다.",
+      "en": "Along with salary, we receive welfare benefits.",
+      "pattern": "CORRELATIVE-CONJUNCTIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P3-S13-008",
+      "kr": "실력뿐만 아니라 운도 필요합니다.",
+      "en": "You need not only skill but also luck.",
+      "pattern": "CORRELATIVE-CONJUNCTIONS",
+      "form": "aff"
+    }
+  ]
+}

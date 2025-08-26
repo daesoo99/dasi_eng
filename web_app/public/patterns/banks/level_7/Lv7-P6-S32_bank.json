@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv7-P6-S32",
+  "title": "강조 구문 (It ~ that) 심화",
+  "description": "It ~ that 구문을 다른 강조 기법과 결합해 봅니다.",
+  "grammar_pattern": "EMPHATIC-IT-CLEFT-ADVANCED",
+  "examples": [
+    "It was precisely because of his dedication that the project succeeded beyond all expectations.",
+    "It is not merely the technology that matters, but how we implement it that determines success.",
+    "It was only through collaborative effort that we were able to overcome the seemingly insurmountable challenges."
+  ],
+  "learning_points": "It 강조 구문의 고급 활용과 다른 강조 기법과의 결합",
+  "phase": 6,
+  "stage_number": 32,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv7-P6-S32-001",
+      "kr": "정확히 그의 헌신 때문에 프로젝트가 모든 기대를 넘어 성공했다.",
+      "en": "It was precisely because of his dedication that the project succeeded beyond all expectations.",
+      "pattern": "EMPHATIC-IT-CLEFT-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P6-S32-002",
+      "kr": "중요한 것은 단순히 기술이 아니라, 그것을 어떻게 구현하느냐가 성공을 결정한다는 것이다.",
+      "en": "It is not merely the technology that matters, but how we implement it that determines success.",
+      "pattern": "EMPHATIC-IT-CLEFT-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P6-S32-003",
+      "kr": "협력적인 노력을 통해서만 극복할 수 없어 보이는 도전들을 극복할 수 있었다.",
+      "en": "It was only through collaborative effort that we were able to overcome the seemingly insurmountable challenges.",
+      "pattern": "EMPHATIC-IT-CLEFT-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P6-S32-004",
+      "kr": "바로 이 혁신적인 접근 방식이 우리를 경쟁에서 차별화시켰다.",
+      "en": "It was this innovative approach that differentiated us from the competition.",
+      "pattern": "EMPHATIC-IT-CLEFT-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P6-S32-005",
+      "kr": "고객의 피드백이야말로 우리가 제품을 개선하는 원동력이다.",
+      "en": "It is customer feedback that drives us to improve our products continuously.",
+      "pattern": "EMPHATIC-IT-CLEFT-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P6-S32-006",
+      "kr": "자금 부족 때문이 아니라 명확한 전략의 부재 때문에 프로젝트가 실패했다.",
+      "en": "It was not due to lack of funding, but rather the absence of a clear strategy that the project failed.",
+      "pattern": "EMPHATIC-IT-CLEFT-ADVANCED",
+      "form": "neg"
+    },
+    {
+      "id": "Lv7-P6-S32-007",
+      "kr": "지속적인 학습과 적응을 통해서만 빠르게 변화하는 시장에서 성공할 수 있다.",
+      "en": "It is only through continuous learning and adaptation that we can succeed in the rapidly changing market.",
+      "pattern": "EMPHATIC-IT-CLEFT-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P6-S32-008",
+      "kr": "바로 이런 어려운 시기에 진정한 리더십이 시험받는 것이다.",
+      "en": "It is during such challenging times that true leadership is truly tested and revealed.",
+      "pattern": "EMPHATIC-IT-CLEFT-ADVANCED",
+      "form": "aff"
+    }
+  ]
+}

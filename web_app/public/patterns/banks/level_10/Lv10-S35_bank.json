@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv10-S35",
+  "title": "고급 의문 표현 - 상황 분석",
+  "description": "복잡한 상황을 분석하고 탐구하는 원어민 수준의 의문 표현을 구사합니다.",
+  "grammar_pattern": "SITUATIONAL-ANALYSIS-INQUIRY",
+  "examples": [
+    "Where exactly did things start to go wrong?",
+    "How should we interpret this situation?",
+    "What's the real cause? Not the superficial one."
+  ],
+  "learning_points": "원어민 수준의 자연스러운 상황 분석 표현 구사",
+  "phase": 4,
+  "stage_number": 35,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv10-S35-001",
+      "kr": "도대체 어디서부터 잘못된 걸까?",
+      "en": "Where exactly did things start to go wrong?",
+      "pattern": "SITUATIONAL-ANALYSIS-INQUIRY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S35-002",
+      "kr": "이 상황을 어떻게 해석해야 할까?",
+      "en": "How should we interpret this situation?",
+      "pattern": "SITUATIONAL-ANALYSIS-INQUIRY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S35-003",
+      "kr": "진짜 원인이 뭘까? 표면적인 게 아니라.",
+      "en": "What's the real cause? Not the superficial one.",
+      "pattern": "SITUATIONAL-ANALYSIS-INQUIRY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S35-004",
+      "kr": "이런 패턴이 왜 계속 반복될까?",
+      "en": "Why does this pattern keep repeating itself?",
+      "pattern": "SITUATIONAL-ANALYSIS-INQUIRY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S35-005",
+      "kr": "우리가 놓치고 있는 게 뭘까?",
+      "en": "What are we missing here?",
+      "pattern": "SITUATIONAL-ANALYSIS-INQUIRY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S35-006",
+      "kr": "이 모든 일련의 사건들이 우연일까?",
+      "en": "Could all these series of events be mere coincidence?",
+      "pattern": "SITUATIONAL-ANALYSIS-INQUIRY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S35-007",
+      "kr": "과연 예측 가능했던 결과일까?",
+      "en": "Was this really a predictable outcome?",
+      "pattern": "SITUATIONAL-ANALYSIS-INQUIRY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S35-008",
+      "kr": "다른 관점에서 보면 어떨까?",
+      "en": "How would it look from a different perspective?",
+      "pattern": "SITUATIONAL-ANALYSIS-INQUIRY",
+      "form": "aff"
+    }
+  ]
+}

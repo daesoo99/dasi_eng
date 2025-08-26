@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv8-C6-S38",
+  "title": "강한 긍정/부정 어구",
+  "description": "강력한 긍정이나 부정의 감정을 표현하는 강조적 어구들을 활용하는 방법을 연습합니다.",
+  "grammar_pattern": "STRONG-AFFIRMATION-NEGATION",
+  "examples": [
+    "This is absolutely essential for our success.",
+    "Under no circumstances can we accept this proposal.",
+    "It is utterly imperative that we take immediate action."
+  ],
+  "learning_points": "강한 긍정/부정 어구를 통한 확고한 입장 표명",
+  "phase": 6,
+  "stage_number": 38,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv8-C6-S38-001",
+      "kr": "이것은 우리의 성공을 위해 절대적으로 필수적입니다.",
+      "en": "This is absolutely essential for our success.",
+      "pattern": "STRONG-AFFIRMATION-NEGATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S38-002",
+      "kr": "어떠한 상황에서도 이 제안을 받아들일 수 없습니다.",
+      "en": "Under no circumstances can we accept this proposal.",
+      "pattern": "STRONG-AFFIRMATION-NEGATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S38-003",
+      "kr": "즉각적인 조치를 취하는 것이 절대적으로 필수적입니다.",
+      "en": "It is utterly imperative that we take immediate action.",
+      "pattern": "STRONG-AFFIRMATION-NEGATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S38-004",
+      "kr": "이 기회를 놓치는 것은 완전히 용납할 수 없습니다.",
+      "en": "Missing this opportunity is completely unacceptable.",
+      "pattern": "STRONG-AFFIRMATION-NEGATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S38-005",
+      "kr": "품질은 협상의 여지가 전혀 없는 요소입니다.",
+      "en": "Quality is absolutely non-negotiable.",
+      "pattern": "STRONG-AFFIRMATION-NEGATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S38-006",
+      "kr": "이 결정은 의심할 여지없이 올바른 것입니다.",
+      "en": "This decision is undoubtedly the right one.",
+      "pattern": "STRONG-AFFIRMATION-NEGATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S38-007",
+      "kr": "그런 행동은 절대로 용인될 수 없습니다.",
+      "en": "Such behavior is absolutely intolerable.",
+      "pattern": "STRONG-AFFIRMATION-NEGATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S38-008",
+      "kr": "이 프로젝트는 우리에게 극도로 중요합니다.",
+      "en": "This project is of paramount importance to us.",
+      "pattern": "STRONG-AFFIRMATION-NEGATION",
+      "form": "aff"
+    }
+  ]
+}

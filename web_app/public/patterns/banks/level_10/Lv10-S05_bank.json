@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv10-S05",
+  "title": "원어민 강조 표현 - 감정적 강조",
+  "description": "감정과 의도가 담긴 원어민 수준의 자연스러운 강조 표현을 구사합니다.",
+  "grammar_pattern": "NATIVE-EMPHASIS-EMOTIONAL",
+  "examples": [
+    "It was absolutely mind-blowing!",
+    "It was a completely different league of experience.",
+    "It was beyond words how moving it was."
+  ],
+  "learning_points": "원어민 수준의 자연스러운 감정적 강조 표현 구사",
+  "phase": 1,
+  "stage_number": 5,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv10-S05-001",
+      "kr": "정말 놀랄 만큼 훌륭했어!",
+      "en": "It was absolutely mind-blowing!",
+      "pattern": "NATIVE-EMPHASIS-EMOTIONAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S05-002",
+      "kr": "완전히 다른 차원의 경험이었어.",
+      "en": "It was a completely different league of experience.",
+      "pattern": "NATIVE-EMPHASIS-EMOTIONAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S05-003",
+      "kr": "말로 표현할 수 없을 정도로 감동적이었어.",
+      "en": "It was beyond words how moving it was.",
+      "pattern": "NATIVE-EMPHASIS-EMOTIONAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S05-004",
+      "kr": "상상을 초월할 만큼 인상적이었어.",
+      "en": "It was incredibly impressive beyond imagination.",
+      "pattern": "NATIVE-EMPHASIS-EMOTIONAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S05-005",
+      "kr": "정말 어처구니없을 정도로 좋았어.",
+      "en": "It was ridiculously good, I have to say.",
+      "pattern": "NATIVE-EMPHASIS-EMOTIONAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S05-006",
+      "kr": "믿을 수 없을 만큼 완벽했어.",
+      "en": "It was unbelievably perfect in every way.",
+      "pattern": "NATIVE-EMPHASIS-EMOTIONAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S05-007",
+      "kr": "진짜 소름 끼칠 정도로 정확했어.",
+      "en": "It was eerily accurate, honestly.",
+      "pattern": "NATIVE-EMPHASIS-EMOTIONAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S05-008",
+      "kr": "놀랄 만큼 자연스럽게 풀렸어.",
+      "en": "Everything fell into place remarkably naturally.",
+      "pattern": "NATIVE-EMPHASIS-EMOTIONAL",
+      "form": "aff"
+    }
+  ]
+}

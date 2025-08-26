@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv3-P2-S09",
+  "title": "조건문 기본 (1st, 2nd 조건문)",
+  "description": "1차 조건문(실현 가능한 조건)과 2차 조건문(현재 가정 상황)을 배웁니다. If 조건절과 주절의 시제 관계를 익히며 조건에 따른 결과를 표현해봅니다.",
+  "grammar_pattern": "If + 현재, will + 동사원형 / If + 과거, would + 동사원형",
+  "examples": ["If it rains, I will stay home. (1차)", "If I were rich, I would travel. (2차)", "What would you do if...?"],
+  "learning_points": "실제 가능한 조건과 가정 상황의 구분하여 사용",
+  "phase": 2,
+  "stage_number": 9,
+  "count": 0,
+  "sentences": []
+}

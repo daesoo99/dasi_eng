@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv10-S23",
+  "title": "즉흥적 평가 - 종합 판단",
+  "description": "종합적이면서도 즉흥적인 판단을 자연스럽게 표현하는 원어민 수준의 평가 표현을 구사합니다.",
+  "grammar_pattern": "SPONTANEOUS-COMPREHENSIVE-JUDGMENT",
+  "examples": [
+    "Overall, I think it's pretty decent.",
+    "Taking everything into account, I'd call it a success.",
+    "Even considering everything, this seems like the best choice."
+  ],
+  "learning_points": "원어민 수준의 자연스러운 종합 판단 표현 구사",
+  "phase": 3,
+  "stage_number": 23,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv10-S23-001",
+      "kr": "전체적으로 봤을 때, 꽤 괜찮은 것 같아.",
+      "en": "Overall, I think it's pretty decent.",
+      "pattern": "SPONTANEOUS-COMPREHENSIVE-JUDGMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S23-002",
+      "kr": "종합적으로 평가하면, 성공작이라고 봐.",
+      "en": "Taking everything into account, I'd call it a success.",
+      "pattern": "SPONTANEOUS-COMPREHENSIVE-JUDGMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S23-003",
+      "kr": "다 고려해봐도, 이게 최선의 선택인 것 같아.",
+      "en": "Even considering everything, this seems like the best choice.",
+      "pattern": "SPONTANEOUS-COMPREHENSIVE-JUDGMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S23-004",
+      "kr": "모든 걸 따져봤을 때, 만족스러워.",
+      "en": "When I weigh everything up, I'm satisfied.",
+      "pattern": "SPONTANEOUS-COMPREHENSIVE-JUDGMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S23-005",
+      "kr": "좋은 점, 나쁜 점 다 있지만, 결국 괜찮아.",
+      "en": "There are pros and cons, but ultimately it's fine.",
+      "pattern": "SPONTANEOUS-COMPREHENSIVE-JUDGMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S23-006",
+      "kr": "완벽하지는 않지만, 전반적으로는 좋아.",
+      "en": "It's not perfect, but it's good on the whole.",
+      "pattern": "SPONTANEOUS-COMPREHENSIVE-JUDGMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S23-007",
+      "kr": "이것저것 다 생각해봐도, 나쁘지 않네.",
+      "en": "Thinking about this and that, it's not bad at all.",
+      "pattern": "SPONTANEOUS-COMPREHENSIVE-JUDGMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S23-008",
+      "kr": "결국 마무리해보니까, 예상보다 잘됐어.",
+      "en": "Now that it's all wrapped up, it turned out better than expected.",
+      "pattern": "SPONTANEOUS-COMPREHENSIVE-JUDGMENT",
+      "form": "aff"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv6-P6-S34",
+  "title": "부사 도치 심화",
+  "description": "Rarely, Seldom, Not until 등 복잡한 도치 문장을 연습합니다. ADVANCED-ADVERBIAL-INVERSION 패턴을 연습합니다.",
+  "grammar_pattern": "ADVANCED-ADVERBIAL-INVERSION",
+  "examples": [
+    "Not until I read the report did I understand the issue.",
+    "Seldom do we see such dedication.",
+    "Hardly had we started when it began to rain."
+  ],
+  "learning_points": "복잡한 도치구조를 통한 시간 관계와 강조",
+  "phase": 6,
+  "stage_number": 34,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv6-P6-S34-001",
+      "kr": "보고서를 읽고 나서야 문제를 이해했습니다.",
+      "en": "Not until I read the report did I understand the issue.",
+      "pattern": "ADVANCED-ADVERBIAL-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P6-S34-002",
+      "kr": "그런 헌신을 좀처럼 볼 수 없습니다.",
+      "en": "Seldom do we see such dedication.",
+      "pattern": "ADVANCED-ADVERBIAL-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P6-S34-003",
+      "kr": "시작하자마자 비가 내리기 시작했습니다.",
+      "en": "Hardly had we started when it began to rain.",
+      "pattern": "ADVANCED-ADVERBIAL-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P6-S34-004",
+      "kr": "모든 준비가 완료된 후에야 발표를 시작했습니다.",
+      "en": "Not until all preparations were complete did we start the presentation.",
+      "pattern": "ADVANCED-ADVERBIAL-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P6-S34-005",
+      "kr": "그런 혁신적인 아이디어는 드물게 나옵니다.",
+      "en": "Rarely do such innovative ideas emerge.",
+      "pattern": "ADVANCED-ADVERBIAL-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P6-S34-006",
+      "kr": "도착하자마자 회의가 시작되었습니다.",
+      "en": "Scarcely had we arrived when the meeting began.",
+      "pattern": "ADVANCED-ADVERBIAL-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P6-S34-007",
+      "kr": "결과를 받고 나서야 우리의 성공을 깨달았습니다.",
+      "en": "Not until we received the results did we realize our success.",
+      "pattern": "ADVANCED-ADVERBIAL-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P6-S34-008",
+      "kr": "그런 완벽한 타이밍은 좀처럼 일어나지 않습니다.",
+      "en": "Seldom does such perfect timing occur.",
+      "pattern": "ADVANCED-ADVERBIAL-INVERSION",
+      "form": "aff"
+    }
+  ]
+}

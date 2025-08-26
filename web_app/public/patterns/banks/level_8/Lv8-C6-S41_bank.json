@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv8-C6-S41",
+  "title": "문장 길이와 리듬",
+  "description": "문장의 길이를 조절하고 리듬감을 만들어 효과적인 문체적 변화를 연습합니다.",
+  "grammar_pattern": "SENTENCE-LENGTH-RHYTHM",
+  "examples": [
+    "We succeeded. Against all odds, through countless challenges, with unwavering determination.",
+    "The project failed. Not because we lacked resources. Not because we lacked talent. But because we lacked unity.",
+    "Innovation drives us. It pushes boundaries. Creates possibilities. Transforms dreams into reality."
+  ],
+  "learning_points": "문장 길이와 리듬 조절을 통한 효과적인 문체적 표현",
+  "phase": 6,
+  "stage_number": 41,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv8-C6-S41-001",
+      "kr": "우리는 성공했습니다. 모든 역경에 맞서, 수많은 도전을 통해, 흔들리지 않는 의지로.",
+      "en": "We succeeded. Against all odds, through countless challenges, with unwavering determination.",
+      "pattern": "SENTENCE-LENGTH-RHYTHM",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S41-002",
+      "kr": "프로젝트는 실패했습니다. 자원이 부족해서가 아니었습니다. 재능이 부족해서가 아니었습니다. 하지만 단결력이 부족했기 때문입니다.",
+      "en": "The project failed. Not because we lacked resources. Not because we lacked talent. But because we lacked unity.",
+      "pattern": "SENTENCE-LENGTH-RHYTHM",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S41-003",
+      "kr": "혁신이 우리를 이끕니다. 경계를 허뭅니다. 가능성을 창조합니다. 꿈을 현실로 바꿉니다.",
+      "en": "Innovation drives us. It pushes boundaries. Creates possibilities. Transforms dreams into reality.",
+      "pattern": "SENTENCE-LENGTH-RHYTHM",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S41-004",
+      "kr": "변화가 왔습니다. 예상보다 빠르게, 준비된 것보다 강력하게, 우리가 생각했던 것보다 광범위하게.",
+      "en": "Change has arrived. Faster than expected, stronger than prepared for, more comprehensive than we imagined.",
+      "pattern": "SENTENCE-LENGTH-RHYTHM",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S41-005",
+      "kr": "우리는 배웠습니다. 실패에서. 성공에서. 모든 경험에서.",
+      "en": "We learned. From failures. From successes. From every experience.",
+      "pattern": "SENTENCE-LENGTH-RHYTHM",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S41-006",
+      "kr": "미래는 밝습니다. 새로운 기술로 가득하고, 무한한 가능성으로 넘치며, 희망으로 빛납니다.",
+      "en": "The future is bright. Filled with new technology, overflowing with infinite possibilities, shining with hope.",
+      "pattern": "SENTENCE-LENGTH-RHYTHM",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S41-007",
+      "kr": "도전이 우리를 부릅니다. 더 높이. 더 멀리. 더 과감하게.",
+      "en": "Challenges call us. Higher. Further. Bolder.",
+      "pattern": "SENTENCE-LENGTH-RHYTHM",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S41-008",
+      "kr": "성공의 비밀을 발견했습니다. 끈기에서가 아니라. 재능에서가 아니라. 하지만 협력에서.",
+      "en": "We discovered the secret of success. Not in persistence. Not in talent. But in collaboration.",
+      "pattern": "SENTENCE-LENGTH-RHYTHM",
+      "form": "aff"
+    }
+  ]
+}

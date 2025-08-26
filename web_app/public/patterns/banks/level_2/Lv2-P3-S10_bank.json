@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv2-P3-S10",
+  "title": "Should로 조언하기",
+  "description": "Should를 사용해 조언이나 권고를 주고받습니다. should의 부드러운 어감을 익히고, 직접 친구에게 조언하는 상황을 만들어 연습합니다.",
+  "grammar_pattern": "주어 + should/shouldn't + 동사원형 / Should I + 동사원형?",
+  "examples": ["You should go to the doctor.", "You shouldn't eat so fast.", "Should I call him?"],
+  "learning_points": "격식을 차리지 않고 자연스러운 조언 표현에 집중",
+  "phase": 3,
+  "stage_number": 10,
+  "count": 0,
+  "sentences": []
+}

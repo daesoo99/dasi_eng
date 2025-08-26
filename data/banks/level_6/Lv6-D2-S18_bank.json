@@ -1,0 +1,620 @@
+{
+  "stage_id": "Lv6-D2-S18",
+  "title": "의료윤리 및 환자안전",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv6-D2-S18-001",
+      "kr": "생명윤리 위원회가 검토했습니다. (완성 1)",
+      "en": "The bioethics committee has reviewed it. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-002",
+      "kr": "생명윤리 위원회가 검토했습니다. (완성 2)",
+      "en": "The bioethics committee has reviewed it. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-003",
+      "kr": "생명윤리 위원회가 검토했습니다. (완성 3)",
+      "en": "The bioethics committee has reviewed it. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-004",
+      "kr": "생명윤리 위원회가 검토했습니다. (완성 4)",
+      "en": "The bioethics committee has reviewed it. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-005",
+      "kr": "생명윤리 위원회가 검토했습니다. (완성 5)",
+      "en": "The bioethics committee has reviewed it. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-006",
+      "kr": "충분한 설명에 의한 동의가 필요합니다. (완성 1)",
+      "en": "Informed consent is required. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-007",
+      "kr": "충분한 설명에 의한 동의가 필요합니다. (완성 2)",
+      "en": "Informed consent is required. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-008",
+      "kr": "충분한 설명에 의한 동의가 필요합니다. (완성 3)",
+      "en": "Informed consent is required. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-009",
+      "kr": "충분한 설명에 의한 동의가 필요합니다. (완성 4)",
+      "en": "Informed consent is required. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-010",
+      "kr": "충분한 설명에 의한 동의가 필요합니다. (완성 5)",
+      "en": "Informed consent is required. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-011",
+      "kr": "환자의 자율성이 존중됩니다. (완성 1)",
+      "en": "Patient autonomy is respected. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-012",
+      "kr": "환자의 자율성이 존중됩니다. (완성 2)",
+      "en": "Patient autonomy is respected. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-013",
+      "kr": "환자의 자율성이 존중됩니다. (완성 3)",
+      "en": "Patient autonomy is respected. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-014",
+      "kr": "환자의 자율성이 존중됩니다. (완성 4)",
+      "en": "Patient autonomy is respected. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-015",
+      "kr": "환자의 자율성이 존중됩니다. (완성 5)",
+      "en": "Patient autonomy is respected. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-016",
+      "kr": "선행의 원칙을 따릅니다. (완성 1)",
+      "en": "We follow the principle of beneficence. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-017",
+      "kr": "선행의 원칙을 따릅니다. (완성 2)",
+      "en": "We follow the principle of beneficence. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-018",
+      "kr": "선행의 원칙을 따릅니다. (완성 3)",
+      "en": "We follow the principle of beneficence. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-019",
+      "kr": "선행의 원칙을 따릅니다. (완성 4)",
+      "en": "We follow the principle of beneficence. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-020",
+      "kr": "선행의 원칙을 따릅니다. (완성 5)",
+      "en": "We follow the principle of beneficence. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-021",
+      "kr": "무해의 원칙이 우선됩니다. (완성 1)",
+      "en": "The principle of non-maleficence takes priority. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-022",
+      "kr": "무해의 원칙이 우선됩니다. (완성 2)",
+      "en": "The principle of non-maleficence takes priority. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-023",
+      "kr": "무해의 원칙이 우선됩니다. (완성 3)",
+      "en": "The principle of non-maleficence takes priority. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-024",
+      "kr": "무해의 원칙이 우선됩니다. (완성 4)",
+      "en": "The principle of non-maleficence takes priority. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-025",
+      "kr": "무해의 원칙이 우선됩니다. (완성 5)",
+      "en": "The principle of non-maleficence takes priority. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-026",
+      "kr": "환자안전이 최우선입니다. (완성 1)",
+      "en": "Patient safety is the top priority. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-027",
+      "kr": "환자안전이 최우선입니다. (완성 2)",
+      "en": "Patient safety is the top priority. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-028",
+      "kr": "환자안전이 최우선입니다. (완성 3)",
+      "en": "Patient safety is the top priority. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-029",
+      "kr": "환자안전이 최우선입니다. (완성 4)",
+      "en": "Patient safety is the top priority. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-030",
+      "kr": "환자안전이 최우선입니다. (완성 5)",
+      "en": "Patient safety is the top priority. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-031",
+      "kr": "품질보증 시스템이 구축되었습니다. (완성 1)",
+      "en": "A quality assurance system has been established. (completion variant 1)",
+      "form": "neg",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-032",
+      "kr": "품질보증 시스템이 구축되었습니다. (완성 2)",
+      "en": "A quality assurance system has been established. (completion variant 2)",
+      "form": "neg",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-033",
+      "kr": "품질보증 시스템이 구축되었습니다. (완성 3)",
+      "en": "A quality assurance system has been established. (completion variant 3)",
+      "form": "neg",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-034",
+      "kr": "품질보증 시스템이 구축되었습니다. (완성 4)",
+      "en": "A quality assurance system has been established. (completion variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-035",
+      "kr": "품질보증 시스템이 구축되었습니다. (완성 5)",
+      "en": "A quality assurance system has been established. (completion variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-036",
+      "kr": "위험관리가 체계적으로 이루어집니다. (완성 1)",
+      "en": "Risk management is systematically conducted. (completion variant 1)",
+      "form": "neg",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-037",
+      "kr": "위험관리가 체계적으로 이루어집니다. (완성 2)",
+      "en": "Risk management is systematically conducted. (completion variant 2)",
+      "form": "neg",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-038",
+      "kr": "위험관리가 체계적으로 이루어집니다. (완성 3)",
+      "en": "Risk management is systematically conducted. (completion variant 3)",
+      "form": "neg",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-039",
+      "kr": "위험관리가 체계적으로 이루어집니다. (완성 4)",
+      "en": "Risk management is systematically conducted. (completion variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-040",
+      "kr": "위험관리가 체계적으로 이루어집니다. (완성 5)",
+      "en": "Risk management is systematically conducted. (completion variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-041",
+      "kr": "사건보고가 의무화되어 있습니다. (완성 1)",
+      "en": "Incident reporting is mandatory. (completion variant 1)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-042",
+      "kr": "사건보고가 의무화되어 있습니다. (완성 2)",
+      "en": "Incident reporting is mandatory. (completion variant 2)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-043",
+      "kr": "사건보고가 의무화되어 있습니다. (완성 3)",
+      "en": "Incident reporting is mandatory. (completion variant 3)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-044",
+      "kr": "사건보고가 의무화되어 있습니다. (완성 4)",
+      "en": "Incident reporting is mandatory. (completion variant 4)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-045",
+      "kr": "사건보고가 의무화되어 있습니다. (완성 5)",
+      "en": "Incident reporting is mandatory. (completion variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-046",
+      "kr": "윤리적 검토를 거쳤습니다. (완성 1)",
+      "en": "It has undergone ethical review. (completion variant 1)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-047",
+      "kr": "윤리적 검토를 거쳤습니다. (완성 2)",
+      "en": "It has undergone ethical review. (completion variant 2)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-048",
+      "kr": "윤리적 검토를 거쳤습니다. (완성 3)",
+      "en": "It has undergone ethical review. (completion variant 3)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-049",
+      "kr": "윤리적 검토를 거쳤습니다. (완성 4)",
+      "en": "It has undergone ethical review. (completion variant 4)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    },
+    {
+      "id": "Lv6-D2-S18-050",
+      "kr": "윤리적 검토를 거쳤습니다. (완성 5)",
+      "en": "It has undergone ethical review. (completion variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "ETHICAL-DISCOURSE",
+        "SAFETY-PROTOCOLS",
+        "CONSENT-PROCEDURES",
+        "QUALITY-STANDARDS"
+      ]
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10
+  },
+  "grammar_meta": [
+    "ETHICAL-DISCOURSE",
+    "SAFETY-PROTOCOLS",
+    "CONSENT-PROCEDURES",
+    "QUALITY-STANDARDS"
+  ],
+  "status": "generated",
+  "batch": "L6_Professional_Batch2"
+}

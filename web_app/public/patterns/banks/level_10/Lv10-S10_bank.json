@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv10-S10",
+  "title": "원어민 반응 - 놀라움과 감탄",
+  "description": "자연스러운 놀라움과 감탄을 표현하는 원어민 수준의 반응 표현을 구사합니다.",
+  "grammar_pattern": "NATIVE-REACTION-AMAZEMENT",
+  "examples": [
+    "Oh wow, really? I had no idea!",
+    "Oh my goodness, I can't believe it!",
+    "Seriously? That totally caught me off guard!"
+  ],
+  "learning_points": "원어민 수준의 자연스러운 놀라움과 감탄 표현 구사",
+  "phase": 1,
+  "stage_number": 10,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv10-S10-001",
+      "kr": "어머, 정말? 그럴 줄 몰랐어!",
+      "en": "Oh wow, really? I had no idea!",
+      "pattern": "NATIVE-REACTION-AMAZEMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S10-002",
+      "kr": "세상에, 믿을 수가 없어!",
+      "en": "Oh my goodness, I can't believe it!",
+      "pattern": "NATIVE-REACTION-AMAZEMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S10-003",
+      "kr": "진짜? 완전 놀랐어!",
+      "en": "Seriously? That totally caught me off guard!",
+      "pattern": "NATIVE-REACTION-AMAZEMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S10-004",
+      "kr": "말도 안 돼! 어떻게 그런 일이?",
+      "en": "No way! How on earth did that happen?",
+      "pattern": "NATIVE-REACTION-AMAZEMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S10-005",
+      "kr": "와, 정말 대단하다! 상상도 못 했어.",
+      "en": "Wow, that's incredible! I never would have imagined.",
+      "pattern": "NATIVE-REACTION-AMAZEMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S10-006",
+      "kr": "어떻게 그럴 수가 있지? 정말 신기해.",
+      "en": "How is that even possible? That's absolutely fascinating.",
+      "pattern": "NATIVE-REACTION-AMAZEMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S10-007",
+      "kr": "이런, 완전 예상 밖이네!",
+      "en": "Gosh, that's completely unexpected!",
+      "pattern": "NATIVE-REACTION-AMAZEMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S10-008",
+      "kr": "정말 놀랍다! 이런 일도 있구나.",
+      "en": "That's amazing! Who would have thought such things happen?",
+      "pattern": "NATIVE-REACTION-AMAZEMENT",
+      "form": "aff"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv9-P4-S23",
+  "title": "의인법과 과장법",
+  "description": "personification과 hyperbole 기법을 사용하여 무생물에 인간적 특성을 부여하고 과장된 표현으로 강조 효과를 내는 연습.",
+  "grammar_pattern": "PERSONIFICATION-HYPERBOLE",
+  "examples": [
+    "The market is crying out for innovation.",
+    "This opportunity is once in a million years.",
+    "Technology is racing ahead at breakneck speed."
+  ],
+  "learning_points": "의인법과 과장법을 사용한 감정적 호소와 강조 효과",
+  "phase": 4,
+  "stage_number": 23,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv9-P4-S23-001",
+      "kr": "시장이 혁신을 간절히 찾고 있습니다.",
+      "en": "The market is crying out for innovation.",
+      "pattern": "PERSONIFICATION-HYPERBOLE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P4-S23-002",
+      "kr": "이 기회는 백만 년에 한 번 오는 것입니다.",
+      "en": "This opportunity is once in a million years.",
+      "pattern": "PERSONIFICATION-HYPERBOLE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P4-S23-003",
+      "kr": "기술이 무서운 속도로 앞으로 달리고 있습니다.",
+      "en": "Technology is racing ahead at breakneck speed.",
+      "pattern": "PERSONIFICATION-HYPERBOLE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P4-S23-004",
+      "kr": "시간이 날개를 달고 날아가고 있습니다.",
+      "en": "Time is flying by on wings.",
+      "pattern": "PERSONIFICATION-HYPERBOLE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P4-S23-005",
+      "kr": "성공이 우리 문을 두드리고 있습니다.",
+      "en": "Success is knocking at our door.",
+      "pattern": "PERSONIFICATION-HYPERBOLE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P4-S23-006",
+      "kr": "이 비늘은 세상에서 가장 부드럽습니다.",
+      "en": "This silk is the softest thing in the world.",
+      "pattern": "PERSONIFICATION-HYPERBOLE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P4-S23-007",
+      "kr": "돈이 다리를 달고 달아나고 있습니다.",
+      "en": "Money is running away on legs.",
+      "pattern": "PERSONIFICATION-HYPERBOLE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P4-S23-008",
+      "kr": "그의 사랑은 바다보다 깊습니다.",
+      "en": "His love is deeper than the ocean.",
+      "pattern": "PERSONIFICATION-HYPERBOLE",
+      "form": "aff"
+    }
+  ]
+}

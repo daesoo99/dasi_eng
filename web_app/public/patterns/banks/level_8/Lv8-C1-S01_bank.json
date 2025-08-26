@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv8-C1-S01",
+  "title": "조건 + 부정어 도치",
+  "description": "조건을 나타내는 구문과 부정어 도치를 함께 사용하여 강한 강조 효과를 연습합니다.",
+  "grammar_pattern": "CONDITIONAL-NEGATIVE-INVERSION",
+  "examples": [
+    "Not until I visited Paris did I understand why people love it.",
+    "Only if we work together can we succeed.",
+    "Never before had I seen such dedication."
+  ],
+  "learning_points": "조건과 부정어 도치의 결합을 통한 강조 표현 완성",
+  "phase": 1,
+  "stage_number": 1,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv8-C1-S01-001",
+      "kr": "파리를 방문하고 나서야 비로소 사람들이 왜 그곳을 사랑하는지 이해했습니다.",
+      "en": "Not until I visited Paris did I understand why people love it.",
+      "pattern": "CONDITIONAL-NEGATIVE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S01-002",
+      "kr": "오직 함께 일할 때만 성공할 수 있습니다.",
+      "en": "Only if we work together can we succeed.",
+      "pattern": "CONDITIONAL-NEGATIVE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S01-003",
+      "kr": "이전에는 그런 헌신을 본 적이 없었습니다.",
+      "en": "Never before had I seen such dedication.",
+      "pattern": "CONDITIONAL-NEGATIVE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S01-004",
+      "kr": "그때서야 비로소 진실이 드러났습니다.",
+      "en": "Only then did the truth come to light.",
+      "pattern": "CONDITIONAL-NEGATIVE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S01-005",
+      "kr": "어떠한 상황에서도 포기해서는 안 됩니다.",
+      "en": "Under no circumstances should we give up.",
+      "pattern": "CONDITIONAL-NEGATIVE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S01-006",
+      "kr": "결코 그런 실수를 다시 하지 않을 것입니다.",
+      "en": "Never again will I make such a mistake.",
+      "pattern": "CONDITIONAL-NEGATIVE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S01-007",
+      "kr": "오직 경험을 통해서만 진정한 지혜를 얻을 수 있습니다.",
+      "en": "Only through experience can we gain true wisdom.",
+      "pattern": "CONDITIONAL-NEGATIVE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S01-008",
+      "kr": "좀처럼 그런 기회를 만날 수 없습니다.",
+      "en": "Rarely can we encounter such opportunities.",
+      "pattern": "CONDITIONAL-NEGATIVE-INVERSION",
+      "form": "aff"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv6-P3-S17",
+  "title": "가정법 공식 화법",
+  "description": "Should this occur 등 격식체 가정문을 비즈니스 보고서나 제안서에서 활용합니다. CONDITIONAL-FORMAL-REGISTER 패턴을 연습합니다.",
+  "grammar_pattern": "CONDITIONAL-FORMAL-REGISTER",
+  "examples": [
+    "Should any issues arise, please contact us immediately.",
+    "Should this proposal be accepted, we will begin implementation.",
+    "Should the market decline, we have contingency plans ready."
+  ],
+  "learning_points": "공식적 문서와 비즈니스 상황의 조건적 표현",
+  "phase": 3,
+  "stage_number": 17,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv6-P3-S17-001",
+      "kr": "어떤 문제라도 발생하면 즉시 연락 주시기 바랍니다.",
+      "en": "Should any issues arise, please contact us immediately.",
+      "pattern": "CONDITIONAL-FORMAL-REGISTER",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P3-S17-002",
+      "kr": "이 제안이 승인되면 구현을 시작하겠습니다.",
+      "en": "Should this proposal be accepted, we will begin implementation.",
+      "pattern": "CONDITIONAL-FORMAL-REGISTER",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P3-S17-003",
+      "kr": "시장이 하락한다면 비상 계획을 준비해 두었습니다.",
+      "en": "Should the market decline, we have contingency plans ready.",
+      "pattern": "CONDITIONAL-FORMAL-REGISTER",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P3-S17-004",
+      "kr": "추가 자금이 필요하다면 투자자들과 협의하겠습니다.",
+      "en": "Should additional funding be required, we will consult with investors.",
+      "pattern": "CONDITIONAL-FORMAL-REGISTER",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P3-S17-005",
+      "kr": "일정에 변경이 생기면 모든 관계자에게 알려드리겠습니다.",
+      "en": "Should there be any changes to the schedule, we will notify all stakeholders.",
+      "pattern": "CONDITIONAL-FORMAL-REGISTER",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P3-S17-006",
+      "kr": "기술적 문제가 발생하면 IT 지원팀이 즉시 대응하겠습니다.",
+      "en": "Should any technical problems occur, the IT support team will respond immediately.",
+      "pattern": "CONDITIONAL-FORMAL-REGISTER",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P3-S17-007",
+      "kr": "규정 변경이 있다면 새로운 정책을 수립하겠습니다.",
+      "en": "Should there be any regulatory changes, we will establish new policies.",
+      "pattern": "CONDITIONAL-FORMAL-REGISTER",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P3-S17-008",
+      "kr": "고객 불만이 제기되면 48시간 내에 해결하겠습니다.",
+      "en": "Should customer complaints be raised, we will resolve them within 48 hours.",
+      "pattern": "CONDITIONAL-FORMAL-REGISTER",
+      "form": "aff"
+    }
+  ]
+}

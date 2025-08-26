@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv4-P6-S26",
+  "title": "조건부 제안",
+  "description": "조건을 붙여 제안하거나 약속할 때 쓰는 표현을 익힙니다. Provided (that), Only if, As long as 등을 문두에 두고 주절에 제안을 넣는 연습을 하며, 비즈니스 협상이나 팀 약속 정할 때 유용한 실제 상황 시뮬레이션으로 연습합니다.",
+  "grammar_pattern": "Provided (that) + 조건, 주절 / Only if + 조건 + 도치 / As long as + 조건, 주절",
+  "examples": ["As long as everyone agrees, we can proceed.", "Provided that the budget is approved, we'll start next month.", "Only if we get support will we continue.", "We can succeed, assuming that we work together."],
+  "learning_points": "조건부 제안과 약속을 위한 고급 조건절 활용",
+  "phase": 6,
+  "stage_number": 26,
+  "count": 0,
+  "sentences": []
+}

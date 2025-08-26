@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv6-P7-S44",
+  "title": "관용적 비유표현 추가",
+  "description": "break the ice, cut corners 등 추가 관용 표현을 학습합니다. ADDITIONAL-IDIOMATIC-EXPRESSIONS 패턴을 연습합니다.",
+  "grammar_pattern": "ADDITIONAL-IDIOMATIC-EXPRESSIONS",
+  "examples": [
+    "The new manager helped break the ice at the meeting.",
+    "We can't cut corners on quality control.",
+    "This investment could be a game-changer for our company."
+  ],
+  "learning_points": "고급 관용구를 통한 원어민 수준의 자연스러운 표현",
+  "phase": 7,
+  "stage_number": 44,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv6-P7-S44-001",
+      "kr": "새로운 관리자가 회의에서 어색한 분위기를 깨는 데 도움을 주었습니다.",
+      "en": "The new manager helped break the ice at the meeting.",
+      "pattern": "ADDITIONAL-IDIOMATIC-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S44-002",
+      "kr": "품질 관리에서는 편법을 쓸 수 없습니다.",
+      "en": "We can't cut corners on quality control.",
+      "pattern": "ADDITIONAL-IDIOMATIC-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S44-003",
+      "kr": "이 투자는 우리 회사에 획기적인 변화를 가져올 수 있습니다.",
+      "en": "This investment could be a game-changer for our company.",
+      "pattern": "ADDITIONAL-IDIOMATIC-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S44-004",
+      "kr": "그 제안은 아직 초기 단계에 있습니다.",
+      "en": "That proposal is still in its infancy.",
+      "pattern": "ADDITIONAL-IDIOMATIC-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S44-005",
+      "kr": "이 프로젝트는 우리에게 새로운 기회의 문을 열어주었습니다.",
+      "en": "This project has opened new doors of opportunity for us.",
+      "pattern": "ADDITIONAL-IDIOMATIC-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S44-006",
+      "kr": "마케팅 예산이 바닥났습니다.",
+      "en": "We've hit rock bottom with our marketing budget.",
+      "pattern": "ADDITIONAL-IDIOMATIC-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S44-007",
+      "kr": "그 결정은 큰 파장을 일으켰습니다.",
+      "en": "That decision made waves throughout the organization.",
+      "pattern": "ADDITIONAL-IDIOMATIC-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S44-008",
+      "kr": "우리는 경쟁사를 따라잡기 위해 노력하고 있습니다.",
+      "en": "We're working hard to level the playing field with our competitors.",
+      "pattern": "ADDITIONAL-IDIOMATIC-EXPRESSIONS",
+      "form": "aff"
+    }
+  ]
+}

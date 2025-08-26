@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv9-P7-S42",
+  "title": "겸양적 주장",
+  "description": "겸손함을 유지하면서도 자신의 주장을 효과적으로 전달하는 균형 잡힌 표현 기법. 오만하지 않으면서도 설득력 있는 의견 개진.",
+  "grammar_pattern": "HUMBLE-ASSERTION",
+  "examples": [
+    "I would venture to suggest that our approach might prove effective.",
+    "If I may be so bold, this strategy could yield positive results.",
+    "With all due respect, I believe there may be merit to this proposal."
+  ],
+  "learning_points": "겸손함과 확신의 균형을 통한 품격 있는 주장 표현",
+  "phase": 7,
+  "stage_number": 42,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv9-P7-S42-001",
+      "kr": "감히 말씀드리자면 우리 접근법이 효과적일 수 있을 것 같습니다.",
+      "en": "I would venture to suggest that our approach might prove effective.",
+      "pattern": "HUMBLE-ASSERTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S42-002",
+      "kr": "무례를 무릅쓰고 말한다면, 이 전략은 좋은 결과를 가져올 수 있습니다.",
+      "en": "If I may be so bold, this strategy could yield positive results.",
+      "pattern": "HUMBLE-ASSERTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S42-003",
+      "kr": "모든 면에서 존경을 표하며, 이 제안에 장점이 있다고 생각합니다.",
+      "en": "With all due respect, I believe there may be merit to this proposal.",
+      "pattern": "HUMBLE-ASSERTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S42-004",
+      "kr": "제 생각을 조심스럽게 말씀드리면, 다른 관점도 고려할 가치가 있을 것 같습니다.",
+      "en": "I would humbly suggest that alternative perspectives might be worth considering.",
+      "pattern": "HUMBLE-ASSERTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S42-005",
+      "kr": "개인적인 의견을 말씀드리자면, 이 방향이 유망해 보입니다.",
+      "en": "If I may offer a personal view, this direction appears promising.",
+      "pattern": "HUMBLE-ASSERTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S42-006",
+      "kr": "제한된 경험이지만, 이 방법이 성공할 가능성이 있다고 봅니다.",
+      "en": "In my limited experience, this method seems likely to succeed.",
+      "pattern": "HUMBLE-ASSERTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S42-007",
+      "kr": "조심스럽게 제안해보자면, 이 계획에 잠재력이 있는 것 같습니다.",
+      "en": "I would tentatively propose that this plan shows potential.",
+      "pattern": "HUMBLE-ASSERTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S42-008",
+      "kr": "부족하나마 의견을 말씀드리면, 이 아이디어가 검토할 만합니다.",
+      "en": "With the utmost humility, I submit that this idea merits consideration.",
+      "pattern": "HUMBLE-ASSERTION",
+      "form": "aff"
+    }
+  ]
+}

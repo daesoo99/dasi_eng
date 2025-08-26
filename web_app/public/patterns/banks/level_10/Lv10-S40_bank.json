@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv10-S40",
+  "title": "고급 회피 표현 - 간접적 거절",
+  "description": "직접적이지 않은 간접적 방식으로 거절 의사를 전달하는 원어민 수준의 표현을 구사합니다.",
+  "grammar_pattern": "INDIRECT-REFUSAL-MASTERY",
+  "examples": [
+    "Well... I think I need to think about it.",
+    "Hmm, I don't think it'll work out in that direction.",
+    "Oh, that's... there are some complicated circumstances."
+  ],
+  "learning_points": "원어민 수준의 자연스러운 간접적 거절 표현 구사",
+  "phase": 4,
+  "stage_number": 40,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv10-S40-001",
+      "kr": "글쎄요... 좀 생각해봐야 할 것 같은데요.",
+      "en": "Well... I think I need to think about it.",
+      "pattern": "INDIRECT-REFUSAL-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S40-002",
+      "kr": "음, 그런 방향으로는 잘 안 될 것 같아요.",
+      "en": "Hmm, I don't think it'll work out in that direction.",
+      "pattern": "INDIRECT-REFUSAL-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S40-003",
+      "kr": "아, 그게... 좀 복잡한 사정이 있어서요.",
+      "en": "Oh, that's... there are some complicated circumstances.",
+      "pattern": "INDIRECT-REFUSAL-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S40-004",
+      "kr": "제가 그런 쪽으로는 별로... 어떨지 모르겠어요.",
+      "en": "I'm not really into that kind of thing... I'm not sure.",
+      "pattern": "INDIRECT-REFUSAL-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S40-005",
+      "kr": "다른 대안은 없을까요? 그게 조금 더...",
+      "en": "Isn't there another alternative? That would be a bit more...",
+      "pattern": "INDIRECT-REFUSAL-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S40-006",
+      "kr": "시기가 좀 그렇지 않나요? 다음 기회에...",
+      "en": "Isn't the timing a bit off? Maybe next time...",
+      "pattern": "INDIRECT-REFUSAL-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S40-007",
+      "kr": "제 성향하고는 좀 안 맞는 것 같아서요.",
+      "en": "It doesn't seem to match my personality.",
+      "pattern": "INDIRECT-REFUSAL-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S40-008",
+      "kr": "좋긴 한데, 뭔가 확신이 안 서네요.",
+      "en": "It's good, but I'm not quite convinced about something.",
+      "pattern": "INDIRECT-REFUSAL-MASTERY",
+      "form": "aff"
+    }
+  ]
+}

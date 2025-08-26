@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv10-S19",
+  "title": "즉흥적 의견 - 직관적 판단",
+  "description": "순간적이고 직관적인 판단을 자연스럽게 표현하는 원어민 수준의 의견 표현을 구사합니다.",
+  "grammar_pattern": "SPONTANEOUS-INTUITIVE-JUDGMENT",
+  "examples": [
+    "My gut feeling says this is the right way to go.",
+    "First impression? I'm not really feeling it.",
+    "Something feels off. I don't have a good feeling about this."
+  ],
+  "learning_points": "원어민 수준의 자연스러운 직관적 판단 표현 구사",
+  "phase": 2,
+  "stage_number": 19,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv10-S19-001",
+      "kr": "직감적으로 보면, 이게 맞는 것 같아.",
+      "en": "My gut feeling says this is the right way to go.",
+      "pattern": "SPONTANEOUS-INTUITIVE-JUDGMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S19-002",
+      "kr": "첫인상으로는 별로인 것 같은데?",
+      "en": "First impression? I'm not really feeling it.",
+      "pattern": "SPONTANEOUS-INTUITIVE-JUDGMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S19-003",
+      "kr": "뭔가 이상해. 느낌이 좋지 않아.",
+      "en": "Something feels off. I don't have a good feeling about this.",
+      "pattern": "SPONTANEOUS-INTUITIVE-JUDGMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S19-004",
+      "kr": "바로 와 닿는다. 이거야!",
+      "en": "It hits me right away. This is it!",
+      "pattern": "SPONTANEOUS-INTUITIVE-JUDGMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S19-005",
+      "kr": "어떻게 설명할 순 없지만, 뭔가 아니야.",
+      "en": "I can't explain it, but something's not right.",
+      "pattern": "SPONTANEOUS-INTUITIVE-JUDGMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S19-006",
+      "kr": "순간적으로 좋다는 생각이 들었어.",
+      "en": "I instantly thought this was good.",
+      "pattern": "SPONTANEOUS-INTUITIVE-JUDGMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S19-007",
+      "kr": "직관적으로 알겠어. 이건 성공할 거야.",
+      "en": "I can sense it intuitively. This is going to work.",
+      "pattern": "SPONTANEOUS-INTUITIVE-JUDGMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S19-008",
+      "kr": "뭔지 모르겠지만, 확신이 안 서네.",
+      "en": "I don't know why, but I'm not convinced.",
+      "pattern": "SPONTANEOUS-INTUITIVE-JUDGMENT",
+      "form": "aff"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv6-P1-S03",
+  "title": "미래완료 심화",
+  "description": "미래완료 시제를 다양한 문맥에서 연습합니다.",
+  "grammar_pattern": "FUTURE-PERFECT-ADVANCED",
+  "examples": [
+    "By 2030, artificial intelligence will have transformed many industries.",
+    "I will have completed my master's degree before starting the new job.",
+    "The team will have analyzed all data before presenting the results."
+  ],
+  "learning_points": "미래완료 시제로 미래 시점에서의 완료된 동작 표현",
+  "phase": 1,
+  "stage_number": 3,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv6-P1-S03-001",
+      "kr": "2030년까지 인공지능은 많은 산업을 변화시켜 놓을 것이다.",
+      "en": "By 2030, artificial intelligence will have transformed many industries.",
+      "pattern": "FUTURE-PERFECT-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P1-S03-002",
+      "kr": "새 직장을 시작하기 전에 나는 석사 학위를 마쳤을 것이다.",
+      "en": "I will have completed my master's degree before starting the new job.",
+      "pattern": "FUTURE-PERFECT-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P1-S03-003",
+      "kr": "팀은 결과를 발표하기 전에 모든 데이터를 분석해 놓을 것이다.",
+      "en": "The team will have analyzed all data before presenting the results.",
+      "pattern": "FUTURE-PERFECT-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P1-S03-004",
+      "kr": "다음 분기까지 회사는 새로운 시장에 진출해 있을 것이다.",
+      "en": "The company will have entered new markets by next quarter.",
+      "pattern": "FUTURE-PERFECT-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P1-S03-005",
+      "kr": "10년 후면 기후 변화가 전 세계 농업에 심각한 영향을 미쳤을 것이다.",
+      "en": "Climate change will have seriously affected global agriculture in ten years.",
+      "pattern": "FUTURE-PERFECT-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P1-S03-006",
+      "kr": "회의가 시작될 때까지 모든 자료가 준비되지 않았을 것이다.",
+      "en": "All materials will not have been prepared by the time the meeting starts.",
+      "pattern": "FUTURE-PERFECT-ADVANCED",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-P1-S03-007",
+      "kr": "프로젝트 마감일까지 우리는 모든 테스트를 완료해 놓을 것이다.",
+      "en": "We will have completed all tests by the project deadline.",
+      "pattern": "FUTURE-PERFECT-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P1-S03-008",
+      "kr": "2025년이 되면 이 기술이 일상생활을 완전히 바꿔 놓았을 것이다.",
+      "en": "This technology will have completely changed daily life by 2025.",
+      "pattern": "FUTURE-PERFECT-ADVANCED",
+      "form": "aff"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 # API Documentation
 
 ## Basic Information
-- Base URL: `http://localhost:3000/api`
+- Base URL: `http://localhost:3500/api`
 - Content-Type: `application/json`
 
 ## Interview API

@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv4-P1-S04",
+  "title": "혼합 가정법",
+  "description": "혼합 가정법을 통해 과거 사실이 현재에 미치는 가정을 말해봅니다. 반대로 현재를 가정하여 과거 결과를 바꾸는 문장도 소개하며, 시제가 섞인 가정문으로 다양한 시간대를 넘나드는 상상을 해봅니다.",
+  "grammar_pattern": "If + 과거완료, would + 동사원형 (현재) / If + 과거, would have + p.p. (과거)",
+  "examples": ["If I had studied harder, I would be a doctor now.", "If I were smarter, I would have solved the puzzle.", "If she had saved money, she would be traveling now."],
+  "learning_points": "과거와 현재를 연결하는 복합 가정법 활용",
+  "phase": 1,
+  "stage_number": 4,
+  "count": 0,
+  "sentences": []
+}

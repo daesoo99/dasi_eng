@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv10-S31",
+  "title": "결과 강조 - 성공적 결과",
+  "description": "성공적인 결과와 성취를 강조하는 원어민 수준의 표현을 구사합니다.",
+  "grammar_pattern": "SUCCESSFUL-OUTCOME-EMPHASIS",
+  "examples": [
+    "This is amazing! We totally nailed it!",
+    "It's beyond expectations. It really worked out well.",
+    "It's like a dream result. I can't believe it."
+  ],
+  "learning_points": "원어민 수준의 자연스러운 성공적 결과 표현 구사",
+  "phase": 4,
+  "stage_number": 31,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv10-S31-001",
+      "kr": "대박이야! 완전 성공했어!",
+      "en": "This is amazing! We totally nailed it!",
+      "pattern": "SUCCESSFUL-OUTCOME-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S31-002",
+      "kr": "기대 이상의 결과야. 정말 잘됐어.",
+      "en": "It's beyond expectations. It really worked out well.",
+      "pattern": "SUCCESSFUL-OUTCOME-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S31-003",
+      "kr": "꿈같은 결과네. 믿기지 않아.",
+      "en": "It's like a dream result. I can't believe it.",
+      "pattern": "SUCCESSFUL-OUTCOME-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S31-004",
+      "kr": "완벽한 마무리야. 이보다 좋을 순 없어.",
+      "en": "It's a perfect finish. It couldn't be better than this.",
+      "pattern": "SUCCESSFUL-OUTCOME-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S31-005",
+      "kr": "모든 게 딱 맞아떨어졌어. 운도 좋았고.",
+      "en": "Everything fell into place perfectly. We were lucky too.",
+      "pattern": "SUCCESSFUL-OUTCOME-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S31-006",
+      "kr": "정말 훌륭한 성과야. 모두 수고했어.",
+      "en": "It's a truly excellent achievement. Everyone did great.",
+      "pattern": "SUCCESSFUL-OUTCOME-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S31-007",
+      "kr": "예상을 뛰어넘는 결과네. 놀랍다.",
+      "en": "It's a result that exceeds expectations. Amazing.",
+      "pattern": "SUCCESSFUL-OUTCOME-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S31-008",
+      "kr": "이런 결과를 바랐는데, 정말 이뤄졌네.",
+      "en": "This is the result we hoped for, and it really happened.",
+      "pattern": "SUCCESSFUL-OUTCOME-EMPHASIS",
+      "form": "aff"
+    }
+  ]
+}

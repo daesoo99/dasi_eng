@@ -1,0 +1,320 @@
+{
+  "stage_id": "Lv1-P1-S04",
+  "title": "미래형 (will)",
+  "description": "미래 시제로 미래의 일이나 의지를 표현합니다. will + 동사원형 구조로 예측이나 결심을 말해보세요.",
+  "grammar_pattern": "주어 + will + 동사원형",
+  "examples": ["I will call you tomorrow.", "It will rain tonight."],
+  "learning_points": "대화에서 즉흥적인 미래 표현이나 약속 등을 연습",
+  "phase": 1,
+  "stage_number": 4,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv1-P2-S04-001",
+      "kr": "나는 축구를 합니다. (v1)",
+      "en": "I play soccer. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-002",
+      "kr": "너는 음악을 좋아합니다. (v1)",
+      "en": "You like music. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-003",
+      "kr": "그는 아침을 먹습니다. (v1)",
+      "en": "He eats breakfast. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-004",
+      "kr": "그녀는 TV를 봅니다. (v1)",
+      "en": "She watches TV. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-005",
+      "kr": "그것은 빨리 달립니다. (v1)",
+      "en": "It runs fast. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-006",
+      "kr": "우리는 영어를 공부합니다. (v1)",
+      "en": "We study English. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-007",
+      "kr": "그들은 열심히 일합니다. (v1)",
+      "en": "They work hard. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-008",
+      "kr": "나는 책을 읽습니다. (v1)",
+      "en": "I read books. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-009",
+      "kr": "너는 학교에 갑니다. (v1)",
+      "en": "You go to school. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-010",
+      "kr": "그는 물을 마십니다. (v1)",
+      "en": "He drinks water. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-011",
+      "kr": "나는 축구를 합니다. (v2)",
+      "en": "I play soccer. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-012",
+      "kr": "너는 음악을 좋아합니다. (v2)",
+      "en": "You like music. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-013",
+      "kr": "그는 아침을 먹습니다. (v2)",
+      "en": "He eats breakfast. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-014",
+      "kr": "그녀는 TV를 봅니다. (v2)",
+      "en": "She watches TV. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-015",
+      "kr": "그것은 빨리 달립니다. (v2)",
+      "en": "It runs fast. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-016",
+      "kr": "우리는 영어를 공부합니다. (v2)",
+      "en": "We study English. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-017",
+      "kr": "그들은 열심히 일합니다. (v2)",
+      "en": "They work hard. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-018",
+      "kr": "나는 책을 읽습니다. (v2)",
+      "en": "I read books. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-019",
+      "kr": "너는 학교에 갑니다. (v2)",
+      "en": "You go to school. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-020",
+      "kr": "그는 물을 마십니다. (v2)",
+      "en": "He drinks water. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-021",
+      "kr": "나는 축구를 합니다. (v3)",
+      "en": "I play soccer. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-022",
+      "kr": "너는 음악을 좋아합니다. (v3)",
+      "en": "You like music. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-023",
+      "kr": "그는 아침을 먹습니다. (v3)",
+      "en": "He eats breakfast. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-024",
+      "kr": "그녀는 TV를 봅니다. (v3)",
+      "en": "She watches TV. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-025",
+      "kr": "그것은 빨리 달립니다. (v3)",
+      "en": "It runs fast. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-026",
+      "kr": "우리는 영어를 공부합니다. (v3)",
+      "en": "We study English. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-027",
+      "kr": "그들은 열심히 일합니다. (v3)",
+      "en": "They work hard. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-028",
+      "kr": "나는 책을 읽습니다. (v3)",
+      "en": "I read books. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-029",
+      "kr": "너는 학교에 갑니다. (v3)",
+      "en": "You go to school. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-030",
+      "kr": "그는 물을 마십니다. (v3)",
+      "en": "He drinks water. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-031",
+      "kr": "나는 축구를 합니다. (v4)",
+      "en": "I play soccer. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-032",
+      "kr": "너는 음악을 좋아합니다. (v4)",
+      "en": "You like music. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-033",
+      "kr": "그는 아침을 먹습니다. (v4)",
+      "en": "He eats breakfast. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-034",
+      "kr": "그녀는 TV를 봅니다. (v4)",
+      "en": "She watches TV. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-035",
+      "kr": "그것은 빨리 달립니다. (v4)",
+      "en": "It runs fast. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-036",
+      "kr": "우리는 영어를 공부하지 않습니다. (v4)",
+      "en": "We do not study English. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S04-037",
+      "kr": "그들은 열심히 일하지 않습니다. (v4)",
+      "en": "They do not work hard. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S04-038",
+      "kr": "나는 책을 읽지 않습니다. (v4)",
+      "en": "I do not read books. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S04-039",
+      "kr": "너는 학교에 가지 않습니다. (v4)",
+      "en": "You do not go to school. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S04-040",
+      "kr": "그는 물을 마시지 않습니다. (v4)",
+      "en": "He does not drink water. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S04-041",
+      "kr": "나는 축구를 합니다. (v5)",
+      "en": "I play soccer. (variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-042",
+      "kr": "너는 음악을 좋아합니다. (v5)",
+      "en": "You like music. (variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-043",
+      "kr": "그는 아침을 먹습니다. (v5)",
+      "en": "He eats breakfast. (variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-044",
+      "kr": "그녀는 TV를 봅니다. (v5)",
+      "en": "She watches TV. (variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-045",
+      "kr": "그것은 빨리 달립니다. (v5)",
+      "en": "It runs fast. (variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S04-046",
+      "kr": "무엇을 우리는 공부합니까? (v5)",
+      "en": "What do we study? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P2-S04-047",
+      "kr": "누가 열심히 일합니까? (v5)",
+      "en": "Who works hard? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P2-S04-048",
+      "kr": "어디에서 너는 책을 읽습니까? (v5)",
+      "en": "Where do you read books? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P2-S04-049",
+      "kr": "언제 그는 학교에 갑니까? (v5)",
+      "en": "When does he go to school? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P2-S04-050",
+      "kr": "왜 그는 물을 마십니까? (v5)",
+      "en": "Why does he drink water? (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 10,
+    "wh_q": 5
+  },
+  "status": "generated",
+  "batch": "L1_Basic_Batch1"
+}

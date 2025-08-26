@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv2-P2-S06",
+  "title": "빈도 표현 심화",
+  "description": "'How often do you ~?' 형태로 빈도 묻기 질문을 연습하고, 답변으로 Once a week, Twice a month, Every day 같은 표현을 사용합니다.",
+  "grammar_pattern": "How often do you + 동사? / Once/Twice + a week/month",
+  "examples": ["How often do you exercise?", "I exercise three times a week."],
+  "learning_points": "다양한 빈도 표현으로 자신의 습관을 말해 보고, 친구의 생활패턴을 물어보는 질문-응답 훈련",
+  "phase": 2,
+  "stage_number": 6,
+  "count": 0,
+  "sentences": []
+}

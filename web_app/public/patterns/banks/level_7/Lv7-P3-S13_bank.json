@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv7-P3-S13",
+  "title": "이중 수동태",
+  "description": "It is said (that) ~, He is thought to ~ 등의 이중 주어 수동구문을 연습합니다.",
+  "grammar_pattern": "DOUBLE-PASSIVE-CONSTRUCTIONS",
+  "examples": [
+    "It is believed that the new technology will revolutionize the industry.",
+    "The CEO is expected to announce major changes next week.",
+    "It has been reported that sales have increased significantly this quarter."
+  ],
+  "learning_points": "이중 수동태 구문을 통한 공식적이고 객관적인 표현",
+  "phase": 3,
+  "stage_number": 13,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv7-P3-S13-001",
+      "kr": "새로운 기술이 산업에 혁명을 일으킬 것이라고 믿어지고 있다.",
+      "en": "It is believed that the new technology will revolutionize the industry.",
+      "pattern": "DOUBLE-PASSIVE-CONSTRUCTIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P3-S13-002",
+      "kr": "CEO가 다음 주에 대대적인 변화를 발표할 것으로 예상된다.",
+      "en": "The CEO is expected to announce major changes next week.",
+      "pattern": "DOUBLE-PASSIVE-CONSTRUCTIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P3-S13-003",
+      "kr": "이번 분기에 매출이 크게 증가했다고 보고되었다.",
+      "en": "It has been reported that sales have increased significantly this quarter.",
+      "pattern": "DOUBLE-PASSIVE-CONSTRUCTIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P3-S13-004",
+      "kr": "그 과학자가 노벨상을 받을 가능성이 높다고 여겨진다.",
+      "en": "The scientist is considered likely to win the Nobel Prize.",
+      "pattern": "DOUBLE-PASSIVE-CONSTRUCTIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P3-S13-005",
+      "kr": "경제가 내년에 회복될 것이라고 예측되고 있다.",
+      "en": "It is predicted that the economy will recover next year.",
+      "pattern": "DOUBLE-PASSIVE-CONSTRUCTIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P3-S13-006",
+      "kr": "그 정책이 모든 시민들에게 영향을 미치지 않을 것이라고 주장되고 있다.",
+      "en": "It is claimed that the policy will not affect all citizens.",
+      "pattern": "DOUBLE-PASSIVE-CONSTRUCTIONS",
+      "form": "neg"
+    },
+    {
+      "id": "Lv7-P3-S13-007",
+      "kr": "새로운 약물이 부작용 없이 질병을 치료할 수 있다고 알려져 있다.",
+      "en": "The new drug is known to cure the disease without side effects.",
+      "pattern": "DOUBLE-PASSIVE-CONSTRUCTIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P3-S13-008",
+      "kr": "기후 변화가 전 세계적인 문제를 야기하고 있다고 확인되었다.",
+      "en": "It has been confirmed that climate change is causing global problems.",
+      "pattern": "DOUBLE-PASSIVE-CONSTRUCTIONS",
+      "form": "aff"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv9-P2-S10",
+  "title": "가정법+도치 ①",
+  "description": "Had I known... 패턴으로 문장 시작. 예) Had I known, I would have acted differently. 완전히 숙달했는지 점검.",
+  "grammar_pattern": "CONDITIONAL-INVERSION-1",
+  "examples": [
+    "Had I known, I would have acted differently.",
+    "Had we prepared better, the outcome would have been different.",
+    "Had they consulted us, this problem could have been avoided."
+  ],
+  "learning_points": "Had 도치를 사용한 가정법 고급 표현",
+  "phase": 2,
+  "stage_number": 10,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv9-P2-S10-001",
+      "kr": "내가 알았다면, 다르게 행동했을 것입니다.",
+      "en": "Had I known, I would have acted differently.",
+      "pattern": "CONDITIONAL-INVERSION-1",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P2-S10-002",
+      "kr": "우리가 더 잘 준비했다면, 결과가 달랐을 것입니다.",
+      "en": "Had we prepared better, the outcome would have been different.",
+      "pattern": "CONDITIONAL-INVERSION-1",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P2-S10-003",
+      "kr": "그들이 우리와 상담했다면, 이 문제는 피할 수 있었을 것입니다.",
+      "en": "Had they consulted us, this problem could have been avoided.",
+      "pattern": "CONDITIONAL-INVERSION-1",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P2-S10-004",
+      "kr": "내가 더 주의 깊게 봤다면, 실수를 발견했을 것입니다.",
+      "en": "Had I looked more carefully, I would have spotted the mistake.",
+      "pattern": "CONDITIONAL-INVERSION-1",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P2-S10-005",
+      "kr": "우리가 더 빨리 시작했다면, 지금껏 완료했을 것입니다.",
+      "en": "Had we started earlier, we would have finished by now.",
+      "pattern": "CONDITIONAL-INVERSION-1",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P2-S10-006",
+      "kr": "그녀가 진실을 말했다면, 우리는 그녀를 도울 수 있었을 것입니다.",
+      "en": "Had she told the truth, we could have helped her.",
+      "pattern": "CONDITIONAL-INVERSION-1",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P2-S10-007",
+      "kr": "날씨가 더 좋았다면, 야외 행사를 열었을 것입니다.",
+      "en": "Had the weather been better, we would have held the outdoor event.",
+      "pattern": "CONDITIONAL-INVERSION-1",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P2-S10-008",
+      "kr": "내가 상황을 제대로 이해했다면, 다른 접근 방식을 사용했을 것입니다.",
+      "en": "Had I understood the situation properly, I would have used a different approach.",
+      "pattern": "CONDITIONAL-INVERSION-1",
+      "form": "aff"
+    }
+  ]
+}

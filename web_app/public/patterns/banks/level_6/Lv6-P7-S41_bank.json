@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv6-P7-S41",
+  "title": "비즈니스 담화 표현",
+  "description": "in line with, in light of, at stake 등의 비즈니스/공식 표현을 활용합니다. BUSINESS-DISCOURSE-EXPRESSIONS 패턴을 연습합니다.",
+  "grammar_pattern": "BUSINESS-DISCOURSE-EXPRESSIONS",
+  "examples": [
+    "Our results are in line with expectations.",
+    "In light of recent events, we have changed our policy.",
+    "Many jobs are at stake if the deal falls through."
+  ],
+  "learning_points": "전문적이고 격식 있는 비즈니스 표현의 적절한 활용",
+  "phase": 7,
+  "stage_number": 41,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv6-P7-S41-001",
+      "kr": "우리의 결과는 기대에 부합합니다.",
+      "en": "Our results are in line with expectations.",
+      "pattern": "BUSINESS-DISCOURSE-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S41-002",
+      "kr": "최근 사건들을 고려하여 정책을 변경했습니다.",
+      "en": "In light of recent events, we have changed our policy.",
+      "pattern": "BUSINESS-DISCOURSE-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S41-003",
+      "kr": "거래가 무산되면 많은 일자리가 위험에 처합니다.",
+      "en": "Many jobs are at stake if the deal falls through.",
+      "pattern": "BUSINESS-DISCOURSE-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S41-004",
+      "kr": "현재 상황을 고려하여 전략을 재평가해야 합니다.",
+      "en": "In view of the current situation, we need to reassess our strategy.",
+      "pattern": "BUSINESS-DISCOURSE-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S41-005",
+      "kr": "회사의 평판이 이 결정에 달려 있습니다.",
+      "en": "The company's reputation is at stake with this decision.",
+      "pattern": "BUSINESS-DISCOURSE-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S41-006",
+      "kr": "우리의 접근 방식은 업계 표준에 부합합니다.",
+      "en": "Our approach is in line with industry standards.",
+      "pattern": "BUSINESS-DISCOURSE-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S41-007",
+      "kr": "새로운 규정을 고려하여 절차를 업데이트했습니다.",
+      "en": "In light of new regulations, we have updated our procedures.",
+      "pattern": "BUSINESS-DISCOURSE-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S41-008",
+      "kr": "프로젝트의 성공이 우리 미래에 달려 있습니다.",
+      "en": "The success of this project is at stake for our future.",
+      "pattern": "BUSINESS-DISCOURSE-EXPRESSIONS",
+      "form": "aff"
+    }
+  ]
+}

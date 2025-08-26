@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv9-P5-S27",
+  "title": "대구적 어순 변화",
+  "description": "What we need is..., What we must avoid is... 구조 연습. 예) What we need is action. 강조. 대칭적 구조를 통해 중요한 메시지를 강조하는 수사적 기법.",
+  "grammar_pattern": "WHAT-CLAUSES-EMPHASIS",
+  "examples": [
+    "What we need is decisive action.",
+    "What we must avoid is complacency.",
+    "What matters most is customer satisfaction."
+  ],
+  "learning_points": "What 절을 사용한 대구적 강조 구문과 수사적 효과",
+  "phase": 5,
+  "stage_number": 27,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv9-P5-S27-001",
+      "kr": "우리에게 필요한 것은 결단력 있는 행동입니다.",
+      "en": "What we need is decisive action.",
+      "pattern": "WHAT-CLAUSES-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P5-S27-002",
+      "kr": "우리가 피해야 할 것은 안주입니다.",
+      "en": "What we must avoid is complacency.",
+      "pattern": "WHAT-CLAUSES-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P5-S27-003",
+      "kr": "가장 중요한 것은 고객 만족입니다.",
+      "en": "What matters most is customer satisfaction.",
+      "pattern": "WHAT-CLAUSES-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P5-S27-004",
+      "kr": "우리가 추구하는 것은 완벽함입니다.",
+      "en": "What we strive for is excellence.",
+      "pattern": "WHAT-CLAUSES-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P5-S27-005",
+      "kr": "지금 우리에게 필요한 것은 인내입니다.",
+      "en": "What we need right now is patience.",
+      "pattern": "WHAT-CLAUSES-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P5-S27-006",
+      "kr": "우리가 배운 것은 팀워크의 중요성입니다.",
+      "en": "What we learned is the importance of teamwork.",
+      "pattern": "WHAT-CLAUSES-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P5-S27-007",
+      "kr": "진정으로 중요한 것은 결과가 아니라 과정입니다.",
+      "en": "What truly matters is not the result but the process.",
+      "pattern": "WHAT-CLAUSES-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P5-S27-008",
+      "kr": "우리가 원하는 것은 지속 가능한 성장입니다.",
+      "en": "What we want is sustainable growth.",
+      "pattern": "WHAT-CLAUSES-EMPHASIS",
+      "form": "aff"
+    }
+  ]
+}

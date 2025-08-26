@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv8-C4-S22",
+  "title": "분사 삽입구문",
+  "description": "분사를 활용한 삽입구문으로 문장에 생동감과 정보를 추가하는 방법을 연습합니다.",
+  "grammar_pattern": "PARTICIPLE-INSERTION",
+  "examples": [
+    "The team, working tirelessly, completed the project on time.",
+    "The students, having studied hard, performed well on the exam.",
+    "The company, founded in 1990, has grown significantly."
+  ],
+  "learning_points": "분사 삽입구문을 통한 생동감 있는 정보 추가",
+  "phase": 4,
+  "stage_number": 22,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv8-C4-S22-001",
+      "kr": "팀은, 지칠 줄 모르고 일하며, 프로젝트를 제시간에 완료했습니다.",
+      "en": "The team, working tirelessly, completed the project on time.",
+      "pattern": "PARTICIPLE-INSERTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S22-002",
+      "kr": "학생들은, 열심히 공부한 덕분에, 시험에서 좋은 성과를 거두었습니다.",
+      "en": "The students, having studied hard, performed well on the exam.",
+      "pattern": "PARTICIPLE-INSERTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S22-003",
+      "kr": "회사는, 1990년에 설립되어, 크게 성장했습니다.",
+      "en": "The company, founded in 1990, has grown significantly.",
+      "pattern": "PARTICIPLE-INSERTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S22-004",
+      "kr": "관리자는, 신중하게 고려한 후, 최종 결정을 내렸습니다.",
+      "en": "The manager, having considered carefully, made the final decision.",
+      "pattern": "PARTICIPLE-INSERTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S22-005",
+      "kr": "연구진은, 수년간 연구하며, 중요한 발견을 했습니다.",
+      "en": "The researchers, working for years, made an important discovery.",
+      "pattern": "PARTICIPLE-INSERTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S22-006",
+      "kr": "제품은, 철저히 테스트되어, 시장에 출시되었습니다.",
+      "en": "The product, having been thoroughly tested, was launched in the market.",
+      "pattern": "PARTICIPLE-INSERTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S22-007",
+      "kr": "직원들은, 새로운 시스템에 적응하며, 생산성을 향상시켰습니다.",
+      "en": "The employees, adapting to the new system, improved productivity.",
+      "pattern": "PARTICIPLE-INSERTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S22-008",
+      "kr": "계획은, 전문가들에 의해 검토되어, 승인되었습니다.",
+      "en": "The plan, having been reviewed by experts, was approved.",
+      "pattern": "PARTICIPLE-INSERTION",
+      "form": "aff"
+    }
+  ]
+}

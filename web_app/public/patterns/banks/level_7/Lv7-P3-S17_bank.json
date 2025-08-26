@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv7-P3-S17",
+  "title": "능동↔수동 전환 훈련",
+  "description": "한 문장을 능동↔수동으로 바꿔 말하는 연습을 합니다.",
+  "grammar_pattern": "ACTIVE-PASSIVE-TRANSFORMATION",
+  "examples": [
+    "Active: The team completed the project ahead of schedule. / Passive: The project was completed ahead of schedule by the team.",
+    "Active: Scientists have discovered a new treatment. / Passive: A new treatment has been discovered by scientists.",
+    "Passive: The decision will be made by the board. / Active: The board will make the decision."
+  ],
+  "learning_points": "능동태와 수동태 간의 자유로운 전환을 통한 표현 다양성 확보",
+  "phase": 3,
+  "stage_number": 17,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv7-P3-S17-001",
+      "kr": "능동: 팀이 예정보다 일찍 프로젝트를 완료했다. / 수동: 프로젝트가 팀에 의해 예정보다 일찍 완료되었다.",
+      "en": "Active: The team completed the project ahead of schedule. / Passive: The project was completed ahead of schedule by the team.",
+      "pattern": "ACTIVE-PASSIVE-TRANSFORMATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P3-S17-002",
+      "kr": "능동: 과학자들이 새로운 치료법을 발견했다. / 수동: 새로운 치료법이 과학자들에 의해 발견되었다.",
+      "en": "Active: Scientists have discovered a new treatment. / Passive: A new treatment has been discovered by scientists.",
+      "pattern": "ACTIVE-PASSIVE-TRANSFORMATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P3-S17-003",
+      "kr": "수동: 결정이 이사회에 의해 내려질 것이다. / 능동: 이사회가 결정을 내릴 것이다.",
+      "en": "Passive: The decision will be made by the board. / Active: The board will make the decision.",
+      "pattern": "ACTIVE-PASSIVE-TRANSFORMATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P3-S17-004",
+      "kr": "능동: 정부가 새로운 법안을 통과시켰다. / 수동: 새로운 법안이 정부에 의해 통과되었다.",
+      "en": "Active: The government passed the new legislation. / Passive: The new legislation was passed by the government.",
+      "pattern": "ACTIVE-PASSIVE-TRANSFORMATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P3-S17-005",
+      "kr": "수동: 보고서가 전문가들에 의해 분석되고 있다. / 능동: 전문가들이 보고서를 분석하고 있다.",
+      "en": "Passive: The report is being analyzed by experts. / Active: Experts are analyzing the report.",
+      "pattern": "ACTIVE-PASSIVE-TRANSFORMATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P3-S17-006",
+      "kr": "능동: 회사가 새로운 정책을 시행하지 않았다. / 수동: 새로운 정책이 회사에 의해 시행되지 않았다.",
+      "en": "Active: The company didn't implement the new policy. / Passive: The new policy wasn't implemented by the company.",
+      "pattern": "ACTIVE-PASSIVE-TRANSFORMATION",
+      "form": "neg"
+    },
+    {
+      "id": "Lv7-P3-S17-007",
+      "kr": "수동: 문제가 기술팀에 의해 해결될 것이다. / 능동: 기술팀이 문제를 해결할 것이다.",
+      "en": "Passive: The problem will be solved by the technical team. / Active: The technical team will solve the problem.",
+      "pattern": "ACTIVE-PASSIVE-TRANSFORMATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P3-S17-008",
+      "kr": "능동: 연구자들이 중요한 데이터를 수집했다. / 수동: 중요한 데이터가 연구자들에 의해 수집되었다.",
+      "en": "Active: Researchers collected important data. / Passive: Important data was collected by researchers.",
+      "pattern": "ACTIVE-PASSIVE-TRANSFORMATION",
+      "form": "aff"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv6-P7-S38",
+  "title": "의견 강조 어휘",
+  "description": "strongly, firmly, unequivocally 등의 부사와 형용사를 사용하여 의견을 강조합니다. OPINION-EMPHASIS-VOCABULARY 패턴을 연습합니다.",
+  "grammar_pattern": "OPINION-EMPHASIS-VOCABULARY",
+  "examples": [
+    "I strongly support this measure.",
+    "We firmly believe in equal rights.",
+    "I am unequivocally against any form of discrimination."
+  ],
+  "learning_points": "강한 어휘를 통한 의견의 무게 조절과 설득력 강화",
+  "phase": 7,
+  "stage_number": 38,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv6-P7-S38-001",
+      "kr": "저는 이 조치를 강력히 지지합니다.",
+      "en": "I strongly support this measure.",
+      "pattern": "OPINION-EMPHASIS-VOCABULARY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S38-002",
+      "kr": "우리는 평등권을 확고하게 믿습니다.",
+      "en": "We firmly believe in equal rights.",
+      "pattern": "OPINION-EMPHASIS-VOCABULARY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S38-003",
+      "kr": "저는 모든 형태의 차별에 단호히 반대합니다.",
+      "en": "I am unequivocally against any form of discrimination.",
+      "pattern": "OPINION-EMPHASIS-VOCABULARY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S38-004",
+      "kr": "이 프로젝트의 성공을 전적으로 확신합니다.",
+      "en": "I wholeheartedly believe in the success of this project.",
+      "pattern": "OPINION-EMPHASIS-VOCABULARY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S38-005",
+      "kr": "우리는 투명성의 중요성을 강력히 주장합니다.",
+      "en": "We strongly advocate for the importance of transparency.",
+      "pattern": "OPINION-EMPHASIS-VOCABULARY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S38-006",
+      "kr": "이 정책 변경에 확고하게 동의합니다.",
+      "en": "We firmly agree with this policy change.",
+      "pattern": "OPINION-EMPHASIS-VOCABULARY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S38-007",
+      "kr": "품질 관리의 필요성을 절대적으로 지지합니다.",
+      "en": "I absolutely endorse the need for quality control.",
+      "pattern": "OPINION-EMPHASIS-VOCABULARY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S38-008",
+      "kr": "이 결정이 올바르다고 단호하게 믿습니다.",
+      "en": "I categorically believe this decision is correct.",
+      "pattern": "OPINION-EMPHASIS-VOCABULARY",
+      "form": "aff"
+    }
+  ]
+}

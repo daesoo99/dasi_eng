@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv4-P2-S08",
+  "title": "지각동사",
+  "description": "See, Hear, Watch 등의 지각동사 + 목적어 + 동사원형/현재분사/과거분사 구조를 연습합니다. 동사 형태에 따라 의미가 달라짐을 이해하고, 실제 경험을 말하면서 자연스럽게 구사해봅니다.",
+  "grammar_pattern": "지각동사 + 목적어 + 동사원형 (전체 동작) / + ~ing (진행 중) / + p.p. (완료/수동)",
+  "examples": ["I saw him leave the building.", "I heard her singing in the room.", "We watched the game finished."],
+  "learning_points": "지각동사 뒤 동사 형태에 따른 의미 차이와 상황별 사용",
+  "phase": 2,
+  "stage_number": 8,
+  "count": 0,
+  "sentences": []
+}

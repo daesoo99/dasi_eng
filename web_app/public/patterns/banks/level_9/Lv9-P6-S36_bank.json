@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv9-P6-S36",
+  "title": "시간축 조작",
+  "description": "과거, 현재, 미래를 자유자재로 넘나들며 시간의 흐름을 조작하여 강력한 담화 효과를 창출하는 고급 표현 기법.",
+  "grammar_pattern": "TEMPORAL-MANIPULATION",
+  "examples": [
+    "Yesterday's impossibility becomes today's reality and tomorrow's foundation.",
+    "We stand at the crossroads where past experience meets future potential.",
+    "What once seemed distant now feels immediate, and immediacy fades into memory."
+  ],
+  "learning_points": "시간축을 자유롭게 넘나드는 고급 담화 구성과 시제 활용",
+  "phase": 6,
+  "stage_number": 36,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv9-P6-S36-001",
+      "kr": "어제의 불가능이 오늘의 현실이 되고 내일의 기초가 됩니다.",
+      "en": "Yesterday's impossibility becomes today's reality and tomorrow's foundation.",
+      "pattern": "TEMPORAL-MANIPULATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S36-002",
+      "kr": "우리는 과거 경험이 미래 가능성과 만나는 교차로에 서 있습니다.",
+      "en": "We stand at the crossroads where past experience meets future potential.",
+      "pattern": "TEMPORAL-MANIPULATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S36-003",
+      "kr": "한때 멀게 느껴졌던 것이 이제 즉각적으로 느껴지고, 즉각성은 기억 속으로 사라집니다.",
+      "en": "What once seemed distant now feels immediate, and immediacy fades into memory.",
+      "pattern": "TEMPORAL-MANIPULATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S36-004",
+      "kr": "과거를 기억하고, 현재를 살고, 미래를 창조합니다.",
+      "en": "We remember the past, live the present, and create the future.",
+      "pattern": "TEMPORAL-MANIPULATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S36-005",
+      "kr": "시간이 흘러도 변하지 않는 것이 진정한 가치입니다.",
+      "en": "What remains unchanged through time represents true value.",
+      "pattern": "TEMPORAL-MANIPULATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S36-006",
+      "kr": "현재의 결정이 미래의 역사를 쓰고 과거의 의미를 재정의합니다.",
+      "en": "Today's decisions write tomorrow's history and redefine yesterday's meaning.",
+      "pattern": "TEMPORAL-MANIPULATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S36-007",
+      "kr": "시간은 흐르지만 우리의 비전은 영원합니다.",
+      "en": "Time flows, but our vision remains eternal.",
+      "pattern": "TEMPORAL-MANIPULATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S36-008",
+      "kr": "과거에서 배우고, 현재에 집중하며, 미래를 향해 나아갑니다.",
+      "en": "We learn from the past, focus on the present, and move toward the future.",
+      "pattern": "TEMPORAL-MANIPULATION",
+      "form": "aff"
+    }
+  ]
+}

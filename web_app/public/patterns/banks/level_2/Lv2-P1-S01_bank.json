@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv2-P1-S01",
+  "title": "현재진행형 기초",
+  "description": "현재진행형(am/are/is + ~ing)을 배워 지금 하고 있는 행동을 묘사합니다. 현재진행 부정문과 의문문도 함께 연습하여 'Are you ~ing...?' 형태에 익숙해집니다.",
+  "grammar_pattern": "주어 + am/is/are + 동사ing",
+  "examples": ["I am eating lunch now.", "She is not (isn't) studying at the moment."],
+  "learning_points": "현재진행형 긍정/부정/의문문 모든 형태 연습",
+  "phase": 1,
+  "stage_number": 1,
+  "count": 0,
+  "sentences": []
+}

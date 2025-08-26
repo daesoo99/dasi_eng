@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv9-P8-S43",
+  "title": "논리적 추론 체계",
+  "description": "전제에서 결론에 이르는 논리적 추론 과정을 체계적으로 구성하여 설득력 있는 논증을 전개하는 고급 담화 기법.",
+  "grammar_pattern": "LOGICAL-REASONING",
+  "examples": [
+    "Given that A implies B, and B necessitates C, we can conclude that A leads to C.",
+    "Since the premise holds true, and the evidence supports our hypothesis, the conclusion follows logically.",
+    "If we accept the initial assumption, then the subsequent implications become inevitable."
+  ],
+  "learning_points": "체계적인 논리 전개와 추론을 통한 강력한 설득력 구축",
+  "phase": 8,
+  "stage_number": 43,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv9-P8-S43-001",
+      "kr": "A가 B를 의미하고, B가 C를 필요로 한다면, A가 C로 이어진다고 결론지을 수 있습니다.",
+      "en": "Given that A implies B, and B necessitates C, we can conclude that A leads to C.",
+      "pattern": "LOGICAL-REASONING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P8-S43-002",
+      "kr": "전제가 참이고, 증거가 우리 가설을 뒷받침한다면, 결론이 논리적으로 따라옵니다.",
+      "en": "Since the premise holds true, and the evidence supports our hypothesis, the conclusion follows logically.",
+      "pattern": "LOGICAL-REASONING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P8-S43-003",
+      "kr": "초기 가정을 받아들인다면, 이후의 함의들은 불가피해집니다.",
+      "en": "If we accept the initial assumption, then the subsequent implications become inevitable.",
+      "pattern": "LOGICAL-REASONING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P8-S43-004",
+      "kr": "원인과 결과의 관계가 명확하므로, 예측 가능한 결과를 기대할 수 있습니다.",
+      "en": "Since the cause-effect relationship is clear, we can expect predictable outcomes.",
+      "pattern": "LOGICAL-REASONING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P8-S43-005",
+      "kr": "모든 조건이 충족되었으므로, 성공적인 결과가 논리적으로 보장됩니다.",
+      "en": "All conditions being met, successful outcomes are logically guaranteed.",
+      "pattern": "LOGICAL-REASONING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P8-S43-006",
+      "kr": "증거의 무게를 고려할 때, 다른 결론에 도달하기 어렵습니다.",
+      "en": "Considering the weight of evidence, alternative conclusions become difficult to reach.",
+      "pattern": "LOGICAL-REASONING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P8-S43-007",
+      "kr": "논리적 순서를 따르면, 각 단계가 다음 단계를 자연스럽게 도출합니다.",
+      "en": "Following logical sequence, each step naturally leads to the next.",
+      "pattern": "LOGICAL-REASONING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P8-S43-008",
+      "kr": "전제가 견고하고 추론이 타당하므로, 결론의 신뢰성이 확보됩니다.",
+      "en": "With solid premises and valid reasoning, the conclusion's reliability is established.",
+      "pattern": "LOGICAL-REASONING",
+      "form": "aff"
+    }
+  ]
+}

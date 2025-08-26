@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv7-P4-S21",
+  "title": "명사절 that 생략 (구어 vs 문어)",
+  "description": "구어체에서는 that을 종종 생략하고, 문어체나 공식적 말에서는 넣는 연습을 구분합니다.",
+  "grammar_pattern": "THAT-CLAUSE-OMISSION",
+  "examples": [
+    "Informal: I think the meeting went well. / Formal: I believe that the meeting proceeded successfully.",
+    "Informal: She said she would be late. / Formal: She indicated that she would arrive later than expected.",
+    "Informal: We know you're busy. / Formal: We understand that you have numerous commitments."
+  ],
+  "learning_points": "상황에 따른 that절의 적절한 사용과 생략",
+  "phase": 4,
+  "stage_number": 21,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv7-P4-S21-001",
+      "kr": "비공식: 회의가 잘 진행되었다고 생각해. / 공식: 회의가 성공적으로 진행되었다고 믿습니다.",
+      "en": "Informal: I think the meeting went well. / Formal: I believe that the meeting proceeded successfully.",
+      "pattern": "THAT-CLAUSE-OMISSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P4-S21-002",
+      "kr": "비공식: 그녀가 늦을 거라고 말했어. / 공식: 그녀가 예상보다 늦게 도착할 것이라고 표시했습니다.",
+      "en": "Informal: She said she would be late. / Formal: She indicated that she would arrive later than expected.",
+      "pattern": "THAT-CLAUSE-OMISSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P4-S21-003",
+      "kr": "비공식: 네가 바쁘다는 걸 알아. / 공식: 당신이 많은 일정을 가지고 계신다는 것을 이해합니다.",
+      "en": "Informal: We know you're busy. / Formal: We understand that you have numerous commitments.",
+      "pattern": "THAT-CLAUSE-OMISSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P4-S21-004",
+      "kr": "비공식: 그 계획이 효과가 있을 것 같아. / 공식: 그 계획이 효과적일 것이라고 예상합니다.",
+      "en": "Informal: I feel the plan will work. / Formal: I anticipate that the plan will be effective.",
+      "pattern": "THAT-CLAUSE-OMISSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P4-S21-005",
+      "kr": "비공식: 팀이 잘하고 있다고 확신해. / 공식: 팀이 훌륭하게 수행하고 있다고 확신합니다.",
+      "en": "Informal: I'm sure the team is doing great. / Formal: I am confident that the team is performing excellently.",
+      "pattern": "THAT-CLAUSE-OMISSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P4-S21-006",
+      "kr": "비공식: 그들이 참석하지 않을 것 같아. / 공식: 그들이 참석하지 않을 것이라고 의심합니다.",
+      "en": "Informal: I doubt they'll attend. / Formal: I suspect that they will not be in attendance.",
+      "pattern": "THAT-CLAUSE-OMISSION",
+      "form": "neg"
+    },
+    {
+      "id": "Lv7-P4-S21-007",
+      "kr": "비공식: 결과가 긍정적일 거라고 희망해. / 공식: 결과가 긍정적일 것이라고 희망합니다.",
+      "en": "Informal: I hope the results will be positive. / Formal: I hope that the outcomes will be favorable.",
+      "pattern": "THAT-CLAUSE-OMISSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P4-S21-008",
+      "kr": "비공식: 변화가 필요하다는 것에 동의해. / 공식: 변화가 필요하다는 점에 동의합니다.",
+      "en": "Informal: I agree change is needed. / Formal: I concur that changes are necessary.",
+      "pattern": "THAT-CLAUSE-OMISSION",
+      "form": "aff"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv9-P7-S38",
+  "title": "어조 미세 조정",
+  "description": "공식적, 비공식적, 중립적, 감정적 어조를 상황에 맞게 정교하게 조정하여 의도한 분위기와 효과를 창출하는 고급 기법.",
+  "grammar_pattern": "TONE-FINE-TUNING",
+  "examples": [
+    "We regret to inform you vs. Unfortunately, we must tell you vs. Bad news, I'm afraid.",
+    "I would be delighted vs. I'd love to vs. Sure, sounds good.",
+    "This requires immediate attention vs. This needs fixing now vs. Fix this ASAP."
+  ],
+  "learning_points": "상황과 대상에 따른 어조의 정교한 조정과 적절한 표현 선택",
+  "phase": 7,
+  "stage_number": 38,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv9-P7-S38-001",
+      "kr": "알려드리게 되어 유감입니다.",
+      "en": "We regret to inform you of this matter.",
+      "pattern": "TONE-FINE-TUNING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S38-002",
+      "kr": "불행히도 말씀드려야 할 것이 있습니다.",
+      "en": "Unfortunately, we must tell you something.",
+      "pattern": "TONE-FINE-TUNING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S38-003",
+      "kr": "나쁜 소식인데, 죄송합니다.",
+      "en": "Bad news, I'm afraid.",
+      "pattern": "TONE-FINE-TUNING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S38-004",
+      "kr": "기꺼이 참여하겠습니다.",
+      "en": "I would be delighted to participate.",
+      "pattern": "TONE-FINE-TUNING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S38-005",
+      "kr": "정말 좋아요, 참여하고 싶습니다.",
+      "en": "I'd love to be part of it.",
+      "pattern": "TONE-FINE-TUNING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S38-006",
+      "kr": "좋아요, 괜찮은 것 같네요.",
+      "en": "Sure, sounds good to me.",
+      "pattern": "TONE-FINE-TUNING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S38-007",
+      "kr": "즉각적인 주의가 필요합니다.",
+      "en": "This requires immediate attention.",
+      "pattern": "TONE-FINE-TUNING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S38-008",
+      "kr": "지금 당장 고쳐야 합니다.",
+      "en": "This needs fixing right now.",
+      "pattern": "TONE-FINE-TUNING",
+      "form": "aff"
+    }
+  ]
+}

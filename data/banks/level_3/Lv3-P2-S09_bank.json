@@ -1,0 +1,314 @@
+{
+  "stage_id": "Lv3-P2-S09",
+  "title": "조건문 심화 (2형/3형)",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv3-P2-S09-001",
+      "kr": "만약 부자라면 세계여행을 할 텐데요. (확장 1)",
+      "en": "If I were rich, I would travel around the world. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-002",
+      "kr": "만약 일찍 출발했다면 지각하지 않았을 거예요. (확장 1)",
+      "en": "If I had left early, I wouldn't have been late. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-003",
+      "kr": "시간이 있다면 당신을 도와줄 수 있어요. (확장 1)",
+      "en": "If I had time, I could help you. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-004",
+      "kr": "만약 그것을 알았다면 말해줬을 텐데요. (확장 1)",
+      "en": "If I had known that, I would have told you. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-005",
+      "kr": "더 열심히 공부했다면 합격했을 거예요. (확장 1)",
+      "en": "If I had studied harder, I would have passed. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-006",
+      "kr": "만약 날씨가 좋다면 피크닉을 갈 텐데요. (확장 1)",
+      "en": "If the weather were nice, we would go on a picnic. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-007",
+      "kr": "그 조언을 들었다면 실수하지 않았을 거예요. (확장 1)",
+      "en": "If I had listened to the advice, I wouldn't have made mistakes. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-008",
+      "kr": "만약 당신이라면 어떻게 하겠어요? (확장 1)",
+      "en": "What would you do if you were me? (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-009",
+      "kr": "만약 그 기회가 있었다면 잡았을 거예요. (확장 1)",
+      "en": "If I had had the opportunity, I would have taken it. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-010",
+      "kr": "더 젊다면 다시 도전할 텐데요. (확장 1)",
+      "en": "If I were younger, I would try again. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-011",
+      "kr": "만약 부자라면 세계여행을 할 텐데요. (확장 2)",
+      "en": "If I were rich, I would travel around the world. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-012",
+      "kr": "만약 일찍 출발했다면 지각하지 않았을 거예요. (확장 2)",
+      "en": "If I had left early, I wouldn't have been late. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-013",
+      "kr": "시간이 있다면 당신을 도와줄 수 있어요. (확장 2)",
+      "en": "If I had time, I could help you. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-014",
+      "kr": "만약 그것을 알았다면 말해줬을 텐데요. (확장 2)",
+      "en": "If I had known that, I would have told you. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-015",
+      "kr": "더 열심히 공부했다면 합격했을 거예요. (확장 2)",
+      "en": "If I had studied harder, I would have passed. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-016",
+      "kr": "만약 날씨가 좋다면 피크닉을 갈 텐데요. (확장 2)",
+      "en": "If the weather were nice, we would go on a picnic. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-017",
+      "kr": "그 조언을 들었다면 실수하지 않았을 거예요. (확장 2)",
+      "en": "If I had listened to the advice, I wouldn't have made mistakes. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-018",
+      "kr": "만약 당신이라면 어떻게 하겠어요? (확장 2)",
+      "en": "What would you do if you were me? (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-019",
+      "kr": "만약 그 기회가 있었다면 잡았을 거예요. (확장 2)",
+      "en": "If I had had the opportunity, I would have taken it. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-020",
+      "kr": "더 젊다면 다시 도전할 텐데요. (확장 2)",
+      "en": "If I were younger, I would try again. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-021",
+      "kr": "만약 부자라면 세계여행을 할 텐데요. (확장 3)",
+      "en": "If I were rich, I would travel around the world. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-022",
+      "kr": "만약 일찍 출발했다면 지각하지 않았을 거예요. (확장 3)",
+      "en": "If I had left early, I wouldn't have been late. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-023",
+      "kr": "시간이 있다면 당신을 도와줄 수 있어요. (확장 3)",
+      "en": "If I had time, I could help you. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-024",
+      "kr": "만약 그것을 알았다면 말해줬을 텐데요. (확장 3)",
+      "en": "If I had known that, I would have told you. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-025",
+      "kr": "더 열심히 공부했다면 합격했을 거예요. (확장 3)",
+      "en": "If I had studied harder, I would have passed. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-026",
+      "kr": "만약 날씨가 좋다면 피크닉을 갈 텐데요. (확장 3)",
+      "en": "If the weather were nice, we would go on a picnic. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-027",
+      "kr": "그 조언을 들었다면 실수하지 않았을 거예요. (확장 3)",
+      "en": "If I had listened to the advice, I wouldn't have made mistakes. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-028",
+      "kr": "만약 당신이라면 어떻게 하겠어요? (확장 3)",
+      "en": "What would you do if you were me? (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-029",
+      "kr": "만약 그 기회가 있었다면 잡았을 거예요. (확장 3)",
+      "en": "If I had had the opportunity, I would have taken it. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-030",
+      "kr": "더 젊다면 다시 도전할 텐데요. (확장 3)",
+      "en": "If I were younger, I would try again. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P2-S09-031",
+      "kr": "만약 부자라면 세계여행을 할 텐데요. (확장 4)",
+      "en": "If I were rich, I would travel around the world. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P2-S09-032",
+      "kr": "만약 일찍 출발했다면 지각하지 않았을 거예요. (확장 4)",
+      "en": "If I had left early, I wouldn't have been late. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P2-S09-033",
+      "kr": "시간이 있다면 당신을 도와줄 수 있어요. (확장 4)",
+      "en": "If I had time, I could help you. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P2-S09-034",
+      "kr": "만약 그것을 알았다면 말해줬을 텐데요. (확장 4)",
+      "en": "If I had known that, I would have told you. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P2-S09-035",
+      "kr": "더 열심히 공부했다면 합격했을 거예요. (확장 4)",
+      "en": "If I had studied harder, I would have passed. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P2-S09-036",
+      "kr": "만약 날씨가 좋다면 피크닉을 갈 텐데요. (확장 4)",
+      "en": "If the weather were nice, we would go on a picnic. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P2-S09-037",
+      "kr": "그 조언을 들었다면 실수하지 않았을 거예요. (확장 4)",
+      "en": "If I had listened to the advice, I wouldn't have made mistakes. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P2-S09-038",
+      "kr": "만약 당신이라면 어떻게 하겠어요? (확장 4)",
+      "en": "What would you do if you were me? (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P2-S09-039",
+      "kr": "만약 그 기회가 있었다면 잡았을 거예요. (확장 4)",
+      "en": "If I had had the opportunity, I would have taken it. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P2-S09-040",
+      "kr": "더 젊다면 다시 도전할 텐데요. (확장 4)",
+      "en": "If I were younger, I would try again. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P2-S09-041",
+      "kr": "만약 부자라면 세계여행을 할 텐데요. (확장 5)",
+      "en": "If I were rich, I would travel around the world. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P2-S09-042",
+      "kr": "만약 일찍 출발했다면 지각하지 않았을 거예요. (확장 5)",
+      "en": "If I had left early, I wouldn't have been late. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P2-S09-043",
+      "kr": "시간이 있다면 당신을 도와줄 수 있어요. (확장 5)",
+      "en": "If I had time, I could help you. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P2-S09-044",
+      "kr": "만약 그것을 알았다면 말해줬을 텐데요. (확장 5)",
+      "en": "If I had known that, I would have told you. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P2-S09-045",
+      "kr": "더 열심히 공부했다면 합격했을 거예요. (확장 5)",
+      "en": "If I had studied harder, I would have passed. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P2-S09-046",
+      "kr": "만약 날씨가 좋다면 피크닉을 갈 텐데요. (확장 5)",
+      "en": "If the weather were nice, we would go on a picnic. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P2-S09-047",
+      "kr": "그 조언을 들었다면 실수하지 않았을 거예요. (확장 5)",
+      "en": "If I had listened to the advice, I wouldn't have made mistakes. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P2-S09-048",
+      "kr": "만약 당신이라면 어떻게 하겠어요? (확장 5)",
+      "en": "What would you do if you were me? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P2-S09-049",
+      "kr": "만약 그 기회가 있었다면 잡았을 거예요. (확장 5)",
+      "en": "If I had had the opportunity, I would have taken it. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P2-S09-050",
+      "kr": "더 젊다면 다시 도전할 텐데요. (확장 5)",
+      "en": "If I were younger, I would try again. (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10
+  },
+  "status": "generated",
+  "batch": "L3_Completion_Final"
+}
