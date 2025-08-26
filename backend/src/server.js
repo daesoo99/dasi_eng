@@ -3,7 +3,59 @@ const express = require('express');
 const http = require('http');
 const socketIo = require('socket.io');
 const cors = require('cors');
+const pinoHttp = require('pino-http');
+const onFinished = require('on-finished');
+const client = require('prom-client');
 require('dotenv').config();
+
+// Logger and Monitoring setup
+const logger = require('./monitoring/logger');
+const hybridCache = require('./utils/redisCache');
+
+// Prometheus metrics setup
+const Registry = client.Registry;
+const register = new Registry();
+client.collectDefaultMetrics({ register });
+
+// HTTP request duration histogram
+const httpReqDuration = new client.Histogram({
+  name: 'http_request_duration_ms',
+  help: 'HTTP request duration in milliseconds',
+  labelNames: ['method', 'route', 'status_code'],
+  buckets: [50, 100, 200, 400, 800, 1600, 3200]
+});
+register.registerMetric(httpReqDuration);
+
+// Cache hit rate gauge
+const cacheHitRate = new client.Gauge({
+  name: 'cache_hit_rate_total',
+  help: 'Cache hit rate percentage',
+  labelNames: ['cache_type']
+});
+register.registerMetric(cacheHitRate);
+
+// Queue processing metrics
+const queueProcessingTime = new client.Histogram({
+  name: 'queue_processing_time_ms',
+  help: 'Queue task processing time in milliseconds',
+  labelNames: ['queue_type', 'task_type'],
+  buckets: [100, 500, 1000, 2000, 5000, 10000, 30000]
+});
+register.registerMetric(queueProcessingTime);
+
+// API endpoint counter
+const apiRequestsTotal = new client.Counter({
+  name: 'api_requests_total',
+  help: 'Total number of API requests',
+  labelNames: ['method', 'route', 'status_code']
+});
+register.registerMetric(apiRequestsTotal);
+
+// Register queue metrics
+const taskQueue = require('./services/taskQueue');
+register.registerMetric(taskQueue.metrics.queueSize);
+register.registerMetric(taskQueue.metrics.queuePending);
+register.registerMetric(taskQueue.metrics.taskProcessingTime);
 
 // Firebase 초기화 (서비스 계정 키는 config/firebase.js에서 로드)
 const { db, auth, admin } = require('./config/firebase');
@@ -80,6 +132,38 @@ app.use(cors({
 }));
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ limit: '10mb', extended: true }));
+
+// Pino HTTP logger middleware
+app.use(pinoHttp({ 
+  logger,
+  genReqId: () => Math.random().toString(36).substr(2, 9)
+}));
+
+// Request timing and metrics middleware
+app.use((req, res, next) => {
+  const start = Date.now();
+  
+  onFinished(res, () => {
+    const duration = Date.now() - start;
+    const route = req.route?.path || req.path || 'unknown';
+    const statusCode = res.statusCode.toString();
+    
+    // Record metrics
+    httpReqDuration.labels(req.method, route, statusCode).observe(duration);
+    apiRequestsTotal.labels(req.method, route, statusCode).inc();
+    
+    // Performance logging
+    logger.performance(`${req.method} ${route} - ${statusCode}`, {
+      duration,
+      method: req.method,
+      route,
+      statusCode,
+      userAgent: req.get('User-Agent')
+    });
+  });
+  
+  next();
+});
 
 // 요청 로깅 미들웨어 (개발 모드에서만)
 if (process.env.NODE_ENV === 'development') {
@@ -175,6 +259,35 @@ const authenticateFirebaseToken = async (req, res, next) => {
     }
   }
 };
+
+// Prometheus metrics endpoint
+app.get('/metrics', async (req, res) => {
+  try {
+    // Update cache hit rate metrics
+    const cacheStats = hybridCache.getStats();
+    cacheHitRate.labels('redis').set(cacheStats.isRedisEnabled ? 1 : 0);
+    cacheHitRate.labels('local').set(cacheStats.localCacheSize || 0);
+    
+    res.set('Content-Type', register.contentType);
+    res.end(await register.metrics());
+  } catch (error) {
+    logger.error('Failed to generate metrics', error);
+    res.status(500).send('Internal server error');
+  }
+});
+
+// Health check with cache status
+app.get('/health', (req, res) => {
+  const cacheStats = hybridCache.getStats();
+  res.json({ 
+    success: true, 
+    status: 'healthy',
+    timestamp: new Date().toISOString(),
+    cache: cacheStats,
+    availableLevels: [1, 2, 3, 4, 5, 6],
+    features: ['level-1-local', 'personalized-packs', 'scenario-dialogue', 'random-review', 'redis-cache', 'prometheus-metrics']
+  });
+});
 
 // Favicon 처리
 app.get('/favicon.ico', (req, res) => {
