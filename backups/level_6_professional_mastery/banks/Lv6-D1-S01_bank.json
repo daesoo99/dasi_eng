@@ -1,0 +1,725 @@
+{
+  "stage_id": "Lv6-D1-S01",
+  "title": "법률 계약서 작성 및 검토",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv6-D1-S01-001",
+      "kr": "계약 당사자는 다음 조건을 준수해야 합니다. (전문 1)",
+      "en": "The contracting parties shall comply with the following terms. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-002",
+      "kr": "본 계약은 법적 구속력을 갖습니다. (전문 1)",
+      "en": "This agreement shall be legally binding. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-003",
+      "kr": "계약 위반 시 손해배상 책임이 발생합니다. (전문 1)",
+      "en": "Breach of contract shall result in liability for damages. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-004",
+      "kr": "중재 절차를 통해 분쟁을 해결합니다. (전문 1)",
+      "en": "Disputes shall be resolved through arbitration proceedings. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-005",
+      "kr": "관할 법원이 이 계약을 규율합니다. (전문 1)",
+      "en": "The competent court shall govern this contract. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-006",
+      "kr": "면책 조항이 특정 상황에 적용됩니다. (전문 1)",
+      "en": "The indemnity clause applies to specific circumstances. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-007",
+      "kr": "계약 해지 통지는 서면으로 해야 합니다. (전문 1)",
+      "en": "Termination notice shall be provided in writing. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-008",
+      "kr": "보증 조항이 계약서에 명시되어 있습니다. (전문 1)",
+      "en": "Warranty provisions are specified in the contract. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-009",
+      "kr": "신의성실 의무를 위반하지 않아야 합니다. (전문 1)",
+      "en": "Fiduciary duties shall not be breached. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-010",
+      "kr": "법적 선례가 이 사건에 적용됩니다. (전문 1)",
+      "en": "Legal precedent applies to this case. (professional variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-011",
+      "kr": "계약 당사자는 다음 조건을 준수해야 합니다. (전문 2)",
+      "en": "The contracting parties shall comply with the following terms. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-012",
+      "kr": "본 계약은 법적 구속력을 갖습니다. (전문 2)",
+      "en": "This agreement shall be legally binding. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-013",
+      "kr": "계약 위반 시 손해배상 책임이 발생합니다. (전문 2)",
+      "en": "Breach of contract shall result in liability for damages. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-014",
+      "kr": "중재 절차를 통해 분쟁을 해결합니다. (전문 2)",
+      "en": "Disputes shall be resolved through arbitration proceedings. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-015",
+      "kr": "관할 법원이 이 계약을 규율합니다. (전문 2)",
+      "en": "The competent court shall govern this contract. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-016",
+      "kr": "면책 조항이 특정 상황에 적용됩니다. (전문 2)",
+      "en": "The indemnity clause applies to specific circumstances. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-017",
+      "kr": "계약 해지 통지는 서면으로 해야 합니다. (전문 2)",
+      "en": "Termination notice shall be provided in writing. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-018",
+      "kr": "보증 조항이 계약서에 명시되어 있습니다. (전문 2)",
+      "en": "Warranty provisions are specified in the contract. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-019",
+      "kr": "신의성실 의무를 위반하지 않아야 합니다. (전문 2)",
+      "en": "Fiduciary duties shall not be breached. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-020",
+      "kr": "법적 선례가 이 사건에 적용됩니다. (전문 2)",
+      "en": "Legal precedent applies to this case. (professional variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-021",
+      "kr": "계약 당사자는 다음 조건을 준수해야 합니다. (전문 3)",
+      "en": "The contracting parties shall comply with the following terms. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-022",
+      "kr": "본 계약은 법적 구속력을 갖습니다. (전문 3)",
+      "en": "This agreement shall be legally binding. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-023",
+      "kr": "계약 위반 시 손해배상 책임이 발생합니다. (전문 3)",
+      "en": "Breach of contract shall result in liability for damages. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-024",
+      "kr": "중재 절차를 통해 분쟁을 해결합니다. (전문 3)",
+      "en": "Disputes shall be resolved through arbitration proceedings. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-025",
+      "kr": "관할 법원이 이 계약을 규율합니다. (전문 3)",
+      "en": "The competent court shall govern this contract. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-026",
+      "kr": "면책 조항이 특정 상황에 적용됩니다. (전문 3)",
+      "en": "The indemnity clause applies to specific circumstances. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-027",
+      "kr": "계약 해지 통지는 서면으로 해야 합니다. (전문 3)",
+      "en": "Termination notice shall be provided in writing. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-028",
+      "kr": "보증 조항이 계약서에 명시되어 있습니다. (전문 3)",
+      "en": "Warranty provisions are specified in the contract. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-029",
+      "kr": "신의성실 의무를 위반하지 않아야 합니다. (전문 3)",
+      "en": "Fiduciary duties shall not be breached. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-030",
+      "kr": "법적 선례가 이 사건에 적용됩니다. (전문 3)",
+      "en": "Legal precedent applies to this case. (professional variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-031",
+      "kr": "계약 당사자는 다음 조건을 준수해야 합니다. (전문 4)",
+      "en": "The contracting parties shall comply with the following terms. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-032",
+      "kr": "본 계약은 법적 구속력을 갖습니다. (전문 4)",
+      "en": "This agreement shall be legally binding. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-033",
+      "kr": "계약 위반 시 손해배상 책임이 발생합니다. (전문 4)",
+      "en": "Breach of contract shall result in liability for damages. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-034",
+      "kr": "중재 절차를 통해 분쟁을 해결합니다. (전문 4)",
+      "en": "Disputes shall be resolved through arbitration proceedings. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-035",
+      "kr": "관할 법원이 이 계약을 규율합니다. (전문 4)",
+      "en": "The competent court shall govern this contract. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-036",
+      "kr": "면책 조항이 특정 상황에 적용됩니다. (전문 4)",
+      "en": "The indemnity clause applies to specific circumstances. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-037",
+      "kr": "계약 해지 통지는 서면으로 해야 합니다. (전문 4)",
+      "en": "Termination notice shall be provided in writing. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-038",
+      "kr": "보증 조항이 계약서에 명시되어 있습니다. (전문 4)",
+      "en": "Warranty provisions are specified in the contract. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-039",
+      "kr": "신의성실 의무를 위반하지 않아야 합니다. (전문 4)",
+      "en": "Fiduciary duties shall not be breached. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-040",
+      "kr": "법적 선례가 이 사건에 적용됩니다. (전문 4)",
+      "en": "Legal precedent applies to this case. (professional variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-041",
+      "kr": "계약 당사자는 다음 조건을 준수해야 합니다. (전문 5)",
+      "en": "The contracting parties shall comply with the following terms. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-042",
+      "kr": "본 계약은 법적 구속력을 갖습니다. (전문 5)",
+      "en": "This agreement shall be legally binding. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-043",
+      "kr": "계약 위반 시 손해배상 책임이 발생합니다. (전문 5)",
+      "en": "Breach of contract shall result in liability for damages. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-044",
+      "kr": "중재 절차를 통해 분쟁을 해결합니다. (전문 5)",
+      "en": "Disputes shall be resolved through arbitration proceedings. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-045",
+      "kr": "관할 법원이 이 계약을 규율합니다. (전문 5)",
+      "en": "The competent court shall govern this contract. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-046",
+      "kr": "면책 조항이 특정 상황에 적용됩니다. (전문 5)",
+      "en": "The indemnity clause applies to specific circumstances. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-047",
+      "kr": "계약 해지 통지는 서면으로 해야 합니다. (전문 5)",
+      "en": "Termination notice shall be provided in writing. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-048",
+      "kr": "보증 조항이 계약서에 명시되어 있습니다. (전문 5)",
+      "en": "Warranty provisions are specified in the contract. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-049",
+      "kr": "신의성실 의무를 위반하지 않아야 합니다. (전문 5)",
+      "en": "Fiduciary duties shall not be breached. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    },
+    {
+      "id": "Lv6-D1-S01-050",
+      "kr": "법적 선례가 이 사건에 적용됩니다. (전문 5)",
+      "en": "Legal precedent applies to this case. (professional variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "CONDITIONAL-MIXED-LEGAL",
+        "PASSIVE-LEGAL",
+        "COMPLEX-NOUN-CLAUSES",
+        "LEGAL-MODALS"
+      ],
+      "professional_level": "C2",
+      "domain": "LAW"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10
+  },
+  "grammar_meta": [
+    "CONDITIONAL-MIXED-LEGAL",
+    "PASSIVE-LEGAL",
+    "COMPLEX-NOUN-CLAUSES",
+    "LEGAL-MODALS"
+  ],
+  "domain_vocabulary": [
+    "plaintiff, defendant, litigation, arbitration, jurisdiction, precedent, statute, regulation, compliance, fiduciary"
+  ],
+  "professional_level": "C2",
+  "domain": "LAW",
+  "status": "generated",
+  "batch": "L6_Professional_Batch1"
+}

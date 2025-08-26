@@ -1,0 +1,504 @@
+{
+  "level_2_basic_tenses": {
+    "title": "Level 2 - 기본 시제 확장과 일상 회화",
+    "description": "시제를 확장하여 현재진행형과 과거/미래 진행형을 배우고, 조동사로 능력·조언·의무를 표현합니다. 의문문 활용을 늘리고 일상생활 상황별 회화를 본격적으로 연습합니다.",
+    "total_phases": 4,
+    "total_stages": 20,
+    "revision_info": {
+      "date": "2025-08-21",
+      "reason": "새로운 20단계 Phase 시스템 적용 - 진행형 시제와 일상 회화 중심",
+      "changes": "4개 Phase, 20개 Stage로 재구성하여 진행형부터 실생활 Q&A까지 체계적 학습"
+    },
+    "phase_1": {
+      "title": "진행형 시제 완전 정복 (Conquering Continuous Tenses)",
+      "description": "현재진행형, 과거진행형, 미래진행형을 단계적으로 학습하여 시제의 완전한 이해를 목표로 합니다",
+      "stages": 5,
+      "grammar_focus": "현재진행형, 과거진행형, 미래진행형, WH-질문과 진행형",
+      "stage_1": {
+        "stage_id": "Lv2-P1-S01",
+        "title": "현재진행형 기초",
+        "description": "현재진행형(am/are/is + ~ing)을 배워 지금 하고 있는 행동을 묘사합니다. 현재진행 부정문과 의문문도 함께 연습합니다.",
+        "grammar_focus": "현재진행형 (am/are/is + ~ing)",
+        "pattern": "주어 + am/are/is + 동사ing",
+        "sentence_variations": {
+          "basic_statements": [
+            {"en": "I am eating lunch now", "ko": "나는 지금 점심을 먹고 있어"},
+            {"en": "She is studying at the moment", "ko": "그녀는 지금 공부하고 있어"},
+            {"en": "We are watching TV", "ko": "우리는 TV를 보고 있어"},
+            {"en": "He is reading a book", "ko": "그는 책을 읽고 있어"},
+            {"en": "They are playing soccer", "ko": "그들은 축구를 하고 있어"},
+            {"en": "I am working on my computer", "ko": "나는 컴퓨터로 일하고 있어"},
+            {"en": "She is cooking dinner", "ko": "그녀는 저녁을 요리하고 있어"},
+            {"en": "We are learning English", "ko": "우리는 영어를 배우고 있어"},
+            {"en": "He is listening to music", "ko": "그는 음악을 듣고 있어"},
+            {"en": "They are walking to school", "ko": "그들은 학교로 걸어가고 있어"}
+          ],
+          "negative_statements": [
+            {"en": "I am not sleeping", "ko": "나는 자고 있지 않아"},
+            {"en": "She is not studying", "ko": "그녀는 공부하고 있지 않아"},
+            {"en": "We are not eating", "ko": "우리는 먹고 있지 않아"},
+            {"en": "He is not working", "ko": "그는 일하고 있지 않아"},
+            {"en": "They are not playing", "ko": "그들은 놀고 있지 않아"}
+          ],
+          "questions": [
+            {"en": "Are you eating?", "ko": "너는 먹고 있니?"},
+            {"en": "Is she studying?", "ko": "그녀는 공부하고 있니?"},
+            {"en": "Are they playing?", "ko": "그들은 놀고 있니?"},
+            {"en": "Am I doing this right?", "ko": "내가 이것을 제대로 하고 있니?"},
+            {"en": "Is he listening?", "ko": "그는 듣고 있니?"}
+          ]
+        }
+      },
+      "stage_2": {
+        "stage_id": "Lv2-P1-S02",
+        "title": "현재진행형 응용",
+        "description": "WH-질문과 결합하여 진행형을 확장합니다. What/Where are you doing 형태의 질문과 답변을 연습합니다.",
+        "grammar_focus": "WH-질문 + 현재진행형",
+        "pattern": "What/Where + are/is + 주어 + 동사ing?",
+        "sentence_variations": {
+          "wh_questions": [
+            {"en": "What are you doing now?", "ko": "지금 뭐 하고 있어?"},
+            {"en": "Where are you going?", "ko": "어디 가고 있어?"},
+            {"en": "What is she reading?", "ko": "그녀는 뭘 읽고 있어?"},
+            {"en": "Where is he working?", "ko": "그는 어디서 일하고 있어?"},
+            {"en": "What are they watching?", "ko": "그들은 뭘 보고 있어?"}
+          ],
+          "answers": [
+            {"en": "I am going to the store", "ko": "나는 가게에 가고 있어"},
+            {"en": "She is reading a novel", "ko": "그녀는 소설을 읽고 있어"},
+            {"en": "He is working at home", "ko": "그는 집에서 일하고 있어"},
+            {"en": "We are studying English", "ko": "우리는 영어를 공부하고 있어"},
+            {"en": "They are eating pizza", "ko": "그들은 피자를 먹고 있어"}
+          ]
+        }
+      },
+      "stage_3": {
+        "stage_id": "Lv2-P1-S03",
+        "title": "과거진행형",
+        "description": "과거진행형(was/were + ing)을 익혀 과거의 한 시점에 진행 중이던 행동을 말합니다. 과거진행 의문문도 연습합니다.",
+        "grammar_focus": "과거진행형 (was/were + ~ing)",
+        "pattern": "주어 + was/were + 동사ing",
+        "sentence_variations": {
+          "basic_statements": [
+            {"en": "I was sleeping at 10 pm", "ko": "나는 10시에 자고 있었어"},
+            {"en": "She was studying last night", "ko": "그녀는 어젯밤에 공부하고 있었어"},
+            {"en": "We were watching a movie", "ko": "우리는 영화를 보고 있었어"},
+            {"en": "He was cooking dinner", "ko": "그는 저녁을 요리하고 있었어"},
+            {"en": "They were playing games", "ko": "그들은 게임을 하고 있었어"}
+          ],
+          "negative_statements": [
+            {"en": "I was not listening", "ko": "나는 듣고 있지 않았어"},
+            {"en": "She was not working", "ko": "그녀는 일하고 있지 않았어"},
+            {"en": "We were not eating", "ko": "우리는 먹고 있지 않았어"}
+          ],
+          "questions": [
+            {"en": "What were you doing?", "ko": "너는 뭘 하고 있었어?"},
+            {"en": "Were you sleeping?", "ko": "너는 자고 있었어?"},
+            {"en": "Was she studying?", "ko": "그녀는 공부하고 있었어?"}
+          ]
+        }
+      },
+      "stage_4": {
+        "stage_id": "Lv2-P1-S04",
+        "title": "미래진행형",
+        "description": "미래진행형(will be + ing)을 배워 미래의 특정 시점에 진행될 행동을 표현합니다.",
+        "grammar_focus": "미래진행형 (will be + ~ing)",
+        "pattern": "주어 + will be + 동사ing",
+        "sentence_variations": {
+          "basic_statements": [
+            {"en": "I will be working tomorrow", "ko": "나는 내일 일하고 있을 거야"},
+            {"en": "She will be studying tonight", "ko": "그녀는 오늘 밤 공부하고 있을 거야"},
+            {"en": "We will be traveling next week", "ko": "우리는 다음 주에 여행하고 있을 거야"},
+            {"en": "He will be sleeping at midnight", "ko": "그는 자정에 자고 있을 거야"},
+            {"en": "They will be playing soccer", "ko": "그들은 축구를 하고 있을 거야"}
+          ],
+          "questions": [
+            {"en": "Will you be working?", "ko": "너는 일하고 있을 거야?"},
+            {"en": "What will she be doing?", "ko": "그녀는 뭘 하고 있을 거야?"},
+            {"en": "Where will they be going?", "ko": "그들은 어디에 가고 있을 거야?"}
+          ]
+        }
+      },
+      "stage_5": {
+        "stage_id": "Lv2-P1-S05",
+        "title": "진행형 종합 연습",
+        "description": "현재, 과거, 미래 진행형을 종합적으로 연습하여 시제의 차이를 명확히 구분합니다.",
+        "grammar_focus": "진행형 시제 종합 (현재/과거/미래)",
+        "pattern": "시제별 진행형 비교 연습",
+        "sentence_variations": {
+          "time_comparison": [
+            {"en": "I am eating now", "ko": "나는 지금 먹고 있어"},
+            {"en": "I was eating yesterday", "ko": "나는 어제 먹고 있었어"},
+            {"en": "I will be eating tomorrow", "ko": "나는 내일 먹고 있을 거야"},
+            {"en": "She is working today", "ko": "그녀는 오늘 일하고 있어"},
+            {"en": "She was working last week", "ko": "그녀는 지난주에 일하고 있었어"},
+            {"en": "She will be working next month", "ko": "그녀는 다음 달에 일하고 있을 거야"}
+          ]
+        }
+      }
+    },
+    "phase_2": {
+      "title": "빈도부사와 습관 표현 (Frequency Adverbs & Habits)",
+      "description": "빈도부사를 사용해 습관을 말하고, 일상 루틴을 설명하는 연습을 합니다",
+      "stages": 4,
+      "grammar_focus": "빈도부사, 일상 루틴, How often 질문",
+      "stage_6": {
+        "stage_id": "Lv2-P2-S06",
+        "title": "빈도부사 기초",
+        "description": "Always, usually, often, sometimes, never 등의 빈도부사를 배워 습관을 표현합니다.",
+        "grammar_focus": "빈도부사 (always, usually, often, sometimes, never)",
+        "pattern": "주어 + 빈도부사 + 동사",
+        "sentence_variations": {
+          "frequency_expressions": [
+            {"en": "I always wake up early", "ko": "나는 항상 일찍 일어나"},
+            {"en": "She usually eats breakfast", "ko": "그녀는 보통 아침을 먹어"},
+            {"en": "We often watch movies", "ko": "우리는 자주 영화를 봐"},
+            {"en": "He sometimes plays guitar", "ko": "그는 가끔 기타를 쳐"},
+            {"en": "They never smoke", "ko": "그들은 절대 담배를 피우지 않아"},
+            {"en": "I usually go to bed at 11", "ko": "나는 보통 11시에 잠자리에 들어"},
+            {"en": "She always drinks coffee", "ko": "그녀는 항상 커피를 마셔"},
+            {"en": "We sometimes eat out", "ko": "우리는 가끔 외식해"},
+            {"en": "He often reads books", "ko": "그는 자주 책을 읽어"},
+            {"en": "They never arrive late", "ko": "그들은 절대 늦게 도착하지 않아"}
+          ]
+        }
+      },
+      "stage_7": {
+        "stage_id": "Lv2-P2-S07",
+        "title": "How often 질문",
+        "description": "How often으로 빈도를 묻는 질문을 연습하고, Once a week, Twice a month 같은 표현으로 답변합니다.",
+        "grammar_focus": "How often 질문과 빈도 표현",
+        "pattern": "How often do you + 동사?",
+        "sentence_variations": {
+          "frequency_questions": [
+            {"en": "How often do you exercise?", "ko": "얼마나 자주 운동해?"},
+            {"en": "How often do you study English?", "ko": "얼마나 자주 영어 공부해?"},
+            {"en": "How often do you go shopping?", "ko": "얼마나 자주 쇼핑 가?"},
+            {"en": "How often do you visit your family?", "ko": "얼마나 자주 가족을 만나?"},
+            {"en": "How often do you eat fast food?", "ko": "얼마나 자주 패스트푸드를 먹어?"}
+          ],
+          "frequency_answers": [
+            {"en": "I exercise three times a week", "ko": "나는 일주일에 세 번 운동해"},
+            {"en": "I study English every day", "ko": "나는 매일 영어 공부해"},
+            {"en": "I go shopping once a month", "ko": "나는 한 달에 한 번 쇼핑 가"},
+            {"en": "I visit my family twice a month", "ko": "나는 한 달에 두 번 가족을 만나"},
+            {"en": "I eat fast food once a week", "ko": "나는 일주일에 한 번 패스트푸드를 먹어"}
+          ]
+        }
+      },
+      "stage_8": {
+        "stage_id": "Lv2-P2-S08",
+        "title": "일상 루틴 설명",
+        "description": "현재형+빈도부사 조합으로 자신의 일상을 서술합니다. 하루 일과를 5-6개 문장으로 연결해 말해봅니다.",
+        "grammar_focus": "일상 루틴 표현 (현재형 + 빈도부사)",
+        "pattern": "I usually + 동사... / I often + 동사...",
+        "sentence_variations": {
+          "daily_routine": [
+            {"en": "I usually go to work at 9", "ko": "나는 보통 9시에 출근해"},
+            {"en": "I have lunch at 12", "ko": "나는 12시에 점심을 먹어"},
+            {"en": "I often watch TV in the evening", "ko": "나는 저녁에 자주 TV를 봐"},
+            {"en": "I always brush my teeth before bed", "ko": "나는 잠자기 전에 항상 양치해"},
+            {"en": "I sometimes read books at night", "ko": "나는 밤에 가끔 책을 읽어"},
+            {"en": "I usually wake up at 7", "ko": "나는 보통 7시에 일어나"},
+            {"en": "I never skip breakfast", "ko": "나는 절대 아침을 거르지 않아"},
+            {"en": "I often exercise after work", "ko": "나는 퇴근 후에 자주 운동해"},
+            {"en": "I always check my email", "ko": "나는 항상 이메일을 확인해"},
+            {"en": "I usually go to bed at 11", "ko": "나는 보통 11시에 잠자리에 들어"}
+          ]
+        }
+      },
+      "stage_9": {
+        "stage_id": "Lv2-P2-S09",
+        "title": "빈도부사 + 진행형",
+        "description": "진행형과 빈도부사를 함께 써서 불평이나 강조의 뉘앙스를 배웁니다.",
+        "grammar_focus": "빈도부사 + 진행형 (강조/불평)",
+        "pattern": "주어 + be + always/constantly + 동사ing",
+        "sentence_variations": {
+          "emphasis_complaints": [
+            {"en": "He is always playing games", "ko": "그는 항상 게임만 해 (불평)"},
+            {"en": "She is constantly checking her phone", "ko": "그녀는 계속 폰만 확인해"},
+            {"en": "They are always making noise", "ko": "그들은 항상 시끄럽게 해"},
+            {"en": "I am constantly working", "ko": "나는 계속 일만 해"},
+            {"en": "He is always complaining", "ko": "그는 항상 불평만 해"},
+            {"en": "She is constantly studying", "ko": "그녀는 계속 공부만 해"},
+            {"en": "They are always arguing", "ko": "그들은 항상 다투기만 해"},
+            {"en": "I am always forgetting things", "ko": "나는 항상 깜빡해"},
+            {"en": "He is constantly eating", "ko": "그는 계속 먹기만 해"},
+            {"en": "She is always smiling", "ko": "그녀는 항상 웃고 있어 (긍정적)"}
+          ]
+        }
+      }
+    },
+    "phase_3": {
+      "title": "조동사 마스터 (Modal Verbs Mastery)",
+      "description": "Can, Should, Must, Have to 등의 조동사로 능력, 조언, 의무를 표현합니다",
+      "stages": 4,
+      "grammar_focus": "조동사 (can, should, must, have to)",
+      "stage_10": {
+        "stage_id": "Lv2-P3-S10",
+        "title": "Can - 능력과 가능성",
+        "description": "Can을 사용해 능력과 가능성을 표현합니다. Can의 부정형 Cannot/Can't도 연습합니다.",
+        "grammar_focus": "Can (능력, 가능성, 허가)",
+        "pattern": "주어 + can + 동사원형",
+        "sentence_variations": {
+          "ability": [
+            {"en": "I can speak English", "ko": "나는 영어를 할 수 있어"},
+            {"en": "She can play piano", "ko": "그녀는 피아노를 칠 수 있어"},
+            {"en": "We can solve this problem", "ko": "우리는 이 문제를 해결할 수 있어"},
+            {"en": "He can drive a car", "ko": "그는 차를 운전할 수 있어"},
+            {"en": "They can cook very well", "ko": "그들은 요리를 아주 잘 할 수 있어"}
+          ],
+          "negative": [
+            {"en": "I cannot swim", "ko": "나는 수영할 수 없어"},
+            {"en": "She can't understand", "ko": "그녀는 이해할 수 없어"},
+            {"en": "We can't finish today", "ko": "우리는 오늘 끝낼 수 없어"}
+          ],
+          "questions": [
+            {"en": "Can you help me?", "ko": "나를 도와줄 수 있어?"},
+            {"en": "Can she come tomorrow?", "ko": "그녀는 내일 올 수 있어?"},
+            {"en": "Can we start now?", "ko": "우리 지금 시작할 수 있어?"}
+          ]
+        }
+      },
+      "stage_11": {
+        "stage_id": "Lv2-P3-S11",
+        "title": "Should - 조언과 권고",
+        "description": "Should를 사용해 조언과 권고를 표현합니다. Should not의 부정 표현도 연습합니다.",
+        "grammar_focus": "Should (조언, 권고)",
+        "pattern": "주어 + should + 동사원형",
+        "sentence_variations": {
+          "advice": [
+            {"en": "You should study harder", "ko": "너는 더 열심히 공부해야 해"},
+            {"en": "She should see a doctor", "ko": "그녀는 의사를 만나야 해"},
+            {"en": "We should leave early", "ko": "우리는 일찍 떠나야 해"},
+            {"en": "He should exercise more", "ko": "그는 운동을 더 해야 해"},
+            {"en": "They should be careful", "ko": "그들은 조심해야 해"}
+          ],
+          "negative_advice": [
+            {"en": "You should not smoke", "ko": "너는 담배를 피우면 안 돼"},
+            {"en": "She should not worry", "ko": "그녀는 걱정하면 안 돼"},
+            {"en": "We should not be late", "ko": "우리는 늦으면 안 돼"}
+          ],
+          "questions": [
+            {"en": "Should I call him?", "ko": "내가 그에게 전화해야 할까?"},
+            {"en": "What should we do?", "ko": "우리는 뭘 해야 할까?"},
+            {"en": "Should she wait?", "ko": "그녀는 기다려야 할까?"}
+          ]
+        }
+      },
+      "stage_12": {
+        "stage_id": "Lv2-P3-S12",
+        "title": "Must vs Have to",
+        "description": "Must와 Have to의 의무 표현을 배우고 뉘앙스 차이를 연습합니다.",
+        "grammar_focus": "Must vs Have to (의무 표현)",
+        "pattern": "주어 + must/have to + 동사원형",
+        "sentence_variations": {
+          "must_statements": [
+            {"en": "I must finish this today", "ko": "나는 오늘 이것을 끝내야 해 (강한 의무)"},
+            {"en": "You must be quiet", "ko": "너는 조용해야 해"},
+            {"en": "We must follow the rules", "ko": "우리는 규칙을 따라야 해"},
+            {"en": "She must tell the truth", "ko": "그녀는 진실을 말해야 해"},
+            {"en": "They must arrive on time", "ko": "그들은 시간에 맞춰 도착해야 해"}
+          ],
+          "have_to_statements": [
+            {"en": "I have to work this weekend", "ko": "나는 이번 주말에 일해야 해 (외부 요인)"},
+            {"en": "She has to take medicine", "ko": "그녀는 약을 먹어야 해"},
+            {"en": "We have to pay taxes", "ko": "우리는 세금을 내야 해"},
+            {"en": "He has to attend the meeting", "ko": "그는 회의에 참석해야 해"},
+            {"en": "They have to submit reports", "ko": "그들은 보고서를 제출해야 해"}
+          ]
+        }
+      },
+      "stage_13": {
+        "stage_id": "Lv2-P3-S13",
+        "title": "조동사 종합 연습",
+        "description": "Can/Should/Must/Have to 등을 상황에 맞게 골라 쓰는 연습을 합니다.",
+        "grammar_focus": "조동사 종합 (상황별 활용)",
+        "pattern": "상황에 맞는 조동사 선택",
+        "sentence_variations": {
+          "situation_practice": [
+            {"en": "Can you help me with this?", "ko": "이것 좀 도와줄 수 있어? (도움 요청)"},
+            {"en": "You should rest more", "ko": "너는 더 쉬어야 해 (조언)"},
+            {"en": "You must not smoke here", "ko": "여기서 담배 피우면 안 돼 (금지)"},
+            {"en": "I have to go to work", "ko": "나는 일하러 가야 해 (의무)"},
+            {"en": "She can speak three languages", "ko": "그녀는 세 개 언어를 할 수 있어 (능력)"},
+            {"en": "We should check the schedule", "ko": "우리는 일정을 확인해야 해 (권고)"},
+            {"en": "He must be tired", "ko": "그는 피곤할 거야 (추측)"},
+            {"en": "They have to finish by Friday", "ko": "그들은 금요일까지 끝내야 해 (기한)"}
+          ]
+        }
+      }
+    },
+    "phase_4": {
+      "title": "일상 질문과 대화 (Everyday Questions & Dialogue)",
+      "description": "다양한 WH-질문을 익히고 일상적인 대화 패턴을 연습합니다",
+      "stages": 7,
+      "grammar_focus": "WH-질문, 명령문, 실생활 대화",
+      "stage_14": {
+        "stage_id": "Lv2-P4-S14",
+        "title": "What/Where/When 질문",
+        "description": "기본 Wh-질문 심화로 What/Where/When을 써서 일상적인 정보를 질문합니다.",
+        "grammar_focus": "WH-질문 (What, Where, When)",
+        "pattern": "What/Where/When + do/does/is/are + 주어...?",
+        "sentence_variations": {
+          "what_questions": [
+            {"en": "What is this called?", "ko": "이것을 뭐라고 불러?"},
+            {"en": "What do you do?", "ko": "너는 뭘 해? (직업)"},
+            {"en": "What time is it?", "ko": "몇 시야?"},
+            {"en": "What are you thinking?", "ko": "뭘 생각하고 있어?"},
+            {"en": "What did you eat?", "ko": "뭘 먹었어?"}
+          ],
+          "where_questions": [
+            {"en": "Where do you live?", "ko": "어디에 살아?"},
+            {"en": "Where is your best friend?", "ko": "너의 가장 친한 친구는 어디에 있어?"},
+            {"en": "Where are you from?", "ko": "어디 출신이야?"},
+            {"en": "Where did you go?", "ko": "어디 갔었어?"},
+            {"en": "Where is the bathroom?", "ko": "화장실이 어디야?"}
+          ],
+          "when_questions": [
+            {"en": "When do you wake up?", "ko": "언제 일어나?"},
+            {"en": "When is your birthday?", "ko": "생일이 언제야?"},
+            {"en": "When did you arrive?", "ko": "언제 도착했어?"},
+            {"en": "When will you finish?", "ko": "언제 끝낼 거야?"},
+            {"en": "When should we meet?", "ko": "언제 만날까?"}
+          ]
+        }
+      },
+      "stage_15": {
+        "stage_id": "Lv2-P4-S15",
+        "title": "Why/How 질문",
+        "description": "Why와 How를 사용해 이유와 방법을 묻는 질문을 연습합니다.",
+        "grammar_focus": "WH-질문 (Why, How)",
+        "pattern": "Why/How + do/does/is/are + 주어...?",
+        "sentence_variations": {
+          "why_questions": [
+            {"en": "Why are you late today?", "ko": "오늘 왜 늦었어?"},
+            {"en": "Why do you like this?", "ko": "왜 이걸 좋아해?"},
+            {"en": "Why is she crying?", "ko": "그녀는 왜 울고 있어?"},
+            {"en": "Why did you choose this?", "ko": "왜 이걸 선택했어?"},
+            {"en": "Why can't you come?", "ko": "왜 올 수 없어?"}
+          ],
+          "how_questions": [
+            {"en": "How do you cook this dish?", "ko": "이 요리를 어떻게 해?"},
+            {"en": "How are you today?", "ko": "오늘 어때?"},
+            {"en": "How did you learn English?", "ko": "영어를 어떻게 배웠어?"},
+            {"en": "How can I help you?", "ko": "어떻게 도와줄까?"},
+            {"en": "How much is this?", "ko": "이거 얼마야?"}
+          ]
+        }
+      },
+      "stage_16": {
+        "stage_id": "Lv2-P4-S16",
+        "title": "명령문과 요청",
+        "description": "직접 명령과 공손한 요청을 상황에 맞게 연습합니다.",
+        "grammar_focus": "명령문과 정중한 요청",
+        "pattern": "동사원형... / Please + 동사원형... / Could you...?",
+        "sentence_variations": {
+          "polite_requests": [
+            {"en": "Turn off the light, please", "ko": "불 좀 꺼줘"},
+            {"en": "Please help me with this", "ko": "이것 좀 도와줘"},
+            {"en": "Could you pass the salt?", "ko": "소금 좀 건네줄래?"},
+            {"en": "Please be quiet", "ko": "조용히 해줘"},
+            {"en": "Could you open the window?", "ko": "창문 좀 열어줄래?"}
+          ],
+          "direct_commands": [
+            {"en": "Don't be late tomorrow", "ko": "내일 늦지 마"},
+            {"en": "Close the door", "ko": "문 닫아"},
+            {"en": "Don't forget your homework", "ko": "숙제 잊지 마"},
+            {"en": "Turn right at the corner", "ko": "모퉁이에서 우회전해"},
+            {"en": "Don't touch that", "ko": "그거 만지지 마"}
+          ]
+        }
+      },
+      "stage_17": {
+        "stage_id": "Lv2-P4-S17",
+        "title": "실생활 Q&A 대화",
+        "description": "질문과 명령을 함께 섞어 짧은 대화 시나리오를 연습합니다.",
+        "grammar_focus": "실생활 대화 패턴",
+        "pattern": "질문 → 답변 → 요청 대화 흐름",
+        "sentence_variations": {
+          "restaurant_dialogue": [
+            {"en": "Could you pass the salt?", "ko": "소금 좀 건네줄래?"},
+            {"en": "Sure, here you go", "ko": "물론, 여기 있어"},
+            {"en": "What would you like to order?", "ko": "뭘 주문하시겠어요?"},
+            {"en": "I'll have the pasta, please", "ko": "파스타로 주세요"}
+          ],
+          "home_dialogue": [
+            {"en": "Where should I put this?", "ko": "이걸 어디에 둘까?"},
+            {"en": "Just leave it there", "ko": "그냥 거기 둬"},
+            {"en": "Can you help me clean?", "ko": "청소 도와줄래?"},
+            {"en": "Of course, what should I do?", "ko": "물론, 뭘 할까?"}
+          ]
+        }
+      },
+      "stage_18": {
+        "stage_id": "Lv2-P4-S18",
+        "title": "There is vs It is",
+        "description": "한국인이 자주 혼동하는 There is/are와 It is의 차이를 명확히 합니다.",
+        "grammar_focus": "There is/are vs It is 구분",
+        "pattern": "There is/are + 존재 / It is + 상태/정체성",
+        "sentence_variations": {
+          "there_is_statements": [
+            {"en": "There is a book on the table", "ko": "테이블 위에 책이 있어"},
+            {"en": "There are three cats in the garden", "ko": "정원에 고양이 세 마리가 있어"},
+            {"en": "There is no milk in the fridge", "ko": "냉장고에 우유가 없어"},
+            {"en": "There are many people here", "ko": "여기에 사람이 많아"},
+            {"en": "Is there a bank near here?", "ko": "이 근처에 은행이 있어?"}
+          ],
+          "it_is_statements": [
+            {"en": "It is my phone", "ko": "그건 내 폰이야"},
+            {"en": "It is very cold today", "ko": "오늘 정말 추워"},
+            {"en": "It is important to study", "ko": "공부하는 게 중요해"},
+            {"en": "What is it? It is a pen", "ko": "그게 뭐야? 펜이야"},
+            {"en": "It is time to go", "ko": "갈 시간이야"}
+          ]
+        }
+      },
+      "stage_19": {
+        "stage_id": "Lv2-P4-S19",
+        "title": "This/That 지시어",
+        "description": "This/That/These/Those의 거리감과 단수/복수 구분을 연습합니다.",
+        "grammar_focus": "지시어 (This, That, These, Those)",
+        "pattern": "This/That + 단수명사 / These/Those + 복수명사",
+        "sentence_variations": {
+          "demonstratives": [
+            {"en": "This is my book", "ko": "이건 내 책이야"},
+            {"en": "That is your car", "ko": "저건 너의 차야"},
+            {"en": "These are my keys", "ko": "이것들은 내 열쇠야"},
+            {"en": "Those are their bags", "ko": "저것들은 그들의 가방이야"},
+            {"en": "Is this your phone?", "ko": "이게 너의 폰이야?"},
+            {"en": "Are those your shoes?", "ko": "저것들이 너의 신발이야?"},
+            {"en": "I like this one", "ko": "나는 이걸 좋아해"},
+            {"en": "I prefer that one", "ko": "나는 저걸 더 좋아해"},
+            {"en": "These apples are fresh", "ko": "이 사과들은 신선해"},
+            {"en": "Those flowers are beautiful", "ko": "저 꽃들은 아름다워"}
+          ]
+        }
+      },
+      "stage_20": {
+        "stage_id": "Lv2-P4-S20",
+        "title": "Like 표현과 수량",
+        "description": "like 동사의 세 가지 활용과 How much/How many 수량 표현을 완성합니다.",
+        "grammar_focus": "Like 표현 + 수량 표현",
+        "pattern": "I like + 명사/to부정사/동명사 + 수량 표현",
+        "sentence_variations": {
+          "like_expressions": [
+            {"en": "I like apples", "ko": "나는 사과를 좋아해"},
+            {"en": "I like to read books", "ko": "나는 책 읽는 걸 좋아해"},
+            {"en": "I like reading books", "ko": "나는 책 읽기를 좋아해"},
+            {"en": "She likes to cook", "ko": "그녀는 요리하는 걸 좋아해"},
+            {"en": "We like playing games", "ko": "우리는 게임하는 걸 좋아해"}
+          ],
+          "quantity_expressions": [
+            {"en": "How much water do you need?", "ko": "물이 얼마나 필요해?"},
+            {"en": "How many books do you have?", "ko": "책이 몇 권 있어?"},
+            {"en": "I have some money", "ko": "나는 돈이 좀 있어"},
+            {"en": "There isn't any milk", "ko": "우유가 전혀 없어"},
+            {"en": "I don't have many friends", "ko": "나는 친구가 많지 않아"},
+            {"en": "She has much experience", "ko": "그녀는 경험이 많아"}
+          ]
+        }
+      }
+    }
+  }
+}

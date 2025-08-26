@@ -1,0 +1,82 @@
+{
+  "id": "Lv3-P6-S30",
+  "title": "의견 변경/정정 (On second thought/Actually)",
+  "intent": "생각의 변화나 정정을 자연스럽고 정중하게 표현한다.",
+  "focus": [
+    "OPINION-CHANGE",
+    "CORRECTION",
+    "RECONSIDERATION",
+    "POLITE-ADJUSTMENT"
+  ],
+  "lexset": [
+    "on second thought, actually, come to think of it, wait, correction, change mind, reconsider, realize"
+  ],
+  "traps": [
+    "의견 변경의 정중한 표현",
+    "actually vs in fact",
+    "come to think of it 용법",
+    "실수 정정 vs 의견 변경"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.5,
+    "neg": 0.3,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "변경 이유",
+    "정중함",
+    "확신도",
+    "상황"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "다시 생각해보니 그게 맞는 것 같아요.",
+      "en": "On second thought, I think that's right."
+    },
+    {
+      "kr": "사실 제가 틀렸네요.",
+      "en": "Actually, I was wrong."
+    },
+    {
+      "kr": "생각해보니 더 좋은 방법이 있을 것 같아요.",
+      "en": "Come to think of it, there might be a better way."
+    },
+    {
+      "kr": "잠깐, 그게 아니에요.",
+      "en": "Wait, that's not right."
+    },
+    {
+      "kr": "정정하자면, 어제가 아니라 그제였어요.",
+      "en": "Let me correct that - it was the day before yesterday, not yesterday."
+    },
+    {
+      "kr": "마음을 바꿨어요.",
+      "en": "I've changed my mind."
+    },
+    {
+      "kr": "다시 고려해보겠어요.",
+      "en": "I'll reconsider it."
+    },
+    {
+      "kr": "이제 깨달았는데, 그때 실수했네요.",
+      "en": "I realize now that I made a mistake then."
+    },
+    {
+      "kr": "아, 그렇다면 다른 얘기네요.",
+      "en": "Oh, then that's a different story."
+    },
+    {
+      "kr": "다시 말하지만, 확실하지 않아요.",
+      "en": "Then again, I'm not sure."
+    }
+  ]
+}

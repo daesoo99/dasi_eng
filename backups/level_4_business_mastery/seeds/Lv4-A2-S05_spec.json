@@ -1,0 +1,82 @@
+{
+  "id": "Lv4-A2-S05",
+  "title": "프레젠테이션 도입 및 목적 제시",
+  "intent": "청중의 관심을 끌고 프레젠테이션의 목적과 구조를 명확히 제시하여 효과적인 발표를 시작한다.",
+  "focus": [
+    "PRESENTATION-OPENING",
+    "PURPOSE-STATEMENT",
+    "STRUCTURE-OUTLINE",
+    "AUDIENCE-ENGAGEMENT"
+  ],
+  "lexset": [
+    "presentation, introduce, overview, outline, structure, objective, cover, demonstrate, explain, highlight"
+  ],
+  "traps": [
+    "미래 시제 (I will explain vs I'm going to show)",
+    "순서 표현 (first, then, finally)",
+    "청중 언급 (ladies and gentlemen vs everyone)",
+    "프레젠테이션 용어 정확성"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.8,
+    "neg": 0.1,
+    "wh_q": 0.1
+  },
+  "variants": [
+    "청중 유형",
+    "발표 주제",
+    "격식도",
+    "구조"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "오늘 발표를 시작하겠습니다.",
+      "en": "I'd like to begin today's presentation."
+    },
+    {
+      "kr": "제 소개를 먼저 하겠습니다.",
+      "en": "Let me start by introducing myself."
+    },
+    {
+      "kr": "오늘의 목적은 새로운 제품을 소개하는 것입니다.",
+      "en": "The purpose of today's presentation is to introduce our new product."
+    },
+    {
+      "kr": "세 부분으로 나누어 설명하겠습니다.",
+      "en": "I'll divide this into three parts."
+    },
+    {
+      "kr": "먼저 현재 상황을 살펴보겠습니다.",
+      "en": "First, let's look at the current situation."
+    },
+    {
+      "kr": "이 차트를 보시면 명확해집니다.",
+      "en": "This chart will make it clear."
+    },
+    {
+      "kr": "질문은 발표 후에 받겠습니다.",
+      "en": "I'll take questions after the presentation."
+    },
+    {
+      "kr": "예상 시간은 20분입니다.",
+      "en": "This should take about 20 minutes."
+    },
+    {
+      "kr": "핵심 요점들을 강조하겠습니다.",
+      "en": "I'll highlight the key points."
+    },
+    {
+      "kr": "여러분의 관심을 끌고 싶은 것이 있습니다.",
+      "en": "There's something I'd like to draw your attention to."
+    }
+  ]
+}

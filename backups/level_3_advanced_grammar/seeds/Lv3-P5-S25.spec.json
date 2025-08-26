@@ -1,0 +1,82 @@
+{
+  "id": "Lv3-P5-S25",
+  "title": "경험 공유 심화 (I've been to/I've never)",
+  "intent": "현재완료를 사용하여 다양한 경험을 자연스럽게 공유하고 토론한다.",
+  "focus": [
+    "EXPERIENCE-SHARING",
+    "PRESENT-PERFECT-EXPERIENCE",
+    "NEVER-EVER",
+    "LIFE-EXPERIENCES"
+  ],
+  "lexset": [
+    "been to, visited, tried, experienced, seen, heard, met, done, accomplished, achieved"
+  ],
+  "traps": [
+    "have been to vs have gone to",
+    "ever/never 위치",
+    "경험 vs 완료 구분",
+    "시간 표현 조합"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.5,
+    "neg": 0.3,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "경험 유형",
+    "시간 범위",
+    "감정",
+    "빈도"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "저는 유럽에 가본 적이 있어요.",
+      "en": "I have been to Europe."
+    },
+    {
+      "kr": "그런 음식을 먹어본 적이 없어요.",
+      "en": "I have never tried that kind of food."
+    },
+    {
+      "kr": "그 영화를 본 적이 있나요?",
+      "en": "Have you ever seen that movie?"
+    },
+    {
+      "kr": "저는 스카이다이빙을 해봤어요.",
+      "en": "I have tried skydiving."
+    },
+    {
+      "kr": "그들은 그런 경험을 해본 적이 없습니다.",
+      "en": "They have never had such an experience."
+    },
+    {
+      "kr": "제가 만난 가장 친절한 사람이었어요.",
+      "en": "He was the kindest person I have ever met."
+    },
+    {
+      "kr": "그곳에 몇 번 가본 적이 있어요.",
+      "en": "I have been there several times."
+    },
+    {
+      "kr": "그런 일은 들어본 적이 없어요.",
+      "en": "I have never heard of such a thing."
+    },
+    {
+      "kr": "최근에 흥미로운 책을 읽었어요.",
+      "en": "I have recently read an interesting book."
+    },
+    {
+      "kr": "그 언어를 배운 적이 있나요?",
+      "en": "Have you ever learned that language?"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "Lv5-A1-S03",
+  "title": "연구 방법론 설계",
+  "intent": "연구 목적에 적합한 방법론을 선택하고 체계적인 연구 설계를 제시한다.",
+  "focus": [
+    "METHODOLOGY-DESIGN",
+    "RESEARCH-METHODS",
+    "SYSTEMATIC-APPROACH",
+    "VALIDITY-RELIABILITY"
+  ],
+  "lexset": [
+    "methodology, quantitative, qualitative, systematic, rigorous, validity, reliability, sampling, procedure, protocol"
+  ],
+  "grammar_meta": [
+    "FUTURE-PERFECT",
+    "CONDITIONAL-MIXED",
+    "PASSIVE-METHODOLOGY",
+    "COMPLEX-SENTENCES"
+  ],
+  "academic_level": "C1",
+  "traps": [
+    "방법론 vs 방법 구분",
+    "연구 설계 시제",
+    "타당성/신뢰성 표현",
+    "절차 설명 순서"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "연구 유형",
+    "표본 크기",
+    "분석 방법",
+    "통제 변수"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "체계적인 접근법을 통해 데이터를 수집합니다.",
+      "en": "We collect data through a systematic approach."
+    },
+    {
+      "kr": "연구 설계가 내적 타당성을 보장합니다.",
+      "en": "The research design ensures internal validity."
+    },
+    {
+      "kr": "엄격한 방법론을 적용하여 신뢰성을 확보합니다.",
+      "en": "We ensure reliability by applying rigorous methodology."
+    },
+    {
+      "kr": "표본 선정 절차가 대표성을 보장할 것입니다.",
+      "en": "The sampling procedure will ensure representativeness."
+    },
+    {
+      "kr": "정량적 분석과 정성적 분석을 결합합니다.",
+      "en": "We combine quantitative and qualitative analysis."
+    },
+    {
+      "kr": "연구 프로토콜이 윤리적 기준을 충족합니다.",
+      "en": "The research protocol meets ethical standards."
+    },
+    {
+      "kr": "통제 변수들이 결과에 미치는 영향을 고려합니다.",
+      "en": "We consider the impact of control variables on results."
+    },
+    {
+      "kr": "다단계 분석을 통해 심층적 이해를 도모합니다.",
+      "en": "We promote in-depth understanding through multi-stage analysis."
+    },
+    {
+      "kr": "방법론의 한계점을 명시하고 대안을 제시합니다.",
+      "en": "We specify methodological limitations and present alternatives."
+    },
+    {
+      "kr": "재현 가능한 절차를 통해 연구의 투명성을 확보합니다.",
+      "en": "We ensure research transparency through reproducible procedures."
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "Lv6-D1-S02",
+  "title": "법정 변론 및 법적 논증",
+  "intent": "법정에서 논리적이고 설득력 있는 변론을 하며 법적 근거를 체계적으로 제시한다.",
+  "focus": [
+    "LEGAL-ARGUMENTATION",
+    "COURTROOM-ADVOCACY",
+    "LEGAL-REASONING",
+    "JUDICIAL-PROCEEDINGS"
+  ],
+  "lexset": [
+    "argument, evidence, testimony, witness, objection, sustain, overrule, cross-examination, verdict, judgment"
+  ],
+  "domain_vocabulary": [
+    "admissible, inadmissible, hearsay, perjury, contempt, subpoena, deposition, plea, acquittal, conviction"
+  ],
+  "grammar_meta": [
+    "SUBJUNCTIVE-LEGAL",
+    "COMPLEX-CONDITIONALS",
+    "EVIDENTIAL-MODALS",
+    "LEGAL-DISCOURSE"
+  ],
+  "professional_level": "C2",
+  "domain": "LAW",
+  "traps": [
+    "법정 절차 용어 정확성",
+    "증거 제시 언어",
+    "반대 심문 기법",
+    "법관/배심원 대상 언어"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.5,
+    "neg": 0.3,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "사건 유형",
+    "증거 종류",
+    "변론 전략",
+    "법정 절차"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "증거가 피고의 무죄를 입증합니다.",
+      "en": "The evidence demonstrates the defendant's innocence."
+    },
+    {
+      "kr": "이의를 제기합니다, 재판장님.",
+      "en": "I object, Your Honor."
+    },
+    {
+      "kr": "증인의 증언이 사실과 일치합니다.",
+      "en": "The witness's testimony is consistent with the facts."
+    },
+    {
+      "kr": "반대 심문을 시작하겠습니다.",
+      "en": "I will commence cross-examination."
+    },
+    {
+      "kr": "허위 증언은 위증죄에 해당합니다.",
+      "en": "False testimony constitutes perjury."
+    },
+    {
+      "kr": "배심원 여러분께 호소드립니다.",
+      "en": "I appeal to the members of the jury."
+    },
+    {
+      "kr": "법적 근거가 명확히 제시되었습니다.",
+      "en": "Legal grounds have been clearly established."
+    },
+    {
+      "kr": "소환장이 적법하게 발부되었습니다.",
+      "en": "The subpoena was lawfully issued."
+    },
+    {
+      "kr": "유죄 판결이 내려질 것입니다.",
+      "en": "A conviction will be rendered."
+    },
+    {
+      "kr": "법원의 판단이 공정했습니다.",
+      "en": "The court's judgment was impartial."
+    }
+  ]
+}

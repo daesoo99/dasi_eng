@@ -1,0 +1,102 @@
+{
+  "id": "Lv6-D3-S09",
+  "title": "기술 혁신 및 연구개발",
+  "intent": "기술 혁신을 주도하고 연구개발 프로젝트를 통해 새로운 솔루션을 개발한다.",
+  "focus": [
+    "INNOVATION",
+    "R&D",
+    "TECHNOLOGY-DEVELOPMENT",
+    "INTELLECTUAL-PROPERTY"
+  ],
+  "lexset": [
+    "innovation, breakthrough, prototype, patent, intellectual, property, commercialization, feasibility, viability, disruptive"
+  ],
+  "domain_vocabulary": [
+    "R&D",
+    "proof-of-concept",
+    "MVP",
+    "iteration",
+    "pivot",
+    "scaling",
+    "IP",
+    "licensing",
+    "royalty",
+    "technology-transfer"
+  ],
+  "grammar_meta": [
+    "INNOVATION-CONDITIONALS",
+    "FUTURE-TECHNOLOGY",
+    "COMPLEX-HYPOTHETICALS",
+    "DEVELOPMENT-LANGUAGE"
+  ],
+  "professional_level": "C2",
+  "domain": "ENGINEERING",
+  "traps": [
+    "혁신 vs 개선 구분",
+    "지적 재산권 언어",
+    "상용화 가능성",
+    "기술 이전 표현"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "기술 유형",
+    "혁신 정도",
+    "개발 단계",
+    "상용화"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "혁신적 기술이 개발되었습니다.",
+      "en": "Innovative technology has been developed."
+    },
+    {
+      "kr": "프로토타입 제작이 완료되었습니다.",
+      "en": "Prototype development has been completed."
+    },
+    {
+      "kr": "특허 출원이 진행 중입니다.",
+      "en": "Patent application is in progress."
+    },
+    {
+      "kr": "개념 증명이 성공적이었습니다.",
+      "en": "The proof of concept was successful."
+    },
+    {
+      "kr": "상용화 가능성이 높습니다.",
+      "en": "Commercialization potential is high."
+    },
+    {
+      "kr": "파괴적 혁신의 가능성이 있습니다.",
+      "en": "There is potential for disruptive innovation."
+    },
+    {
+      "kr": "기술 이전 협상이 진행됩니다.",
+      "en": "Technology transfer negotiations are underway."
+    },
+    {
+      "kr": "연구개발 투자가 증가했습니다.",
+      "en": "R&D investment has increased."
+    },
+    {
+      "kr": "지적 재산권이 보호됩니다.",
+      "en": "Intellectual property rights are protected."
+    },
+    {
+      "kr": "최소 기능 제품이 출시되었습니다.",
+      "en": "The minimum viable product has been launched."
+    }
+  ]
+}

@@ -1,0 +1,2226 @@
+{
+  "level": 4,
+  "title": "고급 비즈니스 의사소통",
+  "description": "전문적/비즈니스 상황에서의 고급 표현과 전략적 소통 능력 구축",
+  "total_stages": 24,
+  "total_phases": 6,
+  "revision_info": {
+    "original_stages": 32,
+    "revised_stages": 24,
+    "change_type": "grammar-sequence → situation-based",
+    "revision_date": "2025-08-13",
+    "key_changes": [
+      "문법 나열식 → 비즈니스 상황별 재구성",
+      "32스테이지 → 24스테이지로 최적화",
+      "전문적/학술/협상 상황 중심",
+      "브릿지 스테이지로 L5 표현 조기 도입"
+    ]
+  },
+  "randomization_system": {
+    "description": "비즈니스 상황별 맥락을 유지하면서 다양한 고급 표현 패턴으로 15개 문장 생성",
+    "pattern_consistency": "전문적 상황 맥락 내에서 복합 문법 구조 자연스럽게 연습",
+    "vocabulary_variation": "비즈니스/학술 핵심 어휘 + 상황별 전문 용어 혼합",
+    "context_similarity": "실제 비즈니스 상황에서 발생하는 연속적 대화 패턴"
+  },
+  "phases": [
+    {
+      "phase": 1,
+      "title": "전문적 계획과 예측",
+      "description": "장기 계획, 진행 상황 예측, 복합 조건 시나리오를 통한 전략적 사고 표현",
+      "stages": "1-4"
+    },
+    {
+      "phase": 2,
+      "title": "영향력 있는 의사소통",
+      "description": "팀 관리, 상황 보고, 강조를 통한 리더십과 영향력 행사",
+      "stages": "5-8"
+    },
+    {
+      "phase": 3,
+      "title": "정보 조직화와 설명",
+      "description": "복잡한 정보를 체계적으로 조직하고 효과적으로 전달하는 능력",
+      "stages": "9-12"
+    },
+    {
+      "phase": 4,
+      "title": "전문적 의견 표현",
+      "description": "확신도 조절, 격식 있는 소통, 의견 조율을 통한 전문적 상호작용",
+      "stages": "13-16"
+    },
+    {
+      "phase": 5,
+      "title": "고급 분석과 평가",
+      "description": "비유적 설명, 가치 판단, 상황 분석을 통한 깊이 있는 사고 표현",
+      "stages": "17-20"
+    },
+    {
+      "phase": 6,
+      "title": "전략적 소통과 협상",
+      "description": "설득, 논증, 협상을 통한 목표 달성과 합의 도출",
+      "stages": "21-24"
+    }
+  ],
+  "stages": [
+    {
+      "stage": 1,
+      "stage_id": "Lv4-P1-S01",
+      "phase": 1,
+      "classification": "core",
+      "title": "장기 계획 표현",
+      "situation_context": "사업 계획, 프로젝트 로드맵 발표, 장기 목표 설정 상황에서 미래완료 시제를 활용한 구체적 계획 표현",
+      "primary_functions": [
+        "장기 목표와 달성 시점 명시하기",
+        "프로젝트 완료 예정일 설명하기",
+        "미래 성과 예측 표현하기"
+      ],
+      "key_patterns": [
+        "By + [시점], will have + [p.p.]",
+        "Within + [기간], will have + [p.p.]",
+        "[주체] will have + [p.p.] + by + [deadline]"
+      ],
+      "sentence_variations": {
+        "business_milestones": [
+          {
+            "en": "By 2025, we will have expanded to five countries",
+            "ko": "2025년까지 5개국으로 확장했을 것입니다"
+          },
+          {
+            "en": "Our team will have completed the research phase by December",
+            "ko": "우리 팀은 12월까지 연구 단계를 완료했을 것입니다"
+          },
+          {
+            "en": "The market will have grown significantly by then",
+            "ko": "그때까지 시장이 크게 성장했을 것입니다"
+          },
+          {
+            "en": "We will have established three new partnerships within the year",
+            "ko": "1년 내에 세 개의 새로운 파트너십을 구축했을 것입니다"
+          },
+          {
+            "en": "The technology will have advanced considerably by next quarter",
+            "ko": "다음 분기까지 기술이 상당히 발전했을 것입니다"
+          }
+        ],
+        "financial_projections": [
+          {
+            "en": "Revenue will have doubled within two years",
+            "ko": "2년 내에 수익이 두 배가 되었을 것입니다"
+          },
+          {
+            "en": "We will have reduced costs by 30% by the end of this fiscal year",
+            "ko": "이번 회계연도 말까지 비용을 30% 절감했을 것입니다"
+          },
+          {
+            "en": "The investment will have paid off by the third quarter",
+            "ko": "3분기까지 투자금을 회수했을 것입니다"
+          },
+          {
+            "en": "Profits will have increased substantially by year-end",
+            "ko": "연말까지 수익이 크게 증가했을 것입니다"
+          },
+          {
+            "en": "We will have reached our sales target by November",
+            "ko": "11월까지 판매 목표를 달성했을 것입니다"
+          }
+        ],
+        "project_completion": [
+          {
+            "en": "The project will have reached its final milestone by spring",
+            "ko": "봄까지 프로젝트가 최종 단계에 도달했을 것입니다"
+          },
+          {
+            "en": "All testing phases will have been completed by Friday",
+            "ko": "금요일까지 모든 테스트 단계가 완료되었을 것입니다"
+          },
+          {
+            "en": "The new system will have been fully implemented by month-end",
+            "ko": "월말까지 새 시스템이 완전히 구현되었을 것입니다"
+          },
+          {
+            "en": "We will have launched the product in all major markets",
+            "ko": "모든 주요 시장에서 제품을 출시했을 것입니다"
+          },
+          {
+            "en": "The transition will have been completed smoothly by then",
+            "ko": "그때까지 전환이 순조롭게 완료되었을 것입니다"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "BASIC"
+      ]
+    },
+    {
+      "stage": 2,
+      "stage_id": "Lv4-P1-S02",
+      "phase": 1,
+      "classification": "core",
+      "title": "진행 상황 예측",
+      "situation_context": "프로젝트 진행도 보고, 타임라인 업데이트, 지속적 활동의 누적 효과 설명 상황",
+      "primary_functions": [
+        "지속적 활동의 누적 기간 표현하기",
+        "진행 중인 프로젝트의 미래 상태 예측하기",
+        "장기간 지속될 활동의 효과 설명하기"
+      ],
+      "key_patterns": [
+        "By + [시점], will have been + [ing] + for + [기간]",
+        "will have been + [ing] + since + [시작점]",
+        "By then, + [주체] + will have been + [ing]"
+      ],
+      "sentence_variations": {
+        "career_progress": [
+          {
+            "en": "By December, I'll have been working here for five years",
+            "ko": "12월이면 여기서 5년 동안 일하고 있는 것입니다"
+          },
+          {
+            "en": "She will have been leading this department for a decade",
+            "ko": "그녀는 이 부서를 10년 동안 이끌고 있는 것입니다"
+          },
+          {
+            "en": "We'll have been collaborating with them since 2020",
+            "ko": "2020년부터 그들과 협력하고 있는 것입니다"
+          },
+          {
+            "en": "The team will have been developing this for six months",
+            "ko": "팀이 6개월 동안 이것을 개발하고 있는 것입니다"
+          },
+          {
+            "en": "He will have been managing the project since its inception",
+            "ko": "프로젝트 시작부터 그가 관리하고 있는 것입니다"
+          }
+        ],
+        "operational_continuity": [
+          {
+            "en": "We'll have been testing the system since January",
+            "ko": "1월부터 시스템을 테스트하고 있는 것입니다"
+          },
+          {
+            "en": "The company will have been operating in Asia for a decade",
+            "ko": "회사가 아시아에서 10년 동안 운영하고 있는 것입니다"
+          },
+          {
+            "en": "They will have been collecting data for over a year",
+            "ko": "1년 넘게 데이터를 수집하고 있는 것입니다"
+          },
+          {
+            "en": "We'll have been monitoring the market trends continuously",
+            "ko": "시장 동향을 지속적으로 모니터링하고 있는 것입니다"
+          },
+          {
+            "en": "The research will have been ongoing for three years",
+            "ko": "연구가 3년 동안 진행되고 있는 것입니다"
+          }
+        ],
+        "relationship_building": [
+          {
+            "en": "We'll have been building this partnership for two years",
+            "ko": "2년 동안 이 파트너십을 구축하고 있는 것입니다"
+          },
+          {
+            "en": "The organization will have been expanding its network steadily",
+            "ko": "조직이 네트워크를 꾸준히 확장하고 있는 것입니다"
+          },
+          {
+            "en": "They will have been strengthening customer relationships",
+            "ko": "고객 관계를 강화하고 있는 것입니다"
+          },
+          {
+            "en": "We'll have been investing in talent development consistently",
+            "ko": "인재 개발에 지속적으로 투자하고 있는 것입니다"
+          },
+          {
+            "en": "The brand will have been evolving with market demands",
+            "ko": "브랜드가 시장 요구에 따라 발전하고 있는 것입니다"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "BASIC"
+      ]
+    },
+    {
+      "stage": 3,
+      "stage_id": "Lv4-P1-S03",
+      "phase": 1,
+      "classification": "core",
+      "title": "복합 조건 시나리오",
+      "situation_context": "전략적 계획 수립, 시나리오 분석, 과거 결정이 현재에 미치는 영향 평가 상황",
+      "primary_functions": [
+        "과거 조건과 현재 결과 연결하기",
+        "대안적 시나리오 분석하기",
+        "전략적 의사결정 근거 제시하기"
+      ],
+      "key_patterns": [
+        "If + [past perfect], would + [present]",
+        "If we had + [p.p.], we would + [현재 상황]",
+        "Had + [주어] + [p.p.], + [현재 조건절]"
+      ],
+      "sentence_variations": {
+        "strategic_analysis": [
+          {
+            "en": "If I had started earlier, I would be leading the project now",
+            "ko": "더 일찍 시작했다면 지금 프로젝트를 이끌고 있을 것입니다"
+          },
+          {
+            "en": "If we had invested more, we would have better results today",
+            "ko": "더 많이 투자했다면 오늘 더 나은 결과를 얻었을 것입니다"
+          },
+          {
+            "en": "If the market had been different, we would be expanding now",
+            "ko": "시장이 달랐다면 지금 확장하고 있을 것입니다"
+          },
+          {
+            "en": "If they had agreed initially, we would have launched already",
+            "ko": "처음에 동의했다면 이미 출시했을 것입니다"
+          },
+          {
+            "en": "If I had known then, I would be prepared now",
+            "ko": "그때 알았다면 지금 준비되어 있을 것입니다"
+          }
+        ],
+        "resource_planning": [
+          {
+            "en": "If we had planned better, we would have more resources",
+            "ko": "더 잘 계획했다면 더 많은 자원을 가지고 있을 것입니다"
+          },
+          {
+            "en": "If the budget had been approved, we would be hiring now",
+            "ko": "예산이 승인되었다면 지금 채용하고 있을 것입니다"
+          },
+          {
+            "en": "If technology had advanced sooner, we would be ahead",
+            "ko": "기술이 더 일찍 발전했다면 앞서 있을 것입니다"
+          },
+          {
+            "en": "If the partnership had worked out, we would be profitable",
+            "ko": "파트너십이 성사되었다면 수익을 내고 있을 것입니다"
+          },
+          {
+            "en": "If regulations had been clearer, we would be operating differently",
+            "ko": "규정이 더 명확했다면 다르게 운영하고 있을 것입니다"
+          }
+        ],
+        "market_scenarios": [
+          {
+            "en": "If the economy had been stable, we would be growing faster",
+            "ko": "경제가 안정적이었다면 더 빠르게 성장하고 있을 것입니다"
+          },
+          {
+            "en": "If competition had been less intense, we would have larger market share",
+            "ko": "경쟁이 덜 치열했다면 더 큰 시장 점유율을 가지고 있을 것입니다"
+          },
+          {
+            "en": "If consumer behavior had remained constant, we would be on track",
+            "ko": "소비자 행동이 일정했다면 계획대로 진행되고 있을 것입니다"
+          },
+          {
+            "en": "If the global situation had been favorable, we would be expanding internationally",
+            "ko": "글로벌 상황이 유리했다면 국제적으로 확장하고 있을 것입니다"
+          },
+          {
+            "en": "If the supply chain had been reliable, we would have met demand",
+            "ko": "공급망이 안정적이었다면 수요를 충족했을 것입니다"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "BASIC"
+      ]
+    },
+    {
+      "stage": 4,
+      "stage_id": "Lv4-P1-S04",
+      "phase": 1,
+      "classification": "optional",
+      "title": "대안 조건 표현",
+      "situation_context": "계약 협상, 조건부 제안, 비상 계획 수립에서 다양한 조건 표현 활용",
+      "primary_functions": [
+        "조건 없이 가정하기",
+        "대안적 상황 제시하기",
+        "비상 계획 설명하기"
+      ],
+      "key_patterns": [
+        "Without + [명사], + [결과]",
+        "Otherwise, + [대안]",
+        "In case + [상황], + [대비책]"
+      ],
+      "sentence_variations": {
+        "conditional_requirements": [
+          {
+            "en": "Without proper funding, we cannot proceed with the expansion",
+            "ko": "적절한 자금 없이는 확장을 진행할 수 없습니다"
+          },
+          {
+            "en": "Otherwise, we'll have to consider other strategic options",
+            "ko": "그렇지 않으면 다른 전략적 선택지를 고려해야 합니다"
+          },
+          {
+            "en": "Suppose we increase the budget by 20% for better outcomes",
+            "ko": "더 나은 결과를 위해 예산을 20% 증가시킨다고 가정해봅시다"
+          },
+          {
+            "en": "In case of technical difficulties, we have backup plans ready",
+            "ko": "기술적 어려움이 생길 경우를 대비해 백업 계획이 준비되어 있습니다"
+          },
+          {
+            "en": "Provided that all conditions are met, we'll start immediately",
+            "ko": "모든 조건이 충족되면 즉시 시작하겠습니다"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "BASIC"
+      ]
+    },
+    {
+      "stage": 5,
+      "stage_id": "Lv4-P2-S05",
+      "phase": 2,
+      "classification": "core",
+      "title": "행동 유도하기",
+      "situation_context": "팀 관리, 업무 지시, 협업 조율에서 효과적으로 행동을 유도하는 상황",
+      "primary_functions": [
+        "팀원에게 업무 배정하기",
+        "다른 부서와의 협업 요청하기",
+        "전문가 검토 요청하기"
+      ],
+      "key_patterns": [
+        "Let me have + [사람] + [동사원형] + [대상]",
+        "I'll have + [사람/부서] + [동사원형] + [내용]",
+        "Can you have + [사람] + [동사원형] + [요청사항]?"
+      ],
+      "sentence_variations": {
+        "task_delegation": [
+          {
+            "en": "Let me have John review the financial projections before tomorrow's meeting",
+            "ko": "존에게 내일 회의 전에 재무 예측을 검토하게 할게요"
+          },
+          {
+            "en": "I'll have the marketing team prepare a comprehensive presentation for the client",
+            "ko": "마케팅 팀에게 고객을 위한 종합 프레젠테이션을 준비하게 하겠습니다"
+          },
+          {
+            "en": "Can you have the IT department check the system compatibility issues?",
+            "ko": "IT 부서에서 시스템 호환성 문제를 확인하게 해줄 수 있나요?"
+          },
+          {
+            "en": "We should have legal examine the contract terms thoroughly",
+            "ko": "법무팀에서 계약 조건을 철저히 검토하게 해야 합니다"
+          },
+          {
+            "en": "Let's have the designers create some mockups for the new product line",
+            "ko": "디자이너들에게 새 제품 라인의 목업을 만들게 하죠"
+          }
+        ],
+        "expert_consultation": [
+          {
+            "en": "I'll get the financial analysts to run the numbers on this proposal",
+            "ko": "재무 분석가들에게 이 제안서의 수치를 분석하게 하겠습니다"
+          },
+          {
+            "en": "Have the project manager update the timeline based on current progress",
+            "ko": "프로젝트 매니저에게 현재 진행 상황을 바탕으로 일정을 업데이트하게 하세요"
+          },
+          {
+            "en": "Let me have the technical team evaluate the feasibility of this solution",
+            "ko": "기술팀에게 이 솔루션의 실현 가능성을 평가하게 할게요"
+          },
+          {
+            "en": "I'll have our consultants assess the market potential for this initiative",
+            "ko": "컨설턴트들에게 이 계획의 시장 잠재력을 평가하게 하겠습니다"
+          },
+          {
+            "en": "Can you have the quality assurance team test the prototype thoroughly?",
+            "ko": "품질보증팀에서 프로토타입을 철저히 테스트하게 해줄 수 있나요?"
+          }
+        ],
+        "cross_department_coordination": [
+          {
+            "en": "I'll have sales coordinate with production on the delivery schedule",
+            "ko": "영업팀이 생산팀과 배송 일정을 조율하게 하겠습니다"
+          },
+          {
+            "en": "Let's have HR work with department heads on the restructuring plan",
+            "ko": "인사팀이 부서장들과 구조조정 계획을 진행하게 하죠"
+          },
+          {
+            "en": "Have the procurement team collaborate with finance on budget allocation",
+            "ko": "조달팀이 재무팀과 예산 배분에 협력하게 하세요"
+          },
+          {
+            "en": "I'll get customer service to partner with product development on user feedback",
+            "ko": "고객서비스팀이 제품개발팀과 사용자 피드백을 공유하게 하겠습니다"
+          },
+          {
+            "en": "Can you have operations align with strategy on the implementation timeline?",
+            "ko": "운영팀이 전략팀과 실행 일정을 맞추게 해줄 수 있나요?"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "BASIC"
+      ]
+    },
+    {
+      "stage": 6,
+      "stage_id": "Lv4-P2-S06",
+      "phase": 2,
+      "classification": "core",
+      "title": "관찰과 보고",
+      "situation_context": "상황 보고, 업무 평가, 모니터링 결과를 통한 객관적 관찰 내용 전달",
+      "primary_functions": [
+        "관찰된 상황 객관적으로 보고하기",
+        "진행 과정 묘사하기",
+        "성과와 변화 설명하기"
+      ],
+      "key_patterns": [
+        "I saw/observed + [목적어] + [동사원형/ing]",
+        "We noticed + [목적어] + [ing/being p.p.]",
+        "I heard/watched + [목적어] + [동작]"
+      ],
+      "sentence_variations": {
+        "team_performance": [
+          {
+            "en": "I saw the team working collaboratively on the solution",
+            "ko": "팀이 솔루션에 대해 협력적으로 작업하는 것을 봤습니다"
+          },
+          {
+            "en": "We observed customers responding positively to the changes",
+            "ko": "고객들이 변화에 긍정적으로 반응하는 것을 관찰했습니다"
+          },
+          {
+            "en": "I noticed productivity improving after the training session",
+            "ko": "교육 세션 후 생산성이 향상되는 것을 알아챘습니다"
+          },
+          {
+            "en": "We watched the market reacting favorably to our announcement",
+            "ko": "시장이 우리 발표에 호의적으로 반응하는 것을 지켜봤습니다"
+          },
+          {
+            "en": "I heard employees expressing satisfaction with the new policy",
+            "ko": "직원들이 새 정책에 만족감을 표현하는 것을 들었습니다"
+          }
+        ],
+        "progress_monitoring": [
+          {
+            "en": "We've seen significant progress being made in the last quarter",
+            "ko": "지난 분기에 상당한 진전이 이뤄지는 것을 봤습니다"
+          },
+          {
+            "en": "I observed the system performing better than expected",
+            "ko": "시스템이 예상보다 잘 작동하는 것을 관찰했습니다"
+          },
+          {
+            "en": "We noticed efficiency levels increasing across all departments",
+            "ko": "모든 부서에서 효율성 수준이 증가하는 것을 알아챘습니다"
+          },
+          {
+            "en": "I saw quality standards being maintained despite the pressure",
+            "ko": "압박에도 불구하고 품질 기준이 유지되는 것을 봤습니다"
+          },
+          {
+            "en": "We watched costs decreasing as automation was implemented",
+            "ko": "자동화가 구현되면서 비용이 감소하는 것을 지켜봤습니다"
+          }
+        ],
+        "behavioral_changes": [
+          {
+            "en": "I noticed staff adapting quickly to the new procedures",
+            "ko": "직원들이 새 절차에 빠르게 적응하는 것을 알아챘습니다"
+          },
+          {
+            "en": "We observed communication improving between departments",
+            "ko": "부서 간 의사소통이 개선되는 것을 관찰했습니다"
+          },
+          {
+            "en": "I saw leadership skills developing in several team members",
+            "ko": "여러 팀원들에게서 리더십 기술이 발전하는 것을 봤습니다"
+          },
+          {
+            "en": "We heard positive feedback coming from various stakeholders",
+            "ko": "다양한 이해관계자들로부터 긍정적 피드백이 나오는 것을 들었습니다"
+          },
+          {
+            "en": "I watched confidence levels rising among the sales team",
+            "ko": "영업팀의 자신감 수준이 높아지는 것을 지켜봤습니다"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "BASIC"
+      ]
+    },
+    {
+      "stage": 7,
+      "stage_id": "Lv4-P2-S07",
+      "phase": 2,
+      "classification": "core",
+      "title": "강조와 주목",
+      "situation_context": "프레젠테이션, 중요 사항 강조, 특별한 성과나 상황을 부각시키는 상황",
+      "primary_functions": [
+        "특별한 상황 강조하기",
+        "예외적 성과 부각하기",
+        "청중의 주의 집중시키기"
+      ],
+      "key_patterns": [
+        "Never have I + [p.p.] + such + [명사]",
+        "Not only + [조동사] + [주어] + [동사], but + [추가 내용]",
+        "Only + [조건] + [조동사] + [주어] + [동사]"
+      ],
+      "sentence_variations": {
+        "exceptional_achievements": [
+          {
+            "en": "Never have I seen such dedication from a team",
+            "ko": "팀의 그런 헌신을 본 적이 없습니다"
+          },
+          {
+            "en": "Rarely do we encounter such innovative solutions",
+            "ko": "그런 혁신적인 솔루션을 만나는 일은 드뭅니다"
+          },
+          {
+            "en": "Not only did we meet our targets, but we exceeded them significantly",
+            "ko": "목표를 달성했을 뿐만 아니라 크게 초과 달성했습니다"
+          },
+          {
+            "en": "Seldom have we achieved such remarkable results in such a short time",
+            "ko": "그렇게 짧은 시간에 그런 놀라운 결과를 달성한 적이 거의 없습니다"
+          },
+          {
+            "en": "Only by working together can we succeed in this challenging market",
+            "ko": "함께 일해야만 이 도전적인 시장에서 성공할 수 있습니다"
+          }
+        ],
+        "unique_opportunities": [
+          {
+            "en": "Never before have we faced such an opportunity for growth",
+            "ko": "이전에는 성장을 위한 그런 기회에 직면한 적이 없습니다"
+          },
+          {
+            "en": "Not until now have we fully understood the market potential",
+            "ko": "지금까지 시장 잠재력을 완전히 이해한 적이 없었습니다"
+          },
+          {
+            "en": "Only with proper planning will we achieve our ambitious goals",
+            "ko": "적절한 계획이 있어야만 야심찬 목표를 달성할 수 있습니다"
+          },
+          {
+            "en": "Rarely does the market present such favorable conditions",
+            "ko": "시장이 그렇게 유리한 조건을 제시하는 일은 드뭅니다"
+          },
+          {
+            "en": "Never have market conditions been more suitable for expansion",
+            "ko": "확장에 이보다 더 적합한 시장 상황은 없었습니다"
+          }
+        ],
+        "critical_requirements": [
+          {
+            "en": "Only through innovation can we maintain our competitive edge",
+            "ko": "혁신을 통해서만 경쟁 우위를 유지할 수 있습니다"
+          },
+          {
+            "en": "Not only must we adapt, but we must lead the change",
+            "ko": "적응해야 할 뿐만 아니라 변화를 주도해야 합니다"
+          },
+          {
+            "en": "Never has timing been more crucial for our success",
+            "ko": "우리의 성공에 타이밍이 이보다 더 중요했던 적은 없습니다"
+          },
+          {
+            "en": "Only by embracing technology can we stay relevant",
+            "ko": "기술을 수용해야만 관련성을 유지할 수 있습니다"
+          },
+          {
+            "en": "Seldom do we get a second chance to make such an impact",
+            "ko": "그런 영향을 미칠 두 번째 기회를 얻는 일은 드뭅니다"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "BASIC"
+      ]
+    },
+    {
+      "stage": 8,
+      "stage_id": "Lv4-A2-S08",
+      "phase": 2,
+      "classification": "bridge",
+      "title": "논리적 연결",
+      "situation_context": "복잡한 논리 구조, 체계적 설명에서 고급 연결사를 활용한 논리적 흐름 구성",
+      "primary_functions": [
+        "복합적 논리 관계 표현하기",
+        "대등한 중요도 강조하기",
+        "선택적 상황 명확히 하기"
+      ],
+      "key_patterns": [
+        "not only + [A] + but also + [B]",
+        "both + [A] + and + [B]",
+        "either + [A] + or + [B]"
+      ],
+      "sentence_variations": {
+        "comprehensive_solutions": [
+          {
+            "en": "The solution is not only cost-effective but also environmentally sustainable",
+            "ko": "이 솔루션은 비용 효율적일 뿐만 아니라 환경적으로도 지속가능합니다"
+          },
+          {
+            "en": "We need both immediate action and long-term strategic planning",
+            "ko": "즉각적인 행동과 장기적인 전략 계획이 모두 필요합니다"
+          },
+          {
+            "en": "Either we adapt quickly to market changes or we risk falling behind",
+            "ko": "시장 변화에 빠르게 적응하거나 뒤처질 위험을 감수해야 합니다"
+          },
+          {
+            "en": "Neither rushing the process nor delaying indefinitely will solve the problem",
+            "ko": "과정을 서두르는 것도 무기한 지연하는 것도 문제를 해결하지 못합니다"
+          },
+          {
+            "en": "Both the technology and the market conditions are favorable for launch",
+            "ko": "기술과 시장 상황 모두 출시에 유리합니다"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "BASIC"
+      ]
+    },
+    {
+      "stage": 9,
+      "stage_id": "Lv4-P3-S09",
+      "phase": 3,
+      "classification": "core",
+      "title": "핵심 정보 강조",
+      "situation_context": "요점 전달, 중요 사항 부각, 핵심 메시지를 명확히 전달하는 상황",
+      "primary_functions": [
+        "가장 중요한 포인트 강조하기",
+        "핵심 가치와 목표 명시하기",
+        "우선순위 명확히 하기"
+      ],
+      "key_patterns": [
+        "What matters most is + [핵심 사항]",
+        "What we need to focus on is + [집중 영역]",
+        "What distinguishes us is + [차별화 요소]"
+      ],
+      "sentence_variations": {
+        "priority_setting": [
+          {
+            "en": "What matters most is customer satisfaction and long-term loyalty",
+            "ko": "가장 중요한 것은 고객 만족과 장기적 충성도입니다"
+          },
+          {
+            "en": "What we need to focus on is quality improvement and innovation",
+            "ko": "우리가 집중해야 할 것은 품질 개선과 혁신입니다"
+          },
+          {
+            "en": "What distinguishes us from competitors is our personalized approach",
+            "ko": "경쟁사와 우리를 구별하는 것은 개인화된 접근법입니다"
+          },
+          {
+            "en": "What concerns me most is the timeline pressure affecting quality",
+            "ko": "가장 우려되는 것은 일정 압박이 품질에 미치는 영향입니다"
+          },
+          {
+            "en": "What I find encouraging is the team's commitment to excellence",
+            "ko": "고무적으로 생각하는 것은 팀의 우수성에 대한 헌신입니다"
+          }
+        ],
+        "strategic_focus": [
+          {
+            "en": "What we should prioritize is sustainable growth over rapid expansion",
+            "ko": "우리가 우선시해야 할 것은 급속한 확장보다는 지속가능한 성장입니다"
+          },
+          {
+            "en": "What makes the difference is attention to detail in execution",
+            "ko": "차이를 만드는 것은 실행에서의 세심한 주의입니다"
+          },
+          {
+            "en": "What drives our success is continuous learning and adaptation",
+            "ko": "우리의 성공을 이끄는 것은 지속적인 학습과 적응입니다"
+          },
+          {
+            "en": "What sets us apart is our commitment to ethical business practices",
+            "ko": "우리를 차별화하는 것은 윤리적 비즈니스 관행에 대한 헌신입니다"
+          },
+          {
+            "en": "What I value most is the collaborative spirit within our organization",
+            "ko": "가장 소중히 여기는 것은 조직 내의 협력 정신입니다"
+          }
+        ],
+        "value_proposition": [
+          {
+            "en": "What defines our brand is reliability and trustworthiness",
+            "ko": "우리 브랜드를 정의하는 것은 신뢰성과 믿음직함입니다"
+          },
+          {
+            "en": "What clients appreciate most is our responsive customer service",
+            "ko": "고객들이 가장 높이 평가하는 것은 신속한 고객 서비스입니다"
+          },
+          {
+            "en": "What we excel at is delivering complex projects on time",
+            "ko": "우리가 뛰어난 것은 복잡한 프로젝트를 시간 내에 완료하는 것입니다"
+          },
+          {
+            "en": "What gives us competitive advantage is our specialized expertise",
+            "ko": "경쟁 우위를 주는 것은 우리의 전문 지식입니다"
+          },
+          {
+            "en": "What I'm most proud of is our team's resilience during challenges",
+            "ko": "가장 자랑스럽게 생각하는 것은 어려움 속에서도 팀의 회복력입니다"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "BASIC"
+      ]
+    },
+    {
+      "stage": 10,
+      "stage_id": "Lv4-P3-S10",
+      "phase": 3,
+      "classification": "optional",
+      "title": "간결한 부가 설명",
+      "situation_context": "효율적 정보 전달, 문서 작성에서 축약된 형태로 부가 정보 제공",
+      "primary_functions": [
+        "관련 배경 정보 간결하게 제공하기",
+        "추가 설명이 필요한 대상 명시하기",
+        "문맥상 필요한 정보 효율적으로 전달하기"
+      ],
+      "key_patterns": [
+        "[명사] + [p.p.] + [시간/장소] + [추가 정보]",
+        "[명사] + [현재분사] + [상황] + [결과]",
+        "[명사] + to be + [p.p.] + [조건]"
+      ],
+      "sentence_variations": {
+        "document_references": [
+          {
+            "en": "The proposal submitted yesterday needs immediate review by the board",
+            "ko": "어제 제출된 제안서는 이사회의 즉각적인 검토가 필요합니다"
+          },
+          {
+            "en": "The team working on the project requires additional technical resources",
+            "ko": "프로젝트를 진행하는 팀은 추가적인 기술 자원이 필요합니다"
+          },
+          {
+            "en": "The strategy developed last month is showing positive preliminary results",
+            "ko": "지난달 개발된 전략이 긍정적인 예비 결과를 보이고 있습니다"
+          },
+          {
+            "en": "The clients contacted recently have expressed strong interest in our services",
+            "ko": "최근 연락한 고객들이 우리 서비스에 강한 관심을 표명했습니다"
+          },
+          {
+            "en": "The system implemented last quarter is performing above expectations",
+            "ko": "지난 분기에 구현된 시스템이 기대 이상으로 작동하고 있습니다"
+          }
+        ],
+        "ongoing_activities": [
+          {
+            "en": "The partnership established in January is proving mutually beneficial",
+            "ko": "1월에 구축된 파트너십이 상호 이익이 되는 것으로 입증되고 있습니다"
+          },
+          {
+            "en": "The employees trained in the new procedures are adapting well",
+            "ko": "새 절차에 교육받은 직원들이 잘 적응하고 있습니다"
+          },
+          {
+            "en": "The measures taken to improve efficiency are yielding results",
+            "ko": "효율성 개선을 위해 취한 조치들이 결과를 내고 있습니다"
+          },
+          {
+            "en": "The technology upgraded recently is enhancing our capabilities",
+            "ko": "최근 업그레이드된 기술이 우리의 역량을 향상시키고 있습니다"
+          },
+          {
+            "en": "The feedback received from customers is guiding our improvements",
+            "ko": "고객으로부터 받은 피드백이 우리의 개선을 이끌고 있습니다"
+          }
+        ],
+        "planned_actions": [
+          {
+            "en": "The changes to be implemented will require staff training",
+            "ko": "구현될 변경사항들은 직원 교육을 필요로 할 것입니다"
+          },
+          {
+            "en": "The products to be launched next quarter are already generating interest",
+            "ko": "다음 분기에 출시될 제품들이 이미 관심을 끌고 있습니다"
+          },
+          {
+            "en": "The regulations to be enforced will affect our operations",
+            "ko": "시행될 규정들이 우리 운영에 영향을 미칠 것입니다"
+          },
+          {
+            "en": "The investments to be made will strengthen our market position",
+            "ko": "이뤄질 투자들이 우리의 시장 지위를 강화할 것입니다"
+          },
+          {
+            "en": "The partnerships to be formed will expand our reach",
+            "ko": "형성될 파트너십들이 우리의 영향력을 확대할 것입니다"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "BASIC"
+      ]
+    },
+    {
+      "stage": 11,
+      "stage_id": "Lv4-P3-S11",
+      "phase": 3,
+      "classification": "core",
+      "title": "조건부 부연 설명",
+      "situation_context": "상황별 세부 설명, 맥락 제공에서 축약된 부사절을 활용한 효율적 표현",
+      "primary_functions": [
+        "조건부 상황 간결하게 설명하기",
+        "시간적 맥락 제공하기",
+        "진행 중인 활동의 주의사항 전달하기"
+      ],
+      "key_patterns": [
+        "When + [ing], + [주의사항]",
+        "While + [ing], + [동시 조건]",
+        "If + [p.p.] + properly, + [결과]"
+      ],
+      "sentence_variations": {
+        "operational_guidelines": [
+          {
+            "en": "When reviewing the quarterly results, consider external market factors",
+            "ko": "분기 결과를 검토할 때 외부 시장 요인을 고려하세요"
+          },
+          {
+            "en": "While implementing the changes, maintain current quality standards",
+            "ko": "변경사항을 실행하는 동안 현재 품질 기준을 유지하세요"
+          },
+          {
+            "en": "If approved by the board, the project will commence immediately",
+            "ko": "이사회의 승인을 받으면 프로젝트가 즉시 시작됩니다"
+          },
+          {
+            "en": "Though challenging, the initiative promises significant long-term returns",
+            "ko": "도전적이지만 이 계획은 상당한 장기적 수익을 약속합니다"
+          },
+          {
+            "en": "Before making the final decision, consult with all key stakeholders",
+            "ko": "최종 결정을 내리기 전에 모든 주요 이해관계자와 상의하세요"
+          }
+        ],
+        "process_management": [
+          {
+            "en": "When analyzing the data, look for patterns and anomalies",
+            "ko": "데이터를 분석할 때 패턴과 이상 현상을 찾아보세요"
+          },
+          {
+            "en": "While negotiating the contract, keep our priorities in mind",
+            "ko": "계약을 협상하는 동안 우리의 우선순위를 염두에 두세요"
+          },
+          {
+            "en": "If executed properly, this strategy will yield excellent results",
+            "ko": "제대로 실행되면 이 전략은 훌륭한 결과를 낼 것입니다"
+          },
+          {
+            "en": "Though complex, the solution addresses all our requirements",
+            "ko": "복잡하지만 이 솔루션은 우리의 모든 요구사항을 해결합니다"
+          },
+          {
+            "en": "Before launching the campaign, test it with focus groups",
+            "ko": "캠페인을 시작하기 전에 포커스 그룹으로 테스트하세요"
+          }
+        ],
+        "quality_assurance": [
+          {
+            "en": "When training new employees, emphasize our core values",
+            "ko": "신입 직원을 교육할 때 우리의 핵심 가치를 강조하세요"
+          },
+          {
+            "en": "While expanding operations, don't compromise on service quality",
+            "ko": "운영을 확장하는 동안 서비스 품질을 타협하지 마세요"
+          },
+          {
+            "en": "If managed effectively, this project will set new standards",
+            "ko": "효과적으로 관리되면 이 프로젝트는 새로운 기준을 세울 것입니다"
+          },
+          {
+            "en": "Though resource-intensive, the upgrade is necessary for growth",
+            "ko": "자원 집약적이지만 이 업그레이드는 성장을 위해 필요합니다"
+          },
+          {
+            "en": "Before finalizing the budget, review all cost projections",
+            "ko": "예산을 확정하기 전에 모든 비용 예측을 검토하세요"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "BASIC"
+      ]
+    },
+    {
+      "stage": 12,
+      "stage_id": "Lv4-P3-S12",
+      "phase": 3,
+      "classification": "core",
+      "title": "체계적 정보 전달",
+      "situation_context": "인과관계 설명, 논리적 구조를 통한 체계적이고 명확한 정보 전달",
+      "primary_functions": [
+        "결과와 원인 연결하기",
+        "논리적 순서로 정보 제시하기",
+        "추가 정보와 결론 제공하기"
+      ],
+      "key_patterns": [
+        "This led to + [결과]",
+        "Consequently, + [결론]",
+        "Furthermore/Moreover, + [추가 정보]"
+      ],
+      "sentence_variations": {
+        "cause_and_effect": [
+          {
+            "en": "This initiative led to a 30% increase in operational efficiency",
+            "ko": "이 계획은 운영 효율성을 30% 증가시켰습니다"
+          },
+          {
+            "en": "Consequently, we decided to expand the program to other departments",
+            "ko": "결과적으로 다른 부서로 프로그램을 확대하기로 결정했습니다"
+          },
+          {
+            "en": "As a result of these changes, customer satisfaction scores improved significantly",
+            "ko": "이러한 변화의 결과로 고객 만족도 점수가 크게 향상되었습니다"
+          },
+          {
+            "en": "Therefore, we recommend immediate implementation across all branches",
+            "ko": "따라서 모든 지점에서 즉시 실행할 것을 권장합니다"
+          },
+          {
+            "en": "Subsequently, we observed remarkable improvements in team performance",
+            "ko": "그 후 팀 성과에서 놀라운 개선을 관찰했습니다"
+          }
+        ],
+        "progressive_benefits": [
+          {
+            "en": "Furthermore, the new system reduces operational costs by 25%",
+            "ko": "게다가 새 시스템은 운영 비용을 25% 절감합니다"
+          },
+          {
+            "en": "Moreover, it provides advanced data analytics capabilities",
+            "ko": "또한 고급 데이터 분석 기능을 제공합니다"
+          },
+          {
+            "en": "Additionally, the solution offers excellent scalability for future growth",
+            "ko": "추가로 이 솔루션은 미래 성장을 위한 뛰어난 확장성을 제공합니다"
+          },
+          {
+            "en": "In addition, customer feedback has been overwhelmingly positive",
+            "ko": "더불어 고객 피드백이 압도적으로 긍정적이었습니다"
+          },
+          {
+            "en": "Besides, the implementation timeline is shorter than alternatives",
+            "ko": "게다가 구현 일정이 대안들보다 짧습니다"
+          }
+        ],
+        "comprehensive_analysis": [
+          {
+            "en": "This approach resulted in improved collaboration between teams",
+            "ko": "이 접근법은 팀 간 협력 개선을 가져왔습니다"
+          },
+          {
+            "en": "Thus, we can confidently proceed with the next phase",
+            "ko": "따라서 다음 단계를 자신 있게 진행할 수 있습니다"
+          },
+          {
+            "en": "Hence, the investment has proven to be highly strategic",
+            "ko": "그러므로 이 투자는 매우 전략적임이 입증되었습니다"
+          },
+          {
+            "en": "Accordingly, we're adjusting our resource allocation strategy",
+            "ko": "이에 따라 자원 배분 전략을 조정하고 있습니다"
+          },
+          {
+            "en": "As a consequence, market share has increased substantially",
+            "ko": "결과적으로 시장 점유율이 상당히 증가했습니다"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "BASIC"
+      ]
+    },
+    {
+      "stage": 13,
+      "stage_id": "Lv4-P4-S13",
+      "phase": 4,
+      "classification": "core",
+      "title": "강한 확신 표현",
+      "situation_context": "설득, 확신 전달, 의사결정 지원에서 강력한 확신과 보장을 표현하는 상황",
+      "primary_functions": [
+        "절대적 확신 전달하기",
+        "신뢰성 보장하기",
+        "확실한 결과 예측하기"
+      ],
+      "key_patterns": [
+        "There's no doubt that + [확신 내용]",
+        "I can assure you that + [보장 내용]",
+        "I'm absolutely certain that + [확실한 사실]"
+      ],
+      "sentence_variations": {
+        "strategic_confidence": [
+          {
+            "en": "There's no doubt that this approach will lead to sustainable success",
+            "ko": "이 접근법이 지속가능한 성공으로 이어질 것이라는 것은 의심의 여지가 없습니다"
+          },
+          {
+            "en": "I can assure you that our team is fully prepared for this challenge",
+            "ko": "우리 팀이 이 도전에 완전히 준비되어 있다는 것을 확신할 수 있습니다"
+          },
+          {
+            "en": "I'm absolutely certain that the investment will pay off within two years",
+            "ko": "투자가 2년 내에 결실을 맺을 것이라고 절대적으로 확신합니다"
+          },
+          {
+            "en": "Without question, this is the right strategic direction for our company",
+            "ko": "의심할 여지없이 이것이 우리 회사의 올바른 전략 방향입니다"
+          },
+          {
+            "en": "I'm completely confident in our ability to deliver exceptional results",
+            "ko": "뛰어난 결과를 제공할 우리의 능력을 완전히 확신합니다"
+          }
+        ],
+        "project_assurance": [
+          {
+            "en": "There's no question about the project's long-term viability",
+            "ko": "프로젝트의 장기적 실현 가능성에 대해서는 의문이 없습니다"
+          },
+          {
+            "en": "I can guarantee that we'll meet all the specified requirements",
+            "ko": "명시된 모든 요구사항을 충족할 것이라고 보장할 수 있습니다"
+          },
+          {
+            "en": "I'm certain that our solution addresses every concern raised",
+            "ko": "우리의 솔루션이 제기된 모든 우려사항을 해결한다고 확신합니다"
+          },
+          {
+            "en": "Beyond any doubt, this initiative will strengthen our market position",
+            "ko": "조금의 의심도 없이 이 계획은 우리의 시장 지위를 강화할 것입니다"
+          },
+          {
+            "en": "I can confidently state that the outcomes will exceed expectations",
+            "ko": "결과가 기대를 초과할 것이라고 자신 있게 말할 수 있습니다"
+          }
+        ],
+        "performance_guarantee": [
+          {
+            "en": "There's absolutely no doubt that quality will be maintained",
+            "ko": "품질이 유지될 것이라는 것은 절대적으로 의심의 여지가 없습니다"
+          },
+          {
+            "en": "I can assure you that deadlines will be met without compromise",
+            "ko": "타협 없이 마감일이 지켜질 것이라고 확신할 수 있습니다"
+          },
+          {
+            "en": "I'm thoroughly convinced that this team can handle the complexity",
+            "ko": "이 팀이 복잡성을 처리할 수 있다고 철저히 확신합니다"
+          },
+          {
+            "en": "Without hesitation, I can confirm that safety standards will be exceeded",
+            "ko": "주저 없이 안전 기준이 초과 달성될 것이라고 확인할 수 있습니다"
+          },
+          {
+            "en": "I'm unequivocally certain that customer satisfaction will improve",
+            "ko": "고객 만족도가 향상될 것이라고 명확하게 확신합니다"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "BASIC"
+      ]
+    },
+    {
+      "stage": 14,
+      "stage_id": "Lv4-P4-S14",
+      "phase": 4,
+      "classification": "core",
+      "title": "격식 있는 요청",
+      "situation_context": "공식적 커뮤니케이션, 정중한 제안에서 높은 수준의 예의를 갖춘 요청 표현",
+      "primary_functions": [
+        "매우 정중하게 요청하기",
+        "공식적 협조 구하기",
+        "전문적 관계에서 부탁하기"
+      ],
+      "key_patterns": [
+        "It would be appreciated if + [요청]",
+        "I was wondering if you might + [부탁]",
+        "Would it be possible to + [동사원형]?"
+      ],
+      "sentence_variations": {
+        "formal_requests": [
+          {
+            "en": "It would be appreciated if you could review the proposal by Friday",
+            "ko": "금요일까지 제안서를 검토해 주시면 감사하겠습니다"
+          },
+          {
+            "en": "I was wondering if you might consider our suggestion for improvement",
+            "ko": "개선을 위한 우리의 제안을 고려해 주실 수 있을지 궁금합니다"
+          },
+          {
+            "en": "Would it be possible to extend the deadline by one week?",
+            "ko": "마감일을 일주일 연장하는 것이 가능할까요?"
+          },
+          {
+            "en": "I would be grateful if you could provide additional information",
+            "ko": "추가 정보를 제공해 주시면 감사하겠습니다"
+          },
+          {
+            "en": "It would be helpful if we could schedule a meeting this week",
+            "ko": "이번 주에 회의 일정을 잡을 수 있다면 도움이 될 것입니다"
+          }
+        ],
+        "professional_collaboration": [
+          {
+            "en": "I was hoping you might share your insights on this matter",
+            "ko": "이 문제에 대한 귀하의 통찰을 공유해 주시기를 바랍니다"
+          },
+          {
+            "en": "Would you be so kind as to review the attached documents?",
+            "ko": "첨부된 문서들을 검토해 주실 수 있을까요?"
+          },
+          {
+            "en": "It would be beneficial if we could coordinate our efforts",
+            "ko": "우리의 노력을 조율할 수 있다면 유익할 것입니다"
+          },
+          {
+            "en": "I would appreciate your guidance on the best approach",
+            "ko": "최선의 접근법에 대한 귀하의 지도를 받을 수 있다면 감사하겠습니다"
+          },
+          {
+            "en": "Could you possibly arrange a meeting with the stakeholders?",
+            "ko": "이해관계자들과의 회의를 주선해 주실 수 있을까요?"
+          }
+        ],
+        "expert_consultation": [
+          {
+            "en": "I was wondering if you could lend your expertise to this project",
+            "ko": "이 프로젝트에 귀하의 전문 지식을 빌려주실 수 있을지 궁금합니다"
+          },
+          {
+            "en": "It would be invaluable if you could provide your assessment",
+            "ko": "귀하의 평가를 제공해 주신다면 매우 귀중할 것입니다"
+          },
+          {
+            "en": "Would it be feasible for you to join our advisory board?",
+            "ko": "우리 자문위원회에 참여하시는 것이 가능할까요?"
+          },
+          {
+            "en": "I would be honored if you could consider our partnership proposal",
+            "ko": "우리의 파트너십 제안을 고려해 주신다면 영광이겠습니다"
+          },
+          {
+            "en": "Could we possibly benefit from your experience in this area?",
+            "ko": "이 분야에서 귀하의 경험으로부터 도움을 받을 수 있을까요?"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "BASIC"
+      ]
+    },
+    {
+      "stage": 15,
+      "stage_id": "Lv4-P4-S15",
+      "phase": 4,
+      "classification": "core",
+      "title": "의견 조율과 타협",
+      "situation_context": "협상, 회의, 이해관계 조정에서 상대방의 의견을 인정하면서도 자신의 관점을 제시하는 상황",
+      "primary_functions": [
+        "상대방 의견 부분 인정하기",
+        "대안적 관점 제시하기",
+        "균형잡힌 해결책 모색하기"
+      ],
+      "key_patterns": [
+        "I see your point, but + [다른 관점]",
+        "I agree up to a point, but + [한계점]",
+        "That's + [긍정적 평가], however + [보완점]"
+      ],
+      "sentence_variations": {
+        "acknowledging_concerns": [
+          {
+            "en": "I see your point about the budget constraints, but we should also consider the long-term ROI",
+            "ko": "예산 제약에 대한 귀하의 지적은 이해하지만, 장기적인 투자수익률도 고려해야 합니다"
+          },
+          {
+            "en": "I agree up to a point about the timeline, but there are quality factors we can't compromise",
+            "ko": "일정에 대해서는 어느 정도 동의하지만, 타협할 수 없는 품질 요소들이 있습니다"
+          },
+          {
+            "en": "That's a valid concern about market risks, however, the potential benefits outweigh the uncertainties",
+            "ko": "시장 위험에 대한 우려는 타당하지만, 잠재적 이익이 불확실성보다 큽니다"
+          },
+          {
+            "en": "You raise an important issue about resource allocation, yet we must balance multiple priorities",
+            "ko": "자원 배분에 대해 중요한 문제를 제기하셨지만, 여러 우선순위의 균형을 맞춰야 합니다"
+          },
+          {
+            "en": "I understand your perspective on the implementation challenges, although I think there's another way to approach this",
+            "ko": "구현상의 어려움에 대한 귀하의 관점은 이해하지만, 다른 접근 방법이 있다고 생각합니다"
+          }
+        ],
+        "proposing_alternatives": [
+          {
+            "en": "That's certainly worth considering, but let's also look at some alternative approaches",
+            "ko": "그것도 충분히 고려할 가치가 있지만, 대안적 접근법들도 살펴보죠"
+          },
+          {
+            "en": "I appreciate your viewpoint on cost reduction, nevertheless, we need to maintain service quality",
+            "ko": "비용 절감에 대한 귀하의 관점은 높이 평가하지만, 서비스 품질은 유지해야 합니다"
+          },
+          {
+            "en": "Your concerns about timing are justified, but we can address them through phased implementation",
+            "ko": "타이밍에 대한 우려는 정당하지만, 단계적 실행을 통해 해결할 수 있습니다"
+          },
+          {
+            "en": "I see the merit in your suggestion about staffing, however, we should also consider training existing employees",
+            "ko": "인력 충원에 대한 제안의 장점은 인정하지만, 기존 직원들의 교육도 고려해야 합니다"
+          },
+          {
+            "en": "That's a reasonable approach to risk management, yet we might want to explore more innovative solutions",
+            "ko": "위험 관리에 대한 합리적인 접근이지만, 더 혁신적인 해결책을 모색해볼 수도 있습니다"
+          }
+        ],
+        "seeking_compromise": [
+          {
+            "en": "I understand your position on the budget, but perhaps we can find a middle ground that works for both departments",
+            "ko": "예산에 대한 귀하의 입장은 이해하지만, 양쪽 부서 모두에게 효과적인 절충안을 찾을 수 있을 것입니다"
+          },
+          {
+            "en": "Your timeline concerns are valid, although we might be able to achieve a compromise through resource reallocation",
+            "ko": "일정에 대한 우려는 타당하지만, 자원 재배치를 통해 타협점을 달성할 수 있을 것입니다"
+          },
+          {
+            "en": "I appreciate the technical challenges you've identified, but there may be creative solutions we haven't considered yet",
+            "ko": "제기하신 기술적 과제들은 인정하지만, 아직 고려하지 않은 창의적 해결책이 있을 수 있습니다"
+          },
+          {
+            "en": "That's an important consideration about market readiness, nevertheless, we could test with a smaller pilot program first",
+            "ko": "시장 준비도에 대한 중요한 고려사항이지만, 먼저 소규모 파일럿 프로그램으로 테스트할 수 있습니다"
+          },
+          {
+            "en": "I see your point about regulatory compliance, but we can work together to ensure all requirements are met systematically",
+            "ko": "규제 준수에 대한 지적은 이해하지만, 모든 요구사항을 체계적으로 충족하도록 함께 노력할 수 있습니다"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "BASIC"
+      ]
+    },
+    {
+      "stage": 16,
+      "stage_id": "Lv4-A4-S16",
+      "phase": 4,
+      "classification": "bridge",
+      "title": "논리적 전환",
+      "situation_context": "고급 논증 기법, 논리적 흐름 전환에서 복합적 사고를 표현하는 상황",
+      "primary_functions": [
+        "복잡한 논리적 전환하기",
+        "예외적 상황 제시하기",
+        "반대 논리 도입하기"
+      ],
+      "key_patterns": [
+        "Having said that, + [전환된 내용]",
+        "Nonetheless/Nevertheless, + [대조 내용]",
+        "On the contrary, + [반대 내용]"
+      ],
+      "sentence_variations": {
+        "sophisticated_transitions": [
+          {
+            "en": "Having said that, we must also consider the long-term implications",
+            "ko": "그렇긴 하지만, 장기적인 함의도 고려해야 합니다"
+          },
+          {
+            "en": "Nonetheless, the fundamental strategy remains sound and viable",
+            "ko": "그럼에도 불구하고 기본 전략은 건전하고 실행 가능합니다"
+          },
+          {
+            "en": "On the contrary, this presents an excellent opportunity for growth",
+            "ko": "오히려 이것은 성장을 위한 훌륭한 기회를 제공합니다"
+          },
+          {
+            "en": "Nevertheless, we should proceed with the original plan as scheduled",
+            "ko": "그럼에도 불구하고 예정대로 원래 계획을 진행해야 합니다"
+          },
+          {
+            "en": "Conversely, the data suggests a different approach might be more effective",
+            "ko": "반대로 데이터는 다른 접근법이 더 효과적일 수 있음을 시사합니다"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "BASIC"
+      ]
+    },
+    {
+      "stage": 17,
+      "stage_id": "Lv4-P5-S17",
+      "phase": 5,
+      "classification": "core",
+      "title": "비유와 설명",
+      "situation_context": "복잡한 개념 설명, 이해도 향상을 위해 친숙한 비유와 유추를 활용하는 상황",
+      "primary_functions": [
+        "복잡한 개념 간단히 설명하기",
+        "유사한 상황으로 비교하기",
+        "추상적 아이디어 구체화하기"
+      ],
+      "key_patterns": [
+        "It's like + [비유 대상]",
+        "similar to + [비교 대상]",
+        "It's as if + [가정 상황]"
+      ],
+      "sentence_variations": {
+        "business_analogies": [
+          {
+            "en": "Managing this project is like conducting an orchestra - every part must work in harmony",
+            "ko": "이 프로젝트를 관리하는 것은 오케스트라를 지휘하는 것과 같습니다 - 모든 부분이 조화롭게 작동해야 합니다"
+          },
+          {
+            "en": "The market situation is similar to what we experienced during the 2020 transition",
+            "ko": "시장 상황은 2020년 전환기에 경험했던 것과 유사합니다"
+          },
+          {
+            "en": "It's as if we're building a bridge while crossing it - adapting as we progress",
+            "ko": "마치 다리를 건너면서 동시에 건설하는 것 같습니다 - 진행하면서 적응하고 있습니다"
+          },
+          {
+            "en": "This strategic approach is like playing chess - requiring careful planning several moves ahead",
+            "ko": "이 전략적 접근법은 체스를 두는 것과 같습니다 - 몇 수 앞을 신중히 계획해야 합니다"
+          },
+          {
+            "en": "The process is similar to training for a marathon - consistent effort over time",
+            "ko": "과정은 마라톤 훈련과 유사합니다 - 시간에 걸친 일관된 노력입니다"
+          }
+        ],
+        "operational_comparisons": [
+          {
+            "en": "The new system works like a well-oiled machine - efficient and reliable",
+            "ko": "새 시스템은 잘 기름칠된 기계처럼 작동합니다 - 효율적이고 신뢰할 수 있습니다"
+          },
+          {
+            "en": "Our approach is comparable to planting seeds for future harvest",
+            "ko": "우리의 접근법은 미래 수확을 위해 씨앗을 심는 것에 비교할 수 있습니다"
+          },
+          {
+            "en": "The market dynamics are like ocean currents - powerful and constantly changing",
+            "ko": "시장 역학은 해류와 같습니다 - 강력하고 끊임없이 변화합니다"
+          },
+          {
+            "en": "Building customer relationships is similar to nurturing a garden",
+            "ko": "고객 관계 구축은 정원을 가꾸는 것과 유사합니다"
+          },
+          {
+            "en": "The competitive landscape is like a chess board where positioning matters",
+            "ko": "경쟁 환경은 위치가 중요한 체스판과 같습니다"
+          }
+        ],
+        "conceptual_explanations": [
+          {
+            "en": "Innovation in our industry is like evolution - gradual adaptation with breakthrough moments",
+            "ko": "우리 산업의 혁신은 진화와 같습니다 - 점진적 적응과 돌파구 순간들입니다"
+          },
+          {
+            "en": "Data flow in our system is similar to water finding the most efficient path",
+            "ko": "우리 시스템의 데이터 흐름은 물이 가장 효율적인 경로를 찾는 것과 유사합니다"
+          },
+          {
+            "en": "The decision-making process is like navigating through a complex maze",
+            "ko": "의사결정 과정은 복잡한 미로를 통과하는 것과 같습니다"
+          },
+          {
+            "en": "Our growth strategy is comparable to building a strong foundation before adding floors",
+            "ko": "우리의 성장 전략은 층을 추가하기 전에 강한 기초를 구축하는 것에 비교할 수 있습니다"
+          },
+          {
+            "en": "The project timeline is like a relay race - each phase depends on the previous one",
+            "ko": "프로젝트 일정은 릴레이 경주와 같습니다 - 각 단계가 이전 단계에 의존합니다"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "BASIC"
+      ]
+    },
+    {
+      "stage": 18,
+      "stage_id": "Lv4-P5-S18",
+      "phase": 5,
+      "classification": "core",
+      "title": "가치와 효용 평가",
+      "situation_context": "의사결정 지원, 투자 분석에서 가치 판단과 효용성을 평가하는 상황",
+      "primary_functions": [
+        "투자 가치 평가하기",
+        "행동의 필요성 강조하기",
+        "효용성과 중요도 판단하기"
+      ],
+      "key_patterns": [
+        "It's worth + [ing] + [이유]",
+        "There's no use + [ing] + [무용함]",
+        "It's essential that + [주관적 표현]"
+      ],
+      "sentence_variations": {
+        "investment_evaluation": [
+          {
+            "en": "It's worth investing in advanced technology to stay competitive",
+            "ko": "경쟁력을 유지하기 위해 첨단 기술에 투자할 가치가 있습니다"
+          },
+          {
+            "en": "There's no use delaying the implementation any longer",
+            "ko": "더 이상 구현을 지연하는 것은 소용없습니다"
+          },
+          {
+            "en": "It's essential that we maintain the highest quality standards",
+            "ko": "최고의 품질 기준을 유지하는 것이 필수적입니다"
+          },
+          {
+            "en": "It's crucial that teams collaborate effectively across departments",
+            "ko": "팀들이 부서 간에 효과적으로 협력하는 것이 중요합니다"
+          },
+          {
+            "en": "There's no point in avoiding difficult decisions any longer",
+            "ko": "더 이상 어려운 결정을 피하는 것은 의미가 없습니다"
+          }
+        ],
+        "strategic_priorities": [
+          {
+            "en": "It's vital that we respond to market changes quickly and decisively",
+            "ko": "시장 변화에 신속하고 결단력 있게 대응하는 것이 중요합니다"
+          },
+          {
+            "en": "It's worthwhile to explore alternative solutions before committing",
+            "ko": "약속하기 전에 대안적 해결책을 탐색하는 것이 가치 있습니다"
+          },
+          {
+            "en": "It's imperative that we meet customer expectations consistently",
+            "ko": "고객 기대를 일관되게 충족하는 것이 필수적입니다"
+          },
+          {
+            "en": "There's no benefit in postponing this critical decision",
+            "ko": "이 중요한 결정을 연기하는 데는 이익이 없습니다"
+          },
+          {
+            "en": "It's valuable to invest time in employee development programs",
+            "ko": "직원 개발 프로그램에 시간을 투자하는 것이 가치 있습니다"
+          }
+        ],
+        "operational_necessities": [
+          {
+            "en": "It's necessary that all stakeholders understand the implications",
+            "ko": "모든 이해관계자가 함의를 이해하는 것이 필요합니다"
+          },
+          {
+            "en": "There's no sense in continuing with outdated processes",
+            "ko": "구식 프로세스를 계속하는 것은 의미가 없습니다"
+          },
+          {
+            "en": "It's important that we maintain transparency throughout the process",
+            "ko": "과정 전반에 걸쳐 투명성을 유지하는 것이 중요합니다"
+          },
+          {
+            "en": "It's advisable to conduct thorough testing before the launch",
+            "ko": "출시 전에 철저한 테스트를 수행하는 것이 바람직합니다"
+          },
+          {
+            "en": "There's no advantage in keeping the old system running",
+            "ko": "기존 시스템을 계속 운영하는 데는 이점이 없습니다"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "BASIC"
+      ]
+    },
+    {
+      "stage": 19,
+      "stage_id": "Lv4-P5-S19",
+      "phase": 5,
+      "classification": "core",
+      "title": "과거 상황 분석",
+      "situation_context": "문제 해결, 원인 분석, 학습을 위해 과거 상황에 대한 추측과 분석을 표현하는 상황",
+      "primary_functions": [
+        "과거 상황 추측하기",
+        "원인 분석하기",
+        "가능성 정도 표현하기"
+      ],
+      "key_patterns": [
+        "must have + [p.p.] (강한 추측)",
+        "can't have + [p.p.] (부정 추측)",
+        "might/could have + [p.p.] (약한 추측)"
+      ],
+      "sentence_variations": {
+        "strong_inference": [
+          {
+            "en": "The client must have been satisfied with our service - they renewed immediately",
+            "ko": "고객이 우리 서비스에 만족했음에 틀림없습니다 - 즉시 갱신했으니까요"
+          },
+          {
+            "en": "They can't have received our latest proposal yet - it was sent this morning",
+            "ko": "그들이 아직 우리 최신 제안서를 받지 못했을 것입니다 - 오늘 아침에 보냈으니까요"
+          },
+          {
+            "en": "The system must have experienced temporary issues during the update",
+            "ko": "업데이트 중에 시스템이 일시적인 문제를 겪었음에 틀림없습니다"
+          },
+          {
+            "en": "They can't have understood the full implications of this decision",
+            "ko": "그들이 이 결정의 전체 함의를 이해했을 리 없습니다"
+          },
+          {
+            "en": "The market must have shifted more dramatically than we anticipated",
+            "ko": "시장이 우리가 예상했던 것보다 더 극적으로 변화했음에 틀림없습니다"
+          }
+        ],
+        "possibility_analysis": [
+          {
+            "en": "The team might have encountered unexpected technical challenges",
+            "ko": "팀이 예상치 못한 기술적 어려움에 직면했을 수도 있습니다"
+          },
+          {
+            "en": "Competitors could have launched similar products without our knowledge",
+            "ko": "경쟁사들이 우리 모르게 유사한 제품을 출시했을 수도 있습니다"
+          },
+          {
+            "en": "The delay might have been caused by supply chain disruptions",
+            "ko": "지연은 공급망 중단으로 인해 발생했을 수도 있습니다"
+          },
+          {
+            "en": "They could have misinterpreted our communication about the requirements",
+            "ko": "그들이 요구사항에 대한 우리의 의사소통을 잘못 해석했을 수도 있습니다"
+          },
+          {
+            "en": "The budget overrun may have resulted from scope changes",
+            "ko": "예산 초과는 범위 변경으로 인해 발생했을 수도 있습니다"
+          }
+        ],
+        "investigative_reasoning": [
+          {
+            "en": "The success must have been due to the team's exceptional coordination",
+            "ko": "성공은 팀의 뛰어난 조율 때문이었음에 틀림없습니다"
+          },
+          {
+            "en": "The problem couldn't have been prevented with our current resources",
+            "ko": "현재 자원으로는 그 문제를 방지할 수 없었을 것입니다"
+          },
+          {
+            "en": "The customer feedback might have influenced their strategic direction",
+            "ko": "고객 피드백이 그들의 전략 방향에 영향을 미쳤을 수도 있습니다"
+          },
+          {
+            "en": "The regulatory changes could have impacted the timeline significantly",
+            "ko": "규제 변경이 일정에 상당한 영향을 미쳤을 수도 있습니다"
+          },
+          {
+            "en": "The positive results must have exceeded their initial expectations",
+            "ko": "긍정적인 결과가 그들의 초기 기대를 초과했음에 틀림없습니다"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "TENSE-PAST"
+      ]
+    },
+    {
+      "stage": 20,
+      "stage_id": "Lv4-P5-S20",
+      "phase": 5,
+      "classification": "optional",
+      "title": "대안적 과거",
+      "situation_context": "성찰, 개선 제안, 교훈 도출을 위해 과거의 대안적 행동을 표현하는 상황",
+      "primary_functions": [
+        "과거 행동에 대한 후회 표현하기",
+        "더 나은 대안 제시하기",
+        "교훈과 개선점 도출하기"
+      ],
+      "key_patterns": [
+        "should have + [p.p.] (했어야 했는데)",
+        "could have + [p.p.] (할 수 있었는데)",
+        "would have + [p.p.] (했을 텐데)"
+      ],
+      "sentence_variations": {
+        "lessons_learned": [
+          {
+            "en": "We should have started the project earlier to avoid time pressure",
+            "ko": "시간 압박을 피하기 위해 프로젝트를 더 일찍 시작했어야 했습니다"
+          },
+          {
+            "en": "The team could have achieved better results with more resources",
+            "ko": "팀은 더 많은 자원이 있었다면 더 나은 결과를 달성할 수 있었을 것입니다"
+          },
+          {
+            "en": "I would have handled the situation differently with current knowledge",
+            "ko": "현재의 지식으로는 상황을 다르게 처리했을 것입니다"
+          },
+          {
+            "en": "They could have avoided the problem with better planning",
+            "ko": "더 나은 계획으로 문제를 피할 수 있었을 것입니다"
+          },
+          {
+            "en": "We should have consulted experts before making the decision",
+            "ko": "결정을 내리기 전에 전문가와 상의했어야 했습니다"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "TENSE-PAST"
+      ]
+    },
+    {
+      "stage": 21,
+      "stage_id": "Lv4-P6-S21",
+      "phase": 6,
+      "classification": "core",
+      "title": "전략적 설득",
+      "situation_context": "협상, 제안, 의사결정 영향에서 전략적이고 효과적인 설득 기법 활용",
+      "primary_functions": [
+        "완곡하게 제안하기",
+        "강력한 권유하기",
+        "고려사항 제시하기"
+      ],
+      "key_patterns": [
+        "You might want to + [동사원형]",
+        "I strongly suggest that + [절]",
+        "Have you considered + [ing/명사]?"
+      ],
+      "sentence_variations": {
+        "strategic_suggestions": [
+          {
+            "en": "You might want to consider the long-term benefits of this investment",
+            "ko": "이 투자의 장기적 이익을 고려해보시는 것이 좋을 것 같습니다"
+          },
+          {
+            "en": "I strongly suggest that we move forward with this strategic plan",
+            "ko": "이 전략 계획을 추진할 것을 강력히 제안합니다"
+          },
+          {
+            "en": "Have you considered the competitive advantages this partnership offers?",
+            "ko": "이 파트너십이 제공하는 경쟁 우위를 고려해보셨나요?"
+          },
+          {
+            "en": "Perhaps we should explore this opportunity more thoroughly",
+            "ko": "아마도 이 기회를 더 철저히 탐색해야 할 것 같습니다"
+          },
+          {
+            "en": "I would recommend taking a more proactive approach to market changes",
+            "ko": "시장 변화에 더 능동적인 접근을 취할 것을 권합니다"
+          }
+        ],
+        "persuasive_recommendations": [
+          {
+            "en": "It might be wise to invest in this technology now rather than later",
+            "ko": "나중보다는 지금 이 기술에 투자하는 것이 현명할 것입니다"
+          },
+          {
+            "en": "You may find it beneficial to partner with us on this initiative",
+            "ko": "이 계획에서 우리와 파트너가 되는 것이 유익하다고 생각하실 것입니다"
+          },
+          {
+            "en": "I'd suggest we prioritize this project given its potential impact",
+            "ko": "잠재적 영향을 고려할 때 이 프로젝트를 우선시할 것을 제안합니다"
+          },
+          {
+            "en": "You might find value in reviewing our comprehensive analysis",
+            "ko": "우리의 종합 분석을 검토하는 데서 가치를 발견하실 것입니다"
+          },
+          {
+            "en": "I strongly recommend we implement these changes immediately",
+            "ko": "이러한 변경사항을 즉시 시행할 것을 강력히 권합니다"
+          }
+        ],
+        "influential_proposals": [
+          {
+            "en": "Have you thought about the implications of delaying this decision?",
+            "ko": "이 결정을 지연하는 것의 함의에 대해 생각해보셨나요?"
+          },
+          {
+            "en": "You might want to reconsider your position given the new data",
+            "ko": "새로운 데이터를 고려할 때 입장을 재고해보시는 것이 좋을 것입니다"
+          },
+          {
+            "en": "I believe it would be advantageous to act on this opportunity quickly",
+            "ko": "이 기회에 신속히 행동하는 것이 유리할 것이라고 믿습니다"
+          },
+          {
+            "en": "Perhaps it's time to think outside the conventional framework",
+            "ko": "아마도 기존 틀을 벗어나 생각할 때가 온 것 같습니다"
+          },
+          {
+            "en": "You may want to consider how this aligns with your strategic goals",
+            "ko": "이것이 귀하의 전략적 목표와 어떻게 일치하는지 고려해보시기 바랍니다"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "BASIC"
+      ]
+    },
+    {
+      "stage": 22,
+      "stage_id": "Lv4-P6-S22",
+      "phase": 6,
+      "classification": "core",
+      "title": "체계적 논증",
+      "situation_context": "토론, 프레젠테이션, 논리적 설득에서 체계적이고 설득력 있는 논증 구성",
+      "primary_functions": [
+        "주요 근거 제시하기",
+        "반대 의견 인정하고 반박하기",
+        "추가 증거 제공하기"
+      ],
+      "key_patterns": [
+        "The main reason for + [제안] + is + [근거]",
+        "On the other hand, + [반대 논리]",
+        "Furthermore/Moreover, + [추가 근거]"
+      ],
+      "sentence_variations": {
+        "structured_reasoning": [
+          {
+            "en": "The main reason for this recommendation is proven cost efficiency",
+            "ko": "이 권고안의 주된 이유는 입증된 비용 효율성입니다"
+          },
+          {
+            "en": "On the other hand, we must carefully consider potential implementation risks",
+            "ko": "반면에 잠재적인 구현 위험을 신중히 고려해야 합니다"
+          },
+          {
+            "en": "Furthermore, the market data strongly supports this strategic decision",
+            "ko": "게다가 시장 데이터가 이 전략적 결정을 강력히 뒷받침합니다"
+          },
+          {
+            "en": "Moreover, our competitors are already moving in this direction",
+            "ko": "더욱이 경쟁사들이 이미 이 방향으로 움직이고 있습니다"
+          },
+          {
+            "en": "In addition, customer feedback has been overwhelmingly positive",
+            "ko": "또한 고객 피드백이 압도적으로 긍정적이었습니다"
+          }
+        ],
+        "comprehensive_argumentation": [
+          {
+            "en": "Conversely, delaying action could result in missed market opportunities",
+            "ko": "반대로 행동을 지연하면 시장 기회를 놓칠 수 있습니다"
+          },
+          {
+            "en": "Additionally, the technology has been proven reliable in similar contexts",
+            "ko": "추가적으로 이 기술은 유사한 맥락에서 신뢰할 수 있음이 입증되었습니다"
+          },
+          {
+            "en": "Subsequently, we expect to see significant performance improvements",
+            "ko": "그 후 상당한 성능 개선을 기대할 수 있습니다"
+          },
+          {
+            "en": "Nevertheless, we should also prepare contingency plans",
+            "ko": "그럼에도 불구하고 비상 계획도 준비해야 합니다"
+          },
+          {
+            "en": "Consequently, this approach offers the best risk-reward balance",
+            "ko": "결과적으로 이 접근법이 최고의 위험-보상 균형을 제공합니다"
+          }
+        ],
+        "persuasive_logic": [
+          {
+            "en": "The primary benefit of this approach is its scalability potential",
+            "ko": "이 접근법의 주요 이점은 확장성 잠재력입니다"
+          },
+          {
+            "en": "However, we should acknowledge the learning curve involved",
+            "ko": "하지만 관련된 학습 곡선을 인정해야 합니다"
+          },
+          {
+            "en": "Beyond that, the long-term strategic value is substantial",
+            "ko": "그 이상으로 장기적 전략 가치가 상당합니다"
+          },
+          {
+            "en": "In contrast, alternative solutions lack this level of integration",
+            "ko": "대조적으로 대안 솔루션들은 이 수준의 통합성이 부족합니다"
+          },
+          {
+            "en": "Therefore, the evidence clearly points toward this recommendation",
+            "ko": "따라서 증거는 명확히 이 권고안을 가리킵니다"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "BASIC"
+      ]
+    },
+    {
+      "stage": 23,
+      "stage_id": "Lv4-P6-S23",
+      "phase": 6,
+      "classification": "core",
+      "title": "조건부 협상",
+      "situation_context": "계약, 합의, 조건부 제안에서 구체적 조건과 전제를 명시하는 상황",
+      "primary_functions": [
+        "구체적 조건 명시하기",
+        "조건부 동의 표현하기",
+        "전제 조건 설정하기"
+      ],
+      "key_patterns": [
+        "Provided that + [조건], + [결과/동의]",
+        "As long as + [조건], + [약속]",
+        "Only if + [조건] + [결과]"
+      ],
+      "sentence_variations": {
+        "conditional_agreements": [
+          {
+            "en": "Provided that all requirements are met, we can proceed with implementation",
+            "ko": "모든 요구사항이 충족된다면 구현을 진행할 수 있습니다"
+          },
+          {
+            "en": "As long as quality standards are maintained, we agree to the timeline",
+            "ko": "품질 기준이 유지되는 한 일정에 동의합니다"
+          },
+          {
+            "en": "Only if the timeline is feasible will we commit to the project",
+            "ko": "일정이 실현 가능한 경우에만 프로젝트에 전념할 것입니다"
+          },
+          {
+            "en": "Given that resources are available, we can start immediately",
+            "ko": "자원이 가용한 상황에서 즉시 시작할 수 있습니다"
+          },
+          {
+            "en": "Assuming the budget is approved, implementation will begin next quarter",
+            "ko": "예산이 승인된다면 다음 분기에 구현을 시작할 것입니다"
+          }
+        ],
+        "negotiation_terms": [
+          {
+            "en": "On condition that all stakeholders agree, we'll move forward",
+            "ko": "모든 이해관계자가 동의하는 조건 하에 진행하겠습니다"
+          },
+          {
+            "en": "Provided the legal review is favorable, we can finalize the contract",
+            "ko": "법적 검토가 긍정적이라면 계약을 마무리할 수 있습니다"
+          },
+          {
+            "en": "As long as the technical specifications are met, we approve the design",
+            "ko": "기술 사양이 충족되는 한 설계를 승인합니다"
+          },
+          {
+            "en": "Only with proper guarantees will we proceed with this investment",
+            "ko": "적절한 보장이 있어야만 이 투자를 진행할 것입니다"
+          },
+          {
+            "en": "Contingent upon market approval, we'll launch the product",
+            "ko": "시장 승인에 따라 제품을 출시할 것입니다"
+          }
+        ],
+        "strategic_conditions": [
+          {
+            "en": "Provided that competitive analysis supports it, we'll enter the market",
+            "ko": "경쟁 분석이 이를 뒷받침한다면 시장에 진입할 것입니다"
+          },
+          {
+            "en": "As long as sustainability goals are met, the project has our support",
+            "ko": "지속가능성 목표가 달성되는 한 프로젝트를 지원하겠습니다"
+          },
+          {
+            "en": "Only if risk assessment is satisfactory will we approve funding",
+            "ko": "위험 평가가 만족스러운 경우에만 자금을 승인할 것입니다"
+          },
+          {
+            "en": "Subject to board approval, we can announce the partnership",
+            "ko": "이사회 승인을 전제로 파트너십을 발표할 수 있습니다"
+          },
+          {
+            "en": "Conditional on regulatory clearance, operations will commence",
+            "ko": "규제 승인을 조건으로 운영을 시작할 것입니다"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "BASIC"
+      ]
+    },
+    {
+      "stage": 24,
+      "stage_id": "Lv4-A6-S24",
+      "phase": 6,
+      "classification": "bridge",
+      "title": "우선순위와 예외",
+      "situation_context": "전략적 소통, 복잡한 의사결정에서 우선순위와 예외 상황을 정교하게 표현",
+      "primary_functions": [
+        "일반 원칙과 예외 구분하기",
+        "우선순위 체계 명시하기",
+        "복잡한 조건 관리하기"
+      ],
+      "key_patterns": [
+        "[일반 원칙], except for + [예외]",
+        "[우선순위], other than + [제외 대상]",
+        "[전체 적용], apart from + [특별 케이스]"
+      ],
+      "sentence_variations": {
+        "priority_with_exceptions": [
+          {
+            "en": "What matters most is sustainable growth, except for emergency situations",
+            "ko": "가장 중요한 것은 지속가능한 성장이지만, 비상 상황은 예외입니다"
+          },
+          {
+            "en": "All departments must follow the new policy, apart from the research team",
+            "ko": "연구팀을 제외하고 모든 부서가 새 정책을 따라야 합니다"
+          },
+          {
+            "en": "The priority should be customer satisfaction, other than cost considerations",
+            "ko": "비용 고려 사항을 제외하고는 고객 만족이 우선되어야 합니다"
+          },
+          {
+            "en": "Every project requires approval, except for minor maintenance tasks",
+            "ko": "경미한 유지보수 작업을 제외하고 모든 프로젝트는 승인이 필요합니다"
+          },
+          {
+            "en": "All data must be encrypted, apart from publicly available information",
+            "ko": "공개적으로 이용 가능한 정보를 제외하고 모든 데이터는 암호화되어야 합니다"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "BASIC"
+      ]
+    }
+  ],
+  "levelMeta": {
+    "delaySec": 1,
+    "randomize": true,
+    "minCAA": 6
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "Lv3-P2-S06",
+  "title": "현재완료(경험/결과/최근) — 핵심 패턴",
+  "intent": "ever/never/just/already/yet, for/since를 사용해 경험/최근 변화/결과를 현재완료로 자연스럽게 말한다.",
+  "focus": [
+    "PRESENT-PERFECT",
+    "EVER-NEVER",
+    "JUST-ALREADY-YET",
+    "FOR-SINCE",
+    "RESULT-vs-PAST"
+  ],
+  "lexset": [
+    "try, visit, hear, finish, lose, start, move, change, know, meet, arrive, decide, break, catch, learn"
+  ],
+  "traps": [
+    "현재완료 vs 과거시제 혼동(I saw vs I have seen)",
+    "since/for 잘못 사용",
+    "gone/been 구분(He has gone to vs been to)",
+    "yet의 위치(부정/의문에서 문장 끝)"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.55,
+    "neg": 0.2,
+    "wh_q": 0.25
+  },
+  "variants": [
+    "경험 질문(Have you ever ~?)",
+    "최근 완료(just/already)",
+    "미완료(yet)",
+    "기간(for/since)"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "방금 끝냈어.",
+      "en": "I've just finished it."
+    },
+    {
+      "kr": "이미 이메일을 보냈어.",
+      "en": "I've already sent the email."
+    },
+    {
+      "kr": "아직 결정 못 했어.",
+      "en": "I haven't decided yet."
+    },
+    {
+      "kr": "거기 가 본 적 있어?",
+      "en": "Have you ever been there?"
+    },
+    {
+      "kr": "요즘 정말 바빴어.",
+      "en": "I've been really busy lately."
+    },
+    {
+      "kr": "그를 여러 번 만난 적 있어.",
+      "en": "I've met him several times."
+    },
+    {
+      "kr": "그는 파리에 가 본 적 없어.",
+      "en": "He has never been to Paris."
+    },
+    {
+      "kr": "그녀는 방금 도착했어.",
+      "en": "She has just arrived."
+    },
+    {
+      "kr": "우리는 오래전부터 서로 알아.",
+      "en": "We have known each other for a long time."
+    },
+    {
+      "kr": "아직 티켓을 못 샀어.",
+      "en": "I haven't bought the tickets yet."
+    },
+    {
+      "kr": "그는 최근에 회사를 옮겼어.",
+      "en": "He has recently changed jobs."
+    },
+    {
+      "kr": "그 뉴스 들어본 적 있어?",
+      "en": "Have you ever heard that news?"
+    }
+  ]
+}

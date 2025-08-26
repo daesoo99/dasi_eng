@@ -1,0 +1,89 @@
+{
+  "id": "Lv5-A5-S19",
+  "title": "연구비 획득 및 관리",
+  "intent": "연구비를 성공적으로 획득하고 효율적으로 관리하여 연구 목표를 달성한다.",
+  "focus": [
+    "RESEARCH-FUNDING",
+    "GRANT-APPLICATION",
+    "BUDGET-MANAGEMENT",
+    "RESOURCE-ALLOCATION"
+  ],
+  "lexset": [
+    "funding, grant, budget, allocation, resource, proposal, application, award, management, efficiency"
+  ],
+  "grammar_meta": [
+    "FUNDING-LANGUAGE",
+    "APPLICATION-STRUCTURES",
+    "BUDGET-EXPRESSIONS",
+    "MANAGEMENT-TERMS"
+  ],
+  "academic_level": "C1-C2",
+  "traps": [
+    "연구비 vs 지원금",
+    "신청 vs 지원",
+    "예산 vs 자원",
+    "관리 vs 운영"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "기금 유형",
+    "신청 과정",
+    "예산 규모",
+    "관리 방식"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "연구비 신청서를 제출했습니다.",
+      "en": "We have submitted a grant application."
+    },
+    {
+      "kr": "예산을 효율적으로 배분해야 합니다.",
+      "en": "The budget must be allocated efficiently."
+    },
+    {
+      "kr": "연구 자원이 적절히 활용되고 있습니다.",
+      "en": "Research resources are being utilized appropriately."
+    },
+    {
+      "kr": "기금 운영의 투명성을 유지합니다.",
+      "en": "We maintain transparency in fund management."
+    },
+    {
+      "kr": "연구비 수주가 성공적이었습니다.",
+      "en": "Grant acquisition was successful."
+    },
+    {
+      "kr": "예산 집행을 주기적으로 점검합니다.",
+      "en": "We regularly monitor budget execution."
+    },
+    {
+      "kr": "연구 제안서의 질이 중요합니다.",
+      "en": "The quality of research proposals is important."
+    },
+    {
+      "kr": "다양한 기금원을 확보해야 합니다.",
+      "en": "Various funding sources must be secured."
+    },
+    {
+      "kr": "연구비 관리 규정을 준수합니다.",
+      "en": "We comply with research fund management regulations."
+    },
+    {
+      "kr": "성과 기반 평가가 시행되고 있습니다.",
+      "en": "Performance-based evaluation is being implemented."
+    }
+  ]
+}

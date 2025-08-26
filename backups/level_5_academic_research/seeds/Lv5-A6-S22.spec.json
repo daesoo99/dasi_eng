@@ -1,0 +1,89 @@
+{
+  "id": "Lv5-A6-S22",
+  "title": "연구 혁신 및 창의성",
+  "intent": "연구에서 창의적 사고를 발휘하고 혁신적 접근법을 개발한다.",
+  "focus": [
+    "RESEARCH-INNOVATION",
+    "CREATIVITY",
+    "NOVEL-APPROACHES",
+    "BREAKTHROUGH"
+  ],
+  "lexset": [
+    "innovation, creativity, novel, breakthrough, original, pioneering, revolutionary, groundbreaking, inventive, ingenious"
+  ],
+  "grammar_meta": [
+    "INNOVATION-LANGUAGE",
+    "CREATIVITY-EXPRESSIONS",
+    "BREAKTHROUGH-TERMS",
+    "ORIGINAL-THINKING"
+  ],
+  "academic_level": "C1-C2",
+  "traps": [
+    "혁신 vs 개선",
+    "창의적 vs 독창적",
+    "돌파구 vs 발견",
+    "선구적 vs 혁명적"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "혁신 유형",
+    "창의성 수준",
+    "영향 범위",
+    "실현 가능성"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "혁신적 연구 방법을 개발했습니다.",
+      "en": "We have developed innovative research methods."
+    },
+    {
+      "kr": "창의적 사고가 돌파구를 제공합니다.",
+      "en": "Creative thinking provides breakthroughs."
+    },
+    {
+      "kr": "독창적 접근법이 새로운 가능성을 열어줍니다.",
+      "en": "Original approaches open new possibilities."
+    },
+    {
+      "kr": "획기적인 발견이 기대됩니다.",
+      "en": "Groundbreaking discoveries are expected."
+    },
+    {
+      "kr": "선구적 연구가 분야를 선도합니다.",
+      "en": "Pioneering research leads the field."
+    },
+    {
+      "kr": "혁명적 변화가 시작되었습니다.",
+      "en": "Revolutionary change has begun."
+    },
+    {
+      "kr": "창의성이 연구의 핵심 동력입니다.",
+      "en": "Creativity is the core driving force of research."
+    },
+    {
+      "kr": "새로운 패러다임을 제시합니다.",
+      "en": "We present a new paradigm."
+    },
+    {
+      "kr": "독창성이 학술적 가치를 높입니다.",
+      "en": "Originality enhances academic value."
+    },
+    {
+      "kr": "혁신적 아이디어를 구현해야 합니다.",
+      "en": "Innovative ideas must be implemented."
+    }
+  ]
+}

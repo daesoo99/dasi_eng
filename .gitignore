@@ -83,8 +83,8 @@ Thumbs.db
 ios/Pods/
 android/.gradle/
 
-# Backups/Archive folders
-backups/
+# Backups/Archive folders  
+# backups/ - keep compressed archives
 archive_*/
 patterns_backup_*/
 patterns_backup_20250823/

@@ -1,0 +1,82 @@
+{
+  "id": "Lv4-A1-S01",
+  "title": "회의 시작 및 안건 소개",
+  "intent": "비즈니스 회의를 전문적으로 시작하고 안건을 명확히 소개하며 참석자들의 주의를 집중시킨다.",
+  "focus": [
+    "MEETING-OPENING",
+    "AGENDA-INTRODUCTION",
+    "PROFESSIONAL-LANGUAGE",
+    "ATTENTION-GETTING"
+  ],
+  "lexset": [
+    "meeting, agenda, discuss, review, address, welcome, purpose, objective, schedule, priority"
+  ],
+  "traps": [
+    "격식체 vs 비격식체 혼동",
+    "회의 용어의 정확한 사용",
+    "시제 일치 (예정된 안건들)",
+    "복수형 처리 (items, issues)"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.7,
+    "neg": 0.1,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "회의 유형",
+    "격식도",
+    "참석자",
+    "안건 수"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "오늘 회의를 시작하겠습니다.",
+      "en": "Let's begin today's meeting."
+    },
+    {
+      "kr": "첫 번째 안건은 예산 검토입니다.",
+      "en": "The first item on the agenda is budget review."
+    },
+    {
+      "kr": "이번 분기 성과에 대해 논의하겠습니다.",
+      "en": "We'll discuss this quarter's performance."
+    },
+    {
+      "kr": "모든 참석자분들 환영합니다.",
+      "en": "Welcome everyone to the meeting."
+    },
+    {
+      "kr": "오늘의 주요 목적은 전략 수정입니다.",
+      "en": "The main purpose today is strategy revision."
+    },
+    {
+      "kr": "시간이 제한되어 있으니 효율적으로 진행하겠습니다.",
+      "en": "We have limited time, so let's be efficient."
+    },
+    {
+      "kr": "먼저 지난 회의 결과를 검토하겠습니다.",
+      "en": "First, let's review the results from our last meeting."
+    },
+    {
+      "kr": "질문이 있으시면 언제든 말씀해 주세요.",
+      "en": "Please feel free to ask questions at any time."
+    },
+    {
+      "kr": "우선순위가 높은 이슈부터 다루겠습니다.",
+      "en": "We'll address the high-priority issues first."
+    },
+    {
+      "kr": "회의 자료를 모두 받으셨나요?",
+      "en": "Has everyone received the meeting materials?"
+    }
+  ]
+}

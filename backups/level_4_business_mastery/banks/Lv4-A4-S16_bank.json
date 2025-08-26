@@ -1,0 +1,620 @@
+{
+  "stage_id": "Lv4-A4-S16",
+  "title": "보고서 권고사항 및 실행계획 (Bridge)",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv4-A4-S16-001",
+      "kr": "다음 전략을 실행할 것을 권장합니다. (비즈니스 1)",
+      "en": "I recommend implementing the following strategy. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-002",
+      "kr": "우선순위를 정해서 진행해야 합니다. (비즈니스 1)",
+      "en": "We should proceed with prioritized actions. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-003",
+      "kr": "이 계획이 실행되면 성과가 향상될 것입니다. (비즈니스 1)",
+      "en": "If this plan is implemented, performance will improve. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-004",
+      "kr": "자원을 효율적으로 배분해야 합니다. (비즈니스 1)",
+      "en": "Resources must be allocated efficiently. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-005",
+      "kr": "단계별 실행 일정을 제안합니다. (비즈니스 1)",
+      "en": "I suggest a phased implementation timeline. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-006",
+      "kr": "목표 달성을 위한 핵심 행동입니다. (비즈니스 1)",
+      "en": "These are key actions for achieving objectives. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-007",
+      "kr": "리스크를 최소화하면서 진행해야 합니다. (비즈니스 1)",
+      "en": "We should proceed while minimizing risks. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-008",
+      "kr": "성공 지표를 설정하는 것이 중요합니다. (비즈니스 1)",
+      "en": "Setting success metrics is crucial. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-009",
+      "kr": "이 접근법이 최적의 결과를 가져올 것입니다. (비즈니스 1)",
+      "en": "This approach will bring optimal results. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-010",
+      "kr": "즉시 실행 가능한 솔루션을 제시합니다. (비즈니스 1)",
+      "en": "I present immediately actionable solutions. (business variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-011",
+      "kr": "다음 전략을 실행할 것을 권장합니다. (비즈니스 2)",
+      "en": "I recommend implementing the following strategy. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-012",
+      "kr": "우선순위를 정해서 진행해야 합니다. (비즈니스 2)",
+      "en": "We should proceed with prioritized actions. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-013",
+      "kr": "이 계획이 실행되면 성과가 향상될 것입니다. (비즈니스 2)",
+      "en": "If this plan is implemented, performance will improve. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-014",
+      "kr": "자원을 효율적으로 배분해야 합니다. (비즈니스 2)",
+      "en": "Resources must be allocated efficiently. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-015",
+      "kr": "단계별 실행 일정을 제안합니다. (비즈니스 2)",
+      "en": "I suggest a phased implementation timeline. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-016",
+      "kr": "목표 달성을 위한 핵심 행동입니다. (비즈니스 2)",
+      "en": "These are key actions for achieving objectives. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-017",
+      "kr": "리스크를 최소화하면서 진행해야 합니다. (비즈니스 2)",
+      "en": "We should proceed while minimizing risks. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-018",
+      "kr": "성공 지표를 설정하는 것이 중요합니다. (비즈니스 2)",
+      "en": "Setting success metrics is crucial. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-019",
+      "kr": "이 접근법이 최적의 결과를 가져올 것입니다. (비즈니스 2)",
+      "en": "This approach will bring optimal results. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-020",
+      "kr": "즉시 실행 가능한 솔루션을 제시합니다. (비즈니스 2)",
+      "en": "I present immediately actionable solutions. (business variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-021",
+      "kr": "다음 전략을 실행할 것을 권장합니다. (비즈니스 3)",
+      "en": "I recommend implementing the following strategy. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-022",
+      "kr": "우선순위를 정해서 진행해야 합니다. (비즈니스 3)",
+      "en": "We should proceed with prioritized actions. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-023",
+      "kr": "이 계획이 실행되면 성과가 향상될 것입니다. (비즈니스 3)",
+      "en": "If this plan is implemented, performance will improve. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-024",
+      "kr": "자원을 효율적으로 배분해야 합니다. (비즈니스 3)",
+      "en": "Resources must be allocated efficiently. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-025",
+      "kr": "단계별 실행 일정을 제안합니다. (비즈니스 3)",
+      "en": "I suggest a phased implementation timeline. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-026",
+      "kr": "목표 달성을 위한 핵심 행동입니다. (비즈니스 3)",
+      "en": "These are key actions for achieving objectives. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-027",
+      "kr": "리스크를 최소화하면서 진행해야 합니다. (비즈니스 3)",
+      "en": "We should proceed while minimizing risks. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-028",
+      "kr": "성공 지표를 설정하는 것이 중요합니다. (비즈니스 3)",
+      "en": "Setting success metrics is crucial. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-029",
+      "kr": "이 접근법이 최적의 결과를 가져올 것입니다. (비즈니스 3)",
+      "en": "This approach will bring optimal results. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-030",
+      "kr": "즉시 실행 가능한 솔루션을 제시합니다. (비즈니스 3)",
+      "en": "I present immediately actionable solutions. (business variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-031",
+      "kr": "다음 전략을 실행할 것을 권장합니다. (비즈니스 4)",
+      "en": "I recommend implementing the following strategy. (business variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-032",
+      "kr": "우선순위를 정해서 진행해야 합니다. (비즈니스 4)",
+      "en": "We should proceed with prioritized actions. (business variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-033",
+      "kr": "이 계획이 실행되면 성과가 향상될 것입니다. (비즈니스 4)",
+      "en": "If this plan is implemented, performance will improve. (business variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-034",
+      "kr": "자원을 효율적으로 배분해야 합니다. (비즈니스 4)",
+      "en": "Resources must be allocated efficiently. (business variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-035",
+      "kr": "단계별 실행 일정을 제안합니다. (비즈니스 4)",
+      "en": "I suggest a phased implementation timeline. (business variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-036",
+      "kr": "목표 달성을 위한 핵심 행동입니다. (비즈니스 4)",
+      "en": "These are key actions for achieving objectives. (business variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-037",
+      "kr": "리스크를 최소화하면서 진행해야 합니다. (비즈니스 4)",
+      "en": "We should proceed while minimizing risks. (business variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-038",
+      "kr": "성공 지표를 설정하는 것이 중요합니다. (비즈니스 4)",
+      "en": "Setting success metrics is crucial. (business variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-039",
+      "kr": "이 접근법이 최적의 결과를 가져올 것입니다. (비즈니스 4)",
+      "en": "This approach will bring optimal results. (business variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-040",
+      "kr": "즉시 실행 가능한 솔루션을 제시합니다. (비즈니스 4)",
+      "en": "I present immediately actionable solutions. (business variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-041",
+      "kr": "다음 전략을 실행할 것을 권장합니다. (비즈니스 5)",
+      "en": "I recommend implementing the following strategy. (business variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-042",
+      "kr": "우선순위를 정해서 진행해야 합니다. (비즈니스 5)",
+      "en": "We should proceed with prioritized actions. (business variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-043",
+      "kr": "이 계획이 실행되면 성과가 향상될 것입니다. (비즈니스 5)",
+      "en": "If this plan is implemented, performance will improve. (business variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-044",
+      "kr": "자원을 효율적으로 배분해야 합니다. (비즈니스 5)",
+      "en": "Resources must be allocated efficiently. (business variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-045",
+      "kr": "단계별 실행 일정을 제안합니다. (비즈니스 5)",
+      "en": "I suggest a phased implementation timeline. (business variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-046",
+      "kr": "목표 달성을 위한 핵심 행동입니다. (비즈니스 5)",
+      "en": "These are key actions for achieving objectives. (business variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-047",
+      "kr": "리스크를 최소화하면서 진행해야 합니다. (비즈니스 5)",
+      "en": "We should proceed while minimizing risks. (business variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-048",
+      "kr": "성공 지표를 설정하는 것이 중요합니다. (비즈니스 5)",
+      "en": "Setting success metrics is crucial. (business variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-049",
+      "kr": "이 접근법이 최적의 결과를 가져올 것입니다. (비즈니스 5)",
+      "en": "This approach will bring optimal results. (business variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    },
+    {
+      "id": "Lv4-A4-S16-050",
+      "kr": "즉시 실행 가능한 솔루션을 제시합니다. (비즈니스 5)",
+      "en": "I present immediately actionable solutions. (business variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "CONDITIONAL-2ND",
+        "MODAL-SHOULD-MUST",
+        "FUTURE-WILL-GOING",
+        "PASSIVE-VOICE"
+      ]
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 10,
+    "wh_q": 5
+  },
+  "grammar_meta": [
+    "CONDITIONAL-2ND",
+    "MODAL-SHOULD-MUST",
+    "FUTURE-WILL-GOING",
+    "PASSIVE-VOICE"
+  ],
+  "status": "generated",
+  "batch": "L4_Business_Batch2"
+}

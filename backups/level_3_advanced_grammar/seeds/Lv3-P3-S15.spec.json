@@ -1,0 +1,82 @@
+{
+  "id": "Lv3-P3-S15",
+  "title": "간접의문문 (I wonder/I don't know)",
+  "intent": "의문사가 포함된 간접의문문의 어순과 시제를 정확히 구사한다.",
+  "focus": [
+    "INDIRECT-QUESTIONS",
+    "WORD-ORDER",
+    "WONDER-PHRASES",
+    "POLITE-INQUIRY"
+  ],
+  "lexset": [
+    "wonder, know, remember, forget, understand, explain, tell, ask, question, curious"
+  ],
+  "traps": [
+    "간접의문문 어순 (주어+동사)",
+    "의문사 + 평서문 어순",
+    "Yes/No 의문문 → if/whether",
+    "시제 일치"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.5,
+    "neg": 0.3,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "의문사 유형",
+    "정중함 정도",
+    "확실성",
+    "시제"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "그가 언제 올지 궁금해요.",
+      "en": "I wonder when he will come."
+    },
+    {
+      "kr": "그들이 어디에 있는지 모르겠어요.",
+      "en": "I don't know where they are."
+    },
+    {
+      "kr": "이 문제를 어떻게 해결할지 생각 중이에요.",
+      "en": "I'm thinking about how to solve this problem."
+    },
+    {
+      "kr": "그가 올지 안 올지 확실하지 않아요.",
+      "en": "I'm not sure if he will come or not."
+    },
+    {
+      "kr": "왜 그런 일이 일어났는지 이해할 수 없어요.",
+      "en": "I can't understand why that happened."
+    },
+    {
+      "kr": "누가 이것을 했는지 알고 싶어요.",
+      "en": "I want to know who did this."
+    },
+    {
+      "kr": "언제 끝날지 말해주세요.",
+      "en": "Please tell me when it will finish."
+    },
+    {
+      "kr": "그것이 얼마인지 기억나지 않아요.",
+      "en": "I don't remember how much it costs."
+    },
+    {
+      "kr": "어느 것이 더 좋은지 결정할 수 없어요.",
+      "en": "I can't decide which one is better."
+    },
+    {
+      "kr": "그들이 성공할 수 있을지 의문이에요.",
+      "en": "I wonder if they can succeed."
+    }
+  ]
+}

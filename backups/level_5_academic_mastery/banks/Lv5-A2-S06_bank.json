@@ -1,0 +1,671 @@
+{
+  "stage_id": "Lv5-A2-S06",
+  "title": "연구 결과 해석 및 논의",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv5-A2-S06-001",
+      "kr": "결과는 이론적 예측과 일치하는 것으로 보입니다. (학술 1)",
+      "en": "The results appear to be consistent with theoretical predictions. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-002",
+      "kr": "이러한 발견은 중요한 함의를 갖는 것으로 해석됩니다. (학술 1)",
+      "en": "These findings are interpreted as having significant implications. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-003",
+      "kr": "데이터는 기존 연구와 다른 패턴을 시사합니다. (학술 1)",
+      "en": "The data suggests a different pattern from existing research. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-004",
+      "kr": "결과의 학술적 의미를 심층적으로 검토해야 합니다. (학술 1)",
+      "en": "The academic significance of the results requires in-depth examination. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-005",
+      "kr": "이 발견이 이론 발전에 기여할 가능성이 있습니다. (학술 1)",
+      "en": "This discovery may contribute to theoretical development. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-006",
+      "kr": "비판적 관점에서 결과를 재평가할 필요가 있습니다. (학술 1)",
+      "en": "The results need to be re-evaluated from a critical perspective. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-007",
+      "kr": "연구 결과가 실무에 미치는 영향을 고려해야 합니다. (학술 1)",
+      "en": "We should consider the impact of research results on practice. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-008",
+      "kr": "추가적인 연구가 이 가설을 뒷받침할 것으로 예상됩니다. (학술 1)",
+      "en": "Additional research appears to be expected to support this hypothesis. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-009",
+      "kr": "학계의 합의와 상반되는 결과가 나타났습니다. (학술 1)",
+      "en": "Results contrary to academic consensus have emerged. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-010",
+      "kr": "이론적 틀의 수정이 필요할 수 있습니다. (학술 1)",
+      "en": "Modification of the theoretical framework may be necessary. (academic variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-011",
+      "kr": "결과는 이론적 예측과 일치하는 것으로 보입니다. (학술 2)",
+      "en": "The results appear to be consistent with theoretical predictions. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-012",
+      "kr": "이러한 발견은 중요한 함의를 갖는 것으로 해석됩니다. (학술 2)",
+      "en": "These findings are interpreted as having significant implications. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-013",
+      "kr": "데이터는 기존 연구와 다른 패턴을 시사합니다. (학술 2)",
+      "en": "The data suggests a different pattern from existing research. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-014",
+      "kr": "결과의 학술적 의미를 심층적으로 검토해야 합니다. (학술 2)",
+      "en": "The academic significance of the results requires in-depth examination. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-015",
+      "kr": "이 발견이 이론 발전에 기여할 가능성이 있습니다. (학술 2)",
+      "en": "This discovery may contribute to theoretical development. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-016",
+      "kr": "비판적 관점에서 결과를 재평가할 필요가 있습니다. (학술 2)",
+      "en": "The results need to be re-evaluated from a critical perspective. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-017",
+      "kr": "연구 결과가 실무에 미치는 영향을 고려해야 합니다. (학술 2)",
+      "en": "We should consider the impact of research results on practice. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-018",
+      "kr": "추가적인 연구가 이 가설을 뒷받침할 것으로 예상됩니다. (학술 2)",
+      "en": "Additional research appears to be expected to support this hypothesis. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-019",
+      "kr": "학계의 합의와 상반되는 결과가 나타났습니다. (학술 2)",
+      "en": "Results contrary to academic consensus have emerged. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-020",
+      "kr": "이론적 틀의 수정이 필요할 수 있습니다. (학술 2)",
+      "en": "Modification of the theoretical framework may be necessary. (academic variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-021",
+      "kr": "결과는 이론적 예측과 일치하는 것으로 보입니다. (학술 3)",
+      "en": "The results appear to be consistent with theoretical predictions. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-022",
+      "kr": "이러한 발견은 중요한 함의를 갖는 것으로 해석됩니다. (학술 3)",
+      "en": "These findings are interpreted as having significant implications. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-023",
+      "kr": "데이터는 기존 연구와 다른 패턴을 시사합니다. (학술 3)",
+      "en": "The data suggests a different pattern from existing research. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-024",
+      "kr": "결과의 학술적 의미를 심층적으로 검토해야 합니다. (학술 3)",
+      "en": "The academic significance of the results requires in-depth examination. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-025",
+      "kr": "이 발견이 이론 발전에 기여할 가능성이 있습니다. (학술 3)",
+      "en": "This discovery may contribute to theoretical development. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-026",
+      "kr": "비판적 관점에서 결과를 재평가할 필요가 있습니다. (학술 3)",
+      "en": "The results need to be re-evaluated from a critical perspective. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-027",
+      "kr": "연구 결과가 실무에 미치는 영향을 고려해야 합니다. (학술 3)",
+      "en": "We should consider the impact of research results on practice. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-028",
+      "kr": "추가적인 연구가 이 가설을 뒷받침할 것으로 예상됩니다. (학술 3)",
+      "en": "Additional research appears to be expected to support this hypothesis. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-029",
+      "kr": "학계의 합의와 상반되는 결과가 나타났습니다. (학술 3)",
+      "en": "Results contrary to academic consensus have emerged. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-030",
+      "kr": "이론적 틀의 수정이 필요할 수 있습니다. (학술 3)",
+      "en": "Modification of the theoretical framework may be necessary. (academic variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-031",
+      "kr": "결과는 이론적 예측과 일치하는 것으로 보입니다. (학술 4)",
+      "en": "It appears that the results appear to be consistent with theoretical predictions. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-032",
+      "kr": "이러한 발견은 중요한 함의를 갖는 것으로 해석됩니다. (학술 4)",
+      "en": "It appears that these findings are interpreted as having significant implications. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-033",
+      "kr": "데이터는 기존 연구와 다른 패턴을 시사합니다. (학술 4)",
+      "en": "It appears that the data suggests a different pattern from existing research. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-034",
+      "kr": "결과의 학술적 의미를 심층적으로 검토해야 합니다. (학술 4)",
+      "en": "It appears that the academic significance of the results requires in-depth examination. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-035",
+      "kr": "이 발견이 이론 발전에 기여할 가능성이 있습니다. (학술 4)",
+      "en": "It appears that this discovery may contribute to theoretical development. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-036",
+      "kr": "비판적 관점에서 결과를 재평가할 필요가 있습니다. (학술 4)",
+      "en": "It appears that the results need to be re-evaluated from a critical perspective. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-037",
+      "kr": "연구 결과가 실무에 미치는 영향을 고려해야 합니다. (학술 4)",
+      "en": "It appears that we should consider the impact of research results on practice. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-038",
+      "kr": "추가적인 연구가 이 가설을 뒷받침할 것으로 예상됩니다. (학술 4)",
+      "en": "It appears that additional research appears to be expected to support this hypothesis. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-039",
+      "kr": "학계의 합의와 상반되는 결과가 나타났습니다. (학술 4)",
+      "en": "It appears that results contrary to academic consensus have emerged. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-040",
+      "kr": "이론적 틀의 수정이 필요할 수 있습니다. (학술 4)",
+      "en": "It appears that modification of the theoretical framework may be necessary. (academic variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-041",
+      "kr": "결과는 이론적 예측과 일치하는 것으로 보입니다. (학술 5)",
+      "en": "It appears that the results appear to be consistent with theoretical predictions. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-042",
+      "kr": "이러한 발견은 중요한 함의를 갖는 것으로 해석됩니다. (학술 5)",
+      "en": "It appears that these findings are interpreted as having significant implications. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-043",
+      "kr": "데이터는 기존 연구와 다른 패턴을 시사합니다. (학술 5)",
+      "en": "It appears that the data suggests a different pattern from existing research. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-044",
+      "kr": "결과의 학술적 의미를 심층적으로 검토해야 합니다. (학술 5)",
+      "en": "It appears that the academic significance of the results requires in-depth examination. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-045",
+      "kr": "이 발견이 이론 발전에 기여할 가능성이 있습니다. (학술 5)",
+      "en": "It appears that this discovery may contribute to theoretical development. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-046",
+      "kr": "비판적 관점에서 결과를 재평가할 필요가 있습니다. (학술 5)",
+      "en": "It appears that the results need to be re-evaluated from a critical perspective. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-047",
+      "kr": "연구 결과가 실무에 미치는 영향을 고려해야 합니다. (학술 5)",
+      "en": "It appears that we should consider the impact of research results on practice. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-048",
+      "kr": "추가적인 연구가 이 가설을 뒷받침할 것으로 예상됩니다. (학술 5)",
+      "en": "It appears that additional research appears to be expected to support this hypothesis. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-049",
+      "kr": "학계의 합의와 상반되는 결과가 나타났습니다. (학술 5)",
+      "en": "It appears that results contrary to academic consensus have emerged. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    },
+    {
+      "id": "Lv5-A2-S06-050",
+      "kr": "이론적 틀의 수정이 필요할 수 있습니다. (학술 5)",
+      "en": "It appears that modification of the theoretical framework may be necessary. (academic variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "PRESENT-PERFECT-RESULTS",
+        "CONDITIONAL-INTERPRETATION",
+        "COMPLEX-RELATIVE",
+        "ACADEMIC-HEDGING"
+      ],
+      "academic_level": "C1-C2"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10
+  },
+  "grammar_meta": [
+    "PRESENT-PERFECT-RESULTS",
+    "CONDITIONAL-INTERPRETATION",
+    "COMPLEX-RELATIVE",
+    "ACADEMIC-HEDGING"
+  ],
+  "academic_level": "C1-C2",
+  "status": "generated",
+  "batch": "L5_Academic_Batch1"
+}

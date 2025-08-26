@@ -1,0 +1,89 @@
+{
+  "id": "Lv5-A1-S02",
+  "title": "문헌 검토 및 이론적 배경",
+  "intent": "기존 문헌을 체계적으로 검토하고 연구의 이론적 기반을 구축한다.",
+  "focus": [
+    "LITERATURE-REVIEW",
+    "THEORETICAL-BACKGROUND",
+    "ACADEMIC-SOURCES",
+    "CRITICAL-ANALYSIS"
+  ],
+  "lexset": [
+    "literature, theoretical, framework, perspective, paradigm, consensus, controversy, critique, synthesis, comprehensive"
+  ],
+  "grammar_meta": [
+    "RELATIVE-CLAUSES-COMPLEX",
+    "PRESENT-PERFECT-RESEARCH",
+    "PASSIVE-ACADEMIC",
+    "GERUND-SUBJECTS"
+  ],
+  "academic_level": "C1",
+  "traps": [
+    "학자 인용 방식",
+    "현재완료 vs 과거 (연구 시점)",
+    "비판적 분석 언어",
+    "이론 설명 구조"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "이론 유형",
+    "문헌 범위",
+    "비판 정도",
+    "종합 방식"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "선행 연구들은 일관된 패턴을 보여주었습니다.",
+      "en": "Previous studies have shown a consistent pattern."
+    },
+    {
+      "kr": "이론적 관점에서 볼 때 이 접근법이 타당합니다.",
+      "en": "From a theoretical perspective, this approach is valid."
+    },
+    {
+      "kr": "문헌 검토 결과 연구 공백이 확인되었습니다.",
+      "en": "The literature review revealed a research gap."
+    },
+    {
+      "kr": "학자들 간에 이 주제에 대한 합의가 부족합니다.",
+      "en": "There is a lack of consensus among scholars on this topic."
+    },
+    {
+      "kr": "포괄적 분석을 통해 새로운 관점을 제시합니다.",
+      "en": "We present a new perspective through comprehensive analysis."
+    },
+    {
+      "kr": "기존 연구의 한계점들이 지적되어 왔습니다.",
+      "en": "Limitations of existing research have been pointed out."
+    },
+    {
+      "kr": "이론적 틀이 현상 설명에 적합한지 검토합니다.",
+      "en": "We examine whether the theoretical framework is suitable for explaining the phenomenon."
+    },
+    {
+      "kr": "비판적 검토를 통해 연구의 방향을 설정했습니다.",
+      "en": "We established the research direction through critical review."
+    },
+    {
+      "kr": "다양한 패러다임이 이 문제에 적용되어 왔습니다.",
+      "en": "Various paradigms have been applied to this problem."
+    },
+    {
+      "kr": "문헌 종합 결과 새로운 연구 질문이 도출되었습니다.",
+      "en": "The synthesis of literature led to new research questions."
+    }
+  ]
+}

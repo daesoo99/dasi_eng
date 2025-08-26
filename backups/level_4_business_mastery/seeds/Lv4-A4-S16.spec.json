@@ -1,0 +1,88 @@
+{
+  "id": "Lv4-A4-S16",
+  "title": "보고서 권고사항 및 실행계획 (Bridge)",
+  "intent": "보고서의 분석을 바탕으로 구체적이고 실행 가능한 권고사항과 계획을 제시한다.",
+  "focus": [
+    "RECOMMENDATIONS",
+    "ACTION-PLANS",
+    "IMPLEMENTATION",
+    "STRATEGIC-THINKING"
+  ],
+  "lexset": [
+    "recommend, suggest, implement, strategy, plan, execute, prioritize, allocate, timeline, objective"
+  ],
+  "grammar_meta": [
+    "CONDITIONAL-2ND",
+    "MODAL-SHOULD-MUST",
+    "FUTURE-WILL-GOING",
+    "PASSIVE-VOICE"
+  ],
+  "traps": [
+    "권고 vs 명령 어조",
+    "실행 계획 시제",
+    "조건부 권고 (If we implement)",
+    "우선순위 표현"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.7,
+    "neg": 0.1,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "권고 강도",
+    "실행 방법",
+    "시간 계획",
+    "자원 배분"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "다음 전략을 실행할 것을 권장합니다.",
+      "en": "I recommend implementing the following strategy."
+    },
+    {
+      "kr": "우선순위를 정해서 진행해야 합니다.",
+      "en": "We should proceed with prioritized actions."
+    },
+    {
+      "kr": "이 계획이 실행되면 성과가 향상될 것입니다.",
+      "en": "If this plan is implemented, performance will improve."
+    },
+    {
+      "kr": "자원을 효율적으로 배분해야 합니다.",
+      "en": "Resources must be allocated efficiently."
+    },
+    {
+      "kr": "단계별 실행 일정을 제안합니다.",
+      "en": "I suggest a phased implementation timeline."
+    },
+    {
+      "kr": "목표 달성을 위한 핵심 행동입니다.",
+      "en": "These are key actions for achieving objectives."
+    },
+    {
+      "kr": "리스크를 최소화하면서 진행해야 합니다.",
+      "en": "We should proceed while minimizing risks."
+    },
+    {
+      "kr": "성공 지표를 설정하는 것이 중요합니다.",
+      "en": "Setting success metrics is crucial."
+    },
+    {
+      "kr": "이 접근법이 최적의 결과를 가져올 것입니다.",
+      "en": "This approach will bring optimal results."
+    },
+    {
+      "kr": "즉시 실행 가능한 솔루션을 제시합니다.",
+      "en": "I present immediately actionable solutions."
+    }
+  ]
+}

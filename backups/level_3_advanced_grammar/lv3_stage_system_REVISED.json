@@ -1,0 +1,856 @@
+{
+  "level": 3,
+  "title": "Level 3 - 시제 확장과 복합 문장 구사",
+  "description": "확장된 시제(완료시제, 수동태)와 조동사, 조건문, 관계절, 간접화법 등을 체계적으로 마스터하여 복합적인 영어 표현력을 기릅니다. Level 4 비즈니스 영어로의 자연스러운 연결을 준비합니다.",
+  "total_phases": 5,
+  "total_stages": 30,
+  "revision_info": {
+    "date": "2025-08-22",
+    "reason": "새로운 30단계 Phase 시스템 완전 교체 - 확장된 시제부터 복합문까지",
+    "changes": "Phase 1: 확장된 시제와 수동태 (Stage 1-6), Phase 2: 다양한 조동사와 조건문 (Stage 7-10), Phase 3: 관계절과 간접화법 (Stage 11-15), Phase 4: 논리 연결 및 의견 표현 (Stage 16-20), Phase 5: 회화 기능 심화 (Stage 21-30)"
+  },
+  "phases": [
+    {
+      "phase_id": 1,
+      "title": "확장된 시제와 수동태 (Extended Tenses & Passive Voice)",
+      "description": "현재완료, 과거완료, 미래완료와 수동태를 마스터하여 시간의 관계를 정교하게 표현합니다",
+      "stages": ["Lv3-P1-S01", "Lv3-P1-S02", "Lv3-P1-S03", "Lv3-P1-S04", "Lv3-P1-S05", "Lv3-P1-S06"]
+    },
+    {
+      "phase_id": 2,
+      "title": "다양한 조동사와 조건문 (Advanced Modals & Conditionals)",
+      "description": "고급 조동사와 다양한 조건문을 활용하여 확률, 의무, 가정을 정확히 표현합니다",
+      "stages": ["Lv3-P2-S07", "Lv3-P2-S08", "Lv3-P2-S09", "Lv3-P2-S10"]
+    },
+    {
+      "phase_id": 3,
+      "title": "관계절과 간접화법 (Relative Clauses & Reported Speech)",
+      "description": "관계절과 간접화법을 통해 정보를 효율적으로 연결하고 전달하는 방법을 익힙니다",
+      "stages": ["Lv3-P3-S11", "Lv3-P3-S12", "Lv3-P3-S13", "Lv3-P3-S14", "Lv3-P3-S15"]
+    },
+    {
+      "phase_id": 4,
+      "title": "논리 연결 및 의견 표현 (Logical Connections & Opinion Expression)",
+      "description": "논리적 연결어와 의견 표현을 통해 체계적이고 설득력 있는 의사소통 능력을 기릅니다",
+      "stages": ["Lv3-P4-S16", "Lv3-P4-S17", "Lv3-P4-S18", "Lv3-P4-S19", "Lv3-P4-S20"]
+    },
+    {
+      "phase_id": 5,
+      "title": "회화 기능 심화 (Advanced Conversational Functions)",
+      "description": "실생활과 비즈니스 상황에서 필요한 고급 회화 기능을 익혀 Level 4로의 연결을 준비합니다",
+      "stages": ["Lv3-P5-S21", "Lv3-P5-S22", "Lv3-P5-S23", "Lv3-P5-S24", "Lv3-P5-S25", "Lv3-P5-S26", "Lv3-P5-S27", "Lv3-P5-S28", "Lv3-P5-S29", "Lv3-P5-S30"]
+    }
+  ],
+  "stages": [
+    {
+      "stage_id": "Lv3-P1-S01",
+      "title": "현재완료 기초 (경험/완료)",
+      "pattern": "have/has + p.p. (경험/완료)",
+      "classification": "core",
+      "phase": 1,
+      "description": "현재완료의 경험과 완료 용법을 익혀 과거와 현재의 연결을 표현합니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "일본에 가본 적 있어", "en": "I have been to Japan", "lemma": "been"},
+        {"kr": "방금 숙제를 끝냈어", "en": "I have just finished my homework", "lemma": "finish"},
+        {"kr": "그는 열쇠를 잃어버렸어", "en": "He has lost his key", "lemma": "lose"},
+        {"kr": "이 영화를 본 적 있니?", "en": "Have you seen this movie?", "lemma": "see"},
+        {"kr": "벌써 점심을 먹었어", "en": "I have already eaten lunch", "lemma": "eat"},
+        {"kr": "그녀는 아직 오지 않았어", "en": "She has not come yet", "lemma": "come"},
+        {"kr": "그들은 그 소식을 들었어", "en": "They have heard the news", "lemma": "hear"},
+        {"kr": "우리는 새 차를 샀어", "en": "We have bought a new car", "lemma": "buy"},
+        {"kr": "그는 많은 나라를 여행했어", "en": "He has traveled to many countries", "lemma": "travel"},
+        {"kr": "내가 뭔가 잘못했니?", "en": "Have I done something wrong?", "lemma": "do"}
+      ],
+      "tags": ["TENSE-PERF"]
+    },
+    {
+      "stage_id": "Lv3-P1-S02",
+      "title": "현재완료 계속용법",
+      "pattern": "have/has + p.p. (과거부터 현재까지 계속)",
+      "classification": "core",
+      "phase": 1,
+      "description": "현재완료의 계속 용법으로 지속적인 상태나 행동을 표현합니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "우리는 5년 동안 알고 지냈어", "en": "We have known each other for 5 years", "lemma": "know"},
+        {"kr": "그는 2020년부터 여기서 일해", "en": "He has worked here since 2020", "lemma": "work"},
+        {"kr": "1시간 동안 기다렸어", "en": "I have waited for one hour", "lemma": "wait"},
+        {"kr": "어린 시절부터 축구를 좋아했어", "en": "I have liked soccer since childhood", "lemma": "like"},
+        {"kr": "그녀는 3년 동안 영어를 공부했어", "en": "She has studied English for three years", "lemma": "study"},
+        {"kr": "얼마나 오래 여기 살았니?", "en": "How long have you lived here?", "lemma": "live"},
+        {"kr": "아침부터 비가 오고 있어", "en": "It has been raining since morning", "lemma": "rain"},
+        {"kr": "그들은 오랫동안 친구였어", "en": "They have been friends for a long time", "lemma": "friend"},
+        {"kr": "나는 태어날 때부터 서울에 살고 있어", "en": "I have lived in Seoul since I was born", "lemma": "live"},
+        {"kr": "그는 2시간 동안 자고 있어", "en": "He has been sleeping for 2 hours", "lemma": "sleep"}
+      ],
+      "tags": ["TENSE-PERF"]
+    },
+    {
+      "stage_id": "Lv3-P1-S03",
+      "title": "과거완료",
+      "pattern": "had + p.p. (과거의 과거)",
+      "classification": "core",
+      "phase": 1,
+      "description": "과거완료를 사용하여 과거보다 더 이전의 시점을 표현합니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "그가 도착하기 전에 저녁을 끝냈어", "en": "I had finished dinner before he arrived", "lemma": "finish"},
+        {"kr": "그녀는 이미 떠났었어", "en": "She had already left", "lemma": "leave"},
+        {"kr": "우리는 그 영화를 본 적이 있었어", "en": "We had seen that movie before", "lemma": "see"},
+        {"kr": "기차가 떠나기 전에 도착했어", "en": "I arrived before the train had left", "lemma": "arrive"},
+        {"kr": "그들은 집을 팔았었어", "en": "They had sold their house", "lemma": "sell"},
+        {"kr": "네가 오기 전에 청소했어", "en": "I had cleaned before you came", "lemma": "clean"},
+        {"kr": "회의가 시작되기 전에 그는 자료를 준비했었어", "en": "He had prepared the materials before the meeting started", "lemma": "prepare"},
+        {"kr": "비가 오기 전에 우리는 집에 도착했어", "en": "We had arrived home before it started raining", "lemma": "arrive"},
+        {"kr": "그녀는 대학에 가기 전에 일년 동안 일했었어", "en": "She had worked for a year before going to university", "lemma": "work"},
+        {"kr": "그가 전화하기 전에 나는 이미 잠들었었어", "en": "I had already fallen asleep before he called", "lemma": "fall"}
+      ],
+      "tags": ["TENSE-PAST", "TENSE-PERF"]
+    },
+    {
+      "stage_id": "Lv3-P1-S04",
+      "title": "미래완료",
+      "pattern": "will have + p.p. (미래의 특정 시점까지 완료)",
+      "classification": "core",
+      "phase": 1,
+      "description": "미래완료를 사용하여 미래의 특정 시점까지 완료될 동작을 표현합니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "다음 주까지 프로젝트를 끝냈을 거야", "en": "I will have finished the project by next week", "lemma": "finish"},
+        {"kr": "6시까지 집에 도착했을 거야", "en": "I will have arrived home by 6 o'clock", "lemma": "arrive"},
+        {"kr": "그는 내년까지 졸업했을 거야", "en": "He will have graduated by next year", "lemma": "graduate"},
+        {"kr": "그들은 이미 떠났을 거야", "en": "They will have already left", "lemma": "leave"},
+        {"kr": "내일까지 숙제를 다 했을 거야", "en": "I will have completed all homework by tomorrow", "lemma": "complete"},
+        {"kr": "12월까지 책을 다 읽었을 거야", "en": "I will have read the book by December", "lemma": "read"},
+        {"kr": "그녀는 5시까지 회의를 마쳤을 거야", "en": "She will have finished the meeting by 5 PM", "lemma": "finish"},
+        {"kr": "우리는 여름까지 새 집으로 이사했을 거야", "en": "We will have moved to the new house by summer", "lemma": "move"},
+        {"kr": "그는 30살까지 결혼했을 거야", "en": "He will have gotten married by age 30", "lemma": "marry"},
+        {"kr": "그들은 오후까지 모든 준비를 마쳤을 거야", "en": "They will have completed all preparations by afternoon", "lemma": "complete"}
+      ],
+      "tags": ["TENSE-FUT", "TENSE-PERF"]
+    },
+    {
+      "stage_id": "Lv3-P1-S05",
+      "title": "기본 수동태",
+      "pattern": "be + p.p. (행위 주체보다 대상 강조)",
+      "classification": "core",
+      "phase": 1,
+      "description": "기본 수동태를 사용하여 행위의 대상에 초점을 맞춰 표현합니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "이 노래는 많은 사람들에게 사랑받아", "en": "This song is loved by many people", "lemma": "love"},
+        {"kr": "창문이 깨졌어", "en": "The window was broken", "lemma": "break"},
+        {"kr": "새 다리가 건설될 예정이야", "en": "A new bridge will be built", "lemma": "build"},
+        {"kr": "이 집은 나무로 만들어졌어", "en": "This house is made of wood", "lemma": "make"},
+        {"kr": "그는 의사로 알려져 있어", "en": "He is known as a doctor", "lemma": "know"},
+        {"kr": "편지가 어제 보내졌어", "en": "The letter was sent yesterday", "lemma": "send"},
+        {"kr": "이 문제는 해결되었어", "en": "This problem has been solved", "lemma": "solve"},
+        {"kr": "회의가 취소되었어", "en": "The meeting was cancelled", "lemma": "cancel"},
+        {"kr": "새로운 법이 통과될 거야", "en": "The new law will be passed", "lemma": "pass"},
+        {"kr": "이 책은 많은 언어로 번역되었어", "en": "This book has been translated into many languages", "lemma": "translate"}
+      ],
+      "tags": ["PASSIVE"]
+    },
+    {
+      "stage_id": "Lv3-P1-S06",
+      "title": "수동태 심화 응용",
+      "pattern": "다양한 시제의 수동태와 전치사 활용",
+      "classification": "core",
+      "phase": 1,
+      "description": "다양한 시제의 수동태와 by/with 등의 전치사를 적절히 활용합니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "편지가 배달되었어", "en": "The letter has been delivered", "lemma": "deliver"},
+        {"kr": "그 건물은 화재로 파괴되었어", "en": "The building was destroyed by fire", "lemma": "destroy"},
+        {"kr": "이 케이크는 누구에 의해 만들어졌니?", "en": "Who was this cake made by?", "lemma": "make"},
+        {"kr": "그 문제는 해결되고 있어", "en": "The problem is being solved", "lemma": "solve"},
+        {"kr": "나는 그 소식에 놀랐어", "en": "I was surprised by the news", "lemma": "surprise"},
+        {"kr": "이 책은 칼로 잘렸어", "en": "This book was cut with a knife", "lemma": "cut"},
+        {"kr": "새로운 정책이 발표될 예정이야", "en": "A new policy will be announced", "lemma": "announce"},
+        {"kr": "그들은 경찰에 의해 체포되었어", "en": "They were arrested by the police", "lemma": "arrest"},
+        {"kr": "이 그림은 유명한 화가에 의해 그려졌어", "en": "This painting was painted by a famous artist", "lemma": "paint"},
+        {"kr": "모든 티켓이 팔렸어", "en": "All tickets have been sold", "lemma": "sell"}
+      ],
+      "tags": ["PASSIVE", "TENSE-PERF"]
+    },
+    {
+      "stage_id": "Lv3-P2-S07",
+      "title": "조동사 확장 (would, could, might)",
+      "pattern": "would/could/might (정중함/가능성/추측)",
+      "classification": "core",
+      "phase": 2,
+      "description": "고급 조동사를 사용하여 정중함, 가능성, 추측을 표현합니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "시간이 있다면 여행할 텐데", "en": "I would travel if I had time", "lemma": "travel"},
+        {"kr": "소금 좀 건네줄 수 있어요?", "en": "Could you pass the salt?", "lemma": "pass"},
+        {"kr": "나중에 비가 올 수도 있어", "en": "It might rain later", "lemma": "rain"},
+        {"kr": "그 영화 좋아할 거야", "en": "You would like that movie", "lemma": "like"},
+        {"kr": "그는 집에 있을 수도 있어", "en": "He might be at home", "lemma": "home"},
+        {"kr": "저녁에 올 수 있어요?", "en": "Could you come in the evening?", "lemma": "come"},
+        {"kr": "내가 도와줄까?", "en": "Would you like me to help?", "lemma": "help"},
+        {"kr": "그것은 위험할 수도 있어", "en": "That could be dangerous", "lemma": "dangerous"},
+        {"kr": "그녀는 화가 났을 수도 있어", "en": "She might be angry", "lemma": "angry"},
+        {"kr": "더 일찍 올 수 있었을 텐데", "en": "I could have come earlier", "lemma": "come"}
+      ],
+      "tags": ["MODAL"]
+    },
+    {
+      "stage_id": "Lv3-P2-S08",
+      "title": "추측 조동사 (must, may, can't)",
+      "pattern": "must/may/can't (추측의 강도 표현)",
+      "classification": "core",
+      "phase": 2,
+      "description": "다양한 조동사로 추측의 강도를 구분하여 표현합니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "그는 분명히 집에 있을 거야", "en": "He must be at home", "lemma": "home"},
+        {"kr": "그녀는 아마 바쁠 거야", "en": "She may be busy", "lemma": "busy"},
+        {"kr": "비가 올 수도 있어", "en": "It might rain", "lemma": "rain"},
+        {"kr": "그는 절대 거짓말하지 않아", "en": "He can't be lying", "lemma": "lie"},
+        {"kr": "아마 늦을 거야", "en": "I might be late", "lemma": "late"},
+        {"kr": "그들은 틀림없이 이미 알고 있어", "en": "They must already know", "lemma": "know"},
+        {"kr": "그것은 사실일 리 없어", "en": "That can't be true", "lemma": "true"},
+        {"kr": "그녀는 의사일 수도 있어", "en": "She may be a doctor", "lemma": "doctor"},
+        {"kr": "그는 분명히 성공할 거야", "en": "He must succeed", "lemma": "succeed"},
+        {"kr": "우리가 틀렸을 수도 있어", "en": "We might be wrong", "lemma": "wrong"}
+      ],
+      "tags": ["MODAL"]
+    },
+    {
+      "stage_id": "Lv3-P2-S09",
+      "title": "1조건문 (현실적 조건)",
+      "pattern": "If + 현재형, will + 동사원형",
+      "classification": "core",
+      "phase": 2,
+      "description": "가능성이 높은 현실적 조건을 표현하는 1조건문을 익힙니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "비가 오면 집에 있을 거야", "en": "If it rains, I will stay home", "lemma": "rain"},
+        {"kr": "열심히 공부하면 합격할 거야", "en": "If you study hard, you will pass", "lemma": "study"},
+        {"kr": "그가 오면 알려줄게", "en": "If he comes, I will tell you", "lemma": "come"},
+        {"kr": "시간이 있으면 도와줄게", "en": "If I have time, I will help you", "lemma": "help"},
+        {"kr": "늦으면 시작할 거야", "en": "If you are late, we will start", "lemma": "start"},
+        {"kr": "날씨가 좋으면 소풍 갈 거야", "en": "If the weather is nice, we will go on a picnic", "lemma": "picnic"},
+        {"kr": "돈이 부족하면 빌릴 거야", "en": "If I don't have enough money, I will borrow some", "lemma": "borrow"},
+        {"kr": "그녀가 동의하면 계획을 진행할 거야", "en": "If she agrees, we will proceed with the plan", "lemma": "agree"},
+        {"kr": "교통이 막히면 늦을 거야", "en": "If there is traffic, I will be late", "lemma": "traffic"},
+        {"kr": "시험에 떨어지면 다시 볼 거야", "en": "If I fail the exam, I will take it again", "lemma": "fail"}
+      ],
+      "tags": ["CLAUSE-IF"]
+    },
+    {
+      "stage_id": "Lv3-P2-S10",
+      "title": "2조건문 (가정적 조건)",
+      "pattern": "If + 과거형, would + 동사원형",
+      "classification": "core",
+      "phase": 2,
+      "description": "현재의 가정적 상황을 표현하는 2조건문을 익힙니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "돈이 있다면 새 차를 살 텐데", "en": "If I had money, I would buy a new car", "lemma": "buy"},
+        {"kr": "날씨가 좋다면 놀러 갈 텐데", "en": "If the weather were nice, we would go out", "lemma": "weather"},
+        {"kr": "시간이 있다면 여행할 텐데", "en": "If I had time, I would travel", "lemma": "travel"},
+        {"kr": "그가 여기 있다면 도와줄 텐데", "en": "If he were here, he would help", "lemma": "help"},
+        {"kr": "더 젊다면 마라톤을 뛸 텐데", "en": "If I were younger, I would run a marathon", "lemma": "run"},
+        {"kr": "영어를 할 수 있다면 외국에서 일할 텐데", "en": "If I could speak English, I would work abroad", "lemma": "work"},
+        {"kr": "부자라면 자선 단체에 기부할 텐데", "en": "If I were rich, I would donate to charity", "lemma": "donate"},
+        {"kr": "그녀가 자유롭다면 우리와 올 텐데", "en": "If she were free, she would come with us", "lemma": "free"},
+        {"kr": "더 키가 크다면 농구를 할 텐데", "en": "If I were taller, I would play basketball", "lemma": "tall"},
+        {"kr": "건강하다면 더 많이 운동할 텐데", "en": "If I were healthy, I would exercise more", "lemma": "healthy"}
+      ],
+      "tags": ["CLAUSE-IF", "MODAL"]
+    },
+    {
+      "stage_id": "Lv3-P3-S11",
+      "title": "관계대명사 기초 (who, which, that)",
+      "pattern": "who/which/that (주격 관계대명사)",
+      "classification": "core",
+      "phase": 3,
+      "description": "기본 관계대명사를 사용하여 문장을 연결하고 명사를 수식합니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "의사인 소녀를 만났어", "en": "I met a girl who is a doctor", "lemma": "doctor"},
+        {"kr": "빨간 자동차가 내 것이야", "en": "The car which is red is mine", "lemma": "car"},
+        {"kr": "그 영화를 좋아하는 사람들", "en": "People that like the movie", "lemma": "people"},
+        {"kr": "한국어를 공부하는 학생", "en": "A student who studies Korean", "lemma": "student"},
+        {"kr": "비싼 책들", "en": "Books that are expensive", "lemma": "book"},
+        {"kr": "어제 온 친구", "en": "The friend who came yesterday", "lemma": "friend"},
+        {"kr": "창문 옆에 있는 테이블", "en": "The table which is by the window", "lemma": "table"},
+        {"kr": "영어를 가르치는 선생님", "en": "The teacher who teaches English", "lemma": "teacher"},
+        {"kr": "새로 산 컴퓨터", "en": "The computer that I bought recently", "lemma": "computer"},
+        {"kr": "매일 운동하는 사람", "en": "A person who exercises every day", "lemma": "exercise"}
+      ],
+      "tags": ["CLAUSE-REL"]
+    },
+    {
+      "stage_id": "Lv3-P3-S12",
+      "title": "관계절 심화 (목적격/생략)",
+      "pattern": "목적격 관계대명사와 생략",
+      "classification": "core",
+      "phase": 3,
+      "description": "목적격 관계대명사의 사용과 생략 규칙을 익힙니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "어제 본 영화가 재미있었어", "en": "The movie (which) I watched yesterday was fun", "lemma": "watch"},
+        {"kr": "일하는 회사가 커", "en": "The company (which) I work for is big", "lemma": "company"},
+        {"kr": "이야기한 사람", "en": "The person (who) I talked to", "lemma": "person"},
+        {"kr": "살고 있는 집", "en": "The house (that) I live in", "lemma": "house"},
+        {"kr": "찾고 있는 책", "en": "The book (which) I am looking for", "lemma": "book"},
+        {"kr": "만난 친구들", "en": "The friends (whom) I met", "lemma": "friend"},
+        {"kr": "샀던 옷", "en": "The clothes (that) I bought", "lemma": "clothes"},
+        {"kr": "좋아하는 음식", "en": "The food (that) I like", "lemma": "food"},
+        {"kr": "읽은 소설", "en": "The novel (which) I read", "lemma": "novel"},
+        {"kr": "들었던 노래", "en": "The song (that) I heard", "lemma": "song"}
+      ],
+      "tags": ["CLAUSE-REL"]
+    },
+    {
+      "stage_id": "Lv3-P3-S13",
+      "title": "관계부사 (where, when, why, how)",
+      "pattern": "관계부사로 장소/시간/이유/방법 연결",
+      "classification": "core",
+      "phase": 3,
+      "description": "관계부사를 사용하여 장소, 시간, 이유, 방법을 자연스럽게 연결합니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "그가 태어난 곳", "en": "The place where he was born", "lemma": "place"},
+        {"kr": "만난 날", "en": "The day when we met", "lemma": "day"},
+        {"kr": "그가 떠난 이유", "en": "The reason why he left", "lemma": "reason"},
+        {"kr": "문제를 해결하는 방법", "en": "The way how to solve the problem", "lemma": "way"},
+        {"kr": "공부하는 장소", "en": "The place where I study", "lemma": "study"},
+        {"kr": "행복했던 시절", "en": "The time when I was happy", "lemma": "happy"},
+        {"kr": "그들이 만난 카페", "en": "The cafe where they met", "lemma": "cafe"},
+        {"kr": "비가 온 날", "en": "The day when it rained", "lemma": "rain"},
+        {"kr": "성공한 비결", "en": "The secret of how he succeeded", "lemma": "succeed"},
+        {"kr": "그녀가 우는 이유", "en": "The reason why she is crying", "lemma": "cry"}
+      ],
+      "tags": ["CLAUSE-REL"]
+    },
+    {
+      "stage_id": "Lv3-P3-S14",
+      "title": "간접화법 기초 (평서문)",
+      "pattern": "say that / tell + 목적어 + that",
+      "classification": "core",
+      "phase": 3,
+      "description": "평서문을 간접화법으로 전달하는 방법을 익힙니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "그는 바쁘다고 말했어", "en": "He said that he was busy", "lemma": "busy"},
+        {"kr": "그녀가 나에게 사실을 말했어", "en": "She told me that it was true", "lemma": "true"},
+        {"kr": "선생님이 시험이 어렵다고 하셨어", "en": "The teacher said that the test was difficult", "lemma": "difficult"},
+        {"kr": "그들이 늦을 거라고 했어", "en": "They said that they would be late", "lemma": "late"},
+        {"kr": "엄마가 저녁 준비됐다고 하셨어", "en": "Mom told me that dinner was ready", "lemma": "dinner"},
+        {"kr": "그가 오늘 올 거라고 했어", "en": "He said that he would come today", "lemma": "come"},
+        {"kr": "의사가 괜찮다고 했어", "en": "The doctor said that it was fine", "lemma": "fine"},
+        {"kr": "그녀가 행복하다고 말했어", "en": "She said that she was happy", "lemma": "happy"},
+        {"kr": "그들이 이사간다고 했어", "en": "They said that they were moving", "lemma": "move"},
+        {"kr": "아버지가 자랑스럽다고 하셨어", "en": "My father said that he was proud", "lemma": "proud"}
+      ],
+      "tags": ["REPORTED"]
+    },
+    {
+      "stage_id": "Lv3-P3-S15",
+      "title": "간접의문문과 명령문",
+      "pattern": "간접의문문과 간접명령문",
+      "classification": "core",
+      "phase": 3,
+      "description": "의문문과 명령문을 간접화법으로 전달하는 방법을 익힙니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "역이 어디 있는지 알려주세요", "en": "Could you tell me where the station is?", "lemma": "station"},
+        {"kr": "그가 언제 올지 궁금해", "en": "I wonder when he will come", "lemma": "wonder"},
+        {"kr": "몇 시인지 아세요?", "en": "Do you know what time it is?", "lemma": "time"},
+        {"kr": "그가 나에게 조용히 하라고 했어", "en": "He told me to be quiet", "lemma": "quiet"},
+        {"kr": "선생님이 숙제를 하라고 하셨어", "en": "The teacher told us to do homework", "lemma": "homework"},
+        {"kr": "그녀가 도와달라고 부탁했어", "en": "She asked me to help her", "lemma": "help"},
+        {"kr": "왜 늦었는지 물어봤어", "en": "I asked why he was late", "lemma": "late"},
+        {"kr": "어떻게 하는지 모르겠어", "en": "I don't know how to do it", "lemma": "know"},
+        {"kr": "엄마가 일찍 오라고 하셨어", "en": "Mom told me to come early", "lemma": "early"},
+        {"kr": "누가 왔는지 확인해 줄래?", "en": "Could you check who came?", "lemma": "check"}
+      ],
+      "tags": ["REPORTED", "DISCOURSE"]
+    },
+    {
+      "stage_id": "Lv3-P4-S16",
+      "title": "원인과 결과 연결",
+      "pattern": "because/since/so/therefore (원인과 결과)",
+      "classification": "core",
+      "phase": 4,
+      "description": "논리적 연결어를 사용하여 원인과 결과를 명확히 표현합니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "아파서 집에 있었어", "en": "I stayed home because I was sick", "lemma": "sick"},
+        {"kr": "비가 와서 취소되었어", "en": "It was cancelled because it was raining", "lemma": "cancel"},
+        {"kr": "늦었으니까 서둘러야 해", "en": "Since we are late, we need to hurry", "lemma": "hurry"},
+        {"kr": "따라서 회의가 연기되었어", "en": "Therefore, the meeting was postponed", "lemma": "postpone"},
+        {"kr": "바빠서 갈 수 없어", "en": "I can't go because I'm busy", "lemma": "busy"},
+        {"kr": "그래서 계획을 바꿨어", "en": "So we changed the plan", "lemma": "change"},
+        {"kr": "교통이 막혀서 늦었어", "en": "I was late because of the traffic", "lemma": "traffic"},
+        {"kr": "돈이 없어서 살 수 없어", "en": "I can't buy it because I don't have money", "lemma": "money"},
+        {"kr": "피곤해서 일찍 잤어", "en": "I went to bed early because I was tired", "lemma": "tired"},
+        {"kr": "결과적으로 성공했어", "en": "As a result, we succeeded", "lemma": "result"}
+      ],
+      "tags": ["DISCOURSE"]
+    },
+    {
+      "stage_id": "Lv3-P4-S17",
+      "title": "대조와 양보 표현",
+      "pattern": "but/however/although/even though (대조와 양보)",
+      "classification": "core",
+      "phase": 4,
+      "description": "대조와 양보를 나타내는 연결어를 적절히 사용합니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "비가 왔지만 하이킹을 갔어", "en": "Although it was raining, we went hiking", "lemma": "hiking"},
+        {"kr": "그는 친절해. 하지만 직장에서는 엄격할 수 있어", "en": "He is kind. However, he can be strict at work", "lemma": "strict"},
+        {"kr": "피곤했지만 공부했어", "en": "Even though I was tired, I studied", "lemma": "tired"},
+        {"kr": "그는 부자야. 반면에 그의 형은 가난해", "en": "He is rich. On the other hand, his brother is poor", "lemma": "rich"},
+        {"kr": "어려웠지만 재미있었어", "en": "Although it was difficult, it was fun", "lemma": "difficult"},
+        {"kr": "늦었지만 여전히 갈 거야", "en": "Even though it's late, I'll still go", "lemma": "still"},
+        {"kr": "작지만 편안해", "en": "It's small but comfortable", "lemma": "comfortable"},
+        {"kr": "그녀는 젊어. 그러나 경험이 많아", "en": "She is young. However, she has a lot of experience", "lemma": "experience"},
+        {"kr": "돈이 없지만 행복해", "en": "Although I don't have money, I'm happy", "lemma": "happy"},
+        {"kr": "비싸지만 좋은 품질이야", "en": "Even though it's expensive, it's good quality", "lemma": "quality"}
+      ],
+      "tags": ["DISCOURSE"]
+    },
+    {
+      "stage_id": "Lv3-P4-S18",
+      "title": "순서와 과정 표현",
+      "pattern": "first/then/finally/next (순서와 과정)",
+      "classification": "core",
+      "phase": 4,
+      "description": "순서와 과정을 나타내는 표현으로 체계적인 설명 능력을 기릅니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "먼저 계획을 세우고, 그다음 실행해", "en": "First, make a plan, then execute it", "lemma": "plan"},
+        {"kr": "마침내 숙제를 끝냈어", "en": "Finally, I finished my homework", "lemma": "finish"},
+        {"kr": "다음에 무엇을 할 거야?", "en": "What will you do next?", "lemma": "next"},
+        {"kr": "처음에는 어려웠지만, 나중에는 쉬워졌어", "en": "At first it was difficult, but later it became easy", "lemma": "difficult"},
+        {"kr": "먼저 샤워하고 마지막에 잠자리에 들어", "en": "First shower, and finally go to bed", "lemma": "shower"},
+        {"kr": "그 후에 친구들을 만났어", "en": "After that, I met my friends", "lemma": "after"},
+        {"kr": "처음에 공부하고, 그 다음에 운동해", "en": "First study, then exercise", "lemma": "study"},
+        {"kr": "마지막으로 확인해 봐", "en": "Finally, check it", "lemma": "check"},
+        {"kr": "이전에 그런 일이 있었어", "en": "Previously, such a thing happened", "lemma": "previous"},
+        {"kr": "동시에 두 가지 일을 했어", "en": "I did two things at the same time", "lemma": "same"}
+      ],
+      "tags": ["DISCOURSE"]
+    },
+    {
+      "stage_id": "Lv3-P4-S19",
+      "title": "의견과 추천 표현",
+      "pattern": "I think/believe/suggest/recommend (의견과 추천)",
+      "classification": "core",
+      "phase": 4,
+      "description": "자신의 의견을 표현하고 추천하는 다양한 방법을 익힙니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "그 영화가 좋다고 생각해", "en": "I think that movie is good", "lemma": "think"},
+        {"kr": "그가 옳다고 믿어", "en": "I believe he is right", "lemma": "believe"},
+        {"kr": "일찍 가는 것을 제안해", "en": "I suggest going early", "lemma": "suggest"},
+        {"kr": "그 책을 추천해", "en": "I recommend that book", "lemma": "recommend"},
+        {"kr": "내 생각에는 비가 올 것 같아", "en": "In my opinion, it will rain", "lemma": "opinion"},
+        {"kr": "그것은 좋은 아이디어인 것 같아", "en": "I think it's a good idea", "lemma": "idea"},
+        {"kr": "의사를 만나보라고 조언해", "en": "I advise you to see a doctor", "lemma": "advise"},
+        {"kr": "그녀가 성공할 거라고 확신해", "en": "I'm sure she will succeed", "lemma": "sure"},
+        {"kr": "개인적으로 그것에 반대해", "en": "Personally, I'm against it", "lemma": "against"},
+        {"kr": "내가 보기에는 문제가 있어", "en": "From my point of view, there's a problem", "lemma": "problem"}
+      ],
+      "tags": ["DISCOURSE", "OPINION"]
+    },
+    {
+      "stage_id": "Lv3-P4-S20",
+      "title": "동의와 반대 표현",
+      "pattern": "agree/disagree/support/oppose (동의와 반대)",
+      "classification": "core",
+      "phase": 4,
+      "description": "동의와 반대를 정중하게 표현하는 방법을 익힙니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "네 의견에 동의해", "en": "I agree with your opinion", "lemma": "agree"},
+        {"kr": "그 계획에 반대해", "en": "I disagree with that plan", "lemma": "disagree"},
+        {"kr": "그의 결정을 지지해", "en": "I support his decision", "lemma": "support"},
+        {"kr": "그 정책에 반대해", "en": "I oppose that policy", "lemma": "oppose"},
+        {"kr": "완전히 맞다고 생각해", "en": "I completely agree", "lemma": "completely"},
+        {"kr": "그 점에서는 동의하지 않아", "en": "I don't agree on that point", "lemma": "point"},
+        {"kr": "좋은 생각이야", "en": "That's a good idea", "lemma": "good"},
+        {"kr": "확실히 그래", "en": "Absolutely", "lemma": "absolutely"},
+        {"kr": "미안하지만 그렇게 생각하지 않아", "en": "I'm sorry, but I don't think so", "lemma": "sorry"},
+        {"kr": "부분적으로는 동의해", "en": "I partially agree", "lemma": "partially"}
+      ],
+      "tags": ["DISCOURSE", "OPINION"]
+    },
+    {
+      "stage_id": "Lv3-P5-S21",
+      "title": "문제 해결 표현",
+      "pattern": "solve/resolve/deal with/handle (문제 해결)",
+      "classification": "advanced",
+      "phase": 5,
+      "description": "문제를 파악하고 해결책을 제시하는 표현을 익힙니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "이 문제를 어떻게 해결할까?", "en": "How can we solve this problem?", "lemma": "solve"},
+        {"kr": "갈등을 해결해야 해", "en": "We need to resolve the conflict", "lemma": "resolve"},
+        {"kr": "이 상황을 어떻게 처리할 거야?", "en": "How will you deal with this situation?", "lemma": "deal"},
+        {"kr": "그 일을 잘 처리했어", "en": "You handled that well", "lemma": "handle"},
+        {"kr": "해결책을 찾아야 해", "en": "We need to find a solution", "lemma": "solution"},
+        {"kr": "문제가 생겼어", "en": "A problem has arisen", "lemma": "arise"},
+        {"kr": "이 이슈를 논의해야 해", "en": "We need to discuss this issue", "lemma": "discuss"},
+        {"kr": "문제를 분석해 봐", "en": "Let's analyze the problem", "lemma": "analyze"},
+        {"kr": "대안을 고려해 봐", "en": "Let's consider alternatives", "lemma": "consider"},
+        {"kr": "문제를 해결하기 위해 노력하고 있어", "en": "I'm working to fix the problem", "lemma": "fix"}
+      ],
+      "tags": ["DISCOURSE", "PROBLEM"]
+    },
+    {
+      "stage_id": "Lv3-P5-S22",
+      "title": "계획과 목표 표현",
+      "pattern": "plan/intend/aim/goal (계획과 목표)",
+      "classification": "advanced",
+      "phase": 5,
+      "description": "계획을 세우고 목표를 설정하는 표현을 익힙니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "내년에 유럽 여행을 계획하고 있어", "en": "I plan to travel to Europe next year", "lemma": "plan"},
+        {"kr": "대학원에 가려고 해", "en": "I intend to go to graduate school", "lemma": "intend"},
+        {"kr": "영어를 유창하게 하는 게 목표야", "en": "My goal is to speak English fluently", "lemma": "goal"},
+        {"kr": "성공을 목표로 하고 있어", "en": "I aim for success", "lemma": "aim"},
+        {"kr": "장기 계획이 있어", "en": "I have a long-term plan", "lemma": "plan"},
+        {"kr": "내 꿈은 의사가 되는 거야", "en": "My dream is to become a doctor", "lemma": "dream"},
+        {"kr": "목적을 달성하려고 해", "en": "I'm trying to achieve my purpose", "lemma": "achieve"},
+        {"kr": "새로운 도전을 하고 싶어", "en": "I want to take on a new challenge", "lemma": "challenge"},
+        {"kr": "미래를 준비하고 있어", "en": "I'm preparing for the future", "lemma": "prepare"},
+        {"kr": "계획대로 진행되고 있어", "en": "It's going according to plan", "lemma": "according"}
+      ],
+      "tags": ["DISCOURSE", "FUTURE"]
+    },
+    {
+      "stage_id": "Lv3-P5-S23",
+      "title": "경험과 감정 표현",
+      "pattern": "experience/feel/emotion (경험과 감정 표현)",
+      "classification": "advanced",
+      "phase": 5,
+      "description": "개인적 경험과 감정을 풍부하게 표현하는 방법을 익힙니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "그런 경험은 처음이야", "en": "It's my first time having such an experience", "lemma": "experience"},
+        {"kr": "정말 행복해", "en": "I feel really happy", "lemma": "happy"},
+        {"kr": "조금 불안해", "en": "I feel a bit anxious", "lemma": "anxious"},
+        {"kr": "매우 흥미로웠어", "en": "It was very interesting", "lemma": "interesting"},
+        {"kr": "실망스러워", "en": "I'm disappointed", "lemma": "disappointed"},
+        {"kr": "그 소식에 놀랐어", "en": "I was surprised by the news", "lemma": "surprised"},
+        {"kr": "정말 감사해", "en": "I'm really grateful", "lemma": "grateful"},
+        {"kr": "혼란스러워", "en": "I'm confused", "lemma": "confused"},
+        {"kr": "매우 자랑스러워", "en": "I'm very proud", "lemma": "proud"},
+        {"kr": "기대가 돼", "en": "I'm excited", "lemma": "excited"}
+      ],
+      "tags": ["DISCOURSE", "EMOTION"]
+    },
+    {
+      "stage_id": "Lv3-P5-S24",
+      "title": "비교와 평가 표현",
+      "pattern": "compare/evaluate/assess (비교와 평가)",
+      "classification": "advanced",
+      "phase": 5,
+      "description": "사물이나 상황을 비교하고 평가하는 표현을 익힙니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "이게 저것보다 훨씬 나아", "en": "This is much better than that", "lemma": "better"},
+        {"kr": "둘 다 좋지만, 이게 더 실용적이야", "en": "Both are good, but this is more practical", "lemma": "practical"},
+        {"kr": "그의 성과를 평가해야 해", "en": "We need to evaluate his performance", "lemma": "evaluate"},
+        {"kr": "상황을 정확히 판단해", "en": "Judge the situation accurately", "lemma": "judge"},
+        {"kr": "장단점을 비교해 봐", "en": "Let's compare the pros and cons", "lemma": "compare"},
+        {"kr": "품질이 우수해", "en": "The quality is excellent", "lemma": "excellent"},
+        {"kr": "가격 대비 가치가 있어", "en": "It's good value for money", "lemma": "value"},
+        {"kr": "전반적으로 만족해", "en": "Overall, I'm satisfied", "lemma": "satisfied"},
+        {"kr": "개선의 여지가 있어", "en": "There's room for improvement", "lemma": "improvement"},
+        {"kr": "결과가 예상보다 좋아", "en": "The result is better than expected", "lemma": "expected"}
+      ],
+      "tags": ["DISCOURSE", "COMPARISON"]
+    },
+    {
+      "stage_id": "Lv3-P5-S25",
+      "title": "설득과 협상 표현",
+      "pattern": "persuade/convince/negotiate (설득과 협상)",
+      "classification": "advanced",
+      "phase": 5,
+      "description": "상대방을 설득하고 협상하는 고급 표현을 익힙니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "그를 설득할 수 있을까?", "en": "Can we persuade him?", "lemma": "persuade"},
+        {"kr": "네 의견에 확신이 있어", "en": "I'm convinced by your opinion", "lemma": "convince"},
+        {"kr": "가격을 협상해 보자", "en": "Let's negotiate the price", "lemma": "negotiate"},
+        {"kr": "타협할 수 있어", "en": "We can compromise", "lemma": "compromise"},
+        {"kr": "합리적인 제안이야", "en": "That's a reasonable proposal", "lemma": "reasonable"},
+        {"kr": "조건을 논의해 봐", "en": "Let's discuss the terms", "lemma": "terms"},
+        {"kr": "Win-Win 상황이야", "en": "It's a win-win situation", "lemma": "situation"},
+        {"kr": "동의할 수 있어", "en": "I can agree to that", "lemma": "agree"},
+        {"kr": "더 좋은 조건이 있어", "en": "There are better conditions", "lemma": "conditions"},
+        {"kr": "최종 결정을 해야 해", "en": "We need to make a final decision", "lemma": "decision"}
+      ],
+      "tags": ["DISCOURSE", "BUSINESS"]
+    },
+    {
+      "stage_id": "Lv3-P5-S26",
+      "title": "정보 요청과 제공",
+      "pattern": "inform/explain/clarify (정보 요청과 제공)",
+      "classification": "advanced",
+      "phase": 5,
+      "description": "정보를 요청하고 제공하는 다양한 표현을 익힙니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "자세한 정보를 알려주세요", "en": "Please provide detailed information", "lemma": "provide"},
+        {"kr": "상황을 설명해 줄래?", "en": "Could you explain the situation?", "lemma": "explain"},
+        {"kr": "좀 더 명확하게 해 줘", "en": "Please clarify that", "lemma": "clarify"},
+        {"kr": "업데이트해 줄게", "en": "I'll update you", "lemma": "update"},
+        {"kr": "확인해 봐야 해", "en": "I need to confirm that", "lemma": "confirm"},
+        {"kr": "자료를 검토해 봐", "en": "Please review the materials", "lemma": "review"},
+        {"kr": "추가 질문이 있어", "en": "I have additional questions", "lemma": "additional"},
+        {"kr": "답변을 기다리고 있어", "en": "I'm waiting for your response", "lemma": "response"},
+        {"kr": "세부사항을 알고 싶어", "en": "I'd like to know the details", "lemma": "details"},
+        {"kr": "보고서를 제출할게", "en": "I'll submit the report", "lemma": "submit"}
+      ],
+      "tags": ["DISCOURSE", "INFORMATION"]
+    },
+    {
+      "stage_id": "Lv3-P5-S27",
+      "title": "시간 관리와 일정",
+      "pattern": "schedule/deadline/priority (시간 관리와 일정)",
+      "classification": "advanced",
+      "phase": 5,
+      "description": "시간 관리와 일정 조율에 필요한 표현을 익힙니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "일정을 조정해야 해", "en": "We need to adjust the schedule", "lemma": "adjust"},
+        {"kr": "마감일이 언제야?", "en": "When is the deadline?", "lemma": "deadline"},
+        {"kr": "우선순위를 정해야 해", "en": "We need to set priorities", "lemma": "priority"},
+        {"kr": "시간이 부족해", "en": "We're running out of time", "lemma": "running"},
+        {"kr": "연기할 수 있어?", "en": "Can we postpone it?", "lemma": "postpone"},
+        {"kr": "급한 일이야", "en": "It's urgent", "lemma": "urgent"},
+        {"kr": "여유가 있어", "en": "We have plenty of time", "lemma": "plenty"},
+        {"kr": "효율적으로 일해야 해", "en": "We need to work efficiently", "lemma": "efficiently"},
+        {"kr": "시간을 절약할 수 있어", "en": "We can save time", "lemma": "save"},
+        {"kr": "계획대로 진행돼", "en": "It's going as planned", "lemma": "planned"}
+      ],
+      "tags": ["DISCOURSE", "TIME"]
+    },
+    {
+      "stage_id": "Lv3-P5-S28",
+      "title": "전문적 의사소통",
+      "pattern": "professional communication (전문적 의사소통)",
+      "classification": "advanced",
+      "phase": 5,
+      "description": "비즈니스 환경에서 필요한 전문적 의사소통 표현을 익힙니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "회의를 주재하겠습니다", "en": "I'll chair the meeting", "lemma": "chair"},
+        {"kr": "제안서를 검토했습니다", "en": "I've reviewed the proposal", "lemma": "proposal"},
+        {"kr": "피드백을 주시겠어요?", "en": "Could you give me feedback?", "lemma": "feedback"},
+        {"kr": "프레젠테이션을 준비했어", "en": "I've prepared a presentation", "lemma": "presentation"},
+        {"kr": "협력할 수 있을까요?", "en": "Could we collaborate?", "lemma": "collaborate"},
+        {"kr": "전략을 논의해야 해", "en": "We need to discuss strategy", "lemma": "strategy"},
+        {"kr": "성과를 분석했어", "en": "I've analyzed the performance", "lemma": "performance"},
+        {"kr": "예산을 승인해 주세요", "en": "Please approve the budget", "lemma": "approve"},
+        {"kr": "계약 조건을 확인해 봐", "en": "Please check the contract terms", "lemma": "contract"},
+        {"kr": "팀워크가 중요해", "en": "Teamwork is important", "lemma": "teamwork"}
+      ],
+      "tags": ["DISCOURSE", "BUSINESS", "PROFESSIONAL"]
+    },
+    {
+      "stage_id": "Lv3-P5-S29",
+      "title": "문화와 관계 표현",
+      "pattern": "cultural & relationship expressions (문화와 관계)",
+      "classification": "advanced",
+      "phase": 5,
+      "description": "문화적 이해와 인간관계에 필요한 표현을 익힙니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "문화 차이를 존중해", "en": "I respect cultural differences", "lemma": "respect"},
+        {"kr": "관계를 유지하고 싶어", "en": "I want to maintain the relationship", "lemma": "maintain"},
+        {"kr": "서로 이해해야 해", "en": "We need to understand each other", "lemma": "understand"},
+        {"kr": "소통이 중요해", "en": "Communication is important", "lemma": "communication"},
+        {"kr": "신뢰를 쌓고 있어", "en": "We're building trust", "lemma": "trust"},
+        {"kr": "배려해 주셔서 감사해요", "en": "Thank you for your consideration", "lemma": "consideration"},
+        {"kr": "다양성을 인정해", "en": "I acknowledge diversity", "lemma": "diversity"},
+        {"kr": "협력적인 관계야", "en": "It's a cooperative relationship", "lemma": "cooperative"},
+        {"kr": "상호 존중이 필요해", "en": "Mutual respect is needed", "lemma": "mutual"},
+        {"kr": "열린 마음으로 접근해", "en": "I approach with an open mind", "lemma": "approach"}
+      ],
+      "tags": ["DISCOURSE", "CULTURE", "RELATIONSHIP"]
+    },
+    {
+      "stage_id": "Lv3-P5-S30",
+      "title": "Level 4 연결: 비즈니스 기초",
+      "pattern": "Business foundation for Level 4 (Level 4 연결)",
+      "classification": "bridge",
+      "phase": 5,
+      "description": "Level 4 비즈니스 영어로의 자연스러운 연결을 위한 기초 표현을 익힙니다",
+      "drill": {
+        "delaySec": 2,
+        "randomize": false,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": [
+        {"kr": "제안을 검토해 주시겠어요?", "en": "Would you mind reviewing our proposal?", "lemma": "review"},
+        {"kr": "회의 일정을 조정할 수 있을까요?", "en": "Could we possibly reschedule the meeting?", "lemma": "reschedule"},
+        {"kr": "이 문제에 대해 논의해야 합니다", "en": "We need to discuss this matter", "lemma": "discuss"},
+        {"kr": "추가 정보가 필요합니다", "en": "We require additional information", "lemma": "require"},
+        {"kr": "귀하의 의견을 듣고 싶습니다", "en": "We would appreciate your feedback", "lemma": "appreciate"},
+        {"kr": "이 기회를 활용해야 합니다", "en": "We should take advantage of this opportunity", "lemma": "opportunity"},
+        {"kr": "프로젝트를 관리하고 있습니다", "en": "I'm managing the project", "lemma": "manage"},
+        {"kr": "목표를 달성하려고 합니다", "en": "We're aiming to achieve our goals", "lemma": "achieve"},
+        {"kr": "전문적인 서비스를 제공합니다", "en": "We provide professional services", "lemma": "professional"},
+        {"kr": "성공적인 결과를 기대합니다", "en": "We expect successful results", "lemma": "expect"}
+      ],
+      "tags": ["DISCOURSE", "BUSINESS", "BRIDGE", "LEVEL4_PREP"]
+    }
+  ]
+}

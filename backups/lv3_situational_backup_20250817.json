@@ -1,0 +1,2682 @@
+{
+  "level": 3,
+  "title": "중급 회화 상황 표현",
+  "description": "실생활 상황별 복합 표현과 자연스러운 의사소통 능력 구축",
+  "total_stages": 26,
+  "total_phases": 6,
+  "revision_info": {
+    "original_stages": 30,
+    "revised_stages": 26,
+    "change_type": "grammar-sequence → situation-based",
+    "revision_date": "2025-08-13",
+    "key_changes": [
+      "시제·조동사 중심 → 상황별 복합 표현",
+      "문법 단원별 → 회화 기능별 재구성",
+      "30스테이지 → 26스테이지로 통합 최적화",
+      "Bridge 스테이지 추가로 고급 표현 조기 도입"
+    ]
+  },
+  "randomization_system": {
+    "description": "상황별 맥락을 유지하면서 다양한 표현 패턴으로 15개 문장 생성",
+    "pattern_consistency": "상황 맥락 내에서 복합 문법 구조 자연스럽게 연습",
+    "vocabulary_variation": "상황별 핵심 어휘 + 개인차 반영 어휘 혼합",
+    "context_similarity": "실제 상황에서 발생하는 연속적 대화 패턴"
+  },
+  "phases": [
+    {
+      "phase": 1,
+      "title": "개인 이야기와 경험 공유",
+      "description": "과거/현재/미래 경험을 자연스럽게 연결하여 풍부한 개인 서사 구축",
+      "stages": "1-4"
+    },
+    {
+      "phase": 2,
+      "title": "계획과 추측 표현",
+      "description": "미래 계획, 조건부 상황, 추측을 통한 의사결정 대화",
+      "stages": "5-8"
+    },
+    {
+      "phase": 3,
+      "title": "설명과 묘사 심화",
+      "description": "복잡한 대상과 상황을 관계절과 연결어구로 정확하게 설명",
+      "stages": "9-13"
+    },
+    {
+      "phase": 4,
+      "title": "의견과 논리 표현",
+      "description": "근거있는 의견 제시와 논리적 사고 과정의 언어화",
+      "stages": "14-18"
+    },
+    {
+      "phase": 5,
+      "title": "사회적 상호작용",
+      "description": "조언, 부탁, 동의/반대 등 타인과의 원활한 의사소통",
+      "stages": "19-23"
+    },
+    {
+      "phase": 6,
+      "title": "뉘앙스와 강조 표현",
+      "description": "감정과 의도를 섬세하게 전달하는 고급 표현력",
+      "stages": "24-26"
+    }
+  ],
+  "stages": [
+    {
+      "stage": 1,
+      "stage_id": "Lv3-A1-S01",
+      "phase": 1,
+      "classification": "core",
+      "title": "개인 경험 소개 (현재완료 경험)",
+      "situation_context": "새로운 사람들과 자신의 경험을 공유하는 상황",
+      "primary_functions": [
+        "경험 유무 확인하기",
+        "구체적 경험 설명하기",
+        "경험에 대한 감상 표현하기"
+      ],
+      "key_patterns": [
+        "Have you ever + [p.p.]?",
+        "I have + [p.p.] + before/several times",
+        "It was + [형용사] + experience"
+      ],
+      "sentence_variations": {
+        "experience_inquiry": [
+          {
+            "en": "Have you ever been to Japan?",
+            "ko": "일본에 가본 적 있어?"
+          },
+          {
+            "en": "Have you ever tried Korean food?",
+            "ko": "한국 음식을 먹어본 적 있어?"
+          },
+          {
+            "en": "Have you ever lived abroad?",
+            "ko": "외국에 살아본 적 있어?"
+          },
+          {
+            "en": "Have you ever learned a musical instrument?",
+            "ko": "악기를 배워본 적 있어?"
+          },
+          {
+            "en": "Have you ever worked part-time?",
+            "ko": "아르바이트해본 적 있어?"
+          }
+        ],
+        "sharing_experiences": [
+          {
+            "en": "I've been to Europe several times",
+            "ko": "유럽에 여러 번 가봤어"
+          },
+          {
+            "en": "I've tried many different cuisines",
+            "ko": "다양한 요리를 먹어봤어"
+          },
+          {
+            "en": "I've lived in three different cities",
+            "ko": "세 개의 다른 도시에 살아봤어"
+          },
+          {
+            "en": "I've learned guitar for two years",
+            "ko": "기타를 2년 동안 배웠어"
+          },
+          {
+            "en": "I've worked in customer service before",
+            "ko": "고객서비스 일을 해본 적이 있어"
+          }
+        ],
+        "experience_evaluation": [
+          {
+            "en": "It was an amazing experience",
+            "ko": "정말 놀라운 경험이었어"
+          },
+          {
+            "en": "It was quite challenging but rewarding",
+            "ko": "꽤 도전적이었지만 보람있었어"
+          },
+          {
+            "en": "It was one of the best decisions I made",
+            "ko": "내가 내린 최고의 결정 중 하나였어"
+          },
+          {
+            "en": "It was different from what I expected",
+            "ko": "생각했던 것과 달랐어"
+          },
+          {
+            "en": "It was a learning experience",
+            "ko": "배움의 경험이었어"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "TENSE-PAST"
+      ]
+    },
+    {
+      "stage": 2,
+      "stage_id": "Lv3-A1-S02",
+      "phase": 1,
+      "classification": "core",
+      "title": "최근 활동과 변화 (현재완료 계속)",
+      "situation_context": "최근 생활의 변화나 지속적인 활동에 대해 이야기하는 상황",
+      "primary_functions": [
+        "지속적 활동 설명하기",
+        "변화 시점 명시하기",
+        "현재 상황과 연결하기"
+      ],
+      "key_patterns": [
+        "I have been + [ing] + for/since",
+        "Things have changed + since + [시점]",
+        "I have been + [형용사] + lately"
+      ],
+      "sentence_variations": {
+        "continuous_activities": [
+          {
+            "en": "I've been learning Spanish for six months",
+            "ko": "6개월 동안 스페인어를 배우고 있어"
+          },
+          {
+            "en": "I've been working at this company since 2022",
+            "ko": "2022년부터 이 회사에서 일하고 있어"
+          },
+          {
+            "en": "We've been living together for three years",
+            "ko": "3년 동안 함께 살고 있어"
+          },
+          {
+            "en": "I've been exercising regularly since January",
+            "ko": "1월부터 규칙적으로 운동하고 있어"
+          },
+          {
+            "en": "She's been studying for her exam all week",
+            "ko": "그녀는 일주일 내내 시험공부를 하고 있어"
+          }
+        ],
+        "changes_over_time": [
+          {
+            "en": "Things have changed a lot since I moved here",
+            "ko": "여기로 이사온 이후로 많이 변했어"
+          },
+          {
+            "en": "My English has improved since I started this course",
+            "ko": "이 과정을 시작한 이후로 영어가 늘었어"
+          },
+          {
+            "en": "The city has grown rapidly since 2020",
+            "ko": "2020년 이후로 도시가 급속히 성장했어"
+          },
+          {
+            "en": "Technology has advanced since we were kids",
+            "ko": "우리가 어렸을 때보다 기술이 발달했어"
+          },
+          {
+            "en": "My perspective has changed since traveling",
+            "ko": "여행을 한 후로 시각이 바뀌었어"
+          }
+        ],
+        "recent_states": [
+          {
+            "en": "I've been really busy lately",
+            "ko": "요즘 정말 바빴어"
+          },
+          {
+            "en": "I've been feeling more confident recently",
+            "ko": "최근에 더 자신감이 생겼어"
+          },
+          {
+            "en": "I've been quite tired this week",
+            "ko": "이번 주에 꽤 피곤했어"
+          },
+          {
+            "en": "I've been more focused on my goals",
+            "ko": "목표에 더 집중하고 있어"
+          },
+          {
+            "en": "I've been enjoying my new hobby",
+            "ko": "새로운 취미를 즐기고 있어"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "core-expression"
+      ]
+    },
+    {
+      "stage": 3,
+      "stage_id": "Lv3-A1-S03",
+      "phase": 1,
+      "classification": "core",
+      "title": "과거 에피소드 상세 설명 (과거완료)",
+      "situation_context": "특별한 과거 사건을 시간순으로 상세히 설명하는 상황",
+      "primary_functions": [
+        "시간 순서 명확히 하기",
+        "과거의 과거 표현하기",
+        "상황 맥락 제공하기"
+      ],
+      "key_patterns": [
+        "When I + [과거], I had already + [p.p.]",
+        "Before I + [과거], I had + [p.p.]",
+        "After I had + [p.p.], I + [과거]"
+      ],
+      "sentence_variations": {
+        "sequence_clarity": [
+          {
+            "en": "When I arrived, the meeting had already started",
+            "ko": "내가 도착했을 때 회의는 이미 시작됐었어"
+          },
+          {
+            "en": "Before I graduated, I had found a job",
+            "ko": "졸업하기 전에 일자리를 구했었어"
+          },
+          {
+            "en": "When she called, I had just finished dinner",
+            "ko": "그녀가 전화했을 때 나는 막 저녁을 끝냈었어"
+          },
+          {
+            "en": "Before the rain started, we had reached home",
+            "ko": "비가 시작하기 전에 우리는 집에 도착했었어"
+          },
+          {
+            "en": "When I woke up, my roommate had already left",
+            "ko": "내가 일어났을 때 룸메이트는 이미 떠났었어"
+          }
+        ],
+        "background_context": [
+          {
+            "en": "I had studied French before moving to Paris",
+            "ko": "파리로 이사하기 전에 프랑스어를 공부했었어"
+          },
+          {
+            "en": "She had worked there before starting her own business",
+            "ko": "자신의 사업을 시작하기 전에 그곳에서 일했었어"
+          },
+          {
+            "en": "We had discussed this before making the decision",
+            "ko": "결정을 내리기 전에 이것을 논의했었어"
+          },
+          {
+            "en": "I had visited the place before recommending it",
+            "ko": "추천하기 전에 그곳을 방문했었어"
+          },
+          {
+            "en": "They had practiced together before the performance",
+            "ko": "공연 전에 함께 연습했었어"
+          }
+        ],
+        "resultative_past": [
+          {
+            "en": "After I had saved enough money, I bought a car",
+            "ko": "충분한 돈을 모은 후에 차를 샀어"
+          },
+          {
+            "en": "After we had finished the project, we celebrated",
+            "ko": "프로젝트를 끝낸 후에 축하했어"
+          },
+          {
+            "en": "After she had recovered, she went back to work",
+            "ko": "회복한 후에 그녀는 직장으로 돌아갔어"
+          },
+          {
+            "en": "After they had moved, they felt more comfortable",
+            "ko": "이사한 후에 그들은 더 편안해했어"
+          },
+          {
+            "en": "After I had learned the truth, everything made sense",
+            "ko": "진실을 안 후에 모든 것이 이해됐어"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "TENSE-PAST"
+      ]
+    },
+    {
+      "stage": 4,
+      "stage_id": "Lv3-A1-S04",
+      "phase": 1,
+      "classification": "core",
+      "title": "수동태로 객관적 설명하기",
+      "situation_context": "공식적이거나 객관적인 정보를 전달하는 상황",
+      "primary_functions": [
+        "객관적 사실 전달하기",
+        "과정 설명하기",
+        "결과 중심 표현하기"
+      ],
+      "key_patterns": [
+        "This + [명사] + is/was + [p.p.] + by + [주체]",
+        "The + [과정] + will be + [p.p.]",
+        "It + has been + [p.p.] + that + [절]"
+      ],
+      "sentence_variations": {
+        "factual_description": [
+          {
+            "en": "This building was designed by a famous architect",
+            "ko": "이 건물은 유명한 건축가에 의해 설계됐어"
+          },
+          {
+            "en": "The book was written by my favorite author",
+            "ko": "그 책은 내가 좋아하는 작가에 의해 쓰여졌어"
+          },
+          {
+            "en": "This problem will be solved by our team",
+            "ko": "이 문제는 우리 팀에 의해 해결될 거야"
+          },
+          {
+            "en": "The movie was directed by Steven Spielberg",
+            "ko": "그 영화는 스티븐 스필버그가 감독했어"
+          },
+          {
+            "en": "These products are made in Korea",
+            "ko": "이 제품들은 한국에서 만들어져"
+          }
+        ],
+        "process_description": [
+          {
+            "en": "The documents will be reviewed next week",
+            "ko": "서류들은 다음 주에 검토될 예정이야"
+          },
+          {
+            "en": "New policies are being implemented",
+            "ko": "새로운 정책들이 시행되고 있어"
+          },
+          {
+            "en": "The results will be announced tomorrow",
+            "ko": "결과는 내일 발표될 거야"
+          },
+          {
+            "en": "Changes are being made to improve the system",
+            "ko": "시스템 개선을 위해 변경사항들이 만들어지고 있어"
+          },
+          {
+            "en": "The project was completed ahead of schedule",
+            "ko": "프로젝트는 예정보다 일찍 완료됐어"
+          }
+        ],
+        "established_facts": [
+          {
+            "en": "It has been proven that exercise is important",
+            "ko": "운동이 중요하다는 것이 입증됐어"
+          },
+          {
+            "en": "It has been decided that we'll meet monthly",
+            "ko": "우리가 매달 만나기로 결정됐어"
+          },
+          {
+            "en": "It has been suggested that we change our approach",
+            "ko": "접근 방식을 바꾸는 것이 제안됐어"
+          },
+          {
+            "en": "It has been confirmed that the event is cancelled",
+            "ko": "행사가 취소됐다는 것이 확인됐어"
+          },
+          {
+            "en": "It has been reported that sales increased",
+            "ko": "매출이 증가했다고 보고됐어"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "core-expression"
+      ]
+    },
+    {
+      "stage": 5,
+      "stage_id": "Lv3-A2-S05",
+      "phase": 2,
+      "classification": "core",
+      "title": "미래 계획과 의도 (will vs going to)",
+      "situation_context": "미래 계획을 구체적으로 설명하고 의도를 명확히 하는 상황",
+      "primary_functions": [
+        "계획된 행동 설명하기",
+        "즉석 결정 표현하기",
+        "예측과 추측 구분하기"
+      ],
+      "key_patterns": [
+        "I'm going to + [동사원형] (계획)",
+        "I will + [동사원형] (즉석 결정)",
+        "I think it's going to + [동사원형] (예측)"
+      ],
+      "sentence_variations": {
+        "planned_intentions": [
+          {
+            "en": "I'm going to start my own business next year",
+            "ko": "내년에 내 사업을 시작할 예정이야"
+          },
+          {
+            "en": "We're going to move to a bigger apartment",
+            "ko": "더 큰 아파트로 이사갈 예정이야"
+          },
+          {
+            "en": "She's going to study abroad for a year",
+            "ko": "그녀는 1년 동안 유학갈 예정이야"
+          },
+          {
+            "en": "They're going to travel around Europe",
+            "ko": "그들은 유럽을 여행할 예정이야"
+          },
+          {
+            "en": "I'm going to learn a new skill this summer",
+            "ko": "이번 여름에 새로운 기술을 배울 예정이야"
+          }
+        ],
+        "spontaneous_decisions": [
+          {
+            "en": "I'll help you with that project",
+            "ko": "그 프로젝트 도와줄게"
+          },
+          {
+            "en": "We'll meet you at the restaurant",
+            "ko": "식당에서 만날게"
+          },
+          {
+            "en": "I'll call you when I get home",
+            "ko": "집에 도착하면 전화할게"
+          },
+          {
+            "en": "She'll pick up the kids from school",
+            "ko": "그녀가 아이들을 학교에서 데려올게"
+          },
+          {
+            "en": "I'll pay for dinner tonight",
+            "ko": "오늘 저녁값 내가 낼게"
+          }
+        ],
+        "predictions": [
+          {
+            "en": "I think it's going to be a successful project",
+            "ko": "성공적인 프로젝트가 될 것 같아"
+          },
+          {
+            "en": "The weather is going to be nice this weekend",
+            "ko": "이번 주말 날씨가 좋을 것 같아"
+          },
+          {
+            "en": "This technology is going to change everything",
+            "ko": "이 기술이 모든 것을 바꿀 것 같아"
+          },
+          {
+            "en": "Traffic is going to be heavy during rush hour",
+            "ko": "러시아워에 교통이 막힐 것 같아"
+          },
+          {
+            "en": "The meeting is going to run longer than expected",
+            "ko": "회의가 예상보다 길어질 것 같아"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "TENSE-FUT"
+      ]
+    },
+    {
+      "stage": 6,
+      "stage_id": "Lv3-B2-S06",
+      "phase": 2,
+      "classification": "bridge",
+      "title": "고급 조동사 활용 (could, might, would)",
+      "situation_context": "정중하고 완곡한 표현으로 의사소통하는 상황",
+      "primary_functions": [
+        "완곡한 제안하기",
+        "가능성 표현하기",
+        "정중한 요청하기"
+      ],
+      "key_patterns": [
+        "I could + [동사원형] (완곡한 제안)",
+        "It might + [동사원형] (가능성)",
+        "Would you + [동사원형]? (정중한 요청)"
+      ],
+      "sentence_variations": {
+        "polite_suggestions": [
+          {
+            "en": "I could help you with your presentation",
+            "ko": "발표 준비를 도와드릴 수 있어요"
+          },
+          {
+            "en": "We could meet earlier if that works better",
+            "ko": "그게 더 좋다면 더 일찍 만날 수 있어요"
+          },
+          {
+            "en": "You could try a different approach",
+            "ko": "다른 방법을 시도해볼 수 있어요"
+          },
+          {
+            "en": "We could postpone the meeting if necessary",
+            "ko": "필요하다면 회의를 연기할 수 있어요"
+          },
+          {
+            "en": "I could send you the information later",
+            "ko": "나중에 정보를 보내드릴 수 있어요"
+          }
+        ],
+        "expressing_possibility": [
+          {
+            "en": "It might rain later today",
+            "ko": "오늘 늦게 비가 올지도 몰라"
+          },
+          {
+            "en": "She might not be able to come",
+            "ko": "그녀는 못 올지도 몰라"
+          },
+          {
+            "en": "The project might take longer than expected",
+            "ko": "프로젝트가 예상보다 오래 걸릴지도 몰라"
+          },
+          {
+            "en": "This might be the solution we need",
+            "ko": "이것이 우리가 필요한 해결책일지도 몰라"
+          },
+          {
+            "en": "There might be some delays",
+            "ko": "약간의 지연이 있을지도 몰라"
+          }
+        ],
+        "polite_requests": [
+          {
+            "en": "Would you mind checking this document?",
+            "ko": "이 문서를 확인해 주시겠어요?"
+          },
+          {
+            "en": "Would you be able to attend the meeting?",
+            "ko": "회의에 참석하실 수 있으세요?"
+          },
+          {
+            "en": "Would you like me to explain it again?",
+            "ko": "다시 설명해 드릴까요?"
+          },
+          {
+            "en": "Would you prefer to meet in the morning?",
+            "ko": "아침에 만나시는 게 좋으세요?"
+          },
+          {
+            "en": "Would it be possible to extend the deadline?",
+            "ko": "마감일을 연장하는 것이 가능할까요?"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "bridge-stage"
+      ]
+    },
+    {
+      "stage": 7,
+      "stage_id": "Lv3-A2-S07",
+      "phase": 2,
+      "classification": "core",
+      "title": "조건문으로 상황 설정하기 (1형식)",
+      "situation_context": "실현 가능한 조건과 결과를 논의하는 상황",
+      "primary_functions": [
+        "현실적 조건 제시하기",
+        "결과 예측하기",
+        "계획 수립하기"
+      ],
+      "key_patterns": [
+        "If + [현재형], will + [동사원형]",
+        "Unless + [현재형], won't + [동사원형]",
+        "When + [현재형], will + [동사원형]"
+      ],
+      "sentence_variations": {
+        "realistic_conditions": [
+          {
+            "en": "If the weather is nice, we'll have a picnic",
+            "ko": "날씨가 좋으면 피크닉을 갈 거야"
+          },
+          {
+            "en": "If you study hard, you'll pass the exam",
+            "ko": "열심히 공부하면 시험에 합격할 거야"
+          },
+          {
+            "en": "If we leave early, we'll avoid traffic",
+            "ko": "일찍 떠나면 교통체증을 피할 수 있을 거야"
+          },
+          {
+            "en": "If she agrees, we'll start the project",
+            "ko": "그녀가 동의하면 프로젝트를 시작할 거야"
+          },
+          {
+            "en": "If the price is reasonable, I'll buy it",
+            "ko": "가격이 합리적이면 살 거야"
+          }
+        ],
+        "negative_conditions": [
+          {
+            "en": "Unless you hurry, you'll be late",
+            "ko": "서두르지 않으면 늦을 거야"
+          },
+          {
+            "en": "Unless we act now, we'll miss the opportunity",
+            "ko": "지금 행동하지 않으면 기회를 놓칠 거야"
+          },
+          {
+            "en": "Unless it rains, we'll go hiking",
+            "ko": "비가 오지 않으면 하이킹을 갈 거야"
+          },
+          {
+            "en": "Unless you ask, you won't know",
+            "ko": "물어보지 않으면 알 수 없을 거야"
+          },
+          {
+            "en": "Unless we book early, we won't get good seats",
+            "ko": "일찍 예약하지 않으면 좋은 자리를 얻지 못할 거야"
+          }
+        ],
+        "time_conditions": [
+          {
+            "en": "When I finish work, I'll call you",
+            "ko": "일이 끝나면 전화할게"
+          },
+          {
+            "en": "When the meeting ends, we'll discuss the results",
+            "ko": "회의가 끝나면 결과를 논의할게"
+          },
+          {
+            "en": "When you arrive, we'll start dinner",
+            "ko": "너가 도착하면 저녁을 시작할게"
+          },
+          {
+            "en": "When she gets back, we'll make the decision",
+            "ko": "그녀가 돌아오면 결정을 내릴게"
+          },
+          {
+            "en": "When the weather improves, we'll go out",
+            "ko": "날씨가 좋아지면 나갈게"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "core-expression"
+      ]
+    },
+    {
+      "stage": 8,
+      "stage_id": "Lv3-A2-S08",
+      "phase": 2,
+      "classification": "core",
+      "title": "가정과 조언 (2형식 조건문)",
+      "situation_context": "가상의 상황을 가정하여 조언하거나 의견을 제시하는 상황",
+      "primary_functions": [
+        "비현실적 가정하기",
+        "조언 제공하기",
+        "가상 상황 논의하기"
+      ],
+      "key_patterns": [
+        "If I were you, I would + [동사원형]",
+        "If I had + [명사], I would + [동사원형]",
+        "If + [과거형], would + [동사원형]"
+      ],
+      "sentence_variations": {
+        "giving_advice": [
+          {
+            "en": "If I were you, I would take that job offer",
+            "ko": "내가 너라면 그 일자리 제안을 받을 거야"
+          },
+          {
+            "en": "If I were you, I would apologize immediately",
+            "ko": "내가 너라면 즉시 사과할 거야"
+          },
+          {
+            "en": "If I were you, I would think about it more carefully",
+            "ko": "내가 너라면 더 신중히 생각할 거야"
+          },
+          {
+            "en": "If I were you, I would ask for help",
+            "ko": "내가 너라면 도움을 요청할 거야"
+          },
+          {
+            "en": "If I were you, I would start planning early",
+            "ko": "내가 너라면 일찍 계획을 세울 거야"
+          }
+        ],
+        "hypothetical_situations": [
+          {
+            "en": "If I had more time, I would travel more",
+            "ko": "시간이 더 있다면 여행을 더 할 텐데"
+          },
+          {
+            "en": "If we had more money, we would buy a bigger house",
+            "ko": "돈이 더 있다면 더 큰 집을 살 텐데"
+          },
+          {
+            "en": "If she lived closer, we would meet more often",
+            "ko": "그녀가 더 가까이 산다면 더 자주 만날 텐데"
+          },
+          {
+            "en": "If the weather were better, we would go out",
+            "ko": "날씨가 더 좋다면 나갈 텐데"
+          },
+          {
+            "en": "If I knew the answer, I would tell you",
+            "ko": "답을 안다면 알려줄 텐데"
+          }
+        ],
+        "wishful_thinking": [
+          {
+            "en": "I wish I could speak more languages",
+            "ko": "더 많은 언어를 할 수 있으면 좋겠어"
+          },
+          {
+            "en": "I wish I had more free time",
+            "ko": "자유시간이 더 있으면 좋겠어"
+          },
+          {
+            "en": "I wish the weather were nicer",
+            "ko": "날씨가 더 좋으면 좋겠어"
+          },
+          {
+            "en": "I wish I were taller",
+            "ko": "키가 더 크면 좋겠어"
+          },
+          {
+            "en": "I wish we could meet more often",
+            "ko": "더 자주 만날 수 있으면 좋겠어"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "core-expression"
+      ]
+    },
+    {
+      "stage": 9,
+      "stage_id": "Lv3-A3-S09",
+      "phase": 3,
+      "classification": "core",
+      "title": "사람과 사물 상세 묘사 (관계대명사)",
+      "situation_context": "특정한 사람이나 사물을 정확하게 구분하여 설명하는 상황",
+      "primary_functions": [
+        "특정 대상 지목하기",
+        "추가 정보 제공하기",
+        "혼동 방지하기"
+      ],
+      "key_patterns": [
+        "The person who + [동사] + is + [정보]",
+        "The thing that + [주어+동사] + is + [설명]",
+        "명사 + (that) + [주어+동사] (관계대명사 생략)"
+      ],
+      "sentence_variations": {
+        "identifying_people": [
+          {
+            "en": "The person who called you is my colleague",
+            "ko": "너에게 전화한 사람은 내 동료야"
+          },
+          {
+            "en": "The woman who lives next door is a teacher",
+            "ko": "옆집에 사는 여자는 선생님이야"
+          },
+          {
+            "en": "The student who asked the question is very smart",
+            "ko": "질문한 학생은 매우 똑똑해"
+          },
+          {
+            "en": "The man who helped us yesterday was very kind",
+            "ko": "어제 우리를 도와준 남자는 매우 친절했어"
+          },
+          {
+            "en": "The person who designed this building is famous",
+            "ko": "이 건물을 설계한 사람은 유명해"
+          }
+        ],
+        "describing_objects": [
+          {
+            "en": "The book that I recommended is really good",
+            "ko": "내가 추천한 책은 정말 좋아"
+          },
+          {
+            "en": "The movie we watched last night was amazing",
+            "ko": "어젯밤에 본 영화는 놀라웠어"
+          },
+          {
+            "en": "The restaurant that serves Italian food is expensive",
+            "ko": "이탈리아 음식을 파는 식당은 비싸"
+          },
+          {
+            "en": "The phone I bought yesterday doesn't work",
+            "ko": "어제 산 전화기가 작동하지 않아"
+          },
+          {
+            "en": "The place where we met is special to me",
+            "ko": "우리가 만난 장소는 내게 특별해"
+          }
+        ],
+        "providing_details": [
+          {
+            "en": "This is the school where I studied",
+            "ko": "이곳은 내가 공부한 학교야"
+          },
+          {
+            "en": "That was the day when everything changed",
+            "ko": "그날이 모든 것이 바뀐 날이었어"
+          },
+          {
+            "en": "I understand the reason why you're upset",
+            "ko": "네가 화난 이유를 이해해"
+          },
+          {
+            "en": "This is the way how we solve problems",
+            "ko": "이것이 우리가 문제를 해결하는 방법이야"
+          },
+          {
+            "en": "That's the time when I was happiest",
+            "ko": "그때가 내가 가장 행복했던 시간이야"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "core-expression"
+      ]
+    },
+    {
+      "stage": 10,
+      "stage_id": "Lv3-A3-S10",
+      "phase": 3,
+      "classification": "core",
+      "title": "간접 전달 (간접화법)",
+      "situation_context": "다른 사람의 말이나 생각을 전달하는 상황",
+      "primary_functions": [
+        "타인의 발언 전달하기",
+        "시제 일치 적용하기",
+        "의문문 간접 전달하기"
+      ],
+      "key_patterns": [
+        "He said (that) + [시제일치된 문장]",
+        "She told me (that) + [시제일치된 문장]",
+        "They asked if/whether + [시제일치된 문장]"
+      ],
+      "sentence_variations": {
+        "reporting_statements": [
+          {
+            "en": "He said that he was very busy",
+            "ko": "그는 매우 바쁘다고 말했어"
+          },
+          {
+            "en": "She told me that she would call later",
+            "ko": "그녀는 나에게 나중에 전화하겠다고 말했어"
+          },
+          {
+            "en": "They mentioned that the meeting was cancelled",
+            "ko": "그들은 회의가 취소됐다고 언급했어"
+          },
+          {
+            "en": "My boss said that we needed to work harder",
+            "ko": "상사는 우리가 더 열심히 일해야 한다고 말했어"
+          },
+          {
+            "en": "The teacher explained that the test was difficult",
+            "ko": "선생님은 시험이 어렵다고 설명했어"
+          }
+        ],
+        "reporting_questions": [
+          {
+            "en": "She asked if I was ready",
+            "ko": "그녀는 내가 준비됐는지 물어봤어"
+          },
+          {
+            "en": "He asked whether we could meet tomorrow",
+            "ko": "그는 우리가 내일 만날 수 있는지 물어봤어"
+          },
+          {
+            "en": "They asked if the store was open",
+            "ko": "그들은 가게가 열려있는지 물어봤어"
+          },
+          {
+            "en": "She asked whether I had finished the work",
+            "ko": "그녀는 내가 일을 끝냈는지 물어봤어"
+          },
+          {
+            "en": "He asked if we needed any help",
+            "ko": "그는 우리에게 도움이 필요한지 물어봤어"
+          }
+        ],
+        "reporting_wh_questions": [
+          {
+            "en": "She asked what I was doing",
+            "ko": "그녀는 내가 뭘 하고 있는지 물어봤어"
+          },
+          {
+            "en": "He asked where we were going",
+            "ko": "그는 우리가 어디 가는지 물어봤어"
+          },
+          {
+            "en": "They asked when the project would be finished",
+            "ko": "그들은 프로젝트가 언제 끝날지 물어봤어"
+          },
+          {
+            "en": "She asked how I knew the answer",
+            "ko": "그녀는 내가 어떻게 답을 알았는지 물어봤어"
+          },
+          {
+            "en": "He asked why we were late",
+            "ko": "그는 우리가 왜 늦었는지 물어봤어"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "core-expression"
+      ]
+    },
+    {
+      "stage": 11,
+      "stage_id": "Lv3-B3-S11",
+      "phase": 3,
+      "classification": "bridge",
+      "title": "정중한 간접 질문 (I wonder if)",
+      "situation_context": "직접적이지 않게 정보를 얻거나 확인하는 상황",
+      "primary_functions": [
+        "완곡하게 질문하기",
+        "호기심 표현하기",
+        "정중한 정보 요청하기"
+      ],
+      "key_patterns": [
+        "I wonder if + [평서문 어순]",
+        "Could you tell me + [의문사 + 평서문 어순]?",
+        "Do you know + [의문사 + 평서문 어순]?"
+      ],
+      "sentence_variations": {
+        "wondering_statements": [
+          {
+            "en": "I wonder if she'll come to the party",
+            "ko": "그녀가 파티에 올지 궁금해"
+          },
+          {
+            "en": "I wonder if the weather will be nice tomorrow",
+            "ko": "내일 날씨가 좋을지 궁금해"
+          },
+          {
+            "en": "I wonder if this is the right decision",
+            "ko": "이것이 올바른 결정인지 궁금해"
+          },
+          {
+            "en": "I wonder if we have enough time",
+            "ko": "우리에게 충분한 시간이 있는지 궁금해"
+          },
+          {
+            "en": "I wonder if they know about this",
+            "ko": "그들이 이것에 대해 아는지 궁금해"
+          }
+        ],
+        "polite_information_requests": [
+          {
+            "en": "Could you tell me where the nearest station is?",
+            "ko": "가장 가까운 역이 어디인지 알려주실 수 있나요?"
+          },
+          {
+            "en": "Could you tell me what time the store closes?",
+            "ko": "가게가 몇 시에 문을 닫는지 알려주실 수 있나요?"
+          },
+          {
+            "en": "Could you tell me how much this costs?",
+            "ko": "이것이 얼마인지 알려주실 수 있나요?"
+          },
+          {
+            "en": "Could you tell me when the meeting starts?",
+            "ko": "회의가 언제 시작하는지 알려주실 수 있나요?"
+          },
+          {
+            "en": "Could you tell me why the system isn't working?",
+            "ko": "시스템이 왜 작동하지 않는지 알려주실 수 있나요?"
+          }
+        ],
+        "checking_knowledge": [
+          {
+            "en": "Do you know where she went?",
+            "ko": "그녀가 어디 갔는지 알아?"
+          },
+          {
+            "en": "Do you know what he said?",
+            "ko": "그가 뭐라고 했는지 알아?"
+          },
+          {
+            "en": "Do you know when they'll arrive?",
+            "ko": "그들이 언제 도착할지 알아?"
+          },
+          {
+            "en": "Do you know how to fix this?",
+            "ko": "이것을 어떻게 고치는지 알아?"
+          },
+          {
+            "en": "Do you know why she's upset?",
+            "ko": "그녀가 왜 화났는지 알아?"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "bridge-stage",
+        "INTERROGATIVE"
+      ]
+    },
+    {
+      "stage": 12,
+      "stage_id": "Lv3-A3-S12",
+      "phase": 3,
+      "classification": "core",
+      "title": "복잡한 설명과 묘사",
+      "situation_context": "여러 세부사항을 포함한 복잡한 정보를 체계적으로 설명하는 상황",
+      "primary_functions": [
+        "다단계 설명하기",
+        "연결어로 논리 구성하기",
+        "상세한 묘사 제공하기"
+      ],
+      "key_patterns": [
+        "First, + [문장]. Then, + [문장]. Finally, + [문장]",
+        "Not only + [A] + but also + [B]",
+        "On one hand, + [A]. On the other hand, + [B]"
+      ],
+      "sentence_variations": {
+        "step_by_step_explanation": [
+          {
+            "en": "First, you need to register. Then, you pay the fee. Finally, you can start",
+            "ko": "먼저 등록해야 해. 그다음 수수료를 내는 거야. 마지막으로 시작할 수 있어"
+          },
+          {
+            "en": "First, we analyze the problem. Then, we find solutions. Finally, we implement them",
+            "ko": "먼저 문제를 분석해. 그다음 해결책을 찾는 거야. 마지막으로 실행해"
+          },
+          {
+            "en": "First, heat the pan. Then, add oil. Finally, cook the vegetables",
+            "ko": "먼저 팬을 달궈. 그다음 기름을 넣는 거야. 마지막으로 야채를 요리해"
+          },
+          {
+            "en": "First, save your work. Then, close the program. Finally, restart the computer",
+            "ko": "먼저 작업을 저장해. 그다음 프로그램을 닫는 거야. 마지막으로 컴퓨터를 재시작해"
+          },
+          {
+            "en": "First, we meet the client. Then, we discuss requirements. Finally, we create a proposal",
+            "ko": "먼저 고객을 만나. 그다음 요구사항을 논의해. 마지막으로 제안서를 만들어"
+          }
+        ],
+        "comprehensive_descriptions": [
+          {
+            "en": "Not only is it expensive, but it's also difficult to use",
+            "ko": "비쌀 뿐만 아니라 사용하기도 어려워"
+          },
+          {
+            "en": "Not only did she study hard, but she also helped others",
+            "ko": "그녀는 열심히 공부했을 뿐만 아니라 다른 사람들도 도왔어"
+          },
+          {
+            "en": "Not only is the food delicious, but the service is excellent",
+            "ko": "음식이 맛있을 뿐만 아니라 서비스도 훌륭해"
+          },
+          {
+            "en": "Not only did we finish early, but we also saved money",
+            "ko": "일찍 끝냈을 뿐만 아니라 돈도 절약했어"
+          },
+          {
+            "en": "Not only is she talented, but she's also very hardworking",
+            "ko": "그녀는 재능이 있을 뿐만 아니라 매우 성실해"
+          }
+        ],
+        "balanced_perspectives": [
+          {
+            "en": "On one hand, it's convenient. On the other hand, it's expensive",
+            "ko": "한편으로는 편리해. 다른 한편으로는 비싸"
+          },
+          {
+            "en": "On one hand, remote work saves time. On the other hand, it can be isolating",
+            "ko": "한편으로는 재택근무가 시간을 절약해. 다른 한편으로는 고립될 수 있어"
+          },
+          {
+            "en": "On one hand, technology helps us. On the other hand, we become dependent",
+            "ko": "한편으로는 기술이 우리를 도와. 다른 한편으로는 의존하게 돼"
+          },
+          {
+            "en": "On one hand, the job pays well. On the other hand, the hours are long",
+            "ko": "한편으로는 급여가 좋아. 다른 한편으로는 근무시간이 길어"
+          },
+          {
+            "en": "On one hand, the city is exciting. On the other hand, it's quite noisy",
+            "ko": "한편으로는 도시가 흥미로워. 다른 한편으로는 꽤 시끄러워"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "core-expression"
+      ]
+    },
+    {
+      "stage": 13,
+      "stage_id": "Lv3-A3-S13",
+      "phase": 3,
+      "classification": "core",
+      "title": "원인과 결과 연결하기",
+      "situation_context": "사건의 원인을 분석하고 결과를 설명하는 상황",
+      "primary_functions": [
+        "인과관계 설명하기",
+        "결과 도출하기",
+        "논리적 연결하기"
+      ],
+      "key_patterns": [
+        "Because of + [명사], + [결과문장]",
+        "As a result of + [명사], + [결과문장]",
+        "Due to + [명사], + [결과문장]"
+      ],
+      "sentence_variations": {
+        "cause_and_effect": [
+          {
+            "en": "Because of the heavy rain, the game was cancelled",
+            "ko": "폭우 때문에 경기가 취소됐어"
+          },
+          {
+            "en": "Because of her hard work, she got promoted",
+            "ko": "그녀의 노력 덕분에 승진했어"
+          },
+          {
+            "en": "Because of the traffic, we arrived late",
+            "ko": "교통체증 때문에 늦게 도착했어"
+          },
+          {
+            "en": "Because of the pandemic, many events were postponed",
+            "ko": "팬데믹 때문에 많은 행사가 연기됐어"
+          },
+          {
+            "en": "Because of the new policy, costs have decreased",
+            "ko": "새 정책 때문에 비용이 감소했어"
+          }
+        ],
+        "results_and_consequences": [
+          {
+            "en": "As a result of the changes, productivity improved",
+            "ko": "변화의 결과로 생산성이 향상됐어"
+          },
+          {
+            "en": "As a result of studying abroad, her English improved",
+            "ko": "유학의 결과로 그녀의 영어가 늘었어"
+          },
+          {
+            "en": "As a result of the merger, the company grew",
+            "ko": "합병의 결과로 회사가 성장했어"
+          },
+          {
+            "en": "As a result of the investment, profits increased",
+            "ko": "투자의 결과로 수익이 증가했어"
+          },
+          {
+            "en": "As a result of the training, skills developed",
+            "ko": "훈련의 결과로 기술이 발달했어"
+          }
+        ],
+        "formal_causation": [
+          {
+            "en": "Due to technical difficulties, the website is down",
+            "ko": "기술적 문제로 인해 웹사이트가 중단됐어"
+          },
+          {
+            "en": "Due to budget constraints, the project was scaled down",
+            "ko": "예산 제약으로 인해 프로젝트가 축소됐어"
+          },
+          {
+            "en": "Due to his expertise, he was chosen for the position",
+            "ko": "그의 전문성으로 인해 그 자리에 선택됐어"
+          },
+          {
+            "en": "Due to market conditions, sales declined",
+            "ko": "시장 상황으로 인해 매출이 감소했어"
+          },
+          {
+            "en": "Due to safety concerns, the building was evacuated",
+            "ko": "안전상의 우려로 인해 건물이 대피됐어"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "core-expression"
+      ]
+    },
+    {
+      "stage": 14,
+      "stage_id": "Lv3-A4-S14",
+      "phase": 4,
+      "classification": "core",
+      "title": "의견과 신념 표현하기",
+      "situation_context": "개인의 견해를 명확히 제시하고 근거를 제공하는 상황",
+      "primary_functions": [
+        "개인 의견 표명하기",
+        "신념 강조하기",
+        "관점 제시하기"
+      ],
+      "key_patterns": [
+        "I think/believe (that) + [문장]",
+        "In my opinion, + [문장]",
+        "From my perspective, + [문장]"
+      ],
+      "sentence_variations": {
+        "personal_opinions": [
+          {
+            "en": "I think this is the best solution",
+            "ko": "이것이 최선의 해결책이라고 생각해"
+          },
+          {
+            "en": "I believe everyone deserves equal opportunities",
+            "ko": "모든 사람이 평등한 기회를 받을 자격이 있다고 믿어"
+          },
+          {
+            "en": "I think we should consider other options",
+            "ko": "다른 선택지를 고려해야 한다고 생각해"
+          },
+          {
+            "en": "I believe hard work always pays off",
+            "ko": "노력은 항상 보상받는다고 믿어"
+          },
+          {
+            "en": "I think technology will change our future",
+            "ko": "기술이 우리의 미래를 바꿀 거라고 생각해"
+          }
+        ],
+        "formal_opinions": [
+          {
+            "en": "In my opinion, this approach is more effective",
+            "ko": "내 의견으로는 이 접근법이 더 효과적이야"
+          },
+          {
+            "en": "In my opinion, we need to act quickly",
+            "ko": "내 의견으로는 빨리 행동해야 해"
+          },
+          {
+            "en": "In my opinion, the risks are too high",
+            "ko": "내 의견으로는 위험이 너무 커"
+          },
+          {
+            "en": "In my opinion, education is the key to success",
+            "ko": "내 의견으로는 교육이 성공의 열쇠야"
+          },
+          {
+            "en": "In my opinion, communication is most important",
+            "ko": "내 의견으로는 소통이 가장 중요해"
+          }
+        ],
+        "perspective_sharing": [
+          {
+            "en": "From my perspective, the situation is improving",
+            "ko": "내 관점에서는 상황이 개선되고 있어"
+          },
+          {
+            "en": "From my perspective, we're on the right track",
+            "ko": "내 관점에서는 우리가 올바른 길에 있어"
+          },
+          {
+            "en": "From my perspective, both sides have valid points",
+            "ko": "내 관점에서는 양쪽 다 타당한 점이 있어"
+          },
+          {
+            "en": "From my perspective, timing is crucial",
+            "ko": "내 관점에서는 타이밍이 중요해"
+          },
+          {
+            "en": "From my perspective, the benefits outweigh the costs",
+            "ko": "내 관점에서는 이익이 비용보다 커"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "core-expression"
+      ]
+    },
+    {
+      "stage": 15,
+      "stage_id": "Lv3-A4-S15",
+      "phase": 4,
+      "classification": "core",
+      "title": "확신 정도 조절하기",
+      "situation_context": "확실함과 불확실함의 정도를 정확히 표현하는 상황",
+      "primary_functions": [
+        "확신도 표현하기",
+        "추측 강도 조절하기",
+        "주저함 나타내기"
+      ],
+      "key_patterns": [
+        "I'm sure/certain (that) + [문장]",
+        "I guess/suppose + [문장]",
+        "probably/definitely + [문장]"
+      ],
+      "sentence_variations": {
+        "high_certainty": [
+          {
+            "en": "I'm sure she'll understand",
+            "ko": "그녀가 이해할 거라고 확신해"
+          },
+          {
+            "en": "I'm certain this is the right decision",
+            "ko": "이것이 옳은 결정이라고 확신해"
+          },
+          {
+            "en": "I'm positive it will work",
+            "ko": "작동할 거라고 확신해"
+          },
+          {
+            "en": "I'm confident we can succeed",
+            "ko": "우리가 성공할 수 있다고 확신해"
+          },
+          {
+            "en": "I definitely agree with you",
+            "ko": "당신 의견에 분명히 동의해"
+          }
+        ],
+        "moderate_certainty": [
+          {
+            "en": "I think it will probably rain",
+            "ko": "아마 비가 올 거라고 생각해"
+          },
+          {
+            "en": "She'll probably be late",
+            "ko": "그녀는 아마 늦을 거야"
+          },
+          {
+            "en": "We'll probably finish by Friday",
+            "ko": "아마 금요일까지 끝낼 거야"
+          },
+          {
+            "en": "It's probably the best option",
+            "ko": "아마 최선의 선택일 거야"
+          },
+          {
+            "en": "They'll probably agree",
+            "ko": "그들이 아마 동의할 거야"
+          }
+        ],
+        "low_certainty": [
+          {
+            "en": "I guess we should wait",
+            "ko": "기다려야 할 것 같아"
+          },
+          {
+            "en": "I suppose that's possible",
+            "ko": "그것도 가능한 것 같아"
+          },
+          {
+            "en": "I guess you're right",
+            "ko": "네가 맞는 것 같아"
+          },
+          {
+            "en": "I suppose we could try",
+            "ko": "시도해볼 수는 있을 것 같아"
+          },
+          {
+            "en": "Maybe we should reconsider",
+            "ko": "다시 생각해봐야 할지도 몰라"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "core-expression"
+      ]
+    },
+    {
+      "stage": 16,
+      "stage_id": "Lv3-A4-S16",
+      "phase": 4,
+      "classification": "core",
+      "title": "목적과 이유 명시하기",
+      "situation_context": "행동의 목적과 이유를 명확하게 설명하는 상황",
+      "primary_functions": [
+        "행동 목적 설명하기",
+        "동기 명시하기",
+        "의도 전달하기"
+      ],
+      "key_patterns": [
+        "in order to + [동사원형]",
+        "so that + [문장]",
+        "The reason why + [문장] + is + [이유]"
+      ],
+      "sentence_variations": {
+        "stating_purposes": [
+          {
+            "en": "I study hard in order to get good grades",
+            "ko": "좋은 성적을 받기 위해 열심히 공부해"
+          },
+          {
+            "en": "We save money in order to buy a house",
+            "ko": "집을 사기 위해 돈을 저축해"
+          },
+          {
+            "en": "She exercises in order to stay healthy",
+            "ko": "건강을 유지하기 위해 운동해"
+          },
+          {
+            "en": "They work overtime in order to meet the deadline",
+            "ko": "마감일을 맞추기 위해 야근해"
+          },
+          {
+            "en": "I take notes in order to remember everything",
+            "ko": "모든 것을 기억하기 위해 메모해"
+          }
+        ],
+        "explaining_intentions": [
+          {
+            "en": "I speak slowly so that you can understand",
+            "ko": "네가 이해할 수 있도록 천천히 말해"
+          },
+          {
+            "en": "We left early so that we wouldn't be late",
+            "ko": "늦지 않도록 일찍 떠났어"
+          },
+          {
+            "en": "She writes everything down so that she won't forget",
+            "ko": "잊지 않도록 모든 것을 적어둬"
+          },
+          {
+            "en": "They practice every day so that they can improve",
+            "ko": "실력을 늘릴 수 있도록 매일 연습해"
+          },
+          {
+            "en": "I called ahead so that they would be prepared",
+            "ko": "그들이 준비할 수 있도록 미리 전화했어"
+          }
+        ],
+        "giving_reasons": [
+          {
+            "en": "The reason why I'm late is traffic",
+            "ko": "내가 늦은 이유는 교통체증 때문이야"
+          },
+          {
+            "en": "The reason why she quit is the workload",
+            "ko": "그녀가 그만둔 이유는 업무량 때문이야"
+          },
+          {
+            "en": "The reason why we moved is the cost",
+            "ko": "우리가 이사한 이유는 비용 때문이야"
+          },
+          {
+            "en": "The reason why it failed is lack of planning",
+            "ko": "실패한 이유는 계획 부족 때문이야"
+          },
+          {
+            "en": "The reason why I chose this is quality",
+            "ko": "내가 이것을 선택한 이유는 품질 때문이야"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "core-expression"
+      ]
+    },
+    {
+      "stage": 17,
+      "stage_id": "Lv3-B4-S17",
+      "phase": 4,
+      "classification": "bridge",
+      "title": "대조와 양보 표현 (고급)",
+      "situation_context": "복잡한 상황에서 상반된 내용을 논리적으로 연결하는 상황",
+      "primary_functions": [
+        "예외 상황 설명하기",
+        "대립되는 관점 제시하기",
+        "복합적 상황 분석하기"
+      ],
+      "key_patterns": [
+        "Although/Even though + [문장], + [반대 내용]",
+        "However, + [대조되는 내용]",
+        "Despite/In spite of + [명사], + [문장]"
+      ],
+      "sentence_variations": {
+        "concessive_statements": [
+          {
+            "en": "Although it's expensive, the quality is excellent",
+            "ko": "비싸긴 하지만 품질이 훌륭해"
+          },
+          {
+            "en": "Even though I'm tired, I'll finish the work",
+            "ko": "피곤하긴 하지만 일을 끝낼 거야"
+          },
+          {
+            "en": "Although she's young, she's very experienced",
+            "ko": "어리긴 하지만 경험이 많아"
+          },
+          {
+            "en": "Even though it's difficult, we must try",
+            "ko": "어렵긴 하지만 시도해야 해"
+          },
+          {
+            "en": "Although we disagree, we respect each other",
+            "ko": "의견이 다르긴 하지만 서로 존중해"
+          }
+        ],
+        "contrasting_ideas": [
+          {
+            "en": "The job is challenging. However, it's also rewarding",
+            "ko": "일은 도전적이야. 하지만 보람도 있어"
+          },
+          {
+            "en": "The weather was bad. However, we still enjoyed the trip",
+            "ko": "날씨는 나빴어. 하지만 여행은 여전히 즐거웠어"
+          },
+          {
+            "en": "The price increased. However, demand remained high",
+            "ko": "가격은 올랐어. 하지만 수요는 여전히 높았어"
+          },
+          {
+            "en": "She was nervous. However, she performed well",
+            "ko": "그녀는 긴장했어. 하지만 공연을 잘했어"
+          },
+          {
+            "en": "The plan failed. However, we learned a lot",
+            "ko": "계획은 실패했어. 하지만 많이 배웠어"
+          }
+        ],
+        "despite_constructions": [
+          {
+            "en": "Despite the rain, we went hiking",
+            "ko": "비에도 불구하고 하이킹을 갔어"
+          },
+          {
+            "en": "Despite his age, he's very active",
+            "ko": "나이에도 불구하고 그는 매우 활동적이야"
+          },
+          {
+            "en": "In spite of the difficulties, we succeeded",
+            "ko": "어려움에도 불구하고 우리는 성공했어"
+          },
+          {
+            "en": "Despite being busy, she always helps others",
+            "ko": "바쁨에도 불구하고 그녀는 항상 다른 사람들을 도와"
+          },
+          {
+            "en": "In spite of the cost, it was worth it",
+            "ko": "비용에도 불구하고 그만한 가치가 있었어"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "bridge-stage"
+      ]
+    },
+    {
+      "stage": 18,
+      "stage_id": "Lv3-A4-S18",
+      "phase": 4,
+      "classification": "core",
+      "title": "논리적 결론 도출하기",
+      "situation_context": "논증과 근거를 바탕으로 결론을 제시하는 상황",
+      "primary_functions": [
+        "논리적 흐름 구성하기",
+        "결론 도출하기",
+        "요약 제시하기"
+      ],
+      "key_patterns": [
+        "Therefore, + [결론]",
+        "As a result, + [결과]",
+        "In conclusion, + [요약]"
+      ],
+      "sentence_variations": {
+        "drawing_conclusions": [
+          {
+            "en": "The data shows improvement. Therefore, our strategy is working",
+            "ko": "데이터가 개선을 보여줘. 따라서 우리 전략이 효과를 내고 있어"
+          },
+          {
+            "en": "Everyone agreed on the plan. Therefore, we'll proceed",
+            "ko": "모두 계획에 동의했어. 따라서 진행할 거야"
+          },
+          {
+            "en": "The costs are too high. Therefore, we need alternatives",
+            "ko": "비용이 너무 높아. 따라서 대안이 필요해"
+          },
+          {
+            "en": "She has the most experience. Therefore, she should lead",
+            "ko": "그녀가 경험이 가장 많아. 따라서 그녀가 리드해야 해"
+          },
+          {
+            "en": "The weather forecast is bad. Therefore, we should postpone",
+            "ko": "일기예보가 나빠. 따라서 연기해야 해"
+          }
+        ],
+        "showing_results": [
+          {
+            "en": "We invested in training. As a result, productivity increased",
+            "ko": "교육에 투자했어. 그 결과 생산성이 증가했어"
+          },
+          {
+            "en": "The team worked overtime. As a result, we met the deadline",
+            "ko": "팀이 야근했어. 그 결과 마감일을 맞췄어"
+          },
+          {
+            "en": "We changed our approach. As a result, sales improved",
+            "ko": "접근 방식을 바꿨어. 그 결과 매출이 개선됐어"
+          },
+          {
+            "en": "She studied abroad. As a result, her language skills improved",
+            "ko": "그녀는 유학했어. 그 결과 언어 실력이 늘었어"
+          },
+          {
+            "en": "We automated the process. As a result, errors decreased",
+            "ko": "과정을 자동화했어. 그 결과 오류가 줄었어"
+          }
+        ],
+        "summarizing": [
+          {
+            "en": "In conclusion, this is the best option available",
+            "ko": "결론적으로, 이것이 가능한 최선의 선택이야"
+          },
+          {
+            "en": "In conclusion, we need to change our strategy",
+            "ko": "결론적으로, 우리는 전략을 바꿔야 해"
+          },
+          {
+            "en": "In conclusion, both approaches have merit",
+            "ko": "결론적으로, 두 접근법 모두 장점이 있어"
+          },
+          {
+            "en": "In conclusion, more research is needed",
+            "ko": "결론적으로, 더 많은 연구가 필요해"
+          },
+          {
+            "en": "In conclusion, we should proceed with caution",
+            "ko": "결론적으로, 신중하게 진행해야 해"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "core-expression"
+      ]
+    },
+    {
+      "stage": 19,
+      "stage_id": "Lv3-A5-S19",
+      "phase": 5,
+      "classification": "core",
+      "title": "조언과 제안하기",
+      "situation_context": "상황에 맞는 적절한 조언과 제안을 제공하는 상황",
+      "primary_functions": [
+        "상황별 조언하기",
+        "대안 제시하기",
+        "완곡한 제안하기"
+      ],
+      "key_patterns": [
+        "If I were you, I would + [동사원형]",
+        "You should/ought to + [동사원형]",
+        "Maybe you could + [동사원형]"
+      ],
+      "sentence_variations": {
+        "giving_advice": [
+          {
+            "en": "If I were you, I would accept the offer",
+            "ko": "내가 너라면 그 제안을 받을 거야"
+          },
+          {
+            "en": "If I were you, I would think about it carefully",
+            "ko": "내가 너라면 신중히 생각해볼 거야"
+          },
+          {
+            "en": "If I were you, I would ask for more information",
+            "ko": "내가 너라면 더 많은 정보를 요청할 거야"
+          },
+          {
+            "en": "If I were you, I would start preparing now",
+            "ko": "내가 너라면 지금 준비를 시작할 거야"
+          },
+          {
+            "en": "If I were you, I would talk to the manager",
+            "ko": "내가 너라면 매니저와 이야기할 거야"
+          }
+        ],
+        "strong_suggestions": [
+          {
+            "en": "You should see a doctor about that",
+            "ko": "그것에 대해 의사를 만나봐야 해"
+          },
+          {
+            "en": "You ought to apologize for your mistake",
+            "ko": "실수에 대해 사과해야 해"
+          },
+          {
+            "en": "You should consider all the options",
+            "ko": "모든 선택지를 고려해야 해"
+          },
+          {
+            "en": "You ought to save more money",
+            "ko": "더 많은 돈을 저축해야 해"
+          },
+          {
+            "en": "You should practice more regularly",
+            "ko": "더 규칙적으로 연습해야 해"
+          }
+        ],
+        "gentle_suggestions": [
+          {
+            "en": "Maybe you could try a different approach",
+            "ko": "다른 접근법을 시도해볼 수도 있어"
+          },
+          {
+            "en": "Perhaps you could ask someone else",
+            "ko": "다른 사람에게 물어볼 수도 있어"
+          },
+          {
+            "en": "You might want to consider other options",
+            "ko": "다른 선택지를 고려해보는 게 좋을지도 몰라"
+          },
+          {
+            "en": "It might be worth looking into",
+            "ko": "살펴볼 가치가 있을지도 몰라"
+          },
+          {
+            "en": "You could always change your mind later",
+            "ko": "나중에 언제든 마음을 바꿀 수 있어"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "core-expression"
+      ]
+    },
+    {
+      "stage": 20,
+      "stage_id": "Lv3-A5-S20",
+      "phase": 5,
+      "classification": "core",
+      "title": "정중한 요청과 부탁",
+      "situation_context": "예의를 지키며 도움이나 호의를 요청하는 상황",
+      "primary_functions": [
+        "정중하게 부탁하기",
+        "허락 구하기",
+        "호의 요청하기"
+      ],
+      "key_patterns": [
+        "Would you mind + [ing]?",
+        "Could you please + [동사원형]?",
+        "I was wondering if you could + [동사원형]"
+      ],
+      "sentence_variations": {
+        "polite_requests": [
+          {
+            "en": "Would you mind helping me with this?",
+            "ko": "이것 좀 도와주시겠어요?"
+          },
+          {
+            "en": "Would you mind if I opened the window?",
+            "ko": "창문을 열어도 될까요?"
+          },
+          {
+            "en": "Would you mind checking this document?",
+            "ko": "이 문서를 확인해 주시겠어요?"
+          },
+          {
+            "en": "Would you mind waiting a few minutes?",
+            "ko": "몇 분만 기다려 주시겠어요?"
+          },
+          {
+            "en": "Would you mind speaking more slowly?",
+            "ko": "좀 더 천천히 말씀해 주시겠어요?"
+          }
+        ],
+        "formal_requests": [
+          {
+            "en": "Could you please send me the report?",
+            "ko": "보고서를 보내주시겠어요?"
+          },
+          {
+            "en": "Could you please call me back?",
+            "ko": "다시 전화해 주시겠어요?"
+          },
+          {
+            "en": "Could you please explain that again?",
+            "ko": "다시 설명해 주시겠어요?"
+          },
+          {
+            "en": "Could you please confirm the details?",
+            "ko": "세부사항을 확인해 주시겠어요?"
+          },
+          {
+            "en": "Could you please let me know?",
+            "ko": "알려주시겠어요?"
+          }
+        ],
+        "indirect_requests": [
+          {
+            "en": "I was wondering if you could lend me your book",
+            "ko": "책을 빌려주실 수 있을까 해서요"
+          },
+          {
+            "en": "I was wondering if you had time to talk",
+            "ko": "이야기할 시간이 있으실까 해서요"
+          },
+          {
+            "en": "I was wondering if you could give me advice",
+            "ko": "조언을 해주실 수 있을까 해서요"
+          },
+          {
+            "en": "I was wondering if you knew the answer",
+            "ko": "답을 알고 계실까 해서요"
+          },
+          {
+            "en": "I was wondering if you could join us",
+            "ko": "함께 해주실 수 있을까 해서요"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "MODAL"
+      ]
+    },
+    {
+      "stage": 21,
+      "stage_id": "Lv3-A5-S21",
+      "phase": 5,
+      "classification": "core",
+      "title": "동의와 반대 표현하기",
+      "situation_context": "타인의 의견에 대해 자신의 입장을 명확히 전달하는 상황",
+      "primary_functions": [
+        "동의 표현하기",
+        "정중한 반대하기",
+        "부분적 동의하기"
+      ],
+      "key_patterns": [
+        "I (completely) agree with + [명사/that절]",
+        "I'm afraid I disagree",
+        "I partly agree, but + [반대 의견]"
+      ],
+      "sentence_variations": {
+        "expressing_agreement": [
+          {
+            "en": "I completely agree with your proposal",
+            "ko": "너의 제안에 완전히 동의해"
+          },
+          {
+            "en": "I agree that we need to change",
+            "ko": "우리가 바뀔 필요가 있다는 데 동의해"
+          },
+          {
+            "en": "I couldn't agree more",
+            "ko": "더 이상 동의할 수 없어"
+          },
+          {
+            "en": "That's exactly what I think",
+            "ko": "그게 정확히 내가 생각하는 거야"
+          },
+          {
+            "en": "You're absolutely right",
+            "ko": "당신이 절대적으로 맞아"
+          }
+        ],
+        "polite_disagreement": [
+          {
+            "en": "I'm afraid I disagree with that approach",
+            "ko": "죄송하지만 그 접근법에 반대해요"
+          },
+          {
+            "en": "I don't think I can agree with that",
+            "ko": "그것에 동의할 수 없을 것 같아요"
+          },
+          {
+            "en": "I see it differently",
+            "ko": "다르게 보고 있어요"
+          },
+          {
+            "en": "I'm not sure I agree",
+            "ko": "동의한다고 확신하지 못하겠어요"
+          },
+          {
+            "en": "I have a different opinion",
+            "ko": "다른 의견이 있어요"
+          }
+        ],
+        "partial_agreement": [
+          {
+            "en": "I partly agree, but I think we need more time",
+            "ko": "부분적으로 동의하지만 더 많은 시간이 필요하다고 생각해"
+          },
+          {
+            "en": "You have a point, but there are other factors",
+            "ko": "일리가 있지만 다른 요소들도 있어"
+          },
+          {
+            "en": "I agree to some extent, but we should consider the cost",
+            "ko": "어느 정도 동의하지만 비용을 고려해야 해"
+          },
+          {
+            "en": "That's true, but we also need to think about the risks",
+            "ko": "맞지만 위험도 생각해야 해"
+          },
+          {
+            "en": "I see your point, however, I think there's a better way",
+            "ko": "당신 말을 이해하지만, 더 좋은 방법이 있다고 생각해"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "core-expression"
+      ]
+    },
+    {
+      "stage": 22,
+      "stage_id": "Lv3-A5-S22",
+      "phase": 5,
+      "classification": "core",
+      "title": "예시와 설명 제공하기",
+      "situation_context": "구체적인 예시를 통해 설명을 명확하게 하는 상황",
+      "primary_functions": [
+        "구체적 예시 들기",
+        "설명 보강하기",
+        "이해 돕기"
+      ],
+      "key_patterns": [
+        "For example, + [구체적 예시]",
+        "such as + [명사 나열]",
+        "like + [비교 대상]"
+      ],
+      "sentence_variations": {
+        "giving_examples": [
+          {
+            "en": "There are many ways to learn. For example, you can read books",
+            "ko": "배우는 방법은 많아. 예를 들어 책을 읽을 수 있어"
+          },
+          {
+            "en": "We have several options. For example, we could start tomorrow",
+            "ko": "여러 선택지가 있어. 예를 들어 내일 시작할 수 있어"
+          },
+          {
+            "en": "Technology helps us in many ways. For example, we can work remotely",
+            "ko": "기술은 여러 면에서 우리를 도와. 예를 들어 원격근무를 할 수 있어"
+          },
+          {
+            "en": "Exercise has many benefits. For example, it improves your mood",
+            "ko": "운동은 많은 이점이 있어. 예를 들어 기분을 좋게 해"
+          },
+          {
+            "en": "There are different types of music. For example, classical, jazz, and rock",
+            "ko": "음악에는 여러 종류가 있어. 예를 들어 클래식, 재즈, 록"
+          }
+        ],
+        "listing_examples": [
+          {
+            "en": "I enjoy outdoor activities such as hiking and cycling",
+            "ko": "하이킹이나 사이클링 같은 야외 활동을 즐겨"
+          },
+          {
+            "en": "We need basic supplies such as pens, paper, and computers",
+            "ko": "펜, 종이, 컴퓨터 같은 기본 용품이 필요해"
+          },
+          {
+            "en": "She speaks several languages such as English, French, and Spanish",
+            "ko": "그녀는 영어, 프랑스어, 스페인어 같은 여러 언어를 해"
+          },
+          {
+            "en": "The company offers benefits such as health insurance and paid vacation",
+            "ko": "회사는 건강보험이나 유급휴가 같은 혜택을 제공해"
+          },
+          {
+            "en": "We visited several cities such as Paris, Rome, and Barcelona",
+            "ko": "파리, 로마, 바르셀로나 같은 여러 도시를 방문했어"
+          }
+        ],
+        "making_comparisons": [
+          {
+            "en": "This works like a regular phone",
+            "ko": "이것은 일반 전화기처럼 작동해"
+          },
+          {
+            "en": "The process is like baking a cake",
+            "ko": "과정은 케이크 굽기와 같아"
+          },
+          {
+            "en": "Learning a language is like learning to drive",
+            "ko": "언어 배우기는 운전 배우기와 같아"
+          },
+          {
+            "en": "This problem is like the one we had last year",
+            "ko": "이 문제는 작년에 있었던 것과 같아"
+          },
+          {
+            "en": "The weather here is like my hometown",
+            "ko": "여기 날씨는 내 고향과 같아"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "core-expression"
+      ]
+    },
+    {
+      "stage": 23,
+      "stage_id": "Lv3-A5-S23",
+      "phase": 5,
+      "classification": "core",
+      "title": "경험과 감정 공유하기",
+      "situation_context": "개인적인 경험과 그에 따른 감정을 상세히 나누는 상황",
+      "primary_functions": [
+        "경험 상세히 설명하기",
+        "감정 표현하기",
+        "공감대 형성하기"
+      ],
+      "key_patterns": [
+        "I've been to + [장소] + [횟수/시기]",
+        "I've never + [p.p.] + such + [명사]",
+        "It was + [감정 형용사] + to + [동사원형]"
+      ],
+      "sentence_variations": {
+        "sharing_experiences": [
+          {
+            "en": "I've been to Japan several times for work",
+            "ko": "일 때문에 일본에 여러 번 가봤어"
+          },
+          {
+            "en": "I've lived in different countries",
+            "ko": "여러 나라에서 살아봤어"
+          },
+          {
+            "en": "I've tried many different types of food",
+            "ko": "다양한 종류의 음식을 먹어봤어"
+          },
+          {
+            "en": "I've worked in various industries",
+            "ko": "여러 산업에서 일해봤어"
+          },
+          {
+            "en": "I've met people from all over the world",
+            "ko": "전 세계 사람들을 만나봤어"
+          }
+        ],
+        "expressing_uniqueness": [
+          {
+            "en": "I've never seen such a beautiful sunset",
+            "ko": "그렇게 아름다운 일몰은 본 적이 없어"
+          },
+          {
+            "en": "I've never met such a kind person",
+            "ko": "그렇게 친절한 사람은 만난 적이 없어"
+          },
+          {
+            "en": "I've never experienced such excitement",
+            "ko": "그런 흥분은 경험한 적이 없어"
+          },
+          {
+            "en": "I've never faced such a difficult decision",
+            "ko": "그렇게 어려운 결정에 직면한 적이 없어"
+          },
+          {
+            "en": "I've never had such a wonderful time",
+            "ko": "그렇게 좋은 시간은 보낸 적이 없어"
+          }
+        ],
+        "emotional_responses": [
+          {
+            "en": "It was amazing to see the mountains",
+            "ko": "산을 보는 것이 놀라웠어"
+          },
+          {
+            "en": "It was difficult to leave my friends",
+            "ko": "친구들을 떠나는 것이 어려웠어"
+          },
+          {
+            "en": "It was exciting to start a new job",
+            "ko": "새 직장을 시작하는 것이 흥미로웠어"
+          },
+          {
+            "en": "It was scary to speak in public",
+            "ko": "공개적으로 말하는 것이 무서웠어"
+          },
+          {
+            "en": "It was rewarding to help others",
+            "ko": "다른 사람을 돕는 것이 보람있었어"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "TENSE-PAST"
+      ]
+    },
+    {
+      "stage": 24,
+      "stage_id": "Lv3-A6-S24",
+      "phase": 6,
+      "classification": "core",
+      "title": "강조와 어조 조절하기",
+      "situation_context": "중요한 부분을 강조하고 상황에 맞는 어조를 사용하는 상황",
+      "primary_functions": [
+        "핵심 내용 강조하기",
+        "감정 강도 조절하기",
+        "어조 변화 주기"
+      ],
+      "key_patterns": [
+        "It is/was + [강조할 부분] + that + [나머지]",
+        "really/actually/definitely + [강조]",
+        "What I want/need is + [핵심]"
+      ],
+      "sentence_variations": {
+        "emphasizing_key_points": [
+          {
+            "en": "It was John who helped us the most",
+            "ko": "우리를 가장 많이 도와준 사람은 바로 존이었어"
+          },
+          {
+            "en": "It is here that we need to focus",
+            "ko": "우리가 집중해야 할 곳이 바로 여기야"
+          },
+          {
+            "en": "It was yesterday that everything changed",
+            "ko": "모든 것이 바뀐 것은 바로 어제였어"
+          },
+          {
+            "en": "It is your attitude that matters most",
+            "ko": "가장 중요한 것은 바로 너의 태도야"
+          },
+          {
+            "en": "It was this decision that made the difference",
+            "ko": "차이를 만든 것은 바로 이 결정이었어"
+          }
+        ],
+        "intensifying_expressions": [
+          {
+            "en": "This is really important for our success",
+            "ko": "이것은 우리의 성공에 정말 중요해"
+          },
+          {
+            "en": "I actually think you're right",
+            "ko": "사실 네가 맞다고 생각해"
+          },
+          {
+            "en": "We definitely need to change our approach",
+            "ko": "우리는 분명히 접근 방식을 바꿔야 해"
+          },
+          {
+            "en": "She's absolutely brilliant at her job",
+            "ko": "그녀는 자신의 일에 절대적으로 뛰어나"
+          },
+          {
+            "en": "That was extremely helpful",
+            "ko": "그것은 극도로 도움이 됐어"
+          }
+        ],
+        "clarifying_priorities": [
+          {
+            "en": "What I want is a fair solution",
+            "ko": "내가 원하는 것은 공정한 해결책이야"
+          },
+          {
+            "en": "What we need is better communication",
+            "ko": "우리에게 필요한 것은 더 나은 소통이야"
+          },
+          {
+            "en": "What matters most is the result",
+            "ko": "가장 중요한 것은 결과야"
+          },
+          {
+            "en": "What I'm looking for is quality",
+            "ko": "내가 찾는 것은 품질이야"
+          },
+          {
+            "en": "What we should focus on is the future",
+            "ko": "우리가 집중해야 할 것은 미래야"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "core-expression"
+      ]
+    },
+    {
+      "stage": 25,
+      "stage_id": "Lv3-A6-S25",
+      "phase": 6,
+      "classification": "core",
+      "title": "비교와 정도 표현 심화",
+      "situation_context": "정확한 비교와 정도를 표현하여 미묘한 차이를 전달하는 상황",
+      "primary_functions": [
+        "정밀한 비교하기",
+        "정도 강조하기",
+        "상대적 우위 표현하기"
+      ],
+      "key_patterns": [
+        "much/far/a lot + [비교급] + than",
+        "by far + [최상급]",
+        "a bit/slightly + [비교급] + than"
+      ],
+      "sentence_variations": {
+        "strong_comparisons": [
+          {
+            "en": "This method is much more effective than the old one",
+            "ko": "이 방법이 기존 방법보다 훨씬 더 효과적이야"
+          },
+          {
+            "en": "She's far more experienced than I expected",
+            "ko": "그녀는 내가 예상했던 것보다 훨씬 경험이 많아"
+          },
+          {
+            "en": "The new system is a lot easier to use",
+            "ko": "새 시스템이 사용하기 훨씬 쉬워"
+          },
+          {
+            "en": "Today's weather is much warmer than yesterday",
+            "ko": "오늘 날씨가 어제보다 훨씬 따뜻해"
+          },
+          {
+            "en": "This approach is far better than what we tried before",
+            "ko": "이 접근법이 우리가 전에 시도한 것보다 훨씬 좋아"
+          }
+        ],
+        "superlative_emphasis": [
+          {
+            "en": "This is by far the best solution we have",
+            "ko": "이것은 단연코 우리가 가진 최고의 해결책이야"
+          },
+          {
+            "en": "She's by far the most qualified candidate",
+            "ko": "그녀는 단연코 가장 자격을 갖춘 후보야"
+          },
+          {
+            "en": "This is by far the most difficult project",
+            "ko": "이것은 단연코 가장 어려운 프로젝트야"
+          },
+          {
+            "en": "It was by far the most interesting presentation",
+            "ko": "그것은 단연코 가장 흥미로운 발표였어"
+          },
+          {
+            "en": "This restaurant is by far the most popular",
+            "ko": "이 식당이 단연코 가장 인기 있어"
+          }
+        ],
+        "subtle_differences": [
+          {
+            "en": "This option is slightly more expensive",
+            "ko": "이 선택지가 조금 더 비싸"
+          },
+          {
+            "en": "She seems a bit more confident today",
+            "ko": "그녀가 오늘 조금 더 자신감 있어 보여"
+          },
+          {
+            "en": "The second version is somewhat better",
+            "ko": "두 번째 버전이 다소 나아"
+          },
+          {
+            "en": "This approach is marginally more effective",
+            "ko": "이 접근법이 약간 더 효과적이야"
+          },
+          {
+            "en": "The quality is a little higher than expected",
+            "ko": "품질이 예상보다 약간 높아"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "core-expression"
+      ]
+    },
+    {
+      "stage": 26,
+      "stage_id": "Lv3-A6-S26",
+      "phase": 6,
+      "classification": "core",
+      "title": "의견 수정과 정정하기",
+      "situation_context": "대화 중 생각을 바꾸거나 이전 발언을 수정하는 상황",
+      "primary_functions": [
+        "의견 변경 표현하기",
+        "실수 정정하기",
+        "생각 전환 알리기"
+      ],
+      "key_patterns": [
+        "On second thought, + [새로운 의견]",
+        "Actually, I think + [수정된 생각]",
+        "Come to think of it, + [새로운 관점]"
+      ],
+      "sentence_variations": {
+        "changing_mind": [
+          {
+            "en": "On second thought, maybe we should wait",
+            "ko": "다시 생각해보니 아마 기다려야 할 것 같아"
+          },
+          {
+            "en": "On second thought, that's not such a good idea",
+            "ko": "다시 생각해보니 그건 그렇게 좋은 생각이 아니야"
+          },
+          {
+            "en": "On second thought, I'll take the blue one",
+            "ko": "다시 생각해보니 파란색으로 할게"
+          },
+          {
+            "en": "On second thought, let's meet tomorrow instead",
+            "ko": "다시 생각해보니 대신 내일 만나자"
+          },
+          {
+            "en": "On second thought, you might be right",
+            "ko": "다시 생각해보니 네가 맞을지도 몰라"
+          }
+        ],
+        "correcting_statements": [
+          {
+            "en": "Actually, I think I was wrong about that",
+            "ko": "사실, 그것에 대해 내가 틀렸던 것 같아"
+          },
+          {
+            "en": "Actually, I think we should reconsider",
+            "ko": "사실, 우리가 다시 고려해야 한다고 생각해"
+          },
+          {
+            "en": "Actually, I think there's a better way",
+            "ko": "사실, 더 좋은 방법이 있다고 생각해"
+          },
+          {
+            "en": "Actually, I think I misunderstood",
+            "ko": "사실, 내가 오해했던 것 같아"
+          },
+          {
+            "en": "Actually, I think you have a point",
+            "ko": "사실, 네 말이 일리가 있다고 생각해"
+          }
+        ],
+        "realizing_something": [
+          {
+            "en": "Come to think of it, I've seen him before",
+            "ko": "생각해보니 그를 전에 본 적이 있어"
+          },
+          {
+            "en": "Come to think of it, that makes perfect sense",
+            "ko": "생각해보니 그게 완전히 말이 돼"
+          },
+          {
+            "en": "Come to think of it, we forgot to bring the documents",
+            "ko": "생각해보니 우리가 서류를 가져오는 걸 잊었어"
+          },
+          {
+            "en": "Come to think of it, she mentioned that yesterday",
+            "ko": "생각해보니 그녀가 어제 그 얘기를 했어"
+          },
+          {
+            "en": "Come to think of it, this could be a problem",
+            "ko": "생각해보니 이것이 문제가 될 수 있어"
+          }
+        ]
+      },
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 5,
+        "reviewWeight": 1
+      },
+      "slots": {
+        "min": 5,
+        "max": 8
+      },
+      "tags": [
+        "core-expression"
+      ]
+    }
+  ],
+  "stage_changes_summary": {
+    "original_grammar_sequence": [
+      "시제 확장 (미래형, 현재완료, 과거완료)",
+      "수동태 기본과 심화",
+      "조동사 확장과 완료형",
+      "조건문 3형식 전개",
+      "관계대명사와 관계부사",
+      "간접화법과 간접의문문",
+      "논리 연결어와 강조 구문"
+    ],
+    "revised_situation_based": [
+      "개인 경험과 이야기 공유 (4스테이지)",
+      "미래 계획과 가정 표현 (4스테이지)",
+      "설명과 정보 전달 (5스테이지)",
+      "의견과 논리적 사고 (5스테이지)",
+      "사회적 상호작용 (5스테이지)",
+      "뉘앙스와 강조 표현 (3스테이지)"
+    ],
+    "integration_approach": "문법 요소를 상황 맥락 안에 자연스럽게 통합하여 실용성 극대화"
+  },
+  "levelMeta": {
+    "defaultDrill": {
+      "delaySec": 1,
+      "randomize": true,
+      "minCAA": 5
+    },
+    "errorTaxonomy": [
+      "BE-COP",
+      "DO-AUX",
+      "TENSE-PAST",
+      "TENSE-PERF",
+      "MODAL",
+      "PREP",
+      "DET-ART",
+      "QUANT",
+      "COMP-SUP",
+      "CLAUSE-IF",
+      "DISCOURSE",
+      "PRON-PROS"
+    ],
+    "difficultyProgression": "adaptive"
+  }
+}

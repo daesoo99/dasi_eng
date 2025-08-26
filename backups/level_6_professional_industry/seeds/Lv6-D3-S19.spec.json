@@ -1,0 +1,89 @@
+{
+  "id": "Lv6-D3-S19",
+  "title": "첨단 재료공학 및 나노기술",
+  "intent": "첨단 재료공학과 나노기술 분야의 최신 기술 용어와 공학적 정밀성을 마스터한다.",
+  "focus": [
+    "ADVANCED-MATERIALS",
+    "NANOTECHNOLOGY",
+    "MATERIAL-SCIENCE",
+    "ENGINEERING-PRECISION"
+  ],
+  "lexset": [
+    "nanomaterial, composite, polymer, crystalline, microstructure, fabrication, characterization, mechanical-properties, thermal-conductivity, biocompatibility"
+  ],
+  "grammar_meta": [
+    "MATERIALS-TERMINOLOGY",
+    "TECHNICAL-PRECISION",
+    "ENGINEERING-PROCESSES",
+    "SCIENTIFIC-DESCRIPTION"
+  ],
+  "professional_domain": "Engineering - Materials",
+  "traps": [
+    "나노재료 vs 나노기술",
+    "복합체 vs 합성체",
+    "제작 vs 가공",
+    "특성화 vs 분석"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "재료 유형",
+    "공정 방법",
+    "특성 분석",
+    "응용 분야"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "나노재료가 개발되었습니다.",
+      "en": "Nanomaterials have been developed."
+    },
+    {
+      "kr": "복합재료의 특성이 향상되었습니다.",
+      "en": "The properties of composite materials have been enhanced."
+    },
+    {
+      "kr": "고분자의 구조가 분석되었습니다.",
+      "en": "The structure of the polymer has been analyzed."
+    },
+    {
+      "kr": "결정구조가 확인되었습니다.",
+      "en": "The crystalline structure has been confirmed."
+    },
+    {
+      "kr": "미세구조를 관찰했습니다.",
+      "en": "The microstructure has been observed."
+    },
+    {
+      "kr": "제작 공정이 최적화되었습니다.",
+      "en": "The fabrication process has been optimized."
+    },
+    {
+      "kr": "재료 특성화가 완료되었습니다.",
+      "en": "Material characterization has been completed."
+    },
+    {
+      "kr": "기계적 특성이 측정되었습니다.",
+      "en": "Mechanical properties have been measured."
+    },
+    {
+      "kr": "열전도도가 우수합니다.",
+      "en": "Thermal conductivity is excellent."
+    },
+    {
+      "kr": "생체적합성이 검증되었습니다.",
+      "en": "Biocompatibility has been verified."
+    }
+  ]
+}

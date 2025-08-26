@@ -1,0 +1,82 @@
+{
+  "id": "Lv3-P5-S27",
+  "title": "강조 부사 (really/actually/exactly)",
+  "intent": "다양한 강조 부사를 사용하여 감정과 의견을 효과적으로 전달한다.",
+  "focus": [
+    "EMPHASIS-ADVERBS",
+    "EMOTION-EXPRESSION",
+    "OPINION-STRENGTHENING",
+    "CONVERSATIONAL-MARKERS"
+  ],
+  "lexset": [
+    "really, actually, exactly, absolutely, definitely, certainly, obviously, clearly, truly, indeed"
+  ],
+  "traps": [
+    "부사 위치 (동사 앞/뒤)",
+    "really vs very 구분",
+    "actually 의미 (실제로/사실은)",
+    "강조 정도 차이"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "강조 정도",
+    "감정",
+    "확신도",
+    "상황"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "정말 좋은 아이디어네요.",
+      "en": "That's really a good idea."
+    },
+    {
+      "kr": "사실 그렇게 생각하지 않아요.",
+      "en": "Actually, I don't think so."
+    },
+    {
+      "kr": "정확히 그것이 제가 말하고 싶은 것입니다.",
+      "en": "That's exactly what I want to say."
+    },
+    {
+      "kr": "절대적으로 동의합니다.",
+      "en": "I absolutely agree."
+    },
+    {
+      "kr": "확실히 더 나은 방법이 있을 거예요.",
+      "en": "There's definitely a better way."
+    },
+    {
+      "kr": "분명히 성공할 것입니다.",
+      "en": "We will certainly succeed."
+    },
+    {
+      "kr": "명백히 잘못된 결정이었어요.",
+      "en": "It was obviously a wrong decision."
+    },
+    {
+      "kr": "진짜로 감사합니다.",
+      "en": "I'm truly grateful."
+    },
+    {
+      "kr": "실제로 그런 일이 일어났어요.",
+      "en": "It actually happened."
+    },
+    {
+      "kr": "정말로 놀라운 결과입니다.",
+      "en": "It's really an amazing result."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "Lv5-A3-S10",
+  "title": "논문 결론 및 제언",
+  "intent": "논문의 결론에서 연구 성과를 종합하고 향후 연구를 위한 제언을 제시한다.",
+  "focus": [
+    "PAPER-CONCLUSION",
+    "RESEARCH-SYNTHESIS",
+    "RECOMMENDATIONS",
+    "FUTURE-DIRECTIONS"
+  ],
+  "lexset": [
+    "conclusion, synthesis, recommendation, implication, limitation, direction, advancement, contribution, suggestion, prospect"
+  ],
+  "grammar_meta": [
+    "PRESENT-PERFECT-ACHIEVEMENT",
+    "CONDITIONAL-FUTURE",
+    "SUBJUNCTIVE-RECOMMENDATION",
+    "COMPLEX-SYNTHESIS"
+  ],
+  "academic_level": "C1-C2",
+  "traps": [
+    "결론 vs 요약 구분",
+    "제언의 실현 가능성",
+    "한계점 인정 방식",
+    "미래 연구 제안 구조"
+  ],
+  "bankMin": 50,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "결론 유형",
+    "제언 범위",
+    "한계 인정",
+    "전망 제시"
+  ],
+  "engine": {
+    "randomPick": [
+      5,
+      8
+    ],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "결론적으로 연구 목적을 달성했다고 볼 수 있습니다.",
+      "en": "In conclusion, it can be said that the research objectives have been achieved."
+    },
+    {
+      "kr": "이 연구의 한계점을 인정하며 향후 연구를 제안합니다.",
+      "en": "Acknowledging the limitations of this study, we propose future research."
+    },
+    {
+      "kr": "학술적 기여도와 실무적 함의를 종합하여 제시합니다.",
+      "en": "We present a synthesis of academic contributions and practical implications."
+    },
+    {
+      "kr": "연구 결과가 정책 개발에 시사점을 제공할 것입니다.",
+      "en": "The research results will provide implications for policy development."
+    },
+    {
+      "kr": "이론적 발전을 위한 추가 연구가 필요합니다.",
+      "en": "Additional research for theoretical advancement is needed."
+    },
+    {
+      "kr": "학제간 협력이 연구 발전에 기여할 것으로 기대됩니다.",
+      "en": "Interdisciplinary collaboration is expected to contribute to research development."
+    },
+    {
+      "kr": "연구 방법론의 개선이 향후 과제입니다.",
+      "en": "Improving research methodology is a future challenge."
+    },
+    {
+      "kr": "이 연구가 학술 담론의 새로운 방향을 제시합니다.",
+      "en": "This research presents new directions for academic discourse."
+    },
+    {
+      "kr": "실증적 증거를 바탕으로 한 제언을 제시합니다.",
+      "en": "We present recommendations based on empirical evidence."
+    },
+    {
+      "kr": "연구의 파급 효과가 광범위할 것으로 예상됩니다.",
+      "en": "The ripple effects of the research are expected to be extensive."
+    }
+  ]
+}
