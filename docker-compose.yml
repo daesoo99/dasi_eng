@@ -1,0 +1,87 @@
+version: "3.9"
+
+services:
+  # DaSi Backend API Service
+  backend:
+    build: 
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - NODE_ENV=development
+      - PORT=8080
+      - LOG_LEVEL=info
+      - REDIS_URL=redis://redis:6379
+      - FRONTEND_URL=http://localhost:3000
+    volumes:
+      # Mount logs for development
+      - ./backend/logs:/app/logs
+      # Mount Firebase service account (if exists)
+      - ./backend/src/config/firebaseServiceAccountKey.json:/app/src/config/firebaseServiceAccountKey.json:ro
+    depends_on:
+      - redis
+    restart: unless-stopped
+    networks:
+      - dasi-network
+
+  # Redis Cache Service
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    command: redis-server --appendonly yes
+    volumes:
+      - redis-data:/data
+    restart: unless-stopped
+    networks:
+      - dasi-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+
+  # Frontend Service (for development)
+  frontend:
+    build:
+      context: ./web_app
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - REACT_APP_API_URL=http://localhost:8080
+      - REACT_APP_WS_URL=ws://localhost:8080
+    depends_on:
+      - backend
+    restart: unless-stopped
+    networks:
+      - dasi-network
+    profiles:
+      - frontend
+
+  # Nginx Reverse Proxy (optional for production-like setup)
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - backend
+      - frontend
+    restart: unless-stopped
+    networks:
+      - dasi-network
+    profiles:
+      - production
+
+volumes:
+  redis-data:
+    driver: local
+
+networks:
+  dasi-network:
+    driver: bridge
