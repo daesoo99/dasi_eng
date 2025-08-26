@@ -2,6 +2,7 @@
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 const { db } = require("../config/firebase");
 const { sttQueue, llmQueue, ttsQueue } = require('./taskQueue');
+const { getCachedTTS, setCachedTTS } = require('./ttsCache');
 
 // TODO: 실제 Gemini API 키를 여기에 설정하세요.
 // const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
@@ -28,11 +29,29 @@ async function runLLM(prompt) {
     return { reply: 'Sample LLM response', preview: 'Sample preview' };
 }
 
-async function runTTS(text, voice) { 
+// TTS 실제 처리 함수 (캐시 제외)
+async function actuallySynthesize(text, voice) {
     // TODO: 실제 TTS API 호출 로직
-    console.log('Running TTS...'); 
+    console.log(`🔊 Synthesizing TTS: "${text.slice(0, 30)}..." (${voice})`); 
     await new Promise(resolve => setTimeout(resolve, 800));
-    return { url: 'https://example.com/audio.mp3' };
+    return { 
+        url: `https://example.com/tts/${Date.now()}.mp3`,
+        duration: Math.floor(text.length / 10) + 1, // 대략적인 지속 시간(초)
+        voice: voice,
+        text: text,
+        createdAt: new Date().toISOString()
+    };
+}
+
+async function runTTS(text, voice) {
+    // 캐시 확인
+    const hit = getCachedTTS(text, voice);
+    if (hit) return hit;  // { url, duration, voice, text, createdAt }
+    
+    // 캐시 미스 시 실제 TTS 처리
+    const fresh = await actuallySynthesize(text, voice);
+    setCachedTTS(text, voice, fresh);
+    return fresh;
 }
 
 const evaluateSpeech = async (transcript, targetPattern) => {

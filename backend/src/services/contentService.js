@@ -1,5 +1,6 @@
 
 const { db } = require('../config/firebase');
+const cache = require('../utils/cache');
 
 const levelsCollection = db.collection('levels');
 const patternsCollection = db.collection('patterns');
@@ -11,12 +12,24 @@ const wordBankCollection = db.collection('wordBank');
  * @returns {Promise<object|null>} 레벨 데이터
  */
 const getLevel = async (levelId) => {
+    const key = `level:${levelId}`;
+    const hit = cache.get(key);
+    if (hit) {
+        console.log(`🚀 Cache hit: ${key}`);
+        return hit;
+    }
+    
+    console.log(`💾 Cache miss: ${key}, fetching from Firestore...`);
     const levelDoc = await levelsCollection.doc(levelId).get();
     if (!levelDoc.exists) {
         console.log(`No such level: ${levelId}`);
         return null;
     }
-    return levelDoc.data();
+    
+    const data = levelDoc.data();
+    cache.set(key, data);
+    console.log(`✅ Cached: ${key}`);
+    return data;
 };
 
 /**
@@ -25,12 +38,24 @@ const getLevel = async (levelId) => {
  * @returns {Promise<object|null>} 패턴 데이터
  */
 const getPattern = async (patternId) => {
+    const key = `pattern:${patternId}`;
+    const hit = cache.get(key);
+    if (hit) {
+        console.log(`🚀 Cache hit: ${key}`);
+        return hit;
+    }
+    
+    console.log(`💾 Cache miss: ${key}, fetching from Firestore...`);
     const patternDoc = await patternsCollection.doc(patternId).get();
     if (!patternDoc.exists) {
         console.log(`No such pattern: ${patternId}`);
         return null;
     }
-    return patternDoc.data();
+    
+    const data = patternDoc.data();
+    cache.set(key, data);
+    console.log(`✅ Cached: ${key}`);
+    return data;
 };
 
 /**
