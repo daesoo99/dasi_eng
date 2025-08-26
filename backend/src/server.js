@@ -203,37 +203,17 @@ app.get('/', (req, res) => {
 // 모든 API 라우트에 authenticateFirebaseToken 미들웨어를 적용합니다.
 app.use('/api', authenticateFirebaseToken);
 
-// 사용자 관련 라우트
-app.get('/api/user/:userId', async (req, res) => {
-  try {
-    const user = await userService.getUser(req.params.userId);
-    if (user) {
-      res.json({ success: true, data: user });
-    } else {
-      res.status(404).json({ success: false, message: 'User not found' });
-    }
-  } catch (error) {
-    console.error('Error getting user:', error);
-    res.status(500).json({ success: false, message: 'Internal server error' });
-  }
-});
+// 라우터 임포트
+const userRouter = require('./routes/user');
+const contentRouter = require('./routes/content');
+const expRouter = require('./routes/exp');
 
-// 컨텐츠 관련 라우트 (예시: 레벨 정보)
-app.get('/api/content/level/:levelId', async (req, res) => {
-  try {
-    const level = await contentService.getLevel(req.params.levelId);
-    if (level) {
-      res.json({ success: true, data: level });
-    } else {
-      res.status(404).json({ success: false, message: 'Level not found' });
-    }
-  } catch (error) {
-    console.error('Error getting level:', error);
-    res.status(500).json({ success: false, message: 'Internal server error' });
-  }
-});
+// 라우터 마운트
+app.use('/api/user', userRouter);
+app.use('/api/content', contentRouter);
+app.use('/api/exp', expRouter);
 
-// 발화 평가 라우트
+// 발화 평가 라우트 (향후 speech 라우터로 분리 예정)
 app.post('/api/speech/evaluate', async (req, res) => {
   try {
     const { transcript, targetPattern } = req.body;
@@ -248,7 +228,7 @@ app.post('/api/speech/evaluate', async (req, res) => {
   }
 });
 
-// 복습 카드 관련 라우트 (예시: 복습 카드 생성)
+// 복습 카드 관련 라우트 (향후 review 라우터로 분리 예정)
 app.post('/api/review/create', async (req, res) => {
   try {
     const { userId, patternId, type } = req.body; // 예시 데이터
@@ -261,22 +241,7 @@ app.post('/api/review/create', async (req, res) => {
   }
 });
 
-// 경험치 및 스트릭 관련 라우트 (예시: 경험치 추가)
-app.post('/api/exp/add', async (req, res) => {
-  try {
-    const { userId, amount, type } = req.body;
-    if (!userId || !amount || !type) {
-      return res.status(400).json({ success: false, message: 'userId, amount, and type are required' });
-    }
-    await expService.addExp(userId, amount, type);
-    res.json({ success: true, message: 'EXP added' });
-  } catch (error) {
-    console.error('Error adding EXP:', error);
-    res.status(500).json({ success: false, message: 'Internal server error' });
-  }
-});
-
-// 알림 관련 라우트 (예시: 알림 전송)
+// 알림 관련 라우트 (향후 notification 라우터로 분리 예정)
 app.post('/api/notification/send', async (req, res) => {
   try {
     const { token, title, body } = req.body;
