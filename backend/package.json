@@ -4,8 +4,9 @@
   "description": "Backend for DaSi English Speaking Learning App",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "dev": "ts-node src/server.js",
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
   "keywords": [
     "node.js",
@@ -26,6 +27,12 @@
     "socket.io": "^4.7.5"
   },
   "devDependencies": {
-    "nodemon": "^3.1.4"
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.0",
+    "@types/socket.io": "^3.0.1",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
   }
 }

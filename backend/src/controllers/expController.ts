@@ -1,10 +1,12 @@
+import { Request, Response } from 'express';
 const expService = require('../services/expService');
 
-exports.addExp = async (req, res) => {
+export const addExp = async (req: Request, res: Response): Promise<void> => {
   try {
     const { userId, amount, type } = req.body;
     if (!userId || !amount || !type) {
-      return res.status(400).json({ success: false, message: 'userId, amount, type required' });
+      res.status(400).json({ success: false, message: 'userId, amount, type required' });
+      return;
     }
     await expService.addExp(userId, amount, type);
     res.json({ success: true, message: 'EXP added' });
