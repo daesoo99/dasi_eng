@@ -5,4 +5,4 @@ const router = Router();
 
 router.get('/level/:levelId', ctrl.getLevel);
 
-export default router;
+module.exports = router;

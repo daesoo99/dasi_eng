@@ -5,4 +5,4 @@ const router = Router();
 
 router.post('/add', ctrl.addExp);
 
-export default router;
+module.exports = router;

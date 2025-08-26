@@ -1916,6 +1916,40 @@ io.on('connection', (socket) => {
   });
 });
 
+// /realtime 네임스페이스 추가 (스트리밍 응답용)
+io.of('/realtime').on('connection', (socket) => {
+  console.log('🔗 /realtime 네임스페이스 연결');
+
+  socket.on('stt_llm_tts', async (payload) => {
+    try {
+      socket.emit('stage', { step: 'STT_START' });
+      const text = await require('./services/taskQueue').sttQueue.add(
+        () => require('./services/speechService').runSTT(payload.audioBlob)
+      );
+      socket.emit('stage', { step: 'STT_DONE', text });
+
+      socket.emit('stage', { step: 'LLM_START' });
+      const llm = await require('./services/taskQueue').llmQueue.add(
+        () => require('./services/speechService').runLLM(payload.prompt ?? text)
+      );
+      socket.emit('stage', { step: 'LLM_DONE', partial: llm.preview || llm.reply?.slice(0,80) });
+
+      socket.emit('stage', { step: 'TTS_START' });
+      const audio = await require('./services/taskQueue').ttsQueue.add(
+        () => require('./services/speechService').runTTS(llm.reply, payload.voice)
+      );
+      socket.emit('stage', { step: 'TTS_DONE', audioUrl: audio.url });
+      socket.emit('complete', { ok: true });
+    } catch (e) {
+      socket.emit('error', { message: e.message });
+    }
+  });
+
+  socket.on('disconnect', () => {
+    console.log('❌ /realtime 네임스페이스 연결 해제');
+  });
+});
+
 // 에러 핸들링 미들웨어
 app.use((error, req, res, next) => {
   console.error('Unhandled error:', error);
