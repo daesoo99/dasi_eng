@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo, useCallback, memo } from 'react';
 import { reviewAlgorithmService } from '../services/reviewAlgorithm';
 
 interface ReviewSentence {
@@ -22,7 +22,7 @@ interface ReviewResults {
   improvementAreas: string[];
 }
 
-const SmartReviewSession: React.FC<ReviewSessionProps> = ({ userId, onComplete }) => {
+const SmartReviewSession: React.FC<ReviewSessionProps> = memo(({ userId, onComplete }) => {
   const [sentences, setSentences] = useState<ReviewSentence[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [userAnswer, setUserAnswer] = useState('');
@@ -41,7 +41,7 @@ const SmartReviewSession: React.FC<ReviewSessionProps> = ({ userId, onComplete }
     initializeSession();
   }, [userId]);
 
-  const initializeSession = async () => {
+  const initializeSession = useCallback(async () => {
     setIsLoading(true);
     try {
       // 오늘의 복습 문장들 가져오기
@@ -64,15 +64,15 @@ const SmartReviewSession: React.FC<ReviewSessionProps> = ({ userId, onComplete }
     } finally {
       setIsLoading(false);
     }
-  };
+  }, [userId]);
 
-  const handleSubmitAnswer = () => {
+  const handleSubmitAnswer = useCallback(() => {
     if (!userAnswer.trim()) return;
     
     setShowAnswer(true);
-  };
+  }, [userAnswer]);
 
-  const handleDifficultyFeedback = async (difficulty: 'easy' | 'medium' | 'hard') => {
+  const handleDifficultyFeedback = useCallback(async (difficulty: 'easy' | 'medium' | 'hard') => {
     const currentSentence = sentences[currentIndex];
     const responseTime = Date.now() - startTime;
     
@@ -121,9 +121,9 @@ const SmartReviewSession: React.FC<ReviewSessionProps> = ({ userId, onComplete }
       // 세션 완료
       completeSession();
     }
-  };
+  }, [sentences, currentIndex, userAnswer, userId, startTime, sessionResults]);
 
-  const calculateAccuracy = (userAnswer: string, correctAnswer: string): number => {
+  const calculateAccuracy = useCallback((userAnswer: string, correctAnswer: string): number => {
     // 간단한 유사도 계산 (실제로는 더 정교한 알고리즘 사용)
     const userWords = userAnswer.toLowerCase().split(' ');
     const correctWords = correctAnswer.toLowerCase().split(' ');
@@ -134,9 +134,9 @@ const SmartReviewSession: React.FC<ReviewSessionProps> = ({ userId, onComplete }
     });
     
     return correctWords.length > 0 ? matches / correctWords.length : 0;
-  };
+  }, []);
 
-  const completeSession = () => {
+  const completeSession = useCallback(() => {
     const results: ReviewResults = {
       totalSentences: sessionResults.length,
       correctAnswers: sessionResults.filter(r => r.correct).length,
@@ -145,7 +145,7 @@ const SmartReviewSession: React.FC<ReviewSessionProps> = ({ userId, onComplete }
     };
     
     onComplete(results);
-  };
+  }, [sessionResults, onComplete]);
 
   const analyzeImprovementAreas = (): string[] => {
     const areas: string[] = [];
@@ -331,6 +331,8 @@ const SmartReviewSession: React.FC<ReviewSessionProps> = ({ userId, onComplete }
       )}
     </div>
   );
-};
+});
+
+SmartReviewSession.displayName = 'SmartReviewSession';
 
 export default SmartReviewSession;

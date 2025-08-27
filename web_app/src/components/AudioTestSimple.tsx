@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useRef, useCallback, memo } from 'react';
 import { webSpeechAPI } from '../services/webSpeechAPI.ts';
 import { useSpeechRecognitionSimple } from '../hooks/useSpeechRecognitionSimple.ts';
 
@@ -6,7 +6,7 @@ interface Props {
   onExit?: () => void;
 }
 
-const AudioTestSimple: React.FC<Props> = ({ onExit }) => {
+const AudioTestSimple: React.FC<Props> = memo(({ onExit }) => {
   const [currentTest, setCurrentTest] = useState<string | null>(null);
   const [testResults, setTestResults] = useState<any[]>([]);
   const [showResult, setShowResult] = useState<any>(null);
@@ -1040,6 +1040,8 @@ const AudioTestSimple: React.FC<Props> = ({ onExit }) => {
       `}</style>
     </div>
   );
-};
+});
+
+AudioTestSimple.displayName = 'AudioTestSimple';
 
 export default AudioTestSimple;

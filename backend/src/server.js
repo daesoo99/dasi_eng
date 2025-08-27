@@ -72,6 +72,9 @@ const smartReviewService = require('./services/smartReviewService');
 const app = express();
 const server = http.createServer(app);
 
+// Swagger API 문서 설정 (Flutter 호환)
+require('./swagger')(app);
+
 // Socket.io 설정 - 개발 환경에서 더 유연한 CORS 설정
 const io = socketIo(server, {
   cors: {
@@ -276,6 +279,51 @@ app.get('/metrics', async (req, res) => {
   }
 });
 
+// Route handlers - extracted to separate modules for better organization
+const curriculumRouter = require('./routes/curriculum');
+const cardsRouter = require('./routes/cards');
+
+app.use('/api/curriculum', curriculumRouter);
+app.use('/api/cards', cardsRouter);
+
+/**
+ * @swagger
+ * /health:
+ *   get:
+ *     tags: [System]
+ *     summary: 서버 상태 확인
+ *     description: 서버의 건강 상태, 캐시 상태, 지원 기능을 조회합니다
+ *     responses:
+ *       200:
+ *         description: 서버가 정상적으로 작동 중
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 success:
+ *                   type: boolean
+ *                   example: true
+ *                 status:
+ *                   type: string
+ *                   example: "healthy"
+ *                 timestamp:
+ *                   type: string
+ *                   format: date-time
+ *                 cache:
+ *                   type: object
+ *                   description: 캐시 상태 정보
+ *                 availableLevels:
+ *                   type: array
+ *                   items:
+ *                     type: integer
+ *                   description: 지원하는 학습 레벨
+ *                 features:
+ *                   type: array
+ *                   items:
+ *                     type: string
+ *                   description: 활성화된 기능 목록
+ */
 // Health check with cache status
 app.get('/health', (req, res) => {
   const cacheStats = hybridCache.getStats();
@@ -293,6 +341,20 @@ app.get('/health', (req, res) => {
 app.get('/favicon.ico', (req, res) => {
   res.status(204).send();
 });
+
+// Import optimized route handlers
+const sessionsRouter = require('./routes/sessions');
+const feedbackRouter = require('./routes/feedback');
+const curriculumRouter = require('./routes/curriculum');
+const { globalErrorHandler, notFoundHandler, requestTimer } = require('./middleware/errorHandler');
+
+// Apply global middleware
+app.use(requestTimer);
+
+// Mount optimized route handlers
+app.use('/api/sessions', sessionsRouter);
+app.use('/api/feedback', feedbackRouter);
+app.use('/api/curriculum', curriculumRouter);
 
 // 기본 라우트
 app.get('/', (req, res) => {
@@ -532,277 +594,222 @@ app.get('/api/smart-review/dashboard', async (req, res) => {
   }
 });
 
-// 커리큘럼 조회 라우트 (버전별)
-app.get('/api/curriculum/:level', async (req, res) => {
+/**
+ * @swagger
+ * /api/curriculum/{level}:
+ *   get:
+ *     tags: [Curriculum]
+ *     summary: 레벨별 커리큘럼 조회
+ *     description: 지정된 레벨의 학습 커리큘럼을 조회합니다 (Flutter 앱용)
+ *     parameters:
+ *       - in: path
+ *         name: level
+ *         required: true
+ *         schema:
+ *           type: integer
+ *           minimum: 1
+ *           maximum: 10
+ *         description: 학습 레벨 (1-10)
+ *         example: 1
+ *       - in: header
+ *         name: X-Curriculum-Version
+ *         schema:
+ *           type: string
+ *           enum: [original, revised]
+ *         description: 커리큘럼 버전
+ *         example: "revised"
+ *     responses:
+ *       200:
+ *         description: 커리큘럼 데이터 반환 성공
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 success:
+ *                   type: boolean
+ *                   example: true
+ *                 data:
+ *                   $ref: '#/components/schemas/ContentItem'
+ *                 cached:
+ *                   type: boolean
+ *                   description: 캐시에서 조회 여부
+ *       404:
+ *         description: 커리큘럼을 찾을 수 없음
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
+ *       500:
+ *         description: 서버 에러
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
+ */
+
+
+/**
+ * @swagger
+ * /api/session/start:
+ *   post:
+ *     tags: [Session]
+ *     summary: 학습 세션 시작
+ *     description: 새로운 학습 세션을 시작하고 고유한 세션 ID를 반환합니다
+ *     security:
+ *       - BearerAuth: []
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required: [userId, level, stage]
+ *             properties:
+ *               userId:
+ *                 type: string
+ *                 description: 사용자 Firebase UID
+ *                 example: "abc123def456"
+ *               level:
+ *                 type: integer
+ *                 minimum: 1
+ *                 maximum: 10
+ *                 description: 학습 레벨
+ *                 example: 1
+ *               stage:
+ *                 type: string
+ *                 description: 스테이지 번호 또는 'ALL'
+ *                 example: "1"
+ *               cardIds:
+ *                 type: array
+ *                 items:
+ *                   type: string
+ *                 description: 특정 카드 ID 목록 (선택사항)
+ *     responses:
+ *       200:
+ *         description: 세션 시작 성공
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 success:
+ *                   type: boolean
+ *                   example: true
+ *                 data:
+ *                   type: object
+ *                   properties:
+ *                     sessionId:
+ *                       type: string
+ *                       example: "ses_abc123"
+ *                     userId:
+ *                       type: string
+ *                       example: "abc123def456"
+ *                     level:
+ *                       type: integer
+ *                       example: 1
+ *                     stage:
+ *                       type: string
+ *                       example: "1"
+ *                     startedAt:
+ *                       type: string
+ *                       format: date-time
+ *                       example: "2024-01-15T10:30:00.000Z"
+ *                     status:
+ *                       type: string
+ *                       example: "active"
+ *       400:
+ *         description: 잘못된 요청 데이터
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
+ *       500:
+ *         description: 서버 에러
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
+ */
+// 세션 관리 API
+app.post('/api/session/start', async (req, res) => {
   try {
-    const level = Number(req.params.level);
-    const version = (req.header('X-Curriculum-Version') || 'original').toLowerCase();
-
-    console.log(`📋 커리큘럼 조회: Level ${level}, Version ${version}`);
-
-    const docRef = db.collection('curricula').doc(level.toString())
-                     .collection('versions').doc(version);
+    const { userId, level, stage, cardIds } = req.body;
+    const userUid = req.user?.uid || userId || 'anonymous';
     
-    const snapshot = await docRef.get();
-    
-    if (!snapshot.exists) {
-      return res.status(404).json({ 
-        success: false, 
-        error: `Curriculum not found: Level ${level}, Version ${version}` 
-      });
-    }
-
-    const data = snapshot.data();
-    
-    // 스펙 데이터도 함께 조회 (선택적)
-    const includeSpec = req.query.includeSpec === 'true';
-    if (includeSpec) {
-      const specRef = docRef.collection('specs').doc('content');
-      const specSnapshot = await specRef.get();
-      if (specSnapshot.exists) {
-        data.spec = specSnapshot.data().spec;
-      }
-    }
-
-    res.json({ 
-      success: true, 
-      data: data,
-      meta: {
-        level: level,
-        version: version,
-        timestamp: Date.now()
-      }
-    });
-
-  } catch (error) {
-    console.error('커리큘럼 조회 실패:', error);
-    res.status(500).json({ 
-      success: false, 
-      error: 'Internal server error' 
-    });
-  }
-});
-
-// 커리큘럼 업서트 라우트
-app.post('/api/curriculum/upsert', async (req, res) => {
-  try {
-    const { level, version, meta, spec } = req.body;
-    
-    if (!level || !version || !meta) {
-      return res.status(400).json({ 
-        success: false, 
-        message: 'level, version, and meta are required' 
-      });
-    }
-
-    console.log(`📋 커리큘럼 업서트 시작: curricula/${level}/versions/${version}`);
-
-    // 메타 데이터 업서트
-    const metaData = {
-      ...meta,
-      updatedAt: admin.firestore.FieldValue.serverTimestamp()
-    };
-
-    const docRef = db.collection('curricula').doc(level.toString())
-                     .collection('versions').doc(version);
-    
-    await docRef.set(metaData, { merge: true });
-    console.log(`✅ 메타 데이터 업서트 완료`);
-
-    // 스펙 데이터 업서트 (선택)
-    if (spec) {
-      const specRef = docRef.collection('specs').doc('content');
-      await specRef.set({
-        spec: spec,
-        updatedAt: admin.firestore.FieldValue.serverTimestamp()
-      }, { merge: true });
-      console.log(`✅ 커리큘럼 스펙 업서트 완료`);
-    }
-
-    // 결과 확인
-    const snapshot = await docRef.get();
-    const data = snapshot.data();
-
-    console.log(`📊 업서트 결과: Level ${data.level}, Version ${data.version}, ${data.totalStages} stages`);
-
-    res.json({ 
-      success: true, 
-      message: 'Curriculum upserted successfully',
-      data: data
-    });
-
-  } catch (error) {
-    console.error('커리큘럼 업서트 실패:', error);
-    res.status(500).json({ 
-      success: false, 
-      message: 'Internal server error',
-      error: error.message 
-    });
-  }
-});
-
-// Level 1 데이터 로더 및 캐싱 시스템
-const fs = require('fs');
-const path = require('path');
-
-// 메모리 캐시
-const cache = {
-  level1Data: null,
-  curriculumData: new Map(),
-  lastAccessed: new Map()
-};
-
-const CACHE_TTL = 5 * 60 * 1000; // 5분 TTL
-
-function loadLevel1Data() {
-  // 캐시 확인
-  const cacheKey = 'level1';
-  const lastAccess = cache.lastAccessed.get(cacheKey);
-  const now = Date.now();
-  
-  if (cache.level1Data && lastAccess && (now - lastAccess) < CACHE_TTL) {
-    return cache.level1Data;
-  }
-  
-  try {
-    const filePath = path.join(__dirname, '../level1_generated_data.json');
-    console.log(`📂 Level 1 데이터 파일 경로: ${filePath}`);
-    
-    // 파일 존재 여부 확인
-    if (!fs.existsSync(filePath)) {
-      throw new Error(`Level 1 데이터 파일이 존재하지 않습니다: ${filePath}`);
-    }
-    
-    const fileContent = fs.readFileSync(filePath, 'utf8');
-    const data = JSON.parse(fileContent);
-    
-    // 캐시 업데이트
-    cache.level1Data = data;
-    cache.lastAccessed.set(cacheKey, now);
-    
-    const stageCount = Object.keys(data).length;
-    console.log(`✅ Level 1 데이터 로드 완료: ${stageCount}개 스테이지 (캐시됨)`);
-    console.log(`📋 Available stages: ${Object.keys(data).join(', ')}`);
-    
-    return data;
-  } catch (error) {
-    console.error('❌ Level 1 데이터 로드 실패:', error.message);
-    const fallbackData = {};
-    cache.level1Data = fallbackData;
-    cache.lastAccessed.set(cacheKey, now);
-    return fallbackData;
-  }
-}
-
-// ALL 모드용 레벨별 모든 카드 로드 함수
-async function getAllLevelCards(level) {
-  const allCards = [];
-  
-  try {
-    if (level === 1) {
-      // Level 1 처리
-      const l1Data = loadLevel1Data();
-      
-      Object.keys(l1Data).forEach(stageKey => {
-        const stageData = l1Data[stageKey];
-        if (stageData.cards && Array.isArray(stageData.cards)) {
-          const stageCards = stageData.cards.map(card => ({
-            id: `${card.id}_stage${stageKey}`,
-            level: 1,
-            stage: parseInt(stageKey),
-            front_ko: card.front_ko,
-            target_en: card.target_en,
-            difficulty: 1,
-            pattern_tags: [card.pattern],
-            form: 'aff',
-            grammar_tags: [card.pattern],
-            sourceStage: stageKey
-          }));
-          allCards.push(...stageCards);
-        }
-      });
-      
-    } else {
-      // Level 2-6 Firestore 처리
-      const levelRef = db.collection('curricula').doc(level.toString())
-                        .collection('versions').doc('revised')
-                        .collection('stages');
-      
-      const stagesSnapshot = await levelRef.get();
-      
-      // 병렬 처리로 성능 개선
-      const stagePromises = stagesSnapshot.docs.map(async (stageDoc) => {
-        const stageData = stageDoc.data();
-        
-        if (stageData.sentences && Array.isArray(stageData.sentences)) {
-          return stageData.sentences.map(sentence => ({
-            id: `${sentence.id}_${stageDoc.id}`,
-            level: level,
-            stage: stageDoc.id,
-            front_ko: sentence.kr,
-            target_en: sentence.en,
-            difficulty: Math.min(level, 5),
-            pattern_tags: sentence.grammar_tags || [],
-            form: sentence.form,
-            grammar_tags: sentence.grammar_tags || [],
-            sourceStage: stageDoc.id
-          }));
-        }
-        return [];
-      });
-      
-      const stageResults = await Promise.all(stagePromises);
-      stageResults.forEach(stageCards => allCards.push(...stageCards));
-    }
-    
-    // Fisher-Yates 셔플
-    for (let i = allCards.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [allCards[i], allCards[j]] = [allCards[j], allCards[i]];
-    }
-    
-    console.log(`✅ Level ${level} ALL 모드: ${allCards.length}개 카드 로드 완료`);
-    return allCards;
-    
-  } catch (error) {
-    console.error(`❌ Level ${level} ALL 모드 카드 로드 실패:`, error);
-    throw error;
-  }
-}
-
-// 학습 카드 API 엔드포인트 (캐싱 추가)
-app.get('/api/cards', async (req, res) => {
-  try {
-    const { level, stage } = req.query;
-    
+    // 입력 검증
     if (!level || !stage) {
-      return res.status(400).json({ 
-        success: false, 
-        error: 'level and stage parameters are required',
+      return res.status(400).json({
+        success: false,
+        error: 'level and stage are required',
         code: 'MISSING_REQUIRED_PARAMS'
       });
     }
 
-    console.log(`🎯 카드 조회: Level ${level}, Stage ${stage}`);
-    
-    // 캐시 확인
-    const cacheKey = `cards_${level}_${stage}`;
-    const lastAccess = cache.lastAccessed.get(cacheKey);
-    const now = Date.now();
-    
-    if (cache.curriculumData.has(cacheKey) && lastAccess && (now - lastAccess) < CACHE_TTL) {
-      console.log(`🚀 캐시에서 카드 데이터 반환: Level ${level}, Stage ${stage}`);
-      const cachedData = cache.curriculumData.get(cacheKey);
-      cache.lastAccessed.set(cacheKey, now); // 액세스 시간 업데이트
-      return res.json(cachedData);
-    }
+    logger.info(`🎮 세션 시작: User ${userUid}, Level ${level}, Stage ${stage}`, {
+      userUid,
+      level,
+      stage,
+      cardIds: cardIds?.length || 0
+    });
 
-    // ALL 모드 처리
-    if (stage === 'ALL') {
-      console.log(`🔄 ALL 모드 처리: Level ${level}`);
-      
-      try {
-        const allCards = await getAllLevelCards(parseInt(level));
+    // 세션 ID 생성
+    const sessionId = `ses_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+    
+    // 세션 데이터 구조
+    const sessionData = {
+      sessionId: sessionId,
+      userId: userUid,
+      level: parseInt(level),
+      stage: stage,
+      cardIds: cardIds || [],
+      startedAt: new Date().toISOString(),
+      status: 'active',
+      progress: {
+        totalCards: cardIds?.length || 0,
+        completedCards: 0,
+        correctAnswers: 0,
+        incorrectAnswers: 0
+      },
+      createdAt: new Date().toISOString()
+    };
+
+    // TODO: Firestore에 세션 저장 (현재는 메모리에만 저장)
+    // await db.collection('sessions').doc(sessionId).set(sessionData);
+
+    res.json({
+      success: true,
+      data: sessionData,
+      meta: {
+        timestamp: Date.now()
+      }
+    });
+
+    logger.info('Session started successfully', {
+      sessionId,
+      userUid,
+      level,
+      stage
+    });
+
+  } catch (error) {
+    logger.error('세션 시작 실패:', {
+      error: error.message,
+      stack: error.stack,
+      body: req.body
+    });
+    
+    res.status(500).json({ 
+      success: false, 
+      error: 'Failed to start session',
+      code: 'SESSION_START_ERROR'
+    });
+  }
+});
+
+app.post('/api/session/submit', async (req, res) => {
+  try {
+    const { sessionId, cardId, userAnswer, isCorrect, score, timeSpent } = req.body;
         
         const responseData = { 
           success: true, 
@@ -1080,6 +1087,218 @@ app.post('/api/feedback', async (req, res) => {
   }
 });
 
+// 맞춤형 피드백 API 엔드포인트 (AI 확장 대비)
+app.post('/api/feedback/custom', async (req, res) => {
+  try {
+    const { userId, interests, difficultyLevel = 'intermediate', patternId } = req.body;
+    
+    if (!userId) {
+      return res.status(400).json({ 
+        success: false, 
+        error: 'userId is required' 
+      });
+    }
+
+    console.log(`🎯 맞춤 피드백 요청: userId=${userId}, interests=${interests?.join(',')}`);
+
+    // Mock 데이터 생성 (나중에 AI로 교체)
+    const interestTemplates = {
+      sports: ['I love playing soccer on weekends', 'Basketball is my favorite sport'],
+      music: ['I enjoy listening to classical music', 'Let\'s discuss your favorite band'],
+      food: ['I wanna try Korean BBQ tonight', 'This restaurant serves amazing pasta'],
+      travel: ['I want to visit Japan next year', 'My dream destination is Paris'],
+      technology: ['AI is changing our daily lives', 'I need to upgrade my smartphone'],
+      business: ['The meeting starts at 3 PM', 'Our sales target for this quarter'],
+      education: ['I\'m studying English conversation', 'Online learning is very convenient'],
+      health: ['Regular exercise keeps me healthy', 'I try to eat vegetables daily'],
+      gaming: ['I enjoy playing mobile games', 'The new game update looks exciting']
+    };
+
+    // 사용자 관심사 기반 예시 생성
+    let customExamples = [];
+    if (interests && interests.length > 0) {
+      interests.forEach(interest => {
+        if (interestTemplates[interest]) {
+          customExamples.push(...interestTemplates[interest]);
+        }
+      });
+    }
+
+    // 기본 예시가 없으면 일반적인 예시 제공
+    if (customExamples.length === 0) {
+      customExamples = [
+        'I wanna go jogging after work',
+        'She wanna join the team dinner',
+        'Let\'s talk about your hobbies',
+        'I need to practice English more'
+      ];
+    }
+
+    // 난이도별 문장 조정 (Mock)
+    const difficultyModifier = {
+      'beginner': (sentence) => sentence.replace(/complex/g, 'simple').replace(/difficult/g, 'easy'),
+      'intermediate': (sentence) => sentence,
+      'advanced': (sentence) => sentence.replace(/simple/g, 'sophisticated').replace(/easy/g, 'challenging')
+    };
+
+    const adjustedExamples = customExamples
+      .slice(0, 6) // 최대 6개
+      .map(sentence => ({
+        sentence: difficultyModifier[difficultyLevel] ? difficultyModifier[difficultyLevel](sentence) : sentence,
+        context: `Practice with ${interests?.join(' and ') || 'general topics'}`,
+        difficulty: difficultyLevel === 'beginner' ? 2 : difficultyLevel === 'advanced' ? 4 : 3,
+        interests: interests || []
+      }));
+
+    // Firestore 구조와 호환되는 응답 (향후 실제 저장용)
+    const feedbackData = {
+      feedbackInfo: {
+        feedbackId: `fb_${Math.random().toString(36).substr(2, 12)}`,
+        userId: userId,
+        patternId: patternId || `p${Math.floor(Math.random() * 100)}`,
+        timestamp: new Date().toISOString()
+      },
+      customExamples: {
+        userInterests: interests || [],
+        difficultyLevel: difficultyLevel,
+        generatedExamples: adjustedExamples
+      },
+      metadata: {
+        version: '1.0.0',
+        source: 'manual', // 나중에 'ai-generated'로 변경
+        language: 'ko'
+      }
+    };
+
+    res.json({
+      success: true,
+      data: {
+        examples: adjustedExamples.map(ex => ex.sentence),
+        customExamples: adjustedExamples,
+        feedbackStructure: feedbackData, // AI 확장 시 참고용
+        aiReady: false, // AI 연결 상태
+        message: `Generated ${adjustedExamples.length} examples based on interests: ${interests?.join(', ') || 'general'}`
+      }
+    });
+
+  } catch (error) {
+    console.error('맞춤 피드백 생성 실패:', error);
+    res.status(500).json({ 
+      success: false, 
+      error: 'Internal server error' 
+    });
+  }
+});
+
+// 피드백 저장 API (Firestore 연동 대비)
+app.post('/api/feedback/save', async (req, res) => {
+  try {
+    const feedbackData = req.body;
+    
+    // 기본 검증
+    if (!feedbackData.feedbackInfo?.userId) {
+      return res.status(400).json({ 
+        success: false, 
+        error: 'feedbackInfo.userId is required' 
+      });
+    }
+
+    console.log(`💾 피드백 저장 요청: ${feedbackData.feedbackInfo.feedbackId}`);
+
+    // TODO: Firestore 저장 로직 (현재는 로그만)
+    // await db.collection('feedback').doc(feedbackData.feedbackInfo.feedbackId).set(feedbackData);
+    
+    res.json({
+      success: true,
+      data: {
+        feedbackId: feedbackData.feedbackInfo.feedbackId,
+        saved: false, // 실제 저장 시 true로 변경
+        message: 'Feedback structure validated, ready for Firestore integration'
+      }
+    });
+
+  } catch (error) {
+    console.error('피드백 저장 실패:', error);
+    res.status(500).json({ 
+      success: false, 
+      error: 'Internal server error' 
+    });
+  }
+});
+
+/**
+ * @swagger
+ * /api/session/start:
+ *   post:
+ *     tags: [Session]
+ *     summary: 학습 세션 시작
+ *     description: 새로운 학습 세션을 시작하고 고유한 세션 ID를 반환합니다
+ *     security:
+ *       - BearerAuth: []
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required: [userId, level, stage]
+ *             properties:
+ *               userId:
+ *                 type: string
+ *                 description: 사용자 Firebase UID
+ *                 example: "abc123def456"
+ *               level:
+ *                 type: integer
+ *                 minimum: 1
+ *                 maximum: 10
+ *                 description: 학습 레벨
+ *                 example: 1
+ *               stage:
+ *                 type: string
+ *                 description: 스테이지 번호 또는 'ALL'
+ *                 example: "1"
+ *               cardIds:
+ *                 type: array
+ *                 items:
+ *                   type: string
+ *                 description: 특정 카드 ID 목록 (선택사항)
+ *     responses:
+ *       200:
+ *         description: 세션 시작 성공
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 success:
+ *                   type: boolean
+ *                   example: true
+ *                 sessionId:
+ *                   type: string
+ *                   description: 생성된 세션 ID
+ *                   example: "session_1640995200000_abc123def"
+ *                 level:
+ *                   type: integer
+ *                   example: 1
+ *                 stage:
+ *                   type: string
+ *                   example: "1"
+ *                 message:
+ *                   type: string
+ *                   example: "Session started successfully"
+ *       400:
+ *         description: 필수 파라미터 누락
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
+ *       500:
+ *         description: 서버 내부 에러
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
+ */
 // 세션 관리 API
 app.post('/api/session/start', async (req, res) => {
   try {
@@ -2033,26 +2252,195 @@ io.on('connection', (socket) => {
 io.of('/realtime').on('connection', (socket) => {
   console.log('🔗 /realtime 네임스페이스 연결');
 
-  socket.on('stt_llm_tts', async (payload) => {
+  // 표준화된 파이프라인 이벤트 구조
+  socket.on('pipeline', async (payload) => {
     try {
-      socket.emit('stage', { step: 'STT_START' });
+      socket.emit('progress', { step: 'STT_START' });
       const text = await require('./services/taskQueue').sttQueue.add(
         () => require('./services/speechService').runSTT(payload.audioBlob)
       );
-      socket.emit('stage', { step: 'STT_DONE', text });
+      socket.emit('progress', { step: 'STT_DONE', data: { text } });
 
-      socket.emit('stage', { step: 'LLM_START' });
+      socket.emit('progress', { step: 'LLM_START' });
       const llm = await require('./services/taskQueue').llmQueue.add(
         () => require('./services/speechService').runLLM(payload.prompt ?? text)
       );
-      socket.emit('stage', { step: 'LLM_DONE', partial: llm.preview || llm.reply?.slice(0,80) });
+      socket.emit('progress', { step: 'LLM_DONE', data: { preview: llm.reply?.slice(0,80) } });
 
-      socket.emit('stage', { step: 'TTS_START' });
+      socket.emit('progress', { step: 'TTS_START' });
       const audio = await require('./services/taskQueue').ttsQueue.add(
         () => require('./services/speechService').runTTS(llm.reply, payload.voice)
       );
-      socket.emit('stage', { step: 'TTS_DONE', audioUrl: audio.url });
-      socket.emit('complete', { ok: true });
+      
+      socket.emit('result', { text, llm, audio });
+    } catch (e) {
+      socket.emit('error', { message: e.message, step: payload.currentStep || 'unknown' });
+    }
+  });
+
+  // 데이터 마이그레이션 파이프라인
+  socket.on('migrate-file', async (payload) => {
+    try {
+      socket.emit('progress', { step: 'VALIDATION_START' });
+      const validation = await new Promise((resolve, reject) => {
+        const { exec } = require('child_process');
+        exec(`node utils/validate-curriculum.js --file "${payload.file}" --strict`, (error, stdout, stderr) => {
+          if (error) reject(new Error(stderr || error.message));
+          else resolve({ valid: true, output: stdout });
+        });
+      });
+      socket.emit('progress', { step: 'VALIDATION_DONE', data: { valid: validation.valid } });
+
+      socket.emit('progress', { step: 'MIGRATION_START' });
+      const migration = await new Promise((resolve, reject) => {
+        const { exec } = require('child_process');
+        exec(`node utils/safe-migrator.js --file "${payload.file}" --dry-run`, (error, stdout, stderr) => {
+          if (error) reject(new Error(stderr || error.message));
+          else resolve({ migrated: true, output: stdout });
+        });
+      });
+      socket.emit('progress', { step: 'MIGRATION_DONE', data: { migrated: migration.migrated } });
+
+      socket.emit('result', { validation, migration, file: payload.file });
+    } catch (e) {
+      socket.emit('error', { message: e.message, file: payload.file });
+    }
+  });
+
+  // 배치 마이그레이션 파이프라인 - 실시간 파일별 진행 상황
+  socket.on('migrate-batch', async (payload) => {
+    try {
+      socket.emit('progress', { step: 'BATCH_START' });
+      
+      socket.emit('progress', { step: 'STATUS_CHECK' });
+      const status = await new Promise((resolve, reject) => {
+        const { exec } = require('child_process');
+        exec('npm run migrate:status', (error, stdout) => {
+          if (error) reject(error);
+          else resolve({ output: stdout });
+        });
+      });
+      socket.emit('progress', { step: 'STATUS_DONE', data: { hasLocks: status.output.includes('🔒') } });
+
+      socket.emit('progress', { step: 'MIGRATION_EXECUTE' });
+      const command = payload.dryRun ? 'npm run migrate:all:dry' : 'npm run migrate:all';
+      
+      // 실시간 배치 진행 상황 모니터링
+      const { exec } = require('child_process');
+      const migrationProcess = exec(command);
+      
+      const files = [];
+      const stats = { total: 0, completed: 0, failed: 0, inProgress: 0 };
+      
+      migrationProcess.stdout.on('data', (data) => {
+        const lines = data.toString().split('\n');
+        lines.forEach(line => {
+          if (line.includes('✅') || line.includes('❌') || line.includes('🔄')) {
+            const fileName = line.match(/([^/\\]+\.json)/)?.[1];
+            if (fileName) {
+              const isCompleted = line.includes('✅');
+              const isError = line.includes('❌');
+              const isProcessing = line.includes('🔄');
+              
+              const existingIndex = files.findIndex(f => f.file === fileName);
+              if (existingIndex >= 0) {
+                files[existingIndex].status = isCompleted ? 'completed' : isError ? 'error' : 'processing';
+                if (isError) files[existingIndex].error = line.slice(line.indexOf(fileName) + fileName.length + 1);
+              } else {
+                files.push({
+                  file: fileName,
+                  status: isCompleted ? 'completed' : isError ? 'error' : 'processing'
+                });
+              }
+              
+              stats.total = files.length;
+              stats.completed = files.filter(f => f.status === 'completed').length;
+              stats.failed = files.filter(f => f.status === 'error').length;
+              stats.inProgress = files.filter(f => f.status === 'processing').length;
+              
+              socket.emit('progress', { 
+                type: 'batch-progress',
+                step: 'FILE_UPDATE',
+                files: [...files],
+                stats: { ...stats }
+              });
+            }
+          }
+        });
+      });
+
+      const migration = await new Promise((resolve, reject) => {
+        migrationProcess.on('close', (code) => {
+          resolve({ success: code === 0, output: 'Batch migration completed', error: code !== 0 ? 'Migration failed' : null });
+        });
+        migrationProcess.on('error', (error) => {
+          reject(error);
+        });
+      });
+      
+      socket.emit('result', { migration, status, files, stats });
+    } catch (e) {
+      socket.emit('error', { message: e.message });
+    }
+  });
+
+  // 커리큘럼 검증 파이프라인
+  socket.on('validate-curriculum', async (payload) => {
+    try {
+      socket.emit('progress', { step: 'VALIDATION_START' });
+      
+      const { exec } = require('child_process');
+      const validationProcess = exec('npm run validate:all');
+      
+      const files = [];
+      const stats = { total: 0, completed: 0, failed: 0, inProgress: 0 };
+      
+      validationProcess.stdout.on('data', (data) => {
+        const lines = data.toString().split('\n');
+        lines.forEach(line => {
+          if (line.includes('✅') || line.includes('❌')) {
+            const fileName = line.match(/([^/\\]+\.json)/)?.[1];
+            if (fileName) {
+              const isValid = line.includes('✅');
+              const existingIndex = files.findIndex(f => f.file === fileName);
+              
+              if (existingIndex >= 0) {
+                files[existingIndex].status = isValid ? 'completed' : 'error';
+                if (!isValid) files[existingIndex].error = 'Validation failed';
+              } else {
+                files.push({
+                  file: fileName,
+                  status: isValid ? 'completed' : 'error',
+                  error: isValid ? null : 'Validation failed'
+                });
+              }
+              
+              stats.total = files.length;
+              stats.completed = files.filter(f => f.status === 'completed').length;
+              stats.failed = files.filter(f => f.status === 'error').length;
+              stats.inProgress = 0;
+              
+              socket.emit('progress', {
+                type: 'batch-progress',
+                step: 'VALIDATION_UPDATE',
+                files: [...files],
+                stats: { ...stats }
+              });
+            }
+          }
+        });
+      });
+
+      const validation = await new Promise((resolve, reject) => {
+        validationProcess.on('close', (code) => {
+          resolve({ success: code === 0, output: 'Validation completed', error: code !== 0 ? 'Validation failed' : null });
+        });
+        validationProcess.on('error', (error) => {
+          reject(error);
+        });
+      });
+      
+      socket.emit('result', { validation, files, stats });
     } catch (e) {
       socket.emit('error', { message: e.message });
     }
@@ -2084,10 +2472,15 @@ app.use('*', (req, res) => {
   });
 });
 
+// Apply error handling middleware (must be last)
+app.use(notFoundHandler);
+app.use(globalErrorHandler);
+
 // 서버 시작
 server.listen(PORT, () => {
   console.log(`🚀 DaSi Backend Server v1.0 started successfully on port ${PORT}!`);
   console.log(`Environment: ${process.env.NODE_ENV || 'development'}`);
+  console.log(`🔥 Optimized route handlers loaded: sessions, feedback, curriculum`);
 });
 
 // 우아한 종료 처리

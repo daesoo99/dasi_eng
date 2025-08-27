@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, memo, useCallback } from 'react';
 import { speedDifficultyService, type SpeedSession, type ExplanationModeSettings } from '@/services/speedDifficultyModes';
 
 interface ExplanationModeSessionProps {
@@ -9,7 +9,7 @@ interface ExplanationModeSessionProps {
   onExit: () => void;
 }
 
-export const ExplanationModeSession: React.FC<ExplanationModeSessionProps> = ({
+export const ExplanationModeSession: React.FC<ExplanationModeSessionProps> = memo(({
   userId,
   settings,
   questionCount,
@@ -39,7 +39,7 @@ export const ExplanationModeSession: React.FC<ExplanationModeSessionProps> = ({
   }, [userId, settings, questionCount]);
 
   // 답변 제출
-  const handleSubmit = async () => {
+  const handleSubmit = useCallback(async () => {
     if (!session || !isAnswering) return;
 
     setIsAnswering(false);
@@ -68,10 +68,10 @@ export const ExplanationModeSession: React.FC<ExplanationModeSessionProps> = ({
     } catch (error) {
       console.error('답변 처리 실패:', error);
     }
-  };
+  }, [session, isAnswering, currentQuestionIndex, userAnswer, results, settings.showDetailedFeedback]);
 
   // 다음 문제로 진행
-  const proceedToNext = () => {
+  const proceedToNext = useCallback(() => {
     if (!session) return;
 
     if (currentQuestionIndex < session.questions.length - 1) {
@@ -83,10 +83,10 @@ export const ExplanationModeSession: React.FC<ExplanationModeSessionProps> = ({
     } else {
       completeSession();
     }
-  };
+  }, [session, currentQuestionIndex]);
 
   // 세션 완료
-  const completeSession = async () => {
+  const completeSession = useCallback(async () => {
     if (!session) return;
 
     try {
@@ -95,7 +95,7 @@ export const ExplanationModeSession: React.FC<ExplanationModeSessionProps> = ({
     } catch (error) {
       console.error('세션 완료 실패:', error);
     }
-  };
+  }, [session, onComplete]);
 
   if (!session) {
     return (
@@ -305,4 +305,6 @@ export const ExplanationModeSession: React.FC<ExplanationModeSessionProps> = ({
       </div>
     </div>
   );
-};
+});
+
+ExplanationModeSession.displayName = 'ExplanationModeSession';
