@@ -1,5 +1,6 @@
-import React, { useState, useEffect, useCallback, useRef, useMemo, memo } from 'react';
+import React, { useState, useEffect, useCallback, useRef, useMemo, memo, useReducer } from 'react';
 import { useLocalStorage, STORAGE_KEYS } from '@/hooks/useLocalStorage';
+import { ErrorBoundary } from '@/components/ErrorBoundary';
 
 interface PatternTrainingFlowProps {
   koreanText: string;
@@ -10,11 +11,115 @@ interface PatternTrainingFlowProps {
   disabled?: boolean;
   autoStart?: boolean;
   className?: string;
-  mistakeId?: string; // For review mode tracking
-  showCorrectAnswer?: boolean; // Whether to show correct answer after recognition
+  mistakeId?: string;
+  showCorrectAnswer?: boolean;
 }
 
 type FlowPhase = 'idle' | 'tts' | 'beep' | 'recognition' | 'waiting' | 'completed' | 'paused';
+
+// State management using useReducer for better performance
+interface FlowState {
+  currentPhase: FlowPhase;
+  countdownTimer: number;
+  recognitionTimer: number;
+  speechResult: string;
+  micStatus: string;
+  showAnswer: boolean;
+  isRecording: boolean;
+  recognitionAnswerSubmitted: boolean;
+  isPaused: boolean;
+  remainingRecognitionTime: number;
+  remainingWaitTime: number;
+  flowStartTime: number;
+  recognitionStartTime: number;
+}
+
+type FlowAction = 
+  | { type: 'SET_PHASE'; payload: FlowPhase }
+  | { type: 'SET_COUNTDOWN_TIMER'; payload: number }
+  | { type: 'SET_RECOGNITION_TIMER'; payload: number }
+  | { type: 'SET_SPEECH_RESULT'; payload: string }
+  | { type: 'SET_MIC_STATUS'; payload: string }
+  | { type: 'SET_SHOW_ANSWER'; payload: boolean }
+  | { type: 'SET_IS_RECORDING'; payload: boolean }
+  | { type: 'SET_RECOGNITION_ANSWER_SUBMITTED'; payload: boolean }
+  | { type: 'SET_IS_PAUSED'; payload: boolean }
+  | { type: 'SET_REMAINING_RECOGNITION_TIME'; payload: number }
+  | { type: 'SET_REMAINING_WAIT_TIME'; payload: number }
+  | { type: 'SET_FLOW_START_TIME'; payload: number }
+  | { type: 'SET_RECOGNITION_START_TIME'; payload: number }
+  | { type: 'RESET_STATE' }
+  | { type: 'PAUSE_FLOW'; payload: { phase: FlowPhase; recognitionTimer: number } }
+  | { type: 'RESUME_FLOW' };
+
+const initialFlowState: FlowState = {
+  currentPhase: 'idle',
+  countdownTimer: 0,
+  recognitionTimer: 0,
+  speechResult: '',
+  micStatus: '🎤 대기 중',
+  showAnswer: false,
+  isRecording: false,
+  recognitionAnswerSubmitted: false,
+  isPaused: false,
+  remainingRecognitionTime: 0,
+  remainingWaitTime: 0,
+  flowStartTime: 0,
+  recognitionStartTime: 0
+};
+
+const flowReducer = (state: FlowState, action: FlowAction): FlowState => {
+  switch (action.type) {
+    case 'SET_PHASE':
+      return { ...state, currentPhase: action.payload };
+    case 'SET_COUNTDOWN_TIMER':
+      return { ...state, countdownTimer: action.payload };
+    case 'SET_RECOGNITION_TIMER':
+      return { ...state, recognitionTimer: action.payload };
+    case 'SET_SPEECH_RESULT':
+      return { ...state, speechResult: action.payload };
+    case 'SET_MIC_STATUS':
+      return { ...state, micStatus: action.payload };
+    case 'SET_SHOW_ANSWER':
+      return { ...state, showAnswer: action.payload };
+    case 'SET_IS_RECORDING':
+      return { ...state, isRecording: action.payload };
+    case 'SET_RECOGNITION_ANSWER_SUBMITTED':
+      return { ...state, recognitionAnswerSubmitted: action.payload };
+    case 'SET_IS_PAUSED':
+      return { ...state, isPaused: action.payload };
+    case 'SET_REMAINING_RECOGNITION_TIME':
+      return { ...state, remainingRecognitionTime: action.payload };
+    case 'SET_REMAINING_WAIT_TIME':
+      return { ...state, remainingWaitTime: action.payload };
+    case 'SET_FLOW_START_TIME':
+      return { ...state, flowStartTime: action.payload };
+    case 'SET_RECOGNITION_START_TIME':
+      return { ...state, recognitionStartTime: action.payload };
+    case 'RESET_STATE':
+      return {
+        ...initialFlowState,
+        currentPhase: 'idle'
+      };
+    case 'PAUSE_FLOW':
+      return {
+        ...state,
+        isPaused: true,
+        currentPhase: 'paused',
+        remainingRecognitionTime: action.payload.phase === 'recognition' 
+          ? Math.max(0, 10 - action.payload.recognitionTimer) 
+          : state.remainingRecognitionTime,
+        remainingWaitTime: action.payload.phase === 'waiting' ? 3 : state.remainingWaitTime
+      };
+    case 'RESUME_FLOW':
+      return {
+        ...state,
+        isPaused: false
+      };
+    default:
+      return state;
+  }
+};
 
 /**
  * Debounce utility function to limit the rate of function calls
@@ -49,26 +154,24 @@ export const PatternTrainingFlow: React.FC<PatternTrainingFlowProps> = memo(({
   mistakeId,
   showCorrectAnswer = true
 }) => {
-  // Flow state management
-  const [currentPhase, setCurrentPhase] = useState<FlowPhase>('idle');
-  const [countdownTimer, setCountdownTimer] = useState<number>(0);
-  const [recognitionTimer, setRecognitionTimer] = useState<number>(0);
-  const [speechResult, setSpeechResult] = useState<string>('');
-  const [micStatus, setMicStatus] = useState<string>('🎤 대기 중');
-  const [showAnswer, setShowAnswer] = useState<boolean>(false);
+  // Use useReducer for complex state management
+  const [flowState, dispatch] = useReducer(flowReducer, initialFlowState);
   
-  // Recognition state
-  const [isRecording, setIsRecording] = useState<boolean>(false);
-  const [recognitionAnswerSubmitted, setRecognitionAnswerSubmitted] = useState<boolean>(false);
-  
-  // Pause/Resume state
-  const [isPaused, setIsPaused] = useState<boolean>(false);
-  const [remainingRecognitionTime, setRemainingRecognitionTime] = useState<number>(0);
-  const [remainingWaitTime, setRemainingWaitTime] = useState<number>(0);
-  
-  // Timing
-  const [flowStartTime, setFlowStartTime] = useState<number>(0);
-  const [recognitionStartTime, setRecognitionStartTime] = useState<number>(0);
+  const {
+    currentPhase,
+    countdownTimer,
+    recognitionTimer,
+    speechResult,
+    micStatus,
+    showAnswer,
+    isRecording,
+    recognitionAnswerSubmitted,
+    isPaused,
+    remainingRecognitionTime,
+    remainingWaitTime,
+    flowStartTime,
+    recognitionStartTime
+  } = flowState;
   
   // Voice settings with memoization
   const { value: voiceSettings } = useLocalStorage(STORAGE_KEYS.VOICE_SETTINGS);
@@ -86,6 +189,9 @@ export const PatternTrainingFlow: React.FC<PatternTrainingFlowProps> = memo(({
   const recognitionRef = useRef<any>(null);
   const countdownIntervalRef = useRef<NodeJS.Timeout | null>(null);
   const recordingTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  
+  // 🔧 FIX: Debounce ref for pause/resume buttons
+  const pauseDebounceRef = useRef<NodeJS.Timeout | null>(null);
   const ttsRef = useRef<SpeechSynthesisUtterance | null>(null);
 
   // Exactly match HTML version - 10 second recognition timeout for all stages
@@ -116,6 +222,13 @@ export const PatternTrainingFlow: React.FC<PatternTrainingFlowProps> = memo(({
       if (typeof window.speechSynthesis.speak !== 'function') {
         console.warn('음성 합성 기능을 사용할 수 없습니다.');
         resolve(); // Don't reject, just skip TTS
+        return;
+      }
+
+      // 🔧 FIX: Check if TTS is already speaking to prevent duplicate sounds
+      if (window.speechSynthesis.speaking) {
+        console.log(`[DEBUG] 🎙️ TTS 이미 재생 중 - 스킨: "${text}"`);
+        resolve(); // Skip if already speaking
         return;
       }
 
@@ -228,11 +341,10 @@ export const PatternTrainingFlow: React.FC<PatternTrainingFlowProps> = memo(({
         ttsRef.current = null;
       }
       
-      setIsRecording(false);
+      dispatch({ type: 'SET_IS_RECORDING', payload: false });
     } catch (error) {
       console.error('Error in forceStopAllTimers:', error);
-      // Still try to set recording to false even if other cleanup fails
-      setIsRecording(false);
+      dispatch({ type: 'SET_IS_RECORDING', payload: false });
     }
   }, [isRecording]);
 
@@ -241,14 +353,14 @@ export const PatternTrainingFlow: React.FC<PatternTrainingFlowProps> = memo(({
    * 10-second timeout, immediate result processing, clean state management
    */
   const startSpeechRecognition = useCallback(() => {
-    setCurrentPhase('recognition');
+    dispatch({ type: 'SET_PHASE', payload: 'recognition' });
     console.log(`🎤 [${new Date().toLocaleTimeString()}] 음성인식 시작 - 10초 제한시간 (HTML 매칭)`);
     
     forceStopAllTimers();
     
     if (!('webkitSpeechRecognition' in window || 'SpeechRecognition' in window)) {
       const errorMsg = '음성 인식을 지원하지 않는 브라우저입니다.';
-      setSpeechResult(errorMsg);
+      dispatch({ type: 'SET_SPEECH_RESULT', payload: errorMsg });
       debouncedErrorHandler(errorMsg);
       return;
     }
@@ -265,16 +377,16 @@ export const PatternTrainingFlow: React.FC<PatternTrainingFlowProps> = memo(({
     recognition.maxAlternatives = 1; // HTML version uses 1
 
     recognitionRef.current = recognition;
-    setIsRecording(true);
-    setMicStatus('🎤 음성 인식 중...');
-    setSpeechResult('음성을 인식하고 있습니다...');
+    dispatch({ type: 'SET_IS_RECORDING', payload: true });
+    dispatch({ type: 'SET_MIC_STATUS', payload: '🎤 음성 인식 중...' });
+    dispatch({ type: 'SET_SPEECH_RESULT', payload: '음성을 인식하고 있습니다...' });
 
     let hasReceivedResult = false;
 
     recognition.onstart = () => {
       console.log(`🎯 [${new Date().toLocaleTimeString()}] 음성인식 실제 시작`);
-      setRecognitionTimer(0);
-      setRecognitionStartTime(Date.now());
+      dispatch({ type: 'SET_RECOGNITION_TIMER', payload: 0 });
+      dispatch({ type: 'SET_RECOGNITION_START_TIME', payload: Date.now() });
       
       // 10초 타임아웃 설정 (HTML 버전과 동일)
       recordingTimeoutRef.current = setTimeout(() => {
@@ -296,7 +408,7 @@ export const PatternTrainingFlow: React.FC<PatternTrainingFlowProps> = memo(({
       
       if (event.results && event.results.length > 0) {
         hasReceivedResult = true;
-        setRecognitionAnswerSubmitted(true);
+        dispatch({ type: 'SET_RECOGNITION_ANSWER_SUBMITTED', payload: true });
         
         const result = event.results[0][0].transcript.trim();
         const confidence = event.results[0][0].confidence || 0.9;
@@ -331,27 +443,27 @@ export const PatternTrainingFlow: React.FC<PatternTrainingFlowProps> = memo(({
           break;
         case 'audio-capture':
           const audioError = '마이크에 접근할 수 없습니다. 브라우저 설정을 확인해주세요.';
-          setSpeechResult(audioError);
+          dispatch({ type: 'SET_SPEECH_RESULT', payload: audioError });
           debouncedErrorHandler(audioError);
           break;
         case 'not-allowed':
           const permissionError = '마이크 권한이 거부되었습니다. 설정에서 권한을 허용해주세요.';
-          setSpeechResult(permissionError);
+          dispatch({ type: 'SET_SPEECH_RESULT', payload: permissionError });
           debouncedErrorHandler(permissionError);
           break;
         case 'network':
           const networkError = '네트워크 연결을 확인해주세요. 음성 인식 서비스에 연결할 수 없습니다.';
-          setSpeechResult(networkError);
+          dispatch({ type: 'SET_SPEECH_RESULT', payload: networkError });
           debouncedErrorHandler(networkError);
           break;
         case 'aborted':
           // User cancelled or system aborted, don't show error
           console.log('음성 인식이 취소되었습니다.');
-          setCurrentPhase('idle');
+          dispatch({ type: 'SET_PHASE', payload: 'idle' });
           break;
         default:
           const errorMsg = `음성 인식 오류: ${event.error}`;
-          setSpeechResult(errorMsg);
+          dispatch({ type: 'SET_SPEECH_RESULT', payload: errorMsg });
           debouncedErrorHandler(errorMsg);
       }
     };
@@ -365,13 +477,10 @@ export const PatternTrainingFlow: React.FC<PatternTrainingFlowProps> = memo(({
 
     // 타이머 업데이트 (10초로 변경)
     const timerInterval = setInterval(() => {
-      setRecognitionTimer(prev => {
-        const newTime = prev + 0.1;
-        if (newTime >= 10.0) { // Changed to 10 seconds
-          clearInterval(timerInterval);
-        }
-        return newTime;
-      });
+      dispatch({ type: 'SET_RECOGNITION_TIMER', payload: (recognitionTimer + 0.1) });
+      if (recognitionTimer >= 10.0) { // Changed to 10 seconds
+        clearInterval(timerInterval);
+      }
     }, 100);
 
     try {
@@ -380,7 +489,7 @@ export const PatternTrainingFlow: React.FC<PatternTrainingFlowProps> = memo(({
       console.error(`😨 [${new Date().toLocaleTimeString()}] 음성인식 시작 실패:`, error);
       stopSpeechRecognition();
       const errorMsg = '음성 인식을 시작할 수 없습니다.';
-      setSpeechResult(errorMsg);
+      dispatch({ type: 'SET_SPEECH_RESULT', payload: errorMsg });
       debouncedErrorHandler(errorMsg);
     }
   }, [isRecording, recognitionAnswerSubmitted, forceStopAllTimers, debouncedErrorHandler]);
@@ -503,6 +612,33 @@ export const PatternTrainingFlow: React.FC<PatternTrainingFlowProps> = memo(({
       startFlow();
     }
   }, [isPaused, remainingRecognitionTime, remainingWaitTime]);
+  
+  // 🔧 FIX: Debounced pause/resume functions to prevent duplicate calls
+  const debouncedPauseFlow = useCallback(() => {
+    if (pauseDebounceRef.current) {
+      clearTimeout(pauseDebounceRef.current);
+    }
+    
+    pauseDebounceRef.current = setTimeout(() => {
+      pauseFlow();
+      pauseDebounceRef.current = null;
+    }, 300); // 300ms debounce
+    
+    console.log('[DEBUG] 🔄 일시정지 디바운스 적용');
+  }, [pauseFlow]);
+  
+  const debouncedResumeFlow = useCallback(() => {
+    if (pauseDebounceRef.current) {
+      clearTimeout(pauseDebounceRef.current);
+    }
+    
+    pauseDebounceRef.current = setTimeout(() => {
+      resumeFlow();
+      pauseDebounceRef.current = null;
+    }, 300); // 300ms debounce
+    
+    console.log('[DEBUG] ▶️ 재개 디바운스 적용');
+  }, [resumeFlow]);
   
   // Resume functions for each phase
   const resumeBeepPhase = useCallback(() => {
@@ -723,6 +859,12 @@ export const PatternTrainingFlow: React.FC<PatternTrainingFlowProps> = memo(({
           console.warn('Error cancelling TTS on unmount:', error);
         }
         
+        // 🔧 FIX: Clear debounce timers
+        if (pauseDebounceRef.current) {
+          clearTimeout(pauseDebounceRef.current);
+          pauseDebounceRef.current = null;
+        }
+        
         console.log('PatternTrainingFlow cleanup completed');
       } catch (error) {
         console.error('Error during PatternTrainingFlow cleanup:', error);
@@ -731,11 +873,18 @@ export const PatternTrainingFlow: React.FC<PatternTrainingFlowProps> = memo(({
   }, [forceStopAllTimers]);
 
   return (
-    <div 
-      className={`text-center transition-all duration-300 ${className}`}
-      role="main"
-      aria-label="Pattern Training Interface"
+    <ErrorBoundary 
+      level="component" 
+      onError={(error, errorInfo) => {
+        console.error('[DEBUG] PatternTrainingFlow 에러:', error, errorInfo);
+        onError?.(error.message);
+      }}
     >
+      <div 
+        className={`text-center transition-all duration-300 ${className}`}
+        role="main"
+        aria-label="Pattern Training Interface"
+      >
       {/* Korean text display */}
       <div className="mb-8">
         <div 
@@ -886,7 +1035,7 @@ export const PatternTrainingFlow: React.FC<PatternTrainingFlowProps> = memo(({
         {/* Pause/Resume button - Only show if not in auto-start mode (StudyPage manages training state) */}
         {!autoStart && (currentPhase === 'tts' || currentPhase === 'beep' || currentPhase === 'recognition' || currentPhase === 'waiting') && (
           <button
-            onClick={isPaused ? resumeFlow : pauseFlow}
+            onClick={isPaused ? debouncedResumeFlow : debouncedPauseFlow}
             className={`px-6 py-3 font-bold rounded-xl transition-all duration-200 shadow-lg hover:shadow-xl transform hover:scale-105 active:scale-95 ${
               isPaused 
                 ? 'bg-gradient-to-r from-green-600 to-emerald-600 text-white hover:from-green-700 hover:to-emerald-700' 
@@ -907,7 +1056,7 @@ export const PatternTrainingFlow: React.FC<PatternTrainingFlowProps> = memo(({
               {remainingWaitTime > 0 && `대기시간 ${remainingWaitTime}초 남음`}
             </div>
             <button
-              onClick={resumeFlow}
+              onClick={debouncedResumeFlow}
               className="px-4 py-2 bg-gradient-to-r from-green-600 to-emerald-600 text-white rounded-lg hover:from-green-700 hover:to-emerald-700 transition-all duration-200 shadow-md hover:shadow-lg transform hover:scale-105"
               aria-label="훈련 재개하기"
             >
@@ -946,7 +1095,8 @@ export const PatternTrainingFlow: React.FC<PatternTrainingFlowProps> = memo(({
           <div>Flow Duration: {flowStartTime ? Math.round((Date.now() - flowStartTime) / 1000) : 0}s</div>
         </div>
       )}
-    </div>
+      </div>
+    </ErrorBoundary>
   );
 });
 

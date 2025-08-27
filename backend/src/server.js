@@ -194,10 +194,18 @@ const authenticateFirebaseToken = async (req, res, next) => {
   const idToken = req.headers.authorization?.split('Bearer ')[1];
   const isDevelopment = process.env.NODE_ENV === 'development';
 
+  console.log('[DEBUG] 🔐 인증 미들웨어:', {
+    hasToken: !!idToken,
+    isDevelopment,
+    url: req.url,
+    method: req.method,
+    timestamp: new Date().toISOString()
+  });
+
   // 개발 모드에서는 토큰 없이도 통과
   if (!idToken) {
     if (isDevelopment) {
-      console.log('🔓 개발 모드: 인증 토큰 없이 진행');
+      console.log('[DEBUG] 🔓 개발 모드: 인증 토큰 없이 진행');
       req.user = { 
         uid: 'dev-user', 
         email: 'dev@example.com',
@@ -207,6 +215,7 @@ const authenticateFirebaseToken = async (req, res, next) => {
       };
       return next();
     } else {
+      console.log('[DEBUG] ❌ 인증 토큰 누락');
       return res.status(401).json({ 
         success: false, 
         error: 'Authorization token required',
@@ -217,8 +226,9 @@ const authenticateFirebaseToken = async (req, res, next) => {
 
   try {
     if (admin.apps.length === 0 || !admin.auth) {
+      console.log('[DEBUG] 🚫 Firebase 앱 미초기화 상태');
       if (isDevelopment) {
-        console.log('🔓 개발 모드: Firebase 미초기화 상태');
+        console.log('[DEBUG] 🔓 개발 모드: Firebase 미초기화 상태');
         req.user = { 
           uid: 'dev-user', 
           email: 'dev@example.com',
@@ -236,15 +246,22 @@ const authenticateFirebaseToken = async (req, res, next) => {
       }
     }
     
+    console.log('[DEBUG] 📊 Firebase 토큰 검증 시작');
     const decodedToken = await admin.auth().verifyIdToken(idToken);
     req.user = decodedToken;
-    console.log(`✅ 사용자 인증 성공: ${decodedToken.email || decodedToken.uid}`);
+    console.log('[DEBUG] ✅ 사용자 인증 성공:', {
+      uid: decodedToken.uid,
+      email: decodedToken.email
+    });
     next();
   } catch (error) {
-    console.error('Firebase ID 토큰 검증 실패:', error.message);
+    console.error('[DEBUG] ❌ Firebase ID 토큰 검증 실패:', {
+      error: error.message,
+      stack: error.stack
+    });
     
     if (isDevelopment) {
-      console.log('🔓 개발 모드: 토큰 인증 실패하여 Mock user로 진행');
+      console.log('[DEBUG] 🔓 개발 모드: 토큰 인증 실패하여 Mock user로 진행');
       req.user = { 
         uid: 'dev-user', 
         email: 'dev@example.com',
@@ -390,43 +407,89 @@ app.use('/api/exp', expRouter);
 
 // 발화 평가 라우트 (향후 speech 라우터로 분리 예정)
 app.post('/api/speech/evaluate', async (req, res) => {
+  const startTime = Date.now();
+  console.log('[DEBUG] 🎤 /api/speech/evaluate 요청:', {
+    body: req.body,
+    timestamp: new Date().toISOString()
+  });
+  
   try {
     const { transcript, targetPattern } = req.body;
     if (!transcript || !targetPattern) {
+      console.log('[DEBUG] ❌ 파라미터 누락:', { transcript, targetPattern });
       return res.status(400).json({ success: false, message: 'Transcript and targetPattern are required' });
     }
+    console.log('[DEBUG] 📊 음성 평가 시작:', { transcript, targetPattern });
     const evaluationResult = await speechService.evaluateSpeech(transcript, targetPattern);
+    console.log('[DEBUG] ✅ 음성 평가 완료:', {
+      result: evaluationResult,
+      duration: `${Date.now() - startTime}ms`
+    });
     res.json({ success: true, data: evaluationResult });
   } catch (error) {
-    console.error('Error evaluating speech:', error);
+    console.error('[DEBUG] ❌ /api/speech/evaluate 에러:', {
+      error: error.message,
+      stack: error.stack,
+      duration: `${Date.now() - startTime}ms`
+    });
     res.status(500).json({ success: false, message: 'Internal server error' });
   }
 });
 
 // 복습 카드 관련 라우트 (향후 review 라우터로 분리 예정)
 app.post('/api/review/create', async (req, res) => {
+  const startTime = Date.now();
+  console.log('[DEBUG] 📝 /api/review/create 요청:', {
+    body: req.body,
+    timestamp: new Date().toISOString()
+  });
+  
   try {
     const { userId, patternId, type } = req.body; // 예시 데이터
+    console.log('[DEBUG] 📊 복습 카드 생성 시작:', { userId, patternId, type });
     const reviewData = { userId, patternId, type, nextReview: new Date().toISOString().split('T')[0], stage: 1 };
     await reviewService.createReviewCard(reviewData);
+    console.log('[DEBUG] ✅ 복습 카드 생성 완료:', {
+      reviewData,
+      duration: `${Date.now() - startTime}ms`
+    });
     res.json({ success: true, message: 'Review card created' });
   } catch (error) {
-    console.error('Error creating review card:', error);
+    console.error('[DEBUG] ❌ /api/review/create 에러:', {
+      error: error.message,
+      stack: error.stack,
+      duration: `${Date.now() - startTime}ms`
+    });
     res.status(500).json({ success: false, message: 'Internal server error' });
   }
 });
 
 // 알림 관련 라우트 (향후 notification 라우터로 분리 예정)
 app.post('/api/notification/send', async (req, res) => {
+  const startTime = Date.now();
+  console.log('[DEBUG] 🔔 /api/notification/send 요청:', {
+    body: req.body,
+    timestamp: new Date().toISOString()
+  });
+  
   try {
     const { token, title, body } = req.body;
     if (!token || !title || !body) {
+      console.log('[DEBUG] ❌ 파라미터 누락:', { token: !!token, title: !!title, body: !!body });
       return res.status(400).json({ success: false, message: 'Token, title, and body are required' });
     }
+    console.log('[DEBUG] 📱 알림 전송 시작:', { title, body });
     await notificationService.sendNotification(token, { title, body });
+    console.log('[DEBUG] ✅ 알림 전송 완료:', {
+      duration: `${Date.now() - startTime}ms`
+    });
     res.json({ success: true, message: 'Notification sent' });
   } catch (error) {
-    console.error('Error sending notification:', error);
+    console.error('[DEBUG] ❌ /api/notification/send 에러:', {
+      error: error.message,
+      stack: error.stack,
+      duration: `${Date.now() - startTime}ms`
+    });
     res.status(500).json({ success: false, message: 'Internal server error' });
   }
 });
@@ -435,11 +498,19 @@ app.post('/api/notification/send', async (req, res) => {
 
 // 복습 세션 기록
 app.post('/api/smart-review/session', async (req, res) => {
+  const startTime = Date.now();
+  console.log('[DEBUG] 📊 /api/smart-review/session 요청:', {
+    body: req.body,
+    userId: req.user?.uid,
+    timestamp: new Date().toISOString()
+  });
+  
   try {
     const { sentenceId, accuracy, responseTime, difficulty } = req.body;
     const userId = req.user.uid;
     
     if (!sentenceId || accuracy === undefined || !responseTime || !difficulty) {
+      console.log('[DEBUG] ❌ 스마트 복습 파라미터 누락:', { sentenceId, accuracy, responseTime, difficulty });
       return res.status(400).json({ 
         success: false, 
         message: 'sentenceId, accuracy, responseTime, and difficulty are required' 
@@ -2232,48 +2303,100 @@ function calculateSimilarity(str1, str2) {
 
 // Socket.io 연결 처리 (예시)
 io.on('connection', (socket) => {
-  console.log('A user connected via WebSocket');
+  console.log('[DEBUG] 🔌 소켓 연결: ', {
+    socketId: socket.id,
+    timestamp: new Date().toISOString(),
+    headers: socket.handshake.headers
+  });
 
-  socket.on('disconnect', () => {
-    console.log('User disconnected');
+  socket.on('disconnect', (reason) => {
+    console.log('[DEBUG] 🔌 소켓 해제: ', {
+      socketId: socket.id,
+      reason,
+      timestamp: new Date().toISOString()
+    });
   });
 
   // 여기에 실시간 통신 로직 추가
   // 예: 'speechInput' 이벤트 수신 및 처리
   socket.on('speechInput', async (data) => {
-    console.log('Received speech input:', data);
-    // TODO: STT 처리 및 Gemini 평가 로직 연동
-    // const evaluation = await speechService.evaluateSpeech(data.transcript, data.targetPattern);
-    // socket.emit('speechResult', evaluation);
+    console.log('[DEBUG] 🎤 음성 입력 수신:', {
+      socketId: socket.id,
+      dataType: typeof data,
+      dataKeys: Object.keys(data || {}),
+      timestamp: new Date().toISOString()
+    });
+    try {
+      // TODO: STT 처리 및 Gemini 평가 로직 연동
+      // const evaluation = await speechService.evaluateSpeech(data.transcript, data.targetPattern);
+      // socket.emit('speechResult', evaluation);
+      console.log('[DEBUG] 🎤 음성 처리 완료:', { socketId: socket.id });
+    } catch (error) {
+      console.error('[DEBUG] 🎤 음성 처리 에러:', {
+        socketId: socket.id,
+        error: error.message,
+        stack: error.stack
+      });
+    }
   });
 });
 
 // /realtime 네임스페이스 추가 (스트리밍 응답용)
 io.of('/realtime').on('connection', (socket) => {
-  console.log('🔗 /realtime 네임스페이스 연결');
+  console.log('[DEBUG] 🔗 /realtime 네임스페이스 연결:', {
+    socketId: socket.id,
+    namespace: '/realtime',
+    timestamp: new Date().toISOString()
+  });
 
   // 표준화된 파이프라인 이벤트 구조
   socket.on('pipeline', async (payload) => {
+    const startTime = Date.now();
+    console.log('[DEBUG] 🚀 파이프라인 시작:', {
+      socketId: socket.id,
+      payloadKeys: Object.keys(payload || {}),
+      timestamp: new Date().toISOString()
+    });
+    
     try {
+      console.log('[DEBUG] 🎙️ STT 시작:', { socketId: socket.id });
       socket.emit('progress', { step: 'STT_START' });
       const text = await require('./services/taskQueue').sttQueue.add(
         () => require('./services/speechService').runSTT(payload.audioBlob)
       );
+      console.log('[DEBUG] 🎙️ STT 완료:', { socketId: socket.id, textLength: text?.length });
       socket.emit('progress', { step: 'STT_DONE', data: { text } });
 
+      console.log('[DEBUG] 🧠 LLM 시작:', { socketId: socket.id });
       socket.emit('progress', { step: 'LLM_START' });
       const llm = await require('./services/taskQueue').llmQueue.add(
         () => require('./services/speechService').runLLM(payload.prompt ?? text)
       );
+      console.log('[DEBUG] 🧠 LLM 완료:', { socketId: socket.id, replyLength: llm.reply?.length });
       socket.emit('progress', { step: 'LLM_DONE', data: { preview: llm.reply?.slice(0,80) } });
 
+      console.log('[DEBUG] 🔊 TTS 시작:', { socketId: socket.id });
       socket.emit('progress', { step: 'TTS_START' });
       const audio = await require('./services/taskQueue').ttsQueue.add(
         () => require('./services/speechService').runTTS(llm.reply, payload.voice)
       );
+      console.log('[DEBUG] 🔊 TTS 완료:', { socketId: socket.id, audioSize: audio?.length });
       
+      const totalTime = Date.now() - startTime;
+      console.log('[DEBUG] ✅ 파이프라인 완료:', {
+        socketId: socket.id,
+        totalTime: `${totalTime}ms`,
+        timestamp: new Date().toISOString()
+      });
       socket.emit('result', { text, llm, audio });
     } catch (e) {
+      console.error('[DEBUG] ❌ 파이프라인 에러:', {
+        socketId: socket.id,
+        error: e.message,
+        stack: e.stack,
+        step: payload.currentStep || 'unknown',
+        timestamp: new Date().toISOString()
+      });
       socket.emit('error', { message: e.message, step: payload.currentStep || 'unknown' });
     }
   });

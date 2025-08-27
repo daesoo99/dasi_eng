@@ -48,8 +48,21 @@ export class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundarySt
    * @param errorInfo - Additional information about the error
    */
   componentDidCatch(error: Error, errorInfo: ErrorInfo) {
-    // Log the error to console for debugging
-    console.error('ErrorBoundary caught an error:', error, errorInfo);
+    // Enhanced logging for learning flow debugging
+    console.error('[DEBUG] ❌ ErrorBoundary 에러 포착:', {
+      error: {
+        name: error.name,
+        message: error.message,
+        stack: error.stack
+      },
+      errorInfo: {
+        componentStack: errorInfo.componentStack
+      },
+      level: this.props.level || 'component',
+      timestamp: new Date().toISOString(),
+      url: window.location.href,
+      userAgent: navigator.userAgent
+    });
     
     // Update state with error details
     this.setState({

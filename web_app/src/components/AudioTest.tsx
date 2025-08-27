@@ -404,9 +404,15 @@ const AudioTest: React.FC = () => {
       };
 
       audio.oncanplaythrough = () => {
-        audio.play().catch((e) => {
-          console.error('[AudioTest] 오디오 play() 실패:', e);
-          setState(prev => ({ ...prev, isPlaying: false }));
+        // 🔧 FIX: Check paused state before calling play() to prevent duplicate sounds
+        if (audio.paused) {
+          console.log('[DEBUG] 🔊 AudioTest: 재생 시작 (paused=true)');
+          audio.play().catch((e) => {
+            console.error('[AudioTest] 오디오 play() 실패:', e);
+            setState(prev => ({ ...prev, isPlaying: false }));
+        } else {
+          console.log('[DEBUG] 🚫 AudioTest: 이미 재생 중 - 스킨');
+        }
           URL.revokeObjectURL(audioUrl);
           playingAudioRef.current = null;
           alert('오디오 재생에 실패했습니다. 브라우저에서 자동 재생이 차단되었을 수 있습니다.');

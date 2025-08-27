@@ -283,13 +283,19 @@ const AudioTestSimple: React.FC<Props> = memo(({ onExit }) => {
       };
 
       audio.oncanplaythrough = () => {
-        audio.play().catch((e) => {
-          console.error('[AudioTestSimple] 오디오 play() 실패:', e);
-          setIsPlaying(false);
-          URL.revokeObjectURL(audioUrl);
-          playingAudioRef.current = null;
-          alert('오디오 재생에 실패했습니다.');
-        });
+        // 🔧 FIX: Check paused state before calling play() to prevent duplicate sounds
+        if (audio.paused) {
+          console.log('[DEBUG] 🔊 AudioTestSimple: 재생 시작 (paused=true)');
+          audio.play().catch((e) => {
+            console.error('[AudioTestSimple] 오디오 play() 실패:', e);
+            setIsPlaying(false);
+            URL.revokeObjectURL(audioUrl);
+            playingAudioRef.current = null;
+            alert('오디오 재생에 실패했습니다.');
+          });
+        } else {
+          console.log('[DEBUG] 🚫 AudioTestSimple: 이미 재생 중 - 스킨');
+        }
       };
 
       setIsPlaying(true);

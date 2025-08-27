@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useMemo, useCallback, memo } from 'react';
 import { reviewAlgorithmService } from '../services/reviewAlgorithm';
+import { ErrorBoundary } from './ErrorBoundary';
 
 interface ReviewSentence {
   id: string;
@@ -201,7 +202,13 @@ const SmartReviewSession: React.FC<ReviewSessionProps> = memo(({ userId, onCompl
   const currentSentence = sentences[currentIndex];
 
   return (
-    <div className="max-w-4xl mx-auto p-6">
+    <ErrorBoundary 
+      level="component"
+      onError={(error, errorInfo) => {
+        console.error('[DEBUG] SmartReviewSession 에러:', error, errorInfo);
+      }}
+    >
+      <div className="max-w-4xl mx-auto p-6">
       {/* 진행률 및 통계 */}
       <div className="mb-6">
         <div className="flex justify-between items-center mb-4">
@@ -329,7 +336,8 @@ const SmartReviewSession: React.FC<ReviewSessionProps> = memo(({ userId, onCompl
           </div>
         </div>
       )}
-    </div>
+      </div>
+    </ErrorBoundary>
   );
 });
 

@@ -193,11 +193,17 @@ const InterviewHistory: React.FC<Props> = ({ onBack }) => {
           
           audio.oncanplaythrough = () => {
             clearTimeout(loadTimeout);
-            audio.play().catch((e) => {
-              console.error('오디오 play() 실패:', e);
-              cleanup();
-              playTTS(qa.answer);
-            });
+            // 🔧 FIX: Check paused state before calling play() to prevent duplicate sounds
+            if (audio.paused) {
+              console.log('[DEBUG] 🔊 PracticeHistory: 재생 시작 (paused=true)');
+              audio.play().catch((e) => {
+                console.error('오디오 play() 실패:', e);
+                cleanup();
+                playTTS(qa.answer);
+              });
+            } else {
+              console.log('[DEBUG] 🚫 PracticeHistory: 이미 재생 중 - 스킨');
+            }
           };
 
           audio.onloadeddata = () => {
