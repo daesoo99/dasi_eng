@@ -1,48 +1,93 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, Suspense, lazy } from 'react';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { useAppStore } from '@/store/useAppStore';
+import { LoadingSkeleton } from '@/components/LoadingSkeleton';
+import { ErrorBoundary } from '@/components/ErrorBoundary';
+import { useAuth } from '@/hooks/useAuth';
+import UserProfile from '@/components/UserProfile';
+import AuthModal from '@/components/AuthModal';
 
-// Pages
-import { LandingHome } from '@/pages/LandingHome';
-import { DashboardHome } from '@/pages/DashboardHome';
-import { StudyPage } from '@/pages/StudyPage';
-import { ReviewPage } from '@/pages/ReviewPage';
-import { ResultPage } from '@/pages/ResultPage';
-import { SettingsPage } from '@/pages/SettingsPage';
-import { AdaptivePackPage } from '@/pages/AdaptivePackPage';
-import ScenarioDialoguePage from '@/pages/ScenarioDialoguePage';
-import SmartReviewPage from '@/pages/SmartReviewPage';
-import ProgressManagementPage from '@/pages/ProgressManagementPage';
-import { CurriculumTestPage } from '@/pages/CurriculumTestPage';
-import { CurriculumLintPage } from '@/pages/CurriculumLintPage';
-import { AudioV2TestPage } from '@/pages/AudioV2TestPage';
-import SpeedModePage from '@/pages/SpeedModePage';
-import StageFocusPage from '@/pages/StageFocusPage';
-import { AllModePage } from '@/pages/AllModePage';
-import { PatternTrainingPage } from '@/pages/PatternTrainingPage';
-import { PatternTestPage } from '@/pages/PatternTestPage';
-import { SituationalTrainingPage } from '@/pages/SituationalTrainingPage';
+// Lazy load pages for better performance
+const LandingHome = lazy(() => import('@/pages/LandingHome').then(m => ({ default: m.LandingHome })));
+const DashboardHome = lazy(() => import('@/pages/DashboardHome').then(m => ({ default: m.DashboardHome })));
+const StudyPage = lazy(() => import('@/pages/StudyPage').then(m => ({ default: m.StudyPage })));
+const ReviewPage = lazy(() => import('@/pages/ReviewPage'));
+const ResultPage = lazy(() => import('@/pages/ResultPage').then(m => ({ default: m.ResultPage })));
+const SettingsPage = lazy(() => import('@/pages/SettingsPage').then(m => ({ default: m.SettingsPage })));
+const AdaptivePackPage = lazy(() => import('@/pages/AdaptivePackPage').then(m => ({ default: m.AdaptivePackPage })));
+const ScenarioDialoguePage = lazy(() => import('@/pages/ScenarioDialoguePage'));
+const SmartReviewPage = lazy(() => import('@/pages/SmartReviewPage'));
+const ProgressManagementPage = lazy(() => import('@/pages/ProgressManagementPage'));
+const CurriculumTestPage = lazy(() => import('@/pages/CurriculumTestPage').then(m => ({ default: m.CurriculumTestPage })));
+const CurriculumLintPage = lazy(() => import('@/pages/CurriculumLintPage').then(m => ({ default: m.CurriculumLintPage })));
+const AudioV2TestPage = lazy(() => import('@/pages/AudioV2TestPage').then(m => ({ default: m.AudioV2TestPage })));
+const SpeedModePage = lazy(() => import('@/pages/SpeedModePage'));
+const StageFocusPage = lazy(() => import('@/pages/StageFocusPage'));
+const AllModePage = lazy(() => import('@/pages/AllModePage').then(m => ({ default: m.AllModePage })));
+const PatternTrainingPage = lazy(() => import('@/pages/PatternTrainingPage').then(m => ({ default: m.PatternTrainingPage })));
+const PatternTestPage = lazy(() => import('@/pages/PatternTestPage').then(m => ({ default: m.PatternTestPage })));
+const SituationalTrainingPage = lazy(() => import('@/pages/SituationalTrainingPage').then(m => ({ default: m.SituationalTrainingPage })));
+const SentenceServiceTest = lazy(() => import('@/components/SentenceServiceTest').then(m => ({ default: m.SentenceServiceTest })));
 
 function App() {
   const { setUser } = useAppStore();
+  const { isLoading, isAuthenticated, user } = useAuth();
+  const [showAuthModal, setShowAuthModal] = React.useState(false);
 
   useEffect(() => {
-    // Initialize default user if not set
-    const { user } = useAppStore.getState();
-    if (!user.id) {
-      setUser({
-        id: 'demo-user-' + Date.now(),
-        level: 1,
-        stage: 1,
-        isAuthenticated: true,
-      });
+    // Firebase Auth 로딩이 완료되고 미인증 상태일 때 로그인 모달 표시
+    if (!isLoading && !isAuthenticated) {
+      console.log('[DEBUG] 🚪 미인증 사용자 감지 - 로그인 모달 표시');
+      setShowAuthModal(true);
+      
+      // 임시 사용자 생성 (모달이 닫혀도 앱을 사용할 수 있도록)
+      const { user } = useAppStore.getState();
+      if (!user.id) {
+        console.log('[DEBUG] 🔄 임시 사용자 생성');
+        setUser({
+          id: 'demo-user-' + Date.now(),
+          level: 1,
+          stage: 1,
+          isAuthenticated: false,
+        });
+      }
+    } else if (isAuthenticated) {
+      console.log('[DEBUG] ✅ 인증된 사용자 - 로그인 모달 숨김');
+      setShowAuthModal(false);
     }
-  }, [setUser]);
+  }, [setUser, isLoading, isAuthenticated]);
+
+  const handleAuthSuccess = (authUser: any) => {
+    console.log('[DEBUG] ✅ App 레벨 인증 성공:', authUser.uid);
+    setShowAuthModal(false);
+  };
+
+  const handleCloseAuthModal = () => {
+    console.log('[DEBUG] 📴 사용자가 로그인 모달을 닫음');
+    setShowAuthModal(false);
+  };
 
   return (
-    <Router>
-      <div className="App">
-        <Routes>
+    <ErrorBoundary level="page" onError={(error, errorInfo) => {
+      console.error('App-level error:', error, errorInfo);
+      // Here you could send error reports to a service like Sentry
+    }}>
+      <Router>
+        <div className="App">
+          {/* 헤더 - 사용자 프로필 */}
+          <header className="bg-white shadow-sm border-b z-50 sticky top-0">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div className="flex justify-between items-center h-16">
+                <div className="flex items-center space-x-4">
+                  <h1 className="text-xl font-bold text-gray-900">DaSi English</h1>
+                </div>
+                <UserProfile />
+              </div>
+            </div>
+          </header>
+          
+          <Suspense fallback={<LoadingSkeleton />}>
+            <Routes>
           <Route path="/" element={<LandingHome />} />
           <Route path="/dashboard" element={<DashboardHome />} />
           <Route path="/study" element={<StudyPage />} />
@@ -62,11 +107,21 @@ function App() {
           <Route path="/pattern-training" element={<PatternTrainingPage />} />
           <Route path="/pattern-test" element={<PatternTestPage />} />
           <Route path="/situational-training" element={<SituationalTrainingPage />} />
+          <Route path="/sentence-test" element={<SentenceServiceTest />} />
           {/* 안전장치: 알 수 없는 경로는 랜딩으로 */}
           <Route path="*" element={<LandingHome />} />
-        </Routes>
-      </div>
-    </Router>
+            </Routes>
+          </Suspense>
+        </div>
+      </Router>
+      
+      {/* 글로벌 로그인 모달 */}
+      <AuthModal
+        isOpen={showAuthModal}
+        onClose={handleCloseAuthModal}
+        onAuthSuccess={handleAuthSuccess}
+      />
+    </ErrorBoundary>
   );
 }
 

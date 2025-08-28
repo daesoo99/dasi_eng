@@ -254,7 +254,11 @@ const apiClient = new APIClient();
 export const interviewAPI = new InterviewAPIService(apiClient);
 export const curriculumAPI = new CurriculumAPIService(apiClient);
 
+// authService에서 사용할 수 있는 기본 API 클라이언트 export
+export const api = apiClient;
+
 export default { 
   interview: interviewAPI,
-  curriculum: curriculumAPI 
+  curriculum: curriculumAPI,
+  api: apiClient
 };
