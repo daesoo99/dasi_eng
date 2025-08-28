@@ -91,6 +91,8 @@ export class BrowserSTT {
 export class BrowserTTS {
   private synth: SpeechSynthesis;
   private isSupported = false;
+  private currentUtterance: SpeechSynthesisUtterance | null = null;
+  private utteranceQueue: SpeechSynthesisUtterance[] = [];
 
   constructor() {
     if ('speechSynthesis' in window) {
@@ -120,6 +122,9 @@ export class BrowserTTS {
     }
 
     return new Promise((resolve, reject) => {
+      // Clear any existing queue first
+      this.clearQueue();
+      
       const utterance = new SpeechSynthesisUtterance(text);
       
       utterance.lang = options.lang || 'en-US';
@@ -131,19 +136,62 @@ export class BrowserTTS {
         utterance.voice = options.voice;
       }
 
-      utterance.onend = () => resolve();
-      utterance.onerror = (event) => reject(new Error(`TTS error: ${event.error}`));
+      utterance.onend = () => {
+        this.currentUtterance = null;
+        this.removeFromQueue(utterance);
+        resolve();
+      };
+      utterance.onerror = (event) => {
+        this.currentUtterance = null;
+        this.removeFromQueue(utterance);
+        reject(new Error(`TTS error: ${event.error}`));
+      };
 
-      // Cancel any ongoing speech
+      // Cancel any ongoing speech and clear the queue
       this.synth.cancel();
+      this.currentUtterance = utterance;
+      this.utteranceQueue.push(utterance);
       this.synth.speak(utterance);
     });
+  }
+
+  private clearQueue(): void {
+    this.utteranceQueue = [];
+  }
+
+  private removeFromQueue(utterance: SpeechSynthesisUtterance): void {
+    const index = this.utteranceQueue.indexOf(utterance);
+    if (index > -1) {
+      this.utteranceQueue.splice(index, 1);
+    }
+  }
+
+  pause(): void {
+    if (this.isSupported && this.synth.speaking) {
+      this.synth.pause();
+    }
+  }
+
+  resume(): void {
+    if (this.isSupported && this.synth.paused) {
+      this.synth.resume();
+    }
   }
 
   stop(): void {
     if (this.isSupported) {
       this.synth.cancel();
+      this.currentUtterance = null;
+      this.clearQueue();
     }
+  }
+
+  isPaused(): boolean {
+    return this.isSupported && this.synth.paused;
+  }
+
+  isSpeaking(): boolean {
+    return this.isSupported && this.synth.speaking;
   }
 }
 

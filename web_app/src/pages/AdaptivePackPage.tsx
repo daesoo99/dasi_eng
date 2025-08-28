@@ -6,6 +6,7 @@ import { srsService } from '@/services/srsService';
 import { WritingModeInput } from '@/components/WritingModeInput';
 import { WritingModeFeedback } from '@/components/WritingModeFeedback';
 import { SpeechRecorder } from '@/components/SpeechRecorder';
+import { AutoSpeakingFlowV2 } from '@/components/AutoSpeakingFlowV2';
 import { FeedbackPanel } from '@/components/FeedbackPanel';
 import { useSpeech } from '@/hooks/useSpeech';
 import { api } from '@/lib/api';
@@ -306,11 +307,20 @@ export const AdaptivePackPage: React.FC = () => {
                   disabled={!!writingFeedback}
                 />
               ) : (
-                <SpeechRecorder
-                  onResult={handleSpeechResult}
-                  onError={(error) => setError(error)}
-                  phraseHints={[currentCard.cardData.target_en]}
-                  disabled={!!speechFeedback}
+                <AutoSpeakingFlowV2
+                  currentCard={currentCard.cardData}
+                  onSpeechResult={handleSpeechResult}
+                  onTimeout={() => {
+                    // AutoSpeakingFlowV2에서 이미 정답을 재생하므로 바로 다음 카드로
+                    console.log('[AdaptivePackPage] Timeout - proceeding to next card');
+                    setTimeout(() => {
+                      if (currentCard) {
+                        nextCard();
+                      }
+                    }, 100);
+                  }}
+                  isActive={!speechFeedback}
+                  recordingDuration={10}
                 />
               )}
             </div>
