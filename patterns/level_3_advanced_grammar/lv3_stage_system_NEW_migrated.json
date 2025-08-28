@@ -1,0 +1,2973 @@
+{
+  "levelInfo": {
+    "level": 3,
+    "title": "시제 확장과 복합 문장 구사",
+    "description": "현재완료와 완료진행형, 과거완료 등 고급 시제를 배우고, 수동태와 조건문(if), 간접화법(reported speech), 관계절 등 보다 복잡한 문장 구조를 다룹니다.",
+    "totalPhases": 6,
+    "totalStages": 30,
+    "estimatedHours": 75,
+    "version": "1.0.0",
+    "targetCEFR": "A2"
+  },
+  "phases": [
+    {
+      "phaseId": "P1",
+      "phaseTitle": "확장된 시제와 수동태 (Extended Tenses & Passive Voice)",
+      "phaseDescription": "고급 시제와 수동태를 체계적으로 학습합니다.",
+      "learningObjectives": [
+        "확장된 시제와 수동태 (Extended Tenses & Passive Voice) 학습 목표"
+      ],
+      "version": "1.0.0",
+      "stages": [
+        {
+          "stageId": "S01",
+          "stageTitle": "미래 표현 심화",
+          "description": "will vs. be going to를 배워 즉흥적 미래와 계획된 미래의 뉘앙스 차이를 익힙니다.",
+          "grammarFocus": "will vs be going to",
+          "keyPatterns": [
+            "will + 동사원형 (즉흥결정)",
+            "be going to + 동사원형 (계획된 미래)"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 45,
+          "coreExpressions": [
+            {
+              "english": "I will probably stay home.",
+              "korean": "아마 집에 있을 것 같아요. (즉흥 결정)",
+              "phoneticKorean": "아이 윌 프라바블리 스테이 홈",
+              "grammarPoint": "즉흥적 미래 will",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I am going to stay home.",
+              "korean": "집에 있을 예정이에요. (계획된 의도)",
+              "phoneticKorean": "아이 앰 고잉 투 스테이 홈",
+              "grammarPoint": "계획된 미래 be going to",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "It will rain tomorrow.",
+              "korean": "내일 비가 올 것입니다. (예측)",
+              "phoneticKorean": "잇 윌 레인 투모로우",
+              "grammarPoint": "날씨 예측 will",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Look at those clouds! It's going to rain.",
+              "korean": "저 구름들 봐요! 비가 올 것 같아요. (확실한 예측)",
+              "phoneticKorean": "룩 앳 도즈 클라우즈! 잇츠 고잉 투 레인",
+              "grammarPoint": "증거 기반 예측 be going to",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I'll help you with that.",
+              "korean": "그것 도와드릴게요. (즉석 제안)",
+              "phoneticKorean": "아일 헬프 유 위드 댓",
+              "grammarPoint": "즉석 도움 제안 will",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "We are going to visit Paris next month.",
+              "korean": "다음 달에 파리를 방문할 예정이에요. (여행 계획)",
+              "phoneticKorean": "위 아 고잉 투 비지트 패리스 넥스트 먼스",
+              "grammarPoint": "여행 계획 be going to",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I think she will like this gift.",
+              "korean": "그녀가 이 선물을 좋아할 것 같아요. (추측)",
+              "phoneticKorean": "아이 씽크 쉬 윌 라익 디스 기프트",
+              "grammarPoint": "개인적 추측 will",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "He is going to study medicine.",
+              "korean": "그는 의학을 공부할 예정이에요. (진로 계획)",
+              "phoneticKorean": "히 이즈 고잉 투 스터디 메디신",
+              "grammarPoint": "진로 계획 be going to",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Don't worry, I won't tell anyone.",
+              "korean": "걱정 마세요, 아무에게도 말하지 않을게요. (약속)",
+              "phoneticKorean": "돈트 워리, 아이 원트 텔 에니원",
+              "grammarPoint": "약속 표현 will not",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "She is going to be a great teacher.",
+              "korean": "그녀는 훌륭한 선생님이 될 거예요. (확신)",
+              "phoneticKorean": "쉬 이즈 고잉 투 비 어 그레이트 티처",
+              "grammarPoint": "확신 있는 미래 be going to",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "stageId": "S02",
+          "stageTitle": "현재완료 (Have p.p.) 용법",
+          "description": "현재완료 시제를 4가지 용법별로 연습합니다.",
+          "grammarFocus": "현재완료 4가지 용법",
+          "keyPatterns": [
+            "have/has + 과거분사",
+            "현재완료 기본형"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 50,
+          "coreExpressions": [
+            {
+              "english": "I have been to Japan.",
+              "korean": "일본에 가본 적이 있어요. (경험)",
+              "phoneticKorean": "아이 해브 빈 투 재팬",
+              "grammarPoint": "경험 표현 현재완료",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I have just finished my work.",
+              "korean": "방금 일을 끝냈어요. (완료)",
+              "phoneticKorean": "아이 해브 저스트 피니쉬드 마이 워크",
+              "grammarPoint": "완료 표현 just + 현재완료",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "He has lost his key.",
+              "korean": "그는 열쇠를 잃어버렸어요. (결과)",
+              "phoneticKorean": "히 해즈 로스트 히즈 키",
+              "grammarPoint": "결과 표현 현재완료",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "We have known each other for 5 years.",
+              "korean": "우리는 서로 안 지 5년이 되었어요. (계속)",
+              "phoneticKorean": "위 해브 논 이치 아더 포 파이브 이어즈",
+              "grammarPoint": "지속 표현 for + 현재완료",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Have you ever tried sushi?",
+              "korean": "스시를 먹어본 적이 있나요? (경험 질문)",
+              "phoneticKorean": "해브 유 에버 트라이드 스시?",
+              "grammarPoint": "경험 질문 ever + 현재완료",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "She has already left.",
+              "korean": "그녀는 이미 떠났어요. (완료)",
+              "phoneticKorean": "쉬 해즈 올레디 레프트",
+              "grammarPoint": "완료 표현 already + 현재완료",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I haven't seen him lately.",
+              "korean": "최근에 그를 보지 못했어요. (계속 부정)",
+              "phoneticKorean": "아이 해번트 신 힘 레이틀리",
+              "grammarPoint": "부정 지속 현재완료",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "They have lived here since 2010.",
+              "korean": "그들은 2010년부터 여기 살고 있어요. (계속)",
+              "phoneticKorean": "데이 해브 리브드 히어 신스 투 따우젠드 텐",
+              "grammarPoint": "지속 표현 since + 현재완료",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I have never eaten such delicious food.",
+              "korean": "이렇게 맛있는 음식을 먹어본 적이 없어요. (경험 부정)",
+              "phoneticKorean": "아이 해브 네버 이튼 섯치 딜리셔스 푸드",
+              "grammarPoint": "경험 부정 never + 현재완료",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The movie has just started.",
+              "korean": "영화가 방금 시작했어요. (완료 결과)",
+              "phoneticKorean": "더 무비 해즈 저스트 스타티드",
+              "grammarPoint": "시작 완료 현재완료",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "stageId": "S03",
+          "stageTitle": "현재완료진행형",
+          "description": "현재완료진행(have been ~ing)을 배워 과거부터 현재까지 계속 진행 중인 행동을 표현합니다.",
+          "grammarFocus": "현재완료진행형 (have been ~ing)",
+          "keyPatterns": [
+            "have/has been + ~ing",
+            "현재완료 진행형"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 45,
+          "coreExpressions": [
+            {
+              "english": "I have been studying English for 2 hours.",
+              "korean": "2시간 동안 영어를 공부하고 있어요. (지속)",
+              "phoneticKorean": "아이 해브 빈 스터디잉 잉글리쉬 포 투 아워즈",
+              "grammarPoint": "지속적 행동 현재완료진행",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "She has been living in Busan since 2020.",
+              "korean": "그녀는 2020년부터 부산에 살고 있어요. (거주 지속)",
+              "phoneticKorean": "쉬 해즈 빈 리빙 인 부산 신스 투 따우젠드 트웬티",
+              "grammarPoint": "거주 지속 since + 현재완료진행",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "It has been raining all day.",
+              "korean": "하루 종일 비가 오고 있어요. (날씨 지속)",
+              "phoneticKorean": "잇 해즈 빈 레이닝 올 데이",
+              "grammarPoint": "날씨 지속 현재완료진행",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "We have been waiting for you.",
+              "korean": "우리는 당신을 기다리고 있었어요. (대기 지속)",
+              "phoneticKorean": "위 해브 빈 웨이팅 포 유",
+              "grammarPoint": "대기 지속 현재완료진행",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "He has been working very hard lately.",
+              "korean": "그는 최근에 매우 열심히 일하고 있어요. (노력 지속)",
+              "phoneticKorean": "히 해즈 빈 워킹 베리 하드 레이틀리",
+              "grammarPoint": "노력 지속 lately + 현재완료진행",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "How long have you been learning Korean?",
+              "korean": "한국어를 배운 지 얼마나 되었나요? (기간 질문)",
+              "phoneticKorean": "하우 롱 해브 유 빈 런닝 코리언?",
+              "grammarPoint": "기간 질문 How long + 현재완료진행",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I have been feeling tired recently.",
+              "korean": "최근에 피곤함을 느끼고 있어요. (상태 지속)",
+              "phoneticKorean": "아이 해브 빈 필링 타이어드 리센틀리",
+              "grammarPoint": "감정 지속 현재완료진행",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "They have been discussing this issue.",
+              "korean": "그들은 이 문제를 논의하고 있어요. (회의 지속)",
+              "phoneticKorean": "데이 해브 빈 디스커싱 디스 이슈",
+              "grammarPoint": "회의 지속 현재완료진행",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "My phone has been ringing for 10 minutes.",
+              "korean": "제 전화가 10분 동안 울리고 있어요. (소리 지속)",
+              "phoneticKorean": "마이 폰 해즈 빈 링잉 포 텐 미니츠",
+              "grammarPoint": "소리 지속 for + 현재완료진행",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "What have you been doing today?",
+              "korean": "오늘 뭘 하고 있었어요? (활동 질문)",
+              "phoneticKorean": "왓 해브 유 빈 두잉 투데이?",
+              "grammarPoint": "활동 질문 현재완료진행",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "stageId": "S04",
+          "stageTitle": "과거완료 & 과거완료진행",
+          "description": "과거완료(had p.p.)와 과거완료진행(had been ~ing)을 소개하여 과거의 과거를 표현합니다.",
+          "grammarFocus": "과거완료 및 과거완료진행형",
+          "keyPatterns": [
+            "had + 과거분사",
+            "had been + ~ing"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 50,
+          "coreExpressions": [
+            {
+              "english": "I had finished dinner before he arrived.",
+              "korean": "그가 도착하기 전에 이미 저녁을 끝냈어요. (과거완료)",
+              "phoneticKorean": "아이 해드 피니쉬드 디너 비포 히 어라이브드",
+              "grammarPoint": "시간 순서 과거완료",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "They had been waiting for an hour when the bus finally came.",
+              "korean": "버스가 마침내 왔을 때 그들은 한 시간 동안 기다리고 있었어요. (과거완료진행)",
+              "phoneticKorean": "데이 해드 빈 웨이팅 포 언 아워 웬 더 버스 파이널리 케임",
+              "grammarPoint": "지속 과거완료진행",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "She had already left when I called.",
+              "korean": "제가 전화했을 때 그녀는 이미 떠나 있었어요. (과거완료)",
+              "phoneticKorean": "쉬 해드 올레디 레프트 웬 아이 콜드",
+              "grammarPoint": "과거 이전 완료",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "We had been studying for 3 hours before taking a break.",
+              "korean": "휴식을 취하기 전에 3시간 동안 공부하고 있었어요. (과거완료진행)",
+              "phoneticKorean": "위 해드 빈 스터디잉 포 쓰리 아워즈 비포 테이킹 어 브레이크",
+              "grammarPoint": "휴식 전 지속 활동",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "He had never seen snow before he moved to Canada.",
+              "korean": "캐나다로 이사가기 전에는 눈을 본 적이 없었어요. (과거완료 경험)",
+              "phoneticKorean": "히 해드 네버 신 스노우 비포 히 무브드 투 캐나다",
+              "grammarPoint": "과거 경험 부정",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The train had already departed when we reached the station.",
+              "korean": "우리가 역에 도착했을 때 기차는 이미 떠났어요. (과거완료 결과)",
+              "phoneticKorean": "더 트레인 해드 올레디 디파티드 웨 우리 리치드 더 스테이션",
+              "grammarPoint": "교통편 놓침 과거완료",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I had been working there for 5 years before I got promoted.",
+              "korean": "승진하기 전에 거기서 5년 동안 일하고 있었어요. (과거완료진행)",
+              "phoneticKorean": "아이 해드 빈 워킹 데어 포 파이브 이어즈 비포 아이 갓 프로모티드",
+              "grammarPoint": "승진 전 근무 기간",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "By the time we arrived, the movie had ended.",
+              "korean": "우리가 도착할 때쯤 영화는 끝나 있었어요. (과거완료)",
+              "phoneticKorean": "바이 더 타임 위 어라이브드, 더 무비 해드 엔디드",
+              "grammarPoint": "시점 과거완료",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "She had been feeling sick all week.",
+              "korean": "그녀는 일주일 내내 몸이 아팠어요. (과거완료진행)",
+              "phoneticKorean": "쉬 해드 빈 필링 식 올 위크",
+              "grammarPoint": "과거 감정 지속",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Had you finished your homework before watching TV?",
+              "korean": "TV를 보기 전에 숙제를 끝냈나요? (과거완료 질문)",
+              "phoneticKorean": "해드 유 피니쉬드 유어 홈워크 비포 왓칭 티비?",
+              "grammarPoint": "과거완료 순서 질문",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "stageId": "S05",
+          "stageTitle": "기본 수동태",
+          "description": "수동태(be + p.p.)의 개념을 익혀, 행위의 주체보다 대상을 강조하는 표현을 연습합니다.",
+          "grammarFocus": "수동태 기본 형태",
+          "keyPatterns": [
+            "be + 과거분사",
+            "by + 행위자"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 45,
+          "coreExpressions": [
+            {
+              "english": "This song is loved by many people.",
+              "korean": "이 노래는 많은 사람들에게 사랑받습니다. (현재 수동)",
+              "phoneticKorean": "디스 송 이즈 러브드 바이 메니 피플",
+              "grammarPoint": "현재 수동태",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The window was broken by the ball.",
+              "korean": "창문이 공에 의해 깨졌습니다. (과거 수동)",
+              "phoneticKorean": "더 윈도우 워즈 브로큰 바이 더 볼",
+              "grammarPoint": "과거 수동태 by + 행위자",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The work will be done by tomorrow.",
+              "korean": "그 일은 내일까지 완료될 것입니다. (미래 수동)",
+              "phoneticKorean": "더 워크 윌 비 던 바이 투모로우",
+              "grammarPoint": "미래 수동태",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "English is spoken all over the world.",
+              "korean": "영어는 전 세계에서 사용됩니다. (일반적 사실)",
+              "phoneticKorean": "잉글리쉬 이즈 스포큰 올 오버 더 월드",
+              "grammarPoint": "일반적 사실 수동태",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The letter was written by my grandmother.",
+              "korean": "그 편지는 할머니가 쓰셨습니다. (과거 수동)",
+              "phoneticKorean": "더 레터 워즈 리튼 바이 마이 그랜드마더",
+              "grammarPoint": "편지 작성 수동태",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The bridge is being built now.",
+              "korean": "다리가 지금 건설되고 있습니다. (진행 수동)",
+              "phoneticKorean": "더 브리지 이즈 비잉 빌트 나우",
+              "grammarPoint": "진행형 수동태",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "My car was stolen last night.",
+              "korean": "제 차가 어젯밤에 도난당했습니다. (피해 수동)",
+              "phoneticKorean": "마이 카 워즈 스톨른 라스트 나잇",
+              "grammarPoint": "피해 표현 수동태",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The museum is visited by thousands of people.",
+              "korean": "박물관은 수천 명의 사람들이 방문합니다. (현재 수동)",
+              "phoneticKorean": "더 뮤지엄 이즈 비지티드 바이 따우젠즈 오브 피플",
+              "grammarPoint": "방문 수동태",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The message will be delivered tomorrow.",
+              "korean": "메시지는 내일 전달될 것입니다. (미래 수동)",
+              "phoneticKorean": "더 메시지 윌 비 딜리버드 투모로우",
+              "grammarPoint": "전달 수동태",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The book was published in 2020.",
+              "korean": "그 책은 2020년에 출간되었습니다. (출간 수동)",
+              "phoneticKorean": "더 북 워즈 퍼블리쉬드 인 투 따우젠드 트웬티",
+              "grammarPoint": "출간 수동태",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "stageId": "S06",
+          "stageTitle": "수동태 심화",
+          "description": "조동사가 결합된 수동태와 여러 시제의 수동태를 연습합니다.",
+          "grammarFocus": "조동사 + 수동태, 완료 수동태",
+          "keyPatterns": [
+            "조동사 + be + 과거분사",
+            "have/has been + 과거분사"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 50,
+          "coreExpressions": [
+            {
+              "english": "The project must be finished on time.",
+              "korean": "프로젝트는 제시간에 완료되어야 합니다. (의무 수동)",
+              "phoneticKorean": "더 프로젝트 머스트 비 피니쉬드 온 타임",
+              "grammarPoint": "의무 수동태 must be",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The cake has been eaten.",
+              "korean": "케이크가 먹어졌습니다. (완료 수동)",
+              "phoneticKorean": "더 케이크 해즈 빈 이튼",
+              "grammarPoint": "현재완료 수동태",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "This problem can be solved easily.",
+              "korean": "이 문제는 쉽게 해결될 수 있습니다. (가능 수동)",
+              "phoneticKorean": "디스 프라블럼 캔 비 솔브드 이질리",
+              "grammarPoint": "가능 수동태 can be",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The house should be painted.",
+              "korean": "집이 칠해져야 합니다. (권고 수동)",
+              "phoneticKorean": "더 하우스 슈드 비 페인티드",
+              "grammarPoint": "권고 수동태 should be",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The documents have been signed.",
+              "korean": "서류가 서명되었습니다. (완료 수동)",
+              "phoneticKorean": "더 다큐먼츠 해브 빈 사인드",
+              "grammarPoint": "서명 완료 수동태",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "This shirt needs to be washed.",
+              "korean": "이 셔츠는 세탁되어야 합니다. (필요 수동)",
+              "phoneticKorean": "디스 셔트 니즈 투 비 와쉬드",
+              "grammarPoint": "필요 수동태 need to be",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The room had been cleaned before we arrived.",
+              "korean": "우리가 도착하기 전에 방이 청소되어 있었습니다. (과거완료 수동)",
+              "phoneticKorean": "더 룸 해드 빈 클린드 비포 위 어라이브드",
+              "grammarPoint": "과거완료 수동태",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The gift may be delivered today.",
+              "korean": "선물이 오늘 배달될 수도 있습니다. (추측 수동)",
+              "phoneticKorean": "더 기프트 메이 비 딜리버드 투데이",
+              "grammarPoint": "추측 수동태 may be",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The meeting could be postponed.",
+              "korean": "회의가 연기될 수 있습니다. (가능성 수동)",
+              "phoneticKorean": "더 미팅 쿠드 비 포스트폰드",
+              "grammarPoint": "가능성 수동태 could be",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The report has been written by our team.",
+              "korean": "보고서는 우리 팀에 의해 작성되었습니다. (완료 수동)",
+              "phoneticKorean": "더 리포트 해즈 빈 리튼 바이 아워 팀",
+              "grammarPoint": "팀 작성 완료 수동태",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        }
+      ],
+      "estimatedHours": 15
+    },
+    {
+      "phaseId": "P2",
+      "phaseTitle": "다양한 조동사와 조건문 (Modal Verbs & Conditionals)",
+      "phaseDescription": "고급 조동사와 다양한 조건문을 학습하여 표현력을 높입니다.",
+      "learningObjectives": [
+        "다양한 조동사와 조건문 (Modal Verbs & Conditionals) 학습 목표"
+      ],
+      "version": "1.0.0",
+      "stages": [
+        {
+          "stageId": "S07",
+          "stageTitle": "조동사 확장 (would, could, might)",
+          "description": "would, could, might를 배워 가정적 상황이나 완곡한 표현을 연습합니다.",
+          "grammarFocus": "고급 조동사 would, could, might",
+          "keyPatterns": [
+            "would + 동사원형",
+            "could + 동사원형",
+            "might + 동사원형"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 45,
+          "coreExpressions": [
+            {
+              "english": "I would travel if I had time.",
+              "korean": "시간이 있다면 여행을 할 텐데요. (가정적 상황)",
+              "phoneticKorean": "아이 우드 트래블 이프 아이 해드 타임",
+              "grammarPoint": "가정적 상황 would",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Could you pass the salt?",
+              "korean": "소금 좀 건네주시겠어요? (정중한 부탁)",
+              "phoneticKorean": "쿠드 유 패스 더 솔트?",
+              "grammarPoint": "정중한 부탁 could",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "It might rain later.",
+              "korean": "나중에 비가 올지도 모릅니다. (약한 추측)",
+              "phoneticKorean": "잇 마이트 레인 레이터",
+              "grammarPoint": "약한 추측 might",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Would you like some coffee?",
+              "korean": "커피 좀 드시겠어요? (정중한 제안)",
+              "phoneticKorean": "우드 유 라익 썸 커피?",
+              "grammarPoint": "정중한 제안 would you like",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I could help you with that.",
+              "korean": "그것 도와드릴 수 있어요. (능력/제안)",
+              "phoneticKorean": "아이 쿠드 헬프 유 위드 댓",
+              "grammarPoint": "능력 제안 could",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "She might be at home now.",
+              "korean": "그녀는 지금 집에 있을지도 모릅니다. (추측)",
+              "phoneticKorean": "쉬 마이트 비 앳 홈 나우",
+              "grammarPoint": "현재 추측 might",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I would prefer tea to coffee.",
+              "korean": "커피보다 차를 더 좋아할 것 같아요. (선호)",
+              "phoneticKorean": "아이 우드 프리퍼 티 투 커피",
+              "grammarPoint": "선호 표현 would prefer",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Could I borrow your pen?",
+              "korean": "펜 좀 빌려도 될까요? (허락 요청)",
+              "phoneticKorean": "쿠드 아이 바로우 유어 펜?",
+              "grammarPoint": "허락 요청 could I",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "He might not come to the party.",
+              "korean": "그는 파티에 오지 않을지도 모릅니다. (부정 추측)",
+              "phoneticKorean": "히 마이트 낫 컴 투 더 파티",
+              "grammarPoint": "부정 추측 might not",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Would you mind opening the window?",
+              "korean": "창문을 열어주시겠어요? (정중한 요청)",
+              "phoneticKorean": "우드 유 마인드 오프닝 더 윈도우?",
+              "grammarPoint": "정중한 요청 would you mind",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "stageId": "S08",
+          "stageTitle": "과거형 조동사 (should have p.p. 등)",
+          "description": "should have p.p., could have p.p., might have p.p. 형태로 과거의 일에 대한 후회나 추측을 표현합니다.",
+          "grammarFocus": "과거형 조동사 (조동사 + have + p.p.)",
+          "keyPatterns": [
+            "should have + p.p.",
+            "could have + p.p.",
+            "might have + p.p."
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 50,
+          "coreExpressions": [
+            {
+              "english": "I should have studied harder.",
+              "korean": "더 열심히 공부했어야 했는데요. (후회)",
+              "phoneticKorean": "아이 슈드 해브 스터디드 하더",
+              "grammarPoint": "후회 표현 should have",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "She could have been hurt.",
+              "korean": "그녀가 다칠 수도 있었어요. (과거 추측)",
+              "phoneticKorean": "쉬 쿠드 해브 빈 허트",
+              "grammarPoint": "과거 추측 could have",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "He might have missed the train.",
+              "korean": "그는 기차를 놓쳤을지도 모릅니다. (과거 가능성)",
+              "phoneticKorean": "히 마이트 해브 미스드 더 트레인",
+              "grammarPoint": "과거 가능성 might have",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "You shouldn't have said that.",
+              "korean": "그런 말을 하지 말았어야 했는데요. (후회/비난)",
+              "phoneticKorean": "유 슈던트 해브 세드 댓",
+              "grammarPoint": "후회 비난 shouldn't have",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "We could have won the game.",
+              "korean": "우리는 그 경기에서 이길 수 있었는데요. (과거 가능성)",
+              "phoneticKorean": "위 쿠드 해브 원 더 게임",
+              "grammarPoint": "놓친 기회 could have",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "They might have already left.",
+              "korean": "그들은 이미 떠났을지도 모릅니다. (과거 추측)",
+              "phoneticKorean": "데이 마이트 해브 올레디 레프트",
+              "grammarPoint": "과거 상황 추측 might have",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I should have called you earlier.",
+              "korean": "더 일찍 전화했어야 했는데요. (후회)",
+              "phoneticKorean": "아이 슈드 해브 콜드 유 얼리어",
+              "grammarPoint": "연락 후회 should have",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "You could have told me about it.",
+              "korean": "그것에 대해 저에게 말할 수 있었는데요. (아쉬움)",
+              "phoneticKorean": "유 쿠드 해브 톨드 미 어바웃 잇",
+              "grammarPoint": "소통 아쉬움 could have",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The package might have been delivered.",
+              "korean": "소포가 배달되었을지도 모릅니다. (과거 추측 수동)",
+              "phoneticKorean": "더 패키지 마이트 해브 빈 딜리버드",
+              "grammarPoint": "과거 추측 수동태",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I shouldn't have eaten so much.",
+              "korean": "그렇게 많이 먹지 말았어야 했는데요. (후회)",
+              "phoneticKorean": "아이 슈던트 해브 이튼 소 머치",
+              "grammarPoint": "식사 후회 shouldn't have",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "stageId": "S09",
+          "stageTitle": "조건문 기본",
+          "description": "현재 또는 미래의 조건문과 가정법 과거를 연습합니다.",
+          "grammarFocus": "조건문 (if절)",
+          "keyPatterns": [
+            "If + 현재, 미래/현재",
+            "If + 과거, would/could"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 50,
+          "coreExpressions": [
+            {
+              "english": "If it rains, I will stay home.",
+              "korean": "비가 오면 집에 있을 거예요. (실제 가능한 조건)",
+              "phoneticKorean": "이프 잇 레인즈, 아이 윌 스테이 홈",
+              "grammarPoint": "1조건문 (가능한 미래)",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "If I had a million dollars, I would travel the world.",
+              "korean": "백만 달러가 있다면 세계여행을 할 텐데요. (비현실적 가정)",
+              "phoneticKorean": "이프 아이 해드 어 밀리언 달러즈, 아이 우드 트래블 더 월드",
+              "grammarPoint": "2조건문 (비현실적 현재)",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "If you study hard, you will pass the exam.",
+              "korean": "열심히 공부하면 시험에 합격할 거예요. (조건-결과)",
+              "phoneticKorean": "이프 유 스터디 하드, 유 윌 패스 디 이그잼",
+              "grammarPoint": "노력-성과 조건문",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "If I were you, I would apologize.",
+              "korean": "제가 당신이라면 사과할 거예요. (가정적 조언)",
+              "phoneticKorean": "이프 아이 워 유, 아이 우드 어팔로자이즈",
+              "grammarPoint": "가정적 조언 If I were you",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "If she comes early, we can start the meeting.",
+              "korean": "그녀가 일찍 오면 회의를 시작할 수 있어요. (가능한 상황)",
+              "phoneticKorean": "이프 쉬 컴즈 얼리, 위 캔 스타트 더 미팅",
+              "grammarPoint": "회의 조건문",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "If I won the lottery, I would quit my job.",
+              "korean": "복권에 당첨된다면 직장을 그만둘 텐데요. (꿈같은 이야기)",
+              "phoneticKorean": "이프 아이 원 더 라터리, 아이 우드 퀴트 마이 잡",
+              "grammarPoint": "꿈의 상황 조건문",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "If you don't hurry, you will be late.",
+              "korean": "서두르지 않으면 늦을 거예요. (경고 조건문)",
+              "phoneticKorean": "이프 유 돈트 허리, 유 윌 비 레이트",
+              "grammarPoint": "경고 조건문",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "If I could fly, I would visit every country.",
+              "korean": "날 수 있다면 모든 나라를 방문할 텐데요. (불가능한 가정)",
+              "phoneticKorean": "이프 아이 쿠드 플라이, 아이 우드 비지트 에브리 컨트리",
+              "grammarPoint": "불가능한 능력 가정",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "If the weather is nice, let's go for a walk.",
+              "korean": "날씨가 좋으면 산책하러 가요. (제안 조건문)",
+              "phoneticKorean": "이프 더 웨더 이즈 나이스, 렛츠 고 포 어 워크",
+              "grammarPoint": "제안 조건문",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "If I had more time, I would learn a new language.",
+              "korean": "시간이 더 있다면 새로운 언어를 배울 텐데요. (시간 부족 가정)",
+              "phoneticKorean": "이프 아이 해드 모어 타임, 아이 우드 런 어 뉴 랭귀지",
+              "grammarPoint": "시간 부족 가정문",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "stageId": "S10",
+          "stageTitle": "가정법 과거 & 과거완료",
+          "description": "비현실적인 가정을 심화합니다.",
+          "grammarFocus": "가정법 과거완료",
+          "keyPatterns": [
+            "If + had p.p., would have p.p.",
+            "가정법 과거완료형"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 55,
+          "coreExpressions": [
+            {
+              "english": "If I had known earlier, I would have helped.",
+              "korean": "더 일찍 알았다면 도와드렸을 텐데요. (과거 후회)",
+              "phoneticKorean": "이프 아이 해드 논 얼리어, 아이 우드 해브 헬프드",
+              "grammarPoint": "과거 후회 가정법",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "If she had studied harder, she would have passed the exam.",
+              "korean": "더 열심히 공부했다면 시험에 합격했을 텐데요. (과거 결과)",
+              "phoneticKorean": "이프 쉬 해드 스터디드 하더, 쉬 우드 해브 패스드 디 이그잼",
+              "grammarPoint": "과거 학습 결과 가정",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "If we had left earlier, we wouldn't have missed the train.",
+              "korean": "더 일찍 출발했다면 기차를 놓치지 않았을 텐데요. (과거 실수)",
+              "phoneticKorean": "이프 위 해드 레프트 얼리어, 위 우던트 해브 미스드 더 트레인",
+              "grammarPoint": "과거 실수 후회",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "If I had been more careful, the accident wouldn't have happened.",
+              "korean": "더 조심했다면 사고가 일어나지 않았을 텐데요. (사고 후회)",
+              "phoneticKorean": "이프 아이 해드 빈 모어 케어풀, 디 액시던트 우던트 해브 해픈드",
+              "grammarPoint": "사고 예방 가정",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "If you had told me, I could have helped you.",
+              "korean": "말해줬다면 도와줄 수 있었는데요. (소통 아쉬움)",
+              "phoneticKorean": "이프 유 해드 톨드 미, 아이 쿠드 해브 헬프드 유",
+              "grammarPoint": "소통 부족 후회",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "If it hadn't rained, we would have had a picnic.",
+              "korean": "비가 오지 않았다면 피크닉을 했을 텐데요. (날씨 아쉬움)",
+              "phoneticKorean": "이프 잇 해든트 레인드, 위 우드 해브 해드 어 피크닉",
+              "grammarPoint": "날씨 조건 아쉬움",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "If I had saved money, I could have bought that car.",
+              "korean": "돈을 모았다면 그 차를 살 수 있었는데요. (재정 후회)",
+              "phoneticKorean": "이프 아이 해드 세이브드 머니, 아이 쿠드 해브 봇 댓 카",
+              "grammarPoint": "재정 관리 후회",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "If they had arrived on time, the meeting would have started.",
+              "korean": "제시간에 도착했다면 회의가 시작되었을 텐데요. (지각 결과)",
+              "phoneticKorean": "이프 데이 해드 어라이브드 온 타임, 더 미팅 우드 해브 스타티드",
+              "grammarPoint": "지각으로 인한 결과",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "If I had learned English earlier, I would have gotten a better job.",
+              "korean": "영어를 더 일찍 배웠다면 더 좋은 직장을 얻었을 텐데요. (교육 후회)",
+              "phoneticKorean": "이프 아이 해드 런드 잉글리쉬 얼리어, 아이 우드 해브 가튼 어 베터 잡",
+              "grammarPoint": "교육 시기 후회",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "If the doctor had been there, he might have saved the patient.",
+              "korean": "의사가 거기 있었다면 환자를 구할 수 있었을지도 모릅니다. (생명 가정)",
+              "phoneticKorean": "이프 더 닥터 해드 빈 데어, 히 마이트 해브 세이브드 더 페이션트",
+              "grammarPoint": "응급상황 가정",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        }
+      ],
+      "estimatedHours": 10
+    },
+    {
+      "phaseId": "P3",
+      "phaseTitle": "관계절과 간접화법 (Relative Clauses & Reported Speech)",
+      "phaseDescription": "관계대명사와 간접화법을 통해 복잡한 문장 구조를 익힙니다.",
+      "learningObjectives": [
+        "관계절과 간접화법 (Relative Clauses & Reported Speech) 학습 목표"
+      ],
+      "version": "1.0.0",
+      "stages": [
+        {
+          "stageId": "S11",
+          "stageTitle": "관계대명사 기초",
+          "description": "관계대명사 who/which/that을 사용하여 두 문장을 한 문장으로 연결하는 법을 배웁니다.",
+          "grammarFocus": "관계대명사 who, which, that",
+          "keyPatterns": [
+            "명사 + who/which/that + 동사",
+            "주격 관계대명사 구문"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 50,
+          "coreExpressions": [
+            {
+              "english": "I met a girl who is a doctor.",
+              "korean": "의사인 여자를 만났어요. (사람 수식)",
+              "phoneticKorean": "아이 메트 어 걸 후 이즈 어 닥터",
+              "grammarPoint": "사람 수식 관계대명사 who",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "This is the book which I bought yesterday.",
+              "korean": "이것이 어제 제가 산 책이에요. (사물 수식)",
+              "phoneticKorean": "디스 이즈 더 북 위치 아이 봇 예스터데이",
+              "grammarPoint": "사물 수식 관계대명사 which",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The man that lives next door is very kind.",
+              "korean": "옆집에 사는 남자는 매우 친절해요. (사람 that)",
+              "phoneticKorean": "더 맨 댓 리브즈 넥스트 도어 이즈 베리 카인드",
+              "grammarPoint": "사람도 that으로 수식 가능",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "She showed me the photos that she took in Paris.",
+              "korean": "그녀는 파리에서 찍은 사진들을 보여줬어요. (사물 that)",
+              "phoneticKorean": "쉬 쇼드 미 더 포토즈 댓 쉬 툭 인 패리스",
+              "grammarPoint": "사물 수식 that",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The teacher who taught me English was very patient.",
+              "korean": "저에게 영어를 가르쳐준 선생님은 매우 참을성이 있으셨어요.",
+              "phoneticKorean": "더 티처 후 톳 미 잉글리쉬 워즈 베리 페이션트",
+              "grammarPoint": "과거 동작 관계절",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I love movies which have happy endings.",
+              "korean": "저는 해피엔딩이 있는 영화를 좋아해요.",
+              "phoneticKorean": "아이 러브 무비즈 위치 해브 해피 엔딩즈",
+              "grammarPoint": "일반적 선호 관계절",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The restaurant that we went to was expensive.",
+              "korean": "우리가 간 레스토랑은 비쌌어요.",
+              "phoneticKorean": "더 레스토랑 댓 위 웬트 투 워즈 익스펜시브",
+              "grammarPoint": "과거 경험 관계절",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The woman who called you is my sister.",
+              "korean": "당신에게 전화한 여자는 제 여동생이에요.",
+              "phoneticKorean": "더 우먼 후 콜드 유 이즈 마이 시스터",
+              "grammarPoint": "가족 소개 관계절",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "This is the car which belongs to my father.",
+              "korean": "이것이 아버지 소유인 차예요.",
+              "phoneticKorean": "디스 이즈 더 카 위치 빌롱즈 투 마이 파더",
+              "grammarPoint": "소유 관계절",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "People who exercise regularly are usually healthy.",
+              "korean": "정기적으로 운동하는 사람들은 보통 건강해요.",
+              "phoneticKorean": "피플 후 익서사이즈 레귤럴리 아 유주얼리 헬씨",
+              "grammarPoint": "일반적 사실 관계절",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "stageId": "S12",
+          "stageTitle": "관계절 심화",
+          "description": "목적격 관계대명사 생략과 전치사+관계대명사 구조를 배웁니다.",
+          "grammarFocus": "목적격 관계대명사 생략, 전치사 + 관계대명사",
+          "keyPatterns": [
+            "명사 + (관계대명사 생략)",
+            "전치사 + which 구문",
+            "목적격 관계대명사"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 55,
+          "coreExpressions": [
+            {
+              "english": "The movie I watched yesterday was amazing.",
+              "korean": "어제 본 영화가 정말 대단했어요. (목적격 생략)",
+              "phoneticKorean": "더 무비 아이 왓치드 예스터데이 워즈 어메이징",
+              "grammarPoint": "목적격 관계대명사 생략",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The book which you recommended is interesting.",
+              "korean": "당신이 추천한 책이 흥미로워요. (목적격 which)",
+              "phoneticKorean": "더 북 위치 유 레커멘디드 이즈 인터레스팅",
+              "grammarPoint": "목적격 which 사용",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The company I work for is very large.",
+              "korean": "제가 다니는 회사는 매우 커요. (전치사 뒤로)",
+              "phoneticKorean": "더 컴퍼니 아이 워크 포 이즈 베리 라지",
+              "grammarPoint": "전치사가 뒤로 이동",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The company for which I work is very large.",
+              "korean": "제가 근무하는 회사는 매우 커요. (격식체)",
+              "phoneticKorean": "더 컴퍼니 포 위치 아이 워크 이즈 베리 라지",
+              "grammarPoint": "격식적인 전치사+which 구조",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The house we lived in was small.",
+              "korean": "우리가 살던 집은 작았어요. (전치사 생략)",
+              "phoneticKorean": "더 하우스 위 리브드 인 워즈 스몰",
+              "grammarPoint": "생략된 관계대명사 + 전치사",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The person who I talked to was very helpful.",
+              "korean": "제가 대화한 사람은 매우 도움이 되었어요.",
+              "phoneticKorean": "더 퍼슨 후 아이 톡트 투 워즈 베리 헬프풀",
+              "grammarPoint": "목적격 who + 전치사",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The reason I came here is important.",
+              "korean": "제가 여기 온 이유는 중요해요. (이유 생략)",
+              "phoneticKorean": "더 리즌 아이 케임 히어 이즈 임포턴트",
+              "grammarPoint": "이유 관계절 생략",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The way she speaks is very clear.",
+              "korean": "그녀가 말하는 방식은 매우 명확해요. (방법 관계절)",
+              "phoneticKorean": "더 웨이 쉬 스픽스 이즈 베리 클리어",
+              "grammarPoint": "방법 관계절",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The day we met was unforgettable.",
+              "korean": "우리가 만난 날은 잊을 수 없었어요. (시간 생략)",
+              "phoneticKorean": "더 데이 위 메트 워즈 언포게터블",
+              "grammarPoint": "시간 관계절 생략",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The place where we first met is special to me.",
+              "korean": "우리가 처음 만난 장소는 저에게 특별해요.",
+              "phoneticKorean": "더 플레이스 웨어 위 퍼스트 메트 이즈 스페셜 투 미",
+              "grammarPoint": "장소 관계부사 where",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "stageId": "S13",
+          "stageTitle": "관계부사 학습",
+          "description": "when, where, why로 시간/장소/이유를 설명하는 관계절을 연습합니다.",
+          "grammarFocus": "관계부사 when, where, why",
+          "keyPatterns": [
+            "시간명사 + when",
+            "장소명사 + where",
+            "이유명사 + why 구문"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 50,
+          "coreExpressions": [
+            {
+              "english": "I remember the day when we first met.",
+              "korean": "우리가 처음 만난 날을 기억해요.",
+              "phoneticKorean": "아이 리멤버 더 데이 웬 위 퍼스트 메트",
+              "grammarPoint": "시간 관계부사 when",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "That is the place where I was born.",
+              "korean": "그곳이 제가 태어난 곳이에요.",
+              "phoneticKorean": "댓 이즈 더 플레이스 웨어 아이 워즈 본",
+              "grammarPoint": "장소 관계부사 where",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Give me a reason why you did that.",
+              "korean": "왜 그렇게 했는지 이유를 말해주세요.",
+              "phoneticKorean": "기브 미 어 리즌 와이 유 디드 댓",
+              "grammarPoint": "이유 관계부사 why",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "This is the house where I grew up.",
+              "korean": "이곳이 제가 자란 집이에요.",
+              "phoneticKorean": "디스 이즈 더 하우스 웨어 아이 그루 업",
+              "grammarPoint": "성장 장소 where",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Do you remember the time when we were students?",
+              "korean": "우리가 학생이었던 시절을 기억하나요?",
+              "phoneticKorean": "두 유 리멤버 더 타임 웬 위 워 스투던츠?",
+              "grammarPoint": "과거 시간 when",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The library is a place where I can study quietly.",
+              "korean": "도서관은 조용히 공부할 수 있는 곳이에요.",
+              "phoneticKorean": "더 라이브러리 이즈 어 플레이스 웨어 아이 캔 스터디 콰이어틀리",
+              "grammarPoint": "활동 장소 where",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I don't understand the reason why he left.",
+              "korean": "그가 떠난 이유를 이해하지 못하겠어요.",
+              "phoneticKorean": "아이 돈트 언더스탠드 더 리즌 와이 히 레프트",
+              "grammarPoint": "이해하지 못하는 이유 why",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Summer is the season when I feel happiest.",
+              "korean": "여름은 제가 가장 행복한 계절이에요.",
+              "phoneticKorean": "서머 이즈 더 시즌 웬 아이 필 해피에스트",
+              "grammarPoint": "계절 시간 when",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The park is where we usually meet.",
+              "korean": "공원이 우리가 보통 만나는 곳이에요.",
+              "phoneticKorean": "더 파크 이즈 웨어 위 유주얼리 미트",
+              "grammarPoint": "만남 장소 where",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I'll never forget the moment when I graduated.",
+              "korean": "졸업했던 순간을 절대 잊지 못할 거예요.",
+              "phoneticKorean": "아일 네버 포겟 더 모먼트 웬 아이 그래듀에이티드",
+              "grammarPoint": "특별한 순간 when",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "stageId": "S14",
+          "stageTitle": "간접화법 기초",
+          "description": "간접화법을 소개하고 현재형 문장을 전달할 때 시제 변화를 배웁니다.",
+          "grammarFocus": "간접화법 시제 일치",
+          "keyPatterns": [
+            "said (that) 구문",
+            "told me (that) 구문",
+            "시제 일치 규칙"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 55,
+          "coreExpressions": [
+            {
+              "english": "He said that he was tired.",
+              "korean": "그는 피곤하다고 말했어요. (현재→과거)",
+              "phoneticKorean": "히 세드 댓 히 워즈 타이어드",
+              "grammarPoint": "현재형→과거형 변화",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "She told me that she would come later.",
+              "korean": "그녀는 나중에 올 거라고 저에게 말했어요. (미래→조건)",
+              "phoneticKorean": "쉬 톨드 미 댓 쉬 우드 컴 레이터",
+              "grammarPoint": "will → would 변화",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "They said they were studying English.",
+              "korean": "그들은 영어를 공부하고 있다고 말했어요. (진행형)",
+              "phoneticKorean": "데이 세드 데이 워 스터디잉 잉글리쉬",
+              "grammarPoint": "현재진행→과거진행 변화",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "He told her that he had finished his work.",
+              "korean": "그는 일을 끝냈다고 그녀에게 말했어요. (완료→과거완료)",
+              "phoneticKorean": "히 톨드 허 댓 히 해드 피니쉬드 히즈 워크",
+              "grammarPoint": "현재완료→과거완료 변화",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "My mother said she could help me.",
+              "korean": "어머니는 도와주실 수 있다고 말씀하셨어요. (can→could)",
+              "phoneticKorean": "마이 마더 세드 쉬 쿠드 헬프 미",
+              "grammarPoint": "can → could 변화",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The teacher told us that we must study harder.",
+              "korean": "선생님은 우리가 더 열심히 공부해야 한다고 말씀하셨어요.",
+              "phoneticKorean": "더 티처 톨드 어스 댓 위 머스트 스터디 하더",
+              "grammarPoint": "must는 변화 없음",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "She said that she was going to visit Paris.",
+              "korean": "그녀는 파리를 방문할 예정이라고 말했어요.",
+              "phoneticKorean": "쉬 세드 댓 쉬 워즈 고잉 투 비지트 패리스",
+              "grammarPoint": "be going to → was going to",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "He told me he had been waiting for an hour.",
+              "korean": "그는 한 시간 동안 기다리고 있었다고 저에게 말했어요.",
+              "phoneticKorean": "히 톨드 미 히 해드 빈 웨이팅 포 언 아워",
+              "grammarPoint": "현재완료진행→과거완료진행",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "They said they would be traveling next week.",
+              "korean": "그들은 다음 주에 여행할 예정이라고 말했어요.",
+              "phoneticKorean": "데이 세드 데이 우드 비 트래블링 넥스트 위크",
+              "grammarPoint": "미래진행→조건 진행",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "She told her friend that she might be late.",
+              "korean": "그녀는 친구에게 늦을지도 모른다고 말했어요.",
+              "phoneticKorean": "쉬 톨드 허 프렌드 댓 쉬 마이트 비 레이트",
+              "grammarPoint": "might는 변화 없음",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "stageId": "S15",
+          "stageTitle": "간접의문문",
+          "description": "간접의문문을 만들어 공손하게 묻는 표현을 연습합니다.",
+          "grammarFocus": "간접의문문 어순 변화",
+          "keyPatterns": [
+            "Could you tell me + 의문사",
+            "I wonder + if/whether",
+            "Do you know + 의문사 구문"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 50,
+          "coreExpressions": [
+            {
+              "english": "Could you tell me where the station is?",
+              "korean": "역이 어디에 있는지 알려주시겠어요? (공손한 질문)",
+              "phoneticKorean": "쿠드 유 텔 미 웨어 더 스테이션 이즈?",
+              "grammarPoint": "공손한 간접의문문",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I wonder if she will come to the party.",
+              "korean": "그녀가 파티에 올지 궁금해요. (추측 질문)",
+              "phoneticKorean": "아이 원더 이프 쉬 윌 컴 투 더 파티",
+              "grammarPoint": "추측 표현 I wonder if",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Do you know what time it is?",
+              "korean": "지금 몇 시인지 아시나요? (정보 질문)",
+              "phoneticKorean": "두 유 노우 왓 타임 잇 이즈?",
+              "grammarPoint": "정보 요청 간접의문문",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Can you tell me how much this costs?",
+              "korean": "이것이 얼마인지 알려주실 수 있나요?",
+              "phoneticKorean": "캔 유 텔 미 하우 머치 디스 코스츠?",
+              "grammarPoint": "가격 문의 간접의문문",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I'm not sure whether he likes coffee or tea.",
+              "korean": "그가 커피를 좋아하는지 차를 좋아하는지 확실하지 않아요.",
+              "phoneticKorean": "아임 낫 슈어 웨더 히 라익스 커피 오어 티",
+              "grammarPoint": "선택 질문 whether",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Could you explain why this happened?",
+              "korean": "왜 이런 일이 일어났는지 설명해주시겠어요?",
+              "phoneticKorean": "쿠드 유 익스플레인 와이 디스 해픈드?",
+              "grammarPoint": "이유 설명 요청",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I wonder who will win the game.",
+              "korean": "누가 게임에서 이길지 궁금해요.",
+              "phoneticKorean": "아이 원더 후 윌 윈 더 게임",
+              "grammarPoint": "결과 추측 who",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Do you remember when we first met?",
+              "korean": "우리가 언제 처음 만났는지 기억하나요?",
+              "phoneticKorean": "두 유 리멤버 웬 위 퍼스트 메트?",
+              "grammarPoint": "과거 기억 when",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I'm wondering if you could help me.",
+              "korean": "도와주실 수 있는지 궁금해서요. (정중한 부탁)",
+              "phoneticKorean": "아임 원더링 이프 유 쿠드 헬프 미",
+              "grammarPoint": "정중한 도움 요청",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Could you show me how to use this machine?",
+              "korean": "이 기계를 어떻게 사용하는지 보여주시겠어요?",
+              "phoneticKorean": "쿠드 유 쇼우 미 하우 투 유즈 디스 머신?",
+              "grammarPoint": "사용법 문의",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        }
+      ],
+      "estimatedHours": 12.5
+    },
+    {
+      "phaseId": "P4",
+      "phaseTitle": "논리 연결 및 의견 표현 (Logical Connectors & Opinions)",
+      "phaseDescription": "논리적 연결어와 의견 표현을 통해 체계적으로 생각을 전달하는 방법을 배웁니다.",
+      "learningObjectives": [
+        "논리 연결 및 의견 표현 (Logical Connectors & Opinions) 학습 목표"
+      ],
+      "version": "1.0.0",
+      "stages": [
+        {
+          "stageId": "S16",
+          "stageTitle": "의견 표현하기",
+          "description": "자신의 생각을 말하는 다양한 표현들을 연습합니다.",
+          "grammarFocus": "의견 표현 구문",
+          "keyPatterns": [
+            "I think (that)",
+            "In my opinion",
+            "I believe",
+            "I feel"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 50,
+          "coreExpressions": [
+            {
+              "english": "I think this is a good idea.",
+              "korean": "이것은 좋은 생각이라고 생각해요.",
+              "phoneticKorean": "아이 씽크 디스 이즈 어 굿 아이디어",
+              "grammarPoint": "기본 의견 표현 I think",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "In my opinion, we need more time.",
+              "korean": "제 생각에는 시간이 더 필요해요.",
+              "phoneticKorean": "인 마이 어피니언, 위 니드 모어 타임",
+              "grammarPoint": "격식 의견 In my opinion",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I believe that hard work pays off.",
+              "korean": "저는 열심히 일하면 보상이 따른다고 믿어요.",
+              "phoneticKorean": "아이 빌리브 댓 하드 워크 페이즈 오프",
+              "grammarPoint": "신념 표현 I believe",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I feel that we should wait a little longer.",
+              "korean": "조금 더 기다려야 한다고 느껴요.",
+              "phoneticKorean": "아이 필 댓 위 슈드 웨이트 어 리틀 롱거",
+              "grammarPoint": "감정 의견 I feel",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "What do you think about this plan?",
+              "korean": "이 계획에 대해 어떻게 생각하세요?",
+              "phoneticKorean": "왓 두 유 씽크 어바웃 디스 플랜?",
+              "grammarPoint": "의견 묻기 What do you think",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I personally think that it's too expensive.",
+              "korean": "개인적으로는 너무 비싸다고 생각해요.",
+              "phoneticKorean": "아이 퍼스널리 씽크 댓 잇츠 투 익스펜시브",
+              "grammarPoint": "개인 의견 강조 personally",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "From my point of view, this is the best option.",
+              "korean": "제 관점에서는 이것이 최선의 선택이에요.",
+              "phoneticKorean": "프롬 마이 포인트 오브 뷰, 디스 이즈 더 베스트 옵션",
+              "grammarPoint": "관점 표현 from my point of view",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I suppose we could try a different approach.",
+              "korean": "다른 방법을 시도해볼 수 있을 것 같아요.",
+              "phoneticKorean": "아이 서포즈 위 쿠드 트라이 어 디퍼런트 어프로치",
+              "grammarPoint": "추측 의견 I suppose",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "It seems to me that he's not interested.",
+              "korean": "제가 보기에는 그가 관심이 없는 것 같아요.",
+              "phoneticKorean": "잇 심즈 투 미 댓 히즈 낫 인터레스티드",
+              "grammarPoint": "관찰 의견 It seems to me",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "As far as I'm concerned, quality is more important than price.",
+              "korean": "제가 생각하기에는 가격보다 품질이 더 중요해요.",
+              "phoneticKorean": "애즈 파 애즈 아임 컨선드, 퀄리티 이즈 모어 임포턴트 댄 프라이스",
+              "grammarPoint": "강한 의견 As far as I'm concerned",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "stageId": "S17",
+          "stageTitle": "추측 및 확신 표현",
+          "description": "불확실한 추측이나 확신을 나타내는 말하기를 익힙니다.",
+          "grammarFocus": "추측과 확신의 정도 표현",
+          "keyPatterns": [
+            "Maybe",
+            "Probably",
+            "I'm sure",
+            "I guess",
+            "Definitely"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 45,
+          "coreExpressions": [
+            {
+              "english": "Maybe it will rain tomorrow.",
+              "korean": "내일 비가 올지도 모르겠어요. (약한 추측)",
+              "phoneticKorean": "메이비 잇 윌 레인 투모로우",
+              "grammarPoint": "약한 추측 Maybe",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "It will probably be sunny this weekend.",
+              "korean": "이번 주말은 아마 맑을 거예요. (높은 확률)",
+              "phoneticKorean": "잇 윌 프라바블리 비 서니 디스 위켄드",
+              "grammarPoint": "높은 확률 probably",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I'm sure you'll do well on the exam.",
+              "korean": "시험을 잘 볼 거라고 확신해요. (확신)",
+              "phoneticKorean": "아임 슈어 율 두 웰 온 디 이그잼",
+              "grammarPoint": "확신 표현 I'm sure",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I guess she forgot about the meeting.",
+              "korean": "그녀가 회의를 잊었나 봐요. (추측)",
+              "phoneticKorean": "아이 게스 쉬 포갓 어바웃 더 미팅",
+              "grammarPoint": "일반적 추측 I guess",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "He will definitely come to the party.",
+              "korean": "그는 확실히 파티에 올 거예요. (확실함)",
+              "phoneticKorean": "히 윌 데피니틀리 컴 투 더 파티",
+              "grammarPoint": "확실함 definitely",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Perhaps we should leave earlier.",
+              "korean": "아마도 우리가 더 일찍 떠나야 할 것 같아요.",
+              "phoneticKorean": "퍼햅스 위 슈드 리브 얼리어",
+              "grammarPoint": "정중한 추측 perhaps",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I doubt that he will finish on time.",
+              "korean": "그가 제시간에 끝낼지 의심스러워요. (부정적 추측)",
+              "phoneticKorean": "아이 다우트 댓 히 윌 피니쉬 온 타임",
+              "grammarPoint": "부정적 추측 I doubt",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "There's a good chance that it will work.",
+              "korean": "그것이 잘될 가능성이 높아요.",
+              "phoneticKorean": "데어즈 어 굿 챈스 댓 잇 윌 워크",
+              "grammarPoint": "가능성 표현 There's a good chance",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I have no doubt that she will succeed.",
+              "korean": "그녀가 성공할 거라는 확신이 있어요.",
+              "phoneticKorean": "아이 해브 노 다우트 댓 쉬 윌 석시드",
+              "grammarPoint": "강한 확신 I have no doubt",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "It's possible that they might change their mind.",
+              "korean": "그들이 마음을 바꿀 가능성이 있어요.",
+              "phoneticKorean": "잇츠 파서블 댓 데이 마이트 체인지 데어 마인드",
+              "grammarPoint": "가능성 It's possible",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "stageId": "S18",
+          "stageTitle": "목적과 이유 연결",
+          "description": "because, since로 이유를, so (that), in order to로 목적을 연결하는 연습을 합니다.",
+          "grammarFocus": "이유와 목적의 논리적 연결",
+          "keyPatterns": [
+            "because",
+            "since",
+            "so that",
+            "in order to",
+            "due to"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 50,
+          "coreExpressions": [
+            {
+              "english": "I'm saving money because I want to travel.",
+              "korean": "여행을 하고 싶어서 돈을 모으고 있어요. (이유)",
+              "phoneticKorean": "아임 세이빙 머니 비코즈 아이 원트 투 트래블",
+              "grammarPoint": "이유 표현 because",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Since it's raining, we should stay inside.",
+              "korean": "비가 오니까 안에 있어야 해요. (원인)",
+              "phoneticKorean": "신스 잇츠 레이닝, 위 슈드 스테이 인사이드",
+              "grammarPoint": "원인 표현 since",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "She came early so that she could get a good seat.",
+              "korean": "좋은 자리를 잡기 위해 일찍 왔어요. (목적)",
+              "phoneticKorean": "쉬 케임 얼리 소 댓 쉬 쿠드 겟 어 굿 시트",
+              "grammarPoint": "목적 표현 so that",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I study English in order to get a better job.",
+              "korean": "더 좋은 직장을 얻기 위해 영어를 공부해요.",
+              "phoneticKorean": "아이 스터디 잉글리쉬 인 오더 투 겟 어 베터 잡",
+              "grammarPoint": "목적 표현 in order to",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The meeting was canceled due to bad weather.",
+              "korean": "나쁜 날씨 때문에 회의가 취소되었어요.",
+              "phoneticKorean": "더 미팅 워즈 캔슬드 듀 투 배드 웨더",
+              "grammarPoint": "원인 표현 due to",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I was late because of the traffic jam.",
+              "korean": "교통 체증 때문에 늦었어요.",
+              "phoneticKorean": "아이 워즈 레이트 비코즈 오브 더 트래픽 잼",
+              "grammarPoint": "원인 표현 because of",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "He's studying hard so he can pass the exam.",
+              "korean": "시험에 합격하기 위해 열심히 공부하고 있어요.",
+              "phoneticKorean": "히즈 스터디잉 하드 소 히 캔 패스 디 이그잼",
+              "grammarPoint": "목적 표현 so + 조동사",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "We left early to avoid the rush hour traffic.",
+              "korean": "러시아워 교통을 피하기 위해 일찍 떠났어요.",
+              "phoneticKorean": "위 레프트 얼리 투 어보이드 더 러쉬 아워 트래픽",
+              "grammarPoint": "목적 표현 to + 동사원형",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The project failed owing to lack of funding.",
+              "korean": "자금 부족으로 인해 프로젝트가 실패했어요.",
+              "phoneticKorean": "더 프로젝트 페일드 오잉 투 래크 오브 펀딩",
+              "grammarPoint": "원인 표현 owing to",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "She wore a coat as it was cold outside.",
+              "korean": "밖이 추워서 코트를 입었어요.",
+              "phoneticKorean": "쉬 워 어 코트 애즈 잇 워즈 콜드 아웃사이드",
+              "grammarPoint": "이유 표현 as",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "stageId": "S19",
+          "stageTitle": "양보와 대조 표현",
+          "description": "although, even though 등을 사용해 양보를, however, on the other hand로 대조를 표현하는 법을 배웁니다.",
+          "grammarFocus": "양보와 대조의 논리 구조",
+          "keyPatterns": [
+            "although",
+            "even though",
+            "however",
+            "on the other hand",
+            "while"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 55,
+          "coreExpressions": [
+            {
+              "english": "Although it was raining, we went hiking.",
+              "korean": "비가 왔지만 우리는 하이킹을 갔어요. (양보)",
+              "phoneticKorean": "올도 잇 워즈 레이닝, 위 웬트 하이킹",
+              "grammarPoint": "양보 표현 although",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Even though he's tired, he keeps working.",
+              "korean": "피곤하지만 그는 계속 일해요. (강한 양보)",
+              "phoneticKorean": "이븐 도 히즈 타이어드, 히 킵스 워킹",
+              "grammarPoint": "강한 양보 even though",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "He is kind. However, he can be strict at work.",
+              "korean": "그는 친절해요. 하지만 직장에서는 엄격할 수 있어요.",
+              "phoneticKorean": "히 이즈 카인드. 하우에버, 히 캔 비 스트릭트 앳 워크",
+              "grammarPoint": "대조 표현 however",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I like coffee. On the other hand, my wife prefers tea.",
+              "korean": "저는 커피를 좋아해요. 반면에 아내는 차를 더 좋아해요.",
+              "phoneticKorean": "아이 라익 커피. 온 디 아더 핸드, 마이 와이프 프리퍼즈 티",
+              "grammarPoint": "대조 표현 on the other hand",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "While I enjoy reading, my brother loves sports.",
+              "korean": "저는 독서를 즐기는 반면, 형/동생은 스포츠를 좋아해요.",
+              "phoneticKorean": "와일 아이 엔조이 리딩, 마이 브라더 러브즈 스포츠",
+              "grammarPoint": "대조 접속사 while",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Despite the bad weather, the event was successful.",
+              "korean": "나쁜 날씨에도 불구하고 행사는 성공적이었어요.",
+              "phoneticKorean": "디스파이트 더 배드 웨더, 디 이벤트 워즈 석세스풀",
+              "grammarPoint": "양보 전치사 despite",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "In spite of being young, she is very mature.",
+              "korean": "어리지만 그녀는 매우 성숙해요.",
+              "phoneticKorean": "인 스파이트 오브 비잉 영, 쉬 이즈 베리 머춰",
+              "grammarPoint": "양보 전치사 in spite of",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The movie was expensive. Nevertheless, it was worth watching.",
+              "korean": "영화가 비쌌어요. 그럼에도 불구하고 볼 만했어요.",
+              "phoneticKorean": "더 무비 워즈 익스펜시브. 네버더레스, 잇 워즈 워스 왓칭",
+              "grammarPoint": "강한 대조 nevertheless",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Though it's difficult, I won't give up.",
+              "korean": "어렵지만 포기하지 않을 거예요.",
+              "phoneticKorean": "도 잇츠 디피컬트, 아이 원트 기브 업",
+              "grammarPoint": "간단한 양보 though",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "She studies hard. In contrast, her sister is lazy.",
+              "korean": "그녀는 열심히 공부해요. 반대로 여동생은 게을러요.",
+              "phoneticKorean": "쉬 스터디즈 하드. 인 컨트라스트, 허 시스터 이즈 레이지",
+              "grammarPoint": "대조 표현 in contrast",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "stageId": "S20",
+          "stageTitle": "순서와 결론 표현",
+          "description": "first, then, finally 등의 순서 표시 표현과 therefore, in conclusion 등의 결론 정리 표현을 배웁니다.",
+          "grammarFocus": "논리적 순서와 결론 도출",
+          "keyPatterns": [
+            "First (첫번째)",
+            "Then (그다음)",
+            "Finally",
+            "Therefore",
+            "In conclusion",
+            "As a result"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 50,
+          "coreExpressions": [
+            {
+              "english": "First, we will plan the project. Then, we will execute it.",
+              "korean": "먼저 프로젝트를 계획할 거예요. 그다음에 실행할 거예요.",
+              "phoneticKorean": "퍼스트, 위 윌 플랜 더 프로젝트. 덴, 위 윌 익시큐트 잇",
+              "grammarPoint": "순서 표현 First, Then",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Finally, we will review the results and make improvements.",
+              "korean": "마지막으로 결과를 검토하고 개선할 거예요.",
+              "phoneticKorean": "파이널리, 위 윌 리뷰 더 리절츠 앤드 메이크 임프루브먼츠",
+              "grammarPoint": "마무리 표현 Finally",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "We were late. Therefore, we missed the beginning of the movie.",
+              "korean": "우리가 늦었어요. 따라서 영화 시작 부분을 놓쳤어요.",
+              "phoneticKorean": "위 워 레이트. 데어포, 위 미스드 더 비기닝 오브 더 무비",
+              "grammarPoint": "결과 표현 therefore",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "In conclusion, this project has been very successful.",
+              "korean": "결론적으로, 이 프로젝트는 매우 성공적이었어요.",
+              "phoneticKorean": "인 컨클루전, 디스 프로젝트 해즈 빈 베리 석세스풀",
+              "grammarPoint": "결론 표현 In conclusion",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "It rained heavily. As a result, the match was canceled.",
+              "korean": "비가 많이 왔어요. 그 결과 경기가 취소되었어요.",
+              "phoneticKorean": "잇 레인드 헤빌리. 애즈 어 리절트, 더 매치 워즈 캔슬드",
+              "grammarPoint": "결과 표현 As a result",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "To begin with, let me explain the basic concept.",
+              "korean": "우선, 기본 개념을 설명하겠어요.",
+              "phoneticKorean": "투 비긴 위드, 렛 미 익스플레인 더 베이식 컨셉트",
+              "grammarPoint": "시작 표현 To begin with",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Next, we need to consider the budget.",
+              "korean": "다음으로, 예산을 고려해야 해요.",
+              "phoneticKorean": "넥스트, 위 니드 투 컨시더 더 버젯",
+              "grammarPoint": "순서 표현 Next",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "In summary, we need more time and resources.",
+              "korean": "요약하자면, 더 많은 시간과 자원이 필요해요.",
+              "phoneticKorean": "인 서머리, 위 니드 모어 타임 앤드 리소시즈",
+              "grammarPoint": "요약 표현 In summary",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Consequently, we decided to postpone the meeting.",
+              "korean": "그 결과, 회의를 연기하기로 결정했어요.",
+              "phoneticKorean": "컨시퀀틀리, 위 디사이디드 투 포스트폰 더 미팅",
+              "grammarPoint": "결과 표현 Consequently",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "To sum up, it was an excellent presentation.",
+              "korean": "요약하면, 훌륭한 발표였어요.",
+              "phoneticKorean": "투 썸 업, 잇 워즈 언 익설런트 프레젠테이션",
+              "grammarPoint": "요약 표현 To sum up",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        }
+      ],
+      "estimatedHours": 12.5
+    },
+    {
+      "phaseId": "P5",
+      "phaseTitle": "회화 기능 심화 (Conversational Skills & Nuance)",
+      "phaseDescription": "실제 대화에서 필요한 고급 회화 기능과 상황별 적절한 표현을 학습합니다.",
+      "learningObjectives": [
+        "회화 기능 심화 (Conversational Skills & Nuance) 학습 목표"
+      ],
+      "version": "1.0.0",
+      "stages": [
+        {
+          "stageId": "S21",
+          "stageTitle": "조건부 조언",
+          "description": "If I were you, I would~ 패턴으로 상대에게 조언하는 표현을 연습합니다.",
+          "grammarFocus": "가정법을 활용한 조언 표현",
+          "keyPatterns": [
+            "If I were you",
+            "I would suggest",
+            "Why don't you",
+            "You might want to"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 50,
+          "coreExpressions": [
+            {
+              "english": "If I were you, I would talk to my boss about it.",
+              "korean": "제가 당신이라면 상사와 그것에 대해 이야기할 거예요.",
+              "phoneticKorean": "이프 아이 워 유, 아이 우드 톡 투 마이 보스 어바웃 잇",
+              "grammarPoint": "가정법 조언 If I were you",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "If I were in your shoes, I would accept the offer.",
+              "korean": "제가 당신 입장이라면 그 제안을 받아들일 거예요.",
+              "phoneticKorean": "이프 아이 워 인 유어 슈즈, 아이 우드 액셉트 디 오퍼",
+              "grammarPoint": "입장 바꿔 생각 in your shoes",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I would suggest that you get more experience first.",
+              "korean": "먼저 더 많은 경험을 쌓으시길 제안해요.",
+              "phoneticKorean": "아이 우드 서제스트 댓 유 겟 모어 익스피리언스 퍼스트",
+              "grammarPoint": "정중한 제안 I would suggest",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Why don't you try a different approach?",
+              "korean": "다른 방법을 시도해보시는 게 어때요?",
+              "phoneticKorean": "와이 돈트 유 트라이 어 디퍼런트 어프로치?",
+              "grammarPoint": "부드러운 제안 Why don't you",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "You might want to consider all the options.",
+              "korean": "모든 선택사항을 고려해보시는 게 좋을 것 같아요.",
+              "phoneticKorean": "유 마이트 원트 투 컨시더 올 디 옵션즈",
+              "grammarPoint": "완곡한 제안 You might want to",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Have you thought about asking for help?",
+              "korean": "도움을 요청하는 것을 생각해보셨나요?",
+              "phoneticKorean": "해브 유 쏫 어바웃 애스킹 포 헬프?",
+              "grammarPoint": "제안적 질문 Have you thought about",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "It might be a good idea to wait a little longer.",
+              "korean": "조금 더 기다리는 것이 좋은 생각일 것 같아요.",
+              "phoneticKorean": "잇 마이트 비 어 굿 아이디어 투 웨이트 어 리틀 롱거",
+              "grammarPoint": "의견 제시 It might be a good idea",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I'd recommend that you double-check everything.",
+              "korean": "모든 것을 다시 한 번 확인하시길 권해요.",
+              "phoneticKorean": "아이드 레커멘드 댓 유 더블-체크 에브리씽",
+              "grammarPoint": "권고 표현 I'd recommend",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Perhaps you should reconsider your decision.",
+              "korean": "아마도 결정을 다시 생각해보셔야 할 것 같아요.",
+              "phoneticKorean": "퍼햅스 유 슈드 리컨시더 유어 디시전",
+              "grammarPoint": "정중한 조언 Perhaps you should",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "What if you tried a completely different strategy?",
+              "korean": "완전히 다른 전략을 시도해보면 어떨까요?",
+              "phoneticKorean": "왓 이프 유 트라이드 어 컴플리틀리 디퍼런트 스트래티지?",
+              "grammarPoint": "가정적 제안 What if you",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "stageId": "S22",
+          "stageTitle": "정중한 부탁",
+          "description": "상대에게 공손하게 부탁하는 고급 표현을 배웁니다.",
+          "grammarFocus": "정중함의 정도별 부탁 표현",
+          "keyPatterns": [
+            "Would you mind",
+            "Could you please",
+            "I was wondering if",
+            "Would it be possible"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 55,
+          "coreExpressions": [
+            {
+              "english": "Would you mind opening the window?",
+              "korean": "창문을 열어주시겠어요? (정중한 부탁)",
+              "phoneticKorean": "우드 유 마인드 오프닝 더 윈도우?",
+              "grammarPoint": "정중한 부탁 Would you mind",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Could you please help me with this report?",
+              "korean": "이 보고서 좀 도와주시겠어요?",
+              "phoneticKorean": "쿠드 유 플리즈 헬프 미 위드 디스 리포트?",
+              "grammarPoint": "공손한 부탁 Could you please",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I was wondering if you could give me some advice.",
+              "korean": "조언을 좀 해주실 수 있는지 궁금해서요.",
+              "phoneticKorean": "아이 워즈 원더링 이프 유 쿠드 기브 미 썸 어드바이스",
+              "grammarPoint": "완곡한 부탁 I was wondering if",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Would it be possible for you to stay a bit later?",
+              "korean": "조금 늦게까지 있어주실 수 있을까요?",
+              "phoneticKorean": "우드 잇 비 파서블 포 유 투 스테이 어 비트 레이터?",
+              "grammarPoint": "가능성 문의 Would it be possible",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I'd be grateful if you could review this document.",
+              "korean": "이 문서를 검토해주시면 감사하겠어요.",
+              "phoneticKorean": "아이드 비 그레이트풀 이프 유 쿠드 리뷰 디스 다큐먼트",
+              "grammarPoint": "감사 표현 부탁 I'd be grateful if",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Do you think you could lend me your car?",
+              "korean": "차를 빌려주실 수 있을 것 같나요?",
+              "phoneticKorean": "두 유 씽크 유 쿠드 렌드 미 유어 카?",
+              "grammarPoint": "간접적 부탁 Do you think you could",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Would you be so kind as to show me the way?",
+              "korean": "길을 알려주실 만큼 친절하시겠어요? (격식적)",
+              "phoneticKorean": "우드 유 비 소 카인드 애즈 투 쇼우 미 더 웨이?",
+              "grammarPoint": "격식적 부탁 Would you be so kind as to",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I hate to bother you, but could you help me?",
+              "korean": "번거롭게 해서 죄송하지만, 도와주실 수 있나요?",
+              "phoneticKorean": "아이 헤이트 투 바더 유, 벗 쿠드 유 헬프 미?",
+              "grammarPoint": "미안함 표현 부탁 I hate to bother you",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "If you don't mind, could I borrow your phone?",
+              "korean": "괜찮으시다면 전화기 좀 빌려주실 수 있나요?",
+              "phoneticKorean": "이프 유 돈트 마인드, 쿠드 아이 바로우 유어 폰?",
+              "grammarPoint": "조건부 부탁 If you don't mind",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I wonder if I might ask you a favor.",
+              "korean": "부탁 하나 드려도 될지 모르겠어요.",
+              "phoneticKorean": "아이 원더 이프 아이 마이트 애스크 유 어 페이버",
+              "grammarPoint": "정중한 부탁 시작 I wonder if I might",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "stageId": "S23",
+          "stageTitle": "동의와 반대 표현",
+          "description": "토론이나 의견 교환 시 동의/반대를 부드럽게 표현하는 방법을 배웁니다.",
+          "grammarFocus": "의견 교환에서의 예의",
+          "keyPatterns": [
+            "I agree",
+            "I disagree",
+            "I see your point",
+            "I'm afraid I don't agree"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 50,
+          "coreExpressions": [
+            {
+              "english": "I completely agree with what you're saying.",
+              "korean": "당신이 말씀하신 것에 완전히 동의해요.",
+              "phoneticKorean": "아이 컴플리틀리 어그리 위드 왓 유어 세이잉",
+              "grammarPoint": "강한 동의 I completely agree",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "That's exactly how I feel about it.",
+              "korean": "저도 정확히 그렇게 느껴요.",
+              "phoneticKorean": "댓츠 익잭틀리 하우 아이 필 어바웃 잇",
+              "grammarPoint": "공감 표현 That's exactly how I feel",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I see your point, but I think there's another way.",
+              "korean": "말씀하신 요점은 알겠지만, 다른 방법이 있다고 생각해요.",
+              "phoneticKorean": "아이 시 유어 포인트, 벗 아이 씽크 데어즈 어나더 웨이",
+              "grammarPoint": "부분 동의 I see your point, but",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I'm afraid I don't agree with that idea.",
+              "korean": "죄송하지만 그 생각에는 동의하지 않아요.",
+              "phoneticKorean": "아임 어프레이드 아이 돈트 어그리 위드 댓 아이디어",
+              "grammarPoint": "정중한 반대 I'm afraid I don't agree",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I understand where you're coming from, however...",
+              "korean": "어디서 그런 말씀을 하시는지 이해해요, 하지만...",
+              "phoneticKorean": "아이 언더스탠드 웨어 유어 커밍 프롬, 하우에버...",
+              "grammarPoint": "이해 표현 후 반박 I understand where you're coming from",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "That's a good point, and I'd like to add something.",
+              "korean": "좋은 지적이에요, 그리고 한 가지 더 추가하고 싶어요.",
+              "phoneticKorean": "댓츠 어 굿 포인트, 앤드 아이드 라익 투 애드 썸씽",
+              "grammarPoint": "인정하며 추가 That's a good point, and",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I respectfully disagree with that statement.",
+              "korean": "그 말씀에 정중히 반대해요.",
+              "phoneticKorean": "아이 리스펙트풀리 디사그리 위드 댓 스테이트먼트",
+              "grammarPoint": "존중하는 반대 I respectfully disagree",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "You make a valid point, but have you considered...?",
+              "korean": "타당한 지적이시네요, 하지만 이것도 생각해보셨나요...?",
+              "phoneticKorean": "유 메이크 어 밸리드 포인트, 벗 해브 유 컨시더드...?",
+              "grammarPoint": "인정하며 질문 You make a valid point, but",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I'm not entirely convinced that's the best approach.",
+              "korean": "그것이 최선의 방법이라고 완전히 확신하지는 않아요.",
+              "phoneticKorean": "아임 낫 인타이어리 컨빈스드 댓츠 더 베스트 어프로치",
+              "grammarPoint": "부드러운 의혹 I'm not entirely convinced",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I have to say I disagree, but I respect your opinion.",
+              "korean": "반대 의견이라고 말씀드려야겠지만, 당신의 의견을 존중해요.",
+              "phoneticKorean": "아이 해브 투 세이 아이 디사그리, 벗 아이 리스펙트 유어 어피니언",
+              "grammarPoint": "존중하는 반박 I have to say I disagree, but",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "stageId": "S24",
+          "stageTitle": "예시 들기",
+          "description": "설명을 덧붙일 때 for example, such as, like 등을 써서 예를 제시하는 연습을 합니다.",
+          "grammarFocus": "예시를 통한 설명 강화",
+          "keyPatterns": [
+            "For example",
+            "Such as",
+            "Like (예시)",
+            "For instance",
+            "Including"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 45,
+          "coreExpressions": [
+            {
+              "english": "I love traveling. For example, I went to Thailand last year.",
+              "korean": "저는 여행을 좋아해요. 예를 들어, 작년에 태국에 갔어요.",
+              "phoneticKorean": "아이 러브 트래블링. 포 이그잼플, 아이 웬트 투 타일랜드 라스트 이어",
+              "grammarPoint": "구체적 예시 For example",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "He has many hobbies, such as painting and cycling.",
+              "korean": "그는 그림 그리기나 자전거 타기 같은 많은 취미가 있어요.",
+              "phoneticKorean": "히 해즈 메니 하비즈, 섯치 애즈 페인팅 앤드 사이클링",
+              "grammarPoint": "나열 예시 such as",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I enjoy outdoor activities like hiking and camping.",
+              "korean": "저는 하이킹이나 캠핑 같은 야외 활동을 즐겨요.",
+              "phoneticKorean": "아이 엔조이 아웃도어 액티비티즈 라익 하이킹 앤드 캠핑",
+              "grammarPoint": "비교 예시 like",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "There are several ways to learn English. For instance, you can watch movies.",
+              "korean": "영어를 배우는 여러 방법이 있어요. 예를 들어, 영화를 볼 수 있어요.",
+              "phoneticKorean": "데어 아 세버럴 웨이즈 투 런 잉글리쉬. 포 인스턴스, 유 캔 왓치 무비즈",
+              "grammarPoint": "방법 예시 For instance",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Many fruits are rich in vitamins, including oranges and strawberries.",
+              "korean": "오렌지와 딸기를 포함해 많은 과일들이 비타민이 풍부해요.",
+              "phoneticKorean": "메니 프루츠 아 리치 인 바이타민즈, 인클루딩 오렌지즈 앤드 스트로베리즈",
+              "grammarPoint": "포함 예시 including",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I've visited several European countries, namely France, Italy, and Spain.",
+              "korean": "저는 프랑스, 이탈리아, 스페인 등 여러 유럽 국가를 방문했어요.",
+              "phoneticKorean": "아이브 비지티드 세버럴 유로피언 컨트리즈, 네임리 프랜스, 이탈리, 앤드 스페인",
+              "grammarPoint": "구체적 명시 namely",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Take social media platforms like Facebook and Instagram.",
+              "korean": "페이스북이나 인스타그램 같은 소셜 미디어 플랫폼을 예로 들어보세요.",
+              "phoneticKorean": "테이크 소셜 미디어 플랫폼즈 라익 페이스북 앤드 인스타그램",
+              "grammarPoint": "예시 제시 Take... like",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "There are many benefits to exercise. To illustrate, it improves your mood.",
+              "korean": "운동에는 많은 이점이 있어요. 예를 들자면, 기분을 좋게 해줘요.",
+              "phoneticKorean": "데어 아 메니 베네피츠 투 익서사이즈. 투 일러스트레이트, 잇 임프루브즈 유어 무드",
+              "grammarPoint": "설명 예시 To illustrate",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Certain foods, particularly spicy ones, can cause stomach problems.",
+              "korean": "특정 음식들, 특히 매운 음식들은 위장 문제를 일으킬 수 있어요.",
+              "phoneticKorean": "선틴 푸즈, 파티큘럴리 스파이시 원즈, 캔 코즈 스터먹 프라블럼즈",
+              "grammarPoint": "강조 예시 particularly",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Let me give you an example. When I was in college, I studied abroad.",
+              "korean": "예를 하나 들어볼게요. 대학교 때 저는 해외에서 공부했어요.",
+              "phoneticKorean": "렛 미 기브 유 언 이그잼플. 웬 아이 워즈 인 칼리지, 아이 스터디드 어브로드",
+              "grammarPoint": "예시 도입 Let me give you an example",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "stageId": "S25",
+          "stageTitle": "경험 공유하기",
+          "description": "현재완료를 활용하여 자신의 경험을 말해 봅니다.",
+          "grammarFocus": "경험 표현과 대화 연결",
+          "keyPatterns": [
+            "I have been to",
+            "I have tried",
+            "I have never",
+            "Have you ever"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 50,
+          "coreExpressions": [
+            {
+              "english": "I've been to Paris three times.",
+              "korean": "파리에 세 번 가봤어요.",
+              "phoneticKorean": "아이브 빈 투 패리스 쓰리 타임즈",
+              "grammarPoint": "방문 경험 I've been to",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I have tried sushi, and it was delicious.",
+              "korean": "스시를 먹어봤는데, 맛있었어요.",
+              "phoneticKorean": "아이 해브 트라이드 스시, 앤드 잇 워즈 딜리셔스",
+              "grammarPoint": "시도 경험 I have tried",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I've never seen snow in real life.",
+              "korean": "실제로 눈을 본 적이 없어요.",
+              "phoneticKorean": "아이브 네버 신 스노우 인 리얼 라이프",
+              "grammarPoint": "경험 부정 I've never",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Have you ever been to a concert?",
+              "korean": "콘서트에 가본 적 있나요?",
+              "phoneticKorean": "해브 유 에버 빈 투 어 콘서트?",
+              "grammarPoint": "경험 질문 Have you ever",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I have done paragliding before. It was amazing!",
+              "korean": "패러글라이딩을 해본 적이 있어요. 정말 대단했어요!",
+              "phoneticKorean": "아이 해브 던 패러글라이딩 비포. 잇 워즈 어메이징!",
+              "grammarPoint": "모험 경험 I have done",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "She has lived in five different countries.",
+              "korean": "그녀는 다섯 개의 다른 나라에서 살아봤어요.",
+              "phoneticKorean": "쉬 해즈 리브드 인 파이브 디퍼런트 컨트리즈",
+              "grammarPoint": "거주 경험 has lived",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "We have worked together for many years.",
+              "korean": "우리는 수년간 함께 일해왔어요.",
+              "phoneticKorean": "위 해브 워크드 투게더 포 메니 이어즈",
+              "grammarPoint": "협업 경험 have worked together",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I have learned so much from this experience.",
+              "korean": "이 경험으로부터 많은 것을 배웠어요.",
+              "phoneticKorean": "아이 해브 런드 소 머치 프롬 디스 익스피리언스",
+              "grammarPoint": "학습 경험 have learned",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Have you had a chance to visit the new museum?",
+              "korean": "새 박물관을 방문할 기회가 있으셨나요?",
+              "phoneticKorean": "해브 유 해드 어 챈스 투 비지트 더 뉴 뮤지엄?",
+              "grammarPoint": "기회 경험 Have you had a chance",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I have met many interesting people through this job.",
+              "korean": "이 일을 통해 많은 흥미로운 사람들을 만났어요.",
+              "phoneticKorean": "아이 해브 메트 메니 인터레스팅 피플 쓰루 디스 잡",
+              "grammarPoint": "만남 경험 have met",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        }
+      ],
+      "estimatedHours": 12.5
+    },
+    {
+      "phaseId": "P6",
+      "phaseTitle": "뉘앙스와 강조 (Nuance & Emphasis in Speech)",
+      "phaseDescription": "미묘한 뉘앙스와 강조를 통해 보다 정교하고 자연스러운 영어 표현을 구사합니다.",
+      "learningObjectives": [
+        "뉘앙스와 강조 (Nuance & Emphasis in Speech) 학습 목표"
+      ],
+      "version": "1.0.0",
+      "stages": [
+        {
+          "stageId": "S26",
+          "stageTitle": "강조 구문 (Cleft Sentences)",
+          "description": "It ~ that... 구문이나 What ~ is... 구문을 배워 특정 어구를 강조하는 표현을 연습합니다.",
+          "grammarFocus": "강조를 위한 특수 구문",
+          "keyPatterns": [
+            "It is ... that/who",
+            "What ... is",
+            "The one who/that",
+            "All I want is"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 55,
+          "coreExpressions": [
+            {
+              "english": "It is my sister who cooks the best pasta.",
+              "korean": "가장 파스타를 잘 만드는 건 다름 아닌 내 여동생이에요.",
+              "phoneticKorean": "잇 이즈 마이 시스터 후 쿡스 더 베스트 파스타",
+              "grammarPoint": "사람 강조 It is ... who",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "What I want is just some rest.",
+              "korean": "내가 원하는 건 그저 휴식이에요.",
+              "phoneticKorean": "왓 아이 원트 이즈 저스트 썸 레스트",
+              "grammarPoint": "욕구 강조 What I want is",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "It was yesterday that I met him.",
+              "korean": "그를 만난 건 바로 어제였어요.",
+              "phoneticKorean": "잇 워즈 예스터데이 댓 아이 메트 힘",
+              "grammarPoint": "시간 강조 It was ... that",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The one who helped me was a stranger.",
+              "korean": "나를 도와준 사람은 낯선 사람이었어요.",
+              "phoneticKorean": "더 원 후 헬프드 미 워즈 어 스트레인저",
+              "grammarPoint": "특정인 강조 The one who",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "All I need is your support.",
+              "korean": "내게 필요한 건 당신의 지지뿐이에요.",
+              "phoneticKorean": "올 아이 니드 이즈 유어 서포트",
+              "grammarPoint": "필요 강조 All I need is",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "It is in this room that the meeting will be held.",
+              "korean": "회의가 열릴 곳은 바로 이 방이에요.",
+              "phoneticKorean": "잇 이즈 인 디스 룸 댓 더 미팅 윌 비 헬드",
+              "grammarPoint": "장소 강조 It is ... that",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "What surprised me was his honesty.",
+              "korean": "나를 놀라게 한 건 그의 정직함이었어요.",
+              "phoneticKorean": "왓 서프라이즈드 미 워즈 히즈 아네스티",
+              "grammarPoint": "감정 강조 What surprised me was",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "It's only when you lose something that you realize its value.",
+              "korean": "무언가를 잃어야만 그 가치를 깨닫게 되는 법이에요.",
+              "phoneticKorean": "잇츠 온리 웬 유 루즈 썸씽 댓 유 리얼라이즈 잇츠 밸류",
+              "grammarPoint": "조건 강조 It's only when ... that",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The reason why I'm here is to help you.",
+              "korean": "제가 여기 있는 이유는 당신을 돕기 위해서예요.",
+              "phoneticKorean": "더 리즌 와이 아임 히어 이즈 투 헬프 유",
+              "grammarPoint": "이유 강조 The reason why ... is",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "What matters most is your happiness.",
+              "korean": "가장 중요한 건 당신의 행복이에요.",
+              "phoneticKorean": "왓 매터즈 모스트 이즈 유어 해피니스",
+              "grammarPoint": "중요성 강조 What matters most is",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "stageId": "S27",
+          "stageTitle": "강조 부사",
+          "description": "really, actually, absolutely, exactly 같은 강조 부사를 익혀 말의 강도를 조절합니다.",
+          "grammarFocus": "부사를 통한 강조와 뉘앙스 조절",
+          "keyPatterns": [
+            "really",
+            "actually",
+            "absolutely",
+            "exactly",
+            "completely"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 50,
+          "coreExpressions": [
+            {
+              "english": "I really appreciate your help.",
+              "korean": "정말로 도움을 주셔서 감사해요.",
+              "phoneticKorean": "아이 리얼리 어프리시에이트 유어 헬프",
+              "grammarPoint": "감사 강조 really",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Actually, I think you're right.",
+              "korean": "사실은, 당신이 옳다고 생각해요.",
+              "phoneticKorean": "액추얼리, 아이 씽크 유어 라이트",
+              "grammarPoint": "정정 표현 actually",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "That's absolutely amazing!",
+              "korean": "정말 놀라워요! (완전히)",
+              "phoneticKorean": "댓츠 압솔루틀리 어메이징!",
+              "grammarPoint": "극찬 강조 absolutely",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "That's exactly what I was thinking.",
+              "korean": "그게 바로 제가 생각했던 거예요.",
+              "phoneticKorean": "댓츠 익잭틀리 왓 아이 워즈 씽킹",
+              "grammarPoint": "정확성 강조 exactly",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I completely forgot about the meeting.",
+              "korean": "회의를 완전히 잊고 있었어요.",
+              "phoneticKorean": "아이 컴플리틀리 포갓 어바웃 더 미팅",
+              "grammarPoint": "완전성 강조 completely",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "She's definitely coming to the party.",
+              "korean": "그녀는 확실히 파티에 올 거예요.",
+              "phoneticKorean": "쉬즈 데피니틀리 커밍 투 더 파티",
+              "grammarPoint": "확실성 강조 definitely",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Honestly, I don't know what to do.",
+              "korean": "솔직히, 뭘 해야 할지 모르겠어요.",
+              "phoneticKorean": "아네스틀리, 아이 돈트 노우 왓 투 두",
+              "grammarPoint": "솔직함 강조 honestly",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Obviously, we need to work harder.",
+              "korean": "당연히, 더 열심히 일해야 해요.",
+              "phoneticKorean": "압비어슬리, 위 니드 투 워크 하더",
+              "grammarPoint": "당연함 강조 obviously",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Personally, I prefer coffee to tea.",
+              "korean": "개인적으로는, 차보다 커피를 더 좋아해요.",
+              "phoneticKorean": "퍼스널리, 아이 프리퍼 커피 투 티",
+              "grammarPoint": "개인 의견 강조 personally",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Surprisingly, he agreed to help us.",
+              "korean": "놀랍게도, 그가 우리를 도와주기로 했어요.",
+              "phoneticKorean": "서프라이징리, 히 어그리드 투 헬프 어스",
+              "grammarPoint": "놀라움 강조 surprisingly",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "stageId": "S28",
+          "stageTitle": "비교급·최상급 강조",
+          "description": "much, far, by far 등을 사용해 비교급/최상급을 한층 강조하는 연습을 합니다.",
+          "grammarFocus": "비교 표현의 강조",
+          "keyPatterns": [
+            "much + 비교급",
+            "far + 비교급",
+            "by far the + 최상급",
+            "not nearly as ... as"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 55,
+          "coreExpressions": [
+            {
+              "english": "This method is much more effective.",
+              "korean": "이 방법이 훨씬 더 효과적이에요.",
+              "phoneticKorean": "디스 메소드 이즈 머치 모어 이펙티브",
+              "grammarPoint": "정도 강조 much more",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "He runs far faster than his brother.",
+              "korean": "그는 형/동생보다 훨씬 더 빨리 뛰어요.",
+              "phoneticKorean": "히 런즈 파 패스터 댄 히즈 브라더",
+              "grammarPoint": "속도 차이 강조 far faster",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "She is by far the best student in our class.",
+              "korean": "그녀는 단연 우리 반에서 가장 우수한 학생이에요.",
+              "phoneticKorean": "쉬 이즈 바이 파 더 베스트 스투던트 인 아워 클래스",
+              "grammarPoint": "최고 강조 by far the best",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "It's not nearly as expensive as I thought.",
+              "korean": "생각했던 것만큼 비싸지 않아요.",
+              "phoneticKorean": "잇츠 낫 니얼리 애즈 익스펜시브 애즈 아이 쏫",
+              "grammarPoint": "기대 차이 not nearly as ... as",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Today's weather is considerably warmer than yesterday.",
+              "korean": "오늘 날씨가 어제보다 상당히 더 따뜻해요.",
+              "phoneticKorean": "투데이즈 웨더 이즈 컨시더러블리 워머 댄 예스터데이",
+              "grammarPoint": "상당한 차이 considerably",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "This car is significantly more expensive.",
+              "korean": "이 차가 상당히 더 비싸요.",
+              "phoneticKorean": "디스 카 이즈 시그니피컨틀리 모어 익스펜시브",
+              "grammarPoint": "중대한 차이 significantly",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "The new version is slightly better than the old one.",
+              "korean": "새 버전이 구버전보다 약간 더 나아요.",
+              "phoneticKorean": "더 뉴 버전 이즈 슬라이틀리 베터 댄 디 올드 원",
+              "grammarPoint": "미미한 차이 slightly",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "This solution is infinitely more practical.",
+              "korean": "이 해결책이 비교할 수 없을 정도로 더 실용적이에요.",
+              "phoneticKorean": "디스 솔루션 이즈 인피니틀리 모어 프랙티컬",
+              "grammarPoint": "극도 차이 infinitely",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "She's nowhere near as tall as her sister.",
+              "korean": "그녀는 언니/여동생만큼 키가 클 리가 없어요.",
+              "phoneticKorean": "쉬즈 노웨어 니어 애즈 톨 애즈 허 시스터",
+              "grammarPoint": "큰 차이 nowhere near as ... as",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "This is hands down the most difficult task.",
+              "korean": "이것이 단연 가장 어려운 일이에요.",
+              "phoneticKorean": "디스 이즈 핸즈 다운 더 모스트 디피컬트 태스크",
+              "grammarPoint": "확실한 최고 hands down",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "stageId": "S29",
+          "stageTitle": "수량·정도 표현 심화",
+          "description": "plenty of, a couple of, a bit (of), a lot of 등 다양한 수량 표현과 정도 표현을 배웁니다.",
+          "grammarFocus": "정교한 양과 정도의 표현",
+          "keyPatterns": [
+            "plenty of",
+            "a couple of",
+            "a bit of",
+            "loads of",
+            "tons of"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 50,
+          "coreExpressions": [
+            {
+              "english": "I have plenty of time to finish this project.",
+              "korean": "이 프로젝트를 끝낼 시간이 충분히 있어요.",
+              "phoneticKorean": "아이 해브 플렌티 오브 타임 투 피니쉬 디스 프로젝트",
+              "grammarPoint": "충분함 plenty of",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Just wait a couple of minutes, please.",
+              "korean": "잠깐만 기다려 주세요.",
+              "phoneticKorean": "저스트 웨이트 어 커플 오브 미니츠, 플리즈",
+              "grammarPoint": "적은 수량 a couple of",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I'm a bit tired after the long journey.",
+              "korean": "긴 여행 후에 조금 피곤해요.",
+              "phoneticKorean": "아임 어 비트 타이어드 애프터 더 롱 저니",
+              "grammarPoint": "약간의 정도 a bit",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "There are loads of people at the concert.",
+              "korean": "콘서트에 엄청 많은 사람들이 있어요.",
+              "phoneticKorean": "데어 아 로즈 오브 피플 앳 더 콘서트",
+              "grammarPoint": "많은 양 loads of (구어체)",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "She has tons of experience in marketing.",
+              "korean": "그녀는 마케팅 경험이 엄청 많아요.",
+              "phoneticKorean": "쉬 해즈 턴즈 오브 익스피리언스 인 마케팅",
+              "grammarPoint": "대량 표현 tons of (구어체)",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Could you give me a handful of those cookies?",
+              "korean": "그 쿠키 몇 개만 주실 수 있나요?",
+              "phoneticKorean": "쿠드 유 기브 미 어 핸드풀 오브 도즈 쿠키즈?",
+              "grammarPoint": "한 움큼 a handful of",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I need a great deal of patience for this job.",
+              "korean": "이 일에는 많은 인내심이 필요해요.",
+              "phoneticKorean": "아이 니드 어 그레이트 딜 오브 페이션스 포 디스 잡",
+              "grammarPoint": "상당한 양 a great deal of",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "There's quite a lot of traffic today.",
+              "korean": "오늘 교통량이 꽤 많아요.",
+              "phoneticKorean": "데어즈 콰이트 어 랏 오브 트래픽 투데이",
+              "grammarPoint": "상당량 quite a lot of",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I have a tremendous amount of work to do.",
+              "korean": "해야 할 일이 엄청나게 많아요.",
+              "phoneticKorean": "아이 해브 어 트레멘더스 어마운트 오브 워크 투 두",
+              "grammarPoint": "거대한 양 a tremendous amount of",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "She made a little progress, but not much.",
+              "korean": "그녀가 조금은 진전을 보였지만, 많지는 않아요.",
+              "phoneticKorean": "쉬 메이드 어 리틀 프로그레스, 벗 낫 머치",
+              "grammarPoint": "적은 진전 a little",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        },
+        {
+          "stageId": "S30",
+          "stageTitle": "의견 번복/정정하기",
+          "description": "말하는 도중 의견을 수정하거나 철회하는 표현을 연습합니다.",
+          "grammarFocus": "의견 수정과 대화 조율",
+          "keyPatterns": [
+            "On second thought",
+            "Actually",
+            "Come to think of it",
+            "Don't get me wrong"
+          ],
+          "version": "1.0.0",
+          "estimatedMinutes": 55,
+          "coreExpressions": [
+            {
+              "english": "On second thought, maybe we should wait until tomorrow.",
+              "korean": "다시 생각해보니, 내일까지 기다리는 게 좋을 것 같아요.",
+              "phoneticKorean": "온 세컨드 쏫, 메이비 위 슈드 웨이트 언틸 투모로우",
+              "grammarPoint": "재고 표현 On second thought",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Actually, I think I misunderstood what you said.",
+              "korean": "사실은, 당신이 하신 말을 잘못 이해했던 것 같아요.",
+              "phoneticKorean": "액추얼리, 아이 씽크 아이 미선더스투드 왓 유 세드",
+              "grammarPoint": "정정 표현 Actually",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Come to think of it, you might be right about that.",
+              "korean": "생각해보니, 그것에 대해서는 당신이 맞을지도 모르겠어요.",
+              "phoneticKorean": "컴 투 씽크 오브 잇, 유 마이트 비 라이트 어바웃 댓",
+              "grammarPoint": "재고 후 동의 Come to think of it",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Don't get me wrong, but I think we need to be more careful.",
+              "korean": "오해하지 마세요, 하지만 더 조심해야 한다고 생각해요.",
+              "phoneticKorean": "돈트 겟 미 롱, 벗 아이 씽크 위 니드 투 비 모어 케어풀",
+              "grammarPoint": "오해 방지 Don't get me wrong",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "What I meant to say was something completely different.",
+              "korean": "제가 말하려고 했던 건 완전히 다른 거였어요.",
+              "phoneticKorean": "왓 아이 멘트 투 세이 워즈 썸씽 컴플리틀리 디퍼런트",
+              "grammarPoint": "의도 명확화 What I meant to say",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Let me rephrase that. What I really want to say is...",
+              "korean": "다시 말씀드리겠어요. 제가 정말 하고 싶은 말은...",
+              "phoneticKorean": "렛 미 리프레이즈 댓. 왓 아이 리얼리 원트 투 세이 이즈...",
+              "grammarPoint": "재표현 Let me rephrase",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I need to correct myself here. I was wrong about the date.",
+              "korean": "여기서 정정해야겠어요. 날짜를 잘못 알고 있었어요.",
+              "phoneticKorean": "아이 니드 투 커렉트 마이셀프 히어. 아이 워즈 롱 어바웃 더 데이트",
+              "grammarPoint": "자기 정정 I need to correct myself",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Now that I think about it, that's not such a good idea.",
+              "korean": "지금 생각해보니, 그건 그리 좋은 생각이 아니네요.",
+              "phoneticKorean": "나우 댓 아이 씽크 어바웃 잇, 댓츠 낫 섯치 어 굿 아이디어",
+              "grammarPoint": "재고 후 철회 Now that I think about it",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "I should have been clearer about what I meant.",
+              "korean": "제가 무슨 뜻인지 더 명확하게 말했어야 했는데요.",
+              "phoneticKorean": "아이 슈드 해브 빈 클리어러 어바웃 왓 아이 멘트",
+              "grammarPoint": "명확성 후회 should have been clearer",
+              "version": "1.0.0",
+              "difficulty": 1
+            },
+            {
+              "english": "Wait, let me take that back. I didn't mean it that way.",
+              "korean": "잠깐, 그 말은 취소하겠어요. 그런 뜻이 아니었어요.",
+              "phoneticKorean": "웨이트, 렛 미 테이크 댓 백. 아이 디던트 민 잇 댓 웨이",
+              "grammarPoint": "발언 취소 let me take that back",
+              "version": "1.0.0",
+              "difficulty": 1
+            }
+          ]
+        }
+      ],
+      "estimatedHours": 12.5
+    }
+  ],
+  "metadata": {
+    "createdAt": "2025-08-27T09:28:29.711Z",
+    "updatedAt": "2025-08-27T09:28:29.712Z",
+    "author": "DASI System",
+    "tags": [
+      "beginner"
+    ],
+    "changeLog": [
+      {
+        "version": "1.0.0",
+        "date": "2025-08-27",
+        "changes": [
+          "Safe migration applied",
+          "Schema compliance enforced"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "schemaVersion": "1.0.0",
+    "validatedAt": "2025-08-27T09:28:29.712Z",
+    "checksum": "eb140ba7dad12e75322119705981568653c76a7ee5e253c9a654656f2ae556d8"
+  }
+}

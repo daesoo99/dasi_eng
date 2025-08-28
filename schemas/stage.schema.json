@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://api.dasi-english.com/schemas/stage.schema.json",
+  "title": "Learning Stage",
+  "description": "학습 스테이지 - 특정 문법이나 표현을 집중 학습하는 단위",
+  "type": "object",
+  "properties": {
+    "stageId": {
+      "type": "string",
+      "description": "스테이지 고유 식별자",
+      "pattern": "^S[0-9]{2,3}$",
+      "examples": ["S01", "S02", "S15"]
+    },
+    "stageTitle": {
+      "type": "string",
+      "description": "스테이지 제목",
+      "minLength": 5,
+      "maxLength": 100,
+      "examples": ["BE동사 문장", "일반동사 현재형"]
+    },
+    "description": {
+      "type": "string",
+      "description": "스테이지 상세 설명",
+      "minLength": 10,
+      "maxLength": 500,
+      "examples": ["be동사(am/is/are)를 사용한 존재/상태 표현을 연습합니다."]
+    },
+    "grammarFocus": {
+      "type": "string",
+      "description": "핵심 문법 요소",
+      "minLength": 3,
+      "maxLength": 100,
+      "examples": ["be동사 현재형", "일반동사 과거형"]
+    },
+    "keyPatterns": {
+      "type": "array",
+      "description": "핵심 문법 패턴 목록",
+      "items": {
+        "type": "string",
+        "minLength": 5,
+        "maxLength": 200
+      },
+      "minItems": 1,
+      "maxItems": 10,
+      "examples": [["주어 + be동사 + 보어", "주어 + 동사 + 목적어"]]
+    },
+    "coreExpressions": {
+      "type": "array",
+      "description": "핵심 표현 목록",
+      "items": {
+        "$ref": "core-expression.schema.json"
+      },
+      "minItems": 3,
+      "maxItems": 20
+    },
+    "estimatedMinutes": {
+      "type": "integer",
+      "description": "예상 학습 시간 (분)",
+      "minimum": 5,
+      "maximum": 180,
+      "default": 30
+    },
+    "targetAccuracy": {
+      "type": "number",
+      "description": "목표 정답률 (0-1)",
+      "minimum": 0.5,
+      "maximum": 1.0,
+      "default": 0.8
+    },
+    "prerequisites": {
+      "type": "array",
+      "description": "선수 스테이지 목록",
+      "items": {
+        "type": "string",
+        "pattern": "^S[0-9]{2,3}$"
+      },
+      "maxItems": 5
+    },
+    "version": {
+      "type": "string",
+      "description": "데이터 버전",
+      "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$"
+    }
+  },
+  "required": [
+    "stageId",
+    "stageTitle", 
+    "description",
+    "grammarFocus",
+    "keyPatterns",
+    "coreExpressions",
+    "version"
+  ],
+  "additionalProperties": false
+}

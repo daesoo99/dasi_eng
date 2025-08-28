@@ -11,6 +11,7 @@ import { WritingModeFeedback } from '@/components/WritingModeFeedback';
 import { useSpeech } from '@/hooks/useSpeech';
 import { api } from '@/lib/api';
 import { srsService } from '@/services/srsService';
+import { useAuthService } from '@/services/authService';
 import type { DrillCard, FeedbackResponse } from '@/types';
 import type { WritingFeedback } from '@/services/writingMode';
 
@@ -44,6 +45,8 @@ export const StudyPage: React.FC = () => {
   const [isTrainingRunning, setIsTrainingRunning] = useState(false);
   const [isTrainingPaused, setIsTrainingPaused] = useState(false);
 
+  const { handleStudyComplete, isAuthenticated } = useAuthService();
+  
   const speech = useSpeech({
     apiBaseUrl: import.meta.env.VITE_API_BASE_URL,
     preferCloudSTT: false,
@@ -163,11 +166,43 @@ export const StudyPage: React.FC = () => {
     }
   };
 
-  // Pattern Training Flow Result Handler (same as handleSpeechResult but with different naming)
+  // Pattern Training Flow Result Handler with Firebase integration
   const handlePatternTrainingResult = async (userAnswer: string, isCorrect: boolean, confidence: number, responseTime?: number) => {
     console.log('🎯 StudyPage: handlePatternTrainingResult 호출됨', { userAnswer, isCorrect, confidence, responseTime });
     
-    // Simply call handleSpeechResult with the userAnswer as transcript
+    // Calculate score based on correctness and confidence
+    const score = isCorrect ? Math.max(70, Math.round(confidence * 100)) : 0;
+    
+    // Firebase 진행도 업데이트 (인증된 사용자만)
+    if (isAuthenticated && responseTime) {
+      console.log('[DEBUG] 🔥 Firebase 진행도 업데이트 시작');
+      
+      const completionData = {
+        level: user.level,
+        stage: user.stage,
+        score: score,
+        timeSpent: responseTime,
+        mistakes: isCorrect ? 0 : 1
+      };
+      
+      // 백그라운드에서 Firebase 업데이트 (기존 로직에 영향 주지 않음)
+      handleStudyComplete(completionData).then(success => {
+        if (success) {
+          console.log('[DEBUG] ✅ Firebase 진행도 업데이트 성공');
+        } else {
+          console.log('[DEBUG] ❌ Firebase 진행도 업데이트 실패');
+        }
+      }).catch(error => {
+        console.error('[DEBUG] ❌ Firebase 진행도 업데이트 에러:', error);
+      });
+    } else {
+      console.log('[DEBUG] ⚠️ Firebase 업데이트 스킵:', { 
+        isAuthenticated, 
+        hasResponseTime: !!responseTime 
+      });
+    }
+    
+    // 기존 로직 유지
     await handleSpeechResult(userAnswer, confidence);
   };
 

@@ -1,0 +1,79 @@
+{
+  "id": "Lv9-M6-S28",
+  "title": "문화 외교와 소프트 파워 (Cultural Diplomacy and Soft Power)",
+  "intent": "문화적 교류를 통한 국제 관계 구축과 소프트 파워 활용에 대한 외교적 담화 능력을 기른다.",
+  "focus": [
+    "CULTURAL-EXCHANGE",
+    "SOFT-POWER-STRATEGY", 
+    "DIPLOMATIC-RELATIONS",
+    "CROSS-CULTURAL-BRIDGE",
+    "INTERNATIONAL-COOPERATION"
+  ],
+  "lexset": [
+    "Cultural exchange fosters..., Soft power initiatives promote..., Educational partnerships strengthen..., Artistic collaboration enhances..., Cultural understanding bridges..., International goodwill develops through..., People-to-people connections create..., Cultural heritage preservation..., Cross-cultural dialogue facilitates..., Diplomatic ties are reinforced by..."
+  ],
+  "traps": [
+    "문화적 우월성 암시 피하기",
+    "상호 존중의 언어 사용",
+    "소프트 파워와 하드 파워의 구분",
+    "문화적 민감성 표현"
+  ],
+  "bankMin": 60,
+  "forms": {
+    "aff": 0.9,
+    "neg": 0.05,
+    "wh_q": 0.05
+  },
+  "variants": [
+    "교류 분야 (education, arts, sports)",
+    "협력 수준 (bilateral, multilateral, regional)",
+    "문화적 배경 (Eastern, Western, Global South)"
+  ],
+  "engine": {
+    "randomPick": [6, 10],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "문화 교류가 상호 이해를 촉진합니다.",
+      "en": "Cultural exchange fosters mutual understanding."
+    },
+    {
+      "kr": "소프트 파워 이니셔티브가 평화를 증진합니다.",
+      "en": "Soft power initiatives promote international peace."
+    },
+    {
+      "kr": "교육 파트너십이 양국 관계를 강화합니다.",
+      "en": "Educational partnerships strengthen bilateral relations."
+    },
+    {
+      "kr": "예술적 협력이 문화적 유대를 향상시킵니다.",
+      "en": "Artistic collaboration enhances cultural bonds."
+    },
+    {
+      "kr": "문화적 이해가 차이점을 연결합니다.",
+      "en": "Cultural understanding bridges our differences."
+    },
+    {
+      "kr": "국제적 우호는 문화적 교류를 통해 발전합니다.",
+      "en": "International goodwill develops through cultural exchange."
+    },
+    {
+      "kr": "민간 차원의 연결이 지속적인 관계를 만듭니다.",
+      "en": "People-to-people connections create lasting relationships."
+    },
+    {
+      "kr": "문화유산 보존이 공동의 책임입니다.",
+      "en": "Cultural heritage preservation is our shared responsibility."
+    },
+    {
+      "kr": "문화 간 대화가 협력을 촉진합니다.",
+      "en": "Cross-cultural dialogue facilitates cooperation."
+    },
+    {
+      "kr": "외교적 유대가 문화적 교류로 강화됩니다.",
+      "en": "Diplomatic ties are reinforced by cultural exchange."
+    }
+  ]
+}

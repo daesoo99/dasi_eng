@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>캐싱 전략 테스트</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .test-section { margin: 20px 0; padding: 15px; border: 1px solid #ddd; border-radius: 5px; }
+        .log { background: #f5f5f5; padding: 10px; margin: 10px 0; border-radius: 5px; font-family: monospace; }
+        .result { padding: 5px 0; }
+        .cache-hit { color: green; font-weight: bold; }
+        .cache-miss { color: orange; font-weight: bold; }
+        button { padding: 10px 20px; margin: 5px; cursor: pointer; }
+        .performance { background: #e8f4f8; padding: 10px; margin: 10px 0; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>캐싱 전략 테스트</h1>
+    
+    <div class="test-section">
+        <h3>🚀 1. TTS 캐시 테스트</h3>
+        <p>동일한 텍스트+보이스로 여러 번 요청하여 캐시 효과 확인</p>
+        <button onclick="testTTSCache()">TTS 캐시 테스트</button>
+        <div id="tts-results"></div>
+    </div>
+    
+    <div class="test-section">
+        <h3>💾 2. Firestore 캐시 테스트</h3>
+        <p>content service의 레벨/패턴 캐시 효과 확인</p>
+        <button onclick="testFirestoreCache()">Firestore 캐시 테스트</button>
+        <div id="firestore-results"></div>
+    </div>
+    
+    <div class="test-section">
+        <h3>⚡ 3. 성능 비교 테스트</h3>
+        <p>캐시 히트 vs 캐시 미스 응답 시간 비교</p>
+        <button onclick="testPerformance()">성능 테스트</button>
+        <div id="performance-results"></div>
+    </div>
+    
+    <div class="test-section">
+        <h3>🔄 4. 통합 스트리밍 + 캐싱 테스트</h3>
+        <p>동일한 스트리밍 요청 반복 시 캐시 적용 확인</p>
+        <button onclick="testStreamingWithCache()">스트리밍+캐싱 테스트</button>
+        <div id="streaming-results"></div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const API_BASE = 'http://localhost:8088/api';
+        
+        function addResult(containerId, message, className = '') {
+            const container = document.getElementById(containerId);
+            const resultDiv = document.createElement('div');
+            resultDiv.className = `result ${className}`;
+            resultDiv.innerHTML = `[${new Date().toLocaleTimeString()}] ${message}`;
+            container.appendChild(resultDiv);
+        }
+        
+        async function testTTSCache() {
+            const container = document.getElementById('tts-results');
+            container.innerHTML = '';
+            
+            addResult('tts-results', '🔄 TTS 캐시 테스트 시작...');
+            
+            const testText = "Hello, this is a test for TTS caching.";
+            const voice = "female";
+            
+            // 1차 요청 (캐시 미스 예상)
+            const start1 = Date.now();
+            try {
+                const socket1 = io('/realtime');
+                
+                socket1.on('connect', () => {
+                    addResult('tts-results', '첫 번째 요청 (캐시 미스 예상)...', 'cache-miss');
+                    socket1.emit('stt_llm_tts', { audioBlob: 'test', voice, prompt: testText });
+                });
+                
+                socket1.on('stage', (data) => {
+                    if (data.step === 'TTS_DONE') {
+                        const time1 = Date.now() - start1;
+                        addResult('tts-results', `✅ 첫 번째 요청 완료: ${time1}ms`, 'cache-miss');
+                        socket1.disconnect();
+                        
+                        // 2차 요청 (캐시 히트 예상)
+                        setTimeout(() => {
+                            const start2 = Date.now();
+                            const socket2 = io('/realtime');
+                            
+                            socket2.on('connect', () => {
+                                addResult('tts-results', '두 번째 요청 (캐시 히트 예상)...', 'cache-hit');
+                                socket2.emit('stt_llm_tts', { audioBlob: 'test', voice, prompt: testText });
+                            });
+                            
+                            socket2.on('stage', (data) => {
+                                if (data.step === 'TTS_DONE') {
+                                    const time2 = Date.now() - start2;
+                                    addResult('tts-results', `✅ 두 번째 요청 완료: ${time2}ms`, 'cache-hit');
+                                    addResult('tts-results', `📊 성능 개선: ${Math.round((1 - time2/time1) * 100)}%`, 'performance');
+                                    socket2.disconnect();
+                                }
+                            });
+                        }, 1000);
+                    }
+                });
+                
+            } catch (error) {
+                addResult('tts-results', `❌ 오류: ${error.message}`, 'error');
+            }
+        }
+        
+        async function testFirestoreCache() {
+            const container = document.getElementById('firestore-results');
+            container.innerHTML = '';
+            
+            addResult('firestore-results', '🔄 Firestore 캐시 테스트 시작...');
+            
+            // 존재하지 않는 레벨ID로 테스트 (실제 서비스에서는 적절한 ID 사용)
+            const testLevelId = 'test-level';
+            
+            try {
+                // 1차 요청
+                const start1 = Date.now();
+                const response1 = await fetch(`${API_BASE}/content/level/${testLevelId}`);
+                const time1 = Date.now() - start1;
+                addResult('firestore-results', `첫 번째 레벨 조회: ${time1}ms`, 'cache-miss');
+                
+                // 2차 요청 (캐시에서 조회 예상)
+                const start2 = Date.now();
+                const response2 = await fetch(`${API_BASE}/content/level/${testLevelId}`);
+                const time2 = Date.now() - start2;
+                addResult('firestore-results', `두 번째 레벨 조회: ${time2}ms`, 'cache-hit');
+                
+                if (time1 > time2) {
+                    addResult('firestore-results', `📊 캐시 효과 확인: ${Math.round((1 - time2/time1) * 100)}% 개선`, 'performance');
+                } else {
+                    addResult('firestore-results', `⚠️ 캐시 효과 미미 또는 서버 상태 확인 필요`, 'cache-miss');
+                }
+                
+            } catch (error) {
+                addResult('firestore-results', `❌ 오류: ${error.message}`, 'error');
+            }
+        }
+        
+        async function testPerformance() {
+            const container = document.getElementById('performance-results');
+            container.innerHTML = '';
+            
+            addResult('performance-results', '⚡ 성능 테스트 시작...');
+            
+            const performances = {
+                cacheMiss: [],
+                cacheHit: []
+            };
+            
+            // 여러 번 요청하여 평균 성능 측정
+            for (let i = 0; i < 3; i++) {
+                try {
+                    const uniqueText = `Performance test ${Date.now()}_${i}`;
+                    
+                    // 캐시 미스 측정
+                    const socket = io('/realtime');
+                    const startTime = Date.now();
+                    
+                    await new Promise((resolve) => {
+                        socket.on('connect', () => {
+                            socket.emit('stt_llm_tts', { 
+                                audioBlob: 'test', 
+                                voice: 'female', 
+                                prompt: uniqueText 
+                            });
+                        });
+                        
+                        socket.on('complete', () => {
+                            const duration = Date.now() - startTime;
+                            performances.cacheMiss.push(duration);
+                            socket.disconnect();
+                            resolve();
+                        });
+                    });
+                    
+                } catch (error) {
+                    addResult('performance-results', `❌ 오류 ${i}: ${error.message}`, 'error');
+                }
+            }
+            
+            // 결과 계산
+            const avgCacheMiss = performances.cacheMiss.reduce((a, b) => a + b, 0) / performances.cacheMiss.length;
+            
+            addResult('performance-results', `📊 캐시 미스 평균: ${Math.round(avgCacheMiss)}ms`, 'cache-miss');
+            addResult('performance-results', `📈 총 요청 수: ${performances.cacheMiss.length}개`, 'performance');
+        }
+        
+        async function testStreamingWithCache() {
+            const container = document.getElementById('streaming-results');
+            container.innerHTML = '';
+            
+            addResult('streaming-results', '🔄 스트리밍+캐싱 통합 테스트 시작...');
+            
+            const testData = {
+                audioBlob: 'streaming_test',
+                voice: 'female',
+                prompt: 'Streaming with caching test'
+            };
+            
+            // 첫 번째 스트리밍 요청
+            const socket1 = io('/realtime');
+            const start1 = Date.now();
+            
+            socket1.on('connect', () => {
+                addResult('streaming-results', '🚀 첫 번째 스트리밍 시작...', 'cache-miss');
+                socket1.emit('stt_llm_tts', testData);
+            });
+            
+            socket1.on('stage', (data) => {
+                addResult('streaming-results', `${data.step}: ${JSON.stringify(data).slice(0, 100)}...`);
+            });
+            
+            socket1.on('complete', () => {
+                const time1 = Date.now() - start1;
+                addResult('streaming-results', `✅ 첫 번째 완료: ${time1}ms`, 'cache-miss');
+                socket1.disconnect();
+                
+                // 두 번째 동일한 요청
+                setTimeout(() => {
+                    const socket2 = io('/realtime');
+                    const start2 = Date.now();
+                    
+                    socket2.on('connect', () => {
+                        addResult('streaming-results', '🚀 두 번째 스트리밍 시작 (캐시 효과 기대)...', 'cache-hit');
+                        socket2.emit('stt_llm_tts', testData);
+                    });
+                    
+                    socket2.on('stage', (data) => {
+                        addResult('streaming-results', `${data.step} (cached): ${JSON.stringify(data).slice(0, 100)}...`);
+                    });
+                    
+                    socket2.on('complete', () => {
+                        const time2 = Date.now() - start2;
+                        addResult('streaming-results', `✅ 두 번째 완료: ${time2}ms`, 'cache-hit');
+                        addResult('streaming-results', `📊 스트리밍 성능 개선: ${Math.round((1 - time2/time1) * 100)}%`, 'performance');
+                        socket2.disconnect();
+                    });
+                }, 1500);
+            });
+        }
+    </script>
+</body>
+</html>

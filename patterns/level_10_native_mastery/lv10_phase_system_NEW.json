@@ -1,0 +1,10 @@
+{
+  "levelInfo": {
+    "level": 10,
+    "title": "네이티브 숙련도",
+    "description": "Level 10: 네이티브 수준 숙련도와 문화적 뉘앙스",
+    "difficulty": "native",
+    "estimatedHours": 120
+  },
+  "phases": []
+}

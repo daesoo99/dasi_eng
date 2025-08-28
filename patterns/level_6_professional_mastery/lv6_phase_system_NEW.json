@@ -1,0 +1,10 @@
+{
+  "levelInfo": {
+    "level": 6,
+    "title": "전문직 숙련도",
+    "description": "Level 6: 전문직 숙련도와 도메인 전문성",
+    "difficulty": "advanced",
+    "estimatedHours": 80
+  },
+  "phases": []
+}

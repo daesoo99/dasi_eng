@@ -1,0 +1,79 @@
+{
+  "id": "Lv9-M10-S47",
+  "title": "문화 간 전문적 소통 (Cross-cultural Professional Communication)",
+  "intent": "다양한 문화적 배경을 가진 전문가들과 효과적으로 소통하며 문화적 차이를 존중하면서 전문적 목표를 달성하는 통합적 담화 능력을 기른다.",
+  "focus": [
+    "CROSS-CULTURAL-COMPETENCE",
+    "PROFESSIONAL-INTEGRATION", 
+    "CULTURAL-SENSITIVITY",
+    "GLOBAL-COMMUNICATION",
+    "INCLUSIVE-LEADERSHIP"
+  ],
+  "lexset": [
+    "Cultural perspectives enrich our understanding..., Diverse viewpoints strengthen..., We acknowledge different approaches to..., Cultural context informs..., Global collaboration requires..., Inclusive practices ensure..., Cultural competency demands..., International standards recognize..., Multicultural teams benefit from..., Cross-cultural dialogue promotes..."
+  ],
+  "traps": [
+    "문화적 고정관념 피하기",
+    "포용적 언어 사용",
+    "문화적 차이와 전문적 기준의 균형",
+    "글로벌 표준과 지역적 특성 조화"
+  ],
+  "bankMin": 60,
+  "forms": {
+    "aff": 0.8,
+    "neg": 0.1,
+    "wh_q": 0.1
+  },
+  "variants": [
+    "문화권 조합 (East-West, North-South, multicultural)",
+    "전문 분야 (business, academic, diplomatic)",
+    "소통 맥락 (formal, informal, crisis)"
+  ],
+  "engine": {
+    "randomPick": [6, 10],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "문화적 관점이 우리의 이해를 풍부하게 합니다.",
+      "en": "Cultural perspectives enrich our collective understanding."
+    },
+    {
+      "kr": "다양한 관점이 우리의 해결책을 강화합니다.",
+      "en": "Diverse viewpoints strengthen our solutions."
+    },
+    {
+      "kr": "우리는 문제 접근의 다양한 방식을 인정합니다.",
+      "en": "We acknowledge different approaches to problem-solving."
+    },
+    {
+      "kr": "문화적 맥락이 의사결정 과정에 영향을 줍니다.",
+      "en": "Cultural context informs our decision-making process."
+    },
+    {
+      "kr": "글로벌 협력에는 상호 존중이 필요합니다.",
+      "en": "Global collaboration requires mutual respect."
+    },
+    {
+      "kr": "포용적 관행이 모든 구성원의 참여를 보장합니다.",
+      "en": "Inclusive practices ensure everyone's participation."
+    },
+    {
+      "kr": "문화적 역량은 지속적인 학습을 요구합니다.",
+      "en": "Cultural competency demands continuous learning."
+    },
+    {
+      "kr": "국제 표준이 다양성의 가치를 인정합니다.",
+      "en": "International standards recognize the value of diversity."
+    },
+    {
+      "kr": "다문화 팀은 창의적 사고의 혜택을 받습니다.",
+      "en": "Multicultural teams benefit from creative thinking."
+    },
+    {
+      "kr": "문화 간 대화가 혁신을 촉진합니다.",
+      "en": "Cross-cultural dialogue promotes innovation."
+    }
+  ]
+}

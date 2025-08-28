@@ -76,10 +76,12 @@ We are developing DASI English following a phased, agile approach focused on rap
 ├── backend/         # Node.js backend server & Python services
 ├── web_app/         # React frontend application
 ├── flutter_app/     # (Future) Flutter mobile application
+├── utils/           # Data migration & validation tools
 └── docs/            # Detailed documentation
     ├── ARCHITECTURE.md
     ├── DEVELOPMENT_ROADMAP.md
-    └── LEARNING_SYSTEM.md
+    ├── LEARNING_SYSTEM.md
+    └── migration/     # Data migration tools documentation
 ```
 
 ## Quick Start

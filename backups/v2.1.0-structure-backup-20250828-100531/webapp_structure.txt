@@ -1,0 +1,18 @@
+total 73
+drwxr-xr-x 1 kimdaesoo 197121    0 Aug 28 04:46 .
+drwxr-xr-x 1 kimdaesoo 197121    0 Aug 28 09:51 ..
+-rw-r--r-- 1 kimdaesoo 197121 6552 Aug 28 04:46 App.tsx
+drwxr-xr-x 1 kimdaesoo 197121    0 Aug 28 04:46 components
+drwxr-xr-x 1 kimdaesoo 197121    0 Aug 23 02:25 config
+drwxr-xr-x 1 kimdaesoo 197121    0 Aug 19 00:53 data
+-rw-r--r-- 1 kimdaesoo 197121  444 Aug  9 15:58 env.d.ts
+drwxr-xr-x 1 kimdaesoo 197121    0 Aug 28 04:39 hooks
+drwxr-xr-x 1 kimdaesoo 197121    0 Aug  9 15:58 i18n
+-rw-r--r-- 1 kimdaesoo 197121 3333 Aug 27 19:29 index.css
+-rw-r--r-- 1 kimdaesoo 197121 1183 Aug 15 03:12 index.tsx
+drwxr-xr-x 1 kimdaesoo 197121    0 Aug 19 14:16 lib
+drwxr-xr-x 1 kimdaesoo 197121    0 Aug 28 04:42 pages
+drwxr-xr-x 1 kimdaesoo 197121    0 Aug 28 09:47 services
+drwxr-xr-x 1 kimdaesoo 197121    0 Aug 18 16:12 store
+drwxr-xr-x 1 kimdaesoo 197121    0 Aug 19 14:05 types
+drwxr-xr-x 1 kimdaesoo 197121    0 Aug 19 00:58 utils

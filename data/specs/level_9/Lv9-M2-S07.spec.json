@@ -1,0 +1,79 @@
+{
+  "id": "Lv9-M2-S07",
+  "title": "재무 분석과 투자 제안 (Financial Analysis and Investment Proposals)",
+  "intent": "복잡한 재무 데이터를 분석하고 투자 제안을 전문적이고 설득력 있게 프레젠테이션하는 고급 비즈니스 담화 능력을 기른다.",
+  "focus": [
+    "FINANCIAL-TERMINOLOGY",
+    "INVESTMENT-ANALYSIS", 
+    "ROI-CALCULATION",
+    "RISK-ASSESSMENT",
+    "STRATEGIC-RECOMMENDATION"
+  ],
+  "lexset": [
+    "The financial projections indicate..., ROI is projected at..., Our analysis reveals..., Cash flow projections suggest..., The investment opportunity presents..., Risk factors include..., The break-even point is estimated at..., Market capitalization has grown by..., EBITDA margins demonstrate..., The valuation methodology considers..."
+  ],
+  "traps": [
+    "재무 용어의 정확한 사용",
+    "수치 표현의 정밀성",
+    "리스크와 기회의 균형적 제시",
+    "투자 권고의 논리적 근거 제시"
+  ],
+  "bankMin": 60,
+  "forms": {
+    "aff": 0.7,
+    "neg": 0.2,
+    "wh_q": 0.1
+  },
+  "variants": [
+    "투자 유형 (equity, debt, hybrid)",
+    "시간 범위 (short-term, long-term)",
+    "리스크 수준 (conservative, aggressive)"
+  ],
+  "engine": {
+    "randomPick": [6, 10],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "재무 예측은 향후 3년간 25% 성장을 나타냅니다.",
+      "en": "The financial projections indicate 25% growth over the next three years."
+    },
+    {
+      "kr": "투자수익률은 18%로 예상됩니다.",
+      "en": "ROI is projected at 18%."
+    },
+    {
+      "kr": "우리의 분석은 강력한 시장 기회를 보여줍니다.",
+      "en": "Our analysis reveals a strong market opportunity."
+    },
+    {
+      "kr": "현금 흐름 예측은 2년 내 흑자전환을 시사합니다.",
+      "en": "Cash flow projections suggest profitability within two years."
+    },
+    {
+      "kr": "이 투자 기회는 상당한 성장 잠재력을 제시합니다.",
+      "en": "The investment opportunity presents significant growth potential."
+    },
+    {
+      "kr": "위험 요소로는 시장 변동성과 규제 변화가 있습니다.",
+      "en": "Risk factors include market volatility and regulatory changes."
+    },
+    {
+      "kr": "손익분기점은 18개월로 추정됩니다.",
+      "en": "The break-even point is estimated at 18 months."
+    },
+    {
+      "kr": "시가총액은 지난해 대비 40% 성장했습니다.",
+      "en": "Market capitalization has grown by 40% year-over-year."
+    },
+    {
+      "kr": "EBITDA 마진은 건전한 수익성을 보여줍니다.",
+      "en": "EBITDA margins demonstrate healthy profitability."
+    },
+    {
+      "kr": "평가 방법론은 비교 가능한 기업 분석을 고려합니다.",
+      "en": "The valuation methodology considers comparable company analysis."
+    }
+  ]
+}

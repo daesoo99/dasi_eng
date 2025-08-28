@@ -1,0 +1,98 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DASI Version Configuration",
+  "description": "데이터 버전 관리 설정 및 호환성 매트릭스",
+  "currentVersion": "1.0.0",
+  "schemaVersion": "1.0.0",
+  "supportedVersions": [
+    {
+      "version": "1.0.0",
+      "releaseDate": "2025-08-27",
+      "status": "stable",
+      "description": "초기 안정 릴리즈",
+      "breaking": false,
+      "deprecated": false
+    },
+    {
+      "version": "1.1.0",
+      "releaseDate": "2025-09-15",
+      "status": "planned",
+      "description": "IPA 발음 기호 추가",
+      "breaking": false,
+      "deprecated": false
+    },
+    {
+      "version": "2.0.0",
+      "releaseDate": "2025-12-01", 
+      "status": "planned",
+      "description": "AI 개인화 학습 데이터 구조 추가",
+      "breaking": true,
+      "deprecated": false
+    }
+  ],
+  "compatibility": {
+    "api": {
+      "1.0.0": ["1.0.0", "1.1.0"],
+      "1.1.0": ["1.0.0", "1.1.0", "2.0.0"],
+      "2.0.0": ["2.0.0"]
+    },
+    "mobile": {
+      "flutter": {
+        "minVersion": "3.16.0",
+        "supportedDataVersions": ["1.0.0", "1.1.0"]
+      },
+      "react-native": {
+        "minVersion": "0.72.0", 
+        "supportedDataVersions": ["1.0.0"]
+      }
+    },
+    "web": {
+      "react": {
+        "minVersion": "18.2.0",
+        "supportedDataVersions": ["1.0.0", "1.1.0", "2.0.0"]
+      }
+    }
+  },
+  "migrationPaths": [
+    {
+      "from": "1.0.0",
+      "to": "1.1.0",
+      "automatic": true,
+      "script": "migrate-1.0-to-1.1.js",
+      "description": "IPA 필드 추가, 기존 데이터 호환"
+    },
+    {
+      "from": "1.1.0", 
+      "to": "2.0.0",
+      "automatic": false,
+      "script": "migrate-1.1-to-2.0.js",
+      "description": "AI 학습 데이터 구조 변경, 수동 검토 필요"
+    }
+  ],
+  "validation": {
+    "strictMode": true,
+    "allowAdditionalProperties": false,
+    "requiredFields": ["version"],
+    "customValidators": [
+      "semantic-version-validator",
+      "korean-text-validator",
+      "english-grammar-validator"
+    ]
+  },
+  "rollback": {
+    "enabled": true,
+    "maxRollbackVersions": 3,
+    "backupLocation": "backups/curriculum/{version}",
+    "autoBackup": true
+  },
+  "deployment": {
+    "stagingFirst": true,
+    "canaryPercentage": 10,
+    "rolloutSpeed": "gradual",
+    "healthChecks": [
+      "schema-validation",
+      "api-compatibility",
+      "mobile-sync-test"
+    ]
+  }
+}

@@ -1,0 +1,1534 @@
+{
+  "level": 5,
+  "title": "전문 분야 소통 및 관용표현",
+  "description": "고급 비즈니스 및 학술 담화에 필수적인 표현들을 익혀 실제 업무나 고급 토론에서도 유창하게 말할 수 있게 합니다. 복잡한 문법을 연습하지만, 문법 자체보다도 상황별 적합한 어휘와 어조에 더 중점을 둡니다.",
+  "total_phases": 6,
+  "total_stages": 31,
+  "revision_info": {
+    "date": "2025-08-24",
+    "reason": "master_roadmap_lv4~6.md를 기반으로 Level 5 스테이지 시스템 생성",
+    "changes": "Phase별 Stage 구성, 각 Stage별 drill 설정 및 상세 slots 구현"
+  },
+  "phases": [
+    {
+      "phase_id": 1,
+      "title": "고급 시제와 도치 (Complex Tenses & Inversions)",
+      "stages": ["Lv5-P1-S01", "Lv5-P1-S02", "Lv5-P1-S03", "Lv5-P1-S04", "Lv5-P1-S05"]
+    },
+    {
+      "phase_id": 2,
+      "title": "관계사·분사 결합 구조 (Advanced Relatives & Compressions)",
+      "stages": ["Lv5-P2-S06", "Lv5-P2-S07", "Lv5-P2-S08", "Lv5-P2-S09", "Lv5-P2-S10"]
+    },
+    {
+      "phase_id": 3,
+      "title": "부사 활용과 연결 (Adverbial Phrases & Linking)",
+      "stages": ["Lv5-P3-S11", "Lv5-P3-S12", "Lv5-P3-S13"]
+    },
+    {
+      "phase_id": 4,
+      "title": "말투와 화법 조절 (Tone & Register Control)",
+      "stages": ["Lv5-P4-S14", "Lv5-P4-S15", "Lv5-P4-S16", "Lv5-P4-S17", "Lv5-P4-S18", "Lv5-P4-S19"]
+    },
+    {
+      "phase_id": 5,
+      "title": "고급 담화 기술 (Advanced Discourse Techniques)",
+      "stages": ["Lv5-P5-S20", "Lv5-P5-S21", "Lv5-P5-S22", "Lv5-P5-S23", "Lv5-P5-S24", "Lv5-P5-S25", "Lv5-P5-S26"]
+    },
+    {
+      "phase_id": 6,
+      "title": "원어민 관용 표현 (Native-level Idiomatic Expressions)",
+      "stages": ["Lv5-P6-S27", "Lv5-P6-S28", "Lv5-P6-S29", "Lv5-P6-S30", "Lv5-P6-S31"]
+    }
+  ],
+  "stages": [
+    {
+      "stage_id": "Lv5-P1-S01",
+      "title": "미래완료 수동태",
+      "pattern": "FUTURE-PERFECT-PASSIVE",
+      "classification": "tense",
+      "phase": 1,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.2
+      },
+      "slots": [
+        {
+          "korean": "다음 달까지 공사가 완료될 것입니다.",
+          "english": "The construction will have been completed by next month."
+        },
+        {
+          "korean": "보고서는 금요일까지 제출될 것입니다.",
+          "english": "The report will have been submitted by Friday."
+        },
+        {
+          "korean": "프로젝트는 12월까지 마무리될 예정입니다.",
+          "english": "The project will have been finished by December."
+        },
+        {
+          "korean": "문제들이 회의 전까지 해결될 것입니다.",
+          "english": "The issues will have been resolved before the meeting."
+        },
+        {
+          "korean": "새 정책이 내년까지 시행될 것입니다.",
+          "english": "The new policy will have been implemented by next year."
+        },
+        {
+          "korean": "계약서는 다음 주까지 검토될 것입니다.",
+          "english": "The contract will have been reviewed by next week."
+        },
+        {
+          "korean": "모든 데이터가 월말까지 분석될 것입니다.",
+          "english": "All data will have been analyzed by the end of the month."
+        },
+        {
+          "korean": "시스템은 업그레이드 후 테스트될 것입니다.",
+          "english": "The system will have been tested after the upgrade."
+        }
+      ],
+      "tags": ["future-perfect", "passive-voice", "business", "formal"]
+    },
+    {
+      "stage_id": "Lv5-P1-S02",
+      "title": "가정법 과거완료 진행",
+      "pattern": "SUBJUNCTIVE-PAST-PERFECT-CONTINUOUS",
+      "classification": "conditional",
+      "phase": 1,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.3
+      },
+      "slots": [
+        {
+          "korean": "지속적으로 운동했더라면 체중을 감량했을 텐데.",
+          "english": "If I had been working out regularly, I would have lost weight."
+        },
+        {
+          "korean": "계속 공부했더라면 시험에 합격했을 것입니다.",
+          "english": "If she had been studying continuously, she would have passed the exam."
+        },
+        {
+          "korean": "더 열심히 일했더라면 승진했을 텐데.",
+          "english": "If he had been working harder, he would have been promoted."
+        },
+        {
+          "korean": "돈을 계속 저축했더라면 집을 샀을 것입니다.",
+          "english": "If we had been saving money, we would have bought a house."
+        },
+        {
+          "korean": "영어를 꾸준히 연습했더라면 유창해졌을 텐데.",
+          "english": "If I had been practicing English consistently, I would have become fluent."
+        },
+        {
+          "korean": "건강에 더 신경 썼더라면 지금 아프지 않았을 것입니다.",
+          "english": "If he had been taking better care of his health, he wouldn't be sick now."
+        },
+        {
+          "korean": "투자를 계속했더라면 지금 부자가 되었을 텐데.",
+          "english": "If they had been investing continuously, they would be rich now."
+        },
+        {
+          "korean": "더 주의 깊게 운전했더라면 사고가 없었을 것입니다.",
+          "english": "If she had been driving more carefully, there would have been no accident."
+        }
+      ],
+      "tags": ["subjunctive", "past-perfect-continuous", "hypothetical", "regret"]
+    },
+    {
+      "stage_id": "Lv5-P1-S03",
+      "title": "조건절 압축 도치",
+      "pattern": "CONDITIONAL-INVERSION",
+      "classification": "conditional-inversion",
+      "phase": 1,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.4
+      },
+      "slots": [
+        {
+          "korean": "그것에 대해 알았더라면 다르게 행동했을 것입니다.",
+          "english": "Had I known about it, I would have acted differently."
+        },
+        {
+          "korean": "내가 너라면 사과하겠습니다.",
+          "english": "Were I you, I would apologize."
+        },
+        {
+          "korean": "도움이 필요하시면 저에게 알려주세요.",
+          "english": "Should you need assistance, please let me know."
+        },
+        {
+          "korean": "더 일찍 출발했더라면 시간에 맞았을 텐데.",
+          "english": "Had we left earlier, we would have been on time."
+        },
+        {
+          "korean": "돈이 있다면 그 집을 사겠습니다.",
+          "english": "Were I to have money, I would buy that house."
+        },
+        {
+          "korean": "문제가 생기면 즉시 연락하세요.",
+          "english": "Should any problems arise, contact us immediately."
+        },
+        {
+          "korean": "진실을 알았더라면 그를 믿지 않았을 것입니다.",
+          "english": "Had I known the truth, I would not have trusted him."
+        },
+        {
+          "korean": "더 신중했다면 실수를 하지 않았을 텐데.",
+          "english": "Were I to be more careful, I wouldn't have made mistakes."
+        }
+      ],
+      "tags": ["conditional", "inversion", "formal", "hypothetical"]
+    },
+    {
+      "stage_id": "Lv5-P1-S04",
+      "title": "부정어 도치",
+      "pattern": "NEGATIVE-INVERSION",
+      "classification": "inversion",
+      "phase": 1,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.3
+      },
+      "slots": [
+        {
+          "korean": "그것이 함정인 줄 전혀 몰랐습니다.",
+          "english": "Little did I know that it was a trap."
+        },
+        {
+          "korean": "시작하자마자 비가 오기 시작했습니다.",
+          "english": "Hardly had we started when it began to rain."
+        },
+        {
+          "korean": "그런 경우는 거의 보지 못했습니다.",
+          "english": "Rarely have I seen such a case."
+        },
+        {
+          "korean": "그 소식을 들은 적이 전혀 없습니다.",
+          "english": "Never have I heard such news."
+        },
+        {
+          "korean": "도착하자마자 전화가 울렸습니다.",
+          "english": "Scarcely had I arrived when the phone rang."
+        },
+        {
+          "korean": "그런 실수는 좀처럼 하지 않습니다.",
+          "english": "Seldom do I make such mistakes."
+        },
+        {
+          "korean": "문을 열자마자 고양이가 뛰어나왔습니다.",
+          "english": "No sooner had I opened the door than the cat ran out."
+        },
+        {
+          "korean": "그런 헌신을 좀처럼 볼 수 없습니다.",
+          "english": "Rarely do we see such dedication."
+        }
+      ],
+      "tags": ["negative-inversion", "emphasis", "literary", "formal"]
+    },
+    {
+      "stage_id": "Lv5-P1-S05",
+      "title": "강조 도치",
+      "pattern": "EMPHASIS-INVERSION",
+      "classification": "inversion",
+      "phase": 1,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.3
+      },
+      "slots": [
+        {
+          "korean": "그때서야 비로소 실수를 깨달았습니다.",
+          "english": "Only then did I realize my mistake."
+        },
+        {
+          "korean": "집에 도착한 후에야 열쇠를 잃어버린 것을 알았습니다.",
+          "english": "Only after arriving home did I realize I had lost my keys."
+        },
+        {
+          "korean": "열심히 공부해야만 성공할 수 있습니다.",
+          "english": "Only by studying hard can you succeed."
+        },
+        {
+          "korean": "그때서야 문제의 심각성을 이해했습니다.",
+          "english": "Only then did we understand the seriousness of the problem."
+        },
+        {
+          "korean": "팀워크를 통해서만 목표를 달성할 수 있습니다.",
+          "english": "Only through teamwork can we achieve our goals."
+        },
+        {
+          "korean": "모든 정보를 얻은 후에야 결정을 내렸습니다.",
+          "english": "Only after getting all the information did I make a decision."
+        },
+        {
+          "korean": "경험을 통해서만 진정한 지혜를 얻을 수 있습니다.",
+          "english": "Only through experience can one gain true wisdom."
+        },
+        {
+          "korean": "그 순간에서야 진실을 알게 되었습니다.",
+          "english": "Only at that moment did I learn the truth."
+        }
+      ],
+      "tags": ["only-inversion", "emphasis", "formal", "rhetoric"]
+    },
+    {
+      "stage_id": "Lv5-P2-S06",
+      "title": "전치사+관계대명사 도치",
+      "pattern": "PREPOSITION-RELATIVE-INVERSION",
+      "classification": "relative-clause",
+      "phase": 2,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.2
+      },
+      "slots": [
+        {
+          "korean": "제가 대화한 그 사람이 도움이 되었습니다.",
+          "english": "The person to whom I spoke was helpful."
+        },
+        {
+          "korean": "우리가 작업하는 프로젝트는 중요합니다.",
+          "english": "The project on which we are working is important."
+        },
+        {
+          "korean": "그가 의지하는 시스템은 오래되었습니다.",
+          "english": "The system on which he relies is outdated."
+        },
+        {
+          "korean": "그들이 살고 있는 집은 아름답습니다.",
+          "english": "The house in which they live is beautiful."
+        },
+        {
+          "korean": "우리가 토론한 주제는 복잡했습니다.",
+          "english": "The topic about which we discussed was complex."
+        },
+        {
+          "korean": "회사가 투자하는 분야는 기술입니다.",
+          "english": "The field in which the company invests is technology."
+        },
+        {
+          "korean": "제가 배운 선생님은 훌륭했습니다.",
+          "english": "The teacher from whom I learned was excellent."
+        },
+        {
+          "korean": "그들이 참여한 회의는 성공적이었습니다.",
+          "english": "The meeting in which they participated was successful."
+        }
+      ],
+      "tags": ["preposition", "relative-pronoun", "formal", "written-style"]
+    },
+    {
+      "stage_id": "Lv5-P2-S07",
+      "title": "관계절+분사구문 혼용",
+      "pattern": "RELATIVE-PARTICIPLE-MIXED",
+      "classification": "complex-structure",
+      "phase": 2,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.4
+      },
+      "slots": [
+        {
+          "korean": "저기 서 있는 저 남자는 내 삼촌인데, 내게 손을 흔드셨다.",
+          "english": "The man standing there, who is my uncle, waved at me."
+        },
+        {
+          "korean": "샘플이 들어있는 그 패키지는 어제 받은 것인데, 책상 위에 있습니다.",
+          "english": "The package containing the samples, which I received yesterday, is on the desk."
+        },
+        {
+          "korean": "열심히 일하는 그 직원은 새로 온 사람인데, 이미 좋은 성과를 보이고 있습니다.",
+          "english": "The employee working hard, who is new to the company, is already showing good results."
+        },
+        {
+          "korean": "창문 근처에 앉아 있는 그 여성은 우리 매니저인데, 회의를 준비하고 있습니다.",
+          "english": "The woman sitting by the window, who is our manager, is preparing for the meeting."
+        },
+        {
+          "korean": "정원에서 자라고 있는 그 꽃들은 장미인데, 매우 아름답습니다.",
+          "english": "The flowers growing in the garden, which are roses, are very beautiful."
+        },
+        {
+          "korean": "벽에 걸려 있는 그 그림은 피카소 작품인데, 매우 비쌉니다.",
+          "english": "The painting hanging on the wall, which is by Picasso, is very expensive."
+        },
+        {
+          "korean": "코너에서 연주하고 있는 그 밴드는 지역 그룹인데, 훌륭한 음악을 합니다.",
+          "english": "The band playing in the corner, which is a local group, makes excellent music."
+        },
+        {
+          "korean": "천천히 걸어가고 있는 그 노인은 우리 이웃인데, 매일 산책을 나옵니다.",
+          "english": "The elderly man walking slowly, who is our neighbor, goes for walks daily."
+        }
+      ],
+      "tags": ["relative-clause", "participle", "complex-structure", "descriptive"]
+    },
+    {
+      "stage_id": "Lv5-P2-S08",
+      "title": "명사절 주어화",
+      "pattern": "NOUN-CLAUSE-SUBJECT",
+      "classification": "noun-clause",
+      "phase": 2,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.3
+      },
+      "slots": [
+        {
+          "korean": "그녀가 시험에 떨어졌다는 것은 모두에게 놀라운 일이었다.",
+          "english": "That she failed the exam was surprising to everyone."
+        },
+        {
+          "korean": "회사가 확장한다는 것은 좋은 소식입니다.",
+          "english": "That the company is expanding is good news."
+        },
+        {
+          "korean": "그가 사임했다는 것이 확인되었습니다.",
+          "english": "That he resigned has been confirmed."
+        },
+        {
+          "korean": "프로젝트가 성공했다는 것은 팀 노력의 결과입니다.",
+          "english": "That the project succeeded is the result of team effort."
+        },
+        {
+          "korean": "그들이 결혼한다는 것이 발표되었습니다.",
+          "english": "That they are getting married has been announced."
+        },
+        {
+          "korean": "회의가 연기되었다는 것은 예상치 못한 일이었습니다.",
+          "english": "That the meeting was postponed was unexpected."
+        },
+        {
+          "korean": "시스템이 해킹되었다는 것이 보고되었습니다.",
+          "english": "That the system was hacked has been reported."
+        },
+        {
+          "korean": "그녀가 승진했다는 것은 당연한 결과였습니다.",
+          "english": "That she was promoted was a natural outcome."
+        }
+      ],
+      "tags": ["noun-clause", "subject-position", "formal", "report-style"]
+    },
+    {
+      "stage_id": "Lv5-P2-S09",
+      "title": "분사구문 심화",
+      "pattern": "ADVANCED-PARTICIPLE",
+      "classification": "participle",
+      "phase": 2,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.2
+      },
+      "slots": [
+        {
+          "korean": "프로젝트를 끝냈기에 쉬었습니다.",
+          "english": "Having finished the project, we took a break."
+        },
+        {
+          "korean": "그의 경험을 고려하면 성공할 것입니다.",
+          "english": "Given his experience, he will succeed."
+        },
+        {
+          "korean": "날씨를 고려하면 행사는 성공적이었습니다.",
+          "english": "Considering the weather, the event was a success."
+        },
+        {
+          "korean": "모든 준비를 마쳤으므로 시작할 수 있습니다.",
+          "english": "Having completed all preparations, we can start."
+        },
+        {
+          "korean": "상황을 감안하면 최선을 다했습니다.",
+          "english": "Considering the circumstances, we did our best."
+        },
+        {
+          "korean": "충분한 자료를 확보했으므로 결정할 수 있습니다.",
+          "english": "Having gathered sufficient data, we can make a decision."
+        },
+        {
+          "korean": "예산을 고려하면 이 계획이 최적입니다.",
+          "english": "Given the budget, this plan is optimal."
+        },
+        {
+          "korean": "시간이 부족함을 고려하여 계획을 수정했습니다.",
+          "english": "Considering the lack of time, we modified the plan."
+        }
+      ],
+      "tags": ["participle", "background-information", "formal", "advanced"]
+    },
+    {
+      "stage_id": "Lv5-P2-S10",
+      "title": "동명사 vs. to부정사",
+      "pattern": "GERUND-VS-INFINITIVE",
+      "classification": "verb-forms",
+      "phase": 2,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.3
+      },
+      "slots": [
+        {
+          "korean": "할 것을 기억하세요.",
+          "english": "Remember to do it."
+        },
+        {
+          "korean": "한 것을 기억합니다.",
+          "english": "I remember doing it."
+        },
+        {
+          "korean": "담배 피우려고 멈췄습니다.",
+          "english": "He stopped to smoke."
+        },
+        {
+          "korean": "담배 피우는 것을 그만뒀습니다.",
+          "english": "He stopped smoking."
+        },
+        {
+          "korean": "창문을 열려고 했습니다.",
+          "english": "I tried to open the window."
+        },
+        {
+          "korean": "창문 여는 것을 시도해봤습니다.",
+          "english": "I tried opening the window."
+        },
+        {
+          "korean": "전화하는 것을 잊지 마세요.",
+          "english": "Don't forget to call."
+        },
+        {
+          "korean": "전화했던 것을 잊어버렸습니다.",
+          "english": "I forgot calling."
+        }
+      ],
+      "tags": ["gerund", "infinitive", "meaning-difference", "tricky-grammar"]
+    },
+    {
+      "stage_id": "Lv5-P3-S11",
+      "title": "절 압축 부사구 활용",
+      "pattern": "COMPRESSED-ADVERBIAL",
+      "classification": "adverbial",
+      "phase": 3,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.2
+      },
+      "slots": [
+        {
+          "korean": "나가는 대신 집에 있었습니다.",
+          "english": "Instead of going out, we stayed home."
+        },
+        {
+          "korean": "작별인사도 없이 떠났습니다.",
+          "english": "He left without saying goodbye."
+        },
+        {
+          "korean": "우리를 만나기 전에 보고서를 끝냈습니다.",
+          "english": "Prior to meeting us, she had finished the report."
+        },
+        {
+          "korean": "계획을 바꾸는 대신 더 열심히 일했습니다.",
+          "english": "Instead of changing the plan, we worked harder."
+        },
+        {
+          "korean": "허락받지 않고 들어갔습니다.",
+          "english": "He entered without asking permission."
+        },
+        {
+          "korean": "회의하기 전에 자료를 준비했습니다.",
+          "english": "Prior to the meeting, we prepared the materials."
+        },
+        {
+          "korean": "포기하는 대신 계속 시도했습니다.",
+          "english": "Instead of giving up, she kept trying."
+        },
+        {
+          "korean": "설명하지 않고 떠났습니다.",
+          "english": "They left without explaining."
+        }
+      ],
+      "tags": ["instead-of", "without", "prior-to", "compression"]
+    },
+    {
+      "stage_id": "Lv5-P3-S12",
+      "title": "수식어 위치와 강조",
+      "pattern": "MODIFIER-POSITION-EMPHASIS",
+      "classification": "adverb-position",
+      "phase": 3,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.2
+      },
+      "slots": [
+        {
+          "korean": "그는 단순히 규칙을 무시했습니다.",
+          "english": "He simply ignored the rules."
+        },
+        {
+          "korean": "그는 규칙을 단순히 무시했습니다.",
+          "english": "He ignored the rules simply."
+        },
+        {
+          "korean": "분명히 그녀는 옳습니다.",
+          "english": "Clearly, she is right."
+        },
+        {
+          "korean": "그녀는 분명히 옳습니다.",
+          "english": "She is clearly right."
+        },
+        {
+          "korean": "솔직히 말해서 실망했습니다.",
+          "english": "Frankly speaking, I was disappointed."
+        },
+        {
+          "korean": "저는 솔직히 실망했습니다.",
+          "english": "I was frankly disappointed."
+        },
+        {
+          "korean": "놀랍게도 그가 이겼습니다.",
+          "english": "Surprisingly, he won."
+        },
+        {
+          "korean": "그는 놀랍게도 이겼습니다.",
+          "english": "He surprisingly won."
+        }
+      ],
+      "tags": ["adverb-position", "emphasis", "nuance", "style"]
+    },
+    {
+      "stage_id": "Lv5-P3-S13",
+      "title": "이중 접속사 활용",
+      "pattern": "CORRELATIVE-CONJUNCTIONS",
+      "classification": "conjunction",
+      "phase": 3,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.3
+      },
+      "slots": [
+        {
+          "korean": "그녀는 똑똑할 뿐만 아니라 부지런합니다.",
+          "english": "She is not only smart but also hardworking."
+        },
+        {
+          "korean": "우리는 차뿐만 아니라 커피도 있습니다.",
+          "english": "We have tea as well as coffee."
+        },
+        {
+          "korean": "보고서와 함께 이메일을 보냈습니다.",
+          "english": "Along with the report, I sent an email."
+        },
+        {
+          "korean": "그는 피아노뿐만 아니라 기타도 칩니다.",
+          "english": "He plays not only piano but also guitar."
+        },
+        {
+          "korean": "경험과 함께 열정도 필요합니다.",
+          "english": "Along with experience, passion is also needed."
+        },
+        {
+          "korean": "그 회사는 품질뿐만 아니라 서비스도 훌륭합니다.",
+          "english": "The company has not only quality but also excellent service."
+        },
+        {
+          "korean": "급여와 함께 복지혜택도 받습니다.",
+          "english": "Along with salary, we receive welfare benefits."
+        },
+        {
+          "korean": "실력뿐만 아니라 운도 필요합니다.",
+          "english": "You need not only skill but also luck."
+        }
+      ],
+      "tags": ["not-only-but-also", "as-well-as", "along-with", "correlative"]
+    },
+    {
+      "stage_id": "Lv5-P4-S14",
+      "title": "강한 의견 표명",
+      "pattern": "STRONG-OPINION",
+      "classification": "opinion-expression",
+      "phase": 4,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.2
+      },
+      "slots": [
+        {
+          "korean": "저는 교육이 가장 중요하다고 확신합니다.",
+          "english": "I firmly believe that education is the most important."
+        },
+        {
+          "korean": "저는 그 제안에 강력히 반대합니다.",
+          "english": "I strongly oppose that proposal."
+        },
+        {
+          "korean": "저는 변화가 필요하다고 확신합니다.",
+          "english": "I am convinced that change is necessary."
+        },
+        {
+          "korean": "저는 그 결정을 완전히 지지합니다.",
+          "english": "I completely support that decision."
+        },
+        {
+          "korean": "저는 그것이 옳지 않다고 단언합니다.",
+          "english": "I strongly maintain that it is not right."
+        },
+        {
+          "korean": "저는 더 나은 방법이 있다고 확신합니다.",
+          "english": "I am certain that there is a better way."
+        },
+        {
+          "korean": "저는 그 정책에 단호히 반대합니다.",
+          "english": "I am firmly against that policy."
+        },
+        {
+          "korean": "저는 품질이 최우선이라고 믿습니다.",
+          "english": "I strongly believe that quality comes first."
+        }
+      ],
+      "tags": ["strong-opinion", "conviction", "formal", "debate"]
+    },
+    {
+      "stage_id": "Lv5-P4-S15",
+      "title": "의견 완화",
+      "pattern": "SOFTENED-OPINION",
+      "classification": "polite-expression",
+      "phase": 4,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.2
+      },
+      "slots": [
+        {
+          "korean": "저는 그렇게 생각하는 편입니다.",
+          "english": "I tend to think that way."
+        },
+        {
+          "korean": "제게는 그렇게 보입니다.",
+          "english": "It seems to me that way."
+        },
+        {
+          "korean": "제 생각에는 더 나은 방법이 있을 것 같습니다.",
+          "english": "I have a feeling that there might be a better way."
+        },
+        {
+          "korean": "아마도 다른 접근법을 시도해볼 만할 것 같습니다.",
+          "english": "Perhaps we might want to try a different approach."
+        },
+        {
+          "korean": "제 개인적인 의견으로는 조금 어려울 것 같습니다.",
+          "english": "In my personal view, it might be a bit challenging."
+        },
+        {
+          "korean": "혹시 다시 생각해보는 것이 어떨까요?",
+          "english": "I wonder if we might want to reconsider."
+        },
+        {
+          "korean": "저로서는 좀 더 시간이 필요할 것 같습니다.",
+          "english": "I have a sense that we might need more time."
+        },
+        {
+          "korean": "제가 보기에는 다른 선택지도 있을 것 같습니다.",
+          "english": "It appears to me that there might be other options."
+        }
+      ],
+      "tags": ["softened-opinion", "polite", "tentative", "diplomatic"]
+    },
+    {
+      "stage_id": "Lv5-P4-S16",
+      "title": "회피/모호한 대답",
+      "pattern": "EVASIVE-RESPONSE",
+      "classification": "diplomatic-response",
+      "phase": 4,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.2
+      },
+      "slots": [
+        {
+          "korean": "말하지 않는 게 낫겠어요.",
+          "english": "I'd rather not say."
+        },
+        {
+          "korean": "상황에 따라 다르죠.",
+          "english": "It depends on the situation."
+        },
+        {
+          "korean": "그것에 대해서는 확신이 서지 않습니다.",
+          "english": "I'm not sure about that."
+        },
+        {
+          "korean": "좀 더 생각해봐야겠습니다.",
+          "english": "I need to think about it more."
+        },
+        {
+          "korean": "지금 당장은 답하기 어렵네요.",
+          "english": "It's hard to answer right now."
+        },
+        {
+          "korean": "여러 요인을 고려해야 합니다.",
+          "english": "We need to consider various factors."
+        },
+        {
+          "korean": "그것은 복잡한 문제입니다.",
+          "english": "That's a complex issue."
+        },
+        {
+          "korean": "시간을 두고 살펴봐야겠습니다.",
+          "english": "We need to look at it over time."
+        }
+      ],
+      "tags": ["evasive", "diplomatic", "ambiguous", "cautious"]
+    },
+    {
+      "stage_id": "Lv5-P4-S17",
+      "title": "정보 강조하기",
+      "pattern": "INFORMATION-EMPHASIS",
+      "classification": "emphasis",
+      "phase": 4,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.2
+      },
+      "slots": [
+        {
+          "korean": "중요한 것은 실수로부터 배우는 것입니다.",
+          "english": "What matters is that we learn from mistakes."
+        },
+        {
+          "korean": "요점은 시간을 절약하는 것입니다.",
+          "english": "The point is to save time."
+        },
+        {
+          "korean": "사실은 우리가 준비가 안 되어 있다는 것입니다.",
+          "english": "The fact is that we are not ready."
+        },
+        {
+          "korean": "다르게 말해보면 더 많은 자원이 필요합니다.",
+          "english": "Let me put it this way, we need more resources."
+        },
+        {
+          "korean": "핵심은 품질을 유지하는 것입니다.",
+          "english": "The key is to maintain quality."
+        },
+        {
+          "korean": "문제는 예산이 부족하다는 것입니다.",
+          "english": "The issue is that we lack budget."
+        },
+        {
+          "korean": "가장 중요한 것은 고객 만족입니다.",
+          "english": "What matters most is customer satisfaction."
+        },
+        {
+          "korean": "진실은 우리 모두 노력이 필요하다는 것입니다.",
+          "english": "The truth is that we all need to work harder."
+        }
+      ],
+      "tags": ["emphasis", "key-information", "clarification", "focus"]
+    },
+    {
+      "stage_id": "Lv5-P4-S18",
+      "title": "부연 설명 삽입",
+      "pattern": "ADDITIONAL-EXPLANATION",
+      "classification": "elaboration",
+      "phase": 4,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.2
+      },
+      "slots": [
+        {
+          "korean": "그는 복권에 당첨되었는데, 이는 그가 이제 부자라는 뜻입니다.",
+          "english": "He won the lottery, which means he's now rich."
+        },
+        {
+          "korean": "그녀는 승진했는데, 다시 말해 더 많은 책임을 지게 됩니다.",
+          "english": "She got promoted, that is to say, she has more responsibilities."
+        },
+        {
+          "korean": "프로젝트가 성공했는데, 바꿔 말하면 모든 목표를 달성했습니다.",
+          "english": "The project succeeded, in other words, we achieved all our goals."
+        },
+        {
+          "korean": "회의가 연기되었는데, 이것이 의미하는 바는 더 많은 준비 시간이 있다는 것입니다.",
+          "english": "The meeting was postponed, which means we have more preparation time."
+        },
+        {
+          "korean": "매출이 증가했는데, 즉 우리의 전략이 효과적이었습니다.",
+          "english": "Sales increased, that is to say, our strategy was effective."
+        },
+        {
+          "korean": "시스템이 업데이트되었는데, 다시 말해 더 빠른 처리가 가능합니다.",
+          "english": "The system was updated, in other words, faster processing is possible."
+        },
+        {
+          "korean": "계약이 체결되었는데, 이는 새로운 파트너십이 시작됨을 의미합니다.",
+          "english": "The contract was signed, which means a new partnership begins."
+        },
+        {
+          "korean": "정책이 변경되었는데, 즉 새로운 절차를 따라야 합니다.",
+          "english": "The policy changed, that is to say, we must follow new procedures."
+        }
+      ],
+      "tags": ["elaboration", "explanation", "clarification", "insertion"]
+    },
+    {
+      "stage_id": "Lv5-P4-S19",
+      "title": "청자 반응 유도",
+      "pattern": "AUDIENCE-ENGAGEMENT",
+      "classification": "interactive",
+      "phase": 4,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.1
+      },
+      "slots": [
+        {
+          "korean": "좋은 날씨죠?",
+          "english": "It's a nice day, isn't it?"
+        },
+        {
+          "korean": "우리가 시도해봐야 한다고 생각하지 않아요?",
+          "english": "We should try, don't you think?"
+        },
+        {
+          "korean": "그게 최선의 선택인 것 같아요, 그렇지 않나요?",
+          "english": "That seems like the best choice, doesn't it?"
+        },
+        {
+          "korean": "알겠죠?",
+          "english": "You know what I mean?"
+        },
+        {
+          "korean": "맞죠?",
+          "english": "Right?"
+        },
+        {
+          "korean": "정말 흥미로운 프로젝트네요, 그렇지 않아요?",
+          "english": "It's a really interesting project, isn't it?"
+        },
+        {
+          "korean": "우리가 빨리 결정해야 할 것 같아요, 어떻게 생각하세요?",
+          "english": "I think we need to decide quickly, what do you think?"
+        },
+        {
+          "korean": "그런 식으로 접근하는 게 좋겠어요, 동의하시죠?",
+          "english": "It would be good to approach it that way, don't you agree?"
+        }
+      ],
+      "tags": ["tag-questions", "engagement", "interactive", "conversation"]
+    },
+    {
+      "stage_id": "Lv5-P5-S20",
+      "title": "고급 전환 연결어",
+      "pattern": "ADVANCED-TRANSITIONS",
+      "classification": "discourse-markers",
+      "phase": 5,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.2
+      },
+      "slots": [
+        {
+          "korean": "정책이 수정되었습니다. 따라서 모든 직원들은 새로운 지침을 따라야 합니다.",
+          "english": "The policy was revised; accordingly, all employees must follow the new guidelines."
+        },
+        {
+          "korean": "이제부터 새로운 절차가 시행됩니다.",
+          "english": "Henceforth, new procedures will be implemented."
+        },
+        {
+          "korean": "그 후로 상황이 크게 개선되었습니다.",
+          "english": "Thereafter, the situation improved significantly."
+        },
+        {
+          "korean": "결과적으로 매출이 증가했습니다.",
+          "english": "Consequently, sales increased."
+        },
+        {
+          "korean": "따라서 계획을 변경해야 합니다.",
+          "english": "Hence, we need to change the plan."
+        },
+        {
+          "korean": "그러므로 추가 투자가 필요합니다.",
+          "english": "Thus, additional investment is required."
+        },
+        {
+          "korean": "오늘부터 새로운 규칙이 적용됩니다.",
+          "english": "From now on, new rules will apply."
+        },
+        {
+          "korean": "그럼에도 불구하고 목표를 달성했습니다.",
+          "english": "Nevertheless, we achieved our goals."
+        }
+      ],
+      "tags": ["advanced-transitions", "formal", "academic", "discourse"]
+    },
+    {
+      "stage_id": "Lv5-P5-S21",
+      "title": "논리적 조건-결과 구조",
+      "pattern": "CONDITION-RESULT-LOGIC",
+      "classification": "logical-structure",
+      "phase": 5,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.3
+      },
+      "slots": [
+        {
+          "korean": "자금 지원을 받는다고 가정하면 다음 달부터 프로젝트를 시작할 수 있습니다.",
+          "english": "Assuming that we get the funding, we can start the project next month."
+        },
+        {
+          "korean": "매출이 감소했다는 점을 고려할 때, 새로운 전략이 필요합니다.",
+          "english": "Given that sales have dropped, we need a new strategy."
+        },
+        {
+          "korean": "모든 조건이 충족된다는 전제하에 계약을 체결할 수 있습니다.",
+          "english": "Provided that all conditions are met, we can sign the contract."
+        },
+        {
+          "korean": "시장 상황이 개선될 것으로 예상되므로 투자를 확대할 예정입니다.",
+          "english": "As market conditions are expected to improve, we plan to expand investment."
+        },
+        {
+          "korean": "팀이 협력한다는 조건하에 성공할 수 있습니다.",
+          "english": "On condition that the team cooperates, we can succeed."
+        },
+        {
+          "korean": "경쟁이 치열해지고 있다는 점을 감안할 때, 혁신이 필수입니다.",
+          "english": "In view of the fact that competition is intensifying, innovation is essential."
+        },
+        {
+          "korean": "예산이 승인된다면 새로운 장비를 구입할 것입니다.",
+          "english": "In the event that the budget is approved, we will purchase new equipment."
+        },
+        {
+          "korean": "모든 부서가 참여한다는 가정하에 프로젝트가 성공할 것입니다.",
+          "english": "On the assumption that all departments participate, the project will succeed."
+        }
+      ],
+      "tags": ["logical-structure", "condition-result", "formal-reasoning", "academic"]
+    },
+    {
+      "stage_id": "Lv5-P5-S22",
+      "title": "토론/발표 진행 구문",
+      "pattern": "PRESENTATION-DISCOURSE",
+      "classification": "presentation",
+      "phase": 5,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.2
+      },
+      "slots": [
+        {
+          "korean": "보시다시피 매출이 10% 증가했습니다.",
+          "english": "As you can see, sales grew by 10%."
+        },
+        {
+          "korean": "다음 요점으로 넘어가겠습니다.",
+          "english": "Moving on to the next point."
+        },
+        {
+          "korean": "시장 동향을 살펴보겠습니다.",
+          "english": "Let's look at market trends."
+        },
+        {
+          "korean": "이것으로 첫 번째 부분을 마치겠습니다.",
+          "english": "This concludes the first section."
+        },
+        {
+          "korean": "질문이 있으시면 언제든지 말씀하세요.",
+          "english": "Please feel free to ask questions at any time."
+        },
+        {
+          "korean": "다음 슬라이드에서 보실 수 있듯이.",
+          "english": "As shown in the next slide."
+        },
+        {
+          "korean": "이 점을 더 자세히 설명하겠습니다.",
+          "english": "Let me elaborate on this point."
+        },
+        {
+          "korean": "요약하면 세 가지 주요 사항이 있습니다.",
+          "english": "To summarize, there are three key points."
+        }
+      ],
+      "tags": ["presentation", "discourse-markers", "formal-presentation", "structure"]
+    },
+    {
+      "stage_id": "Lv5-P5-S23",
+      "title": "예시 및 근거 제시",
+      "pattern": "EVIDENCE-EXAMPLES",
+      "classification": "argumentation",
+      "phase": 5,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.3
+      },
+      "slots": [
+        {
+          "korean": "이것은 최근 연구에서 분명히 드러납니다.",
+          "english": "This is evident in recent research."
+        },
+        {
+          "korean": "이러한 이유로 새로운 접근법이 필요합니다.",
+          "english": "For this reason, a new approach is needed."
+        },
+        {
+          "korean": "구글을 예로 들어보겠습니다.",
+          "english": "Take Google for example."
+        },
+        {
+          "korean": "데이터가 이를 뒷받침합니다.",
+          "english": "The data supports this."
+        },
+        {
+          "korean": "증거가 이를 보여줍니다.",
+          "english": "Evidence demonstrates this."
+        },
+        {
+          "korean": "연구 결과가 이를 확인합니다.",
+          "english": "Research findings confirm this."
+        },
+        {
+          "korean": "사례 연구를 보면 명확합니다.",
+          "english": "Case studies make it clear."
+        },
+        {
+          "korean": "통계가 이 추세를 나타냅니다.",
+          "english": "Statistics indicate this trend."
+        }
+      ],
+      "tags": ["evidence", "examples", "support", "argumentation"]
+    },
+    {
+      "stage_id": "Lv5-P5-S24",
+      "title": "반론 제기",
+      "pattern": "COUNTER-ARGUMENT",
+      "classification": "debate",
+      "phase": 5,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.3
+      },
+      "slots": [
+        {
+          "korean": "그와는 반대로 저는 다르게 생각합니다.",
+          "english": "On the contrary, I think differently."
+        },
+        {
+          "korean": "그것이 반드시 사실인 것은 아닙니다.",
+          "english": "That's not necessarily true."
+        },
+        {
+          "korean": "하지만 다른 관점에서 보면 다를 수 있습니다.",
+          "english": "However, from a different perspective, it might be different."
+        },
+        {
+          "korean": "그 논리에는 결함이 있습니다.",
+          "english": "There are flaws in that logic."
+        },
+        {
+          "korean": "증거가 그 주장을 뒷받침하지 않습니다.",
+          "english": "Evidence doesn't support that claim."
+        },
+        {
+          "korean": "그 가정은 의문의 여지가 있습니다.",
+          "english": "That assumption is questionable."
+        },
+        {
+          "korean": "반대되는 증거도 있습니다.",
+          "english": "There is also contradictory evidence."
+        },
+        {
+          "korean": "그 결론은 성급할 수 있습니다.",
+          "english": "That conclusion might be premature."
+        }
+      ],
+      "tags": ["counter-argument", "debate", "criticism", "challenge"]
+    },
+    {
+      "stage_id": "Lv5-P5-S25",
+      "title": "양보와 조건 혼합",
+      "pattern": "CONCESSION-CONDITION-MIX",
+      "classification": "complex-condition",
+      "phase": 5,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.4
+      },
+      "slots": [
+        {
+          "korean": "비싸더라도 시도해봐야 합니다.",
+          "english": "Even if it costs a lot, we should try."
+        },
+        {
+          "korean": "비가 오든 안 오든 행사는 계속됩니다.",
+          "english": "Whether or not it rains, the event will continue."
+        },
+        {
+          "korean": "아무리 힘들어도 포기하지 마세요.",
+          "english": "No matter how hard it gets, don't give up."
+        },
+        {
+          "korean": "결과가 어떻든 최선을 다했습니다.",
+          "english": "Whatever the outcome, we did our best."
+        },
+        {
+          "korean": "누가 반대하든 계획을 진행할 것입니다.",
+          "english": "Whoever opposes, we will proceed with the plan."
+        },
+        {
+          "korean": "시간이 얼마나 걸리든 완료할 것입니다.",
+          "english": "However long it takes, we will complete it."
+        },
+        {
+          "korean": "어떤 방법을 쓰든 목표를 달성하겠습니다.",
+          "english": "By whatever means, we will achieve our goal."
+        },
+        {
+          "korean": "어디를 가든 연락을 유지하겠습니다.",
+          "english": "Wherever we go, we will stay in touch."
+        }
+      ],
+      "tags": ["concession", "condition", "determination", "flexibility"]
+    },
+    {
+      "stage_id": "Lv5-P5-S26",
+      "title": "관용적 상황별 표현",
+      "pattern": "SITUATIONAL-IDIOMS",
+      "classification": "idioms",
+      "phase": 5,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.2
+      },
+      "slots": [
+        {
+          "korean": "일부러 반대 의견을 말해보겠습니다.",
+          "english": "Let me play devil's advocate."
+        },
+        {
+          "korean": "결정은 당신에게 달렸습니다.",
+          "english": "The ball is in your court."
+        },
+        {
+          "korean": "더 이상 미룰 수 없습니다.",
+          "english": "We can't beat around the bush anymore."
+        },
+        {
+          "korean": "핵심을 말씀하세요.",
+          "english": "Cut to the chase."
+        },
+        {
+          "korean": "어려운 결정을 내려야 합니다.",
+          "english": "We need to bite the bullet."
+        },
+        {
+          "korean": "모든 것을 걸겠습니다.",
+          "english": "I'm going to go all out."
+        },
+        {
+          "korean": "상황을 받아들여야 합니다.",
+          "english": "We have to face the music."
+        },
+        {
+          "korean": "기회를 놓치지 마세요.",
+          "english": "Don't miss the boat."
+        }
+      ],
+      "tags": ["idioms", "situational", "native-expressions", "cultural"]
+    },
+    {
+      "stage_id": "Lv5-P6-S27",
+      "title": "고급 구동사",
+      "pattern": "ADVANCED-PHRASAL-VERBS",
+      "classification": "phrasal-verbs",
+      "phase": 6,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.3
+      },
+      "slots": [
+        {
+          "korean": "우리는 계획을 수행해야 합니다.",
+          "english": "We need to carry out the plan."
+        },
+        {
+          "korean": "그는 놀라운 승리를 해냈습니다.",
+          "english": "He pulled off a surprising victory."
+        },
+        {
+          "korean": "그 소음을 더 이상 참을 수 없습니다.",
+          "english": "I can't put up with that noise anymore."
+        },
+        {
+          "korean": "그는 자신의 주장을 철회했습니다.",
+          "english": "He backed down from his position."
+        },
+        {
+          "korean": "제품 생산을 단계적으로 중단하겠습니다.",
+          "english": "We will phase out the product."
+        },
+        {
+          "korean": "문제들을 해결해야 합니다.",
+          "english": "We need to iron out the problems."
+        },
+        {
+          "korean": "핵심 이슈에 집중해야 합니다.",
+          "english": "We should zero in on the key issue."
+        },
+        {
+          "korean": "계획이 실현되지 않았습니다.",
+          "english": "The plan didn't pan out."
+        }
+      ],
+      "tags": ["phrasal-verbs", "business", "advanced", "professional"]
+    },
+    {
+      "stage_id": "Lv5-P6-S28",
+      "title": "흔한 관용구",
+      "pattern": "COMMON-IDIOMS",
+      "classification": "idioms",
+      "phase": 6,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.2
+      },
+      "slots": [
+        {
+          "korean": "공은 너에게 넘어갔다.",
+          "english": "The ball is in your court."
+        },
+        {
+          "korean": "정곡을 찔렀습니다.",
+          "english": "You hit the nail on the head."
+        },
+        {
+          "korean": "비밀을 누설하지 마세요.",
+          "english": "Don't let the cat out of the bag."
+        },
+        {
+          "korean": "시간을 낭비하고 있습니다.",
+          "english": "You're beating around the bush."
+        },
+        {
+          "korean": "쉬운 일이 아닙니다.",
+          "english": "It's not a piece of cake."
+        },
+        {
+          "korean": "돈을 낭비하고 있습니다.",
+          "english": "You're throwing money down the drain."
+        },
+        {
+          "korean": "비가 억수같이 내리고 있습니다.",
+          "english": "It's raining cats and dogs."
+        },
+        {
+          "korean": "그는 성격이 급합니다.",
+          "english": "He has a short fuse."
+        }
+      ],
+      "tags": ["idioms", "common", "everyday", "native-expressions"]
+    },
+    {
+      "stage_id": "Lv5-P6-S29",
+      "title": "비유적 표현",
+      "pattern": "METAPHORICAL-EXPRESSIONS",
+      "classification": "metaphors",
+      "phase": 6,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.2
+      },
+      "slots": [
+        {
+          "korean": "그것은 양날의 검입니다.",
+          "english": "It's a double-edged sword."
+        },
+        {
+          "korean": "전화위복이 되었습니다.",
+          "english": "It was a blessing in disguise."
+        },
+        {
+          "korean": "빙산의 일각일 뿐입니다.",
+          "english": "It's just the tip of the iceberg."
+        },
+        {
+          "korean": "마지막 지푸라기입니다.",
+          "english": "It's the last straw."
+        },
+        {
+          "korean": "바늘 찾기와 같습니다.",
+          "english": "It's like finding a needle in a haystack."
+        },
+        {
+          "korean": "벽에 대고 말하는 것과 같습니다.",
+          "english": "It's like talking to a brick wall."
+        },
+        {
+          "korean": "물에 빠진 생쥐 꼴입니다.",
+          "english": "I look like a drowned rat."
+        },
+        {
+          "korean": "등에 칼을 꽂았습니다.",
+          "english": "He stabbed me in the back."
+        }
+      ],
+      "tags": ["metaphors", "figurative", "imagery", "advanced-expressions"]
+    },
+    {
+      "stage_id": "Lv5-P6-S30",
+      "title": "자주 쓰는 콜로케이션",
+      "pattern": "COMMON-COLLOCATIONS",
+      "classification": "collocations",
+      "phase": 6,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.2
+      },
+      "slots": [
+        {
+          "korean": "노력하겠습니다.",
+          "english": "I will make an effort."
+        },
+        {
+          "korean": "책임을 지겠습니다.",
+          "english": "I will take responsibility."
+        },
+        {
+          "korean": "해를 끼치지 마세요.",
+          "english": "Don't do any harm."
+        },
+        {
+          "korean": "실수했습니다.",
+          "english": "I made a mistake."
+        },
+        {
+          "korean": "결정을 내려야 합니다.",
+          "english": "We need to make a decision."
+        },
+        {
+          "korean": "기회를 잡으세요.",
+          "english": "Take the opportunity."
+        },
+        {
+          "korean": "위험을 감수하겠습니다.",
+          "english": "I will take a risk."
+        },
+        {
+          "korean": "진전을 이뤄야 합니다.",
+          "english": "We need to make progress."
+        }
+      ],
+      "tags": ["collocations", "verb-noun", "natural-combinations", "fluency"]
+    },
+    {
+      "stage_id": "Lv5-P6-S31",
+      "title": "강조 콜로케이션",
+      "pattern": "EMPHASIS-COLLOCATIONS",
+      "classification": "intensive-collocations",
+      "phase": 6,
+      "drill": {
+        "delaySec": 1,
+        "randomize": true,
+        "minCorrectToAdvance": 6,
+        "reviewWeight": 1.2
+      },
+      "slots": [
+        {
+          "korean": "아주 그럴듯합니다.",
+          "english": "It's highly likely."
+        },
+        {
+          "korean": "매우 우려스럽습니다.",
+          "english": "I'm deeply concerned."
+        },
+        {
+          "korean": "강력히 권장됩니다.",
+          "english": "It's strongly recommended."
+        },
+        {
+          "korean": "완전히 만족했습니다.",
+          "english": "I'm utterly satisfied."
+        },
+        {
+          "korean": "극도로 중요합니다.",
+          "english": "It's vitally important."
+        },
+        {
+          "korean": "심각하게 손상되었습니다.",
+          "english": "It's severely damaged."
+        },
+        {
+          "korean": "완전히 다릅니다.",
+          "english": "It's totally different."
+        },
+        {
+          "korean": "매우 효과적입니다.",
+          "english": "It's highly effective."
+        }
+      ],
+      "tags": ["emphasis", "intensive", "strong-collocations", "advanced-vocabulary"]
+    }
+  ]
+}

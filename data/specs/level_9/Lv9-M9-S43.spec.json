@@ -1,0 +1,79 @@
+{
+  "id": "Lv9-M9-S43",
+  "title": "싱크탱크 토론과 정책 제안 (Think Tank Discussions and Policy Recommendations)",
+  "intent": "정책 연구 기관에서 복잡한 사회 문제를 분석하고 실행 가능한 정책 대안을 제시하는 전문가 수준의 담화 능력을 기른다.",
+  "focus": [
+    "POLICY-ANALYSIS",
+    "STRATEGIC-THINKING", 
+    "EVIDENCE-BASED-POLICY",
+    "STAKEHOLDER-CONSIDERATION",
+    "IMPLEMENTATION-PLANNING"
+  ],
+  "lexset": [
+    "Policy analysis suggests..., The evidence base indicates..., Strategic considerations include..., Implementation challenges involve..., Stakeholder interests must be balanced..., The policy framework should address..., Cost-benefit analysis reveals..., Alternative approaches might consider..., The political feasibility depends on..., Long-term implications suggest..."
+  ],
+  "traps": [
+    "이론과 실무의 균형",
+    "정치적 현실성 고려",
+    "다양한 이해관계자 관점",
+    "정책 실행 가능성 평가"
+  ],
+  "bankMin": 60,
+  "forms": {
+    "aff": 0.7,
+    "neg": 0.2,
+    "wh_q": 0.1
+  },
+  "variants": [
+    "정책 분야 (economic, social, foreign)",
+    "분석 깊이 (surface, comprehensive, comparative)",
+    "시급성 (immediate, medium-term, long-term)"
+  ],
+  "engine": {
+    "randomPick": [6, 10],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "정책 분석은 규제 개혁이 필요함을 시사합니다.",
+      "en": "Policy analysis suggests that regulatory reform is necessary."
+    },
+    {
+      "kr": "증거 기반은 현재 접근법의 한계를 보여줍니다.",
+      "en": "The evidence base indicates limitations of current approaches."
+    },
+    {
+      "kr": "전략적 고려사항에는 국제 동향이 포함됩니다.",
+      "en": "Strategic considerations include international trends."
+    },
+    {
+      "kr": "실행 과제에는 예산 제약이 포함됩니다.",
+      "en": "Implementation challenges involve budgetary constraints."
+    },
+    {
+      "kr": "이해관계자의 이익은 신중히 균형을 맞춰야 합니다.",
+      "en": "Stakeholder interests must be carefully balanced."
+    },
+    {
+      "kr": "정책 프레임워크는 지속가능성을 다뤄야 합니다.",
+      "en": "The policy framework should address sustainability concerns."
+    },
+    {
+      "kr": "비용편익 분석이 투자 우선순위를 보여줍니다.",
+      "en": "Cost-benefit analysis reveals investment priorities."
+    },
+    {
+      "kr": "대안적 접근법이 혁신적 해결책을 고려할 수 있습니다.",
+      "en": "Alternative approaches might consider innovative solutions."
+    },
+    {
+      "kr": "정치적 실행 가능성은 여론 지지에 달려있습니다.",
+      "en": "Political feasibility depends on public support."
+    },
+    {
+      "kr": "장기적 함의가 세대 간 형평성을 시사합니다.",
+      "en": "Long-term implications suggest intergenerational equity concerns."
+    }
+  ]
+}

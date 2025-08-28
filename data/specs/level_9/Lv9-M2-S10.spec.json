@@ -1,0 +1,79 @@
+{
+  "id": "Lv9-M2-S10",
+  "title": "국제 비즈니스 협상 (International Business Negotiations)",
+  "intent": "문화적 차이를 고려한 국제적 비즈니스 협상에서 효과적으로 소통하고 합의에 도달하는 전문적 담화 능력을 기른다.",
+  "focus": [
+    "INTERNATIONAL-PROTOCOL",
+    "CROSS-CULTURAL-COMMUNICATION", 
+    "NEGOTIATION-STRATEGY",
+    "DIPLOMATIC-BUSINESS",
+    "GLOBAL-PARTNERSHIPS"
+  ],
+  "lexset": [
+    "We propose a mutually beneficial arrangement..., Cultural considerations suggest..., Our global partners expect..., The international framework requires..., Cross-border regulations mandate..., We respectfully propose..., The terms and conditions reflect..., Joint venture opportunities..., Strategic alliance benefits..., International best practices indicate..."
+  ],
+  "traps": [
+    "문화적 민감성 표현",
+    "국제 비즈니스 예의",
+    "법적 조건의 정확한 표현",
+    "상호 이익의 균형적 제시"
+  ],
+  "bankMin": 60,
+  "forms": {
+    "aff": 0.7,
+    "neg": 0.2,
+    "wh_q": 0.1
+  },
+  "variants": [
+    "협상 스타일 (collaborative, competitive, accommodating)",
+    "문화권 (Western, Asian, Middle Eastern)",
+    "계약 유형 (licensing, joint venture, acquisition)"
+  ],
+  "engine": {
+    "randomPick": [6, 10],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "상호 이익이 되는 협력 관계를 제안합니다.",
+      "en": "We propose a mutually beneficial partnership arrangement."
+    },
+    {
+      "kr": "문화적 고려사항이 현지화 전략을 시사합니다.",
+      "en": "Cultural considerations suggest a localization strategy."
+    },
+    {
+      "kr": "우리의 글로벌 파트너들은 투명성을 기대합니다.",
+      "en": "Our global partners expect transparency in all dealings."
+    },
+    {
+      "kr": "국제 체계는 규제 준수를 요구합니다.",
+      "en": "The international framework requires regulatory compliance."
+    },
+    {
+      "kr": "국경 간 규정이 특별한 절차를 의무화합니다.",
+      "en": "Cross-border regulations mandate special procedures."
+    },
+    {
+      "kr": "조건과 약관이 양방의 이익을 반영합니다.",
+      "en": "The terms and conditions reflect mutual interests."
+    },
+    {
+      "kr": "합작 투자 기회가 시장 확장을 가능하게 합니다.",
+      "en": "Joint venture opportunities enable market expansion."
+    },
+    {
+      "kr": "전략적 제휴의 이익은 상당합니다.",
+      "en": "Strategic alliance benefits are substantial."
+    },
+    {
+      "kr": "국제 모범 사례가 이 접근법을 지지합니다.",
+      "en": "International best practices support this approach."
+    },
+    {
+      "kr": "협상 결과는 양측 모두에게 만족스럽습니다.",
+      "en": "The negotiation outcome is satisfactory to both parties."
+    }
+  ]
+}

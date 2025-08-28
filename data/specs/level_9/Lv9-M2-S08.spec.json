@@ -1,0 +1,79 @@
+{
+  "id": "Lv9-M2-S08",
+  "title": "시장 전략과 경쟁 분석 (Market Strategy and Competitive Analysis)",
+  "intent": "시장 동향을 분석하고 경쟁사 대비 우위를 확보하기 위한 전략적 제안을 전문적으로 발표하는 능력을 기른다.",
+  "focus": [
+    "COMPETITIVE-ANALYSIS",
+    "MARKET-POSITIONING", 
+    "STRATEGIC-PLANNING",
+    "COMPETITIVE-ADVANTAGE",
+    "MARKET-TRENDS"
+  ],
+  "lexset": [
+    "Market analysis indicates..., Our competitive positioning..., The strategic initiative aims to..., We hold a competitive advantage in..., Market penetration strategies include..., Competitive benchmarking reveals..., Our market share has increased by..., The competitive landscape shows..., Strategic differentiation through..., Market expansion opportunities..."
+  ],
+  "traps": [
+    "경쟁사 대비 객관적 분석",
+    "시장 데이터의 정확한 해석",
+    "전략적 우선순위의 명확한 제시",
+    "실행 가능한 액션 플랜 제시"
+  ],
+  "bankMin": 60,
+  "forms": {
+    "aff": 0.8,
+    "neg": 0.1,
+    "wh_q": 0.1
+  },
+  "variants": [
+    "시장 성숙도 (emerging, mature, declining)",
+    "경쟁 강도 (low, moderate, high)",
+    "전략 유형 (offensive, defensive, hybrid)"
+  ],
+  "engine": {
+    "randomPick": [6, 10],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "시장 분석은 새로운 기회를 보여줍니다.",
+      "en": "Market analysis indicates emerging opportunities."
+    },
+    {
+      "kr": "우리의 경쟁적 포지셔닝은 프리미엄 시장에 중점을 둡니다.",
+      "en": "Our competitive positioning focuses on the premium market segment."
+    },
+    {
+      "kr": "전략적 이니셔티브는 시장 점유율 확대를 목표로 합니다.",
+      "en": "The strategic initiative aims to expand market share."
+    },
+    {
+      "kr": "우리는 기술 혁신에서 경쟁 우위를 가지고 있습니다.",
+      "en": "We hold a competitive advantage in technological innovation."
+    },
+    {
+      "kr": "시장 침투 전략에는 디지털 채널 강화가 포함됩니다.",
+      "en": "Market penetration strategies include strengthening digital channels."
+    },
+    {
+      "kr": "경쟁사 벤치마킹은 우리의 강점을 확인해 줍니다.",
+      "en": "Competitive benchmarking reveals our key strengths."
+    },
+    {
+      "kr": "우리의 시장 점유율은 15% 증가했습니다.",
+      "en": "Our market share has increased by 15%."
+    },
+    {
+      "kr": "경쟁 환경은 통합의 트렌드를 보여줍니다.",
+      "en": "The competitive landscape shows consolidation trends."
+    },
+    {
+      "kr": "고객 경험을 통한 전략적 차별화가 필요합니다.",
+      "en": "Strategic differentiation through customer experience is essential."
+    },
+    {
+      "kr": "시장 확장 기회는 아시아 지역에 집중되어 있습니다.",
+      "en": "Market expansion opportunities are concentrated in the Asian region."
+    }
+  ]
+}

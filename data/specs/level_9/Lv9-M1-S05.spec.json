@@ -1,0 +1,79 @@
+{
+  "id": "Lv9-M1-S05",
+  "title": "동료 심사와 학술 토론 응답 (Peer Review and Academic Debate Responses)",
+  "intent": "학술적 비판에 대해 논리적이고 건설적으로 응답하며, 동료 심사 과정에서 요구되는 전문적 담화 능력을 기른다.",
+  "focus": [
+    "ACADEMIC-REBUTTAL",
+    "CONSTRUCTIVE-CRITICISM", 
+    "SCHOLARLY-DIALOGUE",
+    "EVIDENCE-BASED-RESPONSE",
+    "DIPLOMATIC-DISAGREEMENT"
+  ],
+  "lexset": [
+    "I appreciate the reviewer's concern, however..., While I acknowledge the limitation..., The criticism raises an important point..., I respectfully disagree with the assessment that..., Thank you for bringing this to our attention..., We have addressed this issue by..., The reviewer's suggestion merits consideration..., I would like to clarify our position on..."
+  ],
+  "traps": [
+    "비판에 대한 감정적 반응 피하기",
+    "건설적 vs 방어적 어조",
+    "겸손함과 확신의 균형",
+    "전문성을 유지하면서 disagreement 표현"
+  ],
+  "bankMin": 60,
+  "forms": {
+    "aff": 0.5,
+    "neg": 0.3,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "동의 수준 (partial, complete, conditional)",
+    "응답 태도 (defensive, receptive, clarifying)",
+    "수정 의지 (willing to revise, maintaining position)"
+  ],
+  "engine": {
+    "randomPick": [6, 10],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "검토자의 우려에 감사드리지만, 몇 가지 설명이 필요합니다.",
+      "en": "I appreciate the reviewer's concern, however, some clarification is needed."
+    },
+    {
+      "kr": "제한점을 인정하지만, 이것이 결과를 무효화하지는 않습니다.",
+      "en": "While I acknowledge the limitation, this does not invalidate our results."
+    },
+    {
+      "kr": "비판은 중요한 지점을 제기합니다.",
+      "en": "The criticism raises an important point."
+    },
+    {
+      "kr": "우리의 방법론이 부적절하다는 평가에 정중히 반대합니다.",
+      "en": "I respectfully disagree with the assessment that our methodology is inappropriate."
+    },
+    {
+      "kr": "이 문제를 지적해 주셔서 감사합니다.",
+      "en": "Thank you for bringing this issue to our attention."
+    },
+    {
+      "kr": "우리는 추가적인 통제 변수를 도입하여 이 문제를 해결했습니다.",
+      "en": "We have addressed this issue by introducing additional control variables."
+    },
+    {
+      "kr": "검토자의 제안은 고려할 가치가 있습니다.",
+      "en": "The reviewer's suggestion merits consideration."
+    },
+    {
+      "kr": "이 논점에 대한 우리의 입장을 명확히 하고 싶습니다.",
+      "en": "I would like to clarify our position on this point."
+    },
+    {
+      "kr": "우리는 이 데이터를 다른 관점에서 해석할 수 있습니다.",
+      "en": "We can interpret this data from an alternative perspective."
+    },
+    {
+      "kr": "건설적인 피드백에 감사드리며, 원고를 수정하겠습니다.",
+      "en": "We appreciate the constructive feedback and will revise the manuscript accordingly."
+    }
+  ]
+}

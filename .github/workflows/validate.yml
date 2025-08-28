@@ -1,0 +1,57 @@
+name: Validate Curriculum Data
+
+on:
+  pull_request:
+    paths:
+      - 'patterns/**/*.json'
+      - 'utils/**/*.js'
+      - 'utils/schemas/**/*.json'
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'patterns/**/*.json'
+      - 'utils/**/*.js'
+      - 'utils/schemas/**/*.json'
+
+jobs:
+  validate:
+    name: Schema Validation & Migration Test
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm ci
+      
+    - name: Validate all curriculum files
+      run: |
+        echo "🔍 Running strict validation on all curriculum files..."
+        node utils/validate-curriculum.js --glob "patterns/**/*.json" --strict
+        
+    - name: Test migration system (dry run)
+      run: |
+        echo "🧪 Testing migration system with dry run..."
+        npm run migrate:all:dry
+        
+    - name: Check migration status
+      run: |
+        echo "📊 Checking migration status..."
+        npm run migrate:status
+        
+    - name: Upload validation report
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: validation-report
+        path: |
+          .migrate_state.json
+          .batch_migrate.log
+        retention-days: 30

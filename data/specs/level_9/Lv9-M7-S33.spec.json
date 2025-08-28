@@ -1,0 +1,79 @@
+{
+  "id": "Lv9-M7-S33",
+  "title": "기자회견 관리와 Q&A 대응 (Press Conference Management and Q&A)",
+  "intent": "기자회견에서 효과적으로 정보를 전달하고 까다로운 질문에 대해 전문적이고 신뢰할 수 있는 답변을 하는 능력을 기른다.",
+  "focus": [
+    "PRESS-MANAGEMENT",
+    "Q-AND-A-SKILLS", 
+    "MEDIA-STRATEGY",
+    "MESSAGE-CONTROL",
+    "JOURNALIST-RELATIONS"
+  ],
+  "lexset": [
+    "I'd like to address that question by..., The facts clearly show..., Let me clarify our position on..., We remain committed to..., The data supports our decision to..., I can confirm that..., We will continue to monitor..., That's an important question..., Our policy clearly states..., We are transparent about..."
+  ],
+  "traps": [
+    "질문 회피 vs 직접적 답변",
+    "메시지 일관성 유지",
+    "예상치 못한 질문 대응",
+    "언론과의 관계 관리"
+  ],
+  "bankMin": 60,
+  "forms": {
+    "aff": 0.6,
+    "neg": 0.2,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "질문 유형 (factual, hypothetical, confrontational)",
+    "이슈 민감도 (routine, sensitive, controversial)",
+    "답변 스타일 (direct, diplomatic, deflecting)"
+  ],
+  "engine": {
+    "randomPick": [6, 10],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "그 질문에 대해 명확히 설명하겠습니다.",
+      "en": "I'd like to address that question with complete clarity."
+    },
+    {
+      "kr": "사실은 우리의 결정이 옳았음을 명백히 보여줍니다.",
+      "en": "The facts clearly show that our decision was correct."
+    },
+    {
+      "kr": "이 문제에 대한 우리의 입장을 명확히 하겠습니다.",
+      "en": "Let me clarify our position on this matter."
+    },
+    {
+      "kr": "우리는 투명성에 대한 약속을 유지하고 있습니다.",
+      "en": "We remain committed to complete transparency."
+    },
+    {
+      "kr": "데이터가 우리의 정책 결정을 뒷받침합니다.",
+      "en": "The data supports our policy decision."
+    },
+    {
+      "kr": "그 사실을 확인할 수 있습니다.",
+      "en": "I can confirm that information is accurate."
+    },
+    {
+      "kr": "우리는 상황을 지속적으로 모니터링할 것입니다.",
+      "en": "We will continue to monitor the situation closely."
+    },
+    {
+      "kr": "그것은 중요한 질문입니다.",
+      "en": "That's an extremely important question."
+    },
+    {
+      "kr": "우리의 정책이 명확히 명시하고 있습니다.",
+      "en": "Our policy clearly states our position."
+    },
+    {
+      "kr": "우리는 모든 절차에 대해 투명합니다.",
+      "en": "We are completely transparent about all procedures."
+    }
+  ]
+}

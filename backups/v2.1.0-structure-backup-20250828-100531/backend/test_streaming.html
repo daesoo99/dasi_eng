@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>비동기 스트리밍 테스트</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .log { background: #f5f5f5; padding: 10px; margin: 10px 0; border-radius: 5px; }
+        .stage { padding: 5px 0; }
+        .stage.complete { color: green; }
+        .stage.error { color: red; }
+        button { padding: 10px 20px; margin: 5px; }
+    </style>
+</head>
+<body>
+    <h1>비동기 처리 + 스트리밍 응답 테스트</h1>
+    
+    <button onclick="testStreaming()">스트리밍 테스트 시작</button>
+    <button onclick="clearLogs()">로그 지우기</button>
+    
+    <div id="logs"></div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const logsDiv = document.getElementById('logs');
+        
+        function addLog(message, className = '') {
+            const logDiv = document.createElement('div');
+            logDiv.className = `stage ${className}`;
+            logDiv.innerHTML = `[${new Date().toLocaleTimeString()}] ${message}`;
+            logsDiv.appendChild(logDiv);
+            logsDiv.scrollTop = logsDiv.scrollHeight;
+        }
+        
+        function clearLogs() {
+            logsDiv.innerHTML = '';
+        }
+        
+        function testStreaming() {
+            addLog('🔗 /realtime 네임스페이스 연결 시도...', 'info');
+            
+            // /realtime 네임스페이스에 연결
+            const socket = io('/realtime');
+            
+            socket.on('connect', () => {
+                addLog('✅ /realtime 네임스페이스 연결 성공', 'complete');
+                
+                // 테스트 페이로드 전송
+                const testPayload = {
+                    audioBlob: 'test-audio-data',
+                    voice: 'female',
+                    prompt: 'Test prompt for LLM processing'
+                };
+                
+                addLog('📤 stt_llm_tts 이벤트 전송...', 'info');
+                socket.emit('stt_llm_tts', testPayload);
+            });
+            
+            socket.on('stage', (data) => {
+                switch(data.step) {
+                    case 'STT_START':
+                        addLog('🎤 STT 처리 시작...', 'info');
+                        break;
+                    case 'STT_DONE':
+                        addLog(`✅ STT 완료: "${data.text}"`, 'complete');
+                        break;
+                    case 'LLM_START':
+                        addLog('🧠 LLM 처리 시작...', 'info');
+                        break;
+                    case 'LLM_DONE':
+                        addLog(`✅ LLM 완료: "${data.partial}"`, 'complete');
+                        break;
+                    case 'TTS_START':
+                        addLog('🔊 TTS 처리 시작...', 'info');
+                        break;
+                    case 'TTS_DONE':
+                        addLog(`✅ TTS 완료: ${data.audioUrl}`, 'complete');
+                        break;
+                }
+            });
+            
+            socket.on('complete', (data) => {
+                addLog('🎉 전체 파이프라인 완료!', 'complete');
+                socket.disconnect();
+            });
+            
+            socket.on('error', (data) => {
+                addLog(`❌ 오류 발생: ${data.message}`, 'error');
+                socket.disconnect();
+            });
+            
+            socket.on('disconnect', () => {
+                addLog('❌ 연결 해제', 'info');
+            });
+            
+            socket.on('connect_error', (error) => {
+                addLog(`❌ 연결 오류: ${error.message}`, 'error');
+            });
+        }
+    </script>
+</body>
+</html>

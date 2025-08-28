@@ -1,0 +1,84 @@
+{
+  "levelInfo": {
+    "level": 9,
+    "title": "전문가 담화 (Expert Discourse)",
+    "description": "Level 9: Expert-level professional discourse across specialized domains including academic, business, legal, diplomatic, and cultural contexts",
+    "difficulty": "expert_professional",
+    "estimatedHours": 140
+  },
+  "total_phases": 10,
+  "total_stages": 48,
+  "revision_info": {
+    "date": "2025-08-25",
+    "reason": "Comprehensive Level 9 expansion - 48 stages across 10 professional modules",
+    "changes": "Expanded to cover Academic Presentation, Business Strategy, Official Speeches, Legal Argumentation, Literary Analysis, International Conferences, Media Interviews, Creative Storytelling, Expert Discussions, and Integrated Practice"
+  },
+  "drill": {
+    "delaySec": 1,
+    "randomize": true,
+    "minCorrectToAdvance": 7,
+    "reviewWeight": 0.9
+  },
+  "phases": [
+    {
+      "phase_id": 1,
+      "title": "Academic Presentation and Research Discussion",
+      "description": "Master academic discourse patterns, research presentation skills, and scholarly debate techniques for academic and research environments.",
+      "stages": ["Lv9-M1-S01", "Lv9-M1-S02", "Lv9-M1-S03", "Lv9-M1-S04", "Lv9-M1-S05"]
+    },
+    {
+      "phase_id": 2,
+      "title": "Business Presentation and Negotiation",
+      "description": "Develop executive-level business communication, strategic presentation skills, and high-stakes negotiation abilities.",
+      "stages": ["Lv9-M2-S06", "Lv9-M2-S07", "Lv9-M2-S08", "Lv9-M2-S09", "Lv9-M2-S10"]
+    },
+    {
+      "phase_id": 3,
+      "title": "Official Speeches and Political Discourse",
+      "description": "Master formal speech patterns, diplomatic language, and persuasive rhetoric for public and political contexts.",
+      "stages": ["Lv9-M3-S11", "Lv9-M3-S12", "Lv9-M3-S13", "Lv9-M3-S14", "Lv9-M3-S15"]
+    },
+    {
+      "phase_id": 4,
+      "title": "Legal Argumentation and Debate",
+      "description": "Develop sophisticated legal reasoning, courtroom advocacy skills, and systematic argumentation techniques.",
+      "stages": ["Lv9-M4-S16", "Lv9-M4-S17", "Lv9-M4-S18", "Lv9-M4-S19", "Lv9-M4-S20"]
+    },
+    {
+      "phase_id": 5,
+      "title": "Literary Analysis and Criticism",
+      "description": "Master advanced literary discourse, critical analysis techniques, and cultural interpretation skills.",
+      "stages": ["Lv9-M5-S21", "Lv9-M5-S22", "Lv9-M5-S23", "Lv9-M5-S24", "Lv9-M5-S25"]
+    },
+    {
+      "phase_id": 6,
+      "title": "International Conferences and Diplomatic Dialogue",
+      "description": "Develop multilateral communication skills, diplomatic protocols, and international cooperation language.",
+      "stages": ["Lv9-M6-S26", "Lv9-M6-S27", "Lv9-M6-S28", "Lv9-M6-S29", "Lv9-M6-S30"]
+    },
+    {
+      "phase_id": 7,
+      "title": "Media Interviews and Public Debates",
+      "description": "Master media communication, crisis management language, and public forum debate techniques.",
+      "stages": ["Lv9-M7-S31", "Lv9-M7-S32", "Lv9-M7-S33", "Lv9-M7-S34", "Lv9-M7-S35"]
+    },
+    {
+      "phase_id": 8,
+      "title": "Creative Storytelling and Persuasion",
+      "description": "Develop narrative mastery, persuasive storytelling, and creative communication for impact and influence.",
+      "stages": ["Lv9-M8-S36", "Lv9-M8-S37", "Lv9-M8-S38", "Lv9-M8-S39", "Lv9-M8-S40"]
+    },
+    {
+      "phase_id": 9,
+      "title": "Expert Discussions and Knowledge Exchange",
+      "description": "Master professional knowledge sharing, expert consultation skills, and high-level collaborative discourse.",
+      "stages": ["Lv9-M9-S41", "Lv9-M9-S42", "Lv9-M9-S43", "Lv9-M9-S44", "Lv9-M9-S45"]
+    },
+    {
+      "phase_id": 10,
+      "title": "Integrated Practice",
+      "description": "Integrate all professional discourse skills for comprehensive expert-level communication competence.",
+      "stages": ["Lv9-M10-S46", "Lv9-M10-S47", "Lv9-M10-S48"]
+    }
+  ]
+}

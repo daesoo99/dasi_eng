@@ -1,0 +1,105 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://api.dasi-english.com/schemas/phase.schema.json",
+  "title": "Learning Phase",
+  "description": "학습 단계 - 여러 스테이지를 묶은 큰 단위의 학습 목표",
+  "type": "object",
+  "properties": {
+    "phaseId": {
+      "type": "string",
+      "description": "단계 고유 식별자",
+      "pattern": "^P[1-9][0-9]?$",
+      "examples": ["P1", "P2", "P15"]
+    },
+    "phaseTitle": {
+      "type": "string",
+      "description": "단계 제목",
+      "minLength": 5,
+      "maxLength": 150,
+      "examples": ["문장의 기본 구조 (Basic Sentence Structure)", "시제 표현 마스터"]
+    },
+    "phaseDescription": {
+      "type": "string",
+      "description": "단계 상세 설명",
+      "minLength": 20,
+      "maxLength": 1000,
+      "examples": ["영어의 가장 기본적인 문장 구조를 익히고 주요 시제를 배웁니다."]
+    },
+    "stages": {
+      "type": "array",
+      "description": "포함된 스테이지 목록",
+      "items": {
+        "$ref": "stage.schema.json"
+      },
+      "minItems": 2,
+      "maxItems": 15
+    },
+    "learningObjectives": {
+      "type": "array",
+      "description": "단계별 학습 목표",
+      "items": {
+        "type": "string",
+        "minLength": 10,
+        "maxLength": 200
+      },
+      "minItems": 1,
+      "maxItems": 10,
+      "examples": [["be동사 완전 습득", "기본 시제 3개 마스터"]]
+    },
+    "estimatedHours": {
+      "type": "number",
+      "description": "예상 학습 시간 (시간)",
+      "minimum": 1,
+      "maximum": 50,
+      "multipleOf": 0.5
+    },
+    "difficultyLevel": {
+      "type": "integer",
+      "description": "난이도 레벨 (1-10)",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "completionCriteria": {
+      "type": "object",
+      "description": "완료 기준",
+      "properties": {
+        "minAccuracy": {
+          "type": "number",
+          "description": "최소 정답률",
+          "minimum": 0.5,
+          "maximum": 1.0,
+          "default": 0.8
+        },
+        "consecutiveDays": {
+          "type": "integer",
+          "description": "연속 성공 일수",
+          "minimum": 1,
+          "maximum": 30,
+          "default": 3
+        },
+        "totalReviews": {
+          "type": "integer",
+          "description": "총 복습 횟수",
+          "minimum": 3,
+          "maximum": 100,
+          "default": 10
+        }
+      },
+      "additionalProperties": false
+    },
+    "version": {
+      "type": "string",
+      "description": "데이터 버전",
+      "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$"
+    }
+  },
+  "required": [
+    "phaseId",
+    "phaseTitle",
+    "phaseDescription",
+    "stages",
+    "learningObjectives",
+    "version"
+  ],
+  "additionalProperties": false
+}

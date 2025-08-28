@@ -1,0 +1,113 @@
+{
+  "level": 1,
+  "title": "Level 1 - 기본 패턴",
+  "description": "영어 학습의 첫 단계, 기본적인 문장 구조와 필수 패턴들",
+  "patterns": [
+    {
+      "id": "lv1_p1_s01",
+      "patternText": "I am + [형용사/명사]",
+      "meaning": "나는 ~이다/~하다",
+      "koreanPattern": "나는 + [형용사/명사] + 이다",
+      "examples": [
+        {
+          "english": "I am happy.",
+          "korean": "나는 행복하다.",
+          "vocabulary": ["happy"]
+        },
+        {
+          "english": "I am a student.",
+          "korean": "나는 학생이다.",
+          "vocabulary": ["student"]
+        }
+      ],
+      "grammarPoints": [
+        "be 동사 am의 사용",
+        "형용사와 명사의 구분",
+        "주어 + be동사 + 보어 구조"
+      ],
+      "difficulty": "easy",
+      "stage": 1
+    },
+    {
+      "id": "lv1_p1_s02",
+      "patternText": "You are + [형용사/명사]",
+      "meaning": "너는 ~이다/~하다",
+      "koreanPattern": "너는 + [형용사/명사] + 이다",
+      "examples": [
+        {
+          "english": "You are kind.",
+          "korean": "너는 친절하다.",
+          "vocabulary": ["kind"]
+        },
+        {
+          "english": "You are my friend.",
+          "korean": "너는 내 친구다.",
+          "vocabulary": ["friend"]
+        }
+      ],
+      "grammarPoints": [
+        "be 동사 are의 사용",
+        "2인칭 주어 you",
+        "소유격 my의 사용"
+      ],
+      "difficulty": "easy",
+      "stage": 2
+    },
+    {
+      "id": "lv1_p2_s05",
+      "patternText": "I want + [명사]",
+      "meaning": "나는 ~을 원한다",
+      "koreanPattern": "나는 + [명사] + 을/를 + 원한다",
+      "examples": [
+        {
+          "english": "I want water.",
+          "korean": "나는 물을 원한다.",
+          "vocabulary": ["water"]
+        },
+        {
+          "english": "I want food.",
+          "korean": "나는 음식을 원한다.",
+          "vocabulary": ["food"]
+        }
+      ],
+      "grammarPoints": [
+        "동사 want의 사용",
+        "목적어의 개념",
+        "가산명사와 불가산명사"
+      ],
+      "difficulty": "easy",
+      "stage": 5
+    },
+    {
+      "id": "lv1_p2_s06",
+      "patternText": "I want to + [동사원형]",
+      "meaning": "나는 ~하고 싶다",
+      "koreanPattern": "나는 + [동사] + 하고 싶다",
+      "examples": [
+        {
+          "english": "I want to go.",
+          "korean": "나는 가고 싶다.",
+          "vocabulary": ["go"]
+        },
+        {
+          "english": "I want to learn.",
+          "korean": "나는 배우고 싶다.",
+          "vocabulary": ["learn"]
+        }
+      ],
+      "grammarPoints": [
+        "부정사 to + 동사원형",
+        "want + to 패턴",
+        "의지나 욕구 표현"
+      ],
+      "difficulty": "medium",
+      "stage": 6
+    }
+  ],
+  "metadata": {
+    "totalStages": 16,
+    "estimatedHours": 8,
+    "prerequisites": [],
+    "nextLevel": 2
+  }
+}

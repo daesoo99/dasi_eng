@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useCallback, useRef, useMemo, memo, useReducer } from 'react';
 import { useLocalStorage, STORAGE_KEYS } from '@/hooks/useLocalStorage';
 import { ErrorBoundary } from '@/components/ErrorBoundary';
+import { getRandomSentence, getRandomSentences, type RandomSentenceResult } from '../services/sentenceService';
+import { useAuthService } from '../services/authService';
 
 interface PatternTrainingFlowProps {
   koreanText: string;

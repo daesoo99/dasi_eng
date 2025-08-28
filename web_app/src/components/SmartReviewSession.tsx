@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo, useCallback, memo } from 'react';
 import { reviewAlgorithmService } from '../services/reviewAlgorithm';
 import { ErrorBoundary } from './ErrorBoundary';
+import { getRandomSentences, type RandomSentenceResult } from '../services/sentenceService';
 
 interface ReviewSentence {
   id: string;
@@ -43,25 +44,69 @@ const SmartReviewSession: React.FC<ReviewSessionProps> = memo(({ userId, onCompl
   }, [userId]);
 
   const initializeSession = useCallback(async () => {
+    console.log('[DEBUG] 🔄 복습 세션 초기화 시작:', { userId });
     setIsLoading(true);
     try {
       // 오늘의 복습 문장들 가져오기
       const sentenceIds = await reviewAlgorithmService.getTodayReviewSentences(userId, 30);
+      console.log('[DEBUG] 📝 복습 문장 ID들:', sentenceIds);
       
-      // 실제로는 Firestore에서 문장 데이터 가져오기
-      const reviewSentences: ReviewSentence[] = sentenceIds.map((id, index) => ({
-        id,
-        kr: `복습 문장 ${index + 1}`,
-        en: `Review sentence ${index + 1}`,
-        level: Math.floor(Math.random() * 6) + 1,
-        stage: `Stage ${Math.floor(index / 10) + 1}`,
-        difficulty: ['easy', 'medium', 'hard'][Math.floor(Math.random() * 3)] as 'easy' | 'medium' | 'hard'
-      }));
+      // 실제 문장 데이터 가져오기 - 다양한 레벨에서 랜덤 선택
+      const reviewSentences: ReviewSentence[] = [];
+      const levels = [1, 2, 3, 4, 5, 6];
+      const stagesPerLevel = ['S01', 'S02', 'S03', 'S04', 'S05'];
       
+      for (let i = 0; i < sentenceIds.length && i < 30; i++) {
+        const level = levels[Math.floor(Math.random() * levels.length)];
+        const stage = stagesPerLevel[Math.floor(Math.random() * stagesPerLevel.length)];
+        const stageId = `Lv${level}-P1-${stage}`;
+        
+        console.log('[DEBUG] 🎲 문장 요청:', { level, stageId, index: i });
+        
+        try {
+          const sentences = await getRandomSentences(level, stageId, 1);
+          if (sentences.length > 0) {
+            const sentenceData = sentences[0];
+            reviewSentences.push({
+              id: sentenceData.sentence.id,
+              kr: sentenceData.sentence.kr,
+              en: sentenceData.sentence.en,
+              level: level,
+              stage: stageId,
+              difficulty: level <= 2 ? 'easy' : level <= 4 ? 'medium' : 'hard'
+            });
+            console.log('[DEBUG] ✅ 문장 추가:', { kr: sentenceData.sentence.kr });
+          } else {
+            console.warn('[DEBUG] ⚠️ 문장 없음, fallback 사용:', { level, stageId });
+            // Fallback 문장
+            reviewSentences.push({
+              id: `fallback-${i}`,
+              kr: `복습 문장 ${i + 1}`,
+              en: `Review sentence ${i + 1}`,
+              level: level,
+              stage: stageId,
+              difficulty: 'medium'
+            });
+          }
+        } catch (error) {
+          console.error('[DEBUG] ❌ 문장 로드 실패:', error);
+          // Fallback 문장 추가
+          reviewSentences.push({
+            id: `error-fallback-${i}`,
+            kr: `복습 문장 ${i + 1}`,
+            en: `Review sentence ${i + 1}`,
+            level: level,
+            stage: stageId,
+            difficulty: 'medium'
+          });
+        }
+      }
+      
+      console.log('[DEBUG] 📚 복습 세션 문장들 로드 완료:', { count: reviewSentences.length });
       setSentences(reviewSentences);
       setStartTime(Date.now());
     } catch (error) {
-      console.error('복습 세션 초기화 실패:', error);
+      console.error('[DEBUG] ❌ 복습 세션 초기화 실패:', error);
     } finally {
       setIsLoading(false);
     }

@@ -1,0 +1,79 @@
+{
+  "id": "Lv9-M8-S38",
+  "title": "다큐멘터리 스토리텔링과 사회적 영향 (Documentary Storytelling and Social Impact)",
+  "intent": "사실적 내러티브를 통해 사회적 이슈를 효과적으로 전달하고 청중의 인식 변화를 이끌어내는 설득적 스토리텔링 능력을 기른다.",
+  "focus": [
+    "DOCUMENTARY-NARRATIVE",
+    "SOCIAL-IMPACT-MESSAGING", 
+    "FACTUAL-STORYTELLING",
+    "AUDIENCE-ENGAGEMENT",
+    "CHANGE-ADVOCACY"
+  ],
+  "lexset": [
+    "The story reveals the reality of..., Through their eyes, we witness..., The evidence compels us to..., This narrative exposes..., The human cost is evident in..., We must confront the truth that..., The documentary illuminates..., Personal testimonies demonstrate..., The broader implications suggest..., This story demands action..."
+  ],
+  "traps": [
+    "객관성과 감정적 호소의 균형",
+    "사실 왜곡 없는 드라마틱 연출",
+    "개인적 스토리와 광범위한 이슈 연결",
+    "편견 없는 다각적 관점 제시"
+  ],
+  "bankMin": 60,
+  "forms": {
+    "aff": 0.8,
+    "neg": 0.1,
+    "wh_q": 0.1
+  },
+  "variants": [
+    "주제 영역 (environmental, social justice, human rights)",
+    "서술 방식 (personal, investigative, observational)",
+    "영향 목표 (awareness, action, policy change)"
+  ],
+  "engine": {
+    "randomPick": [6, 10],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "이 이야기는 기후 변화의 현실을 드러냅니다.",
+      "en": "This story reveals the reality of climate change."
+    },
+    {
+      "kr": "그들의 눈을 통해 우리는 불평등을 목격합니다.",
+      "en": "Through their eyes, we witness profound inequality."
+    },
+    {
+      "kr": "증거는 우리가 행동해야 함을 강요합니다.",
+      "en": "The evidence compels us to take immediate action."
+    },
+    {
+      "kr": "이 내러티브는 숨겨진 진실을 폭로합니다.",
+      "en": "This narrative exposes hidden truths."
+    },
+    {
+      "kr": "인간적 비용이 개인적 증언에서 명백합니다.",
+      "en": "The human cost is evident in personal testimonies."
+    },
+    {
+      "kr": "우리는 시스템이 실패했다는 진실과 마주해야 합니다.",
+      "en": "We must confront the truth that the system has failed."
+    },
+    {
+      "kr": "다큐멘터리는 구조적 문제를 조명합니다.",
+      "en": "The documentary illuminates systemic issues."
+    },
+    {
+      "kr": "개인적 증언이 광범위한 패턴을 보여줍니다.",
+      "en": "Personal testimonies demonstrate broader patterns."
+    },
+    {
+      "kr": "더 넓은 함의가 정책 변화를 시사합니다.",
+      "en": "The broader implications suggest needed policy changes."
+    },
+    {
+      "kr": "이 이야기는 즉각적인 행동을 요구합니다.",
+      "en": "This story demands immediate and decisive action."
+    }
+  ]
+}

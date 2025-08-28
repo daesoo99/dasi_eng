@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-08-27T00:59:07.180Z",
+  "summary": {
+    "totalFiles": 1,
+    "validFiles": 0,
+    "invalidFiles": 1
+  },
+  "results": [
+    {
+      "file": "patterns/level_1_basic_patterns/lv1_phase_system_NEW.json",
+      "valid": false,
+      "issues": [],
+      "warnings": []
+    }
+  ]
+}

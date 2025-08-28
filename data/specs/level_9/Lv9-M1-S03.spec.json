@@ -1,0 +1,79 @@
+{
+  "id": "Lv9-M1-S03",
+  "title": "데이터 분석과 통계적 해석 (Data Analysis and Statistical Interpretation)",
+  "intent": "연구 데이터의 통계적 분석 결과를 정확하고 명확하게 해석하며 전문적인 학술 언어로 설명하는 능력을 기른다.",
+  "focus": [
+    "STATISTICAL-TERMINOLOGY",
+    "DATA-INTERPRETATION", 
+    "QUANTITATIVE-ANALYSIS",
+    "SIGNIFICANCE-REPORTING",
+    "CORRELATION-CAUSATION"
+  ],
+  "lexset": [
+    "The data reveal/indicate/demonstrate that..., Statistical analysis shows..., Significant correlations were found between..., The results suggest a strong association..., p < 0.05 indicates..., Confidence intervals ranged from... to..., The effect size was..., Regression analysis revealed..."
+  ],
+  "traps": [
+    "correlation vs causation 구분",
+    "통계적 유의성 해석의 정확성",
+    "p-value와 effect size 설명",
+    "데이터 표현에서의 정밀성"
+  ],
+  "bankMin": 60,
+  "forms": {
+    "aff": 0.8,
+    "neg": 0.1,
+    "wh_q": 0.1
+  },
+  "variants": [
+    "통계적 유의성 수준 (p < 0.05, p < 0.01)",
+    "효과 크기 표현 (small, medium, large)",
+    "신뢰구간 보고 방식"
+  ],
+  "engine": {
+    "randomPick": [6, 10],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "데이터는 두 변수 간에 강한 양의 상관관계가 있음을 보여줍니다.",
+      "en": "The data reveal a strong positive correlation between the two variables."
+    },
+    {
+      "kr": "통계 분석은 그룹 간에 유의미한 차이가 있음을 나타냅니다.",
+      "en": "Statistical analysis indicates a significant difference between groups."
+    },
+    {
+      "kr": "결과는 치료가 효과적이었다는 강한 연관성을 시사합니다.",
+      "en": "The results suggest a strong association that the treatment was effective."
+    },
+    {
+      "kr": "p < 0.01은 매우 높은 통계적 유의성을 나타냅니다.",
+      "en": "p < 0.01 indicates very high statistical significance."
+    },
+    {
+      "kr": "신뢰구간은 2.3에서 4.7 사이였습니다.",
+      "en": "Confidence intervals ranged from 2.3 to 4.7."
+    },
+    {
+      "kr": "효과 크기는 중간 정도였습니다 (d = 0.6).",
+      "en": "The effect size was moderate (d = 0.6)."
+    },
+    {
+      "kr": "회귀 분석은 예측 변수들이 분산의 65%를 설명함을 보여줬습니다.",
+      "en": "Regression analysis revealed that predictors explained 65% of the variance."
+    },
+    {
+      "kr": "분산 분석 결과, 그룹 간 차이가 통계적으로 유의했습니다.",
+      "en": "ANOVA results showed statistically significant differences between groups."
+    },
+    {
+      "kr": "상관관계는 인과관계를 의미하지 않는다는 점을 주목해야 합니다.",
+      "en": "It should be noted that correlation does not imply causation."
+    },
+    {
+      "kr": "표준편차는 평균 주위의 데이터 분산을 나타냅니다.",
+      "en": "Standard deviation indicates the spread of data around the mean."
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://api.dasi-english.com/schemas/level.schema.json",
+  "title": "Learning Level",
+  "description": "학습 레벨 - DASI 10단계 커리큘럼의 각 레벨 전체 구조",
+  "type": "object",
+  "properties": {
+    "levelInfo": {
+      "type": "object",
+      "description": "레벨 기본 정보",
+      "properties": {
+        "level": {
+          "type": "integer",
+          "description": "레벨 번호",
+          "minimum": 1,
+          "maximum": 10
+        },
+        "title": {
+          "type": "string",
+          "description": "레벨 제목",
+          "minLength": 10,
+          "maxLength": 200,
+          "examples": ["기초 문장 구성과 기본 표현 익히기", "고급 담화와 논증 구조 마스터"]
+        },
+        "description": {
+          "type": "string",
+          "description": "레벨 상세 설명",
+          "minLength": 50,
+          "maxLength": 2000,
+          "examples": ["기초 문법과 생활 필수 표현을 배우고 짧은 문장으로 기본 의사소통을 할 수 있게 됩니다."]
+        },
+        "totalPhases": {
+          "type": "integer",
+          "description": "총 단계 수",
+          "minimum": 3,
+          "maximum": 12
+        },
+        "totalStages": {
+          "type": "integer",
+          "description": "총 스테이지 수",
+          "minimum": 5,
+          "maximum": 50
+        },
+        "estimatedHours": {
+          "type": "number",
+          "description": "예상 총 학습 시간 (시간)",
+          "minimum": 10,
+          "maximum": 200,
+          "multipleOf": 0.5
+        },
+        "targetCEFR": {
+          "type": "string",
+          "description": "목표 CEFR 레벨",
+          "enum": ["A1", "A2", "B1", "B2", "C1", "C2"],
+          "examples": ["A1", "B2"]
+        },
+        "version": {
+          "type": "string",
+          "description": "레벨 데이터 버전",
+          "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$"
+        }
+      },
+      "required": [
+        "level",
+        "title",
+        "description",
+        "totalPhases",
+        "totalStages",
+        "estimatedHours",
+        "version"
+      ],
+      "additionalProperties": false
+    },
+    "phases": {
+      "type": "array",
+      "description": "레벨에 포함된 단계들",
+      "items": {
+        "$ref": "phase.schema.json"
+      },
+      "minItems": 3,
+      "maxItems": 12
+    },
+    "metadata": {
+      "type": "object",
+      "description": "메타데이터",
+      "properties": {
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "생성 일시"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "수정 일시"
+        },
+        "author": {
+          "type": "string",
+          "description": "작성자",
+          "minLength": 2,
+          "maxLength": 100
+        },
+        "reviewedBy": {
+          "type": "array",
+          "description": "검토자 목록",
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 10
+        },
+        "tags": {
+          "type": "array",
+          "description": "분류 태그",
+          "items": {
+            "type": "string",
+            "enum": [
+              "beginner", "intermediate", "advanced",
+              "grammar", "vocabulary", "speaking", "listening",
+              "business", "academic", "casual",
+              "korean-specific", "pronunciation"
+            ]
+          },
+          "maxItems": 10
+        },
+        "changeLog": {
+          "type": "array",
+          "description": "변경 이력",
+          "items": {
+            "type": "object",
+            "properties": {
+              "version": { "type": "string" },
+              "date": { "type": "string", "format": "date" },
+              "changes": { 
+                "type": "array",
+                "items": { "type": "string" }
+              }
+            },
+            "required": ["version", "date", "changes"]
+          },
+          "maxItems": 50
+        }
+      },
+      "additionalProperties": false
+    },
+    "validation": {
+      "type": "object",
+      "description": "데이터 검증 정보",
+      "properties": {
+        "schemaVersion": {
+          "type": "string",
+          "description": "사용된 스키마 버전",
+          "default": "1.0.0"
+        },
+        "validatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "마지막 검증 시간"
+        },
+        "checksum": {
+          "type": "string",
+          "description": "데이터 무결성 체크섬",
+          "pattern": "^[a-fA-F0-9]{64}$"
+        }
+      },
+      "required": ["schemaVersion"],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "levelInfo",
+    "phases"
+  ],
+  "additionalProperties": false,
+  "$comment": "DASI English 10-Level Curriculum Schema v1.0.0 - 한국인 영어학습자를 위한 체계적 커리큘럼 스키마"
+}

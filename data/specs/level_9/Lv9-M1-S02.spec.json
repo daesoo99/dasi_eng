@@ -1,0 +1,79 @@
+{
+  "id": "Lv9-M1-S02",
+  "title": "가설 설정과 방법론 설명 (Hypothesis Formulation and Methodology)",
+  "intent": "학술 연구에서 가설을 명확하게 제시하고 연구 방법론을 체계적으로 설명하는 전문적 담화 능력을 기른다.",
+  "focus": [
+    "HYPOTHESIS-FORMULATION",
+    "METHODOLOGY-EXPLANATION", 
+    "ACADEMIC-PRECISION",
+    "RESEARCH-TERMINOLOGY",
+    "LOGICAL-SEQUENCING"
+  ],
+  "lexset": [
+    "We hypothesize that..., The underlying assumption is..., Our methodology comprises..., The research design involves..., We employed a systematic approach whereby..., The theoretical framework suggests..., Based on preliminary findings..., The experimental protocol entails..."
+  ],
+  "traps": [
+    "가설과 가정 구분 (hypothesis vs assumption)",
+    "방법론 용어의 정확한 사용",
+    "시제 일관성 (연구 진행 시점에 따른)",
+    "수동태와 능동태의 적절한 선택"
+  ],
+  "bankMin": 60,
+  "forms": {
+    "aff": 0.7,
+    "neg": 0.1,
+    "wh_q": 0.2
+  },
+  "variants": [
+    "연구 분야별 특성 (quantitative/qualitative)",
+    "확신의 정도 (strongly suggest, tentatively propose)",
+    "방법론 복잡도 (단일/복합 방법론)"
+  ],
+  "engine": {
+    "randomPick": [6, 10],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "우리는 교육 기술이 학습 성과를 향상시킨다고 가설을 세웠습니다.",
+      "en": "We hypothesize that educational technology enhances learning outcomes."
+    },
+    {
+      "kr": "기본 가정은 사용자들이 직관적인 인터페이스를 선호한다는 것입니다.",
+      "en": "The underlying assumption is that users prefer intuitive interfaces."
+    },
+    {
+      "kr": "우리의 방법론은 혼합 연구 접근법을 포함합니다.",
+      "en": "Our methodology comprises a mixed-methods research approach."
+    },
+    {
+      "kr": "연구 설계는 무작위 대조군 실험을 포함합니다.",
+      "en": "The research design involves a randomized controlled trial."
+    },
+    {
+      "kr": "우리는 참가자들이 무작위로 배정되는 체계적 접근법을 사용했습니다.",
+      "en": "We employed a systematic approach whereby participants were randomly assigned."
+    },
+    {
+      "kr": "이론적 틀은 인지 부하 이론에 기반한다고 제안합니다.",
+      "en": "The theoretical framework suggests grounding in cognitive load theory."
+    },
+    {
+      "kr": "예비 연구 결과에 기반하여, 우리는 가설을 수정했습니다.",
+      "en": "Based on preliminary findings, we refined our hypothesis."
+    },
+    {
+      "kr": "실험 프로토콜은 3단계 데이터 수집을 수반합니다.",
+      "en": "The experimental protocol entails three-phase data collection."
+    },
+    {
+      "kr": "우리의 가설은 선행 연구 결과와 일치합니다.",
+      "en": "Our hypothesis aligns with previous research findings."
+    },
+    {
+      "kr": "방법론적 접근법은 엄격한 통제 조건을 보장합니다.",
+      "en": "The methodological approach ensures rigorous controlled conditions."
+    }
+  ]
+}

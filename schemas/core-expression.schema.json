@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://api.dasi-english.com/schemas/core-expression.schema.json",
+  "title": "Core Expression",
+  "description": "기본 영어 표현 단위 - 영어/한국어/발음/문법포인트 포함",
+  "type": "object",
+  "properties": {
+    "english": {
+      "type": "string",
+      "description": "영어 표현",
+      "minLength": 1,
+      "maxLength": 500,
+      "examples": ["I am a student.", "She is at home."]
+    },
+    "korean": {
+      "type": "string",
+      "description": "한국어 번역",
+      "minLength": 1,
+      "maxLength": 500,
+      "examples": ["나는 학생입니다.", "그녀는 집에 있습니다."]
+    },
+    "phoneticKorean": {
+      "type": "string",
+      "description": "한국어식 발음 표기",
+      "minLength": 1,
+      "maxLength": 500,
+      "examples": ["아이 앰 어 스튜던트", "쉬 이즈 앳 홈"]
+    },
+    "grammarPoint": {
+      "type": "string",
+      "description": "문법 포인트 설명",
+      "minLength": 1,
+      "maxLength": 200,
+      "examples": ["be동사 am 사용법", "3인칭 단수 is 사용법"]
+    },
+    "ipa": {
+      "type": "string",
+      "description": "국제음성기호 (선택사항)",
+      "pattern": "^[\\[\\]ˈˌaɪiːɪuːʊeɛoɔɑɒʌəɜɚrθðsʃzʒtʃdʒfvpbtdkgmnŋlwjh\\s]+$",
+      "examples": ["[aɪ æm ə ˈstudənt]"]
+    },
+    "difficulty": {
+      "type": "integer",
+      "description": "난이도 (1-5)",
+      "minimum": 1,
+      "maximum": 5,
+      "default": 1
+    },
+    "version": {
+      "type": "string",
+      "description": "데이터 버전 (Semantic Versioning)",
+      "pattern": "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$",
+      "examples": ["1.0.0", "1.2.3", "2.0.0-beta.1"]
+    }
+  },
+  "required": [
+    "english",
+    "korean", 
+    "phoneticKorean",
+    "grammarPoint",
+    "version"
+  ],
+  "additionalProperties": false
+}

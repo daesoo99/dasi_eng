@@ -1,0 +1,79 @@
+{
+  "id": "Lv9-M2-S09",
+  "title": "이해관계자 관리와 이사회 프레젠테이션 (Stakeholder Management and Board Presentations)",
+  "intent": "다양한 이해관계자의 요구를 조율하고 이사회 수준의 전략적 의사결정을 위한 고급 프레젠테이션 능력을 기른다.",
+  "focus": [
+    "STAKEHOLDER-ALIGNMENT",
+    "BOARD-COMMUNICATION", 
+    "STRATEGIC-OVERSIGHT",
+    "EXECUTIVE-REPORTING",
+    "GOVERNANCE-LANGUAGE"
+  ],
+  "lexset": [
+    "The board should consider..., Stakeholder feedback indicates..., Our fiduciary responsibility requires..., Strategic oversight reveals..., Shareholders expect..., The governance framework mandates..., Executive compensation aligns with..., Regulatory compliance ensures..., Risk management protocols..., Long-term value creation..."
+  ],
+  "traps": [
+    "이사회 언어의 격식성",
+    "이해관계자별 관심사 조율",
+    "기업 지배구조 용어 정확성",
+    "전략적 수준의 의사결정 언어"
+  ],
+  "bankMin": 60,
+  "forms": {
+    "aff": 0.8,
+    "neg": 0.1,
+    "wh_q": 0.1
+  },
+  "variants": [
+    "이해관계자 유형 (shareholders, employees, customers)",
+    "의사결정 수준 (strategic, operational, tactical)",
+    "시급성 (urgent, important, routine)"
+  ],
+  "engine": {
+    "randomPick": [6, 10],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "이사회는 새로운 성장 전략을 고려해야 합니다.",
+      "en": "The board should consider the new growth strategy."
+    },
+    {
+      "kr": "이해관계자 피드백은 지속가능성에 대한 우려를 나타냅니다.",
+      "en": "Stakeholder feedback indicates concerns about sustainability."
+    },
+    {
+      "kr": "우리의 수탁자 책임은 주주 가치 극대화를 요구합니다.",
+      "en": "Our fiduciary responsibility requires maximizing shareholder value."
+    },
+    {
+      "kr": "전략적 감독은 운영 효율성 개선이 필요함을 보여줍니다.",
+      "en": "Strategic oversight reveals the need for operational efficiency improvements."
+    },
+    {
+      "kr": "주주들은 배당 정책의 명확한 설명을 기대합니다.",
+      "en": "Shareholders expect clear communication about dividend policy."
+    },
+    {
+      "kr": "지배구조 체계는 독립적인 감사 위원회를 의무화합니다.",
+      "en": "The governance framework mandates an independent audit committee."
+    },
+    {
+      "kr": "경영진 보상은 성과 지표와 일치합니다.",
+      "en": "Executive compensation aligns with performance metrics."
+    },
+    {
+      "kr": "규제 준수는 리스크 완화를 보장합니다.",
+      "en": "Regulatory compliance ensures risk mitigation."
+    },
+    {
+      "kr": "리스크 관리 프로토콜은 정기적인 검토가 필요합니다.",
+      "en": "Risk management protocols require regular review."
+    },
+    {
+      "kr": "장기적 가치 창출이 우리의 핵심 목표입니다.",
+      "en": "Long-term value creation is our primary objective."
+    }
+  ]
+}

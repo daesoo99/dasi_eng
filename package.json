@@ -1,0 +1,33 @@
+{
+  "name": "dasi-curriculum-tools",
+  "version": "1.0.0",
+  "description": "DASI Curriculum Data Management Tools",
+  "scripts": {
+    "migrate:all": "node utils/migrate-all.js",
+    "migrate:all:dry": "node utils/migrate-all.js --dry-run",
+    "migrate:resume": "node utils/migrate-all.js --resume",
+    "migrate:status": "node utils/migration-status.js status",
+    "migrate:unlock": "node utils/migration-status.js unlock",
+    "migrate:reset": "node utils/migration-status.js reset",
+    "validate": "node utils/validate-curriculum.js",
+    "validate:all": "node utils/validate-curriculum.js --glob \"patterns/**/*.json\" --strict",
+    "validate:quiet": "node utils/validate-curriculum.js --glob \"patterns/**/*.json\" --strict --quiet",
+    "migrate:single": "node utils/safe-migrator.js",
+    "safe:validate": "bash scripts/safe-run.sh validate:all",
+    "safe:migrate:dry": "bash scripts/safe-run.sh migrate:all:dry",
+    "safe:migrate:live": "bash scripts/safe-run.sh migrate:all",
+    "safe:resume": "bash scripts/safe-run.sh migrate:resume",
+    "logs": "ls -la docs/logs/ && echo \"\" && tail -20 docs/logs/$(date +%F)-migrate.log 2>/dev/null || echo \"No logs found\"",
+    "clean": "find . -name \"*.tmp*\" -delete 2>/dev/null || true && find . -name \"*.bak.*\" -mtime +7 -delete 2>/dev/null || true",
+    "test:system": "npm run validate:quiet && echo \"✅ System tests passed\"",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "semver": "^7.7.2"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}

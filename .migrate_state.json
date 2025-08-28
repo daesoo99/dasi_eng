@@ -1,0 +1,69 @@
+{
+  "done": {},
+  "failed": {
+    "patterns/level_1_basic_patterns/lv1_phase_system_NEW.json": {
+      "step": "validation",
+      "error": "Command failed: node utils/validate-curriculum.js --file .tmp.lv1_phase_system_NEW.json --strict --quiet",
+      "timestamp": "2025-08-27T14:46:42.427Z"
+    },
+    "patterns/level_10_native_mastery/lv10_phase_system_NEW.json": {
+      "step": "transformation",
+      "error": "Command failed: node utils/safe-migrator.js --file patterns/level_10_native_mastery/lv10_phase_system_NEW.json --dry-run --out .tmp.lv10_phase_system_NEW.json\n⚠️  Level 10: insufficient phases (0)\n❌ Transformation failed: Insufficient phases - use --force to proceed\n",
+      "timestamp": "2025-08-27T14:46:42.766Z"
+    },
+    "patterns/level_2_basic_grammar/lv2_phase_system_NEW.json": {
+      "step": "transformation",
+      "error": "Command failed: node utils/safe-migrator.js --file patterns/level_2_basic_grammar/lv2_phase_system_NEW.json --dry-run --out .tmp.lv2_phase_system_NEW.json\n⚠️  Level 1: insufficient phases (0)\n❌ Transformation failed: Insufficient phases - use --force to proceed\n",
+      "timestamp": "2025-08-27T14:46:43.123Z"
+    },
+    "patterns/level_3_advanced_grammar/lv3_stage_system_NEW.json": {
+      "step": "validation",
+      "error": "Command failed: node utils/validate-curriculum.js --file .tmp.lv3_stage_system_NEW.json --strict --quiet",
+      "timestamp": "2025-08-27T14:46:43.853Z"
+    },
+    "patterns/level_4_advanced_expressions/lv4_phase_system_NEW.json": {
+      "step": "transformation",
+      "error": "Command failed: node utils/safe-migrator.js --file patterns/level_4_advanced_expressions/lv4_phase_system_NEW.json --dry-run --out .tmp.lv4_phase_system_NEW.json\n⚠️  Level 4: insufficient phases (0)\n❌ Transformation failed: Insufficient phases - use --force to proceed\n",
+      "timestamp": "2025-08-27T14:46:44.151Z"
+    },
+    "patterns/level_5_academic_mastery/lv5_phase_system_NEW.json": {
+      "step": "transformation",
+      "error": "Command failed: node utils/safe-migrator.js --file patterns/level_5_academic_mastery/lv5_phase_system_NEW.json --dry-run --out .tmp.lv5_phase_system_NEW.json\n⚠️  Level 5: insufficient phases (0)\n❌ Transformation failed: Insufficient phases - use --force to proceed\n",
+      "timestamp": "2025-08-27T14:46:44.512Z"
+    },
+    "patterns/level_5_professional_expression/lv5_stage_system_REVISED.json": {
+      "step": "transformation",
+      "error": "Command failed: node utils/safe-migrator.js --file patterns/level_5_professional_expression/lv5_stage_system_REVISED.json --dry-run --out .tmp.lv5_stage_system_REVISED.json\n⚠️  Phase undefined: insufficient stages (0)\n⚠️  Phase undefined: insufficient stages (0)\n⚠️  Phase undefined: insufficient stages (0)\n⚠️  Phase undefined: insufficient stages (0)\n⚠️  Phase undefined: insufficient stages (0)\n⚠️  Phase undefined: insufficient stages (0)\n⚠️  Level 1: insufficient phases (0)\n❌ Transformation failed: Insufficient phases - use --force to proceed\n",
+      "timestamp": "2025-08-27T14:46:44.867Z"
+    },
+    "patterns/level_6_expert_practice/lv6_stage_system_REVISED.json": {
+      "step": "transformation",
+      "error": "Command failed: node utils/safe-migrator.js --file patterns/level_6_expert_practice/lv6_stage_system_REVISED.json --dry-run --out .tmp.lv6_stage_system_REVISED.json\n⚠️  Phase undefined: insufficient stages (0)\n⚠️  Phase undefined: insufficient stages (0)\n⚠️  Phase undefined: insufficient stages (0)\n⚠️  Phase undefined: insufficient stages (0)\n⚠️  Phase undefined: insufficient stages (0)\n⚠️  Phase undefined: insufficient stages (0)\n⚠️  Phase undefined: insufficient stages (0)\n⚠️  Level 1: insufficient phases (0)\n❌ Transformation failed: Insufficient phases - use --force to proceed\n",
+      "timestamp": "2025-08-27T14:46:45.166Z"
+    },
+    "patterns/level_6_professional_mastery/lv6_phase_system_NEW.json": {
+      "step": "transformation",
+      "error": "Command failed: node utils/safe-migrator.js --file patterns/level_6_professional_mastery/lv6_phase_system_NEW.json --dry-run --out .tmp.lv6_phase_system_NEW.json\n⚠️  Level 6: insufficient phases (0)\n❌ Transformation failed: Insufficient phases - use --force to proceed\n",
+      "timestamp": "2025-08-27T14:46:45.488Z"
+    },
+    "patterns/level_7_business_english/lv7_phase_system_NEW.json": {
+      "step": "transformation",
+      "error": "Command failed: node utils/safe-migrator.js --file patterns/level_7_business_english/lv7_phase_system_NEW.json --dry-run --out .tmp.lv7_phase_system_NEW.json\n⚠️  Level 7: insufficient phases (0)\n❌ Transformation failed: Insufficient phases - use --force to proceed\n",
+      "timestamp": "2025-08-27T14:46:45.837Z"
+    },
+    "patterns/level_8_advanced_discourse/lv8_phase_system_NEW.json": {
+      "step": "transformation",
+      "error": "Command failed: node utils/safe-migrator.js --file patterns/level_8_advanced_discourse/lv8_phase_system_NEW.json --dry-run --out .tmp.lv8_phase_system_NEW.json\n⚠️  Level 8: insufficient phases (0)\n❌ Transformation failed: Insufficient phases - use --force to proceed\n",
+      "timestamp": "2025-08-27T14:46:46.142Z"
+    },
+    "patterns/level_9_expert_discourse/lv9_phase_system_NEW.json": {
+      "step": "transformation",
+      "error": "Command failed: node utils/safe-migrator.js --file patterns/level_9_expert_discourse/lv9_phase_system_NEW.json --dry-run --out .tmp.lv9_phase_system_NEW.json\n⚠️  Phase undefined: insufficient stages (0)\n⚠️  Phase undefined: insufficient stages (0)\n⚠️  Phase undefined: insufficient stages (0)\n⚠️  Phase undefined: insufficient stages (0)\n⚠️  Phase undefined: insufficient stages (0)\n⚠️  Phase undefined: insufficient stages (0)\n⚠️  Phase undefined: insufficient stages (0)\n⚠️  Phase undefined: insufficient stages (0)\n⚠️  Phase undefined: insufficient stages (0)\n⚠️  Phase undefined: insufficient stages (0)\n⚠️  Level 9: insufficient phases (0)\n❌ Transformation failed: Insufficient phases - use --force to proceed\n",
+      "timestamp": "2025-08-27T14:46:46.471Z"
+    }
+  },
+  "startedAt": "2025-08-27T04:31:09.095Z",
+  "lastUpdated": "2025-08-27T14:46:46.484Z",
+  "completedAt": "2025-08-27T14:46:46.484Z",
+  "resumedAt": "2025-08-27T14:46:41.703Z"
+}

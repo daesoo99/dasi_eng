@@ -1,0 +1,273 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://api.dasi-english.com/schemas/feedback.schema.json",
+  "title": "Custom Feedback",
+  "description": "맞춤형 피드백 데이터 구조 - AI 확장 대비 구조 정의",
+  "type": "object",
+  "properties": {
+    "feedbackInfo": {
+      "type": "object",
+      "description": "피드백 기본 정보",
+      "properties": {
+        "feedbackId": {
+          "type": "string",
+          "description": "피드백 고유 ID",
+          "pattern": "^fb_[a-zA-Z0-9]{12}$"
+        },
+        "userId": {
+          "type": "string", 
+          "description": "사용자 ID",
+          "pattern": "^u[0-9]{3,10}$"
+        },
+        "patternId": {
+          "type": "string",
+          "description": "패턴 ID",
+          "pattern": "^p[0-9]{2,5}$"
+        },
+        "sessionId": {
+          "type": "string",
+          "description": "학습 세션 ID",
+          "pattern": "^s_[a-zA-Z0-9]{16}$"
+        },
+        "timestamp": {
+          "type": "string",
+          "format": "date-time",
+          "description": "피드백 생성 시간"
+        }
+      },
+      "required": ["feedbackId", "userId", "patternId", "timestamp"],
+      "additionalProperties": false
+    },
+    "performance": {
+      "type": "object",
+      "description": "사용자 수행 결과",
+      "properties": {
+        "overallScore": {
+          "type": "number",
+          "description": "전체 점수 (0.0-1.0)",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "pronunciationScore": {
+          "type": "number", 
+          "description": "발음 점수 (0.0-1.0)",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "grammarScore": {
+          "type": "number",
+          "description": "문법 점수 (0.0-1.0)", 
+          "minimum": 0,
+          "maximum": 1
+        },
+        "fluencyScore": {
+          "type": "number",
+          "description": "유창성 점수 (0.0-1.0)",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "completionTime": {
+          "type": "number",
+          "description": "완료 시간 (초)",
+          "minimum": 1
+        },
+        "attemptCount": {
+          "type": "integer",
+          "description": "시도 횟수",
+          "minimum": 1,
+          "maximum": 10
+        }
+      },
+      "required": ["overallScore"],
+      "additionalProperties": false
+    },
+    "feedback": {
+      "type": "object",
+      "description": "피드백 내용",
+      "properties": {
+        "mainFeedback": {
+          "type": "string",
+          "description": "주요 피드백 메시지",
+          "minLength": 10,
+          "maxLength": 500
+        },
+        "strengths": {
+          "type": "array",
+          "description": "잘한 점들",
+          "items": {
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 100
+          },
+          "maxItems": 5
+        },
+        "improvements": {
+          "type": "array", 
+          "description": "개선 사항",
+          "items": {
+            "type": "string",
+            "minLength": 5,
+            "maxLength": 100
+          },
+          "maxItems": 5
+        },
+        "detectedErrors": {
+          "type": "array",
+          "description": "감지된 오류들",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": ["grammar", "pronunciation", "vocabulary", "fluency", "word-order"]
+              },
+              "original": {
+                "type": "string",
+                "description": "오류가 있는 원본"
+              },
+              "corrected": {
+                "type": "string", 
+                "description": "수정된 버전"
+              },
+              "explanation": {
+                "type": "string",
+                "description": "오류 설명"
+              }
+            },
+            "required": ["type", "original", "corrected"],
+            "additionalProperties": false
+          },
+          "maxItems": 10
+        }
+      },
+      "required": ["mainFeedback"],
+      "additionalProperties": false
+    },
+    "customExamples": {
+      "type": "object",
+      "description": "맞춤형 예시 (AI 확장 대비)",
+      "properties": {
+        "userInterests": {
+          "type": "array",
+          "description": "사용자 관심사",
+          "items": {
+            "type": "string",
+            "enum": ["sports", "music", "movies", "food", "travel", "technology", "business", "education", "health", "gaming"]
+          },
+          "maxItems": 5
+        },
+        "difficultyLevel": {
+          "type": "string",
+          "description": "난이도 레벨",
+          "enum": ["beginner", "intermediate", "advanced"]
+        },
+        "generatedExamples": {
+          "type": "array",
+          "description": "생성된 맞춤 예시 문장들",
+          "items": {
+            "type": "object",
+            "properties": {
+              "sentence": {
+                "type": "string",
+                "description": "예시 문장",
+                "minLength": 5,
+                "maxLength": 200
+              },
+              "context": {
+                "type": "string", 
+                "description": "사용 상황",
+                "minLength": 5,
+                "maxLength": 100
+              },
+              "difficulty": {
+                "type": "number",
+                "description": "문장 난이도 (1-5)",
+                "minimum": 1,
+                "maximum": 5
+              }
+            },
+            "required": ["sentence", "context"],
+            "additionalProperties": false
+          },
+          "maxItems": 10
+        }
+      },
+      "additionalProperties": false
+    },
+    "aiConfig": {
+      "type": "object",
+      "description": "AI 모델 설정 (미래 확장용)",
+      "properties": {
+        "modelVersion": {
+          "type": "string",
+          "description": "사용된 AI 모델 버전",
+          "examples": ["gpt-4o-v1", "claude-3.5-sonnet-v2"]
+        },
+        "promptTemplate": {
+          "type": "string",
+          "description": "사용된 프롬프트 템플릿 ID"
+        },
+        "parameters": {
+          "type": "object",
+          "description": "AI 모델 파라미터",
+          "properties": {
+            "temperature": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 2
+            },
+            "maxTokens": {
+              "type": "integer",
+              "minimum": 50,
+              "maximum": 2000
+            }
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "metadata": {
+      "type": "object",
+      "description": "메타데이터",
+      "properties": {
+        "version": {
+          "type": "string",
+          "description": "피드백 스키마 버전",
+          "default": "1.0.0"
+        },
+        "source": {
+          "type": "string",
+          "description": "피드백 생성 소스",
+          "enum": ["manual", "ai-generated", "hybrid"],
+          "default": "manual"
+        },
+        "language": {
+          "type": "string",
+          "description": "피드백 언어",
+          "enum": ["ko", "en", "auto"],
+          "default": "ko"
+        },
+        "tags": {
+          "type": "array",
+          "description": "분류 태그",
+          "items": {
+            "type": "string",
+            "enum": ["beginner", "intermediate", "advanced", "grammar", "pronunciation", "vocabulary", "custom"]
+          },
+          "maxItems": 5
+        }
+      },
+      "required": ["version", "source"],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "feedbackInfo", 
+    "performance", 
+    "feedback", 
+    "metadata"
+  ],
+  "additionalProperties": false,
+  "$comment": "DASI English Custom Feedback Schema v1.0.0 - AI 확장성을 고려한 피드백 구조"
+}

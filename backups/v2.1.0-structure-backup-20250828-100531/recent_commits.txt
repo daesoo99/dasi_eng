@@ -1,0 +1,10 @@
+592bbd4 feat: bundle optimization v2.1.0 - main bundle 95% reduction (625KB→32KB)
+7c8542a feat(performance): comprehensive debugging and audio state management
+9e0745b feat: comprehensive frontend and backend performance optimization
+20afc80 feat(docker): implement comprehensive containerization for scalability
+3ede9fe feat(backend): implement comprehensive monitoring and Redis cache system
+3dfd046 feat(cache): implement comprehensive caching strategy with LRU
+675c5bc feat(async): implement async processing + streaming responses with p-queue
+b975724 chore(ts): migrate user/content/exp routes/controllers to TS (no logic changes)
+d02dcbf refactor(backend): split routes/controllers out of server.js
+e908ecf chore: archive old backups - compressed to .tar.gz and allow backups/ in git

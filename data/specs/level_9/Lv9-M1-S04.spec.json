@@ -1,0 +1,79 @@
+{
+  "id": "Lv9-M1-S04",
+  "title": "문헌 고찰과 학술 인용 (Literature Review and Scholarly Citations)",
+  "intent": "선행 연구를 체계적으로 검토하고 학술적 인용을 통해 연구의 이론적 배경과 근거를 제시하는 전문적 담화 능력을 기른다.",
+  "focus": [
+    "LITERATURE-SYNTHESIS",
+    "ACADEMIC-CITATIONS", 
+    "SCHOLARLY-AUTHORITY",
+    "RESEARCH-GAPS",
+    "THEORETICAL-POSITIONING"
+  ],
+  "lexset": [
+    "Previous research demonstrates..., As noted by Smith (2020)..., Consistent with earlier findings..., Building upon the work of..., The literature suggests..., A growing body of evidence indicates..., Several studies have shown..., Research in this area remains limited..., This finding contradicts..., The consensus among scholars is..."
+  ],
+  "traps": [
+    "인용 형식의 일관성 (APA, MLA 등)",
+    "직접인용 vs 간접인용 구분",
+    "저자명과 연도 표기법",
+    "복수 저자 인용 방식"
+  ],
+  "bankMin": 60,
+  "forms": {
+    "aff": 0.7,
+    "neg": 0.2,
+    "wh_q": 0.1
+  },
+  "variants": [
+    "인용 스타일 (author-prominent vs information-prominent)",
+    "합의도 표현 (unanimous, majority, conflicting)",
+    "시간적 순서 (chronological vs thematic)"
+  ],
+  "engine": {
+    "randomPick": [6, 10],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "선행 연구는 온라인 학습의 효과성을 입증하고 있습니다.",
+      "en": "Previous research demonstrates the effectiveness of online learning."
+    },
+    {
+      "kr": "Smith(2020)가 지적했듯이, 이 방법은 제한점이 있습니다.",
+      "en": "As noted by Smith (2020), this approach has limitations."
+    },
+    {
+      "kr": "초기 연구 결과와 일치하게, 우리도 유사한 패턴을 발견했습니다.",
+      "en": "Consistent with earlier findings, we observed similar patterns."
+    },
+    {
+      "kr": "Johnson 등(2019)의 연구를 바탕으로, 우리는 이론을 확장했습니다.",
+      "en": "Building upon the work of Johnson et al. (2019), we extended the theory."
+    },
+    {
+      "kr": "문헌은 이 접근법이 유망하다고 제안하고 있습니다.",
+      "en": "The literature suggests that this approach is promising."
+    },
+    {
+      "kr": "증가하는 증거들이 이 현상의 복잡성을 보여주고 있습니다.",
+      "en": "A growing body of evidence indicates the complexity of this phenomenon."
+    },
+    {
+      "kr": "여러 연구가 일관된 결과를 보여주고 있습니다.",
+      "en": "Several studies have shown consistent results."
+    },
+    {
+      "kr": "이 분야의 연구는 여전히 제한적입니다.",
+      "en": "Research in this area remains limited."
+    },
+    {
+      "kr": "이 발견은 기존 이론과 모순됩니다.",
+      "en": "This finding contradicts established theory."
+    },
+    {
+      "kr": "학자들 간의 합의는 더 많은 연구가 필요하다는 것입니다.",
+      "en": "The consensus among scholars is that more research is needed."
+    }
+  ]
+}

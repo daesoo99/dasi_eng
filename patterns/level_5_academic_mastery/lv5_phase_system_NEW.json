@@ -1,0 +1,10 @@
+{
+  "levelInfo": {
+    "level": 5,
+    "title": "학술적 숙련도",
+    "description": "Level 5: 학술적 숙련도와 전문 표현",
+    "difficulty": "advanced",
+    "estimatedHours": 70
+  },
+  "phases": []
+}

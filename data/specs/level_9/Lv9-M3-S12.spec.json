@@ -1,0 +1,79 @@
+{
+  "id": "Lv9-M3-S12",
+  "title": "위기 소통과 대중 안심 (Crisis Communication and Public Reassurance)",
+  "intent": "위기 상황에서 대중을 안심시키고 명확한 정보를 제공하며 신뢰를 유지하는 공식적 담화 능력을 기른다.",
+  "focus": [
+    "CRISIS-MANAGEMENT",
+    "PUBLIC-REASSURANCE", 
+    "TRANSPARENT-COMMUNICATION",
+    "AUTHORITY-LANGUAGE",
+    "CONFIDENCE-BUILDING"
+  ],
+  "lexset": [
+    "I want to assure the public that..., We are taking immediate action to..., The situation is under control..., Transparency is our priority..., We will continue to monitor..., Emergency protocols have been activated..., Public safety remains our top concern..., We are working closely with authorities..., Regular updates will be provided..., Your safety is paramount..."
+  ],
+  "traps": [
+    "과도한 안심 vs 현실적 우려 균형",
+    "권위있는 어조 유지",
+    "투명성과 기밀성의 조화",
+    "감정적 공감과 객관적 정보 제공"
+  ],
+  "bankMin": 60,
+  "forms": {
+    "aff": 0.8,
+    "neg": 0.1,
+    "wh_q": 0.1
+  },
+  "variants": [
+    "위기 유형 (natural disaster, security, health)",
+    "심각성 수준 (minor, moderate, severe)",
+    "대상 청중 (general public, specific groups)"
+  ],
+  "engine": {
+    "randomPick": [6, 10],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "국민 여러분께 상황이 통제되고 있음을 확신시켜드립니다.",
+      "en": "I want to assure the public that the situation is under control."
+    },
+    {
+      "kr": "우리는 이 문제를 해결하기 위해 즉각적인 조치를 취하고 있습니다.",
+      "en": "We are taking immediate action to address this issue."
+    },
+    {
+      "kr": "투명성이 우리의 최우선 과제입니다.",
+      "en": "Transparency is our absolute priority."
+    },
+    {
+      "kr": "우리는 상황을 지속적으로 모니터링할 것입니다.",
+      "en": "We will continue to monitor the situation closely."
+    },
+    {
+      "kr": "비상 프로토콜이 활성화되었습니다.",
+      "en": "Emergency protocols have been activated immediately."
+    },
+    {
+      "kr": "공공 안전이 우리의 최우선 관심사입니다.",
+      "en": "Public safety remains our top concern."
+    },
+    {
+      "kr": "우리는 관련 기관과 긴밀히 협력하고 있습니다.",
+      "en": "We are working closely with all relevant authorities."
+    },
+    {
+      "kr": "정기적인 업데이트가 제공될 예정입니다.",
+      "en": "Regular updates will be provided to keep everyone informed."
+    },
+    {
+      "kr": "여러분의 안전이 무엇보다 중요합니다.",
+      "en": "Your safety is paramount to us."
+    },
+    {
+      "kr": "우리는 이 어려운 시기를 함께 극복할 것입니다.",
+      "en": "We will overcome this challenging time together."
+    }
+  ]
+}

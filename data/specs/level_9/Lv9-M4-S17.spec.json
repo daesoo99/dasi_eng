@@ -1,0 +1,79 @@
+{
+  "id": "Lv9-M4-S17",
+  "title": "헌법 해석과 판례 분석 (Constitutional Interpretation and Precedent Analysis)",
+  "intent": "헌법적 원리를 해석하고 판례를 체계적으로 분석하여 법적 논증을 구성하는 고급 법적 담화 능력을 기른다.",
+  "focus": [
+    "CONSTITUTIONAL-LAW",
+    "PRECEDENT-ANALYSIS", 
+    "LEGAL-INTERPRETATION",
+    "JUDICIAL-REASONING",
+    "CASE-LAW-CITATION"
+  ],
+  "lexset": [
+    "The constitutional provision states..., Precedent establishes that..., The Supreme Court held in..., This interpretation is consistent with..., Legal precedent dictates..., The constitutional framework requires..., Judicial review demonstrates..., The doctrine of stare decisis..., Due process guarantees..., Equal protection under the law..."
+  ],
+  "traps": [
+    "판례 인용의 정확성",
+    "헌법 조항의 정밀한 해석",
+    "법적 논리의 일관성",
+    "stare decisis 원칙의 적용"
+  ],
+  "bankMin": 60,
+  "forms": {
+    "aff": 0.7,
+    "neg": 0.2,
+    "wh_q": 0.1
+  },
+  "variants": [
+    "헌법 영역 (civil rights, separation of powers)",
+    "판례 수준 (Supreme Court, appellate, district)",
+    "해석 방식 (originalist, living constitution)"
+  ],
+  "engine": {
+    "randomPick": [6, 10],
+    "retryWeighted": true,
+    "excludeRecent": true
+  },
+  "seeds": [
+    {
+      "kr": "헌법 조항은 표현의 자유를 보장한다고 명시합니다.",
+      "en": "The constitutional provision clearly guarantees freedom of expression."
+    },
+    {
+      "kr": "판례는 이러한 권리가 절대적이지 않다는 것을 확립했습니다.",
+      "en": "Precedent establishes that such rights are not absolute."
+    },
+    {
+      "kr": "대법원은 브라운 대 교육위원회 사건에서 판결했습니다.",
+      "en": "The Supreme Court held in Brown v. Board of Education."
+    },
+    {
+      "kr": "이 해석은 기존 판례와 일치합니다.",
+      "en": "This interpretation is consistent with established precedent."
+    },
+    {
+      "kr": "법적 선례는 엄격한 심사가 필요함을 지시합니다.",
+      "en": "Legal precedent dictates that strict scrutiny is required."
+    },
+    {
+      "kr": "헌법적 체계는 권력 분립을 요구합니다.",
+      "en": "The constitutional framework requires separation of powers."
+    },
+    {
+      "kr": "사법 심사는 법의 위헌성을 보여줍니다.",
+      "en": "Judicial review demonstrates the law's unconstitutionality."
+    },
+    {
+      "kr": "판례 구속성 원칙이 일관성을 보장합니다.",
+      "en": "The doctrine of stare decisis ensures consistency."
+    },
+    {
+      "kr": "적법 절차가 공정한 대우를 보장합니다.",
+      "en": "Due process guarantees fair treatment."
+    },
+    {
+      "kr": "법 앞의 평등이 헌법의 핵심입니다.",
+      "en": "Equal protection under the law is constitutional bedrock."
+    }
+  ]
+}
