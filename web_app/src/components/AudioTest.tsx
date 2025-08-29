@@ -410,13 +410,13 @@ const AudioTest: React.FC = () => {
           audio.play().catch((e) => {
             console.error('[AudioTest] 오디오 play() 실패:', e);
             setState(prev => ({ ...prev, isPlaying: false }));
+            URL.revokeObjectURL(audioUrl);
+            playingAudioRef.current = null;
+            alert('오디오 재생에 실패했습니다. 브라우저에서 자동 재생이 차단되었을 수 있습니다.');
+          });
         } else {
-          console.log('[DEBUG] 🚫 AudioTest: 이미 재생 중 - 스킨');
+          console.log('[DEBUG] 🚫 AudioTest: 이미 재생 중 - 스킵');
         }
-          URL.revokeObjectURL(audioUrl);
-          playingAudioRef.current = null;
-          alert('오디오 재생에 실패했습니다. 브라우저에서 자동 재생이 차단되었을 수 있습니다.');
-        });
       };
 
       setState(prev => ({ ...prev, isPlaying: true }));

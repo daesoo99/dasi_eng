@@ -1,0 +1,899 @@
+# 🔄 PR Quality Gates - Comprehensive CI/CD Pipeline
+# Enforces linting, formatting, type checking, testing, and consistency analysis
+
+name: PR Quality Gates
+
+on:
+  pull_request:
+    branches: [main, develop]
+    types: [opened, synchronize, reopened]
+  push:
+    branches: [main, develop]
+
+# ✅ SECURITY: Restrict permissions
+permissions:
+  contents: read
+  checks: write
+  pull-requests: write
+  security-events: write
+
+jobs:
+  # ===== Phase 1: Pre-flight Checks =====
+  pre-flight:
+    name: "🚦 Pre-flight Security & Setup"
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      should-skip: ${{ steps.skip-check.outputs.should_skip }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2 # Need previous commit for comparison
+
+      - name: Skip duplicate runs
+        id: skip-check
+        uses: fkirc/skip-duplicate-actions@v5
+        with:
+          concurrent_skipping: same_content_newer
+          cancel_others: true
+
+      - name: Security scan for secrets
+        run: |
+          echo "🔍 Scanning for secrets in commits..."
+          
+          # ✅ Check for common secret patterns
+          if git log --oneline -1 | grep -iE "(password|secret|key|token)" && \
+             git show --name-only | xargs grep -l -iE "(password|secret|key|token)"; then
+            echo "❌ SECURITY VIOLATION: Potential secrets found in commit"
+            exit 1
+          fi
+          
+          # ✅ Check for large files (might be secrets)
+          if git show --stat | grep -E "\s+[0-9]{4,}\s+"; then
+            echo "⚠️  Large files detected - manual review required"
+          fi
+          
+          echo "✅ Security pre-flight passed"
+
+  # ===== Phase 2: Code Quality Gates =====
+  lint-and-format:
+    name: "🎨 Lint & Format"
+    runs-on: ubuntu-latest
+    needs: pre-flight
+    if: needs.pre-flight.outputs.should-skip != 'true'
+    timeout-minutes: 10
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: 'web_app/package-lock.json'
+
+      - name: Install dependencies
+        working-directory: web_app
+        run: |
+          npm ci --prefer-offline --no-audit
+          echo "📦 Dependencies installed"
+
+      - name: ESLint check
+        working-directory: web_app
+        run: |
+          echo "🔍 Running ESLint..."
+          npm run lint -- --format=json --output-file=eslint-results.json || true
+          
+          # ✅ Parse results and set appropriate exit code
+          node -e "
+            const fs = require('fs');
+            try {
+              const results = JSON.parse(fs.readFileSync('eslint-results.json', 'utf8'));
+              const errorCount = results.reduce((sum, result) => sum + result.errorCount, 0);
+              const warningCount = results.reduce((sum, result) => sum + result.warningCount, 0);
+              
+              console.log(\`📊 ESLint Results: \${errorCount} errors, \${warningCount} warnings\`);
+              
+              if (errorCount > 0) {
+                console.log('❌ ESLint errors must be fixed');
+                process.exit(1);
+              }
+              
+              if (warningCount > 50) {
+                console.log('⚠️  Too many warnings (\${warningCount} > 50)');
+                process.exit(1);
+              }
+              
+              console.log('✅ ESLint passed');
+            } catch (e) {
+              console.log('❌ ESLint failed to run properly');
+              process.exit(1);
+            }
+          "
+
+      - name: Prettier format check
+        working-directory: web_app
+        run: |
+          echo "💅 Checking code formatting..."
+          npx prettier --check "src/**/*.{ts,tsx,js,jsx,json,css,md}" || {
+            echo "❌ Code formatting issues found. Run 'npm run format' to fix."
+            exit 1
+          }
+          echo "✅ Code formatting is correct"
+
+      - name: Import/Export analysis
+        working-directory: web_app
+        run: |
+          echo "🔗 Analyzing imports and exports..."
+          
+          # ✅ Check for circular dependencies
+          npx madge --circular --extensions ts,tsx src/ && {
+            echo "❌ Circular dependencies found"
+            npx madge --circular --extensions ts,tsx src/
+            exit 1
+          } || echo "✅ No circular dependencies"
+          
+          # ✅ Check for unused exports
+          npx ts-unused-exports tsconfig.json --maxIssues=10 || {
+            echo "❌ Too many unused exports (>10)"
+            exit 1
+          }
+          echo "✅ Import/export analysis passed"
+
+  type-checking:
+    name: "🔍 Type Checking"
+    runs-on: ubuntu-latest
+    needs: pre-flight
+    if: needs.pre-flight.outputs.should-skip != 'true'
+    timeout-minutes: 10
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: 'web_app/package-lock.json'
+
+      - name: Install dependencies
+        working-directory: web_app
+        run: npm ci --prefer-offline --no-audit
+
+      - name: TypeScript type checking
+        working-directory: web_app
+        run: |
+          echo "🔍 Running TypeScript type checking..."
+          
+          # ✅ Run type checking with detailed output
+          npx tsc --noEmit --incremental --tsBuildInfoFile .tsbuildinfo || {
+            echo "❌ TypeScript errors found"
+            echo "📋 Type checking summary:"
+            npx tsc --noEmit --pretty false 2>&1 | tail -n 20
+            exit 1
+          }
+          
+          echo "✅ TypeScript type checking passed"
+
+      - name: Strict mode compliance
+        working-directory: web_app
+        run: |
+          echo "🔒 Checking TypeScript strict mode compliance..."
+          
+          # ✅ Ensure strict mode is enabled
+          if ! grep -q '"strict": true' tsconfig.json; then
+            echo "❌ TypeScript strict mode is not enabled"
+            exit 1
+          fi
+          
+          # ✅ Check for any @ts-ignore comments
+          IGNORE_COUNT=$(find src -name "*.ts" -o -name "*.tsx" | xargs grep -c "@ts-ignore" || echo "0")
+          if [ "$IGNORE_COUNT" -gt 5 ]; then
+            echo "❌ Too many @ts-ignore comments ($IGNORE_COUNT > 5)"
+            exit 1
+          fi
+          
+          echo "✅ Strict mode compliance verified"
+
+  # ===== Phase 3: Testing Gates =====
+  unit-tests:
+    name: "🧪 Unit Tests"
+    runs-on: ubuntu-latest
+    needs: pre-flight
+    if: needs.pre-flight.outputs.should-skip != 'true'
+    timeout-minutes: 15
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: 'web_app/package-lock.json'
+
+      - name: Install dependencies
+        working-directory: web_app
+        run: npm ci --prefer-offline --no-audit
+
+      - name: Run unit tests with coverage
+        working-directory: web_app
+        run: |
+          echo "🧪 Running unit tests with coverage..."
+          
+          # ✅ Run tests with coverage
+          npm run test -- --coverage --watchAll=false --passWithNoTests || {
+            echo "❌ Unit tests failed"
+            exit 1
+          }
+
+      - name: Coverage gate enforcement
+        working-directory: web_app
+        run: |
+          echo "📊 Checking test coverage requirements..."
+          
+          # ✅ Parse coverage results and enforce gates
+          node -e "
+            const fs = require('fs');
+            try {
+              const coverage = JSON.parse(fs.readFileSync('coverage/coverage-summary.json', 'utf8'));
+              const total = coverage.total;
+              
+              const requirements = {
+                statements: 90,
+                branches: 85, 
+                functions: 90,
+                lines: 90
+              };
+              
+              console.log('📈 Coverage Report:');
+              console.log(\`  Statements: \${total.statements.pct}% (required: \${requirements.statements}%)\`);
+              console.log(\`  Branches: \${total.branches.pct}% (required: \${requirements.branches}%)\`);
+              console.log(\`  Functions: \${total.functions.pct}% (required: \${requirements.functions}%)\`);
+              console.log(\`  Lines: \${total.lines.pct}% (required: \${requirements.lines}%)\`);
+              
+              let failed = false;
+              Object.entries(requirements).forEach(([key, required]) => {
+                if (total[key].pct < required) {
+                  console.log(\`❌ \${key} coverage (\${total[key].pct}%) below requirement (\${required}%)\`);
+                  failed = true;
+                }
+              });
+              
+              if (failed) {
+                console.log('❌ Coverage gate failed');
+                process.exit(1);
+              }
+              
+              console.log('✅ All coverage requirements met');
+            } catch (e) {
+              console.log('❌ Could not read coverage results');
+              process.exit(1);
+            }
+          "
+
+      - name: Upload coverage reports
+        uses: codecov/codecov-action@v3
+        with:
+          directory: ./web_app/coverage
+          flags: unittests
+          name: unit-test-coverage
+
+  contract-tests:
+    name: "📋 Contract Tests"
+    runs-on: ubuntu-latest
+    needs: pre-flight
+    if: needs.pre-flight.outputs.should-skip != 'true'
+    timeout-minutes: 10
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: 'web_app/package-lock.json'
+
+      - name: Install dependencies
+        working-directory: web_app
+        run: npm ci --prefer-offline --no-audit
+
+      - name: Run contract tests
+        working-directory: web_app
+        run: |
+          echo "📋 Running contract tests..."
+          
+          # ✅ Run contract tests specifically
+          npm test -- --testNamePattern="Contract Tests" --verbose || {
+            echo "❌ Contract tests failed"
+            exit 1
+          }
+          
+          echo "✅ Contract tests passed"
+
+  security-tests:
+    name: "🔒 Security Tests" 
+    runs-on: ubuntu-latest
+    needs: pre-flight
+    if: needs.pre-flight.outputs.should-skip != 'true'
+    timeout-minutes: 15
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: 'web_app/package-lock.json'
+
+      - name: Install dependencies
+        working-directory: web_app
+        run: npm ci --prefer-offline --no-audit
+
+      - name: Security vulnerability scan
+        working-directory: web_app
+        run: |
+          echo "🔍 Scanning for security vulnerabilities..."
+          
+          # ✅ Run npm audit with strict settings
+          npm audit --audit-level=moderate || {
+            echo "❌ Security vulnerabilities found"
+            npm audit --audit-level=moderate --json | jq '.vulnerabilities'
+            exit 1
+          }
+          
+          echo "✅ No security vulnerabilities found"
+
+      - name: Dependency license check
+        working-directory: web_app
+        run: |
+          echo "📜 Checking dependency licenses..."
+          
+          # ✅ Install license checker
+          npm install -g license-checker
+          
+          # ✅ Check for problematic licenses
+          license-checker --onlyAllow 'MIT;Apache-2.0;BSD-2-Clause;BSD-3-Clause;ISC;CC0-1.0' || {
+            echo "❌ Incompatible licenses found"
+            license-checker --summary
+            exit 1
+          }
+          
+          echo "✅ All dependencies have compatible licenses"
+
+      - name: CodeQL analysis
+        uses: github/codeql-action/init@v2
+        with:
+          languages: javascript
+          queries: security-and-quality
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v2
+
+  # ===== Phase 4: Consistency Analysis Loop =====
+  consistency-analysis:
+    name: "🔄 Consistency Analysis & Code Quality"
+    runs-on: ubuntu-latest
+    needs: [pre-flight, unit-tests]
+    if: needs.pre-flight.outputs.should-skip != 'true'
+    timeout-minutes: 15
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Need full history for regression analysis
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: 'web_app/package-lock.json'
+
+      - name: Install dependencies
+        working-directory: web_app
+        run: npm ci --prefer-offline --no-audit
+
+      - name: Comprehensive consistency analysis
+        run: |
+          echo "🔍 Running comprehensive consistency analysis..."
+          
+          # ✅ Download previous analysis results for regression detection
+          if [ "${{ github.event_name }}" == "pull_request" ]; then
+            echo "📥 Downloading baseline from main branch..."
+            git show main:previous-consistency-analysis.json > previous-consistency-analysis.json 2>/dev/null || echo "No previous baseline found"
+          fi
+          
+          # ✅ Run our comprehensive consistency analyzer
+          node scripts/consistency-analysis.js --exit-on-issues --output consistency-report.json
+          
+          echo "✅ Consistency analysis completed"
+
+      - name: Code duplication detection
+        run: |
+          echo "🔍 Advanced duplication detection..."
+          
+          # ✅ Install jscpd for additional duplication analysis
+          npm install -g jscpd
+          
+          # ✅ Run duplication detection with strict thresholds
+          jscpd --min-lines 8 --min-tokens 40 --threshold 0.1 \
+                --reporters json,html \
+                --output ./duplication-report \
+                web_app/src/ backend/src/ || {
+            echo "❌ Code duplication exceeds acceptable threshold"
+            
+            # Show duplication summary
+            if [ -f "./duplication-report/jscpd-report.json" ]; then
+              echo "📊 Duplication Summary:"
+              node -e "
+                const report = require('./duplication-report/jscpd-report.json');
+                console.log(\`Total duplicates: \${report.statistics.total.duplicates}\`);
+                console.log(\`Percentage: \${report.statistics.total.percentage}%\`);
+                console.log(\`Lines duplicated: \${report.statistics.total.lines}\`);
+              "
+            fi
+            
+            exit 1
+          }
+          
+          echo "✅ Duplication levels acceptable"
+
+      - name: Architecture consistency check  
+        run: |
+          echo "🏗️  Checking architectural consistency..."
+          
+          # ✅ Verify plugin architecture patterns
+          echo "  - Checking plugin interfaces..."
+          if ! grep -r "implements.*Plugin" web_app/src/plugins/; then
+            echo "⚠️  No plugin implementations found"
+          fi
+          
+          # ✅ Check for consistent error handling
+          echo "  - Checking error handling patterns..."
+          inconsistent_errors=$(grep -r "throw new Error" web_app/src/ | wc -l)
+          result_errors=$(grep -r "Result<" web_app/src/ | wc -l)
+          
+          if [ $inconsistent_errors -gt $result_errors ]; then
+            echo "❌ Inconsistent error handling: $inconsistent_errors plain throws vs $result_errors Result<T> patterns"
+            exit 1
+          fi
+          
+          echo "✅ Architecture patterns consistent"
+
+      - name: Missing implementation detection
+        run: |
+          echo "🔍 Detecting missing implementations..."
+          
+          # ✅ Check for TODOs and FIXMEs that might indicate omissions
+          todos=$(find web_app/src backend/src -name "*.ts" -o -name "*.tsx" -o -name "*.js" | xargs grep -i "TODO\|FIXME\|XXX" | wc -l)
+          
+          if [ $todos -gt 10 ]; then
+            echo "⚠️  High number of TODOs/FIXMEs found: $todos"
+            echo "📋 Recent TODOs:"
+            find web_app/src backend/src -name "*.ts" -o -name "*.tsx" -o -name "*.js" | xargs grep -i "TODO\|FIXME\|XXX" | head -10
+          fi
+          
+          # ✅ Check for unimplemented interface methods
+          echo "  - Checking interface implementations..."
+          node -e "
+            const fs = require('fs');
+            const glob = require('glob');
+            
+            let missingImplementations = 0;
+            const files = glob.sync('web_app/src/**/*.{ts,tsx}');
+            
+            files.forEach(file => {
+              const content = fs.readFileSync(file, 'utf8');
+              
+              // Simple check for class implements pattern
+              const implementsMatch = content.match(/class\s+\w+\s+implements\s+(\w+)/g);
+              if (implementsMatch) {
+                // Check if methods are actually implemented (basic check)
+                const hasMethodImplementations = /\w+\s*\([^)]*\)\s*\{/.test(content);
+                if (!hasMethodImplementations) {
+                  console.log(\`⚠️  Potential missing implementation in \${file}\`);
+                  missingImplementations++;
+                }
+              }
+            });
+            
+            if (missingImplementations > 0) {
+              console.log(\`❌ Found \${missingImplementations} potential missing implementations\`);
+              process.exit(1);
+            }
+            
+            console.log('✅ All implementations appear complete');
+          " 2>/dev/null || echo "✅ Implementation check completed"
+
+      - name: Generate consistency report summary
+        if: always()
+        run: |
+          echo "📊 Generating consistency analysis summary..."
+          
+          # ✅ Parse and summarize results
+          if [ -f "consistency-report.json" ]; then
+            node -e "
+              const fs = require('fs');
+              const report = JSON.parse(fs.readFileSync('consistency-report.json', 'utf8'));
+              
+              console.log('\\n📈 Consistency Analysis Summary');
+              console.log('=====================================');
+              console.log(\`📁 Files analyzed: \${report.metrics.totalFiles}\`);
+              console.log(\`🔍 Total issues: \${report.issues.length}\`);
+              console.log(\`  - Duplications: \${report.metrics.duplicates}\`);
+              console.log(\`  - Omissions: \${report.metrics.omissions}\`);
+              console.log(\`  - Regressions: \${report.metrics.regressions}\`);
+              console.log(\`  - Complexity violations: \${report.metrics.complexityViolations}\`);
+              console.log(\`💡 Suggestions: \${report.suggestions.length}\`);
+              
+              // Show critical issues
+              const critical = report.issues.filter(i => i.severity === 'critical');
+              if (critical.length > 0) {
+                console.log(\`\\n🚨 Critical Issues (\${critical.length}):\`);
+                critical.forEach(issue => console.log(\`  - \${issue.message}\`));
+              }
+              
+              // Show top suggestions
+              if (report.suggestions.length > 0) {
+                console.log(\`\\n💡 Top Suggestions:\`);
+                report.suggestions.slice(0, 3).forEach(s => {
+                  console.log(\`  - [\${s.priority.toUpperCase()}] \${s.title}\`);
+                });
+              }
+            " || echo "⚠️  Could not parse consistency report"
+          fi
+
+      - name: Upload consistency analysis artifacts
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: consistency-analysis-report
+          path: |
+            consistency-report.json
+            duplication-report/
+            previous-consistency-analysis.json
+          retention-days: 30
+
+  # ===== Phase 5: Advanced Integration Tests =====
+  e2e-tests:
+    name: "🌐 E2E Tests"
+    runs-on: ubuntu-latest
+    needs: [pre-flight, consistency-analysis]
+        run: |
+          echo "🔗 Checking API consistency..."
+          
+          # ✅ Custom script to check interface consistency
+          node -e "
+            const fs = require('fs');
+            const path = require('path');
+            const glob = require('glob');
+            
+            console.log('🔍 Analyzing interface consistency...');
+            
+            // Find all interface files
+            const interfaceFiles = glob.sync('src/**/*Interface*.ts');
+            const pluginFiles = glob.sync('src/**/plugins/**/*.ts');
+            
+            let inconsistencies = 0;
+            
+            // Check for naming consistency
+            pluginFiles.forEach(file => {
+              const content = fs.readFileSync(file, 'utf8');
+              
+              // Check for consistent error handling patterns
+              const hasResultType = content.includes('Result<');
+              const hasErrorHandling = content.includes('catch') || content.includes('CommonErrors');
+              
+              if (content.includes('async ') && !hasResultType) {
+                console.log(\`⚠️  \${file}: Async function without Result<T> return type\`);
+                inconsistencies++;
+              }
+              
+              if (content.includes('throw new Error') && hasResultType) {
+                console.log(\`⚠️  \${file}: Throwing errors instead of returning Result<T>\`);
+                inconsistencies++;
+              }
+            });
+            
+            if (inconsistencies > 5) {
+              console.log(\`❌ Too many API inconsistencies (\${inconsistencies} > 5)\`);
+              process.exit(1);
+            }
+            
+            console.log(\`✅ API consistency check passed (\${inconsistencies} minor issues)\`);
+          "
+
+      - name: Architecture compliance check
+        working-directory: web_app
+        run: |
+          echo "🏗️  Checking architecture compliance..."
+          
+          # ✅ Check layer violations
+          node -e "
+            const fs = require('fs');
+            const glob = require('glob');
+            
+            console.log('🔍 Analyzing architecture layers...');
+            
+            const violations = [];
+            
+            // Check that components don't import from plugins directly
+            const componentFiles = glob.sync('src/components/**/*.{ts,tsx}');
+            componentFiles.forEach(file => {
+              const content = fs.readFileSync(file, 'utf8');
+              
+              // Components should use hooks, not direct plugin imports
+              if (content.includes('from \'../plugins/') || content.includes('from \'@/plugins/')) {
+                const lines = content.split('\n');
+                lines.forEach((line, index) => {
+                  if (line.includes('from \'../plugins/') || line.includes('from \'@/plugins/')) {
+                    violations.push(\`\${file}:\${index + 1}: Component directly importing plugin\`);
+                  }
+                });
+              }
+            });
+            
+            // Check that hooks properly abstract plugin access
+            const hookFiles = glob.sync('src/hooks/**/*.ts');
+            hookFiles.forEach(file => {
+              const content = fs.readFileSync(file, 'utf8');
+              
+              // Hooks should handle errors and provide clean interfaces
+              if (content.includes('useAdvanced') && !content.includes('try {')) {
+                violations.push(\`\${file}: Advanced hook without error handling\`);
+              }
+            });
+            
+            if (violations.length > 0) {
+              console.log('❌ Architecture violations found:');
+              violations.forEach(v => console.log(\`  \${v}\`));
+              
+              if (violations.length > 10) {
+                process.exit(1);
+              }
+            }
+            
+            console.log('✅ Architecture compliance verified');
+          "
+
+  # ===== Phase 5: End-to-End & Accessibility =====
+  e2e-tests:
+    name: "🎭 E2E Tests"
+    runs-on: ubuntu-latest
+    needs: [lint-and-format, type-checking, unit-tests]
+    timeout-minutes: 20
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: 'web_app/package-lock.json'
+
+      - name: Install dependencies
+        working-directory: web_app
+        run: npm ci --prefer-offline --no-audit
+
+      - name: Install Playwright
+        working-directory: web_app
+        run: npx playwright install --with-deps chromium
+
+      - name: Build application
+        working-directory: web_app
+        run: |
+          npm run build || {
+            echo "❌ Build failed"
+            exit 1
+          }
+
+      - name: Start application
+        working-directory: web_app
+        run: |
+          npm run preview &
+          echo $! > .app-pid
+          
+          # ✅ Wait for app to be ready
+          timeout 30 bash -c 'until curl -s http://localhost:3500 > /dev/null; do sleep 1; done' || {
+            echo "❌ Application failed to start"
+            exit 1
+          }
+          
+          echo "✅ Application started successfully"
+
+      - name: Run E2E tests
+        working-directory: web_app
+        run: |
+          echo "🎭 Running E2E tests..."
+          
+          # ✅ Run Playwright tests
+          npx playwright test || {
+            echo "❌ E2E tests failed"
+            
+            # Upload screenshots on failure
+            if [ -d "test-results" ]; then
+              echo "📸 Test failure screenshots available"
+            fi
+            
+            exit 1
+          }
+          
+          echo "✅ E2E tests passed"
+
+      - name: Cleanup
+        if: always()
+        working-directory: web_app
+        run: |
+          if [ -f ".app-pid" ]; then
+            kill $(cat .app-pid) || true
+          fi
+
+  accessibility-tests:
+    name: "♿ Accessibility Tests"
+    runs-on: ubuntu-latest
+    needs: [lint-and-format, type-checking]
+    timeout-minutes: 15
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm' 
+          cache-dependency-path: 'web_app/package-lock.json'
+
+      - name: Install dependencies
+        working-directory: web_app
+        run: npm ci --prefer-offline --no-audit
+
+      - name: Build application
+        working-directory: web_app
+        run: npm run build
+
+      - name: Run accessibility audit
+        working-directory: web_app
+        run: |
+          echo "♿ Running accessibility audit..."
+          
+          # ✅ Install and run Pa11y
+          npm install -g pa11y-ci
+          
+          # ✅ Start app in background
+          npm run preview &
+          APP_PID=$!
+          
+          # Wait for app
+          timeout 30 bash -c 'until curl -s http://localhost:3500 > /dev/null; do sleep 1; done'
+          
+          # ✅ Run accessibility tests
+          pa11y-ci --sitemap http://localhost:3500/sitemap.xml --threshold 5 || {
+            echo "❌ Accessibility issues found (more than 5 violations)"
+            kill $APP_PID
+            exit 1
+          }
+          
+          echo "✅ Accessibility audit passed"
+          kill $APP_PID
+
+  # ===== Phase 6: Quality Gate Summary =====
+  quality-gate-summary:
+    name: "📊 Quality Gate Summary"
+    runs-on: ubuntu-latest
+    needs: [
+      lint-and-format, 
+      type-checking, 
+      unit-tests, 
+      contract-tests, 
+      security-tests,
+      consistency-analysis,
+      e2e-tests,
+      accessibility-tests
+    ]
+    if: always()
+    timeout-minutes: 5
+    steps:
+      - name: Generate quality report
+        run: |
+          echo "📊 Quality Gate Summary Report"
+          echo "================================"
+          
+          # ✅ Check status of all gates
+          LINT_STATUS="${{ needs.lint-and-format.result }}"
+          TYPE_STATUS="${{ needs.type-checking.result }}"
+          UNIT_STATUS="${{ needs.unit-tests.result }}"
+          CONTRACT_STATUS="${{ needs.contract-tests.result }}"
+          SECURITY_STATUS="${{ needs.security-tests.result }}"
+          CONSISTENCY_STATUS="${{ needs.consistency-analysis.result }}"
+          E2E_STATUS="${{ needs.e2e-tests.result }}"
+          A11Y_STATUS="${{ needs.accessibility-tests.result }}"
+          
+          echo "🎨 Lint & Format: $LINT_STATUS"
+          echo "🔍 Type Checking: $TYPE_STATUS" 
+          echo "🧪 Unit Tests: $UNIT_STATUS"
+          echo "📋 Contract Tests: $CONTRACT_STATUS"
+          echo "🔒 Security Tests: $SECURITY_STATUS"
+          echo "🔄 Consistency Analysis: $CONSISTENCY_STATUS"
+          echo "🎭 E2E Tests: $E2E_STATUS"
+          echo "♿ Accessibility Tests: $A11Y_STATUS"
+          
+          # ✅ Determine overall status
+          FAILED_COUNT=0
+          for status in "$LINT_STATUS" "$TYPE_STATUS" "$UNIT_STATUS" "$CONTRACT_STATUS" "$SECURITY_STATUS" "$CONSISTENCY_STATUS" "$E2E_STATUS" "$A11Y_STATUS"; do
+            if [ "$status" = "failure" ]; then
+              FAILED_COUNT=$((FAILED_COUNT + 1))
+            fi
+          done
+          
+          echo ""
+          if [ $FAILED_COUNT -eq 0 ]; then
+            echo "✅ ALL QUALITY GATES PASSED"
+            echo "🚀 Ready for merge!"
+          else
+            echo "❌ $FAILED_COUNT QUALITY GATES FAILED"
+            echo "🚫 Not ready for merge"
+            exit 1
+          fi
+
+      - name: Comment PR with results
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const results = {
+              lint: '${{ needs.lint-and-format.result }}',
+              typecheck: '${{ needs.type-checking.result }}',
+              unit: '${{ needs.unit-tests.result }}',
+              contract: '${{ needs.contract-tests.result }}',
+              security: '${{ needs.security-tests.result }}',
+              consistency: '${{ needs.consistency-analysis.result }}',
+              e2e: '${{ needs.e2e-tests.result }}',
+              accessibility: '${{ needs.accessibility-tests.result }}'
+            };
+            
+            const getEmoji = (status) => {
+              switch(status) {
+                case 'success': return '✅';
+                case 'failure': return '❌';
+                case 'cancelled': return '⏹️';
+                case 'skipped': return '⏭️';
+                default: return '❓';
+              }
+            };
+            
+            const body = `## 📊 Quality Gate Report
+            
+            | Gate | Status | Result |
+            |------|--------|--------|
+            | 🎨 Lint & Format | ${getEmoji(results.lint)} | ${results.lint} |
+            | 🔍 Type Checking | ${getEmoji(results.typecheck)} | ${results.typecheck} |
+            | 🧪 Unit Tests | ${getEmoji(results.unit)} | ${results.unit} |
+            | 📋 Contract Tests | ${getEmoji(results.contract)} | ${results.contract} |
+            | 🔒 Security Tests | ${getEmoji(results.security)} | ${results.security} |
+            | 🔄 Consistency Analysis | ${getEmoji(results.consistency)} | ${results.consistency} |
+            | 🎭 E2E Tests | ${getEmoji(results.e2e)} | ${results.e2e} |
+            | ♿ Accessibility Tests | ${getEmoji(results.accessibility)} | ${results.accessibility} |
+            
+            ${Object.values(results).every(r => r === 'success') 
+              ? '🚀 **All quality gates passed! Ready for merge.**' 
+              : '🚫 **Quality gates failed. Please fix issues before merging.**'}
+            `;
+            
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: body
+            });

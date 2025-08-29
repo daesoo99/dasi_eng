@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useCallback } from 'react';
 import { useAudioFlowController, type FlowState } from '@/hooks/useAudioFlowController';
+import { pluginManager, getSpeechPlugin } from '@/plugins/PluginManager';
 import { getServiceContainer } from '@/container/ServiceContainer';
 
 interface AutoSpeakingFlowV2Props {
@@ -10,6 +11,8 @@ interface AutoSpeakingFlowV2Props {
   recordingDuration?: number;
   // 의존성 주입을 위한 옵션 (테스트용)
   serviceContainer?: ReturnType<typeof getServiceContainer>;
+  // 플러그인 시스템 사용 여부 (기본: true)
+  usePluginSystem?: boolean;
 }
 
 export const AutoSpeakingFlowV2: React.FC<AutoSpeakingFlowV2Props> = React.memo(({

@@ -554,4 +554,4 @@ export const AllModePage: React.FC = React.memo(() => {
       )}
     </div>
   );
-};
+});

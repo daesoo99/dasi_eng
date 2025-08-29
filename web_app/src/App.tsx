@@ -6,6 +6,7 @@ import { ErrorBoundary } from '@/components/ErrorBoundary';
 import { useAuth } from '@/hooks/useAuth';
 import UserProfile from '@/components/UserProfile';
 import AuthModal from '@/components/AuthModal';
+import { initializeAdvancedPluginSystem } from '@/plugins/simple/AdvancedIntegration';
 
 // Lazy load pages for better performance
 const LandingHome = lazy(() => import('@/pages/LandingHome').then(m => ({ default: m.LandingHome })));
@@ -33,6 +34,35 @@ function App() {
   const { setUser } = useAppStore();
   const { isLoading, isAuthenticated, user } = useAuth();
   const [showAuthModal, setShowAuthModal] = React.useState(false);
+
+  // 고급 플러그인 시스템 초기화
+  useEffect(() => {
+    const initAdvancedPlugins = async () => {
+      try {
+        console.log('🚀 Initializing Advanced Plugin System...');
+        
+        const result = await initializeAdvancedPluginSystem();
+        
+        if (result.success) {
+          console.log('✅ Advanced Plugin System ready!');
+          console.log('📦 Loaded plugins:', result.loadedPlugins);
+          console.log('📊 Bundle analysis:', result.bundleAnalysis);
+        } else {
+          console.error('❌ Advanced Plugin System failed:', result.error);
+        }
+      } catch (error) {
+        console.error('❌ Advanced Plugin System error:', error);
+      }
+    };
+    
+    initAdvancedPlugins();
+    
+    // 컴포넌트 언마운트 시 플러그인 시스템 정리
+    return () => {
+      // Advanced plugin system handles cleanup internally
+      console.log('🧹 Plugin system cleanup on unmount');
+    };
+  }, []);
 
   useEffect(() => {
     // Firebase Auth 로딩이 완료되고 미인증 상태일 때 로그인 모달 표시
