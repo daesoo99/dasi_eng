@@ -1,0 +1,152 @@
+{
+  "stage_id": "S25",
+  "title": "Stage S25",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "I've been to Paris three times.",
+    "I have tried sushi, and it was delicious."
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 25,
+  "count": 20,
+  "sentences": [
+    {
+      "id": "S25-1",
+      "kr": "파리에 세 번 가봤어요.",
+      "en": "I've been to Paris three times.",
+      "form": "aff"
+    },
+    {
+      "id": "S25-2",
+      "kr": "스시를 먹어봤는데, 맛있었어요.",
+      "en": "I have tried sushi, and it was delicious.",
+      "form": "aff"
+    },
+    {
+      "id": "S25-3",
+      "kr": "실제로 눈을 본 적이 없어요.",
+      "en": "I've never seen snow in real life.",
+      "form": "aff"
+    },
+    {
+      "id": "S25-4",
+      "kr": "콘서트에 가본 적 있나요?",
+      "en": "Have you ever been to a concert?",
+      "form": "aff"
+    },
+    {
+      "id": "S25-5",
+      "kr": "패러글라이딩을 해본 적이 있어요. 정말 대단했어요!",
+      "en": "I have done paragliding before. It was amazing!",
+      "form": "aff"
+    },
+    {
+      "id": "S25-6",
+      "kr": "그녀는 다섯 개의 다른 나라에서 살아봤어요.",
+      "en": "She has lived in five different countries.",
+      "form": "aff"
+    },
+    {
+      "id": "S25-7",
+      "kr": "우리는 수년간 함께 일해왔어요.",
+      "en": "We have worked together for many years.",
+      "form": "aff"
+    },
+    {
+      "id": "S25-8",
+      "kr": "이 경험으로부터 많은 것을 배웠어요.",
+      "en": "I have learned so much from this experience.",
+      "form": "aff"
+    },
+    {
+      "id": "S25-9",
+      "kr": "새 박물관을 방문할 기회가 있으셨나요?",
+      "en": "Have you had a chance to visit the new museum?",
+      "form": "aff"
+    },
+    {
+      "id": "S25-10",
+      "kr": "이 일을 통해 많은 흥미로운 사람들을 만났어요.",
+      "en": "I have met many interesting people through this job.",
+      "form": "aff"
+    },
+    {
+      "id": "S25-1",
+      "kr": "파리에 세 번 가봤어요.",
+      "en": "I've been to Paris three times.",
+      "form": "aff"
+    },
+    {
+      "id": "S25-2",
+      "kr": "스시를 먹어봤는데, 맛있었어요.",
+      "en": "I have tried sushi, and it was delicious.",
+      "form": "aff"
+    },
+    {
+      "id": "S25-3",
+      "kr": "실제로 눈을 본 적이 없어요.",
+      "en": "I've never seen snow in real life.",
+      "form": "aff"
+    },
+    {
+      "id": "S25-4",
+      "kr": "콘서트에 가본 적 있나요?",
+      "en": "Have you ever been to a concert?",
+      "form": "aff"
+    },
+    {
+      "id": "S25-5",
+      "kr": "패러글라이딩을 해본 적이 있어요. 정말 대단했어요!",
+      "en": "I have done paragliding before. It was amazing!",
+      "form": "aff"
+    },
+    {
+      "id": "S25-6",
+      "kr": "그녀는 다섯 개의 다른 나라에서 살아봤어요.",
+      "en": "She has lived in five different countries.",
+      "form": "aff"
+    },
+    {
+      "id": "S25-7",
+      "kr": "우리는 수년간 함께 일해왔어요.",
+      "en": "We have worked together for many years.",
+      "form": "aff"
+    },
+    {
+      "id": "S25-8",
+      "kr": "이 경험으로부터 많은 것을 배웠어요.",
+      "en": "I have learned so much from this experience.",
+      "form": "aff"
+    },
+    {
+      "id": "S25-9",
+      "kr": "새 박물관을 방문할 기회가 있으셨나요?",
+      "en": "Have you had a chance to visit the new museum?",
+      "form": "aff"
+    },
+    {
+      "id": "S25-10",
+      "kr": "이 일을 통해 많은 흥미로운 사람들을 만났어요.",
+      "en": "I have met many interesting people through this job.",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 20,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L1_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.731Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW.json",
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW_migrated.json"
+    ]
+  }
+}

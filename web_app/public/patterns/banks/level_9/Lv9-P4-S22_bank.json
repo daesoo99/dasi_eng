@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P4-S22",
-  "title": "대조법과 대구법",
-  "description": "antithesis와 parallelism 기법을 사용하여 상반되는 개념을 강조하고 리듬감 있는 표현을 만드는 연습.",
-  "grammar_pattern": "ANTITHESIS-PARALLELISM",
+  "title": "Stage Lv9-P4-S22",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "It was the best of times, it was the worst of times.",
-    "Ask not what your country can do for you, ask what you can do for your country.",
-    "We must learn to live together as brothers or perish together as fools."
+    "Ask not what your country can do for you, ask what you can do for your country."
   ],
-  "learning_points": "대조법과 대구법을 사용한 수사적 효과와 리듬감",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 4,
   "stage_number": 22,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv9-P4-S22-001",
       "kr": "가장 좋은 시대였고, 가장 나쁜 시대였습니다.",
       "en": "It was the best of times, it was the worst of times.",
-      "pattern": "ANTITHESIS-PARALLELISM",
       "form": "aff"
     },
     {
       "id": "Lv9-P4-S22-002",
       "kr": "나라가 당신에게 무엇을 해줄 수 있는지 묻지 말고, 당신이 나라를 위해 무엇을 할 수 있는지 물어보십시오.",
       "en": "Ask not what your country can do for you, ask what you can do for your country.",
-      "pattern": "ANTITHESIS-PARALLELISM",
       "form": "aff"
     },
     {
       "id": "Lv9-P4-S22-003",
       "kr": "우리는 형제로서 함께 사는 법을 배우거나, 아니면 바보로서 함께 멸망해야 합니다.",
       "en": "We must learn to live together as brothers or perish together as fools.",
-      "pattern": "ANTITHESIS-PARALLELISM",
       "form": "aff"
     },
     {
       "id": "Lv9-P4-S22-004",
       "kr": "성공에는 검업이 따르고, 실패에는 배움이 따릅니다.",
       "en": "With success comes humility, with failure comes learning.",
-      "pattern": "ANTITHESIS-PARALLELISM",
       "form": "aff"
     },
     {
       "id": "Lv9-P4-S22-005",
       "kr": "지혜로운 자는 경험에서 배우고, 어리석은 자는 실수에서 배웭니다.",
       "en": "The wise learn from experience, the foolish learn from mistakes.",
-      "pattern": "ANTITHESIS-PARALLELISM",
       "form": "aff"
     },
     {
       "id": "Lv9-P4-S22-006",
       "kr": "두려움은 우리를 막게 하지만, 용기는 우리를 앞으로 나아가게 합니다.",
       "en": "Fear holds us back, courage moves us forward.",
-      "pattern": "ANTITHESIS-PARALLELISM",
       "form": "aff"
     },
     {
       "id": "Lv9-P4-S22-007",
       "kr": "가난은 영혼을 단련시키고, 빈부는 영혼을 부패시킵니다.",
       "en": "Poverty strengthens the soul, wealth corrupts the spirit.",
-      "pattern": "ANTITHESIS-PARALLELISM",
       "form": "aff"
     },
     {
       "id": "Lv9-P4-S22-008",
       "kr": "진실은 우리를 자유롭게 하지만, 거짓은 우리를 에서 매고 있습니다.",
       "en": "Truth sets us free, lies bind us in chains.",
-      "pattern": "ANTITHESIS-PARALLELISM",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.604Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P4-S22_bank.json"
+    ]
+  }
 }

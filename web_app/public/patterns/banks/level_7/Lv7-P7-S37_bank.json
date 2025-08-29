@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv7-P7-S37",
-  "title": "의견 강조 어휘 응용",
-  "description": "Level 6에서 다룬 firmly, strongly 등 외에도 profoundly, wholeheartedly 같은 매우 강한 어휘를 사용해 봅니다.",
-  "grammar_pattern": "EMPHATIC-OPINION-VOCABULARY",
+  "title": "Stage Lv7-P7-S37",
+  "description": "Level 7 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "I wholeheartedly agree with this decision and believe it will benefit everyone.",
-    "We profoundly disagree on this issue and need to find common ground.",
-    "This proposal is fundamentally flawed and requires complete reconsideration."
+    "We profoundly disagree on this issue and need to find common ground."
   ],
-  "learning_points": "고급 강조 어휘를 통한 의견의 강도 조절과 설득력 향상",
+  "learning_points": "Level 7 target grammar and expressions with practical usage examples",
   "phase": 7,
   "stage_number": 37,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv7-P7-S37-001",
       "kr": "이 결정에 전적으로 동의하며 모두에게 도움이 될 것이라고 믿습니다.",
       "en": "I wholeheartedly agree with this decision and believe it will benefit everyone.",
-      "pattern": "EMPHATIC-OPINION-VOCABULARY",
       "form": "aff"
     },
     {
       "id": "Lv7-P7-S37-002",
       "kr": "이 문제에 대해 근본적으로 의견이 다르며 공통점을 찾아야 합니다.",
       "en": "We profoundly disagree on this issue and need to find common ground.",
-      "pattern": "EMPHATIC-OPINION-VOCABULARY",
       "form": "aff"
     },
     {
       "id": "Lv7-P7-S37-003",
       "kr": "이 제안은 근본적으로 결함이 있어 완전한 재고가 필요합니다.",
       "en": "This proposal is fundamentally flawed and requires complete reconsideration.",
-      "pattern": "EMPHATIC-OPINION-VOCABULARY",
       "form": "aff"
     },
     {
       "id": "Lv7-P7-S37-004",
       "kr": "그들의 접근 방식을 열성적으로 지지하며 뛰어난 결과를 기대합니다.",
       "en": "I enthusiastically support their approach and expect outstanding results.",
-      "pattern": "EMPHATIC-OPINION-VOCABULARY",
       "form": "aff"
     },
     {
       "id": "Lv7-P7-S37-005",
       "kr": "이 정책 변화에 단호히 반대하며 재검토를 요구합니다.",
       "en": "We categorically oppose this policy change and demand a review.",
-      "pattern": "EMPHATIC-OPINION-VOCABULARY",
       "form": "neg"
     },
     {
       "id": "Lv7-P7-S37-006",
       "kr": "그녀의 리더십을 무조건적으로 신뢰하며 그녀의 비전을 따를 것입니다.",
       "en": "I unconditionally trust her leadership and will follow her vision.",
-      "pattern": "EMPHATIC-OPINION-VOCABULARY",
       "form": "aff"
     },
     {
       "id": "Lv7-P7-S37-007",
       "kr": "이 프로젝트의 중요성을 깊이 확신하며 모든 자원을 투입할 것입니다.",
       "en": "We deeply believe in the importance of this project and will commit all resources.",
-      "pattern": "EMPHATIC-OPINION-VOCABULARY",
       "form": "aff"
     },
     {
       "id": "Lv7-P7-S37-008",
       "kr": "현재 전략을 철저히 거부하며 완전히 새로운 방향이 필요합니다.",
       "en": "We utterly reject the current strategy and need a completely new direction.",
-      "pattern": "EMPHATIC-OPINION-VOCABULARY",
       "form": "neg"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 6,
+    "neg": 2,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L7_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.534Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_7\\Lv7-P7-S37_bank.json"
+    ]
+  }
 }

@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv6-P5-S31",
+  "title": "전치사+관계대명사",
+  "description": "격식체 관계절에서 전치사가 앞에 오는 구조를 긴 문장에서 활용합니다. PREPOSITION-RELATIVE-FORMAL 패턴을 연습합니다.",
+  "grammar_pattern": "PREPOSITION-RELATIVE-FORMAL",
+  "examples": [
+    "The framework within which the system operates is outdated.",
+    "The terms of which were not disclosed in the agreement.",
+    "The person to whom I spoke was very helpful."
+  ],
+  "learning_points": "격식체 문서와 공식 발표에서의 전치사+관계대명사 활용",
+  "phase": 5,
+  "stage_number": 31,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv6-P5-S31-001",
+      "kr": "시스템이 작동하는 프레임워크는 구식입니다.",
+      "en": "The framework within which the system operates is outdated.",
+      "pattern": "PREPOSITION-RELATIVE-FORMAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P5-S31-002",
+      "kr": "계약서에 공개되지 않은 조건들이 있었습니다.",
+      "en": "There were terms the details of which were not disclosed in the contract.",
+      "pattern": "PREPOSITION-RELATIVE-FORMAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P5-S31-003",
+      "kr": "제가 이야기한 사람은 매우 도움이 되었습니다.",
+      "en": "The person to whom I spoke was very helpful.",
+      "pattern": "PREPOSITION-RELATIVE-FORMAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P5-S31-004",
+      "kr": "우리가 의존하고 있는 시스템은 업그레이드가 필요합니다.",
+      "en": "The system on which we depend requires upgrading.",
+      "pattern": "PREPOSITION-RELATIVE-FORMAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P5-S31-005",
+      "kr": "회사가 기반을 둔 원칙들은 여전히 유효합니다.",
+      "en": "The principles on which the company is founded remain valid.",
+      "pattern": "PREPOSITION-RELATIVE-FORMAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P5-S31-006",
+      "kr": "우리가 협력하는 파트너들은 신뢰할 수 있습니다.",
+      "en": "The partners with whom we collaborate are reliable.",
+      "pattern": "PREPOSITION-RELATIVE-FORMAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P5-S31-007",
+      "kr": "결정이 내려진 기준은 명확하게 문서화되어야 합니다.",
+      "en": "The criteria according to which decisions are made should be clearly documented.",
+      "pattern": "PREPOSITION-RELATIVE-FORMAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P5-S31-008",
+      "kr": "정책이 개발된 배경을 이해하는 것이 중요합니다.",
+      "en": "It's important to understand the context within which the policy was developed.",
+      "pattern": "PREPOSITION-RELATIVE-FORMAL",
+      "form": "aff"
+    }
+  ]
+}

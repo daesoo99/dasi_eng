@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv10-S02",
-  "title": "고급 담화 연결 - 대화 전환",
-  "description": "자연스러운 화제 전환과 담화 흐름 조절로 원어민 수준의 대화 진행 능력을 구사합니다.",
-  "grammar_pattern": "DISCOURSE-TRANSITION-MASTERY",
+  "title": "Stage Lv10-S02",
+  "description": "Level 10 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Before we move on, let me just clarify one thing.",
-    "Now that we've covered the basics, shall we dive deeper?",
-    "On a related note, something interesting happened yesterday."
+    "Now that we've covered the basics, shall we dive deeper?"
   ],
-  "learning_points": "원어민 수준의 자연스러운 화제 전환과 담화 흐름 조절",
+  "learning_points": "Level 10 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 2,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv10-S02-001",
       "kr": "다음으로 넘어가기 전에, 한 가지만 명확히 하고 싶어요.",
       "en": "Before we move on, let me just clarify one thing.",
-      "pattern": "DISCOURSE-TRANSITION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S02-002",
       "kr": "이제 기본적인 것들은 다뤘으니, 더 깊이 들어가볼까요?",
       "en": "Now that we've covered the basics, shall we dive deeper?",
-      "pattern": "DISCOURSE-TRANSITION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S02-003",
       "kr": "관련해서 말하자면, 어제 흥미로운 일이 있었어요.",
       "en": "On a related note, something interesting happened yesterday.",
-      "pattern": "DISCOURSE-TRANSITION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S02-004",
       "kr": "잠깐, 그 얘기가 나왔으니 말인데, 또 다른 관점도 있어요.",
       "en": "Wait, now that you mention it, there's another perspective to consider.",
-      "pattern": "DISCOURSE-TRANSITION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S02-005",
       "kr": "이 시점에서 잠시 뒤로 물러서서 전체적인 그림을 봐보자.",
       "en": "At this point, let's step back and look at the big picture.",
-      "pattern": "DISCOURSE-TRANSITION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S02-006",
       "kr": "그런데 말이 나왔으니 말인데, 비슷한 상황을 겪은 적이 있어.",
       "en": "Come to think of it, I've been in a similar situation before.",
-      "pattern": "DISCOURSE-TRANSITION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S02-007",
       "kr": "이 주제를 마무리하기 전에, 한 가지 더 짚고 넘어갈 게 있어요.",
       "en": "Before we wrap this up, there's one more thing I'd like to touch on.",
-      "pattern": "DISCOURSE-TRANSITION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S02-008",
       "kr": "완전히 다른 얘기지만, 최근에 들은 소식이 하나 있어요.",
       "en": "On a completely different note, I heard some news recently that might interest you.",
-      "pattern": "DISCOURSE-TRANSITION-MASTERY",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L10_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.373Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_10\\Lv10-S02_bank.json"
+    ]
+  }
 }

@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv7-P4-S24",
+  "title": "복합 부사절 연결",
+  "description": "한 문장에 시간, 조건, 양보절을 3개까지 결합해 보는 도전 연습입니다.",
+  "grammar_pattern": "MULTIPLE-ADVERBIAL-CLAUSES",
+  "examples": [
+    "Although the weather was bad, we continued the expedition because we had limited time, provided that safety measures were maintained.",
+    "While we were analyzing the data, if new information became available, we would incorporate it even though it might delay our conclusions.",
+    "Since the project was urgent, unless additional resources were allocated, we couldn't guarantee completion, however hard we tried."
+  ],
+  "learning_points": "복수의 부사절을 논리적으로 연결하여 복잡한 상황과 조건 표현",
+  "phase": 4,
+  "stage_number": 24,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv7-P4-S24-001",
+      "kr": "날씨가 나빴지만, 시간이 제한적이었기 때문에 안전 조치가 유지되는 조건 하에 원정을 계속했다.",
+      "en": "Although the weather was bad, we continued the expedition because we had limited time, provided that safety measures were maintained.",
+      "pattern": "MULTIPLE-ADVERBIAL-CLAUSES",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P4-S24-002",
+      "kr": "데이터를 분석하고 있는 동안, 새로운 정보가 나오면, 결론이 지연될 수 있더라도 그것을 포함시킬 것이다.",
+      "en": "While we were analyzing the data, if new information became available, we would incorporate it even though it might delay our conclusions.",
+      "pattern": "MULTIPLE-ADVERBIAL-CLAUSES",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P4-S24-003",
+      "kr": "프로젝트가 급했기 때문에, 추가 자원이 할당되지 않는다면, 아무리 열심히 노력해도 완료를 보장할 수 없었다.",
+      "en": "Since the project was urgent, unless additional resources were allocated, we couldn't guarantee completion, however hard we tried.",
+      "pattern": "MULTIPLE-ADVERBIAL-CLAUSES",
+      "form": "neg"
+    },
+    {
+      "id": "Lv7-P4-S24-004",
+      "kr": "회의가 진행되는 동안, 모든 사람이 참석한다면, 비록 시간이 오래 걸려도 합의에 도달할 수 있을 것이다.",
+      "en": "While the meeting is in progress, if everyone attends, we should reach an agreement even though it may take considerable time.",
+      "pattern": "MULTIPLE-ADVERBIAL-CLAUSES",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P4-S24-005",
+      "kr": "자금이 부족했지만, 팀이 헌신적이었기 때문에 기술적 문제가 해결되는 조건 하에 성공할 수 있었다.",
+      "en": "Although funding was limited, because the team was dedicated, we could succeed provided that technical issues were resolved.",
+      "pattern": "MULTIPLE-ADVERBIAL-CLAUSES",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P4-S24-006",
+      "kr": "시장이 불안정한 동안, 투자자들이 지원하지 않는다면, 아무리 좋은 아이디어라도 성공하지 못할 것이다.",
+      "en": "While the market remains unstable, if investors don't provide support, even the best ideas won't succeed, however innovative they may be.",
+      "pattern": "MULTIPLE-ADVERBIAL-CLAUSES",
+      "form": "neg"
+    },
+    {
+      "id": "Lv7-P4-S24-007",
+      "kr": "연구가 계속되는 한, 윤리적 기준이 유지된다면, 비록 결과가 예상과 다르더라도 가치가 있을 것이다.",
+      "en": "As long as research continues, if ethical standards are maintained, it will be valuable even though results may differ from expectations.",
+      "pattern": "MULTIPLE-ADVERBIAL-CLAUSES",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P4-S24-008",
+      "kr": "경제가 회복되기 전까지는, 정부가 개입하지 않는다면, 아무리 노력해도 완전한 해결책을 찾기 어려울 것이다.",
+      "en": "Until the economy recovers, unless the government intervenes, it will be difficult to find complete solutions however much effort we make.",
+      "pattern": "MULTIPLE-ADVERBIAL-CLAUSES",
+      "form": "aff"
+    }
+  ]
+}

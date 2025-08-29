@@ -1,21 +1,73 @@
 import React, { useEffect, useState } from 'react';
 import { useSpeech } from '@/hooks/useSpeech';
+import { useCountdown } from '@/hooks/useCountdown';
 
 interface AutoSpeakingFlowProps {
   currentCard: any;
   onSpeechResult: (transcript: string, confidence: number) => void;
+  onTimeout?: () => void;
   isActive: boolean;
 }
 
 export const AutoSpeakingFlow: React.FC<AutoSpeakingFlowProps> = ({
   currentCard,
   onSpeechResult,
+  onTimeout,
   isActive
 }) => {
   const [flowState, setFlowState] = useState<'idle' | 'tts' | 'beep' | 'recording' | 'processing'>('idle');
-  const [timer, setTimer] = useState<number>(0);
-  const [timerInterval, setTimerInterval] = useState<NodeJS.Timeout | null>(null);
   const [autoTimeout, setAutoTimeout] = useState<NodeJS.Timeout | null>(null);
+  const [isPaused, setIsPaused] = useState<boolean>(false);
+  
+  const countdown = useCountdown(() => {
+    console.log('[AutoSpeakingFlow] Timer completed, handling timeout');
+    handleTimeoutComplete();
+  });
+  
+  // 시간 초과 처리 함수
+  const handleTimeoutComplete = async () => {
+    try {
+      // 현재 녹음 중지
+      if (speech.isRecording) {
+        speech.stopRecording();
+      }
+      
+      // 상태를 processing으로 변경
+      setFlowState('processing');
+      setIsPaused(false);
+      
+      // 정답 TTS 재생 (1.5초 후)
+      if (currentCard?.target_en) {
+        setTimeout(async () => {
+          try {
+            console.log('[AutoSpeakingFlow] Playing answer TTS:', currentCard.target_en);
+            await speech.speak(currentCard.target_en, { lang: 'en-US' });
+            
+            // TTS 완료 후 콜백 호출
+            setTimeout(() => {
+              console.log('[AutoSpeakingFlow] Timeout processing complete');
+              setFlowState('idle');
+              onTimeout?.();
+            }, 1000);
+          } catch (error) {
+            console.error('[AutoSpeakingFlow] Error playing answer TTS:', error);
+            setFlowState('idle');
+            onTimeout?.();
+          }
+        }, 1500);
+      } else {
+        // 정답이 없으면 바로 다음으로
+        setTimeout(() => {
+          setFlowState('idle');
+          onTimeout?.();
+        }, 1500);
+      }
+    } catch (error) {
+      console.error('[AutoSpeakingFlow] Error in timeout handling:', error);
+      setFlowState('idle');
+      onTimeout?.();
+    }
+  };
 
   const speech = useSpeech({
     apiBaseUrl: import.meta.env.VITE_API_BASE_URL,
@@ -33,11 +85,11 @@ export const AutoSpeakingFlow: React.FC<AutoSpeakingFlowProps> = ({
   // 컴포넌트 언마운트 시 정리
   useEffect(() => {
     return () => {
-      if (timerInterval) clearInterval(timerInterval);
+      countdown.stop();
       if (autoTimeout) clearTimeout(autoTimeout);
-      if (speech.isRecording) speech.stopRecording();
+      speech.stopAll();
     };
-  }, []);
+  }, [countdown, autoTimeout, speech]);
 
   const startAutomaticFlow = async () => {
     if (!currentCard) return;
@@ -70,24 +122,13 @@ export const AutoSpeakingFlow: React.FC<AutoSpeakingFlowProps> = ({
     
     // 비프음 후 500ms 대기 후 녹음 시작
     setTimeout(() => {
-      setFlowState('recording');
-      speech.startRecording();
-      
-      // 타이머 시작
-      setTimer(0);
-      const interval = setInterval(() => {
-        setTimer(prev => prev + 0.1);
-      }, 100);
-      setTimerInterval(interval);
-      
-      // 10초 후 자동으로 녹음 중지
-      const timeout = setTimeout(() => {
-        if (speech.isRecording) {
-          speech.stopRecording();
-        }
-      }, 10000);
-      setAutoTimeout(timeout);
-      
+      if (!isPaused) {
+        setFlowState('recording');
+        speech.startRecording();
+        
+        // 10초 카운트다운 시작
+        countdown.start(10);
+      }
     }, 500);
   };
 
@@ -118,10 +159,7 @@ export const AutoSpeakingFlow: React.FC<AutoSpeakingFlowProps> = ({
       setFlowState('processing');
       
       // 타이머 정리
-      if (timerInterval) {
-        clearInterval(timerInterval);
-        setTimerInterval(null);
-      }
+      countdown.stop();
       if (autoTimeout) {
         clearTimeout(autoTimeout);
         setAutoTimeout(null);
@@ -132,9 +170,8 @@ export const AutoSpeakingFlow: React.FC<AutoSpeakingFlowProps> = ({
       
       // 상태 초기화
       setFlowState('idle');
-      setTimer(0);
     }
-  }, [speech.transcript, flowState]);
+  }, [speech.transcript, flowState, countdown, autoTimeout, onSpeechResult]);
 
   const getStatusMessage = () => {
     switch (flowState) {
@@ -143,7 +180,8 @@ export const AutoSpeakingFlow: React.FC<AutoSpeakingFlowProps> = ({
       case 'beep':
         return '🔔 곧 녹음이 시작됩니다...';
       case 'recording':
-        return `🎤 말씀해 주세요... (${timer.toFixed(1)}초)`;
+        const remainingSeconds = Math.ceil(countdown.remaining);
+        return countdown.isPaused ? `⏸️ 일시정지됨 (남은 시간: ${remainingSeconds}초)` : `🎤 말씀해 주세요... (남은 시간: ${remainingSeconds}초)`;
       case 'processing':
         return '🤖 답변을 분석 중입니다...';
       default:
@@ -153,9 +191,52 @@ export const AutoSpeakingFlow: React.FC<AutoSpeakingFlowProps> = ({
 
   const getProgressWidth = () => {
     if (flowState === 'recording') {
-      return `${Math.min((timer / 10) * 100, 100)}%`;
+      const elapsed = 10 - countdown.remaining;
+      return `${Math.min((elapsed / 10) * 100, 100)}%`;
     }
     return '0%';
+  };
+
+  // 일시정지/재개 제어
+  const handlePauseResume = () => {
+    console.log(`[AutoSpeakingFlow] ${countdown.isPaused || isPaused ? 'Resume' : 'Pause'} requested, flowState: ${flowState}`);
+    
+    if (countdown.isPaused || isPaused) {
+      // 재개
+      if (flowState === 'tts' && speech.isTTSPaused()) {
+        console.log('[AutoSpeakingFlow] Resuming TTS');
+        speech.resumeTTS();
+      } else if (flowState === 'recording') {
+        console.log('[AutoSpeakingFlow] Resuming countdown');
+        countdown.resume();
+      }
+      setIsPaused(false);
+    } else {
+      // 일시정지
+      if (flowState === 'tts' && speech.isTTSSpeaking()) {
+        console.log('[AutoSpeakingFlow] Pausing TTS');
+        speech.pauseTTS();
+      } else if (flowState === 'recording') {
+        console.log('[AutoSpeakingFlow] Pausing countdown');
+        countdown.pause();
+      } else if (flowState === 'beep') {
+        console.log('[AutoSpeakingFlow] Stopping beep');
+        speech.stopBeep();
+      }
+      setIsPaused(true);
+    }
+  };
+
+  // 완전 중지
+  const handleStop = () => {
+    setFlowState('idle');
+    setIsPaused(false);
+    countdown.stop();
+    speech.stopAll();
+    if (autoTimeout) {
+      clearTimeout(autoTimeout);
+      setAutoTimeout(null);
+    }
   };
 
   if (!isActive || flowState === 'idle') {
@@ -181,26 +262,74 @@ export const AutoSpeakingFlow: React.FC<AutoSpeakingFlowProps> = ({
             
             {/* 녹음 표시기 */}
             <div className="flex items-center justify-center space-x-3">
-              <div className="w-3 h-3 bg-red-500 rounded-full animate-pulse"></div>
+              <div className={`w-3 h-3 rounded-full ${countdown.isPaused ? 'bg-yellow-500' : 'bg-red-500 animate-pulse'}`}></div>
               <span className="text-sm text-blue-700">
-                음성을 인식하고 있습니다... ({timer.toFixed(1)}초 / 10초)
+                {countdown.isPaused ? '일시정지됨' : '음성을 인식하고 있습니다...'} (남은 시간: {Math.ceil(countdown.remaining)}초)
               </span>
+            </div>
+            
+            {/* 제어 버튼 */}
+            <div className="flex justify-center space-x-3 mt-4">
+              <button
+                onClick={handlePauseResume}
+                className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+              >
+                {countdown.isPaused ? '▶️ 재개' : '⏸️ 일시정지'}
+              </button>
+              <button
+                onClick={handleStop}
+                className="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors text-sm font-medium"
+              >
+                ⏹️ 중지
+              </button>
             </div>
           </>
         )}
         
         {flowState === 'tts' && (
-          <div className="flex items-center justify-center space-x-3">
-            <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-            <span className="text-sm text-blue-700">한국어 문제를 재생 중...</span>
-          </div>
+          <>
+            <div className="flex items-center justify-center space-x-3">
+              <div className={`w-3 h-3 rounded-full ${speech.isTTSPaused() ? 'bg-yellow-500' : 'bg-green-500 animate-pulse'}`}></div>
+              <span className="text-sm text-blue-700">
+                {speech.isTTSPaused() ? '음성 재생 일시정지됨' : '한국어 문제를 재생 중...'}
+              </span>
+            </div>
+            
+            {/* TTS 제어 버튼 */}
+            <div className="flex justify-center space-x-3 mt-4">
+              <button
+                onClick={handlePauseResume}
+                className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+              >
+                {speech.isTTSPaused() ? '▶️ 재개' : '⏸️ 일시정지'}
+              </button>
+              <button
+                onClick={handleStop}
+                className="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors text-sm font-medium"
+              >
+                ⏹️ 중지
+              </button>
+            </div>
+          </>
         )}
         
         {flowState === 'beep' && (
-          <div className="flex items-center justify-center space-x-3">
-            <div className="w-3 h-3 bg-yellow-500 rounded-full animate-pulse"></div>
-            <span className="text-sm text-blue-700">신호음 후 말씀해 주세요</span>
-          </div>
+          <>
+            <div className="flex items-center justify-center space-x-3">
+              <div className="w-3 h-3 bg-yellow-500 rounded-full animate-pulse"></div>
+              <span className="text-sm text-blue-700">신호음 후 말씀해 주세요</span>
+            </div>
+            
+            {/* 비프음 중지 버튼 */}
+            <div className="flex justify-center space-x-3 mt-4">
+              <button
+                onClick={handleStop}
+                className="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors text-sm font-medium"
+              >
+                ⏹️ 중지
+              </button>
+            </div>
+          </>
         )}
         
         {flowState === 'processing' && (

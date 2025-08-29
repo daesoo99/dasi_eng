@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv8-C4-S26",
+  "title": "with + 명사 + 분사/형용사",
+  "description": "with 구문에 명사와 분사나 형용사를 결합하여 복합적인 상황을 표현하는 방법을 연습합니다.",
+  "grammar_pattern": "WITH-NOUN-PARTICIPLE-ADJECTIVE",
+  "examples": [
+    "With the project completed, we can now focus on the next phase.",
+    "With her experience being extensive, she was the perfect candidate.",
+    "With the weather getting worse, we decided to postpone the trip."
+  ],
+  "learning_points": "with 구문을 통한 복합적인 상황과 조건 표현",
+  "phase": 4,
+  "stage_number": 26,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv8-C4-S26-001",
+      "kr": "프로젝트가 완료되어 이제 우리는 다음 단계에 집중할 수 있습니다.",
+      "en": "With the project completed, we can now focus on the next phase.",
+      "pattern": "WITH-NOUN-PARTICIPLE-ADJECTIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S26-002",
+      "kr": "그녀의 경험이 풍부하기 때문에 완벽한 후보자였습니다.",
+      "en": "With her experience being extensive, she was the perfect candidate.",
+      "pattern": "WITH-NOUN-PARTICIPLE-ADJECTIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S26-003",
+      "kr": "날씨가 악화되고 있어서 우리는 여행을 연기하기로 결정했습니다.",
+      "en": "With the weather getting worse, we decided to postpone the trip.",
+      "pattern": "WITH-NOUN-PARTICIPLE-ADJECTIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S26-004",
+      "kr": "시장이 불안정해지면서 투자자들은 조심스러워하고 있습니다.",
+      "en": "With the market becoming unstable, investors are being cautious.",
+      "pattern": "WITH-NOUN-PARTICIPLE-ADJECTIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S26-005",
+      "kr": "기술이 발전하고 있어서 새로운 기회들이 생겨나고 있습니다.",
+      "en": "With technology advancing, new opportunities are emerging.",
+      "pattern": "WITH-NOUN-PARTICIPLE-ADJECTIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S26-006",
+      "kr": "팀이 준비되어 있어서 우리는 즉시 시작할 수 있습니다.",
+      "en": "With the team ready, we can start immediately.",
+      "pattern": "WITH-NOUN-PARTICIPLE-ADJECTIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S26-007",
+      "kr": "예산이 승인되어 프로젝트를 진행할 수 있게 되었습니다.",
+      "en": "With the budget approved, we can proceed with the project.",
+      "pattern": "WITH-NOUN-PARTICIPLE-ADJECTIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S26-008",
+      "kr": "상황이 개선되고 있어서 미래가 더 밝아 보입니다.",
+      "en": "With the situation improving, the future looks brighter.",
+      "pattern": "WITH-NOUN-PARTICIPLE-ADJECTIVE",
+      "form": "aff"
+    }
+  ]
+}

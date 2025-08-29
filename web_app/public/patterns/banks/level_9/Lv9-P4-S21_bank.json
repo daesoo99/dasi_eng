@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P4-S21",
-  "title": "수사적 질문",
-  "description": "rhetorical question 사용하여 청중의 관심을 끌고 강조 효과를 내는 연습. 예) What would life be without challenges? 답을 기대하지 않는 질문으로 강력한 메시지 전달.",
-  "grammar_pattern": "RHETORICAL-QUESTIONS",
+  "title": "Stage Lv9-P4-S21",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "What would life be without challenges?",
-    "How can we ignore such compelling evidence?",
-    "Isn't it time we took decisive action?"
+    "How can we ignore such compelling evidence?"
   ],
-  "learning_points": "수사적 질문을 사용한 강력한 설득 및 강조 효과",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 4,
   "stage_number": 21,
   "count": 8,
@@ -17,57 +16,66 @@
       "id": "Lv9-P4-S21-001",
       "kr": "도전이 없는 인생이 무슨 의미가 있겠습니까?",
       "en": "What would life be without challenges?",
-      "pattern": "RHETORICAL-QUESTIONS",
       "form": "q_yn"
     },
     {
       "id": "Lv9-P4-S21-002",
       "kr": "이렇게 설득력 있는 증거를 어떻게 무시할 수 있겠습니까?",
       "en": "How can we ignore such compelling evidence?",
-      "pattern": "RHETORICAL-QUESTIONS",
       "form": "q_wh"
     },
     {
       "id": "Lv9-P4-S21-003",
       "kr": "이제 결단력 있는 행동을 취해야 할 때가 아닙니까?",
       "en": "Isn't it time we took decisive action?",
-      "pattern": "RHETORICAL-QUESTIONS",
       "form": "q_yn"
     },
     {
       "id": "Lv9-P4-S21-004",
       "kr": "성공에는 항상 대가가 따르는 법이 아닙니까?",
       "en": "Doesn't success always come with a price?",
-      "pattern": "RHETORICAL-QUESTIONS",
       "form": "q_yn"
     },
     {
       "id": "Lv9-P4-S21-005",
       "kr": "우리가 지금까지 이룬 성과를 어떻게 평가절하할 수 있겠습니까?",
       "en": "How can we undervalue the achievements we've made so far?",
-      "pattern": "RHETORICAL-QUESTIONS",
       "form": "q_wh"
     },
     {
       "id": "Lv9-P4-S21-006",
       "kr": "변화의 바람을 느끼지 못하겠습니까?",
       "en": "Can't you feel the winds of change?",
-      "pattern": "RHETORICAL-QUESTIONS",
       "form": "q_yn"
     },
     {
       "id": "Lv9-P4-S21-007",
       "kr": "이보다 더 완벽한 시기가 또 있을까요?",
       "en": "Could there be a more perfect time than this?",
-      "pattern": "RHETORICAL-QUESTIONS",
       "form": "q_yn"
     },
     {
       "id": "Lv9-P4-S21-008",
       "kr": "과연 우리가 이 기회를 놓칠 수 있겠습니까?",
       "en": "Can we really afford to miss this opportunity?",
-      "pattern": "RHETORICAL-QUESTIONS",
       "form": "q_yn"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 0,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0,
+    "q_yn": 6,
+    "q_wh": 2
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.604Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P4-S21_bank.json"
+    ]
+  }
 }

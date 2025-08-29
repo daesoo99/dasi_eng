@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv10-S09",
-  "title": "원어민 제한 표현 - 조건부 한계",
-  "description": "조건과 한계를 자연스럽게 표현하는 원어민 수준의 제한 표현을 구사합니다.",
-  "grammar_pattern": "NATIVE-LIMITATION-CONDITIONAL",
+  "title": "Stage Lv10-S09",
+  "description": "Level 10 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "It's good, but there's one catch to it.",
-    "It's perfect, but there's one constraint we need to consider.",
-    "It's a brilliant idea, provided the budget allows for it."
+    "It's perfect, but there's one constraint we need to consider."
   ],
-  "learning_points": "원어민 수준의 자연스러운 조건부 한계 표현 구사",
+  "learning_points": "Level 10 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 9,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv10-S09-001",
       "kr": "좋긴 한데, 한 가지 단서가 있어.",
       "en": "It's good, but there's one catch to it.",
-      "pattern": "NATIVE-LIMITATION-CONDITIONAL",
       "form": "aff"
     },
     {
       "id": "Lv10-S09-002",
       "kr": "완벽하긴 하지만, 하나의 제약이 있어.",
       "en": "It's perfect, but there's one constraint we need to consider.",
-      "pattern": "NATIVE-LIMITATION-CONDITIONAL",
       "form": "aff"
     },
     {
       "id": "Lv10-S09-003",
       "kr": "훌륭한 아이디어야. 단, 예산이 허락한다면.",
       "en": "It's a brilliant idea, provided the budget allows for it.",
-      "pattern": "NATIVE-LIMITATION-CONDITIONAL",
       "form": "aff"
     },
     {
       "id": "Lv10-S09-004",
       "kr": "문제없어 보여. 다만, 시간이 충분하다는 전제하에.",
       "en": "It looks fine, assuming we have enough time.",
-      "pattern": "NATIVE-LIMITATION-CONDITIONAL",
       "form": "aff"
     },
     {
       "id": "Lv10-S09-005",
       "kr": "효과적이긴 해. 그런데 몇 가지 조건이 따라.",
       "en": "It's effective, though there are a few conditions attached.",
-      "pattern": "NATIVE-LIMITATION-CONDITIONAL",
       "form": "aff"
     },
     {
       "id": "Lv10-S09-006",
       "kr": "가능은 해. 하지만 쉽지는 않을 거야.",
       "en": "It's doable, but it won't be a walk in the park.",
-      "pattern": "NATIVE-LIMITATION-CONDITIONAL",
       "form": "aff"
     },
     {
       "id": "Lv10-S09-007",
       "kr": "좋은 계획이야. 단지, 리스크가 따른다는 점만 빼면.",
       "en": "It's a good plan, except for the risks involved.",
-      "pattern": "NATIVE-LIMITATION-CONDITIONAL",
       "form": "aff"
     },
     {
       "id": "Lv10-S09-008",
       "kr": "실현 가능해. 다만, 모든 조건이 맞아떨어진다면.",
       "en": "It's feasible, as long as all conditions align perfectly.",
-      "pattern": "NATIVE-LIMITATION-CONDITIONAL",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L10_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.381Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_10\\Lv10-S09_bank.json"
+    ]
+  }
 }

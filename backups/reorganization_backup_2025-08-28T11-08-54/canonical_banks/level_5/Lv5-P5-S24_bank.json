@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv5-P5-S24",
+  "title": "반론 제기",
+  "description": "반론 제기을 연습합니다. COUNTER-ARGUMENT 패턴을 활용하여 고급 영어 표현을 익힙니다.",
+  "grammar_pattern": "COUNTER-ARGUMENT",
+  "examples": [
+    "On the contrary, I think differently.",
+    "That's not necessarily true.",
+    "However, from a different perspective, it might be different."
+  ],
+  "learning_points": "debate 관련 고급 표현과 실용적 활용",
+  "phase": 5,
+  "stage_number": 24,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv5-P5-S24-001",
+      "kr": "그와는 반대로 저는 다르게 생각합니다.",
+      "en": "On the contrary, I think differently.",
+      "pattern": "COUNTER-ARGUMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S24-002",
+      "kr": "그것이 반드시 사실인 것은 아닙니다.",
+      "en": "That's not necessarily true.",
+      "pattern": "COUNTER-ARGUMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S24-003",
+      "kr": "하지만 다른 관점에서 보면 다를 수 있습니다.",
+      "en": "However, from a different perspective, it might be different.",
+      "pattern": "COUNTER-ARGUMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S24-004",
+      "kr": "그 논리에는 결함이 있습니다.",
+      "en": "There are flaws in that logic.",
+      "pattern": "COUNTER-ARGUMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S24-005",
+      "kr": "증거가 그 주장을 뒷받침하지 않습니다.",
+      "en": "Evidence doesn't support that claim.",
+      "pattern": "COUNTER-ARGUMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S24-006",
+      "kr": "그 가정은 의문의 여지가 있습니다.",
+      "en": "That assumption is questionable.",
+      "pattern": "COUNTER-ARGUMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S24-007",
+      "kr": "반대되는 증거도 있습니다.",
+      "en": "There is also contradictory evidence.",
+      "pattern": "COUNTER-ARGUMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S24-008",
+      "kr": "그 결론은 성급할 수 있습니다.",
+      "en": "That conclusion might be premature.",
+      "pattern": "COUNTER-ARGUMENT",
+      "form": "aff"
+    }
+  ]
+}

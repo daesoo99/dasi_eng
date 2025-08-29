@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P6-S32",
-  "title": "고급 담화 표지 ②",
-  "description": "albeit, notwithstanding, inasmuch as 등 매우 고급스러운 담화 표지를 사용하여 복잡한 논리 관계를 정교하게 표현하는 연습.",
-  "grammar_pattern": "SOPHISTICATED-DISCOURSE-MARKERS",
+  "title": "Stage Lv9-P6-S32",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "The project succeeded, albeit with some delays.",
-    "Notwithstanding the challenges, we persevered.",
-    "Inasmuch as resources are limited, we must prioritize."
+    "Notwithstanding the challenges, we persevered."
   ],
-  "learning_points": "매우 고급스러운 담화 표지를 통한 정교한 논리 관계 표현",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 6,
   "stage_number": 32,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv9-P6-S32-001",
       "kr": "비록 약간의 지연이 있었지만, 프로젝트는 성공했습니다.",
       "en": "The project succeeded, albeit with some delays.",
-      "pattern": "SOPHISTICATED-DISCOURSE-MARKERS",
       "form": "aff"
     },
     {
       "id": "Lv9-P6-S32-002",
       "kr": "도전에도 불구하고, 우리는 끝까지 견뎠습니다.",
       "en": "Notwithstanding the challenges, we persevered.",
-      "pattern": "SOPHISTICATED-DISCOURSE-MARKERS",
       "form": "aff"
     },
     {
       "id": "Lv9-P6-S32-003",
       "kr": "자원이 제한되어 있는 만큼, 우선순위를 정해야 합니다.",
       "en": "Inasmuch as resources are limited, we must prioritize.",
-      "pattern": "SOPHISTICATED-DISCOURSE-MARKERS",
       "form": "aff"
     },
     {
       "id": "Lv9-P6-S32-004",
       "kr": "비록 완벽하지는 않지만, 결과는 만족스럽습니다.",
       "en": "The results are satisfactory, albeit not perfect.",
-      "pattern": "SOPHISTICATED-DISCOURSE-MARKERS",
       "form": "aff"
     },
     {
       "id": "Lv9-P6-S32-005",
       "kr": "반대 의견이 있음에도 불구하고, 결정을 내렸습니다.",
       "en": "Notwithstanding opposing views, a decision was made.",
-      "pattern": "SOPHISTICATED-DISCOURSE-MARKERS",
       "form": "aff"
     },
     {
       "id": "Lv9-P6-S32-006",
       "kr": "시간이 부족한 만큼, 효율성이 중요합니다.",
       "en": "Inasmuch as time is short, efficiency is crucial.",
-      "pattern": "SOPHISTICATED-DISCOURSE-MARKERS",
       "form": "aff"
     },
     {
       "id": "Lv9-P6-S32-007",
       "kr": "비록 작은 단계이지만, 진전이 있었습니다.",
       "en": "Progress was made, albeit in small steps.",
-      "pattern": "SOPHISTICATED-DISCOURSE-MARKERS",
       "form": "aff"
     },
     {
       "id": "Lv9-P6-S32-008",
       "kr": "예산 제약에도 불구하고, 목표를 달성했습니다.",
       "en": "Notwithstanding budget constraints, we achieved our goals.",
-      "pattern": "SOPHISTICATED-DISCOURSE-MARKERS",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.613Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P6-S32_bank.json"
+    ]
+  }
 }

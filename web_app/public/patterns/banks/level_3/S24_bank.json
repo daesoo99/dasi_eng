@@ -1,0 +1,152 @@
+{
+  "stage_id": "S24",
+  "title": "Stage S24",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "I love traveling. For example, I went to Thailand last year.",
+    "He has many hobbies, such as painting and cycling."
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 24,
+  "count": 20,
+  "sentences": [
+    {
+      "id": "S24-1",
+      "kr": "저는 여행을 좋아해요. 예를 들어, 작년에 태국에 갔어요.",
+      "en": "I love traveling. For example, I went to Thailand last year.",
+      "form": "aff"
+    },
+    {
+      "id": "S24-2",
+      "kr": "그는 그림 그리기나 자전거 타기 같은 많은 취미가 있어요.",
+      "en": "He has many hobbies, such as painting and cycling.",
+      "form": "aff"
+    },
+    {
+      "id": "S24-3",
+      "kr": "저는 하이킹이나 캠핑 같은 야외 활동을 즐겨요.",
+      "en": "I enjoy outdoor activities like hiking and camping.",
+      "form": "aff"
+    },
+    {
+      "id": "S24-4",
+      "kr": "영어를 배우는 여러 방법이 있어요. 예를 들어, 영화를 볼 수 있어요.",
+      "en": "There are several ways to learn English. For instance, you can watch movies.",
+      "form": "aff"
+    },
+    {
+      "id": "S24-5",
+      "kr": "오렌지와 딸기를 포함해 많은 과일들이 비타민이 풍부해요.",
+      "en": "Many fruits are rich in vitamins, including oranges and strawberries.",
+      "form": "aff"
+    },
+    {
+      "id": "S24-6",
+      "kr": "저는 프랑스, 이탈리아, 스페인 등 여러 유럽 국가를 방문했어요.",
+      "en": "I've visited several European countries, namely France, Italy, and Spain.",
+      "form": "aff"
+    },
+    {
+      "id": "S24-7",
+      "kr": "페이스북이나 인스타그램 같은 소셜 미디어 플랫폼을 예로 들어보세요.",
+      "en": "Take social media platforms like Facebook and Instagram.",
+      "form": "aff"
+    },
+    {
+      "id": "S24-8",
+      "kr": "운동에는 많은 이점이 있어요. 예를 들자면, 기분을 좋게 해줘요.",
+      "en": "There are many benefits to exercise. To illustrate, it improves your mood.",
+      "form": "aff"
+    },
+    {
+      "id": "S24-9",
+      "kr": "특정 음식들, 특히 매운 음식들은 위장 문제를 일으킬 수 있어요.",
+      "en": "Certain foods, particularly spicy ones, can cause stomach problems.",
+      "form": "aff"
+    },
+    {
+      "id": "S24-10",
+      "kr": "예를 하나 들어볼게요. 대학교 때 저는 해외에서 공부했어요.",
+      "en": "Let me give you an example. When I was in college, I studied abroad.",
+      "form": "aff"
+    },
+    {
+      "id": "S24-1",
+      "kr": "저는 여행을 좋아해요. 예를 들어, 작년에 태국에 갔어요.",
+      "en": "I love traveling. For example, I went to Thailand last year.",
+      "form": "aff"
+    },
+    {
+      "id": "S24-2",
+      "kr": "그는 그림 그리기나 자전거 타기 같은 많은 취미가 있어요.",
+      "en": "He has many hobbies, such as painting and cycling.",
+      "form": "aff"
+    },
+    {
+      "id": "S24-3",
+      "kr": "저는 하이킹이나 캠핑 같은 야외 활동을 즐겨요.",
+      "en": "I enjoy outdoor activities like hiking and camping.",
+      "form": "aff"
+    },
+    {
+      "id": "S24-4",
+      "kr": "영어를 배우는 여러 방법이 있어요. 예를 들어, 영화를 볼 수 있어요.",
+      "en": "There are several ways to learn English. For instance, you can watch movies.",
+      "form": "aff"
+    },
+    {
+      "id": "S24-5",
+      "kr": "오렌지와 딸기를 포함해 많은 과일들이 비타민이 풍부해요.",
+      "en": "Many fruits are rich in vitamins, including oranges and strawberries.",
+      "form": "aff"
+    },
+    {
+      "id": "S24-6",
+      "kr": "저는 프랑스, 이탈리아, 스페인 등 여러 유럽 국가를 방문했어요.",
+      "en": "I've visited several European countries, namely France, Italy, and Spain.",
+      "form": "aff"
+    },
+    {
+      "id": "S24-7",
+      "kr": "페이스북이나 인스타그램 같은 소셜 미디어 플랫폼을 예로 들어보세요.",
+      "en": "Take social media platforms like Facebook and Instagram.",
+      "form": "aff"
+    },
+    {
+      "id": "S24-8",
+      "kr": "운동에는 많은 이점이 있어요. 예를 들자면, 기분을 좋게 해줘요.",
+      "en": "There are many benefits to exercise. To illustrate, it improves your mood.",
+      "form": "aff"
+    },
+    {
+      "id": "S24-9",
+      "kr": "특정 음식들, 특히 매운 음식들은 위장 문제를 일으킬 수 있어요.",
+      "en": "Certain foods, particularly spicy ones, can cause stomach problems.",
+      "form": "aff"
+    },
+    {
+      "id": "S24-10",
+      "kr": "예를 하나 들어볼게요. 대학교 때 저는 해외에서 공부했어요.",
+      "en": "Let me give you an example. When I was in college, I studied abroad.",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 20,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L1_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.730Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW.json",
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW_migrated.json"
+    ]
+  }
+}

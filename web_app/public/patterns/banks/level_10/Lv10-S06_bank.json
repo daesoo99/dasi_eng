@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv10-S06",
-  "title": "원어민 강조 표현 - 논리적 강조",
-  "description": "논리적 근거와 함께하는 원어민 수준의 설득력 있는 강조 표현을 구사합니다.",
-  "grammar_pattern": "NATIVE-EMPHASIS-LOGICAL",
+  "title": "Stage Lv10-S06",
+  "description": "Level 10 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "This is clearly the best choice, no question about it.",
-    "It's undoubtedly the most effective approach.",
-    "Make no mistake, it doesn't get better than this."
+    "It's undoubtedly the most effective approach."
   ],
-  "learning_points": "원어민 수준의 자연스러운 논리적 강조 표현 구사",
+  "learning_points": "Level 10 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 6,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv10-S06-001",
       "kr": "명백히 이것이 최선의 선택이야.",
       "en": "This is clearly the best choice, no question about it.",
-      "pattern": "NATIVE-EMPHASIS-LOGICAL",
       "form": "aff"
     },
     {
       "id": "Lv10-S06-002",
       "kr": "의심의 여지없이 가장 효과적인 방법이야.",
       "en": "It's undoubtedly the most effective approach.",
-      "pattern": "NATIVE-EMPHASIS-LOGICAL",
       "form": "aff"
     },
     {
       "id": "Lv10-S06-003",
       "kr": "분명히 말하건대, 이보다 좋을 순 없어.",
       "en": "Make no mistake, it doesn't get better than this.",
-      "pattern": "NATIVE-EMPHASIS-LOGICAL",
       "form": "aff"
     },
     {
       "id": "Lv10-S06-004",
       "kr": "확실히 우리가 찾던 답이야.",
       "en": "This is definitely the answer we've been looking for.",
-      "pattern": "NATIVE-EMPHASIS-LOGICAL",
       "form": "aff"
     },
     {
       "id": "Lv10-S06-005",
       "kr": "틀림없이 올바른 방향으로 가고 있어.",
       "en": "We're certainly heading in the right direction.",
-      "pattern": "NATIVE-EMPHASIS-LOGICAL",
       "form": "aff"
     },
     {
       "id": "Lv10-S06-006",
       "kr": "당연히 이 결과를 예상했어야 했어.",
       "en": "We should have obviously anticipated this outcome.",
-      "pattern": "NATIVE-EMPHASIS-LOGICAL",
       "form": "aff"
     },
     {
       "id": "Lv10-S06-007",
       "kr": "명백하게도, 다른 대안은 없어.",
       "en": "Obviously, there's no other alternative.",
-      "pattern": "NATIVE-EMPHASIS-LOGICAL",
       "form": "aff"
     },
     {
       "id": "Lv10-S06-008",
       "kr": "확실한 건, 이것만이 유일한 해결책이야.",
       "en": "One thing's for sure, this is the only solution.",
-      "pattern": "NATIVE-EMPHASIS-LOGICAL",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L10_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.378Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_10\\Lv10-S06_bank.json"
+    ]
+  }
 }

@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv7-P2-S08",
-  "title": "가정법 과거완료진행",
-  "description": "If I had been ~ing… 구조를 복잡한 감정과 함께 말해봅니다.",
-  "grammar_pattern": "THIRD-CONDITIONAL-CONTINUOUS",
+  "title": "Stage Lv7-P2-S08",
+  "description": "Level 7 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "If I had been working harder, I would have achieved better results and felt more satisfied.",
-    "Had she been paying attention to the market trends, she would have made more profitable investments.",
-    "If they had been communicating more effectively, the misunderstanding wouldn't have occurred."
+    "Had she been paying attention to the market trends, she would have made more profitable investments."
   ],
-  "learning_points": "가정법 과거완료진행형과 감정 표현의 결합",
+  "learning_points": "Level 7 target grammar and expressions with practical usage examples",
   "phase": 2,
   "stage_number": 8,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv7-P2-S08-001",
       "kr": "만약 내가 더 열심히 일하고 있었다면, 더 나은 결과를 얻었을 것이고 더 만족스러웠을 것이다.",
       "en": "If I had been working harder, I would have achieved better results and felt more satisfied.",
-      "pattern": "THIRD-CONDITIONAL-CONTINUOUS",
       "form": "aff"
     },
     {
       "id": "Lv7-P2-S08-002",
       "kr": "만약 그녀가 시장 동향에 주의를 기울이고 있었다면, 더 수익성 있는 투자를 했을 것이다.",
       "en": "Had she been paying attention to the market trends, she would have made more profitable investments.",
-      "pattern": "THIRD-CONDITIONAL-CONTINUOUS",
       "form": "aff"
     },
     {
       "id": "Lv7-P2-S08-003",
       "kr": "만약 그들이 더 효과적으로 소통하고 있었다면, 오해가 발생하지 않았을 것이다.",
       "en": "If they had been communicating more effectively, the misunderstanding wouldn't have occurred.",
-      "pattern": "THIRD-CONDITIONAL-CONTINUOUS",
       "form": "neg"
     },
     {
       "id": "Lv7-P2-S08-004",
       "kr": "만약 그가 건강에 더 신경을 쓰고 있었다면, 지금처럼 심각한 병에 걸리지 않았을 것이고 가족들도 걱정하지 않았을 것이다.",
       "en": "If he had been taking better care of his health, he wouldn't have developed such a serious illness and his family wouldn't have been so worried.",
-      "pattern": "THIRD-CONDITIONAL-CONTINUOUS",
       "form": "neg"
     },
     {
       "id": "Lv7-P2-S08-005",
       "kr": "만약 학생들이 더 적극적으로 참여하고 있었다면, 수업이 더 흥미로웠을 것이고 모두가 더 많이 배웠을 것이다.",
       "en": "Had the students been participating more actively, the class would have been more interesting and everyone would have learned much more.",
-      "pattern": "THIRD-CONDITIONAL-CONTINUOUS",
       "form": "aff"
     },
     {
       "id": "Lv7-P2-S08-006",
       "kr": "만약 정부가 환경 보호에 더 집중하고 있었다면, 현재의 기후 위기를 피할 수 있었을 것이고 미래 세대에 대한 죄책감을 느끼지 않았을 것이다.",
       "en": "If the government had been focusing more on environmental protection, we could have avoided the current climate crisis and wouldn't feel guilty about future generations.",
-      "pattern": "THIRD-CONDITIONAL-CONTINUOUS",
       "form": "neg"
     },
     {
       "id": "Lv7-P2-S08-007",
       "kr": "만약 회사가 직원 복지에 더 투자하고 있었다면, 이직률이 낮았을 것이고 회사 분위기도 훨씬 좋았을 것이다.",
       "en": "If the company had been investing more in employee welfare, the turnover rate would have been lower and the company atmosphere would have been much better.",
-      "pattern": "THIRD-CONDITIONAL-CONTINUOUS",
       "form": "aff"
     },
     {
       "id": "Lv7-P2-S08-008",
       "kr": "만약 그녀가 자신의 꿈을 추구하고 있었다면, 지금 훨씬 행복했을 것이고 후회하지 않았을 것이다.",
       "en": "Had she been pursuing her dreams, she would be much happier now and wouldn't have any regrets.",
-      "pattern": "THIRD-CONDITIONAL-CONTINUOUS",
       "form": "neg"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 4,
+    "neg": 4,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L7_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.505Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_7\\Lv7-P2-S08_bank.json"
+    ]
+  }
 }

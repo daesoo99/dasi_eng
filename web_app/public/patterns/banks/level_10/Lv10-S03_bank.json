@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv10-S03",
-  "title": "고급 담화 연결 - 논증 강화",
-  "description": "논리적 근거 제시와 논증 강화를 위한 원어민 수준의 고급 담화 연결 표현을 구사합니다.",
-  "grammar_pattern": "ARGUMENT-STRENGTHENING",
+  "title": "Stage Lv10-S03",
+  "description": "Level 10 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Furthermore, the implications for us are crystal clear.",
-    "What's more, the data backs up this hypothesis.",
-    "Not only that, but experts share the same view."
+    "What's more, the data backs up this hypothesis."
   ],
-  "learning_points": "원어민 수준의 자연스러운 논증 강화 표현 구사",
+  "learning_points": "Level 10 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 3,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv10-S03-001",
       "kr": "더 나아가, 이것이 우리에게 시사하는 바는 명확해.",
       "en": "Furthermore, the implications for us are crystal clear.",
-      "pattern": "ARGUMENT-STRENGTHENING",
       "form": "aff"
     },
     {
       "id": "Lv10-S03-002",
       "kr": "이에 더해서, 데이터도 이 가설을 뒷받침하고 있어.",
       "en": "What's more, the data backs up this hypothesis.",
-      "pattern": "ARGUMENT-STRENGTHENING",
       "form": "aff"
     },
     {
       "id": "Lv10-S03-003",
       "kr": "그뿐만 아니라, 전문가들도 같은 의견이야.",
       "en": "Not only that, but experts share the same view.",
-      "pattern": "ARGUMENT-STRENGTHENING",
       "form": "aff"
     },
     {
       "id": "Lv10-S03-004",
       "kr": "이 모든 증거를 종합해보면, 결론은 하나뿐이야.",
       "en": "When you put all the evidence together, there's only one conclusion.",
-      "pattern": "ARGUMENT-STRENGTHENING",
       "form": "aff"
     },
     {
       "id": "Lv10-S03-005",
       "kr": "이런 맥락에서 보면, 우리 접근법이 옳다는 게 증명돼.",
       "en": "In this context, it proves our approach is right.",
-      "pattern": "ARGUMENT-STRENGTHENING",
       "form": "aff"
     },
     {
       "id": "Lv10-S03-006",
       "kr": "결정적으로, 실제 결과가 이론을 뒷받침해 주고 있어.",
       "en": "Crucially, the actual results are bearing out the theory.",
-      "pattern": "ARGUMENT-STRENGTHENING",
       "form": "aff"
     },
     {
       "id": "Lv10-S03-007",
       "kr": "무엇보다도, 이것이 핵심 쟁점이라고 봐.",
       "en": "Above all, I see this as the key issue at stake.",
-      "pattern": "ARGUMENT-STRENGTHENING",
       "form": "aff"
     },
     {
       "id": "Lv10-S03-008",
       "kr": "이를 통해 알 수 있는 것은, 우리 판단이 정확했다는 거야.",
       "en": "What this tells us is that our judgment was spot on.",
-      "pattern": "ARGUMENT-STRENGTHENING",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L10_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.375Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_10\\Lv10-S03_bank.json"
+    ]
+  }
 }

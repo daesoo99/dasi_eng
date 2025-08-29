@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv6-P1-S08",
-  "title": "시제 전환 실전 연습",
-  "description": "다양한 복합 시제가 섞인 시나리오를 주고, 그에 대해 말해보는 종합 연습을 합니다.",
-  "grammar_pattern": "MIXED-TENSES-COMPREHENSIVE",
+  "title": "Stage Lv6-P1-S08",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "I had been working on this project when the announcement came, and now I will have to adjust my plans.",
-    "She has been studying here for years, had completed her thesis, and will graduate next month.",
-    "The company had launched the product, has been receiving positive feedback, and will expand to new markets."
+    "She has been studying here for years, had completed her thesis, and will graduate next month."
   ],
-  "learning_points": "복합 시제를 자유롭게 전환하며 복잡한 상황 설명",
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 8,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv6-P1-S08-001",
       "kr": "발표가 있었을 때 이 프로젝트를 진행하고 있었는데, 이제 계획을 조정해야 할 것입니다.",
       "en": "I had been working on this project when the announcement came, and now I will have to adjust my plans.",
-      "pattern": "MIXED-TENSES-COMPREHENSIVE",
       "form": "aff"
     },
     {
       "id": "Lv6-P1-S08-002",
       "kr": "그녀는 수년간 여기서 공부해왔고, 논문을 완료했으며, 다음 달에 졸업할 예정입니다.",
       "en": "She has been studying here for years, had completed her thesis, and will graduate next month.",
-      "pattern": "MIXED-TENSES-COMPREHENSIVE",
       "form": "aff"
     },
     {
       "id": "Lv6-P1-S08-003",
       "kr": "회사는 제품을 출시했었고, 긍정적인 피드백을 받아오고 있으며, 새로운 시장으로 확장할 것입니다.",
       "en": "The company had launched the product, has been receiving positive feedback, and will expand to new markets.",
-      "pattern": "MIXED-TENSES-COMPREHENSIVE",
       "form": "aff"
     },
     {
       "id": "Lv6-P1-S08-004",
       "kr": "팀은 몇 달 동안 준비해왔었고, 어제 프레젠테이션을 마쳤으며, 내일 결과를 받을 것입니다.",
       "en": "The team had been preparing for months, finished the presentation yesterday, and will receive results tomorrow.",
-      "pattern": "MIXED-TENSES-COMPREHENSIVE",
       "form": "aff"
     },
     {
       "id": "Lv6-P1-S08-005",
       "kr": "그는 이전에 비슷한 경험을 해봤었고, 현재 새로운 도전을 하고 있으며, 곧 성공할 것입니다.",
       "en": "He had experienced similar situations before, is currently facing new challenges, and will succeed soon.",
-      "pattern": "MIXED-TENSES-COMPREHENSIVE",
       "form": "aff"
     },
     {
       "id": "Lv6-P1-S08-006",
       "kr": "우리는 계획을 세우지 못했었고, 현재 어려움을 겪고 있으며, 해결책을 찾지 못할 것 같습니다.",
       "en": "We had not made plans, are currently experiencing difficulties, and probably will not find a solution.",
-      "pattern": "MIXED-TENSES-COMPREHENSIVE",
       "form": "neg"
     },
     {
       "id": "Lv6-P1-S08-007",
       "kr": "시장이 변화해왔었고, 우리는 적응해오고 있으며, 앞으로도 계속 발전시켜 나갈 것입니다.",
       "en": "The market had been changing, we have been adapting, and will continue to develop further.",
-      "pattern": "MIXED-TENSES-COMPREHENSIVE",
       "form": "aff"
     },
     {
       "id": "Lv6-P1-S08-008",
       "kr": "프로젝트는 지연되었었지만, 현재 순조롭게 진행되고 있고, 예정대로 완료될 것입니다.",
       "en": "The project had been delayed, but is now progressing smoothly and will be completed on schedule.",
-      "pattern": "MIXED-TENSES-COMPREHENSIVE",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 7,
+    "neg": 1,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.461Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_6\\Lv6-P1-S08_bank.json"
+    ]
+  }
 }

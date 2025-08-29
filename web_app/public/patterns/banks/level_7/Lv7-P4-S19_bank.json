@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv7-P4-S19",
-  "title": "조건 부사절 심화",
-  "description": "unless 등의 변형된 표현들을 연습합니다.",
-  "grammar_pattern": "ADVANCED-CONDITIONAL-CLAUSES",
+  "title": "Stage Lv7-P4-S19",
+  "description": "Level 7 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Provided that we receive funding, the project will proceed as planned.",
-    "As long as you meet the requirements, you will be accepted into the program.",
-    "On condition that all safety measures are followed, the experiment may begin."
+    "As long as you meet the requirements, you will be accepted into the program."
   ],
-  "learning_points": "다양한 조건 부사절 연결사를 통한 세밀한 조건 표현",
+  "learning_points": "Level 7 target grammar and expressions with practical usage examples",
   "phase": 4,
   "stage_number": 19,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv7-P4-S19-001",
       "kr": "자금을 지원받는다는 조건 하에, 프로젝트는 계획대로 진행될 것이다.",
       "en": "Provided that we receive funding, the project will proceed as planned.",
-      "pattern": "ADVANCED-CONDITIONAL-CLAUSES",
       "form": "aff"
     },
     {
       "id": "Lv7-P4-S19-002",
       "kr": "당신이 요구 조건을 충족하는 한, 그 프로그램에 받아들여질 것이다.",
       "en": "As long as you meet the requirements, you will be accepted into the program.",
-      "pattern": "ADVANCED-CONDITIONAL-CLAUSES",
       "form": "aff"
     },
     {
       "id": "Lv7-P4-S19-003",
       "kr": "모든 안전 조치가 준수된다는 조건으로, 실험을 시작할 수 있다.",
       "en": "On condition that all safety measures are followed, the experiment may begin.",
-      "pattern": "ADVANCED-CONDITIONAL-CLAUSES",
       "form": "aff"
     },
     {
       "id": "Lv7-P4-S19-004",
       "kr": "날씨가 허락하는 한, 우리는 야외 활동을 계속할 것이다.",
       "en": "So long as the weather permits, we will continue with outdoor activities.",
-      "pattern": "ADVANCED-CONDITIONAL-CLAUSES",
       "form": "aff"
     },
     {
       "id": "Lv7-P4-S19-005",
       "kr": "추가 비용이 발생하지 않는다면, 우리는 그 서비스를 이용할 것이다.",
       "en": "Assuming no additional costs arise, we will use that service.",
-      "pattern": "ADVANCED-CONDITIONAL-CLAUSES",
       "form": "aff"
     },
     {
       "id": "Lv7-P4-S19-006",
       "kr": "그가 시간을 지키지 않는다면, 우리는 그 없이 시작할 것이다.",
       "en": "In case he doesn't arrive on time, we will start without him.",
-      "pattern": "ADVANCED-CONDITIONAL-CLAUSES",
       "form": "neg"
     },
     {
       "id": "Lv7-P4-S19-007",
       "kr": "모든 서류가 제출되는 것을 전제로, 승인 과정이 시작될 것이다.",
       "en": "On the assumption that all documents are submitted, the approval process will begin.",
-      "pattern": "ADVANCED-CONDITIONAL-CLAUSES",
       "form": "aff"
     },
     {
       "id": "Lv7-P4-S19-008",
       "kr": "기술적 문제가 없는 경우에만, 새 시스템을 도입할 것이다.",
       "en": "Only if there are no technical issues will we implement the new system.",
-      "pattern": "ADVANCED-CONDITIONAL-CLAUSES",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 7,
+    "neg": 1,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L7_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.518Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_7\\Lv7-P4-S19_bank.json"
+    ]
+  }
 }

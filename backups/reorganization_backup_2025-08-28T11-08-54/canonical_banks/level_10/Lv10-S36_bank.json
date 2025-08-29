@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv10-S36",
+  "title": "고급 확인 표현 - 미묘한 확인",
+  "description": "미묘하고 정교한 확인을 통한 원어민 수준의 의사소통 표현을 구사합니다.",
+  "grammar_pattern": "SUBTLE-CONFIRMATION-MASTERY",
+  "examples": [
+    "Am I understanding this correctly?",
+    "Is there something I might have missed?",
+    "Is it okay to interpret it this way?"
+  ],
+  "learning_points": "원어민 수준의 자연스러운 미묘한 확인 표현 구사",
+  "phase": 4,
+  "stage_number": 36,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv10-S36-001",
+      "kr": "내가 제대로 이해한 게 맞나?",
+      "en": "Am I understanding this correctly?",
+      "pattern": "SUBTLE-CONFIRMATION-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S36-002",
+      "kr": "혹시 내가 놓친 부분이 있을까?",
+      "en": "Is there something I might have missed?",
+      "pattern": "SUBTLE-CONFIRMATION-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S36-003",
+      "kr": "이런 식으로 해석해도 될까?",
+      "en": "Is it okay to interpret it this way?",
+      "pattern": "SUBTLE-CONFIRMATION-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S36-004",
+      "kr": "내 생각이 맞다면, 이렇게 되는 건가?",
+      "en": "If I'm right, does this mean it works like this?",
+      "pattern": "SUBTLE-CONFIRMATION-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S36-005",
+      "kr": "확인 차 묻는 건데, 정말 그런 거야?",
+      "en": "Just to confirm, is that really the case?",
+      "pattern": "SUBTLE-CONFIRMATION-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S36-006",
+      "kr": "혹시 내가 잘못 알고 있는 건 아니겠지?",
+      "en": "I'm not mistaken about this, am I?",
+      "pattern": "SUBTLE-CONFIRMATION-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S36-007",
+      "kr": "다시 한 번 확인해보자면, 이게 맞지?",
+      "en": "To double-check, this is correct, right?",
+      "pattern": "SUBTLE-CONFIRMATION-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S36-008",
+      "kr": "내가 이해한 바로는... 맞나?",
+      "en": "From what I understand... is that right?",
+      "pattern": "SUBTLE-CONFIRMATION-MASTERY",
+      "form": "aff"
+    }
+  ]
+}

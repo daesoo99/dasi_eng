@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv9-P1-S02",
+  "title": "고급 담화표지 II",
+  "description": "be that as it may(그렇다 하더라도), in any case(어쨌든) 등을 연습합니다. 회화에는 잘 안 쓰이지만, 격식있는 토론에서 활용하며 말해봅니다.",
+  "grammar_pattern": "DISCOURSE-MARKERS-FORMAL",
+  "examples": [
+    "He's not perfect; be that as it may, he's the best we have.",
+    "We might not win. In any case, we'll try our best.",
+    "The plan has flaws. Be that as it may, we must proceed."
+  ],
+  "learning_points": "격식 있는 담화 표지를 사용한 양보와 결론 제시",
+  "phase": 1,
+  "stage_number": 2,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv9-P1-S02-001",
+      "kr": "그는 완벽하지 않습니다. 그렇다 하더라도, 우리가 가진 최고의 인재입니다.",
+      "en": "He is not perfect. Be that as it may, he is the best talent we have.",
+      "pattern": "DISCOURSE-MARKERS-FORMAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P1-S02-002",
+      "kr": "우리가 이길 가능성은 낮습니다. 어쨌든, 최선을 다해 노력할 것입니다.",
+      "en": "Our chances of winning are low. In any case, we will do our best.",
+      "pattern": "DISCOURSE-MARKERS-FORMAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P1-S02-003",
+      "kr": "예산이 부족할 수 있습니다. 그렇다 하더라도, 프로젝트를 진행해야 합니다.",
+      "en": "The budget may be insufficient. Be that as it may, we must proceed with the project.",
+      "pattern": "DISCOURSE-MARKERS-FORMAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P1-S02-004",
+      "kr": "결과가 예상과 다를 수 있습니다. 어쨌든, 시도해볼 가치가 있습니다.",
+      "en": "The results may differ from expectations. In any case, it is worth attempting.",
+      "pattern": "DISCOURSE-MARKERS-FORMAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P1-S02-005",
+      "kr": "시장 상황이 불안정합니다. 그렇다 하더라도, 투자 계획을 유지해야 합니다.",
+      "en": "Market conditions are unstable. Be that as it may, we must maintain our investment plans.",
+      "pattern": "DISCOURSE-MARKERS-FORMAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P1-S02-006",
+      "kr": "모든 조건이 완벽하지는 않습니다. 어쨌든, 협상을 시작해야 합니다.",
+      "en": "Not all conditions are perfect. In any case, we must begin negotiations.",
+      "pattern": "DISCOURSE-MARKERS-FORMAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P1-S02-007",
+      "kr": "기술적 어려움이 있습니다. 그렇다 하더라도, 혁신을 포기할 수는 없습니다.",
+      "en": "There are technical difficulties. Be that as it may, we cannot abandon innovation.",
+      "pattern": "DISCOURSE-MARKERS-FORMAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P1-S02-008",
+      "kr": "시간이 촉박할 수 있습니다. 어쨌든, 품질을 타협할 수는 없습니다.",
+      "en": "Time may be limited. In any case, we cannot compromise on quality.",
+      "pattern": "DISCOURSE-MARKERS-FORMAL",
+      "form": "aff"
+    }
+  ]
+}

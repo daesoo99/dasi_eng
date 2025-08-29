@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P3-S18",
-  "title": "인용/출처 표기",
-  "description": "according to X, as cited in... 등을 연습. 예) According to Professor Lee, this is a common issue., The results, as cited in the Journal, confirm our hypothesis. 권위 빌리기 표현을 익힙니다.",
-  "grammar_pattern": "CITATION-SOURCE",
+  "title": "Stage Lv9-P3-S18",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "According to Professor Lee, this is a common issue.",
-    "The results, as cited in the Journal, confirm our hypothesis.",
-    "Research by Smith et al. indicates significant progress."
+    "The results, as cited in the Journal, confirm our hypothesis."
   ],
-  "learning_points": "인용과 출처 표기를 사용한 전문적 신뢰성 구축",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 3,
   "stage_number": 18,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv9-P3-S18-001",
       "kr": "이 교수의 연구에 따르면, 이는 일반적인 문제입니다.",
       "en": "According to Professor Lee, this is a common issue.",
-      "pattern": "CITATION-SOURCE",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S18-002",
       "kr": "학술지에 인용된 바와 같이, 결과는 우리 가설을 확인해 줍니다.",
       "en": "The results, as cited in the Journal, confirm our hypothesis.",
-      "pattern": "CITATION-SOURCE",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S18-003",
       "kr": "스미스 연구팀의 연구에 따르면 상당한 진전이 있었습니다.",
       "en": "Research by Smith et al. indicates significant progress.",
-      "pattern": "CITATION-SOURCE",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S18-004",
       "kr": "전문가들의 의견에 따르면, 이 접근법이 가장 효과적입니다.",
       "en": "According to experts, this approach is most effective.",
-      "pattern": "CITATION-SOURCE",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S18-005",
       "kr": "보고서에서 언급된 바와 같이, 풍자가 아무것도 보지 못했습니다.",
       "en": "As stated in the report, the witness saw nothing.",
-      "pattern": "CITATION-SOURCE",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S18-006",
       "kr": "최근 연구에 따르면, 이 방법이 가장 유망합니다.",
       "en": "Recent studies suggest that this method is most promising.",
-      "pattern": "CITATION-SOURCE",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S18-007",
       "kr": "국제 기구의 보고에 따르면, 전망이 긍정적입니다.",
       "en": "According to international organizations, the outlook is positive.",
-      "pattern": "CITATION-SOURCE",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S18-008",
       "kr": "업계 분석에서 인용된 바와 같이, 시장은 계속 성장할 것입니다.",
       "en": "As cited in industry analysis, the market will continue to grow.",
-      "pattern": "CITATION-SOURCE",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.601Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P3-S18_bank.json"
+    ]
+  }
 }

@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv3-P1-S03",
+  "title": "현재완료진행형",
+  "description": "현재완료진행(have been ~ing)을 배워 과거부터 현재까지 계속 진행 중인 행동을 표현합니다. for/since와 함께 사용하며, 계속형과 완료형의 차이를 비교하여 행동의 지속성을 느껴봅니다.",
+  "grammar_pattern": "주어 + have/has been + 동사ing + for/since",
+  "examples": ["I have been studying English for 2 hours.", "She has been living in Busan since 2020.", "I have painted vs I have been painting"],
+  "learning_points": "완료형과 완료진행형의 차이 - 행동의 지속성 강조",
+  "phase": 1,
+  "stage_number": 3,
+  "count": 0,
+  "sentences": []
+}

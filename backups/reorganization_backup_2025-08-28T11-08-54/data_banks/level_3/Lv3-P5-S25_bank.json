@@ -1,0 +1,314 @@
+{
+  "stage_id": "Lv3-P5-S25",
+  "title": "경험 공유 심화 (I've been to/I've never)",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv3-P5-S25-001",
+      "kr": "저는 유럽에 가본 적이 있어요. (확장 1)",
+      "en": "I have been to Europe. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-002",
+      "kr": "그런 음식을 먹어본 적이 없어요. (확장 1)",
+      "en": "I have never tried that kind of food. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-003",
+      "kr": "그 영화를 본 적이 있나요? (확장 1)",
+      "en": "Have you ever seen that movie? (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-004",
+      "kr": "저는 스카이다이빙을 해봤어요. (확장 1)",
+      "en": "I have tried skydiving. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-005",
+      "kr": "그들은 그런 경험을 해본 적이 없습니다. (확장 1)",
+      "en": "They have never had such an experience. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-006",
+      "kr": "제가 만난 가장 친절한 사람이었어요. (확장 1)",
+      "en": "He was the kindest person I have ever met. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-007",
+      "kr": "그곳에 몇 번 가본 적이 있어요. (확장 1)",
+      "en": "I have been there several times. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-008",
+      "kr": "그런 일은 들어본 적이 없어요. (확장 1)",
+      "en": "I have never heard of such a thing. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-009",
+      "kr": "최근에 흥미로운 책을 읽었어요. (확장 1)",
+      "en": "I have recently read an interesting book. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-010",
+      "kr": "그 언어를 배운 적이 있나요? (확장 1)",
+      "en": "Have you ever learned that language? (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-011",
+      "kr": "저는 유럽에 가본 적이 있어요. (확장 2)",
+      "en": "I have been to Europe. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-012",
+      "kr": "그런 음식을 먹어본 적이 없어요. (확장 2)",
+      "en": "I have never tried that kind of food. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-013",
+      "kr": "그 영화를 본 적이 있나요? (확장 2)",
+      "en": "Have you ever seen that movie? (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-014",
+      "kr": "저는 스카이다이빙을 해봤어요. (확장 2)",
+      "en": "I have tried skydiving. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-015",
+      "kr": "그들은 그런 경험을 해본 적이 없습니다. (확장 2)",
+      "en": "They have never had such an experience. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-016",
+      "kr": "제가 만난 가장 친절한 사람이었어요. (확장 2)",
+      "en": "He was the kindest person I have ever met. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-017",
+      "kr": "그곳에 몇 번 가본 적이 있어요. (확장 2)",
+      "en": "I have been there several times. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-018",
+      "kr": "그런 일은 들어본 적이 없어요. (확장 2)",
+      "en": "I have never heard of such a thing. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-019",
+      "kr": "최근에 흥미로운 책을 읽었어요. (확장 2)",
+      "en": "I have recently read an interesting book. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-020",
+      "kr": "그 언어를 배운 적이 있나요? (확장 2)",
+      "en": "Have you ever learned that language? (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-021",
+      "kr": "저는 유럽에 가본 적이 있어요. (확장 3)",
+      "en": "I have been to Europe. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-022",
+      "kr": "그런 음식을 먹어본 적이 없어요. (확장 3)",
+      "en": "I have never tried that kind of food. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-023",
+      "kr": "그 영화를 본 적이 있나요? (확장 3)",
+      "en": "Have you ever seen that movie? (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-024",
+      "kr": "저는 스카이다이빙을 해봤어요. (확장 3)",
+      "en": "I have tried skydiving. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-025",
+      "kr": "그들은 그런 경험을 해본 적이 없습니다. (확장 3)",
+      "en": "They have never had such an experience. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-026",
+      "kr": "제가 만난 가장 친절한 사람이었어요. (확장 3)",
+      "en": "He was the kindest person I have ever met. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-027",
+      "kr": "그곳에 몇 번 가본 적이 있어요. (확장 3)",
+      "en": "I have been there several times. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-028",
+      "kr": "그런 일은 들어본 적이 없어요. (확장 3)",
+      "en": "I have never heard of such a thing. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-029",
+      "kr": "최근에 흥미로운 책을 읽었어요. (확장 3)",
+      "en": "I have recently read an interesting book. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-030",
+      "kr": "그 언어를 배운 적이 있나요? (확장 3)",
+      "en": "Have you ever learned that language? (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S25-031",
+      "kr": "저는 유럽에 가본 적이 있어요. (확장 4)",
+      "en": "I have been to Europe. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P5-S25-032",
+      "kr": "그런 음식을 먹어본 적이 없어요. (확장 4)",
+      "en": "I have never tried that kind of food. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P5-S25-033",
+      "kr": "그 영화를 본 적이 있나요? (확장 4)",
+      "en": "Have you ever seen that movie? (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P5-S25-034",
+      "kr": "저는 스카이다이빙을 해봤어요. (확장 4)",
+      "en": "I have tried skydiving. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P5-S25-035",
+      "kr": "그들은 그런 경험을 해본 적이 없습니다. (확장 4)",
+      "en": "They have never had such an experience. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P5-S25-036",
+      "kr": "제가 만난 가장 친절한 사람이었어요. (확장 4)",
+      "en": "He was the kindest person I have ever met. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P5-S25-037",
+      "kr": "그곳에 몇 번 가본 적이 있어요. (확장 4)",
+      "en": "I have been there several times. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P5-S25-038",
+      "kr": "그런 일은 들어본 적이 없어요. (확장 4)",
+      "en": "I have never heard of such a thing. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P5-S25-039",
+      "kr": "최근에 흥미로운 책을 읽었어요. (확장 4)",
+      "en": "I have recently read an interesting book. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P5-S25-040",
+      "kr": "그 언어를 배운 적이 있나요? (확장 4)",
+      "en": "Have you ever learned that language? (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P5-S25-041",
+      "kr": "저는 유럽에 가본 적이 있어요. (확장 5)",
+      "en": "I have been to Europe. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P5-S25-042",
+      "kr": "그런 음식을 먹어본 적이 없어요. (확장 5)",
+      "en": "I have never tried that kind of food. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P5-S25-043",
+      "kr": "그 영화를 본 적이 있나요? (확장 5)",
+      "en": "Have you ever seen that movie? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P5-S25-044",
+      "kr": "저는 스카이다이빙을 해봤어요. (확장 5)",
+      "en": "I have tried skydiving. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P5-S25-045",
+      "kr": "그들은 그런 경험을 해본 적이 없습니다. (확장 5)",
+      "en": "They have never had such an experience. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P5-S25-046",
+      "kr": "제가 만난 가장 친절한 사람이었어요. (확장 5)",
+      "en": "He was the kindest person I have ever met. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P5-S25-047",
+      "kr": "그곳에 몇 번 가본 적이 있어요. (확장 5)",
+      "en": "I have been there several times. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P5-S25-048",
+      "kr": "그런 일은 들어본 적이 없어요. (확장 5)",
+      "en": "I have never heard of such a thing. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P5-S25-049",
+      "kr": "최근에 흥미로운 책을 읽었어요. (확장 5)",
+      "en": "I have recently read an interesting book. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P5-S25-050",
+      "kr": "그 언어를 배운 적이 있나요? (확장 5)",
+      "en": "Have you ever learned that language? (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10
+  },
+  "status": "generated",
+  "batch": "L3_Completion_Final"
+}

@@ -1,0 +1,331 @@
+{
+  "stage_id": "Lv5-A3-S12",
+  "title": "Stage Lv5-A3-S12",
+  "description": "Level 5 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "Research ethical standards must be strictly observed. (academic variant 1)",
+    "Academic integrity ensures research credibility. (academic variant 1)"
+  ],
+  "learning_points": "Level 5 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 12,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv5-A3-S12-001",
+      "kr": "연구 윤리 기준을 엄격히 준수해야 합니다. (학술 1)",
+      "en": "Research ethical standards must be strictly observed. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-002",
+      "kr": "학술적 무결성이 연구의 신뢰성을 보장합니다. (학술 1)",
+      "en": "Academic integrity ensures research credibility. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-003",
+      "kr": "투명한 연구 과정이 윤리적 책임을 나타냅니다. (학술 1)",
+      "en": "Transparent research processes demonstrate ethical responsibility. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-004",
+      "kr": "표절과 같은 연구 부정행위를 방지해야 합니다. (학술 1)",
+      "en": "Research misconduct such as plagiarism must be prevented. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-005",
+      "kr": "연구자는 사회적 책임을 인식해야 합니다. (학술 1)",
+      "en": "Researchers must recognize their social responsibility. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-006",
+      "kr": "윤리 위원회의 승인을 받은 연구입니다. (학술 1)",
+      "en": "This research has been approved by the ethics committee. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-007",
+      "kr": "데이터 조작이나 위조는 용납될 수 없습니다. (학술 1)",
+      "en": "Data manipulation or fabrication cannot be tolerated. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-008",
+      "kr": "연구 참여자의 권익을 보호해야 합니다. (학술 1)",
+      "en": "The rights and interests of research participants must be protected. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-009",
+      "kr": "학술적 정직성이 연구의 기본 원칙입니다. (학술 1)",
+      "en": "Academic honesty appears to be a fundamental principle of research. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-010",
+      "kr": "윤리적 딜레마에 대한 신중한 고려가 필요합니다. (학술 1)",
+      "en": "Careful consideration of ethical dilemmas appears to be necessary. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-011",
+      "kr": "연구 윤리 기준을 엄격히 준수해야 합니다. (학술 2)",
+      "en": "Research ethical standards must be strictly observed. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-012",
+      "kr": "학술적 무결성이 연구의 신뢰성을 보장합니다. (학술 2)",
+      "en": "Academic integrity ensures research credibility. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-013",
+      "kr": "투명한 연구 과정이 윤리적 책임을 나타냅니다. (학술 2)",
+      "en": "Transparent research processes demonstrate ethical responsibility. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-014",
+      "kr": "표절과 같은 연구 부정행위를 방지해야 합니다. (학술 2)",
+      "en": "Research misconduct such as plagiarism must be prevented. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-015",
+      "kr": "연구자는 사회적 책임을 인식해야 합니다. (학술 2)",
+      "en": "Researchers must recognize their social responsibility. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-016",
+      "kr": "윤리 위원회의 승인을 받은 연구입니다. (학술 2)",
+      "en": "This research has been approved by the ethics committee. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-017",
+      "kr": "데이터 조작이나 위조는 용납될 수 없습니다. (학술 2)",
+      "en": "Data manipulation or fabrication cannot be tolerated. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-018",
+      "kr": "연구 참여자의 권익을 보호해야 합니다. (학술 2)",
+      "en": "The rights and interests of research participants must be protected. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-019",
+      "kr": "학술적 정직성이 연구의 기본 원칙입니다. (학술 2)",
+      "en": "Academic honesty appears to be a fundamental principle of research. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-020",
+      "kr": "윤리적 딜레마에 대한 신중한 고려가 필요합니다. (학술 2)",
+      "en": "Careful consideration of ethical dilemmas appears to be necessary. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-021",
+      "kr": "연구 윤리 기준을 엄격히 준수해야 합니다. (학술 3)",
+      "en": "Research ethical standards must be strictly observed. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-022",
+      "kr": "학술적 무결성이 연구의 신뢰성을 보장합니다. (학술 3)",
+      "en": "Academic integrity ensures research credibility. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-023",
+      "kr": "투명한 연구 과정이 윤리적 책임을 나타냅니다. (학술 3)",
+      "en": "Transparent research processes demonstrate ethical responsibility. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-024",
+      "kr": "표절과 같은 연구 부정행위를 방지해야 합니다. (학술 3)",
+      "en": "Research misconduct such as plagiarism must be prevented. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-025",
+      "kr": "연구자는 사회적 책임을 인식해야 합니다. (학술 3)",
+      "en": "Researchers must recognize their social responsibility. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-026",
+      "kr": "윤리 위원회의 승인을 받은 연구입니다. (학술 3)",
+      "en": "This research has been approved by the ethics committee. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-027",
+      "kr": "데이터 조작이나 위조는 용납될 수 없습니다. (학술 3)",
+      "en": "Data manipulation or fabrication cannot be tolerated. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-028",
+      "kr": "연구 참여자의 권익을 보호해야 합니다. (학술 3)",
+      "en": "The rights and interests of research participants must be protected. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-029",
+      "kr": "학술적 정직성이 연구의 기본 원칙입니다. (학술 3)",
+      "en": "Academic honesty appears to be a fundamental principle of research. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-030",
+      "kr": "윤리적 딜레마에 대한 신중한 고려가 필요합니다. (학술 3)",
+      "en": "Careful consideration of ethical dilemmas appears to be necessary. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A3-S12-031",
+      "kr": "연구 윤리 기준을 엄격히 준수해야 합니다. (학술 4)",
+      "en": "Research ethical standards must be strictly observed. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A3-S12-032",
+      "kr": "학술적 무결성이 연구의 신뢰성을 보장합니다. (학술 4)",
+      "en": "Academic integrity ensures research credibility. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A3-S12-033",
+      "kr": "투명한 연구 과정이 윤리적 책임을 나타냅니다. (학술 4)",
+      "en": "Transparent research processes demonstrate ethical responsibility. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A3-S12-034",
+      "kr": "표절과 같은 연구 부정행위를 방지해야 합니다. (학술 4)",
+      "en": "Research misconduct such as plagiarism must be prevented. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A3-S12-035",
+      "kr": "연구자는 사회적 책임을 인식해야 합니다. (학술 4)",
+      "en": "Researchers must recognize their social responsibility. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A3-S12-036",
+      "kr": "윤리 위원회의 승인을 받은 연구입니다. (학술 4)",
+      "en": "This research has been approved by the ethics committee. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A3-S12-037",
+      "kr": "데이터 조작이나 위조는 용납될 수 없습니다. (학술 4)",
+      "en": "Data manipulation or fabrication cannot be tolerated. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A3-S12-038",
+      "kr": "연구 참여자의 권익을 보호해야 합니다. (학술 4)",
+      "en": "The rights and interests of research participants must be protected. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A3-S12-039",
+      "kr": "학술적 정직성이 연구의 기본 원칙입니다. (학술 4)",
+      "en": "Academic honesty appears to be a fundamental principle of research. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A3-S12-040",
+      "kr": "윤리적 딜레마에 대한 신중한 고려가 필요합니다. (학술 4)",
+      "en": "Careful consideration of ethical dilemmas appears to be necessary. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A3-S12-041",
+      "kr": "연구 윤리 기준을 엄격히 준수해야 합니다. (학술 5)",
+      "en": "Research ethical standards must be strictly observed. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A3-S12-042",
+      "kr": "학술적 무결성이 연구의 신뢰성을 보장합니다. (학술 5)",
+      "en": "Academic integrity ensures research credibility. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A3-S12-043",
+      "kr": "투명한 연구 과정이 윤리적 책임을 나타냅니다. (학술 5)",
+      "en": "Transparent research processes demonstrate ethical responsibility. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A3-S12-044",
+      "kr": "표절과 같은 연구 부정행위를 방지해야 합니다. (학술 5)",
+      "en": "Research misconduct such as plagiarism must be prevented. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A3-S12-045",
+      "kr": "연구자는 사회적 책임을 인식해야 합니다. (학술 5)",
+      "en": "Researchers must recognize their social responsibility. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A3-S12-046",
+      "kr": "윤리 위원회의 승인을 받은 연구입니다. (학술 5)",
+      "en": "This research has been approved by the ethics committee. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A3-S12-047",
+      "kr": "데이터 조작이나 위조는 용납될 수 없습니다. (학술 5)",
+      "en": "Data manipulation or fabrication cannot be tolerated. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A3-S12-048",
+      "kr": "연구 참여자의 권익을 보호해야 합니다. (학술 5)",
+      "en": "The rights and interests of research participants must be protected. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A3-S12-049",
+      "kr": "학술적 정직성이 연구의 기본 원칙입니다. (학술 5)",
+      "en": "Academic honesty appears to be a fundamental principle of research. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A3-S12-050",
+      "kr": "윤리적 딜레마에 대한 신중한 고려가 필요합니다. (학술 5)",
+      "en": "Careful consideration of ethical dilemmas appears to be necessary. (academic variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L5_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.786Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "backups\\level_5_academic_mastery\\banks\\Lv5-A3-S12_bank.json"
+    ]
+  }
+}

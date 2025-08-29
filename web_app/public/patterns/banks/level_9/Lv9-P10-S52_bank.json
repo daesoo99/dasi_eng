@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P10-S52",
-  "title": "비즈니스/경제 용어",
-  "description": "due diligence, ROI (return on investment) 등 약어 포함 표현 연습. 비즈니스 맥락에서 전문 용어를 자연스럽게 사용하는 최고급 표현력 마스터.",
-  "grammar_pattern": "BUSINESS-TERMINOLOGY",
+  "title": "Stage Lv9-P10-S52",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "We need to conduct proper due diligence before the acquisition.",
-    "The ROI on this project exceeds our expectations.",
-    "Our KPIs indicate strong performance across all sectors."
+    "The ROI on this project exceeds our expectations."
   ],
-  "learning_points": "비즈니스 및 경제 전문 용어를 사용한 최고급 전문성 구현",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 10,
   "stage_number": 52,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv9-P10-S52-001",
       "kr": "인수 전에 적절한 실사를 수행해야 합니다.",
       "en": "We need to conduct proper due diligence before the acquisition.",
-      "pattern": "BUSINESS-TERMINOLOGY",
       "form": "aff"
     },
     {
       "id": "Lv9-P10-S52-002",
       "kr": "이 프로젝트의 투자수익률이 예상을 초과합니다.",
       "en": "The ROI on this project exceeds our expectations.",
-      "pattern": "BUSINESS-TERMINOLOGY",
       "form": "aff"
     },
     {
       "id": "Lv9-P10-S52-003",
       "kr": "우리의 핵심성과지표는 모든 부문에서 강한 성과를 나타냅니다.",
       "en": "Our KPIs indicate strong performance across all sectors.",
-      "pattern": "BUSINESS-TERMINOLOGY",
       "form": "aff"
     },
     {
       "id": "Lv9-P10-S52-004",
       "kr": "EBITDA 마진이 지속적으로 개선되고 있습니다.",
       "en": "EBITDA margins are consistently improving.",
-      "pattern": "BUSINESS-TERMINOLOGY",
       "form": "aff"
     },
     {
       "id": "Lv9-P10-S52-005",
       "kr": "신디케이트 대출을 통해 자금을 조달할 예정입니다.",
       "en": "We plan to raise funds through syndicated loans.",
-      "pattern": "BUSINESS-TERMINOLOGY",
       "form": "aff"
     },
     {
       "id": "Lv9-P10-S52-006",
       "kr": "베이시스 포인트 분석에 따른 전략 수정이 필요합니다.",
       "en": "Strategic adjustments based on basis point analysis are needed.",
-      "pattern": "BUSINESS-TERMINOLOGY",
       "form": "aff"
     },
     {
       "id": "Lv9-P10-S52-007",
       "kr": "B2B 영업 모델이 B2C보다 안정적인 수익을 제공합니다.",
       "en": "The B2B sales model provides more stable revenue than B2C.",
-      "pattern": "BUSINESS-TERMINOLOGY",
       "form": "aff"
     },
     {
       "id": "Lv9-P10-S52-008",
       "kr": "유니콘 기업의 시가총액이 100억 달러를 넘어섰습니다.",
       "en": "The unicorn company's market capitalization has exceeded $10 billion.",
-      "pattern": "BUSINESS-TERMINOLOGY",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.592Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P10-S52_bank.json"
+    ]
+  }
 }

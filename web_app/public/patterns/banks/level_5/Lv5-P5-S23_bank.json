@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv5-P5-S23",
-  "title": "예시 및 근거 제시",
-  "description": "예시 및 근거 제시을 연습합니다. EVIDENCE-EXAMPLES 패턴을 활용하여 고급 영어 표현을 익힙니다.",
-  "grammar_pattern": "EVIDENCE-EXAMPLES",
+  "title": "Stage Lv5-P5-S23",
+  "description": "Level 5 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "This is evident in recent research.",
-    "For this reason, a new approach is needed.",
-    "Take Google for example."
+    "For this reason, a new approach is needed."
   ],
-  "learning_points": "argumentation 관련 고급 표현과 실용적 활용",
+  "learning_points": "Level 5 target grammar and expressions with practical usage examples",
   "phase": 5,
   "stage_number": 23,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv5-P5-S23-001",
       "kr": "이것은 최근 연구에서 분명히 드러납니다.",
       "en": "This is evident in recent research.",
-      "pattern": "EVIDENCE-EXAMPLES",
       "form": "aff"
     },
     {
       "id": "Lv5-P5-S23-002",
       "kr": "이러한 이유로 새로운 접근법이 필요합니다.",
       "en": "For this reason, a new approach is needed.",
-      "pattern": "EVIDENCE-EXAMPLES",
       "form": "aff"
     },
     {
       "id": "Lv5-P5-S23-003",
       "kr": "구글을 예로 들어보겠습니다.",
       "en": "Take Google for example.",
-      "pattern": "EVIDENCE-EXAMPLES",
       "form": "aff"
     },
     {
       "id": "Lv5-P5-S23-004",
       "kr": "데이터가 이를 뒷받침합니다.",
       "en": "The data supports this.",
-      "pattern": "EVIDENCE-EXAMPLES",
       "form": "aff"
     },
     {
       "id": "Lv5-P5-S23-005",
       "kr": "증거가 이를 보여줍니다.",
       "en": "Evidence demonstrates this.",
-      "pattern": "EVIDENCE-EXAMPLES",
       "form": "aff"
     },
     {
       "id": "Lv5-P5-S23-006",
       "kr": "연구 결과가 이를 확인합니다.",
       "en": "Research findings confirm this.",
-      "pattern": "EVIDENCE-EXAMPLES",
       "form": "aff"
     },
     {
       "id": "Lv5-P5-S23-007",
       "kr": "사례 연구를 보면 명확합니다.",
       "en": "Case studies make it clear.",
-      "pattern": "EVIDENCE-EXAMPLES",
       "form": "aff"
     },
     {
       "id": "Lv5-P5-S23-008",
       "kr": "통계가 이 추세를 나타냅니다.",
       "en": "Statistics indicate this trend.",
-      "pattern": "EVIDENCE-EXAMPLES",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L5_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.445Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_5\\Lv5-P5-S23_bank.json"
+    ]
+  }
 }

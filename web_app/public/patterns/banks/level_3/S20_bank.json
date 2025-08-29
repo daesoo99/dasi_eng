@@ -1,0 +1,152 @@
+{
+  "stage_id": "S20",
+  "title": "Stage S20",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "First, we will plan the project. Then, we will execute it.",
+    "Finally, we will review the results and make improvements."
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 20,
+  "count": 20,
+  "sentences": [
+    {
+      "id": "S20-1",
+      "kr": "먼저 프로젝트를 계획할 거예요. 그다음에 실행할 거예요.",
+      "en": "First, we will plan the project. Then, we will execute it.",
+      "form": "aff"
+    },
+    {
+      "id": "S20-2",
+      "kr": "마지막으로 결과를 검토하고 개선할 거예요.",
+      "en": "Finally, we will review the results and make improvements.",
+      "form": "aff"
+    },
+    {
+      "id": "S20-3",
+      "kr": "우리가 늦었어요. 따라서 영화 시작 부분을 놓쳤어요.",
+      "en": "We were late. Therefore, we missed the beginning of the movie.",
+      "form": "aff"
+    },
+    {
+      "id": "S20-4",
+      "kr": "결론적으로, 이 프로젝트는 매우 성공적이었어요.",
+      "en": "In conclusion, this project has been very successful.",
+      "form": "aff"
+    },
+    {
+      "id": "S20-5",
+      "kr": "비가 많이 왔어요. 그 결과 경기가 취소되었어요.",
+      "en": "It rained heavily. As a result, the match was canceled.",
+      "form": "aff"
+    },
+    {
+      "id": "S20-6",
+      "kr": "우선, 기본 개념을 설명하겠어요.",
+      "en": "To begin with, let me explain the basic concept.",
+      "form": "aff"
+    },
+    {
+      "id": "S20-7",
+      "kr": "다음으로, 예산을 고려해야 해요.",
+      "en": "Next, we need to consider the budget.",
+      "form": "aff"
+    },
+    {
+      "id": "S20-8",
+      "kr": "요약하자면, 더 많은 시간과 자원이 필요해요.",
+      "en": "In summary, we need more time and resources.",
+      "form": "aff"
+    },
+    {
+      "id": "S20-9",
+      "kr": "그 결과, 회의를 연기하기로 결정했어요.",
+      "en": "Consequently, we decided to postpone the meeting.",
+      "form": "aff"
+    },
+    {
+      "id": "S20-10",
+      "kr": "요약하면, 훌륭한 발표였어요.",
+      "en": "To sum up, it was an excellent presentation.",
+      "form": "aff"
+    },
+    {
+      "id": "S20-1",
+      "kr": "먼저 프로젝트를 계획할 거예요. 그다음에 실행할 거예요.",
+      "en": "First, we will plan the project. Then, we will execute it.",
+      "form": "aff"
+    },
+    {
+      "id": "S20-2",
+      "kr": "마지막으로 결과를 검토하고 개선할 거예요.",
+      "en": "Finally, we will review the results and make improvements.",
+      "form": "aff"
+    },
+    {
+      "id": "S20-3",
+      "kr": "우리가 늦었어요. 따라서 영화 시작 부분을 놓쳤어요.",
+      "en": "We were late. Therefore, we missed the beginning of the movie.",
+      "form": "aff"
+    },
+    {
+      "id": "S20-4",
+      "kr": "결론적으로, 이 프로젝트는 매우 성공적이었어요.",
+      "en": "In conclusion, this project has been very successful.",
+      "form": "aff"
+    },
+    {
+      "id": "S20-5",
+      "kr": "비가 많이 왔어요. 그 결과 경기가 취소되었어요.",
+      "en": "It rained heavily. As a result, the match was canceled.",
+      "form": "aff"
+    },
+    {
+      "id": "S20-6",
+      "kr": "우선, 기본 개념을 설명하겠어요.",
+      "en": "To begin with, let me explain the basic concept.",
+      "form": "aff"
+    },
+    {
+      "id": "S20-7",
+      "kr": "다음으로, 예산을 고려해야 해요.",
+      "en": "Next, we need to consider the budget.",
+      "form": "aff"
+    },
+    {
+      "id": "S20-8",
+      "kr": "요약하자면, 더 많은 시간과 자원이 필요해요.",
+      "en": "In summary, we need more time and resources.",
+      "form": "aff"
+    },
+    {
+      "id": "S20-9",
+      "kr": "그 결과, 회의를 연기하기로 결정했어요.",
+      "en": "Consequently, we decided to postpone the meeting.",
+      "form": "aff"
+    },
+    {
+      "id": "S20-10",
+      "kr": "요약하면, 훌륭한 발표였어요.",
+      "en": "To sum up, it was an excellent presentation.",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 20,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L1_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.725Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW.json",
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW_migrated.json"
+    ]
+  }
+}

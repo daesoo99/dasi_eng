@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv10-S17",
-  "title": "구어체 양보 표현 - 인정하는 양보",
-  "description": "상대방의 입장을 인정하면서 하는 자연스러운 양보 표현을 원어민 수준으로 구사합니다.",
-  "grammar_pattern": "COLLOQUIAL-CONCESSIVE-ACKNOWLEDGMENT",
+  "title": "Stage Lv10-S17",
+  "description": "Level 10 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "You're right, but please understand my position too.",
-    "Sure, that could be the case, but there are other possibilities too.",
-    "I'll give you that, it's a good point. But I still have doubts."
+    "Sure, that could be the case, but there are other possibilities too."
   ],
-  "learning_points": "원어민 수준의 자연스러운 인정하는 양보 표현 구사",
-  "phase": 2,
+  "learning_points": "Level 10 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 17,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv10-S17-001",
       "kr": "네 말이 맞긴 하지만, 내 입장도 이해해 줘.",
       "en": "You're right, but please understand my position too.",
-      "pattern": "COLLOQUIAL-CONCESSIVE-ACKNOWLEDGMENT",
       "form": "aff"
     },
     {
       "id": "Lv10-S17-002",
       "kr": "물론 그럴 수도 있지만, 다른 가능성도 있어.",
       "en": "Sure, that could be the case, but there are other possibilities too.",
-      "pattern": "COLLOQUIAL-CONCESSIVE-ACKNOWLEDGMENT",
       "form": "aff"
     },
     {
       "id": "Lv10-S17-003",
       "kr": "인정해, 좋은 지적이야. 하지만 여전히 의문이 남아.",
       "en": "I'll give you that, it's a good point. But I still have doubts.",
-      "pattern": "COLLOQUIAL-CONCESSIVE-ACKNOWLEDGMENT",
       "form": "aff"
     },
     {
       "id": "Lv10-S17-004",
       "kr": "그래, 틀렸어. 하지만 그렇게 생각할 만했어.",
       "en": "Yeah, I was wrong. But it was reasonable to think that way.",
-      "pattern": "COLLOQUIAL-CONCESSIVE-ACKNOWLEDGMENT",
       "form": "aff"
     },
     {
       "id": "Lv10-S17-005",
       "kr": "맞아, 내가 놓친 부분이 있어. 그래도 전체적으론...",
       "en": "You're right, I missed something there. Still, overall...",
-      "pattern": "COLLOQUIAL-CONCESSIVE-ACKNOWLEDGMENT",
       "form": "aff"
     },
     {
       "id": "Lv10-S17-006",
       "kr": "좋은 의견이야. 다만, 현실적인 문제가 있어.",
       "en": "That's a good suggestion. It's just that there are practical issues.",
-      "pattern": "COLLOQUIAL-CONCESSIVE-ACKNOWLEDGMENT",
       "form": "aff"
     },
     {
       "id": "Lv10-S17-007",
       "kr": "동의해, 이상적으로는 그래야 해. 하지만 현실은...",
       "en": "I agree, ideally that's how it should be. But in reality...",
-      "pattern": "COLLOQUIAL-CONCESSIVE-ACKNOWLEDGMENT",
       "form": "aff"
     },
     {
       "id": "Lv10-S17-008",
       "kr": "네 관점에서 보면 그럴 수 있어. 내 경우는 좀 달라.",
       "en": "From your perspective, I can see that. In my case, it's a bit different.",
-      "pattern": "COLLOQUIAL-CONCESSIVE-ACKNOWLEDGMENT",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L10_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.387Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_10\\Lv10-S17_bank.json"
+    ]
+  }
 }

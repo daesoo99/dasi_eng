@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useMemo, memo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAppStore, useUser, useStudy, useUI, useLearningMode, useSpeakingStage } from '@/store/useAppStore';
 import { SpeechRecorder } from '@/components/SpeechRecorder';
@@ -15,7 +15,7 @@ import { useAuthService } from '@/services/authService';
 import type { DrillCard, FeedbackResponse } from '@/types';
 import type { WritingFeedback } from '@/services/writingMode';
 
-export const StudyPage: React.FC = () => {
+export const StudyPage: React.FC = memo(() => {
   const navigate = useNavigate();
   const user = useUser();
   const study = useStudy();
@@ -46,6 +46,13 @@ export const StudyPage: React.FC = () => {
   const [isTrainingPaused, setIsTrainingPaused] = useState(false);
 
   const { handleStudyComplete, isAuthenticated } = useAuthService();
+  
+  // Memoize expensive calculations
+  const sessionConfig = useMemo(() => ({
+    level: user.level,
+    stage: user.stage,
+    mode: learningMode.mode
+  }), [user.level, user.stage, learningMode.mode]);
   
   const speech = useSpeech({
     apiBaseUrl: import.meta.env.VITE_API_BASE_URL,
@@ -832,4 +839,4 @@ export const StudyPage: React.FC = () => {
       </div>
     </div>
   );
-};
+});

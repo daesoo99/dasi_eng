@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv6-P1-S01",
+  "title": "과거완료 심화",
+  "description": "Level 3~4에서 배운 과거완료 (had p.p.)를 고난도 맥락에서 다시 연습합니다. 여러 사건을 시간 순서와 반대로 말해 보는 훈련으로 과거완료 활용 능력을 끌어올립니다.",
+  "grammar_pattern": "PAST-PERFECT-ADVANCED",
+  "examples": [
+    "I had already finished the report when my boss called me to the meeting.",
+    "She had studied abroad before she started working at the company.",
+    "The team had completed the analysis before the deadline was announced."
+  ],
+  "learning_points": "고급 과거완료 시제 활용과 복잡한 시간 관계 표현",
+  "phase": 1,
+  "stage_number": 1,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv6-P1-S01-001",
+      "kr": "상사가 나를 회의에 부르셨을 때 나는 이미 보고서를 끝마쳐 놓았다.",
+      "en": "I had already finished the report when my boss called me to the meeting.",
+      "pattern": "PAST-PERFECT-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P1-S01-002",
+      "kr": "그녀는 회사에서 일하기 시작하기 전에 해외에서 공부했었다.",
+      "en": "She had studied abroad before she started working at the company.",
+      "pattern": "PAST-PERFECT-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P1-S01-003",
+      "kr": "팀은 마감일이 공지되기 전에 이미 분석을 완료해 놓았다.",
+      "en": "The team had completed the analysis before the deadline was announced.",
+      "pattern": "PAST-PERFECT-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P1-S01-004",
+      "kr": "비가 오기 시작했을 때 우리는 이미 집에 도착해 있었다.",
+      "en": "We had already arrived home when it started raining.",
+      "pattern": "PAST-PERFECT-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P1-S01-005",
+      "kr": "그는 대학에 입학하기 전에 이미 여러 회사에서 인턴십을 경험했었다.",
+      "en": "He had experienced internships at several companies before entering university.",
+      "pattern": "PAST-PERFECT-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P1-S01-006",
+      "kr": "회의가 시작되었을 때 모든 참석자들이 아직 도착하지 않았었다.",
+      "en": "Not all participants had arrived when the meeting started.",
+      "pattern": "PAST-PERFECT-ADVANCED",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-P1-S01-007",
+      "kr": "프로젝트 매니저는 팀원들에게 할당하기 전에 이미 모든 작업을 계획해 놓았다.",
+      "en": "The project manager had planned all the tasks before assigning them to team members.",
+      "pattern": "PAST-PERFECT-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P1-S01-008",
+      "kr": "시장 조사 결과가 나왔을 때 우리는 이미 제품 개발을 마쳤었다.",
+      "en": "We had already finished product development when the market research results came out.",
+      "pattern": "PAST-PERFECT-ADVANCED",
+      "form": "aff"
+    }
+  ]
+}

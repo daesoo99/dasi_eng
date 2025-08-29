@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv6-P7-S45",
-  "title": "문장 리듬 조절",
-  "description": "짧은 문장과 긴 문장을 섞어 담화의 리듬과 청자 집중도를 조절합니다. SENTENCE-RHYTHM-CONTROL 패턴을 연습합니다.",
-  "grammar_pattern": "SENTENCE-RHYTHM-CONTROL",
+  "title": "Stage Lv6-P7-S45",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Results are in. They exceed our expectations by 20%, marking a significant milestone in our company's growth trajectory.",
-    "The market changed. Consumer preferences shifted toward sustainability, creating new opportunities for innovative companies.",
-    "Innovation matters. It drives competitive advantage and ensures long-term viability in an ever-evolving business landscape."
+    "The market changed. Consumer preferences shifted toward sustainability, creating new opportunities for innovative companies."
   ],
-  "learning_points": "문장 길이 변화를 통한 담화 리듬 조절과 효과적인 정보 전달",
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
   "phase": 7,
   "stage_number": 45,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv6-P7-S45-001",
       "kr": "결과가 나왔습니다. 기대치를 20% 초과하여 회사 성장 궤도에서 중요한 이정표를 세웠습니다.",
       "en": "Results are in. They exceed our expectations by 20%, marking a significant milestone in our company's growth trajectory.",
-      "pattern": "SENTENCE-RHYTHM-CONTROL",
       "form": "aff"
     },
     {
       "id": "Lv6-P7-S45-002",
       "kr": "시장이 변했습니다. 소비자 선호도가 지속가능성 쪽으로 이동하여 혁신적인 기업들에게 새로운 기회를 만들었습니다.",
       "en": "The market changed. Consumer preferences shifted toward sustainability, creating new opportunities for innovative companies.",
-      "pattern": "SENTENCE-RHYTHM-CONTROL",
       "form": "aff"
     },
     {
       "id": "Lv6-P7-S45-003",
       "kr": "혁신이 중요합니다. 경쟁 우위를 주도하고 끊임없이 변화하는 비즈니스 환경에서 장기적 생존을 보장합니다.",
       "en": "Innovation matters. It drives competitive advantage and ensures long-term viability in an ever-evolving business landscape.",
-      "pattern": "SENTENCE-RHYTHM-CONTROL",
       "form": "aff"
     },
     {
       "id": "Lv6-P7-S45-004",
       "kr": "전략을 바꿔야 합니다. 현재 접근 방식은 시장 요구사항에 부응하지 못하고 있어 즉각적인 조정이 필요합니다.",
       "en": "We need to change strategy. Our current approach isn't meeting market demands and requires immediate adjustment.",
-      "pattern": "SENTENCE-RHYTHM-CONTROL",
       "form": "aff"
     },
     {
       "id": "Lv6-P7-S45-005",
       "kr": "기회가 왔습니다. 새로운 기술 트렌드가 우리가 원하던 돌파구를 제공하여 성장 잠재력을 실현할 수 있게 해줍니다.",
       "en": "The opportunity has arrived. New technology trends provide the breakthrough we've been waiting for, enabling us to realize our growth potential.",
-      "pattern": "SENTENCE-RHYTHM-CONTROL",
       "form": "aff"
     },
     {
       "id": "Lv6-P7-S45-006",
       "kr": "결정을 내려야 합니다. 경쟁 압력이 증가하고 있어서 더 이상의 지연은 시장 위치를 위험에 빠뜨릴 수 있습니다.",
       "en": "A decision must be made. Competitive pressures are mounting, and further delays could jeopardize our market position.",
-      "pattern": "SENTENCE-RHYTHM-CONTROL",
       "form": "aff"
     },
     {
       "id": "Lv6-P7-S45-007",
       "kr": "팀워크가 핵심입니다. 효과적인 협력이 프로젝트 성공을 보장하고 조직 전체의 성과를 향상시키는 원동력입니다.",
       "en": "Teamwork is essential. Effective collaboration ensures project success and serves as the driving force behind improved organizational performance.",
-      "pattern": "SENTENCE-RHYTHM-CONTROL",
       "form": "aff"
     },
     {
       "id": "Lv6-P7-S45-008",
       "kr": "변화가 필요합니다. 현재 프로세스는 효율성이 떨어져서 운영 비용을 증가시키고 고객 만족도를 저하시키고 있습니다.",
       "en": "Change is needed. Current processes are inefficient, increasing operational costs and diminishing customer satisfaction levels.",
-      "pattern": "SENTENCE-RHYTHM-CONTROL",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.495Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_6\\Lv6-P7-S45_bank.json"
+    ]
+  }
 }

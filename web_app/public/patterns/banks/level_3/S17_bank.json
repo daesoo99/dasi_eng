@@ -1,0 +1,152 @@
+{
+  "stage_id": "S17",
+  "title": "Stage S17",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "Maybe it will rain tomorrow.",
+    "It will probably be sunny this weekend."
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 17,
+  "count": 20,
+  "sentences": [
+    {
+      "id": "S17-1",
+      "kr": "내일 비가 올지도 모르겠어요. (약한 추측)",
+      "en": "Maybe it will rain tomorrow.",
+      "form": "aff"
+    },
+    {
+      "id": "S17-2",
+      "kr": "이번 주말은 아마 맑을 거예요. (높은 확률)",
+      "en": "It will probably be sunny this weekend.",
+      "form": "aff"
+    },
+    {
+      "id": "S17-3",
+      "kr": "시험을 잘 볼 거라고 확신해요. (확신)",
+      "en": "I'm sure you'll do well on the exam.",
+      "form": "aff"
+    },
+    {
+      "id": "S17-4",
+      "kr": "그녀가 회의를 잊었나 봐요. (추측)",
+      "en": "I guess she forgot about the meeting.",
+      "form": "aff"
+    },
+    {
+      "id": "S17-5",
+      "kr": "그는 확실히 파티에 올 거예요. (확실함)",
+      "en": "He will definitely come to the party.",
+      "form": "aff"
+    },
+    {
+      "id": "S17-6",
+      "kr": "아마도 우리가 더 일찍 떠나야 할 것 같아요.",
+      "en": "Perhaps we should leave earlier.",
+      "form": "aff"
+    },
+    {
+      "id": "S17-7",
+      "kr": "그가 제시간에 끝낼지 의심스러워요. (부정적 추측)",
+      "en": "I doubt that he will finish on time.",
+      "form": "aff"
+    },
+    {
+      "id": "S17-8",
+      "kr": "그것이 잘될 가능성이 높아요.",
+      "en": "There's a good chance that it will work.",
+      "form": "aff"
+    },
+    {
+      "id": "S17-9",
+      "kr": "그녀가 성공할 거라는 확신이 있어요.",
+      "en": "I have no doubt that she will succeed.",
+      "form": "aff"
+    },
+    {
+      "id": "S17-10",
+      "kr": "그들이 마음을 바꿀 가능성이 있어요.",
+      "en": "It's possible that they might change their mind.",
+      "form": "aff"
+    },
+    {
+      "id": "S17-1",
+      "kr": "내일 비가 올지도 모르겠어요. (약한 추측)",
+      "en": "Maybe it will rain tomorrow.",
+      "form": "aff"
+    },
+    {
+      "id": "S17-2",
+      "kr": "이번 주말은 아마 맑을 거예요. (높은 확률)",
+      "en": "It will probably be sunny this weekend.",
+      "form": "aff"
+    },
+    {
+      "id": "S17-3",
+      "kr": "시험을 잘 볼 거라고 확신해요. (확신)",
+      "en": "I'm sure you'll do well on the exam.",
+      "form": "aff"
+    },
+    {
+      "id": "S17-4",
+      "kr": "그녀가 회의를 잊었나 봐요. (추측)",
+      "en": "I guess she forgot about the meeting.",
+      "form": "aff"
+    },
+    {
+      "id": "S17-5",
+      "kr": "그는 확실히 파티에 올 거예요. (확실함)",
+      "en": "He will definitely come to the party.",
+      "form": "aff"
+    },
+    {
+      "id": "S17-6",
+      "kr": "아마도 우리가 더 일찍 떠나야 할 것 같아요.",
+      "en": "Perhaps we should leave earlier.",
+      "form": "aff"
+    },
+    {
+      "id": "S17-7",
+      "kr": "그가 제시간에 끝낼지 의심스러워요. (부정적 추측)",
+      "en": "I doubt that he will finish on time.",
+      "form": "aff"
+    },
+    {
+      "id": "S17-8",
+      "kr": "그것이 잘될 가능성이 높아요.",
+      "en": "There's a good chance that it will work.",
+      "form": "aff"
+    },
+    {
+      "id": "S17-9",
+      "kr": "그녀가 성공할 거라는 확신이 있어요.",
+      "en": "I have no doubt that she will succeed.",
+      "form": "aff"
+    },
+    {
+      "id": "S17-10",
+      "kr": "그들이 마음을 바꿀 가능성이 있어요.",
+      "en": "It's possible that they might change their mind.",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 20,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L1_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.719Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW.json",
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW_migrated.json"
+    ]
+  }
+}

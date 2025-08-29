@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv5-P2-S08",
-  "title": "명사절 주어화",
-  "description": "명사절 주어화을 연습합니다. NOUN-CLAUSE-SUBJECT 패턴을 활용하여 고급 영어 표현을 익힙니다.",
-  "grammar_pattern": "NOUN-CLAUSE-SUBJECT",
+  "title": "Stage Lv5-P2-S08",
+  "description": "Level 5 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "That she failed the exam was surprising to everyone.",
-    "That the company is expanding is good news.",
-    "That he resigned has been confirmed."
+    "That the company is expanding is good news."
   ],
-  "learning_points": "noun-clause 관련 고급 표현과 실용적 활용",
+  "learning_points": "Level 5 target grammar and expressions with practical usage examples",
   "phase": 2,
   "stage_number": 8,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv5-P2-S08-001",
       "kr": "그녀가 시험에 떨어졌다는 것은 모두에게 놀라운 일이었다.",
       "en": "That she failed the exam was surprising to everyone.",
-      "pattern": "NOUN-CLAUSE-SUBJECT",
       "form": "aff"
     },
     {
       "id": "Lv5-P2-S08-002",
       "kr": "회사가 확장한다는 것은 좋은 소식입니다.",
       "en": "That the company is expanding is good news.",
-      "pattern": "NOUN-CLAUSE-SUBJECT",
       "form": "aff"
     },
     {
       "id": "Lv5-P2-S08-003",
       "kr": "그가 사임했다는 것이 확인되었습니다.",
       "en": "That he resigned has been confirmed.",
-      "pattern": "NOUN-CLAUSE-SUBJECT",
       "form": "aff"
     },
     {
       "id": "Lv5-P2-S08-004",
       "kr": "프로젝트가 성공했다는 것은 팀 노력의 결과입니다.",
       "en": "That the project succeeded is the result of team effort.",
-      "pattern": "NOUN-CLAUSE-SUBJECT",
       "form": "aff"
     },
     {
       "id": "Lv5-P2-S08-005",
       "kr": "그들이 결혼한다는 것이 발표되었습니다.",
       "en": "That they are getting married has been announced.",
-      "pattern": "NOUN-CLAUSE-SUBJECT",
       "form": "aff"
     },
     {
       "id": "Lv5-P2-S08-006",
       "kr": "회의가 연기되었다는 것은 예상치 못한 일이었습니다.",
       "en": "That the meeting was postponed was unexpected.",
-      "pattern": "NOUN-CLAUSE-SUBJECT",
       "form": "aff"
     },
     {
       "id": "Lv5-P2-S08-007",
       "kr": "시스템이 해킹되었다는 것이 보고되었습니다.",
       "en": "That the system was hacked has been reported.",
-      "pattern": "NOUN-CLAUSE-SUBJECT",
       "form": "aff"
     },
     {
       "id": "Lv5-P2-S08-008",
       "kr": "그녀가 승진했다는 것은 당연한 결과였습니다.",
       "en": "That she was promoted was a natural outcome.",
-      "pattern": "NOUN-CLAUSE-SUBJECT",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L5_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.427Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_5\\Lv5-P2-S08_bank.json"
+    ]
+  }
 }

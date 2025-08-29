@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback, useMemo, memo } from 'react';
 import { io, Socket } from 'socket.io-client';
 import { useVoiceGuidance } from '../hooks/useVoiceGuidance';
 
@@ -15,7 +15,7 @@ interface ProgressIndicatorProps {
   onError?: (error: any) => void;
 }
 
-export const ProgressIndicator: React.FC<ProgressIndicatorProps> = ({
+export const ProgressIndicator: React.FC<ProgressIndicatorProps> = memo(({
   operation,
   onComplete,
   onError
@@ -25,6 +25,37 @@ export const ProgressIndicator: React.FC<ProgressIndicatorProps> = ({
   const [isRunning, setIsRunning] = useState(false);
   const [logs, setLogs] = useState<string[]>([]);
   const { speak } = useVoiceGuidance();
+
+  // Memoize step messages to prevent recreation on every render
+  const stepMessages = useMemo(() => ({
+    'STARTING': 'Starting operation',
+    'VALIDATION': 'Validating files',
+    'BACKUP': 'Creating backup',
+    'MIGRATION': 'Migrating files',
+    'FINALIZATION': 'Finalizing',
+    'STT_START': 'Starting speech recognition',
+    'STT_DONE': 'Speech recognition complete',
+    'LLM_START': 'Processing with AI',
+    'LLM_DONE': 'AI processing complete',
+    'TTS_START': 'Generating speech',
+    'TTS_DONE': 'Speech generation complete'
+  }), []);
+
+  // Memoize step weights to prevent recreation on every render
+  const stepWeights = useMemo(() => ({
+    'STARTING': 5,
+    'VALIDATION': 20,
+    'BACKUP': 30,
+    'MIGRATION': 70,
+    'FINALIZATION': 90,
+    'COMPLETED': 100,
+    'STT_START': 10,
+    'STT_DONE': 30,
+    'LLM_START': 50,
+    'LLM_DONE': 80,
+    'TTS_START': 90,
+    'TTS_DONE': 100
+  }), []);
 
   useEffect(() => {
     const socketConnection = io('http://localhost:8081');
@@ -36,20 +67,6 @@ export const ProgressIndicator: React.FC<ProgressIndicatorProps> = ({
       setLogs(prev => [...prev, `[${new Date().toLocaleTimeString()}] ${msg.step}: ${msg.message || ''}`]);
       
       // Voice guidance for progress updates
-      const stepMessages: { [key: string]: string } = {
-        'STARTING': 'Starting operation',
-        'VALIDATION': 'Validating files',
-        'BACKUP': 'Creating backup',
-        'MIGRATION': 'Migrating files',
-        'FINALIZATION': 'Finalizing',
-        'STT_START': 'Starting speech recognition',
-        'STT_DONE': 'Speech recognition complete',
-        'LLM_START': 'Processing with AI',
-        'LLM_DONE': 'AI processing complete',
-        'TTS_START': 'Generating speech',
-        'TTS_DONE': 'Speech generation complete'
-      };
-      
       if (stepMessages[msg.step]) {
         speak(stepMessages[msg.step], 'system');
       }
@@ -76,9 +93,9 @@ export const ProgressIndicator: React.FC<ProgressIndicatorProps> = ({
     return () => {
       socketConnection.disconnect();
     };
-  }, [onComplete, onError]);
+  }, [onComplete, onError, operation, stepMessages, speak]);
 
-  const startOperation = (payload?: any) => {
+  const startOperation = useCallback((payload?: any) => {
     if (!socket || isRunning) return;
     
     console.log('[OPERATION START]', { operation, payload, isRunning, socketConnected: !!socket });
@@ -98,36 +115,21 @@ export const ProgressIndicator: React.FC<ProgressIndicatorProps> = ({
         socket.emit('pipeline', payload);
         break;
     }
-  };
+  }, [socket, isRunning, operation, speak]);
 
-  const getProgressPercentage = () => {
+  const getProgressPercentage = useCallback(() => {
     if (!status) return 0;
     if (status.progress) return status.progress;
     
-    const stepWeights: { [key: string]: number } = {
-      'STARTING': 5,
-      'VALIDATION': 20,
-      'BACKUP': 30,
-      'MIGRATION': 70,
-      'FINALIZATION': 90,
-      'COMPLETED': 100,
-      'STT_START': 10,
-      'STT_DONE': 30,
-      'LLM_START': 50,
-      'LLM_DONE': 80,
-      'TTS_START': 90,
-      'TTS_DONE': 100
-    };
-    
     return stepWeights[status.step] || 0;
-  };
+  }, [status, stepWeights]);
 
-  const getStepColor = () => {
+  const getStepColor = useCallback(() => {
     if (!status) return 'bg-gray-200';
     if (status.step === 'ERROR') return 'bg-red-500';
     if (status.step === 'COMPLETED') return 'bg-green-500';
     return 'bg-blue-500';
-  };
+  }, [status]);
 
   return (
     <div className="w-full max-w-2xl mx-auto p-6 bg-white rounded-lg shadow-lg">
@@ -190,6 +192,6 @@ export const ProgressIndicator: React.FC<ProgressIndicatorProps> = ({
       )}
     </div>
   );
-};
+});
 
 export default ProgressIndicator;

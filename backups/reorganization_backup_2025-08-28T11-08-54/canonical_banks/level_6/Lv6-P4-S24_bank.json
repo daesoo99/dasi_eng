@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv6-P4-S24",
+  "title": "명사절의 that 생략",
+  "description": "명사절에서 that의 사용과 생략을 맥락에 따라 적절히 활용합니다. NOUN-CLAUSE-THAT-OMISSION 패턴을 연습합니다.",
+  "grammar_pattern": "NOUN-CLAUSE-THAT-OMISSION",
+  "examples": [
+    "I think (that) it's fine.",
+    "I believe the proposal will succeed.",
+    "It's essential that everyone participates."
+  ],
+  "learning_points": "격식도와 명확성에 따른 that 사용 결정",
+  "phase": 4,
+  "stage_number": 24,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv6-P4-S24-001",
+      "kr": "그것이 괜찮다고 생각합니다.",
+      "en": "I think that it's fine.",
+      "pattern": "NOUN-CLAUSE-THAT-OMISSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P4-S24-002",
+      "kr": "제안서가 성공할 것이라고 믿습니다.",
+      "en": "I believe the proposal will succeed.",
+      "pattern": "NOUN-CLAUSE-THAT-OMISSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P4-S24-003",
+      "kr": "모든 사람이 참여하는 것이 필수적입니다.",
+      "en": "It's essential that everyone participates.",
+      "pattern": "NOUN-CLAUSE-THAT-OMISSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P4-S24-004",
+      "kr": "우리가 성공할 것이라고 확신합니다.",
+      "en": "I'm confident we will succeed.",
+      "pattern": "NOUN-CLAUSE-THAT-OMISSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P4-S24-005",
+      "kr": "모든 직원이 교육을 받는 것이 중요합니다.",
+      "en": "It's important that all employees receive training.",
+      "pattern": "NOUN-CLAUSE-THAT-OMISSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P4-S24-006",
+      "kr": "시장이 회복될 것이라고 예상합니다.",
+      "en": "We expect the market will recover.",
+      "pattern": "NOUN-CLAUSE-THAT-OMISSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P4-S24-007",
+      "kr": "품질 관리가 철저히 이루어져야 한다는 것이 필수적입니다.",
+      "en": "It's crucial that quality control is thoroughly implemented.",
+      "pattern": "NOUN-CLAUSE-THAT-OMISSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P4-S24-008",
+      "kr": "고객 만족도가 향상될 것이라고 희망합니다.",
+      "en": "We hope customer satisfaction will improve.",
+      "pattern": "NOUN-CLAUSE-THAT-OMISSION",
+      "form": "aff"
+    }
+  ]
+}

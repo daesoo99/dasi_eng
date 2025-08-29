@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv5-P2-S09",
+  "title": "분사구문 심화",
+  "description": "분사구문 심화을 연습합니다. ADVANCED-PARTICIPLE 패턴을 활용하여 고급 영어 표현을 익힙니다.",
+  "grammar_pattern": "ADVANCED-PARTICIPLE",
+  "examples": [
+    "Having finished the project, we took a break.",
+    "Given his experience, he will succeed.",
+    "Considering the weather, the event was a success."
+  ],
+  "learning_points": "participle 관련 고급 표현과 실용적 활용",
+  "phase": 2,
+  "stage_number": 9,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv5-P2-S09-001",
+      "kr": "프로젝트를 끝냈기에 쉬었습니다.",
+      "en": "Having finished the project, we took a break.",
+      "pattern": "ADVANCED-PARTICIPLE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P2-S09-002",
+      "kr": "그의 경험을 고려하면 성공할 것입니다.",
+      "en": "Given his experience, he will succeed.",
+      "pattern": "ADVANCED-PARTICIPLE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P2-S09-003",
+      "kr": "날씨를 고려하면 행사는 성공적이었습니다.",
+      "en": "Considering the weather, the event was a success.",
+      "pattern": "ADVANCED-PARTICIPLE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P2-S09-004",
+      "kr": "모든 준비를 마쳤으므로 시작할 수 있습니다.",
+      "en": "Having completed all preparations, we can start.",
+      "pattern": "ADVANCED-PARTICIPLE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P2-S09-005",
+      "kr": "상황을 감안하면 최선을 다했습니다.",
+      "en": "Considering the circumstances, we did our best.",
+      "pattern": "ADVANCED-PARTICIPLE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P2-S09-006",
+      "kr": "충분한 자료를 확보했으므로 결정할 수 있습니다.",
+      "en": "Having gathered sufficient data, we can make a decision.",
+      "pattern": "ADVANCED-PARTICIPLE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P2-S09-007",
+      "kr": "예산을 고려하면 이 계획이 최적입니다.",
+      "en": "Given the budget, this plan is optimal.",
+      "pattern": "ADVANCED-PARTICIPLE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P2-S09-008",
+      "kr": "시간이 부족함을 고려하여 계획을 수정했습니다.",
+      "en": "Considering the lack of time, we modified the plan.",
+      "pattern": "ADVANCED-PARTICIPLE",
+      "form": "aff"
+    }
+  ]
+}

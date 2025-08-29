@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv7-P2-S12",
-  "title": "가정법 도치 심화",
-  "description": "Were/Should + S + V 형태를 질문형처럼 응용해봅니다.",
-  "grammar_pattern": "CONDITIONAL-INVERSION-ADVANCED",
+  "title": "Stage Lv7-P2-S12",
+  "description": "Level 7 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Were the situation to change, how would we adapt our strategy?",
-    "Should the project fail, what alternative plans do we have?",
-    "Were I to accept this offer, would you support my decision?"
+    "Should the project fail, what alternative plans do we have?"
   ],
-  "learning_points": "가정법 도치를 질문 형태로 응용하는 고급 표현 기법",
+  "learning_points": "Level 7 target grammar and expressions with practical usage examples",
   "phase": 2,
   "stage_number": 12,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv7-P2-S12-001",
       "kr": "만약 상황이 바뀐다면, 우리는 어떻게 전략을 조정할 것인가?",
       "en": "Were the situation to change, how would we adapt our strategy?",
-      "pattern": "CONDITIONAL-INVERSION-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv7-P2-S12-002",
       "kr": "만약 프로젝트가 실패한다면, 우리에게는 어떤 대안 계획이 있는가?",
       "en": "Should the project fail, what alternative plans do we have?",
-      "pattern": "CONDITIONAL-INVERSION-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv7-P2-S12-003",
       "kr": "만약 내가 이 제안을 받아들인다면, 당신이 내 결정을 지지해 줄 것인가?",
       "en": "Were I to accept this offer, would you support my decision?",
-      "pattern": "CONDITIONAL-INVERSION-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv7-P2-S12-004",
       "kr": "만약 경제가 더 악화된다면, 우리는 어떤 조치를 취해야 할 것인가?",
       "en": "Were the economy to worsen further, what measures should we take?",
-      "pattern": "CONDITIONAL-INVERSION-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv7-P2-S12-005",
       "kr": "만약 새로운 경쟁자가 나타난다면, 우리의 시장 점유율은 어떻게 될 것인가?",
       "en": "Should a new competitor emerge, what would happen to our market share?",
-      "pattern": "CONDITIONAL-INVERSION-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv7-P2-S12-006",
       "kr": "만약 기술이 더 발전한다면, 현재 직업들의 미래는 어떻게 될 것인가?",
       "en": "Were technology to advance further, what would be the future of current jobs?",
-      "pattern": "CONDITIONAL-INVERSION-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv7-P2-S12-007",
       "kr": "만약 투자가 성공하지 못한다면, 우리는 어떻게 손실을 만회할 것인가?",
       "en": "Should the investment not succeed, how would we recover the losses?",
-      "pattern": "CONDITIONAL-INVERSION-ADVANCED",
       "form": "neg"
     },
     {
       "id": "Lv7-P2-S12-008",
       "kr": "만약 글로벌 규제가 바뀐다면, 우리 사업 모델에는 어떤 영향이 있을 것인가?",
       "en": "Were global regulations to change, what impact would there be on our business model?",
-      "pattern": "CONDITIONAL-INVERSION-ADVANCED",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 7,
+    "neg": 1,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L7_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.512Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_7\\Lv7-P2-S12_bank.json"
+    ]
+  }
 }

@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv10-S34",
+  "title": "고급 의문 표현 - 철학적 질문",
+  "description": "깊이 있는 철학적 사고를 유도하는 원어민 수준의 의문 표현을 구사합니다.",
+  "grammar_pattern": "PHILOSOPHICAL-INQUIRY-MASTERY",
+  "examples": [
+    "Is that really what matters in the end?",
+    "Is what we're pursuing truly right?",
+    "Does all of this have any meaning?"
+  ],
+  "learning_points": "원어민 수준의 자연스러운 철학적 질문 표현 구사",
+  "phase": 4,
+  "stage_number": 34,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv10-S34-001",
+      "kr": "과연 그게 진짜 중요한 걸까?",
+      "en": "Is that really what matters in the end?",
+      "pattern": "PHILOSOPHICAL-INQUIRY-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S34-002",
+      "kr": "우리가 추구하는 게 정말 옳은 건가?",
+      "en": "Is what we're pursuing truly right?",
+      "pattern": "PHILOSOPHICAL-INQUIRY-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S34-003",
+      "kr": "이 모든 게 의미가 있을까?",
+      "en": "Does all of this have any meaning?",
+      "pattern": "PHILOSOPHICAL-INQUIRY-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S34-004",
+      "kr": "정말로 그럴 가치가 있을까?",
+      "en": "Is it really worth it?",
+      "pattern": "PHILOSOPHICAL-INQUIRY-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S34-005",
+      "kr": "우리는 올바른 길을 가고 있는 걸까?",
+      "en": "Are we on the right path?",
+      "pattern": "PHILOSOPHICAL-INQUIRY-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S34-006",
+      "kr": "이게 최선의 선택이었을까?",
+      "en": "Was this the best choice we could make?",
+      "pattern": "PHILOSOPHICAL-INQUIRY-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S34-007",
+      "kr": "과연 그런 식으로 살아가는 게 맞을까?",
+      "en": "Is it right to live that way?",
+      "pattern": "PHILOSOPHICAL-INQUIRY-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S34-008",
+      "kr": "진정한 행복이란 뭘까?",
+      "en": "What is true happiness, really?",
+      "pattern": "PHILOSOPHICAL-INQUIRY-MASTERY",
+      "form": "aff"
+    }
+  ]
+}

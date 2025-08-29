@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv9-P9-S48",
+  "title": "예술적 표현",
+  "description": "언어를 예술적 매체로 활용하여 아름다움과 감동을 창조하는 최고 수준의 미적 담화 기법. 시적 언어와 문학적 기교의 활용.",
+  "grammar_pattern": "ARTISTIC-EXPRESSION",
+  "examples": [
+    "Words dance on the canvas of silence, painting meanings that transcend mere communication.",
+    "In the symphony of human experience, each voice adds its unique note to the eternal melody.",
+    "Ideas bloom like flowers in the garden of consciousness, each petal a thought, each fragrance an insight."
+  ],
+  "learning_points": "언어의 예술적 활용을 통한 미적 감동과 깊은 인상 창조",
+  "phase": 9,
+  "stage_number": 48,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv9-P9-S48-001",
+      "kr": "말들이 침묵의 화폭 위에서 춤추며, 단순한 소통을 초월하는 의미들을 그려냅니다.",
+      "en": "Words dance on the canvas of silence, painting meanings that transcend mere communication.",
+      "pattern": "ARTISTIC-EXPRESSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P9-S48-002",
+      "kr": "인간 경험의 교향곡에서, 각자의 목소리가 영원한 선율에 고유한 음표를 더합니다.",
+      "en": "In the symphony of human experience, each voice adds its unique note to the eternal melody.",
+      "pattern": "ARTISTIC-EXPRESSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P9-S48-003",
+      "kr": "아이디어들이 의식의 정원에서 꽃처럼 피어나며, 각 꽃잎은 생각이고 각 향기는 통찰입니다.",
+      "en": "Ideas bloom like flowers in the garden of consciousness, each petal a thought, each fragrance an insight.",
+      "pattern": "ARTISTIC-EXPRESSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P9-S48-004",
+      "kr": "시간은 모래시계가 아니라, 매 순간이 영원으로 변하는 연금술사입니다.",
+      "en": "Time is not an hourglass, but an alchemist transforming each moment into eternity.",
+      "pattern": "ARTISTIC-EXPRESSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P9-S48-005",
+      "kr": "꿈들이 현실의 벽에 그림자를 드리우며, 가능성의 윤곽을 그려냅니다.",
+      "en": "Dreams cast shadows on reality's wall, sketching the contours of possibility.",
+      "pattern": "ARTISTIC-EXPRESSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P9-S48-006",
+      "kr": "마음은 바다와 같아서, 표면의 파도 아래 깊은 진실들이 잠들어 있습니다.",
+      "en": "The heart is like an ocean, with deep truths sleeping beneath the surface waves.",
+      "pattern": "ARTISTIC-EXPRESSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P9-S48-007",
+      "kr": "희망은 어둠 속에서 자라는 별빛처럼, 보이지 않을 때 가장 밝게 빛납니다.",
+      "en": "Hope shines brightest when invisible, like starlight growing in darkness.",
+      "pattern": "ARTISTIC-EXPRESSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P9-S48-008",
+      "kr": "지혜는 바람처럼 만질 수 없지만, 그 흔적은 영혼의 나무들을 통해 알 수 있습니다.",
+      "en": "Wisdom is untouchable like wind, yet its traces are known through the trees of the soul.",
+      "pattern": "ARTISTIC-EXPRESSION",
+      "form": "aff"
+    }
+  ]
+}

@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv6-P2-S09",
-  "title": "수동태 시제변화",
-  "description": "다양한 시제에서의 수동태를 연습합니다.",
-  "grammar_pattern": "PASSIVE-VOICE-TENSE-VARIATIONS",
+  "title": "Stage Lv6-P2-S09",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "The project is being developed by our team right now.",
-    "The report had been completed before the meeting started.",
-    "New policies will have been implemented by next quarter."
+    "The report had been completed before the meeting started."
   ],
-  "learning_points": "다양한 시제의 수동태 구조와 활용",
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
   "phase": 2,
   "stage_number": 9,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv6-P2-S09-001",
       "kr": "프로젝트가 지금 우리 팀에 의해 개발되고 있습니다.",
       "en": "The project is being developed by our team right now.",
-      "pattern": "PASSIVE-VOICE-TENSE-VARIATIONS",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S09-002",
       "kr": "회의가 시작되기 전에 보고서가 완료되어 있었습니다.",
       "en": "The report had been completed before the meeting started.",
-      "pattern": "PASSIVE-VOICE-TENSE-VARIATIONS",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S09-003",
       "kr": "다음 분기까지 새로운 정책들이 시행되어 있을 것입니다.",
       "en": "New policies will have been implemented by next quarter.",
-      "pattern": "PASSIVE-VOICE-TENSE-VARIATIONS",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S09-004",
       "kr": "데이터가 전문가들에 의해 분석되고 있었습니다.",
       "en": "The data was being analyzed by experts.",
-      "pattern": "PASSIVE-VOICE-TENSE-VARIATIONS",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S09-005",
       "kr": "새로운 시스템이 다음 달부터 사용될 것입니다.",
       "en": "The new system will be used starting next month.",
-      "pattern": "PASSIVE-VOICE-TENSE-VARIATIONS",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S09-006",
       "kr": "문제가 제때 해결되지 않았습니다.",
       "en": "The problem was not resolved in time.",
-      "pattern": "PASSIVE-VOICE-TENSE-VARIATIONS",
       "form": "neg"
     },
     {
       "id": "Lv6-P2-S09-007",
       "kr": "제품이 수년간 고객들에게 사랑받아 왔습니다.",
       "en": "The product has been loved by customers for years.",
-      "pattern": "PASSIVE-VOICE-TENSE-VARIATIONS",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S09-008",
       "kr": "계약이 양측에 의해 6개월 동안 협상되어 왔습니다.",
       "en": "The contract has been being negotiated by both parties for six months.",
-      "pattern": "PASSIVE-VOICE-TENSE-VARIATIONS",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 7,
+    "neg": 1,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.461Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_6\\Lv6-P2-S09_bank.json"
+    ]
+  }
 }

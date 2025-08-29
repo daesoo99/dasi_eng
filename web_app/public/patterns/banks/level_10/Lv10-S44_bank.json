@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv10-S44",
-  "title": "비유 표현 - 일상 비유",
-  "description": "일상 생활의 비유를 통해 복잡한 개념을 쉽게 설명하는 원어민 수준의 표현을 구사합니다.",
-  "grammar_pattern": "EVERYDAY-METAPHOR-MASTERY",
+  "title": "Stage Lv10-S44",
+  "description": "Level 10 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "This is like trying to fit an elephant through a needle's eye.",
-    "They're like oil and water - they just don't mix.",
-    "This is like closing your eyes and pretending nothing's there."
+    "They're like oil and water - they just don't mix."
   ],
-  "learning_points": "원어민 수준의 자연스러운 일상 비유 표현 구사",
-  "phase": 5,
+  "learning_points": "Level 10 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 44,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv10-S44-001",
       "kr": "이건 마치 바늘 구멍에 코끼리 넣기 같은 거야.",
       "en": "This is like trying to fit an elephant through a needle's eye.",
-      "pattern": "EVERYDAY-METAPHOR-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S44-002",
       "kr": "완전히 물과 기름 같은 관계네.",
       "en": "They're like oil and water - they just don't mix.",
-      "pattern": "EVERYDAY-METAPHOR-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S44-003",
       "kr": "이건 눈 가리고 아웅 하는 식이야.",
       "en": "This is like closing your eyes and pretending nothing's there.",
-      "pattern": "EVERYDAY-METAPHOR-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S44-004",
       "kr": "마치 사막에서 바늘 찾기 같은 일이야.",
       "en": "It's like looking for a needle in a haystack.",
-      "pattern": "EVERYDAY-METAPHOR-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S44-005",
       "kr": "이건 빙산의 일각일 뿐이야.",
       "en": "This is just the tip of the iceberg.",
-      "pattern": "EVERYDAY-METAPHOR-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S44-006",
       "kr": "마치 맹인이 코끼리 다리 만지는 격이네.",
       "en": "It's like the blind men touching different parts of an elephant.",
-      "pattern": "EVERYDAY-METAPHOR-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S44-007",
       "kr": "이건 닭이 먼저냐 달걀이 먼저냐 하는 문제야.",
       "en": "This is a chicken-and-egg situation.",
-      "pattern": "EVERYDAY-METAPHOR-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S44-008",
       "kr": "완전히 다른 세상 얘기 같아.",
       "en": "It sounds like it's from a completely different world.",
-      "pattern": "EVERYDAY-METAPHOR-MASTERY",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L10_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.417Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_10\\Lv10-S44_bank.json"
+    ]
+  }
 }

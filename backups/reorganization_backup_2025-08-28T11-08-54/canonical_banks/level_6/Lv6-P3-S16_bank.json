@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv6-P3-S16",
+  "title": "가정법 도치 고급",
+  "description": "Had I, Were I to, Should it 등 고급 가정법 도치를 공식적 맥락에서 활용합니다. CONDITIONAL-INVERSION-ADVANCED 패턴을 연습합니다.",
+  "grammar_pattern": "CONDITIONAL-INVERSION-ADVANCED",
+  "examples": [
+    "Had we not invested in R&D, we would have fallen behind.",
+    "Were I to make that decision again, I would choose differently.",
+    "Should it be necessary, we will allocate more resources."
+  ],
+  "learning_points": "격식 있는 조건문과 도치구조의 전문적 활용",
+  "phase": 3,
+  "stage_number": 16,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv6-P3-S16-001",
+      "kr": "R&D에 투자하지 않았다면 우리는 뒤처졌을 것입니다.",
+      "en": "Had we not invested in R&D, we would have fallen behind.",
+      "pattern": "CONDITIONAL-INVERSION-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P3-S16-002",
+      "kr": "그 결정을 다시 내린다면 다르게 선택하겠습니다.",
+      "en": "Were I to make that decision again, I would choose differently.",
+      "pattern": "CONDITIONAL-INVERSION-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P3-S16-003",
+      "kr": "필요하다면 더 많은 자원을 할당하겠습니다.",
+      "en": "Should it be necessary, we will allocate more resources.",
+      "pattern": "CONDITIONAL-INVERSION-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P3-S16-004",
+      "kr": "그 정보를 미리 알았더라면 다른 접근 방식을 택했을 것입니다.",
+      "en": "Had I known that information earlier, I would have taken a different approach.",
+      "pattern": "CONDITIONAL-INVERSION-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P3-S16-005",
+      "kr": "시장 상황이 악화된다면 즉시 대응 계획을 실행하겠습니다.",
+      "en": "Were the market conditions to deteriorate, we would implement contingency plans immediately.",
+      "pattern": "CONDITIONAL-INVERSION-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P3-S16-006",
+      "kr": "문제가 발생한다면 저희에게 즉시 연락하시기 바랍니다.",
+      "en": "Should any problems arise, please contact us immediately.",
+      "pattern": "CONDITIONAL-INVERSION-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P3-S16-007",
+      "kr": "더 많은 데이터가 있었다면 더 정확한 분석이 가능했을 것입니다.",
+      "en": "Had we had more data, more accurate analysis would have been possible.",
+      "pattern": "CONDITIONAL-INVERSION-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P3-S16-008",
+      "kr": "예산이 승인된다면 프로젝트를 다음 달에 시작할 수 있습니다.",
+      "en": "Were the budget to be approved, we could start the project next month.",
+      "pattern": "CONDITIONAL-INVERSION-ADVANCED",
+      "form": "aff"
+    }
+  ]
+}

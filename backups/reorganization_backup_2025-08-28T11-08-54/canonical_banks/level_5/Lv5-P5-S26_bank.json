@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv5-P5-S26",
+  "title": "관용적 상황별 표현",
+  "description": "관용적 상황별 표현을 연습합니다. SITUATIONAL-IDIOMS 패턴을 활용하여 고급 영어 표현을 익힙니다.",
+  "grammar_pattern": "SITUATIONAL-IDIOMS",
+  "examples": [
+    "Let me play devil's advocate.",
+    "The ball is in your court.",
+    "We can't beat around the bush anymore."
+  ],
+  "learning_points": "idioms 관련 고급 표현과 실용적 활용",
+  "phase": 5,
+  "stage_number": 26,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv5-P5-S26-001",
+      "kr": "일부러 반대 의견을 말해보겠습니다.",
+      "en": "Let me play devil's advocate.",
+      "pattern": "SITUATIONAL-IDIOMS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S26-002",
+      "kr": "결정은 당신에게 달렸습니다.",
+      "en": "The ball is in your court.",
+      "pattern": "SITUATIONAL-IDIOMS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S26-003",
+      "kr": "더 이상 미룰 수 없습니다.",
+      "en": "We can't beat around the bush anymore.",
+      "pattern": "SITUATIONAL-IDIOMS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S26-004",
+      "kr": "핵심을 말씀하세요.",
+      "en": "Cut to the chase.",
+      "pattern": "SITUATIONAL-IDIOMS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S26-005",
+      "kr": "어려운 결정을 내려야 합니다.",
+      "en": "We need to bite the bullet.",
+      "pattern": "SITUATIONAL-IDIOMS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S26-006",
+      "kr": "모든 것을 걸겠습니다.",
+      "en": "I'm going to go all out.",
+      "pattern": "SITUATIONAL-IDIOMS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S26-007",
+      "kr": "상황을 받아들여야 합니다.",
+      "en": "We have to face the music.",
+      "pattern": "SITUATIONAL-IDIOMS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S26-008",
+      "kr": "기회를 놓치지 마세요.",
+      "en": "Don't miss the boat.",
+      "pattern": "SITUATIONAL-IDIOMS",
+      "form": "aff"
+    }
+  ]
+}

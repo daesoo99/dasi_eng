@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv4-P1-S05",
+  "title": "조건절 변형 표현",
+  "description": "if 없이 조건을 나타내는 다양한 표현을 익힙니다. without, otherwise, suppose (that), in case 등으로 조건/가정을 표현해보며, 실생활 예방 상황도 말해봅니다.",
+  "grammar_pattern": "Without + 명사/동명사 / otherwise + 결과 / Suppose (that) + 가정 / in case + 조건",
+  "examples": ["Without you, I'd be lost.", "Study hard; otherwise, you might fail.", "Suppose we won the lottery, what would we do?", "Take an umbrella in case it rains."],
+  "learning_points": "다양한 조건 표현으로 if절의 대안적 구조 학습",
+  "phase": 1,
+  "stage_number": 5,
+  "count": 0,
+  "sentences": []
+}

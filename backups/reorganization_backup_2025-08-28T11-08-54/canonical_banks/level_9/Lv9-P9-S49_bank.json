@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv9-P9-S49",
+  "title": "존재론적 사유",
+  "description": "존재의 본질과 의미에 대한 깊이 있는 성찰을 언어로 구현하여 인간 존재의 근본적 질문들을 탐구하는 최고급 담화.",
+  "grammar_pattern": "ONTOLOGICAL-REFLECTION",
+  "examples": [
+    "To be is not merely to exist; it is to consciously participate in the unfolding of reality itself.",
+    "Our essence emerges not from what we possess, but from what possesses us in return.",
+    "Existence precedes essence, yet essence gives existence its meaning and direction."
+  ],
+  "learning_points": "존재의 본질에 대한 철학적 성찰과 깊이 있는 존재론적 탐구",
+  "phase": 9,
+  "stage_number": 49,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv9-P9-S49-001",
+      "kr": "존재한다는 것은 단순히 있다는 것이 아니라, 현실 자체의 전개에 의식적으로 참여하는 것입니다.",
+      "en": "To be is not merely to exist; it is to consciously participate in the unfolding of reality itself.",
+      "pattern": "ONTOLOGICAL-REFLECTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P9-S49-002",
+      "kr": "우리의 본질은 우리가 소유한 것에서가 아니라, 역으로 우리를 소유하는 것에서 나타납니다.",
+      "en": "Our essence emerges not from what we possess, but from what possesses us in return.",
+      "pattern": "ONTOLOGICAL-REFLECTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P9-S49-003",
+      "kr": "실존이 본질에 앞서지만, 본질은 실존에 의미와 방향을 부여합니다.",
+      "en": "Existence precedes essence, yet essence gives existence its meaning and direction.",
+      "pattern": "ONTOLOGICAL-REFLECTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P9-S49-004",
+      "kr": "우리는 스스로를 창조하는 동시에 창조당하는 존재입니다.",
+      "en": "We are beings who create ourselves while simultaneously being created.",
+      "pattern": "ONTOLOGICAL-REFLECTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P9-S49-005",
+      "kr": "의식은 존재를 인식하는 것이 아니라, 존재가 스스로를 드러내는 방식입니다.",
+      "en": "Consciousness is not recognizing existence, but the way existence reveals itself.",
+      "pattern": "ONTOLOGICAL-REFLECTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P9-S49-006",
+      "kr": "죽음의 가능성이야말로 삶에 진정한 의미를 부여하는 것입니다.",
+      "en": "The possibility of death is precisely what gives life its authentic meaning.",
+      "pattern": "ONTOLOGICAL-REFLECTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P9-S49-007",
+      "kr": "우리의 자유는 선택의 부담과 함께 주어지는 존재론적 조건입니다.",
+      "en": "Our freedom is an ontological condition granted alongside the burden of choice.",
+      "pattern": "ONTOLOGICAL-REFLECTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P9-S49-008",
+      "kr": "진정성은 타인의 기대가 아닌 자신의 존재 가능성에 충실한 것입니다.",
+      "en": "Authenticity means being faithful to one's existential possibilities, not others' expectations.",
+      "pattern": "ONTOLOGICAL-REFLECTION",
+      "form": "aff"
+    }
+  ]
+}

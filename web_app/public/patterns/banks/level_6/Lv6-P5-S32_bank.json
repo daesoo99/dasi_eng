@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv6-P5-S32",
-  "title": "관계사 중첩 및 병렬",
-  "description": "하나의 문장에 여러 관계절을 중첩하여 복잡한 정보를 체계적으로 전달합니다. NESTED-PARALLEL-RELATIVES 패턴을 연습합니다.",
-  "grammar_pattern": "NESTED-PARALLEL-RELATIVES",
+  "title": "Stage Lv6-P5-S32",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "I met a guy who works for a company that makes robots.",
-    "She lives in a city where there is a museum which has ancient artifacts.",
-    "The project that we discussed involves technologies that are cutting-edge."
+    "She lives in a city where there is a museum which has ancient artifacts."
   ],
-  "learning_points": "중첩된 관계절을 통한 복합 정보의 논리적 구조화",
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
   "phase": 5,
   "stage_number": 32,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv6-P5-S32-001",
       "kr": "로봇을 만드는 회사에서 일하는 남자를 만났습니다.",
       "en": "I met a guy who works for a company that makes robots.",
-      "pattern": "NESTED-PARALLEL-RELATIVES",
       "form": "aff"
     },
     {
       "id": "Lv6-P5-S32-002",
       "kr": "그녀는 고대 유물이 있는 박물관이 있는 도시에 살고 있습니다.",
       "en": "She lives in a city where there is a museum which has ancient artifacts.",
-      "pattern": "NESTED-PARALLEL-RELATIVES",
       "form": "aff"
     },
     {
       "id": "Lv6-P5-S32-003",
       "kr": "우리가 논의한 프로젝트는 최첨단 기술들을 포함합니다.",
       "en": "The project that we discussed involves technologies that are cutting-edge.",
-      "pattern": "NESTED-PARALLEL-RELATIVES",
       "form": "aff"
     },
     {
       "id": "Lv6-P5-S32-004",
       "kr": "우리가 고용한 컨설턴트는 글로벌 시장에서 성공한 회사들과 일해본 경험이 있습니다.",
       "en": "The consultant whom we hired has experience working with companies that have succeeded in global markets.",
-      "pattern": "NESTED-PARALLEL-RELATIVES",
       "form": "aff"
     },
     {
       "id": "Lv6-P5-S32-005",
       "kr": "새로운 시설이 위치한 지역은 대중교통이 편리한 곳입니다.",
       "en": "The area where the new facility is located is a place that has convenient public transportation.",
-      "pattern": "NESTED-PARALLEL-RELATIVES",
       "form": "aff"
     },
     {
       "id": "Lv6-P5-S32-006",
       "kr": "우리가 개발하는 소프트웨어는 사용자들이 필요로 하는 기능들을 제공합니다.",
       "en": "The software that we're developing provides features that users need.",
-      "pattern": "NESTED-PARALLEL-RELATIVES",
       "form": "aff"
     },
     {
       "id": "Lv6-P5-S32-007",
       "kr": "회사가 투자한 연구는 미래 기술을 개발하는 프로젝트들을 포함합니다.",
       "en": "The research in which the company invested includes projects that develop future technologies.",
-      "pattern": "NESTED-PARALLEL-RELATIVES",
       "form": "aff"
     },
     {
       "id": "Lv6-P5-S32-008",
       "kr": "팀이 분석한 데이터는 고객들이 원하는 제품 특성들을 보여줍니다.",
       "en": "The data that the team analyzed shows product characteristics that customers want.",
-      "pattern": "NESTED-PARALLEL-RELATIVES",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.484Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_6\\Lv6-P5-S32_bank.json"
+    ]
+  }
 }

@@ -1,0 +1,331 @@
+{
+  "stage_id": "Lv6-D3-S21",
+  "title": "Stage Lv6-D3-S21",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "Sustainable engineering design has been applied. (completion variant 1)",
+    "Sustainable engineering design has been applied. (completion variant 2)"
+  ],
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 21,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv6-D3-S21-001",
+      "kr": "지속가능한 공학 설계를 적용했습니다. (완성 1)",
+      "en": "Sustainable engineering design has been applied. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-002",
+      "kr": "지속가능한 공학 설계를 적용했습니다. (완성 2)",
+      "en": "Sustainable engineering design has been applied. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-003",
+      "kr": "지속가능한 공학 설계를 적용했습니다. (완성 3)",
+      "en": "Sustainable engineering design has been applied. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-004",
+      "kr": "지속가능한 공학 설계를 적용했습니다. (완성 4)",
+      "en": "Sustainable engineering design has been applied. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-005",
+      "kr": "지속가능한 공학 설계를 적용했습니다. (완성 5)",
+      "en": "Sustainable engineering design has been applied. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-006",
+      "kr": "재생에너지 시스템이 도입되었습니다. (완성 1)",
+      "en": "A renewable energy system has been introduced. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-007",
+      "kr": "재생에너지 시스템이 도입되었습니다. (완성 2)",
+      "en": "A renewable energy system has been introduced. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-008",
+      "kr": "재생에너지 시스템이 도입되었습니다. (완성 3)",
+      "en": "A renewable energy system has been introduced. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-009",
+      "kr": "재생에너지 시스템이 도입되었습니다. (완성 4)",
+      "en": "A renewable energy system has been introduced. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-010",
+      "kr": "재생에너지 시스템이 도입되었습니다. (완성 5)",
+      "en": "A renewable energy system has been introduced. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-011",
+      "kr": "탄소발자국이 크게 감소했습니다. (완성 1)",
+      "en": "The carbon footprint has been significantly reduced. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-012",
+      "kr": "탄소발자국이 크게 감소했습니다. (완성 2)",
+      "en": "The carbon footprint has been significantly reduced. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-013",
+      "kr": "탄소발자국이 크게 감소했습니다. (완성 3)",
+      "en": "The carbon footprint has been significantly reduced. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-014",
+      "kr": "탄소발자국이 크게 감소했습니다. (완성 4)",
+      "en": "The carbon footprint has been significantly reduced. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-015",
+      "kr": "탄소발자국이 크게 감소했습니다. (완성 5)",
+      "en": "The carbon footprint has been significantly reduced. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-016",
+      "kr": "생애주기 평가를 실시했습니다. (완성 1)",
+      "en": "A lifecycle assessment has been conducted. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-017",
+      "kr": "생애주기 평가를 실시했습니다. (완성 2)",
+      "en": "A lifecycle assessment has been conducted. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-018",
+      "kr": "생애주기 평가를 실시했습니다. (완성 3)",
+      "en": "A lifecycle assessment has been conducted. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-019",
+      "kr": "생애주기 평가를 실시했습니다. (완성 4)",
+      "en": "A lifecycle assessment has been conducted. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-020",
+      "kr": "생애주기 평가를 실시했습니다. (완성 5)",
+      "en": "A lifecycle assessment has been conducted. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-021",
+      "kr": "순환경제 모델을 적용합니다. (완성 1)",
+      "en": "We apply a circular economy model. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-022",
+      "kr": "순환경제 모델을 적용합니다. (완성 2)",
+      "en": "We apply a circular economy model. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-023",
+      "kr": "순환경제 모델을 적용합니다. (완성 3)",
+      "en": "We apply a circular economy model. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-024",
+      "kr": "순환경제 모델을 적용합니다. (완성 4)",
+      "en": "We apply a circular economy model. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-025",
+      "kr": "순환경제 모델을 적용합니다. (완성 5)",
+      "en": "We apply a circular economy model. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-026",
+      "kr": "녹색기술이 개발되었습니다. (완성 1)",
+      "en": "Green technology has been developed. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-027",
+      "kr": "녹색기술이 개발되었습니다. (완성 2)",
+      "en": "Green technology has been developed. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-028",
+      "kr": "녹색기술이 개발되었습니다. (완성 3)",
+      "en": "Green technology has been developed. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-029",
+      "kr": "녹색기술이 개발되었습니다. (완성 4)",
+      "en": "Green technology has been developed. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-030",
+      "kr": "녹색기술이 개발되었습니다. (완성 5)",
+      "en": "Green technology has been developed. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S21-031",
+      "kr": "환경영향이 최소화되었습니다. (완성 1)",
+      "en": "Environmental impact has been minimized. (completion variant 1)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S21-032",
+      "kr": "환경영향이 최소화되었습니다. (완성 2)",
+      "en": "Environmental impact has been minimized. (completion variant 2)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S21-033",
+      "kr": "환경영향이 최소화되었습니다. (완성 3)",
+      "en": "Environmental impact has been minimized. (completion variant 3)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S21-034",
+      "kr": "환경영향이 최소화되었습니다. (완성 4)",
+      "en": "Environmental impact has been minimized. (completion variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S21-035",
+      "kr": "환경영향이 최소화되었습니다. (완성 5)",
+      "en": "Environmental impact has been minimized. (completion variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S21-036",
+      "kr": "자원 효율성이 향상되었습니다. (완성 1)",
+      "en": "Resource efficiency has been improved. (completion variant 1)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S21-037",
+      "kr": "자원 효율성이 향상되었습니다. (완성 2)",
+      "en": "Resource efficiency has been improved. (completion variant 2)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S21-038",
+      "kr": "자원 효율성이 향상되었습니다. (완성 3)",
+      "en": "Resource efficiency has been improved. (completion variant 3)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S21-039",
+      "kr": "자원 효율성이 향상되었습니다. (완성 4)",
+      "en": "Resource efficiency has been improved. (completion variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S21-040",
+      "kr": "자원 효율성이 향상되었습니다. (완성 5)",
+      "en": "Resource efficiency has been improved. (completion variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S21-041",
+      "kr": "폐기물 최소화를 달성했습니다. (완성 1)",
+      "en": "Waste minimization has been achieved. (completion variant 1)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S21-042",
+      "kr": "폐기물 최소화를 달성했습니다. (완성 2)",
+      "en": "Waste minimization has been achieved. (completion variant 2)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S21-043",
+      "kr": "폐기물 최소화를 달성했습니다. (완성 3)",
+      "en": "Waste minimization has been achieved. (completion variant 3)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S21-044",
+      "kr": "폐기물 최소화를 달성했습니다. (완성 4)",
+      "en": "Waste minimization has been achieved. (completion variant 4)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S21-045",
+      "kr": "폐기물 최소화를 달성했습니다. (완성 5)",
+      "en": "Waste minimization has been achieved. (completion variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S21-046",
+      "kr": "친환경 솔루션을 제공합니다. (완성 1)",
+      "en": "We provide eco-friendly solutions. (completion variant 1)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S21-047",
+      "kr": "친환경 솔루션을 제공합니다. (완성 2)",
+      "en": "We provide eco-friendly solutions. (completion variant 2)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S21-048",
+      "kr": "친환경 솔루션을 제공합니다. (완성 3)",
+      "en": "We provide eco-friendly solutions. (completion variant 3)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S21-049",
+      "kr": "친환경 솔루션을 제공합니다. (완성 4)",
+      "en": "We provide eco-friendly solutions. (completion variant 4)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S21-050",
+      "kr": "친환경 솔루션을 제공합니다. (완성 5)",
+      "en": "We provide eco-friendly solutions. (completion variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.686Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "data\\banks\\level_6\\Lv6-D3-S21_bank.json"
+    ]
+  }
+}

@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P2-S11",
-  "title": "가정법+도치 ②",
-  "description": "Were I to... 패턴. 예) Were I to win the award, I'd dedicate it to my team. 딱딱하지 않게 말하는 연습.",
-  "grammar_pattern": "CONDITIONAL-INVERSION-2",
+  "title": "Stage Lv9-P2-S11",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
-    "Were I to win the award, I'd dedicate it to my team.",
-    "Were we to expand globally, we would need more resources.",
-    "Were they to accept our proposal, it would change everything."
+    "Were I to win the award, I would dedicate it to my team.",
+    "Were we to expand globally, we would need more resources."
   ],
-  "learning_points": "Were 도치를 사용한 미래 가정 표현",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 2,
   "stage_number": 11,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv9-P2-S11-001",
       "kr": "내가 그 상을 받는다면, 우리 팀에게 바치겠습니다.",
       "en": "Were I to win the award, I would dedicate it to my team.",
-      "pattern": "CONDITIONAL-INVERSION-2",
       "form": "aff"
     },
     {
       "id": "Lv9-P2-S11-002",
       "kr": "우리가 전세계로 확장한다면, 더 많은 자원이 필요할 것입니다.",
       "en": "Were we to expand globally, we would need more resources.",
-      "pattern": "CONDITIONAL-INVERSION-2",
       "form": "aff"
     },
     {
       "id": "Lv9-P2-S11-003",
       "kr": "그들이 우리 제안을 받아들인다면, 모든 것이 바뀜 것입니다.",
       "en": "Were they to accept our proposal, everything would change.",
-      "pattern": "CONDITIONAL-INVERSION-2",
       "form": "aff"
     },
     {
       "id": "Lv9-P2-S11-004",
       "kr": "내가 다시 시도한다면, 다른 전략을 사용할 것입니다.",
       "en": "Were I to try again, I would use a different strategy.",
-      "pattern": "CONDITIONAL-INVERSION-2",
       "form": "aff"
     },
     {
       "id": "Lv9-P2-S11-005",
       "kr": "우리가 그 기술을 도입한다면, 생산성이 크게 향상될 것입니다.",
       "en": "Were we to adopt that technology, productivity would improve significantly.",
-      "pattern": "CONDITIONAL-INVERSION-2",
       "form": "aff"
     },
     {
       "id": "Lv9-P2-S11-006",
       "kr": "그녀가 우리 회사에 입사한다면, 팀에 큰 도움이 될 것입니다.",
       "en": "Were she to join our company, she would be a great asset to the team.",
-      "pattern": "CONDITIONAL-INVERSION-2",
       "form": "aff"
     },
     {
       "id": "Lv9-P2-S11-007",
       "kr": "우리가 그 도시로 이사한다면, 생활비가 많이 들 것입니다.",
       "en": "Were we to move to that city, living costs would be much higher.",
-      "pattern": "CONDITIONAL-INVERSION-2",
       "form": "aff"
     },
     {
       "id": "Lv9-P2-S11-008",
       "kr": "내가 다른 선택을 한다면, 결과가 더 나을 수도 있을 것입니다.",
       "en": "Were I to make a different choice, the outcome might be better.",
-      "pattern": "CONDITIONAL-INVERSION-2",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.595Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P2-S11_bank.json"
+    ]
+  }
 }

@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv10-S37",
-  "title": "고급 확인 표현 - 상호 확인",
-  "description": "상호간의 이해와 동의를 확인하는 원어민 수준의 소통 표현을 구사합니다.",
-  "grammar_pattern": "MUTUAL-CONFIRMATION-MASTERY",
+  "title": "Stage Lv10-S37",
+  "description": "Level 10 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "We're thinking the same thing, aren't we?",
-    "It looks that way to you too, doesn't it?",
-    "Our opinions seem to align, right?"
+    "It looks that way to you too, doesn't it?"
   ],
-  "learning_points": "원어민 수준의 자연스러운 상호 확인 표현 구사",
-  "phase": 4,
+  "learning_points": "Level 10 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 37,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv10-S37-001",
       "kr": "우리 같은 생각인 거지?",
       "en": "We're thinking the same thing, aren't we?",
-      "pattern": "MUTUAL-CONFIRMATION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S37-002",
       "kr": "너도 그렇게 보이지 않아?",
       "en": "It looks that way to you too, doesn't it?",
-      "pattern": "MUTUAL-CONFIRMATION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S37-003",
       "kr": "우리 의견이 일치하는 것 같은데, 맞아?",
       "en": "Our opinions seem to align, right?",
-      "pattern": "MUTUAL-CONFIRMATION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S37-004",
       "kr": "이 정도면 합의가 된 거로 봐도 될까?",
       "en": "Can we consider this as reaching an agreement?",
-      "pattern": "MUTUAL-CONFIRMATION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S37-005",
       "kr": "서로 이해한 게 맞다면, 이제 진행해도 되겠네.",
       "en": "If we understand each other correctly, we can proceed now.",
-      "pattern": "MUTUAL-CONFIRMATION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S37-006",
       "kr": "내 말 이해했지? 그럼 이제 어떻게 할까?",
       "en": "You got what I mean, right? So what should we do now?",
-      "pattern": "MUTUAL-CONFIRMATION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S37-007",
       "kr": "우리가 원하는 게 같은 거라면, 문제없겠네.",
       "en": "If what we want is the same, there shouldn't be any problem.",
-      "pattern": "MUTUAL-CONFIRMATION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S37-008",
       "kr": "이렇게 정리하면 되는 건가? 다른 의견 있어?",
       "en": "Is this how we summarize it? Any other opinions?",
-      "pattern": "MUTUAL-CONFIRMATION-MASTERY",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L10_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.407Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_10\\Lv10-S37_bank.json"
+    ]
+  }
 }

@@ -1,0 +1,331 @@
+{
+  "stage_id": "Lv4-A6-S23",
+  "title": "Stage Lv4-A6-S23",
+  "description": "Level 4 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "It's important to adapt to change. (business variant 1)",
+    "We will transition to a new system. (business variant 1)"
+  ],
+  "learning_points": "Level 4 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 23,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv4-A6-S23-001",
+      "kr": "변화에 적응하는 것이 중요합니다. (비즈니스 1)",
+      "en": "It's important to adapt to change. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-002",
+      "kr": "새로운 시스템으로 전환하겠습니다. (비즈니스 1)",
+      "en": "We will transition to a new system. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-003",
+      "kr": "유연성을 가지고 대응해야 합니다. (비즈니스 1)",
+      "en": "We need to respond with flexibility. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-004",
+      "kr": "변화를 기회로 받아들입시다. (비즈니스 1)",
+      "en": "Let's accept change as an opportunity. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-005",
+      "kr": "적응 과정에서 지원을 제공하겠습니다. (비즈니스 1)",
+      "en": "We will provide support during the adaptation process. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-006",
+      "kr": "혁신을 통해 발전할 수 있습니다. (비즈니스 1)",
+      "en": "We can develop through innovation. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-007",
+      "kr": "도전을 극복하며 성장합시다. (비즈니스 1)",
+      "en": "Let's grow by overcoming challenges. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-008",
+      "kr": "변화 관리 계획이 필요합니다. (비즈니스 1)",
+      "en": "A change management plan is needed. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-009",
+      "kr": "점진적으로 변화를 도입하겠습니다. (비즈니스 1)",
+      "en": "We will introduce changes gradually. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-010",
+      "kr": "모든 팀원이 변화에 참여해야 합니다. (비즈니스 1)",
+      "en": "All team members need to participate in the change. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-011",
+      "kr": "변화에 적응하는 것이 중요합니다. (비즈니스 2)",
+      "en": "It's important to adapt to change. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-012",
+      "kr": "새로운 시스템으로 전환하겠습니다. (비즈니스 2)",
+      "en": "We have transition to a new system. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-013",
+      "kr": "유연성을 가지고 대응해야 합니다. (비즈니스 2)",
+      "en": "We need to respond with flexibility. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-014",
+      "kr": "변화를 기회로 받아들입시다. (비즈니스 2)",
+      "en": "Let's accept change as an opportunity. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-015",
+      "kr": "적응 과정에서 지원을 제공하겠습니다. (비즈니스 2)",
+      "en": "We have provide support during the adaptation process. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-016",
+      "kr": "혁신을 통해 발전할 수 있습니다. (비즈니스 2)",
+      "en": "We can develop through innovation. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-017",
+      "kr": "도전을 극복하며 성장합시다. (비즈니스 2)",
+      "en": "Let's grow by overcoming challenges. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-018",
+      "kr": "변화 관리 계획이 필요합니다. (비즈니스 2)",
+      "en": "A change management plan is needed. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-019",
+      "kr": "점진적으로 변화를 도입하겠습니다. (비즈니스 2)",
+      "en": "We have introduce changes gradually. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-020",
+      "kr": "모든 팀원이 변화에 참여해야 합니다. (비즈니스 2)",
+      "en": "All team members need to participate in the change. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-021",
+      "kr": "변화에 적응하는 것이 중요합니다. (비즈니스 3)",
+      "en": "It's important to adapt to change. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-022",
+      "kr": "새로운 시스템으로 전환하겠습니다. (비즈니스 3)",
+      "en": "We have transition to a new system. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-023",
+      "kr": "유연성을 가지고 대응해야 합니다. (비즈니스 3)",
+      "en": "We need to respond with flexibility. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-024",
+      "kr": "변화를 기회로 받아들입시다. (비즈니스 3)",
+      "en": "Let's accept change as an opportunity. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-025",
+      "kr": "적응 과정에서 지원을 제공하겠습니다. (비즈니스 3)",
+      "en": "We have provide support during the adaptation process. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-026",
+      "kr": "혁신을 통해 발전할 수 있습니다. (비즈니스 3)",
+      "en": "We can develop through innovation. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-027",
+      "kr": "도전을 극복하며 성장합시다. (비즈니스 3)",
+      "en": "Let's grow by overcoming challenges. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-028",
+      "kr": "변화 관리 계획이 필요합니다. (비즈니스 3)",
+      "en": "A change management plan is needed. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-029",
+      "kr": "점진적으로 변화를 도입하겠습니다. (비즈니스 3)",
+      "en": "We have introduce changes gradually. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-030",
+      "kr": "모든 팀원이 변화에 참여해야 합니다. (비즈니스 3)",
+      "en": "All team members need to participate in the change. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-031",
+      "kr": "변화에 적응하는 것이 중요합니다. (비즈니스 4)",
+      "en": "It's important to adapt to change. (business variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-032",
+      "kr": "새로운 시스템으로 전환하겠습니다. (비즈니스 4)",
+      "en": "We have transition to a new system. (business variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-033",
+      "kr": "유연성을 가지고 대응해야 합니다. (비즈니스 4)",
+      "en": "We need to respond with flexibility. (business variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-034",
+      "kr": "변화를 기회로 받아들입시다. (비즈니스 4)",
+      "en": "Let's accept change as an opportunity. (business variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-035",
+      "kr": "적응 과정에서 지원을 제공하겠습니다. (비즈니스 4)",
+      "en": "We have provide support during the adaptation process. (business variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S23-036",
+      "kr": "혁신을 통해 발전할 수 있습니다. (비즈니스 4)",
+      "en": "We can develop through innovation. (business variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S23-037",
+      "kr": "도전을 극복하며 성장합시다. (비즈니스 4)",
+      "en": "Let's grow by overcoming challenges. (business variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S23-038",
+      "kr": "변화 관리 계획이 필요합니다. (비즈니스 4)",
+      "en": "A change management plan is needed. (business variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S23-039",
+      "kr": "점진적으로 변화를 도입하겠습니다. (비즈니스 4)",
+      "en": "We have introduce changes gradually. (business variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S23-040",
+      "kr": "모든 팀원이 변화에 참여해야 합니다. (비즈니스 4)",
+      "en": "All team members need to participate in the change. (business variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S23-041",
+      "kr": "변화에 적응하는 것이 중요합니다. (비즈니스 5)",
+      "en": "It's important to adapt to change. (business variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S23-042",
+      "kr": "새로운 시스템으로 전환하겠습니다. (비즈니스 5)",
+      "en": "We have transition to a new system. (business variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S23-043",
+      "kr": "유연성을 가지고 대응해야 합니다. (비즈니스 5)",
+      "en": "We need to respond with flexibility. (business variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S23-044",
+      "kr": "변화를 기회로 받아들입시다. (비즈니스 5)",
+      "en": "Let's accept change as an opportunity. (business variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S23-045",
+      "kr": "적응 과정에서 지원을 제공하겠습니다. (비즈니스 5)",
+      "en": "We have provide support during the adaptation process. (business variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S23-046",
+      "kr": "혁신을 통해 발전할 수 있습니다. (비즈니스 5)",
+      "en": "We can develop through innovation. (business variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A6-S23-047",
+      "kr": "도전을 극복하며 성장합시다. (비즈니스 5)",
+      "en": "Let's grow by overcoming challenges. (business variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A6-S23-048",
+      "kr": "변화 관리 계획이 필요합니다. (비즈니스 5)",
+      "en": "A change management plan is needed. (business variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A6-S23-049",
+      "kr": "점진적으로 변화를 도입하겠습니다. (비즈니스 5)",
+      "en": "We have introduce changes gradually. (business variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A6-S23-050",
+      "kr": "모든 팀원이 변화에 참여해야 합니다. (비즈니스 5)",
+      "en": "All team members need to participate in the change. (business variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 10,
+    "wh_q": 5,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L4_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.769Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "backups\\level_4_business_mastery\\banks\\Lv4-A6-S23_bank.json"
+    ]
+  }
+}

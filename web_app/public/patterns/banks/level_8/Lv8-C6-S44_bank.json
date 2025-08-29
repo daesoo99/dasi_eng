@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv8-C6-S44",
-  "title": "전문 프레젠테이션 실습",
-  "description": "전문적인 프레젠테이션에서 사용되는 고급 표현과 구조를 실습합니다.",
-  "grammar_pattern": "PROFESSIONAL-PRESENTATION",
+  "title": "Stage Lv8-C6-S44",
+  "description": "Level 8 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Today I'll be presenting our quarterly performance analysis and strategic recommendations.",
-    "As you can see from this chart, there's been a substantial improvement in efficiency.",
-    "In conclusion, the data strongly suggests that we should proceed with this initiative."
+    "As you can see from this chart, there's been a substantial improvement in efficiency."
   ],
-  "learning_points": "전문 프레젠테이션에 필요한 고급 표현과 논리적 구조",
-  "phase": 6,
+  "learning_points": "Level 8 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 44,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv8-C6-S44-001",
       "kr": "오늘 분기별 성과 분석과 전략적 권고사항을 발표하겠습니다.",
       "en": "Today I'll be presenting our quarterly performance analysis and strategic recommendations.",
-      "pattern": "PROFESSIONAL-PRESENTATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S44-002",
       "kr": "이 차트에서 보시는 바와 같이 효율성에 상당한 개선이 있었습니다.",
       "en": "As you can see from this chart, there's been a substantial improvement in efficiency.",
-      "pattern": "PROFESSIONAL-PRESENTATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S44-003",
       "kr": "결론적으로, 데이터는 우리가 이 이니셔티브를 진행해야 한다는 것을 강력히 시사합니다.",
       "en": "In conclusion, the data strongly suggests that we should proceed with this initiative.",
-      "pattern": "PROFESSIONAL-PRESENTATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S44-004",
       "kr": "다음 슬라이드로 넘어가서 시장 동향을 자세히 살펴보겠습니다.",
       "en": "Moving to the next slide, let's examine the market trends in detail.",
-      "pattern": "PROFESSIONAL-PRESENTATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S44-005",
       "kr": "여기서 주목할 점은 고객 만족도가 지속적으로 증가하고 있다는 것입니다.",
       "en": "The key takeaway here is that customer satisfaction has been consistently increasing.",
-      "pattern": "PROFESSIONAL-PRESENTATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S44-006",
       "kr": "이 분석을 바탕으로 세 가지 핵심 권고사항을 제시하고자 합니다.",
       "en": "Based on this analysis, I'd like to present three key recommendations.",
-      "pattern": "PROFESSIONAL-PRESENTATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S44-007",
       "kr": "질문이 있으시면 언제든지 말씀해 주시기 바랍니다.",
       "en": "Please feel free to interrupt with any questions you may have.",
-      "pattern": "PROFESSIONAL-PRESENTATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S44-008",
       "kr": "시간을 내어 경청해 주셔서 감사하며, 논의를 위해 자리를 열어드리겠습니다.",
       "en": "Thank you for your attention, and I'll now open the floor for discussion.",
-      "pattern": "PROFESSIONAL-PRESENTATION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L8_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.580Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_8\\Lv8-C6-S44_bank.json"
+    ]
+  }
 }

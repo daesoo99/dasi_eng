@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv8-C1-S05",
+  "title": "조건+가정법 혼합",
+  "description": "조건문과 가정법을 혼합하여 복잡한 상황과 가능성을 정교하게 표현하는 방법을 연습합니다.",
+  "grammar_pattern": "CONDITIONAL-SUBJUNCTIVE-MIX",
+  "examples": [
+    "If I were to accept the offer, would you support me?",
+    "Should he have been more careful, the accident wouldn't have happened.",
+    "Were it not for your help, I would never have succeeded."
+  ],
+  "learning_points": "조건문과 가정법의 혼합을 통한 복합적 상황 표현",
+  "phase": 1,
+  "stage_number": 5,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv8-C1-S05-001",
+      "kr": "제가 그 제안을 받아들인다면 저를 지지해 주시겠습니까?",
+      "en": "If I were to accept the offer, would you support me?",
+      "pattern": "CONDITIONAL-SUBJUNCTIVE-MIX",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S05-002",
+      "kr": "그가 더 조심했더라면 사고가 일어나지 않았을 것입니다.",
+      "en": "Should he have been more careful, the accident wouldn't have happened.",
+      "pattern": "CONDITIONAL-SUBJUNCTIVE-MIX",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S05-003",
+      "kr": "당신의 도움이 없었다면 결코 성공할 수 없었을 것입니다.",
+      "en": "Were it not for your help, I would never have succeeded.",
+      "pattern": "CONDITIONAL-SUBJUNCTIVE-MIX",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S05-004",
+      "kr": "만약 그가 진실을 말했다면 상황이 달라졌을 것입니다.",
+      "en": "Had he told the truth, the situation would have been different.",
+      "pattern": "CONDITIONAL-SUBJUNCTIVE-MIX",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S05-005",
+      "kr": "제가 그 자리에 있었다면 다르게 행동했을 것입니다.",
+      "en": "Were I to have been there, I would have acted differently.",
+      "pattern": "CONDITIONAL-SUBJUNCTIVE-MIX",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S05-006",
+      "kr": "비가 오지 않았다면 소풍을 갈 수 있었을 텐데요.",
+      "en": "Should it not have rained, we could have gone on a picnic.",
+      "pattern": "CONDITIONAL-SUBJUNCTIVE-MIX",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S05-007",
+      "kr": "그들이 미리 계획했더라면 더 나은 결과를 얻었을 것입니다.",
+      "en": "Had they planned ahead, they would have achieved better results.",
+      "pattern": "CONDITIONAL-SUBJUNCTIVE-MIX",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S05-008",
+      "kr": "기술이 발달하지 않았다면 이런 일은 불가능했을 것입니다.",
+      "en": "Were technology not to have advanced, this would have been impossible.",
+      "pattern": "CONDITIONAL-SUBJUNCTIVE-MIX",
+      "form": "aff"
+    }
+  ]
+}

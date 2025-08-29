@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv10-S43",
-  "title": "완곡 표현 - 상황적 완곡법",
-  "description": "다양한 상황에서 적절한 완곡 표현을 구사하는 원어민 수준의 의사소통을 구사합니다.",
-  "grammar_pattern": "CONTEXTUAL-DIPLOMACY-MASTERY",
+  "title": "Stage Lv10-S43",
+  "description": "Level 10 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "The situation is a bit complicated, so it's hard to put it simply.",
-    "Since we need to consider various factors, it's hard to give an immediate answer.",
-    "Personally I like it, but from an overall standpoint, it's a bit..."
+    "Since we need to consider various factors, it's hard to give an immediate answer."
   ],
-  "learning_points": "원어민 수준의 자연스러운 상황적 완곡법 표현 구사",
-  "phase": 5,
+  "learning_points": "Level 10 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 43,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv10-S43-001",
       "kr": "상황이 좀 복잡해서, 단순하게 말씀드리기가 어렵네요.",
       "en": "The situation is a bit complicated, so it's hard to put it simply.",
-      "pattern": "CONTEXTUAL-DIPLOMACY-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S43-002",
       "kr": "여러 요인을 고려해야 해서, 즉답을 드리기 힘들어요.",
       "en": "Since we need to consider various factors, it's hard to give an immediate answer.",
-      "pattern": "CONTEXTUAL-DIPLOMACY-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S43-003",
       "kr": "개인적으로는 좋지만, 전체적인 입장에서는 조금 그래요.",
       "en": "Personally I like it, but from an overall standpoint, it's a bit...",
-      "pattern": "CONTEXTUAL-DIPLOMACY-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S43-004",
       "kr": "원칙적으로는 맞지만, 현실적으로는 다른 문제가 있어요.",
       "en": "In principle it's right, but realistically there are other issues.",
-      "pattern": "CONTEXTUAL-DIPLOMACY-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S43-005",
       "kr": "이상적으로는 그래야겠지만, 실제로는 어려운 부분이 있어요.",
       "en": "Ideally it should be that way, but practically there are difficult aspects.",
-      "pattern": "CONTEXTUAL-DIPLOMACY-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S43-006",
       "kr": "일반적으로는 가능하지만, 이 경우에는 특별한 사정이 있어요.",
       "en": "Generally it's possible, but in this case there are special circumstances.",
-      "pattern": "CONTEXTUAL-DIPLOMACY-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S43-007",
       "kr": "평소라면 괜찮겠지만, 지금 시점에서는 좀 민감해요.",
       "en": "It would usually be fine, but at this point it's a bit sensitive.",
-      "pattern": "CONTEXTUAL-DIPLOMACY-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S43-008",
       "kr": "다른 때였다면 문제없겠지만, 타이밍이 좀 애매해요.",
       "en": "It would be no problem at another time, but the timing is a bit ambiguous.",
-      "pattern": "CONTEXTUAL-DIPLOMACY-MASTERY",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L10_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.416Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_10\\Lv10-S43_bank.json"
+    ]
+  }
 }

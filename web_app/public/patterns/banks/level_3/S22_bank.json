@@ -1,0 +1,152 @@
+{
+  "stage_id": "S22",
+  "title": "Stage S22",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "Would you mind opening the window?",
+    "Could you please help me with this report?"
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 22,
+  "count": 20,
+  "sentences": [
+    {
+      "id": "S22-1",
+      "kr": "창문을 열어주시겠어요? (정중한 부탁)",
+      "en": "Would you mind opening the window?",
+      "form": "aff"
+    },
+    {
+      "id": "S22-2",
+      "kr": "이 보고서 좀 도와주시겠어요?",
+      "en": "Could you please help me with this report?",
+      "form": "aff"
+    },
+    {
+      "id": "S22-3",
+      "kr": "조언을 좀 해주실 수 있는지 궁금해서요.",
+      "en": "I was wondering if you could give me some advice.",
+      "form": "aff"
+    },
+    {
+      "id": "S22-4",
+      "kr": "조금 늦게까지 있어주실 수 있을까요?",
+      "en": "Would it be possible for you to stay a bit later?",
+      "form": "aff"
+    },
+    {
+      "id": "S22-5",
+      "kr": "이 문서를 검토해주시면 감사하겠어요.",
+      "en": "I'd be grateful if you could review this document.",
+      "form": "aff"
+    },
+    {
+      "id": "S22-6",
+      "kr": "차를 빌려주실 수 있을 것 같나요?",
+      "en": "Do you think you could lend me your car?",
+      "form": "aff"
+    },
+    {
+      "id": "S22-7",
+      "kr": "길을 알려주실 만큼 친절하시겠어요? (격식적)",
+      "en": "Would you be so kind as to show me the way?",
+      "form": "aff"
+    },
+    {
+      "id": "S22-8",
+      "kr": "번거롭게 해서 죄송하지만, 도와주실 수 있나요?",
+      "en": "I hate to bother you, but could you help me?",
+      "form": "aff"
+    },
+    {
+      "id": "S22-9",
+      "kr": "괜찮으시다면 전화기 좀 빌려주실 수 있나요?",
+      "en": "If you don't mind, could I borrow your phone?",
+      "form": "aff"
+    },
+    {
+      "id": "S22-10",
+      "kr": "부탁 하나 드려도 될지 모르겠어요.",
+      "en": "I wonder if I might ask you a favor.",
+      "form": "aff"
+    },
+    {
+      "id": "S22-1",
+      "kr": "창문을 열어주시겠어요? (정중한 부탁)",
+      "en": "Would you mind opening the window?",
+      "form": "aff"
+    },
+    {
+      "id": "S22-2",
+      "kr": "이 보고서 좀 도와주시겠어요?",
+      "en": "Could you please help me with this report?",
+      "form": "aff"
+    },
+    {
+      "id": "S22-3",
+      "kr": "조언을 좀 해주실 수 있는지 궁금해서요.",
+      "en": "I was wondering if you could give me some advice.",
+      "form": "aff"
+    },
+    {
+      "id": "S22-4",
+      "kr": "조금 늦게까지 있어주실 수 있을까요?",
+      "en": "Would it be possible for you to stay a bit later?",
+      "form": "aff"
+    },
+    {
+      "id": "S22-5",
+      "kr": "이 문서를 검토해주시면 감사하겠어요.",
+      "en": "I'd be grateful if you could review this document.",
+      "form": "aff"
+    },
+    {
+      "id": "S22-6",
+      "kr": "차를 빌려주실 수 있을 것 같나요?",
+      "en": "Do you think you could lend me your car?",
+      "form": "aff"
+    },
+    {
+      "id": "S22-7",
+      "kr": "길을 알려주실 만큼 친절하시겠어요? (격식적)",
+      "en": "Would you be so kind as to show me the way?",
+      "form": "aff"
+    },
+    {
+      "id": "S22-8",
+      "kr": "번거롭게 해서 죄송하지만, 도와주실 수 있나요?",
+      "en": "I hate to bother you, but could you help me?",
+      "form": "aff"
+    },
+    {
+      "id": "S22-9",
+      "kr": "괜찮으시다면 전화기 좀 빌려주실 수 있나요?",
+      "en": "If you don't mind, could I borrow your phone?",
+      "form": "aff"
+    },
+    {
+      "id": "S22-10",
+      "kr": "부탁 하나 드려도 될지 모르겠어요.",
+      "en": "I wonder if I might ask you a favor.",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 20,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L1_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.728Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW.json",
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW_migrated.json"
+    ]
+  }
+}

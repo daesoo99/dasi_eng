@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv8-C6-S39",
+  "title": "구어체 전환",
+  "description": "격식있는 표현에서 자연스러운 구어체로 전환하여 친근하고 접근하기 쉬운 표현을 연습합니다.",
+  "grammar_pattern": "FORMAL-TO-COLLOQUIAL-TRANSITION",
+  "examples": [
+    "Let me put it this way - we've got a real opportunity here.",
+    "To be frank with you, this is exactly what we need.",
+    "Here's the thing - we can make this work if we try."
+  ],
+  "learning_points": "구어체 전환을 통한 친근하고 접근가능한 의사소통",
+  "phase": 6,
+  "stage_number": 39,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv8-C6-S39-001",
+      "kr": "이렇게 말씀드리자면 - 여기 진짜 기회가 있습니다.",
+      "en": "Let me put it this way - we've got a real opportunity here.",
+      "pattern": "FORMAL-TO-COLLOQUIAL-TRANSITION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S39-002",
+      "kr": "솔직히 말씀드리면, 이것이 바로 우리가 필요한 것입니다.",
+      "en": "To be frank with you, this is exactly what we need.",
+      "pattern": "FORMAL-TO-COLLOQUIAL-TRANSITION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S39-003",
+      "kr": "요점은 이겁니다 - 노력한다면 이것을 성공시킬 수 있습니다.",
+      "en": "Here's the thing - we can make this work if we try.",
+      "pattern": "FORMAL-TO-COLLOQUIAL-TRANSITION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S39-004",
+      "kr": "제 말은 이겁니다 - 우리는 올바른 방향으로 가고 있어요.",
+      "en": "What I'm saying is - we're heading in the right direction.",
+      "pattern": "FORMAL-TO-COLLOQUIAL-TRANSITION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S39-005",
+      "kr": "사실을 말하자면, 이것은 정말 좋은 아이디어입니다.",
+      "en": "The truth is, this is a really good idea.",
+      "pattern": "FORMAL-TO-COLLOQUIAL-TRANSITION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S39-006",
+      "kr": "알아요, 쉽지 않겠지만 해낼 수 있을 거예요.",
+      "en": "Look, it won't be easy, but we can pull this off.",
+      "pattern": "FORMAL-TO-COLLOQUIAL-TRANSITION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S39-007",
+      "kr": "제 생각에는 - 이것이 우리가 찾던 해답입니다.",
+      "en": "The way I see it - this is the answer we've been looking for.",
+      "pattern": "FORMAL-TO-COLLOQUIAL-TRANSITION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S39-008",
+      "kr": "간단히 말해서, 이것은 윈-윈 상황입니다.",
+      "en": "Bottom line - this is a win-win situation.",
+      "pattern": "FORMAL-TO-COLLOQUIAL-TRANSITION",
+      "form": "aff"
+    }
+  ]
+}

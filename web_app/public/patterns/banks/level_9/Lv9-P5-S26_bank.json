@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P5-S26",
-  "title": "문장 리듬 ②",
-  "description": "구조 변환: 동일 내용 문장을 단문/복문 두 가지 버전으로 말해보기. 예) The experiment failed. It was disappointing. vs The experiment failed, which was disappointing. 리듬 비교.",
-  "grammar_pattern": "STRUCTURAL-VARIATION",
+  "title": "Stage Lv9-P5-S26",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "The experiment failed. It was disappointing.",
-    "The experiment failed, which was disappointing.",
-    "We completed the project. Everyone was satisfied."
+    "The experiment failed, which was disappointing."
   ],
-  "learning_points": "문장 구조 변환을 통한 리듬감 조절과 표현력 다양화",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 5,
   "stage_number": 26,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv9-P5-S26-001",
       "kr": "실험이 실패했습니다. 실망스러웠습니다.",
       "en": "The experiment failed. It was disappointing.",
-      "pattern": "STRUCTURAL-VARIATION",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S26-002",
       "kr": "실험이 실패해서 실망스러웠습니다.",
       "en": "The experiment failed, which was disappointing.",
-      "pattern": "STRUCTURAL-VARIATION",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S26-003",
       "kr": "프로젝트를 완성했습니다. 모든 사람이 만족했습니다.",
       "en": "We completed the project. Everyone was satisfied.",
-      "pattern": "STRUCTURAL-VARIATION",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S26-004",
       "kr": "모든 사람이 만족하는 프로젝트를 완성했습니다.",
       "en": "We completed the project, which satisfied everyone.",
-      "pattern": "STRUCTURAL-VARIATION",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S26-005",
       "kr": "새로운 전략을 도입했습니다. 결과가 놀라웠습니다.",
       "en": "We introduced a new strategy. The results were amazing.",
-      "pattern": "STRUCTURAL-VARIATION",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S26-006",
       "kr": "놀라운 결과를 가져온 새로운 전략을 도입했습니다.",
       "en": "We introduced a new strategy, which brought amazing results.",
-      "pattern": "STRUCTURAL-VARIATION",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S26-007",
       "kr": "회의가 연장되었습니다. 결정을 다음 주로 미뤄습니다.",
       "en": "The meeting was extended. We postponed the decision to next week.",
-      "pattern": "STRUCTURAL-VARIATION",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S26-008",
       "kr": "회의가 연장되어 결정을 다음 주로 미뤄습니다.",
       "en": "The meeting was extended, causing us to postpone the decision to next week.",
-      "pattern": "STRUCTURAL-VARIATION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.609Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P5-S26_bank.json"
+    ]
+  }
 }

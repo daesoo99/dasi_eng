@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv6-P3-S19",
-  "title": "I wish/If only 구문",
-  "description": "I wish, If only를 활용하여 후회와 바람을 전문적으로 표현합니다. WISH-REGRET-EXPRESSIONS 패턴을 연습합니다.",
-  "grammar_pattern": "WISH-REGRET-EXPRESSIONS",
+  "title": "Stage Lv6-P3-S19",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "I wish I had more time for this project.",
-    "If only I hadn't said that in the meeting.",
-    "I wish the company would invest more in employee development."
+    "If only I hadn't said that in the meeting."
   ],
-  "learning_points": "전문적 상황에서의 아쉬움과 개선 희망 표현",
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
   "phase": 3,
   "stage_number": 19,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv6-P3-S19-001",
       "kr": "이 프로젝트에 더 많은 시간이 있으면 좋겠습니다.",
       "en": "I wish I had more time for this project.",
-      "pattern": "WISH-REGRET-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S19-002",
       "kr": "회의에서 그런 말을 하지 말았더라면 좋았을 텐데요.",
       "en": "If only I hadn't said that in the meeting.",
-      "pattern": "WISH-REGRET-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S19-003",
       "kr": "회사가 직원 개발에 더 투자하면 좋겠습니다.",
       "en": "I wish the company would invest more in employee development.",
-      "pattern": "WISH-REGRET-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S19-004",
       "kr": "더 일찍 시작했더라면 좋았을 텐데요.",
       "en": "If only we had started earlier.",
-      "pattern": "WISH-REGRET-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S19-005",
       "kr": "의사소통이 더 원활하면 좋겠습니다.",
       "en": "I wish communication were more effective.",
-      "pattern": "WISH-REGRET-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S19-006",
       "kr": "그 결정을 다시 생각해봤더라면 좋았을 텐데요.",
       "en": "If only I had reconsidered that decision.",
-      "pattern": "WISH-REGRET-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S19-007",
       "kr": "예산이 더 많으면 좋겠습니다.",
       "en": "I wish we had a larger budget.",
-      "pattern": "WISH-REGRET-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S19-008",
       "kr": "고객의 요구사항을 미리 파악했더라면 좋았을 텐데요.",
       "en": "If only we had understood the client's requirements beforehand.",
-      "pattern": "WISH-REGRET-EXPRESSIONS",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.474Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_6\\Lv6-P3-S19_bank.json"
+    ]
+  }
 }

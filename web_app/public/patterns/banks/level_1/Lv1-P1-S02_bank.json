@@ -1,10 +1,13 @@
 {
   "stage_id": "Lv1-P1-S02",
   "title": "일반동사 현재형",
-  "description": "일반동사를 활용해 현재 습관/일반사실을 말하는 연습입니다. 주어 + 동사원형 형태로 '~한다'를 표현합니다.",
-  "grammar_pattern": "주어 + 동사원형 (3인칭 단수: 동사+s)",
-  "examples": ["I live in Seoul.", "He likes coffee."],
-  "learning_points": "3인칭 단수일 때 동사에 -s 붙이는 것도 함께 학습",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "I was tired yesterday. (variant 1)",
+    "You were late. (variant 1)"
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 2,
   "count": 50,
@@ -311,10 +314,18 @@
     }
   ],
   "forms_distribution": {
-    "aff": 35,
-    "neg": 10,
-    "wh_q": 5
+    "aff": 40,
+    "neg": 5,
+    "wh_q": 5,
+    "unknown": 0
   },
-  "status": "generated",
-  "batch": "L1_Basic_Batch1"
+  "status": "complete",
+  "batch": "L1_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.357Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_1\\Lv1-P1-S02_bank.json"
+    ]
+  }
 }

@@ -1,0 +1,152 @@
+{
+  "stage_id": "S30",
+  "title": "Stage S30",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "On second thought, maybe we should wait until tomorrow.",
+    "Actually, I think I misunderstood what you said."
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 30,
+  "count": 20,
+  "sentences": [
+    {
+      "id": "S30-1",
+      "kr": "다시 생각해보니, 내일까지 기다리는 게 좋을 것 같아요.",
+      "en": "On second thought, maybe we should wait until tomorrow.",
+      "form": "aff"
+    },
+    {
+      "id": "S30-2",
+      "kr": "사실은, 당신이 하신 말을 잘못 이해했던 것 같아요.",
+      "en": "Actually, I think I misunderstood what you said.",
+      "form": "aff"
+    },
+    {
+      "id": "S30-3",
+      "kr": "생각해보니, 그것에 대해서는 당신이 맞을지도 모르겠어요.",
+      "en": "Come to think of it, you might be right about that.",
+      "form": "aff"
+    },
+    {
+      "id": "S30-4",
+      "kr": "오해하지 마세요, 하지만 더 조심해야 한다고 생각해요.",
+      "en": "Don't get me wrong, but I think we need to be more careful.",
+      "form": "aff"
+    },
+    {
+      "id": "S30-5",
+      "kr": "제가 말하려고 했던 건 완전히 다른 거였어요.",
+      "en": "What I meant to say was something completely different.",
+      "form": "aff"
+    },
+    {
+      "id": "S30-6",
+      "kr": "다시 말씀드리겠어요. 제가 정말 하고 싶은 말은...",
+      "en": "Let me rephrase that. What I really want to say is...",
+      "form": "aff"
+    },
+    {
+      "id": "S30-7",
+      "kr": "여기서 정정해야겠어요. 날짜를 잘못 알고 있었어요.",
+      "en": "I need to correct myself here. I was wrong about the date.",
+      "form": "aff"
+    },
+    {
+      "id": "S30-8",
+      "kr": "지금 생각해보니, 그건 그리 좋은 생각이 아니네요.",
+      "en": "Now that I think about it, that's not such a good idea.",
+      "form": "aff"
+    },
+    {
+      "id": "S30-9",
+      "kr": "제가 무슨 뜻인지 더 명확하게 말했어야 했는데요.",
+      "en": "I should have been clearer about what I meant.",
+      "form": "aff"
+    },
+    {
+      "id": "S30-10",
+      "kr": "잠깐, 그 말은 취소하겠어요. 그런 뜻이 아니었어요.",
+      "en": "Wait, let me take that back. I didn't mean it that way.",
+      "form": "aff"
+    },
+    {
+      "id": "S30-1",
+      "kr": "다시 생각해보니, 내일까지 기다리는 게 좋을 것 같아요.",
+      "en": "On second thought, maybe we should wait until tomorrow.",
+      "form": "aff"
+    },
+    {
+      "id": "S30-2",
+      "kr": "사실은, 당신이 하신 말을 잘못 이해했던 것 같아요.",
+      "en": "Actually, I think I misunderstood what you said.",
+      "form": "aff"
+    },
+    {
+      "id": "S30-3",
+      "kr": "생각해보니, 그것에 대해서는 당신이 맞을지도 모르겠어요.",
+      "en": "Come to think of it, you might be right about that.",
+      "form": "aff"
+    },
+    {
+      "id": "S30-4",
+      "kr": "오해하지 마세요, 하지만 더 조심해야 한다고 생각해요.",
+      "en": "Don't get me wrong, but I think we need to be more careful.",
+      "form": "aff"
+    },
+    {
+      "id": "S30-5",
+      "kr": "제가 말하려고 했던 건 완전히 다른 거였어요.",
+      "en": "What I meant to say was something completely different.",
+      "form": "aff"
+    },
+    {
+      "id": "S30-6",
+      "kr": "다시 말씀드리겠어요. 제가 정말 하고 싶은 말은...",
+      "en": "Let me rephrase that. What I really want to say is...",
+      "form": "aff"
+    },
+    {
+      "id": "S30-7",
+      "kr": "여기서 정정해야겠어요. 날짜를 잘못 알고 있었어요.",
+      "en": "I need to correct myself here. I was wrong about the date.",
+      "form": "aff"
+    },
+    {
+      "id": "S30-8",
+      "kr": "지금 생각해보니, 그건 그리 좋은 생각이 아니네요.",
+      "en": "Now that I think about it, that's not such a good idea.",
+      "form": "aff"
+    },
+    {
+      "id": "S30-9",
+      "kr": "제가 무슨 뜻인지 더 명확하게 말했어야 했는데요.",
+      "en": "I should have been clearer about what I meant.",
+      "form": "aff"
+    },
+    {
+      "id": "S30-10",
+      "kr": "잠깐, 그 말은 취소하겠어요. 그런 뜻이 아니었어요.",
+      "en": "Wait, let me take that back. I didn't mean it that way.",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 20,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L1_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.738Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW.json",
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW_migrated.json"
+    ]
+  }
+}

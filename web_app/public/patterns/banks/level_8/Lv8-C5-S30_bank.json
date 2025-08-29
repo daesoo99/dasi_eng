@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv8-C5-S30",
-  "title": "원인·결과 연결 심화",
-  "description": "원인과 결과의 관계를 다양한 고급 표현으로 연결하여 논리적 설득력을 강화하는 방법을 연습합니다.",
-  "grammar_pattern": "CAUSE-EFFECT-ADVANCED",
+  "title": "Stage Lv8-C5-S30",
+  "description": "Level 8 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Owing to the exceptional performance, the team received recognition.",
-    "As a result of careful planning, the project was completed ahead of schedule.",
-    "The success stems from the dedication of all team members."
+    "As a result of careful planning, the project was completed ahead of schedule."
   ],
-  "learning_points": "고급 원인-결과 연결 표현을 통한 논리적 설득력 강화",
-  "phase": 5,
+  "learning_points": "Level 8 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 30,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv8-C5-S30-001",
       "kr": "뛰어난 성과 덕분에 팀이 인정을 받았습니다.",
       "en": "Owing to the exceptional performance, the team received recognition.",
-      "pattern": "CAUSE-EFFECT-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv8-C5-S30-002",
       "kr": "신중한 계획의 결과로 프로젝트가 예정보다 앞서 완료되었습니다.",
       "en": "As a result of careful planning, the project was completed ahead of schedule.",
-      "pattern": "CAUSE-EFFECT-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv8-C5-S30-003",
       "kr": "성공은 모든 팀원들의 헌신에서 비롯됩니다.",
       "en": "The success stems from the dedication of all team members.",
-      "pattern": "CAUSE-EFFECT-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv8-C5-S30-004",
       "kr": "지속적인 혁신으로 인해 회사는 시장을 선도하고 있습니다.",
       "en": "Due to continuous innovation, the company is leading the market.",
-      "pattern": "CAUSE-EFFECT-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv8-C5-S30-005",
       "kr": "효과적인 의사소통의 결과로 갈등이 해결되었습니다.",
       "en": "As a consequence of effective communication, conflicts were resolved.",
-      "pattern": "CAUSE-EFFECT-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv8-C5-S30-006",
       "kr": "품질 향상이 고객 만족도 증가를 가져왔습니다.",
       "en": "Quality improvement has brought about increased customer satisfaction.",
-      "pattern": "CAUSE-EFFECT-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv8-C5-S30-007",
       "kr": "경제적 요인으로 인해 계획을 수정해야 했습니다.",
       "en": "On account of economic factors, the plan had to be modified.",
-      "pattern": "CAUSE-EFFECT-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv8-C5-S30-008",
       "kr": "적극적인 마케팅이 판매량 증가로 이어졌습니다.",
       "en": "Aggressive marketing has resulted in increased sales volume.",
-      "pattern": "CAUSE-EFFECT-ADVANCED",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L8_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.566Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_8\\Lv8-C5-S30_bank.json"
+    ]
+  }
 }

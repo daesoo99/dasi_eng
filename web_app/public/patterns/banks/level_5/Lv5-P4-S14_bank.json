@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv5-P4-S14",
-  "title": "강한 의견 표명",
-  "description": "강한 의견 표명을 연습합니다. STRONG-OPINION 패턴을 활용하여 고급 영어 표현을 익힙니다.",
-  "grammar_pattern": "STRONG-OPINION",
+  "title": "Stage Lv5-P4-S14",
+  "description": "Level 5 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "I firmly believe that education is the most important.",
-    "I strongly oppose that proposal.",
-    "I am convinced that change is necessary."
+    "I strongly oppose that proposal."
   ],
-  "learning_points": "opinion-expression 관련 고급 표현과 실용적 활용",
+  "learning_points": "Level 5 target grammar and expressions with practical usage examples",
   "phase": 4,
   "stage_number": 14,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv5-P4-S14-001",
       "kr": "저는 교육이 가장 중요하다고 확신합니다.",
       "en": "I firmly believe that education is the most important.",
-      "pattern": "STRONG-OPINION",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S14-002",
       "kr": "저는 그 제안에 강력히 반대합니다.",
       "en": "I strongly oppose that proposal.",
-      "pattern": "STRONG-OPINION",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S14-003",
       "kr": "저는 변화가 필요하다고 확신합니다.",
       "en": "I am convinced that change is necessary.",
-      "pattern": "STRONG-OPINION",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S14-004",
       "kr": "저는 그 결정을 완전히 지지합니다.",
       "en": "I completely support that decision.",
-      "pattern": "STRONG-OPINION",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S14-005",
       "kr": "저는 그것이 옳지 않다고 단언합니다.",
       "en": "I strongly maintain that it is not right.",
-      "pattern": "STRONG-OPINION",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S14-006",
       "kr": "저는 더 나은 방법이 있다고 확신합니다.",
       "en": "I am certain that there is a better way.",
-      "pattern": "STRONG-OPINION",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S14-007",
       "kr": "저는 그 정책에 단호히 반대합니다.",
       "en": "I am firmly against that policy.",
-      "pattern": "STRONG-OPINION",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S14-008",
       "kr": "저는 품질이 최우선이라고 믿습니다.",
       "en": "I strongly believe that quality comes first.",
-      "pattern": "STRONG-OPINION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L5_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.434Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_5\\Lv5-P4-S14_bank.json"
+    ]
+  }
 }

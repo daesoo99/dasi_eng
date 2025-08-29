@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv10-S13",
+  "title": "원어민 반응 - 안도와 만족",
+  "description": "자연스러운 안도와 만족을 표현하는 원어민 수준의 반응 표현을 구사합니다.",
+  "grammar_pattern": "NATIVE-REACTION-RELIEF",
+  "examples": [
+    "Phew, what a relief! I was really worried about that.",
+    "Ah, that's great! Finally, it's all sorted out.",
+    "Wow, that's a weight off my shoulders!"
+  ],
+  "learning_points": "원어민 수준의 자연스러운 안도와 만족 표현 구사",
+  "phase": 2,
+  "stage_number": 13,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv10-S13-001",
+      "kr": "휴, 다행이다! 정말 걱정했었어.",
+      "en": "Phew, what a relief! I was really worried about that.",
+      "pattern": "NATIVE-REACTION-RELIEF",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S13-002",
+      "kr": "아, 정말 좋다! 드디어 해결됐네.",
+      "en": "Ah, that's great! Finally, it's all sorted out.",
+      "pattern": "NATIVE-REACTION-RELIEF",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S13-003",
+      "kr": "와, 짐이 내려가는 기분이야!",
+      "en": "Wow, that's a weight off my shoulders!",
+      "pattern": "NATIVE-REACTION-RELIEF",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S13-004",
+      "kr": "고마워, 덕분에 마음이 놓였어.",
+      "en": "Thanks, that really puts my mind at ease.",
+      "pattern": "NATIVE-REACTION-RELIEF",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S13-005",
+      "kr": "정말 잘됐다! 이보다 좋을 순 없어.",
+      "en": "That's wonderful! It couldn't have worked out better.",
+      "pattern": "NATIVE-REACTION-RELIEF",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S13-006",
+      "kr": "아, 이제야 숨통이 트이네!",
+      "en": "Ah, now I can finally breathe easy!",
+      "pattern": "NATIVE-REACTION-RELIEF",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S13-007",
+      "kr": "완벽해! 정말 만족스러워.",
+      "en": "Perfect! I'm absolutely satisfied with that.",
+      "pattern": "NATIVE-REACTION-RELIEF",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S13-008",
+      "kr": "드디어! 기다린 보람이 있네.",
+      "en": "Finally! It was worth the wait after all.",
+      "pattern": "NATIVE-REACTION-RELIEF",
+      "form": "aff"
+    }
+  ]
+}

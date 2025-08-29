@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv2-P5-S17",
+  "title": "There is/It is 구분",
+  "description": "한국인이 자주 혼동하는 There is ~와 It is ~ 용법을 명확히 구분합니다. There is/are는 무엇이 존재한다를 말할 때, It is는 이미 언급된 것을 지칭하거나 날씨/시간 표현에 사용됩니다.",
+  "grammar_pattern": "There is/are + 명사 (존재) / It is + 명사/형용사 (지칭/날씨/시간)",
+  "examples": ["There is a book on the table. (존재)", "It is a book. (지칭)", "It is 5 o'clock. (시간)"],
+  "learning_points": "다양한 예문을 통해 두 표현을 번갈아 연습하고, 질문형까지 다뤄서 완벽히 숙지",
+  "phase": 5,
+  "stage_number": 17,
+  "count": 0,
+  "sentences": []
+}

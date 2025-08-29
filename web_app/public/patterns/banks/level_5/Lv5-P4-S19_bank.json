@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv5-P4-S19",
-  "title": "청자 반응 유도",
-  "description": "청자 반응 유도을 연습합니다. AUDIENCE-ENGAGEMENT 패턴을 활용하여 고급 영어 표현을 익힙니다.",
-  "grammar_pattern": "AUDIENCE-ENGAGEMENT",
+  "title": "Stage Lv5-P4-S19",
+  "description": "Level 5 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "It's a nice day, isn't it?",
-    "We should try, don't you think?",
-    "That seems like the best choice, doesn't it?"
+    "We should try, don't you think?"
   ],
-  "learning_points": "interactive 관련 고급 표현과 실용적 활용",
+  "learning_points": "Level 5 target grammar and expressions with practical usage examples",
   "phase": 4,
   "stage_number": 19,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv5-P4-S19-001",
       "kr": "좋은 날씨죠?",
       "en": "It's a nice day, isn't it?",
-      "pattern": "AUDIENCE-ENGAGEMENT",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S19-002",
       "kr": "우리가 시도해봐야 한다고 생각하지 않아요?",
       "en": "We should try, don't you think?",
-      "pattern": "AUDIENCE-ENGAGEMENT",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S19-003",
       "kr": "그게 최선의 선택인 것 같아요, 그렇지 않나요?",
       "en": "That seems like the best choice, doesn't it?",
-      "pattern": "AUDIENCE-ENGAGEMENT",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S19-004",
       "kr": "알겠죠?",
       "en": "You know what I mean?",
-      "pattern": "AUDIENCE-ENGAGEMENT",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S19-005",
       "kr": "맞죠?",
       "en": "Right?",
-      "pattern": "AUDIENCE-ENGAGEMENT",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S19-006",
       "kr": "정말 흥미로운 프로젝트네요, 그렇지 않아요?",
       "en": "It's a really interesting project, isn't it?",
-      "pattern": "AUDIENCE-ENGAGEMENT",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S19-007",
       "kr": "우리가 빨리 결정해야 할 것 같아요, 어떻게 생각하세요?",
       "en": "I think we need to decide quickly, what do you think?",
-      "pattern": "AUDIENCE-ENGAGEMENT",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S19-008",
       "kr": "그런 식으로 접근하는 게 좋겠어요, 동의하시죠?",
       "en": "It would be good to approach it that way, don't you agree?",
-      "pattern": "AUDIENCE-ENGAGEMENT",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L5_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.441Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_5\\Lv5-P4-S19_bank.json"
+    ]
+  }
 }

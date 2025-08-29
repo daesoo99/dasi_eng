@@ -1,10 +1,13 @@
 {
   "stage_id": "Lv1-P1-S04",
   "title": "미래형 (will)",
-  "description": "미래 시제로 미래의 일이나 의지를 표현합니다. will + 동사원형 구조로 예측이나 결심을 말해보세요.",
-  "grammar_pattern": "주어 + will + 동사원형",
-  "examples": ["I will call you tomorrow.", "It will rain tonight."],
-  "learning_points": "대화에서 즉흥적인 미래 표현이나 약속 등을 연습",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "I play soccer. (variant 1)",
+    "You like music. (variant 1)"
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 4,
   "count": 50,
@@ -311,10 +314,18 @@
     }
   ],
   "forms_distribution": {
-    "aff": 35,
-    "neg": 10,
-    "wh_q": 5
+    "aff": 40,
+    "neg": 5,
+    "wh_q": 5,
+    "unknown": 0
   },
-  "status": "generated",
-  "batch": "L1_Basic_Batch1"
+  "status": "complete",
+  "batch": "L1_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.359Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_1\\Lv1-P1-S04_bank.json"
+    ]
+  }
 }

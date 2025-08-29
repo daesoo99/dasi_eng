@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv7-P4-S22",
-  "title": "간접의문문 고급",
-  "description": "과거형 간접의문이나 복잡한 간접 질문을 연습합니다.",
-  "grammar_pattern": "ADVANCED-INDIRECT-QUESTIONS",
+  "title": "Stage Lv7-P4-S22",
+  "description": "Level 7 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "I wondered what he had been thinking about all those years.",
-    "She couldn't understand why the project had been delayed so frequently.",
-    "We need to determine whether the investment will have been worthwhile by then."
+    "She couldn't understand why the project had been delayed so frequently."
   ],
-  "learning_points": "복잡한 시제와 결합된 간접의문문의 고급 활용",
+  "learning_points": "Level 7 target grammar and expressions with practical usage examples",
   "phase": 4,
   "stage_number": 22,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv7-P4-S22-001",
       "kr": "나는 그가 그 모든 시간 동안 무엇을 생각하고 있었는지 궁금했다.",
       "en": "I wondered what he had been thinking about all those years.",
-      "pattern": "ADVANCED-INDIRECT-QUESTIONS",
       "form": "aff"
     },
     {
       "id": "Lv7-P4-S22-002",
       "kr": "그녀는 프로젝트가 왜 그렇게 자주 지연되었는지 이해할 수 없었다.",
       "en": "She couldn't understand why the project had been delayed so frequently.",
-      "pattern": "ADVANCED-INDIRECT-QUESTIONS",
       "form": "neg"
     },
     {
       "id": "Lv7-P4-S22-003",
       "kr": "우리는 그때까지 투자가 가치가 있었을 것인지 결정해야 한다.",
       "en": "We need to determine whether the investment will have been worthwhile by then.",
-      "pattern": "ADVANCED-INDIRECT-QUESTIONS",
       "form": "aff"
     },
     {
       "id": "Lv7-P4-S22-004",
       "kr": "그들은 어떻게 그런 복잡한 문제를 해결해 왔는지 설명했다.",
       "en": "They explained how they had been solving such complex problems.",
-      "pattern": "ADVANCED-INDIRECT-QUESTIONS",
       "form": "aff"
     },
     {
       "id": "Lv7-P4-S22-005",
       "kr": "관리자는 누가 그 중요한 결정을 내렸는지 알고 싶어했다.",
       "en": "The manager wanted to know who had made that crucial decision.",
-      "pattern": "ADVANCED-INDIRECT-QUESTIONS",
       "form": "aff"
     },
     {
       "id": "Lv7-P4-S22-006",
       "kr": "우리는 시장이 언제 회복될지 예측할 수 없다.",
       "en": "We cannot predict when the market will have recovered.",
-      "pattern": "ADVANCED-INDIRECT-QUESTIONS",
       "form": "neg"
     },
     {
       "id": "Lv7-P4-S22-007",
       "kr": "그는 왜 그 기회를 놓쳤는지 자신에게 물어보고 있었다.",
       "en": "He was asking himself why he had missed that opportunity.",
-      "pattern": "ADVANCED-INDIRECT-QUESTIONS",
       "form": "aff"
     },
     {
       "id": "Lv7-P4-S22-008",
       "kr": "전문가들은 기술이 어떻게 발전해 올 것인지 토론했다.",
       "en": "Experts discussed how technology would have been evolving.",
-      "pattern": "ADVANCED-INDIRECT-QUESTIONS",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 6,
+    "neg": 2,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L7_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.520Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_7\\Lv7-P4-S22_bank.json"
+    ]
+  }
 }

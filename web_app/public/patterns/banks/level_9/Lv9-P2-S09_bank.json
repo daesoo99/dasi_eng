@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P2-S09",
-  "title": "혼합 가정법 ②",
-  "description": "현재 상황이 달랐다면 과거 결과가 어땔을지. 예) If I were more confident, I would have spoken up in the meeting. 이러한 변형 가정을 사용하여 스토리텔링 연습.",
-  "grammar_pattern": "MIXED-CONDITIONALS-2",
+  "title": "Stage Lv9-P2-S09",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "If I were more confident, I would have spoken up in the meeting.",
-    "If we had better resources, we would have completed the project earlier.",
-    "If the market were more stable, we would have invested more aggressively."
+    "If we had better resources, we would have completed the project earlier."
   ],
-  "learning_points": "현재 조건이 과거 결과에 미치는 영향을 표현한 혼합 가정법",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 2,
   "stage_number": 9,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv9-P2-S09-001",
       "kr": "내가 더 자신감이 있었다면, 회의에서 발언했을 것입니다.",
       "en": "If I were more confident, I would have spoken up in the meeting.",
-      "pattern": "MIXED-CONDITIONALS-2",
       "form": "aff"
     },
     {
       "id": "Lv9-P2-S09-002",
       "kr": "우리가 더 나은 자원을 가지고 있었다면, 프로젝트를 더 일점 완료했을 것입니다.",
       "en": "If we had better resources, we would have completed the project earlier.",
-      "pattern": "MIXED-CONDITIONALS-2",
       "form": "aff"
     },
     {
       "id": "Lv9-P2-S09-003",
       "kr": "시장이 더 안정적이었다면, 더 공격적으로 투자했을 것입니다.",
       "en": "If the market were more stable, we would have invested more aggressively.",
-      "pattern": "MIXED-CONDITIONALS-2",
       "form": "aff"
     },
     {
       "id": "Lv9-P2-S09-004",
       "kr": "그가 더 경험이 많았다면, 그 상황을 더 잘 처리했을 것입니다.",
       "en": "If he were more experienced, he would have handled the situation better.",
-      "pattern": "MIXED-CONDITIONALS-2",
       "form": "aff"
     },
     {
       "id": "Lv9-P2-S09-005",
       "kr": "기술이 더 발달하였다면, 이런 혜신적인 해결책을 찾지 못했을 것입니다.",
       "en": "If technology were more advanced, we wouldn't have found such innovative solutions.",
-      "pattern": "MIXED-CONDITIONALS-2",
       "form": "aff"
     },
     {
       "id": "Lv9-P2-S09-006",
       "kr": "예산이 더 충분했다면, 그 프로젝트를 다르게 접근했을 것입니다.",
       "en": "If the budget were more adequate, we would have approached that project differently.",
-      "pattern": "MIXED-CONDITIONALS-2",
       "form": "aff"
     },
     {
       "id": "Lv9-P2-S09-007",
       "kr": "팀이 더 커다면, 모든 업무를 동시에 처리했을 것입니다.",
       "en": "If our team were larger, we would have handled all tasks simultaneously.",
-      "pattern": "MIXED-CONDITIONALS-2",
       "form": "aff"
     },
     {
       "id": "Lv9-P2-S09-008",
       "kr": "그 시점에 정보가 더 많었다면, 다른 결정을 내렸을 것입니다.",
       "en": "If we had more information at that time, we would have made a different decision.",
-      "pattern": "MIXED-CONDITIONALS-2",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.593Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P2-S09_bank.json"
+    ]
+  }
 }

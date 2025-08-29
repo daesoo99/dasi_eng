@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv10-S33",
-  "title": "결과 강조 - 교훈적 결과",
-  "description": "교훈과 깨달음을 주는 결과를 강조하는 원어민 수준의 표현을 구사합니다.",
-  "grammar_pattern": "INSTRUCTIVE-OUTCOME-EMPHASIS",
+  "title": "Stage Lv10-S33",
+  "description": "Level 10 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "It was a really good experience. I learned so much.",
-    "I gained a valuable lesson. It's an experience you can't buy.",
-    "I feel like I've grown a lot through this experience."
+    "I gained a valuable lesson. It's an experience you can't buy."
   ],
-  "learning_points": "원어민 수준의 자연스러운 교훈적 결과 표현 구사",
-  "phase": 4,
+  "learning_points": "Level 10 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 33,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv10-S33-001",
       "kr": "정말 좋은 경험이었어. 많은 걸 배웠어.",
       "en": "It was a really good experience. I learned so much.",
-      "pattern": "INSTRUCTIVE-OUTCOME-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv10-S33-002",
       "kr": "값진 교훈을 얻었네. 돈 주고도 못 살 경험이야.",
       "en": "I gained a valuable lesson. It's an experience you can't buy.",
-      "pattern": "INSTRUCTIVE-OUTCOME-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv10-S33-003",
       "kr": "이번 일로 많이 성장한 것 같아.",
       "en": "I feel like I've grown a lot through this experience.",
-      "pattern": "INSTRUCTIVE-OUTCOME-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv10-S33-004",
       "kr": "실패했지만, 얻은 게 더 많아.",
       "en": "We failed, but we gained even more.",
-      "pattern": "INSTRUCTIVE-OUTCOME-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv10-S33-005",
       "kr": "힘들었지만, 그만큼 배운 것도 많아.",
       "en": "It was tough, but I learned just as much.",
-      "pattern": "INSTRUCTIVE-OUTCOME-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv10-S33-006",
       "kr": "이런 결과를 통해 진짜 중요한 걸 깨달았어.",
       "en": "Through this result, I realized what's truly important.",
-      "pattern": "INSTRUCTIVE-OUTCOME-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv10-S33-007",
       "kr": "좌절했지만, 새로운 가능성을 발견했어.",
       "en": "I was frustrated, but I discovered new possibilities.",
-      "pattern": "INSTRUCTIVE-OUTCOME-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv10-S33-008",
       "kr": "예상과 달랐지만, 더 의미 있는 결과야.",
       "en": "It was different from expectations, but it's a more meaningful result.",
-      "pattern": "INSTRUCTIVE-OUTCOME-EMPHASIS",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L10_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.402Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_10\\Lv10-S33_bank.json"
+    ]
+  }
 }

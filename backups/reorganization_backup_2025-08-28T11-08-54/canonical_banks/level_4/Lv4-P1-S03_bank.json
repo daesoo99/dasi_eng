@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv4-P1-S03",
+  "title": "현재완료 vs. 과거완료",
+  "description": "현재완료와 과거완료의 쓰임을 비교 연습합니다. 둘 다 완료 개념이지만, 현재완료는 현재와 연결, 과거완료는 과거 시점과 연결됨을 사례로 배우고, 다양한 상황별 문장을 만들어보며 맥락에 따른 시제 선택을 연습합니다.",
+  "grammar_pattern": "현재완료: have/has + p.p. (현재 연결) vs 과거완료: had + p.p. (과거 시점 연결)",
+  "examples": ["I have lost my key (so I can't get in now).", "I had lost my key (so I couldn't get in then).", "She has finished vs She had finished before he arrived."],
+  "learning_points": "시간 기준점에 따른 완료시제 구분과 적절한 사용",
+  "phase": 1,
+  "stage_number": 3,
+  "count": 0,
+  "sentences": []
+}

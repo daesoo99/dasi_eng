@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv2-P5-S18",
+  "title": "This/That/These/Those",
+  "description": "지시대명사의 단수/복수 및 원거리/근거리 개념을 익힙니다. 가까이 있는 단수는 This, 멀리 있는 것은 That, 복수는 These/Those를 사용합니다.",
+  "grammar_pattern": "This/That + 단수명사 / These/Those + 복수명사",
+  "examples": ["This is my phone.", "Those are my keys over there."],
+  "learning_points": "실물 혹은 그림을 보면서 상황에 따라 지시어 바꿔 말하기 게임으로 자연스럽게 익히기. 발음: 디스/댓/디즈/도즈 차이도 교정",
+  "phase": 5,
+  "stage_number": 18,
+  "count": 0,
+  "sentences": []
+}

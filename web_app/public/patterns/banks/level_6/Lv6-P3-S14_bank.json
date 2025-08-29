@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv6-P3-S14",
-  "title": "가정법 과거완료 재점검",
-  "description": "Level 3~4에서 학습한 가정법 과거완료를 심화된 문맥으로 연습합니다.",
-  "grammar_pattern": "SUBJUNCTIVE-PAST-PERFECT-ADVANCED",
+  "title": "Stage Lv6-P3-S14",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "If I had known about the meeting, I would have prepared better.",
-    "Had she studied harder, she could have passed the exam.",
-    "If we had invested earlier, we would have made more profit."
+    "Had she studied harder, she could have passed the exam."
   ],
-  "learning_points": "가정법 과거완료의 고급 활용과 복잡한 상황 적용",
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
   "phase": 3,
   "stage_number": 14,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv6-P3-S14-001",
       "kr": "회의에 대해 알았다면 더 잘 준비했을 텐데.",
       "en": "If I had known about the meeting, I would have prepared better.",
-      "pattern": "SUBJUNCTIVE-PAST-PERFECT-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S14-002",
       "kr": "그녀가 더 열심히 공부했었다면 시험에 합격할 수 있었을 텐데.",
       "en": "Had she studied harder, she could have passed the exam.",
-      "pattern": "SUBJUNCTIVE-PAST-PERFECT-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S14-003",
       "kr": "우리가 더 일찍 투자했었다면 더 많은 수익을 올렸을 텐데.",
       "en": "If we had invested earlier, we would have made more profit.",
-      "pattern": "SUBJUNCTIVE-PAST-PERFECT-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S14-004",
       "kr": "그 정보를 미리 받았었다면 다른 결정을 내렸을 것입니다.",
       "en": "If I had received that information earlier, I would have made a different decision.",
-      "pattern": "SUBJUNCTIVE-PAST-PERFECT-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S14-005",
       "kr": "팀이 더 잘 소통했었다면 프로젝트가 성공했을 텐데.",
       "en": "Had the team communicated better, the project would have succeeded.",
-      "pattern": "SUBJUNCTIVE-PAST-PERFECT-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S14-006",
       "kr": "날씨가 좋았었다면 행사를 연기하지 않았을 텐데.",
       "en": "If the weather had been good, we wouldn't have postponed the event.",
-      "pattern": "SUBJUNCTIVE-PAST-PERFECT-ADVANCED",
       "form": "neg"
     },
     {
       "id": "Lv6-P3-S14-007",
       "kr": "그가 조언을 들었었다면 실수를 피할 수 있었을 텐데.",
       "en": "If he had listened to the advice, he could have avoided the mistake.",
-      "pattern": "SUBJUNCTIVE-PAST-PERFECT-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S14-008",
       "kr": "회사가 시장 변화를 예측했었다면 더 잘 대응했을 것입니다.",
       "en": "Had the company predicted market changes, it would have responded better.",
-      "pattern": "SUBJUNCTIVE-PAST-PERFECT-ADVANCED",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 7,
+    "neg": 1,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.468Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_6\\Lv6-P3-S14_bank.json"
+    ]
+  }
 }

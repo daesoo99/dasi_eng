@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv8-C6-S36",
-  "title": "극대화된 정중함",
-  "description": "극도로 정중하고 격식을 갖춘 표현을 통해 최고 수준의 예의를 보이는 방법을 연습합니다.",
-  "grammar_pattern": "EXTREME-POLITENESS",
+  "title": "Stage Lv8-C6-S36",
+  "description": "Level 8 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "I would be most grateful if you could spare a few moments of your valuable time.",
-    "Might I venture to suggest that perhaps we could consider an alternative approach?",
-    "I do hope you will not think me presumptuous in offering this recommendation."
+    "Might I venture to suggest that perhaps we could consider an alternative approach?"
   ],
-  "learning_points": "극대화된 정중함을 통한 최고 수준의 격식 있는 의사소통",
-  "phase": 6,
+  "learning_points": "Level 8 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 36,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv8-C6-S36-001",
       "kr": "귀하의 소중한 시간을 잠시 할애해 주신다면 대단히 감사하겠습니다.",
       "en": "I would be most grateful if you could spare a few moments of your valuable time.",
-      "pattern": "EXTREME-POLITENESS",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S36-002",
       "kr": "감히 대안적 접근법을 고려해볼 수 있을까 제안드려도 될까요?",
       "en": "Might I venture to suggest that perhaps we could consider an alternative approach?",
-      "pattern": "EXTREME-POLITENESS",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S36-003",
       "kr": "이 권고를 드리는 것이 주제넘다고 생각하지 않으시기를 바랍니다.",
       "en": "I do hope you will not think me presumptuous in offering this recommendation.",
-      "pattern": "EXTREME-POLITENESS",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S36-004",
       "kr": "귀하의 고견을 듣는 영광을 누릴 수 있다면 무한히 감사하겠습니다.",
       "en": "It would be an immense honor to have the privilege of hearing your esteemed opinion.",
-      "pattern": "EXTREME-POLITENESS",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S36-005",
       "kr": "이 작은 요청이 귀하께 불편을 끼치지 않기를 간절히 바랍니다.",
       "en": "I sincerely hope this modest request will not cause you any inconvenience whatsoever.",
-      "pattern": "EXTREME-POLITENESS",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S36-006",
       "kr": "귀하의 깊은 지혜와 경험을 조금이나마 나누어 주신다면 영광일 것입니다.",
       "en": "It would be a privilege if you could share even a fraction of your profound wisdom and experience.",
-      "pattern": "EXTREME-POLITENESS",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S36-007",
       "kr": "감히 귀하의 귀중한 조언을 구할 수 있는 기회를 얻을 수 있을까요?",
       "en": "Might I have the opportunity to humbly seek your invaluable guidance?",
-      "pattern": "EXTREME-POLITENESS",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S36-008",
       "kr": "이 제안이 귀하의 높은 기준에 부합하기를 간절히 희망합니다.",
       "en": "I earnestly hope this proposal will meet with your distinguished approval.",
-      "pattern": "EXTREME-POLITENESS",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L8_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.572Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_8\\Lv8-C6-S36_bank.json"
+    ]
+  }
 }

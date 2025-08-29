@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv7-P5-S27",
-  "title": "복합 관계대명사 응용",
-  "description": "whoever/whatever 등을 회화에서 활용하는 연습을 합니다.",
-  "grammar_pattern": "COMPOUND-RELATIVE-PRONOUNS",
+  "title": "Stage Lv7-P5-S27",
+  "description": "Level 7 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Whoever completes the task first will receive a bonus.",
-    "Whatever decision we make, we must consider all consequences.",
-    "Whichever option you choose, I will support your choice."
+    "Whatever decision we make, we must consider all consequences."
   ],
-  "learning_points": "복합 관계대명사를 활용한 포괄적이고 유연한 표현",
+  "learning_points": "Level 7 target grammar and expressions with practical usage examples",
   "phase": 5,
   "stage_number": 27,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv7-P5-S27-001",
       "kr": "누구든지 그 업무를 먼저 완료하는 사람이 보너스를 받을 것이다.",
       "en": "Whoever completes the task first will receive a bonus.",
-      "pattern": "COMPOUND-RELATIVE-PRONOUNS",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S27-002",
       "kr": "우리가 어떤 결정을 내리든, 모든 결과를 고려해야 한다.",
       "en": "Whatever decision we make, we must consider all consequences.",
-      "pattern": "COMPOUND-RELATIVE-PRONOUNS",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S27-003",
       "kr": "당신이 어떤 선택을 하든, 나는 당신의 선택을 지지할 것이다.",
       "en": "Whichever option you choose, I will support your choice.",
-      "pattern": "COMPOUND-RELATIVE-PRONOUNS",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S27-004",
       "kr": "누구든지 이 프로젝트에 참여하고 싶어하는 사람은 환영한다.",
       "en": "Whoever wants to participate in this project is welcome.",
-      "pattern": "COMPOUND-RELATIVE-PRONOUNS",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S27-005",
       "kr": "무엇이든 필요한 것이 있으면 주저하지 말고 말해 주세요.",
       "en": "Whatever you need, please don't hesitate to let me know.",
-      "pattern": "COMPOUND-RELATIVE-PRONOUNS",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S27-006",
       "kr": "누구든지 규칙을 어기는 사람은 처벌을 피할 수 없다.",
       "en": "Whoever breaks the rules cannot avoid punishment.",
-      "pattern": "COMPOUND-RELATIVE-PRONOUNS",
       "form": "neg"
     },
     {
       "id": "Lv7-P5-S27-007",
       "kr": "어떤 방법을 사용하든, 목표를 달성하는 것이 중요하다.",
       "en": "However you approach it, achieving the goal is what matters.",
-      "pattern": "COMPOUND-RELATIVE-PRONOUNS",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S27-008",
       "kr": "어느 팀이 우승하든, 모든 참가자들이 훌륭한 경험을 했다.",
       "en": "Whichever team wins, all participants have had a great experience.",
-      "pattern": "COMPOUND-RELATIVE-PRONOUNS",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 7,
+    "neg": 1,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L7_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.524Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_7\\Lv7-P5-S27_bank.json"
+    ]
+  }
 }

@@ -1,57 +1,331 @@
 {
-  "stage_id": "Lv1-P3-S10", 
-  "title": "기본 형용사 사용",
+  "stage_id": "Lv1-P3-S10",
+  "title": "Stage Lv1-P3-S10",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "It is a red apple. (variant 1)",
+    "That is a red apple. (variant 2)"
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
+  "phase": 3,
+  "stage_number": 10,
   "count": 50,
   "sentences": [
-    {"id": "Lv1-P3-S10-001", "kr": "그것은 빨간 사과입니다. (v1)", "en": "It is a red apple. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P3-S10-002", "kr": "그것은 빨간 사과입니다. (v2)", "en": "That is a red apple. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P3-S10-003", "kr": "나는 큰 집에 삽니다. (v1)", "en": "I live in a big house. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P3-S10-004", "kr": "나는 큰 집에 삽니다. (v2)", "en": "I live in a large house. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P3-S10-005", "kr": "그녀는 작은 강아지를 가지고 있습니다. (v1)", "en": "She has a small dog. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P3-S10-006", "kr": "그녀는 작은 강아지를 가지고 있습니다. (v2)", "en": "She has a little dog. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P3-S10-007", "kr": "오늘은 좋은 날씨입니다. (v1)", "en": "Today is good weather. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P3-S10-008", "kr": "오늘은 좋은 날씨입니다. (v2)", "en": "It is nice weather today. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P3-S10-009", "kr": "나는 행복합니다. (v1)", "en": "I am happy. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P3-S10-010", "kr": "나는 행복합니다. (v2)", "en": "I feel happy. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P3-S10-011", "kr": "그는 슬픕니다. (v1)", "en": "He is sad. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P3-S10-012", "kr": "그는 슬픕니다. (v2)", "en": "He feels sad. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P3-S10-013", "kr": "이 책은 두꺼운 책입니다. (v1)", "en": "This is a thick book. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P3-S10-014", "kr": "이 책은 두꺼운 책입니다. (v2)", "en": "This book is thick. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P3-S10-015", "kr": "저 남자는 키가 큽니다. (v1)", "en": "That man is tall. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P3-S10-016", "kr": "저 남자는 키가 큽니다. (v2)", "en": "That man is very tall. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P3-S10-017", "kr": "이 여자는 키가 작습니다. (v1)", "en": "This woman is short. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P3-S10-018", "kr": "이 여자는 키가 작습니다. (v2)", "en": "This woman is small. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P3-S10-019", "kr": "음식이 맛있습니다. (v1)", "en": "The food is good. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P3-S10-020", "kr": "음식이 맛있습니다. (v2)", "en": "The food is nice. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P3-S10-021", "kr": "물이 차갑습니다. (v1)", "en": "The water is cold. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P3-S10-022", "kr": "물이 차갑습니다. (v2)", "en": "The water feels cold. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P3-S10-023", "kr": "커피가 뜨겁습니다. (v1)", "en": "The coffee is hot. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P3-S10-024", "kr": "커피가 뜨겁습니다. (v2)", "en": "The coffee feels hot. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P3-S10-025", "kr": "그녀는 예쁜 드레스를 입고 있습니다. (v1)", "en": "She has a pretty dress. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P3-S10-026", "kr": "그녀는 예쁜 드레스를 입고 있습니다. (v2)", "en": "She wears a beautiful dress. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P3-S10-027", "kr": "이 방은 깨끗합니다. (v1)", "en": "This room is clean. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P3-S10-028", "kr": "이 방은 깨끗합니다. (v2)", "en": "This room looks clean. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P3-S10-029", "kr": "저 방은 더럽습니다. (v1)", "en": "That room is dirty. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P3-S10-030", "kr": "저 방은 더럽습니다. (v2)", "en": "That room looks dirty. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P3-S10-031", "kr": "나는 새 신발을 샀습니다. (v1)", "en": "I bought new shoes. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P3-S10-032", "kr": "나는 새 신발을 샀습니다. (v2)", "en": "I got new shoes. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P3-S10-033", "kr": "그는 오래된 차를 가지고 있습니다. (v1)", "en": "He has an old car. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P3-S10-034", "kr": "그는 오래된 차를 가지고 있습니다. (v2)", "en": "He owns an old car. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P3-S10-035", "kr": "이 길은 좁습니다. (v1)", "en": "This road is narrow. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P3-S10-036", "kr": "이 길은 좁습니다. (v2)", "en": "This street is narrow. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P3-S10-037", "kr": "저 길은 넓습니다. (v1)", "en": "That road is wide. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P3-S10-038", "kr": "저 길은 넓습니다. (v2)", "en": "That street is wide. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P3-S10-039", "kr": "하늘이 파랗습니다. (v1)", "en": "The sky is blue. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P3-S10-040", "kr": "하늘이 파랗습니다. (v2)", "en": "The sky looks blue. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P3-S10-041", "kr": "꽃이 아름답습니다. (v1)", "en": "The flower is beautiful. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P3-S10-042", "kr": "꽃이 아름답습니다. (v2)", "en": "The flowers are pretty. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P3-S10-043", "kr": "시험이 어렵습니다. (v1)", "en": "The test is hard. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P3-S10-044", "kr": "시험이 어렵습니다. (v2)", "en": "The test is difficult. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P3-S10-045", "kr": "숙제가 쉽습니다. (v1)", "en": "The homework is easy. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P3-S10-046", "kr": "숙제가 쉽습니다. (v2)", "en": "The work is simple. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P3-S10-047", "kr": "그 영화는 재미있었습니다. (v1)", "en": "The movie was good. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P3-S10-048", "kr": "그 영화는 재미있었습니다. (v2)", "en": "The movie was fun. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P3-S10-049", "kr": "이 소식은 중요합니다. (v1)", "en": "This news is important. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P3-S10-050", "kr": "이 소식은 중요합니다. (v2)", "en": "This news is big. (variant 2)", "form": "aff"}
-  ]
+    {
+      "id": "Lv1-P3-S10-001",
+      "kr": "그것은 빨간 사과입니다. (v1)",
+      "en": "It is a red apple. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-002",
+      "kr": "그것은 빨간 사과입니다. (v2)",
+      "en": "That is a red apple. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-003",
+      "kr": "나는 큰 집에 삽니다. (v1)",
+      "en": "I live in a big house. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-004",
+      "kr": "나는 큰 집에 삽니다. (v2)",
+      "en": "I live in a large house. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-005",
+      "kr": "그녀는 작은 강아지를 가지고 있습니다. (v1)",
+      "en": "She has a small dog. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-006",
+      "kr": "그녀는 작은 강아지를 가지고 있습니다. (v2)",
+      "en": "She has a little dog. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-007",
+      "kr": "오늘은 좋은 날씨입니다. (v1)",
+      "en": "Today is good weather. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-008",
+      "kr": "오늘은 좋은 날씨입니다. (v2)",
+      "en": "It is nice weather today. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-009",
+      "kr": "나는 행복합니다. (v1)",
+      "en": "I am happy. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-010",
+      "kr": "나는 행복합니다. (v2)",
+      "en": "I feel happy. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-011",
+      "kr": "그는 슬픕니다. (v1)",
+      "en": "He is sad. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-012",
+      "kr": "그는 슬픕니다. (v2)",
+      "en": "He feels sad. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-013",
+      "kr": "이 책은 두꺼운 책입니다. (v1)",
+      "en": "This is a thick book. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-014",
+      "kr": "이 책은 두꺼운 책입니다. (v2)",
+      "en": "This book is thick. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-015",
+      "kr": "저 남자는 키가 큽니다. (v1)",
+      "en": "That man is tall. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-016",
+      "kr": "저 남자는 키가 큽니다. (v2)",
+      "en": "That man is very tall. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-017",
+      "kr": "이 여자는 키가 작습니다. (v1)",
+      "en": "This woman is short. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-018",
+      "kr": "이 여자는 키가 작습니다. (v2)",
+      "en": "This woman is small. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-019",
+      "kr": "음식이 맛있습니다. (v1)",
+      "en": "The food is good. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-020",
+      "kr": "음식이 맛있습니다. (v2)",
+      "en": "The food is nice. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-021",
+      "kr": "물이 차갑습니다. (v1)",
+      "en": "The water is cold. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-022",
+      "kr": "물이 차갑습니다. (v2)",
+      "en": "The water feels cold. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-023",
+      "kr": "커피가 뜨겁습니다. (v1)",
+      "en": "The coffee is hot. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-024",
+      "kr": "커피가 뜨겁습니다. (v2)",
+      "en": "The coffee feels hot. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-025",
+      "kr": "그녀는 예쁜 드레스를 입고 있습니다. (v1)",
+      "en": "She has a pretty dress. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-026",
+      "kr": "그녀는 예쁜 드레스를 입고 있습니다. (v2)",
+      "en": "She wears a beautiful dress. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-027",
+      "kr": "이 방은 깨끗합니다. (v1)",
+      "en": "This room is clean. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-028",
+      "kr": "이 방은 깨끗합니다. (v2)",
+      "en": "This room looks clean. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-029",
+      "kr": "저 방은 더럽습니다. (v1)",
+      "en": "That room is dirty. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-030",
+      "kr": "저 방은 더럽습니다. (v2)",
+      "en": "That room looks dirty. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-031",
+      "kr": "나는 새 신발을 샀습니다. (v1)",
+      "en": "I bought new shoes. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-032",
+      "kr": "나는 새 신발을 샀습니다. (v2)",
+      "en": "I got new shoes. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-033",
+      "kr": "그는 오래된 차를 가지고 있습니다. (v1)",
+      "en": "He has an old car. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-034",
+      "kr": "그는 오래된 차를 가지고 있습니다. (v2)",
+      "en": "He owns an old car. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-035",
+      "kr": "이 길은 좁습니다. (v1)",
+      "en": "This road is narrow. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-036",
+      "kr": "이 길은 좁습니다. (v2)",
+      "en": "This street is narrow. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-037",
+      "kr": "저 길은 넓습니다. (v1)",
+      "en": "That road is wide. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-038",
+      "kr": "저 길은 넓습니다. (v2)",
+      "en": "That street is wide. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-039",
+      "kr": "하늘이 파랗습니다. (v1)",
+      "en": "The sky is blue. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-040",
+      "kr": "하늘이 파랗습니다. (v2)",
+      "en": "The sky looks blue. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-041",
+      "kr": "꽃이 아름답습니다. (v1)",
+      "en": "The flower is beautiful. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-042",
+      "kr": "꽃이 아름답습니다. (v2)",
+      "en": "The flowers are pretty. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-043",
+      "kr": "시험이 어렵습니다. (v1)",
+      "en": "The test is hard. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-044",
+      "kr": "시험이 어렵습니다. (v2)",
+      "en": "The test is difficult. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-045",
+      "kr": "숙제가 쉽습니다. (v1)",
+      "en": "The homework is easy. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-046",
+      "kr": "숙제가 쉽습니다. (v2)",
+      "en": "The work is simple. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-047",
+      "kr": "그 영화는 재미있었습니다. (v1)",
+      "en": "The movie was good. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-048",
+      "kr": "그 영화는 재미있었습니다. (v2)",
+      "en": "The movie was fun. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-049",
+      "kr": "이 소식은 중요합니다. (v1)",
+      "en": "This news is important. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S10-050",
+      "kr": "이 소식은 중요합니다. (v2)",
+      "en": "This news is big. (variant 2)",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 50,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L1_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.365Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_1\\Lv1-P3-S10_bank.json"
+    ]
+  }
 }

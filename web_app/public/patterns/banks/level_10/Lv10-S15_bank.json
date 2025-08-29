@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv10-S15",
-  "title": "구어체 조건 표현 - 현실적 조건",
-  "description": "일상 대화에서 자연스럽게 사용하는 현실적 조건 표현을 원어민 수준으로 구사합니다.",
-  "grammar_pattern": "COLLOQUIAL-REALISTIC-CONDITIONS",
+  "title": "Stage Lv10-S15",
+  "description": "Level 10 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "If I can find the time, I'd love to go.",
-    "If money weren't an issue, I'd do it right away.",
-    "If the weather's nice, it'd be perfect for a picnic."
+    "If money weren't an issue, I'd do it right away."
   ],
-  "learning_points": "원어민 수준의 자연스러운 현실적 조건 표현 구사",
-  "phase": 2,
+  "learning_points": "Level 10 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 15,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv10-S15-001",
       "kr": "만약에 시간만 된다면, 꼭 가고 싶어.",
       "en": "If I can find the time, I'd love to go.",
-      "pattern": "COLLOQUIAL-REALISTIC-CONDITIONS",
       "form": "aff"
     },
     {
       "id": "Lv10-S15-002",
       "kr": "돈이 문제가 아니라면, 당장이라도 할 텐데.",
       "en": "If money weren't an issue, I'd do it right away.",
-      "pattern": "COLLOQUIAL-REALISTIC-CONDITIONS",
       "form": "aff"
     },
     {
       "id": "Lv10-S15-003",
       "kr": "날씨만 좋으면, 피크닉 가기 딱 좋을 텐데.",
       "en": "If the weather's nice, it'd be perfect for a picnic.",
-      "pattern": "COLLOQUIAL-REALISTIC-CONDITIONS",
       "form": "aff"
     },
     {
       "id": "Lv10-S15-004",
       "kr": "네가 괜찮다면, 내일 만날 수 있어?",
       "en": "If you're okay with it, could we meet tomorrow?",
-      "pattern": "COLLOQUIAL-REALISTIC-CONDITIONS",
       "form": "aff"
     },
     {
       "id": "Lv10-S15-005",
       "kr": "상황이 허락한다면, 더 오래 있고 싶어.",
       "en": "If circumstances allow, I'd like to stay longer.",
-      "pattern": "COLLOQUIAL-REALISTIC-CONDITIONS",
       "form": "aff"
     },
     {
       "id": "Lv10-S15-006",
       "kr": "운이 좋으면, 표를 구할 수 있을 거야.",
       "en": "If we're lucky, we should be able to get tickets.",
-      "pattern": "COLLOQUIAL-REALISTIC-CONDITIONS",
       "form": "aff"
     },
     {
       "id": "Lv10-S15-007",
       "kr": "모든 게 계획대로 된다면, 다음 주에 끝날 거야.",
       "en": "If everything goes according to plan, we'll finish next week.",
-      "pattern": "COLLOQUIAL-REALISTIC-CONDITIONS",
       "form": "aff"
     },
     {
       "id": "Lv10-S15-008",
       "kr": "길이 막히지 않는다면, 한 시간이면 도착해.",
       "en": "If there's no traffic, we'll be there in an hour.",
-      "pattern": "COLLOQUIAL-REALISTIC-CONDITIONS",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L10_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.385Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_10\\Lv10-S15_bank.json"
+    ]
+  }
 }

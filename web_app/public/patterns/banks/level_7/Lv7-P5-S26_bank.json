@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv7-P5-S26",
-  "title": "관계부사 where/when/why 심화",
-  "description": "관계부사절을 중첩시켜 말해봅니다.",
-  "grammar_pattern": "ADVANCED-RELATIVE-ADVERBS",
+  "title": "Stage Lv7-P5-S26",
+  "description": "Level 7 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "This is the place where we first met when we were students.",
-    "I remember the day when everything changed, which was why we had to adapt.",
-    "The reason why the project succeeded was the moment when everyone collaborated effectively."
+    "I remember the day when everything changed, which was why we had to adapt."
   ],
-  "learning_points": "관계부사의 중첩과 연결을 통한 복잡한 관계 표현",
+  "learning_points": "Level 7 target grammar and expressions with practical usage examples",
   "phase": 5,
   "stage_number": 26,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv7-P5-S26-001",
       "kr": "이곳이 우리가 학생이었을 때 처음 만난 장소다.",
       "en": "This is the place where we first met when we were students.",
-      "pattern": "ADVANCED-RELATIVE-ADVERBS",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S26-002",
       "kr": "모든 것이 바뀐 그 날을 기억하는데, 그래서 우리가 적응해야 했다.",
       "en": "I remember the day when everything changed, which was why we had to adapt.",
-      "pattern": "ADVANCED-RELATIVE-ADVERBS",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S26-003",
       "kr": "프로젝트가 성공한 이유는 모든 사람이 효과적으로 협력한 그 순간 때문이었다.",
       "en": "The reason why the project succeeded was the moment when everyone collaborated effectively.",
-      "pattern": "ADVANCED-RELATIVE-ADVERBS",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S26-004",
       "kr": "그들이 만난 카페는 결정적인 논의가 이루어진 곳이었다.",
       "en": "The cafe where they met was the place where crucial discussions took place.",
-      "pattern": "ADVANCED-RELATIVE-ADVERBS",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S26-005",
       "kr": "새로운 정책이 발표된 시기가 시장이 불안정했던 때였다.",
       "en": "The time when the new policy was announced was when the market was unstable.",
-      "pattern": "ADVANCED-RELATIVE-ADVERBS",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S26-006",
       "kr": "그녀가 떠난 이유를 우리가 이해하지 못한 것은 아니었다.",
       "en": "The reason why she left wasn't something we couldn't understand.",
-      "pattern": "ADVANCED-RELATIVE-ADVERBS",
       "form": "neg"
     },
     {
       "id": "Lv7-P5-S26-007",
       "kr": "회의가 열린 건물이 새로운 아이디어가 탄생한 장소가 되었다.",
       "en": "The building where the meeting was held became the place where new ideas were born.",
-      "pattern": "ADVANCED-RELATIVE-ADVERBS",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S26-008",
       "kr": "위기가 발생한 순간이 팀이 진정으로 단결된 때였다.",
       "en": "The moment when the crisis occurred was when the team truly united.",
-      "pattern": "ADVANCED-RELATIVE-ADVERBS",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 7,
+    "neg": 1,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L7_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.524Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_7\\Lv7-P5-S26_bank.json"
+    ]
+  }
 }

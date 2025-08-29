@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv7-P1-S03",
-  "title": "과거완료진행형 활용",
-  "description": "과거완료진행을 사용해 두 가지 과거 사건의 관계를 상세히 설명합니다.",
-  "grammar_pattern": "PAST-PERFECT-CONTINUOUS-APPLICATION",
+  "title": "Stage Lv7-P1-S03",
+  "description": "Level 7 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "She had been working on the project for months when the company suddenly changed its direction.",
-    "They had been negotiating the contract for weeks before reaching a final agreement.",
-    "I had been thinking about this decision for a long time when the opportunity finally presented itself."
+    "They had been negotiating the contract for weeks before reaching a final agreement."
   ],
-  "learning_points": "과거완료진행형을 통한 복잡한 과거 시간 관계 표현",
+  "learning_points": "Level 7 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 3,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv7-P1-S03-001",
       "kr": "회사가 갑자기 방향을 바꿨을 때, 그녀는 몇 달 동안 그 프로젝트를 진행해오고 있었다.",
       "en": "She had been working on the project for months when the company suddenly changed its direction.",
-      "pattern": "PAST-PERFECT-CONTINUOUS-APPLICATION",
       "form": "aff"
     },
     {
       "id": "Lv7-P1-S03-002",
       "kr": "그들은 최종 합의에 도달하기 전에 몇 주 동안 계약을 협상해오고 있었다.",
       "en": "They had been negotiating the contract for weeks before reaching a final agreement.",
-      "pattern": "PAST-PERFECT-CONTINUOUS-APPLICATION",
       "form": "aff"
     },
     {
       "id": "Lv7-P1-S03-003",
       "kr": "기회가 마침내 나타났을 때, 나는 이 결정에 대해 오랫동안 생각해오고 있었다.",
       "en": "I had been thinking about this decision for a long time when the opportunity finally presented itself.",
-      "pattern": "PAST-PERFECT-CONTINUOUS-APPLICATION",
       "form": "aff"
     },
     {
       "id": "Lv7-P1-S03-004",
       "kr": "팀은 새로운 리더가 임명되기 전까지 어려운 상황에서 고생해오고 있었다.",
       "en": "The team had been struggling with the difficult situation until a new leader was appointed.",
-      "pattern": "PAST-PERFECT-CONTINUOUS-APPLICATION",
       "form": "aff"
     },
     {
       "id": "Lv7-P1-S03-005",
       "kr": "그는 해결책을 찾기 전에 여러 달 동안 그 문제를 연구해오고 있었다.",
       "en": "He had been researching the problem for several months before finding a solution.",
-      "pattern": "PAST-PERFECT-CONTINUOUS-APPLICATION",
       "form": "aff"
     },
     {
       "id": "Lv7-P1-S03-006",
       "kr": "회사는 새로운 투자자를 만나기 전까지 자금 조달에 어려움을 겪고 있지 않았다.",
       "en": "The company hadn't been experiencing funding difficulties until they met the new investor.",
-      "pattern": "PAST-PERFECT-CONTINUOUS-APPLICATION",
       "form": "neg"
     },
     {
       "id": "Lv7-P1-S03-007",
       "kr": "학생들은 새로운 교수가 오기 전까지 그 과목을 즐기며 공부해오고 있었다.",
       "en": "The students had been enjoying studying the subject until the new professor arrived.",
-      "pattern": "PAST-PERFECT-CONTINUOUS-APPLICATION",
       "form": "aff"
     },
     {
       "id": "Lv7-P1-S03-008",
       "kr": "그녀는 승진 소식을 들었을 때, 몇 년 동안 그 목표를 위해 노력해오고 있었다.",
       "en": "When she heard about the promotion, she had been working toward that goal for years.",
-      "pattern": "PAST-PERFECT-CONTINUOUS-APPLICATION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 7,
+    "neg": 1,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L7_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.498Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_7\\Lv7-P1-S03_bank.json"
+    ]
+  }
 }

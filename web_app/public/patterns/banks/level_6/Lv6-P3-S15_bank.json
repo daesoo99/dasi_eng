@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv6-P3-S15",
-  "title": "혼합 가정법 연습",
-  "description": "과거와 현재를 연결하는 혼합 가정법으로 복잡한 시간적 관계를 표현합니다. MIXED-CONDITIONAL-PRACTICE 패턴을 연습합니다.",
-  "grammar_pattern": "MIXED-CONDITIONAL-PRACTICE",
+  "title": "Stage Lv6-P3-S15",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "If I had saved more money, I would be traveling now.",
-    "If she were more confident, she would have gotten the job.",
-    "If we had launched the product earlier, we would be market leaders today."
+    "If she were more confident, she would have gotten the job."
   ],
-  "learning_points": "과거 행동이 현재에 미치는 영향의 가정적 표현",
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
   "phase": 3,
   "stage_number": 15,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv6-P3-S15-001",
       "kr": "돈을 더 많이 저축했다면 지금 여행을 하고 있을 텐데요.",
       "en": "If I had saved more money, I would be traveling now.",
-      "pattern": "MIXED-CONDITIONAL-PRACTICE",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S15-002",
       "kr": "그녀가 더 자신감이 있었다면 그 직장을 얻었을 것입니다.",
       "en": "If she were more confident, she would have gotten the job.",
-      "pattern": "MIXED-CONDITIONAL-PRACTICE",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S15-003",
       "kr": "제품을 더 일찍 출시했다면 오늘날 시장 선도업체가 되어 있을 것입니다.",
       "en": "If we had launched the product earlier, we would be market leaders today.",
-      "pattern": "MIXED-CONDITIONAL-PRACTICE",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S15-004",
       "kr": "대학에서 더 열심히 공부했다면 지금 더 좋은 직장에 있을 것입니다.",
       "en": "If I had studied harder in college, I would have a better job now.",
-      "pattern": "MIXED-CONDITIONAL-PRACTICE",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S15-005",
       "kr": "그가 더 신중했다면 그런 실수를 하지 않았을 것입니다.",
       "en": "If he were more cautious, he wouldn't have made that mistake.",
-      "pattern": "MIXED-CONDITIONAL-PRACTICE",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S15-006",
       "kr": "그 당시에 다른 결정을 했다면 지금 다른 인생을 살고 있을 것입니다.",
       "en": "If we had made different decisions then, we would be living different lives now.",
-      "pattern": "MIXED-CONDITIONAL-PRACTICE",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S15-007",
       "kr": "회사가 더 혁신적이었다면 지금도 경쟁력을 유지하고 있을 것입니다.",
       "en": "If the company were more innovative, it would have maintained its competitiveness.",
-      "pattern": "MIXED-CONDITIONAL-PRACTICE",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S15-008",
       "kr": "기술 투자를 더 했다면 지금 이 분야에서 선두를 달리고 있을 것입니다.",
       "en": "If they had invested more in technology, they would be leading in this field now.",
-      "pattern": "MIXED-CONDITIONAL-PRACTICE",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.469Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_6\\Lv6-P3-S15_bank.json"
+    ]
+  }
 }

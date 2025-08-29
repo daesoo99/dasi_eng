@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv7-P1-S04",
-  "title": "미래완료 실전",
-  "description": "미래완료를 실제로 많이 쓰일 만한 맥락에서 연습합니다.",
-  "grammar_pattern": "FUTURE-PERFECT-PRACTICAL",
+  "title": "Stage Lv7-P1-S04",
+  "description": "Level 7 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "By the time you graduate, you will have gained valuable experience through internships.",
-    "The project will have been completed by next month's board meeting.",
-    "Scientists will have made significant discoveries by the end of this decade."
+    "The project will have been completed by next month's board meeting."
   ],
-  "learning_points": "실용적인 맥락에서의 미래완료 시제 활용",
+  "learning_points": "Level 7 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 4,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv7-P1-S04-001",
       "kr": "당신이 졸업할 때쯤이면, 인턴십을 통해 귀중한 경험을 쌓았을 것이다.",
       "en": "By the time you graduate, you will have gained valuable experience through internships.",
-      "pattern": "FUTURE-PERFECT-PRACTICAL",
       "form": "aff"
     },
     {
       "id": "Lv7-P1-S04-002",
       "kr": "다음 달 이사회 회의까지는 프로젝트가 완료되었을 것이다.",
       "en": "The project will have been completed by next month's board meeting.",
-      "pattern": "FUTURE-PERFECT-PRACTICAL",
       "form": "aff"
     },
     {
       "id": "Lv7-P1-S04-003",
       "kr": "과학자들은 이번 십년이 끝날 때까지 중요한 발견들을 했을 것이다.",
       "en": "Scientists will have made significant discoveries by the end of this decade.",
-      "pattern": "FUTURE-PERFECT-PRACTICAL",
       "form": "aff"
     },
     {
       "id": "Lv7-P1-S04-004",
       "kr": "2030년까지는 재생 에너지가 전통적인 화석 연료를 대체했을 것이다.",
       "en": "By 2030, renewable energy will have replaced traditional fossil fuels in many sectors.",
-      "pattern": "FUTURE-PERFECT-PRACTICAL",
       "form": "aff"
     },
     {
       "id": "Lv7-P1-S04-005",
       "kr": "당신이 은퇴할 때쯤이면, 충분한 자금을 저축했을 것이다.",
       "en": "By the time you retire, you will have saved enough money for a comfortable life.",
-      "pattern": "FUTURE-PERFECT-PRACTICAL",
       "form": "aff"
     },
     {
       "id": "Lv7-P1-S04-006",
       "kr": "내년 이맘때까지는 새로운 시스템이 모든 부서에 구현되지 않았을 것이다.",
       "en": "By this time next year, the new system will not have been implemented in all departments.",
-      "pattern": "FUTURE-PERFECT-PRACTICAL",
       "form": "neg"
     },
     {
       "id": "Lv7-P1-S04-007",
       "kr": "그들이 도착할 때까지는 우리가 모든 준비를 마쳤을 것이다.",
       "en": "By the time they arrive, we will have finished all the preparations.",
-      "pattern": "FUTURE-PERFECT-PRACTICAL",
       "form": "aff"
     },
     {
       "id": "Lv7-P1-S04-008",
       "kr": "회의가 시작되기 전까지는 모든 참석자들이 보고서를 검토했을 것이다.",
       "en": "All participants will have reviewed the report before the meeting begins.",
-      "pattern": "FUTURE-PERFECT-PRACTICAL",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 7,
+    "neg": 1,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L7_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.500Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_7\\Lv7-P1-S04_bank.json"
+    ]
+  }
 }

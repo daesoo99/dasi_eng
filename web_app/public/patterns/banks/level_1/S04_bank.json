@@ -1,0 +1,274 @@
+{
+  "stage_id": "S04",
+  "title": "Stage S04",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "I will call you tomorrow.",
+    "It will rain tonight."
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 4,
+  "count": 40,
+  "sentences": [
+    {
+      "id": "S04-1",
+      "kr": "내일 당신에게 전화하겠습니다.",
+      "en": "I will call you tomorrow.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-2",
+      "kr": "오늘 밤에 비가 올 것입니다.",
+      "en": "It will rain tonight.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-3",
+      "kr": "그녀는 파티에 올 것입니다.",
+      "en": "She will come to the party.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-4",
+      "kr": "우리는 카페에서 만날 것입니다.",
+      "en": "We will meet at the cafe.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-5",
+      "kr": "당신은 이 영화를 좋아할 것입니다.",
+      "en": "You will like this movie.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-6",
+      "kr": "그들은 우리를 도와줄 것입니다.",
+      "en": "They will help us.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-7",
+      "kr": "기차가 곧 도착할 것입니다.",
+      "en": "The train will arrive soon.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-8",
+      "kr": "나는 새 차를 살 것입니다.",
+      "en": "I will buy a new car.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-9",
+      "kr": "그는 다음 주에 일을 시작할 것입니다.",
+      "en": "He will start working next week.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-10",
+      "kr": "태양은 오후 7시에 질 것입니다.",
+      "en": "The sun will set at 7 PM.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-1",
+      "kr": "내일 당신에게 전화하겠습니다.",
+      "en": "I will call you tomorrow.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-2",
+      "kr": "오늘 밤에 비가 올 것입니다.",
+      "en": "It will rain tonight.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-3",
+      "kr": "그녀는 파티에 올 것입니다.",
+      "en": "She will come to the party.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-4",
+      "kr": "우리는 카페에서 만날 것입니다.",
+      "en": "We will meet at the cafe.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-5",
+      "kr": "당신은 이 영화를 좋아할 것입니다.",
+      "en": "You will like this movie.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-6",
+      "kr": "그들은 우리를 도와줄 것입니다.",
+      "en": "They will help us.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-7",
+      "kr": "기차가 곧 도착할 것입니다.",
+      "en": "The train will arrive soon.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-8",
+      "kr": "나는 새 차를 살 것입니다.",
+      "en": "I will buy a new car.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-9",
+      "kr": "그는 다음 주에 일을 시작할 것입니다.",
+      "en": "He will start working next week.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-10",
+      "kr": "태양은 오후 7시에 질 것입니다.",
+      "en": "The sun will set at 7 PM.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-1",
+      "kr": "그가 도착하기 전에 이미 저녁을 끝냈어요. (과거완료)",
+      "en": "I had finished dinner before he arrived.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-2",
+      "kr": "버스가 마침내 왔을 때 그들은 한 시간 동안 기다리고 있었어요. (과거완료진행)",
+      "en": "They had been waiting for an hour when the bus finally came.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-3",
+      "kr": "제가 전화했을 때 그녀는 이미 떠나 있었어요. (과거완료)",
+      "en": "She had already left when I called.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-4",
+      "kr": "휴식을 취하기 전에 3시간 동안 공부하고 있었어요. (과거완료진행)",
+      "en": "We had been studying for 3 hours before taking a break.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-5",
+      "kr": "캐나다로 이사가기 전에는 눈을 본 적이 없었어요. (과거완료 경험)",
+      "en": "He had never seen snow before he moved to Canada.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-6",
+      "kr": "우리가 역에 도착했을 때 기차는 이미 떠났어요. (과거완료 결과)",
+      "en": "The train had already departed when we reached the station.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-7",
+      "kr": "승진하기 전에 거기서 5년 동안 일하고 있었어요. (과거완료진행)",
+      "en": "I had been working there for 5 years before I got promoted.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-8",
+      "kr": "우리가 도착할 때쯤 영화는 끝나 있었어요. (과거완료)",
+      "en": "By the time we arrived, the movie had ended.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-9",
+      "kr": "그녀는 일주일 내내 몸이 아팠어요. (과거완료진행)",
+      "en": "She had been feeling sick all week.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-10",
+      "kr": "TV를 보기 전에 숙제를 끝냈나요? (과거완료 질문)",
+      "en": "Had you finished your homework before watching TV?",
+      "form": "aff"
+    },
+    {
+      "id": "S04-1",
+      "kr": "그가 도착하기 전에 이미 저녁을 끝냈어요. (과거완료)",
+      "en": "I had finished dinner before he arrived.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-2",
+      "kr": "버스가 마침내 왔을 때 그들은 한 시간 동안 기다리고 있었어요. (과거완료진행)",
+      "en": "They had been waiting for an hour when the bus finally came.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-3",
+      "kr": "제가 전화했을 때 그녀는 이미 떠나 있었어요. (과거완료)",
+      "en": "She had already left when I called.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-4",
+      "kr": "휴식을 취하기 전에 3시간 동안 공부하고 있었어요. (과거완료진행)",
+      "en": "We had been studying for 3 hours before taking a break.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-5",
+      "kr": "캐나다로 이사가기 전에는 눈을 본 적이 없었어요. (과거완료 경험)",
+      "en": "He had never seen snow before he moved to Canada.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-6",
+      "kr": "우리가 역에 도착했을 때 기차는 이미 떠났어요. (과거완료 결과)",
+      "en": "The train had already departed when we reached the station.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-7",
+      "kr": "승진하기 전에 거기서 5년 동안 일하고 있었어요. (과거완료진행)",
+      "en": "I had been working there for 5 years before I got promoted.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-8",
+      "kr": "우리가 도착할 때쯤 영화는 끝나 있었어요. (과거완료)",
+      "en": "By the time we arrived, the movie had ended.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-9",
+      "kr": "그녀는 일주일 내내 몸이 아팠어요. (과거완료진행)",
+      "en": "She had been feeling sick all week.",
+      "form": "aff"
+    },
+    {
+      "id": "S04-10",
+      "kr": "TV를 보기 전에 숙제를 끝냈나요? (과거완료 질문)",
+      "en": "Had you finished your homework before watching TV?",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 40,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L1_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.698Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "patterns\\level_1_basic_patterns\\lv1_phase_system_NEW.json",
+      "patterns\\level_1_basic_patterns\\lv1_phase_system_NEW_migrated.json",
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW.json",
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW_migrated.json"
+    ]
+  }
+}

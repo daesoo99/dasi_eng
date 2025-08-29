@@ -1,0 +1,331 @@
+{
+  "stage_id": "Lv4-A5-S18",
+  "title": "Stage Lv4-A5-S18",
+  "description": "Level 4 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "I sincerely apologize for the inconvenience caused. (business variant 1)",
+    "I understand your concerns. (business variant 1)"
+  ],
+  "learning_points": "Level 4 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 18,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv4-A5-S18-001",
+      "kr": "불편을 끼쳐드려 진심으로 사과드립니다. (비즈니스 1)",
+      "en": "I sincerely apologize for the inconvenience caused. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-002",
+      "kr": "귀하의 우려사항을 이해합니다. (비즈니스 1)",
+      "en": "I understand your concerns. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-003",
+      "kr": "이 문제를 즉시 해결하겠습니다. (비즈니스 1)",
+      "en": "I will resolve this issue immediately. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-004",
+      "kr": "적절한 보상을 제공하겠습니다. (비즈니스 1)",
+      "en": "We will provide appropriate compensation. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-005",
+      "kr": "이런 일이 재발하지 않도록 하겠습니다. (비즈니스 1)",
+      "en": "We will ensure this doesn't happen again. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-006",
+      "kr": "귀하의 피드백이 개선에 도움이 됩니다. (비즈니스 1)",
+      "en": "Your feedback helps us improve. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-007",
+      "kr": "만족스러운 해결책을 찾겠습니다. (비즈니스 1)",
+      "en": "I will find a satisfactory solution. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-008",
+      "kr": "상황을 철저히 조사하겠습니다. (비즈니스 1)",
+      "en": "We will thoroughly investigate the situation. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-009",
+      "kr": "귀하의 신뢰를 회복하고 싶습니다. (비즈니스 1)",
+      "en": "We want to restore your trust. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-010",
+      "kr": "개선된 서비스를 제공하겠습니다. (비즈니스 1)",
+      "en": "We will provide improved service. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-011",
+      "kr": "불편을 끼쳐드려 진심으로 사과드립니다. (비즈니스 2)",
+      "en": "I sincerely apologize for the inconvenience caused. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-012",
+      "kr": "귀하의 우려사항을 이해합니다. (비즈니스 2)",
+      "en": "I understand your concerns. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-013",
+      "kr": "이 문제를 즉시 해결하겠습니다. (비즈니스 2)",
+      "en": "I have resolve this issue immediately. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-014",
+      "kr": "적절한 보상을 제공하겠습니다. (비즈니스 2)",
+      "en": "We have provide appropriate compensation. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-015",
+      "kr": "이런 일이 재발하지 않도록 하겠습니다. (비즈니스 2)",
+      "en": "We have ensure this doesn't happen again. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-016",
+      "kr": "귀하의 피드백이 개선에 도움이 됩니다. (비즈니스 2)",
+      "en": "Your feedback helps us improve. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-017",
+      "kr": "만족스러운 해결책을 찾겠습니다. (비즈니스 2)",
+      "en": "I have find a satisfactory solution. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-018",
+      "kr": "상황을 철저히 조사하겠습니다. (비즈니스 2)",
+      "en": "We have thoroughly investigate the situation. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-019",
+      "kr": "귀하의 신뢰를 회복하고 싶습니다. (비즈니스 2)",
+      "en": "We want to restore your trust. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-020",
+      "kr": "개선된 서비스를 제공하겠습니다. (비즈니스 2)",
+      "en": "We have provide improved service. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-021",
+      "kr": "불편을 끼쳐드려 진심으로 사과드립니다. (비즈니스 3)",
+      "en": "I sincerely apologize for the inconvenience caused. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-022",
+      "kr": "귀하의 우려사항을 이해합니다. (비즈니스 3)",
+      "en": "I understand your concerns. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-023",
+      "kr": "이 문제를 즉시 해결하겠습니다. (비즈니스 3)",
+      "en": "I have resolve this issue immediately. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-024",
+      "kr": "적절한 보상을 제공하겠습니다. (비즈니스 3)",
+      "en": "We have provide appropriate compensation. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-025",
+      "kr": "이런 일이 재발하지 않도록 하겠습니다. (비즈니스 3)",
+      "en": "We have ensure this doesn't happen again. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-026",
+      "kr": "귀하의 피드백이 개선에 도움이 됩니다. (비즈니스 3)",
+      "en": "Your feedback helps us improve. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-027",
+      "kr": "만족스러운 해결책을 찾겠습니다. (비즈니스 3)",
+      "en": "I have find a satisfactory solution. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-028",
+      "kr": "상황을 철저히 조사하겠습니다. (비즈니스 3)",
+      "en": "We have thoroughly investigate the situation. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-029",
+      "kr": "귀하의 신뢰를 회복하고 싶습니다. (비즈니스 3)",
+      "en": "We want to restore your trust. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-030",
+      "kr": "개선된 서비스를 제공하겠습니다. (비즈니스 3)",
+      "en": "We have provide improved service. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-031",
+      "kr": "불편을 끼쳐드려 진심으로 사과드립니다. (비즈니스 4)",
+      "en": "I sincerely apologize for the inconvenience caused. (business variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-032",
+      "kr": "귀하의 우려사항을 이해합니다. (비즈니스 4)",
+      "en": "I understand your concerns. (business variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-033",
+      "kr": "이 문제를 즉시 해결하겠습니다. (비즈니스 4)",
+      "en": "I have resolve this issue immediately. (business variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-034",
+      "kr": "적절한 보상을 제공하겠습니다. (비즈니스 4)",
+      "en": "We have provide appropriate compensation. (business variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-035",
+      "kr": "이런 일이 재발하지 않도록 하겠습니다. (비즈니스 4)",
+      "en": "We have ensure this doesn't happen again. (business variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A5-S18-036",
+      "kr": "귀하의 피드백이 개선에 도움이 됩니다. (비즈니스 4)",
+      "en": "Your feedback helps us improve. (business variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A5-S18-037",
+      "kr": "만족스러운 해결책을 찾겠습니다. (비즈니스 4)",
+      "en": "I have find a satisfactory solution. (business variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A5-S18-038",
+      "kr": "상황을 철저히 조사하겠습니다. (비즈니스 4)",
+      "en": "We have thoroughly investigate the situation. (business variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A5-S18-039",
+      "kr": "귀하의 신뢰를 회복하고 싶습니다. (비즈니스 4)",
+      "en": "We want to restore your trust. (business variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A5-S18-040",
+      "kr": "개선된 서비스를 제공하겠습니다. (비즈니스 4)",
+      "en": "We have provide improved service. (business variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A5-S18-041",
+      "kr": "불편을 끼쳐드려 진심으로 사과드립니다. (비즈니스 5)",
+      "en": "I sincerely apologize for the inconvenience caused. (business variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A5-S18-042",
+      "kr": "귀하의 우려사항을 이해합니다. (비즈니스 5)",
+      "en": "I understand your concerns. (business variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A5-S18-043",
+      "kr": "이 문제를 즉시 해결하겠습니다. (비즈니스 5)",
+      "en": "I have resolve this issue immediately. (business variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A5-S18-044",
+      "kr": "적절한 보상을 제공하겠습니다. (비즈니스 5)",
+      "en": "We have provide appropriate compensation. (business variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A5-S18-045",
+      "kr": "이런 일이 재발하지 않도록 하겠습니다. (비즈니스 5)",
+      "en": "We have ensure this doesn't happen again. (business variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A5-S18-046",
+      "kr": "귀하의 피드백이 개선에 도움이 됩니다. (비즈니스 5)",
+      "en": "Your feedback helps us improve. (business variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A5-S18-047",
+      "kr": "만족스러운 해결책을 찾겠습니다. (비즈니스 5)",
+      "en": "I have find a satisfactory solution. (business variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A5-S18-048",
+      "kr": "상황을 철저히 조사하겠습니다. (비즈니스 5)",
+      "en": "We have thoroughly investigate the situation. (business variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A5-S18-049",
+      "kr": "귀하의 신뢰를 회복하고 싶습니다. (비즈니스 5)",
+      "en": "We want to restore your trust. (business variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A5-S18-050",
+      "kr": "개선된 서비스를 제공하겠습니다. (비즈니스 5)",
+      "en": "We have provide improved service. (business variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 10,
+    "wh_q": 5,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L4_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.763Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "backups\\level_4_business_mastery\\banks\\Lv4-A5-S18_bank.json"
+    ]
+  }
+}

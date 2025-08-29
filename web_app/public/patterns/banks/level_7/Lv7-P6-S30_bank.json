@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv7-P6-S30",
-  "title": "부사 도치 기초 복습",
-  "description": "지금까지 배운 부정어/제한어 도치 구문을 한데 모아 리뷰합니다.",
-  "grammar_pattern": "ADVERBIAL-INVERSION-REVIEW",
+  "title": "Stage Lv7-P6-S30",
+  "description": "Level 7 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Never have I seen such dedication in a team.",
-    "Only when we work together can we achieve our goals.",
-    "Not only did she complete the project, but she also exceeded expectations."
+    "Only when we work together can we achieve our goals."
   ],
-  "learning_points": "다양한 부사 도치 구문의 종합적 복습과 활용",
+  "learning_points": "Level 7 target grammar and expressions with practical usage examples",
   "phase": 6,
   "stage_number": 30,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv7-P6-S30-001",
       "kr": "팀에서 그런 헌신을 본 적이 결코 없다.",
       "en": "Never have I seen such dedication in a team.",
-      "pattern": "ADVERBIAL-INVERSION-REVIEW",
       "form": "neg"
     },
     {
       "id": "Lv7-P6-S30-002",
       "kr": "우리가 함께 일할 때만 목표를 달성할 수 있다.",
       "en": "Only when we work together can we achieve our goals.",
-      "pattern": "ADVERBIAL-INVERSION-REVIEW",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S30-003",
       "kr": "그녀는 프로젝트를 완료했을 뿐만 아니라 기대를 넘어서기도 했다.",
       "en": "Not only did she complete the project, but she also exceeded expectations.",
-      "pattern": "ADVERBIAL-INVERSION-REVIEW",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S30-004",
       "kr": "그런 기회는 좀처럼 오지 않는다.",
       "en": "Seldom does such an opportunity come along.",
-      "pattern": "ADVERBIAL-INVERSION-REVIEW",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S30-005",
       "kr": "어떤 상황에서도 품질을 타협하지 않을 것이다.",
       "en": "Under no circumstances will we compromise on quality.",
-      "pattern": "ADVERBIAL-INVERSION-REVIEW",
       "form": "neg"
     },
     {
       "id": "Lv7-P6-S30-006",
       "kr": "열심히 노력한 후에야 성공을 달성할 수 있었다.",
       "en": "Only after working hard could we achieve success.",
-      "pattern": "ADVERBIAL-INVERSION-REVIEW",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S30-007",
       "kr": "그런 결과를 거의 예상하지 못했다.",
       "en": "Little did we anticipate such results.",
-      "pattern": "ADVERBIAL-INVERSION-REVIEW",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S30-008",
       "kr": "그 문제는 단순히 기술적인 것이 아니라 전략적인 것이기도 하다.",
       "en": "Not only is the issue technical, but it is also strategic.",
-      "pattern": "ADVERBIAL-INVERSION-REVIEW",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 6,
+    "neg": 2,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L7_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.527Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_7\\Lv7-P6-S30_bank.json"
+    ]
+  }
 }

@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv8-C1-S06",
-  "title": "조건절 축약/분사구문",
-  "description": "조건절을 분사구문이나 축약 형태로 변환하여 간결하고 고급스러운 표현을 연습합니다.",
-  "grammar_pattern": "CONDITIONAL-PARTICIPLE-REDUCTION",
+  "title": "Stage Lv8-C1-S06",
+  "description": "Level 8 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Given the circumstances, we had no choice.",
-    "Considering the weather, we should postpone the trip.",
-    "Assuming everything goes well, we'll finish by Friday."
+    "Considering the weather, we should postpone the trip."
   ],
-  "learning_points": "조건절 축약과 분사구문을 통한 간결한 고급 표현",
+  "learning_points": "Level 8 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 6,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv8-C1-S06-001",
       "kr": "그런 상황을 고려할 때 우리에게는 선택의 여지가 없었습니다.",
       "en": "Given the circumstances, we had no choice.",
-      "pattern": "CONDITIONAL-PARTICIPLE-REDUCTION",
       "form": "aff"
     },
     {
       "id": "Lv8-C1-S06-002",
       "kr": "날씨를 고려하면 여행을 연기해야 합니다.",
       "en": "Considering the weather, we should postpone the trip.",
-      "pattern": "CONDITIONAL-PARTICIPLE-REDUCTION",
       "form": "aff"
     },
     {
       "id": "Lv8-C1-S06-003",
       "kr": "모든 것이 순조롭게 진행된다고 가정하면 금요일까지 끝낼 수 있을 것입니다.",
       "en": "Assuming everything goes well, we'll finish by Friday.",
-      "pattern": "CONDITIONAL-PARTICIPLE-REDUCTION",
       "form": "aff"
     },
     {
       "id": "Lv8-C1-S06-004",
       "kr": "예산을 고려할 때 이 프로젝트는 실현 가능합니다.",
       "en": "Considering the budget, this project is feasible.",
-      "pattern": "CONDITIONAL-PARTICIPLE-REDUCTION",
       "form": "aff"
     },
     {
       "id": "Lv8-C1-S06-005",
       "kr": "그의 경험을 감안하면 그가 적합한 후보입니다.",
       "en": "Given his experience, he is a suitable candidate.",
-      "pattern": "CONDITIONAL-PARTICIPLE-REDUCTION",
       "form": "aff"
     },
     {
       "id": "Lv8-C1-S06-006",
       "kr": "시간 제약을 고려하면 우리는 우선순위를 정해야 합니다.",
       "en": "Considering the time constraints, we must set priorities.",
-      "pattern": "CONDITIONAL-PARTICIPLE-REDUCTION",
       "form": "aff"
     },
     {
       "id": "Lv8-C1-S06-007",
       "kr": "모든 요소를 감안할 때 이것이 최선의 해결책입니다.",
       "en": "Taking everything into account, this is the best solution.",
-      "pattern": "CONDITIONAL-PARTICIPLE-REDUCTION",
       "form": "aff"
     },
     {
       "id": "Lv8-C1-S06-008",
       "kr": "현재 상황을 고려하면 신중한 접근이 필요합니다.",
       "en": "Considering the current situation, a cautious approach is needed.",
-      "pattern": "CONDITIONAL-PARTICIPLE-REDUCTION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L8_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.544Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_8\\Lv8-C1-S06_bank.json"
+    ]
+  }
 }

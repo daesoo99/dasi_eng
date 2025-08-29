@@ -1,12 +1,331 @@
 {
   "stage_id": "Lv3-P6-S29",
-  "title": "수량·정도 표현 심화",
-  "description": "plenty of, a couple of, a bit (of), a lot of 등 다양한 수량 표현과 정도 표현을 배웁니다. 이전에 배운 some/any, many/much와 비교하여 다양한 뉘앙스를 익히며, 한국어로는 비슷하지만 영어에서는 다른 표현들을 구분해서 쓰는 감을 기릅니다.",
-  "grammar_pattern": "plenty of + 명사 / a couple of + 명사 / a bit + 형용사 / a lot of + 명사",
-  "examples": ["I have plenty of time.", "Just wait a couple of minutes.", "I'm a bit tired.", "There are a lot of people here."],
-  "learning_points": "다양한 수량/정도 표현의 뉘앙스 차이와 적절한 상황별 사용법",
+  "title": "Stage Lv3-P6-S29",
+  "description": "Level 3 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "We have plenty of time. (variant 1)",
+    "I'm a bit tired. (variant 1)"
+  ],
+  "learning_points": "Level 3 target grammar and expressions with practical usage examples",
   "phase": 6,
   "stage_number": 29,
-  "count": 0,
-  "sentences": []
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv3-P6-S29-001",
+      "kr": "충분한 시간이 있어요. (확장 1)",
+      "en": "We have plenty of time. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-002",
+      "kr": "조금 피곤해요. (확장 1)",
+      "en": "I'm a bit tired. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-003",
+      "kr": "꽤 어려운 문제네요. (확장 1)",
+      "en": "It's quite a difficult problem. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-004",
+      "kr": "다소 비싼 것 같아요. (확장 1)",
+      "en": "It seems rather expensive. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-005",
+      "kr": "상당히 많은 사람들이 왔어요. (확장 1)",
+      "en": "Quite a lot of people came. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-006",
+      "kr": "약간 걱정이 되네요. (확장 1)",
+      "en": "I'm slightly worried. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-007",
+      "kr": "엄청나게 많은 일이 있어요. (확장 1)",
+      "en": "There's an enormous amount of work. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-008",
+      "kr": "꽤 공정한 제안이에요. (확장 1)",
+      "en": "That's a fairly fair proposal. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-009",
+      "kr": "극도로 중요한 일입니다. (확장 1)",
+      "en": "It's extremely important. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-010",
+      "kr": "상당히 개선되었어요. (확장 1)",
+      "en": "It has improved considerably. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-011",
+      "kr": "충분한 시간이 있어요. (확장 2)",
+      "en": "We have plenty of time. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-012",
+      "kr": "조금 피곤해요. (확장 2)",
+      "en": "I'm a bit tired. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-013",
+      "kr": "꽤 어려운 문제네요. (확장 2)",
+      "en": "It's quite a difficult problem. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-014",
+      "kr": "다소 비싼 것 같아요. (확장 2)",
+      "en": "It seems rather expensive. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-015",
+      "kr": "상당히 많은 사람들이 왔어요. (확장 2)",
+      "en": "Quite a lot of people came. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-016",
+      "kr": "약간 걱정이 되네요. (확장 2)",
+      "en": "I'm slightly worried. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-017",
+      "kr": "엄청나게 많은 일이 있어요. (확장 2)",
+      "en": "There's an enormous amount of work. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-018",
+      "kr": "꽤 공정한 제안이에요. (확장 2)",
+      "en": "That's a fairly fair proposal. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-019",
+      "kr": "극도로 중요한 일입니다. (확장 2)",
+      "en": "It's extremely important. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-020",
+      "kr": "상당히 개선되었어요. (확장 2)",
+      "en": "It has improved considerably. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-021",
+      "kr": "충분한 시간이 있어요. (확장 3)",
+      "en": "We have plenty of time. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-022",
+      "kr": "조금 피곤해요. (확장 3)",
+      "en": "I'm a bit tired. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-023",
+      "kr": "꽤 어려운 문제네요. (확장 3)",
+      "en": "It's quite a difficult problem. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-024",
+      "kr": "다소 비싼 것 같아요. (확장 3)",
+      "en": "It seems rather expensive. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-025",
+      "kr": "상당히 많은 사람들이 왔어요. (확장 3)",
+      "en": "Quite a lot of people came. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-026",
+      "kr": "약간 걱정이 되네요. (확장 3)",
+      "en": "I'm slightly worried. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-027",
+      "kr": "엄청나게 많은 일이 있어요. (확장 3)",
+      "en": "There's an enormous amount of work. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-028",
+      "kr": "꽤 공정한 제안이에요. (확장 3)",
+      "en": "That's a fairly fair proposal. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-029",
+      "kr": "극도로 중요한 일입니다. (확장 3)",
+      "en": "It's extremely important. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-030",
+      "kr": "상당히 개선되었어요. (확장 3)",
+      "en": "It has improved considerably. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P6-S29-031",
+      "kr": "충분한 시간이 있어요. (확장 4)",
+      "en": "We have plenty of time. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P6-S29-032",
+      "kr": "조금 피곤해요. (확장 4)",
+      "en": "I'm a bit tired. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P6-S29-033",
+      "kr": "꽤 어려운 문제네요. (확장 4)",
+      "en": "It's quite a difficult problem. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P6-S29-034",
+      "kr": "다소 비싼 것 같아요. (확장 4)",
+      "en": "It seems rather expensive. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P6-S29-035",
+      "kr": "상당히 많은 사람들이 왔어요. (확장 4)",
+      "en": "Quite a lot of people came. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P6-S29-036",
+      "kr": "약간 걱정이 되네요. (확장 4)",
+      "en": "I'm slightly worried. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P6-S29-037",
+      "kr": "엄청나게 많은 일이 있어요. (확장 4)",
+      "en": "There's an enormous amount of work. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P6-S29-038",
+      "kr": "꽤 공정한 제안이에요. (확장 4)",
+      "en": "That's a fairly fair proposal. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P6-S29-039",
+      "kr": "극도로 중요한 일입니다. (확장 4)",
+      "en": "It's extremely important. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P6-S29-040",
+      "kr": "상당히 개선되었어요. (확장 4)",
+      "en": "It has improved considerably. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P6-S29-041",
+      "kr": "충분한 시간이 있어요. (확장 5)",
+      "en": "We have plenty of time. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P6-S29-042",
+      "kr": "조금 피곤해요. (확장 5)",
+      "en": "I'm a bit tired. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P6-S29-043",
+      "kr": "꽤 어려운 문제네요. (확장 5)",
+      "en": "It's quite a difficult problem. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P6-S29-044",
+      "kr": "다소 비싼 것 같아요. (확장 5)",
+      "en": "It seems rather expensive. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P6-S29-045",
+      "kr": "상당히 많은 사람들이 왔어요. (확장 5)",
+      "en": "Quite a lot of people came. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P6-S29-046",
+      "kr": "약간 걱정이 되네요. (확장 5)",
+      "en": "I'm slightly worried. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P6-S29-047",
+      "kr": "엄청나게 많은 일이 있어요. (확장 5)",
+      "en": "There's an enormous amount of work. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P6-S29-048",
+      "kr": "꽤 공정한 제안이에요. (확장 5)",
+      "en": "That's a fairly fair proposal. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P6-S29-049",
+      "kr": "극도로 중요한 일입니다. (확장 5)",
+      "en": "It's extremely important. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P6-S29-050",
+      "kr": "상당히 개선되었어요. (확장 5)",
+      "en": "It has improved considerably. (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L3_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.642Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "data\\banks\\level_3\\Lv3-P6-S29_bank.json"
+    ]
+  }
 }

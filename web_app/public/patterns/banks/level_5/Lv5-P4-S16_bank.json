@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv5-P4-S16",
-  "title": "회피/모호한 대답",
-  "description": "회피/모호한 대답을 연습합니다. EVASIVE-RESPONSE 패턴을 활용하여 고급 영어 표현을 익힙니다.",
-  "grammar_pattern": "EVASIVE-RESPONSE",
+  "title": "Stage Lv5-P4-S16",
+  "description": "Level 5 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "I'd rather not say.",
-    "It depends on the situation.",
-    "I'm not sure about that."
+    "It depends on the situation."
   ],
-  "learning_points": "diplomatic-response 관련 고급 표현과 실용적 활용",
+  "learning_points": "Level 5 target grammar and expressions with practical usage examples",
   "phase": 4,
   "stage_number": 16,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv5-P4-S16-001",
       "kr": "말하지 않는 게 낫겠어요.",
       "en": "I'd rather not say.",
-      "pattern": "EVASIVE-RESPONSE",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S16-002",
       "kr": "상황에 따라 다르죠.",
       "en": "It depends on the situation.",
-      "pattern": "EVASIVE-RESPONSE",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S16-003",
       "kr": "그것에 대해서는 확신이 서지 않습니다.",
       "en": "I'm not sure about that.",
-      "pattern": "EVASIVE-RESPONSE",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S16-004",
       "kr": "좀 더 생각해봐야겠습니다.",
       "en": "I need to think about it more.",
-      "pattern": "EVASIVE-RESPONSE",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S16-005",
       "kr": "지금 당장은 답하기 어렵네요.",
       "en": "It's hard to answer right now.",
-      "pattern": "EVASIVE-RESPONSE",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S16-006",
       "kr": "여러 요인을 고려해야 합니다.",
       "en": "We need to consider various factors.",
-      "pattern": "EVASIVE-RESPONSE",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S16-007",
       "kr": "그것은 복잡한 문제입니다.",
       "en": "That's a complex issue.",
-      "pattern": "EVASIVE-RESPONSE",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S16-008",
       "kr": "시간을 두고 살펴봐야겠습니다.",
       "en": "We need to look at it over time.",
-      "pattern": "EVASIVE-RESPONSE",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L5_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.437Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_5\\Lv5-P4-S16_bank.json"
+    ]
+  }
 }

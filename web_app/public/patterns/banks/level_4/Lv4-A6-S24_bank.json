@@ -1,0 +1,331 @@
+{
+  "stage_id": "Lv4-A6-S24",
+  "title": "Stage Lv4-A6-S24",
+  "description": "Level 4 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "We have successfully completed the project. (business variant 1)",
+    "We have achieved all our goals. (business variant 1)"
+  ],
+  "learning_points": "Level 4 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 24,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv4-A6-S24-001",
+      "kr": "프로젝트를 성공적으로 완료했습니다. (비즈니스 1)",
+      "en": "We have successfully completed the project. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-002",
+      "kr": "모든 목표를 달성했습니다. (비즈니스 1)",
+      "en": "We have achieved all our goals. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-003",
+      "kr": "팀의 노고를 축하합니다. (비즈니스 1)",
+      "en": "We celebrate the team's hard work. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-004",
+      "kr": "중요한 이정표를 달성했습니다. (비즈니스 1)",
+      "en": "We have reached an important milestone. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-005",
+      "kr": "이 경험에서 많은 것을 배웠습니다. (비즈니스 1)",
+      "en": "We have learned a lot from this experience. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-006",
+      "kr": "성과를 모든 팀원과 나누고 싶습니다. (비즈니스 1)",
+      "en": "We want to share the achievements with all team members. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-007",
+      "kr": "훌륭한 결과를 얻었습니다. (비즈니스 1)",
+      "en": "We have obtained excellent results. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-008",
+      "kr": "지식과 경험이 축적되었습니다. (비즈니스 1)",
+      "en": "Knowledge and experience have been accumulated. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-009",
+      "kr": "다음 프로젝트에도 이 성과를 활용하겠습니다. (비즈니스 1)",
+      "en": "We will utilize this achievement in the next project. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-010",
+      "kr": "모든 팀원의 기여에 감사합니다. (비즈니스 1)",
+      "en": "We appreciate all team members' contributions. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-011",
+      "kr": "프로젝트를 성공적으로 완료했습니다. (비즈니스 2)",
+      "en": "We have successfully completed the project. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-012",
+      "kr": "모든 목표를 달성했습니다. (비즈니스 2)",
+      "en": "We have achieved all our goals. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-013",
+      "kr": "팀의 노고를 축하합니다. (비즈니스 2)",
+      "en": "We celebrate the team's hard work. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-014",
+      "kr": "중요한 이정표를 달성했습니다. (비즈니스 2)",
+      "en": "We have reached an important milestone. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-015",
+      "kr": "이 경험에서 많은 것을 배웠습니다. (비즈니스 2)",
+      "en": "We have learned a lot from this experience. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-016",
+      "kr": "성과를 모든 팀원과 나누고 싶습니다. (비즈니스 2)",
+      "en": "We want to share the achievements with all team members. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-017",
+      "kr": "훌륭한 결과를 얻었습니다. (비즈니스 2)",
+      "en": "We have obtained excellent results. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-018",
+      "kr": "지식과 경험이 축적되었습니다. (비즈니스 2)",
+      "en": "Knowledge and experience have been accumulated. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-019",
+      "kr": "다음 프로젝트에도 이 성과를 활용하겠습니다. (비즈니스 2)",
+      "en": "We have utilize this achievement in the next project. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-020",
+      "kr": "모든 팀원의 기여에 감사합니다. (비즈니스 2)",
+      "en": "We appreciate all team members' contributions. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-021",
+      "kr": "프로젝트를 성공적으로 완료했습니다. (비즈니스 3)",
+      "en": "We have successfully completed the project. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-022",
+      "kr": "모든 목표를 달성했습니다. (비즈니스 3)",
+      "en": "We have achieved all our goals. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-023",
+      "kr": "팀의 노고를 축하합니다. (비즈니스 3)",
+      "en": "We celebrate the team's hard work. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-024",
+      "kr": "중요한 이정표를 달성했습니다. (비즈니스 3)",
+      "en": "We have reached an important milestone. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-025",
+      "kr": "이 경험에서 많은 것을 배웠습니다. (비즈니스 3)",
+      "en": "We have learned a lot from this experience. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-026",
+      "kr": "성과를 모든 팀원과 나누고 싶습니다. (비즈니스 3)",
+      "en": "We want to share the achievements with all team members. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-027",
+      "kr": "훌륭한 결과를 얻었습니다. (비즈니스 3)",
+      "en": "We have obtained excellent results. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-028",
+      "kr": "지식과 경험이 축적되었습니다. (비즈니스 3)",
+      "en": "Knowledge and experience have been accumulated. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-029",
+      "kr": "다음 프로젝트에도 이 성과를 활용하겠습니다. (비즈니스 3)",
+      "en": "We have utilize this achievement in the next project. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-030",
+      "kr": "모든 팀원의 기여에 감사합니다. (비즈니스 3)",
+      "en": "We appreciate all team members' contributions. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-031",
+      "kr": "프로젝트를 성공적으로 완료했습니다. (비즈니스 4)",
+      "en": "We have successfully completed the project. (business variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-032",
+      "kr": "모든 목표를 달성했습니다. (비즈니스 4)",
+      "en": "We have achieved all our goals. (business variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-033",
+      "kr": "팀의 노고를 축하합니다. (비즈니스 4)",
+      "en": "We celebrate the team's hard work. (business variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-034",
+      "kr": "중요한 이정표를 달성했습니다. (비즈니스 4)",
+      "en": "We have reached an important milestone. (business variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-035",
+      "kr": "이 경험에서 많은 것을 배웠습니다. (비즈니스 4)",
+      "en": "We have learned a lot from this experience. (business variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S24-036",
+      "kr": "성과를 모든 팀원과 나누고 싶습니다. (비즈니스 4)",
+      "en": "We want to share the achievements with all team members. (business variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S24-037",
+      "kr": "훌륭한 결과를 얻었습니다. (비즈니스 4)",
+      "en": "We have obtained excellent results. (business variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S24-038",
+      "kr": "지식과 경험이 축적되었습니다. (비즈니스 4)",
+      "en": "Knowledge and experience have been accumulated. (business variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S24-039",
+      "kr": "다음 프로젝트에도 이 성과를 활용하겠습니다. (비즈니스 4)",
+      "en": "We have utilize this achievement in the next project. (business variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S24-040",
+      "kr": "모든 팀원의 기여에 감사합니다. (비즈니스 4)",
+      "en": "We appreciate all team members' contributions. (business variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S24-041",
+      "kr": "프로젝트를 성공적으로 완료했습니다. (비즈니스 5)",
+      "en": "We have successfully completed the project. (business variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S24-042",
+      "kr": "모든 목표를 달성했습니다. (비즈니스 5)",
+      "en": "We have achieved all our goals. (business variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S24-043",
+      "kr": "팀의 노고를 축하합니다. (비즈니스 5)",
+      "en": "We celebrate the team's hard work. (business variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S24-044",
+      "kr": "중요한 이정표를 달성했습니다. (비즈니스 5)",
+      "en": "We have reached an important milestone. (business variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S24-045",
+      "kr": "이 경험에서 많은 것을 배웠습니다. (비즈니스 5)",
+      "en": "We have learned a lot from this experience. (business variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S24-046",
+      "kr": "성과를 모든 팀원과 나누고 싶습니다. (비즈니스 5)",
+      "en": "We want to share the achievements with all team members. (business variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A6-S24-047",
+      "kr": "훌륭한 결과를 얻었습니다. (비즈니스 5)",
+      "en": "We have obtained excellent results. (business variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A6-S24-048",
+      "kr": "지식과 경험이 축적되었습니다. (비즈니스 5)",
+      "en": "Knowledge and experience have been accumulated. (business variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A6-S24-049",
+      "kr": "다음 프로젝트에도 이 성과를 활용하겠습니다. (비즈니스 5)",
+      "en": "We have utilize this achievement in the next project. (business variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A6-S24-050",
+      "kr": "모든 팀원의 기여에 감사합니다. (비즈니스 5)",
+      "en": "We appreciate all team members' contributions. (business variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 10,
+    "wh_q": 5,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L4_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.771Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "backups\\level_4_business_mastery\\banks\\Lv4-A6-S24_bank.json"
+    ]
+  }
+}

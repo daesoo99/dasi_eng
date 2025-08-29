@@ -1,10 +1,13 @@
 {
   "stage_id": "Lv1-P2-S05",
   "title": "부정문 만들기",
-  "description": "부정문을 만들어 '~않는다'는 표현을 연습합니다. 현재형 문장에서는 do/does + not + 동사원형, be동사 문장에서는 am/is/are + not 형태를 사용합니다.",
-  "grammar_pattern": "주어 + do/does + not + 동사원형 / 주어 + be동사 + not + 보어",
-  "examples": ["I do not (don't) like spiders.", "He is not busy."],
-  "learning_points": "긴장을 풀고 don't/doesn't 발음에 익숙해지기",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "I played soccer yesterday. (variant 1)",
+    "You liked the movie. (variant 1)"
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
   "phase": 2,
   "stage_number": 5,
   "count": 50,
@@ -311,10 +314,18 @@
     }
   ],
   "forms_distribution": {
-    "aff": 35,
-    "neg": 10,
-    "wh_q": 5
+    "aff": 40,
+    "neg": 5,
+    "wh_q": 5,
+    "unknown": 0
   },
-  "status": "generated",
-  "batch": "L1_Basic_Batch1"
+  "status": "complete",
+  "batch": "L1_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.360Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_1\\Lv1-P2-S05_bank.json"
+    ]
+  }
 }

@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv6-P2-S13",
-  "title": "수동태 관용 표현",
-  "description": "It is said that…, be known to…, be supposed to… 등 수동태 관용구를 연습합니다.",
-  "grammar_pattern": "PASSIVE-IDIOMATIC-EXPRESSIONS",
+  "title": "Stage Lv6-P2-S13",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "It is said that the company will merge with another firm.",
-    "He is known to be an expert in this field.",
-    "The meeting is supposed to start at 3 PM."
+    "He is known to be an expert in this field."
   ],
-  "learning_points": "수동태를 이용한 관용적 표현과 격식체 표현",
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
   "phase": 2,
   "stage_number": 13,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv6-P2-S13-001",
       "kr": "회사가 다른 회사와 합병할 것이라고 전해집니다.",
       "en": "It is said that the company will merge with another firm.",
-      "pattern": "PASSIVE-IDIOMATIC-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S13-002",
       "kr": "그는 이 분야의 전문가로 알려져 있습니다.",
       "en": "He is known to be an expert in this field.",
-      "pattern": "PASSIVE-IDIOMATIC-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S13-003",
       "kr": "회의는 오후 3시에 시작하기로 되어 있습니다.",
       "en": "The meeting is supposed to start at 3 PM.",
-      "pattern": "PASSIVE-IDIOMATIC-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S13-004",
       "kr": "이 기술이 혁신적이라고 여겨집니다.",
       "en": "This technology is considered to be revolutionary.",
-      "pattern": "PASSIVE-IDIOMATIC-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S13-005",
       "kr": "그 소식이 곧 발표될 예정이라고 믿어집니다.",
       "en": "It is believed that the news will be announced soon.",
-      "pattern": "PASSIVE-IDIOMATIC-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S13-006",
       "kr": "그는 그 일을 완료했다고 여겨지지 않습니다.",
       "en": "He is not thought to have completed the task.",
-      "pattern": "PASSIVE-IDIOMATIC-EXPRESSIONS",
       "form": "neg"
     },
     {
       "id": "Lv6-P2-S13-007",
       "kr": "새로운 규정이 내년에 도입될 것으로 예상됩니다.",
       "en": "New regulations are expected to be introduced next year.",
-      "pattern": "PASSIVE-IDIOMATIC-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S13-008",
       "kr": "이 제품이 시장에서 성공할 것으로 보입니다.",
       "en": "This product is seen to succeed in the market.",
-      "pattern": "PASSIVE-IDIOMATIC-EXPRESSIONS",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 7,
+    "neg": 1,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.466Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_6\\Lv6-P2-S13_bank.json"
+    ]
+  }
 }

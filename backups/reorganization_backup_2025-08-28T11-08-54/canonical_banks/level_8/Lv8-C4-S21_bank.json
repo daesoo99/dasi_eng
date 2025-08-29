@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv8-C4-S21",
+  "title": "문장 삽입구문",
+  "description": "문장 중간에 삽입구문을 넣어 추가 정보를 제공하면서도 자연스러운 흐름을 유지하는 방법을 연습합니다.",
+  "grammar_pattern": "SENTENCE-INSERTION",
+  "examples": [
+    "The manager, as we all know, is very experienced.",
+    "The project, I must admit, exceeded our expectations.",
+    "This solution, believe it or not, actually works quite well."
+  ],
+  "learning_points": "삽입구문을 통한 추가 정보 제공과 자연스러운 문장 흐름",
+  "phase": 4,
+  "stage_number": 21,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv8-C4-S21-001",
+      "kr": "매니저는, 우리 모두가 알고 있듯이, 매우 경험이 풍부합니다.",
+      "en": "The manager, as we all know, is very experienced.",
+      "pattern": "SENTENCE-INSERTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S21-002",
+      "kr": "그 프로젝트는, 인정해야 하지만, 우리의 기대를 뛰어넘었습니다.",
+      "en": "The project, I must admit, exceeded our expectations.",
+      "pattern": "SENTENCE-INSERTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S21-003",
+      "kr": "이 해결책은, 믿기 어렵겠지만, 실제로 꽤 잘 작동합니다.",
+      "en": "This solution, believe it or not, actually works quite well.",
+      "pattern": "SENTENCE-INSERTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S21-004",
+      "kr": "그 결정은, 솔직히 말해서, 매우 현명했습니다.",
+      "en": "That decision, to be honest, was very wise.",
+      "pattern": "SENTENCE-INSERTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S21-005",
+      "kr": "새로운 시스템은, 예상했던 대로, 효율성을 크게 향상시켰습니다.",
+      "en": "The new system, as expected, greatly improved efficiency.",
+      "pattern": "SENTENCE-INSERTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S21-006",
+      "kr": "그 제안은, 놀랍게도, 만장일치로 승인되었습니다.",
+      "en": "The proposal, surprisingly enough, was approved unanimously.",
+      "pattern": "SENTENCE-INSERTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S21-007",
+      "kr": "이 방법은, 보시다시피, 매우 효과적입니다.",
+      "en": "This method, as you can see, is very effective.",
+      "pattern": "SENTENCE-INSERTION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C4-S21-008",
+      "kr": "그들의 노력은, 말할 필요도 없이, 성과로 이어졌습니다.",
+      "en": "Their efforts, needless to say, led to success.",
+      "pattern": "SENTENCE-INSERTION",
+      "form": "aff"
+    }
+  ]
+}

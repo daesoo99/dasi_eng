@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv6-P4-S26",
-  "title": "명사절·부사절 축약",
-  "description": "분사구문으로 명사절이나 부사절을 축약하여 고급스러운 표현을 구사합니다. CLAUSE-COMPRESSION-PARTICIPLES 패턴을 연습합니다.",
-  "grammar_pattern": "CLAUSE-COMPRESSION-PARTICIPLES",
+  "title": "Stage Lv6-P4-S26",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "When analyzed, the data showed an error.",
-    "Having completed the analysis, we submitted the report.",
-    "Being experienced, she handled the situation well."
+    "Having completed the analysis, we submitted the report."
   ],
-  "learning_points": "분사구문을 통한 문장 압축과 정보 전달 효율성",
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
   "phase": 4,
   "stage_number": 26,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv6-P4-S26-001",
       "kr": "분석되었을 때, 데이터는 오류를 보여주었습니다.",
       "en": "When analyzed, the data showed an error.",
-      "pattern": "CLAUSE-COMPRESSION-PARTICIPLES",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S26-002",
       "kr": "분석을 완료한 후, 우리는 보고서를 제출했습니다.",
       "en": "Having completed the analysis, we submitted the report.",
-      "pattern": "CLAUSE-COMPRESSION-PARTICIPLES",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S26-003",
       "kr": "경험이 있어서, 그녀는 상황을 잘 처리했습니다.",
       "en": "Being experienced, she handled the situation well.",
-      "pattern": "CLAUSE-COMPRESSION-PARTICIPLES",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S26-004",
       "kr": "신중하게 검토된 후, 제안서가 승인되었습니다.",
       "en": "Having been carefully reviewed, the proposal was approved.",
-      "pattern": "CLAUSE-COMPRESSION-PARTICIPLES",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S26-005",
       "kr": "시간에 제약이 있어서, 우리는 우선순위를 정해야 했습니다.",
       "en": "Being constrained by time, we had to set priorities.",
-      "pattern": "CLAUSE-COMPRESSION-PARTICIPLES",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S26-006",
       "kr": "모든 준비를 마친 후, 팀은 프레젠테이션을 시작했습니다.",
       "en": "Having finished all preparations, the team started the presentation.",
-      "pattern": "CLAUSE-COMPRESSION-PARTICIPLES",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S26-007",
       "kr": "시장에서 테스트되었을 때, 제품은 좋은 반응을 얻었습니다.",
       "en": "When tested in the market, the product received positive feedback.",
-      "pattern": "CLAUSE-COMPRESSION-PARTICIPLES",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S26-008",
       "kr": "예산 제약이 있어서, 우리는 범위를 축소해야 했습니다.",
       "en": "Being budget-constrained, we had to reduce the scope.",
-      "pattern": "CLAUSE-COMPRESSION-PARTICIPLES",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.479Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_6\\Lv6-P4-S26_bank.json"
+    ]
+  }
 }

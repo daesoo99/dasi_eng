@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P1-S06",
-  "title": "강조+완곡",
-  "description": "far from it(결코 ~않다 (오히려 그 반대)), to put it mildly(줄여서 말해도 ~) 등을 연습합니다. 상대방이 오해할 수 있는 부분은 far from it으로 정정하고, 부정적 내용을 완곡하게 표현하는 연습을 합니다.",
-  "grammar_pattern": "EMPHASIS-EUPHEMISM",
+  "title": "Stage Lv9-P1-S06",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
-    "Do I think he's lazy? Far from it – he works nonstop.",
-    "The results were disappointing, to put it mildly.",
-    "Is she qualified? Far from it – she's overqualified."
+    "Do you think he's lazy? Far from it – he works tirelessly.",
+    "The results were disappointing, to put it mildly."
   ],
-  "learning_points": "강조와 완곡 표현을 사용한 세련된 의견 제시",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 6,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv9-P1-S06-001",
       "kr": "그가 게으르다고 생각하십니까? 결코 그렇지 않습니다 - 그는 쉼 새 없이 일합니다.",
       "en": "Do you think he's lazy? Far from it – he works tirelessly.",
-      "pattern": "EMPHASIS-EUPHEMISM",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S06-002",
       "kr": "결과가 실망스러웠다고, 완곡하게 표현하면 말입니다.",
       "en": "The results were disappointing, to put it mildly.",
-      "pattern": "EMPHASIS-EUPHEMISM",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S06-003",
       "kr": "그녀가 자격이 있다고 생각하십니까? 결코 그렇지 않습니다 - 오히려 과자격입니다.",
       "en": "Do you think she's qualified? Far from it – she's overqualified.",
-      "pattern": "EMPHASIS-EUPHEMISM",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S06-004",
       "kr": "상황이 어려웠다고, 완곡하게 말하면 그렇습니다.",
       "en": "The situation was challenging, to put it mildly.",
-      "pattern": "EMPHASIS-EUPHEMISM",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S06-005",
       "kr": "이 프로젝트가 쉽다고 생각하십니까? 결코 그렇지 않습니다 - 매우 복잡합니다.",
       "en": "Do you think this project is easy? Far from it – it's extremely complex.",
-      "pattern": "EMPHASIS-EUPHEMISM",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S06-006",
       "kr": "반응이 바람직하지 않았다고, 완곡하게 표현하자면 그렇습니다.",
       "en": "The response was less than ideal, to put it mildly.",
-      "pattern": "EMPHASIS-EUPHEMISM",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S06-007",
       "kr": "그들이 협조적이었다고 생각하십니까? 결코 그렇지 않습니다 - 오히려 방해가 되었습니다.",
       "en": "Do you think they were cooperative? Far from it – they were obstructive.",
-      "pattern": "EMPHASIS-EUPHEMISM",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S06-008",
       "kr": "첫 시도가 전적으로 실패했다고, 완곡하게 표현하면 그렇습니다.",
       "en": "The first attempt was a complete failure, to put it mildly.",
-      "pattern": "EMPHASIS-EUPHEMISM",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.588Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P1-S06_bank.json"
+    ]
+  }
 }

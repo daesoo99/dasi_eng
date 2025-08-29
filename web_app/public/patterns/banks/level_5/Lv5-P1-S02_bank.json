@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv5-P1-S02",
-  "title": "가정법 과거완료 진행",
-  "description": "가정법 과거완료 진행을 연습합니다. SUBJUNCTIVE-PAST-PERFECT-CONTINUOUS 패턴을 활용하여 고급 영어 표현을 익힙니다.",
-  "grammar_pattern": "SUBJUNCTIVE-PAST-PERFECT-CONTINUOUS",
+  "title": "Stage Lv5-P1-S02",
+  "description": "Level 5 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "If I had been working out regularly, I would have lost weight.",
-    "If she had been studying continuously, she would have passed the exam.",
-    "If he had been working harder, he would have been promoted."
+    "If she had been studying continuously, she would have passed the exam."
   ],
-  "learning_points": "conditional 관련 고급 표현과 실용적 활용",
+  "learning_points": "Level 5 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 2,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv5-P1-S02-001",
       "kr": "지속적으로 운동했더라면 체중을 감량했을 텐데.",
       "en": "If I had been working out regularly, I would have lost weight.",
-      "pattern": "SUBJUNCTIVE-PAST-PERFECT-CONTINUOUS",
       "form": "aff"
     },
     {
       "id": "Lv5-P1-S02-002",
       "kr": "계속 공부했더라면 시험에 합격했을 것입니다.",
       "en": "If she had been studying continuously, she would have passed the exam.",
-      "pattern": "SUBJUNCTIVE-PAST-PERFECT-CONTINUOUS",
       "form": "aff"
     },
     {
       "id": "Lv5-P1-S02-003",
       "kr": "더 열심히 일했더라면 승진했을 텐데.",
       "en": "If he had been working harder, he would have been promoted.",
-      "pattern": "SUBJUNCTIVE-PAST-PERFECT-CONTINUOUS",
       "form": "aff"
     },
     {
       "id": "Lv5-P1-S02-004",
       "kr": "돈을 계속 저축했더라면 집을 샀을 것입니다.",
       "en": "If we had been saving money, we would have bought a house.",
-      "pattern": "SUBJUNCTIVE-PAST-PERFECT-CONTINUOUS",
       "form": "aff"
     },
     {
       "id": "Lv5-P1-S02-005",
       "kr": "영어를 꾸준히 연습했더라면 유창해졌을 텐데.",
       "en": "If I had been practicing English consistently, I would have become fluent.",
-      "pattern": "SUBJUNCTIVE-PAST-PERFECT-CONTINUOUS",
       "form": "aff"
     },
     {
       "id": "Lv5-P1-S02-006",
       "kr": "건강에 더 신경 썼더라면 지금 아프지 않았을 것입니다.",
       "en": "If he had been taking better care of his health, he wouldn't be sick now.",
-      "pattern": "SUBJUNCTIVE-PAST-PERFECT-CONTINUOUS",
       "form": "aff"
     },
     {
       "id": "Lv5-P1-S02-007",
       "kr": "투자를 계속했더라면 지금 부자가 되었을 텐데.",
       "en": "If they had been investing continuously, they would be rich now.",
-      "pattern": "SUBJUNCTIVE-PAST-PERFECT-CONTINUOUS",
       "form": "aff"
     },
     {
       "id": "Lv5-P1-S02-008",
       "kr": "더 주의 깊게 운전했더라면 사고가 없었을 것입니다.",
       "en": "If she had been driving more carefully, there would have been no accident.",
-      "pattern": "SUBJUNCTIVE-PAST-PERFECT-CONTINUOUS",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L5_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.422Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_5\\Lv5-P1-S02_bank.json"
+    ]
+  }
 }

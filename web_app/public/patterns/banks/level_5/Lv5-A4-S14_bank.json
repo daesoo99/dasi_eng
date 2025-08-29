@@ -1,0 +1,331 @@
+{
+  "stage_id": "Lv5-A4-S14",
+  "title": "Stage Lv5-A4-S14",
+  "description": "Level 5 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "International joint research is expanding. (completion variant 1)",
+    "International joint research is expanding. (completion variant 2)"
+  ],
+  "learning_points": "Level 5 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 14,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv5-A4-S14-001",
+      "kr": "국제 공동 연구가 확대되고 있습니다. (완성 1)",
+      "en": "International joint research is expanding. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-002",
+      "kr": "국제 공동 연구가 확대되고 있습니다. (완성 2)",
+      "en": "International joint research is expanding. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-003",
+      "kr": "국제 공동 연구가 확대되고 있습니다. (완성 3)",
+      "en": "International joint research is expanding. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-004",
+      "kr": "국제 공동 연구가 확대되고 있습니다. (완성 4)",
+      "en": "International joint research is expanding. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-005",
+      "kr": "국제 공동 연구가 확대되고 있습니다. (완성 5)",
+      "en": "International joint research is expanding. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-006",
+      "kr": "글로벌 학술 네트워크를 구축했습니다. (완성 1)",
+      "en": "We have established a global academic network. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-007",
+      "kr": "글로벌 학술 네트워크를 구축했습니다. (완성 2)",
+      "en": "We have established a global academic network. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-008",
+      "kr": "글로벌 학술 네트워크를 구축했습니다. (완성 3)",
+      "en": "We have established a global academic network. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-009",
+      "kr": "글로벌 학술 네트워크를 구축했습니다. (완성 4)",
+      "en": "We have established a global academic network. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-010",
+      "kr": "글로벌 학술 네트워크를 구축했습니다. (완성 5)",
+      "en": "We have established a global academic network. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-011",
+      "kr": "문화 간 이해가 연구에 중요한 역할을 합니다. (완성 1)",
+      "en": "Cross-cultural understanding plays an important role in research. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-012",
+      "kr": "문화 간 이해가 연구에 중요한 역할을 합니다. (완성 2)",
+      "en": "Cross-cultural understanding plays an important role in research. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-013",
+      "kr": "문화 간 이해가 연구에 중요한 역할을 합니다. (완성 3)",
+      "en": "Cross-cultural understanding plays an important role in research. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-014",
+      "kr": "문화 간 이해가 연구에 중요한 역할을 합니다. (완성 4)",
+      "en": "Cross-cultural understanding plays an important role in research. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-015",
+      "kr": "문화 간 이해가 연구에 중요한 역할을 합니다. (완성 5)",
+      "en": "Cross-cultural understanding plays an important role in research. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-016",
+      "kr": "학술 교류가 활발히 이루어지고 있습니다. (완성 1)",
+      "en": "Academic exchange is actively taking place. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-017",
+      "kr": "학술 교류가 활발히 이루어지고 있습니다. (완성 2)",
+      "en": "Academic exchange is actively taking place. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-018",
+      "kr": "학술 교류가 활발히 이루어지고 있습니다. (완성 3)",
+      "en": "Academic exchange is actively taking place. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-019",
+      "kr": "학술 교류가 활발히 이루어지고 있습니다. (완성 4)",
+      "en": "Academic exchange is actively taking place. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-020",
+      "kr": "학술 교류가 활발히 이루어지고 있습니다. (완성 5)",
+      "en": "Academic exchange is actively taking place. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-021",
+      "kr": "다양성이 연구의 질을 향상시킵니다. (완성 1)",
+      "en": "Diversity enhances the quality of research. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-022",
+      "kr": "다양성이 연구의 질을 향상시킵니다. (완성 2)",
+      "en": "Diversity enhances the quality of research. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-023",
+      "kr": "다양성이 연구의 질을 향상시킵니다. (완성 3)",
+      "en": "Diversity enhances the quality of research. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-024",
+      "kr": "다양성이 연구의 질을 향상시킵니다. (완성 4)",
+      "en": "Diversity enhances the quality of research. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-025",
+      "kr": "다양성이 연구의 질을 향상시킵니다. (완성 5)",
+      "en": "Diversity enhances the quality of research. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-026",
+      "kr": "국제적 파트너십이 형성되었습니다. (완성 1)",
+      "en": "International partnerships have been formed. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-027",
+      "kr": "국제적 파트너십이 형성되었습니다. (완성 2)",
+      "en": "International partnerships have been formed. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-028",
+      "kr": "국제적 파트너십이 형성되었습니다. (완성 3)",
+      "en": "International partnerships have been formed. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-029",
+      "kr": "국제적 파트너십이 형성되었습니다. (완성 4)",
+      "en": "International partnerships have been formed. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-030",
+      "kr": "국제적 파트너십이 형성되었습니다. (완성 5)",
+      "en": "International partnerships have been formed. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A4-S14-031",
+      "kr": "연구자 이동성이 증가하고 있습니다. (완성 1)",
+      "en": "Researcher mobility is increasing. (completion variant 1)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A4-S14-032",
+      "kr": "연구자 이동성이 증가하고 있습니다. (완성 2)",
+      "en": "Researcher mobility is increasing. (completion variant 2)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A4-S14-033",
+      "kr": "연구자 이동성이 증가하고 있습니다. (완성 3)",
+      "en": "Researcher mobility is increasing. (completion variant 3)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A4-S14-034",
+      "kr": "연구자 이동성이 증가하고 있습니다. (완성 4)",
+      "en": "Researcher mobility is increasing. (completion variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A4-S14-035",
+      "kr": "연구자 이동성이 증가하고 있습니다. (완성 5)",
+      "en": "Researcher mobility is increasing. (completion variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A4-S14-036",
+      "kr": "글로벌 도전 과제에 공동 대응합니다. (완성 1)",
+      "en": "We jointly respond to global challenges. (completion variant 1)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A4-S14-037",
+      "kr": "글로벌 도전 과제에 공동 대응합니다. (완성 2)",
+      "en": "We jointly respond to global challenges. (completion variant 2)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A4-S14-038",
+      "kr": "글로벌 도전 과제에 공동 대응합니다. (완성 3)",
+      "en": "We jointly respond to global challenges. (completion variant 3)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A4-S14-039",
+      "kr": "글로벌 도전 과제에 공동 대응합니다. (완성 4)",
+      "en": "We jointly respond to global challenges. (completion variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A4-S14-040",
+      "kr": "글로벌 도전 과제에 공동 대응합니다. (완성 5)",
+      "en": "We jointly respond to global challenges. (completion variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A4-S14-041",
+      "kr": "국경을 넘나드는 협력이 중요합니다. (완성 1)",
+      "en": "Cross-border cooperation is important. (completion variant 1)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A4-S14-042",
+      "kr": "국경을 넘나드는 협력이 중요합니다. (완성 2)",
+      "en": "Cross-border cooperation is important. (completion variant 2)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A4-S14-043",
+      "kr": "국경을 넘나드는 협력이 중요합니다. (완성 3)",
+      "en": "Cross-border cooperation is important. (completion variant 3)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A4-S14-044",
+      "kr": "국경을 넘나드는 협력이 중요합니다. (완성 4)",
+      "en": "Cross-border cooperation is important. (completion variant 4)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A4-S14-045",
+      "kr": "국경을 넘나드는 협력이 중요합니다. (완성 5)",
+      "en": "Cross-border cooperation is important. (completion variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A4-S14-046",
+      "kr": "문화적 다양성을 존중하는 연구입니다. (완성 1)",
+      "en": "This is research that respects cultural diversity. (completion variant 1)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A4-S14-047",
+      "kr": "문화적 다양성을 존중하는 연구입니다. (완성 2)",
+      "en": "This is research that respects cultural diversity. (completion variant 2)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A4-S14-048",
+      "kr": "문화적 다양성을 존중하는 연구입니다. (완성 3)",
+      "en": "This is research that respects cultural diversity. (completion variant 3)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A4-S14-049",
+      "kr": "문화적 다양성을 존중하는 연구입니다. (완성 4)",
+      "en": "This is research that respects cultural diversity. (completion variant 4)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A4-S14-050",
+      "kr": "문화적 다양성을 존중하는 연구입니다. (완성 5)",
+      "en": "This is research that respects cultural diversity. (completion variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L5_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.645Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "data\\banks\\level_5\\Lv5-A4-S14_bank.json"
+    ]
+  }
+}

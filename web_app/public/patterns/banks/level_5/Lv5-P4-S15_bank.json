@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv5-P4-S15",
-  "title": "의견 완화",
-  "description": "의견 완화을 연습합니다. SOFTENED-OPINION 패턴을 활용하여 고급 영어 표현을 익힙니다.",
-  "grammar_pattern": "SOFTENED-OPINION",
+  "title": "Stage Lv5-P4-S15",
+  "description": "Level 5 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "I tend to think that way.",
-    "It seems to me that way.",
-    "I have a feeling that there might be a better way."
+    "It seems to me that way."
   ],
-  "learning_points": "polite-expression 관련 고급 표현과 실용적 활용",
+  "learning_points": "Level 5 target grammar and expressions with practical usage examples",
   "phase": 4,
   "stage_number": 15,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv5-P4-S15-001",
       "kr": "저는 그렇게 생각하는 편입니다.",
       "en": "I tend to think that way.",
-      "pattern": "SOFTENED-OPINION",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S15-002",
       "kr": "제게는 그렇게 보입니다.",
       "en": "It seems to me that way.",
-      "pattern": "SOFTENED-OPINION",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S15-003",
       "kr": "제 생각에는 더 나은 방법이 있을 것 같습니다.",
       "en": "I have a feeling that there might be a better way.",
-      "pattern": "SOFTENED-OPINION",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S15-004",
       "kr": "아마도 다른 접근법을 시도해볼 만할 것 같습니다.",
       "en": "Perhaps we might want to try a different approach.",
-      "pattern": "SOFTENED-OPINION",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S15-005",
       "kr": "제 개인적인 의견으로는 조금 어려울 것 같습니다.",
       "en": "In my personal view, it might be a bit challenging.",
-      "pattern": "SOFTENED-OPINION",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S15-006",
       "kr": "혹시 다시 생각해보는 것이 어떨까요?",
       "en": "I wonder if we might want to reconsider.",
-      "pattern": "SOFTENED-OPINION",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S15-007",
       "kr": "저로서는 좀 더 시간이 필요할 것 같습니다.",
       "en": "I have a sense that we might need more time.",
-      "pattern": "SOFTENED-OPINION",
       "form": "aff"
     },
     {
       "id": "Lv5-P4-S15-008",
       "kr": "제가 보기에는 다른 선택지도 있을 것 같습니다.",
       "en": "It appears to me that there might be other options.",
-      "pattern": "SOFTENED-OPINION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L5_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.436Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_5\\Lv5-P4-S15_bank.json"
+    ]
+  }
 }

@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv7-P2-S11",
+  "title": "가정법 도치 종합",
+  "description": "Had I ~, Were I to ~, Should I ~를 모두 사용하여 말하는 연습을 합니다.",
+  "grammar_pattern": "CONDITIONAL-INVERSION-COMPREHENSIVE",
+  "examples": [
+    "Had I known about the meeting, I would have attended it.",
+    "Were I to receive the promotion, I would relocate to the new office.",
+    "Should you need any assistance, please don't hesitate to contact me."
+  ],
+  "learning_points": "다양한 형태의 가정법 도치 구문 종합적 활용",
+  "phase": 2,
+  "stage_number": 11,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv7-P2-S11-001",
+      "kr": "만약 내가 그 회의에 대해 알았다면, 참석했을 것이다.",
+      "en": "Had I known about the meeting, I would have attended it.",
+      "pattern": "CONDITIONAL-INVERSION-COMPREHENSIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P2-S11-002",
+      "kr": "만약 내가 승진을 받는다면, 새 사무실로 이전할 것이다.",
+      "en": "Were I to receive the promotion, I would relocate to the new office.",
+      "pattern": "CONDITIONAL-INVERSION-COMPREHENSIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P2-S11-003",
+      "kr": "만약 당신이 도움이 필요하다면, 주저하지 말고 연락해 주세요.",
+      "en": "Should you need any assistance, please don't hesitate to contact me.",
+      "pattern": "CONDITIONAL-INVERSION-COMPREHENSIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P2-S11-004",
+      "kr": "만약 그가 더 일찍 떠났다면, 교통체증을 피했을 것이다.",
+      "en": "Had he left earlier, he would have avoided the traffic jam.",
+      "pattern": "CONDITIONAL-INVERSION-COMPREHENSIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P2-S11-005",
+      "kr": "만약 시장 상황이 개선된다면, 우리는 투자를 확대할 것이다.",
+      "en": "Were the market conditions to improve, we would expand our investments.",
+      "pattern": "CONDITIONAL-INVERSION-COMPREHENSIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P2-S11-006",
+      "kr": "만약 문제가 발생한다면, 즉시 팀장에게 보고해야 합니다.",
+      "en": "Should any problems arise, you must report them to the team leader immediately.",
+      "pattern": "CONDITIONAL-INVERSION-COMPREHENSIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P2-S11-007",
+      "kr": "만약 그들이 계획을 제대로 세웠다면, 이런 혼란을 겪지 않았을 것이다.",
+      "en": "Had they planned properly, they wouldn't have experienced this confusion.",
+      "pattern": "CONDITIONAL-INVERSION-COMPREHENSIVE",
+      "form": "neg"
+    },
+    {
+      "id": "Lv7-P2-S11-008",
+      "kr": "만약 새로운 기술이 도입된다면, 생산성이 크게 향상될 것이다.",
+      "en": "Were new technology to be introduced, productivity would improve significantly.",
+      "pattern": "CONDITIONAL-INVERSION-COMPREHENSIVE",
+      "form": "aff"
+    }
+  ]
+}

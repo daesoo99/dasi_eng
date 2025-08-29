@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv7-P6-S35",
-  "title": "문장 수준의 흐름 제어",
-  "description": "문장 내 여러 도치와 강조를 썼을 때 청자에게 혼동 없이 전달하는 억양과 페이싱을 연습합니다.",
-  "grammar_pattern": "SENTENCE-FLOW-CONTROL",
+  "title": "Stage Lv7-P6-S35",
+  "description": "Level 7 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Not only was the presentation outstanding, but it was also precisely what the board needed to hear.",
-    "So comprehensive was the report that it covered every aspect we had discussed, leaving no questions unanswered.",
-    "Rarely have we seen such dedication, and even more rarely have we witnessed such remarkable results."
+    "So comprehensive was the report that it covered every aspect we had discussed, leaving no questions unanswered."
   ],
-  "learning_points": "복잡한 도치 구조에서의 자연스러운 흐름과 명확한 의미 전달",
+  "learning_points": "Level 7 target grammar and expressions with practical usage examples",
   "phase": 6,
   "stage_number": 35,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv7-P6-S35-001",
       "kr": "프레젠테이션이 뛰어났을 뿐만 아니라, 이사회가 들어야 할 정확한 내용이었다.",
       "en": "Not only was the presentation outstanding, but it was also precisely what the board needed to hear.",
-      "pattern": "SENTENCE-FLOW-CONTROL",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S35-002",
       "kr": "보고서가 너무 포괄적이어서 우리가 논의한 모든 측면을 다뤘고, 질문을 남기지 않았다.",
       "en": "So comprehensive was the report that it covered every aspect we had discussed, leaving no questions unanswered.",
-      "pattern": "SENTENCE-FLOW-CONTROL",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S35-003",
       "kr": "그런 헌신을 좀처럼 보지 못했고, 그런 놀라운 결과는 더욱 드물게 목격했다.",
       "en": "Rarely have we seen such dedication, and even more rarely have we witnessed such remarkable results.",
-      "pattern": "SENTENCE-FLOW-CONTROL",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S35-004",
       "kr": "그 전략이 혁신적이었을 뿐만 아니라, 완전히 실행 가능했다.",
       "en": "Not only was the strategy innovative, but it was also completely feasible to implement.",
-      "pattern": "SENTENCE-FLOW-CONTROL",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S35-005",
       "kr": "팀워크가 너무 효과적이어서 모든 목표를 달성했고, 예산도 절약했다.",
       "en": "So effective was the teamwork that we achieved all objectives while also saving budget.",
-      "pattern": "SENTENCE-FLOW-CONTROL",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S35-006",
       "kr": "그런 창의성을 거의 보지 못했고, 그런 실용성은 더욱 드물었다.",
       "en": "Seldom have we observed such creativity, and even less frequently have we seen such practicality.",
-      "pattern": "SENTENCE-FLOW-CONTROL",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S35-007",
       "kr": "결과가 인상적이었을 뿐만 아니라, 우리의 모든 기대를 초과했다.",
       "en": "Not only were the results impressive, but they exceeded all our expectations.",
-      "pattern": "SENTENCE-FLOW-CONTROL",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S35-008",
       "kr": "해결책이 너무 우아해서 모든 문제를 해결했고, 새로운 기회도 창출했다.",
       "en": "So elegant was the solution that it resolved all issues while creating new opportunities.",
-      "pattern": "SENTENCE-FLOW-CONTROL",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L7_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.532Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_7\\Lv7-P6-S35_bank.json"
+    ]
+  }
 }

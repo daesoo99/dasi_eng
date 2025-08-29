@@ -1,0 +1,620 @@
+{
+  "stage_id": "Lv6-D4-S22",
+  "title": "글로벌 투자은행 및 M&A",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv6-D4-S22-001",
+      "kr": "투자은행이 거래를 주선했습니다. (완성 1)",
+      "en": "The investment bank arranged the transaction. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-002",
+      "kr": "투자은행이 거래를 주선했습니다. (완성 2)",
+      "en": "The investment bank arranged the transaction. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-003",
+      "kr": "투자은행이 거래를 주선했습니다. (완성 3)",
+      "en": "The investment bank arranged the transaction. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-004",
+      "kr": "투자은행이 거래를 주선했습니다. (완성 4)",
+      "en": "The investment bank arranged the transaction. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-005",
+      "kr": "투자은행이 거래를 주선했습니다. (완성 5)",
+      "en": "The investment bank arranged the transaction. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-006",
+      "kr": "합병 거래가 완료되었습니다. (완성 1)",
+      "en": "The merger transaction has been completed. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-007",
+      "kr": "합병 거래가 완료되었습니다. (완성 2)",
+      "en": "The merger transaction has been completed. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-008",
+      "kr": "합병 거래가 완료되었습니다. (완성 3)",
+      "en": "The merger transaction has been completed. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-009",
+      "kr": "합병 거래가 완료되었습니다. (완성 4)",
+      "en": "The merger transaction has been completed. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-010",
+      "kr": "합병 거래가 완료되었습니다. (완성 5)",
+      "en": "The merger transaction has been completed. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-011",
+      "kr": "기업 인수가 발표되었습니다. (완성 1)",
+      "en": "A corporate acquisition has been announced. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-012",
+      "kr": "기업 인수가 발표되었습니다. (완성 2)",
+      "en": "A corporate acquisition has been announced. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-013",
+      "kr": "기업 인수가 발표되었습니다. (완성 3)",
+      "en": "A corporate acquisition has been announced. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-014",
+      "kr": "기업 인수가 발표되었습니다. (완성 4)",
+      "en": "A corporate acquisition has been announced. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-015",
+      "kr": "기업 인수가 발표되었습니다. (완성 5)",
+      "en": "A corporate acquisition has been announced. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-016",
+      "kr": "실사 과정이 진행되고 있습니다. (완성 1)",
+      "en": "The due diligence process is underway. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-017",
+      "kr": "실사 과정이 진행되고 있습니다. (완성 2)",
+      "en": "The due diligence process is underway. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-018",
+      "kr": "실사 과정이 진행되고 있습니다. (완성 3)",
+      "en": "The due diligence process is underway. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-019",
+      "kr": "실사 과정이 진행되고 있습니다. (완성 4)",
+      "en": "The due diligence process is underway. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-020",
+      "kr": "실사 과정이 진행되고 있습니다. (완성 5)",
+      "en": "The due diligence process is underway. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-021",
+      "kr": "시너지 효과가 기대됩니다. (완성 1)",
+      "en": "Synergy effects are expected. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-022",
+      "kr": "시너지 효과가 기대됩니다. (완성 2)",
+      "en": "Synergy effects are expected. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-023",
+      "kr": "시너지 효과가 기대됩니다. (완성 3)",
+      "en": "Synergy effects are expected. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-024",
+      "kr": "시너지 효과가 기대됩니다. (완성 4)",
+      "en": "Synergy effects are expected. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-025",
+      "kr": "시너지 효과가 기대됩니다. (완성 5)",
+      "en": "Synergy effects are expected. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-026",
+      "kr": "기업가치 평가가 완료되었습니다. (완성 1)",
+      "en": "Corporate valuation has been completed. (completion variant 1)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-027",
+      "kr": "기업가치 평가가 완료되었습니다. (완성 2)",
+      "en": "Corporate valuation has been completed. (completion variant 2)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-028",
+      "kr": "기업가치 평가가 완료되었습니다. (완성 3)",
+      "en": "Corporate valuation has been completed. (completion variant 3)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-029",
+      "kr": "기업가치 평가가 완료되었습니다. (완성 4)",
+      "en": "Corporate valuation has been completed. (completion variant 4)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-030",
+      "kr": "기업가치 평가가 완료되었습니다. (완성 5)",
+      "en": "Corporate valuation has been completed. (completion variant 5)",
+      "form": "aff",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-031",
+      "kr": "차입매수가 실행되었습니다. (완성 1)",
+      "en": "A leveraged buyout has been executed. (completion variant 1)",
+      "form": "neg",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-032",
+      "kr": "차입매수가 실행되었습니다. (완성 2)",
+      "en": "A leveraged buyout has been executed. (completion variant 2)",
+      "form": "neg",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-033",
+      "kr": "차입매수가 실행되었습니다. (완성 3)",
+      "en": "A leveraged buyout has been executed. (completion variant 3)",
+      "form": "neg",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-034",
+      "kr": "차입매수가 실행되었습니다. (완성 4)",
+      "en": "A leveraged buyout has been executed. (completion variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-035",
+      "kr": "차입매수가 실행되었습니다. (완성 5)",
+      "en": "A leveraged buyout has been executed. (completion variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-036",
+      "kr": "기업공개가 성공적으로 이루어졌습니다. (완성 1)",
+      "en": "The initial public offering was successful. (completion variant 1)",
+      "form": "neg",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-037",
+      "kr": "기업공개가 성공적으로 이루어졌습니다. (완성 2)",
+      "en": "The initial public offering was successful. (completion variant 2)",
+      "form": "neg",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-038",
+      "kr": "기업공개가 성공적으로 이루어졌습니다. (완성 3)",
+      "en": "The initial public offering was successful. (completion variant 3)",
+      "form": "neg",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-039",
+      "kr": "기업공개가 성공적으로 이루어졌습니다. (완성 4)",
+      "en": "The initial public offering was successful. (completion variant 4)",
+      "form": "neg",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-040",
+      "kr": "기업공개가 성공적으로 이루어졌습니다. (완성 5)",
+      "en": "The initial public offering was successful. (completion variant 5)",
+      "form": "neg",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-041",
+      "kr": "인수업무를 담당했습니다. (완성 1)",
+      "en": "We handled the underwriting business. (completion variant 1)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-042",
+      "kr": "인수업무를 담당했습니다. (완성 2)",
+      "en": "We handled the underwriting business. (completion variant 2)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-043",
+      "kr": "인수업무를 담당했습니다. (완성 3)",
+      "en": "We handled the underwriting business. (completion variant 3)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-044",
+      "kr": "인수업무를 담당했습니다. (완성 4)",
+      "en": "We handled the underwriting business. (completion variant 4)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-045",
+      "kr": "인수업무를 담당했습니다. (완성 5)",
+      "en": "We handled the underwriting business. (completion variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-046",
+      "kr": "신디케이션이 구성되었습니다. (완성 1)",
+      "en": "A syndication has been formed. (completion variant 1)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-047",
+      "kr": "신디케이션이 구성되었습니다. (완성 2)",
+      "en": "A syndication has been formed. (completion variant 2)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-048",
+      "kr": "신디케이션이 구성되었습니다. (완성 3)",
+      "en": "A syndication has been formed. (completion variant 3)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-049",
+      "kr": "신디케이션이 구성되었습니다. (완성 4)",
+      "en": "A syndication has been formed. (completion variant 4)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    },
+    {
+      "id": "Lv6-D4-S22-050",
+      "kr": "신디케이션이 구성되었습니다. (완성 5)",
+      "en": "A syndication has been formed. (completion variant 5)",
+      "form": "wh_q",
+      "grammar_tags": [
+        "IB-TERMINOLOGY",
+        "M&A-LANGUAGE",
+        "VALUATION-TERMS",
+        "TRANSACTION-STRUCTURES"
+      ]
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10
+  },
+  "grammar_meta": [
+    "IB-TERMINOLOGY",
+    "M&A-LANGUAGE",
+    "VALUATION-TERMS",
+    "TRANSACTION-STRUCTURES"
+  ],
+  "status": "generated",
+  "batch": "L6_Professional_Batch2"
+}

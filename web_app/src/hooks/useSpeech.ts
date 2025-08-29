@@ -34,6 +34,13 @@ export const useSpeech = (options: UseSpeechOptions = {}) => {
   const cloudSTT = useRef(options.apiBaseUrl ? new CloudSTT(options.apiBaseUrl) : null);
   const audioRecorder = useRef(new AudioRecorder());
 
+  // Beep audio control
+  const currentBeepRefs = useRef<{
+    audioContext?: AudioContext;
+    oscillator?: OscillatorNode;
+    gainNode?: GainNode;
+  }>({});
+
   // Check if speech services are available
   const isSTTAvailable = browserSTT.current.isAvailable() || !!cloudSTT.current;
   const isTTSAvailable = browserTTS.current.isAvailable();
@@ -145,9 +152,12 @@ export const useSpeech = (options: UseSpeechOptions = {}) => {
     }
   }, [options.language]);
 
-  // Play beep sound
+  // Play beep sound with control
   const playBeep = useCallback(async (frequency: number = 800, duration: number = 500) => {
     try {
+      // Stop any existing beep
+      stopBeep();
+
       const audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
       const oscillator = audioContext.createOscillator();
       const gainNode = audioContext.createGain();
@@ -161,12 +171,16 @@ export const useSpeech = (options: UseSpeechOptions = {}) => {
       gainNode.gain.setValueAtTime(0.3, audioContext.currentTime);
       gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + duration / 1000);
       
+      // Store references for control
+      currentBeepRefs.current = { audioContext, oscillator, gainNode };
+      
       oscillator.start(audioContext.currentTime);
       oscillator.stop(audioContext.currentTime + duration / 1000);
       
       return new Promise<void>((resolve) => {
         oscillator.onended = () => {
           audioContext.close();
+          currentBeepRefs.current = {};
           resolve();
         };
       });
@@ -174,6 +188,21 @@ export const useSpeech = (options: UseSpeechOptions = {}) => {
       console.warn('Beep sound failed:', error);
       // Fallback: create a brief pause
       return new Promise<void>(resolve => setTimeout(resolve, 300));
+    }
+  }, []);
+
+  // Stop beep sound immediately
+  const stopBeep = useCallback(() => {
+    try {
+      if (currentBeepRefs.current.oscillator) {
+        currentBeepRefs.current.oscillator.stop();
+      }
+      if (currentBeepRefs.current.audioContext) {
+        currentBeepRefs.current.audioContext.close();
+      }
+      currentBeepRefs.current = {};
+    } catch (error) {
+      console.warn('Failed to stop beep:', error);
     }
   }, []);
 
@@ -218,10 +247,28 @@ export const useSpeech = (options: UseSpeechOptions = {}) => {
     }
   }, [speak, playBeep]);
 
+  // TTS control methods
+  const pauseTTS = useCallback(() => {
+    browserTTS.current.pause();
+  }, []);
+
+  const resumeTTS = useCallback(() => {
+    browserTTS.current.resume();
+  }, []);
+
+  const isTTSPaused = useCallback(() => {
+    return browserTTS.current.isPaused();
+  }, []);
+
+  const isTTSSpeaking = useCallback(() => {
+    return browserTTS.current.isSpeaking();
+  }, []);
+
   // Stop all speech activities
   const stopAll = useCallback(() => {
     browserSTT.current.stopRecording();
     browserTTS.current.stop();
+    stopBeep();
     
     if (audioRecorder.current.isRecording()) {
       audioRecorder.current.stopRecording().catch(() => {
@@ -234,7 +281,7 @@ export const useSpeech = (options: UseSpeechOptions = {}) => {
       isRecording: false,
       isProcessing: false,
     }));
-  }, []);
+  }, [stopBeep]);
 
   // Clear error
   const clearError = useCallback(() => {
@@ -259,9 +306,16 @@ export const useSpeech = (options: UseSpeechOptions = {}) => {
     stopRecording,
     speak,
     playBeep,
+    stopBeep,
     startAutoFlow,
     stopAll,
     clearError,
     getVoices,
+    
+    // TTS Control
+    pauseTTS,
+    resumeTTS,
+    isTTSPaused,
+    isTTSSpeaking,
   };
 };

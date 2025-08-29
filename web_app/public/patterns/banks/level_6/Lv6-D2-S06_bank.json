@@ -1,0 +1,331 @@
+{
+  "stage_id": "Lv6-D2-S06",
+  "title": "Stage Lv6-D2-S06",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "Patient autonomy must be respected. (professional variant 1)",
+    "Informed consent was obtained. (professional variant 1)"
+  ],
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 6,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv6-D2-S06-001",
+      "kr": "환자의 자율성을 존중해야 합니다. (전문 1)",
+      "en": "Patient autonomy must be respected. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-002",
+      "kr": "충분한 설명 후 동의를 받았습니다. (전문 1)",
+      "en": "Informed consent was obtained. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-003",
+      "kr": "의료진의 선행 의무가 우선됩니다. (전문 1)",
+      "en": "The physician's duty of beneficence takes precedence. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-004",
+      "kr": "해를 끼치지 않는 원칙을 준수합니다. (전문 1)",
+      "en": "The principle of non-maleficence is observed. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-005",
+      "kr": "환자 기밀이 엄격히 보호됩니다. (전문 1)",
+      "en": "Patient confidentiality is strictly protected. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-006",
+      "kr": "의료 정의가 공평하게 적용되어야 합니다. (전문 1)",
+      "en": "Medical justice must be applied equitably. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-007",
+      "kr": "생명 연장 치료를 거부할 권리가 있습니다. (전문 1)",
+      "en": "There is a right to refuse life-sustaining treatment. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-008",
+      "kr": "의료진의 전문적 책임이 중요합니다. (전문 1)",
+      "en": "Professional responsibility of healthcare providers is paramount. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-009",
+      "kr": "환자의 존엄성이 보장되어야 합니다. (전문 1)",
+      "en": "Patient dignity must be ensured. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-010",
+      "kr": "윤리 위원회의 검토가 필요합니다. (전문 1)",
+      "en": "Ethics committee review is required. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-011",
+      "kr": "환자의 자율성을 존중해야 합니다. (전문 2)",
+      "en": "Patient autonomy must be respected. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-012",
+      "kr": "충분한 설명 후 동의를 받았습니다. (전문 2)",
+      "en": "Informed consent was obtained. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-013",
+      "kr": "의료진의 선행 의무가 우선됩니다. (전문 2)",
+      "en": "The physician's duty of beneficence takes precedence. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-014",
+      "kr": "해를 끼치지 않는 원칙을 준수합니다. (전문 2)",
+      "en": "The principle of non-maleficence is observed. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-015",
+      "kr": "환자 기밀이 엄격히 보호됩니다. (전문 2)",
+      "en": "Patient confidentiality is strictly protected. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-016",
+      "kr": "의료 정의가 공평하게 적용되어야 합니다. (전문 2)",
+      "en": "Medical justice must be applied equitably. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-017",
+      "kr": "생명 연장 치료를 거부할 권리가 있습니다. (전문 2)",
+      "en": "There is a right to refuse life-sustaining treatment. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-018",
+      "kr": "의료진의 전문적 책임이 중요합니다. (전문 2)",
+      "en": "Professional responsibility of healthcare providers is paramount. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-019",
+      "kr": "환자의 존엄성이 보장되어야 합니다. (전문 2)",
+      "en": "Patient dignity must be ensured. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-020",
+      "kr": "윤리 위원회의 검토가 필요합니다. (전문 2)",
+      "en": "Ethics committee review is required. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-021",
+      "kr": "환자의 자율성을 존중해야 합니다. (전문 3)",
+      "en": "Patient autonomy must be respected. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-022",
+      "kr": "충분한 설명 후 동의를 받았습니다. (전문 3)",
+      "en": "Informed consent was obtained. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-023",
+      "kr": "의료진의 선행 의무가 우선됩니다. (전문 3)",
+      "en": "The physician's duty of beneficence takes precedence. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-024",
+      "kr": "해를 끼치지 않는 원칙을 준수합니다. (전문 3)",
+      "en": "The principle of non-maleficence is observed. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-025",
+      "kr": "환자 기밀이 엄격히 보호됩니다. (전문 3)",
+      "en": "Patient confidentiality is strictly protected. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-026",
+      "kr": "의료 정의가 공평하게 적용되어야 합니다. (전문 3)",
+      "en": "Medical justice must be applied equitably. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-027",
+      "kr": "생명 연장 치료를 거부할 권리가 있습니다. (전문 3)",
+      "en": "There is a right to refuse life-sustaining treatment. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-028",
+      "kr": "의료진의 전문적 책임이 중요합니다. (전문 3)",
+      "en": "Professional responsibility of healthcare providers is paramount. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-029",
+      "kr": "환자의 존엄성이 보장되어야 합니다. (전문 3)",
+      "en": "Patient dignity must be ensured. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-030",
+      "kr": "윤리 위원회의 검토가 필요합니다. (전문 3)",
+      "en": "Ethics committee review is required. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S06-031",
+      "kr": "환자의 자율성을 존중해야 합니다. (전문 4)",
+      "en": "Patient autonomy must be respected. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S06-032",
+      "kr": "충분한 설명 후 동의를 받았습니다. (전문 4)",
+      "en": "Informed consent was obtained. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S06-033",
+      "kr": "의료진의 선행 의무가 우선됩니다. (전문 4)",
+      "en": "The physician's duty of beneficence takes precedence. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S06-034",
+      "kr": "해를 끼치지 않는 원칙을 준수합니다. (전문 4)",
+      "en": "The principle of non-maleficence is observed. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S06-035",
+      "kr": "환자 기밀이 엄격히 보호됩니다. (전문 4)",
+      "en": "Patient confidentiality is strictly protected. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S06-036",
+      "kr": "의료 정의가 공평하게 적용되어야 합니다. (전문 4)",
+      "en": "Medical justice must be applied equitably. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S06-037",
+      "kr": "생명 연장 치료를 거부할 권리가 있습니다. (전문 4)",
+      "en": "There is a right to refuse life-sustaining treatment. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S06-038",
+      "kr": "의료진의 전문적 책임이 중요합니다. (전문 4)",
+      "en": "Professional responsibility of healthcare providers is paramount. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S06-039",
+      "kr": "환자의 존엄성이 보장되어야 합니다. (전문 4)",
+      "en": "Patient dignity must be ensured. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S06-040",
+      "kr": "윤리 위원회의 검토가 필요합니다. (전문 4)",
+      "en": "Ethics committee review is required. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S06-041",
+      "kr": "환자의 자율성을 존중해야 합니다. (전문 5)",
+      "en": "Patient autonomy must be respected. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S06-042",
+      "kr": "충분한 설명 후 동의를 받았습니다. (전문 5)",
+      "en": "Informed consent was obtained. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S06-043",
+      "kr": "의료진의 선행 의무가 우선됩니다. (전문 5)",
+      "en": "The physician's duty of beneficence takes precedence. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S06-044",
+      "kr": "해를 끼치지 않는 원칙을 준수합니다. (전문 5)",
+      "en": "The principle of non-maleficence is observed. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S06-045",
+      "kr": "환자 기밀이 엄격히 보호됩니다. (전문 5)",
+      "en": "Patient confidentiality is strictly protected. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S06-046",
+      "kr": "의료 정의가 공평하게 적용되어야 합니다. (전문 5)",
+      "en": "Medical justice must be applied equitably. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S06-047",
+      "kr": "생명 연장 치료를 거부할 권리가 있습니다. (전문 5)",
+      "en": "There is a right to refuse life-sustaining treatment. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S06-048",
+      "kr": "의료진의 전문적 책임이 중요합니다. (전문 5)",
+      "en": "Professional responsibility of healthcare providers is paramount. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S06-049",
+      "kr": "환자의 존엄성이 보장되어야 합니다. (전문 5)",
+      "en": "Patient dignity must be ensured. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S06-050",
+      "kr": "윤리 위원회의 검토가 필요합니다. (전문 5)",
+      "en": "Ethics committee review is required. (professional variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.794Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "backups\\level_6_professional_mastery\\banks\\Lv6-D2-S06_bank.json"
+    ]
+  }
+}

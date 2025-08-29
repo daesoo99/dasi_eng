@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P4-S20",
-  "title": "은유/직유",
-  "description": "metaphor, simile 사용. 예) Life is a journey.(은유), He fought like a lion.(직유). 자신의 생각을 은유로 표현하는 게임.",
-  "grammar_pattern": "METAPHOR-SIMILE",
+  "title": "Stage Lv9-P4-S20",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Life is a journey filled with unexpected turns.",
-    "He fought like a lion defending his territory.",
-    "Her voice is music to my ears."
+    "He fought like a lion defending his territory."
   ],
-  "learning_points": "은유와 직유를 사용한 수사적 표현력 개발",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 4,
   "stage_number": 20,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv9-P4-S20-001",
       "kr": "인생은 예상치 못한 반전으로 가득한 여행입니다.",
       "en": "Life is a journey filled with unexpected turns.",
-      "pattern": "METAPHOR-SIMILE",
       "form": "aff"
     },
     {
       "id": "Lv9-P4-S20-002",
       "kr": "그는 자신의 영역을 지키는 사자처럼 싸웠습니다.",
       "en": "He fought like a lion defending his territory.",
-      "pattern": "METAPHOR-SIMILE",
       "form": "aff"
     },
     {
       "id": "Lv9-P4-S20-003",
       "kr": "그녀의 목소리는 내 귀에는 음악과 같습니다.",
       "en": "Her voice is music to my ears.",
-      "pattern": "METAPHOR-SIMILE",
       "form": "aff"
     },
     {
       "id": "Lv9-P4-S20-004",
       "kr": "시간은 돈이므로 효율적으로 사용해야 합니다.",
       "en": "Time is money, so we must use it efficiently.",
-      "pattern": "METAPHOR-SIMILE",
       "form": "aff"
     },
     {
       "id": "Lv9-P4-S20-005",
       "kr": "그 계획은 얼음처럼 단단히 구성되었습니다.",
       "en": "The plan was structured as solid as ice.",
-      "pattern": "METAPHOR-SIMILE",
       "form": "aff"
     },
     {
       "id": "Lv9-P4-S20-006",
       "kr": "그녀는 밤하늘의 별처럼 빛나고 있었습니다.",
       "en": "She was shining like a star in the night sky.",
-      "pattern": "METAPHOR-SIMILE",
       "form": "aff"
     },
     {
       "id": "Lv9-P4-S20-007",
       "kr": "지식은 미래를 여는 열쇠입니다.",
       "en": "Knowledge is the key that opens the future.",
-      "pattern": "METAPHOR-SIMILE",
       "form": "aff"
     },
     {
       "id": "Lv9-P4-S20-008",
       "kr": "그의 수업은 마른 땅에 내리는 비처럼 상쾌했습니다.",
       "en": "His lecture was refreshing like rain on dry land.",
-      "pattern": "METAPHOR-SIMILE",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.603Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P4-S20_bank.json"
+    ]
+  }
 }

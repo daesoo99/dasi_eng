@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv5-P6-S31",
-  "title": "강조 콜로케이션",
-  "description": "강조 콜로케이션을 연습합니다. EMPHASIS-COLLOCATIONS 패턴을 활용하여 고급 영어 표현을 익힙니다.",
-  "grammar_pattern": "EMPHASIS-COLLOCATIONS",
+  "title": "Stage Lv5-P6-S31",
+  "description": "Level 5 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "It's highly likely.",
-    "I'm deeply concerned.",
-    "It's strongly recommended."
+    "I'm deeply concerned."
   ],
-  "learning_points": "intensive-collocations 관련 고급 표현과 실용적 활용",
+  "learning_points": "Level 5 target grammar and expressions with practical usage examples",
   "phase": 6,
   "stage_number": 31,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv5-P6-S31-001",
       "kr": "아주 그럴듯합니다.",
       "en": "It's highly likely.",
-      "pattern": "EMPHASIS-COLLOCATIONS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S31-002",
       "kr": "매우 우려스럽습니다.",
       "en": "I'm deeply concerned.",
-      "pattern": "EMPHASIS-COLLOCATIONS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S31-003",
       "kr": "강력히 권장됩니다.",
       "en": "It's strongly recommended.",
-      "pattern": "EMPHASIS-COLLOCATIONS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S31-004",
       "kr": "완전히 만족했습니다.",
       "en": "I'm utterly satisfied.",
-      "pattern": "EMPHASIS-COLLOCATIONS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S31-005",
       "kr": "극도로 중요합니다.",
       "en": "It's vitally important.",
-      "pattern": "EMPHASIS-COLLOCATIONS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S31-006",
       "kr": "심각하게 손상되었습니다.",
       "en": "It's severely damaged.",
-      "pattern": "EMPHASIS-COLLOCATIONS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S31-007",
       "kr": "완전히 다릅니다.",
       "en": "It's totally different.",
-      "pattern": "EMPHASIS-COLLOCATIONS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S31-008",
       "kr": "매우 효과적입니다.",
       "en": "It's highly effective.",
-      "pattern": "EMPHASIS-COLLOCATIONS",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L5_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.452Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_5\\Lv5-P6-S31_bank.json"
+    ]
+  }
 }

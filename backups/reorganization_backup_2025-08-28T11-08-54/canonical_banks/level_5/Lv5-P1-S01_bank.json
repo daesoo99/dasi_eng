@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv5-P1-S01",
+  "title": "미래완료 수동태",
+  "description": "미래완료 수동태을 연습합니다. FUTURE-PERFECT-PASSIVE 패턴을 활용하여 고급 영어 표현을 익힙니다.",
+  "grammar_pattern": "FUTURE-PERFECT-PASSIVE",
+  "examples": [
+    "The construction will have been completed by next month.",
+    "The report will have been submitted by Friday.",
+    "The project will have been finished by December."
+  ],
+  "learning_points": "tense 관련 고급 표현과 실용적 활용",
+  "phase": 1,
+  "stage_number": 1,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv5-P1-S01-001",
+      "kr": "다음 달까지 공사가 완료될 것입니다.",
+      "en": "The construction will have been completed by next month.",
+      "pattern": "FUTURE-PERFECT-PASSIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P1-S01-002",
+      "kr": "보고서는 금요일까지 제출될 것입니다.",
+      "en": "The report will have been submitted by Friday.",
+      "pattern": "FUTURE-PERFECT-PASSIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P1-S01-003",
+      "kr": "프로젝트는 12월까지 마무리될 예정입니다.",
+      "en": "The project will have been finished by December.",
+      "pattern": "FUTURE-PERFECT-PASSIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P1-S01-004",
+      "kr": "문제들이 회의 전까지 해결될 것입니다.",
+      "en": "The issues will have been resolved before the meeting.",
+      "pattern": "FUTURE-PERFECT-PASSIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P1-S01-005",
+      "kr": "새 정책이 내년까지 시행될 것입니다.",
+      "en": "The new policy will have been implemented by next year.",
+      "pattern": "FUTURE-PERFECT-PASSIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P1-S01-006",
+      "kr": "계약서는 다음 주까지 검토될 것입니다.",
+      "en": "The contract will have been reviewed by next week.",
+      "pattern": "FUTURE-PERFECT-PASSIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P1-S01-007",
+      "kr": "모든 데이터가 월말까지 분석될 것입니다.",
+      "en": "All data will have been analyzed by the end of the month.",
+      "pattern": "FUTURE-PERFECT-PASSIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P1-S01-008",
+      "kr": "시스템은 업그레이드 후 테스트될 것입니다.",
+      "en": "The system will have been tested after the upgrade.",
+      "pattern": "FUTURE-PERFECT-PASSIVE",
+      "form": "aff"
+    }
+  ]
+}

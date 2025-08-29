@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv7-P3-S14",
-  "title": "수동태 + 시제 결합",
-  "description": "과거완료수동, 미래완료수동 등 고급 수동태 시제를 문맥 있게 사용합니다.",
-  "grammar_pattern": "PASSIVE-ADVANCED-TENSES",
+  "title": "Stage Lv7-P3-S14",
+  "description": "Level 7 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "The report had been completed before the deadline was announced.",
-    "By next month, the new system will have been implemented across all departments.",
-    "The research has been being conducted for over three years now."
+    "By next month, the new system will have been implemented across all departments."
   ],
-  "learning_points": "복합 시제와 수동태의 결합을 통한 정교한 시간 표현",
+  "learning_points": "Level 7 target grammar and expressions with practical usage examples",
   "phase": 3,
   "stage_number": 14,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv7-P3-S14-001",
       "kr": "마감일이 발표되기 전에 보고서가 완성되어 있었다.",
       "en": "The report had been completed before the deadline was announced.",
-      "pattern": "PASSIVE-ADVANCED-TENSES",
       "form": "aff"
     },
     {
       "id": "Lv7-P3-S14-002",
       "kr": "다음 달까지는 새로운 시스템이 모든 부서에 구현되어 있을 것이다.",
       "en": "By next month, the new system will have been implemented across all departments.",
-      "pattern": "PASSIVE-ADVANCED-TENSES",
       "form": "aff"
     },
     {
       "id": "Lv7-P3-S14-003",
       "kr": "그 연구는 현재 3년 넘게 진행되어 오고 있다.",
       "en": "The research has been being conducted for over three years now.",
-      "pattern": "PASSIVE-ADVANCED-TENSES",
       "form": "aff"
     },
     {
       "id": "Lv7-P3-S14-004",
       "kr": "새로운 정책이 발표되기 전에 이미 모든 준비가 완료되어 있었다.",
       "en": "All preparations had been completed before the new policy was announced.",
-      "pattern": "PASSIVE-ADVANCED-TENSES",
       "form": "aff"
     },
     {
       "id": "Lv7-P3-S14-005",
       "kr": "프로젝트가 내년 말까지 완전히 마무리되어 있을 것이다.",
       "en": "The project will have been completely finished by the end of next year.",
-      "pattern": "PASSIVE-ADVANCED-TENSES",
       "form": "aff"
     },
     {
       "id": "Lv7-P3-S14-006",
       "kr": "그 건물은 지난 6개월 동안 개조되어 오고 있지 않았다.",
       "en": "The building hasn't been being renovated for the past six months.",
-      "pattern": "PASSIVE-ADVANCED-TENSES",
       "form": "neg"
     },
     {
       "id": "Lv7-P3-S14-007",
       "kr": "회의가 시작되기 전에 모든 자료가 준비되어 있었다.",
       "en": "All materials had been prepared before the meeting started.",
-      "pattern": "PASSIVE-ADVANCED-TENSES",
       "form": "aff"
     },
     {
       "id": "Lv7-P3-S14-008",
       "kr": "2025년까지는 모든 데이터가 새로운 형식으로 전환되어 있을 것이다.",
       "en": "By 2025, all data will have been converted to the new format.",
-      "pattern": "PASSIVE-ADVANCED-TENSES",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 7,
+    "neg": 1,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L7_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.514Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_7\\Lv7-P3-S14_bank.json"
+    ]
+  }
 }

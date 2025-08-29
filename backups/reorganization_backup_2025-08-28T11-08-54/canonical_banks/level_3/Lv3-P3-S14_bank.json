@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv3-P3-S14",
+  "title": "간접의문문",
+  "description": "의문문을 간접화법으로 바꾸는 간접의문문을 배웁니다. 어순 변화와 의문사 사용법을 익히며 정중하게 질문하거나 다른 사람의 질문을 전달하는 방법을 연습합니다.",
+  "grammar_pattern": "ask + if/whether... / ask + 의문사 + 주어 + 동사...",
+  "examples": ["'Are you okay?' → He asked if I was okay.", "'What time is it?' → She asked what time it was.", "I wonder if he will come."],
+  "learning_points": "Yes/No 의문문(if/whether)과 의문사 의문문의 간접화법 구분",
+  "phase": 3,
+  "stage_number": 14,
+  "count": 0,
+  "sentences": []
+}

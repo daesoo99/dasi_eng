@@ -1,0 +1,331 @@
+{
+  "stage_id": "Lv4-A3-S12",
+  "title": "Stage Lv4-A3-S12",
+  "description": "Level 4 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "Let's finalize the contract. (variant 1)",
+    "This has been a successful deal. (variant 1)"
+  ],
+  "learning_points": "Level 4 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 12,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv4-A3-S12-001",
+      "kr": "계약을 확정하겠습니다. (v1)",
+      "en": "Let's finalize the contract. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-002",
+      "kr": "성공적인 거래였습니다. (v1)",
+      "en": "This has been a successful deal. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-003",
+      "kr": "앞으로도 좋은 파트너십을 기대합니다. (v1)",
+      "en": "I look forward to a great partnership. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-004",
+      "kr": "모든 조건에 합의했습니다. (v1)",
+      "en": "We've agreed on all terms. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-005",
+      "kr": "계약서에 서명하겠습니다. (v1)",
+      "en": "We'll sign the contract. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-006",
+      "kr": "향후 협력 방안을 논의합시다. (v1)",
+      "en": "Let's discuss future cooperation. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-007",
+      "kr": "만족스러운 결과입니다. (v1)",
+      "en": "This is a satisfactory outcome. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-008",
+      "kr": "다음 주에 서류를 준비하겠습니다. (v1)",
+      "en": "We'll prepare the documents next week. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-009",
+      "kr": "연락을 계속 유지하겠습니다. (v1)",
+      "en": "We'll stay in touch. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-010",
+      "kr": "함께 일할 수 있어서 기쁩니다. (v1)",
+      "en": "It's a pleasure doing business with you. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-011",
+      "kr": "계약을 확정하겠습니다. (v2)",
+      "en": "Let's finalize the contract. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-012",
+      "kr": "성공적인 거래였습니다. (v2)",
+      "en": "This has been a successful deal. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-013",
+      "kr": "앞으로도 좋은 파트너십을 기대합니다. (v2)",
+      "en": "I look forward to a great partnership. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-014",
+      "kr": "모든 조건에 합의했습니다. (v2)",
+      "en": "We've agreed on all terms. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-015",
+      "kr": "계약서에 서명하겠습니다. (v2)",
+      "en": "We'll sign the contract. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-016",
+      "kr": "향후 협력 방안을 논의합시다. (v2)",
+      "en": "Let's discuss future cooperation. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-017",
+      "kr": "만족스러운 결과입니다. (v2)",
+      "en": "This is a satisfactory outcome. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-018",
+      "kr": "다음 주에 서류를 준비하겠습니다. (v2)",
+      "en": "We'll prepare the documents next week. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-019",
+      "kr": "연락을 계속 유지하겠습니다. (v2)",
+      "en": "We'll stay in touch. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-020",
+      "kr": "함께 일할 수 있어서 기쁩니다. (v2)",
+      "en": "It's a pleasure doing business with you. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-021",
+      "kr": "계약을 확정하겠습니다. (v3)",
+      "en": "Let's finalize the contract. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-022",
+      "kr": "성공적인 거래였습니다. (v3)",
+      "en": "This has been a successful deal. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-023",
+      "kr": "앞으로도 좋은 파트너십을 기대합니다. (v3)",
+      "en": "I look forward to a great partnership. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-024",
+      "kr": "모든 조건에 합의했습니다. (v3)",
+      "en": "We've agreed on all terms. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-025",
+      "kr": "계약서에 서명하겠습니다. (v3)",
+      "en": "We'll sign the contract. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-026",
+      "kr": "향후 협력 방안을 논의합시다. (v3)",
+      "en": "Let's discuss future cooperation. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-027",
+      "kr": "만족스러운 결과입니다. (v3)",
+      "en": "This is a satisfactory outcome. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-028",
+      "kr": "다음 주에 서류를 준비하겠습니다. (v3)",
+      "en": "We'll prepare the documents next week. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-029",
+      "kr": "연락을 계속 유지하겠습니다. (v3)",
+      "en": "We'll stay in touch. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-030",
+      "kr": "함께 일할 수 있어서 기쁩니다. (v3)",
+      "en": "It's a pleasure doing business with you. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-031",
+      "kr": "계약을 확정하겠습니다. (v4)",
+      "en": "Let's finalize the contract. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-032",
+      "kr": "성공적인 거래였습니다. (v4)",
+      "en": "This has been a successful deal. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-033",
+      "kr": "앞으로도 좋은 파트너십을 기대합니다. (v4)",
+      "en": "I look forward to a great partnership. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-034",
+      "kr": "모든 조건에 합의했습니다. (v4)",
+      "en": "We've agreed on all terms. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-035",
+      "kr": "계약서에 서명하겠습니다. (v4)",
+      "en": "We'll sign the contract. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S12-036",
+      "kr": "향후 협력 방안을 논의합시다. (v4)",
+      "en": "Let's discuss future cooperation. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S12-037",
+      "kr": "만족스러운 결과입니다. (v4)",
+      "en": "This is a satisfactory outcome. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S12-038",
+      "kr": "다음 주에 서류를 준비하겠습니다. (v4)",
+      "en": "We'll prepare the documents next week. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S12-039",
+      "kr": "연락을 계속 유지하겠습니다. (v4)",
+      "en": "We'll stay in touch. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S12-040",
+      "kr": "함께 일할 수 있어서 기쁩니다. (v4)",
+      "en": "It's a pleasure doing business with you. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S12-041",
+      "kr": "계약을 확정하겠습니다. (v5)",
+      "en": "Let's finalize the contract. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S12-042",
+      "kr": "성공적인 거래였습니다. (v5)",
+      "en": "This has been a successful deal. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S12-043",
+      "kr": "앞으로도 좋은 파트너십을 기대합니다. (v5)",
+      "en": "I look forward to a great partnership. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S12-044",
+      "kr": "모든 조건에 합의했습니다. (v5)",
+      "en": "We've agreed on all terms. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S12-045",
+      "kr": "계약서에 서명하겠습니다. (v5)",
+      "en": "We'll sign the contract. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S12-046",
+      "kr": "향후 협력 방안을 논의합시다. (v5)",
+      "en": "Let's discuss future cooperation. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A3-S12-047",
+      "kr": "만족스러운 결과입니다. (v5)",
+      "en": "This is a satisfactory outcome. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A3-S12-048",
+      "kr": "다음 주에 서류를 준비하겠습니다. (v5)",
+      "en": "We'll prepare the documents next week. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A3-S12-049",
+      "kr": "연락을 계속 유지하겠습니다. (v5)",
+      "en": "We'll stay in touch. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A3-S12-050",
+      "kr": "함께 일할 수 있어서 기쁩니다. (v5)",
+      "en": "It's a pleasure doing business with you. (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 10,
+    "wh_q": 5,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L4_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.755Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "backups\\level_4_business_mastery\\banks\\Lv4-A3-S12_bank.json"
+    ]
+  }
+}

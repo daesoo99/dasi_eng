@@ -1,20 +1,35 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback, useMemo, memo } from 'react';
 import { useAuth } from '../hooks/useAuth';
 import AuthModal from './AuthModal';
 
-export const UserProfile: React.FC = () => {
+export const UserProfile: React.FC = memo(() => {
   const { user, userProgress, logout, isLoading, isAuthenticated, isAnonymous } = useAuth();
   const [showDropdown, setShowDropdown] = useState(false);
 
-  const handleLogout = async () => {
+  const handleLogout = useCallback(async () => {
     try {
       await logout();
       setShowDropdown(false);
     } catch (error) {
       console.error('로그아웃 실패:', error);
     }
-  };
+  }, [logout]);
 
+  // All hooks must be called before any conditional returns
+  const displayName = useMemo(() => {
+    if (user?.displayName) return user.displayName;
+    if (user?.email) return user.email.split('@')[0];
+    if (isAnonymous) return '익명 사용자';
+    return '사용자';
+  }, [user?.displayName, user?.email, isAnonymous]);
+
+  const levelProgress = useMemo(() => {
+    if (!userProgress) return 0;
+    const currentLevelExp = userProgress.exp % 100;
+    return currentLevelExp;
+  }, [userProgress]);
+
+  // Conditional renders after all hooks
   if (isLoading) {
     return (
       <div className="flex items-center space-x-2">
@@ -35,19 +50,6 @@ export const UserProfile: React.FC = () => {
     );
   }
 
-  const getDisplayName = () => {
-    if (user?.displayName) return user.displayName;
-    if (user?.email) return user.email.split('@')[0];
-    if (isAnonymous) return '익명 사용자';
-    return '사용자';
-  };
-
-  const getLevelProgress = () => {
-    if (!userProgress) return 0;
-    const currentLevelExp = userProgress.exp % 100;
-    return currentLevelExp;
-  };
-
   return (
     <div className="relative">
       <button
@@ -55,12 +57,12 @@ export const UserProfile: React.FC = () => {
         className="flex items-center space-x-3 px-3 py-2 rounded-lg hover:bg-gray-100 transition-colors"
       >
         <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold">
-          {getDisplayName().charAt(0).toUpperCase()}
+          {displayName.charAt(0).toUpperCase()}
         </div>
         
         <div className="text-left">
           <div className="text-sm font-medium text-gray-900">
-            {getDisplayName()}
+            {displayName}
             {isAnonymous && <span className="text-xs text-gray-500 ml-1">(체험)</span>}
           </div>
           <div className="text-xs text-gray-600">
@@ -78,10 +80,10 @@ export const UserProfile: React.FC = () => {
           <div className="p-4 border-b">
             <div className="flex items-center space-x-3 mb-3">
               <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white font-bold text-lg">
-                {getDisplayName().charAt(0).toUpperCase()}
+                {displayName.charAt(0).toUpperCase()}
               </div>
               <div>
-                <div className="font-medium text-gray-900">{getDisplayName()}</div>
+                <div className="font-medium text-gray-900">{displayName}</div>
                 <div className="text-sm text-gray-600">{user?.email}</div>
                 {isAnonymous && (
                   <div className="text-xs text-orange-600">체험 계정 (데이터가 저장되지 않을 수 있습니다)</div>
@@ -109,12 +111,12 @@ export const UserProfile: React.FC = () => {
                 <div>
                   <div className="flex justify-between text-sm mb-1">
                     <span>다음 레벨까지</span>
-                    <span>{getLevelProgress()}/100 EXP</span>
+                    <span>{levelProgress}/100 EXP</span>
                   </div>
                   <div className="w-full bg-gray-200 rounded-full h-2">
                     <div 
                       className="bg-blue-500 h-2 rounded-full transition-all duration-300"
-                      style={{ width: `${getLevelProgress()}%` }}
+                      style={{ width: `${levelProgress}%` }}
                     />
                   </div>
                 </div>
@@ -147,6 +149,6 @@ export const UserProfile: React.FC = () => {
       )}
     </div>
   );
-};
+});
 
 export default UserProfile;

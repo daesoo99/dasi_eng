@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv7-P2-S10",
+  "title": "혼합 가정법 숙달",
+  "description": "혼합 가정법을 자유자재로 구사하는 연습을 합니다.",
+  "grammar_pattern": "MIXED-CONDITIONALS-MASTERY",
+  "examples": [
+    "If I had studied medicine, I would be a doctor now (past condition, present result).",
+    "If she were more organized, she wouldn't have missed the deadline (present condition, past result).",
+    "If we had invested in that company, we would be millionaires today."
+  ],
+  "learning_points": "시간대가 다른 조건과 결과를 연결하는 혼합 가정법 완전 활용",
+  "phase": 2,
+  "stage_number": 10,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv7-P2-S10-001",
+      "kr": "만약 내가 의학을 공부했다면, 지금 의사가 되어 있을 것이다. (과거 조건, 현재 결과)",
+      "en": "If I had studied medicine, I would be a doctor now.",
+      "pattern": "MIXED-CONDITIONALS-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P2-S10-002",
+      "kr": "만약 그녀가 더 체계적이라면, 마감일을 놓치지 않았을 것이다. (현재 조건, 과거 결과)",
+      "en": "If she were more organized, she wouldn't have missed the deadline.",
+      "pattern": "MIXED-CONDITIONALS-MASTERY",
+      "form": "neg"
+    },
+    {
+      "id": "Lv7-P2-S10-003",
+      "kr": "만약 우리가 그 회사에 투자했다면, 오늘 백만장자가 되어 있을 것이다.",
+      "en": "If we had invested in that company, we would be millionaires today.",
+      "pattern": "MIXED-CONDITIONALS-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P2-S10-004",
+      "kr": "만약 그가 더 신중했다면, 지금 이런 재정적 어려움을 겪지 않을 것이다.",
+      "en": "If he had been more cautious, he wouldn't be facing these financial difficulties now.",
+      "pattern": "MIXED-CONDITIONALS-MASTERY",
+      "form": "neg"
+    },
+    {
+      "id": "Lv7-P2-S10-005",
+      "kr": "만약 그녀가 더 자신감이 있다면, 어제 그 기회를 놓치지 않았을 것이다.",
+      "en": "If she were more confident, she wouldn't have missed that opportunity yesterday.",
+      "pattern": "MIXED-CONDITIONALS-MASTERY",
+      "form": "neg"
+    },
+    {
+      "id": "Lv7-P2-S10-006",
+      "kr": "만약 회사가 기술에 일찍 투자했다면, 지금 시장의 선두주자가 되어 있을 것이다.",
+      "en": "If the company had invested in technology early, it would be the market leader now.",
+      "pattern": "MIXED-CONDITIONALS-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P2-S10-007",
+      "kr": "만약 정부가 더 전향적이라면, 지난해 그런 경제적 손실을 입지 않았을 것이다.",
+      "en": "If the government were more progressive, it wouldn't have suffered such economic losses last year.",
+      "pattern": "MIXED-CONDITIONALS-MASTERY",
+      "form": "neg"
+    },
+    {
+      "id": "Lv7-P2-S10-008",
+      "kr": "만약 그들이 환경 문제를 더 일찍 인식했다면, 지금 이렇게 심각한 오염 문제에 직면하지 않을 것이다.",
+      "en": "If they had recognized environmental issues earlier, they wouldn't be facing such severe pollution problems now.",
+      "pattern": "MIXED-CONDITIONALS-MASTERY",
+      "form": "neg"
+    }
+  ]
+}

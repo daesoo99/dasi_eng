@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv6-P4-S25",
-  "title": "간접의문문 심화",
-  "description": "복잡한 간접의문문을 시제일치와 평서어순을 유지하며 구사합니다. INDIRECT-QUESTIONS-ADVANCED 패턴을 연습합니다.",
-  "grammar_pattern": "INDIRECT-QUESTIONS-ADVANCED",
+  "title": "Stage Lv6-P4-S25",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "I wondered what he was doing.",
-    "Could you tell me where the meeting room is?",
-    "I don't know who I should ask about this."
+    "Could you tell me where the meeting room is?"
   ],
-  "learning_points": "간접의문문의 시제일치와 정중한 정보 요청",
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
   "phase": 4,
   "stage_number": 25,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv6-P4-S25-001",
       "kr": "그가 무엇을 하고 있는지 궁금했습니다.",
       "en": "I wondered what he was doing.",
-      "pattern": "INDIRECT-QUESTIONS-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S25-002",
       "kr": "회의실이 어디에 있는지 알려주시겠습니까?",
       "en": "Could you tell me where the meeting room is?",
-      "pattern": "INDIRECT-QUESTIONS-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S25-003",
       "kr": "이것에 대해 누구에게 물어봐야 할지 모르겠습니다.",
       "en": "I don't know who I should ask about this.",
-      "pattern": "INDIRECT-QUESTIONS-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S25-004",
       "kr": "프로젝트가 언제 완료될지 말씀해 주시겠습니까?",
       "en": "Could you tell me when the project will be completed?",
-      "pattern": "INDIRECT-QUESTIONS-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S25-005",
       "kr": "왜 회의가 연기되었는지 궁금합니다.",
       "en": "I wonder why the meeting was postponed.",
-      "pattern": "INDIRECT-QUESTIONS-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S25-006",
       "kr": "예산이 어떻게 배정될지 아시나요?",
       "en": "Do you know how the budget will be allocated?",
-      "pattern": "INDIRECT-QUESTIONS-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S25-007",
       "kr": "누가 이 결정을 내렸는지 말씀해 주시겠습니까?",
       "en": "Could you tell me who made this decision?",
-      "pattern": "INDIRECT-QUESTIONS-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S25-008",
       "kr": "어떤 전략을 사용할지 아직 결정하지 못했습니다.",
       "en": "We haven't decided which strategy to use.",
-      "pattern": "INDIRECT-QUESTIONS-ADVANCED",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.478Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_6\\Lv6-P4-S25_bank.json"
+    ]
+  }
 }

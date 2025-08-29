@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P3-S17",
-  "title": "비교/대조",
-  "description": "in comparison with..., as opposed to... 등. 예) In comparison with last year, this year's performance is better., We spend 30%, as opposed to 20% in the previous quarter. 보고서 말투로 비교 설명 연습.",
-  "grammar_pattern": "COMPARISON-CONTRAST",
+  "title": "Stage Lv9-P3-S17",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
-    "In comparison with last year, this year's performance is better.",
-    "We spend 30%, as opposed to 20% in the previous quarter.",
-    "In contrast to our expectations, results exceeded projections."
+    "In comparison with last year, this year's performance is superior.",
+    "We spend 30%, as opposed to 20% in the previous quarter."
   ],
-  "learning_points": "비교와 대조 표현을 사용한 체계적 분석",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 3,
   "stage_number": 17,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv9-P3-S17-001",
       "kr": "작년과 비교해 볼 때, 올해 성과가 더 좋습니다.",
       "en": "In comparison with last year, this year's performance is superior.",
-      "pattern": "COMPARISON-CONTRAST",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S17-002",
       "kr": "우리는 30%를 지출하는데, 이는 전 분기의 20%와는 대조적입니다.",
       "en": "We spend 30%, as opposed to 20% in the previous quarter.",
-      "pattern": "COMPARISON-CONTRAST",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S17-003",
       "kr": "우리의 예상과는 대조적으로, 결과가 예측을 초과했습니다.",
       "en": "In contrast to our expectations, results exceeded projections.",
-      "pattern": "COMPARISON-CONTRAST",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S17-004",
       "kr": "경쟁사와 비교해 볼 때, 우리의 시장 점유율이 더 높습니다.",
       "en": "In comparison with competitors, our market share is higher.",
-      "pattern": "COMPARISON-CONTRAST",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S17-005",
       "kr": "전통적 방법과는 달리, 새로운 접근법은 더 효율적입니다.",
       "en": "Unlike traditional methods, the new approach is more efficient.",
-      "pattern": "COMPARISON-CONTRAST",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S17-006",
       "kr": "예상과 대조적으로, 실제 비용은 더 낮았습니다.",
       "en": "As opposed to our estimates, actual costs were lower.",
-      "pattern": "COMPARISON-CONTRAST",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S17-007",
       "kr": "국내 시장과 비교해 볼 때, 해외 시장에서 더 빠른 성장을 보이고 있습니다.",
       "en": "In comparison with domestic markets, overseas markets show faster growth.",
-      "pattern": "COMPARISON-CONTRAST",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S17-008",
       "kr": "이전 모델과는 대조적으로, 새로운 시스템은 훨씬 안정적입니다.",
       "en": "In contrast to the previous model, the new system is much more stable.",
-      "pattern": "COMPARISON-CONTRAST",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.600Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P3-S17_bank.json"
+    ]
+  }
 }

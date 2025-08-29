@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv8-C3-S14",
+  "title": "복합 전치사",
+  "description": "여러 단어로 구성된 복합 전치사를 활용하여 정교한 관계를 표현하는 방법을 연습합니다.",
+  "grammar_pattern": "COMPLEX-PREPOSITIONS",
+  "examples": [
+    "In accordance with the new regulations, we must update our procedures.",
+    "With regard to your inquiry, I will respond within two business days.",
+    "In spite of the difficulties, we managed to complete the project."
+  ],
+  "learning_points": "복합 전치사를 통한 정교하고 격식 있는 관계 표현",
+  "phase": 3,
+  "stage_number": 14,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv8-C3-S14-001",
+      "kr": "새로운 규정에 따라 우리는 절차를 업데이트해야 합니다.",
+      "en": "In accordance with the new regulations, we must update our procedures.",
+      "pattern": "COMPLEX-PREPOSITIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S14-002",
+      "kr": "귀하의 문의에 관하여 영업일 이틀 이내에 답변드리겠습니다.",
+      "en": "With regard to your inquiry, I will respond within two business days.",
+      "pattern": "COMPLEX-PREPOSITIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S14-003",
+      "kr": "어려움에도 불구하고 우리는 프로젝트를 완료해냈습니다.",
+      "en": "In spite of the difficulties, we managed to complete the project.",
+      "pattern": "COMPLEX-PREPOSITIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S14-004",
+      "kr": "귀하의 요청에 따라 추가 정보를 제공해드리겠습니다.",
+      "en": "In response to your request, I will provide additional information.",
+      "pattern": "COMPLEX-PREPOSITIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S14-005",
+      "kr": "예산 제약에도 불구하고 우리는 목표를 달성했습니다.",
+      "en": "In spite of budget constraints, we achieved our objectives.",
+      "pattern": "COMPLEX-PREPOSITIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S14-006",
+      "kr": "회사 정책에 따라 모든 직원은 교육에 참석해야 합니다.",
+      "en": "In accordance with company policy, all employees must attend training.",
+      "pattern": "COMPLEX-PREPOSITIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S14-007",
+      "kr": "시장 상황에 관하여 자세한 분석을 진행하겠습니다.",
+      "en": "With respect to market conditions, we will conduct a detailed analysis.",
+      "pattern": "COMPLEX-PREPOSITIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S14-008",
+      "kr": "시간 제약에도 불구하고 우리는 품질을 타협하지 않았습니다.",
+      "en": "In spite of time constraints, we did not compromise on quality.",
+      "pattern": "COMPLEX-PREPOSITIONS",
+      "form": "aff"
+    }
+  ]
+}

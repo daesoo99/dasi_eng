@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv5-P6-S30",
-  "title": "자주 쓰는 콜로케이션",
-  "description": "자주 쓰는 콜로케이션을 연습합니다. COMMON-COLLOCATIONS 패턴을 활용하여 고급 영어 표현을 익힙니다.",
-  "grammar_pattern": "COMMON-COLLOCATIONS",
+  "title": "Stage Lv5-P6-S30",
+  "description": "Level 5 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "I will make an effort.",
-    "I will take responsibility.",
-    "Don't do any harm."
+    "I will take responsibility."
   ],
-  "learning_points": "collocations 관련 고급 표현과 실용적 활용",
+  "learning_points": "Level 5 target grammar and expressions with practical usage examples",
   "phase": 6,
   "stage_number": 30,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv5-P6-S30-001",
       "kr": "노력하겠습니다.",
       "en": "I will make an effort.",
-      "pattern": "COMMON-COLLOCATIONS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S30-002",
       "kr": "책임을 지겠습니다.",
       "en": "I will take responsibility.",
-      "pattern": "COMMON-COLLOCATIONS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S30-003",
       "kr": "해를 끼치지 마세요.",
       "en": "Don't do any harm.",
-      "pattern": "COMMON-COLLOCATIONS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S30-004",
       "kr": "실수했습니다.",
       "en": "I made a mistake.",
-      "pattern": "COMMON-COLLOCATIONS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S30-005",
       "kr": "결정을 내려야 합니다.",
       "en": "We need to make a decision.",
-      "pattern": "COMMON-COLLOCATIONS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S30-006",
       "kr": "기회를 잡으세요.",
       "en": "Take the opportunity.",
-      "pattern": "COMMON-COLLOCATIONS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S30-007",
       "kr": "위험을 감수하겠습니다.",
       "en": "I will take a risk.",
-      "pattern": "COMMON-COLLOCATIONS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S30-008",
       "kr": "진전을 이뤄야 합니다.",
       "en": "We need to make progress.",
-      "pattern": "COMMON-COLLOCATIONS",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L5_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.451Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_5\\Lv5-P6-S30_bank.json"
+    ]
+  }
 }

@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv7-P1-S02",
+  "title": "현재완료진행형 심화",
+  "description": "현재완료진행을 사용하여 과거부터 지금까지의 변화를 묘사합니다.",
+  "grammar_pattern": "PRESENT-PERFECT-CONTINUOUS-ADVANCED",
+  "examples": [
+    "The climate has been changing dramatically over the past decade, affecting global weather patterns.",
+    "Technology has been evolving rapidly, transforming the way we communicate and work.",
+    "Our understanding of the universe has been expanding continuously through scientific research."
+  ],
+  "learning_points": "현재완료진행형을 통한 점진적 변화와 발전 과정 표현",
+  "phase": 1,
+  "stage_number": 2,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv7-P1-S02-001",
+      "kr": "기후는 지난 10년 동안 극적으로 변해오고 있어서, 전 지구적 날씨 패턴에 영향을 미치고 있다.",
+      "en": "The climate has been changing dramatically over the past decade, affecting global weather patterns.",
+      "pattern": "PRESENT-PERFECT-CONTINUOUS-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P1-S02-002",
+      "kr": "기술이 빠르게 발전해오고 있어서, 우리가 소통하고 일하는 방식을 변화시키고 있다.",
+      "en": "Technology has been evolving rapidly, transforming the way we communicate and work.",
+      "pattern": "PRESENT-PERFECT-CONTINUOUS-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P1-S02-003",
+      "kr": "과학 연구를 통해 우주에 대한 우리의 이해가 지속적으로 확장되어오고 있다.",
+      "en": "Our understanding of the universe has been expanding continuously through scientific research.",
+      "pattern": "PRESENT-PERFECT-CONTINUOUS-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P1-S02-004",
+      "kr": "도시들이 점점 더 스마트해지고 있어서, 시민들에게 더 나은 서비스를 제공하고 있다.",
+      "en": "Cities have been becoming increasingly smart, providing better services to their citizens.",
+      "pattern": "PRESENT-PERFECT-CONTINUOUS-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P1-S02-005",
+      "kr": "교육 방법들이 진화해오고 있어서, 학생들의 학습 경험을 향상시키고 있다.",
+      "en": "Educational methods have been evolving, enhancing students' learning experiences.",
+      "pattern": "PRESENT-PERFECT-CONTINUOUS-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P1-S02-006",
+      "kr": "의료 기술이 발전해오고 있지만, 모든 질병에 대한 치료법을 찾지는 못하고 있다.",
+      "en": "Medical technology has been advancing, but it hasn't been finding cures for all diseases.",
+      "pattern": "PRESENT-PERFECT-CONTINUOUS-ADVANCED",
+      "form": "neg"
+    },
+    {
+      "id": "Lv7-P1-S02-007",
+      "kr": "사회적 가치관이 변화해오고 있어서, 새로운 세대의 사고방식에 영향을 미치고 있다.",
+      "en": "Social values have been shifting, influencing the mindset of the new generation.",
+      "pattern": "PRESENT-PERFECT-CONTINUOUS-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv7-P1-S02-008",
+      "kr": "글로벌 경제가 상호 연결되어오고 있어서, 한 나라의 위기가 다른 나라들에게도 파급효과를 미치고 있다.",
+      "en": "The global economy has been becoming increasingly interconnected, causing crises in one country to affect others.",
+      "pattern": "PRESENT-PERFECT-CONTINUOUS-ADVANCED",
+      "form": "aff"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv3-P3-S13",
+  "title": "간접화법 기초",
+  "description": "직접 인용을 간접 인용으로 바꾸는 간접화법을 배웁니다. say와 tell의 차이, 시제 변화 규칙을 익히며 다른 사람의 말을 전달하는 방법을 연습합니다.",
+  "grammar_pattern": "주어 + said (that)... / 주어 + told + 목적어 (that)...",
+  "examples": ["He said, 'I am tired.' → He said (that) he was tired.", "She told me, 'I will come.' → She told me (that) she would come."],
+  "learning_points": "시제 일치 원칙과 say/tell 구분 사용법",
+  "phase": 3,
+  "stage_number": 13,
+  "count": 0,
+  "sentences": []
+}

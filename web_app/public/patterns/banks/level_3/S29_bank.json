@@ -1,0 +1,152 @@
+{
+  "stage_id": "S29",
+  "title": "Stage S29",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "I have plenty of time to finish this project.",
+    "Just wait a couple of minutes, please."
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 29,
+  "count": 20,
+  "sentences": [
+    {
+      "id": "S29-1",
+      "kr": "이 프로젝트를 끝낼 시간이 충분히 있어요.",
+      "en": "I have plenty of time to finish this project.",
+      "form": "aff"
+    },
+    {
+      "id": "S29-2",
+      "kr": "잠깐만 기다려 주세요.",
+      "en": "Just wait a couple of minutes, please.",
+      "form": "aff"
+    },
+    {
+      "id": "S29-3",
+      "kr": "긴 여행 후에 조금 피곤해요.",
+      "en": "I'm a bit tired after the long journey.",
+      "form": "aff"
+    },
+    {
+      "id": "S29-4",
+      "kr": "콘서트에 엄청 많은 사람들이 있어요.",
+      "en": "There are loads of people at the concert.",
+      "form": "aff"
+    },
+    {
+      "id": "S29-5",
+      "kr": "그녀는 마케팅 경험이 엄청 많아요.",
+      "en": "She has tons of experience in marketing.",
+      "form": "aff"
+    },
+    {
+      "id": "S29-6",
+      "kr": "그 쿠키 몇 개만 주실 수 있나요?",
+      "en": "Could you give me a handful of those cookies?",
+      "form": "aff"
+    },
+    {
+      "id": "S29-7",
+      "kr": "이 일에는 많은 인내심이 필요해요.",
+      "en": "I need a great deal of patience for this job.",
+      "form": "aff"
+    },
+    {
+      "id": "S29-8",
+      "kr": "오늘 교통량이 꽤 많아요.",
+      "en": "There's quite a lot of traffic today.",
+      "form": "aff"
+    },
+    {
+      "id": "S29-9",
+      "kr": "해야 할 일이 엄청나게 많아요.",
+      "en": "I have a tremendous amount of work to do.",
+      "form": "aff"
+    },
+    {
+      "id": "S29-10",
+      "kr": "그녀가 조금은 진전을 보였지만, 많지는 않아요.",
+      "en": "She made a little progress, but not much.",
+      "form": "aff"
+    },
+    {
+      "id": "S29-1",
+      "kr": "이 프로젝트를 끝낼 시간이 충분히 있어요.",
+      "en": "I have plenty of time to finish this project.",
+      "form": "aff"
+    },
+    {
+      "id": "S29-2",
+      "kr": "잠깐만 기다려 주세요.",
+      "en": "Just wait a couple of minutes, please.",
+      "form": "aff"
+    },
+    {
+      "id": "S29-3",
+      "kr": "긴 여행 후에 조금 피곤해요.",
+      "en": "I'm a bit tired after the long journey.",
+      "form": "aff"
+    },
+    {
+      "id": "S29-4",
+      "kr": "콘서트에 엄청 많은 사람들이 있어요.",
+      "en": "There are loads of people at the concert.",
+      "form": "aff"
+    },
+    {
+      "id": "S29-5",
+      "kr": "그녀는 마케팅 경험이 엄청 많아요.",
+      "en": "She has tons of experience in marketing.",
+      "form": "aff"
+    },
+    {
+      "id": "S29-6",
+      "kr": "그 쿠키 몇 개만 주실 수 있나요?",
+      "en": "Could you give me a handful of those cookies?",
+      "form": "aff"
+    },
+    {
+      "id": "S29-7",
+      "kr": "이 일에는 많은 인내심이 필요해요.",
+      "en": "I need a great deal of patience for this job.",
+      "form": "aff"
+    },
+    {
+      "id": "S29-8",
+      "kr": "오늘 교통량이 꽤 많아요.",
+      "en": "There's quite a lot of traffic today.",
+      "form": "aff"
+    },
+    {
+      "id": "S29-9",
+      "kr": "해야 할 일이 엄청나게 많아요.",
+      "en": "I have a tremendous amount of work to do.",
+      "form": "aff"
+    },
+    {
+      "id": "S29-10",
+      "kr": "그녀가 조금은 진전을 보였지만, 많지는 않아요.",
+      "en": "She made a little progress, but not much.",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 20,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L1_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.737Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW.json",
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW_migrated.json"
+    ]
+  }
+}

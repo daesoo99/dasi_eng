@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv9-P6-S35",
+  "title": "관점 전환 기법",
+  "description": "동일한 사안을 다양한 관점에서 바라보며 표현하는 고급 담화 기법. 화자의 시각, 청자의 시각, 제3자의 시각 등을 활용한 다각적 접근.",
+  "grammar_pattern": "PERSPECTIVE-SHIFTING",
+  "examples": [
+    "From our perspective, this is progress. From their view, it's disruption.",
+    "What we see as opportunity, they might perceive as threat.",
+    "Our challenge becomes their advantage in this scenario."
+  ],
+  "learning_points": "다양한 관점을 통한 균형 잡힌 사고와 표현의 다양성",
+  "phase": 6,
+  "stage_number": 35,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv9-P6-S35-001",
+      "kr": "우리 관점에서는 이것이 진보입니다. 그들 관점에서는 파괴입니다.",
+      "en": "From our perspective, this is progress. From their view, it's disruption.",
+      "pattern": "PERSPECTIVE-SHIFTING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S35-002",
+      "kr": "우리가 기회로 보는 것을, 그들은 위협으로 인식할 수 있습니다.",
+      "en": "What we see as opportunity, they might perceive as threat.",
+      "pattern": "PERSPECTIVE-SHIFTING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S35-003",
+      "kr": "이 시나리오에서 우리의 도전이 그들의 이점이 됩니다.",
+      "en": "Our challenge becomes their advantage in this scenario.",
+      "pattern": "PERSPECTIVE-SHIFTING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S35-004",
+      "kr": "내부자 시각에서는 개선이지만, 외부자에게는 변화입니다.",
+      "en": "From an insider's view, it's improvement; to outsiders, it's change.",
+      "pattern": "PERSPECTIVE-SHIFTING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S35-005",
+      "kr": "경영진은 효율성을 보지만, 직원들은 부담을 느낍니다.",
+      "en": "Management sees efficiency, but employees feel the burden.",
+      "pattern": "PERSPECTIVE-SHIFTING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S35-006",
+      "kr": "단기적으로는 비용이지만, 장기적으로는 투자입니다.",
+      "en": "Short-term, it's a cost; long-term, it's an investment.",
+      "pattern": "PERSPECTIVE-SHIFTING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S35-007",
+      "kr": "고객 관점에서는 가치이고, 경쟁자에게는 위협입니다.",
+      "en": "From customers' perspective, it's value; to competitors, it's threat.",
+      "pattern": "PERSPECTIVE-SHIFTING",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S35-008",
+      "kr": "현재는 문제로 보이지만, 미래에는 해결책이 될 것입니다.",
+      "en": "Today it appears as a problem; tomorrow it becomes the solution.",
+      "pattern": "PERSPECTIVE-SHIFTING",
+      "form": "aff"
+    }
+  ]
+}

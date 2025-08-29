@@ -1,10 +1,13 @@
 {
   "stage_id": "Lv1-P1-S01",
   "title": "Be 동사 현재형",
-  "description": "be동사(am/is/are)를 사용한 존재/상태 표현을 연습합니다. 주어 + be동사 + 보어 구조로 '~이다/있다'를 말해보세요.",
-  "grammar_pattern": "주어 + am/is/are + 보어",
-  "examples": ["I am a student.", "She is at home."],
-  "learning_points": "주어에 따른 am/is/are 변화를 익히고, 자기소개나 상태 표현에 활용",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "I am a student. (variant 1)",
+    "You are my friend. (variant 1)"
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 1,
   "count": 50,
@@ -311,10 +314,18 @@
     }
   ],
   "forms_distribution": {
-    "aff": 35,
-    "neg": 10,
-    "wh_q": 5
+    "aff": 40,
+    "neg": 5,
+    "wh_q": 5,
+    "unknown": 0
   },
-  "status": "generated",
-  "batch": "L1_Basic_Batch1"
+  "status": "complete",
+  "batch": "L1_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.355Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_1\\Lv1-P1-S01_bank.json"
+    ]
+  }
 }

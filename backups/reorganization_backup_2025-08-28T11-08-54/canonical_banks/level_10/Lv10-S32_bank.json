@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv10-S32",
+  "title": "결과 강조 - 예상외 결과",
+  "description": "예상하지 못한 놀라운 결과를 강조하는 원어민 수준의 표현을 구사합니다.",
+  "grammar_pattern": "UNEXPECTED-OUTCOME-EMPHASIS",
+  "examples": [
+    "I really didn't expect this result. It's completely unexpected.",
+    "Who would have known it would turn out like this? So surprising.",
+    "It went in a completely different direction. Fascinating."
+  ],
+  "learning_points": "원어민 수준의 자연스러운 예상외 결과 표현 구사",
+  "phase": 4,
+  "stage_number": 32,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv10-S32-001",
+      "kr": "이런 결과는 정말 예상 못 했어. 완전 뜻밖이야.",
+      "en": "I really didn't expect this result. It's completely unexpected.",
+      "pattern": "UNEXPECTED-OUTCOME-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S32-002",
+      "kr": "누가 이럴 줄 알았겠어? 정말 놀라워.",
+      "en": "Who would have known it would turn out like this? So surprising.",
+      "pattern": "UNEXPECTED-OUTCOME-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S32-003",
+      "kr": "완전히 다른 방향으로 흘러갔네. 신기해.",
+      "en": "It went in a completely different direction. Fascinating.",
+      "pattern": "UNEXPECTED-OUTCOME-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S32-004",
+      "kr": "예측 불가능한 결과야. 이래서 인생이 재밌는 거지.",
+      "en": "It's an unpredictable outcome. This is what makes life interesting.",
+      "pattern": "UNEXPECTED-OUTCOME-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S32-005",
+      "kr": "상상도 못 한 전개야. 소설보다 기가 막혀.",
+      "en": "It's a development I couldn't even imagine. More dramatic than fiction.",
+      "pattern": "UNEXPECTED-OUTCOME-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S32-006",
+      "kr": "이런 반전이 있을 줄이야. 정말 깜짝 놀랐어.",
+      "en": "Who knew there'd be such a twist? I'm really shocked.",
+      "pattern": "UNEXPECTED-OUTCOME-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S32-007",
+      "kr": "계획과 정반대로 됐네. 하지만 더 좋아.",
+      "en": "It turned out opposite to the plan. But it's even better.",
+      "pattern": "UNEXPECTED-OUTCOME-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S32-008",
+      "kr": "완전 예상 밖의 수확이야. 보너스를 받은 기분.",
+      "en": "It's a completely unexpected gain. Feels like getting a bonus.",
+      "pattern": "UNEXPECTED-OUTCOME-EMPHASIS",
+      "form": "aff"
+    }
+  ]
+}

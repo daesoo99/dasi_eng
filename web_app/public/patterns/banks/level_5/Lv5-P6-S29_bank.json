@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv5-P6-S29",
-  "title": "비유적 표현",
-  "description": "비유적 표현을 연습합니다. METAPHORICAL-EXPRESSIONS 패턴을 활용하여 고급 영어 표현을 익힙니다.",
-  "grammar_pattern": "METAPHORICAL-EXPRESSIONS",
+  "title": "Stage Lv5-P6-S29",
+  "description": "Level 5 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "It's a double-edged sword.",
-    "It was a blessing in disguise.",
-    "It's just the tip of the iceberg."
+    "It was a blessing in disguise."
   ],
-  "learning_points": "metaphors 관련 고급 표현과 실용적 활용",
+  "learning_points": "Level 5 target grammar and expressions with practical usage examples",
   "phase": 6,
   "stage_number": 29,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv5-P6-S29-001",
       "kr": "그것은 양날의 검입니다.",
       "en": "It's a double-edged sword.",
-      "pattern": "METAPHORICAL-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S29-002",
       "kr": "전화위복이 되었습니다.",
       "en": "It was a blessing in disguise.",
-      "pattern": "METAPHORICAL-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S29-003",
       "kr": "빙산의 일각일 뿐입니다.",
       "en": "It's just the tip of the iceberg.",
-      "pattern": "METAPHORICAL-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S29-004",
       "kr": "마지막 지푸라기입니다.",
       "en": "It's the last straw.",
-      "pattern": "METAPHORICAL-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S29-005",
       "kr": "바늘 찾기와 같습니다.",
       "en": "It's like finding a needle in a haystack.",
-      "pattern": "METAPHORICAL-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S29-006",
       "kr": "벽에 대고 말하는 것과 같습니다.",
       "en": "It's like talking to a brick wall.",
-      "pattern": "METAPHORICAL-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S29-007",
       "kr": "물에 빠진 생쥐 꼴입니다.",
       "en": "I look like a drowned rat.",
-      "pattern": "METAPHORICAL-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S29-008",
       "kr": "등에 칼을 꽂았습니다.",
       "en": "He stabbed me in the back.",
-      "pattern": "METAPHORICAL-EXPRESSIONS",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L5_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.450Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_5\\Lv5-P6-S29_bank.json"
+    ]
+  }
 }

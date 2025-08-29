@@ -1,12 +1,331 @@
 {
   "stage_id": "Lv3-P1-S06",
-  "title": "수동태 심화",
-  "description": "조동사가 결합된 수동태와 여러 시제의 수동태를 연습합니다. 다양한 시제에 수동태를 적용해보며 시제+수동태 복합문을 만들고 말해봅니다.",
-  "grammar_pattern": "조동사 + be + p.p. / have/has been + p.p.",
-  "examples": ["The project must be finished on time. (조동사+수동)", "The cake has been eaten. (현재완료 수동)"],
-  "learning_points": "일상 표현에서 자주 쓰이는 수동 구문 (be made of, be known as 등)도 소개하여 활용도를 높임",
+  "title": "Stage Lv3-P1-S06",
+  "description": "Level 3 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "This building was built in 1950. (completion variant 1)",
+    "The meeting will be held tomorrow. (completion variant 1)"
+  ],
+  "learning_points": "Level 3 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 6,
-  "count": 0,
-  "sentences": []
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv3-P1-S06-001",
+      "kr": "이 건물은 1950년에 지어졌습니다. (완성 1)",
+      "en": "This building was built in 1950. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-002",
+      "kr": "회의가 내일 개최될 예정입니다. (완성 1)",
+      "en": "The meeting will be held tomorrow. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-003",
+      "kr": "이 책은 많은 사람들에게 읽히고 있습니다. (완성 1)",
+      "en": "This book is being read by many people. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-004",
+      "kr": "프로젝트가 성공적으로 완료되었습니다. (완성 1)",
+      "en": "The project has been completed successfully. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-005",
+      "kr": "새로운 정책이 시행되고 있습니다. (완성 1)",
+      "en": "New policies are being implemented. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-006",
+      "kr": "문제가 해결되어야 합니다. (완성 1)",
+      "en": "The problem must be solved. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-007",
+      "kr": "결과가 곧 발표될 것입니다. (완성 1)",
+      "en": "The results will be announced soon. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-008",
+      "kr": "이 제품은 한국에서 만들어집니다. (완성 1)",
+      "en": "This product is made in Korea. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-009",
+      "kr": "편지가 어제 보내졌습니다. (완성 1)",
+      "en": "The letter was sent yesterday. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-010",
+      "kr": "계획이 수정되었습니다. (완성 1)",
+      "en": "The plan has been modified. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-011",
+      "kr": "이 건물은 1950년에 지어졌습니다. (완성 2)",
+      "en": "This building was built in 1950. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-012",
+      "kr": "회의가 내일 개최될 예정입니다. (완성 2)",
+      "en": "The meeting will be held tomorrow. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-013",
+      "kr": "이 책은 많은 사람들에게 읽히고 있습니다. (완성 2)",
+      "en": "This book is being read by many people. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-014",
+      "kr": "프로젝트가 성공적으로 완료되었습니다. (완성 2)",
+      "en": "The project has been completed successfully. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-015",
+      "kr": "새로운 정책이 시행되고 있습니다. (완성 2)",
+      "en": "New policies are being implemented. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-016",
+      "kr": "문제가 해결되어야 합니다. (완성 2)",
+      "en": "The problem must be solved. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-017",
+      "kr": "결과가 곧 발표될 것입니다. (완성 2)",
+      "en": "The results will be announced soon. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-018",
+      "kr": "이 제품은 한국에서 만들어집니다. (완성 2)",
+      "en": "This product is made in Korea. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-019",
+      "kr": "편지가 어제 보내졌습니다. (완성 2)",
+      "en": "The letter was sent yesterday. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-020",
+      "kr": "계획이 수정되었습니다. (완성 2)",
+      "en": "The plan has been modified. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-021",
+      "kr": "이 건물은 1950년에 지어졌습니다. (완성 3)",
+      "en": "This building was built in 1950. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-022",
+      "kr": "회의가 내일 개최될 예정입니다. (완성 3)",
+      "en": "The meeting will be held tomorrow. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-023",
+      "kr": "이 책은 많은 사람들에게 읽히고 있습니다. (완성 3)",
+      "en": "This book is being read by many people. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-024",
+      "kr": "프로젝트가 성공적으로 완료되었습니다. (완성 3)",
+      "en": "The project has been completed successfully. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-025",
+      "kr": "새로운 정책이 시행되고 있습니다. (완성 3)",
+      "en": "New policies are being implemented. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-026",
+      "kr": "문제가 해결되어야 합니다. (완성 3)",
+      "en": "The problem must be solved. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-027",
+      "kr": "결과가 곧 발표될 것입니다. (완성 3)",
+      "en": "The results will be announced soon. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-028",
+      "kr": "이 제품은 한국에서 만들어집니다. (완성 3)",
+      "en": "This product is made in Korea. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-029",
+      "kr": "편지가 어제 보내졌습니다. (완성 3)",
+      "en": "The letter was sent yesterday. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-030",
+      "kr": "계획이 수정되었습니다. (완성 3)",
+      "en": "The plan has been modified. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S06-031",
+      "kr": "이 건물은 1950년에 지어졌습니다. (완성 4)",
+      "en": "This building was built in 1950. (completion variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S06-032",
+      "kr": "회의가 내일 개최될 예정입니다. (완성 4)",
+      "en": "The meeting will be held tomorrow. (completion variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S06-033",
+      "kr": "이 책은 많은 사람들에게 읽히고 있습니다. (완성 4)",
+      "en": "This book is being read by many people. (completion variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S06-034",
+      "kr": "프로젝트가 성공적으로 완료되었습니다. (완성 4)",
+      "en": "The project has been completed successfully. (completion variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S06-035",
+      "kr": "새로운 정책이 시행되고 있습니다. (완성 4)",
+      "en": "New policies are being implemented. (completion variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S06-036",
+      "kr": "문제가 해결되어야 합니다. (완성 4)",
+      "en": "The problem must be solved. (completion variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S06-037",
+      "kr": "결과가 곧 발표될 것입니다. (완성 4)",
+      "en": "The results will be announced soon. (completion variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S06-038",
+      "kr": "이 제품은 한국에서 만들어집니다. (완성 4)",
+      "en": "This product is made in Korea. (completion variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S06-039",
+      "kr": "편지가 어제 보내졌습니다. (완성 4)",
+      "en": "The letter was sent yesterday. (completion variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S06-040",
+      "kr": "계획이 수정되었습니다. (완성 4)",
+      "en": "The plan has been modified. (completion variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S06-041",
+      "kr": "이 건물은 1950년에 지어졌습니다. (완성 5)",
+      "en": "This building was built in 1950. (completion variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S06-042",
+      "kr": "회의가 내일 개최될 예정입니다. (완성 5)",
+      "en": "The meeting will be held tomorrow. (completion variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S06-043",
+      "kr": "이 책은 많은 사람들에게 읽히고 있습니다. (완성 5)",
+      "en": "This book is being read by many people. (completion variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S06-044",
+      "kr": "프로젝트가 성공적으로 완료되었습니다. (완성 5)",
+      "en": "The project has been completed successfully. (completion variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S06-045",
+      "kr": "새로운 정책이 시행되고 있습니다. (완성 5)",
+      "en": "New policies are being implemented. (completion variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S06-046",
+      "kr": "문제가 해결되어야 합니다. (완성 5)",
+      "en": "The problem must be solved. (completion variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S06-047",
+      "kr": "결과가 곧 발표될 것입니다. (완성 5)",
+      "en": "The results will be announced soon. (completion variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S06-048",
+      "kr": "이 제품은 한국에서 만들어집니다. (완성 5)",
+      "en": "This product is made in Korea. (completion variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S06-049",
+      "kr": "편지가 어제 보내졌습니다. (완성 5)",
+      "en": "The letter was sent yesterday. (completion variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S06-050",
+      "kr": "계획이 수정되었습니다. (완성 5)",
+      "en": "The plan has been modified. (completion variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L3_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.628Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "data\\banks\\level_3\\Lv3-P1-S06_bank.json"
+    ]
+  }
 }

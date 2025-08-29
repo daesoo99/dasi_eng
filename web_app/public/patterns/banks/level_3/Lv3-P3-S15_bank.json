@@ -1,12 +1,331 @@
 {
   "stage_id": "Lv3-P3-S15",
-  "title": "간접명령문",
-  "description": "명령문, 요청문, 제안을 간접화법으로 바꾸는 간접명령문을 배웁니다. tell, ask, suggest 등의 동사와 함께 to부정사를 사용하여 다른 사람의 요청이나 명령을 전달합니다.",
-  "grammar_pattern": "tell/ask + 목적어 + to 동사원형 / suggest + ~ing",
-  "examples": ["'Close the door.' → He told me to close the door.", "'Please help me.' → She asked me to help her.", "'Let's go together.' → He suggested going together."],
-  "learning_points": "명령, 요청, 제안의 간접화법 구분 및 적절한 동사 선택",
+  "title": "Stage Lv3-P3-S15",
+  "description": "Level 3 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "I wonder when he will come. (variant 1)",
+    "I don't know where they are. (variant 1)"
+  ],
+  "learning_points": "Level 3 target grammar and expressions with practical usage examples",
   "phase": 3,
   "stage_number": 15,
-  "count": 0,
-  "sentences": []
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv3-P3-S15-001",
+      "kr": "그가 언제 올지 궁금해요. (확장 1)",
+      "en": "I wonder when he will come. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-002",
+      "kr": "그들이 어디에 있는지 모르겠어요. (확장 1)",
+      "en": "I don't know where they are. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-003",
+      "kr": "이 문제를 어떻게 해결할지 생각 중이에요. (확장 1)",
+      "en": "I'm thinking about how to solve this problem. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-004",
+      "kr": "그가 올지 안 올지 확실하지 않아요. (확장 1)",
+      "en": "I'm not sure if he will come or not. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-005",
+      "kr": "왜 그런 일이 일어났는지 이해할 수 없어요. (확장 1)",
+      "en": "I can't understand why that happened. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-006",
+      "kr": "누가 이것을 했는지 알고 싶어요. (확장 1)",
+      "en": "I want to know who did this. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-007",
+      "kr": "언제 끝날지 말해주세요. (확장 1)",
+      "en": "Please tell me when it will finish. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-008",
+      "kr": "그것이 얼마인지 기억나지 않아요. (확장 1)",
+      "en": "I don't remember how much it costs. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-009",
+      "kr": "어느 것이 더 좋은지 결정할 수 없어요. (확장 1)",
+      "en": "I can't decide which one is better. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-010",
+      "kr": "그들이 성공할 수 있을지 의문이에요. (확장 1)",
+      "en": "I wonder if they can succeed. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-011",
+      "kr": "그가 언제 올지 궁금해요. (확장 2)",
+      "en": "I wonder when he will come. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-012",
+      "kr": "그들이 어디에 있는지 모르겠어요. (확장 2)",
+      "en": "I don't know where they are. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-013",
+      "kr": "이 문제를 어떻게 해결할지 생각 중이에요. (확장 2)",
+      "en": "I'm thinking about how to solve this problem. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-014",
+      "kr": "그가 올지 안 올지 확실하지 않아요. (확장 2)",
+      "en": "I'm not sure if he will come or not. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-015",
+      "kr": "왜 그런 일이 일어났는지 이해할 수 없어요. (확장 2)",
+      "en": "I can't understand why that happened. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-016",
+      "kr": "누가 이것을 했는지 알고 싶어요. (확장 2)",
+      "en": "I want to know who did this. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-017",
+      "kr": "언제 끝날지 말해주세요. (확장 2)",
+      "en": "Please tell me when it will finish. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-018",
+      "kr": "그것이 얼마인지 기억나지 않아요. (확장 2)",
+      "en": "I don't remember how much it costs. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-019",
+      "kr": "어느 것이 더 좋은지 결정할 수 없어요. (확장 2)",
+      "en": "I can't decide which one is better. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-020",
+      "kr": "그들이 성공할 수 있을지 의문이에요. (확장 2)",
+      "en": "I wonder if they can succeed. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-021",
+      "kr": "그가 언제 올지 궁금해요. (확장 3)",
+      "en": "I wonder when he will come. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-022",
+      "kr": "그들이 어디에 있는지 모르겠어요. (확장 3)",
+      "en": "I don't know where they are. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-023",
+      "kr": "이 문제를 어떻게 해결할지 생각 중이에요. (확장 3)",
+      "en": "I'm thinking about how to solve this problem. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-024",
+      "kr": "그가 올지 안 올지 확실하지 않아요. (확장 3)",
+      "en": "I'm not sure if he will come or not. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-025",
+      "kr": "왜 그런 일이 일어났는지 이해할 수 없어요. (확장 3)",
+      "en": "I can't understand why that happened. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-026",
+      "kr": "누가 이것을 했는지 알고 싶어요. (확장 3)",
+      "en": "I want to know who did this. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-027",
+      "kr": "언제 끝날지 말해주세요. (확장 3)",
+      "en": "Please tell me when it will finish. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-028",
+      "kr": "그것이 얼마인지 기억나지 않아요. (확장 3)",
+      "en": "I don't remember how much it costs. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-029",
+      "kr": "어느 것이 더 좋은지 결정할 수 없어요. (확장 3)",
+      "en": "I can't decide which one is better. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-030",
+      "kr": "그들이 성공할 수 있을지 의문이에요. (확장 3)",
+      "en": "I wonder if they can succeed. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S15-031",
+      "kr": "그가 언제 올지 궁금해요. (확장 4)",
+      "en": "I wonder when he will come. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S15-032",
+      "kr": "그들이 어디에 있는지 모르겠어요. (확장 4)",
+      "en": "I don't know where they are. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S15-033",
+      "kr": "이 문제를 어떻게 해결할지 생각 중이에요. (확장 4)",
+      "en": "I'm thinking about how to solve this problem. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S15-034",
+      "kr": "그가 올지 안 올지 확실하지 않아요. (확장 4)",
+      "en": "I'm not sure if he will come or not. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S15-035",
+      "kr": "왜 그런 일이 일어났는지 이해할 수 없어요. (확장 4)",
+      "en": "I can't understand why that happened. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S15-036",
+      "kr": "누가 이것을 했는지 알고 싶어요. (확장 4)",
+      "en": "I want to know who did this. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S15-037",
+      "kr": "언제 끝날지 말해주세요. (확장 4)",
+      "en": "Please tell me when it will finish. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S15-038",
+      "kr": "그것이 얼마인지 기억나지 않아요. (확장 4)",
+      "en": "I don't remember how much it costs. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S15-039",
+      "kr": "어느 것이 더 좋은지 결정할 수 없어요. (확장 4)",
+      "en": "I can't decide which one is better. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S15-040",
+      "kr": "그들이 성공할 수 있을지 의문이에요. (확장 4)",
+      "en": "I wonder if they can succeed. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S15-041",
+      "kr": "그가 언제 올지 궁금해요. (확장 5)",
+      "en": "I wonder when he will come. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S15-042",
+      "kr": "그들이 어디에 있는지 모르겠어요. (확장 5)",
+      "en": "I don't know where they are. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S15-043",
+      "kr": "이 문제를 어떻게 해결할지 생각 중이에요. (확장 5)",
+      "en": "I'm thinking about how to solve this problem. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S15-044",
+      "kr": "그가 올지 안 올지 확실하지 않아요. (확장 5)",
+      "en": "I'm not sure if he will come or not. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S15-045",
+      "kr": "왜 그런 일이 일어났는지 이해할 수 없어요. (확장 5)",
+      "en": "I can't understand why that happened. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S15-046",
+      "kr": "누가 이것을 했는지 알고 싶어요. (확장 5)",
+      "en": "I want to know who did this. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S15-047",
+      "kr": "언제 끝날지 말해주세요. (확장 5)",
+      "en": "Please tell me when it will finish. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S15-048",
+      "kr": "그것이 얼마인지 기억나지 않아요. (확장 5)",
+      "en": "I don't remember how much it costs. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S15-049",
+      "kr": "어느 것이 더 좋은지 결정할 수 없어요. (확장 5)",
+      "en": "I can't decide which one is better. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S15-050",
+      "kr": "그들이 성공할 수 있을지 의문이에요. (확장 5)",
+      "en": "I wonder if they can succeed. (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L3_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.632Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "data\\banks\\level_3\\Lv3-P3-S15_bank.json"
+    ]
+  }
 }

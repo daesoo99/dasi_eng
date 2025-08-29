@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv2-P5-S20",
+  "title": "수량 표현 완성",
+  "description": "How much/How many로 양 묻기를 배우고, some/any, many/much 등의 수량 표현도 정리합니다. Countable vs Uncountable 개념을 소개하여 적절한 수량사를 선택해 사용합니다.",
+  "grammar_pattern": "How many + 가산명사 / How much + 불가산명사 / some/any 용법",
+  "examples": ["How many friends do you have? - I have many friends.", "How much water do you drink? - I drink a lot of water."],
+  "learning_points": "some은 긍정문, any는 부정·의문문 용법을 문장으로 익혀서 양에 관한 표현을 완벽 정리",
+  "phase": 5,
+  "stage_number": 20,
+  "count": 0,
+  "sentences": []
+}

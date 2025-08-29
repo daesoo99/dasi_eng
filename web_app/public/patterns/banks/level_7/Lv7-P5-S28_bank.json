@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv7-P5-S28",
-  "title": "전치사+관계대명사 심화",
-  "description": "매우 격식 있는 문장에서만 볼 수 있는 구조를 연습합니다.",
-  "grammar_pattern": "PREPOSITION-RELATIVE-ADVANCED",
+  "title": "Stage Lv7-P5-S28",
+  "description": "Level 7 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "The principles on which our company was founded remain unchanged.",
-    "The person to whom I was speaking is the department head.",
-    "The project for which we received funding has been completed successfully."
+    "The person to whom I was speaking is the department head."
   ],
-  "learning_points": "전치사+관계대명사 구조를 통한 격식 있는 문어체 표현",
+  "learning_points": "Level 7 target grammar and expressions with practical usage examples",
   "phase": 5,
   "stage_number": 28,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv7-P5-S28-001",
       "kr": "우리 회사가 설립된 원칙들은 변하지 않고 있다.",
       "en": "The principles on which our company was founded remain unchanged.",
-      "pattern": "PREPOSITION-RELATIVE-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S28-002",
       "kr": "내가 대화하고 있던 사람이 부서장이다.",
       "en": "The person to whom I was speaking is the department head.",
-      "pattern": "PREPOSITION-RELATIVE-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S28-003",
       "kr": "우리가 자금을 지원받은 프로젝트가 성공적으로 완료되었다.",
       "en": "The project for which we received funding has been completed successfully.",
-      "pattern": "PREPOSITION-RELATIVE-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S28-004",
       "kr": "그들이 의존하고 있는 시스템이 곧 업그레이드될 예정이다.",
       "en": "The system on which they depend is scheduled to be upgraded soon.",
-      "pattern": "PREPOSITION-RELATIVE-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S28-005",
       "kr": "우리가 논의한 문제들이 해결책을 찾기 어려운 것들이었다.",
       "en": "The issues about which we discussed were difficult to find solutions for.",
-      "pattern": "PREPOSITION-RELATIVE-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S28-006",
       "kr": "그가 참조하고 있던 문서가 더 이상 유효하지 않다.",
       "en": "The document to which he was referring is no longer valid.",
-      "pattern": "PREPOSITION-RELATIVE-ADVANCED",
       "form": "neg"
     },
     {
       "id": "Lv7-P5-S28-007",
       "kr": "연구가 기반하고 있는 이론들이 최근에 재검토되고 있다.",
       "en": "The theories upon which the research is based are being reexamined recently.",
-      "pattern": "PREPOSITION-RELATIVE-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S28-008",
       "kr": "계약이 체결된 조건들이 양측 모두에게 유리하다.",
       "en": "The conditions under which the contract was signed are favorable to both parties.",
-      "pattern": "PREPOSITION-RELATIVE-ADVANCED",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 7,
+    "neg": 1,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L7_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.525Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_7\\Lv7-P5-S28_bank.json"
+    ]
+  }
 }

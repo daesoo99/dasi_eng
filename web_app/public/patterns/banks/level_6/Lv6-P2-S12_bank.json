@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv6-P2-S12",
-  "title": "조동사 + 수동태",
-  "description": "must, should, could 등 조동사와 결합한 수동태 표현을 연습합니다.",
-  "grammar_pattern": "MODAL-PASSIVE",
+  "title": "Stage Lv6-P2-S12",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "This issue must be resolved immediately.",
-    "The report should be submitted by tomorrow.",
-    "The system could be upgraded next year."
+    "The report should be submitted by tomorrow."
   ],
-  "learning_points": "조동사와 수동태의 결합 패턴",
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
   "phase": 2,
   "stage_number": 12,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv6-P2-S12-001",
       "kr": "이 문제는 즉시 해결되어야 합니다.",
       "en": "This issue must be resolved immediately.",
-      "pattern": "MODAL-PASSIVE",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S12-002",
       "kr": "보고서는 내일까지 제출되어야 합니다.",
       "en": "The report should be submitted by tomorrow.",
-      "pattern": "MODAL-PASSIVE",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S12-003",
       "kr": "시스템이 내년에 업그레이드될 수 있습니다.",
       "en": "The system could be upgraded next year.",
-      "pattern": "MODAL-PASSIVE",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S12-004",
       "kr": "모든 데이터가 보안상 암호화되어야 합니다.",
       "en": "All data must be encrypted for security.",
-      "pattern": "MODAL-PASSIVE",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S12-005",
       "kr": "새로운 정책이 직원들에게 설명되어야 합니다.",
       "en": "The new policy should be explained to employees.",
-      "pattern": "MODAL-PASSIVE",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S12-006",
       "kr": "이 정보는 외부에 공개되면 안 됩니다.",
       "en": "This information should not be disclosed externally.",
-      "pattern": "MODAL-PASSIVE",
       "form": "neg"
     },
     {
       "id": "Lv6-P2-S12-007",
       "kr": "제품이 더 많은 시장에서 판매될 수 있습니다.",
       "en": "The product could be sold in more markets.",
-      "pattern": "MODAL-PASSIVE",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S12-008",
       "kr": "회의가 다음 주로 연기될 것 같습니다.",
       "en": "The meeting might be postponed to next week.",
-      "pattern": "MODAL-PASSIVE",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 7,
+    "neg": 1,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.464Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_6\\Lv6-P2-S12_bank.json"
+    ]
+  }
 }

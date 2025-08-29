@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv8-C4-S23",
-  "title": "분사구문 + 부사 결합",
-  "description": "분사구문에 부사를 결합하여 더욱 정확하고 세련된 표현을 만드는 방법을 연습합니다.",
-  "grammar_pattern": "PARTICIPLE-ADVERB-COMBINATION",
+  "title": "Stage Lv8-C4-S23",
+  "description": "Level 8 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Walking slowly through the park, she enjoyed the peaceful atmosphere.",
-    "Having carefully analyzed the data, we reached a conclusion.",
-    "Speaking confidently to the audience, he delivered an impressive presentation."
+    "Having carefully analyzed the data, we reached a conclusion."
   ],
-  "learning_points": "분사구문과 부사의 결합을 통한 정확하고 세련된 표현",
-  "phase": 4,
+  "learning_points": "Level 8 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 23,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv8-C4-S23-001",
       "kr": "공원을 천천히 걸으며 그녀는 평화로운 분위기를 만끽했습니다.",
       "en": "Walking slowly through the park, she enjoyed the peaceful atmosphere.",
-      "pattern": "PARTICIPLE-ADVERB-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C4-S23-002",
       "kr": "데이터를 신중하게 분석한 후 우리는 결론에 도달했습니다.",
       "en": "Having carefully analyzed the data, we reached a conclusion.",
-      "pattern": "PARTICIPLE-ADVERB-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C4-S23-003",
       "kr": "청중에게 자신 있게 말하며 그는 인상적인 발표를 했습니다.",
       "en": "Speaking confidently to the audience, he delivered an impressive presentation.",
-      "pattern": "PARTICIPLE-ADVERB-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C4-S23-004",
       "kr": "문제를 체계적으로 해결하며 팀은 효율성을 증대시켰습니다.",
       "en": "Solving problems systematically, the team increased efficiency.",
-      "pattern": "PARTICIPLE-ADVERB-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C4-S23-005",
       "kr": "철저히 준비한 덕분에 그들은 성공적으로 프로젝트를 완료했습니다.",
       "en": "Having prepared thoroughly, they successfully completed the project.",
-      "pattern": "PARTICIPLE-ADVERB-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C4-S23-006",
       "kr": "신속하게 대응하며 회사는 위기를 극복했습니다.",
       "en": "Responding quickly, the company overcame the crisis.",
-      "pattern": "PARTICIPLE-ADVERB-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C4-S23-007",
       "kr": "지속적으로 개선하며 우리는 품질을 향상시켰습니다.",
       "en": "Improving continuously, we enhanced the quality.",
-      "pattern": "PARTICIPLE-ADVERB-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C4-S23-008",
       "kr": "세심하게 계획을 세운 후 그들은 전략을 실행했습니다.",
       "en": "Having planned meticulously, they executed the strategy.",
-      "pattern": "PARTICIPLE-ADVERB-COMBINATION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L8_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.559Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_8\\Lv8-C4-S23_bank.json"
+    ]
+  }
 }

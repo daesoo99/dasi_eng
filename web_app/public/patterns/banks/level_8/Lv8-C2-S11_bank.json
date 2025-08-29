@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv8-C2-S11",
-  "title": "비교급 + 절",
-  "description": "비교급과 절을 결합하여 복잡한 비교 표현을 만드는 방법을 연습합니다.",
-  "grammar_pattern": "COMPARATIVE-WITH-CLAUSES",
+  "title": "Stage Lv8-C2-S11",
+  "description": "Level 8 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "The more we practice, the better we become.",
-    "She is more intelligent than we initially thought she was.",
-    "The project is far more complex than what we anticipated."
+    "She is more intelligent than we initially thought she was."
   ],
-  "learning_points": "비교급과 절의 결합을 통한 복잡한 비교 구조 표현",
-  "phase": 2,
+  "learning_points": "Level 8 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 11,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv8-C2-S11-001",
       "kr": "연습을 많이 할수록 더 나아집니다.",
       "en": "The more we practice, the better we become.",
-      "pattern": "COMPARATIVE-WITH-CLAUSES",
       "form": "aff"
     },
     {
       "id": "Lv8-C2-S11-002",
       "kr": "그녀는 우리가 처음에 생각했던 것보다 더 지적입니다.",
       "en": "She is more intelligent than we initially thought she was.",
-      "pattern": "COMPARATIVE-WITH-CLAUSES",
       "form": "aff"
     },
     {
       "id": "Lv8-C2-S11-003",
       "kr": "프로젝트는 우리가 예상했던 것보다 훨씬 더 복잡합니다.",
       "en": "The project is far more complex than what we anticipated.",
-      "pattern": "COMPARATIVE-WITH-CLAUSES",
       "form": "aff"
     },
     {
       "id": "Lv8-C2-S11-004",
       "kr": "열심히 공부할수록 더 많은 것을 알게 됩니다.",
       "en": "The harder we study, the more we learn.",
-      "pattern": "COMPARATIVE-WITH-CLAUSES",
       "form": "aff"
     },
     {
       "id": "Lv8-C2-S11-005",
       "kr": "그는 우리가 기대했던 것보다 훨씬 더 협력적입니다.",
       "en": "He is much more cooperative than we expected he would be.",
-      "pattern": "COMPARATIVE-WITH-CLAUSES",
       "form": "aff"
     },
     {
       "id": "Lv8-C2-S11-006",
       "kr": "빨리 시작할수록 더 좋은 결과를 얻을 수 있습니다.",
       "en": "The sooner we start, the better results we can achieve.",
-      "pattern": "COMPARATIVE-WITH-CLAUSES",
       "form": "aff"
     },
     {
       "id": "Lv8-C2-S11-007",
       "kr": "상황은 우리가 보고받은 것보다 훨씬 더 심각합니다.",
       "en": "The situation is far more serious than what we were told.",
-      "pattern": "COMPARATIVE-WITH-CLAUSES",
       "form": "aff"
     },
     {
       "id": "Lv8-C2-S11-008",
       "kr": "더 깊이 생각할수록 더 좋은 해결책을 찾을 수 있습니다.",
       "en": "The deeper we think, the better solutions we can find.",
-      "pattern": "COMPARATIVE-WITH-CLAUSES",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L8_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.548Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_8\\Lv8-C2-S11_bank.json"
+    ]
+  }
 }

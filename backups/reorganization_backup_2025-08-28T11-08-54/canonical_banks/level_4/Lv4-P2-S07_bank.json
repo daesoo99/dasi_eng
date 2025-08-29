@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv4-P2-S07",
+  "title": "사역동사",
+  "description": "Have/Make/Let/Get 등의 사역동사 용법을 배워 남에게 ~하도록 시키거나 허락하는 표현을 연습합니다. 다양한 상황을 설정해 사역 표현을 말해보고, 특히 Get+목적어+과거분사의 쓰임을 익혀 활용도를 높입니다.",
+  "grammar_pattern": "have + 목적어 + 동사원형 / make + 목적어 + 동사원형 / let + 목적어 + 동사원형 / get + 목적어 + p.p.",
+  "examples": ["I had my assistant print the report.", "The movie made me cry.", "My mom let me go out.", "I got my car fixed."],
+  "learning_points": "사역동사별 뉘앙스 차이와 get 구문의 특별한 용법",
+  "phase": 2,
+  "stage_number": 7,
+  "count": 0,
+  "sentences": []
+}

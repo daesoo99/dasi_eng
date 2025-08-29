@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P3-S14",
-  "title": "객관화 표현 I",
-  "description": "It is evident that... (~은 분명하다) 같은 표현. 예) It is evident that our strategy needs revision. 말에 객관적 무게를 주는 연습.",
-  "grammar_pattern": "OBJECTIFICATION-EXPRESSIONS",
+  "title": "Stage Lv9-P3-S14",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "It is evident that our strategy needs revision.",
-    "It is clear that market conditions have changed.",
-    "It is apparent that additional resources are required."
+    "It is clear that market conditions have fundamentally changed."
   ],
-  "learning_points": "객관적 표현을 사용한 전문적 분석 및 판단 제시",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 3,
   "stage_number": 14,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv9-P3-S14-001",
       "kr": "우리 전략을 수정해야 한다는 것이 분명합니다.",
       "en": "It is evident that our strategy needs revision.",
-      "pattern": "OBJECTIFICATION-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S14-002",
       "kr": "시장 조건이 변했다는 것이 명백합니다.",
       "en": "It is clear that market conditions have fundamentally changed.",
-      "pattern": "OBJECTIFICATION-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S14-003",
       "kr": "추가 자원이 필요하다는 것이 명백합니다.",
       "en": "It is apparent that additional resources are required.",
-      "pattern": "OBJECTIFICATION-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S14-004",
       "kr": "현재 접근법이 효과적이지 않다는 것이 명백합니다.",
       "en": "It is obvious that the current approach is not effective.",
-      "pattern": "OBJECTIFICATION-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S14-005",
       "kr": "기술 혁신이 핵심적인 역할을 한다는 것이 분명합니다.",
       "en": "It is evident that technological innovation plays a crucial role.",
-      "pattern": "OBJECTIFICATION-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S14-006",
       "kr": "고객 만족도가 비즈니스 성공의 핵심이라는 것이 명확합니다.",
       "en": "It is clear that customer satisfaction is key to business success.",
-      "pattern": "OBJECTIFICATION-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S14-007",
       "kr": "전체적인 검토가 필요하다는 것이 분명합니다.",
       "en": "It is evident that a comprehensive review is necessary.",
-      "pattern": "OBJECTIFICATION-EXPRESSIONS",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S14-008",
       "kr": "비용 효율성을 개선해야 한다는 것이 명백합니다.",
       "en": "It is apparent that cost efficiency must be improved.",
-      "pattern": "OBJECTIFICATION-EXPRESSIONS",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.597Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P3-S14_bank.json"
+    ]
+  }
 }

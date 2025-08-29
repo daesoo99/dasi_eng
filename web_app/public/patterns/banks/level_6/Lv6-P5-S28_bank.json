@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv6-P5-S28",
-  "title": "관계대명사 축약 활용",
-  "description": "복잡한 문장에서 관계절 축약을 활용하여 핵심 정보를 효과적으로 전달합니다. RELATIVE-CLAUSE-REDUCTION-ADVANCED 패턴을 연습합니다.",
-  "grammar_pattern": "RELATIVE-CLAUSE-REDUCTION-ADVANCED",
+  "title": "Stage Lv6-P5-S28",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "The research results published last week have caused a stir.",
-    "Do you know the man talking to the CEO?",
-    "The proposal submitted yesterday needs revision."
+    "Do you know the man talking to the CEO?"
   ],
-  "learning_points": "관계절 축약을 통한 정보 압축과 자연스러운 표현",
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
   "phase": 5,
   "stage_number": 28,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv6-P5-S28-001",
       "kr": "지난주에 발표된 연구 결과가 큰 파장을 일으켰습니다.",
       "en": "The research results published last week have caused a stir.",
-      "pattern": "RELATIVE-CLAUSE-REDUCTION-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P5-S28-002",
       "kr": "CEO와 이야기하고 있는 그 남자를 아시나요?",
       "en": "Do you know the man talking to the CEO?",
-      "pattern": "RELATIVE-CLAUSE-REDUCTION-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P5-S28-003",
       "kr": "어제 제출된 제안서는 수정이 필요합니다.",
       "en": "The proposal submitted yesterday needs revision.",
-      "pattern": "RELATIVE-CLAUSE-REDUCTION-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P5-S28-004",
       "kr": "회의실에서 논의되고 있는 프로젝트는 매우 중요합니다.",
       "en": "The project being discussed in the meeting room is very important.",
-      "pattern": "RELATIVE-CLAUSE-REDUCTION-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P5-S28-005",
       "kr": "작년에 고용된 직원들은 훌륭한 성과를 보이고 있습니다.",
       "en": "The employees hired last year are showing excellent performance.",
-      "pattern": "RELATIVE-CLAUSE-REDUCTION-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P5-S28-006",
       "kr": "현재 개발 중인 기술은 혁신적입니다.",
       "en": "The technology currently being developed is revolutionary.",
-      "pattern": "RELATIVE-CLAUSE-REDUCTION-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P5-S28-007",
       "kr": "이사회에서 승인된 예산은 충분하지 않습니다.",
       "en": "The budget approved by the board is insufficient.",
-      "pattern": "RELATIVE-CLAUSE-REDUCTION-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P5-S28-008",
       "kr": "고객들에 의해 요청된 기능들을 다음 업데이트에 포함시키겠습니다.",
       "en": "We will include the features requested by customers in the next update.",
-      "pattern": "RELATIVE-CLAUSE-REDUCTION-ADVANCED",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.481Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_6\\Lv6-P5-S28_bank.json"
+    ]
+  }
 }

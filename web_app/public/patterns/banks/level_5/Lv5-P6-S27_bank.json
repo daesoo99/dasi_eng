@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv5-P6-S27",
-  "title": "고급 구동사",
-  "description": "고급 구동사을 연습합니다. ADVANCED-PHRASAL-VERBS 패턴을 활용하여 고급 영어 표현을 익힙니다.",
-  "grammar_pattern": "ADVANCED-PHRASAL-VERBS",
+  "title": "Stage Lv5-P6-S27",
+  "description": "Level 5 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "We need to carry out the plan.",
-    "He pulled off a surprising victory.",
-    "I can't put up with that noise anymore."
+    "He pulled off a surprising victory."
   ],
-  "learning_points": "phrasal-verbs 관련 고급 표현과 실용적 활용",
+  "learning_points": "Level 5 target grammar and expressions with practical usage examples",
   "phase": 6,
   "stage_number": 27,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv5-P6-S27-001",
       "kr": "우리는 계획을 수행해야 합니다.",
       "en": "We need to carry out the plan.",
-      "pattern": "ADVANCED-PHRASAL-VERBS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S27-002",
       "kr": "그는 놀라운 승리를 해냈습니다.",
       "en": "He pulled off a surprising victory.",
-      "pattern": "ADVANCED-PHRASAL-VERBS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S27-003",
       "kr": "그 소음을 더 이상 참을 수 없습니다.",
       "en": "I can't put up with that noise anymore.",
-      "pattern": "ADVANCED-PHRASAL-VERBS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S27-004",
       "kr": "그는 자신의 주장을 철회했습니다.",
       "en": "He backed down from his position.",
-      "pattern": "ADVANCED-PHRASAL-VERBS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S27-005",
       "kr": "제품 생산을 단계적으로 중단하겠습니다.",
       "en": "We will phase out the product.",
-      "pattern": "ADVANCED-PHRASAL-VERBS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S27-006",
       "kr": "문제들을 해결해야 합니다.",
       "en": "We need to iron out the problems.",
-      "pattern": "ADVANCED-PHRASAL-VERBS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S27-007",
       "kr": "핵심 이슈에 집중해야 합니다.",
       "en": "We should zero in on the key issue.",
-      "pattern": "ADVANCED-PHRASAL-VERBS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S27-008",
       "kr": "계획이 실현되지 않았습니다.",
       "en": "The plan didn't pan out.",
-      "pattern": "ADVANCED-PHRASAL-VERBS",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L5_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.447Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_5\\Lv5-P6-S27_bank.json"
+    ]
+  }
 }

@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv5-P2-S10",
+  "title": "동명사 vs. to부정사",
+  "description": "동명사 vs. to부정사을 연습합니다. GERUND-VS-INFINITIVE 패턴을 활용하여 고급 영어 표현을 익힙니다.",
+  "grammar_pattern": "GERUND-VS-INFINITIVE",
+  "examples": [
+    "Remember to do it.",
+    "I remember doing it.",
+    "He stopped to smoke."
+  ],
+  "learning_points": "verb-forms 관련 고급 표현과 실용적 활용",
+  "phase": 2,
+  "stage_number": 10,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv5-P2-S10-001",
+      "kr": "할 것을 기억하세요.",
+      "en": "Remember to do it.",
+      "pattern": "GERUND-VS-INFINITIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P2-S10-002",
+      "kr": "한 것을 기억합니다.",
+      "en": "I remember doing it.",
+      "pattern": "GERUND-VS-INFINITIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P2-S10-003",
+      "kr": "담배 피우려고 멈췄습니다.",
+      "en": "He stopped to smoke.",
+      "pattern": "GERUND-VS-INFINITIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P2-S10-004",
+      "kr": "담배 피우는 것을 그만뒀습니다.",
+      "en": "He stopped smoking.",
+      "pattern": "GERUND-VS-INFINITIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P2-S10-005",
+      "kr": "창문을 열려고 했습니다.",
+      "en": "I tried to open the window.",
+      "pattern": "GERUND-VS-INFINITIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P2-S10-006",
+      "kr": "창문 여는 것을 시도해봤습니다.",
+      "en": "I tried opening the window.",
+      "pattern": "GERUND-VS-INFINITIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P2-S10-007",
+      "kr": "전화하는 것을 잊지 마세요.",
+      "en": "Don't forget to call.",
+      "pattern": "GERUND-VS-INFINITIVE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P2-S10-008",
+      "kr": "전화했던 것을 잊어버렸습니다.",
+      "en": "I forgot calling.",
+      "pattern": "GERUND-VS-INFINITIVE",
+      "form": "aff"
+    }
+  ]
+}

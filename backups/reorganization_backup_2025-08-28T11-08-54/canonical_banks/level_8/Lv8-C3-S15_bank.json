@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv8-C3-S15",
+  "title": "전치사 관용 표현",
+  "description": "전치사를 포함한 관용적 표현들을 활용하여 자연스럽고 세련된 문장을 만드는 방법을 연습합니다.",
+  "grammar_pattern": "PREPOSITIONAL-IDIOMS",
+  "examples": [
+    "By and large, the project was a success.",
+    "For all intents and purposes, the matter is settled.",
+    "In the light of recent developments, we need to reconsider our strategy."
+  ],
+  "learning_points": "전치사 관용 표현을 통한 자연스럽고 세련된 문체",
+  "phase": 3,
+  "stage_number": 15,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv8-C3-S15-001",
+      "kr": "전반적으로 보면 그 프로젝트는 성공이었습니다.",
+      "en": "By and large, the project was a success.",
+      "pattern": "PREPOSITIONAL-IDIOMS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S15-002",
+      "kr": "사실상 그 문제는 해결되었습니다.",
+      "en": "For all intents and purposes, the matter is settled.",
+      "pattern": "PREPOSITIONAL-IDIOMS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S15-003",
+      "kr": "최근의 발전 상황을 고려할 때 우리는 전략을 재고해야 합니다.",
+      "en": "In the light of recent developments, we need to reconsider our strategy.",
+      "pattern": "PREPOSITIONAL-IDIOMS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S15-004",
+      "kr": "무엇보다도 우리는 안전을 최우선으로 해야 합니다.",
+      "en": "Above all else, we must prioritize safety.",
+      "pattern": "PREPOSITIONAL-IDIOMS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S15-005",
+      "kr": "결국 모든 것이 계획대로 진행되었습니다.",
+      "en": "In the end, everything went according to plan.",
+      "pattern": "PREPOSITIONAL-IDIOMS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S15-006",
+      "kr": "어쨌든 우리는 최선을 다했습니다.",
+      "en": "At any rate, we did our best.",
+      "pattern": "PREPOSITIONAL-IDIOMS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S15-007",
+      "kr": "현재 상황을 고려할 때 이것이 최선의 선택입니다.",
+      "en": "In view of the current situation, this is the best choice.",
+      "pattern": "PREPOSITIONAL-IDIOMS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S15-008",
+      "kr": "한편으로는 이것이 기회가 될 수도 있습니다.",
+      "en": "On the one hand, this could be an opportunity.",
+      "pattern": "PREPOSITIONAL-IDIOMS",
+      "form": "aff"
+    }
+  ]
+}

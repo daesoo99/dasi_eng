@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv9-P7-S39",
+  "title": "함축적 비판",
+  "description": "직접적인 비판보다는 우회적이고 세련된 방식으로 문제점을 지적하여 품격 있는 의견 제시와 건설적 피드백을 전달하는 기법.",
+  "grammar_pattern": "IMPLICIT-CRITICISM",
+  "examples": [
+    "While your enthusiasm is admirable, perhaps we might consider alternative approaches.",
+    "The effort invested is commendable, though the outcome suggests room for improvement.",
+    "Your intentions are clearly well-meaning, yet the execution raises some questions."
+  ],
+  "learning_points": "우회적이고 건설적인 비판을 통한 품격 있는 의견 개진",
+  "phase": 7,
+  "stage_number": 39,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv9-P7-S39-001",
+      "kr": "당신의 열정은 감탄할 만하지만, 다른 접근법도 고려해볼 수 있을 것 같습니다.",
+      "en": "While your enthusiasm is admirable, perhaps we might consider alternative approaches.",
+      "pattern": "IMPLICIT-CRITICISM",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S39-002",
+      "kr": "투입된 노력은 칭찬할 만하지만, 결과는 개선의 여지가 있음을 시사합니다.",
+      "en": "The effort invested is commendable, though the outcome suggests room for improvement.",
+      "pattern": "IMPLICIT-CRITICISM",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S39-003",
+      "kr": "당신의 의도는 분명히 선한 것이지만, 실행 과정에서 몇 가지 의문이 제기됩니다.",
+      "en": "Your intentions are clearly well-meaning, yet the execution raises some questions.",
+      "pattern": "IMPLICIT-CRITICISM",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S39-004",
+      "kr": "아이디어 자체는 흥미롭지만, 실용성 측면에서 재검토가 필요할 것 같습니다.",
+      "en": "The idea itself is intriguing, though it might benefit from practical reconsideration.",
+      "pattern": "IMPLICIT-CRITICISM",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S39-005",
+      "kr": "창의성은 인정하지만, 현실적 제약도 고려해야 할 것 같습니다.",
+      "en": "While creativity is evident, perhaps practical constraints deserve consideration.",
+      "pattern": "IMPLICIT-CRITICISM",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S39-006",
+      "kr": "시도는 용감했지만, 결과가 기대와는 다소 거리가 있는 것 같습니다.",
+      "en": "The attempt was bold, though the results seem somewhat distant from expectations.",
+      "pattern": "IMPLICIT-CRITICISM",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S39-007",
+      "kr": "방향성은 올바르지만, 세부 사항에서 조정이 필요해 보입니다.",
+      "en": "The direction is sound, though details might require some adjustment.",
+      "pattern": "IMPLICIT-CRITICISM",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P7-S39-008",
+      "kr": "접근법은 혁신적이지만, 검증 과정이 더 필요할 것 같습니다.",
+      "en": "The approach is innovative, though additional validation might prove beneficial.",
+      "pattern": "IMPLICIT-CRITICISM",
+      "form": "aff"
+    }
+  ]
+}

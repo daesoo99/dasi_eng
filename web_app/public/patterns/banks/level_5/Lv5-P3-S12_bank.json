@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv5-P3-S12",
-  "title": "수식어 위치와 강조",
-  "description": "수식어 위치와 강조을 연습합니다. MODIFIER-POSITION-EMPHASIS 패턴을 활용하여 고급 영어 표현을 익힙니다.",
-  "grammar_pattern": "MODIFIER-POSITION-EMPHASIS",
+  "title": "Stage Lv5-P3-S12",
+  "description": "Level 5 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "He simply ignored the rules.",
-    "He ignored the rules simply.",
-    "Clearly, she is right."
+    "He ignored the rules simply."
   ],
-  "learning_points": "adverb-position 관련 고급 표현과 실용적 활용",
+  "learning_points": "Level 5 target grammar and expressions with practical usage examples",
   "phase": 3,
   "stage_number": 12,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv5-P3-S12-001",
       "kr": "그는 단순히 규칙을 무시했습니다.",
       "en": "He simply ignored the rules.",
-      "pattern": "MODIFIER-POSITION-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv5-P3-S12-002",
       "kr": "그는 규칙을 단순히 무시했습니다.",
       "en": "He ignored the rules simply.",
-      "pattern": "MODIFIER-POSITION-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv5-P3-S12-003",
       "kr": "분명히 그녀는 옳습니다.",
       "en": "Clearly, she is right.",
-      "pattern": "MODIFIER-POSITION-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv5-P3-S12-004",
       "kr": "그녀는 분명히 옳습니다.",
       "en": "She is clearly right.",
-      "pattern": "MODIFIER-POSITION-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv5-P3-S12-005",
       "kr": "솔직히 말해서 실망했습니다.",
       "en": "Frankly speaking, I was disappointed.",
-      "pattern": "MODIFIER-POSITION-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv5-P3-S12-006",
       "kr": "저는 솔직히 실망했습니다.",
       "en": "I was frankly disappointed.",
-      "pattern": "MODIFIER-POSITION-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv5-P3-S12-007",
       "kr": "놀랍게도 그가 이겼습니다.",
       "en": "Surprisingly, he won.",
-      "pattern": "MODIFIER-POSITION-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv5-P3-S12-008",
       "kr": "그는 놀랍게도 이겼습니다.",
       "en": "He surprisingly won.",
-      "pattern": "MODIFIER-POSITION-EMPHASIS",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L5_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.432Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_5\\Lv5-P3-S12_bank.json"
+    ]
+  }
 }

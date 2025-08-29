@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv7-P1-S06",
-  "title": "동사 시제 혼합 훈련",
-  "description": "한 문장 내에 2개 이상의 시제를 조합하는 연습을 합니다.",
-  "grammar_pattern": "MIXED-TENSE-COMBINATIONS",
+  "title": "Stage Lv7-P1-S06",
+  "description": "Level 7 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "While I was studying the report that had been prepared last week, I realized we will need to revise our strategy.",
-    "The technology that we have been developing will revolutionize the industry by the time our competitors catch up.",
-    "She told me that she had been working on the proposal and would have it ready by tomorrow."
+    "The technology that we have been developing will revolutionize the industry by the time our competitors catch up."
   ],
-  "learning_points": "복잡한 문장에서 다양한 시제의 논리적 조합과 활용",
+  "learning_points": "Level 7 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 6,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv7-P1-S06-001",
       "kr": "지난주에 준비된 보고서를 검토하고 있던 중에, 우리가 전략을 수정해야 할 것이라는 것을 깨달았다.",
       "en": "While I was studying the report that had been prepared last week, I realized we will need to revise our strategy.",
-      "pattern": "MIXED-TENSE-COMBINATIONS",
       "form": "aff"
     },
     {
       "id": "Lv7-P1-S06-002",
       "kr": "우리가 개발해오고 있는 기술은 경쟁자들이 따라잡을 때쯤이면 산업에 혁명을 일으킬 것이다.",
       "en": "The technology that we have been developing will revolutionize the industry by the time our competitors catch up.",
-      "pattern": "MIXED-TENSE-COMBINATIONS",
       "form": "aff"
     },
     {
       "id": "Lv7-P1-S06-003",
       "kr": "그녀는 제안서를 작업해오고 있었으며 내일까지 준비해 놓겠다고 나에게 말했다.",
       "en": "She told me that she had been working on the proposal and would have it ready by tomorrow.",
-      "pattern": "MIXED-TENSE-COMBINATIONS",
       "form": "aff"
     },
     {
       "id": "Lv7-P1-S06-004",
       "kr": "그가 발표하고 있는 동안, 나는 그가 지난 달에 언급했던 데이터가 정확할 것이라고 확신했다.",
       "en": "While he was presenting, I was confident that the data he had mentioned last month would be accurate.",
-      "pattern": "MIXED-TENSE-COMBINATIONS",
       "form": "aff"
     },
     {
       "id": "Lv7-P1-S06-005",
       "kr": "우리가 논의해온 계획은 다음 분기에 실행될 것이고, 그때까지 모든 팀원들이 훈련을 받았을 것이다.",
       "en": "The plan we have been discussing will be implemented next quarter, and by then all team members will have received training.",
-      "pattern": "MIXED-TENSE-COMBINATIONS",
       "form": "aff"
     },
     {
       "id": "Lv7-P1-S06-006",
       "kr": "문제가 해결되고 있는 동안, 우리는 이전에 시도했던 방법들이 효과적이지 않았다는 것을 인정해야 했다.",
       "en": "While the problem was being resolved, we had to admit that the methods we had tried before hadn't been effective.",
-      "pattern": "MIXED-TENSE-COMBINATIONS",
       "form": "neg"
     },
     {
       "id": "Lv7-P1-S06-007",
       "kr": "시장이 변화하고 있는 것을 알고 있었기 때문에, 우리는 작년에 시작한 연구가 곧 결실을 맺을 것이라고 기대했다.",
       "en": "Knowing that the market was changing, we expected that the research we had started last year would soon bear fruit.",
-      "pattern": "MIXED-TENSE-COMBINATIONS",
       "form": "aff"
     },
     {
       "id": "Lv7-P1-S06-008",
       "kr": "새로운 정책이 발표되었을 때, 직원들은 몇 주 동안 궁금해해왔던 것이 마침내 명확해질 것이라고 느꼈다.",
       "en": "When the new policy was announced, employees felt that what they had been wondering about for weeks would finally become clear.",
-      "pattern": "MIXED-TENSE-COMBINATIONS",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 7,
+    "neg": 1,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L7_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.503Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_7\\Lv7-P1-S06_bank.json"
+    ]
+  }
 }

@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv6-P6-S36",
+  "title": "복합 도치 표현",
+  "description": "여러 도치 유형을 한 문장에 결합하여 복잡한 강조 표현을 구사합니다. COMPOUND-INVERSION-EXPRESSIONS 패턴을 연습합니다.",
+  "grammar_pattern": "COMPOUND-INVERSION-EXPRESSIONS",
+  "examples": [
+    "Had I known about the traffic jam, never would I have taken that route.",
+    "Only when properly trained can employees rarely make such errors.",
+    "Not until the results were announced did we seldom feel such relief."
+  ],
+  "learning_points": "복합 도치를 통한 고도의 문체적 표현과 강조",
+  "phase": 6,
+  "stage_number": 36,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv6-P6-S36-001",
+      "kr": "교통 체증을 알았더라면 그 길로는 절대 가지 않았을 것입니다.",
+      "en": "Had I known about the traffic jam, never would I have taken that route.",
+      "pattern": "COMPOUND-INVERSION-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P6-S36-002",
+      "kr": "제대로 훈련을 받았을 때만 직원들이 그런 실수를 거의 하지 않을 수 있습니다.",
+      "en": "Only when properly trained can employees rarely make such errors.",
+      "pattern": "COMPOUND-INVERSION-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P6-S36-003",
+      "kr": "결과가 발표된 후에야 우리는 그런 안도감을 좀처럼 느낄 수 있었습니다.",
+      "en": "Not until the results were announced did we seldom feel such relief.",
+      "pattern": "COMPOUND-INVERSION-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P6-S36-004",
+      "kr": "위험을 알았더라면 결코 그 투자를 하지 않았을 것입니다.",
+      "en": "Had we known the risks, never would we have made that investment.",
+      "pattern": "COMPOUND-INVERSION-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P6-S36-005",
+      "kr": "모든 준비가 완료될 때만 우리는 거의 실패하지 않을 수 있습니다.",
+      "en": "Only when all preparations are complete can we rarely fail.",
+      "pattern": "COMPOUND-INVERSION-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P6-S36-006",
+      "kr": "시장 조사를 했더라면 절대 그런 제품을 출시하지 않았을 것입니다.",
+      "en": "Had we conducted market research, never would we have launched such a product.",
+      "pattern": "COMPOUND-INVERSION-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P6-S36-007",
+      "kr": "팀이 단합될 때만 우리는 그런 도전을 좀처럼 두려워하지 않을 수 있습니다.",
+      "en": "Only when the team is united can we seldom fear such challenges.",
+      "pattern": "COMPOUND-INVERSION-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P6-S36-008",
+      "kr": "고객 요구를 이해했더라면 결코 그런 설계를 하지 않았을 것입니다.",
+      "en": "Had we understood customer needs, never would we have created such a design.",
+      "pattern": "COMPOUND-INVERSION-EXPRESSIONS",
+      "form": "aff"
+    }
+  ]
+}

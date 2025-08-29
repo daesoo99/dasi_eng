@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv8-C3-S16",
-  "title": "전치사 + 동명사/절",
-  "description": "전치사 뒤에 동명사나 절을 활용하여 복잡한 구조의 문장을 만드는 방법을 연습합니다.",
-  "grammar_pattern": "PREPOSITION-GERUND-CLAUSE",
+  "title": "Stage Lv8-C3-S16",
+  "description": "Level 8 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Instead of complaining, we should focus on finding solutions.",
-    "In addition to being talented, she is also very hardworking.",
-    "Apart from what we discussed, there are other important issues."
+    "In addition to being talented, she is also very hardworking."
   ],
-  "learning_points": "전치사와 동명사/절의 결합을 통한 복잡한 문장 구조 활용",
-  "phase": 3,
+  "learning_points": "Level 8 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 16,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv8-C3-S16-001",
       "kr": "불평하는 대신 해결책을 찾는 데 집중해야 합니다.",
       "en": "Instead of complaining, we should focus on finding solutions.",
-      "pattern": "PREPOSITION-GERUND-CLAUSE",
       "form": "aff"
     },
     {
       "id": "Lv8-C3-S16-002",
       "kr": "재능이 있는 것 외에도 그녀는 매우 근면하기도 합니다.",
       "en": "In addition to being talented, she is also very hardworking.",
-      "pattern": "PREPOSITION-GERUND-CLAUSE",
       "form": "aff"
     },
     {
       "id": "Lv8-C3-S16-003",
       "kr": "우리가 논의한 것 외에도 다른 중요한 문제들이 있습니다.",
       "en": "Apart from what we discussed, there are other important issues.",
-      "pattern": "PREPOSITION-GERUND-CLAUSE",
       "form": "aff"
     },
     {
       "id": "Lv8-C3-S16-004",
       "kr": "포기하는 대신 우리는 계속 노력해야 합니다.",
       "en": "Instead of giving up, we must keep trying.",
-      "pattern": "PREPOSITION-GERUND-CLAUSE",
       "form": "aff"
     },
     {
       "id": "Lv8-C3-S16-005",
       "kr": "비용을 절약하는 것 외에도 효율성을 높여야 합니다.",
       "en": "In addition to saving costs, we need to improve efficiency.",
-      "pattern": "PREPOSITION-GERUND-CLAUSE",
       "form": "aff"
     },
     {
       "id": "Lv8-C3-S16-006",
       "kr": "예상했던 것 외에도 예기치 못한 문제들이 발생했습니다.",
       "en": "Apart from what we expected, unexpected problems arose.",
-      "pattern": "PREPOSITION-GERUND-CLAUSE",
       "form": "aff"
     },
     {
       "id": "Lv8-C3-S16-007",
       "kr": "비판하는 대신 건설적인 피드백을 제공해야 합니다.",
       "en": "Instead of criticizing, we should provide constructive feedback.",
-      "pattern": "PREPOSITION-GERUND-CLAUSE",
       "form": "aff"
     },
     {
       "id": "Lv8-C3-S16-008",
       "kr": "경험이 풍부한 것 외에도 그는 매우 창의적입니다.",
       "en": "In addition to being experienced, he is also very creative.",
-      "pattern": "PREPOSITION-GERUND-CLAUSE",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L8_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.552Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_8\\Lv8-C3-S16_bank.json"
+    ]
+  }
 }

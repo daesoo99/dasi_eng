@@ -1,0 +1,274 @@
+{
+  "stage_id": "S10",
+  "title": "Stage S10",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "It is a red apple.",
+    "I have a small car."
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 10,
+  "count": 40,
+  "sentences": [
+    {
+      "id": "S10-1",
+      "kr": "그것은 빨간 사과입니다.",
+      "en": "It is a red apple.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-2",
+      "kr": "나는 작은 차를 가지고 있습니다.",
+      "en": "I have a small car.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-3",
+      "kr": "그 큰 집은 아름답습니다.",
+      "en": "The big house is beautiful.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-4",
+      "kr": "그녀는 오늘 매우 행복합니다.",
+      "en": "She is very happy today.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-5",
+      "kr": "이것은 비싼 시계입니다.",
+      "en": "This is an expensive watch.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-6",
+      "kr": "그 나이든 남자는 친절합니다.",
+      "en": "The old man is kind.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-7",
+      "kr": "나는 뜨거운 커피를 원합니다.",
+      "en": "I want a hot coffee.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-8",
+      "kr": "그 어린 소녀는 똑똑합니다.",
+      "en": "The young girl is smart.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-9",
+      "kr": "그것은 긴 이야기입니다.",
+      "en": "It's a long story.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-10",
+      "kr": "하얀 고양이가 자고 있습니다.",
+      "en": "The white cat is sleeping.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-1",
+      "kr": "그것은 빨간 사과입니다.",
+      "en": "It is a red apple.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-2",
+      "kr": "나는 작은 차를 가지고 있습니다.",
+      "en": "I have a small car.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-3",
+      "kr": "그 큰 집은 아름답습니다.",
+      "en": "The big house is beautiful.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-4",
+      "kr": "그녀는 오늘 매우 행복합니다.",
+      "en": "She is very happy today.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-5",
+      "kr": "이것은 비싼 시계입니다.",
+      "en": "This is an expensive watch.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-6",
+      "kr": "그 나이든 남자는 친절합니다.",
+      "en": "The old man is kind.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-7",
+      "kr": "나는 뜨거운 커피를 원합니다.",
+      "en": "I want a hot coffee.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-8",
+      "kr": "그 어린 소녀는 똑똑합니다.",
+      "en": "The young girl is smart.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-9",
+      "kr": "그것은 긴 이야기입니다.",
+      "en": "It's a long story.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-10",
+      "kr": "하얀 고양이가 자고 있습니다.",
+      "en": "The white cat is sleeping.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-1",
+      "kr": "더 일찍 알았다면 도와드렸을 텐데요. (과거 후회)",
+      "en": "If I had known earlier, I would have helped.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-2",
+      "kr": "더 열심히 공부했다면 시험에 합격했을 텐데요. (과거 결과)",
+      "en": "If she had studied harder, she would have passed the exam.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-3",
+      "kr": "더 일찍 출발했다면 기차를 놓치지 않았을 텐데요. (과거 실수)",
+      "en": "If we had left earlier, we wouldn't have missed the train.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-4",
+      "kr": "더 조심했다면 사고가 일어나지 않았을 텐데요. (사고 후회)",
+      "en": "If I had been more careful, the accident wouldn't have happened.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-5",
+      "kr": "말해줬다면 도와줄 수 있었는데요. (소통 아쉬움)",
+      "en": "If you had told me, I could have helped you.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-6",
+      "kr": "비가 오지 않았다면 피크닉을 했을 텐데요. (날씨 아쉬움)",
+      "en": "If it hadn't rained, we would have had a picnic.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-7",
+      "kr": "돈을 모았다면 그 차를 살 수 있었는데요. (재정 후회)",
+      "en": "If I had saved money, I could have bought that car.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-8",
+      "kr": "제시간에 도착했다면 회의가 시작되었을 텐데요. (지각 결과)",
+      "en": "If they had arrived on time, the meeting would have started.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-9",
+      "kr": "영어를 더 일찍 배웠다면 더 좋은 직장을 얻었을 텐데요. (교육 후회)",
+      "en": "If I had learned English earlier, I would have gotten a better job.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-10",
+      "kr": "의사가 거기 있었다면 환자를 구할 수 있었을지도 모릅니다. (생명 가정)",
+      "en": "If the doctor had been there, he might have saved the patient.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-1",
+      "kr": "더 일찍 알았다면 도와드렸을 텐데요. (과거 후회)",
+      "en": "If I had known earlier, I would have helped.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-2",
+      "kr": "더 열심히 공부했다면 시험에 합격했을 텐데요. (과거 결과)",
+      "en": "If she had studied harder, she would have passed the exam.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-3",
+      "kr": "더 일찍 출발했다면 기차를 놓치지 않았을 텐데요. (과거 실수)",
+      "en": "If we had left earlier, we wouldn't have missed the train.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-4",
+      "kr": "더 조심했다면 사고가 일어나지 않았을 텐데요. (사고 후회)",
+      "en": "If I had been more careful, the accident wouldn't have happened.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-5",
+      "kr": "말해줬다면 도와줄 수 있었는데요. (소통 아쉬움)",
+      "en": "If you had told me, I could have helped you.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-6",
+      "kr": "비가 오지 않았다면 피크닉을 했을 텐데요. (날씨 아쉬움)",
+      "en": "If it hadn't rained, we would have had a picnic.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-7",
+      "kr": "돈을 모았다면 그 차를 살 수 있었는데요. (재정 후회)",
+      "en": "If I had saved money, I could have bought that car.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-8",
+      "kr": "제시간에 도착했다면 회의가 시작되었을 텐데요. (지각 결과)",
+      "en": "If they had arrived on time, the meeting would have started.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-9",
+      "kr": "영어를 더 일찍 배웠다면 더 좋은 직장을 얻었을 텐데요. (교육 후회)",
+      "en": "If I had learned English earlier, I would have gotten a better job.",
+      "form": "aff"
+    },
+    {
+      "id": "S10-10",
+      "kr": "의사가 거기 있었다면 환자를 구할 수 있었을지도 모릅니다. (생명 가정)",
+      "en": "If the doctor had been there, he might have saved the patient.",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 40,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L1_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.707Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "patterns\\level_1_basic_patterns\\lv1_phase_system_NEW.json",
+      "patterns\\level_1_basic_patterns\\lv1_phase_system_NEW_migrated.json",
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW.json",
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW_migrated.json"
+    ]
+  }
+}

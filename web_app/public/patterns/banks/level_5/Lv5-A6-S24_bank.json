@@ -1,0 +1,331 @@
+{
+  "stage_id": "Lv5-A6-S24",
+  "title": "Stage Lv5-A6-S24",
+  "description": "Level 5 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "Academic legacy must be passed on to the next generation. (completion variant 1)",
+    "Academic legacy must be passed on to the next generation. (completion variant 2)"
+  ],
+  "learning_points": "Level 5 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 24,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv5-A6-S24-001",
+      "kr": "학술적 유산을 다음 세대에 전수해야 합니다. (완성 1)",
+      "en": "Academic legacy must be passed on to the next generation. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-002",
+      "kr": "학술적 유산을 다음 세대에 전수해야 합니다. (완성 2)",
+      "en": "Academic legacy must be passed on to the next generation. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-003",
+      "kr": "학술적 유산을 다음 세대에 전수해야 합니다. (완성 3)",
+      "en": "Academic legacy must be passed on to the next generation. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-004",
+      "kr": "학술적 유산을 다음 세대에 전수해야 합니다. (완성 4)",
+      "en": "Academic legacy must be passed on to the next generation. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-005",
+      "kr": "학술적 유산을 다음 세대에 전수해야 합니다. (완성 5)",
+      "en": "Academic legacy must be passed on to the next generation. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-006",
+      "kr": "지속가능한 연구 문화를 구축하고 있습니다. (완성 1)",
+      "en": "We are building a sustainable research culture. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-007",
+      "kr": "지속가능한 연구 문화를 구축하고 있습니다. (완성 2)",
+      "en": "We are building a sustainable research culture. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-008",
+      "kr": "지속가능한 연구 문화를 구축하고 있습니다. (완성 3)",
+      "en": "We are building a sustainable research culture. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-009",
+      "kr": "지속가능한 연구 문화를 구축하고 있습니다. (완성 4)",
+      "en": "We are building a sustainable research culture. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-010",
+      "kr": "지속가능한 연구 문화를 구축하고 있습니다. (완성 5)",
+      "en": "We are building a sustainable research culture. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-011",
+      "kr": "학문적 전통을 보존하면서 발전시켜야 합니다. (완성 1)",
+      "en": "Academic traditions must be preserved while being developed. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-012",
+      "kr": "학문적 전통을 보존하면서 발전시켜야 합니다. (완성 2)",
+      "en": "Academic traditions must be preserved while being developed. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-013",
+      "kr": "학문적 전통을 보존하면서 발전시켜야 합니다. (완성 3)",
+      "en": "Academic traditions must be preserved while being developed. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-014",
+      "kr": "학문적 전통을 보존하면서 발전시켜야 합니다. (완성 4)",
+      "en": "Academic traditions must be preserved while being developed. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-015",
+      "kr": "학문적 전통을 보존하면서 발전시켜야 합니다. (완성 5)",
+      "en": "Academic traditions must be preserved while being developed. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-016",
+      "kr": "연구의 연속성이 중요합니다. (완성 1)",
+      "en": "Continuity of research is important. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-017",
+      "kr": "연구의 연속성이 중요합니다. (완성 2)",
+      "en": "Continuity of research is important. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-018",
+      "kr": "연구의 연속성이 중요합니다. (완성 3)",
+      "en": "Continuity of research is important. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-019",
+      "kr": "연구의 연속성이 중요합니다. (완성 4)",
+      "en": "Continuity of research is important. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-020",
+      "kr": "연구의 연속성이 중요합니다. (완성 5)",
+      "en": "Continuity of research is important. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-021",
+      "kr": "지식의 영속성을 보장해야 합니다. (완성 1)",
+      "en": "The perpetuity of knowledge must be ensured. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-022",
+      "kr": "지식의 영속성을 보장해야 합니다. (완성 2)",
+      "en": "The perpetuity of knowledge must be ensured. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-023",
+      "kr": "지식의 영속성을 보장해야 합니다. (완성 3)",
+      "en": "The perpetuity of knowledge must be ensured. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-024",
+      "kr": "지식의 영속성을 보장해야 합니다. (완성 4)",
+      "en": "The perpetuity of knowledge must be ensured. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-025",
+      "kr": "지식의 영속성을 보장해야 합니다. (완성 5)",
+      "en": "The perpetuity of knowledge must be ensured. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-026",
+      "kr": "학술적 가치가 보존되어야 합니다. (완성 1)",
+      "en": "Academic values must be preserved. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-027",
+      "kr": "학술적 가치가 보존되어야 합니다. (완성 2)",
+      "en": "Academic values must be preserved. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-028",
+      "kr": "학술적 가치가 보존되어야 합니다. (완성 3)",
+      "en": "Academic values must be preserved. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-029",
+      "kr": "학술적 가치가 보존되어야 합니다. (완성 4)",
+      "en": "Academic values must be preserved. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-030",
+      "kr": "학술적 가치가 보존되어야 합니다. (완성 5)",
+      "en": "Academic values must be preserved. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-031",
+      "kr": "연구 문화의 지속성이 필요합니다. (완성 1)",
+      "en": "Sustainability of research culture is necessary. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-032",
+      "kr": "연구 문화의 지속성이 필요합니다. (완성 2)",
+      "en": "Sustainability of research culture is necessary. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-033",
+      "kr": "연구 문화의 지속성이 필요합니다. (완성 3)",
+      "en": "Sustainability of research culture is necessary. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-034",
+      "kr": "연구 문화의 지속성이 필요합니다. (완성 4)",
+      "en": "Sustainability of research culture is necessary. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-035",
+      "kr": "연구 문화의 지속성이 필요합니다. (완성 5)",
+      "en": "Sustainability of research culture is necessary. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A6-S24-036",
+      "kr": "학문적 계승이 이루어지고 있습니다. (완성 1)",
+      "en": "Academic succession is taking place. (completion variant 1)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A6-S24-037",
+      "kr": "학문적 계승이 이루어지고 있습니다. (완성 2)",
+      "en": "Academic succession is taking place. (completion variant 2)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A6-S24-038",
+      "kr": "학문적 계승이 이루어지고 있습니다. (완성 3)",
+      "en": "Academic succession is taking place. (completion variant 3)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A6-S24-039",
+      "kr": "학문적 계승이 이루어지고 있습니다. (완성 4)",
+      "en": "Academic succession is taking place. (completion variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A6-S24-040",
+      "kr": "학문적 계승이 이루어지고 있습니다. (완성 5)",
+      "en": "Academic succession is taking place. (completion variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A6-S24-041",
+      "kr": "전통과 혁신의 균형이 중요합니다. (완성 1)",
+      "en": "Balance between tradition and innovation is important. (completion variant 1)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A6-S24-042",
+      "kr": "전통과 혁신의 균형이 중요합니다. (완성 2)",
+      "en": "Balance between tradition and innovation is important. (completion variant 2)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A6-S24-043",
+      "kr": "전통과 혁신의 균형이 중요합니다. (완성 3)",
+      "en": "Balance between tradition and innovation is important. (completion variant 3)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A6-S24-044",
+      "kr": "전통과 혁신의 균형이 중요합니다. (완성 4)",
+      "en": "Balance between tradition and innovation is important. (completion variant 4)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A6-S24-045",
+      "kr": "전통과 혁신의 균형이 중요합니다. (완성 5)",
+      "en": "Balance between tradition and innovation is important. (completion variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A6-S24-046",
+      "kr": "학술적 유산이 인류의 자산입니다. (완성 1)",
+      "en": "Academic legacy is humanity's asset. (completion variant 1)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A6-S24-047",
+      "kr": "학술적 유산이 인류의 자산입니다. (완성 2)",
+      "en": "Academic legacy is humanity's asset. (completion variant 2)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A6-S24-048",
+      "kr": "학술적 유산이 인류의 자산입니다. (완성 3)",
+      "en": "Academic legacy is humanity's asset. (completion variant 3)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A6-S24-049",
+      "kr": "학술적 유산이 인류의 자산입니다. (완성 4)",
+      "en": "Academic legacy is humanity's asset. (completion variant 4)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A6-S24-050",
+      "kr": "학술적 유산이 인류의 자산입니다. (완성 5)",
+      "en": "Academic legacy is humanity's asset. (completion variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 5,
+    "wh_q": 10,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L5_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.666Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "data\\banks\\level_5\\Lv5-A6-S24_bank.json"
+    ]
+  }
+}

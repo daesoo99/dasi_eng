@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv7-P5-S25",
-  "title": "관계절 축약 숙달",
-  "description": "(who is) ~, (which was) ~ 삭제에 완전히 익숙해지도록 연습합니다.",
-  "grammar_pattern": "RELATIVE-CLAUSE-REDUCTION-MASTERY",
+  "title": "Stage Lv7-P5-S25",
+  "description": "Level 7 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
-    "The man (who is) standing by the window is our new manager.",
-    "Documents (which were) submitted yesterday need to be reviewed.",
-    "The project (that was) completed last month exceeded our expectations."
+    "The man standing by the window is our new manager.",
+    "Documents submitted yesterday need to be reviewed."
   ],
-  "learning_points": "관계절 축약을 통한 자연스럽고 간결한 표현 완전 숙달",
+  "learning_points": "Level 7 target grammar and expressions with practical usage examples",
   "phase": 5,
   "stage_number": 25,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv7-P5-S25-001",
       "kr": "창가에 서 있는 남자가 우리의 새 매니저다.",
       "en": "The man standing by the window is our new manager.",
-      "pattern": "RELATIVE-CLAUSE-REDUCTION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S25-002",
       "kr": "어제 제출된 서류들은 검토가 필요하다.",
       "en": "Documents submitted yesterday need to be reviewed.",
-      "pattern": "RELATIVE-CLAUSE-REDUCTION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S25-003",
       "kr": "지난달에 완료된 프로젝트는 우리의 기대를 넘어섰다.",
       "en": "The project completed last month exceeded our expectations.",
-      "pattern": "RELATIVE-CLAUSE-REDUCTION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S25-004",
       "kr": "회의실에서 토론하고 있는 팀이 최고의 성과를 보여주고 있다.",
       "en": "The team discussing in the conference room is showing the best performance.",
-      "pattern": "RELATIVE-CLAUSE-REDUCTION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S25-005",
       "kr": "새로 도입된 시스템이 효율성을 크게 향상시켰다.",
       "en": "The newly introduced system has significantly improved efficiency.",
-      "pattern": "RELATIVE-CLAUSE-REDUCTION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S25-006",
       "kr": "아직 해결되지 않은 문제들이 우리의 진전을 방해하지 않을 것이다.",
       "en": "Problems not yet resolved won't hinder our progress.",
-      "pattern": "RELATIVE-CLAUSE-REDUCTION-MASTERY",
       "form": "neg"
     },
     {
       "id": "Lv7-P5-S25-007",
       "kr": "높은 평가를 받은 연구가 국제 학회에 발표될 예정이다.",
       "en": "The highly rated research is scheduled to be presented at the international conference.",
-      "pattern": "RELATIVE-CLAUSE-REDUCTION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S25-008",
       "kr": "최신 기술로 개발된 제품이 시장에서 큰 반향을 일으키고 있다.",
       "en": "Products developed with cutting-edge technology are creating a big impact in the market.",
-      "pattern": "RELATIVE-CLAUSE-REDUCTION-MASTERY",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 7,
+    "neg": 1,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L7_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.522Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_7\\Lv7-P5-S25_bank.json"
+    ]
+  }
 }

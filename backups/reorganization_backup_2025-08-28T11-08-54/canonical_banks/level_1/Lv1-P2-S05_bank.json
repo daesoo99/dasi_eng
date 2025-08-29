@@ -1,0 +1,320 @@
+{
+  "stage_id": "Lv1-P2-S05",
+  "title": "부정문 만들기",
+  "description": "부정문을 만들어 '~않는다'는 표현을 연습합니다. 현재형 문장에서는 do/does + not + 동사원형, be동사 문장에서는 am/is/are + not 형태를 사용합니다.",
+  "grammar_pattern": "주어 + do/does + not + 동사원형 / 주어 + be동사 + not + 보어",
+  "examples": ["I do not (don't) like spiders.", "He is not busy."],
+  "learning_points": "긴장을 풀고 don't/doesn't 발음에 익숙해지기",
+  "phase": 2,
+  "stage_number": 5,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv1-P2-S05-001",
+      "kr": "나는 어제 축구를 했습니다. (v1)",
+      "en": "I played soccer yesterday. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-002",
+      "kr": "너는 그 영화를 좋아했습니다. (v1)",
+      "en": "You liked the movie. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-003",
+      "kr": "그는 점심을 먹었습니다. (v1)",
+      "en": "He ate lunch. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-004",
+      "kr": "그녀는 TV를 봤습니다. (v1)",
+      "en": "She watched TV. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-005",
+      "kr": "그것은 빨리 달렸습니다. (v1)",
+      "en": "It ran fast. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-006",
+      "kr": "우리는 영어를 공부했습니다. (v1)",
+      "en": "We studied English. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-007",
+      "kr": "그들은 열심히 일했습니다. (v1)",
+      "en": "They worked hard. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-008",
+      "kr": "나는 책을 읽었습니다. (v1)",
+      "en": "I read books. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-009",
+      "kr": "너는 학교에 갔습니다. (v1)",
+      "en": "You went to school. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-010",
+      "kr": "그는 물을 마셨습니다. (v1)",
+      "en": "He drank water. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-011",
+      "kr": "나는 어제 축구를 했습니다. (v2)",
+      "en": "I played soccer yesterday. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-012",
+      "kr": "너는 그 영화를 좋아했습니다. (v2)",
+      "en": "You liked the movie. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-013",
+      "kr": "그는 점심을 먹었습니다. (v2)",
+      "en": "He ate lunch. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-014",
+      "kr": "그녀는 TV를 봤습니다. (v2)",
+      "en": "She watched TV. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-015",
+      "kr": "그것은 빨리 달렸습니다. (v2)",
+      "en": "It ran fast. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-016",
+      "kr": "우리는 영어를 공부했습니다. (v2)",
+      "en": "We studied English. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-017",
+      "kr": "그들은 열심히 일했습니다. (v2)",
+      "en": "They worked hard. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-018",
+      "kr": "나는 책을 읽었습니다. (v2)",
+      "en": "I read books. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-019",
+      "kr": "너는 학교에 갔습니다. (v2)",
+      "en": "You went to school. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-020",
+      "kr": "그는 물을 마셨습니다. (v2)",
+      "en": "He drank water. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-021",
+      "kr": "나는 어제 축구를 했습니다. (v3)",
+      "en": "I played soccer yesterday. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-022",
+      "kr": "너는 그 영화를 좋아했습니다. (v3)",
+      "en": "You liked the movie. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-023",
+      "kr": "그는 점심을 먹었습니다. (v3)",
+      "en": "He ate lunch. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-024",
+      "kr": "그녀는 TV를 봤습니다. (v3)",
+      "en": "She watched TV. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-025",
+      "kr": "그것은 빨리 달렸습니다. (v3)",
+      "en": "It ran fast. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-026",
+      "kr": "우리는 영어를 공부했습니다. (v3)",
+      "en": "We studied English. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-027",
+      "kr": "그들은 열심히 일했습니다. (v3)",
+      "en": "They worked hard. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-028",
+      "kr": "나는 책을 읽었습니다. (v3)",
+      "en": "I read books. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-029",
+      "kr": "너는 학교에 갔습니다. (v3)",
+      "en": "You went to school. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-030",
+      "kr": "그는 물을 마셨습니다. (v3)",
+      "en": "He drank water. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-031",
+      "kr": "나는 어제 축구를 했습니다. (v4)",
+      "en": "I played soccer yesterday. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-032",
+      "kr": "너는 그 영화를 좋아했습니다. (v4)",
+      "en": "You liked the movie. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-033",
+      "kr": "그는 점심을 먹었습니다. (v4)",
+      "en": "He ate lunch. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-034",
+      "kr": "그녀는 TV를 봤습니다. (v4)",
+      "en": "She watched TV. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-035",
+      "kr": "그것은 빨리 달렸습니다. (v4)",
+      "en": "It ran fast. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-036",
+      "kr": "우리는 영어를 공부하지 않았습니다. (v4)",
+      "en": "We did not study English. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S05-037",
+      "kr": "그들은 열심히 일하지 않았습니다. (v4)",
+      "en": "They did not work hard. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S05-038",
+      "kr": "나는 책을 읽지 않았습니다. (v4)",
+      "en": "I did not read books. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S05-039",
+      "kr": "너는 학교에 가지 않았습니다. (v4)",
+      "en": "You did not go to school. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S05-040",
+      "kr": "그는 물을 마시지 않았습니다. (v4)",
+      "en": "He did not drink water. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S05-041",
+      "kr": "나는 어제 축구를 했습니다. (v5)",
+      "en": "I played soccer yesterday. (variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-042",
+      "kr": "너는 그 영화를 좋아했습니다. (v5)",
+      "en": "You liked the movie. (variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-043",
+      "kr": "그는 점심을 먹었습니다. (v5)",
+      "en": "He ate lunch. (variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-044",
+      "kr": "그녀는 TV를 봤습니다. (v5)",
+      "en": "She watched TV. (variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-045",
+      "kr": "그것은 빨리 달렸습니다. (v5)",
+      "en": "It ran fast. (variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S05-046",
+      "kr": "무엇을 우리는 공부했습니까? (v5)",
+      "en": "What did we study? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P2-S05-047",
+      "kr": "누가 열심히 일했습니까? (v5)",
+      "en": "Who worked hard? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P2-S05-048",
+      "kr": "어디에서 너는 책을 읽었습니까? (v5)",
+      "en": "Where did you read books? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P2-S05-049",
+      "kr": "언제 그는 학교에 갔습니까? (v5)",
+      "en": "When did he go to school? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P2-S05-050",
+      "kr": "왜 그는 물을 마셨습니까? (v5)",
+      "en": "Why did he drink water? (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 10,
+    "wh_q": 5
+  },
+  "status": "generated",
+  "batch": "L1_Basic_Batch1"
+}

@@ -1,0 +1,274 @@
+{
+  "stage_id": "S02",
+  "title": "Stage S02",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "I live in Seoul.",
+    "He likes coffee."
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 2,
+  "count": 40,
+  "sentences": [
+    {
+      "id": "S02-1",
+      "kr": "나는 서울에 살고 있습니다.",
+      "en": "I live in Seoul.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-2",
+      "kr": "그는 커피를 좋아합니다.",
+      "en": "He likes coffee.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-3",
+      "kr": "우리는 매일 영어를 공부합니다.",
+      "en": "We study English every day.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-4",
+      "kr": "그녀는 병원에서 일합니다.",
+      "en": "She works in a hospital.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-5",
+      "kr": "그들은 주말에 축구를 합니다.",
+      "en": "They play soccer on weekends.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-6",
+      "kr": "당신은 영어를 잘 말합니다.",
+      "en": "You speak English well.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-7",
+      "kr": "우리 어머니는 맛있는 음식을 요리합니다.",
+      "en": "My mother cooks delicious food.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-8",
+      "kr": "태양은 동쪽에서 뜹니다.",
+      "en": "The sun rises in the east.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-9",
+      "kr": "아이들은 초콜릿을 좋아합니다.",
+      "en": "Children love chocolate.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-10",
+      "kr": "나는 학교까지 걸어갑니다.",
+      "en": "I walk to school.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-1",
+      "kr": "나는 서울에 살고 있습니다.",
+      "en": "I live in Seoul.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-2",
+      "kr": "그는 커피를 좋아합니다.",
+      "en": "He likes coffee.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-3",
+      "kr": "우리는 매일 영어를 공부합니다.",
+      "en": "We study English every day.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-4",
+      "kr": "그녀는 병원에서 일합니다.",
+      "en": "She works in a hospital.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-5",
+      "kr": "그들은 주말에 축구를 합니다.",
+      "en": "They play soccer on weekends.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-6",
+      "kr": "당신은 영어를 잘 말합니다.",
+      "en": "You speak English well.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-7",
+      "kr": "우리 어머니는 맛있는 음식을 요리합니다.",
+      "en": "My mother cooks delicious food.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-8",
+      "kr": "태양은 동쪽에서 뜹니다.",
+      "en": "The sun rises in the east.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-9",
+      "kr": "아이들은 초콜릿을 좋아합니다.",
+      "en": "Children love chocolate.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-10",
+      "kr": "나는 학교까지 걸어갑니다.",
+      "en": "I walk to school.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-1",
+      "kr": "일본에 가본 적이 있어요. (경험)",
+      "en": "I have been to Japan.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-2",
+      "kr": "방금 일을 끝냈어요. (완료)",
+      "en": "I have just finished my work.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-3",
+      "kr": "그는 열쇠를 잃어버렸어요. (결과)",
+      "en": "He has lost his key.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-4",
+      "kr": "우리는 서로 안 지 5년이 되었어요. (계속)",
+      "en": "We have known each other for 5 years.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-5",
+      "kr": "스시를 먹어본 적이 있나요? (경험 질문)",
+      "en": "Have you ever tried sushi?",
+      "form": "aff"
+    },
+    {
+      "id": "S02-6",
+      "kr": "그녀는 이미 떠났어요. (완료)",
+      "en": "She has already left.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-7",
+      "kr": "최근에 그를 보지 못했어요. (계속 부정)",
+      "en": "I haven't seen him lately.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-8",
+      "kr": "그들은 2010년부터 여기 살고 있어요. (계속)",
+      "en": "They have lived here since 2010.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-9",
+      "kr": "이렇게 맛있는 음식을 먹어본 적이 없어요. (경험 부정)",
+      "en": "I have never eaten such delicious food.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-10",
+      "kr": "영화가 방금 시작했어요. (완료 결과)",
+      "en": "The movie has just started.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-1",
+      "kr": "일본에 가본 적이 있어요. (경험)",
+      "en": "I have been to Japan.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-2",
+      "kr": "방금 일을 끝냈어요. (완료)",
+      "en": "I have just finished my work.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-3",
+      "kr": "그는 열쇠를 잃어버렸어요. (결과)",
+      "en": "He has lost his key.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-4",
+      "kr": "우리는 서로 안 지 5년이 되었어요. (계속)",
+      "en": "We have known each other for 5 years.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-5",
+      "kr": "스시를 먹어본 적이 있나요? (경험 질문)",
+      "en": "Have you ever tried sushi?",
+      "form": "aff"
+    },
+    {
+      "id": "S02-6",
+      "kr": "그녀는 이미 떠났어요. (완료)",
+      "en": "She has already left.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-7",
+      "kr": "최근에 그를 보지 못했어요. (계속 부정)",
+      "en": "I haven't seen him lately.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-8",
+      "kr": "그들은 2010년부터 여기 살고 있어요. (계속)",
+      "en": "They have lived here since 2010.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-9",
+      "kr": "이렇게 맛있는 음식을 먹어본 적이 없어요. (경험 부정)",
+      "en": "I have never eaten such delicious food.",
+      "form": "aff"
+    },
+    {
+      "id": "S02-10",
+      "kr": "영화가 방금 시작했어요. (완료 결과)",
+      "en": "The movie has just started.",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 40,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L1_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.694Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "patterns\\level_1_basic_patterns\\lv1_phase_system_NEW.json",
+      "patterns\\level_1_basic_patterns\\lv1_phase_system_NEW_migrated.json",
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW.json",
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW_migrated.json"
+    ]
+  }
+}

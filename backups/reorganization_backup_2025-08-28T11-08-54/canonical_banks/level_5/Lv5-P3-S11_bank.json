@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv5-P3-S11",
+  "title": "절 압축 부사구 활용",
+  "description": "절 압축 부사구 활용을 연습합니다. COMPRESSED-ADVERBIAL 패턴을 활용하여 고급 영어 표현을 익힙니다.",
+  "grammar_pattern": "COMPRESSED-ADVERBIAL",
+  "examples": [
+    "Instead of going out, we stayed home.",
+    "He left without saying goodbye.",
+    "Prior to meeting us, she had finished the report."
+  ],
+  "learning_points": "adverbial 관련 고급 표현과 실용적 활용",
+  "phase": 3,
+  "stage_number": 11,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv5-P3-S11-001",
+      "kr": "나가는 대신 집에 있었습니다.",
+      "en": "Instead of going out, we stayed home.",
+      "pattern": "COMPRESSED-ADVERBIAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P3-S11-002",
+      "kr": "작별인사도 없이 떠났습니다.",
+      "en": "He left without saying goodbye.",
+      "pattern": "COMPRESSED-ADVERBIAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P3-S11-003",
+      "kr": "우리를 만나기 전에 보고서를 끝냈습니다.",
+      "en": "Prior to meeting us, she had finished the report.",
+      "pattern": "COMPRESSED-ADVERBIAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P3-S11-004",
+      "kr": "계획을 바꾸는 대신 더 열심히 일했습니다.",
+      "en": "Instead of changing the plan, we worked harder.",
+      "pattern": "COMPRESSED-ADVERBIAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P3-S11-005",
+      "kr": "허락받지 않고 들어갔습니다.",
+      "en": "He entered without asking permission.",
+      "pattern": "COMPRESSED-ADVERBIAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P3-S11-006",
+      "kr": "회의하기 전에 자료를 준비했습니다.",
+      "en": "Prior to the meeting, we prepared the materials.",
+      "pattern": "COMPRESSED-ADVERBIAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P3-S11-007",
+      "kr": "포기하는 대신 계속 시도했습니다.",
+      "en": "Instead of giving up, she kept trying.",
+      "pattern": "COMPRESSED-ADVERBIAL",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P3-S11-008",
+      "kr": "설명하지 않고 떠났습니다.",
+      "en": "They left without explaining.",
+      "pattern": "COMPRESSED-ADVERBIAL",
+      "form": "aff"
+    }
+  ]
+}

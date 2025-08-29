@@ -1,0 +1,331 @@
+{
+  "stage_id": "Lv6-D2-S16",
+  "title": "Stage Lv6-D2-S16",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "Artificial intelligence enhances diagnostic accuracy. (completion variant 1)",
+    "Artificial intelligence enhances diagnostic accuracy. (completion variant 2)"
+  ],
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 16,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv6-D2-S16-001",
+      "kr": "인공지능이 진단 정확도를 향상시킵니다. (완성 1)",
+      "en": "Artificial intelligence enhances diagnostic accuracy. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-002",
+      "kr": "인공지능이 진단 정확도를 향상시킵니다. (완성 2)",
+      "en": "Artificial intelligence enhances diagnostic accuracy. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-003",
+      "kr": "인공지능이 진단 정확도를 향상시킵니다. (완성 3)",
+      "en": "Artificial intelligence enhances diagnostic accuracy. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-004",
+      "kr": "인공지능이 진단 정확도를 향상시킵니다. (완성 4)",
+      "en": "Artificial intelligence enhances diagnostic accuracy. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-005",
+      "kr": "인공지능이 진단 정확도를 향상시킵니다. (완성 5)",
+      "en": "Artificial intelligence enhances diagnostic accuracy. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-006",
+      "kr": "머신러닝 알고리즘이 적용되었습니다. (완성 1)",
+      "en": "Machine learning algorithms have been applied. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-007",
+      "kr": "머신러닝 알고리즘이 적용되었습니다. (완성 2)",
+      "en": "Machine learning algorithms have been applied. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-008",
+      "kr": "머신러닝 알고리즘이 적용되었습니다. (완성 3)",
+      "en": "Machine learning algorithms have been applied. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-009",
+      "kr": "머신러닝 알고리즘이 적용되었습니다. (완성 4)",
+      "en": "Machine learning algorithms have been applied. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-010",
+      "kr": "머신러닝 알고리즘이 적용되었습니다. (완성 5)",
+      "en": "Machine learning algorithms have been applied. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-011",
+      "kr": "정밀의학이 치료 효과를 높입니다. (완성 1)",
+      "en": "Precision pharmaceutical improves therapy efficacy. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-012",
+      "kr": "정밀의학이 치료 효과를 높입니다. (완성 2)",
+      "en": "Precision pharmaceutical improves therapy efficacy. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-013",
+      "kr": "정밀의학이 치료 효과를 높입니다. (완성 3)",
+      "en": "Precision pharmaceutical improves therapy efficacy. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-014",
+      "kr": "정밀의학이 치료 효과를 높입니다. (완성 4)",
+      "en": "Precision pharmaceutical improves therapy efficacy. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-015",
+      "kr": "정밀의학이 치료 효과를 높입니다. (완성 5)",
+      "en": "Precision pharmaceutical improves therapy efficacy. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-016",
+      "kr": "바이오마커가 식별되었습니다. (완성 1)",
+      "en": "Biomarkers have been identified. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-017",
+      "kr": "바이오마커가 식별되었습니다. (완성 2)",
+      "en": "Biomarkers have been identified. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-018",
+      "kr": "바이오마커가 식별되었습니다. (완성 3)",
+      "en": "Biomarkers have been identified. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-019",
+      "kr": "바이오마커가 식별되었습니다. (완성 4)",
+      "en": "Biomarkers have been identified. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-020",
+      "kr": "바이오마커가 식별되었습니다. (완성 5)",
+      "en": "Biomarkers have been identified. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-021",
+      "kr": "유전체학 분석이 완료되었습니다. (완성 1)",
+      "en": "Genomics analysis has been completed. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-022",
+      "kr": "유전체학 분석이 완료되었습니다. (완성 2)",
+      "en": "Genomics analysis has been completed. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-023",
+      "kr": "유전체학 분석이 완료되었습니다. (완성 3)",
+      "en": "Genomics analysis has been completed. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-024",
+      "kr": "유전체학 분석이 완료되었습니다. (완성 4)",
+      "en": "Genomics analysis has been completed. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-025",
+      "kr": "유전체학 분석이 완료되었습니다. (완성 5)",
+      "en": "Genomics analysis has been completed. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-026",
+      "kr": "원격의료 서비스가 확대되고 있습니다. (완성 1)",
+      "en": "Telemedicine services are expanding. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-027",
+      "kr": "원격의료 서비스가 확대되고 있습니다. (완성 2)",
+      "en": "Telemedicine services are expanding. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-028",
+      "kr": "원격의료 서비스가 확대되고 있습니다. (완성 3)",
+      "en": "Telemedicine services are expanding. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-029",
+      "kr": "원격의료 서비스가 확대되고 있습니다. (완성 4)",
+      "en": "Telemedicine services are expanding. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-030",
+      "kr": "원격의료 서비스가 확대되고 있습니다. (완성 5)",
+      "en": "Telemedicine services are expanding. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S16-031",
+      "kr": "로봇수술이 성공적으로 시행되었습니다. (완성 1)",
+      "en": "Robotic surgery has been successfully performed. (completion variant 1)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S16-032",
+      "kr": "로봇수술이 성공적으로 시행되었습니다. (완성 2)",
+      "en": "Robotic surgery has been successfully performed. (completion variant 2)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S16-033",
+      "kr": "로봇수술이 성공적으로 시행되었습니다. (완성 3)",
+      "en": "Robotic surgery has been successfully performed. (completion variant 3)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S16-034",
+      "kr": "로봇수술이 성공적으로 시행되었습니다. (완성 4)",
+      "en": "Robotic surgery has been successfully performed. (completion variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S16-035",
+      "kr": "로봇수술이 성공적으로 시행되었습니다. (완성 5)",
+      "en": "Robotic surgery has been successfully performed. (completion variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S16-036",
+      "kr": "개인맞춤치료가 제공됩니다. (완성 1)",
+      "en": "Personalized therapy is provided. (completion variant 1)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S16-037",
+      "kr": "개인맞춤치료가 제공됩니다. (완성 2)",
+      "en": "Personalized therapy is provided. (completion variant 2)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S16-038",
+      "kr": "개인맞춤치료가 제공됩니다. (완성 3)",
+      "en": "Personalized therapy is provided. (completion variant 3)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S16-039",
+      "kr": "개인맞춤치료가 제공됩니다. (완성 4)",
+      "en": "Personalized therapy is provided. (completion variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S16-040",
+      "kr": "개인맞춤치료가 제공됩니다. (완성 5)",
+      "en": "Personalized therapy is provided. (completion variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S16-041",
+      "kr": "디지털 병리학이 도입되었습니다. (완성 1)",
+      "en": "Digital pathology has been introduced. (completion variant 1)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S16-042",
+      "kr": "디지털 병리학이 도입되었습니다. (완성 2)",
+      "en": "Digital pathology has been introduced. (completion variant 2)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S16-043",
+      "kr": "디지털 병리학이 도입되었습니다. (완성 3)",
+      "en": "Digital pathology has been introduced. (completion variant 3)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S16-044",
+      "kr": "디지털 병리학이 도입되었습니다. (완성 4)",
+      "en": "Digital pathology has been introduced. (completion variant 4)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S16-045",
+      "kr": "디지털 병리학이 도입되었습니다. (완성 5)",
+      "en": "Digital pathology has been introduced. (completion variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S16-046",
+      "kr": "예측 분석을 통해 위험을 평가합니다. (완성 1)",
+      "en": "Risk is assessed through predictive analytics. (completion variant 1)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S16-047",
+      "kr": "예측 분석을 통해 위험을 평가합니다. (완성 2)",
+      "en": "Risk is assessed through predictive analytics. (completion variant 2)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S16-048",
+      "kr": "예측 분석을 통해 위험을 평가합니다. (완성 3)",
+      "en": "Risk is assessed through predictive analytics. (completion variant 3)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S16-049",
+      "kr": "예측 분석을 통해 위험을 평가합니다. (완성 4)",
+      "en": "Risk is assessed through predictive analytics. (completion variant 4)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S16-050",
+      "kr": "예측 분석을 통해 위험을 평가합니다. (완성 5)",
+      "en": "Risk is assessed through predictive analytics. (completion variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.675Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "data\\banks\\level_6\\Lv6-D2-S16_bank.json"
+    ]
+  }
+}

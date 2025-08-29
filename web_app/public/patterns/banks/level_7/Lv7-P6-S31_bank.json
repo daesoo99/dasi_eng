@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv7-P6-S31",
-  "title": "부사 도치 심화",
-  "description": "좀 더 긴 문장에서 도치 구문을 처리하는 연습을 합니다.",
-  "grammar_pattern": "ADVANCED-ADVERBIAL-INVERSION",
+  "title": "Stage Lv7-P6-S31",
+  "description": "Level 7 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Not until the final results were announced did we realize the full impact of our research on the scientific community.",
-    "Only by implementing comprehensive reforms can the organization hope to regain the trust of its stakeholders.",
-    "Rarely have such complex negotiations resulted in such mutually beneficial agreements for all parties involved."
+    "Only by implementing comprehensive reforms can the organization hope to regain the trust of its stakeholders."
   ],
-  "learning_points": "복잡하고 긴 문장에서의 도치 구문 활용과 자연스러운 흐름 유지",
+  "learning_points": "Level 7 target grammar and expressions with practical usage examples",
   "phase": 6,
   "stage_number": 31,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv7-P6-S31-001",
       "kr": "최종 결과가 발표되고 나서야 우리 연구가 과학계에 미친 전체적인 영향을 깨달았다.",
       "en": "Not until the final results were announced did we realize the full impact of our research on the scientific community.",
-      "pattern": "ADVANCED-ADVERBIAL-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S31-002",
       "kr": "포괄적인 개혁을 시행함으로써만 조직이 이해관계자들의 신뢰를 되찾을 희망을 가질 수 있다.",
       "en": "Only by implementing comprehensive reforms can the organization hope to regain the trust of its stakeholders.",
-      "pattern": "ADVANCED-ADVERBIAL-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S31-003",
       "kr": "그런 복잡한 협상이 관련된 모든 당사자에게 상호 유익한 합의를 가져다준 경우는 드물다.",
       "en": "Rarely have such complex negotiations resulted in such mutually beneficial agreements for all parties involved.",
-      "pattern": "ADVANCED-ADVERBIAL-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S31-004",
       "kr": "모든 데이터를 분석한 후에야 우리가 올바른 결론에 도달했다는 것을 확신할 수 있었다.",
       "en": "Only after analyzing all the data could we be confident that we had reached the correct conclusions.",
-      "pattern": "ADVANCED-ADVERBIAL-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S31-005",
       "kr": "어떤 상황에서도 우리가 환경 보호에 대한 약속을 포기하지 않을 것이다.",
       "en": "Under no circumstances will we abandon our commitment to environmental protection, regardless of economic pressures.",
-      "pattern": "ADVANCED-ADVERBIAL-INVERSION",
       "form": "neg"
     },
     {
       "id": "Lv7-P6-S31-006",
       "kr": "그런 혁신적인 해결책이 이렇게 짧은 시간 내에 개발된 적은 거의 없다.",
       "en": "Seldom have such innovative solutions been developed within such a short timeframe.",
-      "pattern": "ADVANCED-ADVERBIAL-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S31-007",
       "kr": "새로운 CEO가 취임한 후에야 회사의 실제 재정 상황이 밝혀졌다.",
       "en": "Not until the new CEO took office was the company's true financial situation revealed to the board.",
-      "pattern": "ADVANCED-ADVERBIAL-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S31-008",
       "kr": "그는 프로젝트를 완료했을 뿐만 아니라 예산 내에서 모든 목표를 달성하기도 했다.",
       "en": "Not only did he complete the project, but he also achieved all objectives within budget constraints.",
-      "pattern": "ADVANCED-ADVERBIAL-INVERSION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 7,
+    "neg": 1,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L7_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.528Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_7\\Lv7-P6-S31_bank.json"
+    ]
+  }
 }

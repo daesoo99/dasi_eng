@@ -1,0 +1,4957 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2025-08-28T11:08:54.725Z",
+    "script": "reorganize-files.js",
+    "canonical_path": "C:\\Users\\kimdaesoo\\source\\claude\\DaSi_eng\\web_app\\public\\patterns\\banks",
+    "backup_path": "C:\\Users\\kimdaesoo\\source\\claude\\DaSi_eng\\backups\\reorganization_backup_2025-08-28T11-08-54"
+  },
+  "processing_summary": {
+    "files_created": 0,
+    "files_updated": 398,
+    "sentences_placed": 8232,
+    "backup_files": 2
+  },
+  "stage_completion": {
+    "Lv1-P1-S01": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 40,
+        "neg": 5,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv1-P1-S02": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 40,
+        "neg": 5,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv1-P1-S03": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 40,
+        "neg": 5,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv1-P1-S04": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 40,
+        "neg": 5,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv1-P2-S05": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 40,
+        "neg": 5,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv1-P2-S06": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 40,
+        "neg": 5,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv1-P2-S07": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 40,
+        "neg": 5,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv1-P2-S08": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 40,
+        "neg": 5,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv1-P3-S09": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 40,
+        "neg": 5,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv1-P3-S10": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 50,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv1-P4-S11": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 50,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv1-P4-S12": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 50,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv1-P4-S13": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 38,
+        "neg": 12,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv1-P5-S14": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 44,
+        "neg": 0,
+        "wh_q": 5,
+        "unknown": 0,
+        "q_yn": 1
+      }
+    },
+    "Lv1-P5-S15": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 50,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv1-P5-S16": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 20,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S01": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S02": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S03": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S04": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S05": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S06": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S07": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S08": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S09": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S10": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S11": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S12": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S13": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S14": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S15": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S16": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S17": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S18": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S19": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S20": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S21": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S22": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S23": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S24": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S25": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S26": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S27": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S28": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S29": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S30": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S31": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S32": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S33": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S34": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S35": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S36": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S37": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S38": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S39": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S40": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S41": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S42": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S43": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S44": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S45": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S46": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv10-S47": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P1-S01": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P1-S02": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P1-S03": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P1-S04": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P1-S05": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P2-S06": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P2-S07": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P2-S08": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P2-S09": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P2-S10": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P3-S11": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P3-S12": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P3-S13": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P4-S14": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P4-S15": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P4-S16": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P4-S17": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P4-S18": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P4-S19": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P5-S20": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P5-S21": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P5-S22": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P5-S23": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P5-S24": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P5-S25": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P5-S26": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P6-S27": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P6-S28": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P6-S29": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P6-S30": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv5-P6-S31": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P1-S01": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P1-S02": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P1-S03": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P1-S04": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P1-S05": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P1-S06": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P1-S07": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P1-S08": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P2-S09": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P2-S10": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P2-S11": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P2-S12": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P2-S13": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P3-S14": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P3-S15": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P3-S16": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P3-S17": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P3-S18": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P3-S19": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P3-S20": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P4-S21": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P4-S22": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P4-S23": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P4-S24": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P4-S25": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P4-S26": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P4-S27": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P5-S28": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P5-S29": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P5-S30": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P5-S31": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P5-S32": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P6-S33": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P6-S34": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P6-S35": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P6-S36": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P6-S37": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P7-S38": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P7-S39": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P7-S40": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P7-S41": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P7-S42": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P7-S43": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P7-S44": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv6-P7-S45": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P1-S01": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P1-S02": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P1-S03": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P1-S04": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P1-S05": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P1-S06": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P2-S07": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 5,
+        "neg": 3,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P2-S08": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 4,
+        "neg": 4,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P2-S09": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P2-S10": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 3,
+        "neg": 5,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P2-S11": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P2-S12": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P3-S13": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P3-S14": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P3-S15": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P3-S16": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P3-S17": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P4-S18": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P4-S19": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P4-S20": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 6,
+        "neg": 2,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P4-S21": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P4-S22": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 6,
+        "neg": 2,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P4-S23": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 6,
+        "neg": 2,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P4-S24": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 6,
+        "neg": 2,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P5-S25": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P5-S26": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P5-S27": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P5-S28": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P5-S29": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P6-S30": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 6,
+        "neg": 2,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P6-S31": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P6-S32": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 7,
+        "neg": 1,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P6-S33": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 6,
+        "neg": 2,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P6-S34": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P6-S35": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P6-S36": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P7-S37": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 6,
+        "neg": 2,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P7-S38": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P7-S39": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P7-S40": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 6,
+        "neg": 2,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P7-S41": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv7-P7-S42": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C1-S01": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C1-S02": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C1-S03": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C1-S04": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C1-S05": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C1-S06": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C1-S07": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C2-S08": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C2-S09": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C2-S10": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C2-S11": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C2-S12": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C2-S13": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C3-S14": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C3-S15": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C3-S16": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C3-S17": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C3-S18": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C3-S19": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C3-S20": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C4-S21": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C4-S22": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C4-S23": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C4-S24": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C4-S25": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C4-S26": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C4-S27": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C5-S28": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C5-S29": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C5-S30": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C5-S31": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C5-S32": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C5-S33": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C5-S34": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C5-S35": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C6-S36": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C6-S37": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C6-S38": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C6-S39": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C6-S40": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C6-S41": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C6-S42": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C6-S43": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C6-S44": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C6-S45": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C6-S46": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv8-C6-S47": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P1-S01": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P1-S02": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P1-S03": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P1-S04": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P1-S05": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P1-S06": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P1-S07": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P10-S50": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P10-S51": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P10-S52": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P2-S08": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P2-S09": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P2-S10": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P2-S11": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P2-S12": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P2-S13": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P3-S14": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P3-S15": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P3-S16": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P3-S17": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P3-S18": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P3-S19": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P4-S20": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P4-S21": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 0,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0,
+        "q_yn": 6,
+        "q_wh": 2
+      }
+    },
+    "Lv9-P4-S22": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P4-S23": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P4-S24": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P5-S25": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P5-S26": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P5-S27": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P5-S28": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P5-S29": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P5-S30": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P6-S31": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P6-S32": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P6-S33": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P6-S34": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P6-S35": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P6-S36": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P7-S37": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P7-S38": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P7-S39": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P7-S40": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P7-S41": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P7-S42": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P8-S43": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P8-S44": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P8-S45": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P8-S46": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P9-S47": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P9-S48": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv9-P9-S49": {
+      "sentence_count": 8,
+      "target_count": 50,
+      "completion_percentage": 16,
+      "form_distribution": {
+        "aff": 8,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv3-P1-S01": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv3-P1-S04": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv3-P1-S05": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv3-P1-S06": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv3-P2-S09": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv3-P3-S12": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv3-P3-S13": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv3-P3-S14": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv3-P3-S15": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv3-P4-S20": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv3-P4-S21": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv3-P5-S25": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv3-P5-S26": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv3-P5-S27": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv3-P6-S29": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv3-P6-S30": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv5-A4-S13": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv5-A4-S14": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv5-A4-S15": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv5-A4-S16": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 5,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv5-A5-S17": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv5-A5-S18": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv5-A5-S19": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv5-A5-S20": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv5-A6-S21": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv5-A6-S22": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv5-A6-S23": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 25,
+        "neg": 15,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv5-A6-S24": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 5,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv6-D1-S13": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 5,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv6-D1-S14": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv6-D1-S15": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv6-D2-S16": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv6-D2-S17": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv6-D2-S18": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv6-D3-S19": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv6-D3-S20": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv6-D3-S21": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv6-D4-S22": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv6-D4-S23": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv6-D4-S24": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "S01": {
+      "sentence_count": 40,
+      "target_count": 50,
+      "completion_percentage": 80,
+      "form_distribution": {
+        "aff": 40,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S02": {
+      "sentence_count": 40,
+      "target_count": 50,
+      "completion_percentage": 80,
+      "form_distribution": {
+        "aff": 40,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S03": {
+      "sentence_count": 40,
+      "target_count": 50,
+      "completion_percentage": 80,
+      "form_distribution": {
+        "aff": 40,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S04": {
+      "sentence_count": 40,
+      "target_count": 50,
+      "completion_percentage": 80,
+      "form_distribution": {
+        "aff": 40,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S05": {
+      "sentence_count": 40,
+      "target_count": 50,
+      "completion_percentage": 80,
+      "form_distribution": {
+        "aff": 40,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S06": {
+      "sentence_count": 40,
+      "target_count": 50,
+      "completion_percentage": 80,
+      "form_distribution": {
+        "aff": 40,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S07": {
+      "sentence_count": 40,
+      "target_count": 50,
+      "completion_percentage": 80,
+      "form_distribution": {
+        "aff": 40,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S08": {
+      "sentence_count": 40,
+      "target_count": 50,
+      "completion_percentage": 80,
+      "form_distribution": {
+        "aff": 40,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S09": {
+      "sentence_count": 40,
+      "target_count": 50,
+      "completion_percentage": 80,
+      "form_distribution": {
+        "aff": 40,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S10": {
+      "sentence_count": 40,
+      "target_count": 50,
+      "completion_percentage": 80,
+      "form_distribution": {
+        "aff": 40,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S11": {
+      "sentence_count": 40,
+      "target_count": 50,
+      "completion_percentage": 80,
+      "form_distribution": {
+        "aff": 40,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S12": {
+      "sentence_count": 40,
+      "target_count": 50,
+      "completion_percentage": 80,
+      "form_distribution": {
+        "aff": 40,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S13": {
+      "sentence_count": 40,
+      "target_count": 50,
+      "completion_percentage": 80,
+      "form_distribution": {
+        "aff": 40,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S14": {
+      "sentence_count": 40,
+      "target_count": 50,
+      "completion_percentage": 80,
+      "form_distribution": {
+        "aff": 40,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S15": {
+      "sentence_count": 40,
+      "target_count": 50,
+      "completion_percentage": 80,
+      "form_distribution": {
+        "aff": 40,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S16": {
+      "sentence_count": 40,
+      "target_count": 50,
+      "completion_percentage": 80,
+      "form_distribution": {
+        "aff": 40,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S17": {
+      "sentence_count": 20,
+      "target_count": 50,
+      "completion_percentage": 40,
+      "form_distribution": {
+        "aff": 20,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S18": {
+      "sentence_count": 20,
+      "target_count": 50,
+      "completion_percentage": 40,
+      "form_distribution": {
+        "aff": 20,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S19": {
+      "sentence_count": 20,
+      "target_count": 50,
+      "completion_percentage": 40,
+      "form_distribution": {
+        "aff": 20,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S20": {
+      "sentence_count": 20,
+      "target_count": 50,
+      "completion_percentage": 40,
+      "form_distribution": {
+        "aff": 20,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S21": {
+      "sentence_count": 20,
+      "target_count": 50,
+      "completion_percentage": 40,
+      "form_distribution": {
+        "aff": 20,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S22": {
+      "sentence_count": 20,
+      "target_count": 50,
+      "completion_percentage": 40,
+      "form_distribution": {
+        "aff": 20,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S23": {
+      "sentence_count": 20,
+      "target_count": 50,
+      "completion_percentage": 40,
+      "form_distribution": {
+        "aff": 20,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S24": {
+      "sentence_count": 20,
+      "target_count": 50,
+      "completion_percentage": 40,
+      "form_distribution": {
+        "aff": 20,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S25": {
+      "sentence_count": 20,
+      "target_count": 50,
+      "completion_percentage": 40,
+      "form_distribution": {
+        "aff": 20,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S26": {
+      "sentence_count": 20,
+      "target_count": 50,
+      "completion_percentage": 40,
+      "form_distribution": {
+        "aff": 20,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S27": {
+      "sentence_count": 20,
+      "target_count": 50,
+      "completion_percentage": 40,
+      "form_distribution": {
+        "aff": 20,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S28": {
+      "sentence_count": 20,
+      "target_count": 50,
+      "completion_percentage": 40,
+      "form_distribution": {
+        "aff": 20,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S29": {
+      "sentence_count": 20,
+      "target_count": 50,
+      "completion_percentage": 40,
+      "form_distribution": {
+        "aff": 20,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "S30": {
+      "sentence_count": 20,
+      "target_count": 50,
+      "completion_percentage": 40,
+      "form_distribution": {
+        "aff": 20,
+        "neg": 0,
+        "wh_q": 0,
+        "unknown": 0
+      }
+    },
+    "Lv4-A1-S01": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 10,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv4-A1-S02": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 10,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv4-A1-S03": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 10,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv4-A1-S04": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 10,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv4-A2-S05": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 10,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv4-A2-S06": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 10,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv4-A2-S07": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 10,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv4-A2-S08": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 10,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv4-A3-S09": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 10,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv4-A3-S10": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 10,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv4-A3-S11": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 10,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv4-A3-S12": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 10,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv4-A4-S13": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 10,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv4-A4-S14": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 10,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv4-A4-S15": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 10,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv4-A4-S16": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 10,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv4-A5-S17": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 10,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv4-A5-S18": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 10,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv4-A5-S19": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 10,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv4-A5-S20": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 10,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv4-A6-S21": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 10,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv4-A6-S22": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 10,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv4-A6-S23": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 10,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv4-A6-S24": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 35,
+        "neg": 10,
+        "wh_q": 5,
+        "unknown": 0
+      }
+    },
+    "Lv5-A1-S01": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv5-A1-S02": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv5-A1-S03": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv5-A1-S04": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv5-A2-S05": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv5-A2-S06": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv5-A2-S07": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv5-A2-S08": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv5-A3-S09": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv5-A3-S10": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv5-A3-S11": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv5-A3-S12": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv6-D1-S01": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv6-D1-S02": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv6-D1-S03": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv6-D2-S04": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv6-D2-S05": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv6-D2-S06": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv6-D3-S07": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv6-D3-S08": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv6-D3-S09": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv6-D4-S10": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv6-D4-S11": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    },
+    "Lv6-D4-S12": {
+      "sentence_count": 50,
+      "target_count": 50,
+      "completion_percentage": 100,
+      "form_distribution": {
+        "aff": 30,
+        "neg": 10,
+        "wh_q": 10,
+        "unknown": 0
+      }
+    }
+  },
+  "quality_metrics": {
+    "completion_stats": {
+      "complete": 104,
+      "incomplete": 294,
+      "missing": 0
+    },
+    "total_stages": 398,
+    "completion_rate": 26,
+    "form_distribution_analysis": {
+      "total_forms": {
+        "aff": 6400,
+        "neg": 1013,
+        "wh_q": 810,
+        "unknown": 0
+      },
+      "stages_with_good_distribution": 61,
+      "stages_needing_balance": [
+        {
+          "stage_id": "Lv1-P1-S01",
+          "current_distribution": {
+            "aff": 0.8,
+            "neg": 0.1,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv1-P1-S02",
+          "current_distribution": {
+            "aff": 0.8,
+            "neg": 0.1,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv1-P1-S03",
+          "current_distribution": {
+            "aff": 0.8,
+            "neg": 0.1,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv1-P1-S04",
+          "current_distribution": {
+            "aff": 0.8,
+            "neg": 0.1,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv1-P2-S05",
+          "current_distribution": {
+            "aff": 0.8,
+            "neg": 0.1,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv1-P2-S06",
+          "current_distribution": {
+            "aff": 0.8,
+            "neg": 0.1,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv1-P2-S07",
+          "current_distribution": {
+            "aff": 0.8,
+            "neg": 0.1,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv1-P2-S08",
+          "current_distribution": {
+            "aff": 0.8,
+            "neg": 0.1,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv1-P3-S09",
+          "current_distribution": {
+            "aff": 0.8,
+            "neg": 0.1,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv1-P3-S10",
+          "current_distribution": {
+            "aff": 1,
+            "neg": 0,
+            "wh_q": 0
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv1-P4-S11",
+          "current_distribution": {
+            "aff": 1,
+            "neg": 0,
+            "wh_q": 0
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv1-P4-S12",
+          "current_distribution": {
+            "aff": 1,
+            "neg": 0,
+            "wh_q": 0
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv1-P4-S13",
+          "current_distribution": {
+            "aff": 0.76,
+            "neg": 0.24,
+            "wh_q": 0
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv1-P5-S14",
+          "current_distribution": {
+            "aff": 0.88,
+            "neg": 0,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv1-P5-S15",
+          "current_distribution": {
+            "aff": 1,
+            "neg": 0,
+            "wh_q": 0
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv1-P5-S16",
+          "current_distribution": {
+            "aff": 0.6,
+            "neg": 0.4,
+            "wh_q": 0
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv5-A4-S16",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.1,
+            "wh_q": 0.2
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv5-A6-S24",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.1,
+            "wh_q": 0.2
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv6-D1-S13",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.1,
+            "wh_q": 0.2
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "S01",
+          "current_distribution": {
+            "aff": 1,
+            "neg": 0,
+            "wh_q": 0
+          },
+          "total_sentences": 40
+        },
+        {
+          "stage_id": "S02",
+          "current_distribution": {
+            "aff": 1,
+            "neg": 0,
+            "wh_q": 0
+          },
+          "total_sentences": 40
+        },
+        {
+          "stage_id": "S03",
+          "current_distribution": {
+            "aff": 1,
+            "neg": 0,
+            "wh_q": 0
+          },
+          "total_sentences": 40
+        },
+        {
+          "stage_id": "S04",
+          "current_distribution": {
+            "aff": 1,
+            "neg": 0,
+            "wh_q": 0
+          },
+          "total_sentences": 40
+        },
+        {
+          "stage_id": "S05",
+          "current_distribution": {
+            "aff": 1,
+            "neg": 0,
+            "wh_q": 0
+          },
+          "total_sentences": 40
+        },
+        {
+          "stage_id": "S06",
+          "current_distribution": {
+            "aff": 1,
+            "neg": 0,
+            "wh_q": 0
+          },
+          "total_sentences": 40
+        },
+        {
+          "stage_id": "S07",
+          "current_distribution": {
+            "aff": 1,
+            "neg": 0,
+            "wh_q": 0
+          },
+          "total_sentences": 40
+        },
+        {
+          "stage_id": "S08",
+          "current_distribution": {
+            "aff": 1,
+            "neg": 0,
+            "wh_q": 0
+          },
+          "total_sentences": 40
+        },
+        {
+          "stage_id": "S09",
+          "current_distribution": {
+            "aff": 1,
+            "neg": 0,
+            "wh_q": 0
+          },
+          "total_sentences": 40
+        },
+        {
+          "stage_id": "S10",
+          "current_distribution": {
+            "aff": 1,
+            "neg": 0,
+            "wh_q": 0
+          },
+          "total_sentences": 40
+        },
+        {
+          "stage_id": "S11",
+          "current_distribution": {
+            "aff": 1,
+            "neg": 0,
+            "wh_q": 0
+          },
+          "total_sentences": 40
+        },
+        {
+          "stage_id": "S12",
+          "current_distribution": {
+            "aff": 1,
+            "neg": 0,
+            "wh_q": 0
+          },
+          "total_sentences": 40
+        },
+        {
+          "stage_id": "S13",
+          "current_distribution": {
+            "aff": 1,
+            "neg": 0,
+            "wh_q": 0
+          },
+          "total_sentences": 40
+        },
+        {
+          "stage_id": "S14",
+          "current_distribution": {
+            "aff": 1,
+            "neg": 0,
+            "wh_q": 0
+          },
+          "total_sentences": 40
+        },
+        {
+          "stage_id": "S15",
+          "current_distribution": {
+            "aff": 1,
+            "neg": 0,
+            "wh_q": 0
+          },
+          "total_sentences": 40
+        },
+        {
+          "stage_id": "S16",
+          "current_distribution": {
+            "aff": 1,
+            "neg": 0,
+            "wh_q": 0
+          },
+          "total_sentences": 40
+        },
+        {
+          "stage_id": "Lv4-A1-S01",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.2,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv4-A1-S02",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.2,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv4-A1-S03",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.2,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv4-A1-S04",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.2,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv4-A2-S05",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.2,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv4-A2-S06",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.2,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv4-A2-S07",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.2,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv4-A2-S08",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.2,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv4-A3-S09",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.2,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv4-A3-S10",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.2,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv4-A3-S11",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.2,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv4-A3-S12",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.2,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv4-A4-S13",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.2,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv4-A4-S14",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.2,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv4-A4-S15",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.2,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv4-A4-S16",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.2,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv4-A5-S17",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.2,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv4-A5-S18",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.2,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv4-A5-S19",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.2,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv4-A5-S20",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.2,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv4-A6-S21",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.2,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv4-A6-S22",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.2,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv4-A6-S23",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.2,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        },
+        {
+          "stage_id": "Lv4-A6-S24",
+          "current_distribution": {
+            "aff": 0.7,
+            "neg": 0.2,
+            "wh_q": 0.1
+          },
+          "total_sentences": 50
+        }
+      ]
+    },
+    "recommendations": [
+      {
+        "type": "sentence_generation",
+        "priority": "high",
+        "message": "294 stages need additional sentences to reach 50 sentence target",
+        "action": "Generate missing sentences following Sequential Learning Guarantee Principle"
+      }
+    ]
+  }
+}

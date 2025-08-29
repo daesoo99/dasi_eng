@@ -1,0 +1,331 @@
+{
+  "stage_id": "Lv4-A3-S11",
+  "title": "Stage Lv4-A3-S11",
+  "description": "Level 4 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "I apologize for any inconvenience caused. (variant 1)",
+    "I understand the problem. (variant 1)"
+  ],
+  "learning_points": "Level 4 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 11,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv4-A3-S11-001",
+      "kr": "불편을 끼쳐드려 죄송합니다. (v1)",
+      "en": "I apologize for any inconvenience caused. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-002",
+      "kr": "문제를 이해하겠습니다. (v1)",
+      "en": "I understand the problem. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-003",
+      "kr": "즉시 조사해보겠습니다. (v1)",
+      "en": "I'll investigate this immediately. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-004",
+      "kr": "해결책을 찾아드리겠습니다. (v1)",
+      "en": "Let me find a solution for you. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-005",
+      "kr": "이런 일이 다시 발생하지 않도록 하겠습니다. (v1)",
+      "en": "We'll ensure this doesn't happen again. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-006",
+      "kr": "고객님의 입장을 충분히 이해합니다. (v1)",
+      "en": "I completely understand your position. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-007",
+      "kr": "보상 방안을 검토해보겠습니다. (v1)",
+      "en": "I'll look into compensation options. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-008",
+      "kr": "문제의 원인을 파악하겠습니다. (v1)",
+      "en": "Let me identify the root cause. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-009",
+      "kr": "개선 방안을 마련하겠습니다. (v1)",
+      "en": "We'll develop an improvement plan. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-010",
+      "kr": "귀하의 피드백은 매우 중요합니다. (v1)",
+      "en": "Your feedback is very important to us. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-011",
+      "kr": "불편을 끼쳐드려 죄송합니다. (v2)",
+      "en": "I apologize for any inconvenience caused. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-012",
+      "kr": "문제를 이해하겠습니다. (v2)",
+      "en": "I understand the problem. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-013",
+      "kr": "즉시 조사해보겠습니다. (v2)",
+      "en": "I'll investigate this immediately. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-014",
+      "kr": "해결책을 찾아드리겠습니다. (v2)",
+      "en": "Let me find a solution for you. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-015",
+      "kr": "이런 일이 다시 발생하지 않도록 하겠습니다. (v2)",
+      "en": "We'll ensure this doesn't happen again. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-016",
+      "kr": "고객님의 입장을 충분히 이해합니다. (v2)",
+      "en": "I completely understand your position. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-017",
+      "kr": "보상 방안을 검토해보겠습니다. (v2)",
+      "en": "I'll look into compensation options. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-018",
+      "kr": "문제의 원인을 파악하겠습니다. (v2)",
+      "en": "Let me identify the root cause. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-019",
+      "kr": "개선 방안을 마련하겠습니다. (v2)",
+      "en": "We'll develop an improvement plan. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-020",
+      "kr": "귀하의 피드백은 매우 중요합니다. (v2)",
+      "en": "Your feedback is very important to us. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-021",
+      "kr": "불편을 끼쳐드려 죄송합니다. (v3)",
+      "en": "I apologize for any inconvenience caused. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-022",
+      "kr": "문제를 이해하겠습니다. (v3)",
+      "en": "I understand the problem. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-023",
+      "kr": "즉시 조사해보겠습니다. (v3)",
+      "en": "I'll investigate this immediately. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-024",
+      "kr": "해결책을 찾아드리겠습니다. (v3)",
+      "en": "Let me find a solution for you. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-025",
+      "kr": "이런 일이 다시 발생하지 않도록 하겠습니다. (v3)",
+      "en": "We'll ensure this doesn't happen again. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-026",
+      "kr": "고객님의 입장을 충분히 이해합니다. (v3)",
+      "en": "I completely understand your position. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-027",
+      "kr": "보상 방안을 검토해보겠습니다. (v3)",
+      "en": "I'll look into compensation options. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-028",
+      "kr": "문제의 원인을 파악하겠습니다. (v3)",
+      "en": "Let me identify the root cause. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-029",
+      "kr": "개선 방안을 마련하겠습니다. (v3)",
+      "en": "We'll develop an improvement plan. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-030",
+      "kr": "귀하의 피드백은 매우 중요합니다. (v3)",
+      "en": "Your feedback is very important to us. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-031",
+      "kr": "불편을 끼쳐드려 죄송합니다. (v4)",
+      "en": "I apologize for any inconvenience caused. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-032",
+      "kr": "문제를 이해하겠습니다. (v4)",
+      "en": "I understand the problem. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-033",
+      "kr": "즉시 조사해보겠습니다. (v4)",
+      "en": "I'll investigate this immediately. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-034",
+      "kr": "해결책을 찾아드리겠습니다. (v4)",
+      "en": "Let me find a solution for you. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-035",
+      "kr": "이런 일이 다시 발생하지 않도록 하겠습니다. (v4)",
+      "en": "We'll ensure this doesn't happen again. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A3-S11-036",
+      "kr": "고객님의 입장을 충분히 이해합니다. (v4)",
+      "en": "I completely understand your position. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S11-037",
+      "kr": "보상 방안을 검토해보겠습니다. (v4)",
+      "en": "I'll look into compensation options. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S11-038",
+      "kr": "문제의 원인을 파악하겠습니다. (v4)",
+      "en": "Let me identify the root cause. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S11-039",
+      "kr": "개선 방안을 마련하겠습니다. (v4)",
+      "en": "We'll develop an improvement plan. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S11-040",
+      "kr": "귀하의 피드백은 매우 중요합니다. (v4)",
+      "en": "Your feedback is very important to us. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S11-041",
+      "kr": "불편을 끼쳐드려 죄송합니다. (v5)",
+      "en": "I apologize for any inconvenience caused. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S11-042",
+      "kr": "문제를 이해하겠습니다. (v5)",
+      "en": "I understand the problem. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S11-043",
+      "kr": "즉시 조사해보겠습니다. (v5)",
+      "en": "I'll investigate this immediately. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S11-044",
+      "kr": "해결책을 찾아드리겠습니다. (v5)",
+      "en": "Let me find a solution for you. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S11-045",
+      "kr": "이런 일이 다시 발생하지 않도록 하겠습니다. (v5)",
+      "en": "We'll ensure this doesn't happen again. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A3-S11-046",
+      "kr": "고객님의 입장을 충분히 이해합니다. (v5)",
+      "en": "I completely understand your position. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A3-S11-047",
+      "kr": "보상 방안을 검토해보겠습니다. (v5)",
+      "en": "I'll look into compensation options. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A3-S11-048",
+      "kr": "문제의 원인을 파악하겠습니다. (v5)",
+      "en": "Let me identify the root cause. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A3-S11-049",
+      "kr": "개선 방안을 마련하겠습니다. (v5)",
+      "en": "We'll develop an improvement plan. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A3-S11-050",
+      "kr": "귀하의 피드백은 매우 중요합니다. (v5)",
+      "en": "Your feedback is very important to us. (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 10,
+    "wh_q": 5,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L4_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.754Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "backups\\level_4_business_mastery\\banks\\Lv4-A3-S11_bank.json"
+    ]
+  }
+}

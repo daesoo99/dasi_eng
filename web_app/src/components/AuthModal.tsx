@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useMemo, memo } from 'react';
 import { 
   signInWithEmailAndPassword, 
   createUserWithEmailAndPassword, 
@@ -17,7 +17,7 @@ interface AuthModalProps {
 
 type AuthMode = 'login' | 'signup';
 
-export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onAuthSuccess }) => {
+export const AuthModal: React.FC<AuthModalProps> = memo(({ isOpen, onClose, onAuthSuccess }) => {
   const [authMode, setAuthMode] = useState<AuthMode>('login');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -101,7 +101,25 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onAuthSuc
     }
   }, [onAuthSuccess, onClose]);
 
-  const getAuthErrorMessage = (error: any): string => {
+  const handleModeToggle = useCallback(() => {
+    setAuthMode(authMode === 'login' ? 'signup' : 'login');
+    setError(null);
+  }, [authMode]);
+
+  const modalTitle = useMemo(() => {
+    return authMode === 'login' ? '로그인' : '회원가입';
+  }, [authMode]);
+
+  const submitButtonText = useMemo(() => {
+    if (isLoading) return '처리 중...';
+    return authMode === 'login' ? '로그인' : '회원가입';
+  }, [isLoading, authMode]);
+
+  const toggleButtonText = useMemo(() => {
+    return authMode === 'login' ? '계정이 없으신가요? 회원가입' : '이미 계정이 있으신가요? 로그인';
+  }, [authMode]);
+
+  const getAuthErrorMessage = useCallback((error: any): string => {
     switch (error.code) {
       case 'auth/user-not-found':
         return '등록되지 않은 이메일입니다.';
@@ -118,7 +136,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onAuthSuc
       default:
         return error.message || '로그인 중 오류가 발생했습니다.';
     }
-  };
+  }, []);
 
   if (!isOpen) return null;
 
@@ -127,7 +145,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onAuthSuc
       <div className="bg-white rounded-lg p-8 max-w-md w-full mx-4">
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-2xl font-bold">
-            {authMode === 'login' ? '로그인' : '회원가입'}
+            {modalTitle}
           </h2>
           <button
             onClick={onClose}
@@ -195,7 +213,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onAuthSuc
             disabled={isLoading}
             className="w-full bg-blue-500 hover:bg-blue-600 disabled:bg-gray-300 text-white font-bold py-2 px-4 rounded-md transition-colors"
           >
-            {isLoading ? '처리 중...' : (authMode === 'login' ? '로그인' : '회원가입')}
+            {submitButtonText}
           </button>
         </form>
 
@@ -230,18 +248,15 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onAuthSuc
         {/* 모드 전환 */}
         <div className="mt-6 text-center">
           <button
-            onClick={() => {
-              setAuthMode(authMode === 'login' ? 'signup' : 'login');
-              setError(null);
-            }}
+            onClick={handleModeToggle}
             className="text-blue-500 hover:text-blue-700 text-sm"
           >
-            {authMode === 'login' ? '계정이 없으신가요? 회원가입' : '이미 계정이 있으신가요? 로그인'}
+            {toggleButtonText}
           </button>
         </div>
       </div>
     </div>
   );
-};
+});
 
 export default AuthModal;

@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv2-P4-S13",
+  "title": "What/Where/When 질문",
+  "description": "기본 Wh-질문 심화로 What/Where/When을 써서 일상적인 정보를 질문합니다. 각각 사물/장소/시간에 대한 질문 연습을 하고, 서로 묻고 답하며 대화 흐름을 익힙니다.",
+  "grammar_pattern": "What/Where/When + 조동사 + 주어 + 동사?",
+  "examples": ["What is this called in English?", "Where do you live?", "When does the movie start?"],
+  "learning_points": "사물/장소/시간 정보를 묻는 다양한 질문 패턴",
+  "phase": 4,
+  "stage_number": 13,
+  "count": 0,
+  "sentences": []
+}

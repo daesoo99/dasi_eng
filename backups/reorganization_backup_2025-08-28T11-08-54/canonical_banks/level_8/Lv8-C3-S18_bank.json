@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv8-C3-S18",
+  "title": "전치사+수동태 표현",
+  "description": "전치사와 수동태를 결합하여 격식 있고 객관적인 표현을 만드는 방법을 연습합니다.",
+  "grammar_pattern": "PREPOSITION-PASSIVE-VOICE",
+  "examples": [
+    "The proposal was approved by the committee.",
+    "The decision was made in consultation with all stakeholders.",
+    "The project will be completed within the specified timeframe."
+  ],
+  "learning_points": "전치사와 수동태의 결합을 통한 격식 있는 객관적 표현",
+  "phase": 3,
+  "stage_number": 18,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv8-C3-S18-001",
+      "kr": "제안서는 위원회에 의해 승인되었습니다.",
+      "en": "The proposal was approved by the committee.",
+      "pattern": "PREPOSITION-PASSIVE-VOICE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S18-002",
+      "kr": "결정은 모든 이해관계자들과의 협의를 통해 내려졌습니다.",
+      "en": "The decision was made in consultation with all stakeholders.",
+      "pattern": "PREPOSITION-PASSIVE-VOICE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S18-003",
+      "kr": "프로젝트는 명시된 기간 내에 완료될 것입니다.",
+      "en": "The project will be completed within the specified timeframe.",
+      "pattern": "PREPOSITION-PASSIVE-VOICE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S18-004",
+      "kr": "보고서는 전문가들에 의해 검토되었습니다.",
+      "en": "The report was reviewed by experts.",
+      "pattern": "PREPOSITION-PASSIVE-VOICE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S18-005",
+      "kr": "새로운 정책은 다음 달부터 시행될 예정입니다.",
+      "en": "The new policy will be implemented from next month.",
+      "pattern": "PREPOSITION-PASSIVE-VOICE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S18-006",
+      "kr": "문제는 팀 전체의 노력을 통해 해결되었습니다.",
+      "en": "The problem was solved through the efforts of the entire team.",
+      "pattern": "PREPOSITION-PASSIVE-VOICE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S18-007",
+      "kr": "계획은 상세한 분석을 바탕으로 수정되었습니다.",
+      "en": "The plan was revised based on detailed analysis.",
+      "pattern": "PREPOSITION-PASSIVE-VOICE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S18-008",
+      "kr": "결과는 국제적인 기준에 따라 평가되었습니다.",
+      "en": "The results were evaluated according to international standards.",
+      "pattern": "PREPOSITION-PASSIVE-VOICE",
+      "form": "aff"
+    }
+  ]
+}

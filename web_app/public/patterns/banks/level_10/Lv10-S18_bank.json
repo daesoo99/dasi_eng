@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv10-S18",
-  "title": "구어체 양보 표현 - 타협적 양보",
-  "description": "타협과 절충을 위한 자연스러운 양보 표현을 원어민 수준으로 구사합니다.",
-  "grammar_pattern": "COLLOQUIAL-CONCESSIVE-COMPROMISE",
+  "title": "Stage Lv10-S18",
+  "description": "Level 10 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Alright, let's meet each other halfway.",
-    "Here's what we'll do. We'll both give up a little.",
-    "I can't do it completely my way, but to some extent..."
+    "Here's what we'll do. We'll both give up a little."
   ],
-  "learning_points": "원어민 수준의 자연스러운 타협적 양보 표현 구사",
-  "phase": 2,
+  "learning_points": "Level 10 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 18,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv10-S18-001",
       "kr": "좋아, 한 걸음씩 양보하자.",
       "en": "Alright, let's meet each other halfway.",
-      "pattern": "COLLOQUIAL-CONCESSIVE-COMPROMISE",
       "form": "aff"
     },
     {
       "id": "Lv10-S18-002",
       "kr": "그럼 이렇게 하자. 둘 다 조금씩 포기하는 거야.",
       "en": "Here's what we'll do. We'll both give up a little.",
-      "pattern": "COLLOQUIAL-CONCESSIVE-COMPROMISE",
       "form": "aff"
     },
     {
       "id": "Lv10-S18-003",
       "kr": "완전히 내 방식대로 할 순 없겠지만, 어느 정도는...",
       "en": "I can't do it completely my way, but to some extent...",
-      "pattern": "COLLOQUIAL-CONCESSIVE-COMPROMISE",
       "form": "aff"
     },
     {
       "id": "Lv10-S18-004",
       "kr": "너도 양보하면, 나도 양보할게.",
       "en": "If you compromise, I'll compromise too.",
-      "pattern": "COLLOQUIAL-CONCESSIVE-COMPROMISE",
       "form": "aff"
     },
     {
       "id": "Lv10-S18-005",
       "kr": "이번엔 네 말을 들을게. 다음엔 내 의견도 고려해 줘.",
       "en": "I'll go with your idea this time. Next time, consider mine too.",
-      "pattern": "COLLOQUIAL-CONCESSIVE-COMPROMISE",
       "form": "aff"
     },
     {
       "id": "Lv10-S18-006",
       "kr": "완벽하진 않지만, 일단 이것부터 시작해 보자.",
       "en": "It's not perfect, but let's start with this for now.",
-      "pattern": "COLLOQUIAL-CONCESSIVE-COMPROMISE",
       "form": "aff"
     },
     {
       "id": "Lv10-S18-007",
       "kr": "최선은 아니지만, 현실적으로는 이게 나을 것 같아.",
       "en": "It's not ideal, but realistically, this seems better.",
-      "pattern": "COLLOQUIAL-CONCESSIVE-COMPROMISE",
       "form": "aff"
     },
     {
       "id": "Lv10-S18-008",
       "kr": "원하는 만큼은 아니지만, 그래도 괜찮아.",
       "en": "It's not as much as I wanted, but it's still okay.",
-      "pattern": "COLLOQUIAL-CONCESSIVE-COMPROMISE",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L10_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.387Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_10\\Lv10-S18_bank.json"
+    ]
+  }
 }

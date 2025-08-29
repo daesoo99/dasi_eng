@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv10-S42",
-  "title": "완곡 표현 - 제안적 완곡법",
-  "description": "제안이나 요청을 완곡하게 전달하는 원어민 수준의 표현을 구사합니다.",
-  "grammar_pattern": "SUGGESTIVE-DIPLOMACY-MASTERY",
+  "title": "Stage Lv10-S42",
+  "description": "Level 10 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "If it's possible for you, how about something like this?",
-    "If it's not rude, I'd like to make a suggestion.",
-    "Without being burdensome, how about trying it this way?"
+    "If it's not rude, I'd like to make a suggestion."
   ],
-  "learning_points": "원어민 수준의 자연스러운 제안적 완곡법 표현 구사",
-  "phase": 5,
+  "learning_points": "Level 10 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 42,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv10-S42-001",
       "kr": "혹시 가능하시다면, 이런 건 어떠실까요?",
       "en": "If it's possible for you, how about something like this?",
-      "pattern": "SUGGESTIVE-DIPLOMACY-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S42-002",
       "kr": "실례가 안 된다면, 한 가지 제안을 드리고 싶은데요.",
       "en": "If it's not rude, I'd like to make a suggestion.",
-      "pattern": "SUGGESTIVE-DIPLOMACY-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S42-003",
       "kr": "부담스럽지 않은 선에서, 이렇게 해보시는 건 어떨까요?",
       "en": "Without being burdensome, how about trying it this way?",
-      "pattern": "SUGGESTIVE-DIPLOMACY-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S42-004",
       "kr": "시간이 되실 때, 한번 고려해보셔도 좋을 것 같아요.",
       "en": "When you have time, it might be good to consider it once.",
-      "pattern": "SUGGESTIVE-DIPLOMACY-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S42-005",
       "kr": "강요하는 건 아니지만, 이런 옵션도 있다는 걸 말씀드리고 싶어요.",
       "en": "I'm not forcing it, but I'd like to mention that this option exists too.",
-      "pattern": "SUGGESTIVE-DIPLOMACY-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S42-006",
       "kr": "여유가 되신다면, 이것도 한번 시도해볼 만할 것 같아요.",
       "en": "If you have the capacity, this might be worth trying too.",
-      "pattern": "SUGGESTIVE-DIPLOMACY-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S42-007",
       "kr": "무리하지 마시고, 편하실 때 생각해보세요.",
       "en": "Don't overdo it, and think about it when you're comfortable.",
-      "pattern": "SUGGESTIVE-DIPLOMACY-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S42-008",
       "kr": "급하지 않으니까, 천천히 검토해보시면 될 것 같아요.",
       "en": "It's not urgent, so you can review it slowly.",
-      "pattern": "SUGGESTIVE-DIPLOMACY-MASTERY",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L10_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.415Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_10\\Lv10-S42_bank.json"
+    ]
+  }
 }

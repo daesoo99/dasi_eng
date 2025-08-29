@@ -1,63 +1,331 @@
 {
   "stage_id": "Lv1-P5-S16",
-  "title": "긍정 및 부정 답변",
-  "description": "Yes/No로 대답하는 간단 응답과, 대화를 이어가기 위한 표현들을 익힙니다. 상황에 맞게 사용해 봅니다.",
-  "grammar_pattern": "Yes/No + 짧은 표현들",
-  "examples": ["Yes.", "No.", "Sure.", "Of course.", "No problem.", "Sounds good.", "Maybe next time."],
-  "learning_points": "가벼운 제안에 답할 때 자연스럽게 대답하도록 연습",
+  "title": "Stage Lv1-P5-S16",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "Yes. (variant 1)",
+    "Yeah. (variant 2)"
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
   "phase": 5,
   "stage_number": 16,
   "count": 50,
   "sentences": [
-    {"id": "Lv1-P5-S16-001", "kr": "네. (v1)", "en": "Yes. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P5-S16-002", "kr": "네. (v2)", "en": "Yeah. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P5-S16-003", "kr": "아니오. (v1)", "en": "No. (variant 1)", "form": "neg"},
-    {"id": "Lv1-P5-S16-004", "kr": "아니오. (v2)", "en": "Nope. (variant 2)", "form": "neg"},
-    {"id": "Lv1-P5-S16-005", "kr": "물론입니다. (v1)", "en": "Of course. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P5-S16-006", "kr": "물론입니다. (v2)", "en": "Sure. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P5-S16-007", "kr": "좋은 생각이에요. (v1)", "en": "Good idea. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P5-S16-008", "kr": "좋은 생각이에요. (v2)", "en": "Sounds good. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P5-S16-009", "kr": "다음에 해요. (v1)", "en": "Maybe next time. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P5-S16-010", "kr": "다음에 해요. (v2)", "en": "Let's do it next time. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P5-S16-011", "kr": "괜찮아요. (v1)", "en": "It's okay. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P5-S16-012", "kr": "괜찮아요. (v2)", "en": "That's fine. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P5-S16-013", "kr": "좋아요. (v1)", "en": "Good. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P5-S16-014", "kr": "좋아요. (v2)", "en": "That's good. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P5-S16-015", "kr": "안 돼요. (v1)", "en": "No way. (variant 1)", "form": "neg"},
-    {"id": "Lv1-P5-S16-016", "kr": "안 돼요. (v2)", "en": "That won't work. (variant 2)", "form": "neg"},
-    {"id": "Lv1-P5-S16-017", "kr": "맞아요. (v1)", "en": "That's right. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P5-S16-018", "kr": "맞아요. (v2)", "en": "You're right. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P5-S16-019", "kr": "틀렸어요. (v1)", "en": "That's wrong. (variant 1)", "form": "neg"},
-    {"id": "Lv1-P5-S16-020", "kr": "틀렸어요. (v2)", "en": "You're wrong. (variant 2)", "form": "neg"},
-    {"id": "Lv1-P5-S16-021", "kr": "네, 맞습니다. (v1)", "en": "Yes, that's correct. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P5-S16-022", "kr": "네, 맞습니다. (v2)", "en": "Yes, you're correct. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P5-S16-023", "kr": "아니에요, 틀렸어요. (v1)", "en": "No, that's wrong. (variant 1)", "form": "neg"},
-    {"id": "Lv1-P5-S16-024", "kr": "아니에요, 틀렸어요. (v2)", "en": "No, you're wrong. (variant 2)", "form": "neg"},
-    {"id": "Lv1-P5-S16-025", "kr": "정확해요. (v1)", "en": "Exactly. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P5-S16-026", "kr": "정확해요. (v2)", "en": "That's exactly right. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P5-S16-027", "kr": "아마도요. (v1)", "en": "Maybe. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P5-S16-028", "kr": "아마도요. (v2)", "en": "Perhaps. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P5-S16-029", "kr": "확실히요. (v1)", "en": "Definitely. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P5-S16-030", "kr": "확실히요. (v2)", "en": "For sure. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P5-S16-031", "kr": "절대 안 돼요. (v1)", "en": "Absolutely not. (variant 1)", "form": "neg"},
-    {"id": "Lv1-P5-S16-032", "kr": "절대 안 돼요. (v2)", "en": "No way at all. (variant 2)", "form": "neg"},
-    {"id": "Lv1-P5-S16-033", "kr": "모르겠어요. (v1)", "en": "I don't know. (variant 1)", "form": "neg"},
-    {"id": "Lv1-P5-S16-034", "kr": "모르겠어요. (v2)", "en": "I'm not sure. (variant 2)", "form": "neg"},
-    {"id": "Lv1-P5-S16-035", "kr": "그럴 수도 있어요. (v1)", "en": "That could be. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P5-S16-036", "kr": "그럴 수도 있어요. (v2)", "en": "It's possible. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P5-S16-037", "kr": "그럴 리 없어요. (v1)", "en": "That's not possible. (variant 1)", "form": "neg"},
-    {"id": "Lv1-P5-S16-038", "kr": "그럴 리 없어요. (v2)", "en": "No way that's true. (variant 2)", "form": "neg"},
-    {"id": "Lv1-P5-S16-039", "kr": "동의해요. (v1)", "en": "I agree. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P5-S16-040", "kr": "동의해요. (v2)", "en": "I think so too. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P5-S16-041", "kr": "동의하지 않아요. (v1)", "en": "I don't agree. (variant 1)", "form": "neg"},
-    {"id": "Lv1-P5-S16-042", "kr": "동의하지 않아요. (v2)", "en": "I disagree. (variant 2)", "form": "neg"},
-    {"id": "Lv1-P5-S16-043", "kr": "좋은 질문이에요. (v1)", "en": "Good question. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P5-S16-044", "kr": "좋은 질문이에요. (v2)", "en": "That's a good question. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P5-S16-045", "kr": "잘 모르겠어요. (v1)", "en": "I'm not certain. (variant 1)", "form": "neg"},
-    {"id": "Lv1-P5-S16-046", "kr": "잘 모르겠어요. (v2)", "en": "I can't say for sure. (variant 2)", "form": "neg"},
-    {"id": "Lv1-P5-S16-047", "kr": "맞는 것 같아요. (v1)", "en": "I think that's right. (variant 1)", "form": "aff"},
-    {"id": "Lv1-P5-S16-048", "kr": "맞는 것 같아요. (v2)", "en": "That seems correct. (variant 2)", "form": "aff"},
-    {"id": "Lv1-P5-S16-049", "kr": "틀린 것 같아요. (v1)", "en": "I think that's wrong. (variant 1)", "form": "neg"},
-    {"id": "Lv1-P5-S16-050", "kr": "틀린 것 같아요. (v2)", "en": "That seems wrong. (variant 2)", "form": "neg"}
-  ]
+    {
+      "id": "Lv1-P5-S16-001",
+      "kr": "네. (v1)",
+      "en": "Yes. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-002",
+      "kr": "네. (v2)",
+      "en": "Yeah. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-003",
+      "kr": "아니오. (v1)",
+      "en": "No. (variant 1)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P5-S16-004",
+      "kr": "아니오. (v2)",
+      "en": "Nope. (variant 2)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P5-S16-005",
+      "kr": "물론입니다. (v1)",
+      "en": "Of course. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-006",
+      "kr": "물론입니다. (v2)",
+      "en": "Sure. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-007",
+      "kr": "좋은 생각이에요. (v1)",
+      "en": "Good idea. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-008",
+      "kr": "좋은 생각이에요. (v2)",
+      "en": "Sounds good. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-009",
+      "kr": "다음에 해요. (v1)",
+      "en": "Maybe next time. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-010",
+      "kr": "다음에 해요. (v2)",
+      "en": "Let's do it next time. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-011",
+      "kr": "괜찮아요. (v1)",
+      "en": "It's okay. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-012",
+      "kr": "괜찮아요. (v2)",
+      "en": "That's fine. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-013",
+      "kr": "좋아요. (v1)",
+      "en": "Good. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-014",
+      "kr": "좋아요. (v2)",
+      "en": "That's good. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-015",
+      "kr": "안 돼요. (v1)",
+      "en": "No way. (variant 1)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P5-S16-016",
+      "kr": "안 돼요. (v2)",
+      "en": "That won't work. (variant 2)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P5-S16-017",
+      "kr": "맞아요. (v1)",
+      "en": "That's right. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-018",
+      "kr": "맞아요. (v2)",
+      "en": "You're right. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-019",
+      "kr": "틀렸어요. (v1)",
+      "en": "That's wrong. (variant 1)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P5-S16-020",
+      "kr": "틀렸어요. (v2)",
+      "en": "You're wrong. (variant 2)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P5-S16-021",
+      "kr": "네, 맞습니다. (v1)",
+      "en": "Yes, that's correct. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-022",
+      "kr": "네, 맞습니다. (v2)",
+      "en": "Yes, you're correct. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-023",
+      "kr": "아니에요, 틀렸어요. (v1)",
+      "en": "No, that's wrong. (variant 1)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P5-S16-024",
+      "kr": "아니에요, 틀렸어요. (v2)",
+      "en": "No, you're wrong. (variant 2)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P5-S16-025",
+      "kr": "정확해요. (v1)",
+      "en": "Exactly. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-026",
+      "kr": "정확해요. (v2)",
+      "en": "That's exactly right. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-027",
+      "kr": "아마도요. (v1)",
+      "en": "Maybe. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-028",
+      "kr": "아마도요. (v2)",
+      "en": "Perhaps. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-029",
+      "kr": "확실히요. (v1)",
+      "en": "Definitely. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-030",
+      "kr": "확실히요. (v2)",
+      "en": "For sure. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-031",
+      "kr": "절대 안 돼요. (v1)",
+      "en": "Absolutely not. (variant 1)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P5-S16-032",
+      "kr": "절대 안 돼요. (v2)",
+      "en": "No way at all. (variant 2)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P5-S16-033",
+      "kr": "모르겠어요. (v1)",
+      "en": "I don't know. (variant 1)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P5-S16-034",
+      "kr": "모르겠어요. (v2)",
+      "en": "I'm not sure. (variant 2)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P5-S16-035",
+      "kr": "그럴 수도 있어요. (v1)",
+      "en": "That could be. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-036",
+      "kr": "그럴 수도 있어요. (v2)",
+      "en": "It's possible. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-037",
+      "kr": "그럴 리 없어요. (v1)",
+      "en": "That's not possible. (variant 1)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P5-S16-038",
+      "kr": "그럴 리 없어요. (v2)",
+      "en": "No way that's true. (variant 2)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P5-S16-039",
+      "kr": "동의해요. (v1)",
+      "en": "I agree. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-040",
+      "kr": "동의해요. (v2)",
+      "en": "I think so too. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-041",
+      "kr": "동의하지 않아요. (v1)",
+      "en": "I don't agree. (variant 1)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P5-S16-042",
+      "kr": "동의하지 않아요. (v2)",
+      "en": "I disagree. (variant 2)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P5-S16-043",
+      "kr": "좋은 질문이에요. (v1)",
+      "en": "Good question. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-044",
+      "kr": "좋은 질문이에요. (v2)",
+      "en": "That's a good question. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-045",
+      "kr": "잘 모르겠어요. (v1)",
+      "en": "I'm not certain. (variant 1)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P5-S16-046",
+      "kr": "잘 모르겠어요. (v2)",
+      "en": "I can't say for sure. (variant 2)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P5-S16-047",
+      "kr": "맞는 것 같아요. (v1)",
+      "en": "I think that's right. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-048",
+      "kr": "맞는 것 같아요. (v2)",
+      "en": "That seems correct. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P5-S16-049",
+      "kr": "틀린 것 같아요. (v1)",
+      "en": "I think that's wrong. (variant 1)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P5-S16-050",
+      "kr": "틀린 것 같아요. (v2)",
+      "en": "That seems wrong. (variant 2)",
+      "form": "neg"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 20,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L1_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.370Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_1\\Lv1-P5-S16_bank.json"
+    ]
+  }
 }

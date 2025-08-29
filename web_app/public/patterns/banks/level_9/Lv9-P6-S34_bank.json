@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P6-S34",
-  "title": "층차적 논증 구조",
-  "description": "논증의 강도를 단계적으로 높여가는 층차적 구조를 통해 설득력을 극대화하는 고급 논증 기법. 약한 논거에서 강한 논거로의 전개.",
-  "grammar_pattern": "GRADUATED-ARGUMENTATION",
+  "title": "Stage Lv9-P6-S34",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "This approach is practical, cost-effective, and ultimately transformational.",
-    "The benefits are immediate, significant, and potentially revolutionary.",
-    "Our solution is simple, elegant, and fundamentally game-changing."
+    "The benefits are immediate, significant, and potentially revolutionary."
   ],
-  "learning_points": "논증 강도의 단계적 증가를 통한 설득력 극대화 기법",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 6,
   "stage_number": 34,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv9-P6-S34-001",
       "kr": "이 접근법은 실용적이고, 비용 효율적이며, 궁극적으로 혁신적입니다.",
       "en": "This approach is practical, cost-effective, and ultimately transformational.",
-      "pattern": "GRADUATED-ARGUMENTATION",
       "form": "aff"
     },
     {
       "id": "Lv9-P6-S34-002",
       "kr": "이익은 즉각적이고, 상당하며, 잠재적으로 혁명적입니다.",
       "en": "The benefits are immediate, significant, and potentially revolutionary.",
-      "pattern": "GRADUATED-ARGUMENTATION",
       "form": "aff"
     },
     {
       "id": "Lv9-P6-S34-003",
       "kr": "우리 솔루션은 단순하고, 우아하며, 근본적으로 게임을 바꿉니다.",
       "en": "Our solution is simple, elegant, and fundamentally game-changing.",
-      "pattern": "GRADUATED-ARGUMENTATION",
       "form": "aff"
     },
     {
       "id": "Lv9-P6-S34-004",
       "kr": "결과는 눈에 띄고, 인상적이며, 완전히 예상을 뛰어넘습니다.",
       "en": "The results are noticeable, impressive, and utterly beyond expectations.",
-      "pattern": "GRADUATED-ARGUMENTATION",
       "form": "aff"
     },
     {
       "id": "Lv9-P6-S34-005",
       "kr": "이 전략은 효과적이고, 혁신적이며, 절대적으로 필수적입니다.",
       "en": "This strategy is effective, innovative, and absolutely essential.",
-      "pattern": "GRADUATED-ARGUMENTATION",
       "form": "aff"
     },
     {
       "id": "Lv9-P6-S34-006",
       "kr": "변화는 필요하고, 시급하며, 더 이상 미룰 수 없습니다.",
       "en": "Change is necessary, urgent, and can no longer be delayed.",
-      "pattern": "GRADUATED-ARGUMENTATION",
       "form": "aff"
     },
     {
       "id": "Lv9-P6-S34-007",
       "kr": "이 기회는 흥미롭고, 유망하며, 역사적으로 중요합니다.",
       "en": "This opportunity is interesting, promising, and historically significant.",
-      "pattern": "GRADUATED-ARGUMENTATION",
       "form": "aff"
     },
     {
       "id": "Lv9-P6-S34-008",
       "kr": "우리 팀은 유능하고, 헌신적이며, 완전히 신뢰할 만합니다.",
       "en": "Our team is capable, dedicated, and completely trustworthy.",
-      "pattern": "GRADUATED-ARGUMENTATION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.615Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P6-S34_bank.json"
+    ]
+  }
 }

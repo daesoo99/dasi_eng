@@ -1,0 +1,331 @@
+{
+  "stage_id": "Lv4-A4-S14",
+  "title": "Stage Lv4-A4-S14",
+  "description": "Level 4 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "I greatly appreciate your assistance. (business variant 1)",
+    "I have received your email. (business variant 1)"
+  ],
+  "learning_points": "Level 4 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 14,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv4-A4-S14-001",
+      "kr": "귀하의 도움에 매우 감사합니다. (비즈니스 1)",
+      "en": "I greatly appreciate your assistance. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-002",
+      "kr": "이메일을 잘 받았습니다. (비즈니스 1)",
+      "en": "I have received your email. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-003",
+      "kr": "말씀하신 내용을 확인했습니다. (비즈니스 1)",
+      "en": "I have confirmed what you mentioned. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-004",
+      "kr": "빠른 답변에 감사드립니다. (비즈니스 1)",
+      "en": "Thank you for your prompt response. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-005",
+      "kr": "제가 올바르게 이해했는지 확인하고 싶습니다. (비즈니스 1)",
+      "en": "I would like to confirm that I have understood correctly. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-006",
+      "kr": "귀하의 제안을 검토했습니다. (비즈니스 1)",
+      "en": "I have reviewed your proposal. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-007",
+      "kr": "명확히 해주셔서 감사합니다. (비즈니스 1)",
+      "en": "Thank you for clarifying that. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-008",
+      "kr": "모든 세부사항이 확인되었습니다. (비즈니스 1)",
+      "en": "All details have been confirmed. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-009",
+      "kr": "귀하의 시간을 내주셔서 감사합니다. (비즈니스 1)",
+      "en": "I appreciate you taking the time. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-010",
+      "kr": "요청하신 정보를 준비했습니다. (비즈니스 1)",
+      "en": "The information you requested has been prepared. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-011",
+      "kr": "귀하의 도움에 매우 감사합니다. (비즈니스 2)",
+      "en": "I greatly appreciate your assistance. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-012",
+      "kr": "이메일을 잘 받았습니다. (비즈니스 2)",
+      "en": "I have received your email. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-013",
+      "kr": "말씀하신 내용을 확인했습니다. (비즈니스 2)",
+      "en": "I have confirmed what you mentioned. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-014",
+      "kr": "빠른 답변에 감사드립니다. (비즈니스 2)",
+      "en": "Thank you for your prompt response. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-015",
+      "kr": "제가 올바르게 이해했는지 확인하고 싶습니다. (비즈니스 2)",
+      "en": "I would like to confirm that I have understood correctly. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-016",
+      "kr": "귀하의 제안을 검토했습니다. (비즈니스 2)",
+      "en": "I have reviewed your proposal. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-017",
+      "kr": "명확히 해주셔서 감사합니다. (비즈니스 2)",
+      "en": "Thank you for clarifying that. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-018",
+      "kr": "모든 세부사항이 확인되었습니다. (비즈니스 2)",
+      "en": "All details have been confirmed. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-019",
+      "kr": "귀하의 시간을 내주셔서 감사합니다. (비즈니스 2)",
+      "en": "I appreciate you taking the time. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-020",
+      "kr": "요청하신 정보를 준비했습니다. (비즈니스 2)",
+      "en": "The information you requested has been prepared. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-021",
+      "kr": "귀하의 도움에 매우 감사합니다. (비즈니스 3)",
+      "en": "I greatly appreciate your assistance. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-022",
+      "kr": "이메일을 잘 받았습니다. (비즈니스 3)",
+      "en": "I have received your email. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-023",
+      "kr": "말씀하신 내용을 확인했습니다. (비즈니스 3)",
+      "en": "I have confirmed what you mentioned. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-024",
+      "kr": "빠른 답변에 감사드립니다. (비즈니스 3)",
+      "en": "Thank you for your prompt response. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-025",
+      "kr": "제가 올바르게 이해했는지 확인하고 싶습니다. (비즈니스 3)",
+      "en": "I would like to confirm that I have understood correctly. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-026",
+      "kr": "귀하의 제안을 검토했습니다. (비즈니스 3)",
+      "en": "I have reviewed your proposal. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-027",
+      "kr": "명확히 해주셔서 감사합니다. (비즈니스 3)",
+      "en": "Thank you for clarifying that. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-028",
+      "kr": "모든 세부사항이 확인되었습니다. (비즈니스 3)",
+      "en": "All details have been confirmed. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-029",
+      "kr": "귀하의 시간을 내주셔서 감사합니다. (비즈니스 3)",
+      "en": "I appreciate you taking the time. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-030",
+      "kr": "요청하신 정보를 준비했습니다. (비즈니스 3)",
+      "en": "The information you requested has been prepared. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-031",
+      "kr": "귀하의 도움에 매우 감사합니다. (비즈니스 4)",
+      "en": "I greatly appreciate your assistance. (business variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-032",
+      "kr": "이메일을 잘 받았습니다. (비즈니스 4)",
+      "en": "I have received your email. (business variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-033",
+      "kr": "말씀하신 내용을 확인했습니다. (비즈니스 4)",
+      "en": "I have confirmed what you mentioned. (business variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-034",
+      "kr": "빠른 답변에 감사드립니다. (비즈니스 4)",
+      "en": "Thank you for your prompt response. (business variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-035",
+      "kr": "제가 올바르게 이해했는지 확인하고 싶습니다. (비즈니스 4)",
+      "en": "I would like to confirm that I have understood correctly. (business variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A4-S14-036",
+      "kr": "귀하의 제안을 검토했습니다. (비즈니스 4)",
+      "en": "I have reviewed your proposal. (business variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A4-S14-037",
+      "kr": "명확히 해주셔서 감사합니다. (비즈니스 4)",
+      "en": "Thank you for clarifying that. (business variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A4-S14-038",
+      "kr": "모든 세부사항이 확인되었습니다. (비즈니스 4)",
+      "en": "All details have been confirmed. (business variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A4-S14-039",
+      "kr": "귀하의 시간을 내주셔서 감사합니다. (비즈니스 4)",
+      "en": "I appreciate you taking the time. (business variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A4-S14-040",
+      "kr": "요청하신 정보를 준비했습니다. (비즈니스 4)",
+      "en": "The information you requested has been prepared. (business variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A4-S14-041",
+      "kr": "귀하의 도움에 매우 감사합니다. (비즈니스 5)",
+      "en": "I greatly appreciate your assistance. (business variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A4-S14-042",
+      "kr": "이메일을 잘 받았습니다. (비즈니스 5)",
+      "en": "I have received your email. (business variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A4-S14-043",
+      "kr": "말씀하신 내용을 확인했습니다. (비즈니스 5)",
+      "en": "I have confirmed what you mentioned. (business variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A4-S14-044",
+      "kr": "빠른 답변에 감사드립니다. (비즈니스 5)",
+      "en": "Thank you for your prompt response. (business variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A4-S14-045",
+      "kr": "제가 올바르게 이해했는지 확인하고 싶습니다. (비즈니스 5)",
+      "en": "I would like to confirm that I have understood correctly. (business variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A4-S14-046",
+      "kr": "귀하의 제안을 검토했습니다. (비즈니스 5)",
+      "en": "I have reviewed your proposal. (business variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A4-S14-047",
+      "kr": "명확히 해주셔서 감사합니다. (비즈니스 5)",
+      "en": "Thank you for clarifying that. (business variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A4-S14-048",
+      "kr": "모든 세부사항이 확인되었습니다. (비즈니스 5)",
+      "en": "All details have been confirmed. (business variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A4-S14-049",
+      "kr": "귀하의 시간을 내주셔서 감사합니다. (비즈니스 5)",
+      "en": "I appreciate you taking the time. (business variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A4-S14-050",
+      "kr": "요청하신 정보를 준비했습니다. (비즈니스 5)",
+      "en": "The information you requested has been prepared. (business variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 10,
+    "wh_q": 5,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L4_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.758Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "backups\\level_4_business_mastery\\banks\\Lv4-A4-S14_bank.json"
+    ]
+  }
+}

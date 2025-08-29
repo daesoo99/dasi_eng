@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv8-C3-S19",
-  "title": "전치사 + 도치 강조",
-  "description": "전치사구와 도치 구문을 결합하여 극대화된 강조 효과를 만드는 방법을 연습합니다.",
-  "grammar_pattern": "PREPOSITION-INVERSION-EMPHASIS",
+  "title": "Stage Lv8-C3-S19",
+  "description": "Level 8 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Under no circumstances should we compromise our values.",
-    "In no way can this behavior be tolerated.",
-    "At no time did we consider abandoning the project."
+    "In no way can this behavior be tolerated."
   ],
-  "learning_points": "전치사와 도치의 결합을 통한 극대화된 강조 표현",
-  "phase": 3,
+  "learning_points": "Level 8 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 19,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv8-C3-S19-001",
       "kr": "어떠한 상황에서도 우리의 가치관을 타협해서는 안 됩니다.",
       "en": "Under no circumstances should we compromise our values.",
-      "pattern": "PREPOSITION-INVERSION-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv8-C3-S19-002",
       "kr": "결코 이런 행동은 용납될 수 없습니다.",
       "en": "In no way can this behavior be tolerated.",
-      "pattern": "PREPOSITION-INVERSION-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv8-C3-S19-003",
       "kr": "어느 때도 우리는 프로젝트를 포기한다고 생각하지 않았습니다.",
       "en": "At no time did we consider abandoning the project.",
-      "pattern": "PREPOSITION-INVERSION-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv8-C3-S19-004",
       "kr": "어떠한 경우에도 안전을 소홀히 해서는 안 됩니다.",
       "en": "Under no conditions should safety be neglected.",
-      "pattern": "PREPOSITION-INVERSION-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv8-C3-S19-005",
       "kr": "결코 이런 실수가 반복되어서는 안 됩니다.",
       "en": "In no case should such mistakes be repeated.",
-      "pattern": "PREPOSITION-INVERSION-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv8-C3-S19-006",
       "kr": "어느 순간도 우리는 경계를 늦추지 않았습니다.",
       "en": "At no moment did we let our guard down.",
-      "pattern": "PREPOSITION-INVERSION-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv8-C3-S19-007",
       "kr": "어떠한 압력에도 굴복해서는 안 됩니다.",
       "en": "Under no pressure should we give in.",
-      "pattern": "PREPOSITION-INVERSION-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv8-C3-S19-008",
       "kr": "결코 이런 기회를 놓쳐서는 안 됩니다.",
       "en": "In no way should we miss such an opportunity.",
-      "pattern": "PREPOSITION-INVERSION-EMPHASIS",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L8_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.554Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_8\\Lv8-C3-S19_bank.json"
+    ]
+  }
 }

@@ -1,0 +1,331 @@
+{
+  "stage_id": "Lv4-A2-S06",
+  "title": "Stage Lv4-A2-S06",
+  "description": "Level 4 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "Sales have increased by 20%. (variant 1)",
+    "This graph shows a steady upward trend. (variant 1)"
+  ],
+  "learning_points": "Level 4 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 6,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv4-A2-S06-001",
+      "kr": "매출이 20% 증가했습니다. (v1)",
+      "en": "Sales have increased by 20%. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-002",
+      "kr": "이 그래프는 지속적인 상승 추세를 보여줍니다. (v1)",
+      "en": "This graph shows a steady upward trend. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-003",
+      "kr": "작년 대비 상당한 개선이 있었습니다. (v1)",
+      "en": "There's been significant improvement compared to last year. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-004",
+      "kr": "수치를 자세히 살펴보겠습니다. (v1)",
+      "en": "Let's look at the figures in detail. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-005",
+      "kr": "시장 점유율이 급격히 하락했습니다. (v1)",
+      "en": "Market share has dropped dramatically. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-006",
+      "kr": "이 데이터가 보여주는 것은 명확합니다. (v1)",
+      "en": "What this data shows is clear. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-007",
+      "kr": "최고점에서 최저점까지의 변화입니다. (v1)",
+      "en": "This shows the change from peak to lowest point. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-008",
+      "kr": "평균적으로 월 10% 성장하고 있습니다. (v1)",
+      "en": "We're growing at an average of 10% per month. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-009",
+      "kr": "예상치를 상회하는 결과입니다. (v1)",
+      "en": "The results exceed our expectations. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-010",
+      "kr": "다음 분기 전망은 긍정적입니다. (v1)",
+      "en": "The outlook for next quarter is positive. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-011",
+      "kr": "매출이 20% 증가했습니다. (v2)",
+      "en": "Sales have increased by 20%. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-012",
+      "kr": "이 그래프는 지속적인 상승 추세를 보여줍니다. (v2)",
+      "en": "This graph shows a steady upward trend. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-013",
+      "kr": "작년 대비 상당한 개선이 있었습니다. (v2)",
+      "en": "There's been significant improvement compared to last year. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-014",
+      "kr": "수치를 자세히 살펴보겠습니다. (v2)",
+      "en": "Let's look at the figures in detail. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-015",
+      "kr": "시장 점유율이 급격히 하락했습니다. (v2)",
+      "en": "Market share has dropped dramatically. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-016",
+      "kr": "이 데이터가 보여주는 것은 명확합니다. (v2)",
+      "en": "What this data shows is clear. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-017",
+      "kr": "최고점에서 최저점까지의 변화입니다. (v2)",
+      "en": "This shows the change from peak to lowest point. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-018",
+      "kr": "평균적으로 월 10% 성장하고 있습니다. (v2)",
+      "en": "We're growing at an average of 10% per month. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-019",
+      "kr": "예상치를 상회하는 결과입니다. (v2)",
+      "en": "The results exceed our expectations. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-020",
+      "kr": "다음 분기 전망은 긍정적입니다. (v2)",
+      "en": "The outlook for next quarter is positive. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-021",
+      "kr": "매출이 20% 증가했습니다. (v3)",
+      "en": "Sales have increased by 20%. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-022",
+      "kr": "이 그래프는 지속적인 상승 추세를 보여줍니다. (v3)",
+      "en": "This graph shows a steady upward trend. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-023",
+      "kr": "작년 대비 상당한 개선이 있었습니다. (v3)",
+      "en": "There's been significant improvement compared to last year. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-024",
+      "kr": "수치를 자세히 살펴보겠습니다. (v3)",
+      "en": "Let's look at the figures in detail. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-025",
+      "kr": "시장 점유율이 급격히 하락했습니다. (v3)",
+      "en": "Market share has dropped dramatically. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-026",
+      "kr": "이 데이터가 보여주는 것은 명확합니다. (v3)",
+      "en": "What this data shows is clear. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-027",
+      "kr": "최고점에서 최저점까지의 변화입니다. (v3)",
+      "en": "This shows the change from peak to lowest point. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-028",
+      "kr": "평균적으로 월 10% 성장하고 있습니다. (v3)",
+      "en": "We're growing at an average of 10% per month. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-029",
+      "kr": "예상치를 상회하는 결과입니다. (v3)",
+      "en": "The results exceed our expectations. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-030",
+      "kr": "다음 분기 전망은 긍정적입니다. (v3)",
+      "en": "The outlook for next quarter is positive. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-031",
+      "kr": "매출이 20% 증가했습니다. (v4)",
+      "en": "Sales have increased by 20%. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-032",
+      "kr": "이 그래프는 지속적인 상승 추세를 보여줍니다. (v4)",
+      "en": "This graph shows a steady upward trend. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-033",
+      "kr": "작년 대비 상당한 개선이 있었습니다. (v4)",
+      "en": "There's been significant improvement compared to last year. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-034",
+      "kr": "수치를 자세히 살펴보겠습니다. (v4)",
+      "en": "Let's look at the figures in detail. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-035",
+      "kr": "시장 점유율이 급격히 하락했습니다. (v4)",
+      "en": "Market share has dropped dramatically. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A2-S06-036",
+      "kr": "이 데이터가 보여주는 것은 명확합니다. (v4)",
+      "en": "What this data shows is clear. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S06-037",
+      "kr": "최고점에서 최저점까지의 변화입니다. (v4)",
+      "en": "This shows the change from peak to lowest point. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S06-038",
+      "kr": "평균적으로 월 10% 성장하고 있습니다. (v4)",
+      "en": "We're growing at an average of 10% per month. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S06-039",
+      "kr": "예상치를 상회하는 결과입니다. (v4)",
+      "en": "The results exceed our expectations. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S06-040",
+      "kr": "다음 분기 전망은 긍정적입니다. (v4)",
+      "en": "The outlook for next quarter is positive. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S06-041",
+      "kr": "매출이 20% 증가했습니다. (v5)",
+      "en": "Sales have increased by 20%. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S06-042",
+      "kr": "이 그래프는 지속적인 상승 추세를 보여줍니다. (v5)",
+      "en": "This graph shows a steady upward trend. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S06-043",
+      "kr": "작년 대비 상당한 개선이 있었습니다. (v5)",
+      "en": "There's been significant improvement compared to last year. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S06-044",
+      "kr": "수치를 자세히 살펴보겠습니다. (v5)",
+      "en": "Let's look at the figures in detail. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S06-045",
+      "kr": "시장 점유율이 급격히 하락했습니다. (v5)",
+      "en": "Market share has dropped dramatically. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A2-S06-046",
+      "kr": "이 데이터가 보여주는 것은 명확합니다. (v5)",
+      "en": "What this data shows is clear. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A2-S06-047",
+      "kr": "최고점에서 최저점까지의 변화입니다. (v5)",
+      "en": "This shows the change from peak to lowest point. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A2-S06-048",
+      "kr": "평균적으로 월 10% 성장하고 있습니다. (v5)",
+      "en": "We're growing at an average of 10% per month. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A2-S06-049",
+      "kr": "예상치를 상회하는 결과입니다. (v5)",
+      "en": "The results exceed our expectations. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A2-S06-050",
+      "kr": "다음 분기 전망은 긍정적입니다. (v5)",
+      "en": "The outlook for next quarter is positive. (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 10,
+    "wh_q": 5,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L4_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.748Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "backups\\level_4_business_mastery\\banks\\Lv4-A2-S06_bank.json"
+    ]
+  }
+}

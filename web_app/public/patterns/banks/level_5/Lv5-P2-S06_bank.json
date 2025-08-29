@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv5-P2-S06",
-  "title": "전치사+관계대명사 도치",
-  "description": "전치사+관계대명사 도치을 연습합니다. PREPOSITION-RELATIVE-INVERSION 패턴을 활용하여 고급 영어 표현을 익힙니다.",
-  "grammar_pattern": "PREPOSITION-RELATIVE-INVERSION",
+  "title": "Stage Lv5-P2-S06",
+  "description": "Level 5 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "The person to whom I spoke was helpful.",
-    "The project on which we are working is important.",
-    "The system on which he relies is outdated."
+    "The project on which we are working is important."
   ],
-  "learning_points": "relative-clause 관련 고급 표현과 실용적 활용",
+  "learning_points": "Level 5 target grammar and expressions with practical usage examples",
   "phase": 2,
   "stage_number": 6,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv5-P2-S06-001",
       "kr": "제가 대화한 그 사람이 도움이 되었습니다.",
       "en": "The person to whom I spoke was helpful.",
-      "pattern": "PREPOSITION-RELATIVE-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv5-P2-S06-002",
       "kr": "우리가 작업하는 프로젝트는 중요합니다.",
       "en": "The project on which we are working is important.",
-      "pattern": "PREPOSITION-RELATIVE-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv5-P2-S06-003",
       "kr": "그가 의지하는 시스템은 오래되었습니다.",
       "en": "The system on which he relies is outdated.",
-      "pattern": "PREPOSITION-RELATIVE-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv5-P2-S06-004",
       "kr": "그들이 살고 있는 집은 아름답습니다.",
       "en": "The house in which they live is beautiful.",
-      "pattern": "PREPOSITION-RELATIVE-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv5-P2-S06-005",
       "kr": "우리가 토론한 주제는 복잡했습니다.",
       "en": "The topic about which we discussed was complex.",
-      "pattern": "PREPOSITION-RELATIVE-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv5-P2-S06-006",
       "kr": "회사가 투자하는 분야는 기술입니다.",
       "en": "The field in which the company invests is technology.",
-      "pattern": "PREPOSITION-RELATIVE-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv5-P2-S06-007",
       "kr": "제가 배운 선생님은 훌륭했습니다.",
       "en": "The teacher from whom I learned was excellent.",
-      "pattern": "PREPOSITION-RELATIVE-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv5-P2-S06-008",
       "kr": "그들이 참여한 회의는 성공적이었습니다.",
       "en": "The meeting in which they participated was successful.",
-      "pattern": "PREPOSITION-RELATIVE-INVERSION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L5_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.425Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_5\\Lv5-P2-S06_bank.json"
+    ]
+  }
 }

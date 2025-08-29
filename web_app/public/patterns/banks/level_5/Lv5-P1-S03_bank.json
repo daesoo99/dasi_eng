@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv5-P1-S03",
-  "title": "조건절 압축 도치",
-  "description": "조건절 압축 도치을 연습합니다. CONDITIONAL-INVERSION 패턴을 활용하여 고급 영어 표현을 익힙니다.",
-  "grammar_pattern": "CONDITIONAL-INVERSION",
+  "title": "Stage Lv5-P1-S03",
+  "description": "Level 5 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Had I known about it, I would have acted differently.",
-    "Were I you, I would apologize.",
-    "Should you need assistance, please let me know."
+    "Were I you, I would apologize."
   ],
-  "learning_points": "conditional-inversion 관련 고급 표현과 실용적 활용",
+  "learning_points": "Level 5 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 3,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv5-P1-S03-001",
       "kr": "그것에 대해 알았더라면 다르게 행동했을 것입니다.",
       "en": "Had I known about it, I would have acted differently.",
-      "pattern": "CONDITIONAL-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv5-P1-S03-002",
       "kr": "내가 너라면 사과하겠습니다.",
       "en": "Were I you, I would apologize.",
-      "pattern": "CONDITIONAL-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv5-P1-S03-003",
       "kr": "도움이 필요하시면 저에게 알려주세요.",
       "en": "Should you need assistance, please let me know.",
-      "pattern": "CONDITIONAL-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv5-P1-S03-004",
       "kr": "더 일찍 출발했더라면 시간에 맞았을 텐데.",
       "en": "Had we left earlier, we would have been on time.",
-      "pattern": "CONDITIONAL-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv5-P1-S03-005",
       "kr": "돈이 있다면 그 집을 사겠습니다.",
       "en": "Were I to have money, I would buy that house.",
-      "pattern": "CONDITIONAL-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv5-P1-S03-006",
       "kr": "문제가 생기면 즉시 연락하세요.",
       "en": "Should any problems arise, contact us immediately.",
-      "pattern": "CONDITIONAL-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv5-P1-S03-007",
       "kr": "진실을 알았더라면 그를 믿지 않았을 것입니다.",
       "en": "Had I known the truth, I would not have trusted him.",
-      "pattern": "CONDITIONAL-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv5-P1-S03-008",
       "kr": "더 신중했다면 실수를 하지 않았을 텐데.",
       "en": "Were I to be more careful, I wouldn't have made mistakes.",
-      "pattern": "CONDITIONAL-INVERSION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L5_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.423Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_5\\Lv5-P1-S03_bank.json"
+    ]
+  }
 }

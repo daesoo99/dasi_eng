@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv6-P7-S40",
-  "title": "완곡 어휘",
-  "description": "perhaps, arguably, not necessarily 등으로 주장을 완곡하게 표현합니다. HEDGING-VOCABULARY 패턴을 연습합니다.",
-  "grammar_pattern": "HEDGING-VOCABULARY",
+  "title": "Stage Lv6-P7-S40",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "This is perhaps not the best solution.",
-    "It's not necessarily a bad idea.",
-    "This is arguably the most important issue."
+    "It's not necessarily a bad idea."
   ],
-  "learning_points": "완곡한 표현을 통한 겸손하고 신중한 의견 제시",
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
   "phase": 7,
   "stage_number": 40,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv6-P7-S40-001",
       "kr": "이것은 아마도 최선의 해결책이 아닐 수도 있습니다.",
       "en": "This is perhaps not the best solution.",
-      "pattern": "HEDGING-VOCABULARY",
       "form": "aff"
     },
     {
       "id": "Lv6-P7-S40-002",
       "kr": "반드시 나쁜 아이디어는 아닙니다.",
       "en": "It's not necessarily a bad idea.",
-      "pattern": "HEDGING-VOCABULARY",
       "form": "aff"
     },
     {
       "id": "Lv6-P7-S40-003",
       "kr": "이것이 아마도 가장 중요한 문제일 것입니다.",
       "en": "This is arguably the most important issue.",
-      "pattern": "HEDGING-VOCABULARY",
       "form": "aff"
     },
     {
       "id": "Lv6-P7-S40-004",
       "kr": "이 접근 방식이 잠재적으로 유효할 수 있습니다.",
       "en": "This approach could potentially be effective.",
-      "pattern": "HEDGING-VOCABULARY",
       "form": "aff"
     },
     {
       "id": "Lv6-P7-S40-005",
       "kr": "결과가 반드시 예상과 일치하지는 않을 수 있습니다.",
       "en": "The results might not necessarily match our expectations.",
-      "pattern": "HEDGING-VOCABULARY",
       "form": "aff"
     },
     {
       "id": "Lv6-P7-S40-006",
       "kr": "이것이 아마 가장 실용적인 옵션일 것 같습니다.",
       "en": "This seems to be possibly the most practical option.",
-      "pattern": "HEDGING-VOCABULARY",
       "form": "aff"
     },
     {
       "id": "Lv6-P7-S40-007",
       "kr": "어쩌면 다른 관점에서 접근해야 할지도 모릅니다.",
       "en": "We may need to approach this from a different perspective.",
-      "pattern": "HEDGING-VOCABULARY",
       "form": "aff"
     },
     {
       "id": "Lv6-P7-S40-008",
       "kr": "이 전략이 반드시 모든 상황에 적용되는 것은 아닙니다.",
       "en": "This strategy doesn't necessarily apply to all situations.",
-      "pattern": "HEDGING-VOCABULARY",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.492Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_6\\Lv6-P7-S40_bank.json"
+    ]
+  }
 }

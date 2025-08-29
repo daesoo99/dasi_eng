@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv8-C2-S09",
-  "title": "구/절 병렬 구조",
-  "description": "구와 절의 병렬 구조를 활용하여 복잡하고 균형잡힌 문장을 만드는 방법을 연습합니다.",
-  "grammar_pattern": "PHRASE-CLAUSE-PARALLEL-STRUCTURE",
+  "title": "Stage Lv8-C2-S09",
+  "description": "Level 8 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Not only did he study hard, but he also worked diligently.",
-    "Either we accept the challenge or we miss the opportunity.",
-    "What matters is not what we say, but what we do."
+    "Either we accept the challenge or we miss the opportunity."
   ],
-  "learning_points": "구와 절의 병렬 구조를 통한 균형잡힌 복합 표현",
-  "phase": 2,
+  "learning_points": "Level 8 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 9,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv8-C2-S09-001",
       "kr": "그는 열심히 공부했을 뿐만 아니라 부지런히 일하기도 했습니다.",
       "en": "Not only did he study hard, but he also worked diligently.",
-      "pattern": "PHRASE-CLAUSE-PARALLEL-STRUCTURE",
       "form": "aff"
     },
     {
       "id": "Lv8-C2-S09-002",
       "kr": "우리는 도전을 받아들이거나 기회를 놓치거나 둘 중 하나입니다.",
       "en": "Either we accept the challenge or we miss the opportunity.",
-      "pattern": "PHRASE-CLAUSE-PARALLEL-STRUCTURE",
       "form": "aff"
     },
     {
       "id": "Lv8-C2-S09-003",
       "kr": "중요한 것은 우리가 무엇을 말하느냐가 아니라 무엇을 하느냐입니다.",
       "en": "What matters is not what we say, but what we do.",
-      "pattern": "PHRASE-CLAUSE-PARALLEL-STRUCTURE",
       "form": "aff"
     },
     {
       "id": "Lv8-C2-S09-004",
       "kr": "그녀는 재능이 있을 뿐만 아니라 매우 헌신적이기도 합니다.",
       "en": "Not only is she talented, but she is also extremely dedicated.",
-      "pattern": "PHRASE-CLAUSE-PARALLEL-STRUCTURE",
       "form": "aff"
     },
     {
       "id": "Lv8-C2-S09-005",
       "kr": "우리는 지금 행동하거나 나중에 후회하거나 둘 중 하나입니다.",
       "en": "Either we act now or we regret later.",
-      "pattern": "PHRASE-CLAUSE-PARALLEL-STRUCTURE",
       "form": "aff"
     },
     {
       "id": "Lv8-C2-S09-006",
       "kr": "성공은 운이 아니라 준비와 기회가 만나는 것입니다.",
       "en": "Success is not about luck, but about preparation meeting opportunity.",
-      "pattern": "PHRASE-CLAUSE-PARALLEL-STRUCTURE",
       "form": "aff"
     },
     {
       "id": "Lv8-C2-S09-007",
       "kr": "그는 말뿐만 아니라 행동으로도 리더십을 보여줍니다.",
       "en": "Not only does he show leadership in words, but also in actions.",
-      "pattern": "PHRASE-CLAUSE-PARALLEL-STRUCTURE",
       "form": "aff"
     },
     {
       "id": "Lv8-C2-S09-008",
       "kr": "우리는 실패를 두려워하거나 성공을 위해 위험을 감수하거나 해야 합니다.",
       "en": "Either we fear failure or we take risks for success.",
-      "pattern": "PHRASE-CLAUSE-PARALLEL-STRUCTURE",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L8_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.546Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_8\\Lv8-C2-S09_bank.json"
+    ]
+  }
 }

@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv10-S08",
+  "title": "고급 대조 표현 - 극명한 차이",
+  "description": "극명한 차이와 대비를 강조하는 원어민 수준의 강력한 대조 표현을 구사합니다.",
+  "grammar_pattern": "STARK-CONTRAST-MASTERY",
+  "examples": [
+    "They're polar opposites. There's no comparison.",
+    "They're as different as night and day.",
+    "It's a world of difference. They're not even in the same league."
+  ],
+  "learning_points": "원어민 수준의 자연스러운 극명한 차이 표현 구사",
+  "phase": 1,
+  "stage_number": 8,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv10-S08-001",
+      "kr": "완전히 정반대야. 비교할 수도 없어.",
+      "en": "They're polar opposites. There's no comparison.",
+      "pattern": "STARK-CONTRAST-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S08-002",
+      "kr": "밤과 낮만큼 차이가 나.",
+      "en": "They're as different as night and day.",
+      "pattern": "STARK-CONTRAST-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S08-003",
+      "kr": "천지차이야. 같은 범주에 넣을 수도 없어.",
+      "en": "It's a world of difference. They're not even in the same league.",
+      "pattern": "STARK-CONTRAST-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S08-004",
+      "kr": "하늘과 땅 차이만큼 달라.",
+      "en": "The difference is like heaven and earth.",
+      "pattern": "STARK-CONTRAST-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S08-005",
+      "kr": "완전히 다른 차원의 문제야.",
+      "en": "It's in a completely different dimension altogether.",
+      "pattern": "STARK-CONTRAST-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S08-006",
+      "kr": "비교 자체가 무의미할 정도로 달라.",
+      "en": "They're so different that comparison itself is meaningless.",
+      "pattern": "STARK-CONTRAST-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S08-007",
+      "kr": "정반대 방향으로 가고 있어.",
+      "en": "They're heading in completely opposite directions.",
+      "pattern": "STARK-CONTRAST-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S08-008",
+      "kr": "아예 다른 세상의 이야기야.",
+      "en": "It's like they're from different worlds entirely.",
+      "pattern": "STARK-CONTRAST-MASTERY",
+      "form": "aff"
+    }
+  ]
+}

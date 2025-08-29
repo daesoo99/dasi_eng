@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv6-P5-S29",
-  "title": "관계부사 심화",
-  "description": "where, when, why를 포함한 복합 관계부사 문장을 길게 구성합니다. RELATIVE-ADVERBS-COMPLEX 패턴을 연습합니다.",
-  "grammar_pattern": "RELATIVE-ADVERBS-COMPLEX",
+  "title": "Stage Lv6-P5-S29",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "I visited the town where my father was born, which is now a tourist spot.",
-    "2008 was when the market crashed, and many lost jobs.",
-    "This is the reason why we decided to expand internationally."
+    "2008 was when the market crashed, and many lost jobs."
   ],
-  "learning_points": "관계부사를 활용한 배경 설명과 부가 정보 제공",
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
   "phase": 5,
   "stage_number": 29,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv6-P5-S29-001",
       "kr": "아버지가 태어난 마을을 방문했는데, 그곳은 이제 관광지가 되었습니다.",
       "en": "I visited the town where my father was born, which is now a tourist spot.",
-      "pattern": "RELATIVE-ADVERBS-COMPLEX",
       "form": "aff"
     },
     {
       "id": "Lv6-P5-S29-002",
       "kr": "2008년은 시장이 붕괴된 해였고, 많은 사람들이 일자리를 잃었습니다.",
       "en": "2008 was when the market crashed, and many lost jobs.",
-      "pattern": "RELATIVE-ADVERBS-COMPLEX",
       "form": "aff"
     },
     {
       "id": "Lv6-P5-S29-003",
       "kr": "이것이 우리가 국제적으로 확장하기로 결정한 이유입니다.",
       "en": "This is the reason why we decided to expand internationally.",
-      "pattern": "RELATIVE-ADVERBS-COMPLEX",
       "form": "aff"
     },
     {
       "id": "Lv6-P5-S29-004",
       "kr": "우리가 첫 번째 사무실을 연 곳은 이제 번화한 비즈니스 지구가 되었습니다.",
       "en": "The place where we opened our first office has now become a bustling business district.",
-      "pattern": "RELATIVE-ADVERBS-COMPLEX",
       "form": "aff"
     },
     {
       "id": "Lv6-P5-S29-005",
       "kr": "회사가 설립된 시기는 경제가 어려웠던 때였지만, 우리는 성공했습니다.",
       "en": "The time when the company was founded was during difficult economic conditions, but we succeeded.",
-      "pattern": "RELATIVE-ADVERBS-COMPLEX",
       "form": "aff"
     },
     {
       "id": "Lv6-P5-S29-006",
       "kr": "이것이 우리가 새로운 전략을 채택한 이유이며, 결과는 성공적이었습니다.",
       "en": "This is why we adopted the new strategy, and the results have been successful.",
-      "pattern": "RELATIVE-ADVERBS-COMPLEX",
       "form": "aff"
     },
     {
       "id": "Lv6-P5-S29-007",
       "kr": "그들이 회의를 하는 장소는 도시 중심가에 위치한 현대적인 건물입니다.",
       "en": "The location where they hold meetings is a modern building situated in the city center.",
-      "pattern": "RELATIVE-ADVERBS-COMPLEX",
       "form": "aff"
     },
     {
       "id": "Lv6-P5-S29-008",
       "kr": "기술 혁신이 시작된 때는 우리 산업의 전환점이었습니다.",
       "en": "The period when technological innovation began was a turning point for our industry.",
-      "pattern": "RELATIVE-ADVERBS-COMPLEX",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.481Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_6\\Lv6-P5-S29_bank.json"
+    ]
+  }
 }

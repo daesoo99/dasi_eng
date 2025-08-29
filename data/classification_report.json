@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2025-08-28T10:58:00.957Z",
+    "script": "classify-sentences.js",
+    "description": "Sentence classification results with grammar validation"
+  },
+  "statistics": {
+    "total_processed": 31456,
+    "valid_count": 31456,
+    "invalid_count": 0,
+    "violations_by_type": {},
+    "suggestions": [],
+    "most_common_grammar_violations": {}
+  },
+  "sample_violations": []
+}

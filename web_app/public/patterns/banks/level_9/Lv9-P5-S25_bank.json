@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P5-S25",
-  "title": "문장 리듬 ①",
-  "description": "절 길이 변화: 한 문장 안에 짧은 절과 긴 절 섮기. 예) He came, he saw, and then, after long deliberation and much hesitation, he conquered. 말하기.",
-  "grammar_pattern": "SENTENCE-RHYTHM",
+  "title": "Stage Lv9-P5-S25",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "He came, he saw, and then, after long deliberation and much hesitation, he conquered.",
-    "We planned, we prepared, and finally, through months of careful execution, we succeeded.",
-    "They arrived, they assessed, and subsequently, with remarkable precision, they executed."
+    "We planned, we prepared, and finally, through months of careful execution, we succeeded."
   ],
-  "learning_points": "문장 리듬 조절을 통한 전문적 표현력 개발",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 5,
   "stage_number": 25,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv9-P5-S25-001",
       "kr": "그는 왔고, 보았고, 그리고서 오랜 심사숙고와 많은 망설임 끝에 정복했습니다.",
       "en": "He came, he saw, and then, after long deliberation and much hesitation, he conquered.",
-      "pattern": "SENTENCE-RHYTHM",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S25-002",
       "kr": "우리는 계획하고, 준비하고, 마침내 몇 달간의 세심한 실행을 통해 성공했습니다.",
       "en": "We planned, we prepared, and finally, through months of careful execution, we succeeded.",
-      "pattern": "SENTENCE-RHYTHM",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S25-003",
       "kr": "그들은 도착했고, 평가했고, 그 후 놀라운 정밀성으로 실행했습니다.",
       "en": "They arrived, they assessed, and subsequently, with remarkable precision, they executed.",
-      "pattern": "SENTENCE-RHYTHM",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S25-004",
       "kr": "시작했고, 진행했고, 마침내 모든 어려움을 극복하고 완성했습니다.",
       "en": "We started, we progressed, and ultimately, overcoming all obstacles, we completed.",
-      "pattern": "SENTENCE-RHYTHM",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S25-005",
       "kr": "분석하고, 검토하고, 마침내 충분한 데이터를 바탕으로 결정했습니다.",
       "en": "We analyzed, we reviewed, and finally, based on sufficient data, we decided.",
-      "pattern": "SENTENCE-RHYTHM",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S25-006",
       "kr": "도전하고, 실패하고, 그러나 끊임없는 노력으로 마침내 성취했습니다.",
       "en": "We challenged, we failed, but then, through relentless effort, we finally achieved.",
-      "pattern": "SENTENCE-RHYTHM",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S25-007",
       "kr": "연구하고, 개발하고, 마침내 혁신적인 기술로 형태를 갖췤습니다.",
       "en": "We researched, we developed, and eventually, it took shape as innovative technology.",
-      "pattern": "SENTENCE-RHYTHM",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S25-008",
       "kr": "학습하고, 적용하고, 마침내 전문성과 경험을 통해 마스터했습니다.",
       "en": "We learned, we applied, and finally, through expertise and experience, we mastered.",
-      "pattern": "SENTENCE-RHYTHM",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.608Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P5-S25_bank.json"
+    ]
+  }
 }

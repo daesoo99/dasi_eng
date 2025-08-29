@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv3-P1-S06",
+  "title": "수동태 심화",
+  "description": "조동사가 결합된 수동태와 여러 시제의 수동태를 연습합니다. 다양한 시제에 수동태를 적용해보며 시제+수동태 복합문을 만들고 말해봅니다.",
+  "grammar_pattern": "조동사 + be + p.p. / have/has been + p.p.",
+  "examples": ["The project must be finished on time. (조동사+수동)", "The cake has been eaten. (현재완료 수동)"],
+  "learning_points": "일상 표현에서 자주 쓰이는 수동 구문 (be made of, be known as 등)도 소개하여 활용도를 높임",
+  "phase": 1,
+  "stage_number": 6,
+  "count": 0,
+  "sentences": []
+}

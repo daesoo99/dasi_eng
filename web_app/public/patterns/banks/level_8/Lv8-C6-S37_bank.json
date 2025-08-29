@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv8-C6-S37",
-  "title": "완곡한 부정",
-  "description": "직접적인 부정보다는 완곡하고 우회적인 표현을 통해 부정의 의미를 전달하는 방법을 연습합니다.",
-  "grammar_pattern": "EUPHEMISTIC-NEGATION",
+  "title": "Stage Lv8-C6-S37",
+  "description": "Level 8 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "I'm afraid this approach might not yield the desired results.",
-    "It would appear that the current strategy is somewhat less than optimal.",
-    "Perhaps we might consider that this solution may not be entirely suitable."
+    "It would appear that the current strategy is somewhat less than optimal."
   ],
-  "learning_points": "완곡한 부정 표현을 통한 우아하고 diplomatic한 의사소통",
-  "phase": 6,
+  "learning_points": "Level 8 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 37,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv8-C6-S37-001",
       "kr": "이 접근법이 원하는 결과를 가져다주지 못할까 우려됩니다.",
       "en": "I'm afraid this approach might not yield the desired results.",
-      "pattern": "EUPHEMISTIC-NEGATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S37-002",
       "kr": "현재 전략이 다소 최적에 못 미치는 것 같습니다.",
       "en": "It would appear that the current strategy is somewhat less than optimal.",
-      "pattern": "EUPHEMISTIC-NEGATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S37-003",
       "kr": "이 해결책이 완전히 적합하지 않을 수도 있다고 생각해볼 수 있을 것 같습니다.",
       "en": "Perhaps we might consider that this solution may not be entirely suitable.",
-      "pattern": "EUPHEMISTIC-NEGATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S37-004",
       "kr": "제안하신 계획이 예상만큼 효과적이지 않을 가능성이 있을 것 같습니다.",
       "en": "There's a possibility that the proposed plan might not be as effective as anticipated.",
-      "pattern": "EUPHEMISTIC-NEGATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S37-005",
       "kr": "현재 상황이 우리가 바라던 방향으로 진전되지 않고 있는 것 같습니다.",
       "en": "The current situation doesn't seem to be progressing in the direction we had hoped.",
-      "pattern": "EUPHEMISTIC-NEGATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S37-006",
       "kr": "이 방법이 우리의 기대에 완전히 부응하지 못할 수도 있습니다.",
       "en": "This method may not fully meet our expectations.",
-      "pattern": "EUPHEMISTIC-NEGATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S37-007",
       "kr": "결과가 우리가 원했던 만큼 만족스럽지 않을까 걱정됩니다.",
       "en": "I'm concerned that the results may not be as satisfactory as we would have liked.",
-      "pattern": "EUPHEMISTIC-NEGATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S37-008",
       "kr": "이 제안이 우리의 요구사항을 충분히 충족시키지 못할 가능성이 있습니다.",
       "en": "There's a chance that this proposal might not adequately address our requirements.",
-      "pattern": "EUPHEMISTIC-NEGATION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L8_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.573Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_8\\Lv8-C6-S37_bank.json"
+    ]
+  }
 }

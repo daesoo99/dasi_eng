@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv8-C4-S24",
-  "title": "절 축약 (to부정사/분사/전치사구)",
-  "description": "긴 절을 to부정사, 분사, 전치사구로 축약하여 간결하고 효과적인 표현을 만드는 방법을 연습합니다.",
-  "grammar_pattern": "CLAUSE-REDUCTION",
+  "title": "Stage Lv8-C4-S24",
+  "description": "Level 8 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "To succeed in business, one must be persistent.",
-    "Being well-prepared, she felt confident about the interview.",
-    "Despite the challenges, we persevered and succeeded."
+    "Being well-prepared, she felt confident about the interview."
   ],
-  "learning_points": "절 축약을 통한 간결하고 효과적인 표현 기법",
-  "phase": 4,
+  "learning_points": "Level 8 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 24,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv8-C4-S24-001",
       "kr": "사업에서 성공하려면 끈기가 있어야 합니다.",
       "en": "To succeed in business, one must be persistent.",
-      "pattern": "CLAUSE-REDUCTION",
       "form": "aff"
     },
     {
       "id": "Lv8-C4-S24-002",
       "kr": "잘 준비되어 있었기 때문에 그녀는 면접에 대해 자신감을 느꼈습니다.",
       "en": "Being well-prepared, she felt confident about the interview.",
-      "pattern": "CLAUSE-REDUCTION",
       "form": "aff"
     },
     {
       "id": "Lv8-C4-S24-003",
       "kr": "도전에도 불구하고 우리는 인내했고 성공했습니다.",
       "en": "Despite the challenges, we persevered and succeeded.",
-      "pattern": "CLAUSE-REDUCTION",
       "form": "aff"
     },
     {
       "id": "Lv8-C4-S24-004",
       "kr": "목표를 달성하기 위해 우리는 더 열심히 일해야 합니다.",
       "en": "To achieve our goals, we need to work harder.",
-      "pattern": "CLAUSE-REDUCTION",
       "form": "aff"
     },
     {
       "id": "Lv8-C4-S24-005",
       "kr": "경험이 풍부하기 때문에 그는 복잡한 문제를 쉽게 해결할 수 있습니다.",
       "en": "Being experienced, he can solve complex problems easily.",
-      "pattern": "CLAUSE-REDUCTION",
       "form": "aff"
     },
     {
       "id": "Lv8-C4-S24-006",
       "kr": "한정된 예산에도 불구하고 프로젝트는 성공적으로 완료되었습니다.",
       "en": "Despite the limited budget, the project was completed successfully.",
-      "pattern": "CLAUSE-REDUCTION",
       "form": "aff"
     },
     {
       "id": "Lv8-C4-S24-007",
       "kr": "품질을 향상시키기 위해 우리는 새로운 시스템을 도입했습니다.",
       "en": "To improve quality, we introduced a new system.",
-      "pattern": "CLAUSE-REDUCTION",
       "form": "aff"
     },
     {
       "id": "Lv8-C4-S24-008",
       "kr": "충분히 검토되었기 때문에 제안서는 승인될 가능성이 높습니다.",
       "en": "Having been thoroughly reviewed, the proposal is likely to be approved.",
-      "pattern": "CLAUSE-REDUCTION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L8_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.560Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_8\\Lv8-C4-S24_bank.json"
+    ]
+  }
 }

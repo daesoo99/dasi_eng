@@ -1,12 +1,331 @@
 {
   "stage_id": "Lv3-P1-S04",
-  "title": "과거완료 & 과거완료진행",
-  "description": "과거완료(had p.p.)와 과거완료진행(had been ~ing)을 소개하여 과거의 과거를 표현합니다. 과거 시제들과 함께 스토리 텔링 연습을 통해 자연스럽게 사용합니다.",
-  "grammar_pattern": "주어 + had + p.p. / 주어 + had been + 동사ing",
-  "examples": ["I had finished dinner before he arrived.", "They had been waiting for an hour when the bus finally came."],
-  "learning_points": "과거의 과거 시점 표현으로 스토리 텔링에 활용",
+  "title": "Stage Lv3-P1-S04",
+  "description": "Level 3 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "The meeting had already finished when he arrived. (variant 1)",
+    "I had bought tickets before the movie started. (variant 1)"
+  ],
+  "learning_points": "Level 3 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 4,
-  "count": 0,
-  "sentences": []
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv3-P1-S04-001",
+      "kr": "그가 도착했을 때 이미 회의가 끝나 있었습니다. (확장 1)",
+      "en": "The meeting had already finished when he arrived. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-002",
+      "kr": "영화가 시작하기 전에 표를 샀어요. (확장 1)",
+      "en": "I had bought tickets before the movie started. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-003",
+      "kr": "그들은 전에 그곳에 가본 적이 없었습니다. (확장 1)",
+      "en": "They had never been there before. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-004",
+      "kr": "숙제를 다 했을 때 친구가 전화했어요. (확장 1)",
+      "en": "My friend called when I had finished homework. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-005",
+      "kr": "그녀는 이미 저녁을 먹었다고 했습니다. (확장 1)",
+      "en": "She said she had already had dinner. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-006",
+      "kr": "비가 그치고 나서 밖에 나갔어요. (확장 1)",
+      "en": "I went out after the rain had stopped. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-007",
+      "kr": "10시까지 모든 일을 마쳤습니다. (확장 1)",
+      "en": "I had completed everything by 10 o'clock. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-008",
+      "kr": "그 책을 읽어본 적이 있었나요? (확장 1)",
+      "en": "Had you read that book before? (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-009",
+      "kr": "우리가 도착했을 때 그들은 이미 떠났어요. (확장 1)",
+      "en": "They had already left when we arrived. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-010",
+      "kr": "그는 전에 그런 경험을 해본 적이 없었습니다. (확장 1)",
+      "en": "He had never experienced that before. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-011",
+      "kr": "그가 도착했을 때 이미 회의가 끝나 있었습니다. (확장 2)",
+      "en": "The meeting had already finished when he arrived. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-012",
+      "kr": "영화가 시작하기 전에 표를 샀어요. (확장 2)",
+      "en": "I had bought tickets before the movie started. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-013",
+      "kr": "그들은 전에 그곳에 가본 적이 없었습니다. (확장 2)",
+      "en": "They had never been there before. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-014",
+      "kr": "숙제를 다 했을 때 친구가 전화했어요. (확장 2)",
+      "en": "My friend called when I had finished homework. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-015",
+      "kr": "그녀는 이미 저녁을 먹었다고 했습니다. (확장 2)",
+      "en": "She said she had already had dinner. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-016",
+      "kr": "비가 그치고 나서 밖에 나갔어요. (확장 2)",
+      "en": "I went out after the rain had stopped. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-017",
+      "kr": "10시까지 모든 일을 마쳤습니다. (확장 2)",
+      "en": "I had completed everything by 10 o'clock. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-018",
+      "kr": "그 책을 읽어본 적이 있었나요? (확장 2)",
+      "en": "Had you read that book before? (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-019",
+      "kr": "우리가 도착했을 때 그들은 이미 떠났어요. (확장 2)",
+      "en": "They had already left when we arrived. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-020",
+      "kr": "그는 전에 그런 경험을 해본 적이 없었습니다. (확장 2)",
+      "en": "He had never experienced that before. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-021",
+      "kr": "그가 도착했을 때 이미 회의가 끝나 있었습니다. (확장 3)",
+      "en": "The meeting had already finished when he arrived. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-022",
+      "kr": "영화가 시작하기 전에 표를 샀어요. (확장 3)",
+      "en": "I had bought tickets before the movie started. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-023",
+      "kr": "그들은 전에 그곳에 가본 적이 없었습니다. (확장 3)",
+      "en": "They had never been there before. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-024",
+      "kr": "숙제를 다 했을 때 친구가 전화했어요. (확장 3)",
+      "en": "My friend called when I had finished homework. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-025",
+      "kr": "그녀는 이미 저녁을 먹었다고 했습니다. (확장 3)",
+      "en": "She said she had already had dinner. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-026",
+      "kr": "비가 그치고 나서 밖에 나갔어요. (확장 3)",
+      "en": "I went out after the rain had stopped. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-027",
+      "kr": "10시까지 모든 일을 마쳤습니다. (확장 3)",
+      "en": "I had completed everything by 10 o'clock. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-028",
+      "kr": "그 책을 읽어본 적이 있었나요? (확장 3)",
+      "en": "Had you read that book before? (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-029",
+      "kr": "우리가 도착했을 때 그들은 이미 떠났어요. (확장 3)",
+      "en": "They had already left when we arrived. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-030",
+      "kr": "그는 전에 그런 경험을 해본 적이 없었습니다. (확장 3)",
+      "en": "He had never experienced that before. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S04-031",
+      "kr": "그가 도착했을 때 이미 회의가 끝나 있었습니다. (확장 4)",
+      "en": "The meeting had already finished when he arrived. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S04-032",
+      "kr": "영화가 시작하기 전에 표를 샀어요. (확장 4)",
+      "en": "I had bought tickets before the movie started. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S04-033",
+      "kr": "그들은 전에 그곳에 가본 적이 없었습니다. (확장 4)",
+      "en": "They had never been there before. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S04-034",
+      "kr": "숙제를 다 했을 때 친구가 전화했어요. (확장 4)",
+      "en": "My friend called when I had finished homework. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S04-035",
+      "kr": "그녀는 이미 저녁을 먹었다고 했습니다. (확장 4)",
+      "en": "She said she had already had dinner. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S04-036",
+      "kr": "비가 그치고 나서 밖에 나갔어요. (확장 4)",
+      "en": "I went out after the rain had stopped. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S04-037",
+      "kr": "10시까지 모든 일을 마쳤습니다. (확장 4)",
+      "en": "I had completed everything by 10 o'clock. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S04-038",
+      "kr": "그 책을 읽어본 적이 있었나요? (확장 4)",
+      "en": "Had you read that book before? (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S04-039",
+      "kr": "우리가 도착했을 때 그들은 이미 떠났어요. (확장 4)",
+      "en": "They had already left when we arrived. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S04-040",
+      "kr": "그는 전에 그런 경험을 해본 적이 없었습니다. (확장 4)",
+      "en": "He had never experienced that before. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S04-041",
+      "kr": "그가 도착했을 때 이미 회의가 끝나 있었습니다. (확장 5)",
+      "en": "The meeting had already finished when he arrived. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S04-042",
+      "kr": "영화가 시작하기 전에 표를 샀어요. (확장 5)",
+      "en": "I had bought tickets before the movie started. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S04-043",
+      "kr": "그들은 전에 그곳에 가본 적이 없었습니다. (확장 5)",
+      "en": "They had never been there before. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S04-044",
+      "kr": "숙제를 다 했을 때 친구가 전화했어요. (확장 5)",
+      "en": "My friend called when I had finished homework. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S04-045",
+      "kr": "그녀는 이미 저녁을 먹었다고 했습니다. (확장 5)",
+      "en": "She said she had already had dinner. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S04-046",
+      "kr": "비가 그치고 나서 밖에 나갔어요. (확장 5)",
+      "en": "I went out after the rain had stopped. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S04-047",
+      "kr": "10시까지 모든 일을 마쳤습니다. (확장 5)",
+      "en": "I had completed everything by 10 o'clock. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S04-048",
+      "kr": "그 책을 읽어본 적이 있었나요? (확장 5)",
+      "en": "Had you read that book before? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S04-049",
+      "kr": "우리가 도착했을 때 그들은 이미 떠났어요. (확장 5)",
+      "en": "They had already left when we arrived. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S04-050",
+      "kr": "그는 전에 그런 경험을 해본 적이 없었습니다. (확장 5)",
+      "en": "He had never experienced that before. (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L3_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.627Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "data\\banks\\level_3\\Lv3-P1-S04_bank.json"
+    ]
+  }
 }

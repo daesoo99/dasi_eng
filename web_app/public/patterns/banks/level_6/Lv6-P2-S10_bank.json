@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv6-P2-S10",
-  "title": "수동태 진행형",
-  "description": "진행형 수동태를 집중 연습합니다.",
-  "grammar_pattern": "PASSIVE-CONTINUOUS",
+  "title": "Stage Lv6-P2-S10",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "The building is being constructed by a famous architect.",
-    "The issue was being discussed when I arrived.",
-    "New features are being added to the software regularly."
+    "The issue was being discussed when I arrived."
   ],
-  "learning_points": "진행형 수동태의 다양한 시제별 활용",
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
   "phase": 2,
   "stage_number": 10,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv6-P2-S10-001",
       "kr": "건물이 유명한 건축가에 의해 건설되고 있습니다.",
       "en": "The building is being constructed by a famous architect.",
-      "pattern": "PASSIVE-CONTINUOUS",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S10-002",
       "kr": "내가 도착했을 때 그 문제가 논의되고 있었습니다.",
       "en": "The issue was being discussed when I arrived.",
-      "pattern": "PASSIVE-CONTINUOUS",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S10-003",
       "kr": "소프트웨어에 새로운 기능들이 정기적으로 추가되고 있습니다.",
       "en": "New features are being added to the software regularly.",
-      "pattern": "PASSIVE-CONTINUOUS",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S10-004",
       "kr": "보고서가 여러 부서에서 검토되고 있습니다.",
       "en": "The report is being reviewed by multiple departments.",
-      "pattern": "PASSIVE-CONTINUOUS",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S10-005",
       "kr": "새로운 정책이 직원들에게 설명되고 있었습니다.",
       "en": "The new policy was being explained to employees.",
-      "pattern": "PASSIVE-CONTINUOUS",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S10-006",
       "kr": "시스템이 현재 업데이트되지 않고 있습니다.",
       "en": "The system is not being updated currently.",
-      "pattern": "PASSIVE-CONTINUOUS",
       "form": "neg"
     },
     {
       "id": "Lv6-P2-S10-007",
       "kr": "제품이 전 세계 시장에서 판매되고 있습니다.",
       "en": "The product is being sold in global markets.",
-      "pattern": "PASSIVE-CONTINUOUS",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S10-008",
       "kr": "새로운 직원들이 인사팀에 의해 교육받고 있었습니다.",
       "en": "New employees were being trained by the HR department.",
-      "pattern": "PASSIVE-CONTINUOUS",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 7,
+    "neg": 1,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.462Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_6\\Lv6-P2-S10_bank.json"
+    ]
+  }
 }

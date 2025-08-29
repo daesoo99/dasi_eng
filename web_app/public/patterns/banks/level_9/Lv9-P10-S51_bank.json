@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P10-S51",
-  "title": "언어 예술의 정점",
-  "description": "언어를 순수 예술의 경지로 승화시켜 아름다움과 진리, 그리고 선함이 하나로 융합된 최고 수준의 표현을 창조하는 궁극의 단계.",
-  "grammar_pattern": "LINGUISTIC-ARTISTRY-PINNACLE",
+  "title": "Stage Lv9-P10-S51",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Words become light, illuminating not just minds but hearts, not just thoughts but the very fabric of human connection.",
-    "In this realm where language transcends utility, every syllable carries the weight of eternity and the lightness of a whisper.",
-    "We stand at the summit of expression where technique dissolves into pure being, and communication becomes communion."
+    "In this realm where language transcends utility, every syllable carries the weight of eternity and the lightness of a whisper."
   ],
-  "learning_points": "언어 예술의 절정으로서 순수한 아름다움과 진리의 표현",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 10,
   "stage_number": 51,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv9-P10-S51-001",
       "kr": "말들이 빛이 되어, 마음뿐만 아니라 가슴을, 생각뿐만 아니라 인간적 연결의 직물 자체를 비춥니다.",
       "en": "Words become light, illuminating not just minds but hearts, not just thoughts but the very fabric of human connection.",
-      "pattern": "LINGUISTIC-ARTISTRY-PINNACLE",
       "form": "aff"
     },
     {
       "id": "Lv9-P10-S51-002",
       "kr": "언어가 실용성을 초월하는 이 영역에서, 모든 음절은 영원의 무게와 속삭임의 가벼움을 동시에 지닙니다.",
       "en": "In this realm where language transcends utility, every syllable carries the weight of eternity and the lightness of a whisper.",
-      "pattern": "LINGUISTIC-ARTISTRY-PINNACLE",
       "form": "aff"
     },
     {
       "id": "Lv9-P10-S51-003",
       "kr": "기법이 순수한 존재로 용해되고, 소통이 교감이 되는 표현의 정상에 우리가 서 있습니다.",
       "en": "We stand at the summit of expression where technique dissolves into pure being, and communication becomes communion.",
-      "pattern": "LINGUISTIC-ARTISTRY-PINNACLE",
       "form": "aff"
     },
     {
       "id": "Lv9-P10-S51-004",
       "kr": "완성된 언어는 거울처럼 우리 내면의 무한함을 반영하며, 동시에 창문처럼 타인의 영혼을 들여다봅니다.",
       "en": "Perfected language reflects our inner infinitude like a mirror, while simultaneously peering into others' souls like a window.",
-      "pattern": "LINGUISTIC-ARTISTRY-PINNACLE",
       "form": "aff"
     },
     {
       "id": "Lv9-P10-S51-005",
       "kr": "이제 침묵조차도 웅변이 되고, 말하지 않음 속에서 가장 깊은 진실이 전해집니다.",
       "en": "Now even silence becomes eloquent, and the deepest truths are conveyed in what remains unspoken.",
-      "pattern": "LINGUISTIC-ARTISTRY-PINNACLE",
       "form": "aff"
     },
     {
       "id": "Lv9-P10-S51-006",
       "kr": "언어의 연금술사가 되어, 평범한 단어들을 만져 황금 같은 의미로 변화시킵니다.",
       "en": "Becoming alchemists of language, we touch ordinary words and transform them into meanings of gold.",
-      "pattern": "LINGUISTIC-ARTISTRY-PINNACLE",
       "form": "aff"
     },
     {
       "id": "Lv9-P10-S51-007",
       "kr": "최고의 표현은 시간을 정지시키고, 한 순간을 영원으로 확장시키는 마법을 부립니다.",
       "en": "Supreme expression casts magic that stops time, expanding a single moment into eternity.",
-      "pattern": "LINGUISTIC-ARTISTRY-PINNACLE",
       "form": "aff"
     },
     {
       "id": "Lv9-P10-S51-008",
       "kr": "언어 예술의 정점에서 우리는 단어의 창조자이자 의미의 조각가가 되어, 불멸의 아름다움을 빚어냅니다.",
       "en": "At the pinnacle of linguistic artistry, we become creators of words and sculptors of meaning, crafting immortal beauty.",
-      "pattern": "LINGUISTIC-ARTISTRY-PINNACLE",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.591Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P10-S51_bank.json"
+    ]
+  }
 }

@@ -1,12 +1,331 @@
 {
   "stage_id": "Lv3-P1-S01",
   "title": "미래 표현 심화",
-  "description": "will vs. be going to를 배워 즉흥적 미래와 계획된 미래의 뉘앙스 차이를 익힙니다. 짝과 서로 미래 계획을 묻고 답하며 두 표현을 모두 사용해 보고, 상황에 맞는 선택 연습을 합니다.",
-  "grammar_pattern": "will + 동사원형 (즉흥적) vs be going to + 동사원형 (계획된)",
-  "examples": ["I will probably stay home. (순간 결정/예측)", "I am going to stay home. (이미 계획된 의도)"],
-  "learning_points": "즉흥적 미래 vs 계획된 미래의 뉘앙스 차이 완전 이해",
+  "description": "Level 3 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "It's going to rain tomorrow. (variant 1)",
+    "I'm going to travel next week. (variant 1)"
+  ],
+  "learning_points": "Level 3 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 1,
-  "count": 0,
-  "sentences": []
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv3-P1-S01-001",
+      "kr": "내일 비가 올 것 같습니다. (확장 1)",
+      "en": "It's going to rain tomorrow. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-002",
+      "kr": "다음 주에 여행을 갈 예정입니다. (확장 1)",
+      "en": "I'm going to travel next week. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-003",
+      "kr": "언젠가는 성공할 것입니다. (확장 1)",
+      "en": "I will succeed someday. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-004",
+      "kr": "오늘 저녁에 친구를 만날 거예요. (확장 1)",
+      "en": "I'm meeting a friend tonight. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-005",
+      "kr": "그 일은 쉽지 않을 것입니다. (확장 1)",
+      "en": "It won't be easy. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-006",
+      "kr": "계획을 바꿀 생각입니다. (확장 1)",
+      "en": "I'm going to change the plan. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-007",
+      "kr": "회의는 언제 시작할 예정인가요? (확장 1)",
+      "en": "When is the meeting going to start? (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-008",
+      "kr": "그들은 곧 도착할 것입니다. (확장 1)",
+      "en": "They will arrive soon. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-009",
+      "kr": "새로운 프로젝트를 시작할 거예요. (확장 1)",
+      "en": "We're starting a new project. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-010",
+      "kr": "날씨가 좋아질 것 같아요. (확장 1)",
+      "en": "The weather is going to get better. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-011",
+      "kr": "내일 비가 올 것 같습니다. (확장 2)",
+      "en": "It's going to rain tomorrow. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-012",
+      "kr": "다음 주에 여행을 갈 예정입니다. (확장 2)",
+      "en": "I'm going to travel next week. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-013",
+      "kr": "언젠가는 성공할 것입니다. (확장 2)",
+      "en": "I will succeed someday. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-014",
+      "kr": "오늘 저녁에 친구를 만날 거예요. (확장 2)",
+      "en": "I'm meeting a friend tonight. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-015",
+      "kr": "그 일은 쉽지 않을 것입니다. (확장 2)",
+      "en": "It won't be easy. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-016",
+      "kr": "계획을 바꿀 생각입니다. (확장 2)",
+      "en": "I'm going to change the plan. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-017",
+      "kr": "회의는 언제 시작할 예정인가요? (확장 2)",
+      "en": "When is the meeting going to start? (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-018",
+      "kr": "그들은 곧 도착할 것입니다. (확장 2)",
+      "en": "They will arrive soon. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-019",
+      "kr": "새로운 프로젝트를 시작할 거예요. (확장 2)",
+      "en": "We're starting a new project. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-020",
+      "kr": "날씨가 좋아질 것 같아요. (확장 2)",
+      "en": "The weather is going to get better. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-021",
+      "kr": "내일 비가 올 것 같습니다. (확장 3)",
+      "en": "It's going to rain tomorrow. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-022",
+      "kr": "다음 주에 여행을 갈 예정입니다. (확장 3)",
+      "en": "I'm going to travel next week. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-023",
+      "kr": "언젠가는 성공할 것입니다. (확장 3)",
+      "en": "I will succeed someday. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-024",
+      "kr": "오늘 저녁에 친구를 만날 거예요. (확장 3)",
+      "en": "I'm meeting a friend tonight. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-025",
+      "kr": "그 일은 쉽지 않을 것입니다. (확장 3)",
+      "en": "It won't be easy. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-026",
+      "kr": "계획을 바꿀 생각입니다. (확장 3)",
+      "en": "I'm going to change the plan. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-027",
+      "kr": "회의는 언제 시작할 예정인가요? (확장 3)",
+      "en": "When is the meeting going to start? (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-028",
+      "kr": "그들은 곧 도착할 것입니다. (확장 3)",
+      "en": "They will arrive soon. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-029",
+      "kr": "새로운 프로젝트를 시작할 거예요. (확장 3)",
+      "en": "We're starting a new project. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-030",
+      "kr": "날씨가 좋아질 것 같아요. (확장 3)",
+      "en": "The weather is going to get better. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S01-031",
+      "kr": "내일 비가 올 것 같습니다. (확장 4)",
+      "en": "It's going to rain tomorrow. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S01-032",
+      "kr": "다음 주에 여행을 갈 예정입니다. (확장 4)",
+      "en": "I'm going to travel next week. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S01-033",
+      "kr": "언젠가는 성공할 것입니다. (확장 4)",
+      "en": "I will succeed someday. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S01-034",
+      "kr": "오늘 저녁에 친구를 만날 거예요. (확장 4)",
+      "en": "I'm meeting a friend tonight. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S01-035",
+      "kr": "그 일은 쉽지 않을 것입니다. (확장 4)",
+      "en": "It won't be easy. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S01-036",
+      "kr": "계획을 바꿀 생각입니다. (확장 4)",
+      "en": "I'm going to change the plan. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S01-037",
+      "kr": "회의는 언제 시작할 예정인가요? (확장 4)",
+      "en": "When is the meeting going to start? (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S01-038",
+      "kr": "그들은 곧 도착할 것입니다. (확장 4)",
+      "en": "They will arrive soon. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S01-039",
+      "kr": "새로운 프로젝트를 시작할 거예요. (확장 4)",
+      "en": "We're starting a new project. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S01-040",
+      "kr": "날씨가 좋아질 것 같아요. (확장 4)",
+      "en": "The weather is going to get better. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S01-041",
+      "kr": "내일 비가 올 것 같습니다. (확장 5)",
+      "en": "It's going to rain tomorrow. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S01-042",
+      "kr": "다음 주에 여행을 갈 예정입니다. (확장 5)",
+      "en": "I'm going to travel next week. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S01-043",
+      "kr": "언젠가는 성공할 것입니다. (확장 5)",
+      "en": "I will succeed someday. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S01-044",
+      "kr": "오늘 저녁에 친구를 만날 거예요. (확장 5)",
+      "en": "I'm meeting a friend tonight. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S01-045",
+      "kr": "그 일은 쉽지 않을 것입니다. (확장 5)",
+      "en": "It won't be easy. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S01-046",
+      "kr": "계획을 바꿀 생각입니다. (확장 5)",
+      "en": "I'm going to change the plan. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S01-047",
+      "kr": "회의는 언제 시작할 예정인가요? (확장 5)",
+      "en": "When is the meeting going to start? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S01-048",
+      "kr": "그들은 곧 도착할 것입니다. (확장 5)",
+      "en": "They will arrive soon. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S01-049",
+      "kr": "새로운 프로젝트를 시작할 거예요. (확장 5)",
+      "en": "We're starting a new project. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S01-050",
+      "kr": "날씨가 좋아질 것 같아요. (확장 5)",
+      "en": "The weather is going to get better. (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L3_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.626Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "data\\banks\\level_3\\Lv3-P1-S01_bank.json"
+    ]
+  }
 }

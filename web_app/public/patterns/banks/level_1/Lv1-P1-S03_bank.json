@@ -1,10 +1,13 @@
 {
   "stage_id": "Lv1-P1-S03",
   "title": "일반동사 과거형",
-  "description": "과거시제를 도입하여 어제/지난 일을 표현합니다. 규칙동사는 -ed를 붙이고, 불규칙동사는 특별 형태를 외워 쓰는 연습을 합니다.",
-  "grammar_pattern": "주어 + 동사과거형 (-ed / 불규칙형)",
-  "examples": ["I played soccer yesterday.", "She went home."],
-  "learning_points": "짧은 과거 문장을 말하며, 흔히 쓰는 동사의 과거형 몇 개를 자연스럽게 암기",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "I will be a doctor. (variant 1)",
+    "You will be happy. (variant 1)"
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 3,
   "count": 50,
@@ -16,7 +19,7 @@
       "form": "aff"
     },
     {
-      "id": "Lv1-P1-S03-002", 
+      "id": "Lv1-P1-S03-002",
       "kr": "너는 행복할 것입니다. (v1)",
       "en": "You will be happy. (variant 1)",
       "form": "aff"
@@ -311,10 +314,18 @@
     }
   ],
   "forms_distribution": {
-    "aff": 35,
-    "neg": 10,
-    "wh_q": 5
+    "aff": 40,
+    "neg": 5,
+    "wh_q": 5,
+    "unknown": 0
   },
-  "status": "generated",
-  "batch": "L1_Basic_Batch1"
+  "status": "complete",
+  "batch": "L1_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.358Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_1\\Lv1-P1-S03_bank.json"
+    ]
+  }
 }

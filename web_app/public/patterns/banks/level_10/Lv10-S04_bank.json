@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv10-S04",
-  "title": "고급 담화 연결 - 반박과 재검토",
-  "description": "논리적 반박과 재검토를 통한 원어민 수준의 비판적 담화 전개 능력을 구사합니다.",
-  "grammar_pattern": "CRITICAL-DISCOURSE-MASTERY",
+  "title": "Stage Lv10-S04",
+  "description": "Level 10 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "That may be so, but we should also consider the opposing view.",
-    "On the one hand, yes, but from another angle, it's a different story.",
-    "On the surface, that's right, but when you dig deeper, there are issues."
+    "On the one hand, yes, but from another angle, it's a different story."
   ],
-  "learning_points": "원어민 수준의 자연스러운 반박과 재검토 표현 구사",
+  "learning_points": "Level 10 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 4,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv10-S04-001",
       "kr": "그렇긴 하지만, 반대 의견도 고려해야 할 것 같아.",
       "en": "That may be so, but we should also consider the opposing view.",
-      "pattern": "CRITICAL-DISCOURSE-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S04-002",
       "kr": "한편으로는 그렇지만, 다른 각도에서 보면 얘기가 달라져.",
       "en": "On the one hand, yes, but from another angle, it's a different story.",
-      "pattern": "CRITICAL-DISCOURSE-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S04-003",
       "kr": "표면적으로는 맞는 말이지만, 더 깊이 파고들면 문제가 있어.",
       "en": "On the surface, that's right, but when you dig deeper, there are issues.",
-      "pattern": "CRITICAL-DISCOURSE-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S04-004",
       "kr": "일견 타당해 보이지만, 실제로는 몇 가지 허점이 있어.",
       "en": "It seems plausible at first glance, but there are actually some gaps.",
-      "pattern": "CRITICAL-DISCOURSE-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S04-005",
       "kr": "이론적으론 맞지만, 현실적으로는 어려움이 따를 거야.",
       "en": "Theoretically, you're right, but practically speaking, there'll be challenges.",
-      "pattern": "CRITICAL-DISCOURSE-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S04-006",
       "kr": "그 논리를 따르면 맞지만, 전제 자체에 문제가 있을 수 있어.",
       "en": "Following that logic, yes, but the premise itself might be flawed.",
-      "pattern": "CRITICAL-DISCOURSE-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S04-007",
       "kr": "부분적으로는 동의하지만, 전체적인 그림은 다르게 봐야 해.",
       "en": "I agree partially, but we need to look at the bigger picture differently.",
-      "pattern": "CRITICAL-DISCOURSE-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S04-008",
       "kr": "그런 관점도 있지만, 좀 더 균형 잡힌 시각이 필요해.",
       "en": "That's one perspective, but we need a more balanced view.",
-      "pattern": "CRITICAL-DISCOURSE-MASTERY",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L10_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.377Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_10\\Lv10-S04_bank.json"
+    ]
+  }
 }

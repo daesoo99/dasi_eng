@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P9-S47",
-  "title": "철학적 담화",
-  "description": "깊이 있는 철학적 사고와 개념을 자연스럽게 담화에 녹여내어 지적 깊이와 성찰을 표현하는 최고급 담화 기법.",
-  "grammar_pattern": "PHILOSOPHICAL-DISCOURSE",
+  "title": "Stage Lv9-P9-S47",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "The essence of progress lies not in reaching destinations, but in transcending the very notion of arrival.",
-    "What we perceive as obstacles may well be the universe's way of teaching us resilience.",
-    "True wisdom emerges when we recognize that knowledge itself is but a stepping stone to understanding."
+    "What we perceive as obstacles may well be the universe's way of teaching us resilience."
   ],
-  "learning_points": "철학적 깊이와 성찰을 담은 고차원적 담화 구성",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 9,
   "stage_number": 47,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv9-P9-S47-001",
       "kr": "진보의 본질은 목적지에 도달하는 것이 아니라, 도착이라는 개념 자체를 초월하는 데 있습니다.",
       "en": "The essence of progress lies not in reaching destinations, but in transcending the very notion of arrival.",
-      "pattern": "PHILOSOPHICAL-DISCOURSE",
       "form": "aff"
     },
     {
       "id": "Lv9-P9-S47-002",
       "kr": "우리가 장애물로 인식하는 것들이 회복력을 가르치는 우주의 방식일 수도 있습니다.",
       "en": "What we perceive as obstacles may well be the universe's way of teaching us resilience.",
-      "pattern": "PHILOSOPHICAL-DISCOURSE",
       "form": "aff"
     },
     {
       "id": "Lv9-P9-S47-003",
       "kr": "진정한 지혜는 지식 자체가 이해로 가는 디딤돌에 불과함을 깨달을 때 나타납니다.",
       "en": "True wisdom emerges when we recognize that knowledge itself is but a stepping stone to understanding.",
-      "pattern": "PHILOSOPHICAL-DISCOURSE",
       "form": "aff"
     },
     {
       "id": "Lv9-P9-S47-004",
       "kr": "존재의 의미는 우리가 무엇인가에서가 아니라 무엇이 되어가고 있는가에서 찾을 수 있습니다.",
       "en": "The meaning of existence lies not in what we are, but in what we are becoming.",
-      "pattern": "PHILOSOPHICAL-DISCOURSE",
       "form": "aff"
     },
     {
       "id": "Lv9-P9-S47-005",
       "kr": "시간은 흘러가는 것이 아니라, 우리가 그 속에서 깨어나는 것입니다.",
       "en": "Time does not pass; rather, we awaken within it.",
-      "pattern": "PHILOSOPHICAL-DISCOURSE",
       "form": "aff"
     },
     {
       "id": "Lv9-P9-S47-006",
       "kr": "진실은 발견되는 것이 아니라 창조되는 것이며, 우리 인식의 산물입니다.",
       "en": "Truth is not discovered but created, a product of our very perception.",
-      "pattern": "PHILOSOPHICAL-DISCOURSE",
       "form": "aff"
     },
     {
       "id": "Lv9-P9-S47-007",
       "kr": "자유의 역설은 선택의 무게를 견딜 때만 진정한 자유를 얻는다는 것입니다.",
       "en": "The paradox of freedom lies in gaining true liberty only when we bear the weight of choice.",
-      "pattern": "PHILOSOPHICAL-DISCOURSE",
       "form": "aff"
     },
     {
       "id": "Lv9-P9-S47-008",
       "kr": "우리가 추구하는 완성은 종료가 아니라 끝없는 시작의 연속입니다.",
       "en": "The perfection we seek is not an end, but an endless succession of new beginnings.",
-      "pattern": "PHILOSOPHICAL-DISCOURSE",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.624Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P9-S47_bank.json"
+    ]
+  }
 }

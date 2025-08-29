@@ -1,0 +1,331 @@
+{
+  "stage_id": "Lv6-D3-S09",
+  "title": "Stage Lv6-D3-S09",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "Innovative technology has been developed. (professional variant 1)",
+    "Prototype development has been completed. (professional variant 1)"
+  ],
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 9,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv6-D3-S09-001",
+      "kr": "혁신적 기술이 개발되었습니다. (전문 1)",
+      "en": "Innovative technology has been developed. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-002",
+      "kr": "프로토타입 제작이 완료되었습니다. (전문 1)",
+      "en": "Prototype development has been completed. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-003",
+      "kr": "특허 출원이 진행 중입니다. (전문 1)",
+      "en": "Patent application is in progress. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-004",
+      "kr": "개념 증명이 성공적이었습니다. (전문 1)",
+      "en": "The proof of concept was successful. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-005",
+      "kr": "상용화 가능성이 높습니다. (전문 1)",
+      "en": "Commercialization potential is high. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-006",
+      "kr": "파괴적 혁신의 가능성이 있습니다. (전문 1)",
+      "en": "There is potential for disruptive innovation. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-007",
+      "kr": "기술 이전 협상이 진행됩니다. (전문 1)",
+      "en": "Technology transfer negotiations are underway. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-008",
+      "kr": "연구개발 투자가 증가했습니다. (전문 1)",
+      "en": "R&D investment has increased. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-009",
+      "kr": "지적 재산권이 보호됩니다. (전문 1)",
+      "en": "Intellectual property rights are protected. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-010",
+      "kr": "최소 기능 제품이 출시되었습니다. (전문 1)",
+      "en": "The minimum viable product has been launched. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-011",
+      "kr": "혁신적 기술이 개발되었습니다. (전문 2)",
+      "en": "Innovative technology has been developed. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-012",
+      "kr": "프로토타입 제작이 완료되었습니다. (전문 2)",
+      "en": "Prototype development has been completed. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-013",
+      "kr": "특허 출원이 진행 중입니다. (전문 2)",
+      "en": "Patent application is in progress. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-014",
+      "kr": "개념 증명이 성공적이었습니다. (전문 2)",
+      "en": "The proof of concept was successful. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-015",
+      "kr": "상용화 가능성이 높습니다. (전문 2)",
+      "en": "Commercialization potential is high. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-016",
+      "kr": "파괴적 혁신의 가능성이 있습니다. (전문 2)",
+      "en": "There is potential for disruptive innovation. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-017",
+      "kr": "기술 이전 협상이 진행됩니다. (전문 2)",
+      "en": "Technology transfer negotiations are underway. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-018",
+      "kr": "연구개발 투자가 증가했습니다. (전문 2)",
+      "en": "R&D investment has increased. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-019",
+      "kr": "지적 재산권이 보호됩니다. (전문 2)",
+      "en": "Intellectual property rights are protected. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-020",
+      "kr": "최소 기능 제품이 출시되었습니다. (전문 2)",
+      "en": "The minimum viable product has been launched. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-021",
+      "kr": "혁신적 기술이 개발되었습니다. (전문 3)",
+      "en": "Innovative technology has been developed. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-022",
+      "kr": "프로토타입 제작이 완료되었습니다. (전문 3)",
+      "en": "Prototype development has been completed. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-023",
+      "kr": "특허 출원이 진행 중입니다. (전문 3)",
+      "en": "Patent application is in progress. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-024",
+      "kr": "개념 증명이 성공적이었습니다. (전문 3)",
+      "en": "The proof of concept was successful. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-025",
+      "kr": "상용화 가능성이 높습니다. (전문 3)",
+      "en": "Commercialization potential is high. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-026",
+      "kr": "파괴적 혁신의 가능성이 있습니다. (전문 3)",
+      "en": "There is potential for disruptive innovation. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-027",
+      "kr": "기술 이전 협상이 진행됩니다. (전문 3)",
+      "en": "Technology transfer negotiations are underway. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-028",
+      "kr": "연구개발 투자가 증가했습니다. (전문 3)",
+      "en": "R&D investment has increased. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-029",
+      "kr": "지적 재산권이 보호됩니다. (전문 3)",
+      "en": "Intellectual property rights are protected. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-030",
+      "kr": "최소 기능 제품이 출시되었습니다. (전문 3)",
+      "en": "The minimum viable product has been launched. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S09-031",
+      "kr": "혁신적 기술이 개발되었습니다. (전문 4)",
+      "en": "Innovative technology has been developed. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S09-032",
+      "kr": "프로토타입 제작이 완료되었습니다. (전문 4)",
+      "en": "Prototype development has been completed. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S09-033",
+      "kr": "특허 출원이 진행 중입니다. (전문 4)",
+      "en": "Patent application is in progress. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S09-034",
+      "kr": "개념 증명이 성공적이었습니다. (전문 4)",
+      "en": "The proof of concept was successful. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S09-035",
+      "kr": "상용화 가능성이 높습니다. (전문 4)",
+      "en": "Commercialization potential is high. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S09-036",
+      "kr": "파괴적 혁신의 가능성이 있습니다. (전문 4)",
+      "en": "There is potential for disruptive innovation. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S09-037",
+      "kr": "기술 이전 협상이 진행됩니다. (전문 4)",
+      "en": "Technology transfer negotiations are underway. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S09-038",
+      "kr": "연구개발 투자가 증가했습니다. (전문 4)",
+      "en": "R&D investment has increased. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S09-039",
+      "kr": "지적 재산권이 보호됩니다. (전문 4)",
+      "en": "Intellectual property rights are protected. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S09-040",
+      "kr": "최소 기능 제품이 출시되었습니다. (전문 4)",
+      "en": "The minimum viable product has been launched. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S09-041",
+      "kr": "혁신적 기술이 개발되었습니다. (전문 5)",
+      "en": "Innovative technology has been developed. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S09-042",
+      "kr": "프로토타입 제작이 완료되었습니다. (전문 5)",
+      "en": "Prototype development has been completed. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S09-043",
+      "kr": "특허 출원이 진행 중입니다. (전문 5)",
+      "en": "Patent application is in progress. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S09-044",
+      "kr": "개념 증명이 성공적이었습니다. (전문 5)",
+      "en": "The proof of concept was successful. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S09-045",
+      "kr": "상용화 가능성이 높습니다. (전문 5)",
+      "en": "Commercialization potential is high. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S09-046",
+      "kr": "파괴적 혁신의 가능성이 있습니다. (전문 5)",
+      "en": "There is potential for disruptive innovation. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S09-047",
+      "kr": "기술 이전 협상이 진행됩니다. (전문 5)",
+      "en": "Technology transfer negotiations are underway. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S09-048",
+      "kr": "연구개발 투자가 증가했습니다. (전문 5)",
+      "en": "R&D investment has increased. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S09-049",
+      "kr": "지적 재산권이 보호됩니다. (전문 5)",
+      "en": "Intellectual property rights are protected. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S09-050",
+      "kr": "최소 기능 제품이 출시되었습니다. (전문 5)",
+      "en": "The minimum viable product has been launched. (professional variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.798Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "backups\\level_6_professional_mastery\\banks\\Lv6-D3-S09_bank.json"
+    ]
+  }
+}

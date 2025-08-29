@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv5-P5-S20",
+  "title": "고급 전환 연결어",
+  "description": "고급 전환 연결어을 연습합니다. ADVANCED-TRANSITIONS 패턴을 활용하여 고급 영어 표현을 익힙니다.",
+  "grammar_pattern": "ADVANCED-TRANSITIONS",
+  "examples": [
+    "The policy was revised; accordingly, all employees must follow the new guidelines.",
+    "Henceforth, new procedures will be implemented.",
+    "Thereafter, the situation improved significantly."
+  ],
+  "learning_points": "discourse-markers 관련 고급 표현과 실용적 활용",
+  "phase": 5,
+  "stage_number": 20,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv5-P5-S20-001",
+      "kr": "정책이 수정되었습니다. 따라서 모든 직원들은 새로운 지침을 따라야 합니다.",
+      "en": "The policy was revised; accordingly, all employees must follow the new guidelines.",
+      "pattern": "ADVANCED-TRANSITIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S20-002",
+      "kr": "이제부터 새로운 절차가 시행됩니다.",
+      "en": "Henceforth, new procedures will be implemented.",
+      "pattern": "ADVANCED-TRANSITIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S20-003",
+      "kr": "그 후로 상황이 크게 개선되었습니다.",
+      "en": "Thereafter, the situation improved significantly.",
+      "pattern": "ADVANCED-TRANSITIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S20-004",
+      "kr": "결과적으로 매출이 증가했습니다.",
+      "en": "Consequently, sales increased.",
+      "pattern": "ADVANCED-TRANSITIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S20-005",
+      "kr": "따라서 계획을 변경해야 합니다.",
+      "en": "Hence, we need to change the plan.",
+      "pattern": "ADVANCED-TRANSITIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S20-006",
+      "kr": "그러므로 추가 투자가 필요합니다.",
+      "en": "Thus, additional investment is required.",
+      "pattern": "ADVANCED-TRANSITIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S20-007",
+      "kr": "오늘부터 새로운 규칙이 적용됩니다.",
+      "en": "From now on, new rules will apply.",
+      "pattern": "ADVANCED-TRANSITIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P5-S20-008",
+      "kr": "그럼에도 불구하고 목표를 달성했습니다.",
+      "en": "Nevertheless, we achieved our goals.",
+      "pattern": "ADVANCED-TRANSITIONS",
+      "form": "aff"
+    }
+  ]
+}

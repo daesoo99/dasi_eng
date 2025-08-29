@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useUser, useAppStore, useLearningMode } from '@/store/useAppStore';
 import { srsService, type SRSCard, type SRSReviewSession } from '@/services/srsService';
@@ -9,10 +9,12 @@ import { AutoSpeakingFlowV2 } from '@/components/AutoSpeakingFlowV2';
 import { FeedbackPanel } from '@/components/FeedbackPanel';
 import { useSpeech } from '@/hooks/useSpeech';
 import { api } from '@/lib/api';
+import { getServiceContainer } from '@/container/ServiceContainer';
+import type { IScoreCalculationService } from '@/container/ServiceContainer';
 import type { DrillCard, FeedbackResponse } from '@/types';
 import type { WritingFeedback } from '@/services/writingMode';
 
-export const AllModePage: React.FC = () => {
+export const AllModePage: React.FC = React.memo(() => {
   const navigate = useNavigate();
   const user = useUser();
   const learningMode = useLearningMode();
@@ -40,6 +42,10 @@ export const AllModePage: React.FC = () => {
   const [cardStartTime, setCardStartTime] = useState<number>(0);
   const [isSessionActive, setIsSessionActive] = useState(false);
 
+  // 서비스 컨테이너에서 의존성 주입
+  const serviceContainer = getServiceContainer();
+  const scoreCalculator: IScoreCalculationService = serviceContainer.getScoreCalculationService();
+  
   const speech = useSpeech({
     apiBaseUrl: import.meta.env.VITE_API_BASE_URL,
     preferCloudSTT: false,
@@ -156,59 +162,135 @@ export const AllModePage: React.FC = () => {
     isSpeaking: boolean,
     writingFeedback?: WritingFeedback
   ) => {
-    if (!currentCardData || !currentSRSCard) return;
+    if (!validateAnswerProcessing()) return;
 
-    const responseTime = (Date.now() - cardStartTime) / 1000;
+    const responseTime = calculateResponseTime();
     setLoading(true);
 
     try {
-      let isCorrect = false;
-      let score = 0;
-
-      if (isSpeaking) {
-        // Speaking 모드 - 기존 피드백 API 사용
-        const feedbackResponse = await api.getFeedback({
-          front_ko: currentCardData.front_ko,
-          sttText: userAnswer,
-          target_en: currentCardData.target_en,
-        });
-
-        if (feedbackResponse.success && feedbackResponse.data) {
-          setSpeechFeedback(feedbackResponse.data);
-          isCorrect = feedbackResponse.data.correct;
-          score = feedbackResponse.data.score;
-        }
-      } else {
-        // Writing 모드 - 이미 처리됨
-        isCorrect = writingFeedback?.isCorrect || false;
-        score = writingFeedback?.score || 0;
-      }
-
-      // SM-2 알고리즘 품질 점수 계산 (0-5)
-      let quality: 0 | 1 | 2 | 3 | 4 | 5 = 3; // 기본값
+      const evaluationResult = await evaluateUserAnswer(userAnswer, isSpeaking, writingFeedback);
       
-      if (!isCorrect) {
-        quality = confidence > 0.7 ? 2 : confidence > 0.4 ? 1 : 0;
-      } else {
-        if (score >= 90) quality = 5;
-        else if (score >= 80) quality = 4;
-        else quality = 3;
+      if (evaluationResult) {
+        await updateSRSRecord(evaluationResult, responseTime);
       }
-
-      // SRS 업데이트
-      await srsService.updateCardAfterReview(user.id, currentSRSCard.cardId, {
-        quality,
-        responseTime,
-        isCorrect
-      });
-
-      // TTS 재생은 이제 AutoSpeakingFlowV2에서 처리됨
 
     } catch (error) {
-      setError('답변 처리 중 오류가 발생했습니다');
+      handleAnswerProcessingError();
     } finally {
       setLoading(false);
     }
+  };
+
+  /**
+   * 답변 처리 전 검증
+   */
+  const validateAnswerProcessing = (): boolean => {
+    return !!(currentCardData && currentSRSCard);
+  };
+
+  /**
+   * 응답 시간 계산
+   */
+  const calculateResponseTime = (): number => {
+    return (Date.now() - cardStartTime) / 1000;
+  };
+
+  /**
+   * 사용자 답변 평가
+   */
+  const evaluateUserAnswer = async (
+    userAnswer: string,
+    isSpeaking: boolean,
+    writingFeedback?: WritingFeedback
+  ): Promise<{ isCorrect: boolean; score: number; confidence: number; responseTime: number } | null> => {
+    let isCorrect = false;
+    let score = 0;
+    const responseTime = calculateResponseTime();
+
+    if (isSpeaking) {
+      const speakingResult = await evaluateSpeakingAnswer(userAnswer);
+      if (!speakingResult) return null;
+      
+      isCorrect = speakingResult.isCorrect;
+      score = speakingResult.score;
+    } else {
+      const writingResult = evaluateWritingAnswer(writingFeedback);
+      isCorrect = writingResult.isCorrect;
+      score = writingResult.score;
+    }
+
+    return { isCorrect, score, confidence: Math.max(0.6, score / 100), responseTime };
+  };
+
+  /**
+   * 말하기 답변 평가
+   */
+  const evaluateSpeakingAnswer = async (userAnswer: string): Promise<{ isCorrect: boolean; score: number } | null> => {
+    if (!currentCardData) return null;
+
+    const feedbackResponse = await api.getFeedback({
+      front_ko: currentCardData.front_ko,
+      sttText: userAnswer,
+      target_en: currentCardData.target_en,
+    });
+
+    if (feedbackResponse.success && feedbackResponse.data) {
+      setSpeechFeedback(feedbackResponse.data);
+      return {
+        isCorrect: feedbackResponse.data.correct,
+        score: feedbackResponse.data.score
+      };
+    }
+
+    return null;
+  };
+
+  /**
+   * 쓰기 답변 평가
+   */
+  const evaluateWritingAnswer = (writingFeedback?: WritingFeedback): { isCorrect: boolean; score: number } => {
+    return {
+      isCorrect: writingFeedback?.isCorrect || false,
+      score: writingFeedback?.score || 0
+    };
+  };
+
+  /**
+   * SRS 레코드 업데이트
+   */
+  const updateSRSRecord = async (
+    evaluationResult: { isCorrect: boolean; score: number; confidence: number; responseTime: number }
+  ): Promise<void> => {
+    if (!currentSRSCard) return;
+
+    const qualityResult = calculateLearningQuality(evaluationResult);
+    
+    console.log('[AllModePage] Quality calculation result:', qualityResult);
+
+    await srsService.updateCardAfterReview(user.id, currentSRSCard.cardId, {
+      quality: qualityResult.quality,
+      responseTime: evaluationResult.responseTime,
+      isCorrect: evaluationResult.isCorrect
+    });
+  };
+
+  /**
+   * 학습 품질 점수 계산
+   */
+  const calculateLearningQuality = (evaluationResult: { isCorrect: boolean; score: number; confidence: number; responseTime: number }) => {
+    return scoreCalculator.calculateQuality({
+      isCorrect: evaluationResult.isCorrect,
+      confidence: evaluationResult.confidence,
+      score: evaluationResult.score,
+      responseTime: evaluationResult.responseTime
+    });
+  };
+
+  /**
+   * 답변 처리 에러 처리
+   */
+  const handleAnswerProcessingError = (): void => {
+    setError('답변 처리 중 오류가 발생했습니다');
   };
 
   const handleNextCard = () => {

@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P4-S24",
-  "title": "아이러니와 옆설법",
-  "description": "irony와 satire를 사용하여 비판적 메시지를 전달하는 고급 수사 기법. 표면적 의미와 숨은 의미 사이의 고도의 언어적 기교.",
-  "grammar_pattern": "IRONY-SATIRE",
+  "title": "Stage Lv9-P4-S24",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "What a brilliant idea to have a meeting about reducing meetings.",
-    "The fire station burned down while the firefighters were out on a call.",
-    "How wonderfully efficient our government is at creating bureaucracy."
+    "The fire station burned down while the firefighters were out on a call."
   ],
-  "learning_points": "아이러니와 옶설법을 통한 세련된 비판과 유머",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 4,
   "stage_number": 24,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv9-P4-S24-001",
       "kr": "회의를 줄이기 위해 회의를 한다니, 정말 훌륭한 아이디어네요.",
       "en": "What a brilliant idea to have a meeting about reducing meetings.",
-      "pattern": "IRONY-SATIRE",
       "form": "aff"
     },
     {
       "id": "Lv9-P4-S24-002",
       "kr": "소방서가 소방관들이 출동 중인 동안 불타 버렸습니다.",
       "en": "The fire station burned down while the firefighters were out on a call.",
-      "pattern": "IRONY-SATIRE",
       "form": "aff"
     },
     {
       "id": "Lv9-P4-S24-003",
       "kr": "관료제를 만드는 데 있어 우리 정부가 얼마나 효율적인지 보세요.",
       "en": "How wonderfully efficient our government is at creating bureaucracy.",
-      "pattern": "IRONY-SATIRE",
       "form": "aff"
     },
     {
       "id": "Lv9-P4-S24-004",
       "kr": "비를 맞으며 우산 파는 사람의 대기력이 대단하네요.",
       "en": "How admirable is the patience of someone selling umbrellas in the rain.",
-      "pattern": "IRONY-SATIRE",
       "form": "aff"
     },
     {
       "id": "Lv9-P4-S24-005",
       "kr": "언젠가 온다는 하늘의 도움을 기다리는 중입니다.",
       "en": "We're waiting for help from heaven that will come someday.",
-      "pattern": "IRONY-SATIRE",
       "form": "aff"
     },
     {
       "id": "Lv9-P4-S24-006",
       "kr": "완벽한 시스템을 만들었다고 자랑하는데 아무도 사용하지 않네요.",
       "en": "They boast of creating a perfect system that nobody uses.",
-      "pattern": "IRONY-SATIRE",
       "form": "aff"
     },
     {
       "id": "Lv9-P4-S24-007",
       "kr": "세상에서 가장 비싼 고급 상품을 파는 지혜로움이지요.",
       "en": "What wisdom it is to sell the world's most expensive luxury goods.",
-      "pattern": "IRONY-SATIRE",
       "form": "aff"
     },
     {
       "id": "Lv9-P4-S24-008",
       "kr": "모든 문제를 해결해주는 만능 앱이 아무 문제도 해결하지 못하다니요.",
       "en": "The all-solving app that solves no problems at all.",
-      "pattern": "IRONY-SATIRE",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.607Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P4-S24_bank.json"
+    ]
+  }
 }

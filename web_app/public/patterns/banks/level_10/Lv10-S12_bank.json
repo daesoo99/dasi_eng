@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv10-S12",
-  "title": "원어민 반응 - 의심과 회의",
-  "description": "자연스러운 의심과 회의를 표현하는 원어민 수준의 반응 표현을 구사합니다.",
-  "grammar_pattern": "NATIVE-REACTION-SKEPTICISM",
+  "title": "Stage Lv10-S12",
+  "description": "Level 10 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Really? I'm a bit skeptical about that...",
-    "Hmm, is that really true? I'm not entirely convinced.",
-    "Doesn't that seem a bit odd? Something doesn't add up."
+    "Hmm, is that really true? I'm not entirely convinced."
   ],
-  "learning_points": "원어민 수준의 자연스러운 의심과 회의 표현 구사",
-  "phase": 2,
+  "learning_points": "Level 10 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 12,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv10-S12-001",
       "kr": "정말? 좀 의심스러운데...",
       "en": "Really? I'm a bit skeptical about that...",
-      "pattern": "NATIVE-REACTION-SKEPTICISM",
       "form": "aff"
     },
     {
       "id": "Lv10-S12-002",
       "kr": "음, 그게 사실일까? 확신이 안 서네.",
       "en": "Hmm, is that really true? I'm not entirely convinced.",
-      "pattern": "NATIVE-REACTION-SKEPTICISM",
       "form": "aff"
     },
     {
       "id": "Lv10-S12-003",
       "kr": "좀 이상하지 않아? 뭔가 석연치 않아.",
       "en": "Doesn't that seem a bit odd? Something doesn't add up.",
-      "pattern": "NATIVE-REACTION-SKEPTICISM",
       "form": "aff"
     },
     {
       "id": "Lv10-S12-004",
       "kr": "그런 것 같기도 하고... 하지만 확실하지 않아.",
       "en": "It might seem that way... but I'm not so sure.",
-      "pattern": "NATIVE-REACTION-SKEPTICISM",
       "form": "aff"
     },
     {
       "id": "Lv10-S12-005",
       "kr": "글쎄, 과연 그럴까? 좀 더 신중하게 봐야 할 것 같아.",
       "en": "Well, I wonder about that. We should probably look at it more carefully.",
-      "pattern": "NATIVE-REACTION-SKEPTICISM",
       "form": "aff"
     },
     {
       "id": "Lv10-S12-006",
       "kr": "진짜로? 좀 과장된 것 같은데.",
       "en": "For real? That sounds a bit exaggerated to me.",
-      "pattern": "NATIVE-REACTION-SKEPTICISM",
       "form": "aff"
     },
     {
       "id": "Lv10-S12-007",
       "kr": "그럴 수도 있겠지만, 뭔가 빠뜨린 게 있는 것 같아.",
       "en": "That could be, but I feel like we're missing something.",
-      "pattern": "NATIVE-REACTION-SKEPTICISM",
       "form": "aff"
     },
     {
       "id": "Lv10-S12-008",
       "kr": "확신해도 돼? 좀 더 확인해볼 필요가 있을 것 같은데.",
       "en": "Are you sure about that? I think we might need to double-check.",
-      "pattern": "NATIVE-REACTION-SKEPTICISM",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L10_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.383Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_10\\Lv10-S12_bank.json"
+    ]
+  }
 }

@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv8-C6-S47",
+  "title": "성취 평가 및 다음 단계 안내",
+  "description": "Level 8의 학습 성과를 평가하고 다음 레벨로의 발전을 위한 방향을 제시하는 마무리 단계입니다.",
+  "grammar_pattern": "ACHIEVEMENT-ASSESSMENT-GUIDANCE",
+  "examples": [
+    "Congratulations on mastering these advanced discourse patterns - you've achieved remarkable fluency.",
+    "Your command of sophisticated English structures now enables you to communicate at the highest professional levels.",
+    "As you progress to Level 9, you'll explore even more nuanced aspects of expert-level communication."
+  ],
+  "learning_points": "Level 8 완료 평가와 Level 9으로의 진행 가이드",
+  "phase": 6,
+  "stage_number": 47,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv8-C6-S47-001",
+      "kr": "이러한 고급 담화 패턴을 마스터하신 것을 축하드립니다 - 놀라운 유창함을 달성하셨습니다.",
+      "en": "Congratulations on mastering these advanced discourse patterns - you've achieved remarkable fluency.",
+      "pattern": "ACHIEVEMENT-ASSESSMENT-GUIDANCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S47-002",
+      "kr": "정교한 영어 구조에 대한 귀하의 숙련도는 이제 최고 수준의 전문적 의사소통을 가능하게 합니다.",
+      "en": "Your command of sophisticated English structures now enables you to communicate at the highest professional levels.",
+      "pattern": "ACHIEVEMENT-ASSESSMENT-GUIDANCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S47-003",
+      "kr": "Level 9로 진행하시면서 전문가 수준 의사소통의 더욱 미묘한 측면들을 탐구하게 될 것입니다.",
+      "en": "As you progress to Level 9, you'll explore even more nuanced aspects of expert-level communication.",
+      "pattern": "ACHIEVEMENT-ASSESSMENT-GUIDANCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S47-004",
+      "kr": "귀하는 이제 복잡한 아이디어를 우아하고 설득력 있게 표현할 수 있습니다.",
+      "en": "You can now articulate complex ideas with elegance and persuasive power.",
+      "pattern": "ACHIEVEMENT-ASSESSMENT-GUIDANCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S47-005",
+      "kr": "문체와 어조를 상황에 맞게 조절하는 능력이 탁월하게 발달했습니다.",
+      "en": "Your ability to modulate style and tone appropriately has developed exceptionally.",
+      "pattern": "ACHIEVEMENT-ASSESSMENT-GUIDANCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S47-006",
+      "kr": "다음 단계에서는 원어민 수준의 자연스러움과 창의성을 개발하게 됩니다.",
+      "en": "In the next phase, you'll develop native-level naturalness and creativity.",
+      "pattern": "ACHIEVEMENT-ASSESSMENT-GUIDANCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S47-007",
+      "kr": "Level 8을 성공적으로 완료하셨으며, 진정한 영어 담화 전문가가 되셨습니다.",
+      "en": "You have successfully completed Level 8 and become a true English discourse expert.",
+      "pattern": "ACHIEVEMENT-ASSESSMENT-GUIDANCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C6-S47-008",
+      "kr": "이제 귀하는 어떤 전문적 상황에서도 자신감 있게 의사소통할 준비가 되었습니다.",
+      "en": "You are now prepared to communicate confidently in any professional context.",
+      "pattern": "ACHIEVEMENT-ASSESSMENT-GUIDANCE",
+      "form": "aff"
+    }
+  ]
+}

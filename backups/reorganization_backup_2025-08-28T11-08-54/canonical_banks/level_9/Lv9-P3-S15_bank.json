@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv9-P3-S15",
+  "title": "객관화 표현 II",
+  "description": "The data suggest that... (데이터가 ~을 시사한다) 등. 예) The data suggest that customer satisfaction has improved. 주관 제거한 표현으로 말하기.",
+  "grammar_pattern": "DATA-BASED-EXPRESSIONS",
+  "examples": [
+    "The data suggest that customer satisfaction has improved.",
+    "Research indicates that this approach is more effective.",
+    "Evidence shows that our hypothesis is correct."
+  ],
+  "learning_points": "데이터 기반 객관적 표현을 사용한 전문적 분석",
+  "phase": 3,
+  "stage_number": 15,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv9-P3-S15-001",
+      "kr": "데이터에 따르면 고객 만족도가 향상되었습니다.",
+      "en": "The data suggest that customer satisfaction has improved.",
+      "pattern": "DATA-BASED-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P3-S15-002",
+      "kr": "연구 결과에 따르면 이 접근법이 더 효과적입니다.",
+      "en": "Research indicates that this approach is more effective.",
+      "pattern": "DATA-BASED-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P3-S15-003",
+      "kr": "증거에 따르면 우리 가설이 맞는 것으로 나타났습니다.",
+      "en": "Evidence shows that our hypothesis is correct.",
+      "pattern": "DATA-BASED-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P3-S15-004",
+      "kr": "분석 결과에 따르면 시장 동향이 변화하고 있습니다.",
+      "en": "Analysis reveals that market trends are shifting.",
+      "pattern": "DATA-BASED-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P3-S15-005",
+      "kr": "통계에 따르면 생산성이 크게 증가했습니다.",
+      "en": "Statistics demonstrate that productivity has increased significantly.",
+      "pattern": "DATA-BASED-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P3-S15-006",
+      "kr": "조사 결과에 따르면 직원 만족도가 높아졌습니다.",
+      "en": "Survey findings indicate that employee satisfaction has risen.",
+      "pattern": "DATA-BASED-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P3-S15-007",
+      "kr": "반복 실험 결과에 따르면 이 방법이 신뢰할 만하다고 입증되었습니다.",
+      "en": "Repeated trials confirm that this method is reliable.",
+      "pattern": "DATA-BASED-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P3-S15-008",
+      "kr": "비교 연구에 따르면 새로운 시스템이 우수한 성능을 보여줍니다.",
+      "en": "Comparative studies suggest that the new system performs better.",
+      "pattern": "DATA-BASED-EXPRESSIONS",
+      "form": "aff"
+    }
+  ]
+}

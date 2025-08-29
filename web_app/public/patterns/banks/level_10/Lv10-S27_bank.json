@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv10-S27",
-  "title": "뉘앙스 전달 - 상황적 뉘앙스",
-  "description": "상황과 맥락의 미묘한 뉘앙스를 효과적으로 전달하는 원어민 수준의 표현을 구사합니다.",
-  "grammar_pattern": "SITUATIONAL-NUANCE-CONVEYANCE",
+  "title": "Stage Lv10-S27",
+  "description": "Level 10 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "The atmosphere suggests it's not the right time to say it.",
-    "The situation is a bit delicate. We should approach it carefully.",
-    "The timing is perfect. It couldn't be better."
+    "The situation is a bit delicate. We should approach it carefully."
   ],
-  "learning_points": "원어민 수준의 자연스러운 상황적 뉘앙스 표현 구사",
-  "phase": 3,
+  "learning_points": "Level 10 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 27,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv10-S27-001",
       "kr": "분위기상 지금은 말하기 좀 그런 것 같아.",
       "en": "The atmosphere suggests it's not the right time to say it.",
-      "pattern": "SITUATIONAL-NUANCE-CONVEYANCE",
       "form": "aff"
     },
     {
       "id": "Lv10-S27-002",
       "kr": "상황이 좀 미묘해. 조심스럽게 접근해야 할 것 같아.",
       "en": "The situation is a bit delicate. We should approach it carefully.",
-      "pattern": "SITUATIONAL-NUANCE-CONVEYANCE",
       "form": "aff"
     },
     {
       "id": "Lv10-S27-003",
       "kr": "타이밍이 절묘하네. 이보다 좋을 순 없어.",
       "en": "The timing is perfect. It couldn't be better.",
-      "pattern": "SITUATIONAL-NUANCE-CONVEYANCE",
       "form": "aff"
     },
     {
       "id": "Lv10-S27-004",
       "kr": "뭔가 어정쩡한 상태야. 확실히 하고 싶은데.",
       "en": "It's in a somewhat ambiguous state. I'd like to clarify it.",
-      "pattern": "SITUATIONAL-NUANCE-CONVEYANCE",
       "form": "aff"
     },
     {
       "id": "Lv10-S27-005",
       "kr": "공기가 좀 무거워. 뭔가 일어날 것 같아.",
       "en": "The air feels heavy. Something seems about to happen.",
-      "pattern": "SITUATIONAL-NUANCE-CONVEYANCE",
       "form": "aff"
     },
     {
       "id": "Lv10-S27-006",
       "kr": "상황이 좀 애매해졌네. 어떻게 해야 할지 모르겠어.",
       "en": "The situation has become a bit unclear. I don't know what to do.",
-      "pattern": "SITUATIONAL-NUANCE-CONVEYANCE",
       "form": "aff"
     },
     {
       "id": "Lv10-S27-007",
       "kr": "분위기를 봐서는, 지금이 기회인 것 같아.",
       "en": "Reading the room, I think now's the opportunity.",
-      "pattern": "SITUATIONAL-NUANCE-CONVEYANCE",
       "form": "aff"
     },
     {
       "id": "Lv10-S27-008",
       "kr": "좀 이상한 흐름인데? 뭔가 바뀐 것 같아.",
       "en": "The flow seems a bit strange? Something seems to have changed.",
-      "pattern": "SITUATIONAL-NUANCE-CONVEYANCE",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L10_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.397Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_10\\Lv10-S27_bank.json"
+    ]
+  }
 }

@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv10-S47",
+  "title": "은유 표현 - 철학적 은유",
+  "description": "깊이 있는 철학적 사고를 은유로 표현하는 원어민 수준의 고급 표현을 구사합니다.",
+  "grammar_pattern": "PHILOSOPHICAL-METAPHOR-MASTERY",
+  "examples": [
+    "Life is like a long journey, isn't it?",
+    "Time flows like a river.",
+    "We're all just pieces of a bigger picture."
+  ],
+  "learning_points": "원어민 수준의 자연스러운 철학적 은유 표현 구사",
+  "phase": 5,
+  "stage_number": 47,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv10-S47-001",
+      "kr": "인생은 긴 여행 같은 거잖아.",
+      "en": "Life is like a long journey, isn't it?",
+      "pattern": "PHILOSOPHICAL-METAPHOR-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S47-002",
+      "kr": "시간은 강물처럼 흘러가는 거야.",
+      "en": "Time flows like a river.",
+      "pattern": "PHILOSOPHICAL-METAPHOR-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S47-003",
+      "kr": "우리 모두는 큰 그림의 한 조각일 뿐이야.",
+      "en": "We're all just pieces of a bigger picture.",
+      "pattern": "PHILOSOPHICAL-METAPHOR-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S47-004",
+      "kr": "지식은 빛과 같아서 어둠을 밝혀주지.",
+      "en": "Knowledge is like light that illuminates darkness.",
+      "pattern": "PHILOSOPHICAL-METAPHOR-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S47-005",
+      "kr": "경험이 우리를 조각하는 조각가 같아.",
+      "en": "Experience is like a sculptor that shapes us.",
+      "pattern": "PHILOSOPHICAL-METAPHOR-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S47-006",
+      "kr": "꿈은 우리를 이끄는 나침반 같은 거야.",
+      "en": "Dreams are like a compass that guides us.",
+      "pattern": "PHILOSOPHICAL-METAPHOR-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S47-007",
+      "kr": "기회는 문과 같아서 두드려야 열려.",
+      "en": "Opportunity is like a door - you have to knock for it to open.",
+      "pattern": "PHILOSOPHICAL-METAPHOR-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S47-008",
+      "kr": "지혜는 깊은 우물 같아서 계속 파야 해.",
+      "en": "Wisdom is like a deep well - you have to keep digging.",
+      "pattern": "PHILOSOPHICAL-METAPHOR-MASTERY",
+      "form": "aff"
+    }
+  ]
+}

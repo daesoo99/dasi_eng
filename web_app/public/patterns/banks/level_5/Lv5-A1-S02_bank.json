@@ -1,0 +1,331 @@
+{
+  "stage_id": "Lv5-A1-S02",
+  "title": "Stage Lv5-A1-S02",
+  "description": "Level 5 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "Previous studies have shown a consistent pattern. (academic variant 1)",
+    "From a theoretical perspective, this approach appears to be valid. (academic variant 1)"
+  ],
+  "learning_points": "Level 5 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 2,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv5-A1-S02-001",
+      "kr": "선행 연구들은 일관된 패턴을 보여주었습니다. (학술 1)",
+      "en": "Previous studies have shown a consistent pattern. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-002",
+      "kr": "이론적 관점에서 볼 때 이 접근법이 타당합니다. (학술 1)",
+      "en": "From a theoretical perspective, this approach appears to be valid. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-003",
+      "kr": "문헌 검토 결과 연구 공백이 확인되었습니다. (학술 1)",
+      "en": "The literature review revealed a research gap. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-004",
+      "kr": "학자들 간에 이 주제에 대한 합의가 부족합니다. (학술 1)",
+      "en": "There appears to be a lack of consensus among scholars on this topic. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-005",
+      "kr": "포괄적 분석을 통해 새로운 관점을 제시합니다. (학술 1)",
+      "en": "We present a new perspective through comprehensive analysis. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-006",
+      "kr": "기존 연구의 한계점들이 지적되어 왔습니다. (학술 1)",
+      "en": "Limitations of existing research have been pointed out. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-007",
+      "kr": "이론적 틀이 현상 설명에 적합한지 검토합니다. (학술 1)",
+      "en": "We examine whether the theoretical framework appears to be suitable for explaining the phenomenon. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-008",
+      "kr": "비판적 검토를 통해 연구의 방향을 설정했습니다. (학술 1)",
+      "en": "We established the research direction through critical review. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-009",
+      "kr": "다양한 패러다임이 이 문제에 적용되어 왔습니다. (학술 1)",
+      "en": "Various paradigms have been applied to this problem. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-010",
+      "kr": "문헌 종합 결과 새로운 연구 질문이 도출되었습니다. (학술 1)",
+      "en": "The synthesis of literature led to new research questions. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-011",
+      "kr": "선행 연구들은 일관된 패턴을 보여주었습니다. (학술 2)",
+      "en": "Previous studies have shown a consistent pattern. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-012",
+      "kr": "이론적 관점에서 볼 때 이 접근법이 타당합니다. (학술 2)",
+      "en": "From a theoretical perspective, this approach appears to be valid. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-013",
+      "kr": "문헌 검토 결과 연구 공백이 확인되었습니다. (학술 2)",
+      "en": "The literature review revealed a research gap. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-014",
+      "kr": "학자들 간에 이 주제에 대한 합의가 부족합니다. (학술 2)",
+      "en": "There appears to be a lack of consensus among scholars on this topic. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-015",
+      "kr": "포괄적 분석을 통해 새로운 관점을 제시합니다. (학술 2)",
+      "en": "We present a new perspective through comprehensive analysis. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-016",
+      "kr": "기존 연구의 한계점들이 지적되어 왔습니다. (학술 2)",
+      "en": "Limitations of existing research have been pointed out. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-017",
+      "kr": "이론적 틀이 현상 설명에 적합한지 검토합니다. (학술 2)",
+      "en": "We examine whether the theoretical framework appears to be suitable for explaining the phenomenon. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-018",
+      "kr": "비판적 검토를 통해 연구의 방향을 설정했습니다. (학술 2)",
+      "en": "We established the research direction through critical review. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-019",
+      "kr": "다양한 패러다임이 이 문제에 적용되어 왔습니다. (학술 2)",
+      "en": "Various paradigms have been applied to this problem. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-020",
+      "kr": "문헌 종합 결과 새로운 연구 질문이 도출되었습니다. (학술 2)",
+      "en": "The synthesis of literature led to new research questions. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-021",
+      "kr": "선행 연구들은 일관된 패턴을 보여주었습니다. (학술 3)",
+      "en": "Previous studies have shown a consistent pattern. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-022",
+      "kr": "이론적 관점에서 볼 때 이 접근법이 타당합니다. (학술 3)",
+      "en": "From a theoretical perspective, this approach appears to be valid. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-023",
+      "kr": "문헌 검토 결과 연구 공백이 확인되었습니다. (학술 3)",
+      "en": "The literature review revealed a research gap. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-024",
+      "kr": "학자들 간에 이 주제에 대한 합의가 부족합니다. (학술 3)",
+      "en": "There appears to be a lack of consensus among scholars on this topic. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-025",
+      "kr": "포괄적 분석을 통해 새로운 관점을 제시합니다. (학술 3)",
+      "en": "We present a new perspective through comprehensive analysis. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-026",
+      "kr": "기존 연구의 한계점들이 지적되어 왔습니다. (학술 3)",
+      "en": "Limitations of existing research have been pointed out. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-027",
+      "kr": "이론적 틀이 현상 설명에 적합한지 검토합니다. (학술 3)",
+      "en": "We examine whether the theoretical framework appears to be suitable for explaining the phenomenon. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-028",
+      "kr": "비판적 검토를 통해 연구의 방향을 설정했습니다. (학술 3)",
+      "en": "We established the research direction through critical review. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-029",
+      "kr": "다양한 패러다임이 이 문제에 적용되어 왔습니다. (학술 3)",
+      "en": "Various paradigms have been applied to this problem. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-030",
+      "kr": "문헌 종합 결과 새로운 연구 질문이 도출되었습니다. (학술 3)",
+      "en": "The synthesis of literature led to new research questions. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A1-S02-031",
+      "kr": "선행 연구들은 일관된 패턴을 보여주었습니다. (학술 4)",
+      "en": "Previous studies have shown a consistent pattern. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A1-S02-032",
+      "kr": "이론적 관점에서 볼 때 이 접근법이 타당합니다. (학술 4)",
+      "en": "From a theoretical perspective, this approach appears to be valid. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A1-S02-033",
+      "kr": "문헌 검토 결과 연구 공백이 확인되었습니다. (학술 4)",
+      "en": "The literature review revealed a research gap. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A1-S02-034",
+      "kr": "학자들 간에 이 주제에 대한 합의가 부족합니다. (학술 4)",
+      "en": "There appears to be a lack of consensus among scholars on this topic. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A1-S02-035",
+      "kr": "포괄적 분석을 통해 새로운 관점을 제시합니다. (학술 4)",
+      "en": "We present a new perspective through comprehensive analysis. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A1-S02-036",
+      "kr": "기존 연구의 한계점들이 지적되어 왔습니다. (학술 4)",
+      "en": "Limitations of existing research have been pointed out. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A1-S02-037",
+      "kr": "이론적 틀이 현상 설명에 적합한지 검토합니다. (학술 4)",
+      "en": "We examine whether the theoretical framework appears to be suitable for explaining the phenomenon. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A1-S02-038",
+      "kr": "비판적 검토를 통해 연구의 방향을 설정했습니다. (학술 4)",
+      "en": "We established the research direction through critical review. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A1-S02-039",
+      "kr": "다양한 패러다임이 이 문제에 적용되어 왔습니다. (학술 4)",
+      "en": "Various paradigms have been applied to this problem. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A1-S02-040",
+      "kr": "문헌 종합 결과 새로운 연구 질문이 도출되었습니다. (학술 4)",
+      "en": "The synthesis of literature led to new research questions. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A1-S02-041",
+      "kr": "선행 연구들은 일관된 패턴을 보여주었습니다. (학술 5)",
+      "en": "Previous studies have shown a consistent pattern. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A1-S02-042",
+      "kr": "이론적 관점에서 볼 때 이 접근법이 타당합니다. (학술 5)",
+      "en": "From a theoretical perspective, this approach appears to be valid. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A1-S02-043",
+      "kr": "문헌 검토 결과 연구 공백이 확인되었습니다. (학술 5)",
+      "en": "The literature review revealed a research gap. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A1-S02-044",
+      "kr": "학자들 간에 이 주제에 대한 합의가 부족합니다. (학술 5)",
+      "en": "There appears to be a lack of consensus among scholars on this topic. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A1-S02-045",
+      "kr": "포괄적 분석을 통해 새로운 관점을 제시합니다. (학술 5)",
+      "en": "We present a new perspective through comprehensive analysis. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A1-S02-046",
+      "kr": "기존 연구의 한계점들이 지적되어 왔습니다. (학술 5)",
+      "en": "Limitations of existing research have been pointed out. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A1-S02-047",
+      "kr": "이론적 틀이 현상 설명에 적합한지 검토합니다. (학술 5)",
+      "en": "We examine whether the theoretical framework appears to be suitable for explaining the phenomenon. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A1-S02-048",
+      "kr": "비판적 검토를 통해 연구의 방향을 설정했습니다. (학술 5)",
+      "en": "We established the research direction through critical review. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A1-S02-049",
+      "kr": "다양한 패러다임이 이 문제에 적용되어 왔습니다. (학술 5)",
+      "en": "Various paradigms have been applied to this problem. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A1-S02-050",
+      "kr": "문헌 종합 결과 새로운 연구 질문이 도출되었습니다. (학술 5)",
+      "en": "The synthesis of literature led to new research questions. (academic variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L5_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.774Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "backups\\level_5_academic_mastery\\banks\\Lv5-A1-S02_bank.json"
+    ]
+  }
+}

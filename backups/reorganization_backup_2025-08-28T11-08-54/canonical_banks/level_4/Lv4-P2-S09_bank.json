@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv4-P2-S09",
+  "title": "도치 구문",
+  "description": "문두에 부정어/제한어구 등을 두어 도치하는 표현을 익힙니다. 문장 구조가 평서문의 어순과 달라지므로, 여러 예문을 따라 말하며 강조를 위한 도치 표현을 몸에 익힙니다.",
+  "grammar_pattern": "Not only + 도치절, but also + 평서절 / Never + 조동사 + 주어 + 동사 / Hardly + 조동사 + 주어 + 동사 + when...",
+  "examples": ["Not only did we lose money, but we also lost time.", "Never have I seen such a view!", "Hardly had I arrived when the show started."],
+  "learning_points": "부정어와 제한어구를 이용한 강조 도치 구문",
+  "phase": 2,
+  "stage_number": 9,
+  "count": 0,
+  "sentences": []
+}

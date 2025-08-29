@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv6-P6-S37",
-  "title": "형용사/분사 도치",
-  "description": "형용사나 분사를 문두로 도치하여 문어체적 표현을 연습합니다. ADJECTIVE-PARTICIPLE-INVERSION 패턴을 연습합니다.",
-  "grammar_pattern": "ADJECTIVE-PARTICIPLE-INVERSION",
+  "title": "Stage Lv6-P6-S37",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "So beautiful was the view that we couldn't believe our eyes.",
-    "Gone are the days when we could travel freely.",
-    "Such was the impact of the technology that it revolutionized the industry."
+    "Gone are the days when we could travel freely."
   ],
-  "learning_points": "문어체적 도치를 통한 극적이고 격식 있는 표현",
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
   "phase": 6,
   "stage_number": 37,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv6-P6-S37-001",
       "kr": "경치가 너무 아름다워서 우리는 눈을 믿을 수 없었습니다.",
       "en": "So beautiful was the view that we couldn't believe our eyes.",
-      "pattern": "ADJECTIVE-PARTICIPLE-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv6-P6-S37-002",
       "kr": "자유롭게 여행할 수 있던 시절은 지나갔습니다.",
       "en": "Gone are the days when we could travel freely.",
-      "pattern": "ADJECTIVE-PARTICIPLE-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv6-P6-S37-003",
       "kr": "기술의 영향이 너무 커서 산업 전체를 혁신시켰습니다.",
       "en": "Such was the impact of the technology that it revolutionized the industry.",
-      "pattern": "ADJECTIVE-PARTICIPLE-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv6-P6-S37-004",
       "kr": "결과가 너무 놀라워서 모든 사람이 충격을 받았습니다.",
       "en": "So surprising were the results that everyone was shocked.",
-      "pattern": "ADJECTIVE-PARTICIPLE-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv6-P6-S37-005",
       "kr": "단순한 경쟁만으로 해결되던 시대는 끝났습니다.",
       "en": "Gone are the times when simple competition could solve everything.",
-      "pattern": "ADJECTIVE-PARTICIPLE-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv6-P6-S37-006",
       "kr": "성공이 너무 갑작스러워서 팀 전체가 당황했습니다.",
       "en": "So sudden was the success that the entire team was taken aback.",
-      "pattern": "ADJECTIVE-PARTICIPLE-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv6-P6-S37-007",
       "kr": "우리가 전통적인 방법에만 의존하던 시절은 지나갔습니다.",
       "en": "Gone are the days when we relied solely on traditional methods.",
-      "pattern": "ADJECTIVE-PARTICIPLE-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv6-P6-S37-008",
       "kr": "변화가 너무 급격해서 모든 계획을 재검토해야 했습니다.",
       "en": "So rapid was the change that we had to review all our plans.",
-      "pattern": "ADJECTIVE-PARTICIPLE-INVERSION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.489Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_6\\Lv6-P6-S37_bank.json"
+    ]
+  }
 }

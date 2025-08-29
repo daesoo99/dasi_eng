@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv7-P6-S33",
-  "title": "복합 도치 결합",
-  "description": "부정어 도치 + 조건문 도치를 결합하거나, 부정어 도치 + 강조구문을 결합하는 등 창의적 문장을 말해봅니다.",
-  "grammar_pattern": "COMPLEX-INVERSION-COMBINATION",
+  "title": "Stage Lv7-P6-S33",
+  "description": "Level 7 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Had I known, never would I have agreed to the deal under those terms.",
-    "Were she to accept, seldom would we see such dedication in our company.",
-    "Should you decide to leave, rarely will we find someone with your expertise."
+    "Were she to accept, seldom would we see such dedication in our company."
   ],
-  "learning_points": "복합 도치 구조를 통한 고급 강조 표현과 창의적 문장 구성",
+  "learning_points": "Level 7 target grammar and expressions with practical usage examples",
   "phase": 6,
   "stage_number": 33,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv7-P6-S33-001",
       "kr": "알았더라면, 그런 조건으로는 절대 거래에 동의하지 않았을 것이다.",
       "en": "Had I known, never would I have agreed to the deal under those terms.",
-      "pattern": "COMPLEX-INVERSION-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S33-002",
       "kr": "그녀가 수락한다면, 우리 회사에서 그런 헌신을 좀처럼 보지 못할 것이다.",
       "en": "Were she to accept, seldom would we see such dedication in our company.",
-      "pattern": "COMPLEX-INVERSION-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S33-003",
       "kr": "당신이 떠나기로 결정한다면, 당신 같은 전문성을 가진 사람을 좀처럼 찾지 못할 것이다.",
       "en": "Should you decide to leave, rarely will we find someone with your expertise.",
-      "pattern": "COMPLEX-INVERSION-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S33-004",
       "kr": "그들이 투자했더라면, 이제 후회하지 않았을 것이다.",
       "en": "Had they invested, not once would they regret it now.",
-      "pattern": "COMPLEX-INVERSION-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S33-005",
       "kr": "시장이 안정화된다면, 거의 모든 투자자가 수익을 볼 것이다.",
       "en": "Should the market stabilize, barely will any investor lose money.",
-      "pattern": "COMPLEX-INVERSION-COMBINATION",
       "form": "neg"
     },
     {
       "id": "Lv7-P6-S33-006",
       "kr": "그가 리더가 된다면, 이런 변화를 좀처럼 보지 못했을 것이다.",
       "en": "Were he to become the leader, seldom would we have seen such changes.",
-      "pattern": "COMPLEX-INVERSION-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S33-007",
       "kr": "더 일찍 시작했더라면, 지금 이런 문제는 전혀 없었을 것이다.",
       "en": "Had we started earlier, not at all would we have these problems now.",
-      "pattern": "COMPLEX-INVERSION-COMBINATION",
       "form": "neg"
     },
     {
       "id": "Lv7-P6-S33-008",
       "kr": "그들이 협력한다면, 이런 성과를 거의 기대하지 못했을 것이다.",
       "en": "Should they collaborate, hardly would we have expected such results.",
-      "pattern": "COMPLEX-INVERSION-COMBINATION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 6,
+    "neg": 2,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L7_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.530Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_7\\Lv7-P6-S33_bank.json"
+    ]
+  }
 }

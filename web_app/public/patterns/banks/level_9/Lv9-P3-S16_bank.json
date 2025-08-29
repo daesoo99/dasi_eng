@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P3-S16",
-  "title": "결과 강조",
-  "description": "This led to..., Consequently... 등의 표현. 예) Sales dropped. Consequently, profits shrank. 결과를 논리적으로 연결해 말하는 연습.",
-  "grammar_pattern": "RESULT-EMPHASIS",
+  "title": "Stage Lv9-P3-S16",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
-    "Sales dropped. Consequently, profits shrank.",
-    "This led to a significant improvement in efficiency.",
-    "As a result, customer loyalty increased dramatically."
+    "Sales dropped. Consequently, profits also declined.",
+    "This led to a significant improvement in efficiency."
   ],
-  "learning_points": "결과 강조 표현을 사용한 논리적 인과관계 설명",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 3,
   "stage_number": 16,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv9-P3-S16-001",
       "kr": "매출이 감소했습니다. 그 결과 수익도 축소했습니다.",
       "en": "Sales dropped. Consequently, profits also declined.",
-      "pattern": "RESULT-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S16-002",
       "kr": "이는 효율성의 상당한 개선으로 이어졌습니다.",
       "en": "This led to a significant improvement in efficiency.",
-      "pattern": "RESULT-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S16-003",
       "kr": "그 결과로 고객 충성도가 극적으로 증가했습니다.",
       "en": "As a result, customer loyalty increased dramatically.",
-      "pattern": "RESULT-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S16-004",
       "kr": "비용이 예상을 초과했습니다. 따라서 예산을 재조정해야 했습니다.",
       "en": "Costs exceeded expectations. Therefore, we had to readjust the budget.",
-      "pattern": "RESULT-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S16-005",
       "kr": "이러한 변화는 새로운 기회를 창출했습니다.",
       "en": "These changes resulted in new opportunities.",
-      "pattern": "RESULT-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S16-006",
       "kr": "경쟁이 치열해졌습니다. 그 결과 혁신이 가속화되었습니다.",
       "en": "Competition intensified. Consequently, innovation accelerated.",
-      "pattern": "RESULT-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S16-007",
       "kr": "이로 인해 전체적인 성과가 향상되었습니다.",
       "en": "This brought about an improvement in overall performance.",
-      "pattern": "RESULT-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S16-008",
       "kr": "시장 상황이 불안정해졌습니다. 따라서 신중한 접근이 필요하게 되었습니다.",
       "en": "Market conditions became unstable. Hence, a cautious approach became necessary.",
-      "pattern": "RESULT-EMPHASIS",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.599Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P3-S16_bank.json"
+    ]
+  }
 }

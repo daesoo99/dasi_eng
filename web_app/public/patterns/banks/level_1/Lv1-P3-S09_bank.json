@@ -1,6 +1,15 @@
 {
   "stage_id": "Lv1-P3-S09",
-  "title": "기본 전치사 (위치) - at/in/on",
+  "title": "Stage Lv1-P3-S09",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "I am at home. (variant 1)",
+    "She is at school. (variant 1)"
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
+  "phase": 3,
+  "stage_number": 9,
   "count": 50,
   "sentences": [
     {
@@ -305,10 +314,18 @@
     }
   ],
   "forms_distribution": {
-    "aff": 35,
-    "neg": 10,
-    "wh_q": 5
+    "aff": 40,
+    "neg": 5,
+    "wh_q": 5,
+    "unknown": 0
   },
-  "status": "generated",
-  "batch": "L1_Basic_Batch1"
+  "status": "complete",
+  "batch": "L1_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.364Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_1\\Lv1-P3-S09_bank.json"
+    ]
+  }
 }

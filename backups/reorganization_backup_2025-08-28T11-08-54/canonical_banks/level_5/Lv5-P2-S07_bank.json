@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv5-P2-S07",
+  "title": "관계절+분사구문 혼용",
+  "description": "관계절+분사구문 혼용을 연습합니다. RELATIVE-PARTICIPLE-MIXED 패턴을 활용하여 고급 영어 표현을 익힙니다.",
+  "grammar_pattern": "RELATIVE-PARTICIPLE-MIXED",
+  "examples": [
+    "The man standing there, who is my uncle, waved at me.",
+    "The package containing the samples, which I received yesterday, is on the desk.",
+    "The employee working hard, who is new to the company, is already showing good results."
+  ],
+  "learning_points": "complex-structure 관련 고급 표현과 실용적 활용",
+  "phase": 2,
+  "stage_number": 7,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv5-P2-S07-001",
+      "kr": "저기 서 있는 저 남자는 내 삼촌인데, 내게 손을 흔드셨다.",
+      "en": "The man standing there, who is my uncle, waved at me.",
+      "pattern": "RELATIVE-PARTICIPLE-MIXED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P2-S07-002",
+      "kr": "샘플이 들어있는 그 패키지는 어제 받은 것인데, 책상 위에 있습니다.",
+      "en": "The package containing the samples, which I received yesterday, is on the desk.",
+      "pattern": "RELATIVE-PARTICIPLE-MIXED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P2-S07-003",
+      "kr": "열심히 일하는 그 직원은 새로 온 사람인데, 이미 좋은 성과를 보이고 있습니다.",
+      "en": "The employee working hard, who is new to the company, is already showing good results.",
+      "pattern": "RELATIVE-PARTICIPLE-MIXED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P2-S07-004",
+      "kr": "창문 근처에 앉아 있는 그 여성은 우리 매니저인데, 회의를 준비하고 있습니다.",
+      "en": "The woman sitting by the window, who is our manager, is preparing for the meeting.",
+      "pattern": "RELATIVE-PARTICIPLE-MIXED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P2-S07-005",
+      "kr": "정원에서 자라고 있는 그 꽃들은 장미인데, 매우 아름답습니다.",
+      "en": "The flowers growing in the garden, which are roses, are very beautiful.",
+      "pattern": "RELATIVE-PARTICIPLE-MIXED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P2-S07-006",
+      "kr": "벽에 걸려 있는 그 그림은 피카소 작품인데, 매우 비쌉니다.",
+      "en": "The painting hanging on the wall, which is by Picasso, is very expensive.",
+      "pattern": "RELATIVE-PARTICIPLE-MIXED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P2-S07-007",
+      "kr": "코너에서 연주하고 있는 그 밴드는 지역 그룹인데, 훌륭한 음악을 합니다.",
+      "en": "The band playing in the corner, which is a local group, makes excellent music.",
+      "pattern": "RELATIVE-PARTICIPLE-MIXED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P2-S07-008",
+      "kr": "천천히 걸어가고 있는 그 노인은 우리 이웃인데, 매일 산책을 나옵니다.",
+      "en": "The elderly man walking slowly, who is our neighbor, goes for walks daily.",
+      "pattern": "RELATIVE-PARTICIPLE-MIXED",
+      "form": "aff"
+    }
+  ]
+}

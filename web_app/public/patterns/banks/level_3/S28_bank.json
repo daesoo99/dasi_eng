@@ -1,0 +1,152 @@
+{
+  "stage_id": "S28",
+  "title": "Stage S28",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "This method is much more effective.",
+    "He runs far faster than his brother."
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 28,
+  "count": 20,
+  "sentences": [
+    {
+      "id": "S28-1",
+      "kr": "이 방법이 훨씬 더 효과적이에요.",
+      "en": "This method is much more effective.",
+      "form": "aff"
+    },
+    {
+      "id": "S28-2",
+      "kr": "그는 형/동생보다 훨씬 더 빨리 뛰어요.",
+      "en": "He runs far faster than his brother.",
+      "form": "aff"
+    },
+    {
+      "id": "S28-3",
+      "kr": "그녀는 단연 우리 반에서 가장 우수한 학생이에요.",
+      "en": "She is by far the best student in our class.",
+      "form": "aff"
+    },
+    {
+      "id": "S28-4",
+      "kr": "생각했던 것만큼 비싸지 않아요.",
+      "en": "It's not nearly as expensive as I thought.",
+      "form": "aff"
+    },
+    {
+      "id": "S28-5",
+      "kr": "오늘 날씨가 어제보다 상당히 더 따뜻해요.",
+      "en": "Today's weather is considerably warmer than yesterday.",
+      "form": "aff"
+    },
+    {
+      "id": "S28-6",
+      "kr": "이 차가 상당히 더 비싸요.",
+      "en": "This car is significantly more expensive.",
+      "form": "aff"
+    },
+    {
+      "id": "S28-7",
+      "kr": "새 버전이 구버전보다 약간 더 나아요.",
+      "en": "The new version is slightly better than the old one.",
+      "form": "aff"
+    },
+    {
+      "id": "S28-8",
+      "kr": "이 해결책이 비교할 수 없을 정도로 더 실용적이에요.",
+      "en": "This solution is infinitely more practical.",
+      "form": "aff"
+    },
+    {
+      "id": "S28-9",
+      "kr": "그녀는 언니/여동생만큼 키가 클 리가 없어요.",
+      "en": "She's nowhere near as tall as her sister.",
+      "form": "aff"
+    },
+    {
+      "id": "S28-10",
+      "kr": "이것이 단연 가장 어려운 일이에요.",
+      "en": "This is hands down the most difficult task.",
+      "form": "aff"
+    },
+    {
+      "id": "S28-1",
+      "kr": "이 방법이 훨씬 더 효과적이에요.",
+      "en": "This method is much more effective.",
+      "form": "aff"
+    },
+    {
+      "id": "S28-2",
+      "kr": "그는 형/동생보다 훨씬 더 빨리 뛰어요.",
+      "en": "He runs far faster than his brother.",
+      "form": "aff"
+    },
+    {
+      "id": "S28-3",
+      "kr": "그녀는 단연 우리 반에서 가장 우수한 학생이에요.",
+      "en": "She is by far the best student in our class.",
+      "form": "aff"
+    },
+    {
+      "id": "S28-4",
+      "kr": "생각했던 것만큼 비싸지 않아요.",
+      "en": "It's not nearly as expensive as I thought.",
+      "form": "aff"
+    },
+    {
+      "id": "S28-5",
+      "kr": "오늘 날씨가 어제보다 상당히 더 따뜻해요.",
+      "en": "Today's weather is considerably warmer than yesterday.",
+      "form": "aff"
+    },
+    {
+      "id": "S28-6",
+      "kr": "이 차가 상당히 더 비싸요.",
+      "en": "This car is significantly more expensive.",
+      "form": "aff"
+    },
+    {
+      "id": "S28-7",
+      "kr": "새 버전이 구버전보다 약간 더 나아요.",
+      "en": "The new version is slightly better than the old one.",
+      "form": "aff"
+    },
+    {
+      "id": "S28-8",
+      "kr": "이 해결책이 비교할 수 없을 정도로 더 실용적이에요.",
+      "en": "This solution is infinitely more practical.",
+      "form": "aff"
+    },
+    {
+      "id": "S28-9",
+      "kr": "그녀는 언니/여동생만큼 키가 클 리가 없어요.",
+      "en": "She's nowhere near as tall as her sister.",
+      "form": "aff"
+    },
+    {
+      "id": "S28-10",
+      "kr": "이것이 단연 가장 어려운 일이에요.",
+      "en": "This is hands down the most difficult task.",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 20,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L1_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.736Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW.json",
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW_migrated.json"
+    ]
+  }
+}

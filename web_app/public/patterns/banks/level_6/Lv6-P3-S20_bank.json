@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv6-P3-S20",
-  "title": "조건부 후회",
-  "description": "should have, would have를 가정법과 결합하여 복합적 후회와 반성을 표현합니다. CONDITIONAL-REGRET-COMPLEX 패턴을 연습합니다.",
-  "grammar_pattern": "CONDITIONAL-REGRET-COMPLEX",
+  "title": "Stage Lv6-P3-S20",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "If I were you, I would have done the same.",
-    "I shouldn't have trusted him, if I'm honest.",
-    "If we had been more careful, we wouldn't have made that error."
+    "I shouldn't have trusted him, if I'm honest."
   ],
-  "learning_points": "복잡한 후회와 위로의 표현 및 자기반성",
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
   "phase": 3,
   "stage_number": 20,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv6-P3-S20-001",
       "kr": "내가 너였어도 똑같이 했을 거야.",
       "en": "If I were you, I would have done the same.",
-      "pattern": "CONDITIONAL-REGRET-COMPLEX",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S20-002",
       "kr": "솔직히 말하면 그를 믿지 말았어야 했어요.",
       "en": "I shouldn't have trusted him, if I'm honest.",
-      "pattern": "CONDITIONAL-REGRET-COMPLEX",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S20-003",
       "kr": "더 신중했다면 그런 실수를 하지 않았을 것입니다.",
       "en": "If we had been more careful, we wouldn't have made that error.",
-      "pattern": "CONDITIONAL-REGRET-COMPLEX",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S20-004",
       "kr": "당신 상황이었다면 저도 같은 선택을 했을 것입니다.",
       "en": "If I were in your position, I would have made the same choice.",
-      "pattern": "CONDITIONAL-REGRET-COMPLEX",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S20-005",
       "kr": "더 경험이 있었다면 그런 위험을 피했을 텐데요.",
       "en": "If I had been more experienced, I would have avoided that risk.",
-      "pattern": "CONDITIONAL-REGRET-COMPLEX",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S20-006",
       "kr": "시장 상황을 더 잘 알았다면 투자하지 않았을 것입니다.",
       "en": "If we had known the market conditions better, we wouldn't have invested.",
-      "pattern": "CONDITIONAL-REGRET-COMPLEX",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S20-007",
       "kr": "팀장 입장이었다면 다른 결정을 내렸을 수도 있습니다.",
       "en": "If I were the team leader, I might have made a different decision.",
-      "pattern": "CONDITIONAL-REGRET-COMPLEX",
       "form": "aff"
     },
     {
       "id": "Lv6-P3-S20-008",
       "kr": "더 많은 정보가 있었다면 그 계약에 서명하지 않았을 것입니다.",
       "en": "If we had had more information, we wouldn't have signed that contract.",
-      "pattern": "CONDITIONAL-REGRET-COMPLEX",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.474Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_6\\Lv6-P3-S20_bank.json"
+    ]
+  }
 }

@@ -1,0 +1,135 @@
+{
+  "version": "1.0.0",
+  "created": "2025-08-28",
+  "description": "Level boundary rules for DaSi English Learning Platform",
+  "sequential_learning_principle": "Stage N can only use grammar concepts learned in Stages 1 through N",
+  
+  "level_boundaries": {
+    "level_1": {
+      "stage_range": [1, 16],
+      "stage_ids": ["Lv1-P1-S01", "Lv1-P1-S02", "Lv1-P1-S03", "Lv1-P1-S04", "Lv1-P2-S05", "Lv1-P2-S06", "Lv1-P2-S07", "Lv1-P2-S08", "Lv1-P3-S09", "Lv1-P3-S10", "Lv1-P4-S11", "Lv1-P4-S12", "Lv1-P4-S13", "Lv1-P5-S14", "Lv1-P5-S15", "Lv1-P5-S16"],
+      "allowed_grammar": [
+        "be_verb_present",
+        "simple_present",
+        "simple_past",
+        "will_future",
+        "negation_basic",
+        "questions_yes_no",
+        "questions_wh_basic",
+        "imperatives",
+        "personal_pronouns",
+        "basic_adjectives",
+        "prepositions_place_basic",
+        "prepositions_time_basic",
+        "there_is_are",
+        "greeting_expressions",
+        "thanks_apologies",
+        "basic_responses"
+      ],
+      "forbidden_grammar": [
+        "continuous_tenses",
+        "perfect_tenses",
+        "modal_verbs",
+        "passive_voice",
+        "conditionals",
+        "gerunds_infinitives",
+        "relative_clauses",
+        "reported_speech"
+      ],
+      "vocabulary_limit": 1000,
+      "max_sentence_length": 8,
+      "complexity_level": "beginner"
+    },
+    
+    "level_2": {
+      "stage_range": [17, 36],
+      "stage_ids": ["Lv2-P1-S01", "Lv2-P1-S02", "Lv2-P1-S03", "Lv2-P1-S04", "Lv2-P1-S05", "Lv2-P2-S06", "Lv2-P2-S07", "Lv2-P2-S08", "Lv2-P2-S09", "Lv2-P3-S10", "Lv2-P3-S11", "Lv2-P3-S12", "Lv2-P3-S13", "Lv2-P4-S14", "Lv2-P4-S15", "Lv2-P4-S16", "Lv2-P5-S17", "Lv2-P5-S18", "Lv2-P5-S19", "Lv2-P5-S20"],
+      "allowed_grammar": [
+        "all_level_1_grammar",
+        "present_continuous",
+        "past_continuous", 
+        "future_continuous",
+        "frequency_adverbs",
+        "modal_verbs_basic",
+        "can_ability",
+        "should_advice",
+        "must_have_to",
+        "questions_wh_extended",
+        "polite_requests",
+        "demonstratives",
+        "like_expressions",
+        "quantity_expressions"
+      ],
+      "forbidden_grammar": [
+        "present_perfect",
+        "past_perfect",
+        "perfect_continuous",
+        "passive_voice",
+        "conditionals",
+        "relative_clauses",
+        "reported_speech",
+        "subjunctive_mood"
+      ],
+      "vocabulary_limit": 2500,
+      "max_sentence_length": 12,
+      "complexity_level": "elementary"
+    },
+    
+    "level_3": {
+      "stage_range": [37, 66],
+      "stage_ids": ["Lv3-P1-S01", "Lv3-P1-S02", "Lv3-P1-S03", "Lv3-P1-S04", "Lv3-P1-S05", "Lv3-P1-S06"],
+      "allowed_grammar": [
+        "all_level_1_2_grammar",
+        "present_perfect",
+        "present_perfect_continuous",
+        "past_perfect",
+        "passive_voice_basic",
+        "passive_voice_advanced",
+        "conditionals_zero_first",
+        "gerunds_infinitives_basic",
+        "relative_clauses_basic",
+        "reported_speech_basic",
+        "modals_advanced"
+      ],
+      "forbidden_grammar": [
+        "conditionals_second_third",
+        "subjunctive_mood",
+        "advanced_relative_clauses",
+        "complex_reported_speech",
+        "inversion",
+        "cleft_sentences"
+      ],
+      "vocabulary_limit": 4000,
+      "max_sentence_length": 16,
+      "complexity_level": "pre-intermediate"
+    }
+  },
+  
+  "form_distribution_rules": {
+    "standard": {
+      "affirmative": 0.6,
+      "negative": 0.2,
+      "interrogative": 0.2
+    },
+    "practice_intensive": {
+      "affirmative": 0.4,
+      "negative": 0.3,
+      "interrogative": 0.3
+    }
+  },
+  
+  "validation_rules": {
+    "grammar_sequence": {
+      "rule": "no_forward_references",
+      "description": "Sentences in Stage N cannot use grammar from Stage N+1 or higher"
+    },
+    "vocabulary_progression": {
+      "rule": "difficulty_increase",
+      "description": "Average vocabulary difficulty should increase gradually across stages"
+    },
+    "sentence_complexity": {
+      "rule": "length_progression", 
+      "description": "Average sentence length should increase within reasonable bounds per level"
+    }
+  }
+}

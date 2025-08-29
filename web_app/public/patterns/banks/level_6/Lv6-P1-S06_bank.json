@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv6-P1-S06",
-  "title": "과거완료 & 과거 결합",
-  "description": "과거완료와 일반 과거를 섞어 써서 이야기하기를 연습합니다.",
-  "grammar_pattern": "PAST-PERFECT-PAST-COMBINATION",
+  "title": "Stage Lv6-P1-S06",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "After I had finished the report, I submitted it and waited for feedback.",
-    "She had prepared thoroughly for the interview, so she answered confidently and got the job.",
-    "The team had analyzed the data carefully, then they presented their findings."
+    "She had prepared thoroughly for the interview, so she answered confidently and got the job."
   ],
-  "learning_points": "과거완료와 과거시제를 연계하여 순차적 사건 묘사",
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 6,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv6-P1-S06-001",
       "kr": "보고서를 마친 후, 나는 그것을 제출하고 피드백을 기다렸다.",
       "en": "After I had finished the report, I submitted it and waited for feedback.",
-      "pattern": "PAST-PERFECT-PAST-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv6-P1-S06-002",
       "kr": "그녀는 면접을 위해 철저히 준비했었기 때문에 자신 있게 답변했고 일자리를 얻었다.",
       "en": "She had prepared thoroughly for the interview, so she answered confidently and got the job.",
-      "pattern": "PAST-PERFECT-PAST-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv6-P1-S06-003",
       "kr": "팀이 데이터를 주의 깊게 분석한 후, 그들은 발견 사항을 발표했다.",
       "en": "The team had analyzed the data carefully, then they presented their findings.",
-      "pattern": "PAST-PERFECT-PAST-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv6-P1-S06-004",
       "kr": "회사가 신제품을 개발한 후, 시장 조사를 실시했고 좋은 반응을 얻었다.",
       "en": "After the company had developed the new product, they conducted market research and received positive feedback.",
-      "pattern": "PAST-PERFECT-PAST-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv6-P1-S06-005",
       "kr": "그는 여러 대안을 검토한 후 최선의 선택을 했고 성공을 거두었다.",
       "en": "He had reviewed several alternatives, then made the best choice and achieved success.",
-      "pattern": "PAST-PERFECT-PAST-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv6-P1-S06-006",
       "kr": "프로젝트 계획을 완료하지 못했기 때문에 회의가 연기되었다.",
       "en": "Since we had not completed the project plan, the meeting was postponed.",
-      "pattern": "PAST-PERFECT-PAST-COMBINATION",
       "form": "neg"
     },
     {
       "id": "Lv6-P1-S06-007",
       "kr": "고객이 요구 사항을 명확히 한 후, 우리는 새로운 제안서를 작성했다.",
       "en": "After the client had clarified their requirements, we wrote a new proposal.",
-      "pattern": "PAST-PERFECT-PAST-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv6-P1-S06-008",
       "kr": "시장 상황을 분석한 후, 경영진은 새로운 전략을 수립했고 즉시 실행했다.",
       "en": "Having analyzed market conditions, management established a new strategy and implemented it immediately.",
-      "pattern": "PAST-PERFECT-PAST-COMBINATION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 7,
+    "neg": 1,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.459Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_6\\Lv6-P1-S06_bank.json"
+    ]
+  }
 }

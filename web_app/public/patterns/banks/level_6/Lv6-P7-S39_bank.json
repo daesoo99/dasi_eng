@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv6-P7-S39",
-  "title": "부분 동의/반대 어휘",
-  "description": "partially, in some respects, up to a point 등으로 부분적 동의를 표현합니다. PARTIAL-AGREEMENT-VOCABULARY 패턴을 연습합니다.",
-  "grammar_pattern": "PARTIAL-AGREEMENT-VOCABULARY",
+  "title": "Stage Lv6-P7-S39",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "I agree with you up to a point.",
-    "This is true in some respects, but not entirely.",
-    "I partially support this proposal."
+    "This is true in some respects, but not entirely."
   ],
-  "learning_points": "섬세한 입장 표명과 균형 잡힌 의견 제시",
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
   "phase": 7,
   "stage_number": 39,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv6-P7-S39-001",
       "kr": "어느 정도까지는 당신 의견에 동의합니다.",
       "en": "I agree with you up to a point.",
-      "pattern": "PARTIAL-AGREEMENT-VOCABULARY",
       "form": "aff"
     },
     {
       "id": "Lv6-P7-S39-002",
       "kr": "이것은 어떤 면에서는 사실이지만 완전히는 아닙니다.",
       "en": "This is true in some respects, but not entirely.",
-      "pattern": "PARTIAL-AGREEMENT-VOCABULARY",
       "form": "aff"
     },
     {
       "id": "Lv6-P7-S39-003",
       "kr": "이 제안을 부분적으로 지지합니다.",
       "en": "I partially support this proposal.",
-      "pattern": "PARTIAL-AGREEMENT-VOCABULARY",
       "form": "aff"
     },
     {
       "id": "Lv6-P7-S39-004",
       "kr": "몇 가지 측면에서는 유효한 지적입니다.",
       "en": "Your point is valid in certain aspects.",
-      "pattern": "PARTIAL-AGREEMENT-VOCABULARY",
       "form": "aff"
     },
     {
       "id": "Lv6-P7-S39-005",
       "kr": "이 분석은 어느 정도 정확하지만 완전하지는 않습니다.",
       "en": "This analysis is somewhat accurate, but not complete.",
-      "pattern": "PARTIAL-AGREEMENT-VOCABULARY",
       "form": "aff"
     },
     {
       "id": "Lv6-P7-S39-006",
       "kr": "제한적으로는 이 접근 방식에 동의합니다.",
       "en": "I agree with this approach to a limited extent.",
-      "pattern": "PARTIAL-AGREEMENT-VOCABULARY",
       "form": "aff"
     },
     {
       "id": "Lv6-P7-S39-007",
       "kr": "몇 가지 관점에서는 타당하지만 전체적으로는 의문입니다.",
       "en": "It makes sense from some perspectives, but I have reservations overall.",
-      "pattern": "PARTIAL-AGREEMENT-VOCABULARY",
       "form": "aff"
     },
     {
       "id": "Lv6-P7-S39-008",
       "kr": "부분적으로는 옳지만 더 많은 고려가 필요합니다.",
       "en": "You're partially correct, but more consideration is needed.",
-      "pattern": "PARTIAL-AGREEMENT-VOCABULARY",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.491Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_6\\Lv6-P7-S39_bank.json"
+    ]
+  }
 }

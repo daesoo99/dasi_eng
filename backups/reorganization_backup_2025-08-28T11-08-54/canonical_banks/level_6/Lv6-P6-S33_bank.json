@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv6-P6-S33",
+  "title": "부사 도치 기초",
+  "description": "부정어와 Only 도치를 활용하여 강조 표현을 연습합니다. BASIC-ADVERBIAL-INVERSION 패턴을 연습합니다.",
+  "grammar_pattern": "BASIC-ADVERBIAL-INVERSION",
+  "examples": [
+    "Never have I seen such dedication.",
+    "Only then did I realize my mistake.",
+    "Little did we know what was coming."
+  ],
+  "learning_points": "도치를 통한 강조와 극적 효과 표현",
+  "phase": 6,
+  "stage_number": 33,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv6-P6-S33-001",
+      "kr": "그런 헌신을 본 적이 없습니다.",
+      "en": "Never have I seen such dedication.",
+      "pattern": "BASIC-ADVERBIAL-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P6-S33-002",
+      "kr": "그제서야 제 실수를 깨달았습니다.",
+      "en": "Only then did I realize my mistake.",
+      "pattern": "BASIC-ADVERBIAL-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P6-S33-003",
+      "kr": "우리는 무슨 일이 일어날지 전혀 몰랐습니다.",
+      "en": "Little did we know what was coming.",
+      "pattern": "BASIC-ADVERBIAL-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P6-S33-004",
+      "kr": "그런 기회는 좀처럼 오지 않습니다.",
+      "en": "Rarely does such an opportunity come along.",
+      "pattern": "BASIC-ADVERBIAL-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P6-S33-005",
+      "kr": "완전히 준비가 되었을 때만 시작하겠습니다.",
+      "en": "Only when we are fully prepared will we begin.",
+      "pattern": "BASIC-ADVERBIAL-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P6-S33-006",
+      "kr": "결코 그런 실수를 다시 하지 않을 것입니다.",
+      "en": "Never again will we make such a mistake.",
+      "pattern": "BASIC-ADVERBIAL-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P6-S33-007",
+      "kr": "우리는 그 소식을 듣고 전혀 놀라지 않았습니다.",
+      "en": "Little were we surprised by that news.",
+      "pattern": "BASIC-ADVERBIAL-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P6-S33-008",
+      "kr": "모든 조건이 충족될 때만 계약을 체결하겠습니다.",
+      "en": "Only when all conditions are met will we sign the contract.",
+      "pattern": "BASIC-ADVERBIAL-INVERSION",
+      "form": "aff"
+    }
+  ]
+}

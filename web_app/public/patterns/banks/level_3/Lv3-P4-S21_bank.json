@@ -1,0 +1,331 @@
+{
+  "stage_id": "Lv3-P4-S21",
+  "title": "Stage Lv3-P4-S21",
+  "description": "Level 3 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "If I were you, I would consult a doctor. (variant 1)",
+    "I would reconsider that decision if I were you. (variant 1)"
+  ],
+  "learning_points": "Level 3 target grammar and expressions with practical usage examples",
+  "phase": 4,
+  "stage_number": 21,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv3-P4-S21-001",
+      "kr": "제가 당신이라면 의사와 상담하겠어요. (확장 1)",
+      "en": "If I were you, I would consult a doctor. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-002",
+      "kr": "그 일을 다시 생각해보는 것이 좋겠어요. (확장 1)",
+      "en": "I would reconsider that decision if I were you. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-003",
+      "kr": "좀 더 기다려보시는 게 어떨까요? (확장 1)",
+      "en": "If I were you, I would wait a little longer. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-004",
+      "kr": "전문가의 도움을 받으시길 권합니다. (확장 1)",
+      "en": "I would recommend getting expert help if I were you. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-005",
+      "kr": "그 기회를 놓치지 마세요. (확장 1)",
+      "en": "If I were you, I wouldn't miss that opportunity. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-006",
+      "kr": "더 신중하게 결정하시는 게 좋겠어요. (확장 1)",
+      "en": "I would be more careful with that decision if I were you. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-007",
+      "kr": "다른 방법을 시도해보세요. (확장 1)",
+      "en": "If I were you, I would try a different approach. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-008",
+      "kr": "그것에 대해 걱정하지 않겠어요. (확장 1)",
+      "en": "I wouldn't worry about that if I were you. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-009",
+      "kr": "좀 더 연습해보시는 게 어떨까요? (확장 1)",
+      "en": "If I were you, I would practice more. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-010",
+      "kr": "그 제안을 받아들이겠어요. (확장 1)",
+      "en": "I would accept that offer if I were you. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-011",
+      "kr": "제가 당신이라면 의사와 상담하겠어요. (확장 2)",
+      "en": "If I were you, I would consult a doctor. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-012",
+      "kr": "그 일을 다시 생각해보는 것이 좋겠어요. (확장 2)",
+      "en": "I would reconsider that decision if I were you. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-013",
+      "kr": "좀 더 기다려보시는 게 어떨까요? (확장 2)",
+      "en": "If I were you, I would wait a little longer. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-014",
+      "kr": "전문가의 도움을 받으시길 권합니다. (확장 2)",
+      "en": "I would recommend getting expert help if I were you. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-015",
+      "kr": "그 기회를 놓치지 마세요. (확장 2)",
+      "en": "If I were you, I wouldn't miss that opportunity. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-016",
+      "kr": "더 신중하게 결정하시는 게 좋겠어요. (확장 2)",
+      "en": "I would be more careful with that decision if I were you. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-017",
+      "kr": "다른 방법을 시도해보세요. (확장 2)",
+      "en": "If I were you, I would try a different approach. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-018",
+      "kr": "그것에 대해 걱정하지 않겠어요. (확장 2)",
+      "en": "I wouldn't worry about that if I were you. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-019",
+      "kr": "좀 더 연습해보시는 게 어떨까요? (확장 2)",
+      "en": "If I were you, I would practice more. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-020",
+      "kr": "그 제안을 받아들이겠어요. (확장 2)",
+      "en": "I would accept that offer if I were you. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-021",
+      "kr": "제가 당신이라면 의사와 상담하겠어요. (확장 3)",
+      "en": "If I were you, I would consult a doctor. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-022",
+      "kr": "그 일을 다시 생각해보는 것이 좋겠어요. (확장 3)",
+      "en": "I would reconsider that decision if I were you. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-023",
+      "kr": "좀 더 기다려보시는 게 어떨까요? (확장 3)",
+      "en": "If I were you, I would wait a little longer. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-024",
+      "kr": "전문가의 도움을 받으시길 권합니다. (확장 3)",
+      "en": "I would recommend getting expert help if I were you. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-025",
+      "kr": "그 기회를 놓치지 마세요. (확장 3)",
+      "en": "If I were you, I wouldn't miss that opportunity. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-026",
+      "kr": "더 신중하게 결정하시는 게 좋겠어요. (확장 3)",
+      "en": "I would be more careful with that decision if I were you. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-027",
+      "kr": "다른 방법을 시도해보세요. (확장 3)",
+      "en": "If I were you, I would try a different approach. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-028",
+      "kr": "그것에 대해 걱정하지 않겠어요. (확장 3)",
+      "en": "I wouldn't worry about that if I were you. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-029",
+      "kr": "좀 더 연습해보시는 게 어떨까요? (확장 3)",
+      "en": "If I were you, I would practice more. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-030",
+      "kr": "그 제안을 받아들이겠어요. (확장 3)",
+      "en": "I would accept that offer if I were you. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S21-031",
+      "kr": "제가 당신이라면 의사와 상담하겠어요. (확장 4)",
+      "en": "If I were you, I would consult a doctor. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P4-S21-032",
+      "kr": "그 일을 다시 생각해보는 것이 좋겠어요. (확장 4)",
+      "en": "I would reconsider that decision if I were you. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P4-S21-033",
+      "kr": "좀 더 기다려보시는 게 어떨까요? (확장 4)",
+      "en": "If I were you, I would wait a little longer. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P4-S21-034",
+      "kr": "전문가의 도움을 받으시길 권합니다. (확장 4)",
+      "en": "I would recommend getting expert help if I were you. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P4-S21-035",
+      "kr": "그 기회를 놓치지 마세요. (확장 4)",
+      "en": "If I were you, I wouldn't miss that opportunity. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P4-S21-036",
+      "kr": "더 신중하게 결정하시는 게 좋겠어요. (확장 4)",
+      "en": "I would be more careful with that decision if I were you. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P4-S21-037",
+      "kr": "다른 방법을 시도해보세요. (확장 4)",
+      "en": "If I were you, I would try a different approach. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P4-S21-038",
+      "kr": "그것에 대해 걱정하지 않겠어요. (확장 4)",
+      "en": "I wouldn't worry about that if I were you. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P4-S21-039",
+      "kr": "좀 더 연습해보시는 게 어떨까요? (확장 4)",
+      "en": "If I were you, I would practice more. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P4-S21-040",
+      "kr": "그 제안을 받아들이겠어요. (확장 4)",
+      "en": "I would accept that offer if I were you. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P4-S21-041",
+      "kr": "제가 당신이라면 의사와 상담하겠어요. (확장 5)",
+      "en": "If I were you, I would consult a doctor. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P4-S21-042",
+      "kr": "그 일을 다시 생각해보는 것이 좋겠어요. (확장 5)",
+      "en": "I would reconsider that decision if I were you. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P4-S21-043",
+      "kr": "좀 더 기다려보시는 게 어떨까요? (확장 5)",
+      "en": "If I were you, I would wait a little longer. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P4-S21-044",
+      "kr": "전문가의 도움을 받으시길 권합니다. (확장 5)",
+      "en": "I would recommend getting expert help if I were you. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P4-S21-045",
+      "kr": "그 기회를 놓치지 마세요. (확장 5)",
+      "en": "If I were you, I wouldn't miss that opportunity. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P4-S21-046",
+      "kr": "더 신중하게 결정하시는 게 좋겠어요. (확장 5)",
+      "en": "I would be more careful with that decision if I were you. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P4-S21-047",
+      "kr": "다른 방법을 시도해보세요. (확장 5)",
+      "en": "If I were you, I would try a different approach. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P4-S21-048",
+      "kr": "그것에 대해 걱정하지 않겠어요. (확장 5)",
+      "en": "I wouldn't worry about that if I were you. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P4-S21-049",
+      "kr": "좀 더 연습해보시는 게 어떨까요? (확장 5)",
+      "en": "If I were you, I would practice more. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P4-S21-050",
+      "kr": "그 제안을 받아들이겠어요. (확장 5)",
+      "en": "I would accept that offer if I were you. (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L3_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.634Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "data\\banks\\level_3\\Lv3-P4-S21_bank.json"
+    ]
+  }
+}

@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv8-C1-S03",
-  "title": "조건문에서 조동사 활용",
-  "description": "조건문에서 다양한 조동사를 활용하여 미묘한 의미 차이를 표현하는 방법을 연습합니다.",
-  "grammar_pattern": "CONDITIONAL-MODAL-VARIATION",
+  "title": "Stage Lv8-C1-S03",
+  "description": "Level 8 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Should you need help, please contact me.",
-    "Were I in your position, I would accept the offer.",
-    "Had you told me earlier, I could have helped."
+    "Were I in your position, I would accept the offer."
   ],
-  "learning_points": "조건문에서 조동사의 활용을 통한 정중함과 가능성 표현",
+  "learning_points": "Level 8 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 3,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv8-C1-S03-001",
       "kr": "도움이 필요하시면 언제든지 연락해 주세요.",
       "en": "Should you need help, please contact me.",
-      "pattern": "CONDITIONAL-MODAL-VARIATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C1-S03-002",
       "kr": "제가 당신 입장이라면 그 제안을 받아들이겠습니다.",
       "en": "Were I in your position, I would accept the offer.",
-      "pattern": "CONDITIONAL-MODAL-VARIATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C1-S03-003",
       "kr": "미리 말씀해 주셨다면 도울 수 있었을 텐데요.",
       "en": "Had you told me earlier, I could have helped.",
-      "pattern": "CONDITIONAL-MODAL-VARIATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C1-S03-004",
       "kr": "더 많은 정보가 필요하시면 저에게 알려주세요.",
       "en": "Should you require more information, please let me know.",
-      "pattern": "CONDITIONAL-MODAL-VARIATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C1-S03-005",
       "kr": "그가 더 일찍 왔더라면 회의에 참석할 수 있었을 것입니다.",
       "en": "Had he arrived earlier, he could have attended the meeting.",
-      "pattern": "CONDITIONAL-MODAL-VARIATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C1-S03-006",
       "kr": "제가 더 젊다면 그 도전을 받아들이겠습니다.",
       "en": "Were I younger, I would take on that challenge.",
-      "pattern": "CONDITIONAL-MODAL-VARIATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C1-S03-007",
       "kr": "변경사항이 있으시면 즉시 알려주시기 바랍니다.",
       "en": "Should there be any changes, please inform us immediately.",
-      "pattern": "CONDITIONAL-MODAL-VARIATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C1-S03-008",
       "kr": "더 많은 시간이 있었다면 더 나은 결과를 얻을 수 있었을 것입니다.",
       "en": "Had we had more time, we could have achieved better results.",
-      "pattern": "CONDITIONAL-MODAL-VARIATION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L8_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.541Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_8\\Lv8-C1-S03_bank.json"
+    ]
+  }
 }

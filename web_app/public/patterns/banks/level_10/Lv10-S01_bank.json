@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv10-S01",
-  "title": "고급 담화 연결 - 논리적 흐름",
-  "description": "원어민 수준의 논리적 담화 연결 표현으로 자연스러운 의견 전개를 구사합니다.",
-  "grammar_pattern": "ADVANCED-DISCOURSE-CONNECTION",
+  "title": "Stage Lv10-S01",
+  "description": "Level 10 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "That being said, we need to consider the broader implications.",
-    "Following on from that point, I'd like to add something.",
-    "Building on what you just mentioned, there's another angle to this."
+    "Following on from that point, I'd like to add something."
   ],
-  "learning_points": "원어민 수준의 자연스러운 담화 연결과 논리적 흐름 구사",
+  "learning_points": "Level 10 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 1,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv10-S01-001",
       "kr": "그렇긴 하지만, 더 넓은 관점에서 생각해봐야 해.",
       "en": "That being said, we need to consider the broader implications.",
-      "pattern": "ADVANCED-DISCOURSE-CONNECTION",
       "form": "aff"
     },
     {
       "id": "Lv10-S01-002",
       "kr": "그 말씀에 이어서, 제가 한 가지 더 말씀드리고 싶어요.",
       "en": "Following on from that point, I'd like to add something.",
-      "pattern": "ADVANCED-DISCOURSE-CONNECTION",
       "form": "aff"
     },
     {
       "id": "Lv10-S01-003",
       "kr": "방금 말씀하신 것에 덧붙여서, 이 문제에는 또 다른 측면이 있어요.",
       "en": "Building on what you just mentioned, there's another angle to this.",
-      "pattern": "ADVANCED-DISCOURSE-CONNECTION",
       "form": "aff"
     },
     {
       "id": "Lv10-S01-004",
       "kr": "그 맥락에서 보면, 우리가 놓친 부분이 있는 것 같아.",
       "en": "In that light, it seems we've overlooked something important.",
-      "pattern": "ADVANCED-DISCOURSE-CONNECTION",
       "form": "aff"
     },
     {
       "id": "Lv10-S01-005",
       "kr": "이와 관련해서 말하자면, 비슷한 경험이 있어요.",
       "en": "Speaking of which, I've had a similar experience myself.",
-      "pattern": "ADVANCED-DISCOURSE-CONNECTION",
       "form": "aff"
     },
     {
       "id": "Lv10-S01-006",
       "kr": "그 연장선에서 생각해보면, 다음 단계가 명확해져.",
       "en": "Along those lines, the next steps become pretty clear.",
-      "pattern": "ADVANCED-DISCOURSE-CONNECTION",
       "form": "aff"
     },
     {
       "id": "Lv10-S01-007",
       "kr": "그 점을 염두에 두고 말하자면, 좀 더 신중하게 접근해야 할 것 같아.",
       "en": "With that in mind, I think we should approach this more carefully.",
-      "pattern": "ADVANCED-DISCOURSE-CONNECTION",
       "form": "aff"
     },
     {
       "id": "Lv10-S01-008",
       "kr": "이 모든 걸 종합해서 보면, 우리 판단이 옳았던 것 같아.",
       "en": "Taking all of this together, it looks like our judgment was sound.",
-      "pattern": "ADVANCED-DISCOURSE-CONNECTION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L10_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.371Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_10\\Lv10-S01_bank.json"
+    ]
+  }
 }

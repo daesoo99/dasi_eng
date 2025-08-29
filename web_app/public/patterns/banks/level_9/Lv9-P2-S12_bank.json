@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P2-S12",
-  "title": "격식체 가정",
-  "description": "Should this occur... (만약 이런 일이 일어나면) 등의 표현. 예) Should this measure fail, we have backups. 공식 보고/제안에서 쓰이는 문어체 가정법을 연습.",
-  "grammar_pattern": "FORMAL-CONDITIONAL",
+  "title": "Stage Lv9-P2-S12",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
-    "Should this measure fail, we have backup plans.",
-    "Should you need assistance, please contact us immediately.",
-    "Should the situation change, we will adapt accordingly."
+    "Should this measure fail, we have backup plans ready.",
+    "Should you need assistance, please contact us immediately."
   ],
-  "learning_points": "Should 도치를 사용한 격식체 가정 표현",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 2,
   "stage_number": 12,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv9-P2-S12-001",
       "kr": "이 조치가 실패할 경우, 대비책을 마련해 두었습니다.",
       "en": "Should this measure fail, we have backup plans ready.",
-      "pattern": "FORMAL-CONDITIONAL",
       "form": "aff"
     },
     {
       "id": "Lv9-P2-S12-002",
       "kr": "도움이 필요하시면, 즉시 연락주시기 바랍니다.",
       "en": "Should you need assistance, please contact us immediately.",
-      "pattern": "FORMAL-CONDITIONAL",
       "form": "aff"
     },
     {
       "id": "Lv9-P2-S12-003",
       "kr": "상황이 변할 경우, 그에 따라 적응하겠습니다.",
       "en": "Should the situation change, we will adapt accordingly.",
-      "pattern": "FORMAL-CONDITIONAL",
       "form": "aff"
     },
     {
       "id": "Lv9-P2-S12-004",
       "kr": "문제가 발생할 경우, 전문가 팀이 대응할 것입니다.",
       "en": "Should problems arise, our expert team will respond.",
-      "pattern": "FORMAL-CONDITIONAL",
       "form": "aff"
     },
     {
       "id": "Lv9-P2-S12-005",
       "kr": "예산이 초과할 경우, 이사회의 승인을 구하겠습니다.",
       "en": "Should the budget exceed limits, we will seek board approval.",
-      "pattern": "FORMAL-CONDITIONAL",
       "form": "aff"
     },
     {
       "id": "Lv9-P2-S12-006",
       "kr": "추가 정보가 필요할 경우, 마케팅 부에서 제공할 것입니다.",
       "en": "Should additional information be required, the marketing department will provide it.",
-      "pattern": "FORMAL-CONDITIONAL",
       "form": "aff"
     },
     {
       "id": "Lv9-P2-S12-007",
       "kr": "경쟁사가 가격을 낮출 경우, 우리도 대응해야 합니다.",
       "en": "Should competitors lower prices, we must respond accordingly.",
-      "pattern": "FORMAL-CONDITIONAL",
       "form": "aff"
     },
     {
       "id": "Lv9-P2-S12-008",
       "kr": "시장 상황이 악화될 경우, 비상 계획을 가동할 것입니다.",
       "en": "Should market conditions deteriorate, we will activate contingency plans.",
-      "pattern": "FORMAL-CONDITIONAL",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.596Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P2-S12_bank.json"
+    ]
+  }
 }

@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv10-S30",
+  "title": "상황 강조 - 전환점",
+  "description": "중요한 전환점과 변화의 순간을 강조하는 원어민 수준의 표현을 구사합니다.",
+  "grammar_pattern": "TURNING-POINT-EMPHASIS",
+  "examples": [
+    "Everything has completely changed now. It's a new beginning.",
+    "The turning point has finally come. From now on, it's for real.",
+    "The situation has changed 180 degrees. It's a completely different game."
+  ],
+  "learning_points": "원어민 수준의 자연스러운 전환점 표현 구사",
+  "phase": 3,
+  "stage_number": 30,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv10-S30-001",
+      "kr": "이제 완전히 바뀐 거야. 새로운 시작이야.",
+      "en": "Everything has completely changed now. It's a new beginning.",
+      "pattern": "TURNING-POINT-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S30-002",
+      "kr": "드디어 전환점이 왔어. 이제부터가 진짜야.",
+      "en": "The turning point has finally come. From now on, it's for real.",
+      "pattern": "TURNING-POINT-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S30-003",
+      "kr": "상황이 180도 달라졌어. 전혀 다른 게임이야.",
+      "en": "The situation has changed 180 degrees. It's a completely different game.",
+      "pattern": "TURNING-POINT-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S30-004",
+      "kr": "이 순간이 분기점이야. 여기서 갈라지는 거야.",
+      "en": "This moment is the crossroads. This is where paths diverge.",
+      "pattern": "TURNING-POINT-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S30-005",
+      "kr": "정말 역사적인 순간이네. 기억해둬야겠어.",
+      "en": "This is truly a historic moment. I should remember this.",
+      "pattern": "TURNING-POINT-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S30-006",
+      "kr": "완전히 새로운 국면으로 접어들었어.",
+      "en": "We've entered a completely new phase.",
+      "pattern": "TURNING-POINT-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S30-007",
+      "kr": "이제 과거는 과거야. 앞으로만 보자.",
+      "en": "The past is the past now. Let's only look forward.",
+      "pattern": "TURNING-POINT-EMPHASIS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S30-008",
+      "kr": "드라마틱한 변화네. 누가 예상했겠어?",
+      "en": "What a dramatic change. Who could have predicted it?",
+      "pattern": "TURNING-POINT-EMPHASIS",
+      "form": "aff"
+    }
+  ]
+}

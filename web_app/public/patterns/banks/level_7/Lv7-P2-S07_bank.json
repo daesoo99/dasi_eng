@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv7-P2-S07",
-  "title": "가정법 과거완료 재활용",
-  "description": "Level 6에서 다룬 가정법 과거완료를 더 자연스럽게 사용합니다.",
-  "grammar_pattern": "THIRD-CONDITIONAL-RECYCLING",
+  "title": "Stage Lv7-P2-S07",
+  "description": "Level 7 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "If we had invested in that technology earlier, we would have dominated the market by now.",
-    "Had she known about the opportunity, she would have applied for the position immediately.",
-    "If they had listened to our advice, they wouldn't have encountered these problems."
+    "Had she known about the opportunity, she would have applied for the position immediately."
   ],
-  "learning_points": "가정법 과거완료의 자연스러운 활용과 다양한 표현 방식",
+  "learning_points": "Level 7 target grammar and expressions with practical usage examples",
   "phase": 2,
   "stage_number": 7,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv7-P2-S07-001",
       "kr": "만약 우리가 그 기술에 더 일찍 투자했다면, 지금쯤 시장을 지배하고 있었을 것이다.",
       "en": "If we had invested in that technology earlier, we would have dominated the market by now.",
-      "pattern": "THIRD-CONDITIONAL-RECYCLING",
       "form": "aff"
     },
     {
       "id": "Lv7-P2-S07-002",
       "kr": "만약 그녀가 그 기회에 대해 알았다면, 즉시 그 자리에 지원했을 것이다.",
       "en": "Had she known about the opportunity, she would have applied for the position immediately.",
-      "pattern": "THIRD-CONDITIONAL-RECYCLING",
       "form": "aff"
     },
     {
       "id": "Lv7-P2-S07-003",
       "kr": "만약 그들이 우리의 조언을 들었다면, 이런 문제들을 겪지 않았을 것이다.",
       "en": "If they had listened to our advice, they wouldn't have encountered these problems.",
-      "pattern": "THIRD-CONDITIONAL-RECYCLING",
       "form": "neg"
     },
     {
       "id": "Lv7-P2-S07-004",
       "kr": "만약 경영진이 직원들의 피드백을 고려했다면, 회사 문화가 훨씬 더 좋았을 것이다.",
       "en": "If management had considered employee feedback, the company culture would have been much better.",
-      "pattern": "THIRD-CONDITIONAL-RECYCLING",
       "form": "aff"
     },
     {
       "id": "Lv7-P2-S07-005",
       "kr": "만약 정부가 더 엄격한 규제를 시행했다면, 환경 오염이 이렇게 심각하지 않았을 것이다.",
       "en": "Had the government implemented stricter regulations, environmental pollution wouldn't have become this severe.",
-      "pattern": "THIRD-CONDITIONAL-RECYCLING",
       "form": "neg"
     },
     {
       "id": "Lv7-P2-S07-006",
       "kr": "만약 팀이 더 체계적으로 계획했다면, 프로젝트가 예정보다 일찍 완료되었을 것이다.",
       "en": "If the team had planned more systematically, the project would have been completed ahead of schedule.",
-      "pattern": "THIRD-CONDITIONAL-RECYCLING",
       "form": "aff"
     },
     {
       "id": "Lv7-P2-S07-007",
       "kr": "만약 그가 더 일찍 의사의 조언을 구했다면, 건강 문제가 이렇게 악화되지 않았을 것이다.",
       "en": "Had he sought medical advice sooner, his health problems wouldn't have deteriorated this much.",
-      "pattern": "THIRD-CONDITIONAL-RECYCLING",
       "form": "neg"
     },
     {
       "id": "Lv7-P2-S07-008",
       "kr": "만약 우리가 시장 조사를 더 철저히 했다면, 소비자들의 요구를 더 잘 이해했을 것이다.",
       "en": "If we had conducted more thorough market research, we would have understood consumer needs better.",
-      "pattern": "THIRD-CONDITIONAL-RECYCLING",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 5,
+    "neg": 3,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L7_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.504Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_7\\Lv7-P2-S07_bank.json"
+    ]
+  }
 }

@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv10-S22",
-  "title": "즉흥적 평가 - 비교 반응",
-  "description": "순간적인 비교를 통한 평가를 자연스럽게 표현하는 원어민 수준의 반응 표현을 구사합니다.",
-  "grammar_pattern": "SPONTANEOUS-COMPARATIVE-EVALUATION",
+  "title": "Stage Lv10-S22",
+  "description": "Level 10 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "This is definitely better than the previous one!",
-    "Compared to the others, this one's much better.",
-    "It's incomparably better than the old version."
+    "Compared to the others, this one's much better."
   ],
-  "learning_points": "원어민 수준의 자연스러운 비교 반응 표현 구사",
-  "phase": 3,
+  "learning_points": "Level 10 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 22,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv10-S22-001",
       "kr": "이전 것보다 확실히 낫네!",
       "en": "This is definitely better than the previous one!",
-      "pattern": "SPONTANEOUS-COMPARATIVE-EVALUATION",
       "form": "aff"
     },
     {
       "id": "Lv10-S22-002",
       "kr": "다른 거랑 비교하면, 이게 훨씬 나아.",
       "en": "Compared to the others, this one's much better.",
-      "pattern": "SPONTANEOUS-COMPARATIVE-EVALUATION",
       "form": "aff"
     },
     {
       "id": "Lv10-S22-003",
       "kr": "예전 버전이랑 비교도 안 될 정도로 좋아.",
       "en": "It's incomparably better than the old version.",
-      "pattern": "SPONTANEOUS-COMPARATIVE-EVALUATION",
       "form": "aff"
     },
     {
       "id": "Lv10-S22-004",
       "kr": "아, 그것보다는 이게 나을 것 같은데?",
       "en": "Ah, I think this would be better than that one?",
-      "pattern": "SPONTANEOUS-COMPARATIVE-EVALUATION",
       "form": "aff"
     },
     {
       "id": "Lv10-S22-005",
       "kr": "둘 다 좋긴 한데, 굳이 고르자면 이쪽이야.",
       "en": "Both are good, but if I had to choose, it'd be this one.",
-      "pattern": "SPONTANEOUS-COMPARATIVE-EVALUATION",
       "form": "aff"
     },
     {
       "id": "Lv10-S22-006",
       "kr": "이게 더 나은 것 같아. 확실히 차이가 느껴져.",
       "en": "I think this is better. I can definitely feel the difference.",
-      "pattern": "SPONTANEOUS-COMPARATIVE-EVALUATION",
       "form": "aff"
     },
     {
       "id": "Lv10-S22-007",
       "kr": "다른 것들과 비교하면, 이건 차원이 달라.",
       "en": "Compared to the others, this is in a different league.",
-      "pattern": "SPONTANEOUS-COMPARATIVE-EVALUATION",
       "form": "aff"
     },
     {
       "id": "Lv10-S22-008",
       "kr": "솔직히, 저번 것보다 못한 것 같은데?",
       "en": "Honestly, I think it's worse than the last one?",
-      "pattern": "SPONTANEOUS-COMPARATIVE-EVALUATION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L10_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.392Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_10\\Lv10-S22_bank.json"
+    ]
+  }
 }

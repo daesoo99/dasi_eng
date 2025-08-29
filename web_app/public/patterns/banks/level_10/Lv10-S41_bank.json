@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv10-S41",
-  "title": "완곡 표현 - 비판적 완곡법",
-  "description": "비판이나 부정적 의견을 완곡하게 전달하는 원어민 수준의 표현을 구사합니다.",
-  "grammar_pattern": "DIPLOMATIC-CRITICISM-MASTERY",
+  "title": "Stage Lv10-S41",
+  "description": "Level 10 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "It's not bad, but I think there's room for a bit more improvement.",
-    "Overall it's fine, but there are a few disappointing aspects.",
-    "It was a good attempt, but it's a bit different from what I expected."
+    "Overall it's fine, but there are a few disappointing aspects."
   ],
-  "learning_points": "원어민 수준의 자연스러운 비판적 완곡법 표현 구사",
-  "phase": 5,
+  "learning_points": "Level 10 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 41,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv10-S41-001",
       "kr": "나쁘지는 않지만, 조금 더 개선할 여지가 있을 것 같아요.",
       "en": "It's not bad, but I think there's room for a bit more improvement.",
-      "pattern": "DIPLOMATIC-CRITICISM-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S41-002",
       "kr": "전체적으로는 괜찮은데, 몇 가지 아쉬운 점이 있네요.",
       "en": "Overall it's fine, but there are a few disappointing aspects.",
-      "pattern": "DIPLOMATIC-CRITICISM-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S41-003",
       "kr": "좋은 시도였지만, 기대했던 것과는 조금 다르네요.",
       "en": "It was a good attempt, but it's a bit different from what I expected.",
-      "pattern": "DIPLOMATIC-CRITICISM-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S41-004",
       "kr": "방향은 맞는 것 같은데, 접근 방식을 조금 바꿔보면 어떨까요?",
       "en": "The direction seems right, but how about changing the approach a bit?",
-      "pattern": "DIPLOMATIC-CRITICISM-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S41-005",
       "kr": "아이디어는 좋은데, 실행에서 좀 아쉬운 부분이 있어요.",
       "en": "The idea is good, but there are some disappointing parts in the execution.",
-      "pattern": "DIPLOMATIC-CRITICISM-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S41-006",
       "kr": "일단 이 정도로도 괜찮지만, 더 나아질 수 있을 것 같아요.",
       "en": "This level is okay for now, but I think it could get better.",
-      "pattern": "DIPLOMATIC-CRITICISM-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S41-007",
       "kr": "충분히 노력하신 건 알겠지만, 결과가 기대에 못 미치네요.",
       "en": "I can see you put in enough effort, but the results fall short of expectations.",
-      "pattern": "DIPLOMATIC-CRITICISM-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S41-008",
       "kr": "취지는 이해하지만, 방법론에서 재고가 필요할 것 같아요.",
       "en": "I understand the intention, but the methodology might need reconsideration.",
-      "pattern": "DIPLOMATIC-CRITICISM-MASTERY",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L10_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.414Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_10\\Lv10-S41_bank.json"
+    ]
+  }
 }

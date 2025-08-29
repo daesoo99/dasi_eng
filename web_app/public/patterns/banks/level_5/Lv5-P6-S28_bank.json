@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv5-P6-S28",
-  "title": "흔한 관용구",
-  "description": "흔한 관용구을 연습합니다. COMMON-IDIOMS 패턴을 활용하여 고급 영어 표현을 익힙니다.",
-  "grammar_pattern": "COMMON-IDIOMS",
+  "title": "Stage Lv5-P6-S28",
+  "description": "Level 5 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "The ball is in your court.",
-    "You hit the nail on the head.",
-    "Don't let the cat out of the bag."
+    "You hit the nail on the head."
   ],
-  "learning_points": "idioms 관련 고급 표현과 실용적 활용",
+  "learning_points": "Level 5 target grammar and expressions with practical usage examples",
   "phase": 6,
   "stage_number": 28,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv5-P6-S28-001",
       "kr": "공은 너에게 넘어갔다.",
       "en": "The ball is in your court.",
-      "pattern": "COMMON-IDIOMS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S28-002",
       "kr": "정곡을 찔렀습니다.",
       "en": "You hit the nail on the head.",
-      "pattern": "COMMON-IDIOMS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S28-003",
       "kr": "비밀을 누설하지 마세요.",
       "en": "Don't let the cat out of the bag.",
-      "pattern": "COMMON-IDIOMS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S28-004",
       "kr": "시간을 낭비하고 있습니다.",
       "en": "You're beating around the bush.",
-      "pattern": "COMMON-IDIOMS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S28-005",
       "kr": "쉬운 일이 아닙니다.",
       "en": "It's not a piece of cake.",
-      "pattern": "COMMON-IDIOMS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S28-006",
       "kr": "돈을 낭비하고 있습니다.",
       "en": "You're throwing money down the drain.",
-      "pattern": "COMMON-IDIOMS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S28-007",
       "kr": "비가 억수같이 내리고 있습니다.",
       "en": "It's raining cats and dogs.",
-      "pattern": "COMMON-IDIOMS",
       "form": "aff"
     },
     {
       "id": "Lv5-P6-S28-008",
       "kr": "그는 성격이 급합니다.",
       "en": "He has a short fuse.",
-      "pattern": "COMMON-IDIOMS",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L5_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.448Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_5\\Lv5-P6-S28_bank.json"
+    ]
+  }
 }

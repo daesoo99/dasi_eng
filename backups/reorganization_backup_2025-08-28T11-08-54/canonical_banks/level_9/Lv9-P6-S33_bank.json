@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv9-P6-S33",
+  "title": "추상적 개념 구체화",
+  "description": "추상적인 개념을 구체적이고 생동감 있는 이미지와 비유를 통해 표현하여 청중의 이해를 돕는 고급 설명 기법.",
+  "grammar_pattern": "ABSTRACT-CONCRETIZATION",
+  "examples": [
+    "Democracy is not just a word; it's the oxygen of freedom.",
+    "Innovation flows like a river, carving new paths through tradition.",
+    "Leadership is the lighthouse guiding ships through stormy seas."
+  ],
+  "learning_points": "추상적 개념을 구체적 이미지와 은유를 통한 효과적 전달",
+  "phase": 6,
+  "stage_number": 33,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv9-P6-S33-001",
+      "kr": "민주주의는 단순한 단어가 아니라 자유의 산소입니다.",
+      "en": "Democracy is not just a word; it's the oxygen of freedom.",
+      "pattern": "ABSTRACT-CONCRETIZATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S33-002",
+      "kr": "혁신은 강물처럼 흘러서 전통을 통해 새로운 길을 개척합니다.",
+      "en": "Innovation flows like a river, carving new paths through tradition.",
+      "pattern": "ABSTRACT-CONCRETIZATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S33-003",
+      "kr": "리더십은 폭풍우 치는 바다에서 배들을 안내하는 등대입니다.",
+      "en": "Leadership is the lighthouse guiding ships through stormy seas.",
+      "pattern": "ABSTRACT-CONCRETIZATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S33-004",
+      "kr": "지식은 어둠 속에서 타오르는 불꽃과 같습니다.",
+      "en": "Knowledge is like a flame burning bright in darkness.",
+      "pattern": "ABSTRACT-CONCRETIZATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S33-005",
+      "kr": "희망은 사막에서 발견하는 오아시스입니다.",
+      "en": "Hope is the oasis discovered in the desert.",
+      "pattern": "ABSTRACT-CONCRETIZATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S33-006",
+      "kr": "신뢰는 다리와 같아서 사람들을 연결합니다.",
+      "en": "Trust is like a bridge connecting people together.",
+      "pattern": "ABSTRACT-CONCRETIZATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S33-007",
+      "kr": "창의성은 씨앗처럼 적절한 환경에서 자랍니다.",
+      "en": "Creativity grows like a seed in the right environment.",
+      "pattern": "ABSTRACT-CONCRETIZATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S33-008",
+      "kr": "용기는 폭풍 속에서도 굳건히 서 있는 나무입니다.",
+      "en": "Courage is the tree standing firm in the storm.",
+      "pattern": "ABSTRACT-CONCRETIZATION",
+      "form": "aff"
+    }
+  ]
+}

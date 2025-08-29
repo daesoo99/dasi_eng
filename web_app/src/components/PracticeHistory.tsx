@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback, useMemo, memo } from 'react';
 import { interviewStorage, InterviewRecord } from '../services/interviewStorage.ts';
 import { webSpeechAPI } from '../services/webSpeechAPI.ts';
 
@@ -6,7 +6,7 @@ interface Props {
   onBack: () => void;
 }
 
-const InterviewHistory: React.FC<Props> = ({ onBack }) => {
+const InterviewHistory: React.FC<Props> = memo(({ onBack }) => {
   const [interviews, setInterviews] = useState<InterviewRecord[]>([]);
   const [loading, setLoading] = useState(true);
   const [selectedInterview, setSelectedInterview] = useState<InterviewRecord | null>(null);
@@ -30,9 +30,9 @@ const InterviewHistory: React.FC<Props> = ({ onBack }) => {
   // selectedInterview가 변경될 때 오디오 중지
   useEffect(() => {
     stopAllAudio();
-  }, [selectedInterview]);
+  }, [selectedInterview, stopAllAudio]);
 
-  const stopAllAudio = () => {
+  const stopAllAudio = useCallback(() => {
     // TTS 중지
     webSpeechAPI.stopSpeaking();
     
@@ -50,9 +50,9 @@ const InterviewHistory: React.FC<Props> = ({ onBack }) => {
     }
     
     setPlayingIndex(null);
-  };
+  }, []);
 
-  const loadInterviews = async () => {
+  const loadInterviews = useCallback(async () => {
     try {
       setLoading(true);
       const records = await interviewStorage.getAllInterviews();
@@ -62,18 +62,18 @@ const InterviewHistory: React.FC<Props> = ({ onBack }) => {
     } finally {
       setLoading(false);
     }
-  };
+  }, []);
 
-  const loadStorageInfo = async () => {
+  const loadStorageInfo = useCallback(async () => {
     try {
       const info = await interviewStorage.getStorageUsage();
       setStorageInfo(info);
     } catch (error) {
       console.error('저장 공간 정보 로드 실패:', error);
     }
-  };
+  }, []);
 
-  const deleteInterview = async (id: string) => {
+  const deleteInterview = useCallback(async (id: string) => {
     if (window.confirm('이 면접 기록을 삭제하시겠습니까?')) {
       try {
         await interviewStorage.deleteInterview(id);
@@ -85,9 +85,9 @@ const InterviewHistory: React.FC<Props> = ({ onBack }) => {
         alert('면접 기록 삭제에 실패했습니다.');
       }
     }
-  };
+  }, [loadInterviews]);
 
-  const formatDate = (date: Date) => {
+  const formatDate = useCallback((date: Date) => {
     return new Date(date).toLocaleString('ko-KR', {
       year: 'numeric',
       month: 'short',
@@ -95,21 +95,21 @@ const InterviewHistory: React.FC<Props> = ({ onBack }) => {
       hour: '2-digit',
       minute: '2-digit'
     });
-  };
+  }, []);
 
-  const formatTime = (seconds: number) => {
+  const formatTime = useCallback((seconds: number) => {
     const minutes = Math.floor(seconds / 60);
     const remainingSeconds = seconds % 60;
     return `${minutes}분 ${remainingSeconds}초`;
-  };
+  }, []);
 
-  const formatBytes = (bytes: number) => {
+  const formatBytes = useCallback((bytes: number) => {
     if (bytes === 0) return '0 Bytes';
     const k = 1024;
     const sizes = ['Bytes', 'KB', 'MB', 'GB'];
     const i = Math.floor(Math.log(bytes) / Math.log(k));
     return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
-  };
+  }, []);
 
   const playAnswer = async (qa: any, index: number) => {
     if (playingIndex === index) {
@@ -584,6 +584,6 @@ const InterviewHistory: React.FC<Props> = ({ onBack }) => {
       </div>
     </div>
   );
-};
+});
 
 export default InterviewHistory;

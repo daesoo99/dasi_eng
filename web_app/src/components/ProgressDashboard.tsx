@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback, useMemo, memo } from 'react';
 import { progressManagementService } from '../services/progressManagement';
 
 interface ProgressDashboardProps {
@@ -26,7 +26,7 @@ interface OverallProgress {
   achievementBadges: string[];
 }
 
-const ProgressDashboard: React.FC<ProgressDashboardProps> = ({ userId }) => {
+const ProgressDashboard: React.FC<ProgressDashboardProps> = memo(({ userId }) => {
   const [overallProgress, setOverallProgress] = useState<OverallProgress | null>(null);
   const [levelProgresses, setLevelProgresses] = useState<LevelProgress[]>([]);
   const [selectedLevel, setSelectedLevel] = useState<number>(1);
@@ -294,6 +294,6 @@ const ProgressDashboard: React.FC<ProgressDashboardProps> = ({ userId }) => {
       )}
     </div>
   );
-};
+});
 
 export default ProgressDashboard;

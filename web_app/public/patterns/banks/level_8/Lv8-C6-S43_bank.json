@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv8-C6-S43",
-  "title": "상황별 어조 변화",
-  "description": "다양한 상황과 맥락에 따라 적절한 어조를 선택하고 변화시키는 방법을 연습합니다.",
-  "grammar_pattern": "SITUATIONAL-TONE-VARIATION",
+  "title": "Stage Lv8-C6-S43",
+  "description": "Level 8 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Emergency Protocol: All personnel must evacuate immediately.",
-    "Friendly Reminder: Don't forget about tomorrow's team meeting!",
-    "Formal Notice: The board of directors will convene next Tuesday."
+    "Friendly Reminder: Don't forget about tomorrow's team meeting!"
   ],
-  "learning_points": "상황별 적절한 어조 선택을 통한 효과적인 의사소통",
-  "phase": 6,
+  "learning_points": "Level 8 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 43,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv8-C6-S43-001",
       "kr": "긴급 프로토콜: 모든 직원은 즉시 대피해야 합니다.",
       "en": "Emergency Protocol: All personnel must evacuate immediately.",
-      "pattern": "SITUATIONAL-TONE-VARIATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S43-002",
       "kr": "친근한 알림: 내일 팀 미팅 잊지 마세요!",
       "en": "Friendly Reminder: Don't forget about tomorrow's team meeting!",
-      "pattern": "SITUATIONAL-TONE-VARIATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S43-003",
       "kr": "공식 통지: 이사회가 다음 주 화요일에 소집됩니다.",
       "en": "Formal Notice: The board of directors will convene next Tuesday.",
-      "pattern": "SITUATIONAL-TONE-VARIATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S43-004",
       "kr": "축하 메시지: 여러분의 놀라운 성취를 자랑스럽게 생각합니다!",
       "en": "Congratulatory Message: We are incredibly proud of your remarkable achievement!",
-      "pattern": "SITUATIONAL-TONE-VARIATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S43-005",
       "kr": "조심스러운 제안: 이 문제에 대해 다시 한번 고려해보시는 것이 어떨까요?",
       "en": "Cautious Suggestion: Perhaps we might reconsider our approach to this issue?",
-      "pattern": "SITUATIONAL-TONE-VARIATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S43-006",
       "kr": "확고한 지시: 이 정책은 예외 없이 모든 부서에 적용됩니다.",
       "en": "Firm Directive: This policy applies to all departments without exception.",
-      "pattern": "SITUATIONAL-TONE-VARIATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S43-007",
       "kr": "감사 표현: 여러분의 헌신과 노고에 진심으로 감사드립니다.",
       "en": "Appreciation Note: We sincerely thank you for your dedication and hard work.",
-      "pattern": "SITUATIONAL-TONE-VARIATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S43-008",
       "kr": "유감 표명: 이번 결정으로 인한 불편을 깊이 사과드립니다.",
       "en": "Expression of Regret: We deeply apologize for any inconvenience caused by this decision.",
-      "pattern": "SITUATIONAL-TONE-VARIATION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L8_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.579Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_8\\Lv8-C6-S43_bank.json"
+    ]
+  }
 }

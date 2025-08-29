@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv6-P2-S11",
-  "title": "수동태 완료형",
-  "description": "완료시제 수동태 문장을 만들어 봅니다.",
-  "grammar_pattern": "PASSIVE-PERFECT",
+  "title": "Stage Lv6-P2-S11",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "The project has been completed successfully.",
-    "The issue had been resolved before the meeting.",
-    "All tasks will have been finished by Friday."
+    "The issue had been resolved before the meeting."
   ],
-  "learning_points": "완료시제와 수동태의 결합 구조",
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
   "phase": 2,
   "stage_number": 11,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv6-P2-S11-001",
       "kr": "프로젝트가 성공적으로 완료되었습니다.",
       "en": "The project has been completed successfully.",
-      "pattern": "PASSIVE-PERFECT",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S11-002",
       "kr": "회의 전에 문제가 해결되어 있었습니다.",
       "en": "The issue had been resolved before the meeting.",
-      "pattern": "PASSIVE-PERFECT",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S11-003",
       "kr": "금요일까지 모든 작업이 완료되어 있을 것입니다.",
       "en": "All tasks will have been finished by Friday.",
-      "pattern": "PASSIVE-PERFECT",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S11-004",
       "kr": "보고서가 이미 승인되었습니다.",
       "en": "The report has already been approved.",
-      "pattern": "PASSIVE-PERFECT",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S11-005",
       "kr": "새로운 시스템이 성공적으로 구축되어 있었습니다.",
       "en": "The new system had been successfully established.",
-      "pattern": "PASSIVE-PERFECT",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S11-006",
       "kr": "계획이 아직 승인되지 않았습니다.",
       "en": "The plan has not been approved yet.",
-      "pattern": "PASSIVE-PERFECT",
       "form": "neg"
     },
     {
       "id": "Lv6-P2-S11-007",
       "kr": "모든 데이터가 다음 주까지 처리되어 있을 것입니다.",
       "en": "All data will have been processed by next week.",
-      "pattern": "PASSIVE-PERFECT",
       "form": "aff"
     },
     {
       "id": "Lv6-P2-S11-008",
       "kr": "제품이 여러 번 테스트되어 왔습니다.",
       "en": "The product has been tested multiple times.",
-      "pattern": "PASSIVE-PERFECT",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 7,
+    "neg": 1,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.463Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_6\\Lv6-P2-S11_bank.json"
+    ]
+  }
 }

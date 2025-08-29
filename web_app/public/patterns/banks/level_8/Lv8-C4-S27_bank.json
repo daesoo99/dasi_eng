@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv8-C4-S27",
-  "title": "분사구문 + 원인/조건 결합",
-  "description": "분사구문에 원인이나 조건의 의미를 결합하여 논리적이고 복합적인 표현을 만드는 방법을 연습합니다.",
-  "grammar_pattern": "PARTICIPLE-CAUSE-CONDITION",
+  "title": "Stage Lv8-C4-S27",
+  "description": "Level 8 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Being short of time, we had to make a quick decision.",
-    "Having no other choice, they accepted the offer.",
-    "Realizing the importance of the issue, we took immediate action."
+    "Having no other choice, they accepted the offer."
   ],
-  "learning_points": "분사구문과 원인/조건의 결합을 통한 논리적 표현",
-  "phase": 4,
+  "learning_points": "Level 8 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 27,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv8-C4-S27-001",
       "kr": "시간이 부족해서 우리는 빠른 결정을 내려야 했습니다.",
       "en": "Being short of time, we had to make a quick decision.",
-      "pattern": "PARTICIPLE-CAUSE-CONDITION",
       "form": "aff"
     },
     {
       "id": "Lv8-C4-S27-002",
       "kr": "다른 선택이 없어서 그들은 그 제안을 받아들였습니다.",
       "en": "Having no other choice, they accepted the offer.",
-      "pattern": "PARTICIPLE-CAUSE-CONDITION",
       "form": "aff"
     },
     {
       "id": "Lv8-C4-S27-003",
       "kr": "그 문제의 중요성을 깨달아서 우리는 즉시 조치를 취했습니다.",
       "en": "Realizing the importance of the issue, we took immediate action.",
-      "pattern": "PARTICIPLE-CAUSE-CONDITION",
       "form": "aff"
     },
     {
       "id": "Lv8-C4-S27-004",
       "kr": "예산이 제한되어 있어서 우리는 우선순위를 정해야 했습니다.",
       "en": "Having limited budget, we had to set priorities.",
-      "pattern": "PARTICIPLE-CAUSE-CONDITION",
       "form": "aff"
     },
     {
       "id": "Lv8-C4-S27-005",
       "kr": "경험이 부족해서 그들은 전문가의 도움을 구했습니다.",
       "en": "Lacking experience, they sought help from experts.",
-      "pattern": "PARTICIPLE-CAUSE-CONDITION",
       "form": "aff"
     },
     {
       "id": "Lv8-C4-S27-006",
       "kr": "위험을 인식해서 우리는 더 신중한 접근을 택했습니다.",
       "en": "Recognizing the risks, we adopted a more cautious approach.",
-      "pattern": "PARTICIPLE-CAUSE-CONDITION",
       "form": "aff"
     },
     {
       "id": "Lv8-C4-S27-007",
       "kr": "충분한 정보가 없어서 더 많은 연구가 필요했습니다.",
       "en": "Not having sufficient information, more research was needed.",
-      "pattern": "PARTICIPLE-CAUSE-CONDITION",
       "form": "aff"
     },
     {
       "id": "Lv8-C4-S27-008",
       "kr": "기회의 중요성을 이해해서 우리는 즉시 행동했습니다.",
       "en": "Understanding the importance of the opportunity, we acted immediately.",
-      "pattern": "PARTICIPLE-CAUSE-CONDITION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L8_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.563Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_8\\Lv8-C4-S27_bank.json"
+    ]
+  }
 }

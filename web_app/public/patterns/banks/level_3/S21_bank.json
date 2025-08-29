@@ -1,0 +1,152 @@
+{
+  "stage_id": "S21",
+  "title": "Stage S21",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "If I were you, I would talk to my boss about it.",
+    "If I were in your shoes, I would accept the offer."
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 21,
+  "count": 20,
+  "sentences": [
+    {
+      "id": "S21-1",
+      "kr": "제가 당신이라면 상사와 그것에 대해 이야기할 거예요.",
+      "en": "If I were you, I would talk to my boss about it.",
+      "form": "aff"
+    },
+    {
+      "id": "S21-2",
+      "kr": "제가 당신 입장이라면 그 제안을 받아들일 거예요.",
+      "en": "If I were in your shoes, I would accept the offer.",
+      "form": "aff"
+    },
+    {
+      "id": "S21-3",
+      "kr": "먼저 더 많은 경험을 쌓으시길 제안해요.",
+      "en": "I would suggest that you get more experience first.",
+      "form": "aff"
+    },
+    {
+      "id": "S21-4",
+      "kr": "다른 방법을 시도해보시는 게 어때요?",
+      "en": "Why don't you try a different approach?",
+      "form": "aff"
+    },
+    {
+      "id": "S21-5",
+      "kr": "모든 선택사항을 고려해보시는 게 좋을 것 같아요.",
+      "en": "You might want to consider all the options.",
+      "form": "aff"
+    },
+    {
+      "id": "S21-6",
+      "kr": "도움을 요청하는 것을 생각해보셨나요?",
+      "en": "Have you thought about asking for help?",
+      "form": "aff"
+    },
+    {
+      "id": "S21-7",
+      "kr": "조금 더 기다리는 것이 좋은 생각일 것 같아요.",
+      "en": "It might be a good idea to wait a little longer.",
+      "form": "aff"
+    },
+    {
+      "id": "S21-8",
+      "kr": "모든 것을 다시 한 번 확인하시길 권해요.",
+      "en": "I'd recommend that you double-check everything.",
+      "form": "aff"
+    },
+    {
+      "id": "S21-9",
+      "kr": "아마도 결정을 다시 생각해보셔야 할 것 같아요.",
+      "en": "Perhaps you should reconsider your decision.",
+      "form": "aff"
+    },
+    {
+      "id": "S21-10",
+      "kr": "완전히 다른 전략을 시도해보면 어떨까요?",
+      "en": "What if you tried a completely different strategy?",
+      "form": "aff"
+    },
+    {
+      "id": "S21-1",
+      "kr": "제가 당신이라면 상사와 그것에 대해 이야기할 거예요.",
+      "en": "If I were you, I would talk to my boss about it.",
+      "form": "aff"
+    },
+    {
+      "id": "S21-2",
+      "kr": "제가 당신 입장이라면 그 제안을 받아들일 거예요.",
+      "en": "If I were in your shoes, I would accept the offer.",
+      "form": "aff"
+    },
+    {
+      "id": "S21-3",
+      "kr": "먼저 더 많은 경험을 쌓으시길 제안해요.",
+      "en": "I would suggest that you get more experience first.",
+      "form": "aff"
+    },
+    {
+      "id": "S21-4",
+      "kr": "다른 방법을 시도해보시는 게 어때요?",
+      "en": "Why don't you try a different approach?",
+      "form": "aff"
+    },
+    {
+      "id": "S21-5",
+      "kr": "모든 선택사항을 고려해보시는 게 좋을 것 같아요.",
+      "en": "You might want to consider all the options.",
+      "form": "aff"
+    },
+    {
+      "id": "S21-6",
+      "kr": "도움을 요청하는 것을 생각해보셨나요?",
+      "en": "Have you thought about asking for help?",
+      "form": "aff"
+    },
+    {
+      "id": "S21-7",
+      "kr": "조금 더 기다리는 것이 좋은 생각일 것 같아요.",
+      "en": "It might be a good idea to wait a little longer.",
+      "form": "aff"
+    },
+    {
+      "id": "S21-8",
+      "kr": "모든 것을 다시 한 번 확인하시길 권해요.",
+      "en": "I'd recommend that you double-check everything.",
+      "form": "aff"
+    },
+    {
+      "id": "S21-9",
+      "kr": "아마도 결정을 다시 생각해보셔야 할 것 같아요.",
+      "en": "Perhaps you should reconsider your decision.",
+      "form": "aff"
+    },
+    {
+      "id": "S21-10",
+      "kr": "완전히 다른 전략을 시도해보면 어떨까요?",
+      "en": "What if you tried a completely different strategy?",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 20,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L1_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.726Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW.json",
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW_migrated.json"
+    ]
+  }
+}

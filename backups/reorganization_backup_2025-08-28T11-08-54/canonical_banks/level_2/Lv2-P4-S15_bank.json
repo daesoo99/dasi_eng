@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv2-P4-S15",
+  "title": "명령문과 요청",
+  "description": "직접 명령과 공손한 요청을 상황에 맞게 연습합니다. 상황 카드를 주고 적절한 명령문이나 요청문을 만들어 말해보게 합니다.",
+  "grammar_pattern": "동사원형 + please / Please + 동사원형 / Don't + 동사원형",
+  "examples": ["Turn off the light, please.", "Don't be late tomorrow.", "Please help me with this."],
+  "learning_points": "정중한 지시, 부정 명령, 정중한 도움 요청 등 상황별 표현",
+  "phase": 4,
+  "stage_number": 15,
+  "count": 0,
+  "sentences": []
+}

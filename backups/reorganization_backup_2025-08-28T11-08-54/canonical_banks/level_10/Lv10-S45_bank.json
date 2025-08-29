@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv10-S45",
+  "title": "비유 표현 - 감정 비유",
+  "description": "감정과 느낌을 생생한 비유로 표현하는 원어민 수준의 표현을 구사합니다.",
+  "grammar_pattern": "EMOTIONAL-METAPHOR-MASTERY",
+  "examples": [
+    "It feels like my heart is being torn into a thousand pieces.",
+    "I feel like I'm walking on clouds.",
+    "It feels like there's a hole in my chest."
+  ],
+  "learning_points": "원어민 수준의 자연스러운 감정 비유 표현 구사",
+  "phase": 5,
+  "stage_number": 45,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv10-S45-001",
+      "kr": "마음이 천 갈래로 찢어지는 것 같아.",
+      "en": "It feels like my heart is being torn into a thousand pieces.",
+      "pattern": "EMOTIONAL-METAPHOR-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S45-002",
+      "kr": "구름 위를 걷는 기분이야.",
+      "en": "I feel like I'm walking on clouds.",
+      "pattern": "EMOTIONAL-METAPHOR-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S45-003",
+      "kr": "가슴에 구멍이 뚫린 것 같아.",
+      "en": "It feels like there's a hole in my chest.",
+      "pattern": "EMOTIONAL-METAPHOR-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S45-004",
+      "kr": "마치 롤러코스터를 타는 것 같은 하루였어.",
+      "en": "It was like riding a roller coaster all day.",
+      "pattern": "EMOTIONAL-METAPHOR-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S45-005",
+      "kr": "마음이 무거운 돌덩어리 같아.",
+      "en": "My heart feels like a heavy stone.",
+      "pattern": "EMOTIONAL-METAPHOR-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S45-006",
+      "kr": "하늘을 나는 것 같은 기분이야.",
+      "en": "I feel like I'm flying in the sky.",
+      "pattern": "EMOTIONAL-METAPHOR-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S45-007",
+      "kr": "가시방석에 앉은 것 같아서 불편해.",
+      "en": "I'm uncomfortable, like sitting on a bed of thorns.",
+      "pattern": "EMOTIONAL-METAPHOR-MASTERY",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S45-008",
+      "kr": "마음에 따뜻한 햇살이 드는 것 같아.",
+      "en": "It feels like warm sunshine is entering my heart.",
+      "pattern": "EMOTIONAL-METAPHOR-MASTERY",
+      "form": "aff"
+    }
+  ]
+}

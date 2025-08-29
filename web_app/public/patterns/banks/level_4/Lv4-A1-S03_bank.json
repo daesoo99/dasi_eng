@@ -1,0 +1,331 @@
+{
+  "stage_id": "Lv4-A1-S03",
+  "title": "Stage Lv4-A1-S03",
+  "description": "Level 4 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "I completely agree with that opinion. (variant 1)",
+    "That's a valid point, but there's another perspective. (variant 1)"
+  ],
+  "learning_points": "Level 4 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 3,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv4-A1-S03-001",
+      "kr": "그 의견에 전적으로 동의합니다. (v1)",
+      "en": "I completely agree with that opinion. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-002",
+      "kr": "좋은 지적이지만 다른 관점도 있습니다. (v1)",
+      "en": "That's a valid point, but there's another perspective. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-003",
+      "kr": "어느 정도는 동의하지만 우려사항이 있습니다. (v1)",
+      "en": "I agree to some extent, but I have concerns. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-004",
+      "kr": "죄송하지만 그 제안에 반대합니다. (v1)",
+      "en": "I'm sorry, but I have to disagree with that proposal. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-005",
+      "kr": "대안을 제시해 보겠습니다. (v1)",
+      "en": "Let me suggest an alternative. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-006",
+      "kr": "그 아이디어를 지지합니다. (v1)",
+      "en": "I support that idea. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-007",
+      "kr": "다른 접근법을 고려해 볼 수 있을까요? (v1)",
+      "en": "Could we consider a different approach? (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-008",
+      "kr": "정확히 그렇습니다. (v1)",
+      "en": "That's exactly right. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-009",
+      "kr": "그 점에 대해서는 의견이 다릅니다. (v1)",
+      "en": "I have a different opinion on that point. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-010",
+      "kr": "훌륭한 제안입니다. (v1)",
+      "en": "That's an excellent suggestion. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-011",
+      "kr": "그 의견에 전적으로 동의합니다. (v2)",
+      "en": "I completely agree with that opinion. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-012",
+      "kr": "좋은 지적이지만 다른 관점도 있습니다. (v2)",
+      "en": "That's a valid point, but there's another perspective. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-013",
+      "kr": "어느 정도는 동의하지만 우려사항이 있습니다. (v2)",
+      "en": "I agree to some extent, but I have concerns. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-014",
+      "kr": "죄송하지만 그 제안에 반대합니다. (v2)",
+      "en": "I'm sorry, but I have to disagree with that proposal. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-015",
+      "kr": "대안을 제시해 보겠습니다. (v2)",
+      "en": "Let me suggest an alternative. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-016",
+      "kr": "그 아이디어를 지지합니다. (v2)",
+      "en": "I support that idea. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-017",
+      "kr": "다른 접근법을 고려해 볼 수 있을까요? (v2)",
+      "en": "Could we consider a different approach? (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-018",
+      "kr": "정확히 그렇습니다. (v2)",
+      "en": "That's exactly right. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-019",
+      "kr": "그 점에 대해서는 의견이 다릅니다. (v2)",
+      "en": "I have a different opinion on that point. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-020",
+      "kr": "훌륭한 제안입니다. (v2)",
+      "en": "That's an excellent suggestion. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-021",
+      "kr": "그 의견에 전적으로 동의합니다. (v3)",
+      "en": "I completely agree with that opinion. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-022",
+      "kr": "좋은 지적이지만 다른 관점도 있습니다. (v3)",
+      "en": "That's a valid point, but there's another perspective. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-023",
+      "kr": "어느 정도는 동의하지만 우려사항이 있습니다. (v3)",
+      "en": "I agree to some extent, but I have concerns. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-024",
+      "kr": "죄송하지만 그 제안에 반대합니다. (v3)",
+      "en": "I'm sorry, but I have to disagree with that proposal. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-025",
+      "kr": "대안을 제시해 보겠습니다. (v3)",
+      "en": "Let me suggest an alternative. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-026",
+      "kr": "그 아이디어를 지지합니다. (v3)",
+      "en": "I support that idea. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-027",
+      "kr": "다른 접근법을 고려해 볼 수 있을까요? (v3)",
+      "en": "Could we consider a different approach? (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-028",
+      "kr": "정확히 그렇습니다. (v3)",
+      "en": "That's exactly right. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-029",
+      "kr": "그 점에 대해서는 의견이 다릅니다. (v3)",
+      "en": "I have a different opinion on that point. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-030",
+      "kr": "훌륭한 제안입니다. (v3)",
+      "en": "That's an excellent suggestion. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-031",
+      "kr": "그 의견에 전적으로 동의합니다. (v4)",
+      "en": "I completely agree with that opinion. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-032",
+      "kr": "좋은 지적이지만 다른 관점도 있습니다. (v4)",
+      "en": "That's a valid point, but there's another perspective. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-033",
+      "kr": "어느 정도는 동의하지만 우려사항이 있습니다. (v4)",
+      "en": "I agree to some extent, but I have concerns. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-034",
+      "kr": "죄송하지만 그 제안에 반대합니다. (v4)",
+      "en": "I'm sorry, but I have to disagree with that proposal. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-035",
+      "kr": "대안을 제시해 보겠습니다. (v4)",
+      "en": "Let me suggest an alternative. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A1-S03-036",
+      "kr": "그 아이디어를 지지합니다. (v4)",
+      "en": "I support that idea. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S03-037",
+      "kr": "다른 접근법을 고려해 볼 수 있을까요? (v4)",
+      "en": "Could we consider a different approach? (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S03-038",
+      "kr": "정확히 그렇습니다. (v4)",
+      "en": "That's exactly right. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S03-039",
+      "kr": "그 점에 대해서는 의견이 다릅니다. (v4)",
+      "en": "I have a different opinion on that point. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S03-040",
+      "kr": "훌륭한 제안입니다. (v4)",
+      "en": "That's an excellent suggestion. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S03-041",
+      "kr": "그 의견에 전적으로 동의합니다. (v5)",
+      "en": "I completely agree with that opinion. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S03-042",
+      "kr": "좋은 지적이지만 다른 관점도 있습니다. (v5)",
+      "en": "That's a valid point, but there's another perspective. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S03-043",
+      "kr": "어느 정도는 동의하지만 우려사항이 있습니다. (v5)",
+      "en": "I agree to some extent, but I have concerns. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S03-044",
+      "kr": "죄송하지만 그 제안에 반대합니다. (v5)",
+      "en": "I'm sorry, but I have to disagree with that proposal. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S03-045",
+      "kr": "대안을 제시해 보겠습니다. (v5)",
+      "en": "Let me suggest an alternative. (variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A1-S03-046",
+      "kr": "그 아이디어를 지지합니다. (v5)",
+      "en": "I support that idea. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A1-S03-047",
+      "kr": "다른 접근법을 고려해 볼 수 있을까요? (v5)",
+      "en": "Could we consider a different approach? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A1-S03-048",
+      "kr": "정확히 그렇습니다. (v5)",
+      "en": "That's exactly right. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A1-S03-049",
+      "kr": "그 점에 대해서는 의견이 다릅니다. (v5)",
+      "en": "I have a different opinion on that point. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A1-S03-050",
+      "kr": "훌륭한 제안입니다. (v5)",
+      "en": "That's an excellent suggestion. (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 10,
+    "wh_q": 5,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L4_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.744Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "backups\\level_4_business_mastery\\banks\\Lv4-A1-S03_bank.json"
+    ]
+  }
+}

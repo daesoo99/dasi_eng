@@ -1,0 +1,314 @@
+{
+  "stage_id": "Lv1-P2-S07",
+  "title": "Be 동사 부정문",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv1-P3-S07-001",
+      "kr": "나는 선생님이 아닙니다. (v1)",
+      "en": "I am not a teacher. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-002",
+      "kr": "너는 늦지 않았습니다. (v1)",
+      "en": "You are not late. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-003",
+      "kr": "그는 여기에 없습니다. (v1)",
+      "en": "He is not here. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-004",
+      "kr": "그녀는 행복하지 않습니다. (v1)",
+      "en": "She is not happy. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-005",
+      "kr": "춥지 않습니다. (v1)",
+      "en": "It is not cold. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-006",
+      "kr": "우리는 바쁘지 않습니다. (v1)",
+      "en": "We are not busy. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-007",
+      "kr": "그들은 학생이 아닙니다. (v1)",
+      "en": "They are not students. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-008",
+      "kr": "나는 의사가 아닙니다. (v1)",
+      "en": "I am not a doctor. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-009",
+      "kr": "너는 키가 크지 않습니다. (v1)",
+      "en": "You are not tall. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-010",
+      "kr": "그는 피곤하지 않습니다. (v1)",
+      "en": "He is not tired. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-011",
+      "kr": "나는 선생님이 아닙니다. (v2)",
+      "en": "I'm not a teacher. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-012",
+      "kr": "너는 늦지 않았습니다. (v2)",
+      "en": "You aren't late. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-013",
+      "kr": "그는 여기에 없습니다. (v2)",
+      "en": "He isn't here. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-014",
+      "kr": "그녀는 행복하지 않습니다. (v2)",
+      "en": "She isn't happy. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-015",
+      "kr": "춥지 않습니다. (v2)",
+      "en": "It isn't cold. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-016",
+      "kr": "우리는 바쁘지 않습니다. (v2)",
+      "en": "We aren't busy. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-017",
+      "kr": "그들은 학생이 아닙니다. (v2)",
+      "en": "They aren't students. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-018",
+      "kr": "나는 의사가 아닙니다. (v2)",
+      "en": "I'm not a doctor. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-019",
+      "kr": "너는 키가 크지 않습니다. (v2)",
+      "en": "You aren't tall. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-020",
+      "kr": "그는 피곤하지 않습니다. (v2)",
+      "en": "He isn't tired. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-021",
+      "kr": "나는 선생님이 아닙니다. (v3)",
+      "en": "I am not a teacher. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-022",
+      "kr": "너는 늦지 않았습니다. (v3)",
+      "en": "You are not late. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-023",
+      "kr": "그는 여기에 없습니다. (v3)",
+      "en": "He is not here. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-024",
+      "kr": "그녀는 행복하지 않습니다. (v3)",
+      "en": "She is not happy. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-025",
+      "kr": "춥지 않습니다. (v3)",
+      "en": "It is not cold. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-026",
+      "kr": "우리는 바쁘지 않습니다. (v3)",
+      "en": "We are not busy. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-027",
+      "kr": "그들은 학생이 아닙니다. (v3)",
+      "en": "They are not students. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-028",
+      "kr": "나는 의사가 아닙니다. (v3)",
+      "en": "I am not a doctor. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-029",
+      "kr": "너는 키가 크지 않습니다. (v3)",
+      "en": "You are not tall. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-030",
+      "kr": "그는 피곤하지 않습니다. (v3)",
+      "en": "He is not tired. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-031",
+      "kr": "나는 선생님이 아닙니다. (v4)",
+      "en": "I am not a teacher. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-032",
+      "kr": "너는 늦지 않았습니다. (v4)",
+      "en": "You are not late. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-033",
+      "kr": "그는 여기에 없습니다. (v4)",
+      "en": "He is not here. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-034",
+      "kr": "그녀는 행복하지 않습니다. (v4)",
+      "en": "She is not happy. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-035",
+      "kr": "춥지 않습니다. (v4)",
+      "en": "It is not cold. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-036",
+      "kr": "나는 선생님입니다. (v4)",
+      "en": "I am a teacher. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P3-S07-037",
+      "kr": "너는 늦었습니다. (v4)",
+      "en": "You are late. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P3-S07-038",
+      "kr": "그는 여기에 있습니다. (v4)",
+      "en": "He is here. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P3-S07-039",
+      "kr": "그녀는 행복합니다. (v4)",
+      "en": "She is happy. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P3-S07-040",
+      "kr": "춥습니다. (v4)",
+      "en": "It is cold. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P3-S07-041",
+      "kr": "나는 선생님이 아닙니다. (v5)",
+      "en": "I am not a teacher. (variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-042",
+      "kr": "너는 늦지 않았습니다. (v5)",
+      "en": "You are not late. (variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-043",
+      "kr": "그는 여기에 없습니다. (v5)",
+      "en": "He is not here. (variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-044",
+      "kr": "그녀는 행복하지 않습니다. (v5)",
+      "en": "She is not happy. (variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-045",
+      "kr": "춥지 않습니다. (v5)",
+      "en": "It is not cold. (variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S07-046",
+      "kr": "왜 나는 선생님이 아닙니까? (v5)",
+      "en": "Why am I not a teacher? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P3-S07-047",
+      "kr": "언제 너는 늦지 않습니까? (v5)",
+      "en": "When are you not late? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P3-S07-048",
+      "kr": "어디서 그는 없습니까? (v5)",
+      "en": "Where is he not? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P3-S07-049",
+      "kr": "누가 행복하지 않습니까? (v5)",
+      "en": "Who is not happy? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P3-S07-050",
+      "kr": "무엇이 춥지 않습니까? (v5)",
+      "en": "What is not cold? (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 10,
+    "wh_q": 5
+  },
+  "status": "generated",
+  "batch": "L1_Basic_Batch1"
+}

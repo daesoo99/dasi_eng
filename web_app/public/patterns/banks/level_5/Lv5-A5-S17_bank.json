@@ -1,0 +1,331 @@
+{
+  "stage_id": "Lv5-A5-S17",
+  "title": "Stage Lv5-A5-S17",
+  "description": "Level 5 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "Research data must be systematically managed. (completion variant 1)",
+    "Research data must be systematically managed. (completion variant 2)"
+  ],
+  "learning_points": "Level 5 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 17,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv5-A5-S17-001",
+      "kr": "연구 데이터를 체계적으로 관리해야 합니다. (완성 1)",
+      "en": "Research data must be systematically managed. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-002",
+      "kr": "연구 데이터를 체계적으로 관리해야 합니다. (완성 2)",
+      "en": "Research data must be systematically managed. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-003",
+      "kr": "연구 데이터를 체계적으로 관리해야 합니다. (완성 3)",
+      "en": "Research data must be systematically managed. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-004",
+      "kr": "연구 데이터를 체계적으로 관리해야 합니다. (완성 4)",
+      "en": "Research data must be systematically managed. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-005",
+      "kr": "연구 데이터를 체계적으로 관리해야 합니다. (완성 5)",
+      "en": "Research data must be systematically managed. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-006",
+      "kr": "데이터 공유가 과학 발전에 기여합니다. (완성 1)",
+      "en": "Data sharing contributes to scientific advancement. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-007",
+      "kr": "데이터 공유가 과학 발전에 기여합니다. (완성 2)",
+      "en": "Data sharing contributes to scientific advancement. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-008",
+      "kr": "데이터 공유가 과학 발전에 기여합니다. (완성 3)",
+      "en": "Data sharing contributes to scientific advancement. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-009",
+      "kr": "데이터 공유가 과학 발전에 기여합니다. (완성 4)",
+      "en": "Data sharing contributes to scientific advancement. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-010",
+      "kr": "데이터 공유가 과학 발전에 기여합니다. (완성 5)",
+      "en": "Data sharing contributes to scientific advancement. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-011",
+      "kr": "투명성이 연구 신뢰성을 보장합니다. (완성 1)",
+      "en": "Transparency ensures research credibility. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-012",
+      "kr": "투명성이 연구 신뢰성을 보장합니다. (완성 2)",
+      "en": "Transparency ensures research credibility. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-013",
+      "kr": "투명성이 연구 신뢰성을 보장합니다. (완성 3)",
+      "en": "Transparency ensures research credibility. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-014",
+      "kr": "투명성이 연구 신뢰성을 보장합니다. (완성 4)",
+      "en": "Transparency ensures research credibility. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-015",
+      "kr": "투명성이 연구 신뢰성을 보장합니다. (완성 5)",
+      "en": "Transparency ensures research credibility. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-016",
+      "kr": "재현 가능성이 과학의 핵심 원칙입니다. (완성 1)",
+      "en": "Reproducibility is a core principle of science. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-017",
+      "kr": "재현 가능성이 과학의 핵심 원칙입니다. (완성 2)",
+      "en": "Reproducibility is a core principle of science. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-018",
+      "kr": "재현 가능성이 과학의 핵심 원칙입니다. (완성 3)",
+      "en": "Reproducibility is a core principle of science. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-019",
+      "kr": "재현 가능성이 과학의 핵심 원칙입니다. (완성 4)",
+      "en": "Reproducibility is a core principle of science. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-020",
+      "kr": "재현 가능성이 과학의 핵심 원칙입니다. (완성 5)",
+      "en": "Reproducibility is a core principle of science. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-021",
+      "kr": "데이터 저장소를 구축했습니다. (완성 1)",
+      "en": "We have established a data repository. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-022",
+      "kr": "데이터 저장소를 구축했습니다. (완성 2)",
+      "en": "We have established a data repository. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-023",
+      "kr": "데이터 저장소를 구축했습니다. (완성 3)",
+      "en": "We have established a data repository. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-024",
+      "kr": "데이터 저장소를 구축했습니다. (완성 4)",
+      "en": "We have established a data repository. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-025",
+      "kr": "데이터 저장소를 구축했습니다. (완성 5)",
+      "en": "We have established a data repository. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-026",
+      "kr": "메타데이터가 적절히 기록되었습니다. (완성 1)",
+      "en": "Metadata has been properly documented. (completion variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-027",
+      "kr": "메타데이터가 적절히 기록되었습니다. (완성 2)",
+      "en": "Metadata has been properly documented. (completion variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-028",
+      "kr": "메타데이터가 적절히 기록되었습니다. (완성 3)",
+      "en": "Metadata has been properly documented. (completion variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-029",
+      "kr": "메타데이터가 적절히 기록되었습니다. (완성 4)",
+      "en": "Metadata has been properly documented. (completion variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-030",
+      "kr": "메타데이터가 적절히 기록되었습니다. (완성 5)",
+      "en": "Metadata has been properly documented. (completion variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A5-S17-031",
+      "kr": "데이터 접근성을 향상시켜야 합니다. (완성 1)",
+      "en": "Data accessibility should be improved. (completion variant 1)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A5-S17-032",
+      "kr": "데이터 접근성을 향상시켜야 합니다. (완성 2)",
+      "en": "Data accessibility should be improved. (completion variant 2)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A5-S17-033",
+      "kr": "데이터 접근성을 향상시켜야 합니다. (완성 3)",
+      "en": "Data accessibility should be improved. (completion variant 3)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A5-S17-034",
+      "kr": "데이터 접근성을 향상시켜야 합니다. (완성 4)",
+      "en": "Data accessibility should be improved. (completion variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A5-S17-035",
+      "kr": "데이터 접근성을 향상시켜야 합니다. (완성 5)",
+      "en": "Data accessibility should be improved. (completion variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A5-S17-036",
+      "kr": "장기 보존 전략이 필요합니다. (완성 1)",
+      "en": "Long-term preservation strategies are needed. (completion variant 1)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A5-S17-037",
+      "kr": "장기 보존 전략이 필요합니다. (완성 2)",
+      "en": "Long-term preservation strategies are needed. (completion variant 2)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A5-S17-038",
+      "kr": "장기 보존 전략이 필요합니다. (완성 3)",
+      "en": "Long-term preservation strategies are needed. (completion variant 3)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A5-S17-039",
+      "kr": "장기 보존 전략이 필요합니다. (완성 4)",
+      "en": "Long-term preservation strategies are needed. (completion variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A5-S17-040",
+      "kr": "장기 보존 전략이 필요합니다. (완성 5)",
+      "en": "Long-term preservation strategies are needed. (completion variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A5-S17-041",
+      "kr": "데이터 품질을 지속적으로 관리합니다. (완성 1)",
+      "en": "We continuously manage data quality. (completion variant 1)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A5-S17-042",
+      "kr": "데이터 품질을 지속적으로 관리합니다. (완성 2)",
+      "en": "We continuously manage data quality. (completion variant 2)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A5-S17-043",
+      "kr": "데이터 품질을 지속적으로 관리합니다. (완성 3)",
+      "en": "We continuously manage data quality. (completion variant 3)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A5-S17-044",
+      "kr": "데이터 품질을 지속적으로 관리합니다. (완성 4)",
+      "en": "We continuously manage data quality. (completion variant 4)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A5-S17-045",
+      "kr": "데이터 품질을 지속적으로 관리합니다. (완성 5)",
+      "en": "We continuously manage data quality. (completion variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A5-S17-046",
+      "kr": "개방형 과학이 추진되고 있습니다. (완성 1)",
+      "en": "Open science is being promoted. (completion variant 1)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A5-S17-047",
+      "kr": "개방형 과학이 추진되고 있습니다. (완성 2)",
+      "en": "Open science is being promoted. (completion variant 2)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A5-S17-048",
+      "kr": "개방형 과학이 추진되고 있습니다. (완성 3)",
+      "en": "Open science is being promoted. (completion variant 3)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A5-S17-049",
+      "kr": "개방형 과학이 추진되고 있습니다. (완성 4)",
+      "en": "Open science is being promoted. (completion variant 4)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A5-S17-050",
+      "kr": "개방형 과학이 추진되고 있습니다. (완성 5)",
+      "en": "Open science is being promoted. (completion variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L5_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.648Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "data\\banks\\level_5\\Lv5-A5-S17_bank.json"
+    ]
+  }
+}

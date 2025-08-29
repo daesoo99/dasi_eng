@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback, useMemo, memo } from 'react';
 import { stageFocusService } from '@/services/stageFocusMode';
 
 interface StageSelectorProps {
@@ -16,7 +16,7 @@ interface StageInfo {
   lastPracticed?: Date;
 }
 
-export const StageSelector: React.FC<StageSelectorProps> = ({
+export const StageSelector: React.FC<StageSelectorProps> = memo(({
   level,
   onStageSelect,
   onClose
@@ -27,9 +27,9 @@ export const StageSelector: React.FC<StageSelectorProps> = ({
 
   useEffect(() => {
     loadStages();
-  }, [level]);
+  }, [level, loadStages]);
 
-  const loadStages = async () => {
+  const loadStages = useCallback(async () => {
     try {
       setLoading(true);
       const response = await stageFocusService.getAvailableStages(level);
@@ -39,28 +39,28 @@ export const StageSelector: React.FC<StageSelectorProps> = ({
     } finally {
       setLoading(false);
     }
-  };
+  }, [level]);
 
-  const handleStageClick = (stage: number) => {
+  const handleStageClick = useCallback((stage: number) => {
     setSelectedStage(stage);
-  };
+  }, []);
 
-  const handleStartPractice = () => {
+  const handleStartPractice = useCallback(() => {
     if (selectedStage) {
       onStageSelect(selectedStage);
     }
-  };
+  }, [selectedStage, onStageSelect]);
 
-  const getDifficultyColor = (difficulty: string) => {
+  const getDifficultyColor = useCallback((difficulty: string) => {
     switch (difficulty) {
       case 'easy': return 'bg-green-100 text-green-800 border-green-200';
       case 'medium': return 'bg-yellow-100 text-yellow-800 border-yellow-200';
       case 'hard': return 'bg-red-100 text-red-800 border-red-200';
       default: return 'bg-gray-100 text-gray-800 border-gray-200';
     }
-  };
+  }, []);
 
-  const formatLastPracticed = (date?: Date) => {
+  const formatLastPracticed = useCallback((date?: Date) => {
     if (!date) return '미학습';
     
     const now = new Date();
@@ -72,7 +72,7 @@ export const StageSelector: React.FC<StageSelectorProps> = ({
     if (diffDays <= 7) return `${diffDays}일 전`;
     if (diffDays <= 30) return `${Math.floor(diffDays / 7)}주 전`;
     return `${Math.floor(diffDays / 30)}개월 전`;
-  };
+  }, []);
 
   if (loading) {
     return (
@@ -201,4 +201,4 @@ export const StageSelector: React.FC<StageSelectorProps> = ({
       </div>
     </div>
   );
-};
+});

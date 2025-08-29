@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv5-P1-S04",
+  "title": "부정어 도치",
+  "description": "부정어 도치을 연습합니다. NEGATIVE-INVERSION 패턴을 활용하여 고급 영어 표현을 익힙니다.",
+  "grammar_pattern": "NEGATIVE-INVERSION",
+  "examples": [
+    "Little did I know that it was a trap.",
+    "Hardly had we started when it began to rain.",
+    "Rarely have I seen such a case."
+  ],
+  "learning_points": "inversion 관련 고급 표현과 실용적 활용",
+  "phase": 1,
+  "stage_number": 4,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv5-P1-S04-001",
+      "kr": "그것이 함정인 줄 전혀 몰랐습니다.",
+      "en": "Little did I know that it was a trap.",
+      "pattern": "NEGATIVE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P1-S04-002",
+      "kr": "시작하자마자 비가 오기 시작했습니다.",
+      "en": "Hardly had we started when it began to rain.",
+      "pattern": "NEGATIVE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P1-S04-003",
+      "kr": "그런 경우는 거의 보지 못했습니다.",
+      "en": "Rarely have I seen such a case.",
+      "pattern": "NEGATIVE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P1-S04-004",
+      "kr": "그 소식을 들은 적이 전혀 없습니다.",
+      "en": "Never have I heard such news.",
+      "pattern": "NEGATIVE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P1-S04-005",
+      "kr": "도착하자마자 전화가 울렸습니다.",
+      "en": "Scarcely had I arrived when the phone rang.",
+      "pattern": "NEGATIVE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P1-S04-006",
+      "kr": "그런 실수는 좀처럼 하지 않습니다.",
+      "en": "Seldom do I make such mistakes.",
+      "pattern": "NEGATIVE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P1-S04-007",
+      "kr": "문을 열자마자 고양이가 뛰어나왔습니다.",
+      "en": "No sooner had I opened the door than the cat ran out.",
+      "pattern": "NEGATIVE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P1-S04-008",
+      "kr": "그런 헌신을 좀처럼 볼 수 없습니다.",
+      "en": "Rarely do we see such dedication.",
+      "pattern": "NEGATIVE-INVERSION",
+      "form": "aff"
+    }
+  ]
+}

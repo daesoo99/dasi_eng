@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P1-S03",
-  "title": "역접/전환 I",
-  "description": "nonetheless, nevertheless(그럼에도 불구하고) 등을 연습합니다. 청중을 설등할 때 반대논리를 인정하면서 내 주장을 강조하는 방법을 익힙니다.",
-  "grammar_pattern": "CONTRADICTION-TRANSITION",
+  "title": "Stage Lv9-P1-S03",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "It's a risky plan. Nevertheless, I believe it's worth trying.",
-    "The costs are high. Nonetheless, the benefits outweigh them.",
-    "Critics disagree. Nevertheless, we must move forward."
+    "The costs are substantial. Nonetheless, the benefits exceed the expenses."
   ],
-  "learning_points": "역접 표현을 사용한 설드력 있는 주장 전개",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 3,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv9-P1-S03-001",
       "kr": "위험한 계획입니다. 그럼에도 불구하고, 시도해볼 가치가 있다고 믿습니다.",
       "en": "It's a risky plan. Nevertheless, I believe it's worth trying.",
-      "pattern": "CONTRADICTION-TRANSITION",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S03-002",
       "kr": "비용이 많이 듭니다. 그럼에도 불구하고, 이익이 비용보다 큽니다.",
       "en": "The costs are substantial. Nonetheless, the benefits exceed the expenses.",
-      "pattern": "CONTRADICTION-TRANSITION",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S03-003",
       "kr": "비판자들이 반대합니다. 그럼에도 불구하고, 우리는 전진해야 합니다.",
       "en": "Critics oppose the idea. Nevertheless, we must move forward.",
-      "pattern": "CONTRADICTION-TRANSITION",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S03-004",
       "kr": "시장 조건이 어렵습니다. 그럼에도 불구하고, 기회를 잡아야 합니다.",
       "en": "Market conditions are challenging. Nonetheless, we must seize the opportunity.",
-      "pattern": "CONTRADICTION-TRANSITION",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S03-005",
       "kr": "경쟁이 치열합니다. 그럼에도 불구하고, 우리의 경쟁력을 믿습니다.",
       "en": "Competition is fierce. Nevertheless, we trust in our competitiveness.",
-      "pattern": "CONTRADICTION-TRANSITION",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S03-006",
       "kr": "자원이 한정적입니다. 그럼에도 불구하고, 목표를 달성할 수 있다고 확신합니다.",
       "en": "Resources are limited. Nonetheless, we are confident we can achieve our goals.",
-      "pattern": "CONTRADICTION-TRANSITION",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S03-007",
       "kr": "과거 실패 사례가 있습니다. 그럼에도 불구하고, 이번에는 다른 접근법을 사용할 것입니다.",
       "en": "There are past failures. Nevertheless, this time we will use a different approach.",
-      "pattern": "CONTRADICTION-TRANSITION",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S03-008",
       "kr": "불확실성이 존재합니다. 그럼에도 불구하고, 결정을 내릴 때가 왔습니다.",
       "en": "Uncertainties exist. Nonetheless, the time has come to make a decision.",
-      "pattern": "CONTRADICTION-TRANSITION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.586Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P1-S03_bank.json"
+    ]
+  }
 }

@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv5-P5-S25",
-  "title": "양보와 조건 혼합",
-  "description": "양보와 조건 혼합을 연습합니다. CONCESSION-CONDITION-MIX 패턴을 활용하여 고급 영어 표현을 익힙니다.",
-  "grammar_pattern": "CONCESSION-CONDITION-MIX",
+  "title": "Stage Lv5-P5-S25",
+  "description": "Level 5 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Even if it costs a lot, we should try.",
-    "Whether or not it rains, the event will continue.",
-    "No matter how hard it gets, don't give up."
+    "Whether or not it rains, the event will continue."
   ],
-  "learning_points": "complex-condition 관련 고급 표현과 실용적 활용",
+  "learning_points": "Level 5 target grammar and expressions with practical usage examples",
   "phase": 5,
   "stage_number": 25,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv5-P5-S25-001",
       "kr": "비싸더라도 시도해봐야 합니다.",
       "en": "Even if it costs a lot, we should try.",
-      "pattern": "CONCESSION-CONDITION-MIX",
       "form": "aff"
     },
     {
       "id": "Lv5-P5-S25-002",
       "kr": "비가 오든 안 오든 행사는 계속됩니다.",
       "en": "Whether or not it rains, the event will continue.",
-      "pattern": "CONCESSION-CONDITION-MIX",
       "form": "aff"
     },
     {
       "id": "Lv5-P5-S25-003",
       "kr": "아무리 힘들어도 포기하지 마세요.",
       "en": "No matter how hard it gets, don't give up.",
-      "pattern": "CONCESSION-CONDITION-MIX",
       "form": "aff"
     },
     {
       "id": "Lv5-P5-S25-004",
       "kr": "결과가 어떻든 최선을 다했습니다.",
       "en": "Whatever the outcome, we did our best.",
-      "pattern": "CONCESSION-CONDITION-MIX",
       "form": "aff"
     },
     {
       "id": "Lv5-P5-S25-005",
       "kr": "누가 반대하든 계획을 진행할 것입니다.",
       "en": "Whoever opposes, we will proceed with the plan.",
-      "pattern": "CONCESSION-CONDITION-MIX",
       "form": "aff"
     },
     {
       "id": "Lv5-P5-S25-006",
       "kr": "시간이 얼마나 걸리든 완료할 것입니다.",
       "en": "However long it takes, we will complete it.",
-      "pattern": "CONCESSION-CONDITION-MIX",
       "form": "aff"
     },
     {
       "id": "Lv5-P5-S25-007",
       "kr": "어떤 방법을 쓰든 목표를 달성하겠습니다.",
       "en": "By whatever means, we will achieve our goal.",
-      "pattern": "CONCESSION-CONDITION-MIX",
       "form": "aff"
     },
     {
       "id": "Lv5-P5-S25-008",
       "kr": "어디를 가든 연락을 유지하겠습니다.",
       "en": "Wherever we go, we will stay in touch.",
-      "pattern": "CONCESSION-CONDITION-MIX",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L5_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.446Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_5\\Lv5-P5-S25_bank.json"
+    ]
+  }
 }

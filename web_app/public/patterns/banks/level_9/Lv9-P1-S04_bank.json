@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P1-S04",
-  "title": "역접/전환 II",
-  "description": "notwithstanding(~에도 불구하고), for all that(~에도 불구하고) 등을 연습합니다. 다소 문어체 느낌이 강한 표현들이므로 격식있는 말하기 톤으로 연습합니다.",
-  "grammar_pattern": "FORMAL-CONTRADICTION",
+  "title": "Stage Lv9-P1-S04",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
-    "She is inexperienced, notwithstanding, she has great potential.",
-    "He's quite blunt, but for all that, I like his honesty.",
-    "The project faced obstacles, notwithstanding, we completed it successfully."
+    "She lacks experience. Notwithstanding, she possesses excellent potential.",
+    "He is quite blunt. For all that, I appreciate his honesty."
   ],
-  "learning_points": "문어체 역접 표현을 사용한 격식 있는 의견 제시",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 4,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv9-P1-S04-001",
       "kr": "그녀는 경험이 부족합니다. 그럼에도 불구하고, 훌륭한 잠재력을 가지고 있습니다.",
       "en": "She lacks experience. Notwithstanding, she possesses excellent potential.",
-      "pattern": "FORMAL-CONTRADICTION",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S04-002",
       "kr": "그는 상당히 직설적입니다. 그럼에도 불구하고, 그의 정직함을 좋아합니다.",
       "en": "He is quite blunt. For all that, I appreciate his honesty.",
-      "pattern": "FORMAL-CONTRADICTION",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S04-003",
       "kr": "예산이 축소되었습니다. 그럼에도 불구하고, 품질을 유지할 것입니다.",
       "en": "The budget was reduced. Notwithstanding, we will maintain quality.",
-      "pattern": "FORMAL-CONTRADICTION",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S04-004",
       "kr": "여러 제약이 있었습니다. 그럼에도 불구하고, 프로젝트를 성공적으로 마치셠습니다.",
       "en": "There were several constraints. For all that, we completed the project successfully.",
-      "pattern": "FORMAL-CONTRADICTION",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S04-005",
       "kr": "초기 반응이 냉담했습니다. 그럼에도 불구하고, 결국 성공을 거두었습니다.",
       "en": "The initial response was lukewarm. Notwithstanding, we ultimately achieved success.",
-      "pattern": "FORMAL-CONTRADICTION",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S04-006",
       "kr": "기술적 한계가 명확합니다. 그럼에도 불구하고, 혁신적 해결책을 찾았습니다.",
       "en": "Technical limitations are clear. For all that, we found innovative solutions.",
-      "pattern": "FORMAL-CONTRADICTION",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S04-007",
       "kr": "시간적 압박이 심했습니다. 그럼에도 불구하고, 모든 마감일을 준수했습니다.",
       "en": "Time pressure was intense. Notwithstanding, we met all deadlines.",
-      "pattern": "FORMAL-CONTRADICTION",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S04-008",
       "kr": "외부 비판이 거셴습니다. 그럼에도 불구하고, 우리의 방향을 고수합니다.",
       "en": "External criticism was harsh. For all that, we maintain our direction.",
-      "pattern": "FORMAL-CONTRADICTION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.586Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P1-S04_bank.json"
+    ]
+  }
 }

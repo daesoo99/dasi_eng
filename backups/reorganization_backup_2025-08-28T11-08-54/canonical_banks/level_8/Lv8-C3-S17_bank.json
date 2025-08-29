@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv8-C3-S17",
+  "title": "전치사구 도치 (문두 이동)",
+  "description": "전치사구를 문두로 이동시켜 강조 효과와 리듬감을 만드는 도치 구문을 연습합니다.",
+  "grammar_pattern": "PREPOSITIONAL-PHRASE-INVERSION",
+  "examples": [
+    "In the corner of the room stood an ancient piano.",
+    "Across the field ran a small stream.",
+    "Through the window came the sound of children playing."
+  ],
+  "learning_points": "전치사구 도치를 통한 강조 효과와 문학적 표현",
+  "phase": 3,
+  "stage_number": 17,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv8-C3-S17-001",
+      "kr": "방 구석에는 오래된 피아노가 서 있었습니다.",
+      "en": "In the corner of the room stood an ancient piano.",
+      "pattern": "PREPOSITIONAL-PHRASE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S17-002",
+      "kr": "들판을 가로질러 작은 개울이 흘러갔습니다.",
+      "en": "Across the field ran a small stream.",
+      "pattern": "PREPOSITIONAL-PHRASE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S17-003",
+      "kr": "창문을 통해 아이들이 노는 소리가 들려왔습니다.",
+      "en": "Through the window came the sound of children playing.",
+      "pattern": "PREPOSITIONAL-PHRASE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S17-004",
+      "kr": "산 너머에서 새로운 도시가 나타났습니다.",
+      "en": "Beyond the mountains appeared a new city.",
+      "pattern": "PREPOSITIONAL-PHRASE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S17-005",
+      "kr": "나무 아래에는 작은 벤치가 놓여 있었습니다.",
+      "en": "Under the tree sat a small bench.",
+      "pattern": "PREPOSITIONAL-PHRASE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S17-006",
+      "kr": "복도 끝에서 희미한 불빛이 비춰왔습니다.",
+      "en": "At the end of the corridor shone a dim light.",
+      "pattern": "PREPOSITIONAL-PHRASE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S17-007",
+      "kr": "언덕 위에는 오래된 성이 서 있었습니다.",
+      "en": "On top of the hill stood an old castle.",
+      "pattern": "PREPOSITIONAL-PHRASE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C3-S17-008",
+      "kr": "바다 위에서 아름다운 일출이 떠올랐습니다.",
+      "en": "Over the ocean rose a beautiful sunrise.",
+      "pattern": "PREPOSITIONAL-PHRASE-INVERSION",
+      "form": "aff"
+    }
+  ]
+}

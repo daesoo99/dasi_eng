@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv8-C5-S31",
-  "title": "목적·의도 연결",
-  "description": "목적과 의도를 표현하는 고급 연결어와 구문을 활용하여 명확한 목표 지향적 표현을 연습합니다.",
-  "grammar_pattern": "PURPOSE-INTENTION-CONNECTORS",
+  "title": "Stage Lv8-C5-S31",
+  "description": "Level 8 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "With a view to improving efficiency, we implemented new procedures.",
-    "The meeting was arranged for the purpose of discussing future plans.",
-    "In order that everyone understands, we will provide detailed explanations."
+    "The meeting was arranged for the purpose of discussing future plans."
   ],
-  "learning_points": "고급 목적-의도 연결 표현을 통한 명확한 목표 지향적 의사소통",
-  "phase": 5,
+  "learning_points": "Level 8 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 31,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv8-C5-S31-001",
       "kr": "효율성 향상을 목적으로 새로운 절차를 도입했습니다.",
       "en": "With a view to improving efficiency, we implemented new procedures.",
-      "pattern": "PURPOSE-INTENTION-CONNECTORS",
       "form": "aff"
     },
     {
       "id": "Lv8-C5-S31-002",
       "kr": "회의는 미래 계획을 논의하기 위한 목적으로 마련되었습니다.",
       "en": "The meeting was arranged for the purpose of discussing future plans.",
-      "pattern": "PURPOSE-INTENTION-CONNECTORS",
       "form": "aff"
     },
     {
       "id": "Lv8-C5-S31-003",
       "kr": "모든 사람이 이해할 수 있도록 상세한 설명을 제공하겠습니다.",
       "en": "In order that everyone understands, we will provide detailed explanations.",
-      "pattern": "PURPOSE-INTENTION-CONNECTORS",
       "form": "aff"
     },
     {
       "id": "Lv8-C5-S31-004",
       "kr": "품질 보장을 위해 엄격한 검사를 실시했습니다.",
       "en": "With the aim of ensuring quality, we conducted rigorous inspections.",
-      "pattern": "PURPOSE-INTENTION-CONNECTORS",
       "form": "aff"
     },
     {
       "id": "Lv8-C5-S31-005",
       "kr": "고객 만족도 향상을 목표로 서비스를 개선했습니다.",
       "en": "We improved our service with the intention of enhancing customer satisfaction.",
-      "pattern": "PURPOSE-INTENTION-CONNECTORS",
       "form": "aff"
     },
     {
       "id": "Lv8-C5-S31-006",
       "kr": "비용 절감을 위해 새로운 공급업체를 찾았습니다.",
       "en": "We sought new suppliers for the purpose of reducing costs.",
-      "pattern": "PURPOSE-INTENTION-CONNECTORS",
       "form": "aff"
     },
     {
       "id": "Lv8-C5-S31-007",
       "kr": "모든 사람이 참여할 수 있도록 시간을 조정했습니다.",
       "en": "We adjusted the schedule so that everyone could participate.",
-      "pattern": "PURPOSE-INTENTION-CONNECTORS",
       "form": "aff"
     },
     {
       "id": "Lv8-C5-S31-008",
       "kr": "시장 확장을 목적으로 새로운 전략을 개발했습니다.",
       "en": "We developed a new strategy with a view to expanding the market.",
-      "pattern": "PURPOSE-INTENTION-CONNECTORS",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L8_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.567Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_8\\Lv8-C5-S31_bank.json"
+    ]
+  }
 }

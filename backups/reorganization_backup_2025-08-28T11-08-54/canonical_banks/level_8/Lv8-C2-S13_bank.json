@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv8-C2-S13",
+  "title": "비교급/최상급 수식 부사",
+  "description": "비교급과 최상급을 수식하는 다양한 부사를 활용하여 정교한 정도 표현을 연습합니다.",
+  "grammar_pattern": "COMPARATIVE-SUPERLATIVE-ADVERBS",
+  "examples": [
+    "The solution is considerably more effective than the previous one.",
+    "This approach is substantially better than what we tried before.",
+    "She performed remarkably well, far exceeding our expectations."
+  ],
+  "learning_points": "비교급/최상급 수식 부사를 통한 정교한 정도 표현",
+  "phase": 2,
+  "stage_number": 13,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv8-C2-S13-001",
+      "kr": "이 해결책은 이전 것보다 상당히 더 효과적입니다.",
+      "en": "The solution is considerably more effective than the previous one.",
+      "pattern": "COMPARATIVE-SUPERLATIVE-ADVERBS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C2-S13-002",
+      "kr": "이 접근법은 우리가 전에 시도했던 것보다 실질적으로 더 낫습니다.",
+      "en": "This approach is substantially better than what we tried before.",
+      "pattern": "COMPARATIVE-SUPERLATIVE-ADVERBS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C2-S13-003",
+      "kr": "그녀는 우리의 기대를 훨씬 뛰어넘어 놀랍도록 잘 해냈습니다.",
+      "en": "She performed remarkably well, far exceeding our expectations.",
+      "pattern": "COMPARATIVE-SUPERLATIVE-ADVERBS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C2-S13-004",
+      "kr": "새로운 시스템은 현저하게 더 빠르고 안정적입니다.",
+      "en": "The new system is significantly faster and more reliable.",
+      "pattern": "COMPARATIVE-SUPERLATIVE-ADVERBS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C2-S13-005",
+      "kr": "그의 발표는 예상보다 훨씬 더 인상적이었습니다.",
+      "en": "His presentation was far more impressive than anticipated.",
+      "pattern": "COMPARATIVE-SUPERLATIVE-ADVERBS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C2-S13-006",
+      "kr": "이 방법은 기존 방법보다 현저히 더 정확합니다.",
+      "en": "This method is markedly more accurate than the existing one.",
+      "pattern": "COMPARATIVE-SUPERLATIVE-ADVERBS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C2-S13-007",
+      "kr": "결과는 우리가 예상했던 것보다 월등히 더 좋았습니다.",
+      "en": "The results were vastly better than what we had expected.",
+      "pattern": "COMPARATIVE-SUPERLATIVE-ADVERBS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C2-S13-008",
+      "kr": "이 제품은 경쟁 제품보다 압도적으로 더 우수합니다.",
+      "en": "This product is overwhelmingly superior to the competition.",
+      "pattern": "COMPARATIVE-SUPERLATIVE-ADVERBS",
+      "form": "aff"
+    }
+  ]
+}

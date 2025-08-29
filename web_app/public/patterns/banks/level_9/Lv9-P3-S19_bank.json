@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P3-S19",
-  "title": "결론부 정리",
-  "description": "in conclusion, to summarize 등의 표현. 예) In conclusion, we achieved our goals., To summarize, our plan is feasible. 발표/보고 마무리하는 연습.",
-  "grammar_pattern": "CONCLUSION-SUMMARY",
+  "title": "Stage Lv9-P3-S19",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "In conclusion, we achieved our goals.",
-    "To summarize, our plan is feasible.",
-    "In summary, the results exceed expectations."
+    "To summarize, our plan is feasible."
   ],
-  "learning_points": "결론 및 요약 표현을 사용한 체계적인 마무리",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 3,
   "stage_number": 19,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv9-P3-S19-001",
       "kr": "결론적으로, 우리는 목표를 달성했습니다.",
       "en": "In conclusion, we achieved our goals.",
-      "pattern": "CONCLUSION-SUMMARY",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S19-002",
       "kr": "요약하면, 우리의 계획은 실행 가능합니다.",
       "en": "To summarize, our plan is feasible.",
-      "pattern": "CONCLUSION-SUMMARY",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S19-003",
       "kr": "전체적으로 볼 때, 결과는 예상을 초과합니다.",
       "en": "Overall, the results exceed expectations.",
-      "pattern": "CONCLUSION-SUMMARY",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S19-004",
       "kr": "마지막으로, 이 프로젝트는 성공적이었습니다.",
       "en": "Finally, this project was successful.",
-      "pattern": "CONCLUSION-SUMMARY",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S19-005",
       "kr": "종합하면, 모든 지표가 개선되었습니다.",
       "en": "In summary, all indicators have improved.",
-      "pattern": "CONCLUSION-SUMMARY",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S19-006",
       "kr": "결론적으로, 우리의 전략이 효과적임이 입증되었습니다.",
       "en": "In conclusion, our strategy has proven effective.",
-      "pattern": "CONCLUSION-SUMMARY",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S19-007",
       "kr": "전체적으로 평가해 보면, 이는 긍정적인 발전입니다.",
       "en": "Overall assessment shows this is a positive development.",
-      "pattern": "CONCLUSION-SUMMARY",
       "form": "aff"
     },
     {
       "id": "Lv9-P3-S19-008",
       "kr": "요약하자면, 모든 조건이 충족되었습니다.",
       "en": "To summarize, all conditions have been met.",
-      "pattern": "CONCLUSION-SUMMARY",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.602Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P3-S19_bank.json"
+    ]
+  }
 }

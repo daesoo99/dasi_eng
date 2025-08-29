@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv10-S20",
+  "title": "즉흥적 의견 - 경험적 판단",
+  "description": "개인 경험을 바탕으로 한 즉흥적 판단을 자연스럽게 표현하는 원어민 수준의 의견을 구사합니다.",
+  "grammar_pattern": "SPONTANEOUS-EXPERIENTIAL-JUDGMENT",
+  "examples": [
+    "In my experience, these things usually don't work out.",
+    "I've tried something similar before, and it wasn't easy.",
+    "I've seen situations like this many times, and they usually end this way."
+  ],
+  "learning_points": "원어민 수준의 자연스러운 경험적 판단 표현 구사",
+  "phase": 2,
+  "stage_number": 20,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv10-S20-001",
+      "kr": "내 경험상, 이런 건 보통 잘 안 돼.",
+      "en": "In my experience, these things usually don't work out.",
+      "pattern": "SPONTANEOUS-EXPERIENTIAL-JUDGMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S20-002",
+      "kr": "전에 비슷한 걸 해봤는데, 쉽지 않더라.",
+      "en": "I've tried something similar before, and it wasn't easy.",
+      "pattern": "SPONTANEOUS-EXPERIENTIAL-JUDGMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S20-003",
+      "kr": "이런 상황 많이 봤는데, 대부분 이렇게 끝나.",
+      "en": "I've seen situations like this many times, and they usually end this way.",
+      "pattern": "SPONTANEOUS-EXPERIENTIAL-JUDGMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S20-004",
+      "kr": "경험적으로 말하면, 이때가 기회야.",
+      "en": "Speaking from experience, this is the moment to act.",
+      "pattern": "SPONTANEOUS-EXPERIENTIAL-JUDGMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S20-005",
+      "kr": "예전에 당해본 적이 있어서, 바로 알아차렸어.",
+      "en": "I've been through this before, so I recognized it right away.",
+      "pattern": "SPONTANEOUS-EXPERIENTIAL-JUDGMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S20-006",
+      "kr": "이런 패턴은 뻔해. 다음에 뭐가 올지 알겠어.",
+      "en": "This pattern is predictable. I know what's coming next.",
+      "pattern": "SPONTANEOUS-EXPERIENTIAL-JUDGMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S20-007",
+      "kr": "과거 경험을 보면, 지금이 결정적인 순간이야.",
+      "en": "Based on past experience, this is the critical moment.",
+      "pattern": "SPONTANEOUS-EXPERIENTIAL-JUDGMENT",
+      "form": "aff"
+    },
+    {
+      "id": "Lv10-S20-008",
+      "kr": "한번 겪어봤으니까, 이번엔 다르게 접근해야 해.",
+      "en": "Since I've been through it once, I need to approach it differently this time.",
+      "pattern": "SPONTANEOUS-EXPERIENTIAL-JUDGMENT",
+      "form": "aff"
+    }
+  ]
+}

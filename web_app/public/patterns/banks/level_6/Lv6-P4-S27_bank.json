@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv6-P4-S27",
-  "title": "복합 부사절 결합",
-  "description": "한 문장에 여러 부사절을 결합하여 복잡한 논리 관계를 표현합니다. COMPLEX-ADVERBIAL-COMBINATION 패턴을 연습합니다.",
-  "grammar_pattern": "COMPLEX-ADVERBIAL-COMBINATION",
+  "title": "Stage Lv6-P4-S27",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Even if we start now, by the time we finish, it might be too late.",
-    "I'll help you whenever you need, as long as I'm available.",
-    "Although the market is volatile, we will proceed if conditions improve."
+    "I'll help you whenever you need, as long as I'm available."
   ],
-  "learning_points": "다중 조건과 복합적 논리 관계의 자연스러운 표현",
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
   "phase": 4,
   "stage_number": 27,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv6-P4-S27-001",
       "kr": "지금 시작하더라도, 끝날 때쯤이면 너무 늦을지도 모릅니다.",
       "en": "Even if we start now, by the time we finish, it might be too late.",
-      "pattern": "COMPLEX-ADVERBIAL-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S27-002",
       "kr": "제가 시간이 허락하는 한, 언제든지 도와드리겠습니다.",
       "en": "I'll help you whenever you need, as long as I'm available.",
-      "pattern": "COMPLEX-ADVERBIAL-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S27-003",
       "kr": "시장이 불안정하지만, 상황이 개선되면 진행하겠습니다.",
       "en": "Although the market is volatile, we will proceed if conditions improve.",
-      "pattern": "COMPLEX-ADVERBIAL-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S27-004",
       "kr": "비록 예산이 부족하지만, 모든 팀원이 노력한다면 성공할 수 있습니다.",
       "en": "Even though the budget is limited, if everyone on the team makes an effort, we can succeed.",
-      "pattern": "COMPLEX-ADVERBIAL-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S27-005",
       "kr": "경쟁이 치열하더라도, 우리가 혁신을 계속한다면 시장을 선도할 수 있습니다.",
       "en": "Although competition is fierce, if we continue to innovate, we can lead the market.",
-      "pattern": "COMPLEX-ADVERBIAL-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S27-006",
       "kr": "위험 요소가 있지만, 적절한 계획을 세운다면 위험을 최소화할 수 있습니다.",
       "en": "While there are risk factors, if we develop proper plans, we can minimize the risks.",
-      "pattern": "COMPLEX-ADVERBIAL-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S27-007",
       "kr": "시간이 촉박하더라도, 품질을 유지하는 한 고객들은 만족할 것입니다.",
       "en": "Even if time is tight, as long as we maintain quality, customers will be satisfied.",
-      "pattern": "COMPLEX-ADVERBIAL-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S27-008",
       "kr": "자원이 제한적이지만, 효율적으로 활용한다면 목표를 달성할 수 있습니다.",
       "en": "Although resources are limited, if we use them efficiently, we can achieve our goals.",
-      "pattern": "COMPLEX-ADVERBIAL-COMBINATION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.480Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_6\\Lv6-P4-S27_bank.json"
+    ]
+  }
 }

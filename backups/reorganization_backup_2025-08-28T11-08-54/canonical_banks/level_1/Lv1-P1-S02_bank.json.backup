@@ -1,0 +1,314 @@
+{
+  "stage_id": "Lv1-P1-S02",
+  "title": "Be 동사 과거형",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv1-P1-S02-001",
+      "kr": "나는 어제 피곤했습니다. (v1)",
+      "en": "I was tired yesterday. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-002",
+      "kr": "너는 늦었습니다. (v1)",
+      "en": "You were late. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-003",
+      "kr": "그는 의사였습니다. (v1)",
+      "en": "He was a doctor. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-004",
+      "kr": "그녀는 집에 있었습니다. (v1)",
+      "en": "She was at home. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-005",
+      "kr": "날씨가 추웠습니다. (v1)",
+      "en": "It was cold. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-006",
+      "kr": "우리는 바빴습니다. (v1)",
+      "en": "We were busy. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-007",
+      "kr": "그들은 친구들이었습니다. (v1)",
+      "en": "They were friends. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-008",
+      "kr": "나는 학생이었습니다. (v1)",
+      "en": "I was a student. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-009",
+      "kr": "너는 행복했습니다. (v1)",
+      "en": "You were happy. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-010",
+      "kr": "그는 키가 컸습니다. (v1)",
+      "en": "He was tall. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-011",
+      "kr": "나는 어제 피곤했습니다. (v2)",
+      "en": "I was tired yesterday. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-012",
+      "kr": "너는 늦었습니다. (v2)",
+      "en": "You were late. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-013",
+      "kr": "그는 의사였습니다. (v2)",
+      "en": "He was a doctor. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-014",
+      "kr": "그녀는 집에 있었습니다. (v2)",
+      "en": "She was at home. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-015",
+      "kr": "날씨가 추웠습니다. (v2)",
+      "en": "It was cold. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-016",
+      "kr": "우리는 바빴습니다. (v2)",
+      "en": "We were busy. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-017",
+      "kr": "그들은 친구들이었습니다. (v2)",
+      "en": "They were friends. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-018",
+      "kr": "나는 학생이었습니다. (v2)",
+      "en": "I was a student. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-019",
+      "kr": "너는 행복했습니다. (v2)",
+      "en": "You were happy. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-020",
+      "kr": "그는 키가 컸습니다. (v2)",
+      "en": "He was tall. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-021",
+      "kr": "나는 어제 피곤했습니다. (v3)",
+      "en": "I was tired yesterday. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-022",
+      "kr": "너는 늦었습니다. (v3)",
+      "en": "You were late. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-023",
+      "kr": "그는 의사였습니다. (v3)",
+      "en": "He was a doctor. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-024",
+      "kr": "그녀는 집에 있었습니다. (v3)",
+      "en": "She was at home. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-025",
+      "kr": "날씨가 추웠습니다. (v3)",
+      "en": "It was cold. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-026",
+      "kr": "우리는 바빴습니다. (v3)",
+      "en": "We were busy. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-027",
+      "kr": "그들은 친구들이었습니다. (v3)",
+      "en": "They were friends. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-028",
+      "kr": "나는 학생이었습니다. (v3)",
+      "en": "I was a student. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-029",
+      "kr": "너는 행복했습니다. (v3)",
+      "en": "You were happy. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-030",
+      "kr": "그는 키가 컸습니다. (v3)",
+      "en": "He was tall. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-031",
+      "kr": "나는 어제 피곤했습니다. (v4)",
+      "en": "I was tired yesterday. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-032",
+      "kr": "너는 늦었습니다. (v4)",
+      "en": "You were late. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-033",
+      "kr": "그는 의사였습니다. (v4)",
+      "en": "He was a doctor. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-034",
+      "kr": "그녀는 집에 있었습니다. (v4)",
+      "en": "She was at home. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-035",
+      "kr": "날씨가 추웠습니다. (v4)",
+      "en": "It was cold. (variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-036",
+      "kr": "우리는 바쁘지 않았습니다. (v4)",
+      "en": "We were not busy. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P1-S02-037",
+      "kr": "그들은 친구들이 아니었습니다. (v4)",
+      "en": "They were not friends. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P1-S02-038",
+      "kr": "나는 학생이 아니었습니다. (v4)",
+      "en": "I was not a student. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P1-S02-039",
+      "kr": "너는 행복하지 않았습니다. (v4)",
+      "en": "You were not happy. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P1-S02-040",
+      "kr": "그는 키가 크지 않았습니다. (v4)",
+      "en": "He was not tall. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P1-S02-041",
+      "kr": "나는 어제 피곤했습니다. (v5)",
+      "en": "I was tired yesterday. (variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-042",
+      "kr": "너는 늦었습니다. (v5)",
+      "en": "You were late. (variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-043",
+      "kr": "그는 의사였습니다. (v5)",
+      "en": "He was a doctor. (variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-044",
+      "kr": "그녀는 집에 있었습니다. (v5)",
+      "en": "She was at home. (variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-045",
+      "kr": "날씨가 추웠습니다. (v5)",
+      "en": "It was cold. (variant 5)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-046",
+      "kr": "너는 어디에 있었습니까? (v5)",
+      "en": "Where were you? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P1-S02-047",
+      "kr": "그는 언제 의사였습니까? (v5)",
+      "en": "When was he a doctor? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P1-S02-048",
+      "kr": "왜 그녀는 집에 있었습니까? (v5)",
+      "en": "Why was she at home? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P1-S02-049",
+      "kr": "어떻게 날씨가 추웠습니까? (v5)",
+      "en": "How was the weather cold? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P1-S02-050",
+      "kr": "누가 바빴습니까? (v5)",
+      "en": "Who was busy? (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 10,
+    "wh_q": 5
+  },
+  "status": "generated",
+  "batch": "L1_Basic_Batch1"
+}

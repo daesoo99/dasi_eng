@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv6-P4-S22",
+  "title": "조건 부사절 고급",
+  "description": "unless, in case, provided that 등을 사용한 고급 조건절 표현을 연습합니다. ADVANCED-CONDITIONAL-ADVERBIALS 패턴을 연습합니다.",
+  "grammar_pattern": "ADVANCED-CONDITIONAL-ADVERBIALS",
+  "examples": [
+    "Unless we act now, it will be too late.",
+    "Take an umbrella in case it rains.",
+    "We'll succeed, provided that everyone does their part."
+  ],
+  "learning_points": "다양한 조건적 상황과 예방적 조치 표현",
+  "phase": 4,
+  "stage_number": 22,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv6-P4-S22-001",
+      "kr": "지금 조치를 취하지 않으면 너무 늦을 것입니다.",
+      "en": "Unless we act now, it will be too late.",
+      "pattern": "ADVANCED-CONDITIONAL-ADVERBIALS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P4-S22-002",
+      "kr": "비가 올 경우를 대비해 우산을 가져가세요.",
+      "en": "Take an umbrella in case it rains.",
+      "pattern": "ADVANCED-CONDITIONAL-ADVERBIALS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P4-S22-003",
+      "kr": "모든 사람이 자신의 역할을 한다면 성공할 것입니다.",
+      "en": "We'll succeed, provided that everyone does their part.",
+      "pattern": "ADVANCED-CONDITIONAL-ADVERBIALS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P4-S22-004",
+      "kr": "예산이 승인되지 않는 한 프로젝트를 시작할 수 없습니다.",
+      "en": "Unless the budget is approved, we cannot start the project.",
+      "pattern": "ADVANCED-CONDITIONAL-ADVERBIALS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P4-S22-005",
+      "kr": "비상 상황에 대비해 예비 계획을 준비해 두세요.",
+      "en": "Prepare a backup plan in case of emergency.",
+      "pattern": "ADVANCED-CONDITIONAL-ADVERBIALS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P4-S22-006",
+      "kr": "모든 직원이 합의한다는 조건 하에 정책을 변경하겠습니다.",
+      "en": "We will change the policy, provided that all staff agree.",
+      "pattern": "ADVANCED-CONDITIONAL-ADVERBIALS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P4-S22-007",
+      "kr": "지원을 요청하지 않는 한 혹시 모를 문제를 해결할 수 없습니다.",
+      "en": "Unless you ask for help, we cannot solve potential problems.",
+      "pattern": "ADVANCED-CONDITIONAL-ADVERBIALS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P4-S22-008",
+      "kr": "기술적 문제가 발생할 경우를 대비해 IT 팀을 대기시켜 두세요.",
+      "en": "Keep the IT team on standby in case technical issues arise.",
+      "pattern": "ADVANCED-CONDITIONAL-ADVERBIALS",
+      "form": "aff"
+    }
+  ]
+}

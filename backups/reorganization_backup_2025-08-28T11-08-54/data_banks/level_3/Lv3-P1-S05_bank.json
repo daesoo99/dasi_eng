@@ -1,0 +1,314 @@
+{
+  "stage_id": "Lv3-P1-S05",
+  "title": "과거완료진행형 (계속)",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv3-P1-S05-001",
+      "kr": "그가 올 때까지 2시간 동안 기다리고 있었어요. (확장 1)",
+      "en": "I had been waiting for two hours when he came. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-002",
+      "kr": "그들은 10년 동안 그곳에서 살고 있었습니다. (확장 1)",
+      "en": "They had been living there for ten years. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-003",
+      "kr": "회의 전에 1시간 동안 준비하고 있었어요. (확장 1)",
+      "en": "I had been preparing for an hour before the meeting. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-004",
+      "kr": "얼마나 오래 영어를 공부하고 있었나요? (확장 1)",
+      "en": "How long had you been studying English? (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-005",
+      "kr": "아침부터 계속 비가 내리고 있었습니다. (확장 1)",
+      "en": "It had been raining since morning. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-006",
+      "kr": "그녀는 3년 동안 그 회사에서 일하고 있었어요. (확장 1)",
+      "en": "She had been working at that company for three years. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-007",
+      "kr": "점심시간까지 계속 회의를 하고 있었습니다. (확장 1)",
+      "en": "We had been meeting until lunch time. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-008",
+      "kr": "그들은 왜 그렇게 오래 기다리고 있었나요? (확장 1)",
+      "en": "Why had they been waiting so long? (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-009",
+      "kr": "그는 아침부터 운동하고 있었어요. (확장 1)",
+      "en": "He had been exercising since morning. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-010",
+      "kr": "우리는 1주일 동안 그 문제를 논의하고 있었습니다. (확장 1)",
+      "en": "We had been discussing the issue for a week. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-011",
+      "kr": "그가 올 때까지 2시간 동안 기다리고 있었어요. (확장 2)",
+      "en": "I had been waiting for two hours when he came. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-012",
+      "kr": "그들은 10년 동안 그곳에서 살고 있었습니다. (확장 2)",
+      "en": "They had been living there for ten years. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-013",
+      "kr": "회의 전에 1시간 동안 준비하고 있었어요. (확장 2)",
+      "en": "I had been preparing for an hour before the meeting. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-014",
+      "kr": "얼마나 오래 영어를 공부하고 있었나요? (확장 2)",
+      "en": "How long had you been studying English? (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-015",
+      "kr": "아침부터 계속 비가 내리고 있었습니다. (확장 2)",
+      "en": "It had been raining since morning. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-016",
+      "kr": "그녀는 3년 동안 그 회사에서 일하고 있었어요. (확장 2)",
+      "en": "She had been working at that company for three years. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-017",
+      "kr": "점심시간까지 계속 회의를 하고 있었습니다. (확장 2)",
+      "en": "We had been meeting until lunch time. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-018",
+      "kr": "그들은 왜 그렇게 오래 기다리고 있었나요? (확장 2)",
+      "en": "Why had they been waiting so long? (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-019",
+      "kr": "그는 아침부터 운동하고 있었어요. (확장 2)",
+      "en": "He had been exercising since morning. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-020",
+      "kr": "우리는 1주일 동안 그 문제를 논의하고 있었습니다. (확장 2)",
+      "en": "We had been discussing the issue for a week. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-021",
+      "kr": "그가 올 때까지 2시간 동안 기다리고 있었어요. (확장 3)",
+      "en": "I had been waiting for two hours when he came. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-022",
+      "kr": "그들은 10년 동안 그곳에서 살고 있었습니다. (확장 3)",
+      "en": "They had been living there for ten years. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-023",
+      "kr": "회의 전에 1시간 동안 준비하고 있었어요. (확장 3)",
+      "en": "I had been preparing for an hour before the meeting. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-024",
+      "kr": "얼마나 오래 영어를 공부하고 있었나요? (확장 3)",
+      "en": "How long had you been studying English? (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-025",
+      "kr": "아침부터 계속 비가 내리고 있었습니다. (확장 3)",
+      "en": "It had been raining since morning. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-026",
+      "kr": "그녀는 3년 동안 그 회사에서 일하고 있었어요. (확장 3)",
+      "en": "She had been working at that company for three years. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-027",
+      "kr": "점심시간까지 계속 회의를 하고 있었습니다. (확장 3)",
+      "en": "We had been meeting until lunch time. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-028",
+      "kr": "그들은 왜 그렇게 오래 기다리고 있었나요? (확장 3)",
+      "en": "Why had they been waiting so long? (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-029",
+      "kr": "그는 아침부터 운동하고 있었어요. (확장 3)",
+      "en": "He had been exercising since morning. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-030",
+      "kr": "우리는 1주일 동안 그 문제를 논의하고 있었습니다. (확장 3)",
+      "en": "We had been discussing the issue for a week. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P1-S05-031",
+      "kr": "그가 올 때까지 2시간 동안 기다리고 있었어요. (확장 4)",
+      "en": "I had been waiting for two hours when he came. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S05-032",
+      "kr": "그들은 10년 동안 그곳에서 살고 있었습니다. (확장 4)",
+      "en": "They had been living there for ten years. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S05-033",
+      "kr": "회의 전에 1시간 동안 준비하고 있었어요. (확장 4)",
+      "en": "I had been preparing for an hour before the meeting. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S05-034",
+      "kr": "얼마나 오래 영어를 공부하고 있었나요? (확장 4)",
+      "en": "How long had you been studying English? (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S05-035",
+      "kr": "아침부터 계속 비가 내리고 있었습니다. (확장 4)",
+      "en": "It had been raining since morning. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S05-036",
+      "kr": "그녀는 3년 동안 그 회사에서 일하고 있었어요. (확장 4)",
+      "en": "She had been working at that company for three years. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S05-037",
+      "kr": "점심시간까지 계속 회의를 하고 있었습니다. (확장 4)",
+      "en": "We had been meeting until lunch time. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S05-038",
+      "kr": "그들은 왜 그렇게 오래 기다리고 있었나요? (확장 4)",
+      "en": "Why had they been waiting so long? (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S05-039",
+      "kr": "그는 아침부터 운동하고 있었어요. (확장 4)",
+      "en": "He had been exercising since morning. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S05-040",
+      "kr": "우리는 1주일 동안 그 문제를 논의하고 있었습니다. (확장 4)",
+      "en": "We had been discussing the issue for a week. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P1-S05-041",
+      "kr": "그가 올 때까지 2시간 동안 기다리고 있었어요. (확장 5)",
+      "en": "I had been waiting for two hours when he came. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S05-042",
+      "kr": "그들은 10년 동안 그곳에서 살고 있었습니다. (확장 5)",
+      "en": "They had been living there for ten years. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S05-043",
+      "kr": "회의 전에 1시간 동안 준비하고 있었어요. (확장 5)",
+      "en": "I had been preparing for an hour before the meeting. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S05-044",
+      "kr": "얼마나 오래 영어를 공부하고 있었나요? (확장 5)",
+      "en": "How long had you been studying English? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S05-045",
+      "kr": "아침부터 계속 비가 내리고 있었습니다. (확장 5)",
+      "en": "It had been raining since morning. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S05-046",
+      "kr": "그녀는 3년 동안 그 회사에서 일하고 있었어요. (확장 5)",
+      "en": "She had been working at that company for three years. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S05-047",
+      "kr": "점심시간까지 계속 회의를 하고 있었습니다. (확장 5)",
+      "en": "We had been meeting until lunch time. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S05-048",
+      "kr": "그들은 왜 그렇게 오래 기다리고 있었나요? (확장 5)",
+      "en": "Why had they been waiting so long? (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S05-049",
+      "kr": "그는 아침부터 운동하고 있었어요. (확장 5)",
+      "en": "He had been exercising since morning. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P1-S05-050",
+      "kr": "우리는 1주일 동안 그 문제를 논의하고 있었습니다. (확장 5)",
+      "en": "We had been discussing the issue for a week. (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10
+  },
+  "status": "generated",
+  "batch": "L3_Completion_Final"
+}

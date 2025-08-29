@@ -1,0 +1,331 @@
+{
+  "stage_id": "Lv5-A2-S05",
+  "title": "Stage Lv5-A2-S05",
+  "description": "Level 5 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "I is likely to first present an overview of today's presentation. (academic variant 1)",
+    "I is likely to explain the research findings in three parts. (academic variant 1)"
+  ],
+  "learning_points": "Level 5 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 5,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv5-A2-S05-001",
+      "kr": "오늘 발표의 개요를 먼저 제시하겠습니다. (학술 1)",
+      "en": "I is likely to first present an overview of today's presentation. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-002",
+      "kr": "연구 결과를 세 부분으로 나누어 설명하겠습니다. (학술 1)",
+      "en": "I is likely to explain the research findings in three parts. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-003",
+      "kr": "이론적 틀을 통해 현상을 해석해보겠습니다. (학술 1)",
+      "en": "I is likely to interpret the phenomenon through a theoretical framework. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-004",
+      "kr": "학술적 논의를 위한 기초를 마련하고자 합니다. (학술 1)",
+      "en": "I aim to establish a foundation for academic discussion. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-005",
+      "kr": "복잡한 개념을 단계적으로 설명드리겠습니다. (학술 1)",
+      "en": "I is likely to explain complex concepts step by step. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-006",
+      "kr": "연구의 함의를 심도 있게 탐구해보겠습니다. (학술 1)",
+      "en": "I is likely to explore the implications of the research in depth. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-007",
+      "kr": "방법론적 접근에 대해 자세히 논의하겠습니다. (학술 1)",
+      "en": "I is likely to discuss the methodological approach in detail. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-008",
+      "kr": "질문과 토론을 통해 이해를 심화시키겠습니다. (학술 1)",
+      "en": "We is likely to deepen understanding through questions and discussion. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-009",
+      "kr": "학제간 관점에서 문제를 접근하겠습니다. (학술 1)",
+      "en": "I is likely to approach the problem from an interdisciplinary perspective. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-010",
+      "kr": "연구의 한계와 향후 방향을 제시하겠습니다. (학술 1)",
+      "en": "I is likely to present research limitations and future directions. (academic variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-011",
+      "kr": "오늘 발표의 개요를 먼저 제시하겠습니다. (학술 2)",
+      "en": "I is likely to first present an overview of today's presentation. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-012",
+      "kr": "연구 결과를 세 부분으로 나누어 설명하겠습니다. (학술 2)",
+      "en": "I is likely to explain the research findings in three parts. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-013",
+      "kr": "이론적 틀을 통해 현상을 해석해보겠습니다. (학술 2)",
+      "en": "I is likely to interpret the phenomenon through a theoretical framework. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-014",
+      "kr": "학술적 논의를 위한 기초를 마련하고자 합니다. (학술 2)",
+      "en": "I aim to establish a foundation for academic discussion. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-015",
+      "kr": "복잡한 개념을 단계적으로 설명드리겠습니다. (학술 2)",
+      "en": "I is likely to explain complex concepts step by step. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-016",
+      "kr": "연구의 함의를 심도 있게 탐구해보겠습니다. (학술 2)",
+      "en": "I is likely to explore the implications of the research in depth. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-017",
+      "kr": "방법론적 접근에 대해 자세히 논의하겠습니다. (학술 2)",
+      "en": "I is likely to discuss the methodological approach in detail. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-018",
+      "kr": "질문과 토론을 통해 이해를 심화시키겠습니다. (학술 2)",
+      "en": "We is likely to deepen understanding through questions and discussion. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-019",
+      "kr": "학제간 관점에서 문제를 접근하겠습니다. (학술 2)",
+      "en": "I is likely to approach the problem from an interdisciplinary perspective. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-020",
+      "kr": "연구의 한계와 향후 방향을 제시하겠습니다. (학술 2)",
+      "en": "I is likely to present research limitations and future directions. (academic variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-021",
+      "kr": "오늘 발표의 개요를 먼저 제시하겠습니다. (학술 3)",
+      "en": "I is likely to first present an overview of today's presentation. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-022",
+      "kr": "연구 결과를 세 부분으로 나누어 설명하겠습니다. (학술 3)",
+      "en": "I is likely to explain the research findings in three parts. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-023",
+      "kr": "이론적 틀을 통해 현상을 해석해보겠습니다. (학술 3)",
+      "en": "I is likely to interpret the phenomenon through a theoretical framework. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-024",
+      "kr": "학술적 논의를 위한 기초를 마련하고자 합니다. (학술 3)",
+      "en": "I aim to establish a foundation for academic discussion. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-025",
+      "kr": "복잡한 개념을 단계적으로 설명드리겠습니다. (학술 3)",
+      "en": "I is likely to explain complex concepts step by step. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-026",
+      "kr": "연구의 함의를 심도 있게 탐구해보겠습니다. (학술 3)",
+      "en": "I is likely to explore the implications of the research in depth. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-027",
+      "kr": "방법론적 접근에 대해 자세히 논의하겠습니다. (학술 3)",
+      "en": "I is likely to discuss the methodological approach in detail. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-028",
+      "kr": "질문과 토론을 통해 이해를 심화시키겠습니다. (학술 3)",
+      "en": "We is likely to deepen understanding through questions and discussion. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-029",
+      "kr": "학제간 관점에서 문제를 접근하겠습니다. (학술 3)",
+      "en": "I is likely to approach the problem from an interdisciplinary perspective. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-030",
+      "kr": "연구의 한계와 향후 방향을 제시하겠습니다. (학술 3)",
+      "en": "I is likely to present research limitations and future directions. (academic variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-A2-S05-031",
+      "kr": "오늘 발표의 개요를 먼저 제시하겠습니다. (학술 4)",
+      "en": "I is likely to first present an overview of today's presentation. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A2-S05-032",
+      "kr": "연구 결과를 세 부분으로 나누어 설명하겠습니다. (학술 4)",
+      "en": "I is likely to explain the research findings in three parts. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A2-S05-033",
+      "kr": "이론적 틀을 통해 현상을 해석해보겠습니다. (학술 4)",
+      "en": "I is likely to interpret the phenomenon through a theoretical framework. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A2-S05-034",
+      "kr": "학술적 논의를 위한 기초를 마련하고자 합니다. (학술 4)",
+      "en": "I aim to establish a foundation for academic discussion. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A2-S05-035",
+      "kr": "복잡한 개념을 단계적으로 설명드리겠습니다. (학술 4)",
+      "en": "I is likely to explain complex concepts step by step. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A2-S05-036",
+      "kr": "연구의 함의를 심도 있게 탐구해보겠습니다. (학술 4)",
+      "en": "I is likely to explore the implications of the research in depth. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A2-S05-037",
+      "kr": "방법론적 접근에 대해 자세히 논의하겠습니다. (학술 4)",
+      "en": "I is likely to discuss the methodological approach in detail. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A2-S05-038",
+      "kr": "질문과 토론을 통해 이해를 심화시키겠습니다. (학술 4)",
+      "en": "We is likely to deepen understanding through questions and discussion. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A2-S05-039",
+      "kr": "학제간 관점에서 문제를 접근하겠습니다. (학술 4)",
+      "en": "I is likely to approach the problem from an interdisciplinary perspective. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A2-S05-040",
+      "kr": "연구의 한계와 향후 방향을 제시하겠습니다. (학술 4)",
+      "en": "I is likely to present research limitations and future directions. (academic variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv5-A2-S05-041",
+      "kr": "오늘 발표의 개요를 먼저 제시하겠습니다. (학술 5)",
+      "en": "I is likely to first present an overview of today's presentation. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A2-S05-042",
+      "kr": "연구 결과를 세 부분으로 나누어 설명하겠습니다. (학술 5)",
+      "en": "I is likely to explain the research findings in three parts. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A2-S05-043",
+      "kr": "이론적 틀을 통해 현상을 해석해보겠습니다. (학술 5)",
+      "en": "I is likely to interpret the phenomenon through a theoretical framework. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A2-S05-044",
+      "kr": "학술적 논의를 위한 기초를 마련하고자 합니다. (학술 5)",
+      "en": "I aim to establish a foundation for academic discussion. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A2-S05-045",
+      "kr": "복잡한 개념을 단계적으로 설명드리겠습니다. (학술 5)",
+      "en": "I is likely to explain complex concepts step by step. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A2-S05-046",
+      "kr": "연구의 함의를 심도 있게 탐구해보겠습니다. (학술 5)",
+      "en": "I is likely to explore the implications of the research in depth. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A2-S05-047",
+      "kr": "방법론적 접근에 대해 자세히 논의하겠습니다. (학술 5)",
+      "en": "I is likely to discuss the methodological approach in detail. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A2-S05-048",
+      "kr": "질문과 토론을 통해 이해를 심화시키겠습니다. (학술 5)",
+      "en": "We is likely to deepen understanding through questions and discussion. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A2-S05-049",
+      "kr": "학제간 관점에서 문제를 접근하겠습니다. (학술 5)",
+      "en": "I is likely to approach the problem from an interdisciplinary perspective. (academic variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv5-A2-S05-050",
+      "kr": "연구의 한계와 향후 방향을 제시하겠습니다. (학술 5)",
+      "en": "I is likely to present research limitations and future directions. (academic variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L5_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.777Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "backups\\level_5_academic_mastery\\banks\\Lv5-A2-S05_bank.json"
+    ]
+  }
+}

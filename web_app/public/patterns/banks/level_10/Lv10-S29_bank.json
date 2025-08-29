@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv10-S29",
-  "title": "상황 강조 - 긴급상황",
-  "description": "긴급하고 중요한 상황을 효과적으로 강조하는 원어민 수준의 표현을 구사합니다.",
-  "grammar_pattern": "URGENT-SITUATION-EMPHASIS",
+  "title": "Stage Lv10-S29",
+  "description": "Level 10 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "We need to do it right now! There's no time!",
-    "This is really urgent. We can't put it off any longer.",
-    "The situation has become serious. Immediate action is needed."
+    "This is really urgent. We can't put it off any longer."
   ],
-  "learning_points": "원어민 수준의 자연스러운 긴급상황 표현 구사",
-  "phase": 3,
+  "learning_points": "Level 10 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 29,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv10-S29-001",
       "kr": "지금 당장 해야 해! 시간이 없어!",
       "en": "We need to do it right now! There's no time!",
-      "pattern": "URGENT-SITUATION-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv10-S29-002",
       "kr": "이거 진짜 급해. 더 미룰 수 없어.",
       "en": "This is really urgent. We can't put it off any longer.",
-      "pattern": "URGENT-SITUATION-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv10-S29-003",
       "kr": "상황이 심각해졌어. 즉시 조치가 필요해.",
       "en": "The situation has become serious. Immediate action is needed.",
-      "pattern": "URGENT-SITUATION-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv10-S29-004",
       "kr": "이번이 마지막 기회야. 놓치면 끝이야.",
       "en": "This is the last chance. If we miss it, it's over.",
-      "pattern": "URGENT-SITUATION-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv10-S29-005",
       "kr": "지금이 결정적인 순간이야. 선택해야 해.",
       "en": "This is the critical moment. We have to choose.",
-      "pattern": "URGENT-SITUATION-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv10-S29-006",
       "kr": "더 이상 기다릴 시간이 없어. 지금 아니면 안 돼.",
       "en": "There's no more time to wait. It's now or never.",
-      "pattern": "URGENT-SITUATION-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv10-S29-007",
       "kr": "사태가 걷잡을 수 없어졌어. 빨리 뭔가 해야 해.",
       "en": "Things have gotten out of hand. We need to do something quickly.",
-      "pattern": "URGENT-SITUATION-EMPHASIS",
       "form": "aff"
     },
     {
       "id": "Lv10-S29-008",
       "kr": "정말 중요한 시점이야. 신중하게 결정하자.",
       "en": "This is a really important moment. Let's decide carefully.",
-      "pattern": "URGENT-SITUATION-EMPHASIS",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L10_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.399Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_10\\Lv10-S29_bank.json"
+    ]
+  }
 }

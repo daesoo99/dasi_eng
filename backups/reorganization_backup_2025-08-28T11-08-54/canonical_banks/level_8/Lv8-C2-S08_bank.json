@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv8-C2-S08",
+  "title": "동사 병렬 구조",
+  "description": "동사의 병렬 구조를 활용하여 리듬감 있고 강조된 표현을 만드는 방법을 연습합니다.",
+  "grammar_pattern": "VERB-PARALLEL-STRUCTURE",
+  "examples": [
+    "She came, saw, and conquered the challenge.",
+    "We must plan carefully, execute precisely, and evaluate thoroughly.",
+    "He speaks eloquently, writes beautifully, and thinks profoundly."
+  ],
+  "learning_points": "동사 병렬 구조를 통한 리듬감 있는 강조 표현",
+  "phase": 2,
+  "stage_number": 8,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv8-C2-S08-001",
+      "kr": "그녀는 와서 보고 그 도전을 정복했습니다.",
+      "en": "She came, saw, and conquered the challenge.",
+      "pattern": "VERB-PARALLEL-STRUCTURE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C2-S08-002",
+      "kr": "우리는 신중하게 계획하고, 정확하게 실행하고, 철저히 평가해야 합니다.",
+      "en": "We must plan carefully, execute precisely, and evaluate thoroughly.",
+      "pattern": "VERB-PARALLEL-STRUCTURE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C2-S08-003",
+      "kr": "그는 유창하게 말하고, 아름답게 쓰고, 깊이 있게 생각합니다.",
+      "en": "He speaks eloquently, writes beautifully, and thinks profoundly.",
+      "pattern": "VERB-PARALLEL-STRUCTURE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C2-S08-004",
+      "kr": "우리는 듣고, 배우고, 성장해야 합니다.",
+      "en": "We must listen, learn, and grow.",
+      "pattern": "VERB-PARALLEL-STRUCTURE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C2-S08-005",
+      "kr": "그들은 혁신하고, 적응하고, 번영했습니다.",
+      "en": "They innovated, adapted, and thrived.",
+      "pattern": "VERB-PARALLEL-STRUCTURE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C2-S08-006",
+      "kr": "성공하려면 꿈꾸고, 계획하고, 행동해야 합니다.",
+      "en": "To succeed, we must dream, plan, and act.",
+      "pattern": "VERB-PARALLEL-STRUCTURE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C2-S08-007",
+      "kr": "그는 이해하고, 공감하고, 돕는 능력이 뛰어납니다.",
+      "en": "He excels at understanding, empathizing, and helping.",
+      "pattern": "VERB-PARALLEL-STRUCTURE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C2-S08-008",
+      "kr": "우리는 도전하고, 극복하고, 승리할 것입니다.",
+      "en": "We will challenge, overcome, and triumph.",
+      "pattern": "VERB-PARALLEL-STRUCTURE",
+      "form": "aff"
+    }
+  ]
+}

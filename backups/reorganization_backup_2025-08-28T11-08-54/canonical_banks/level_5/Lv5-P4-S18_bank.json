@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv5-P4-S18",
+  "title": "부연 설명 삽입",
+  "description": "부연 설명 삽입을 연습합니다. ADDITIONAL-EXPLANATION 패턴을 활용하여 고급 영어 표현을 익힙니다.",
+  "grammar_pattern": "ADDITIONAL-EXPLANATION",
+  "examples": [
+    "He won the lottery, which means he's now rich.",
+    "She got promoted, that is to say, she has more responsibilities.",
+    "The project succeeded, in other words, we achieved all our goals."
+  ],
+  "learning_points": "elaboration 관련 고급 표현과 실용적 활용",
+  "phase": 4,
+  "stage_number": 18,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv5-P4-S18-001",
+      "kr": "그는 복권에 당첨되었는데, 이는 그가 이제 부자라는 뜻입니다.",
+      "en": "He won the lottery, which means he's now rich.",
+      "pattern": "ADDITIONAL-EXPLANATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P4-S18-002",
+      "kr": "그녀는 승진했는데, 다시 말해 더 많은 책임을 지게 됩니다.",
+      "en": "She got promoted, that is to say, she has more responsibilities.",
+      "pattern": "ADDITIONAL-EXPLANATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P4-S18-003",
+      "kr": "프로젝트가 성공했는데, 바꿔 말하면 모든 목표를 달성했습니다.",
+      "en": "The project succeeded, in other words, we achieved all our goals.",
+      "pattern": "ADDITIONAL-EXPLANATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P4-S18-004",
+      "kr": "회의가 연기되었는데, 이것이 의미하는 바는 더 많은 준비 시간이 있다는 것입니다.",
+      "en": "The meeting was postponed, which means we have more preparation time.",
+      "pattern": "ADDITIONAL-EXPLANATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P4-S18-005",
+      "kr": "매출이 증가했는데, 즉 우리의 전략이 효과적이었습니다.",
+      "en": "Sales increased, that is to say, our strategy was effective.",
+      "pattern": "ADDITIONAL-EXPLANATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P4-S18-006",
+      "kr": "시스템이 업데이트되었는데, 다시 말해 더 빠른 처리가 가능합니다.",
+      "en": "The system was updated, in other words, faster processing is possible.",
+      "pattern": "ADDITIONAL-EXPLANATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P4-S18-007",
+      "kr": "계약이 체결되었는데, 이는 새로운 파트너십이 시작됨을 의미합니다.",
+      "en": "The contract was signed, which means a new partnership begins.",
+      "pattern": "ADDITIONAL-EXPLANATION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv5-P4-S18-008",
+      "kr": "정책이 변경되었는데, 즉 새로운 절차를 따라야 합니다.",
+      "en": "The policy changed, that is to say, we must follow new procedures.",
+      "pattern": "ADDITIONAL-EXPLANATION",
+      "form": "aff"
+    }
+  ]
+}

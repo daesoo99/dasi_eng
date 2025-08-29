@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv8-C1-S07",
-  "title": "조건+부사절 결합 문장",
-  "description": "조건절과 부사절을 결합하여 복잡하고 정교한 문장 구조를 만드는 방법을 연습합니다.",
-  "grammar_pattern": "CONDITIONAL-ADVERBIAL-COMBINATION",
+  "title": "Stage Lv8-C1-S07",
+  "description": "Level 8 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "While acknowledging the risks, we must proceed if we want to succeed.",
-    "Although the task is difficult, we can accomplish it provided we work together.",
-    "Despite the challenges, the project will succeed as long as we remain committed."
+    "Although the task is difficult, we can accomplish it provided we work together."
   ],
-  "learning_points": "조건절과 부사절의 결합을 통한 복합적이고 정교한 문장 구성",
+  "learning_points": "Level 8 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 7,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv8-C1-S07-001",
       "kr": "위험을 인정하면서도 성공하고 싶다면 우리는 계속 진행해야 합니다.",
       "en": "While acknowledging the risks, we must proceed if we want to succeed.",
-      "pattern": "CONDITIONAL-ADVERBIAL-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C1-S07-002",
       "kr": "비록 과제가 어렵지만 함께 일한다면 달성할 수 있습니다.",
       "en": "Although the task is difficult, we can accomplish it provided we work together.",
-      "pattern": "CONDITIONAL-ADVERBIAL-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C1-S07-003",
       "kr": "도전에도 불구하고 우리가 계속 전념한다면 프로젝트는 성공할 것입니다.",
       "en": "Despite the challenges, the project will succeed as long as we remain committed.",
-      "pattern": "CONDITIONAL-ADVERBIAL-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C1-S07-004",
       "kr": "시간이 부족하더라도 효율적으로 일한다면 목표를 달성할 수 있습니다.",
       "en": "Even though time is limited, we can achieve our goal if we work efficiently.",
-      "pattern": "CONDITIONAL-ADVERBIAL-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C1-S07-005",
       "kr": "비용이 많이 들더라도 품질이 보장된다면 투자할 가치가 있습니다.",
       "en": "While the cost is high, it's worth investing provided the quality is guaranteed.",
-      "pattern": "CONDITIONAL-ADVERBIAL-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C1-S07-006",
       "kr": "경험이 부족하지만 열심히 배운다면 빠르게 성장할 수 있습니다.",
       "en": "Although we lack experience, we can grow rapidly as long as we learn diligently.",
-      "pattern": "CONDITIONAL-ADVERBIAL-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C1-S07-007",
       "kr": "어려움을 인정하면서도 포기하지 않는다면 결국 해결책을 찾을 것입니다.",
       "en": "While acknowledging the difficulties, we will find a solution provided we don't give up.",
-      "pattern": "CONDITIONAL-ADVERBIAL-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv8-C1-S07-008",
       "kr": "자원이 한정되어 있지만 창의적으로 접근한다면 좋은 결과를 얻을 수 있습니다.",
       "en": "Despite limited resources, we can achieve good results if we approach creatively.",
-      "pattern": "CONDITIONAL-ADVERBIAL-COMBINATION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L8_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.544Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_8\\Lv8-C1-S07_bank.json"
+    ]
+  }
 }

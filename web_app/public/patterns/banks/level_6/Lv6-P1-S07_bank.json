@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv6-P1-S07",
-  "title": "미래 & 현재완료 결합",
-  "description": "미래시제와 현재완료를 한 문장에 넣어 말해봅니다.",
-  "grammar_pattern": "FUTURE-PRESENT-PERFECT-COMBINATION",
+  "title": "Stage Lv6-P1-S07",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "I will share the results once I have completed the analysis.",
-    "She will make a decision after she has reviewed all the options.",
-    "We will proceed with the plan when we have received approval."
+    "She will make a decision after she has reviewed all the options."
   ],
-  "learning_points": "미래시제와 현재완료를 결합하여 조건부 미래 동작 표현",
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 7,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv6-P1-S07-001",
       "kr": "분석을 완료한 후에 결과를 공유하겠습니다.",
       "en": "I will share the results once I have completed the analysis.",
-      "pattern": "FUTURE-PRESENT-PERFECT-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv6-P1-S07-002",
       "kr": "그녀는 모든 옵션을 검토한 후에 결정을 내릴 것입니다.",
       "en": "She will make a decision after she has reviewed all the options.",
-      "pattern": "FUTURE-PRESENT-PERFECT-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv6-P1-S07-003",
       "kr": "승인을 받은 후에 계획을 진행하겠습니다.",
       "en": "We will proceed with the plan when we have received approval.",
-      "pattern": "FUTURE-PRESENT-PERFECT-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv6-P1-S07-004",
       "kr": "모든 데이터를 수집한 후에 보고서를 작성할 것입니다.",
       "en": "I will write the report once I have collected all the data.",
-      "pattern": "FUTURE-PRESENT-PERFECT-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv6-P1-S07-005",
       "kr": "팀이 테스트를 마친 후에 제품을 출시할 것입니다.",
       "en": "We will launch the product after the team has finished testing.",
-      "pattern": "FUTURE-PRESENT-PERFECT-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv6-P1-S07-006",
       "kr": "충분한 경험을 쌓지 못했다면 그 역할을 맡지 않을 것입니다.",
       "en": "I will not take that role if I haven't gained sufficient experience.",
-      "pattern": "FUTURE-PRESENT-PERFECT-COMBINATION",
       "form": "neg"
     },
     {
       "id": "Lv6-P1-S07-007",
       "kr": "클라이언트가 피드백을 제공한 후에 최종 수정을 할 것입니다.",
       "en": "We will make final revisions once the client has provided feedback.",
-      "pattern": "FUTURE-PRESENT-PERFECT-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv6-P1-S07-008",
       "kr": "시장 조사를 완료한 후에 마케팅 전략을 개발할 것입니다.",
       "en": "We will develop the marketing strategy after we have completed market research.",
-      "pattern": "FUTURE-PRESENT-PERFECT-COMBINATION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 7,
+    "neg": 1,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.460Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_6\\Lv6-P1-S07_bank.json"
+    ]
+  }
 }

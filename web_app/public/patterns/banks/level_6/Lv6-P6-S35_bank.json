@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv6-P6-S35",
-  "title": "It-that 강조구문 응용",
-  "description": "It-that 강조구문을 다양한 시제와 결합하여 특정 요소를 강조합니다. IT-CLEFT-EMPHASIS-ADVANCED 패턴을 연습합니다.",
-  "grammar_pattern": "IT-CLEFT-EMPHASIS-ADVANCED",
+  "title": "Stage Lv6-P6-S35",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "It was John that broke the vase.",
-    "It is next year that we will launch the product.",
-    "It was through hard work that they achieved success."
+    "It is next year that we will launch the product."
   ],
-  "learning_points": "시제와 결합된 강조구문을 통한 핵심 요소 부각",
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
   "phase": 6,
   "stage_number": 35,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv6-P6-S35-001",
       "kr": "꽃병을 깬 것은 바로 존이었습니다.",
       "en": "It was John that broke the vase.",
-      "pattern": "IT-CLEFT-EMPHASIS-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P6-S35-002",
       "kr": "제품을 출시할 것은 바로 내년입니다.",
       "en": "It is next year that we will launch the product.",
-      "pattern": "IT-CLEFT-EMPHASIS-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P6-S35-003",
       "kr": "그들이 성공을 달성한 것은 바로 노력을 통해서였습니다.",
       "en": "It was through hard work that they achieved success.",
-      "pattern": "IT-CLEFT-EMPHASIS-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P6-S35-004",
       "kr": "이 프로젝트를 성공으로 이끈 것은 바로 팀워크였습니다.",
       "en": "It was teamwork that led this project to success.",
-      "pattern": "IT-CLEFT-EMPHASIS-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P6-S35-005",
       "kr": "우리가 중점을 두어야 할 것은 바로 고객 만족입니다.",
       "en": "It is customer satisfaction that we should focus on.",
-      "pattern": "IT-CLEFT-EMPHASIS-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P6-S35-006",
       "kr": "회사의 성장을 이끈 것은 바로 혁신이었습니다.",
       "en": "It was innovation that drove the company's growth.",
-      "pattern": "IT-CLEFT-EMPHASIS-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P6-S35-007",
       "kr": "우리가 투자해야 할 것은 바로 기술 개발입니다.",
       "en": "It is technology development that we must invest in.",
-      "pattern": "IT-CLEFT-EMPHASIS-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv6-P6-S35-008",
       "kr": "이 결정을 내린 것은 바로 CEO였습니다.",
       "en": "It was the CEO that made this decision.",
-      "pattern": "IT-CLEFT-EMPHASIS-ADVANCED",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.488Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_6\\Lv6-P6-S35_bank.json"
+    ]
+  }
 }

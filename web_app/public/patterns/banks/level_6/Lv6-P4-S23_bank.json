@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv6-P4-S23",
-  "title": "양보 부사절 고급",
-  "description": "even though, whereas 등을 사용한 고급 양보절로 대조와 양보를 표현합니다. ADVANCED-CONCESSIVE-ADVERBIALS 패턴을 연습합니다.",
-  "grammar_pattern": "ADVANCED-CONCESSIVE-ADVERBIALS",
+  "title": "Stage Lv6-P4-S23",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Even though he was inexperienced, he managed the task well.",
-    "I enjoy the job, whereas my friend finds it tedious.",
-    "Despite being costly, the project delivered excellent results."
+    "I enjoy the job, whereas my friend finds it tedious."
   ],
-  "learning_points": "대조적 상황과 예상과 다른 결과의 표현",
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
   "phase": 4,
   "stage_number": 23,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv6-P4-S23-001",
       "kr": "경험이 없었음에도 불구하고 그는 업무를 잘 처리했습니다.",
       "en": "Even though he was inexperienced, he managed the task well.",
-      "pattern": "ADVANCED-CONCESSIVE-ADVERBIALS",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S23-002",
       "kr": "저는 이 일을 즐기는 반면, 제 친구는 지루하다고 생각합니다.",
       "en": "I enjoy the job, whereas my friend finds it tedious.",
-      "pattern": "ADVANCED-CONCESSIVE-ADVERBIALS",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S23-003",
       "kr": "비용이 많이 들었음에도 불구하고 프로젝트는 훌륭한 결과를 가져왔습니다.",
       "en": "Despite being costly, the project delivered excellent results.",
-      "pattern": "ADVANCED-CONCESSIVE-ADVERBIALS",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S23-004",
       "kr": "어려움이 있었지만 팀은 목표를 달성했습니다.",
       "en": "Although there were challenges, the team achieved its goals.",
-      "pattern": "ADVANCED-CONCESSIVE-ADVERBIALS",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S23-005",
       "kr": "시장이 불안정한 상황인 반면, 우리 회사는 성장하고 있습니다.",
       "en": "The market is unstable, whereas our company is growing.",
-      "pattern": "ADVANCED-CONCESSIVE-ADVERBIALS",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S23-006",
       "kr": "예산이 제한적임에도 불구하고 모든 목표를 달성했습니다.",
       "en": "Even though the budget was limited, we achieved all objectives.",
-      "pattern": "ADVANCED-CONCESSIVE-ADVERBIALS",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S23-007",
       "kr": "경쟁이 치열한 반면, 우리는 차별화된 전략을 가지고 있습니다.",
       "en": "Competition is fierce, whereas we have a differentiated strategy.",
-      "pattern": "ADVANCED-CONCESSIVE-ADVERBIALS",
       "form": "aff"
     },
     {
       "id": "Lv6-P4-S23-008",
       "kr": "시간이 촉박했음에도 불구하고 품질을 타협하지 않았습니다.",
       "en": "Despite the tight schedule, we didn't compromise on quality.",
-      "pattern": "ADVANCED-CONCESSIVE-ADVERBIALS",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.477Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_6\\Lv6-P4-S23_bank.json"
+    ]
+  }
 }

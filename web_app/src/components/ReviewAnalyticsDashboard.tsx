@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback, useMemo, memo } from 'react';
 import { reviewAlgorithmService } from '../services/reviewAlgorithm';
 
 interface ReviewAnalyticsProps {
@@ -19,18 +19,25 @@ interface WeeklyProgress {
   accuracy: number;
 }
 
-const ReviewAnalyticsDashboard: React.FC<ReviewAnalyticsProps> = ({ userId }) => {
+const ReviewAnalyticsDashboard: React.FC<ReviewAnalyticsProps> = memo(({ userId }) => {
   const [metrics, setMetrics] = useState<ReviewMetrics | null>(null);
   const [weeklyProgress, setWeeklyProgress] = useState<WeeklyProgress[]>([]);
   const [schedule, setSchedule] = useState<any>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [selectedTimeframe, setSelectedTimeframe] = useState<'week' | 'month' | 'quarter'>('month');
 
+  // Memoize timeframe options to prevent recreation on every render
+  const timeframeOptions = useMemo(() => [
+    { key: 'week', label: '최근 1주' },
+    { key: 'month', label: '최근 1개월' },
+    { key: 'quarter', label: '최근 3개월' }
+  ], []);
+
   useEffect(() => {
     loadAnalytics();
-  }, [userId, selectedTimeframe]);
+  }, [userId, selectedTimeframe, loadAnalytics]);
 
-  const loadAnalytics = async () => {
+  const loadAnalytics = useCallback(async () => {
     setIsLoading(true);
     try {
       // 복습 메트릭 로드
@@ -55,9 +62,9 @@ const ReviewAnalyticsDashboard: React.FC<ReviewAnalyticsProps> = ({ userId }) =>
     } finally {
       setIsLoading(false);
     }
-  };
+  }, [userId]);
 
-  const getMasteryColor = (level: string) => {
+  const getMasteryColor = useCallback((level: string) => {
     switch (level) {
       case 'mastered': return 'text-green-600 bg-green-100';
       case 'advanced': return 'text-blue-600 bg-blue-100';
@@ -65,9 +72,9 @@ const ReviewAnalyticsDashboard: React.FC<ReviewAnalyticsProps> = ({ userId }) =>
       case 'beginner': return 'text-red-600 bg-red-100';
       default: return 'text-gray-600 bg-gray-100';
     }
-  };
+  }, []);
 
-  const getMasteryDescription = (level: string) => {
+  const getMasteryDescription = useCallback((level: string) => {
     switch (level) {
       case 'mastered': return '완전 숙달 - 장기 기억 형성 완료';
       case 'advanced': return '고급 수준 - 안정적인 기억 형성';
@@ -75,15 +82,15 @@ const ReviewAnalyticsDashboard: React.FC<ReviewAnalyticsProps> = ({ userId }) =>
       case 'beginner': return '초급 수준 - 기초 학습 집중';
       default: return '수준 분석 중';
     }
-  };
+  }, []);
 
-  const formatTime = (ms: number) => {
+  const formatTime = useCallback((ms: number) => {
     return `${Math.round(ms / 1000)}초`;
-  };
+  }, []);
 
-  const formatPercentage = (value: number) => {
+  const formatPercentage = useCallback((value: number) => {
     return `${Math.round(value * 100)}%`;
-  };
+  }, []);
 
   if (isLoading) {
     return (
@@ -115,11 +122,7 @@ const ReviewAnalyticsDashboard: React.FC<ReviewAnalyticsProps> = ({ userId }) =>
       {/* 기간 선택 */}
       <div className="mb-6">
         <div className="flex gap-2">
-          {[
-            { key: 'week', label: '최근 1주' },
-            { key: 'month', label: '최근 1개월' },
-            { key: 'quarter', label: '최근 3개월' }
-          ].map(option => (
+          {timeframeOptions.map(option => (
             <button
               key={option.key}
               onClick={() => setSelectedTimeframe(option.key as any)}
@@ -289,6 +292,6 @@ const ReviewAnalyticsDashboard: React.FC<ReviewAnalyticsProps> = ({ userId }) =>
       </div>
     </div>
   );
-};
+});
 
 export default ReviewAnalyticsDashboard;

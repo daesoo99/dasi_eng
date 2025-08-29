@@ -1,0 +1,314 @@
+{
+  "stage_id": "Lv3-P5-S26",
+  "title": "강조 구문 (It is/was that)",
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv3-P5-S26-001",
+      "kr": "바로 그것이 제가 원하는 것입니다. (확장 1)",
+      "en": "It is exactly what I want. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-002",
+      "kr": "그가 그 일을 한 것이었어요. (확장 1)",
+      "en": "It was he who did that work. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-003",
+      "kr": "어제 그들을 만난 것입니다. (확장 1)",
+      "en": "It was yesterday that I met them. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-004",
+      "kr": "그곳에서 일어난 일이었어요. (확장 1)",
+      "en": "It was there that it happened. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-005",
+      "kr": "이것이 가장 중요한 것입니다. (확장 1)",
+      "en": "It is this that is most important. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-006",
+      "kr": "그때서야 이해했어요. (확장 1)",
+      "en": "It was then that I understood. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-007",
+      "kr": "바로 그 이유 때문입니다. (확장 1)",
+      "en": "It is for that reason. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-008",
+      "kr": "그녀가 승리한 것이었어요. (확장 1)",
+      "en": "It was she who won. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-009",
+      "kr": "이 방법이 최선입니다. (확장 1)",
+      "en": "It is this method that is best. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-010",
+      "kr": "그들이 도착한 것은 밤이었어요. (확장 1)",
+      "en": "It was at night that they arrived. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-011",
+      "kr": "바로 그것이 제가 원하는 것입니다. (확장 2)",
+      "en": "It is exactly what I want. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-012",
+      "kr": "그가 그 일을 한 것이었어요. (확장 2)",
+      "en": "It was he who did that work. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-013",
+      "kr": "어제 그들을 만난 것입니다. (확장 2)",
+      "en": "It was yesterday that I met them. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-014",
+      "kr": "그곳에서 일어난 일이었어요. (확장 2)",
+      "en": "It was there that it happened. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-015",
+      "kr": "이것이 가장 중요한 것입니다. (확장 2)",
+      "en": "It is this that is most important. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-016",
+      "kr": "그때서야 이해했어요. (확장 2)",
+      "en": "It was then that I understood. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-017",
+      "kr": "바로 그 이유 때문입니다. (확장 2)",
+      "en": "It is for that reason. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-018",
+      "kr": "그녀가 승리한 것이었어요. (확장 2)",
+      "en": "It was she who won. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-019",
+      "kr": "이 방법이 최선입니다. (확장 2)",
+      "en": "It is this method that is best. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-020",
+      "kr": "그들이 도착한 것은 밤이었어요. (확장 2)",
+      "en": "It was at night that they arrived. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-021",
+      "kr": "바로 그것이 제가 원하는 것입니다. (확장 3)",
+      "en": "It is exactly what I want. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-022",
+      "kr": "그가 그 일을 한 것이었어요. (확장 3)",
+      "en": "It was he who did that work. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-023",
+      "kr": "어제 그들을 만난 것입니다. (확장 3)",
+      "en": "It was yesterday that I met them. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-024",
+      "kr": "그곳에서 일어난 일이었어요. (확장 3)",
+      "en": "It was there that it happened. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-025",
+      "kr": "이것이 가장 중요한 것입니다. (확장 3)",
+      "en": "It is this that is most important. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-026",
+      "kr": "그때서야 이해했어요. (확장 3)",
+      "en": "It was then that I understood. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-027",
+      "kr": "바로 그 이유 때문입니다. (확장 3)",
+      "en": "It is for that reason. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-028",
+      "kr": "그녀가 승리한 것이었어요. (확장 3)",
+      "en": "It was she who won. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-029",
+      "kr": "이 방법이 최선입니다. (확장 3)",
+      "en": "It is this method that is best. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-030",
+      "kr": "그들이 도착한 것은 밤이었어요. (확장 3)",
+      "en": "It was at night that they arrived. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P5-S26-031",
+      "kr": "바로 그것이 제가 원하는 것입니다. (확장 4)",
+      "en": "It is exactly what I want. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P5-S26-032",
+      "kr": "그가 그 일을 한 것이었어요. (확장 4)",
+      "en": "It was he who did that work. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P5-S26-033",
+      "kr": "어제 그들을 만난 것입니다. (확장 4)",
+      "en": "It was yesterday that I met them. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P5-S26-034",
+      "kr": "그곳에서 일어난 일이었어요. (확장 4)",
+      "en": "It was there that it happened. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P5-S26-035",
+      "kr": "이것이 가장 중요한 것입니다. (확장 4)",
+      "en": "It is this that is most important. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P5-S26-036",
+      "kr": "그때서야 이해했어요. (확장 4)",
+      "en": "It was then that I understood. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P5-S26-037",
+      "kr": "바로 그 이유 때문입니다. (확장 4)",
+      "en": "It is for that reason. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P5-S26-038",
+      "kr": "그녀가 승리한 것이었어요. (확장 4)",
+      "en": "It was she who won. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P5-S26-039",
+      "kr": "이 방법이 최선입니다. (확장 4)",
+      "en": "It is this method that is best. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P5-S26-040",
+      "kr": "그들이 도착한 것은 밤이었어요. (확장 4)",
+      "en": "It was at night that they arrived. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P5-S26-041",
+      "kr": "바로 그것이 제가 원하는 것입니다. (확장 5)",
+      "en": "It is exactly what I want. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P5-S26-042",
+      "kr": "그가 그 일을 한 것이었어요. (확장 5)",
+      "en": "It was he who did that work. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P5-S26-043",
+      "kr": "어제 그들을 만난 것입니다. (확장 5)",
+      "en": "It was yesterday that I met them. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P5-S26-044",
+      "kr": "그곳에서 일어난 일이었어요. (확장 5)",
+      "en": "It was there that it happened. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P5-S26-045",
+      "kr": "이것이 가장 중요한 것입니다. (확장 5)",
+      "en": "It is this that is most important. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P5-S26-046",
+      "kr": "그때서야 이해했어요. (확장 5)",
+      "en": "It was then that I understood. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P5-S26-047",
+      "kr": "바로 그 이유 때문입니다. (확장 5)",
+      "en": "It is for that reason. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P5-S26-048",
+      "kr": "그녀가 승리한 것이었어요. (확장 5)",
+      "en": "It was she who won. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P5-S26-049",
+      "kr": "이 방법이 최선입니다. (확장 5)",
+      "en": "It is this method that is best. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P5-S26-050",
+      "kr": "그들이 도착한 것은 밤이었어요. (확장 5)",
+      "en": "It was at night that they arrived. (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10
+  },
+  "status": "generated",
+  "batch": "L3_Completion_Final"
+}

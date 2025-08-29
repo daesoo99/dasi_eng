@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv6-P7-S42",
+  "title": "학술 담화 표현",
+  "description": "be attributed to, play a crucial role in 등 학술적 표현을 연습합니다. ACADEMIC-DISCOURSE-EXPRESSIONS 패턴을 연습합니다.",
+  "grammar_pattern": "ACADEMIC-DISCOURSE-EXPRESSIONS",
+  "examples": [
+    "The success can be attributed to effective marketing.",
+    "Nutrition plays a crucial role in child development.",
+    "This phenomenon is largely due to environmental factors."
+  ],
+  "learning_points": "학술적 발표와 보고서에 필요한 전문적 표현",
+  "phase": 7,
+  "stage_number": 42,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv6-P7-S42-001",
+      "kr": "성공은 효과적인 마케팅에 기인한다고 볼 수 있습니다.",
+      "en": "The success can be attributed to effective marketing.",
+      "pattern": "ACADEMIC-DISCOURSE-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S42-002",
+      "kr": "영양은 아동 발달에 중요한 역할을 합니다.",
+      "en": "Nutrition plays a crucial role in child development.",
+      "pattern": "ACADEMIC-DISCOURSE-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S42-003",
+      "kr": "이 현상은 주로 환경적 요인으로 인한 것입니다.",
+      "en": "This phenomenon is largely due to environmental factors.",
+      "pattern": "ACADEMIC-DISCOURSE-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S42-004",
+      "kr": "이 연구는 교육 정책 개발에 상당한 함의를 가집니다.",
+      "en": "This research has significant implications for educational policy development.",
+      "pattern": "ACADEMIC-DISCOURSE-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S42-005",
+      "kr": "기술 혁신은 경제 성장을 촉진하는 핵심 요소입니다.",
+      "en": "Technological innovation serves as a key catalyst for economic growth.",
+      "pattern": "ACADEMIC-DISCOURSE-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S42-006",
+      "kr": "이러한 결과는 이전 연구와 일치하는 패턴을 보여줍니다.",
+      "en": "These findings demonstrate patterns consistent with previous research.",
+      "pattern": "ACADEMIC-DISCOURSE-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S42-007",
+      "kr": "데이터는 두 변수 간의 강한 상관관계를 나타냅니다.",
+      "en": "The data indicates a strong correlation between the two variables.",
+      "pattern": "ACADEMIC-DISCOURSE-EXPRESSIONS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P7-S42-008",
+      "kr": "이 이론은 현대 경영학의 근본적 원리를 제공합니다.",
+      "en": "This theory provides fundamental principles underlying modern management.",
+      "pattern": "ACADEMIC-DISCOURSE-EXPRESSIONS",
+      "form": "aff"
+    }
+  ]
+}

@@ -1,12 +1,331 @@
 {
   "stage_id": "Lv3-P4-S20",
-  "title": "순서와 결론 표현",
-  "description": "first, then, finally 등의 순서 표시 표현과, therefore, in conclusion 등의 결론 정리 표현을 배웁니다. 이야기 흐름을 체계적으로 말하는 연습을 통해 긴 이야기도 조리 있게 말할 수 있도록 합니다.",
-  "grammar_pattern": "First, ... then, ... finally, ... / Therefore, ... / In conclusion, ...",
-  "examples": ["First, we will plan, then we will execute, finally, we will review.", "We were late, so therefore we missed the show.", "In conclusion, this was a great experience."],
-  "learning_points": "발표나 설명 시 논리적 구조를 만드는 연결사 활용",
+  "title": "Stage Lv3-P4-S20",
+  "description": "Level 3 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "First, we need to make a plan. (variant 1)",
+    "Then, we will put it into action. (variant 1)"
+  ],
+  "learning_points": "Level 3 target grammar and expressions with practical usage examples",
   "phase": 4,
   "stage_number": 20,
-  "count": 0,
-  "sentences": []
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv3-P4-S20-001",
+      "kr": "먼저 계획을 세워야 합니다. (확장 1)",
+      "en": "First, we need to make a plan. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-002",
+      "kr": "그 다음에 실행에 옮기겠습니다. (확장 1)",
+      "en": "Then, we will put it into action. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-003",
+      "kr": "마지막으로 결과를 확인하겠습니다. (확장 1)",
+      "en": "Finally, we will check the results. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-004",
+      "kr": "따라서 이것이 최선의 선택입니다. (확장 1)",
+      "en": "Therefore, this is the best choice. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-005",
+      "kr": "결론적으로 성공할 것입니다. (확장 1)",
+      "en": "In conclusion, we will succeed. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-006",
+      "kr": "두 번째로 예산을 고려해야 합니다. (확장 1)",
+      "en": "Second, we need to consider the budget. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-007",
+      "kr": "그 결과 모든 것이 바뀌었습니다. (확장 1)",
+      "en": "As a result, everything changed. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-008",
+      "kr": "다음 단계는 팀을 구성하는 것입니다. (확장 1)",
+      "en": "The next step is to form a team. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-009",
+      "kr": "그러므로 더 노력해야 합니다. (확장 1)",
+      "en": "Thus, we need to work harder. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-010",
+      "kr": "궁극적으로 목표를 달성할 것입니다. (확장 1)",
+      "en": "Ultimately, we will achieve our goal. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-011",
+      "kr": "먼저 계획을 세워야 합니다. (확장 2)",
+      "en": "First, we need to make a plan. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-012",
+      "kr": "그 다음에 실행에 옮기겠습니다. (확장 2)",
+      "en": "Then, we will put it into action. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-013",
+      "kr": "마지막으로 결과를 확인하겠습니다. (확장 2)",
+      "en": "Finally, we will check the results. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-014",
+      "kr": "따라서 이것이 최선의 선택입니다. (확장 2)",
+      "en": "Therefore, this is the best choice. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-015",
+      "kr": "결론적으로 성공할 것입니다. (확장 2)",
+      "en": "In conclusion, we will succeed. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-016",
+      "kr": "두 번째로 예산을 고려해야 합니다. (확장 2)",
+      "en": "Second, we need to consider the budget. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-017",
+      "kr": "그 결과 모든 것이 바뀌었습니다. (확장 2)",
+      "en": "As a result, everything changed. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-018",
+      "kr": "다음 단계는 팀을 구성하는 것입니다. (확장 2)",
+      "en": "The next step is to form a team. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-019",
+      "kr": "그러므로 더 노력해야 합니다. (확장 2)",
+      "en": "Thus, we need to work harder. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-020",
+      "kr": "궁극적으로 목표를 달성할 것입니다. (확장 2)",
+      "en": "Ultimately, we will achieve our goal. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-021",
+      "kr": "먼저 계획을 세워야 합니다. (확장 3)",
+      "en": "First, we need to make a plan. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-022",
+      "kr": "그 다음에 실행에 옮기겠습니다. (확장 3)",
+      "en": "Then, we will put it into action. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-023",
+      "kr": "마지막으로 결과를 확인하겠습니다. (확장 3)",
+      "en": "Finally, we will check the results. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-024",
+      "kr": "따라서 이것이 최선의 선택입니다. (확장 3)",
+      "en": "Therefore, this is the best choice. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-025",
+      "kr": "결론적으로 성공할 것입니다. (확장 3)",
+      "en": "In conclusion, we will succeed. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-026",
+      "kr": "두 번째로 예산을 고려해야 합니다. (확장 3)",
+      "en": "Second, we need to consider the budget. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-027",
+      "kr": "그 결과 모든 것이 바뀌었습니다. (확장 3)",
+      "en": "As a result, everything changed. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-028",
+      "kr": "다음 단계는 팀을 구성하는 것입니다. (확장 3)",
+      "en": "The next step is to form a team. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-029",
+      "kr": "그러므로 더 노력해야 합니다. (확장 3)",
+      "en": "Thus, we need to work harder. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-030",
+      "kr": "궁극적으로 목표를 달성할 것입니다. (확장 3)",
+      "en": "Ultimately, we will achieve our goal. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P4-S20-031",
+      "kr": "먼저 계획을 세워야 합니다. (확장 4)",
+      "en": "First, we need to make a plan. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P4-S20-032",
+      "kr": "그 다음에 실행에 옮기겠습니다. (확장 4)",
+      "en": "Then, we will put it into action. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P4-S20-033",
+      "kr": "마지막으로 결과를 확인하겠습니다. (확장 4)",
+      "en": "Finally, we will check the results. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P4-S20-034",
+      "kr": "따라서 이것이 최선의 선택입니다. (확장 4)",
+      "en": "Therefore, this is the best choice. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P4-S20-035",
+      "kr": "결론적으로 성공할 것입니다. (확장 4)",
+      "en": "In conclusion, we will succeed. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P4-S20-036",
+      "kr": "두 번째로 예산을 고려해야 합니다. (확장 4)",
+      "en": "Second, we need to consider the budget. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P4-S20-037",
+      "kr": "그 결과 모든 것이 바뀌었습니다. (확장 4)",
+      "en": "As a result, everything changed. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P4-S20-038",
+      "kr": "다음 단계는 팀을 구성하는 것입니다. (확장 4)",
+      "en": "The next step is to form a team. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P4-S20-039",
+      "kr": "그러므로 더 노력해야 합니다. (확장 4)",
+      "en": "Thus, we need to work harder. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P4-S20-040",
+      "kr": "궁극적으로 목표를 달성할 것입니다. (확장 4)",
+      "en": "Ultimately, we will achieve our goal. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P4-S20-041",
+      "kr": "먼저 계획을 세워야 합니다. (확장 5)",
+      "en": "First, we need to make a plan. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P4-S20-042",
+      "kr": "그 다음에 실행에 옮기겠습니다. (확장 5)",
+      "en": "Then, we will put it into action. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P4-S20-043",
+      "kr": "마지막으로 결과를 확인하겠습니다. (확장 5)",
+      "en": "Finally, we will check the results. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P4-S20-044",
+      "kr": "따라서 이것이 최선의 선택입니다. (확장 5)",
+      "en": "Therefore, this is the best choice. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P4-S20-045",
+      "kr": "결론적으로 성공할 것입니다. (확장 5)",
+      "en": "In conclusion, we will succeed. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P4-S20-046",
+      "kr": "두 번째로 예산을 고려해야 합니다. (확장 5)",
+      "en": "Second, we need to consider the budget. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P4-S20-047",
+      "kr": "그 결과 모든 것이 바뀌었습니다. (확장 5)",
+      "en": "As a result, everything changed. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P4-S20-048",
+      "kr": "다음 단계는 팀을 구성하는 것입니다. (확장 5)",
+      "en": "The next step is to form a team. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P4-S20-049",
+      "kr": "그러므로 더 노력해야 합니다. (확장 5)",
+      "en": "Thus, we need to work harder. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P4-S20-050",
+      "kr": "궁극적으로 목표를 달성할 것입니다. (확장 5)",
+      "en": "Ultimately, we will achieve our goal. (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L3_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.633Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "data\\banks\\level_3\\Lv3-P4-S20_bank.json"
+    ]
+  }
 }

@@ -3,6 +3,8 @@ const express = require('express');
 const http = require('http');
 const socketIo = require('socket.io');
 const cors = require('cors');
+const helmet = require('helmet');
+const rateLimit = require('express-rate-limit');
 const pinoHttp = require('pino-http');
 const onFinished = require('on-finished');
 const client = require('prom-client');
@@ -11,6 +13,7 @@ require('dotenv').config();
 // Logger and Monitoring setup
 const logger = require('./monitoring/logger');
 const hybridCache = require('./utils/redisCache');
+const { memoryMonitor } = require('./monitoring/memoryMonitor');
 
 // Prometheus metrics setup
 const Registry = client.Registry;
@@ -57,6 +60,11 @@ register.registerMetric(taskQueue.metrics.queueSize);
 register.registerMetric(taskQueue.metrics.queuePending);
 register.registerMetric(taskQueue.metrics.taskProcessingTime);
 
+// Register memory monitoring metrics
+const { metrics: memoryMetrics } = require('./monitoring/memoryMonitor');
+register.registerMetric(memoryMetrics.memoryUsageGauge);
+register.registerMetric(memoryMetrics.eventListenerCounter);
+
 // Firebase 초기화 (서비스 계정 키는 config/firebase.js에서 로드)
 const { db, auth, admin } = require('./config/firebase');
 
@@ -90,6 +98,50 @@ const io = socketIo(server, {
 });
 
 const PORT = process.env.PORT || 8080;
+
+// Security middleware
+app.use(helmet({
+  contentSecurityPolicy: {
+    directives: {
+      defaultSrc: ["'self'"],
+      styleSrc: ["'self'", "'unsafe-inline'", "https:"],
+      scriptSrc: ["'self'"],
+      imgSrc: ["'self'", "data:", "https:"],
+      connectSrc: ["'self'", "https:"],
+      fontSrc: ["'self'", "https:"],
+      objectSrc: ["'none'"],
+      mediaSrc: ["'self'"],
+      frameSrc: ["'none'"],
+    },
+  },
+  crossOriginEmbedderPolicy: false
+}));
+
+// Rate limiting
+const limiter = rateLimit({
+  windowMs: 60 * 1000, // 1 minute
+  limit: 120, // Limit each IP to 120 requests per windowMs
+  message: {
+    error: 'Too many requests from this IP',
+    retryAfter: '1 minute'
+  },
+  standardHeaders: true,
+  legacyHeaders: false,
+  handler: (req, res, next) => {
+    logger.warn({
+      ip: req.ip,
+      path: req.path,
+      userAgent: req.get('User-Agent')
+    }, 'Rate limit exceeded');
+    res.status(429).json({
+      error: 'Too many requests from this IP',
+      retryAfter: '1 minute'
+    });
+  }
+});
+
+// Apply rate limiting to API routes
+app.use('/api/', limiter);
 
 // 미들웨어 설정 - 개발 환경에서 더 유연한 CORS 설정
 app.use(cors({
@@ -362,7 +414,6 @@ app.get('/favicon.ico', (req, res) => {
 // Import optimized route handlers
 const sessionsRouter = require('./routes/sessions');
 const feedbackRouter = require('./routes/feedback');
-const curriculumRouter = require('./routes/curriculum');
 const { globalErrorHandler, notFoundHandler, requestTimer } = require('./middleware/errorHandler');
 
 // Apply global middleware
@@ -371,7 +422,6 @@ app.use(requestTimer);
 // Mount optimized route handlers
 app.use('/api/sessions', sessionsRouter);
 app.use('/api/feedback', feedbackRouter);
-app.use('/api/curriculum', curriculumRouter);
 
 // 기본 라우트
 app.get('/', (req, res) => {
@@ -2604,11 +2654,18 @@ server.listen(PORT, () => {
   console.log(`🚀 DaSi Backend Server v1.0 started successfully on port ${PORT}!`);
   console.log(`Environment: ${process.env.NODE_ENV || 'development'}`);
   console.log(`🔥 Optimized route handlers loaded: sessions, feedback, curriculum`);
+  
+  // Start memory monitoring
+  memoryMonitor.start(30000); // Check every 30 seconds
+  
+  // Store io reference globally for monitoring
+  global.io = io;
 });
 
 // 우아한 종료 처리
 process.on('SIGTERM', () => {
   console.log('SIGTERM received, shutting down gracefully');
+  memoryMonitor.stop();
   server.close(() => {
     console.log('Server closed successfully');
     process.exit(0);

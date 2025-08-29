@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P1-S01",
-  "title": "고급 담화표지 I",
-  "description": "on a related note(관련해서 말인데), having said that(그렇기는 하지만) 등을 연습합니다. 스피치에서 주제 전환이나 보충 설명 시 사용해 봅니다.",
-  "grammar_pattern": "DISCOURSE-MARKERS-ADVANCED",
+  "title": "Stage Lv9-P1-S01",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
-    "Our profits are up this quarter. On a related note, our expenses have also increased.",
-    "The product is innovative. Having said that, it needs further testing.",
-    "This approach works well. On a related note, customer feedback has been positive."
+    "Our company's profits have increased. On a related note, our expansion into new markets has been successful.",
+    "This product is innovative. Having said that, it requires additional validation."
   ],
-  "learning_points": "고급 담화 표지를 사용한 주제 전환과 보충 설명",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 1,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv9-P1-S01-001",
       "kr": "우리 회사의 수익이 증가했습니다. 관련해서 말하자면, 새로운 시장 개척도 성공적이었습니다.",
       "en": "Our company's profits have increased. On a related note, our expansion into new markets has been successful.",
-      "pattern": "DISCOURSE-MARKERS-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S01-002",
       "kr": "이 제품은 혁신적입니다. 그렇기는 하지만, 추가 검증이 필요합니다.",
       "en": "This product is innovative. Having said that, it requires additional validation.",
-      "pattern": "DISCOURSE-MARKERS-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S01-003",
       "kr": "팀의 협력이 훌륭했습니다. 관련해서 말인데, 의사소통 방식도 개선되었습니다.",
       "en": "The team collaboration was excellent. On a related note, our communication methods have also improved.",
-      "pattern": "DISCOURSE-MARKERS-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S01-004",
       "kr": "프로젝트가 성공적으로 완료되었습니다. 그렇기는 하지만, 몇 가지 교훈을 얻었습니다.",
       "en": "The project was completed successfully. Having said that, we learned several valuable lessons.",
-      "pattern": "DISCOURSE-MARKERS-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S01-005",
       "kr": "고객 만족도가 향상되었습니다. 관련해서 말하자면, 서비스 품질도 크게 개선되었습니다.",
       "en": "Customer satisfaction has improved. On a related note, service quality has also been significantly enhanced.",
-      "pattern": "DISCOURSE-MARKERS-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S01-006",
       "kr": "새로운 정책이 효과적입니다. 그렇기는 하지만, 실행 과정에서 몇 가지 조정이 필요했습니다.",
       "en": "The new policy is effective. Having said that, some adjustments were needed during implementation.",
-      "pattern": "DISCOURSE-MARKERS-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S01-007",
       "kr": "기술 혁신이 가속화되고 있습니다. 관련해서 말인데, 직원 교육의 중요성도 커지고 있습니다.",
       "en": "Technological innovation is accelerating. On a related note, the importance of employee training is also growing.",
-      "pattern": "DISCOURSE-MARKERS-ADVANCED",
       "form": "aff"
     },
     {
       "id": "Lv9-P1-S01-008",
       "kr": "시장 분석이 긍정적입니다. 그렇기는 하지만, 경쟁 환경 변화에 주의해야 합니다.",
       "en": "Market analysis is positive. Having said that, we must pay attention to changes in the competitive environment.",
-      "pattern": "DISCOURSE-MARKERS-ADVANCED",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.584Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P1-S01_bank.json"
+    ]
+  }
 }

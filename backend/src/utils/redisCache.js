@@ -94,7 +94,7 @@ class HybridCache {
   }
 
   async setLevel(id, data) {
-    const ttl = 1000 * 60 * 1030; // 1030 minutes as specified
+    const ttl = 1000 * 60 * 30; // 30 minutes as per requirements
     return this.set(this.levelKey(id), data, { ttl });
   }
 
@@ -103,7 +103,7 @@ class HybridCache {
   }
 
   async setPattern(id, data) {
-    const ttl = 1000 * 60 * 1030; // 1030 minutes as specified
+    const ttl = 1000 * 60 * 30; // 30 minutes as per requirements
     return this.set(this.patternKey(id), data, { ttl });
   }
 
@@ -118,9 +118,9 @@ class HybridCache {
 
   async setTTS(voice, text, audioData) {
     const key = this.ttsKey(voice, text);
-    const ttl = 1000 * 60 * 60 * 24 * 17; // 17 days as specified
+    const ttl = 1000 * 60 * 60 * 24 * 7; // 7 days (within 1-7d requirement)
     await this.set(key, audioData, { ttl });
-    console.log(`✅ TTS Cached: ${text.slice(0, 30)}... (${voice}) - TTL: 17 days`);
+    console.log(`✅ TTS Cached: ${text.slice(0, 30)}... (${voice}) - TTL: 7 days`);
   }
 
   // Cache hit rate metrics

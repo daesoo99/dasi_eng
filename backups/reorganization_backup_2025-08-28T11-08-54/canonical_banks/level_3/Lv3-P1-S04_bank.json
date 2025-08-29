@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv3-P1-S04",
+  "title": "과거완료 & 과거완료진행",
+  "description": "과거완료(had p.p.)와 과거완료진행(had been ~ing)을 소개하여 과거의 과거를 표현합니다. 과거 시제들과 함께 스토리 텔링 연습을 통해 자연스럽게 사용합니다.",
+  "grammar_pattern": "주어 + had + p.p. / 주어 + had been + 동사ing",
+  "examples": ["I had finished dinner before he arrived.", "They had been waiting for an hour when the bus finally came."],
+  "learning_points": "과거의 과거 시점 표현으로 스토리 텔링에 활용",
+  "phase": 1,
+  "stage_number": 4,
+  "count": 0,
+  "sentences": []
+}

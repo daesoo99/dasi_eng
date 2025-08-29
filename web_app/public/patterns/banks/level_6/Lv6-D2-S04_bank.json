@@ -1,0 +1,331 @@
+{
+  "stage_id": "Lv6-D2-S04",
+  "title": "Stage Lv6-D2-S04",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "The patient's symptoms are indicative of a specific condition. (professional variant 1)",
+    "Differential diagnosis is required. (professional variant 1)"
+  ],
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 4,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv6-D2-S04-001",
+      "kr": "환자의 증상이 특정 질환을 시사합니다. (전문 1)",
+      "en": "The patient's symptoms are indicative of a specific condition. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-002",
+      "kr": "감별 진단이 필요한 상황입니다. (전문 1)",
+      "en": "Differential diagnosis is required. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-003",
+      "kr": "치료 계획을 수정해야 합니다. (전문 1)",
+      "en": "The treatment plan requires modification. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-004",
+      "kr": "약물 상호작용을 고려해야 합니다. (전문 1)",
+      "en": "Drug interactions must be considered. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-005",
+      "kr": "예후가 양호할 것으로 예상됩니다. (전문 1)",
+      "en": "The prognosis is expected to be favorable. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-006",
+      "kr": "금기사항이 확인되었습니다. (전문 1)",
+      "en": "Contraindications have been identified. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-007",
+      "kr": "부작용 모니터링이 필요합니다. (전문 1)",
+      "en": "Monitoring for adverse effects is necessary. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-008",
+      "kr": "만성 질환 관리가 중요합니다. (전문 1)",
+      "en": "Chronic disease management is crucial. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-009",
+      "kr": "완화 치료를 고려합니다. (전문 1)",
+      "en": "Palliative care is being considered. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-010",
+      "kr": "예방 조치를 권장합니다. (전문 1)",
+      "en": "Prophylactic measures are recommended. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-011",
+      "kr": "환자의 증상이 특정 질환을 시사합니다. (전문 2)",
+      "en": "The patient's symptoms are indicative of a specific condition. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-012",
+      "kr": "감별 진단이 필요한 상황입니다. (전문 2)",
+      "en": "Differential diagnosis is required. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-013",
+      "kr": "치료 계획을 수정해야 합니다. (전문 2)",
+      "en": "The treatment plan requires modification. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-014",
+      "kr": "약물 상호작용을 고려해야 합니다. (전문 2)",
+      "en": "Drug interactions must be considered. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-015",
+      "kr": "예후가 양호할 것으로 예상됩니다. (전문 2)",
+      "en": "The prognosis is expected to be favorable. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-016",
+      "kr": "금기사항이 확인되었습니다. (전문 2)",
+      "en": "Contraindications have been identified. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-017",
+      "kr": "부작용 모니터링이 필요합니다. (전문 2)",
+      "en": "Monitoring for adverse effects is necessary. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-018",
+      "kr": "만성 질환 관리가 중요합니다. (전문 2)",
+      "en": "Chronic disease management is crucial. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-019",
+      "kr": "완화 치료를 고려합니다. (전문 2)",
+      "en": "Palliative care is being considered. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-020",
+      "kr": "예방 조치를 권장합니다. (전문 2)",
+      "en": "Prophylactic measures are recommended. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-021",
+      "kr": "환자의 증상이 특정 질환을 시사합니다. (전문 3)",
+      "en": "The patient's symptoms are indicative of a specific condition. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-022",
+      "kr": "감별 진단이 필요한 상황입니다. (전문 3)",
+      "en": "Differential diagnosis is required. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-023",
+      "kr": "치료 계획을 수정해야 합니다. (전문 3)",
+      "en": "The treatment plan requires modification. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-024",
+      "kr": "약물 상호작용을 고려해야 합니다. (전문 3)",
+      "en": "Drug interactions must be considered. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-025",
+      "kr": "예후가 양호할 것으로 예상됩니다. (전문 3)",
+      "en": "The prognosis is expected to be favorable. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-026",
+      "kr": "금기사항이 확인되었습니다. (전문 3)",
+      "en": "Contraindications have been identified. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-027",
+      "kr": "부작용 모니터링이 필요합니다. (전문 3)",
+      "en": "Monitoring for adverse effects is necessary. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-028",
+      "kr": "만성 질환 관리가 중요합니다. (전문 3)",
+      "en": "Chronic disease management is crucial. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-029",
+      "kr": "완화 치료를 고려합니다. (전문 3)",
+      "en": "Palliative care is being considered. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-030",
+      "kr": "예방 조치를 권장합니다. (전문 3)",
+      "en": "Prophylactic measures are recommended. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D2-S04-031",
+      "kr": "환자의 증상이 특정 질환을 시사합니다. (전문 4)",
+      "en": "The patient's symptoms are indicative of a specific condition. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S04-032",
+      "kr": "감별 진단이 필요한 상황입니다. (전문 4)",
+      "en": "Differential diagnosis is required. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S04-033",
+      "kr": "치료 계획을 수정해야 합니다. (전문 4)",
+      "en": "The treatment plan requires modification. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S04-034",
+      "kr": "약물 상호작용을 고려해야 합니다. (전문 4)",
+      "en": "Drug interactions must be considered. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S04-035",
+      "kr": "예후가 양호할 것으로 예상됩니다. (전문 4)",
+      "en": "The prognosis is expected to be favorable. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S04-036",
+      "kr": "금기사항이 확인되었습니다. (전문 4)",
+      "en": "Contraindications have been identified. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S04-037",
+      "kr": "부작용 모니터링이 필요합니다. (전문 4)",
+      "en": "Monitoring for adverse effects is necessary. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S04-038",
+      "kr": "만성 질환 관리가 중요합니다. (전문 4)",
+      "en": "Chronic disease management is crucial. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S04-039",
+      "kr": "완화 치료를 고려합니다. (전문 4)",
+      "en": "Palliative care is being considered. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S04-040",
+      "kr": "예방 조치를 권장합니다. (전문 4)",
+      "en": "Prophylactic measures are recommended. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D2-S04-041",
+      "kr": "환자의 증상이 특정 질환을 시사합니다. (전문 5)",
+      "en": "The patient's symptoms are indicative of a specific condition. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S04-042",
+      "kr": "감별 진단이 필요한 상황입니다. (전문 5)",
+      "en": "Differential diagnosis is required. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S04-043",
+      "kr": "치료 계획을 수정해야 합니다. (전문 5)",
+      "en": "The treatment plan requires modification. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S04-044",
+      "kr": "약물 상호작용을 고려해야 합니다. (전문 5)",
+      "en": "Drug interactions must be considered. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S04-045",
+      "kr": "예후가 양호할 것으로 예상됩니다. (전문 5)",
+      "en": "The prognosis is expected to be favorable. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S04-046",
+      "kr": "금기사항이 확인되었습니다. (전문 5)",
+      "en": "Contraindications have been identified. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S04-047",
+      "kr": "부작용 모니터링이 필요합니다. (전문 5)",
+      "en": "Monitoring for adverse effects is necessary. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S04-048",
+      "kr": "만성 질환 관리가 중요합니다. (전문 5)",
+      "en": "Chronic disease management is crucial. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S04-049",
+      "kr": "완화 치료를 고려합니다. (전문 5)",
+      "en": "Palliative care is being considered. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D2-S04-050",
+      "kr": "예방 조치를 권장합니다. (전문 5)",
+      "en": "Prophylactic measures are recommended. (professional variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.792Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "backups\\level_6_professional_mastery\\banks\\Lv6-D2-S04_bank.json"
+    ]
+  }
+}

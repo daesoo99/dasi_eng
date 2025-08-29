@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv7-P7-S40",
-  "title": "비즈니스/학술 어투 전환",
-  "description": "같은 내용도 비격식 → 격식으로 바꿔 말하는 연습을 합니다.",
-  "grammar_pattern": "REGISTER-SWITCHING",
+  "title": "Stage Lv7-P7-S40",
+  "description": "Level 7 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
-    "We need to cut costs. → It is imperative that we reduce expenditures.",
-    "The plan won't work. → The proposed strategy appears to be unviable.",
-    "Let's think about it. → We should conduct a thorough analysis of this matter."
+    "We need to cut costs. (formal) It is imperative that we reduce expenditures.",
+    "The plan won't work. (formal) The proposed strategy appears to be unviable."
   ],
-  "learning_points": "상황과 청자에 따른 적절한 어조와 어휘 선택 능력",
+  "learning_points": "Level 7 target grammar and expressions with practical usage examples",
   "phase": 7,
   "stage_number": 40,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv7-P7-S40-001",
       "kr": "비용을 줄여야 합니다. (격식) 지출을 감소시키는 것이 필수적입니다.",
       "en": "We need to cut costs. (formal) It is imperative that we reduce expenditures.",
-      "pattern": "REGISTER-SWITCHING",
       "form": "aff"
     },
     {
       "id": "Lv7-P7-S40-002",
       "kr": "그 계획은 효과가 없을 것입니다. (격식) 제안된 전략은 실행 불가능해 보입니다.",
       "en": "The plan won't work. (formal) The proposed strategy appears to be unviable.",
-      "pattern": "REGISTER-SWITCHING",
       "form": "neg"
     },
     {
       "id": "Lv7-P7-S40-003",
       "kr": "생각해 봅시다. (격식) 이 문제에 대한 철저한 분석을 수행해야 합니다.",
       "en": "Let's think about it. (formal) We should conduct a thorough analysis of this matter.",
-      "pattern": "REGISTER-SWITCHING",
       "form": "aff"
     },
     {
       "id": "Lv7-P7-S40-004",
       "kr": "더 빨리 해야 합니다. (격식) 진행 속도를 가속화할 필요가 있습니다.",
       "en": "We need to speed up. (formal) It is necessary to accelerate our progress.",
-      "pattern": "REGISTER-SWITCHING",
       "form": "aff"
     },
     {
       "id": "Lv7-P7-S40-005",
       "kr": "문제가 있습니다. (격식) 몇 가지 우려사항이 대두되었습니다.",
       "en": "There's a problem. (formal) Several concerns have emerged that require attention.",
-      "pattern": "REGISTER-SWITCHING",
       "form": "aff"
     },
     {
       "id": "Lv7-P7-S40-006",
       "kr": "좋은 결과입니다. (격식) 결과가 매우 만족스럽고 긍정적입니다.",
       "en": "Good results. (formal) The outcomes are highly satisfactory and positive.",
-      "pattern": "REGISTER-SWITCHING",
       "form": "aff"
     },
     {
       "id": "Lv7-P7-S40-007",
       "kr": "다시 해봅시다. (격식) 접근 방식을 재검토하고 수정할 것을 제안합니다.",
       "en": "Let's try again. (formal) I propose we revisit and modify our approach.",
-      "pattern": "REGISTER-SWITCHING",
       "form": "aff"
     },
     {
       "id": "Lv7-P7-S40-008",
       "kr": "안 될 것 같습니다. (격식) 현재 상황에서는 실현 가능성이 제한적입니다.",
       "en": "It won't work. (formal) Feasibility appears limited under current circumstances.",
-      "pattern": "REGISTER-SWITCHING",
       "form": "neg"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 6,
+    "neg": 2,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L7_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.536Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_7\\Lv7-P7-S40_bank.json"
+    ]
+  }
 }

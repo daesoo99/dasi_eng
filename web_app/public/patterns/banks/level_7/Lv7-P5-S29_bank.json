@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv7-P5-S29",
-  "title": "한 문장 다중 관계사",
-  "description": "관계사를 2개 이상 포함한 문장을 능숙하게 다루는 최종 연습입니다.",
-  "grammar_pattern": "MULTIPLE-RELATIVE-CLAUSES",
+  "title": "Stage Lv7-P5-S29",
+  "description": "Level 7 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "The manager who hired me is the person whose vision transformed the company that we work for.",
-    "The project that we completed, which received excellent reviews, was developed by the team whose expertise impressed everyone.",
-    "The conference where we presented our findings, which took place last month, attracted experts whose research complements what we discovered."
+    "The project that we completed, which received excellent reviews, was developed by the team whose expertise impressed everyone."
   ],
-  "learning_points": "복수의 관계사를 포함한 복잡한 문장 구조의 완전한 이해와 활용",
+  "learning_points": "Level 7 target grammar and expressions with practical usage examples",
   "phase": 5,
   "stage_number": 29,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv7-P5-S29-001",
       "kr": "나를 고용한 관리자는 우리가 일하는 회사를 변화시킨 비전을 가진 사람이다.",
       "en": "The manager who hired me is the person whose vision transformed the company that we work for.",
-      "pattern": "MULTIPLE-RELATIVE-CLAUSES",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S29-002",
       "kr": "우리가 완료한 프로젝트는 훌륭한 평가를 받았으며, 모든 사람에게 감동을 준 전문성을 가진 팀에 의해 개발되었다.",
       "en": "The project that we completed, which received excellent reviews, was developed by the team whose expertise impressed everyone.",
-      "pattern": "MULTIPLE-RELATIVE-CLAUSES",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S29-003",
       "kr": "지난달에 열린 우리가 연구 결과를 발표한 회의는 우리가 발견한 것을 보완하는 연구를 하는 전문가들을 끌어 모았다.",
       "en": "The conference where we presented our findings, which took place last month, attracted experts whose research complements what we discovered.",
-      "pattern": "MULTIPLE-RELATIVE-CLAUSES",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S29-004",
       "kr": "우리가 방문한 연구소는 혁신적인 기술을 개발하는 과학자들이 일하는 곳으로, 이들의 발견이 미래를 바꿀 것이다.",
       "en": "The laboratory that we visited is where scientists who develop innovative technology work, whose discoveries will change the future.",
-      "pattern": "MULTIPLE-RELATIVE-CLAUSES",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S29-005",
       "kr": "우리가 협력하고 있는 회사는 지속 가능한 솔루션을 제공하는 기업으로, 그들의 접근 방식이 우리가 추구하는 가치와 일치한다.",
       "en": "The company that we are collaborating with is a firm that provides sustainable solutions, whose approach aligns with the values that we pursue.",
-      "pattern": "MULTIPLE-RELATIVE-CLAUSES",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S29-006",
       "kr": "그가 추천한 후보자는 우리가 찾고 있던 자격을 갖추지 못한 사람이었다.",
       "en": "The candidate whom he recommended was someone who didn't possess the qualifications that we were looking for.",
-      "pattern": "MULTIPLE-RELATIVE-CLAUSES",
       "form": "neg"
     },
     {
       "id": "Lv7-P5-S29-007",
       "kr": "새로 오픈한 지점은 우리 고객들이 자주 방문하는 지역에 위치해 있으며, 이곳에서 제공하는 서비스가 우리가 목표로 하는 기준을 충족한다.",
       "en": "The newly opened branch is located in an area where our customers frequently visit, where the services that are provided meet the standards that we aim for.",
-      "pattern": "MULTIPLE-RELATIVE-CLAUSES",
       "form": "aff"
     },
     {
       "id": "Lv7-P5-S29-008",
       "kr": "그들이 개발한 소프트웨어는 사용자들이 필요로 하는 기능을 제공하는 도구로, 이것이 시장에서 성공하는 이유이다.",
       "en": "The software that they developed is a tool that provides features that users need, which is the reason why it succeeds in the market.",
-      "pattern": "MULTIPLE-RELATIVE-CLAUSES",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 7,
+    "neg": 1,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L7_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.526Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_7\\Lv7-P5-S29_bank.json"
+    ]
+  }
 }

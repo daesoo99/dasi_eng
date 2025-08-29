@@ -1,0 +1,331 @@
+{
+  "stage_id": "Lv4-A6-S22",
+  "title": "Stage Lv4-A6-S22",
+  "description": "Level 4 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "You have shown good performance overall. (business variant 1)",
+    "It would be better if this part could be improved. (business variant 1)"
+  ],
+  "learning_points": "Level 4 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 22,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv4-A6-S22-001",
+      "kr": "전반적으로 좋은 성과를 보여주셨습니다. (비즈니스 1)",
+      "en": "You have shown good performance overall. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-002",
+      "kr": "이 부분을 개선하면 더 좋을 것 같습니다. (비즈니스 1)",
+      "en": "It would be better if this part could be improved. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-003",
+      "kr": "귀하의 노력을 높이 평가합니다. (비즈니스 1)",
+      "en": "I highly appreciate your efforts. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-004",
+      "kr": "목표를 달성하는 데 성공했습니다. (비즈니스 1)",
+      "en": "You have succeeded in achieving the goal. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-005",
+      "kr": "지속적인 발전이 필요합니다. (비즈니스 1)",
+      "en": "Continuous development is needed. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-006",
+      "kr": "강점을 더욱 발휘해 주세요. (비즈니스 1)",
+      "en": "Please demonstrate your strengths even more. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-007",
+      "kr": "피드백을 건설적으로 받아들여 주세요. (비즈니스 1)",
+      "en": "Please accept the feedback constructively. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-008",
+      "kr": "다음 분기에는 더 나은 결과를 기대합니다. (비즈니스 1)",
+      "en": "I expect better results next quarter. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-009",
+      "kr": "팀에 큰 기여를 해주셨습니다. (비즈니스 1)",
+      "en": "You have made a great contribution to the team. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-010",
+      "kr": "개선 계획을 함께 세워봅시다. (비즈니스 1)",
+      "en": "Let's create an improvement plan together. (business variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-011",
+      "kr": "전반적으로 좋은 성과를 보여주셨습니다. (비즈니스 2)",
+      "en": "You have shown good performance overall. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-012",
+      "kr": "이 부분을 개선하면 더 좋을 것 같습니다. (비즈니스 2)",
+      "en": "It would be better if this part could be improved. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-013",
+      "kr": "귀하의 노력을 높이 평가합니다. (비즈니스 2)",
+      "en": "I highly appreciate your efforts. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-014",
+      "kr": "목표를 달성하는 데 성공했습니다. (비즈니스 2)",
+      "en": "You have succeeded in achieving the goal. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-015",
+      "kr": "지속적인 발전이 필요합니다. (비즈니스 2)",
+      "en": "Continuous development is needed. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-016",
+      "kr": "강점을 더욱 발휘해 주세요. (비즈니스 2)",
+      "en": "Please demonstrate your strengths even more. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-017",
+      "kr": "피드백을 건설적으로 받아들여 주세요. (비즈니스 2)",
+      "en": "Please accept the feedback constructively. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-018",
+      "kr": "다음 분기에는 더 나은 결과를 기대합니다. (비즈니스 2)",
+      "en": "I expect better results next quarter. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-019",
+      "kr": "팀에 큰 기여를 해주셨습니다. (비즈니스 2)",
+      "en": "You have made a great contribution to the team. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-020",
+      "kr": "개선 계획을 함께 세워봅시다. (비즈니스 2)",
+      "en": "Let's create an improvement plan together. (business variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-021",
+      "kr": "전반적으로 좋은 성과를 보여주셨습니다. (비즈니스 3)",
+      "en": "You have shown good performance overall. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-022",
+      "kr": "이 부분을 개선하면 더 좋을 것 같습니다. (비즈니스 3)",
+      "en": "It would be better if this part could be improved. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-023",
+      "kr": "귀하의 노력을 높이 평가합니다. (비즈니스 3)",
+      "en": "I highly appreciate your efforts. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-024",
+      "kr": "목표를 달성하는 데 성공했습니다. (비즈니스 3)",
+      "en": "You have succeeded in achieving the goal. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-025",
+      "kr": "지속적인 발전이 필요합니다. (비즈니스 3)",
+      "en": "Continuous development is needed. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-026",
+      "kr": "강점을 더욱 발휘해 주세요. (비즈니스 3)",
+      "en": "Please demonstrate your strengths even more. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-027",
+      "kr": "피드백을 건설적으로 받아들여 주세요. (비즈니스 3)",
+      "en": "Please accept the feedback constructively. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-028",
+      "kr": "다음 분기에는 더 나은 결과를 기대합니다. (비즈니스 3)",
+      "en": "I expect better results next quarter. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-029",
+      "kr": "팀에 큰 기여를 해주셨습니다. (비즈니스 3)",
+      "en": "You have made a great contribution to the team. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-030",
+      "kr": "개선 계획을 함께 세워봅시다. (비즈니스 3)",
+      "en": "Let's create an improvement plan together. (business variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-031",
+      "kr": "전반적으로 좋은 성과를 보여주셨습니다. (비즈니스 4)",
+      "en": "You have shown good performance overall. (business variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-032",
+      "kr": "이 부분을 개선하면 더 좋을 것 같습니다. (비즈니스 4)",
+      "en": "It would be better if this part could be improved. (business variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-033",
+      "kr": "귀하의 노력을 높이 평가합니다. (비즈니스 4)",
+      "en": "I highly appreciate your efforts. (business variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-034",
+      "kr": "목표를 달성하는 데 성공했습니다. (비즈니스 4)",
+      "en": "You have succeeded in achieving the goal. (business variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-035",
+      "kr": "지속적인 발전이 필요합니다. (비즈니스 4)",
+      "en": "Continuous development is needed. (business variant 4)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-A6-S22-036",
+      "kr": "강점을 더욱 발휘해 주세요. (비즈니스 4)",
+      "en": "Please demonstrate your strengths even more. (business variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S22-037",
+      "kr": "피드백을 건설적으로 받아들여 주세요. (비즈니스 4)",
+      "en": "Please accept the feedback constructively. (business variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S22-038",
+      "kr": "다음 분기에는 더 나은 결과를 기대합니다. (비즈니스 4)",
+      "en": "I expect better results next quarter. (business variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S22-039",
+      "kr": "팀에 큰 기여를 해주셨습니다. (비즈니스 4)",
+      "en": "You have made a great contribution to the team. (business variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S22-040",
+      "kr": "개선 계획을 함께 세워봅시다. (비즈니스 4)",
+      "en": "Let's create an improvement plan together. (business variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S22-041",
+      "kr": "전반적으로 좋은 성과를 보여주셨습니다. (비즈니스 5)",
+      "en": "You have shown good performance overall. (business variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S22-042",
+      "kr": "이 부분을 개선하면 더 좋을 것 같습니다. (비즈니스 5)",
+      "en": "It would be better if this part could be improved. (business variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S22-043",
+      "kr": "귀하의 노력을 높이 평가합니다. (비즈니스 5)",
+      "en": "I highly appreciate your efforts. (business variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S22-044",
+      "kr": "목표를 달성하는 데 성공했습니다. (비즈니스 5)",
+      "en": "You have succeeded in achieving the goal. (business variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S22-045",
+      "kr": "지속적인 발전이 필요합니다. (비즈니스 5)",
+      "en": "Continuous development is needed. (business variant 5)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-A6-S22-046",
+      "kr": "강점을 더욱 발휘해 주세요. (비즈니스 5)",
+      "en": "Please demonstrate your strengths even more. (business variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A6-S22-047",
+      "kr": "피드백을 건설적으로 받아들여 주세요. (비즈니스 5)",
+      "en": "Please accept the feedback constructively. (business variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A6-S22-048",
+      "kr": "다음 분기에는 더 나은 결과를 기대합니다. (비즈니스 5)",
+      "en": "I expect better results next quarter. (business variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A6-S22-049",
+      "kr": "팀에 큰 기여를 해주셨습니다. (비즈니스 5)",
+      "en": "You have made a great contribution to the team. (business variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv4-A6-S22-050",
+      "kr": "개선 계획을 함께 세워봅시다. (비즈니스 5)",
+      "en": "Let's create an improvement plan together. (business variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 35,
+    "neg": 10,
+    "wh_q": 5,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L4_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.768Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "backups\\level_4_business_mastery\\banks\\Lv4-A6-S22_bank.json"
+    ]
+  }
+}

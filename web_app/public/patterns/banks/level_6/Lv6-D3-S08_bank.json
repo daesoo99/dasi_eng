@@ -1,0 +1,331 @@
+{
+  "stage_id": "Lv6-D3-S08",
+  "title": "Stage Lv6-D3-S08",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "Project milestones have been achieved. (professional variant 1)",
+    "Quality assurance procedures have been established. (professional variant 1)"
+  ],
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 8,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv6-D3-S08-001",
+      "kr": "프로젝트 마일스톤이 달성되었습니다. (전문 1)",
+      "en": "Project milestones have been achieved. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-002",
+      "kr": "품질 보증 절차가 수립되었습니다. (전문 1)",
+      "en": "Quality assurance procedures have been established. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-003",
+      "kr": "임계 경로가 식별되었습니다. (전문 1)",
+      "en": "The critical path has been identified. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-004",
+      "kr": "자원 할당이 최적화되었습니다. (전문 1)",
+      "en": "Resource allocation has been optimized. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-005",
+      "kr": "이해관계자들과 협의했습니다. (전문 1)",
+      "en": "Consultation with stakeholders was conducted. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-006",
+      "kr": "품질 검사가 정기적으로 실시됩니다. (전문 1)",
+      "en": "Quality inspections are conducted regularly. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-007",
+      "kr": "위험 완화 조치가 시행되었습니다. (전문 1)",
+      "en": "Risk mitigation measures have been implemented. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-008",
+      "kr": "시운전이 성공적으로 완료되었습니다. (전문 1)",
+      "en": "Commissioning has been successfully completed. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-009",
+      "kr": "프로젝트 인도가 예정대로 진행됩니다. (전문 1)",
+      "en": "Project handover proceeds as scheduled. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-010",
+      "kr": "보증 기간이 명시되었습니다. (전문 1)",
+      "en": "The warranty period has been specified. (professional variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-011",
+      "kr": "프로젝트 마일스톤이 달성되었습니다. (전문 2)",
+      "en": "Project milestones have been achieved. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-012",
+      "kr": "품질 보증 절차가 수립되었습니다. (전문 2)",
+      "en": "Quality assurance procedures have been established. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-013",
+      "kr": "임계 경로가 식별되었습니다. (전문 2)",
+      "en": "The critical path has been identified. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-014",
+      "kr": "자원 할당이 최적화되었습니다. (전문 2)",
+      "en": "Resource allocation has been optimized. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-015",
+      "kr": "이해관계자들과 협의했습니다. (전문 2)",
+      "en": "Consultation with stakeholders was conducted. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-016",
+      "kr": "품질 검사가 정기적으로 실시됩니다. (전문 2)",
+      "en": "Quality inspections are conducted regularly. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-017",
+      "kr": "위험 완화 조치가 시행되었습니다. (전문 2)",
+      "en": "Risk mitigation measures have been implemented. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-018",
+      "kr": "시운전이 성공적으로 완료되었습니다. (전문 2)",
+      "en": "Commissioning has been successfully completed. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-019",
+      "kr": "프로젝트 인도가 예정대로 진행됩니다. (전문 2)",
+      "en": "Project handover proceeds as scheduled. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-020",
+      "kr": "보증 기간이 명시되었습니다. (전문 2)",
+      "en": "The warranty period has been specified. (professional variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-021",
+      "kr": "프로젝트 마일스톤이 달성되었습니다. (전문 3)",
+      "en": "Project milestones have been achieved. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-022",
+      "kr": "품질 보증 절차가 수립되었습니다. (전문 3)",
+      "en": "Quality assurance procedures have been established. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-023",
+      "kr": "임계 경로가 식별되었습니다. (전문 3)",
+      "en": "The critical path has been identified. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-024",
+      "kr": "자원 할당이 최적화되었습니다. (전문 3)",
+      "en": "Resource allocation has been optimized. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-025",
+      "kr": "이해관계자들과 협의했습니다. (전문 3)",
+      "en": "Consultation with stakeholders was conducted. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-026",
+      "kr": "품질 검사가 정기적으로 실시됩니다. (전문 3)",
+      "en": "Quality inspections are conducted regularly. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-027",
+      "kr": "위험 완화 조치가 시행되었습니다. (전문 3)",
+      "en": "Risk mitigation measures have been implemented. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-028",
+      "kr": "시운전이 성공적으로 완료되었습니다. (전문 3)",
+      "en": "Commissioning has been successfully completed. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-029",
+      "kr": "프로젝트 인도가 예정대로 진행됩니다. (전문 3)",
+      "en": "Project handover proceeds as scheduled. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-030",
+      "kr": "보증 기간이 명시되었습니다. (전문 3)",
+      "en": "The warranty period has been specified. (professional variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-D3-S08-031",
+      "kr": "프로젝트 마일스톤이 달성되었습니다. (전문 4)",
+      "en": "Project milestones have been achieved. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S08-032",
+      "kr": "품질 보증 절차가 수립되었습니다. (전문 4)",
+      "en": "Quality assurance procedures have been established. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S08-033",
+      "kr": "임계 경로가 식별되었습니다. (전문 4)",
+      "en": "The critical path has been identified. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S08-034",
+      "kr": "자원 할당이 최적화되었습니다. (전문 4)",
+      "en": "Resource allocation has been optimized. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S08-035",
+      "kr": "이해관계자들과 협의했습니다. (전문 4)",
+      "en": "Consultation with stakeholders was conducted. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S08-036",
+      "kr": "품질 검사가 정기적으로 실시됩니다. (전문 4)",
+      "en": "Quality inspections are conducted regularly. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S08-037",
+      "kr": "위험 완화 조치가 시행되었습니다. (전문 4)",
+      "en": "Risk mitigation measures have been implemented. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S08-038",
+      "kr": "시운전이 성공적으로 완료되었습니다. (전문 4)",
+      "en": "Commissioning has been successfully completed. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S08-039",
+      "kr": "프로젝트 인도가 예정대로 진행됩니다. (전문 4)",
+      "en": "Project handover proceeds as scheduled. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S08-040",
+      "kr": "보증 기간이 명시되었습니다. (전문 4)",
+      "en": "The warranty period has been specified. (professional variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-D3-S08-041",
+      "kr": "프로젝트 마일스톤이 달성되었습니다. (전문 5)",
+      "en": "Project milestones have been achieved. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S08-042",
+      "kr": "품질 보증 절차가 수립되었습니다. (전문 5)",
+      "en": "Quality assurance procedures have been established. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S08-043",
+      "kr": "임계 경로가 식별되었습니다. (전문 5)",
+      "en": "The critical path has been identified. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S08-044",
+      "kr": "자원 할당이 최적화되었습니다. (전문 5)",
+      "en": "Resource allocation has been optimized. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S08-045",
+      "kr": "이해관계자들과 협의했습니다. (전문 5)",
+      "en": "Consultation with stakeholders was conducted. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S08-046",
+      "kr": "품질 검사가 정기적으로 실시됩니다. (전문 5)",
+      "en": "Quality inspections are conducted regularly. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S08-047",
+      "kr": "위험 완화 조치가 시행되었습니다. (전문 5)",
+      "en": "Risk mitigation measures have been implemented. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S08-048",
+      "kr": "시운전이 성공적으로 완료되었습니다. (전문 5)",
+      "en": "Commissioning has been successfully completed. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S08-049",
+      "kr": "프로젝트 인도가 예정대로 진행됩니다. (전문 5)",
+      "en": "Project handover proceeds as scheduled. (professional variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv6-D3-S08-050",
+      "kr": "보증 기간이 명시되었습니다. (전문 5)",
+      "en": "The warranty period has been specified. (professional variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.796Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "backups\\level_6_professional_mastery\\banks\\Lv6-D3-S08_bank.json"
+    ]
+  }
+}

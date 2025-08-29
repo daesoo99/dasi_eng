@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv2-P4-S16",
+  "title": "실생활 Q&A 대화",
+  "description": "질문과 명령을 함께 섞어 짧은 대화 시나리오를 연습합니다. 일상적인 맥락에서 질문→대답→요청이 이어지는 미니 대화 10개 이상을 롤플레이해 봅니다.",
+  "grammar_pattern": "대화 흐름: 질문 → 대답 → 요청",
+  "examples": ["A: Could you pass the salt? B: Sure, here you go.", "A: Where should I put this? B: Just leave it there."],
+  "learning_points": "배운 표현들을 맥락 속에서 자연스럽게 구사할 수 있도록",
+  "phase": 4,
+  "stage_number": 16,
+  "count": 0,
+  "sentences": []
+}

@@ -1,0 +1,152 @@
+{
+  "stage_id": "S23",
+  "title": "Stage S23",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "I completely agree with what you're saying.",
+    "That's exactly how I feel about it."
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 23,
+  "count": 20,
+  "sentences": [
+    {
+      "id": "S23-1",
+      "kr": "당신이 말씀하신 것에 완전히 동의해요.",
+      "en": "I completely agree with what you're saying.",
+      "form": "aff"
+    },
+    {
+      "id": "S23-2",
+      "kr": "저도 정확히 그렇게 느껴요.",
+      "en": "That's exactly how I feel about it.",
+      "form": "aff"
+    },
+    {
+      "id": "S23-3",
+      "kr": "말씀하신 요점은 알겠지만, 다른 방법이 있다고 생각해요.",
+      "en": "I see your point, but I think there's another way.",
+      "form": "aff"
+    },
+    {
+      "id": "S23-4",
+      "kr": "죄송하지만 그 생각에는 동의하지 않아요.",
+      "en": "I'm afraid I don't agree with that idea.",
+      "form": "aff"
+    },
+    {
+      "id": "S23-5",
+      "kr": "어디서 그런 말씀을 하시는지 이해해요, 하지만...",
+      "en": "I understand where you're coming from, however...",
+      "form": "aff"
+    },
+    {
+      "id": "S23-6",
+      "kr": "좋은 지적이에요, 그리고 한 가지 더 추가하고 싶어요.",
+      "en": "That's a good point, and I'd like to add something.",
+      "form": "aff"
+    },
+    {
+      "id": "S23-7",
+      "kr": "그 말씀에 정중히 반대해요.",
+      "en": "I respectfully disagree with that statement.",
+      "form": "aff"
+    },
+    {
+      "id": "S23-8",
+      "kr": "타당한 지적이시네요, 하지만 이것도 생각해보셨나요...?",
+      "en": "You make a valid point, but have you considered...?",
+      "form": "aff"
+    },
+    {
+      "id": "S23-9",
+      "kr": "그것이 최선의 방법이라고 완전히 확신하지는 않아요.",
+      "en": "I'm not entirely convinced that's the best approach.",
+      "form": "aff"
+    },
+    {
+      "id": "S23-10",
+      "kr": "반대 의견이라고 말씀드려야겠지만, 당신의 의견을 존중해요.",
+      "en": "I have to say I disagree, but I respect your opinion.",
+      "form": "aff"
+    },
+    {
+      "id": "S23-1",
+      "kr": "당신이 말씀하신 것에 완전히 동의해요.",
+      "en": "I completely agree with what you're saying.",
+      "form": "aff"
+    },
+    {
+      "id": "S23-2",
+      "kr": "저도 정확히 그렇게 느껴요.",
+      "en": "That's exactly how I feel about it.",
+      "form": "aff"
+    },
+    {
+      "id": "S23-3",
+      "kr": "말씀하신 요점은 알겠지만, 다른 방법이 있다고 생각해요.",
+      "en": "I see your point, but I think there's another way.",
+      "form": "aff"
+    },
+    {
+      "id": "S23-4",
+      "kr": "죄송하지만 그 생각에는 동의하지 않아요.",
+      "en": "I'm afraid I don't agree with that idea.",
+      "form": "aff"
+    },
+    {
+      "id": "S23-5",
+      "kr": "어디서 그런 말씀을 하시는지 이해해요, 하지만...",
+      "en": "I understand where you're coming from, however...",
+      "form": "aff"
+    },
+    {
+      "id": "S23-6",
+      "kr": "좋은 지적이에요, 그리고 한 가지 더 추가하고 싶어요.",
+      "en": "That's a good point, and I'd like to add something.",
+      "form": "aff"
+    },
+    {
+      "id": "S23-7",
+      "kr": "그 말씀에 정중히 반대해요.",
+      "en": "I respectfully disagree with that statement.",
+      "form": "aff"
+    },
+    {
+      "id": "S23-8",
+      "kr": "타당한 지적이시네요, 하지만 이것도 생각해보셨나요...?",
+      "en": "You make a valid point, but have you considered...?",
+      "form": "aff"
+    },
+    {
+      "id": "S23-9",
+      "kr": "그것이 최선의 방법이라고 완전히 확신하지는 않아요.",
+      "en": "I'm not entirely convinced that's the best approach.",
+      "form": "aff"
+    },
+    {
+      "id": "S23-10",
+      "kr": "반대 의견이라고 말씀드려야겠지만, 당신의 의견을 존중해요.",
+      "en": "I have to say I disagree, but I respect your opinion.",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 20,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L1_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.729Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW.json",
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW_migrated.json"
+    ]
+  }
+}

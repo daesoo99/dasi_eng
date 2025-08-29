@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv5-P5-S22",
-  "title": "토론/발표 진행 구문",
-  "description": "토론/발표 진행 구문을 연습합니다. PRESENTATION-DISCOURSE 패턴을 활용하여 고급 영어 표현을 익힙니다.",
-  "grammar_pattern": "PRESENTATION-DISCOURSE",
+  "title": "Stage Lv5-P5-S22",
+  "description": "Level 5 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "As you can see, sales grew by 10%.",
-    "Moving on to the next point.",
-    "Let's look at market trends."
+    "Moving on to the next point."
   ],
-  "learning_points": "presentation 관련 고급 표현과 실용적 활용",
+  "learning_points": "Level 5 target grammar and expressions with practical usage examples",
   "phase": 5,
   "stage_number": 22,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv5-P5-S22-001",
       "kr": "보시다시피 매출이 10% 증가했습니다.",
       "en": "As you can see, sales grew by 10%.",
-      "pattern": "PRESENTATION-DISCOURSE",
       "form": "aff"
     },
     {
       "id": "Lv5-P5-S22-002",
       "kr": "다음 요점으로 넘어가겠습니다.",
       "en": "Moving on to the next point.",
-      "pattern": "PRESENTATION-DISCOURSE",
       "form": "aff"
     },
     {
       "id": "Lv5-P5-S22-003",
       "kr": "시장 동향을 살펴보겠습니다.",
       "en": "Let's look at market trends.",
-      "pattern": "PRESENTATION-DISCOURSE",
       "form": "aff"
     },
     {
       "id": "Lv5-P5-S22-004",
       "kr": "이것으로 첫 번째 부분을 마치겠습니다.",
       "en": "This concludes the first section.",
-      "pattern": "PRESENTATION-DISCOURSE",
       "form": "aff"
     },
     {
       "id": "Lv5-P5-S22-005",
       "kr": "질문이 있으시면 언제든지 말씀하세요.",
       "en": "Please feel free to ask questions at any time.",
-      "pattern": "PRESENTATION-DISCOURSE",
       "form": "aff"
     },
     {
       "id": "Lv5-P5-S22-006",
       "kr": "다음 슬라이드에서 보실 수 있듯이.",
       "en": "As shown in the next slide.",
-      "pattern": "PRESENTATION-DISCOURSE",
       "form": "aff"
     },
     {
       "id": "Lv5-P5-S22-007",
       "kr": "이 점을 더 자세히 설명하겠습니다.",
       "en": "Let me elaborate on this point.",
-      "pattern": "PRESENTATION-DISCOURSE",
       "form": "aff"
     },
     {
       "id": "Lv5-P5-S22-008",
       "kr": "요약하면 세 가지 주요 사항이 있습니다.",
       "en": "To summarize, there are three key points.",
-      "pattern": "PRESENTATION-DISCOURSE",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L5_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.444Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_5\\Lv5-P5-S22_bank.json"
+    ]
+  }
 }

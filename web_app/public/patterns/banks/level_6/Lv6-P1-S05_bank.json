@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv6-P1-S05",
-  "title": "현재완료 & 과거 결합",
-  "description": "현재완료와 과거시제를 한 문장이나 연이어 사용하여 복잡한 의미를 전달하는 연습을 합니다.",
-  "grammar_pattern": "PRESENT-PERFECT-PAST-COMBINATION",
+  "title": "Stage Lv6-P1-S05",
+  "description": "Level 6 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "I have completed many projects, but yesterday's presentation was the most challenging.",
-    "She has worked in various companies, and last year she decided to start her own business.",
-    "We have discussed this issue several times, and in the previous meeting we reached a conclusion."
+    "She has worked in various companies, and last year she decided to start her own business."
   ],
-  "learning_points": "현재완료와 과거시제를 결합하여 시간 관계와 경험 표현",
+  "learning_points": "Level 6 target grammar and expressions with practical usage examples",
   "phase": 1,
   "stage_number": 5,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv6-P1-S05-001",
       "kr": "나는 많은 프로젝트를 완료해 왔지만, 어제 발표는 가장 도전적이었다.",
       "en": "I have completed many projects, but yesterday's presentation was the most challenging.",
-      "pattern": "PRESENT-PERFECT-PAST-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv6-P1-S05-002",
       "kr": "그녀는 다양한 회사에서 일해왔고, 작년에 자신의 사업을 시작하기로 결심했다.",
       "en": "She has worked in various companies, and last year she decided to start her own business.",
-      "pattern": "PRESENT-PERFECT-PAST-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv6-P1-S05-003",
       "kr": "우리는 이 문제를 여러 차례 논의해왔고, 이전 회의에서 결론에 도달했다.",
       "en": "We have discussed this issue several times, and in the previous meeting we reached a conclusion.",
-      "pattern": "PRESENT-PERFECT-PAST-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv6-P1-S05-004",
       "kr": "회사는 지속적으로 성장해왔지만, 2020년에 어려운 시기를 겪었다.",
       "en": "The company has grown consistently, but it faced difficult times in 2020.",
-      "pattern": "PRESENT-PERFECT-PAST-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv6-P1-S05-005",
       "kr": "그는 많은 상을 받아왔고, 지난 주에 또 다른 인정을 받았다.",
       "en": "He has won many awards, and last week he received another recognition.",
-      "pattern": "PRESENT-PERFECT-PAST-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv6-P1-S05-006",
       "kr": "팀은 여러 차례 이 전략을 시도해보지 않았지만, 어제 처음으로 시도했다.",
       "en": "The team hasn't tried this strategy several times, but yesterday they attempted it for the first time.",
-      "pattern": "PRESENT-PERFECT-PAST-COMBINATION",
       "form": "neg"
     },
     {
       "id": "Lv6-P1-S05-007",
       "kr": "기술이 빠르게 발전해왔고, 지난달 우리는 새로운 시스템을 도입했다.",
       "en": "Technology has advanced rapidly, and last month we introduced a new system.",
-      "pattern": "PRESENT-PERFECT-PAST-COMBINATION",
       "form": "aff"
     },
     {
       "id": "Lv6-P1-S05-008",
       "kr": "시장 상황이 계속 변화해왔으며, 어제 발표된 새로운 규제가 영향을 미칠 것이다.",
       "en": "Market conditions have been changing continuously, and new regulations announced yesterday will have an impact.",
-      "pattern": "PRESENT-PERFECT-PAST-COMBINATION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 7,
+    "neg": 1,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L6_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.459Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_6\\Lv6-P1-S05_bank.json"
+    ]
+  }
 }

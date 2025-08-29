@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv10-S46",
-  "title": "은유 표현 - 상황 은유",
-  "description": "복잡한 상황을 효과적인 은유로 설명하는 원어민 수준의 표현을 구사합니다.",
-  "grammar_pattern": "SITUATIONAL-METAPHOR-MASTERY",
+  "title": "Stage Lv10-S46",
+  "description": "Level 10 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Right now, we're standing at a crossroads.",
-    "This project is just taking its first steps.",
-    "I think there's a crack in our relationship."
+    "This project is just taking its first steps."
   ],
-  "learning_points": "원어민 수준의 자연스러운 상황 은유 표현 구사",
-  "phase": 5,
+  "learning_points": "Level 10 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 46,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv10-S46-001",
       "kr": "지금 우리는 갈림길에 서 있어.",
       "en": "Right now, we're standing at a crossroads.",
-      "pattern": "SITUATIONAL-METAPHOR-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S46-002",
       "kr": "이 프로젝트는 이제 막 첫걸음을 뗀 거야.",
       "en": "This project is just taking its first steps.",
-      "pattern": "SITUATIONAL-METAPHOR-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S46-003",
       "kr": "우리 관계에 균열이 생긴 것 같아.",
       "en": "I think there's a crack in our relationship.",
-      "pattern": "SITUATIONAL-METAPHOR-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S46-004",
       "kr": "이 문제는 시한폭탄 같은 거야.",
       "en": "This problem is like a ticking time bomb.",
-      "pattern": "SITUATIONAL-METAPHOR-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S46-005",
       "kr": "그 사람은 늘 벽을 쌓고 있어.",
       "en": "That person is always building walls.",
-      "pattern": "SITUATIONAL-METAPHOR-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S46-006",
       "kr": "새로운 시작을 위해 다리를 놓고 있어.",
       "en": "We're building bridges for a new beginning.",
-      "pattern": "SITUATIONAL-METAPHOR-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S46-007",
       "kr": "이 상황은 미로 같아서 출구를 찾기 힘들어.",
       "en": "This situation is like a maze - it's hard to find the exit.",
-      "pattern": "SITUATIONAL-METAPHOR-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S46-008",
       "kr": "우리는 같은 배를 타고 있잖아.",
       "en": "We're all in the same boat, you know.",
-      "pattern": "SITUATIONAL-METAPHOR-MASTERY",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L10_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.418Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_10\\Lv10-S46_bank.json"
+    ]
+  }
 }

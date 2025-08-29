@@ -1,0 +1,152 @@
+{
+  "stage_id": "S26",
+  "title": "Stage S26",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "It is my sister who cooks the best pasta.",
+    "What I want is just some rest."
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 26,
+  "count": 20,
+  "sentences": [
+    {
+      "id": "S26-1",
+      "kr": "가장 파스타를 잘 만드는 건 다름 아닌 내 여동생이에요.",
+      "en": "It is my sister who cooks the best pasta.",
+      "form": "aff"
+    },
+    {
+      "id": "S26-2",
+      "kr": "내가 원하는 건 그저 휴식이에요.",
+      "en": "What I want is just some rest.",
+      "form": "aff"
+    },
+    {
+      "id": "S26-3",
+      "kr": "그를 만난 건 바로 어제였어요.",
+      "en": "It was yesterday that I met him.",
+      "form": "aff"
+    },
+    {
+      "id": "S26-4",
+      "kr": "나를 도와준 사람은 낯선 사람이었어요.",
+      "en": "The one who helped me was a stranger.",
+      "form": "aff"
+    },
+    {
+      "id": "S26-5",
+      "kr": "내게 필요한 건 당신의 지지뿐이에요.",
+      "en": "All I need is your support.",
+      "form": "aff"
+    },
+    {
+      "id": "S26-6",
+      "kr": "회의가 열릴 곳은 바로 이 방이에요.",
+      "en": "It is in this room that the meeting will be held.",
+      "form": "aff"
+    },
+    {
+      "id": "S26-7",
+      "kr": "나를 놀라게 한 건 그의 정직함이었어요.",
+      "en": "What surprised me was his honesty.",
+      "form": "aff"
+    },
+    {
+      "id": "S26-8",
+      "kr": "무언가를 잃어야만 그 가치를 깨닫게 되는 법이에요.",
+      "en": "It's only when you lose something that you realize its value.",
+      "form": "aff"
+    },
+    {
+      "id": "S26-9",
+      "kr": "제가 여기 있는 이유는 당신을 돕기 위해서예요.",
+      "en": "The reason why I'm here is to help you.",
+      "form": "aff"
+    },
+    {
+      "id": "S26-10",
+      "kr": "가장 중요한 건 당신의 행복이에요.",
+      "en": "What matters most is your happiness.",
+      "form": "aff"
+    },
+    {
+      "id": "S26-1",
+      "kr": "가장 파스타를 잘 만드는 건 다름 아닌 내 여동생이에요.",
+      "en": "It is my sister who cooks the best pasta.",
+      "form": "aff"
+    },
+    {
+      "id": "S26-2",
+      "kr": "내가 원하는 건 그저 휴식이에요.",
+      "en": "What I want is just some rest.",
+      "form": "aff"
+    },
+    {
+      "id": "S26-3",
+      "kr": "그를 만난 건 바로 어제였어요.",
+      "en": "It was yesterday that I met him.",
+      "form": "aff"
+    },
+    {
+      "id": "S26-4",
+      "kr": "나를 도와준 사람은 낯선 사람이었어요.",
+      "en": "The one who helped me was a stranger.",
+      "form": "aff"
+    },
+    {
+      "id": "S26-5",
+      "kr": "내게 필요한 건 당신의 지지뿐이에요.",
+      "en": "All I need is your support.",
+      "form": "aff"
+    },
+    {
+      "id": "S26-6",
+      "kr": "회의가 열릴 곳은 바로 이 방이에요.",
+      "en": "It is in this room that the meeting will be held.",
+      "form": "aff"
+    },
+    {
+      "id": "S26-7",
+      "kr": "나를 놀라게 한 건 그의 정직함이었어요.",
+      "en": "What surprised me was his honesty.",
+      "form": "aff"
+    },
+    {
+      "id": "S26-8",
+      "kr": "무언가를 잃어야만 그 가치를 깨닫게 되는 법이에요.",
+      "en": "It's only when you lose something that you realize its value.",
+      "form": "aff"
+    },
+    {
+      "id": "S26-9",
+      "kr": "제가 여기 있는 이유는 당신을 돕기 위해서예요.",
+      "en": "The reason why I'm here is to help you.",
+      "form": "aff"
+    },
+    {
+      "id": "S26-10",
+      "kr": "가장 중요한 건 당신의 행복이에요.",
+      "en": "What matters most is your happiness.",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 20,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L1_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.732Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW.json",
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW_migrated.json"
+    ]
+  }
+}

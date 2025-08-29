@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv3-P1-S05",
+  "title": "기본 수동태",
+  "description": "수동태(be + p.p.)의 개념을 익혀, 행위의 주체보다 대상을 강조하는 표현을 연습합니다. 현재/과거/미래 수동태를 말해 보며 능동 표현과 비교합니다.",
+  "grammar_pattern": "주어 + be동사 + p.p. (+ by ~)",
+  "examples": ["This song is loved by many people. (현재)", "The window was broken by the ball. (과거)", "The work will be done by tomorrow. (미래)"],
+  "learning_points": "한국어와 어순이 다르므로 주어 자리에 목적어가 오는 것에 집중",
+  "phase": 1,
+  "stage_number": 5,
+  "count": 0,
+  "sentences": []
+}

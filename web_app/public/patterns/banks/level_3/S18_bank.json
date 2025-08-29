@@ -1,0 +1,152 @@
+{
+  "stage_id": "S18",
+  "title": "Stage S18",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "I'm saving money because I want to travel.",
+    "Since it's raining, we should stay inside."
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 18,
+  "count": 20,
+  "sentences": [
+    {
+      "id": "S18-1",
+      "kr": "여행을 하고 싶어서 돈을 모으고 있어요. (이유)",
+      "en": "I'm saving money because I want to travel.",
+      "form": "aff"
+    },
+    {
+      "id": "S18-2",
+      "kr": "비가 오니까 안에 있어야 해요. (원인)",
+      "en": "Since it's raining, we should stay inside.",
+      "form": "aff"
+    },
+    {
+      "id": "S18-3",
+      "kr": "좋은 자리를 잡기 위해 일찍 왔어요. (목적)",
+      "en": "She came early so that she could get a good seat.",
+      "form": "aff"
+    },
+    {
+      "id": "S18-4",
+      "kr": "더 좋은 직장을 얻기 위해 영어를 공부해요.",
+      "en": "I study English in order to get a better job.",
+      "form": "aff"
+    },
+    {
+      "id": "S18-5",
+      "kr": "나쁜 날씨 때문에 회의가 취소되었어요.",
+      "en": "The meeting was canceled due to bad weather.",
+      "form": "aff"
+    },
+    {
+      "id": "S18-6",
+      "kr": "교통 체증 때문에 늦었어요.",
+      "en": "I was late because of the traffic jam.",
+      "form": "aff"
+    },
+    {
+      "id": "S18-7",
+      "kr": "시험에 합격하기 위해 열심히 공부하고 있어요.",
+      "en": "He's studying hard so he can pass the exam.",
+      "form": "aff"
+    },
+    {
+      "id": "S18-8",
+      "kr": "러시아워 교통을 피하기 위해 일찍 떠났어요.",
+      "en": "We left early to avoid the rush hour traffic.",
+      "form": "aff"
+    },
+    {
+      "id": "S18-9",
+      "kr": "자금 부족으로 인해 프로젝트가 실패했어요.",
+      "en": "The project failed owing to lack of funding.",
+      "form": "aff"
+    },
+    {
+      "id": "S18-10",
+      "kr": "밖이 추워서 코트를 입었어요.",
+      "en": "She wore a coat as it was cold outside.",
+      "form": "aff"
+    },
+    {
+      "id": "S18-1",
+      "kr": "여행을 하고 싶어서 돈을 모으고 있어요. (이유)",
+      "en": "I'm saving money because I want to travel.",
+      "form": "aff"
+    },
+    {
+      "id": "S18-2",
+      "kr": "비가 오니까 안에 있어야 해요. (원인)",
+      "en": "Since it's raining, we should stay inside.",
+      "form": "aff"
+    },
+    {
+      "id": "S18-3",
+      "kr": "좋은 자리를 잡기 위해 일찍 왔어요. (목적)",
+      "en": "She came early so that she could get a good seat.",
+      "form": "aff"
+    },
+    {
+      "id": "S18-4",
+      "kr": "더 좋은 직장을 얻기 위해 영어를 공부해요.",
+      "en": "I study English in order to get a better job.",
+      "form": "aff"
+    },
+    {
+      "id": "S18-5",
+      "kr": "나쁜 날씨 때문에 회의가 취소되었어요.",
+      "en": "The meeting was canceled due to bad weather.",
+      "form": "aff"
+    },
+    {
+      "id": "S18-6",
+      "kr": "교통 체증 때문에 늦었어요.",
+      "en": "I was late because of the traffic jam.",
+      "form": "aff"
+    },
+    {
+      "id": "S18-7",
+      "kr": "시험에 합격하기 위해 열심히 공부하고 있어요.",
+      "en": "He's studying hard so he can pass the exam.",
+      "form": "aff"
+    },
+    {
+      "id": "S18-8",
+      "kr": "러시아워 교통을 피하기 위해 일찍 떠났어요.",
+      "en": "We left early to avoid the rush hour traffic.",
+      "form": "aff"
+    },
+    {
+      "id": "S18-9",
+      "kr": "자금 부족으로 인해 프로젝트가 실패했어요.",
+      "en": "The project failed owing to lack of funding.",
+      "form": "aff"
+    },
+    {
+      "id": "S18-10",
+      "kr": "밖이 추워서 코트를 입었어요.",
+      "en": "She wore a coat as it was cold outside.",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 20,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L1_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.720Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW.json",
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW_migrated.json"
+    ]
+  }
+}

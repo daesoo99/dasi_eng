@@ -1,12 +1,331 @@
 {
   "stage_id": "Lv3-P3-S14",
-  "title": "간접의문문",
-  "description": "의문문을 간접화법으로 바꾸는 간접의문문을 배웁니다. 어순 변화와 의문사 사용법을 익히며 정중하게 질문하거나 다른 사람의 질문을 전달하는 방법을 연습합니다.",
-  "grammar_pattern": "ask + if/whether... / ask + 의문사 + 주어 + 동사...",
-  "examples": ["'Are you okay?' → He asked if I was okay.", "'What time is it?' → She asked what time it was.", "I wonder if he will come."],
-  "learning_points": "Yes/No 의문문(if/whether)과 의문사 의문문의 간접화법 구분",
+  "title": "Stage Lv3-P3-S14",
+  "description": "Level 3 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "He said he would come tomorrow. (variant 1)",
+    "She said she had already done her homework. (variant 1)"
+  ],
+  "learning_points": "Level 3 target grammar and expressions with practical usage examples",
   "phase": 3,
   "stage_number": 14,
-  "count": 0,
-  "sentences": []
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv3-P3-S14-001",
+      "kr": "그는 내일 올 것이라고 말했어요. (확장 1)",
+      "en": "He said he would come tomorrow. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-002",
+      "kr": "그녀는 이미 숙제를 했다고 했습니다. (확장 1)",
+      "en": "She said she had already done her homework. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-003",
+      "kr": "선생님은 우리에게 열심히 공부하라고 하셨어요. (확장 1)",
+      "en": "The teacher told us to study hard. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-004",
+      "kr": "그들은 어디에 있는지 물어봤어요. (확장 1)",
+      "en": "They asked where I was. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-005",
+      "kr": "그는 도움이 필요하다고 설명했습니다. (확장 1)",
+      "en": "He explained that he needed help. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-006",
+      "kr": "그녀는 실수했다고 인정했어요. (확장 1)",
+      "en": "She admitted that she had made a mistake. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-007",
+      "kr": "의사는 휴식을 취하라고 조언했습니다. (확장 1)",
+      "en": "The doctor advised me to take a rest. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-008",
+      "kr": "그들은 회의가 언제인지 물었어요. (확장 1)",
+      "en": "They asked when the meeting was. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-009",
+      "kr": "그는 약속을 지키겠다고 했습니다. (확장 1)",
+      "en": "He promised that he would keep his promise. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-010",
+      "kr": "그녀는 너무 바쁘다고 불평했어요. (확장 1)",
+      "en": "She complained that she was too busy. (variant 1)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-011",
+      "kr": "그는 내일 올 것이라고 말했어요. (확장 2)",
+      "en": "He said he would come tomorrow. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-012",
+      "kr": "그녀는 이미 숙제를 했다고 했습니다. (확장 2)",
+      "en": "She said she had already done her homework. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-013",
+      "kr": "선생님은 우리에게 열심히 공부하라고 하셨어요. (확장 2)",
+      "en": "The teacher told us to study hard. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-014",
+      "kr": "그들은 어디에 있는지 물어봤어요. (확장 2)",
+      "en": "They asked where I was. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-015",
+      "kr": "그는 도움이 필요하다고 설명했습니다. (확장 2)",
+      "en": "He explained that he needed help. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-016",
+      "kr": "그녀는 실수했다고 인정했어요. (확장 2)",
+      "en": "She admitted that she had made a mistake. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-017",
+      "kr": "의사는 휴식을 취하라고 조언했습니다. (확장 2)",
+      "en": "The doctor advised me to take a rest. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-018",
+      "kr": "그들은 회의가 언제인지 물었어요. (확장 2)",
+      "en": "They asked when the meeting was. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-019",
+      "kr": "그는 약속을 지키겠다고 했습니다. (확장 2)",
+      "en": "He promised that he would keep his promise. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-020",
+      "kr": "그녀는 너무 바쁘다고 불평했어요. (확장 2)",
+      "en": "She complained that she was too busy. (variant 2)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-021",
+      "kr": "그는 내일 올 것이라고 말했어요. (확장 3)",
+      "en": "He said he would come tomorrow. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-022",
+      "kr": "그녀는 이미 숙제를 했다고 했습니다. (확장 3)",
+      "en": "She said she had already done her homework. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-023",
+      "kr": "선생님은 우리에게 열심히 공부하라고 하셨어요. (확장 3)",
+      "en": "The teacher told us to study hard. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-024",
+      "kr": "그들은 어디에 있는지 물어봤어요. (확장 3)",
+      "en": "They asked where I was. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-025",
+      "kr": "그는 도움이 필요하다고 설명했습니다. (확장 3)",
+      "en": "He explained that he needed help. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-026",
+      "kr": "그녀는 실수했다고 인정했어요. (확장 3)",
+      "en": "She admitted that she had made a mistake. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-027",
+      "kr": "의사는 휴식을 취하라고 조언했습니다. (확장 3)",
+      "en": "The doctor advised me to take a rest. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-028",
+      "kr": "그들은 회의가 언제인지 물었어요. (확장 3)",
+      "en": "They asked when the meeting was. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-029",
+      "kr": "그는 약속을 지키겠다고 했습니다. (확장 3)",
+      "en": "He promised that he would keep his promise. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-030",
+      "kr": "그녀는 너무 바쁘다고 불평했어요. (확장 3)",
+      "en": "She complained that she was too busy. (variant 3)",
+      "form": "aff"
+    },
+    {
+      "id": "Lv3-P3-S14-031",
+      "kr": "그는 내일 올 것이라고 말했어요. (확장 4)",
+      "en": "He said he would come tomorrow. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S14-032",
+      "kr": "그녀는 이미 숙제를 했다고 했습니다. (확장 4)",
+      "en": "She said she had already done her homework. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S14-033",
+      "kr": "선생님은 우리에게 열심히 공부하라고 하셨어요. (확장 4)",
+      "en": "The teacher told us to study hard. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S14-034",
+      "kr": "그들은 어디에 있는지 물어봤어요. (확장 4)",
+      "en": "They asked where I was. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S14-035",
+      "kr": "그는 도움이 필요하다고 설명했습니다. (확장 4)",
+      "en": "He explained that he needed help. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S14-036",
+      "kr": "그녀는 실수했다고 인정했어요. (확장 4)",
+      "en": "She admitted that she had made a mistake. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S14-037",
+      "kr": "의사는 휴식을 취하라고 조언했습니다. (확장 4)",
+      "en": "The doctor advised me to take a rest. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S14-038",
+      "kr": "그들은 회의가 언제인지 물었어요. (확장 4)",
+      "en": "They asked when the meeting was. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S14-039",
+      "kr": "그는 약속을 지키겠다고 했습니다. (확장 4)",
+      "en": "He promised that he would keep his promise. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S14-040",
+      "kr": "그녀는 너무 바쁘다고 불평했어요. (확장 4)",
+      "en": "She complained that she was too busy. (variant 4)",
+      "form": "neg"
+    },
+    {
+      "id": "Lv3-P3-S14-041",
+      "kr": "그는 내일 올 것이라고 말했어요. (확장 5)",
+      "en": "He said he would come tomorrow. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S14-042",
+      "kr": "그녀는 이미 숙제를 했다고 했습니다. (확장 5)",
+      "en": "She said she had already done her homework. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S14-043",
+      "kr": "선생님은 우리에게 열심히 공부하라고 하셨어요. (확장 5)",
+      "en": "The teacher told us to study hard. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S14-044",
+      "kr": "그들은 어디에 있는지 물어봤어요. (확장 5)",
+      "en": "They asked where I was. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S14-045",
+      "kr": "그는 도움이 필요하다고 설명했습니다. (확장 5)",
+      "en": "He explained that he needed help. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S14-046",
+      "kr": "그녀는 실수했다고 인정했어요. (확장 5)",
+      "en": "She admitted that she had made a mistake. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S14-047",
+      "kr": "의사는 휴식을 취하라고 조언했습니다. (확장 5)",
+      "en": "The doctor advised me to take a rest. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S14-048",
+      "kr": "그들은 회의가 언제인지 물었어요. (확장 5)",
+      "en": "They asked when the meeting was. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S14-049",
+      "kr": "그는 약속을 지키겠다고 했습니다. (확장 5)",
+      "en": "He promised that he would keep his promise. (variant 5)",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv3-P3-S14-050",
+      "kr": "그녀는 너무 바쁘다고 불평했어요. (확장 5)",
+      "en": "She complained that she was too busy. (variant 5)",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L3_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.631Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "data\\banks\\level_3\\Lv3-P3-S14_bank.json"
+    ]
+  }
 }

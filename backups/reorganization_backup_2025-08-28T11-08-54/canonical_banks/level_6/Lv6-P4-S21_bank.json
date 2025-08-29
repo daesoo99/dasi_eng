@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv6-P4-S21",
+  "title": "시간 부사절 고급",
+  "description": "until, by the time, as soon as 등을 사용한 고급 시간 관계를 표현합니다. ADVANCED-TIME-ADVERBIALS 패턴을 연습합니다.",
+  "grammar_pattern": "ADVANCED-TIME-ADVERBIALS",
+  "examples": [
+    "Wait here until I get back.",
+    "By the time we arrived, the show had started.",
+    "Call me as soon as you finish the report."
+  ],
+  "learning_points": "복잡한 시간 관계와 순서적 행동 표현",
+  "phase": 4,
+  "stage_number": 21,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv6-P4-S21-001",
+      "kr": "제가 돌아올 때까지 여기서 기다려 주세요.",
+      "en": "Wait here until I get back.",
+      "pattern": "ADVANCED-TIME-ADVERBIALS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P4-S21-002",
+      "kr": "우리가 도착했을 때는 이미 공연이 시작되어 있었습니다.",
+      "en": "By the time we arrived, the show had started.",
+      "pattern": "ADVANCED-TIME-ADVERBIALS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P4-S21-003",
+      "kr": "보고서를 완성하는 즉시 연락 주세요.",
+      "en": "Call me as soon as you finish the report.",
+      "pattern": "ADVANCED-TIME-ADVERBIALS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P4-S21-004",
+      "kr": "승인을 받을 때까지 프로젝트를 시작할 수 없습니다.",
+      "en": "We cannot start the project until we receive approval.",
+      "pattern": "ADVANCED-TIME-ADVERBIALS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P4-S21-005",
+      "kr": "회의가 끝날 때쯤에는 모든 결정이 내려져 있을 것입니다.",
+      "en": "By the time the meeting ends, all decisions will have been made.",
+      "pattern": "ADVANCED-TIME-ADVERBIALS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P4-S21-006",
+      "kr": "데이터 분석이 완료되는 대로 결과를 공유하겠습니다.",
+      "en": "We will share the results as soon as the data analysis is complete.",
+      "pattern": "ADVANCED-TIME-ADVERBIALS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P4-S21-007",
+      "kr": "시스템 점검이 완료될 때까지 서비스가 중단됩니다.",
+      "en": "Service will be suspended until the system maintenance is completed.",
+      "pattern": "ADVANCED-TIME-ADVERBIALS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P4-S21-008",
+      "kr": "새로운 정책이 발표되는 즉시 직원들에게 알리겠습니다.",
+      "en": "We will notify employees as soon as the new policy is announced.",
+      "pattern": "ADVANCED-TIME-ADVERBIALS",
+      "form": "aff"
+    }
+  ]
+}

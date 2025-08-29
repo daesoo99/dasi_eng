@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv9-P8-S45",
+  "title": "가정법의 고급 활용",
+  "description": "복잡한 가정 상황과 조건부 논리를 구사하여 정교한 시나리오 분석과 예측을 제시하는 고급 담화 기법.",
+  "grammar_pattern": "ADVANCED-CONDITIONALS",
+  "examples": [
+    "Had we implemented this strategy earlier, current challenges would have been avoided.",
+    "Were we to adopt this approach, significant improvements would undoubtedly follow.",
+    "Should circumstances permit, we would be prepared to expand our operations."
+  ],
+  "learning_points": "복합적 가정법을 통한 정교한 조건부 추론과 시나리오 구성",
+  "phase": 8,
+  "stage_number": 45,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv9-P8-S45-001",
+      "kr": "이 전략을 더 일찍 실행했더라면, 현재의 도전들은 피할 수 있었을 것입니다.",
+      "en": "Had we implemented this strategy earlier, current challenges would have been avoided.",
+      "pattern": "ADVANCED-CONDITIONALS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P8-S45-002",
+      "kr": "이 접근법을 채택한다면, 의심할 여지 없이 상당한 개선이 뒤따를 것입니다.",
+      "en": "Were we to adopt this approach, significant improvements would undoubtedly follow.",
+      "pattern": "ADVANCED-CONDITIONALS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P8-S45-003",
+      "kr": "상황이 허락한다면, 우리는 사업을 확장할 준비가 되어 있을 것입니다.",
+      "en": "Should circumstances permit, we would be prepared to expand our operations.",
+      "pattern": "ADVANCED-CONDITIONALS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P8-S45-004",
+      "kr": "만약 다른 선택을 했었다면, 결과는 완전히 달랐을 것입니다.",
+      "en": "Had different choices been made, outcomes would have been entirely different.",
+      "pattern": "ADVANCED-CONDITIONALS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P8-S45-005",
+      "kr": "시장 조건이 안정된다면, 투자 수익률이 크게 향상될 것입니다.",
+      "en": "Were market conditions to stabilize, investment returns would improve dramatically.",
+      "pattern": "ADVANCED-CONDITIONALS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P8-S45-006",
+      "kr": "기술이 더 발전한다면, 우리 능력은 기하급수적으로 증가할 것입니다.",
+      "en": "Should technology advance further, our capabilities would expand exponentially.",
+      "pattern": "ADVANCED-CONDITIONALS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P8-S45-007",
+      "kr": "초기에 더 많은 자원을 투입했다면, 지금쯤 목표를 달성했을 것입니다.",
+      "en": "Had more resources been allocated initially, we would have achieved our goals by now.",
+      "pattern": "ADVANCED-CONDITIONALS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P8-S45-008",
+      "kr": "파트너십이 성사된다면, 양측 모두에게 상당한 이익이 될 것입니다.",
+      "en": "Were the partnership to materialize, both parties would benefit substantially.",
+      "pattern": "ADVANCED-CONDITIONALS",
+      "form": "aff"
+    }
+  ]
+}

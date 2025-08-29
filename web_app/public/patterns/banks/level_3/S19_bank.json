@@ -1,0 +1,152 @@
+{
+  "stage_id": "S19",
+  "title": "Stage S19",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
+  "examples": [
+    "Although it was raining, we went hiking.",
+    "Even though he's tired, he keeps working."
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
+  "phase": 1,
+  "stage_number": 19,
+  "count": 20,
+  "sentences": [
+    {
+      "id": "S19-1",
+      "kr": "비가 왔지만 우리는 하이킹을 갔어요. (양보)",
+      "en": "Although it was raining, we went hiking.",
+      "form": "aff"
+    },
+    {
+      "id": "S19-2",
+      "kr": "피곤하지만 그는 계속 일해요. (강한 양보)",
+      "en": "Even though he's tired, he keeps working.",
+      "form": "aff"
+    },
+    {
+      "id": "S19-3",
+      "kr": "그는 친절해요. 하지만 직장에서는 엄격할 수 있어요.",
+      "en": "He is kind. However, he can be strict at work.",
+      "form": "aff"
+    },
+    {
+      "id": "S19-4",
+      "kr": "저는 커피를 좋아해요. 반면에 아내는 차를 더 좋아해요.",
+      "en": "I like coffee. On the other hand, my wife prefers tea.",
+      "form": "aff"
+    },
+    {
+      "id": "S19-5",
+      "kr": "저는 독서를 즐기는 반면, 형/동생은 스포츠를 좋아해요.",
+      "en": "While I enjoy reading, my brother loves sports.",
+      "form": "aff"
+    },
+    {
+      "id": "S19-6",
+      "kr": "나쁜 날씨에도 불구하고 행사는 성공적이었어요.",
+      "en": "Despite the bad weather, the event was successful.",
+      "form": "aff"
+    },
+    {
+      "id": "S19-7",
+      "kr": "어리지만 그녀는 매우 성숙해요.",
+      "en": "In spite of being young, she is very mature.",
+      "form": "aff"
+    },
+    {
+      "id": "S19-8",
+      "kr": "영화가 비쌌어요. 그럼에도 불구하고 볼 만했어요.",
+      "en": "The movie was expensive. Nevertheless, it was worth watching.",
+      "form": "aff"
+    },
+    {
+      "id": "S19-9",
+      "kr": "어렵지만 포기하지 않을 거예요.",
+      "en": "Though it's difficult, I won't give up.",
+      "form": "aff"
+    },
+    {
+      "id": "S19-10",
+      "kr": "그녀는 열심히 공부해요. 반대로 여동생은 게을러요.",
+      "en": "She studies hard. In contrast, her sister is lazy.",
+      "form": "aff"
+    },
+    {
+      "id": "S19-1",
+      "kr": "비가 왔지만 우리는 하이킹을 갔어요. (양보)",
+      "en": "Although it was raining, we went hiking.",
+      "form": "aff"
+    },
+    {
+      "id": "S19-2",
+      "kr": "피곤하지만 그는 계속 일해요. (강한 양보)",
+      "en": "Even though he's tired, he keeps working.",
+      "form": "aff"
+    },
+    {
+      "id": "S19-3",
+      "kr": "그는 친절해요. 하지만 직장에서는 엄격할 수 있어요.",
+      "en": "He is kind. However, he can be strict at work.",
+      "form": "aff"
+    },
+    {
+      "id": "S19-4",
+      "kr": "저는 커피를 좋아해요. 반면에 아내는 차를 더 좋아해요.",
+      "en": "I like coffee. On the other hand, my wife prefers tea.",
+      "form": "aff"
+    },
+    {
+      "id": "S19-5",
+      "kr": "저는 독서를 즐기는 반면, 형/동생은 스포츠를 좋아해요.",
+      "en": "While I enjoy reading, my brother loves sports.",
+      "form": "aff"
+    },
+    {
+      "id": "S19-6",
+      "kr": "나쁜 날씨에도 불구하고 행사는 성공적이었어요.",
+      "en": "Despite the bad weather, the event was successful.",
+      "form": "aff"
+    },
+    {
+      "id": "S19-7",
+      "kr": "어리지만 그녀는 매우 성숙해요.",
+      "en": "In spite of being young, she is very mature.",
+      "form": "aff"
+    },
+    {
+      "id": "S19-8",
+      "kr": "영화가 비쌌어요. 그럼에도 불구하고 볼 만했어요.",
+      "en": "The movie was expensive. Nevertheless, it was worth watching.",
+      "form": "aff"
+    },
+    {
+      "id": "S19-9",
+      "kr": "어렵지만 포기하지 않을 거예요.",
+      "en": "Though it's difficult, I won't give up.",
+      "form": "aff"
+    },
+    {
+      "id": "S19-10",
+      "kr": "그녀는 열심히 공부해요. 반대로 여동생은 게을러요.",
+      "en": "She studies hard. In contrast, her sister is lazy.",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 20,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L1_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.723Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW.json",
+      "patterns\\level_3_advanced_grammar\\lv3_stage_system_NEW_migrated.json"
+    ]
+  }
+}

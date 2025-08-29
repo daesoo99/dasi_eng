@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv3-P3-S11",
+  "title": "관계대명사 who, which, that",
+  "description": "관계대명사 who, which, that을 배워 명사를 꾸미는 관계절을 만듭니다. 사람(who), 사물(which), 범용(that)을 구분하며 두 문장을 하나로 연결하는 연습을 합니다.",
+  "grammar_pattern": "명사 + who/which/that + 동사...",
+  "examples": ["The man who lives next door is kind.", "The book which I bought yesterday is interesting.", "The car that he drives is expensive."],
+  "learning_points": "관계대명사 구분 및 문장 연결로 표현력 향상",
+  "phase": 3,
+  "stage_number": 11,
+  "count": 0,
+  "sentences": []
+}

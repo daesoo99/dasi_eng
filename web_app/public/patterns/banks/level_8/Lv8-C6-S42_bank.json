@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv8-C6-S42",
-  "title": "구어 vs 문어 혼합",
-  "description": "구어체와 문어체를 효과적으로 혼합하여 다양한 상황에 적합한 유연한 표현을 연습합니다.",
-  "grammar_pattern": "ORAL-WRITTEN-HYBRID",
+  "title": "Stage Lv8-C6-S42",
+  "description": "Level 8 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Look, the research clearly indicates that our hypothesis is valid.",
-    "To be honest, the empirical evidence strongly supports this conclusion.",
-    "Here's what the data tells us - there's a significant correlation between these factors."
+    "To be honest, the empirical evidence strongly supports this conclusion."
   ],
-  "learning_points": "구어체와 문어체의 혼합을 통한 유연하고 효과적인 표현",
-  "phase": 6,
+  "learning_points": "Level 8 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 42,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv8-C6-S42-001",
       "kr": "보세요, 연구는 우리의 가설이 타당하다는 것을 명확히 보여줍니다.",
       "en": "Look, the research clearly indicates that our hypothesis is valid.",
-      "pattern": "ORAL-WRITTEN-HYBRID",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S42-002",
       "kr": "솔직히 말해서, 실증적 증거가 이 결론을 강력하게 뒷받침합니다.",
       "en": "To be honest, the empirical evidence strongly supports this conclusion.",
-      "pattern": "ORAL-WRITTEN-HYBRID",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S42-003",
       "kr": "데이터가 우리에게 말해주는 것은 이겁니다 - 이들 요인 간에 유의미한 상관관계가 있다는 것입니다.",
       "en": "Here's what the data tells us - there's a significant correlation between these factors.",
-      "pattern": "ORAL-WRITTEN-HYBRID",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S42-004",
       "kr": "사실은, 이 방법론이 연구의 타당성을 크게 향상시킵니다.",
       "en": "The thing is, this methodology significantly enhances the research validity.",
-      "pattern": "ORAL-WRITTEN-HYBRID",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S42-005",
       "kr": "알아요, 복잡해 보이지만 통계적으로는 매우 명확한 패턴입니다.",
       "en": "I know it seems complex, but statistically it's a very clear pattern.",
-      "pattern": "ORAL-WRITTEN-HYBRID",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S42-006",
       "kr": "간단히 말해서, 분석 결과는 우리의 예측과 일치합니다.",
       "en": "Simply put, the analytical results align with our predictions.",
-      "pattern": "ORAL-WRITTEN-HYBRID",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S42-007",
       "kr": "제 생각에는, 이 이론적 프레임워크가 실제로 효과가 있습니다.",
       "en": "The way I see it, this theoretical framework actually works.",
-      "pattern": "ORAL-WRITTEN-HYBRID",
       "form": "aff"
     },
     {
       "id": "Lv8-C6-S42-008",
       "kr": "요점은 이겁니다 - 실험적 증거가 가설을 확실히 뒷받침한다는 것입니다.",
       "en": "The point is - the experimental evidence definitively supports the hypothesis.",
-      "pattern": "ORAL-WRITTEN-HYBRID",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L8_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.578Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_8\\Lv8-C6-S42_bank.json"
+    ]
+  }
 }

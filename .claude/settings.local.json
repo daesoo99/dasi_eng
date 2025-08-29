@@ -152,12 +152,18 @@
       "Bash(git tag:*)",
       "Bash(echo \"Creating backup in: $BACKUP_DIR\")",
       "Bash(BACKUP_DIR=\"backups/v2.1.0-structure-backup-20250828-100531\")",
-      "Bash(echo:*)"
+      "Bash(echo:*)",
+      "Bash(autocannon:*)",
+      "Bash(PORT=8082 npm start)",
+      "Bash(PORT=8082 npm run dev)",
+      "Bash(sed:*)",
+      "Bash(PORT=8082 node src/server.js)",
+      "Read(C:\\Users\\kimdaesoo\\source\\claude/**)"
     ],
     "deny": [],
     "additionalDirectories": [
-      "C:\\c\\Users\\kimdaesoo\\source\\claude\\DaSi_eng",
-      "C:\\c\\Users\\kimdaesoo\\source\\claude"
+      "C:\\Users\\kimdaesoo\\source\\claude\\DaSi_eng",
+      "C:\\Users\\kimdaesoo\\source\\claude"
     ]
   }
 }

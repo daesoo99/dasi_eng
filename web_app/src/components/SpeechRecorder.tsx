@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback, useMemo, memo } from 'react';
 import { useSpeech } from '@/hooks/useSpeech';
 
 interface SpeechRecorderProps {
@@ -14,7 +14,7 @@ interface SpeechRecorderProps {
   onAutoFlowStateChange?: (state: 'idle' | 'tts' | 'beep' | 'waiting' | 'recording') => void;
 }
 
-export const SpeechRecorder: React.FC<SpeechRecorderProps> = ({
+export const SpeechRecorder: React.FC<SpeechRecorderProps> = memo(({
   onResult,
   onError,
   phraseHints = [],
@@ -32,19 +32,21 @@ export const SpeechRecorder: React.FC<SpeechRecorderProps> = ({
   const [timerInterval, setTimerInterval] = useState<NodeJS.Timeout | null>(null);
   const [autoTimeout, setAutoTimeout] = useState<NodeJS.Timeout | null>(null);
   
-  const speech = useSpeech({
+  const speechConfig = useMemo(() => ({
     apiBaseUrl: import.meta.env.VITE_API_BASE_URL,
     preferCloudSTT: false, // Start with browser STT
     language: 'en-US',
-  });
+  }), []);
+  
+  const speech = useSpeech(speechConfig);
 
   // Auto-flow state management
-  const updateAutoFlowState = (newState: typeof autoFlowState) => {
+  const updateAutoFlowState = useCallback((newState: typeof autoFlowState) => {
     setAutoFlowState(newState);
     if (onAutoFlowStateChange) {
       onAutoFlowStateChange(newState);
     }
-  };
+  }, [onAutoFlowStateChange]);
 
   // Auto-start effect
   useEffect(() => {
@@ -66,7 +68,7 @@ export const SpeechRecorder: React.FC<SpeechRecorderProps> = ({
     };
   }, []);
 
-  const playBeep = () => {
+  const playBeep = useCallback(() => {
     try {
       const audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
       const oscillator = audioContext.createOscillator();
@@ -84,7 +86,7 @@ export const SpeechRecorder: React.FC<SpeechRecorderProps> = ({
     } catch (error) {
       console.error('비프음 재생 실패:', error);
     }
-  };
+  }, []);
 
   // Auto-flow start button handler
   const handleAutoFlowStart = async () => {
@@ -283,16 +285,16 @@ export const SpeechRecorder: React.FC<SpeechRecorderProps> = ({
   // 기존 useSpeech 후크 결과 처리는 제거 (직접 Web Speech API 사용으로 대체)
 
   // Manual button handlers (for non-auto mode)
-  const handleManualStart = () => {
+  const handleManualStart = useCallback(() => {
     if (disabled) return;
     setIsPressed(true);
     speech.startRecording();
-  };
+  }, [disabled, speech]);
 
-  const handleManualStop = () => {
+  const handleManualStop = useCallback(() => {
     setIsPressed(false);
     speech.stopRecording();
-  };
+  }, [speech]);
 
   // Handle speech results for manual mode
   useEffect(() => {
@@ -363,11 +365,27 @@ export const SpeechRecorder: React.FC<SpeechRecorderProps> = ({
           <button
             onClick={handleAutoFlowStart}
             disabled={disabled}
-            className="px-8 py-4 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors text-lg"
+            className="min-h-[60px] min-w-[60px] px-8 py-4 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors text-lg touch-manipulation"
+            aria-label={autoFlowState === 'idle' ? '음성 녹음 세션 시작하기' : '녹음 진행 중'}
+            aria-pressed={autoFlowState !== 'idle'}
+            aria-describedby="recording-instructions"
+            role="button"
           >
             🎤 시작하기
           </button>
         )}
+        
+        {/* Screen reader instructions */}
+        <div id="recording-instructions" className="sr-only">
+          이 버튼을 누르면 자동 음성 녹음이 시작됩니다. 한국어 텍스트가 재생된 후 영어로 말씀해 주세요.
+        </div>
+        
+        {/* Live status updates for screen readers */}
+        <div aria-live="polite" aria-atomic="true" className="sr-only">
+          {autoFlowState === 'tts' && '한국어 오디오를 재생하고 있습니다...'}
+          {autoFlowState === 'beep' && '신호음 후 녹음이 시작됩니다...'}
+          {autoFlowState === 'recording' && `녹음 진행 중입니다. ${speechTimer.toFixed(1)}초가 경과되었습니다.`}
+        </div>
         
         {/* 녹음 중지 버튼 */}
         {autoFlowState === 'recording' && (
@@ -381,7 +399,8 @@ export const SpeechRecorder: React.FC<SpeechRecorderProps> = ({
                 onError('사용자가 녹음을 중지했습니다.');
               }
             }}
-            className="px-6 py-3 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 transition-colors"
+            className="min-h-[44px] min-w-[44px] px-6 py-3 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 transition-colors touch-manipulation"
+            aria-label="녹음 중지하기"
           >
             ⏹️ 녹음 중지
           </button>
@@ -400,11 +419,13 @@ export const SpeechRecorder: React.FC<SpeechRecorderProps> = ({
           onTouchStart={handleManualStart}
           onTouchEnd={handleManualStop}
           disabled={disabled}
-          className={`px-8 py-4 font-bold rounded-lg transition-all duration-200 text-lg ${
+          className={`min-h-[60px] min-w-[60px] px-8 py-4 font-bold rounded-lg transition-all duration-200 text-lg touch-manipulation ${
             isPressed 
               ? 'bg-red-600 text-white transform scale-105' 
               : 'bg-blue-600 text-white hover:bg-blue-700'
           } disabled:bg-gray-400 disabled:cursor-not-allowed`}
+          aria-label={isPressed ? '녹음 중입니다. 버튼에서 손을 떼면 중지됩니다.' : '눌러서 음성 녹음을 시작하세요'}
+          aria-pressed={isPressed}
         >
           {isPressed ? '🔴 녹음 중... (버튼을 떼세요)' : '🎤 눌러서 말하기'}
         </button>
@@ -435,4 +456,4 @@ export const SpeechRecorder: React.FC<SpeechRecorderProps> = ({
       </div>
     </div>
   );
-};
+});

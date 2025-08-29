@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P8-S44",
-  "title": "반박과 재반박",
-  "description": "상대방의 논점을 효과적으로 반박하고, 예상되는 재반박에 대비하는 고급 논증 전략을 구사하는 담화 기법.",
-  "grammar_pattern": "REBUTTAL-COUNTER-REBUTTAL",
+  "title": "Stage Lv9-P8-S44",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "While that argument has surface appeal, deeper analysis reveals fundamental flaws.",
-    "Critics might contend otherwise, but the evidence overwhelmingly supports our position.",
-    "Such objections, though understandable, fail to address the core issue at hand."
+    "Critics might contend otherwise, but the evidence overwhelmingly supports our position."
   ],
-  "learning_points": "체계적인 반박과 선제적 재반박을 통한 논증의 완성도 제고",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 8,
   "stage_number": 44,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv9-P8-S44-001",
       "kr": "그 논증이 표면적으로는 매력적이지만, 깊이 분석하면 근본적 결함이 드러납니다.",
       "en": "While that argument has surface appeal, deeper analysis reveals fundamental flaws.",
-      "pattern": "REBUTTAL-COUNTER-REBUTTAL",
       "form": "aff"
     },
     {
       "id": "Lv9-P8-S44-002",
       "kr": "비판자들은 다르게 주장할 수 있지만, 증거는 압도적으로 우리 입장을 뒷받침합니다.",
       "en": "Critics might contend otherwise, but the evidence overwhelmingly supports our position.",
-      "pattern": "REBUTTAL-COUNTER-REBUTTAL",
       "form": "aff"
     },
     {
       "id": "Lv9-P8-S44-003",
       "kr": "그런 반대 의견들은 이해할 만하지만, 핵심 쟁점을 다루지 못합니다.",
       "en": "Such objections, though understandable, fail to address the core issue at hand.",
-      "pattern": "REBUTTAL-COUNTER-REBUTTAL",
       "form": "aff"
     },
     {
       "id": "Lv9-P8-S44-004",
       "kr": "반대 논리는 일견 타당해 보이지만, 실증적 데이터와 모순됩니다.",
       "en": "The opposing logic appears valid initially, yet contradicts empirical data.",
-      "pattern": "REBUTTAL-COUNTER-REBUTTAL",
       "form": "aff"
     },
     {
       "id": "Lv9-P8-S44-005",
       "kr": "이의 제기가 있을 수 있지만, 우리 방법론의 우수성은 입증되었습니다.",
       "en": "Objections may arise, but our methodology's superiority has been demonstrated.",
-      "pattern": "REBUTTAL-COUNTER-REBUTTAL",
       "form": "aff"
     },
     {
       "id": "Lv9-P8-S44-006",
       "kr": "대안적 견해는 존재하지만, 우리 결론의 타당성을 흔들지 못합니다.",
       "en": "Alternative views exist, yet they fail to undermine our conclusion's validity.",
-      "pattern": "REBUTTAL-COUNTER-REBUTTAL",
       "form": "aff"
     },
     {
       "id": "Lv9-P8-S44-007",
       "kr": "회의론자들의 우려는 이해하지만, 성공 사례들이 그들의 걱정을 불식시킵니다.",
       "en": "While we understand skeptics' concerns, success stories dispel their worries.",
-      "pattern": "REBUTTAL-COUNTER-REBUTTAL",
       "form": "aff"
     },
     {
       "id": "Lv9-P8-S44-008",
       "kr": "비판적 시각도 가치 있지만, 우리 접근법의 실효성은 부인할 수 없습니다.",
       "en": "Critical perspectives have value, yet our approach's effectiveness remains undeniable.",
-      "pattern": "REBUTTAL-COUNTER-REBUTTAL",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.621Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P8-S44_bank.json"
+    ]
+  }
 }

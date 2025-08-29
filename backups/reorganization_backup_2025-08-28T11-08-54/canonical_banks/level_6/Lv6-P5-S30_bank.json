@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv6-P5-S30",
+  "title": "복합 관계대명사",
+  "description": "whoever, whatever, whichever 등 복합관계대명사를 활용하여 포괄적 의미를 표현합니다. COMPOUND-RELATIVES 패턴을 연습합니다.",
+  "grammar_pattern": "COMPOUND-RELATIVES",
+  "examples": [
+    "Whoever comes first will win a prize.",
+    "Take whichever option works best for you.",
+    "I'll support you, whatever you decide."
+  ],
+  "learning_points": "복합관계대명사의 포괄적이고 조건적 의미 활용",
+  "phase": 5,
+  "stage_number": 30,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv6-P5-S30-001",
+      "kr": "누가 먼저 오든지 상을 받을 것입니다.",
+      "en": "Whoever comes first will win a prize.",
+      "pattern": "COMPOUND-RELATIVES",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P5-S30-002",
+      "kr": "당신에게 가장 적합한 옵션을 선택하세요.",
+      "en": "Take whichever option works best for you.",
+      "pattern": "COMPOUND-RELATIVES",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P5-S30-003",
+      "kr": "당신이 무엇을 결정하든 지지하겠습니다.",
+      "en": "I'll support you, whatever you decide.",
+      "pattern": "COMPOUND-RELATIVES",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P5-S30-004",
+      "kr": "누가 이 프로젝트를 맡든지 성공할 수 있을 것입니다.",
+      "en": "Whoever takes on this project will be able to succeed.",
+      "pattern": "COMPOUND-RELATIVES",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P5-S30-005",
+      "kr": "어떤 전략을 선택하든지 철저히 실행해야 합니다.",
+      "en": "Whichever strategy we choose must be thoroughly implemented.",
+      "pattern": "COMPOUND-RELATIVES",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P5-S30-006",
+      "kr": "무엇이 일어나든지 우리는 계획을 계속 진행할 것입니다.",
+      "en": "Whatever happens, we will continue with our plan.",
+      "pattern": "COMPOUND-RELATIVES",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P5-S30-007",
+      "kr": "누가 팀장이 되든지 경험과 리더십이 필요합니다.",
+      "en": "Whoever becomes the team leader will need experience and leadership skills.",
+      "pattern": "COMPOUND-RELATIVES",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P5-S30-008",
+      "kr": "어떤 방법을 사용하든지 결과가 효과적이어야 합니다.",
+      "en": "Whatever method we use, the results must be effective.",
+      "pattern": "COMPOUND-RELATIVES",
+      "form": "aff"
+    }
+  ]
+}

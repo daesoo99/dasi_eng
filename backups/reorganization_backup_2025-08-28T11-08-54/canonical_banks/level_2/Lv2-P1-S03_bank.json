@@ -1,0 +1,12 @@
+{
+  "stage_id": "Lv2-P1-S03",
+  "title": "과거진행형",
+  "description": "과거진행형(was/were + ing)을 익혀 과거의 한 시점에 진행 중이던 행동을 말합니다. 과거진행 의문문 'What were you doing (when)?'도 연습합니다.",
+  "grammar_pattern": "주어 + was/were + 동사ing",
+  "examples": ["I was sleeping at 10 pm.", "We weren't listening during the lecture."],
+  "learning_points": "현재진행과 비교하여 시점의 차이를 이해하도록 지도",
+  "phase": 1,
+  "stage_number": 3,
+  "count": 0,
+  "sentences": []
+}

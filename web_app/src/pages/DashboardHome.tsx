@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback, useMemo, memo } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 
-export const DashboardHome: React.FC = () => {
+export const DashboardHome: React.FC = memo(() => {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   const [isDeveloperMode, setIsDeveloperMode] = useState(false);
@@ -23,8 +23,8 @@ export const DashboardHome: React.FC = () => {
     }
   }, [searchParams]);
 
-  // 레벨 데이터 정의 (level-system.html과 동일)
-  const levelData = [
+  // Memoize level data to prevent recalculation
+  const levelData = useMemo(() => [
     {
       level: 1,
       title: "구조 패턴 중심 (19 스테이지)",
@@ -168,7 +168,7 @@ export const DashboardHome: React.FC = () => {
         6: ["coordinate", "negotiate"], 7: ["prioritize", "implement"], 8: ["evaluate", "coordinate"], 9: ["negotiate", "prioritize"], 10: ["coordinate", "negotiate", "prioritize", "implement", "evaluate"]
       }
     }
-  ];
+  ], []);
 
   // 상황학습 6그룹 데이터
   const situationalData = [
@@ -411,13 +411,13 @@ export const DashboardHome: React.FC = () => {
   });
 
   // 모드 토글 기능
-  const toggleDeveloperMode = () => {
+  const toggleDeveloperMode = useCallback(() => {
     setIsDeveloperMode(!isDeveloperMode);
     console.log(isDeveloperMode ? '👤 일반 모드 활성화' : '🔧 개발자 모드 활성화');
-  };
+  }, [isDeveloperMode]);
 
   // 레벨 카드 생성 함수
-  const createLevelCards = () => {
+  const createLevelCards = useCallback(() => {
     return levelData.map(level => {
       const userLevelData = userProgress.levels.find(l => l.level === level.level) || 
                           { level: level.level, completed: false, progress: 0, bestAccuracy: 0, attempts: 0 };
@@ -486,7 +486,7 @@ export const DashboardHome: React.FC = () => {
         </div>
       );
     });
-  };
+  }, [userProgress.levels, isDeveloperMode, levelData]);
 
   // 스테이지 뷰 표시
   const showStageView = (levelNum: number) => {
@@ -1263,4 +1263,6 @@ export const DashboardHome: React.FC = () => {
       }} />
     </div>
   );
-};
+});
+
+export default DashboardHome;

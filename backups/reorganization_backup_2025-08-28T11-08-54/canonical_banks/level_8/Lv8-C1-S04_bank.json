@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv8-C1-S04",
+  "title": "Had/Should/Were 도치 복합",
+  "description": "Had, Should, Were를 사용한 도치 구문을 복합적으로 활용하여 고급 표현을 연습합니다.",
+  "grammar_pattern": "HAD-SHOULD-WERE-INVERSION",
+  "examples": [
+    "Had I known the truth, I would have acted differently.",
+    "Should the weather improve, we'll go hiking.",
+    "Were the situation different, I might agree with you."
+  ],
+  "learning_points": "Had/Should/Were 도치 구문의 복합적 활용을 통한 정교한 표현",
+  "phase": 1,
+  "stage_number": 4,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv8-C1-S04-001",
+      "kr": "진실을 알았더라면 다르게 행동했을 것입니다.",
+      "en": "Had I known the truth, I would have acted differently.",
+      "pattern": "HAD-SHOULD-WERE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S04-002",
+      "kr": "날씨가 좋아진다면 하이킹을 갈 것입니다.",
+      "en": "Should the weather improve, we'll go hiking.",
+      "pattern": "HAD-SHOULD-WERE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S04-003",
+      "kr": "상황이 달랐다면 당신에게 동의했을지도 모릅니다.",
+      "en": "Were the situation different, I might agree with you.",
+      "pattern": "HAD-SHOULD-WERE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S04-004",
+      "kr": "미리 준비했더라면 더 나은 성과를 거둘 수 있었을 것입니다.",
+      "en": "Had we prepared in advance, we could have achieved better results.",
+      "pattern": "HAD-SHOULD-WERE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S04-005",
+      "kr": "문제가 발생한다면 즉시 대응하겠습니다.",
+      "en": "Should any problems arise, we will respond immediately.",
+      "pattern": "HAD-SHOULD-WERE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S04-006",
+      "kr": "제가 CEO라면 다른 결정을 내렸을 것입니다.",
+      "en": "Were I the CEO, I would have made different decisions.",
+      "pattern": "HAD-SHOULD-WERE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S04-007",
+      "kr": "그 계획을 미리 알았더라면 참여할 수 있었을 텐데요.",
+      "en": "Had I known about the plan earlier, I could have participated.",
+      "pattern": "HAD-SHOULD-WERE-INVERSION",
+      "form": "aff"
+    },
+    {
+      "id": "Lv8-C1-S04-008",
+      "kr": "추가 자금이 필요하다면 다른 방안을 모색해야 합니다.",
+      "en": "Should additional funding be needed, we must explore other options.",
+      "pattern": "HAD-SHOULD-WERE-INVERSION",
+      "form": "aff"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv9-P1-S05",
+  "title": "조건+결과 결합",
+  "description": "in the event that...(~한 경우에는), in which case...(그 경우에는 ...) 등의 구조를 연습합니다. 이러한 조건-결과 연결문을 한 breath로 말하는 연습을 하여, 문장이 길어져도 논리 전개를 유지합니다.",
+  "grammar_pattern": "CONDITIONAL-CONSEQUENCE",
+  "examples": [
+    "We'll set aside extra funds in the event that we need more resources.",
+    "We might not finish by Friday, in which case we'll ask for an extension.",
+    "The plan could fail, in which case we need a backup strategy."
+  ],
+  "learning_points": "조건과 결과를 연결한 논리적 주장 전개",
+  "phase": 1,
+  "stage_number": 5,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv9-P1-S05-001",
+      "kr": "추가 자원이 필요한 경우에 대비하여 예비 예산을 확보하겠습니다.",
+      "en": "We will secure reserve budget in the event that additional resources are needed.",
+      "pattern": "CONDITIONAL-CONSEQUENCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P1-S05-002",
+      "kr": "금요일까지 완료하지 못할 수도 있습니다. 그 경우에는 연장을 요청하겠습니다.",
+      "en": "We might not complete it by Friday, in which case we will request an extension.",
+      "pattern": "CONDITIONAL-CONSEQUENCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P1-S05-003",
+      "kr": "시장 상황이 악화될 경우에 대비해 대안 전략을 준비해야 합니다.",
+      "en": "We must prepare alternative strategies in the event that market conditions deteriorate.",
+      "pattern": "CONDITIONAL-CONSEQUENCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P1-S05-004",
+      "kr": "계획이 실패할 수도 있습니다. 그 경우에는 백업 전략이 필요합니다.",
+      "en": "The plan might fail, in which case we need a backup strategy.",
+      "pattern": "CONDITIONAL-CONSEQUENCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P1-S05-005",
+      "kr": "경쟁사가 새로운 제품을 출시할 경우에 대비하여 대응 방안을 마련해야 합니다.",
+      "en": "We must prepare countermeasures in the event that competitors launch new products.",
+      "pattern": "CONDITIONAL-CONSEQUENCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P1-S05-006",
+      "kr": "승인이 지연될 수도 있습니다. 그 경우에는 일정을 조정해야 합니다.",
+      "en": "Approval might be delayed, in which case we must adjust our schedule.",
+      "pattern": "CONDITIONAL-CONSEQUENCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P1-S05-007",
+      "kr": "기술적 문제가 발생할 경우에 대비하여 전문가 팀을 대기시켜야 합니다.",
+      "en": "We should have expert teams on standby in the event that technical issues arise.",
+      "pattern": "CONDITIONAL-CONSEQUENCE",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P1-S05-008",
+      "kr": "예산이 초과될 수도 있습니다. 그 경우에는 규모를 축소해야 합니다.",
+      "en": "The budget might exceed limits, in which case we must reduce the scope.",
+      "pattern": "CONDITIONAL-CONSEQUENCE",
+      "form": "aff"
+    }
+  ]
+}

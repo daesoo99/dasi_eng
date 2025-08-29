@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv9-P6-S31",
+  "title": "고급 담화 표지 ①",
+  "description": "furthermore, nevertheless, consequently 등 고급 담화 표지를 사용하여 논리적이고 세련된 문장 연결과 논증 구조를 구축하는 연습.",
+  "grammar_pattern": "ADVANCED-DISCOURSE-MARKERS",
+  "examples": [
+    "Furthermore, the evidence supports our hypothesis.",
+    "Nevertheless, we must proceed with caution.",
+    "Consequently, the project timeline needs adjustment."
+  ],
+  "learning_points": "고급 담화 표지를 통한 논리적 문장 연결과 논증 구조",
+  "phase": 6,
+  "stage_number": 31,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv9-P6-S31-001",
+      "kr": "게다가, 증거는 우리의 가설을 뒷받침합니다.",
+      "en": "Furthermore, the evidence supports our hypothesis.",
+      "pattern": "ADVANCED-DISCOURSE-MARKERS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S31-002",
+      "kr": "그럼에도 불구하고, 우리는 신중하게 진행해야 합니다.",
+      "en": "Nevertheless, we must proceed with caution.",
+      "pattern": "ADVANCED-DISCOURSE-MARKERS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S31-003",
+      "kr": "따라서 프로젝트 일정을 조정해야 합니다.",
+      "en": "Consequently, the project timeline needs adjustment.",
+      "pattern": "ADVANCED-DISCOURSE-MARKERS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S31-004",
+      "kr": "그런데도, 결과는 예상보다 좋았습니다.",
+      "en": "Nonetheless, the results were better than expected.",
+      "pattern": "ADVANCED-DISCOURSE-MARKERS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S31-005",
+      "kr": "더욱이, 이 접근법은 비용 효율적입니다.",
+      "en": "Moreover, this approach is cost-effective.",
+      "pattern": "ADVANCED-DISCOURSE-MARKERS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S31-006",
+      "kr": "그럼에도, 몇 가지 과제가 남아 있습니다.",
+      "en": "Nevertheless, several challenges remain.",
+      "pattern": "ADVANCED-DISCOURSE-MARKERS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S31-007",
+      "kr": "결과적으로, 우리는 전략을 재검토해야 합니다.",
+      "en": "Consequently, we need to revisit our strategy.",
+      "pattern": "ADVANCED-DISCOURSE-MARKERS",
+      "form": "aff"
+    },
+    {
+      "id": "Lv9-P6-S31-008",
+      "kr": "뿐만 아니라, 이것은 새로운 기회를 제공합니다.",
+      "en": "Furthermore, this provides new opportunities.",
+      "pattern": "ADVANCED-DISCOURSE-MARKERS",
+      "form": "aff"
+    }
+  ]
+}

@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P5-S30",
-  "title": "문장 리듬 ③",
-  "description": "음성학적 리듬을 고려한 문장 구성. 강세와 약세의 패턴을 활용하여 자연스러운 영어 리듬감을 구현하는 고급 표현 기법.",
-  "grammar_pattern": "PHONETIC-RHYTHM",
+  "title": "Stage Lv9-P5-S30",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "The time has come to make a choice.",
-    "Success demands dedication and determination.",
-    "Innovation drives progress in every field."
+    "Success demands dedication and determination."
   ],
-  "learning_points": "음성학적 리듬을 고려한 자연스러운 영어 표현과 강세 패턴",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 5,
   "stage_number": 30,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv9-P5-S30-001",
       "kr": "선택을 할 때가 왔습니다.",
       "en": "The time has come to make a choice.",
-      "pattern": "PHONETIC-RHYTHM",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S30-002",
       "kr": "성공에는 헌신과 결단이 필요합니다.",
       "en": "Success demands dedication and determination.",
-      "pattern": "PHONETIC-RHYTHM",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S30-003",
       "kr": "혁신이 모든 분야의 발전을 이끕니다.",
       "en": "Innovation drives progress in every field.",
-      "pattern": "PHONETIC-RHYTHM",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S30-004",
       "kr": "지식은 힘이고 힘은 책임입니다.",
       "en": "Knowledge is power and power is responsibility.",
-      "pattern": "PHONETIC-RHYTHM",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S30-005",
       "kr": "변화는 어렵지만 필요합니다.",
       "en": "Change is difficult but necessary.",
-      "pattern": "PHONETIC-RHYTHM",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S30-006",
       "kr": "우리는 함께 더 강해집니다.",
       "en": "Together we become stronger.",
-      "pattern": "PHONETIC-RHYTHM",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S30-007",
       "kr": "기회는 준비된 자에게 옵니다.",
       "en": "Opportunity comes to those prepared.",
-      "pattern": "PHONETIC-RHYTHM",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S30-008",
       "kr": "진실은 시간이 지나면 드러납니다.",
       "en": "Truth emerges with the passage of time.",
-      "pattern": "PHONETIC-RHYTHM",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.612Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P5-S30_bank.json"
+    ]
+  }
 }

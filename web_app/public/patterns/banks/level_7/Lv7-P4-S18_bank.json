@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv7-P4-S18",
-  "title": "시간 부사절 심화",
-  "description": "until, by the time, as soon as에 덧붙여 the moment (that) 등의 표현도 써봅니다.",
-  "grammar_pattern": "ADVANCED-TIME-CLAUSES",
+  "title": "Stage Lv7-P4-S18",
+  "description": "Level 7 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "The moment I heard the news, I knew everything would change.",
-    "No sooner had she finished her presentation than the audience erupted in applause.",
-    "Hardly had we left the building when it started to rain heavily."
+    "No sooner had she finished her presentation than the audience erupted in applause."
   ],
-  "learning_points": "다양한 시간 부사절 연결사를 활용한 정교한 시간 관계 표현",
+  "learning_points": "Level 7 target grammar and expressions with practical usage examples",
   "phase": 4,
   "stage_number": 18,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv7-P4-S18-001",
       "kr": "그 소식을 들은 순간, 나는 모든 것이 바뀔 것이라는 것을 알았다.",
       "en": "The moment I heard the news, I knew everything would change.",
-      "pattern": "ADVANCED-TIME-CLAUSES",
       "form": "aff"
     },
     {
       "id": "Lv7-P4-S18-002",
       "kr": "그녀가 발표를 마치자마자 청중들이 박수갈채를 터뜨렸다.",
       "en": "No sooner had she finished her presentation than the audience erupted in applause.",
-      "pattern": "ADVANCED-TIME-CLAUSES",
       "form": "aff"
     },
     {
       "id": "Lv7-P4-S18-003",
       "kr": "우리가 건물을 나서자마자 비가 심하게 내리기 시작했다.",
       "en": "Hardly had we left the building when it started to rain heavily.",
-      "pattern": "ADVANCED-TIME-CLAUSES",
       "form": "aff"
     },
     {
       "id": "Lv7-P4-S18-004",
       "kr": "그가 전화를 받는 순간 중요한 소식을 들었다.",
       "en": "The instant he picked up the phone, he heard important news.",
-      "pattern": "ADVANCED-TIME-CLAUSES",
       "form": "aff"
     },
     {
       "id": "Lv7-P4-S18-005",
       "kr": "회의가 시작되자마자 CEO가 놀라운 발표를 했다.",
       "en": "Scarcely had the meeting begun when the CEO made a surprising announcement.",
-      "pattern": "ADVANCED-TIME-CLAUSES",
       "form": "aff"
     },
     {
       "id": "Lv7-P4-S18-006",
       "kr": "그들이 계약서를 보는 순간 문제점을 발견하지 못했다.",
       "en": "The moment they looked at the contract, they didn't notice any problems.",
-      "pattern": "ADVANCED-TIME-CLAUSES",
       "form": "neg"
     },
     {
       "id": "Lv7-P4-S18-007",
       "kr": "시계가 자정을 치는 순간 새해가 시작되었다.",
       "en": "The second the clock struck midnight, the new year began.",
-      "pattern": "ADVANCED-TIME-CLAUSES",
       "form": "aff"
     },
     {
       "id": "Lv7-P4-S18-008",
       "kr": "그녀가 문을 열자마자 놀라운 광경을 목격했다.",
       "en": "No sooner did she open the door than she witnessed an amazing scene.",
-      "pattern": "ADVANCED-TIME-CLAUSES",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 7,
+    "neg": 1,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L7_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.517Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_7\\Lv7-P4-S18_bank.json"
+    ]
+  }
 }

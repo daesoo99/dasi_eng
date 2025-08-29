@@ -1,0 +1,73 @@
+{
+  "stage_id": "Lv6-P1-S04",
+  "title": "미래완료진행 심화",
+  "description": "미래완료진행을 실제 프로젝트나 경력 이야기 등에 적용합니다.",
+  "grammar_pattern": "FUTURE-PERFECT-CONTINUOUS-ADVANCED",
+  "examples": [
+    "By next month, I will have been working at this company for five years.",
+    "The team will have been developing the software for two years by launch date.",
+    "She will have been studying medicine for seven years when she graduates."
+  ],
+  "learning_points": "미래완료진행 시제로 미래 시점까지의 지속 동작 표현",
+  "phase": 1,
+  "stage_number": 4,
+  "count": 8,
+  "sentences": [
+    {
+      "id": "Lv6-P1-S04-001",
+      "kr": "다음 달이면 나는 이 회사에서 5년 동안 일해온 셈이 될 것이다.",
+      "en": "By next month, I will have been working at this company for five years.",
+      "pattern": "FUTURE-PERFECT-CONTINUOUS-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P1-S04-002",
+      "kr": "출시일까지 팀은 2년 동안 소프트웨어를 개발해온 셈이 될 것이다.",
+      "en": "The team will have been developing the software for two years by launch date.",
+      "pattern": "FUTURE-PERFECT-CONTINUOUS-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P1-S04-003",
+      "kr": "졸업할 때면 그녀는 7년 동안 의학을 공부해온 셈이 될 것이다.",
+      "en": "She will have been studying medicine for seven years when she graduates.",
+      "pattern": "FUTURE-PERFECT-CONTINUOUS-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P1-S04-004",
+      "kr": "연말까지 우리는 6개월 동안 이 프로젝트를 진행해온 셈이 될 것이다.",
+      "en": "We will have been working on this project for six months by year-end.",
+      "pattern": "FUTURE-PERFECT-CONTINUOUS-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P1-S04-005",
+      "kr": "그의 은퇴 시기에는 그가 40년 동안 교육에 헌신해온 셈이 될 것이다.",
+      "en": "By his retirement, he will have been dedicating himself to education for 40 years.",
+      "pattern": "FUTURE-PERFECT-CONTINUOUS-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P1-S04-006",
+      "kr": "새로운 정책이 시행될 때까지 우리는 이 문제를 1년 동안 논의하지 않고 있을 것이다.",
+      "en": "We will not have been discussing this issue for a year by the time the new policy is implemented.",
+      "pattern": "FUTURE-PERFECT-CONTINUOUS-ADVANCED",
+      "form": "neg"
+    },
+    {
+      "id": "Lv6-P1-S04-007",
+      "kr": "컨퍼런스가 열릴 때까지 연구진은 3년 동안 이 주제를 연구해온 셈이 될 것이다.",
+      "en": "The researchers will have been studying this topic for three years by the conference.",
+      "pattern": "FUTURE-PERFECT-CONTINUOUS-ADVANCED",
+      "form": "aff"
+    },
+    {
+      "id": "Lv6-P1-S04-008",
+      "kr": "신제품이 출시될 때까지 마케팅팀은 8개월 동안 캠페인을 준비해온 셈이 될 것이다.",
+      "en": "The marketing team will have been preparing the campaign for eight months by product launch.",
+      "pattern": "FUTURE-PERFECT-CONTINUOUS-ADVANCED",
+      "form": "aff"
+    }
+  ]
+}

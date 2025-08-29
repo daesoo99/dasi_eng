@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv9-P5-S29",
-  "title": "연속적 수식 기법",
-  "description": "여러 수식어를 연속적으로 사용하여 대상을 구체적이고 생생하게 묘사하는 고급 표현 기법. 예) The old, weathered, abandoned house stood silently.",
-  "grammar_pattern": "SUCCESSIVE-MODIFICATION",
+  "title": "Stage Lv9-P5-S29",
+  "description": "Level 9 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "The old, weathered, abandoned house stood silently.",
-    "A bright, cheerful, optimistic young woman approached us.",
-    "The complex, challenging, rewarding project finally ended."
+    "A bright, cheerful, optimistic young woman approached us."
   ],
-  "learning_points": "연속적 수식어를 통한 정교하고 생동감 있는 묘사 기법",
+  "learning_points": "Level 9 target grammar and expressions with practical usage examples",
   "phase": 5,
   "stage_number": 29,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv9-P5-S29-001",
       "kr": "낡고, 풍화되고, 버려진 집이 조용히 서 있었습니다.",
       "en": "The old, weathered, abandoned house stood silently.",
-      "pattern": "SUCCESSIVE-MODIFICATION",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S29-002",
       "kr": "밝고, 쾌활하고, 낙관적인 젊은 여성이 우리에게 다가왔습니다.",
       "en": "A bright, cheerful, optimistic young woman approached us.",
-      "pattern": "SUCCESSIVE-MODIFICATION",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S29-003",
       "kr": "복잡하고, 도전적이고, 보람 있는 프로젝트가 마침내 끝났습니다.",
       "en": "The complex, challenging, rewarding project finally ended.",
-      "pattern": "SUCCESSIVE-MODIFICATION",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S29-004",
       "kr": "깊고, 어둡고, 신비로운 숲이 우리를 기다리고 있었습니다.",
       "en": "A deep, dark, mysterious forest was waiting for us.",
-      "pattern": "SUCCESSIVE-MODIFICATION",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S29-005",
       "kr": "차갑고, 날카롭고, 매서운 바람이 불어왔습니다.",
       "en": "A cold, sharp, piercing wind blew.",
-      "pattern": "SUCCESSIVE-MODIFICATION",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S29-006",
       "kr": "따뜻하고, 부드럽고, 편안한 침대에서 잠들었습니다.",
       "en": "I fell asleep in the warm, soft, comfortable bed.",
-      "pattern": "SUCCESSIVE-MODIFICATION",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S29-007",
       "kr": "빠르고, 효율적이고, 혁신적인 솔루션을 찾았습니다.",
       "en": "We found a fast, efficient, innovative solution.",
-      "pattern": "SUCCESSIVE-MODIFICATION",
       "form": "aff"
     },
     {
       "id": "Lv9-P5-S29-008",
       "kr": "강력하고, 지속적이고, 변화무쌍한 영향을 미쳤습니다.",
       "en": "It had a powerful, lasting, transformative impact.",
-      "pattern": "SUCCESSIVE-MODIFICATION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L9_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.611Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_9\\Lv9-P5-S29_bank.json"
+    ]
+  }
 }

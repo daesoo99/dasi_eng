@@ -1,15 +1,14 @@
 {
   "stage_id": "Lv10-S38",
-  "title": "고급 확인 표현 - 최종 확인",
-  "description": "중요한 결정이나 행동 전 최종 확인을 하는 원어민 수준의 표현을 구사합니다.",
-  "grammar_pattern": "FINAL-CONFIRMATION-MASTERY",
+  "title": "Stage Lv10-S38",
+  "description": "Level 10 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "Are we really sure about going ahead like this?",
-    "One more time, is this really the best option?",
-    "Are you confident you won't regret this?"
+    "One more time, is this really the best option?"
   ],
-  "learning_points": "원어민 수준의 자연스러운 최종 확인 표현 구사",
-  "phase": 4,
+  "learning_points": "Level 10 target grammar and expressions with practical usage examples",
+  "phase": 1,
   "stage_number": 38,
   "count": 8,
   "sentences": [
@@ -17,57 +16,64 @@
       "id": "Lv10-S38-001",
       "kr": "정말로 이대로 가는 게 맞아?",
       "en": "Are we really sure about going ahead like this?",
-      "pattern": "FINAL-CONFIRMATION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S38-002",
       "kr": "마지막으로 한 번 더, 이게 최선이야?",
       "en": "One more time, is this really the best option?",
-      "pattern": "FINAL-CONFIRMATION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S38-003",
       "kr": "후회하지 않을 자신 있어?",
       "en": "Are you confident you won't regret this?",
-      "pattern": "FINAL-CONFIRMATION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S38-004",
       "kr": "이제 돌이킬 수 없을 텐데, 괜찮아?",
       "en": "There'll be no turning back after this, is that okay?",
-      "pattern": "FINAL-CONFIRMATION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S38-005",
       "kr": "정말 확실해? 다시 생각해볼 시간 필요 없어?",
       "en": "Are you absolutely certain? Don't you need time to reconsider?",
-      "pattern": "FINAL-CONFIRMATION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S38-006",
       "kr": "모든 걸 고려해봤을 때, 이게 답이야?",
       "en": "Considering everything, is this the answer?",
-      "pattern": "FINAL-CONFIRMATION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S38-007",
       "kr": "최종 결정이라고 봐도 될까?",
       "en": "Can we consider this the final decision?",
-      "pattern": "FINAL-CONFIRMATION-MASTERY",
       "form": "aff"
     },
     {
       "id": "Lv10-S38-008",
       "kr": "이렇게 결론 내리고 진행해도 될까?",
       "en": "Can we conclude like this and proceed?",
-      "pattern": "FINAL-CONFIRMATION-MASTERY",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L10_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.408Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_10\\Lv10-S38_bank.json"
+    ]
+  }
 }

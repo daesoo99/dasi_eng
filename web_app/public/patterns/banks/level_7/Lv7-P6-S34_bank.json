@@ -1,14 +1,13 @@
 {
   "stage_id": "Lv7-P6-S34",
-  "title": "형용사/분사 도치 활용",
-  "description": "So ~ that 구조나 분사구문 도치를 다른 문장과 연결해 말해봅니다.",
-  "grammar_pattern": "ADJECTIVE-PARTICIPLE-INVERSION",
+  "title": "Stage Lv7-P6-S34",
+  "description": "Level 7 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic sentence patterns",
   "examples": [
     "So moved was he by the speech that he donated $1000 on the spot, surprising everyone.",
-    "Exhausted though they were, they continued working through the night.",
-    "Gone are the days when we could travel freely without any restrictions."
+    "Exhausted though they were, they continued working through the night."
   ],
-  "learning_points": "형용사와 분사 도치를 통한 문어체 강조 표현 마스터",
+  "learning_points": "Level 7 target grammar and expressions with practical usage examples",
   "phase": 6,
   "stage_number": 34,
   "count": 8,
@@ -17,57 +16,64 @@
       "id": "Lv7-P6-S34-001",
       "kr": "연설에 너무 감동받아서 그는 즉석에서 1000달러를 기부했고, 모두를 놀라게 했다.",
       "en": "So moved was he by the speech that he donated $1000 on the spot, surprising everyone.",
-      "pattern": "ADJECTIVE-PARTICIPLE-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S34-002",
       "kr": "지쳤지만, 그들은 밤새도록 계속 일했다.",
       "en": "Exhausted though they were, they continued working through the night.",
-      "pattern": "ADJECTIVE-PARTICIPLE-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S34-003",
       "kr": "어떤 제약도 없이 자유롭게 여행할 수 있던 시절은 지났다.",
       "en": "Gone are the days when we could travel freely without any restrictions.",
-      "pattern": "ADJECTIVE-PARTICIPLE-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S34-004",
       "kr": "그 결과에 너무 실망해서 그녀는 프로젝트를 완전히 포기했다.",
       "en": "So disappointed was she with the results that she abandoned the project entirely.",
-      "pattern": "ADJECTIVE-PARTICIPLE-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S34-005",
       "kr": "준비가 부족했지만, 그들은 훌륭한 성과를 거두었다.",
       "en": "Unprepared though they were, they achieved excellent results.",
-      "pattern": "ADJECTIVE-PARTICIPLE-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S34-006",
       "kr": "단순한 아이디어를 복잡하게 만드는 시대는 사라졌다.",
       "en": "Gone are the times when simple ideas were made unnecessarily complex.",
-      "pattern": "ADJECTIVE-PARTICIPLE-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S34-007",
       "kr": "그 제안이 너무 매력적이어서 그들은 즉시 동의했다.",
       "en": "So attractive was the proposal that they agreed immediately.",
-      "pattern": "ADJECTIVE-PARTICIPLE-INVERSION",
       "form": "aff"
     },
     {
       "id": "Lv7-P6-S34-008",
       "kr": "어려운 상황이었지만, 우리는 목표를 달성했다.",
       "en": "Challenging though the situation was, we achieved our objectives.",
-      "pattern": "ADJECTIVE-PARTICIPLE-INVERSION",
       "form": "aff"
     }
-  ]
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "incomplete",
+  "batch": "L7_Reorganization_Batch",
+  "metadata": {
+    "reorganized_at": "2025-08-28T11:08:55.531Z",
+    "reorganization_version": "2.2.0",
+    "source_files": [
+      "web_app\\public\\patterns\\banks\\level_7\\Lv7-P6-S34_bank.json"
+    ]
+  }
 }
