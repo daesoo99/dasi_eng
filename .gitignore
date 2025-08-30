@@ -83,15 +83,19 @@ Thumbs.db
 ios/Pods/
 android/.gradle/
 
-# Backups/Archive folders  
-# backups/ - keep compressed archives
+# Backup files and archives
+*.tar.gz
+*.zip
+*.7z
+backup*/
+backups/
 archive_*/
 patterns_backup_*/
-patterns_backup_20250823/
-patterns_backup_20250823_171453/
-archive_completed_work/
+*_backup/
 
-# Additional logs
+# All log files
+*.log
+firebase-debug.log*
 pnpm-debug.log*
 
 # Large binary files
