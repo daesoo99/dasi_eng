@@ -158,7 +158,14 @@
       "Bash(PORT=8082 npm run dev)",
       "Bash(sed:*)",
       "Bash(PORT=8082 node src/server.js)",
-      "Read(C:\\Users\\kimdaesoo\\source\\claude/**)"
+      "Read(C:\\Users\\kimdaesoo\\source\\claude/**)",
+      "Bash(npx:*)",
+      "Bash(chmod:*)",
+      "Bash(./archive_duplicates.sh:*)",
+      "Bash(ARCHIVE_DIR=\"archive_duplicates/20250830_020151\")",
+      "Bash(do if [ -f \"$file\" ])",
+      "Bash(then echo \"  이동: $file\")",
+      "Bash(then echo \"  이동: $file → archive_duplicates/20250830_020151/$file\")"
     ],
     "deny": [],
     "additionalDirectories": [

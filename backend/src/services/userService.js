@@ -1,6 +1,6 @@
 
 const { db } = require('../config/firebase');
-const ReviewEngineClient = require('./reviewEngineClient');
+const ReviewEngineClient = require('./review/reviewEngineClient');
 
 const usersCollection = db.collection('users');
 const reviewEngine = new ReviewEngineClient();
