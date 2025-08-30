@@ -1,11 +1,13 @@
 /**
- * 🎲 Stage별 랜덤 문장 생성 서비스
+ * 🎲 Stage별 랜덤 문장 생성 서비스 (v2.2.0)
  * 
- * 여러 데이터 소스에서 fallback 로직으로 문장을 가져옵니다:
- * 1. /patterns/level_X_situational/ (주 데이터 소스)
- * 2. /patterns/banks/level_X/ (백업 소스) 
+ * 패턴 데이터를 Firebase Storage에서 로드합니다:
+ * 1. Firebase Storage (주 데이터 소스)
+ * 2. 로컬 파일 (마이그레이션 기간 fallback)
  * 3. examples 필드 (최종 fallback)
  */
+
+import { patternDataLoader, type BankData } from './patternDataLoader';
 
 interface Sentence {
   id: string;
@@ -14,14 +16,7 @@ interface Sentence {
   form?: string;
 }
 
-interface BankData {
-  stage_id: string;
-  title?: string;
-  count?: number;
-  sentences?: Sentence[];
-  sample_sentences?: Sentence[];
-  examples?: Sentence[];
-}
+// BankData interface moved to patternDataLoader.ts
 
 interface RandomSentenceResult {
   sentence: Sentence;
@@ -30,9 +25,7 @@ interface RandomSentenceResult {
 }
 
 class SentenceService {
-  private cache = new Map<string, BankData>();
-  private readonly CACHE_TTL = 5 * 60 * 1000; // 5분 캐시
-  private cacheTimestamps = new Map<string, number>();
+  // 캐시 로직은 patternDataLoader에서 처리
 
   /**
    * 🎯 특정 Stage의 랜덤 문장을 가져옵니다
@@ -100,75 +93,22 @@ class SentenceService {
   }
 
   /**
-   * 📂 Bank 데이터를 로드합니다 (캐시 및 fallback 포함)
+   * 📂 Bank 데이터를 로드합니다 (Firebase Storage + fallback)
    */
   private async loadBankData(level: number, stageId: string): Promise<BankData | null> {
-    const cacheKey = `${level}-${stageId}`;
-    
-    // 캐시 확인
-    if (this.isCacheValid(cacheKey)) {
-      console.log(`[DEBUG] 💾 캐시에서 로드: ${stageId}`);
-      return this.cache.get(cacheKey) || null;
+    try {
+      const result = await patternDataLoader.loadBankData(level, stageId);
+      
+      console.log(`[DEBUG] 📦 데이터 로드: ${stageId} (source: ${result.source}, time: ${result.loadTime}ms)`);
+      
+      return result.data;
+    } catch (error) {
+      console.error(`[SentenceService] Data load failed for ${stageId}:`, error);
+      return null;
     }
-
-    // 데이터 소스 우선순위
-    const dataSources = this.getDataSourcePaths(level, stageId);
-    
-    for (const source of dataSources) {
-      try {
-        console.log(`[DEBUG] 🔍 시도 중: ${source.path}`);
-        const response = await fetch(source.path);
-        if (response.ok) {
-          const data: BankData = await response.json();
-          console.log(`[DEBUG] ✅ 로드 성공: ${source.path} (문장: ${data.sentences?.length || 0}개)`);
-          
-          // 캐시 저장
-          this.cache.set(cacheKey, data);
-          this.cacheTimestamps.set(cacheKey, Date.now());
-          
-          return data;
-        }
-      } catch (error) {
-        console.log(`[DEBUG] ❌ 로드 실패: ${source.path}`, error);
-      }
-    }
-
-    console.warn(`[SentenceService] 모든 데이터 소스에서 로드 실패: ${stageId}`);
-    return null;
   }
 
-  /**
-   * 📍 레벨과 스테이지별 데이터 소스 경로를 생성합니다
-   */
-  private getDataSourcePaths(level: number, stageId: string): { path: string; priority: number }[] {
-    const paths = [
-      // 1순위: situational 폴더 (레벨 4-6)
-      {
-        path: `/patterns/level_${level}_situational/${stageId}_bank.json`,
-        priority: 1
-      },
-      // 2순위: banks 폴더
-      {
-        path: `/patterns/banks/level_${level}/${stageId}_bank.json`,
-        priority: 2
-      },
-      // 3순위: 직접 경로 (레벨 1-3의 경우)
-      {
-        path: `/patterns/level_${level}_basic_patterns/${stageId}_bank.json`,
-        priority: 3
-      },
-      {
-        path: `/patterns/level_${level}_basic_grammar/${stageId}_bank.json`,
-        priority: 3
-      },
-      {
-        path: `/patterns/level_${level}_advanced_grammar/${stageId}_bank.json`,
-        priority: 3
-      }
-    ];
-
-    return paths.sort((a, b) => a.priority - b.priority);
-  }
+  // 데이터 소스 경로 로직은 patternDataLoader에서 처리
 
   /**
    * 🔍 문장 후보들을 우선순위에 따라 선택합니다
@@ -209,22 +149,6 @@ class SentenceService {
   }
 
   /**
-   * ⚡ 캐시 유효성 확인
-   */
-  private isCacheValid(cacheKey: string): boolean {
-    const timestamp = this.cacheTimestamps.get(cacheKey);
-    if (!timestamp) return false;
-    
-    const isValid = Date.now() - timestamp < this.CACHE_TTL;
-    if (!isValid) {
-      this.cache.delete(cacheKey);
-      this.cacheTimestamps.delete(cacheKey);
-    }
-    
-    return isValid;
-  }
-
-  /**
    * 🛡️ Fallback 문장 생성 (데이터가 없을 때)
    */
   private createFallbackSentence(stageId: string): RandomSentenceResult {
@@ -241,11 +165,10 @@ class SentenceService {
   }
 
   /**
-   * 🧹 캐시 정리
+   * 🧹 캐시 정리 (patternDataLoader에 위임)
    */
   clearCache(): void {
-    this.cache.clear();
-    this.cacheTimestamps.clear();
+    patternDataLoader.clearCache();
     console.log('[SentenceService] 캐시 정리 완료');
   }
 
