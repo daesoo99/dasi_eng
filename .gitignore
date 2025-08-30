@@ -94,6 +94,19 @@ archive_completed_work/
 # Additional logs
 pnpm-debug.log*
 
+# Large binary files
+*.pdf
+*.mp3
+*.wav
+*.mp4
+
+# Expanded/Generated data files
+*_expanded.json
+*_generated*.json
+level*_generated_data.json
+
 # Temporary files
 tmp/
 temp/
+.tmp.*
+*.tmp

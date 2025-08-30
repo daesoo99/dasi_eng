@@ -1,15 +1,15 @@
 # DaSi Curriculum Validation Report
 
 ## Executive Summary
-**Validation Date**: 2025-08-28T11:11:45.904Z
-**Overall Compliance Score**: 26%
-**Total Stages Validated**: 465
+**Validation Date**: 2025-08-30T16:18:09.149Z
+**Overall Compliance Score**: 14%
+**Total Stages Validated**: 466
 
 ## Results Overview
 - ✅ **Passed Stages**: 104 (22%)
-- ❌ **Failed Stages**: 361 (78%)
-- ⚠️ **Total Warnings**: 838
-- 🚨 **Critical Errors**: 0
+- ❌ **Failed Stages**: 362 (78%)
+- ⚠️ **Total Warnings**: 942
+- 🚨 **Critical Errors**: 1
 
 ## Validation Rules Applied
 - Sequential Learning Guarantee Principle
@@ -20,20 +20,24 @@
 
 ## Key Findings
 
+### 🚨 Critical Issues Found
+- **1** critical errors require immediate attention
+- These issues must be resolved before production deployment
+
 
 ### 📊 Stage Completion Status
-- **Complete Stages** (50+ sentences): 104
-- **Incomplete Stages**: 361
-- **Average Completion**: 35%
+- **Complete Stages** (50+ sentences): 106
+- **Incomplete Stages**: 359
+- **Average Completion**: 36%
 
 ### 📈 Quality Metrics
 - **Form Distribution Compliance**: 35%
-- **Data Quality Score**: 100%
+- **Data Quality Score**: 99%
 
 ## Recommendations
 
 ### content_generation (Priority: high)
-**Issue**: 361 stages lack sufficient sentences
+**Issue**: 359 stages lack sufficient sentences
 **Recommendation**: Implement automated sentence generation system following Sequential Learning Guarantee Principle
 **Estimated Effort**: high
 
@@ -45,7 +49,7 @@
 
 
 ### overall_quality (Priority: critical)
-**Issue**: Overall compliance score is 26%
+**Issue**: Overall compliance score is 14%
 **Recommendation**: Comprehensive quality improvement needed before production deployment
 **Estimated Effort**: high
 

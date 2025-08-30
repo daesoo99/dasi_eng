@@ -7,6 +7,407 @@
   "learning_points": "시간 기준점에 따른 완료시제 구분과 적절한 사용",
   "phase": 1,
   "stage_number": 3,
-  "count": 0,
-  "sentences": []
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv4-P1-S03-001",
+      "english": "I have lost my key, so I can't get in now.",
+      "korean": "나는 열쇠를 잃어버렸기 때문에 지금 들어갈 수 없다.",
+      "situation": "현재완료: 과거의 동작이 현재에 영향을 미치는 상황",
+      "grammar_point": "have + p.p.로 현재와 연결된 과거 경험 표현",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-002",
+      "english": "I had lost my key, so I couldn't get in then.",
+      "korean": "나는 열쇠를 잃어버렸었기 때문에 그때 들어갈 수 없었다.",
+      "situation": "과거완료: 과거의 한 시점에서 그 이전에 완료된 동작",
+      "grammar_point": "had + p.p.로 과거 시점 기준 이전 완료 표현",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-003",
+      "english": "She has finished her homework and is now free.",
+      "korean": "그녀는 숙제를 끝냈고 지금 자유롭다.",
+      "situation": "현재완료: 완료된 일이 현재 상태에 영향",
+      "grammar_point": "현재와 연결된 완료와 그 결과",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-004",
+      "english": "She had finished her homework before he arrived.",
+      "korean": "그가 도착하기 전에 그녀는 숙제를 끝냈었다.",
+      "situation": "과거완료: 과거 시점(도착) 이전에 완료된 동작",
+      "grammar_point": "과거의 시점 기준 이전 완료 표현",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-005",
+      "english": "I have read this book three times.",
+      "korean": "나는 이 책을 세 번 읽었다.",
+      "situation": "현재완료: 현재까지의 경험이나 횟수",
+      "grammar_point": "인생 경험으로서의 현재완료 표현",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-006",
+      "english": "I had read that book before starting this one.",
+      "korean": "이 책을 시작하기 전에 나는 그 책을 읽었었다.",
+      "situation": "과거완료: 과거의 다른 행동 이전에 완료된 동작",
+      "grammar_point": "과거의 시간 순서를 명확히 하는 표현",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-007",
+      "english": "Have you ever been to Japan?",
+      "korean": "일본에 가본 적이 있니?",
+      "situation": "현재완료 질문: 인생 경험에 대한 질문",
+      "grammar_point": "Have you ever로 경험 여부 질문",
+      "form": "q"
+    },
+    {
+      "id": "Lv4-P1-S03-008",
+      "english": "Had you finished dinner when I called?",
+      "korean": "내가 전화했을 때 당신은 저녁을 끝냈었나요?",
+      "situation": "과거완료 질문: 특정 과거 시점 이전 완료 여부",
+      "grammar_point": "과거 시점 기준 이전 완료 여부 질문",
+      "form": "q"
+    },
+    {
+      "id": "Lv4-P1-S03-009",
+      "english": "I haven't seen him today.",
+      "korean": "내가 오늘 그를 보지 못했다.",
+      "situation": "현재완료 부정: 현재까지의 비경험",
+      "grammar_point": "현재까지의 경험 부정 표현",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-P1-S03-010",
+      "english": "I hadn't met her before that party.",
+      "korean": "그 파티 전에는 내가 그녀를 만나본 적이 없었다.",
+      "situation": "과거완료 부정: 특정 과거 시점 이전의 비경험",
+      "grammar_point": "과거 시점 이전의 경험 부정 표현",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-P1-S03-011",
+      "english": "They have moved to a new house.",
+      "korean": "그들은 새 집으로 이사했다.",
+      "situation": "현재완료: 과거 동작의 현재 상태 영향",
+      "grammar_point": "이사로 인한 현재 상황 변화",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-012",
+      "english": "They had moved before the school year started.",
+      "korean": "학기가 시작하기 전에 그들은 이사했었다.",
+      "situation": "과거완료: 특정 과거 이벤트 이전에 완료된 동작",
+      "grammar_point": "과거의 시점 기준 이전 완료 표현",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-013",
+      "english": "We have known each other for 10 years.",
+      "korean": "우리는 10년 동안 서로 알고 지냈다.",
+      "situation": "현재완료: 과거에서 시작되어 현재까지 지속되는 상태",
+      "grammar_point": "for + 기간과 함께 지속 상태 표현",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-014",
+      "english": "We had known each other for 2 years when we got married.",
+      "korean": "우리가 결혼했을 때 우리는 2년 동안 서로 알고 지냈었다.",
+      "situation": "과거완료: 과거 시점까지의 지속 상태",
+      "grammar_point": "과거 시점 기준 그 이전까지의 지속 상태",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-015",
+      "english": "Has the meeting started yet?",
+      "korean": "회의가 아직 시작되었나요?",
+      "situation": "현재완료 질문: 현재 시점에서의 완료 여부 확인",
+      "grammar_point": "yet과 함께 사용하는 현재완료 질문",
+      "form": "q"
+    },
+    {
+      "id": "Lv4-P1-S03-016",
+      "english": "Had the meeting started when you arrived?",
+      "korean": "당신이 도착했을 때 회의가 시작되었었나요?",
+      "situation": "과거완료 질문: 특정 과거 시점에서의 이전 완료 확인",
+      "grammar_point": "과거 시점 기준 이전 완료 여부 확인",
+      "form": "q"
+    },
+    {
+      "id": "Lv4-P1-S03-017",
+      "english": "I have never eaten such delicious food.",
+      "korean": "나는 이렇게 맛있는 음식을 먹어본 적이 없다.",
+      "situation": "현재완료: 인생 경험의 부정",
+      "grammar_point": "never와 함께 사용하는 경험 부정",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-P1-S03-018",
+      "english": "I had never seen the ocean before that trip.",
+      "korean": "그 여행 전에는 나는 바다를 본 적이 없었다.",
+      "situation": "과거완료: 특정 과거 시점 이전까지의 비경험",
+      "grammar_point": "과거 시점 이전까지의 경험 부정",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-P1-S03-019",
+      "english": "The weather has been terrible this week.",
+      "korean": "이번 주 날씨가 너무 나빠다.",
+      "situation": "현재완료: 최근 기간동안의 지속 상태",
+      "grammar_point": "this week와 함께 사용하는 최근 경험",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-020",
+      "english": "The weather had been terrible before the storm passed.",
+      "korean": "폭풍이 지나가기 전에 날씨가 너무 나빠었다.",
+      "situation": "과거완료: 특정 과거 시점 이전까지의 지속 상태",
+      "grammar_point": "과거 시점 이전의 지속적 상태 표현",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-021",
+      "english": "She has just called me.",
+      "korean": "그녀가 방금 내게 전화했다.",
+      "situation": "현재완료: 방금 전에 일어난 일의 현재 영향",
+      "grammar_point": "just와 함께 사용하는 최근 완료",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-022",
+      "english": "She had just called when I arrived home.",
+      "korean": "내가 집에 도착했을 때 그녀가 방금 전에 전화했었다.",
+      "situation": "과거완료: 과거 시점 직전에 완료된 동작",
+      "grammar_point": "just와 함께 사용하는 과거의 직전 완료",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-023",
+      "english": "They haven't decided where to go yet.",
+      "korean": "그들은 아직 어디로 갈지 결정하지 못했다.",
+      "situation": "현재완료 부정: 현재까지 완료되지 않은 동작",
+      "grammar_point": "yet과 함께 사용하는 미완료 표현",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-P1-S03-024",
+      "english": "They hadn't decided by the time we left.",
+      "korean": "우리가 떠났을 때까지도 그들은 결정하지 못했었다.",
+      "situation": "과거완료 부정: 과거 시점까지 완료되지 않은 동작",
+      "grammar_point": "by the time과 함께 사용하는 미완료 표현",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-P1-S03-025",
+      "english": "I have been to Paris twice.",
+      "korean": "나는 파리에 두 번 가본 적이 있다.",
+      "situation": "현재완료: 인생 경험의 횟수",
+      "grammar_point": "have been to로 여행 경험과 횟수 표현",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-026",
+      "english": "I had been to Paris once before my business trip.",
+      "korean": "출장 전에 나는 파리에 한 번 가본 적이 있었다.",
+      "situation": "과거완료: 특정 과거 시점 이전의 경험",
+      "grammar_point": "과거 시점 이전의 여행 경험",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-027",
+      "english": "How long have you studied English?",
+      "korean": "영어를 얼마나 오래 공부했나요?",
+      "situation": "현재완료 질문: 과거에서 시작된 활동의 지속 기간",
+      "grammar_point": "How long으로 지속 기간 질문",
+      "form": "q"
+    },
+    {
+      "id": "Lv4-P1-S03-028",
+      "english": "How long had you studied before taking the test?",
+      "korean": "시험을 치기 전에 얼마나 오래 공부했었나요?",
+      "situation": "과거완료 질문: 특정 과거 시점 이전까지의 활동 기간",
+      "grammar_point": "과거 시점 이전의 지속 기간 질문",
+      "form": "q"
+    },
+    {
+      "id": "Lv4-P1-S03-029",
+      "english": "The package has finally arrived.",
+      "korean": "마침내 소포가 도착했다.",
+      "situation": "현재완료: 기다렸던 과거 동작의 현재 완료",
+      "grammar_point": "finally와 함께 사용하는 마침내 완료",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-030",
+      "english": "The package had finally arrived by evening.",
+      "korean": "저녁이 되어서야 마침내 소포가 도착했었다.",
+      "situation": "과거완료: 과거 시점까지의 대기 후 완료",
+      "grammar_point": "과거 시점 기준 마침내 완료 표현",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-031",
+      "english": "We have already finished the project.",
+      "korean": "우리는 이미 프로젝트를 끝냈다.",
+      "situation": "현재완료: 예상보다 이른 완료의 현재 상태",
+      "grammar_point": "already와 함께 사용하는 이미 완료",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-032",
+      "english": "We had already finished when the boss arrived.",
+      "korean": "사장이 도착했을 때 우리는 이미 끝냈었다.",
+      "situation": "과거완료: 과거 시점 이전에 이미 완료된 동작",
+      "grammar_point": "과거 시점 이전의 이미 완료 표현",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-033",
+      "english": "She has become a successful lawyer.",
+      "korean": "그녀는 성공한 변호사가 되었다.",
+      "situation": "현재완료: 과거에서 시작된 변화의 현재 결과",
+      "grammar_point": "변화와 결과를 나타내는 현재완료",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-034",
+      "english": "She had become confident by graduation.",
+      "korean": "졸업할 때까지는 그녀는 자신감이 생겨 있었다.",
+      "situation": "과거완료: 과거 시점까지의 점진적 변화",
+      "grammar_point": "과거 시점 기준 변화 결과",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-035",
+      "english": "Where have you put my keys?",
+      "korean": "내 열쇠를 어디에 두었나요?",
+      "situation": "현재완료 질문: 과거 동작의 현재 결과 위치",
+      "grammar_point": "과거 동작의 현재 결과에 대한 질문",
+      "form": "q"
+    },
+    {
+      "id": "Lv4-P1-S03-036",
+      "english": "Where had you put the documents before the meeting?",
+      "korean": "회의 전에 서류를 어디에 두었었나요?",
+      "situation": "과거완료 질문: 특정 과거 시점 이전의 동작 위치",
+      "grammar_point": "과거 시점 이전의 동작에 대한 질문",
+      "form": "q"
+    },
+    {
+      "id": "Lv4-P1-S03-037",
+      "english": "I have forgotten his name.",
+      "korean": "내가 그의 이름을 잊어버렸다.",
+      "situation": "현재완료: 과거에 알았지만 현재 기억나지 않는 상태",
+      "grammar_point": "과거 기억의 현재 상실 상태",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-038",
+      "english": "I had forgotten to bring my umbrella when it started raining.",
+      "korean": "비가 내리기 시작했을 때 내가 우산을 가져오는 것을 잊어버렸었다.",
+      "situation": "과거완료: 과거 시점에서 기억나지 않았던 상태",
+      "grammar_point": "과거 시점의 기억 누락 상태",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-039",
+      "english": "The movie has started without us.",
+      "korean": "영화가 우리 없이 시작됐다.",
+      "situation": "현재완료: 과거에 시작된 것의 현재 진행 상태",
+      "grammar_point": "진행 중인 상태의 현재 영향",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-040",
+      "english": "The movie had started by the time we got there.",
+      "korean": "우리가 도착했을 때는 영화가 이미 시작됐었다.",
+      "situation": "과거완료: 과거 시점 이전에 이미 시작된 상태",
+      "grammar_point": "by the time과 함께 사용하는 이미 시작된 상태",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-041",
+      "english": "It has rained every day this month.",
+      "korean": "이번 달에는 매일 비가 내렸다.",
+      "situation": "현재완료: 최근 기간동안의 반복된 경험",
+      "grammar_point": "this month와 함께 사용하는 반복 경험",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-042",
+      "english": "It had rained for a week before the sun came out.",
+      "korean": "해가 나기 전에 일주일 동안 비가 내렸었다.",
+      "situation": "과거완료: 과거 시점 이전까지의 지속 상태",
+      "grammar_point": "과거 시점 이전의 지속적 날씨 상태",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-043",
+      "english": "Have you done your homework yet?",
+      "korean": "숙제를 아직 했나요?",
+      "situation": "현재완료 질문: 현재까지의 완료 여부 확인",
+      "grammar_point": "yet과 함께 사용하는 완료 확인 질문",
+      "form": "q"
+    },
+    {
+      "id": "Lv4-P1-S03-044",
+      "english": "Had you done your homework when the teacher asked?",
+      "korean": "선생님이 물어보셨을 때 숙제를 했었나요?",
+      "situation": "과거완료 질문: 특정 과거 시점에서의 이전 완료 확인",
+      "grammar_point": "과거 시점 기준 이전 완료 확인 질문",
+      "form": "q"
+    },
+    {
+      "id": "Lv4-P1-S03-045",
+      "english": "We have bought a new car.",
+      "korean": "우리는 새 차를 샀다.",
+      "situation": "현재완료: 과거 구매의 현재 소유 상태",
+      "grammar_point": "구매 행위의 현재 결과",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-046",
+      "english": "We had bought insurance before the accident happened.",
+      "korean": "사고가 일어나기 전에 우리는 보험을 들었었다.",
+      "situation": "과거완료: 특정 과거 사건 이전에 완료된 준비",
+      "grammar_point": "과거 사건 이전의 준비 상태",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-047",
+      "english": "The phone has been ringing all morning.",
+      "korean": "오전 내내 전화가 울렸다.",
+      "situation": "현재완료: 최근 기간동안의 지속적 상태",
+      "grammar_point": "all morning과 함께 사용하는 지속 상태",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-048",
+      "english": "The phone had been ringing for an hour when I finally answered.",
+      "korean": "내가 마침내 받았을 때 전화가 한 시간 동안 울렸었다.",
+      "situation": "과거완료: 과거 시점까지의 지속적 상태",
+      "grammar_point": "과거 시점 이전의 지속 상태 표현",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S03-049",
+      "english": "I haven't slept well recently.",
+      "korean": "최근에 잠을 잘 자지 못했다.",
+      "situation": "현재완료 부정: 최근 기간동안의 좋지 않은 상태",
+      "grammar_point": "recently와 함께 사용하는 최근 경험 부정",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-P1-S03-050",
+      "english": "I hadn't slept well for days before seeing the doctor.",
+      "korean": "의사를 보기 전에 며칠 동안 잠을 잘 자지 못했었다.",
+      "situation": "과거완료 부정: 과거 시점 이전까지의 좋지 않은 상태",
+      "grammar_point": "과거 시점 이전의 지속적 문제 상태",
+      "form": "neg"
+    }
+  ]
 }

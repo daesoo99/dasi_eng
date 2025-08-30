@@ -7,6 +7,31 @@
   "learning_points": "미래 시점 기준의 완료 개념과 by/before 시간 표현 활용",
   "phase": 1,
   "stage_number": 1,
-  "count": 0,
-  "sentences": []
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv4-P1-S01-001",
+      "english": "By next year, I will have graduated from college.",
+      "korean": "내년까지는 나는 대학을 졸업했을 것이다.",
+      "situation": "미래의 특정 시점(내년)까지 완료될 동작을 표현",
+      "grammar_point": "will have + 과거분사로 미래완료를 나타냄",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S01-002",
+      "english": "She will have finished her homework before dinner.",
+      "korean": "그녀는 저녁 전에 숙제를 끝냈을 것이다.",
+      "situation": "미래의 시점(저녁) 이전에 완료될 동작",
+      "grammar_point": "before + 시점으로 완료 시한을 표현",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S01-003",
+      "english": "We will have moved to our new house by December.",
+      "korean": "우리는 12월까지는 새 집으로 이사했을 것이다.",
+      "situation": "특정 월까지 완료될 이사 계획을 표현",
+      "grammar_point": "by + 구체적 시점으로 완료 예정 시기 명시",
+      "form": "aff"
+    }
+  ]
 }

@@ -7,6 +7,407 @@
   "learning_points": "미래 시점까지의 지속적 행동 표현과 시간 구조 이해",
   "phase": 1,
   "stage_number": 2,
-  "count": 0,
-  "sentences": []
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv4-P1-S02-001",
+      "english": "Next month, I will have been working here for 5 years.",
+      "korean": "다음 달이면 나는 여기서 5년 동안 일하고 있을 것이다.",
+      "situation": "미래의 한 시점까지 계속 진행될 동작의 지속 기간을 표현",
+      "grammar_point": "will have been + -ing로 미래완료진행을 나타냄",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-002",
+      "english": "By tomorrow, they will have been traveling for 24 hours.",
+      "korean": "내일까지는 그들이 24시간 동안 여행하고 있을 것이다.",
+      "situation": "특정 시점까지 계속 진행 중일 동작을 표현",
+      "grammar_point": "by + 시점과 for + 기간의 조합",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-003",
+      "english": "She will have been studying English for a decade by graduation.",
+      "korean": "졸업할 때까지 그녀는 10년 동안 영어를 공부하고 있을 것이다.",
+      "situation": "졸업이라는 미래 시점까지의 학습 지속 기간",
+      "grammar_point": "미래 시점 기준 지속 동작과 기간 표현",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-004",
+      "english": "By the end of this year, we will have been living in this city for 15 years.",
+      "korean": "올해 말까지는 우리가 이 도시에서 15년 동안 살고 있을 것이다.",
+      "situation": "거주 기간의 누적을 미래 시점 기준으로 표현",
+      "grammar_point": "by the end of + 시점으로 완료 기준점 설정",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-005",
+      "english": "He will have been playing the piano for 20 years by his next concert.",
+      "korean": "다음 콘서트까지는 그가 20년 동안 피아노를 연주하고 있을 것이다.",
+      "situation": "특별한 이벤트 시점까지의 연주 경력 표현",
+      "grammar_point": "특정 이벤트를 기준점으로 한 지속 기간",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-006",
+      "english": "By next summer, I will have been learning Korean for two years.",
+      "korean": "내년 여름까지는 내가 2년 동안 한국어를 배우고 있을 것이다.",
+      "situation": "언어 학습의 지속 기간을 미래 기준으로 표현",
+      "grammar_point": "계절 표현과 함께 사용하는 미래완료진행",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-007",
+      "english": "They will have been running the business for 30 years by 2030.",
+      "korean": "2030년까지는 그들이 30년 동안 사업을 운영하고 있을 것이다.",
+      "situation": "사업 운영의 장기간 지속을 표현",
+      "grammar_point": "구체적 연도와 함께 사용하는 패턴",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-008",
+      "english": "She will have been teaching at this school for a decade by retirement.",
+      "korean": "은퇴할 때까지는 그녀가 이 학교에서 10년 동안 가르치고 있을 것이다.",
+      "situation": "교직 경력의 누적을 은퇴 기준으로 표현",
+      "grammar_point": "특정 생애 사건을 기준점으로 사용",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-009",
+      "english": "By midnight, we will have been waiting for 6 hours.",
+      "korean": "자정까지는 우리가 6시간 동안 기다리고 있을 것이다.",
+      "situation": "특정 시각까지의 대기 시간을 표현",
+      "grammar_point": "시각 표현과 기간의 조합",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-010",
+      "english": "He will have been writing his novel for three years by publication.",
+      "korean": "출간할 때까지는 그가 3년 동안 소설을 쓰고 있을 것이다.",
+      "situation": "창작 활동의 지속 기간을 출간 기준으로 표현",
+      "grammar_point": "창작 과정의 지속성 강조",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-011",
+      "english": "Won't they have been discussing this issue for hours by then?",
+      "korean": "그때까지는 그들이 이 문제를 몇 시간 동안 논의하고 있지 않을까?",
+      "situation": "토론의 장시간 지속에 대한 의문 표현",
+      "grammar_point": "부정 의문문으로 지속 동작 확인",
+      "form": "q"
+    },
+    {
+      "id": "Lv4-P1-S02-012",
+      "english": "How long will you have been studying before the exam?",
+      "korean": "시험 전까지 얼마나 오래 공부하고 있을 것인가?",
+      "situation": "시험 준비 기간에 대한 질문",
+      "grammar_point": "How long으로 지속 기간 질문",
+      "form": "q"
+    },
+    {
+      "id": "Lv4-P1-S02-013",
+      "english": "Will she have been working there for 10 years by next month?",
+      "korean": "다음 달까지는 그녀가 그곳에서 10년 동안 일하고 있을 것인가?",
+      "situation": "근무 기간의 누적에 대한 확인 질문",
+      "grammar_point": "Yes/No 질문으로 지속 기간 확인",
+      "form": "q"
+    },
+    {
+      "id": "Lv4-P1-S02-014",
+      "english": "I will not have been living here for very long by then.",
+      "korean": "그때까지는 내가 여기서 그리 오래 살고 있지 않을 것이다.",
+      "situation": "거주 기간이 짧음을 미래 기준으로 표현",
+      "grammar_point": "부정문으로 짧은 지속 기간 표현",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-P1-S02-015",
+      "english": "They won't have been dating for a year by their wedding.",
+      "korean": "결혼할 때까지는 그들이 1년 동안 사귀고 있지 않을 것이다.",
+      "situation": "교제 기간이 짧음을 결혼 기준으로 표현",
+      "grammar_point": "부정문으로 충분하지 않은 기간 표현",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-P1-S02-016",
+      "english": "By next week, I will have been exercising regularly for 6 months.",
+      "korean": "다음 주까지는 내가 6개월 동안 규칙적으로 운동하고 있을 것이다.",
+      "situation": "운동 습관의 지속 기간을 표현",
+      "grammar_point": "부사와 함께 사용하는 지속 동작",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-017",
+      "english": "She will have been cooking dinner for an hour by the time we arrive.",
+      "korean": "우리가 도착할 때까지는 그녀가 1시간 동안 저녁을 요리하고 있을 것이다.",
+      "situation": "도착 시점까지의 요리 지속 시간",
+      "grammar_point": "by the time 구문과의 조합",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-018",
+      "english": "We will have been saving money for our trip for 2 years by departure.",
+      "korean": "출발할 때까지는 우리가 여행을 위해 2년 동안 돈을 모으고 있을 것이다.",
+      "situation": "여행 자금 저축의 지속 기간을 표현",
+      "grammar_point": "목적과 함께 표현하는 지속 동작",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-019",
+      "english": "By Christmas, he will have been building the house for 8 months.",
+      "korean": "크리스마스까지는 그가 8개월 동안 집을 짓고 있을 것이다.",
+      "situation": "건축 작업의 지속 기간을 명절 기준으로 표현",
+      "grammar_point": "명절명과 함께 사용하는 패턴",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-020",
+      "english": "They will have been renovating the office for 3 months by opening.",
+      "korean": "개장할 때까지는 그들이 3개월 동안 사무실을 개조하고 있을 것이다.",
+      "situation": "리모델링 작업의 진행 기간을 표현",
+      "grammar_point": "특정 이벤트를 기준점으로 한 지속성",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-021",
+      "english": "Will I have been practicing guitar for enough time by the recital?",
+      "korean": "리사이틀까지는 내가 충분한 시간 동안 기타를 연습하고 있을 것인가?",
+      "situation": "연주회 준비의 충분성에 대한 의문",
+      "grammar_point": "충분성 표현과 함께 사용",
+      "form": "q"
+    },
+    {
+      "id": "Lv4-P1-S02-022",
+      "english": "She won't have been sleeping well for weeks by her doctor's visit.",
+      "korean": "의사 방문까지는 그녀가 몇 주 동안 잠을 잘 자지 못하고 있을 것이다.",
+      "situation": "수면 문제의 지속을 의료 상담 기준으로 표현",
+      "grammar_point": "부정문으로 좋지 않은 상태의 지속 표현",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-P1-S02-023",
+      "english": "By next spring, we will have been planning this event for a full year.",
+      "korean": "내년 봄까지는 우리가 이 행사를 1년 내내 계획하고 있을 것이다.",
+      "situation": "행사 기획의 장기간 지속을 표현",
+      "grammar_point": "a full year로 완전한 기간 강조",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-024",
+      "english": "He will have been recovering from surgery for 6 weeks by his birthday.",
+      "korean": "생일까지는 그가 6주 동안 수술에서 회복하고 있을 것이다.",
+      "situation": "수술 회복 기간을 생일 기준으로 표현",
+      "grammar_point": "회복 과정의 지속성 표현",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-025",
+      "english": "Will they have been negotiating the contract for months by then?",
+      "korean": "그때까지는 그들이 몇 달 동안 계약을 협상하고 있을 것인가?",
+      "situation": "계약 협상의 장기화에 대한 질문",
+      "grammar_point": "협상 과정의 지속성에 대한 의문",
+      "form": "q"
+    },
+    {
+      "id": "Lv4-P1-S02-026",
+      "english": "I will have been waiting for the results for 3 weeks by Friday.",
+      "korean": "금요일까지는 내가 3주 동안 결과를 기다리고 있을 것이다.",
+      "situation": "검사 결과 대기 기간을 요일 기준으로 표현",
+      "grammar_point": "요일명과 함께 사용하는 패턴",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-027",
+      "english": "She won't have been feeling unwell for long by her recovery.",
+      "korean": "회복할 때까지는 그녀가 오래 몸이 좋지 않았던 것은 아닐 것이다.",
+      "situation": "컨디션 난조 기간이 짧음을 회복 기준으로 표현",
+      "grammar_point": "부정문으로 짧은 기간 표현",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-P1-S02-028",
+      "english": "By the conference, we will have been preparing the presentation for 2 months.",
+      "korean": "회의까지는 우리가 2개월 동안 발표를 준비하고 있을 것이다.",
+      "situation": "발표 준비 기간을 회의 일정 기준으로 표현",
+      "grammar_point": "업무 준비의 지속 기간 표현",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-029",
+      "english": "How long will she have been managing this project by completion?",
+      "korean": "완료까지는 그녀가 얼마나 오래 이 프로젝트를 관리하고 있을 것인가?",
+      "situation": "프로젝트 관리 기간에 대한 질문",
+      "grammar_point": "How long으로 관리 기간 질문",
+      "form": "q"
+    },
+    {
+      "id": "Lv4-P1-S02-030",
+      "english": "They will have been developing this software for 18 months by launch.",
+      "korean": "출시까지는 그들이 18개월 동안 이 소프트웨어를 개발하고 있을 것이다.",
+      "situation": "소프트웨어 개발 기간을 출시 기준으로 표현",
+      "grammar_point": "개발 과정의 장기간 지속성",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-031",
+      "english": "Will you have been taking care of your parents for years by then?",
+      "korean": "그때까지는 당신이 몇 년 동안 부모님을 돌보고 있을 것인가?",
+      "situation": "부모님 돌봄의 장기간 지속에 대한 질문",
+      "grammar_point": "돌봄 행위의 지속성에 대한 의문",
+      "form": "q"
+    },
+    {
+      "id": "Lv4-P1-S02-032",
+      "english": "I won't have been driving for 10 years by the time I turn 30.",
+      "korean": "30살이 될 때까지는 내가 10년 동안 운전하고 있지 않을 것이다.",
+      "situation": "운전 경력이 충분하지 않음을 나이 기준으로 표현",
+      "grammar_point": "나이와 함께 사용하는 부정 표현",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-P1-S02-033",
+      "english": "By summer vacation, students will have been studying for 9 months.",
+      "korean": "여름 방학까지는 학생들이 9개월 동안 공부하고 있을 것이다.",
+      "situation": "학기 중 학습 기간을 방학 기준으로 표현",
+      "grammar_point": "학기 시스템과 연결한 지속 기간",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-034",
+      "english": "She will have been volunteering at the hospital for 5 years by retirement.",
+      "korean": "은퇴할 때까지는 그녀가 병원에서 5년 동안 봉사활동하고 있을 것이다.",
+      "situation": "자원봉사 활동의 지속 기간을 은퇴 기준으로 표현",
+      "grammar_point": "사회 활동의 장기간 지속성",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-035",
+      "english": "We won't have been arguing about this for hours by bedtime.",
+      "korean": "잠자리에 들 때까지는 우리가 이것에 대해 몇 시간 동안 논쟁하고 있지 않을 것이다.",
+      "situation": "논쟁 시간이 길지 않을 것임을 취침 기준으로 표현",
+      "grammar_point": "부정문으로 논쟁 지속 시간 제한",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-P1-S02-036",
+      "english": "By the festival, they will have been rehearsing for 3 months.",
+      "korean": "축제까지는 그들이 3개월 동안 리허설하고 있을 것이다.",
+      "situation": "공연 준비 기간을 축제 기준으로 표현",
+      "grammar_point": "공연 준비의 지속적 연습 과정",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-037",
+      "english": "Will he have been attending therapy sessions for a year by then?",
+      "korean": "그때까지는 그가 1년 동안 치료 세션에 참석하고 있을 것인가?",
+      "situation": "치료 참석의 지속 기간에 대한 질문",
+      "grammar_point": "의료 서비스 이용의 지속성에 대한 의문",
+      "form": "q"
+    },
+    {
+      "id": "Lv4-P1-S02-038",
+      "english": "I will have been maintaining this garden for a decade by moving.",
+      "korean": "이사할 때까지는 내가 10년 동안 이 정원을 관리하고 있을 것이다.",
+      "situation": "정원 관리의 장기간 지속을 이사 기준으로 표현",
+      "grammar_point": "장소 변화를 기준점으로 한 지속 활동",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-039",
+      "english": "She won't have been commuting by train for long by her promotion.",
+      "korean": "승진할 때까지는 그녀가 기차로 통근하고 있는 기간이 길지 않을 것이다.",
+      "situation": "통근 방식의 짧은 지속 기간을 승진 기준으로 표현",
+      "grammar_point": "교통수단 이용의 짧은 지속성",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-P1-S02-040",
+      "english": "By next winter, we will have been heating with solar energy for 2 years.",
+      "korean": "내년 겨울까지는 우리가 2년 동안 태양 에너지로 난방하고 있을 것이다.",
+      "situation": "친환경 에너지 사용의 지속 기간을 계절 기준으로 표현",
+      "grammar_point": "환경 친화적 활동의 지속성",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-041",
+      "english": "How long will they have been collaborating on this research by publication?",
+      "korean": "발표까지는 그들이 얼마나 오래 이 연구에서 협력하고 있을 것인가?",
+      "situation": "연구 협력 기간에 대한 질문",
+      "grammar_point": "How long으로 협력 기간 질문",
+      "form": "q"
+    },
+    {
+      "id": "Lv4-P1-S02-042",
+      "english": "He will have been collecting stamps for 15 years by his birthday.",
+      "korean": "생일까지는 그가 15년 동안 우표를 수집하고 있을 것이다.",
+      "situation": "취미 활동의 장기간 지속을 생일 기준으로 표현",
+      "grammar_point": "수집 활동의 장기간 지속성",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-043",
+      "english": "Will she have been renting this apartment for 3 years by lease renewal?",
+      "korean": "임대 갱신까지는 그녀가 3년 동안 이 아파트를 임대하고 있을 것인가?",
+      "situation": "임대 기간을 계약 갱신 기준으로 질문",
+      "grammar_point": "임대 계약의 지속 기간에 대한 의문",
+      "form": "q"
+    },
+    {
+      "id": "Lv4-P1-S02-044",
+      "english": "They won't have been living together for long by their wedding anniversary.",
+      "korean": "결혼 기념일까지는 그들이 함께 살고 있는 기간이 길지 않을 것이다.",
+      "situation": "동거 기간이 짧음을 기념일 기준으로 표현",
+      "grammar_point": "부정문으로 짧은 동거 기간 표현",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-P1-S02-045",
+      "english": "By the grand opening, I will have been preparing this restaurant for 8 months.",
+      "korean": "개업까지는 내가 8개월 동안 이 식당을 준비하고 있을 것이다.",
+      "situation": "식당 개업 준비 기간을 개업 기준으로 표현",
+      "grammar_point": "사업 준비의 장기간 과정",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-046",
+      "english": "She will have been taking dance lessons for 4 years by the competition.",
+      "korean": "경연대회까지는 그녀가 4년 동안 댄스 레슨을 받고 있을 것이다.",
+      "situation": "댄스 레슨의 지속 기간을 경연 기준으로 표현",
+      "grammar_point": "예술 활동 학습의 지속성",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-047",
+      "english": "Won't we have been supporting this charity for 5 years by then?",
+      "korean": "그때까지는 우리가 5년 동안 이 자선단체를 후원하고 있지 않을까?",
+      "situation": "자선 활동의 장기간 지속에 대한 확인",
+      "grammar_point": "부정 의문문으로 지속 활동 확인",
+      "form": "q"
+    },
+    {
+      "id": "Lv4-P1-S02-048",
+      "english": "By next autumn, he will have been growing vegetables for 3 seasons.",
+      "korean": "내년 가을까지는 그가 3계절 동안 채소를 기르고 있을 것이다.",
+      "situation": "농작물 재배 기간을 계절 기준으로 표현",
+      "grammar_point": "계절 단위로 표현하는 지속 활동",
+      "form": "aff"
+    },
+    {
+      "id": "Lv4-P1-S02-049",
+      "english": "I won't have been using this old computer for much longer by upgrade.",
+      "korean": "업그레이드까지는 내가 이 오래된 컴퓨터를 그리 오래 사용하고 있지 않을 것이다.",
+      "situation": "기기 사용 기간이 곧 끝날 것임을 업그레이드 기준으로 표현",
+      "grammar_point": "부정문으로 사용 종료 임박 표현",
+      "form": "neg"
+    },
+    {
+      "id": "Lv4-P1-S02-050",
+      "english": "By the award ceremony, they will have been competing for 6 months.",
+      "korean": "시상식까지는 그들이 6개월 동안 경쟁하고 있을 것이다.",
+      "situation": "경쟁 참여 기간을 시상식 기준으로 표현",
+      "grammar_point": "경쟁 활동의 지속 기간과 결과 발표",
+      "form": "aff"
+    }
+  ]
 }

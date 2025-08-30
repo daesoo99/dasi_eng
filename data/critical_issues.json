@@ -1,0 +1,13 @@
+[
+  {
+    "stage_id": "Lv1-P1-S05",
+    "level": 1,
+    "critical_errors": [
+      {
+        "type": "file_error",
+        "message": "Failed to load or parse stage file: Unexpected end of JSON input",
+        "severity": "critical"
+      }
+    ]
+  }
+]
