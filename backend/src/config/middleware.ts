@@ -1,14 +1,14 @@
 /**
- * Express Middleware Configuration
+ * Express Middleware Configuration (TypeScript)
  * 공통 미들웨어 설정 분리
  */
 
-const express = require('express');
-const helmet = require('helmet');
-const cors = require('cors');
-const rateLimit = require('express-rate-limit');
-const pinoHttp = require('pino-http');
-const onFinished = require('on-finished');
+import express, { Application, Request, Response, NextFunction } from 'express';
+import helmet from 'helmet';
+import cors, { CorsOptions } from 'cors';
+import rateLimit, { RateLimitRequestHandler } from 'express-rate-limit';
+import pinoHttp from 'pino-http';
+import onFinished from 'on-finished';
 
 const logger = require('../monitoring/logger');
 const { httpReqDuration, apiRequestsTotal } = require('./prometheus');
@@ -16,7 +16,7 @@ const { httpReqDuration, apiRequestsTotal } = require('./prometheus');
 /**
  * Security middleware configuration
  */
-function configureSecurityMiddleware(app) {
+function configureSecurityMiddleware(app: Application): void {
   app.use(helmet({
     contentSecurityPolicy: {
       directives: {
@@ -38,8 +38,8 @@ function configureSecurityMiddleware(app) {
 /**
  * Rate limiting configuration
  */
-function configureRateLimiting(app) {
-  const limiter = rateLimit({
+function configureRateLimiting(app: Application): void {
+  const limiter: RateLimitRequestHandler = rateLimit({
     windowMs: 60 * 1000, // 1 minute
     limit: 120, // Limit each IP to 120 requests per windowMs
     message: {
@@ -48,7 +48,7 @@ function configureRateLimiting(app) {
     },
     standardHeaders: true,
     legacyHeaders: false,
-    handler: (req, res, next) => {
+    handler: (req: Request, res: Response, next: NextFunction) => {
       logger.warn({
         ip: req.ip,
         path: req.path,
@@ -67,16 +67,16 @@ function configureRateLimiting(app) {
 /**
  * CORS configuration
  */
-function configureCors(app) {
-  app.use(cors({
-    origin: function (origin, callback) {
+function configureCors(app: Application): void {
+  const corsOptions: CorsOptions = {
+    origin: function (origin: string | undefined, callback: (err: Error | null, allow?: boolean) => void) {
       // 개발 환경에서는 origin이 undefined인 경우(Postman, curl 등) 허용
       if (process.env.NODE_ENV === 'development' && !origin) {
         return callback(null, true);
       }
       
-      const allowedOrigins = process.env.NODE_ENV === 'production' 
-        ? [process.env.FRONTEND_URL]
+      const allowedOrigins: string[] = process.env.NODE_ENV === 'production' 
+        ? [process.env.FRONTEND_URL].filter(Boolean) as string[]
         : [
             "http://localhost:3016", 
             "http://localhost:3017", 
@@ -93,9 +93,9 @@ function configureCors(app) {
             "http://127.0.0.1:5174",
             "http://127.0.0.1:8080",
             process.env.FRONTEND_URL
-          ].filter(Boolean);
+          ].filter(Boolean) as string[];
 
-      if (allowedOrigins.includes(origin) || process.env.NODE_ENV === 'development') {
+      if (allowedOrigins.includes(origin as string) || process.env.NODE_ENV === 'development') {
         callback(null, true);
       } else {
         console.warn(`CORS blocked origin: ${origin}`);
@@ -108,13 +108,15 @@ function configureCors(app) {
     exposedHeaders: ["X-Total-Count", "X-Page-Count"],
     optionsSuccessStatus: 200,
     preflightContinue: false
-  }));
+  };
+
+  app.use(cors(corsOptions));
 }
 
 /**
  * Body parsing middleware
  */
-function configureBodyParsing(app) {
+function configureBodyParsing(app: Application): void {
   app.use(express.json({ limit: '10mb' }));
   app.use(express.urlencoded({ limit: '10mb', extended: true }));
 }
@@ -122,7 +124,7 @@ function configureBodyParsing(app) {
 /**
  * Logging middleware
  */
-function configureLogging(app) {
+function configureLogging(app: Application): void {
   app.use(pinoHttp({ 
     logger,
     genReqId: () => Math.random().toString(36).substr(2, 9)
@@ -132,8 +134,8 @@ function configureLogging(app) {
 /**
  * Metrics and timing middleware
  */
-function configureMetrics(app) {
-  app.use((req, res, next) => {
+function configureMetrics(app: Application): void {
+  app.use((req: Request, res: Response, next: NextFunction) => {
     const start = Date.now();
     
     onFinished(res, () => {
@@ -142,12 +144,12 @@ function configureMetrics(app) {
       
       // Record HTTP request duration
       httpReqDuration
-        .labels(req.method, route, res.statusCode)
+        .labels(req.method, route, res.statusCode.toString())
         .observe(duration);
       
       // Count API requests
       apiRequestsTotal
-        .labels(req.method, req.path, res.statusCode)
+        .labels(req.method, req.path, res.statusCode.toString())
         .inc();
       
       logger.info({
@@ -167,7 +169,7 @@ function configureMetrics(app) {
 /**
  * Configure all middleware
  */
-function configureAllMiddleware(app) {
+function configureAllMiddleware(app: Application): void {
   configureSecurityMiddleware(app);
   configureRateLimiting(app);
   configureCors(app);
@@ -176,7 +178,7 @@ function configureAllMiddleware(app) {
   configureMetrics(app);
 }
 
-module.exports = {
+export {
   configureAllMiddleware,
   configureSecurityMiddleware,
   configureRateLimiting,

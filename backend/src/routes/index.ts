@@ -1,10 +1,11 @@
 /**
- * Routes Index - Central Router Configuration
+ * Routes Index - Central Router Configuration (TypeScript)
  * 모든 라우터를 통합 관리
  */
 
-const express = require('express');
-const { register } = require('../config/prometheus');
+import { Application, Request, Response } from 'express';
+import { register } from '../config/prometheus';
+
 const hybridCache = require('../utils/redisCache');
 const logger = require('../monitoring/logger');
 
@@ -14,12 +15,30 @@ const cardsRouter = require('./cards');
 const sessionsRouter = require('./sessions');
 const feedbackRouter = require('./feedback');
 
+interface HealthCheckResponse {
+  success: boolean;
+  status: string;
+  timestamp: string;
+  cache: any;
+  availableLevels: number[];
+  features: string[];
+}
+
+interface RootResponse {
+  success: boolean;
+  message: string;
+  version: string;
+  documentation: string;
+  health: string;
+  metrics: string;
+}
+
 /**
  * Configure system routes (health, metrics, etc.)
  */
-function configureSystemRoutes(app) {
+function configureSystemRoutes(app: Application): void {
   // Prometheus metrics endpoint
-  app.get('/metrics', async (req, res) => {
+  app.get('/metrics', async (req: Request, res: Response): Promise<void> => {
     try {
       const cacheStats = hybridCache.getStats();
       res.set('Content-Type', register.contentType);
@@ -31,9 +50,9 @@ function configureSystemRoutes(app) {
   });
 
   // Health check with cache status
-  app.get('/health', (req, res) => {
+  app.get('/health', (req: Request, res: Response): void => {
     const cacheStats = hybridCache.getStats();
-    res.json({ 
+    const response: HealthCheckResponse = { 
       success: true, 
       status: 'healthy',
       timestamp: new Date().toISOString(),
@@ -47,31 +66,33 @@ function configureSystemRoutes(app) {
         'redis-cache', 
         'prometheus-metrics'
       ]
-    });
+    };
+    res.json(response);
   });
 
   // Favicon handler
-  app.get('/favicon.ico', (req, res) => {
+  app.get('/favicon.ico', (req: Request, res: Response): void => {
     res.status(204).send();
   });
 
   // Root endpoint
-  app.get('/', (req, res) => {
-    res.json({
+  app.get('/', (req: Request, res: Response): void => {
+    const response: RootResponse = {
       success: true,
       message: 'DASI English API Server',
       version: '2.2.0',
       documentation: '/api-docs',
       health: '/health',
       metrics: '/metrics'
-    });
+    };
+    res.json(response);
   });
 }
 
 /**
  * Configure API routes
  */
-function configureApiRoutes(app) {
+function configureApiRoutes(app: Application): void {
   // Mount existing routers
   app.use('/api/curriculum', curriculumRouter);
   app.use('/api/cards', cardsRouter);
@@ -82,12 +103,12 @@ function configureApiRoutes(app) {
 /**
  * Configure all routes
  */
-function configureAllRoutes(app) {
+function configureAllRoutes(app: Application): void {
   configureSystemRoutes(app);
   configureApiRoutes(app);
 }
 
-module.exports = {
+export {
   configureAllRoutes,
   configureSystemRoutes,
   configureApiRoutes

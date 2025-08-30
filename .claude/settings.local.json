@@ -9,7 +9,9 @@
       "Bash(git rm:*)",
       "Bash(git add:*)",
       "Bash(grep:*)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)"
     ],
     "deny": [],
     "ask": [],

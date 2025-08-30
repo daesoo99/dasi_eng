@@ -2,13 +2,15 @@
   "name": "dasi-backend",
   "version": "1.0.0",
   "description": "Backend for DaSi English Speaking Learning App",
-  "main": "src/server-new.js",
+  "main": "dist/server.js",
   "scripts": {
-    "dev": "node src/server-new.js",
+    "dev": "ts-node src/server.ts",
+    "dev:js": "node src/server-new.js",
     "dev:old": "node src/server.js",
     "build": "tsc",
-    "start": "node src/server-new.js",
-    "start:old": "node src/server.js"
+    "start": "npm run build && node dist/server.js",
+    "start:dev": "ts-node src/server.ts",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [
     "node.js",
@@ -46,7 +48,9 @@
   "devDependencies": {
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
+    "@types/helmet": "^0.0.48",
     "@types/node": "^24.3.0",
+    "@types/on-finished": "^2.3.5",
     "@types/socket.io": "^3.0.1",
     "nodemon": "^3.1.4",
     "pino-pretty": "^13.1.1",

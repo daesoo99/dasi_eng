@@ -1,9 +1,9 @@
 /**
  * Prometheus Metrics Configuration
- * 모니터링 메트릭스 설정 분리
+ * 모니터링 메트릭스 설정 분리 (TypeScript)
  */
 
-const client = require('prom-client');
+import * as client from 'prom-client';
 
 // Prometheus metrics setup
 const Registry = client.Registry;
@@ -14,7 +14,7 @@ client.collectDefaultMetrics({ register });
 const httpReqDuration = new client.Histogram({
   name: 'http_request_duration_ms',
   help: 'HTTP request duration in milliseconds',
-  labelNames: ['method', 'route', 'status_code'],
+  labelNames: ['method', 'route', 'status_code'] as const,
   buckets: [50, 100, 200, 400, 800, 1600, 3200]
 });
 register.registerMetric(httpReqDuration);
@@ -23,7 +23,7 @@ register.registerMetric(httpReqDuration);
 const cacheHitRate = new client.Gauge({
   name: 'cache_hit_rate_total',
   help: 'Cache hit rate percentage',
-  labelNames: ['cache_type']
+  labelNames: ['cache_type'] as const
 });
 register.registerMetric(cacheHitRate);
 
@@ -31,7 +31,7 @@ register.registerMetric(cacheHitRate);
 const queueProcessingTime = new client.Histogram({
   name: 'queue_processing_time_ms',
   help: 'Queue task processing time in milliseconds',
-  labelNames: ['queue_type', 'task_type'],
+  labelNames: ['queue_type', 'task_type'] as const,
   buckets: [100, 500, 1000, 2000, 5000, 10000, 30000]
 });
 register.registerMetric(queueProcessingTime);
@@ -40,7 +40,7 @@ register.registerMetric(queueProcessingTime);
 const apiRequestsTotal = new client.Counter({
   name: 'api_requests_total',
   help: 'Total number of API requests',
-  labelNames: ['method', 'endpoint', 'status_code']
+  labelNames: ['method', 'endpoint', 'status_code'] as const
 });
 register.registerMetric(apiRequestsTotal);
 
@@ -48,11 +48,11 @@ register.registerMetric(apiRequestsTotal);
 const memoryUsage = new client.Gauge({
   name: 'nodejs_memory_usage_bytes',
   help: 'Node.js memory usage in bytes',
-  labelNames: ['type']
+  labelNames: ['type'] as const
 });
 register.registerMetric(memoryUsage);
 
-module.exports = {
+export {
   register,
   httpReqDuration,
   cacheHitRate,

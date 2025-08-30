@@ -1,29 +1,32 @@
 /**
- * DASI English API Server v2.2.0
+ * DASI English API Server v2.2.0 (TypeScript)
  * Modularized architecture for better maintainability
  * 
- * Original: 2,679 lines -> New: ~100 lines
+ * Original: 2,679 lines JS -> New: ~100 lines TS
  */
 
-const express = require('express');
-const http = require('http');
-const socketIo = require('socket.io');
-require('dotenv').config();
+import express, { Application } from 'express';
+import { createServer, Server } from 'http';
+import { Server as SocketIOServer } from 'socket.io';
+import { config } from 'dotenv';
 
 // Import modularized configurations
-const { configureAllMiddleware } = require('./config/middleware');
-const { configureAllRoutes } = require('./routes/index');
+import { configureAllMiddleware } from './config/middleware';
+import { configureAllRoutes } from './routes/index';
+
+config(); // Load environment variables
+
 const logger = require('./monitoring/logger');
 const { memoryMonitor } = require('./monitoring/memoryMonitor');
 const { globalErrorHandler, notFoundHandler } = require('./middleware/errorHandler');
 
 // Initialize Express app
-const app = express();
-const server = http.createServer(app);
-const io = socketIo(server, {
+const app: Application = express();
+const server: Server = createServer(app);
+const io: SocketIOServer = new SocketIOServer(server, {
   cors: {
     origin: process.env.NODE_ENV === 'production' 
-      ? [process.env.FRONTEND_URL] 
+      ? [process.env.FRONTEND_URL].filter(Boolean) as string[]
       : ["http://localhost:3500", "http://localhost:5173"],
     methods: ["GET", "POST"],
     credentials: true
@@ -50,9 +53,9 @@ app.use(notFoundHandler);
 app.use(globalErrorHandler);
 
 // Server startup
-const PORT = process.env.PORT || 8081;
+const PORT: number = parseInt(process.env.PORT || '8081', 10);
 
-function startServer() {
+function startServer(): void {
   server.listen(PORT, '0.0.0.0', () => {
     logger.info({
       port: PORT,
@@ -69,21 +72,16 @@ function startServer() {
 }
 
 // Graceful shutdown handling
-process.on('SIGTERM', () => {
-  logger.info('SIGTERM received. Starting graceful shutdown...');
+function gracefulShutdown(signal: string): void {
+  logger.info(`${signal} received. Starting graceful shutdown...`);
   server.close(() => {
     logger.info('Server closed successfully');
     process.exit(0);
   });
-});
+}
 
-process.on('SIGINT', () => {
-  logger.info('SIGINT received. Starting graceful shutdown...');
-  server.close(() => {
-    logger.info('Server closed successfully');
-    process.exit(0);
-  });
-});
+process.on('SIGTERM', () => gracefulShutdown('SIGTERM'));
+process.on('SIGINT', () => gracefulShutdown('SIGINT'));
 
 // Unhandled errors
 process.on('unhandledRejection', (reason, promise) => {
@@ -98,4 +96,4 @@ process.on('uncaughtException', (error) => {
 // Start the server
 startServer();
 
-module.exports = { app, server, io };
+export { app, server, io };
