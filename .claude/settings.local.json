@@ -7,7 +7,9 @@
       "Bash(git branch:*)",
       "Bash(git tag:*)",
       "Bash(git rm:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(grep:*)",
+      "Bash(node:*)"
     ],
     "deny": [],
     "ask": [],

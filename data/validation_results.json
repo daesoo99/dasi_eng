@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "created": "2025-08-30T18:49:30.882Z",
+    "created": "2025-08-30T18:57:08.063Z",
     "script": "validate-curriculum.js",
     "validation_rules_applied": [
       "Sequential Learning Guarantee Principle",

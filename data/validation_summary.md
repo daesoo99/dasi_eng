@@ -1,7 +1,7 @@
 # DaSi Curriculum Validation Report
 
 ## Executive Summary
-**Validation Date**: 2025-08-30T18:49:30.882Z
+**Validation Date**: 2025-08-30T18:57:08.063Z
 **Overall Compliance Score**: 14%
 **Total Stages Validated**: 466
 

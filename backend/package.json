@@ -2,11 +2,13 @@
   "name": "dasi-backend",
   "version": "1.0.0",
   "description": "Backend for DaSi English Speaking Learning App",
-  "main": "src/server.js",
+  "main": "src/server-new.js",
   "scripts": {
-    "dev": "ts-node src/server.js",
+    "dev": "node src/server-new.js",
+    "dev:old": "node src/server.js",
     "build": "tsc",
-    "start": "node dist/server.js"
+    "start": "node src/server-new.js",
+    "start:old": "node src/server.js"
   },
   "keywords": [
     "node.js",
