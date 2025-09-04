@@ -3,7 +3,7 @@
  */
 
 const axios = require('axios');
-const logger = require('../monitoring/logger');
+const logger = require('../../monitoring/logger');
 
 class ReviewEngineClient {
   constructor(options = {}) {

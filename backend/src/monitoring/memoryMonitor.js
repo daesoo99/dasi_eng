@@ -1,12 +1,8 @@
 const client = require('prom-client');
 const EventEmitter = require('events');
 
-// Memory leak monitoring
-const memoryUsageGauge = new client.Gauge({
-  name: 'nodejs_memory_usage_bytes',
-  help: 'Node.js memory usage in bytes',
-  labelNames: ['type']
-});
+// Memory leak monitoring - use shared registry to avoid conflicts
+const { memoryUsage } = require('../config/prometheus');
 
 const eventListenerCounter = new client.Gauge({
   name: 'nodejs_event_listeners_total',
@@ -44,11 +40,11 @@ class MemoryMonitor {
   collectMemoryMetrics() {
     const memory = process.memoryUsage();
     
-    // Update Prometheus metrics
-    memoryUsageGauge.labels('rss').set(memory.rss);
-    memoryUsageGauge.labels('heap_used').set(memory.heapUsed);
-    memoryUsageGauge.labels('heap_total').set(memory.heapTotal);
-    memoryUsageGauge.labels('external').set(memory.external);
+    // Update Prometheus metrics using shared memoryUsage gauge
+    memoryUsage.labels('rss').set(memory.rss);
+    memoryUsage.labels('heap_used').set(memory.heapUsed);
+    memoryUsage.labels('heap_total').set(memory.heapTotal);
+    memoryUsage.labels('external').set(memory.external);
 
     // Check for memory leaks
     if (memory.rss > this.maxRSSThreshold) {
@@ -165,7 +161,6 @@ const memoryMonitor = new MemoryMonitor();
 module.exports = {
   memoryMonitor,
   metrics: {
-    memoryUsageGauge,
     eventListenerCounter
   }
 };

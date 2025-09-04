@@ -15,6 +15,11 @@ const cardsRouter = require('./cards');
 const sessionsRouter = require('./sessions');
 const feedbackRouter = require('./feedback');
 
+// Import TypeScript routers
+const userRouter = require('./user');
+const contentRouter = require('./content');
+const expRouter = require('./exp');
+
 interface HealthCheckResponse {
   success: boolean;
   status: string;
@@ -98,6 +103,11 @@ function configureApiRoutes(app: Application): void {
   app.use('/api/cards', cardsRouter);
   app.use('/api/sessions', sessionsRouter);
   app.use('/api/feedback', feedbackRouter);
+  
+  // Mount TypeScript routers
+  app.use('/api/users', userRouter);
+  app.use('/api/content', contentRouter);
+  app.use('/api/exp', expRouter);
 }
 
 /**

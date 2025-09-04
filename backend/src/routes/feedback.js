@@ -45,7 +45,7 @@ router.post('/', async (req, res) => {
 
     logger.info(`🎤 피드백 요청: "${sttText}" vs "${target_en}"`);
 
-    // 간단한 규칙 기반 피드백 (추후 Gemini API로 확장)
+    // 간단한 규칙 기반 피드백 (AI 기능은 비활성화됨)
     const userAnswer = sttText.toLowerCase().trim();
     const targetAnswer = target_en.toLowerCase().trim();
     
@@ -59,15 +59,17 @@ router.post('/', async (req, res) => {
     let suggestions = [];
 
     if (isCorrect) {
-      feedback = '정확합니다! 잘했어요.';
+      feedback = '훌륭해요! 정확한 발음입니다. 🎉';
     } else {
-      feedback = '다시 시도해보세요.';
-      suggestions.push(`정답: ${target_en}`);
+      feedback = `점수: ${score}점. 계속 연습해보세요! 💪`;
+      suggestions.push(`목표 문장: ${target_en}`);
       
-      if (similarity > 0.5) {
-        suggestions.push('거의 맞았어요! 발음을 더 명확하게 해보세요.');
+      if (similarity > 0.6) {
+        suggestions.push('거의 다 왔어요! 조금만 더 정확하게 발음해보세요.');
+      } else if (similarity > 0.3) {
+        suggestions.push('단어 하나씩 천천히 따라해보세요.');
       } else {
-        suggestions.push('문법과 단어를 다시 확인해보세요.');
+        suggestions.push('처음부터 차근차근 연습해봐요.');
       }
     }
 

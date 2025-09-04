@@ -1,13 +1,5 @@
 import React, { useState, useCallback, useMemo, memo } from 'react';
-import { 
-  signInWithEmailAndPassword, 
-  createUserWithEmailAndPassword, 
-  signInWithPopup, 
-  GoogleAuthProvider,
-  signInAnonymously,
-  updateProfile
-} from 'firebase/auth';
-import { auth } from '../lib/firebase';
+import { getAuthService } from '../lib/firebase';
 
 interface AuthModalProps {
   isOpen: boolean;

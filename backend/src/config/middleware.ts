@@ -10,8 +10,9 @@ import rateLimit, { RateLimitRequestHandler } from 'express-rate-limit';
 import pinoHttp from 'pino-http';
 import onFinished from 'on-finished';
 
+import { httpReqDuration, apiRequestsTotal } from './prometheus';
+
 const logger = require('../monitoring/logger');
-const { httpReqDuration, apiRequestsTotal } = require('./prometheus');
 
 /**
  * Security middleware configuration
@@ -78,20 +79,10 @@ function configureCors(app: Application): void {
       const allowedOrigins: string[] = process.env.NODE_ENV === 'production' 
         ? [process.env.FRONTEND_URL].filter(Boolean) as string[]
         : [
-            "http://localhost:3016", 
-            "http://localhost:3017", 
-            "http://localhost:3018", 
-            "http://localhost:3019", 
-            "http://localhost:5173",
-            "http://localhost:5174",
-            "http://localhost:8080",
-            "http://127.0.0.1:3016", 
-            "http://127.0.0.1:3017", 
-            "http://127.0.0.1:3018", 
-            "http://127.0.0.1:3019", 
+            "http://localhost:3500",  // Main Vite dev server
+            "http://localhost:5173",  // Alternative Vite port
+            "http://127.0.0.1:3500",
             "http://127.0.0.1:5173",
-            "http://127.0.0.1:5174",
-            "http://127.0.0.1:8080",
             process.env.FRONTEND_URL
           ].filter(Boolean) as string[];
 

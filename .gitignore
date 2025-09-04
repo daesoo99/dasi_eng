@@ -61,13 +61,21 @@ Thumbs.db
 **/firebase-service-account*.json
 **/firebaseServiceAccountKey.json
 
-# Keep important JSON files
+# Keep important JSON files (exclude large data files)
 !package.json
 !package-lock.json
 !tsconfig.json
-!data/*.json
+!data/l*_meta.json
+!data/*_report.json
+!data/validation_*.json
 !patterns/**/*.json
 !banks/**/*.json
+
+# Exclude large data files (should be in external storage)
+data/classified_sentences.json
+data/extracted_sentences.json  
+data/unassigned_sentences.json
+data/reorganization_results.json
 
 # Additional build/cache outputs
 .next/

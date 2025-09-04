@@ -1,0 +1,119 @@
+/**
+ * QuestionCard - 문제 카드 컴포넌트
+ */
+
+import React from 'react';
+
+type Phase = 'idle' | 'tts' | 'countdown' | 'recognition' | 'waiting';
+type EvaluationType = 'correct' | 'incorrect';
+
+interface Question {
+  ko: string;
+  en: string;
+}
+
+interface QuestionCardProps {
+  currentQuestion: Question;
+  currentPhase: Phase;
+  countdownText: string;
+  showAnswer: boolean;
+  answerEvaluation: string;
+  evaluationType: EvaluationType;
+  recognitionResult: string;
+}
+
+export const QuestionCard: React.FC<QuestionCardProps> = ({
+  currentQuestion,
+  currentPhase,
+  countdownText,
+  showAnswer,
+  answerEvaluation,
+  evaluationType,
+  recognitionResult
+}) => {
+  const getPhaseDisplay = () => {
+    switch (currentPhase) {
+      case 'tts':
+        return (
+          <div className="bg-blue-100 border border-blue-300 rounded-lg p-4 mb-4">
+            <div className="flex items-center">
+              <div className="animate-pulse w-4 h-4 bg-blue-500 rounded-full mr-3"></div>
+              <span className="text-blue-700 font-medium">한국어 음성 재생 중...</span>
+            </div>
+          </div>
+        );
+        
+      case 'countdown':
+        return (
+          <div className="bg-yellow-100 border border-yellow-300 rounded-lg p-4 mb-4">
+            <div className="text-center">
+              <div className="text-3xl font-bold text-yellow-700 mb-2">{countdownText}</div>
+              <span className="text-yellow-600">영어로 답하세요</span>
+            </div>
+          </div>
+        );
+        
+      case 'recognition':
+        return (
+          <div className="bg-red-100 border border-red-300 rounded-lg p-4 mb-4">
+            <div className="flex items-center justify-center">
+              <div className="animate-pulse w-4 h-4 bg-red-500 rounded-full mr-3"></div>
+              <span className="text-red-700 font-medium">음성 인식 중... 말씀하세요</span>
+            </div>
+            {recognitionResult && (
+              <div className="mt-2 p-2 bg-white rounded border">
+                <span className="text-sm text-gray-600">인식된 내용: </span>
+                <span className="font-medium">{recognitionResult}</span>
+              </div>
+            )}
+          </div>
+        );
+        
+      case 'waiting':
+        return (
+          <div className="bg-green-100 border border-green-300 rounded-lg p-4 mb-4">
+            <div className="text-center">
+              <div className="text-green-700 font-medium">답변 처리 중...</div>
+              {answerEvaluation && (
+                <div className={`mt-2 p-3 rounded-lg ${
+                  evaluationType === 'correct' 
+                    ? 'bg-green-200 text-green-800' 
+                    : 'bg-red-200 text-red-800'
+                }`}>
+                  {answerEvaluation}
+                </div>
+              )}
+            </div>
+          </div>
+        );
+        
+      default:
+        return null;
+    }
+  };
+
+  return (
+    <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
+      <div className="text-center mb-8">
+        {/* Phase 상태 표시 */}
+        {getPhaseDisplay()}
+        
+        {/* 한국어 문제 */}
+        <div className="mb-8">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+            {currentQuestion.ko || '문제를 불러오는 중...'}
+          </h2>
+        </div>
+        
+        {/* 영어 답안 (필요시 표시) */}
+        {showAnswer && (
+          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+            <p className="text-lg text-blue-700 font-medium">
+              정답: {currentQuestion.en}
+            </p>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};

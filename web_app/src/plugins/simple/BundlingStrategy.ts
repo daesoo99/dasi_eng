@@ -130,7 +130,7 @@ export class PluginBundlingManager {
       'speech/simple',
       () => import(
         /* webpackChunkName: "feature-speech" */
-        './speech/SpeechFeatureChunk'
+        '../speech/SpeechFeatureChunk'
       ).then(m => ({ default: m.SimpleSpeechPlugin })),
       'lazy',
       'feature-speech'
@@ -140,7 +140,7 @@ export class PluginBundlingManager {
       'speech/advanced',
       () => import(
         /* webpackChunkName: "feature-speech" */
-        './speech/SpeechFeatureChunk'
+        '../speech/SpeechFeatureChunk'
       ).then(m => ({ default: m.AdvancedSpeechPlugin })),
       'lazy',
       'feature-speech'
@@ -186,83 +186,85 @@ export class PluginBundlingManager {
   // ===== Helper Methods =====
 
   private registerFuturePluginChunks(): void {
-    // Example future plugin registrations
+    // Example future plugin registrations - commented out until plugins exist
+    
+    // TODO: Uncomment when plugins are implemented
     
     // Analytics plugins
-    registerPluginLoader(
-      'analytics/google',
-      () => import(
-        /* webpackChunkName: "plugin-analytics-google" */
-        './analytics/GoogleAnalyticsPlugin'
-      ).then(m => ({ default: m.GoogleAnalyticsPlugin })),
-      'lazy',
-      'plugin-analytics-google'
-    );
+    // registerPluginLoader(
+    //   'analytics/google',
+    //   () => import(
+    //     /* webpackChunkName: "plugin-analytics-google" */
+    //     './analytics/GoogleAnalyticsPlugin'
+    //   ).then(m => ({ default: m.GoogleAnalyticsPlugin })),
+    //   'lazy',
+    //   'plugin-analytics-google'
+    // );
 
     // Payment plugins  
-    registerPluginLoader(
-      'payment/stripe',
-      () => import(
-        /* webpackChunkName: "plugin-payment-stripe" */
-        './payment/StripePaymentPlugin'
-      ).then(m => ({ default: m.StripePaymentPlugin })),
-      'lazy',
-      'plugin-payment-stripe'
-    );
+    // registerPluginLoader(
+    //   'payment/stripe',
+    //   () => import(
+    //     /* webpackChunkName: "plugin-payment-stripe" */
+    //     './payment/StripePaymentPlugin'
+    //   ).then(m => ({ default: m.StripePaymentPlugin })),
+    //   'lazy',
+    //   'plugin-payment-stripe'
+    // );
 
-    registerPluginLoader(
-      'payment/kakao',
-      () => import(
-        /* webpackChunkName: "plugin-payment-kakao" */
-        './payment/KakaoPaymentPlugin'
-      ).then(m => ({ default: m.KakaoPaymentPlugin })),
-      'lazy',
-      'plugin-payment-kakao'
-    );
+    // registerPluginLoader(
+    //   'payment/kakao',
+    //   () => import(
+    //     /* webpackChunkName: "plugin-payment-kakao" */
+    //     './payment/KakaoPaymentPlugin'
+    //   ).then(m => ({ default: m.KakaoPaymentPlugin })),
+    //   'lazy',
+    //   'plugin-payment-kakao'
+    // );
   }
 
   private registerAnalyticsFeatureChunk(): void {
-    // Multiple analytics plugins in one chunk
-    const analyticsChunkLoader = () => import(
-      /* webpackChunkName: "feature-analytics" */
-      './features/AnalyticsFeatureChunk'
-    );
+    // Multiple analytics plugins in one chunk - commented out until implemented
+    // const analyticsChunkLoader = () => import(
+    //   /* webpackChunkName: "feature-analytics" */
+    //   './features/AnalyticsFeatureChunk'
+    // );
 
-    registerPluginLoader(
-      'analytics/google',
-      () => analyticsChunkLoader().then(m => ({ default: m.GoogleAnalyticsPlugin })),
-      'lazy',
-      'feature-analytics'
-    );
+    // registerPluginLoader(
+    //   'analytics/google',
+    //   () => analyticsChunkLoader().then(m => ({ default: m.GoogleAnalyticsPlugin })),
+    //   'lazy',
+    //   'feature-analytics'
+    // );
 
-    registerPluginLoader(
-      'analytics/mixpanel',
-      () => analyticsChunkLoader().then(m => ({ default: m.MixpanelPlugin })),
-      'lazy',
-      'feature-analytics'
-    );
+    // registerPluginLoader(
+    //   'analytics/mixpanel',
+    //   () => analyticsChunkLoader().then(m => ({ default: m.MixpanelPlugin })),
+    //   'lazy',
+    //   'feature-analytics'
+    // );
   }
 
   private registerPaymentFeatureChunk(): void {
-    // Multiple payment plugins in one chunk
-    const paymentChunkLoader = () => import(
-      /* webpackChunkName: "feature-payment" */
-      './features/PaymentFeatureChunk'
-    );
+    // Multiple payment plugins in one chunk - commented out until implemented
+    // const paymentChunkLoader = () => import(
+    //   /* webpackChunkName: "feature-payment" */
+    //   './features/PaymentFeatureChunk'
+    // );
 
-    registerPluginLoader(
-      'payment/stripe',
-      () => paymentChunkLoader().then(m => ({ default: m.StripePlugin })),
-      'lazy',
-      'feature-payment'
-    );
+    // registerPluginLoader(
+    //   'payment/stripe',
+    //   () => paymentChunkLoader().then(m => ({ default: m.StripePlugin })),
+    //   'lazy',
+    //   'feature-payment'
+    // );
 
-    registerPluginLoader(
-      'payment/kakao',
-      () => paymentChunkLoader().then(m => ({ default: m.KakaoPayPlugin })),
-      'lazy',
-      'feature-payment'
-    );
+    // registerPluginLoader(
+    //   'payment/kakao',
+    //   () => paymentChunkLoader().then(m => ({ default: m.KakaoPayPlugin })),
+    //   'lazy',
+    //   'feature-payment'
+    // );
   }
 
   private registerLazyPlugins(): void {

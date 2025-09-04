@@ -1,7 +1,5 @@
 import { useState, useEffect } from 'react';
-import { User, onAuthStateChanged, signOut } from 'firebase/auth';
-import { doc, getDoc, setDoc, updateDoc } from 'firebase/firestore';
-import { auth, db } from '../lib/firebase';
+import { getAuthService, getFirestoreService } from '../lib/firebase';
 import { useAppStore } from '../store/useAppStore';
 
 interface UserProgress {
@@ -16,7 +14,7 @@ interface UserProgress {
 }
 
 export const useAuth = () => {
-  const [user, setUser] = useState<User | null>(null);
+  const [user, setUser] = useState<any | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [userProgress, setUserProgress] = useState<UserProgress | null>(null);
   const { setUser: setAppUser } = useAppStore();
@@ -24,7 +22,11 @@ export const useAuth = () => {
   useEffect(() => {
     console.log('[DEBUG] 🔐 Auth state 리스너 설정');
     
-    const unsubscribe = onAuthStateChanged(auth, async (firebaseUser) => {
+    const setupAuthListener = async () => {
+      const auth = await getAuthService();
+      const { onAuthStateChanged } = await import('firebase/auth');
+      
+      const unsubscribe = onAuthStateChanged(auth, async (firebaseUser) => {
       console.log('[DEBUG] 🔄 Auth state 변경:', firebaseUser?.uid || 'null');
       
       setUser(firebaseUser);
@@ -54,16 +56,21 @@ export const useAuth = () => {
         });
       }
       
-      setIsLoading(false);
-    });
+        setIsLoading(false);
+      });
 
-    return unsubscribe;
+      return unsubscribe;
+    };
+
+    setupAuthListener();
   }, [setAppUser, userProgress]);
 
   const loadUserProgress = async (userId: string): Promise<UserProgress | null> => {
     try {
       console.log('[DEBUG] 📊 사용자 진행도 로드 시도:', userId);
       
+      const db = await getFirestoreService();
+      const { doc, getDoc, setDoc } = await import('firebase/firestore');
       const userRef = doc(db, 'userProgress', userId);
       const userSnap = await getDoc(userRef);
       
@@ -105,6 +112,8 @@ export const useAuth = () => {
     try {
       console.log('[DEBUG] 📈 진행도 업데이트:', updates);
       
+      const db = await getFirestoreService();
+      const { doc, updateDoc } = await import('firebase/firestore');
       const userRef = doc(db, 'userProgress', user.uid);
       const updatedData = {
         ...updates,
@@ -140,6 +149,8 @@ export const useAuth = () => {
   const logout = async (): Promise<void> => {
     try {
       console.log('[DEBUG] 🚪 로그아웃 시도');
+      const auth = await getAuthService();
+      const { signOut } = await import('firebase/auth');
       await signOut(auth);
       console.log('[DEBUG] ✅ 로그아웃 성공');
     } catch (error) {
