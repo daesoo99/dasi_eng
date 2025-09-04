@@ -185,4 +185,49 @@ export class CachedContentAdapter implements ContentPort {
       misses: 0
     };
   }
+
+  // ContentPort 인터페이스의 새로운 메서드들 (캐시 지원)
+  async getLevel(levelId: string): Promise<any> {
+    const cacheKey = this.buildCacheKey('level', 'v1', { id: levelId });
+    
+    const cached = await this.getFromCache(cacheKey);
+    if (cached !== undefined) return cached;
+
+    const result = await this.upstream.getLevel(levelId);
+    await this.setToCache(cacheKey, result, this.getTTL('level'));
+    return result;
+  }
+
+  async getLevels(): Promise<any[]> {
+    const cacheKey = this.buildCacheKey('levels', 'v1', {});
+    
+    const cached = await this.getFromCache(cacheKey);
+    if (cached) return cached;
+
+    const result = await this.upstream.getLevels();
+    await this.setToCache(cacheKey, result, this.getTTL('levels'));
+    return result;
+  }
+
+  async getStage(stageId: string): Promise<any> {
+    const cacheKey = this.buildCacheKey('stage_info', 'v1', { id: stageId });
+    
+    const cached = await this.getFromCache(cacheKey);
+    if (cached !== undefined) return cached;
+
+    const result = await this.upstream.getStage(stageId);
+    await this.setToCache(cacheKey, result, this.getTTL('stage_info'));
+    return result;
+  }
+
+  async getCards(filters: any): Promise<any[]> {
+    const cacheKey = this.buildCacheKey('cards_filtered', 'v1', filters);
+    
+    const cached = await this.getFromCache(cacheKey);
+    if (cached) return cached;
+
+    const result = await this.upstream.getCards(filters);
+    await this.setToCache(cacheKey, result, this.getTTL('cards_filtered'));
+    return result;
+  }
 }

@@ -1,0 +1,346 @@
+{
+  "stage_id": "Lv1-P4-S15",
+  "title": "감사와 사과",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Thanks and apologies",
+  "examples": [
+    "Thank you! (variant 1)",
+    "Sorry. I was late. (variant 1)"
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
+  "phase": 4,
+  "stage_number": 15,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv1-P4-S15-001",
+      "kr": "감사합니다 very much!",
+      "en": "Thank you very much!",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-002",
+      "kr": "[한국어 번역]",
+      "en": "Thanks!",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-003",
+      "kr": "[한국어 번역]",
+      "en": "I apologize. I watched man.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-004",
+      "kr": "[한국어 번역]",
+      "en": "Thanks a lot!",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-005",
+      "kr": "[한국어 번역]",
+      "en": "Excuse me. I thought painter.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-006",
+      "kr": "감사합니다 very much for tea.",
+      "en": "Thank you very much for tea.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-007",
+      "kr": "[한국어 번역]",
+      "en": "Thanks a lot for Korea.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-008",
+      "kr": "[한국어 번역]",
+      "en": "Thanks a lot for lunch.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-009",
+      "kr": "[한국어 번역]",
+      "en": "Goodbye! How are you?",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-010",
+      "kr": "감사합니다 very much for table.",
+      "en": "Thank you very much for table.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-011",
+      "kr": "[한국어 번역]",
+      "en": "Thanks a lot for pencil.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-012",
+      "kr": "[한국어 번역]",
+      "en": "Thanks a lot for doctor.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-013",
+      "kr": "죄송합니다. I were pen.",
+      "en": "Sorry. I were pen.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-014",
+      "kr": "[한국어 번역]",
+      "en": "Thanks for school.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-015",
+      "kr": "감사합니다 for phone.",
+      "en": "Thank you for phone.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-016",
+      "kr": "[한국어 번역]",
+      "en": "I apologize. I were lunch.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-017",
+      "kr": "[한국어 번역]",
+      "en": "Good evening! How are you?",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-018",
+      "kr": "감사합니다 very much for work.",
+      "en": "Thank you very much for work.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-019",
+      "kr": "[한국어 번역]",
+      "en": "Thanks a lot for singer.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-020",
+      "kr": "감사합니다 for book.",
+      "en": "Thank you for book.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-021",
+      "kr": "죄송합니다. I got lunch.",
+      "en": "Sorry. I got lunch.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-022",
+      "kr": "감사합니다 for scientist.",
+      "en": "Thank you for scientist.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-023",
+      "kr": "[한국어 번역]",
+      "en": "Thanks a lot for farmer.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-024",
+      "kr": "[한국어 번역]",
+      "en": "How are you! How are you?",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-025",
+      "kr": "[한국어 번역]",
+      "en": "Thanks a lot for computer.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-026",
+      "kr": "[한국어 번역]",
+      "en": "Thanks a lot for driver.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-027",
+      "kr": "죄송합니다. I got bag.",
+      "en": "Sorry. I got bag.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-028",
+      "kr": "감사합니다!",
+      "en": "Thank you!",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-029",
+      "kr": "나는 죄송합니다. I knew office.",
+      "en": "I am sorry. I knew office.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-030",
+      "kr": "감사합니다 for office.",
+      "en": "Thank you for office.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-031",
+      "kr": "감사합니다 for Korea.",
+      "en": "Thank you for Korea.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-032",
+      "kr": "나는 죄송합니다. I had America.",
+      "en": "I am sorry. I had America.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-033",
+      "kr": "[한국어 번역]",
+      "en": "Thanks a lot for boy.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-034",
+      "kr": "[한국어 번역]",
+      "en": "Thanks for home.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-035",
+      "kr": "[한국어 번역]",
+      "en": "I apologize. I loved America.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-036",
+      "kr": "나는 fine! How are you?",
+      "en": "I am fine! How are you?",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-037",
+      "kr": "[한국어 번역]",
+      "en": "Thanks for family.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-038",
+      "kr": "[한국어 번역]",
+      "en": "Nice to meet you! How are you?",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-039",
+      "kr": "[한국어 번역]",
+      "en": "Excuse me. I were school.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-040",
+      "kr": "나는 죄송합니다. I went girl.",
+      "en": "I am sorry. I went girl.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-041",
+      "kr": "나는 죄송합니다. I liked actor.",
+      "en": "I am sorry. I liked actor.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-042",
+      "kr": "[한국어 번역]",
+      "en": "Excuse me. I watched breakfast.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-043",
+      "kr": "나는 죄송합니다. I was ball.",
+      "en": "I am sorry. I was ball.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-044",
+      "kr": "죄송합니다. I liked table.",
+      "en": "Sorry. I liked table.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-045",
+      "kr": "감사합니다 for pencil.",
+      "en": "Thank you for pencil.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-046",
+      "kr": "좋은 아침이에요! How are you?",
+      "en": "Good morning! How are you?",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-047",
+      "kr": "[한국어 번역]",
+      "en": "Take care! How are you?",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-048",
+      "kr": "[한국어 번역]",
+      "en": "Excuse me. I knew friend.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-049",
+      "kr": "죄송합니다. I was work.",
+      "en": "Sorry. I was work.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S15-050",
+      "kr": "나는 죄송합니다. I were tea.",
+      "en": "I am sorry. I were tea.",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 50,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L1_Sequential_Generation_v2.2.0",
+  "metadata": {
+    "generated_at": "2025-09-01T21:31:07.803Z",
+    "generation_version": "2.2.0",
+    "sequential_learning_verified": true,
+    "allowed_grammar": [
+      "be_verb_present",
+      "simple_present",
+      "simple_past",
+      "will_future",
+      "negation_basic",
+      "questions_yes_no",
+      "questions_wh_basic",
+      "imperatives",
+      "personal_pronouns",
+      "basic_adjectives",
+      "prepositions_place_basic",
+      "prepositions_time_basic",
+      "there_is_are",
+      "greeting_expressions",
+      "thanks_apologies"
+    ]
+  }
+}

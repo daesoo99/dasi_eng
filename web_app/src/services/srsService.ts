@@ -1,3 +1,16 @@
+/**
+ * @deprecated 이 서비스는 deprecated입니다.
+ * 새 프로젝트에서는 services/srs/SRSEngine.ts와 hooks/useSRSEngine.ts를 사용하세요.
+ * 
+ * 마이그레이션 가이드:
+ * - SRSService → useSRSEngine hook 사용
+ * - calculateNextReview() → SRSEngine.updateCard()
+ * - getCardsForReview() → useSRSEngine.getDueCards()
+ * - addCardToSRS() → useSRSEngine.addCard()
+ * 
+ * 2025-01-12: SSOT 시스템으로 통합 중
+ */
+
 // SRS (Spaced Repetition System) - 망각곡선 기반 복습 시스템
 
 export interface SRSCard {
@@ -335,4 +348,11 @@ class SRSService {
   }
 }
 
+/**
+ * @deprecated srsService는 deprecated입니다.
+ * 대신 useSRSEngine hook을 사용하세요:
+ * 
+ * import { useSRSEngine } from '@/hooks/useSRSEngine';
+ * const srs = useSRSEngine({ userId: 'your-user-id' });
+ */
 export const srsService = new SRSService();

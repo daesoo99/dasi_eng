@@ -1,0 +1,44 @@
+{
+  "levelInfo": {
+    "level": 10,
+    "title": "원어민 수준 마스터리",
+    "description": "원어민 수준의 자연스럽고 정교한 영어 표현, 문화적 뉘앙스와 함축적 의미를 완벽하게 구사합니다.",
+    "totalPhases": 10,
+    "totalStages": 50,
+    "estimatedHours": 150
+  },
+  "phases": [
+    {
+      "phase": 1,
+      "title": "원어민급 표현 마스터리",
+      "stages": [
+        {
+          "stageId": "Lv10-P1-S01",
+          "title": "미묘한 뉘앙스 표현",
+          "sentences": [
+            {
+              "ko": "그 제안이 표면적으로는 합리적이지만 이면에 숨겨진 의도가 있을 수 있습니다",
+              "en": "While the proposal appears reasonable on the surface, there might be underlying motives"
+            },
+            {
+              "ko": "이 문제에 대한 접근 방식이 다소 단편적이라는 인상을 받았습니다",
+              "en": "I got the impression that the approach to this issue was somewhat fragmentary"
+            },
+            {
+              "ko": "전반적인 분위기를 고려할 때 지금이 적절한 시기가 아닐 수도 있습니다",
+              "en": "Given the overall atmosphere, this might not be the most opportune moment"
+            },
+            {
+              "ko": "그 발언의 진정한 함의를 이해하는 데 시간이 걸렸습니다",
+              "en": "It took time to grasp the true implications of that statement"
+            },
+            {
+              "ko": "상황의 미묘한 변화가 전체적인 역학관계에 영향을 미칠 것입니다",
+              "en": "Subtle changes in the situation will influence the overall dynamics"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

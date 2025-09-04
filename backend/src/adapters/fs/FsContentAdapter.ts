@@ -12,7 +12,7 @@ export class FsContentAdapter implements ContentPort {
   private cardCache: Map<string, DrillCard[]> = new Map();
   private readonly baseDir: string;
 
-  constructor(baseDir: string = 'web_app/public/patterns/banks') {
+  constructor(baseDir: string = '../web_app/public/patterns/banks') {
     this.baseDir = baseDir;
   }
 
@@ -55,7 +55,10 @@ export class FsContentAdapter implements ContentPort {
       const filename = `Lv${level}-P1-S${String(stage).padStart(2, '0')}_bank.json`;
       const filePath = join(this.baseDir, `level_${level}`, filename);
       
+      console.log(`📁 FsContentAdapter: Looking for file at ${filePath}`);
+      
       if (!existsSync(filePath)) {
+        console.log(`❌ File not found: ${filePath}`);
         return [];
       }
 
@@ -63,10 +66,14 @@ export class FsContentAdapter implements ContentPort {
       const data = JSON.parse(fileContent);
       
       // JSON 구조를 DrillCard 형태로 변환
-      const cards: DrillCard[] = (data.patterns || data.cards || []).map((item: any, index: number) => ({
+      // Level 4+ JSON 파일은 sentences 배열 구조 사용
+      const sourceArray = data.sentences || data.patterns || data.cards || [];
+      const cards: DrillCard[] = sourceArray.map((item: any, index: number) => ({
         id: `${cacheKey}-${index}`,
         front_ko: item.korean || item.front_ko || '',
         back_en: item.english || item.back_en || '',
+        target_en: item.english || item.back_en || '', // StudyPage에서 target_en 필드 필요
+        kr: item.korean || item.front_ko || '', // StudyPage에서 kr 필드 필요
         level: level,
         stage: stage,
         difficulty: item.difficulty || this.calculateDifficulty(level, stage),
@@ -132,5 +139,58 @@ export class FsContentAdapter implements ContentPort {
   private calculateDifficulty(level: number, stage: number): number {
     // 간단한 난이도 계산 로직
     return Math.min(5.0, level + (stage * 0.1));
+  }
+
+  // ContentPort 인터페이스의 새로운 메서드들
+  async getLevel(levelId: string): Promise<any> {
+    // 레벨 ID에서 숫자 추출
+    const levelNum = parseInt(levelId.replace(/\D/g, ''));
+    if (isNaN(levelNum)) return null;
+
+    return {
+      id: levelId,
+      name: `Level ${levelNum}`,
+      level: levelNum,
+      description: `Level ${levelNum} content`,
+      totalStages: 20
+    };
+  }
+
+  async getLevels(): Promise<any[]> {
+    // 1-10 레벨 반환
+    return Array.from({ length: 10 }, (_, i) => ({
+      id: `level_${i + 1}`,
+      name: `Level ${i + 1}`,
+      level: i + 1,
+      description: `Level ${i + 1} content`,
+      totalStages: 20
+    }));
+  }
+
+  async getStage(stageId: string): Promise<any> {
+    // 스테이지 ID 파싱 (예: "L1-S1")
+    const match = stageId.match(/L(\d+)-S(\d+)/);
+    if (!match) return null;
+
+    const [, level, stage] = match;
+    return {
+      id: stageId,
+      name: `Stage ${stage}`,
+      level: parseInt(level),
+      stage: parseInt(stage),
+      description: `Level ${level} Stage ${stage} content`
+    };
+  }
+
+  async getCards(filters: any): Promise<any[]> {
+    const { level, stage, limit, offset } = filters;
+    const query: CardQuery = {
+      level,
+      stage,
+      limit: limit || 20,
+      offset: offset || 0
+    };
+    
+    return await this.findCards(query);
   }
 }

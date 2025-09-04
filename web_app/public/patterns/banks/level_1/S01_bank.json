@@ -259,7 +259,7 @@
     "wh_q": 0,
     "unknown": 0
   },
-  "status": "incomplete",
+  "status": "complete",
   "batch": "L1_Reorganization_Batch",
   "metadata": {
     "reorganized_at": "2025-08-28T11:08:55.692Z",

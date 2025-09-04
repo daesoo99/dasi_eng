@@ -1,0 +1,347 @@
+{
+  "stage_id": "Lv1-P4-S16",
+  "title": "긍정 및 부정 답변",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Basic responses",
+  "examples": [
+    "Yes, I do. (variant 1)",
+    "Maybe next time. (variant 1)"
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
+  "phase": 4,
+  "stage_number": 16,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv1-P4-S16-001",
+      "kr": "[한국어 번역]",
+      "en": "Of course.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-002",
+      "kr": "Do you write? Maybe 아니요t.",
+      "en": "Do you write? Maybe not.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-003",
+      "kr": "[한국어 번역]",
+      "en": "Thanks a lot for your help.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-004",
+      "kr": "[한국어 번역]",
+      "en": "Do you hate? Of course.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-005",
+      "kr": "[한국어 번역]",
+      "en": "Absolutely, I read pencil.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-006",
+      "kr": "[한국어 번역]",
+      "en": "Absolutely.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-007",
+      "kr": "[한국어 번역]",
+      "en": "That is right, I watch office.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-008",
+      "kr": "[한국어 번역]",
+      "en": "Do you call? Absolutely.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-009",
+      "kr": "[한국어 번역]",
+      "en": "Absolutely, I listen scientist.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-010",
+      "kr": "[한국어 번역]",
+      "en": "Do you understand? Sure.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-011",
+      "kr": "감사합니다 for your help.",
+      "en": "Thank you for your help.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-012",
+      "kr": "[한국어 번역]",
+      "en": "Sure, I go school.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-013",
+      "kr": "[한국어 번역]",
+      "en": "Absolutely, I love scientist.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-014",
+      "kr": "네.",
+      "en": "Yes.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-015",
+      "kr": "[한국어 번역]",
+      "en": "Do you work? That is right.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-016",
+      "kr": "[한국어 번역]",
+      "en": "Sure, I have home.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-017",
+      "kr": "[한국어 번역]",
+      "en": "Do you eat? Perhaps.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-018",
+      "kr": "[한국어 번역]",
+      "en": "Sure, I meet singer.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-019",
+      "kr": "[한국어 번역]",
+      "en": "Sure.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-020",
+      "kr": "[한국어 번역]",
+      "en": "Do you love? Probably.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-021",
+      "kr": "[한국어 번역]",
+      "en": "Absolutely, I need pencil.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-022",
+      "kr": "[한국어 번역]",
+      "en": "That is right, I have school.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-023",
+      "kr": "감사합니다 very much for your help.",
+      "en": "Thank you very much for your help.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-024",
+      "kr": "[한국어 번역]",
+      "en": "Sure, I go teacher.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-025",
+      "kr": "[한국어 번역]",
+      "en": "Do you eat? I think so.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-026",
+      "kr": "[한국어 번역]",
+      "en": "Sure, I speak name.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-027",
+      "kr": "That is right, 나는 공부해요 music.",
+      "en": "That is right, I study music.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-028",
+      "kr": "[한국어 번역]",
+      "en": "Absolutely, I feel school.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-029",
+      "kr": "[한국어 번역]",
+      "en": "Sure, I understand computer.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-030",
+      "kr": "[한국어 번역]",
+      "en": "That is right.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-031",
+      "kr": "[한국어 번역]",
+      "en": "Do you hear? Maybe.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-032",
+      "kr": "[한국어 번역]",
+      "en": "That is right, I meet man.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-033",
+      "kr": "Do you write? 나는 아니요t sure.",
+      "en": "Do you write? I am not sure.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-034",
+      "kr": "Do you hear? 나는 아니요t sure.",
+      "en": "Do you hear? I am not sure.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-035",
+      "kr": "[한국어 번역]",
+      "en": "That is right, I feel table.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-036",
+      "kr": "[한국어 번역]",
+      "en": "Do you work? Maybe.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-037",
+      "kr": "Do you drink? 나는 아니요t sure.",
+      "en": "Do you drink? I am not sure.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-038",
+      "kr": "[한국어 번역]",
+      "en": "Do you eat? Sure.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-039",
+      "kr": "[한국어 번역]",
+      "en": "Do you understand? Of course.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-040",
+      "kr": "[한국어 번역]",
+      "en": "Do you see? Absolutely.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-041",
+      "kr": "That is right, I k아니요w actor.",
+      "en": "That is right, I know actor.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-042",
+      "kr": "네, I like pen.",
+      "en": "Yes, I like pen.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-043",
+      "kr": "[한국어 번역]",
+      "en": "Absolutely, I call home.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-044",
+      "kr": "[한국어 번역]",
+      "en": "Do you feel? Perhaps.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-045",
+      "kr": "[한국어 번역]",
+      "en": "Absolutely, I call coffee.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-046",
+      "kr": "[한국어 번역]",
+      "en": "Thanks for your help.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-047",
+      "kr": "[한국어 번역]",
+      "en": "Do you love? Absolutely.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-048",
+      "kr": "[한국어 번역]",
+      "en": "Do you go? Probably.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-049",
+      "kr": "[한국어 번역]",
+      "en": "Absolutely, I listen police officer.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S16-050",
+      "kr": "네, I hate coffee.",
+      "en": "Yes, I hate coffee.",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 50,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L1_Sequential_Generation_v2.2.0",
+  "metadata": {
+    "generated_at": "2025-09-01T21:31:07.808Z",
+    "generation_version": "2.2.0",
+    "sequential_learning_verified": true,
+    "allowed_grammar": [
+      "be_verb_present",
+      "simple_present",
+      "simple_past",
+      "will_future",
+      "negation_basic",
+      "questions_yes_no",
+      "questions_wh_basic",
+      "imperatives",
+      "personal_pronouns",
+      "basic_adjectives",
+      "prepositions_place_basic",
+      "prepositions_time_basic",
+      "there_is_are",
+      "greeting_expressions",
+      "thanks_apologies",
+      "basic_responses"
+    ]
+  }
+}

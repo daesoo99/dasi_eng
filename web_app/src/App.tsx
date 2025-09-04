@@ -1,5 +1,5 @@
 import React, { useEffect, Suspense, lazy } from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { useAppStore } from '@/store/useAppStore';
 import { LoadingSkeleton } from '@/components/LoadingSkeleton';
 import { ErrorBoundary } from '@/components/ErrorBoundary';
@@ -25,10 +25,11 @@ const AudioV2TestPage = lazy(() => import('@/pages/AudioV2TestPage').then(m => (
 const SpeedModePage = lazy(() => import('@/pages/SpeedModePage'));
 const StageFocusPage = lazy(() => import('@/pages/StageFocusPage'));
 const AllModePage = lazy(() => import('@/pages/AllModePage').then(m => ({ default: m.AllModePage })));
-const PatternTrainingPage = lazy(() => import('@/pages/PatternTrainingPage').then(m => ({ default: m.PatternTrainingPage })));
+const PatternTrainingPage = lazy(() => import('@/pages/PatternTrainingPageV2').then(m => ({ default: m.default })));
 const PatternTestPage = lazy(() => import('@/pages/PatternTestPage').then(m => ({ default: m.PatternTestPage })));
 const SituationalTrainingPage = lazy(() => import('@/pages/SituationalTrainingPage').then(m => ({ default: m.SituationalTrainingPage })));
 const SentenceServiceTest = lazy(() => import('@/components/SentenceServiceTest').then(m => ({ default: m.SentenceServiceTest })));
+const CurriculumDemo = lazy(() => import('@/services/curriculum/CurriculumDemo').then(m => ({ default: m.CurriculumDemo })));
 
 function App() {
   const { setUser } = useAppStore();
@@ -109,7 +110,9 @@ function App() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="flex justify-between items-center h-16">
                 <div className="flex items-center space-x-4">
-                  <h1 className="text-xl font-bold text-gray-900">DaSi English</h1>
+                  <Link to="/" className="text-xl font-bold text-gray-900 hover:text-indigo-600 transition-colors cursor-pointer">
+                    DaSi English
+                  </Link>
                 </div>
                 <UserProfile />
               </div>
@@ -138,6 +141,7 @@ function App() {
           <Route path="/pattern-test" element={<PatternTestPage />} />
           <Route path="/situational-training" element={<SituationalTrainingPage />} />
           <Route path="/sentence-test" element={<SentenceServiceTest />} />
+          <Route path="/curriculum-demo" element={<CurriculumDemo />} />
           {/* 안전장치: 알 수 없는 경로는 랜딩으로 */}
           <Route path="*" element={<LandingHome />} />
             </Routes>

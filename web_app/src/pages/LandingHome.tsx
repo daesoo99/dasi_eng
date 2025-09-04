@@ -100,6 +100,10 @@ export const LandingHome: React.FC = () => {
     navigate('/dashboard');
   };
 
+  const handleProgressManagement = () => {
+    navigate('/progress'); // 진도관리 페이지로 이동
+  };
+
   // 통계 애니메이션 및 스테이지 모달 이벤트 리스너
   useEffect(() => {
     const animateStats = () => {
@@ -194,11 +198,11 @@ export const LandingHome: React.FC = () => {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
               <button
-                onClick={() => showComingSoon('진도관리')}
-                className="group relative bg-white border-2 border-gray-200 rounded-2xl p-6 cursor-pointer transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl hover:border-amber-500 text-left overflow-hidden opacity-70"
+                onClick={handleProgressManagement}
+                className="group relative bg-white border-2 border-gray-200 rounded-2xl p-6 cursor-pointer transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl hover:border-amber-500 text-left overflow-hidden"
               >
-                <div className="absolute top-4 right-4 bg-gray-500 text-white text-xs px-2 py-1 rounded-lg font-bold">
-                  준비중
+                <div className="absolute top-4 right-4 bg-green-500 text-white text-xs px-2 py-1 rounded-lg font-bold">
+                  SRS 활성
                 </div>
                 <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-amber-500 to-orange-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
                 <div className="text-4xl mb-4">📊</div>

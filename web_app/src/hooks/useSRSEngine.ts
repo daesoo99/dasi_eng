@@ -10,7 +10,14 @@
 
 import { useCallback, useMemo, useRef } from 'react';
 import { useLocalStorage } from './useLocalStorage';
-import { SRSEngine, ReviewCard, ReviewSession, SRSConfig } from '@/services/srs/SRSEngine';
+import { 
+  ISRSEngine, 
+  ReviewCard, 
+  ReviewSession, 
+  SRSConfig 
+} from '../services/srs/interfaces/ISRSEngine';
+import { getGlobalSRSContainer } from '../services/srs/container/SRSContainer';
+import { SRS_SERVICES } from '../services/srs/container/SRSContainer';
 
 export interface UseSRSEngineConfig {
   userId: string;
@@ -60,8 +67,21 @@ export const useSRSEngine = ({
   storageKey = 'srs-cards'
 }: UseSRSEngineConfig): UseSRSEngineReturn => {
   
-  // SRS 엔진 인스턴스
-  const engineRef = useRef<SRSEngine>(new SRSEngine(srsConfig));
+  // 모듈화된 SRS 엔진 인스턴스 (컨테이너에서 주입)
+  const engineRef = useRef<ISRSEngine | null>(null);
+  
+  // 엔진 초기화 (첫 렌더링시에만)
+  if (!engineRef.current) {
+    const container = getGlobalSRSContainer();
+    const engine = container.resolve<ISRSEngine>(SRS_SERVICES.ENGINE);
+    
+    // 사용자 설정이 있다면 적용
+    if (Object.keys(srsConfig).length > 0) {
+      engine.updateConfig(srsConfig);
+    }
+    
+    engineRef.current = engine;
+  }
   
   // 로컬 스토리지에서 카드 데이터 관리
   const { 
@@ -71,16 +91,31 @@ export const useSRSEngine = ({
 
   // 복습 예정 카드들 (메모이제이션)
   const dueCards = useMemo(() => {
+    if (!engineRef.current) return [];
     return engineRef.current.getCardsForReview(cards);
   }, [cards]);
 
   // 학습 통계 (메모이제이션)
   const stats = useMemo(() => {
+    if (!engineRef.current) {
+      return {
+        totalCards: 0,
+        dueForReview: 0,
+        averageMemoryStrength: 0,
+        masteredCards: 0,
+        learningCards: 0,
+        avgAccuracy: 0,
+        avgResponseTime: 0
+      };
+    }
     return engineRef.current.calculateStats(cards);
   }, [cards]);
 
   // 새 카드 추가
   const addCard = useCallback((content: ReviewCard['content']): ReviewCard => {
+    if (!engineRef.current) {
+      throw new Error('SRS 엔진이 초기화되지 않았습니다.');
+    }
     const newCard = engineRef.current.createCard(content);
     
     setCards(prevCards => {
@@ -112,6 +147,7 @@ export const useSRSEngine = ({
         return prevCards;
       }
       
+      if (!engineRef.current) return prevCards;
       const updatedCard = engineRef.current.updateCard(prevCards[cardIndex], session);
       const newCards = [...prevCards];
       newCards[cardIndex] = updatedCard;
@@ -132,6 +168,7 @@ export const useSRSEngine = ({
 
   // 복습 예정 카드들 가져오기
   const getDueCards = useCallback(() => {
+    if (!engineRef.current) return [];
     return engineRef.current.getCardsForReview(cards);
   }, [cards]);
 
@@ -159,6 +196,7 @@ export const useSRSEngine = ({
     updateCard(cardId, session);
     
     // 업데이트된 카드 반환
+    if (!engineRef.current) return null;
     return engineRef.current.updateCard(card, session);
   }, [getCardById, updateCard]);
 
@@ -210,13 +248,19 @@ export const useSRSEngine = ({
 
   // 엔진 설정 업데이트
   const updateConfig = useCallback((config: Partial<SRSConfig>) => {
-    // 새 설정으로 엔진 재생성
-    engineRef.current = new SRSEngine({ ...engineRef.current.getConfig(), ...config });
+    if (!engineRef.current) {
+      console.warn('SRS 엔진이 초기화되지 않았습니다.');
+      return;
+    }
+    engineRef.current.updateConfig(config);
     console.log('SRS 엔진 설정이 업데이트되었습니다.');
   }, []);
 
   // 현재 엔진 설정 반환
   const getConfig = useCallback(() => {
+    if (!engineRef.current) {
+      throw new Error('SRS 엔진이 초기화되지 않았습니다.');
+    }
     return engineRef.current.getConfig();
   }, []);
 

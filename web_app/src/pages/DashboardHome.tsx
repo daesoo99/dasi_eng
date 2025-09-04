@@ -1,5 +1,7 @@
 import React, { useEffect, useState, useCallback, useMemo, memo } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
+import { useAppStore, useUser } from '@/store/useAppStore';
+import { useStatistics } from '@/hooks/useStatistics';
 
 export const DashboardHome: React.FC = memo(() => {
   const navigate = useNavigate();
@@ -9,6 +11,21 @@ export const DashboardHome: React.FC = memo(() => {
   const [selectedStage, setSelectedStage] = useState<number | string | null>(null);
   const [currentView, setCurrentView] = useState<'levels' | 'stage' | 'review' | 'stats' | 'curve' | 'situational'>('levels');
   const [currentTab, setCurrentTab] = useState<'pattern' | 'situational'>('pattern');
+
+  // 사용자 상태 및 통계 Hook
+  const user = useUser();
+  const { 
+    metrics, 
+    levelProgress, 
+    formattedMetrics, 
+    isLoading: statsLoading, 
+    error: statsError,
+    refresh: refreshStats 
+  } = useStatistics({ 
+    userId: user.id,
+    enabled: !!user.id,
+    refreshInterval: 5 * 60 * 1000 // 5분마다 자동 새로고침
+  });
 
   // URL 파라미터 확인하여 바로 스테이지 뷰 열기
   useEffect(() => {
@@ -84,7 +101,7 @@ export const DashboardHome: React.FC = memo(() => {
       verbs: ["buy", "sell", "use", "try", "find"],
       targetAccuracy: 85,
       targetSpeed: 2.0,
-      stages: 10,
+      stages: 32,
       stageVerbs: {
         1: ["buy"], 2: ["sell"], 3: ["use"], 4: ["try"], 5: ["find"],
         6: ["buy", "sell"], 7: ["use", "try"], 8: ["find", "buy"], 9: ["sell", "use"], 10: ["buy", "sell", "use", "try", "find"]
@@ -97,7 +114,7 @@ export const DashboardHome: React.FC = memo(() => {
       verbs: ["give", "tell", "show", "meet", "help"],
       targetAccuracy: 88,
       targetSpeed: 1.5,
-      stages: 10,
+      stages: 30,
       stageVerbs: {
         1: ["give"], 2: ["tell"], 3: ["show"], 4: ["meet"], 5: ["help"],
         6: ["give", "tell"], 7: ["show", "meet"], 8: ["help", "give"], 9: ["tell", "show"], 10: ["give", "tell", "show", "meet", "help"]
@@ -110,7 +127,7 @@ export const DashboardHome: React.FC = memo(() => {
       verbs: ["come", "leave", "start", "finish", "plan"],
       targetAccuracy: 88,
       targetSpeed: 1.5,
-      stages: 10,
+      stages: 44,
       stageVerbs: {
         1: ["come"], 2: ["leave"], 3: ["start"], 4: ["finish"], 5: ["plan"],
         6: ["come", "leave"], 7: ["start", "finish"], 8: ["plan", "come"], 9: ["leave", "start"], 10: ["come", "leave", "start", "finish", "plan"]
@@ -123,7 +140,7 @@ export const DashboardHome: React.FC = memo(() => {
       verbs: ["choose", "decide", "prefer", "expect", "suppose"],
       targetAccuracy: 90,
       targetSpeed: 1.2,
-      stages: 10,
+      stages: 42,
       stageVerbs: {
         1: ["choose"], 2: ["decide"], 3: ["prefer"], 4: ["expect"], 5: ["suppose"],
         6: ["choose", "decide"], 7: ["prefer", "expect"], 8: ["suppose", "choose"], 9: ["decide", "prefer"], 10: ["choose", "decide", "prefer", "expect", "suppose"]
@@ -136,7 +153,7 @@ export const DashboardHome: React.FC = memo(() => {
       verbs: ["keep", "let", "allow", "suggest", "recommend"],
       targetAccuracy: 90,
       targetSpeed: 1.2,
-      stages: 10,
+      stages: 50,
       stageVerbs: {
         1: ["keep"], 2: ["let"], 3: ["allow"], 4: ["suggest"], 5: ["recommend"],
         6: ["keep", "let"], 7: ["allow", "suggest"], 8: ["recommend", "keep"], 9: ["let", "allow"], 10: ["keep", "let", "allow", "suggest", "recommend"]
@@ -149,7 +166,7 @@ export const DashboardHome: React.FC = memo(() => {
       verbs: ["improve", "reduce", "compare", "analyze", "design"],
       targetAccuracy: 92,
       targetSpeed: 1.0,
-      stages: 10,
+      stages: 48,
       stageVerbs: {
         1: ["improve"], 2: ["reduce"], 3: ["compare"], 4: ["analyze"], 5: ["design"],
         6: ["improve", "reduce"], 7: ["compare", "analyze"], 8: ["design", "improve"], 9: ["reduce", "compare"], 10: ["improve", "reduce", "compare", "analyze", "design"]
@@ -162,7 +179,7 @@ export const DashboardHome: React.FC = memo(() => {
       verbs: ["coordinate", "negotiate", "prioritize", "implement", "evaluate"],
       targetAccuracy: 95,
       targetSpeed: 1.0,
-      stages: 10,
+      stages: 50,
       stageVerbs: {
         1: ["coordinate"], 2: ["negotiate"], 3: ["prioritize"], 4: ["implement"], 5: ["evaluate"],
         6: ["coordinate", "negotiate"], 7: ["prioritize", "implement"], 8: ["evaluate", "coordinate"], 9: ["negotiate", "prioritize"], 10: ["coordinate", "negotiate", "prioritize", "implement", "evaluate"]
@@ -378,14 +395,14 @@ export const DashboardHome: React.FC = memo(() => {
       { 
         level: 2, 
         completed: false, 
-        progress: 15, 
-        bestAccuracy: 85, 
-        attempts: 6,
+        progress: 0,  // Level 1 완료 전까지 0%
+        bestAccuracy: 0, 
+        attempts: 0,
         stages: [
-          { stage: 1, completed: true, accuracy: 82, attempts: 2 },
-          { stage: 2, completed: true, accuracy: 88, attempts: 1 },
-          { stage: 3, completed: true, accuracy: 85, attempts: 3 },
-          { stage: 4, completed: false, accuracy: 75, attempts: 2 },
+          { stage: 1, completed: false, accuracy: 0, attempts: 0 },
+          { stage: 2, completed: false, accuracy: 0, attempts: 0 },
+          { stage: 3, completed: false, accuracy: 0, attempts: 0 },
+          { stage: 4, completed: false, accuracy: 0, attempts: 0 },
           ...Array.from({length: 16}, (_, i) => ({ 
             stage: i + 5, 
             completed: false, 
@@ -823,19 +840,27 @@ export const DashboardHome: React.FC = memo(() => {
             marginTop: '20px'
           }}>
             <div style={{ textAlign: 'center' }}>
-              <div style={{ fontSize: '2em', fontWeight: 'bold' }}>1</div>
+              <div style={{ fontSize: '2em', fontWeight: 'bold' }}>
+                {statsLoading ? '...' : (formattedMetrics?.currentLevelText || user.level || '1')}
+              </div>
               <div style={{ fontSize: '0.9em', opacity: 0.8 }}>현재 레벨</div>
             </div>
             <div style={{ textAlign: 'center' }}>
-              <div style={{ fontSize: '2em', fontWeight: 'bold' }}>5%</div>
+              <div style={{ fontSize: '2em', fontWeight: 'bold', color: statsError ? '#ef4444' : 'inherit' }}>
+                {statsLoading ? '...' : (formattedMetrics?.overallProgressText || '0%')}
+              </div>
               <div style={{ fontSize: '0.9em', opacity: 0.8 }}>전체 진행률</div>
             </div>
             <div style={{ textAlign: 'center' }}>
-              <div style={{ fontSize: '2em', fontWeight: 'bold' }}>85%</div>
+              <div style={{ fontSize: '2em', fontWeight: 'bold', color: statsError ? '#ef4444' : 'inherit' }}>
+                {statsLoading ? '...' : (formattedMetrics?.averageAccuracyText || '0%')}
+              </div>
               <div style={{ fontSize: '0.9em', opacity: 0.8 }}>평균 정확도</div>
             </div>
             <div style={{ textAlign: 'center' }}>
-              <div style={{ fontSize: '2em', fontWeight: 'bold' }}>0</div>
+              <div style={{ fontSize: '2em', fontWeight: 'bold', color: statsError ? '#ef4444' : 'inherit' }}>
+                {statsLoading ? '...' : (formattedMetrics?.incorrectCountText || '0')}
+              </div>
               <div style={{ fontSize: '0.9em', opacity: 0.8 }}>틀린 문제</div>
             </div>
             <div style={{ textAlign: 'center' }}>

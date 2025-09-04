@@ -1,0 +1,44 @@
+{
+  "levelInfo": {
+    "level": 6,
+    "title": "전문직 영어 마스터리",
+    "description": "전문직 환경에서의 협상, 계약, 전략 수립 등 고급 비즈니스 커뮤니케이션을 배웁니다.",
+    "totalPhases": 6,
+    "totalStages": 44,
+    "estimatedHours": 110
+  },
+  "phases": [
+    {
+      "phase": 1,
+      "title": "전문적 협상 기술",
+      "stages": [
+        {
+          "stageId": "Lv6-P1-S01",
+          "title": "협상 시작 및 조건 제시",
+          "sentences": [
+            {
+              "ko": "이 계약 조건을 재검토해야 할 것 같습니다",
+              "en": "I think we need to revisit these contract terms"
+            },
+            {
+              "ko": "양측 모두에게 도움이 되는 해결책을 찾아봅시다",
+              "en": "Let's find a solution that benefits both parties"
+            },
+            {
+              "ko": "이 제안에 대해 더 논의할 여지가 있습니다",
+              "en": "There's room for further discussion on this proposal"
+            },
+            {
+              "ko": "시장 상황을 고려할 때 이 가격이 적정합니다",
+              "en": "Given market conditions, this price is reasonable"
+            },
+            {
+              "ko": "최종 결정하기 전에 내부 검토가 필요합니다",
+              "en": "We need internal review before making a final decision"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

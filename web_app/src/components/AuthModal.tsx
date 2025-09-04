@@ -80,6 +80,10 @@ export const AuthModal: React.FC<AuthModalProps> = memo(({ isOpen, onClose, onAu
     console.log('[DEBUG] 👤 익명 로그인 시도');
 
     try {
+      // 🎯 모듈화: Firebase 의존성을 동적으로 로드 
+      const auth = await getAuthService();
+      const { signInAnonymously } = await import('firebase/auth');
+      
       const userCredential = await signInAnonymously(auth);
       
       console.log('[DEBUG] ✅ 익명 로그인 성공:', userCredential.user.uid);

@@ -1,0 +1,44 @@
+{
+  "levelInfo": {
+    "level": 8,
+    "title": "고급 담화 및 수사 기법",
+    "description": "복잡한 논증 구조와 설득적 언어 사용, 고급 수사 기법을 활용한 영어 표현을 배웁니다.",
+    "totalPhases": 6,
+    "totalStages": 50,
+    "estimatedHours": 125
+  },
+  "phases": [
+    {
+      "phase": 1,
+      "title": "설득적 언어 기법",
+      "stages": [
+        {
+          "stageId": "Lv8-P1-S01",
+          "title": "논리적 논증 구조",
+          "sentences": [
+            {
+              "ko": "근본적으로 이 접근법이 가장 효과적이라고 봅니다",
+              "en": "Fundamentally, I believe this approach is the most effective"
+            },
+            {
+              "ko": "반대 의견도 충분히 고려했지만 여전히 확신합니다",
+              "en": "While I've considered opposing views, I remain convinced"
+            },
+            {
+              "ko": "이 결론에 도달하기까지의 논리적 과정을 설명드리겠습니다",
+              "en": "Let me walk you through the logical process that led to this conclusion"
+            },
+            {
+              "ko": "각종 변수를 종합적으로 분석한 결과입니다",
+              "en": "This is the result of comprehensive analysis of various factors"
+            },
+            {
+              "ko": "예외적인 상황을 제외하고는 이 원칙이 적용됩니다",
+              "en": "This principle applies except under exceptional circumstances"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

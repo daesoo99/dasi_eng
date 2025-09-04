@@ -1,5 +1,9 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
+import { getRecommendedSpeedLevel } from '@/utils/stageFocusDefaults';
+import { usePatternTrainingTimer } from '@/hooks/useCountdownTimer';
+import { usePatternTrainingProgress, type Question as ProgressQuestion } from '@/hooks/useQuestionProgress';
+import { useAnswerEvaluation } from '@/hooks/useAnswerEvaluation';
 
 // Types
 type FlowPhase = 'idle' | 'tts' | 'countdown' | 'recognition' | 'waiting';
@@ -8,6 +12,9 @@ interface Question {
   en: string;
   ko: string;
 }
+
+// 호환성을 위한 타입 맵핑
+type QuestionCompat = Question & ProgressQuestion;
 
 interface StageData {
   stage?: number;
@@ -156,160 +163,119 @@ export const PatternTrainingPage: React.FC = () => {
   const [showAnswer, setShowAnswer] = useState(false);
   const [answerEvaluation, setAnswerEvaluation] = useState('');
   const [evaluationType, setEvaluationType] = useState<'correct' | 'incorrect'>('correct');
-  const [countdownText, setCountdownText] = useState('3초 후 음성 인식 시작...');
+  const [countdownText, setCountdownText] = useState('준비 중...');
+
+  // Answer evaluation hook with level-appropriate settings
+  const { evaluate } = useAnswerEvaluation({
+    level: levelNumber,
+    mode: 'pattern',
+    enableLogging: true
+  });
+  
+  // 단일 책임 원칙: 타이머 텍스트 관리 함수 (하드코딩 제거)
+  const updateCountdownDisplay = useCallback((phase: 'thinking' | 'recognition' | 'waiting' | 'idle', timeLeft: number) => {
+    console.log(`🎯 [${new Date().toLocaleTimeString()}] updateCountdownDisplay: ${phase}, ${timeLeft}`);
+    
+    switch (phase) {
+      case 'thinking':
+        if (timeLeft > 0) {
+          setCountdownText(`${timeLeft}`);
+        } else {
+          setCountdownText('시작!');
+        }
+        break;
+      case 'recognition':
+        if (timeLeft > 0) {
+          setCountdownText(`${timeLeft}`);
+        } else {
+          setCountdownText('시간 종료!');
+        }
+        break;
+      case 'waiting':
+        if (timeLeft > 0) {
+          setCountdownText(`${timeLeft}초 후 다음 문제`);
+        } else {
+          setCountdownText('다음 문제!');
+        }
+        break;
+      default:
+        setCountdownText('준비 중...');
+    }
+  }, []);
   const [micStatus, setMicStatus] = useState('🎤 준비 중...');
   const [isListening, setIsListening] = useState(false);
   const [showSpeechArea, setShowSpeechArea] = useState(false);
   const [showTimer, setShowTimer] = useState(false);
 
-  // Load level data from JSON based on level and stage
+  // Load level data from bank.json files
   const loadLevelData = useCallback(async () => {
     try {
-      // 레벨에 따른 JSON 파일 경로 설정
-      const levelPaths: { [key: number]: string } = {
-        1: '/patterns/level_1_basic_patterns/lv1_phase_system_NEW.json',
-        2: '/patterns/level_2_basic_grammar/lv2_phase_system_NEW.json', 
-        3: '/patterns/level_3_advanced_grammar/lv3_stage_system_NEW.json',
-        4: '/patterns/level_4_advanced_expressions/lv4_stage_system_NEW.json',
-        5: '/patterns/level_5_academic_mastery/lv5_stage_system_NEW.json',
-        6: '/patterns/level_6_professional_mastery/lv6_stage_system_NEW.json',
-        7: '/patterns/level_7_business_english/lv7_stage_system_NEW.json',
-        8: '/patterns/level_8_advanced_discourse/lv8_stage_system_NEW.json',
-        9: '/patterns/level_9_expert_discourse/lv9_stage_system_NEW.json',
-        10: '/patterns/level_10_native_mastery/lv10_stage_system_NEW.json'
-      };
+      // 스테이지 ID 생성 (Level-Phase-Stage 형식)
+      // stageNumber를 Phase와 Stage로 변환
+      const phaseSize = levelNumber === 1 ? 4 : levelNumber === 2 ? 4 : 5; // Level별 phase당 stage 수
+      const phase = Math.ceil(stageNumber / phaseSize);
+      const stageInPhase = ((stageNumber - 1) % phaseSize) + 1;
+      const stageId = `Lv${levelNumber}-P${phase}-S${stageNumber.toString().padStart(2, '0')}`;
       
-      const filePath = levelPaths[levelNumber];
-      if (!filePath) {
-        console.warn(`Level ${levelNumber} not supported, using dummy data`);
+      // bank.json 파일 경로
+      const bankFilePath = `/patterns/banks/level_${levelNumber}/${stageId}_bank.json`;
+      
+      console.log(`🔍 Loading bank file: ${bankFilePath}`);
+      
+      const response = await fetch(bankFilePath);
+      if (!response.ok) {
+        console.warn(`Bank file not found: ${bankFilePath}, using dummy data`);
         loadDummyData();
         return;
       }
       
-      const response = await fetch(filePath);
-      const data = await response.json();
+      const bankData = await response.json();
       
-      console.log(`🔍 Level ${levelNumber} 데이터 구조:`, Object.keys(data));
+      console.log(`🔍 Bank data structure:`, Object.keys(bankData));
+      console.log(`🔍 Found ${bankData.sentences?.length || 0} sentences in bank file`);
       
-      // 스테이지 번호로 찾기 (1부터 시작) - Level 1, 2는 phase_N 구조 사용
+      // foundStage 변수를 블록 외부에서 선언
       let foundStage;
-      if (levelNumber === 1) {
-        // Level 1은 phase별 구조로 되어 있음 (5 phase, 16 stages)
-        const levelData = data.level_1_basic_patterns || data.level_1_phase_system_revised;
-        console.log(`🔍 Level 1 levelData:`, levelData ? 'exists' : 'undefined');
-        
-        // 스테이지 번호에 따라 해당 Phase와 Stage 찾기
-        let targetPhase = 1;
-        let targetStageInPhase = stageNumber;
-        
-        if (stageNumber <= 4) {
-          targetPhase = 1;
-          targetStageInPhase = stageNumber;
-        } else if (stageNumber <= 8) {
-          targetPhase = 2;
-          targetStageInPhase = stageNumber - 4;
-        } else if (stageNumber <= 10) {
-          targetPhase = 3;
-          targetStageInPhase = stageNumber - 8;
-        } else if (stageNumber <= 13) {
-          targetPhase = 4;
-          targetStageInPhase = stageNumber - 10;
-        } else if (stageNumber <= 16) {
-          targetPhase = 5;
-          targetStageInPhase = stageNumber - 13;
-        }
-        
-        const phaseKey = `phase_${targetPhase}`;
-        const stageKey = `stage_${targetStageInPhase}`;
-        
-        if (levelData[phaseKey] && levelData[phaseKey][stageKey]) {
-          foundStage = levelData[phaseKey][stageKey];
-          console.log(`Level 1 - Phase ${targetPhase}, Stage ${targetStageInPhase} 로드됨:`, foundStage.title);
-        } else {
-          console.warn(`Level 1 Phase ${targetPhase} Stage ${targetStageInPhase} not found`);
-          loadDummyData();
-          return;
-        }
-      } else if (levelNumber === 2) {
-        // Level 2는 phase별 구조로 되어 있음 (4 phase, 20 stages)
-        const levelData = data.level_2_basic_tenses;
-        
-        // 스테이지 번호에 따라 해당 Phase와 Stage 찾기
-        let targetPhase = 1;
-        let targetStageInPhase = stageNumber;
-        
-        if (stageNumber <= 5) {
-          targetPhase = 1;
-          targetStageInPhase = stageNumber;
-        } else if (stageNumber <= 9) {
-          targetPhase = 2;
-          targetStageInPhase = stageNumber - 5;
-        } else if (stageNumber <= 13) {
-          targetPhase = 3;
-          targetStageInPhase = stageNumber - 9;
-        } else if (stageNumber <= 20) {
-          targetPhase = 4;
-          targetStageInPhase = stageNumber - 13;
-        }
-        
-        const phaseKey = `phase_${targetPhase}`;
-        const stageKey = `stage_${targetStageInPhase}`;
-        
-        if (levelData[phaseKey] && levelData[phaseKey][stageKey]) {
-          foundStage = levelData[phaseKey][stageKey];
-          console.log(`Level 2 - Phase ${targetPhase}, Stage ${targetStageInPhase} 로드됨:`, foundStage.title);
-        } else {
-          console.warn(`Level 2 Phase ${targetPhase} Stage ${targetStageInPhase} not found`);
-          loadDummyData();
-          return;
-        }
-      } else {
-        // Level 3+ 는 stages 구조
-        foundStage = data.stages[stageNumber - 1];
-      }
-      if (!foundStage) {
-        console.warn(`Level ${levelNumber} Stage ${stageNumber} not found in data, using dummy data`);
-        loadDummyData();
-        return;
-      }
       
-      setStageData(foundStage);
-      
-      // Combine all sentence variations into one array
-      const allQuestions: Question[] = [];
-      
-      console.log(`🔍 sentence_variations:`, foundStage.sentence_variations);
-      
-      if (foundStage.sentence_variations) {
-        Object.values(foundStage.sentence_variations).forEach((variations: any) => {
-          console.log(`🔍 variations:`, variations, Array.isArray(variations));
-          if (Array.isArray(variations)) {
-            allQuestions.push(...variations);
-          }
-        });
-      } else if (foundStage.patterns) {
-        // 구 Level 1 구조: patterns 배열을 questions로 변환
-        foundStage.patterns.forEach((pattern: any, index: number) => {
+      // bank.json에서 직접 문장 데이터 추출
+      if (bankData.sentences && bankData.sentences.length > 0) {
+        const allQuestions: any[] = [];
+        
+        // bank.json의 sentences를 questions 형식으로 변환
+        bankData.sentences.forEach((sentence: any) => {
           allQuestions.push({
-            ko: pattern.korean || `문제 ${index + 1}`,
-            en: pattern.english || pattern.pattern || `Pattern ${index + 1}`
+            ko: sentence.kr || sentence.korean || '',
+            en: sentence.en || sentence.english || '',
+            form: sentence.form || 'aff'
           });
         });
-      }
-      
-      console.log(`📚 Stage 데이터 로드됨:`, foundStage.title);
-      console.log(`📝 총 ${allQuestions.length}개 문제 추출됨`);
-      console.log(`🎯 문법 포커스: ${foundStage.grammar_focus}`);
-      console.log(`📖 패턴: ${foundStage.pattern || foundStage.patterns}`);
-      
-      if (allQuestions.length === 0) {
-        console.warn('⚠️ 질문이 추출되지 않았음, 더미 데이터 사용');
+        
+        console.log(`🔍 Converted ${allQuestions.length} questions from bank data`);
+        
+        // 스테이지 정보 설정
+        foundStage = {
+          title: bankData.title || `Stage ${stageNumber}`,
+          description: bankData.description || '',
+          stage_number: stageNumber,
+          questions: allQuestions,
+          grammar_points: bankData.learning_points || bankData.grammar_pattern || '',
+          examples: bankData.examples || []
+        };
+        
+        // 스테이지 데이터 설정 성공
+        setCurrentStage(foundStage);
+        console.log(`✅ Successfully loaded Level ${levelNumber} Stage ${stageNumber}: ${foundStage.title}`);
+        
+      } else {
+        console.warn(`No sentences found in bank file: ${bankFilePath}`);
         loadDummyData();
         return;
       }
       
-      setCurrentQuestions(allQuestions);
-      console.log(`Level ${levelNumber} Stage ${stageNumber} 로드 완료: ${allQuestions.length}개 문제`);
+      // bank.json에서 이미 questions 배열을 설정했으므로 그대로 사용
+      setStageData(foundStage);
+      setCurrentQuestions(foundStage.questions);
+      console.log(`✅ Level ${levelNumber} Stage ${stageNumber} 로드 완료: ${foundStage.questions.length}개 문제`);
     } catch (error) {
       console.error(`Level ${levelNumber} 데이터 로드 실패:`, error);
       loadDummyData();
@@ -438,45 +404,6 @@ export const PatternTrainingPage: React.FC = () => {
     console.log(`🔔 [${timestamp}] ===== playMicrophoneStartSound 완료 =====`);
   }, []);
 
-  // Calculate string similarity using Levenshtein distance
-  const calculateSimilarity = useCallback((str1: string, str2: string) => {
-    const longer = str1.length > str2.length ? str1 : str2;
-    const shorter = str1.length > str2.length ? str2 : str1;
-    
-    if (longer.length === 0) return 1.0;
-    
-    const distance = levenshteinDistance(longer, shorter);
-    return (longer.length - distance) / longer.length;
-  }, []);
-
-  // Levenshtein distance algorithm
-  const levenshteinDistance = useCallback((str1: string, str2: string) => {
-    const matrix: number[][] = [];
-    
-    for (let i = 0; i <= str2.length; i++) {
-      matrix[i] = [i];
-    }
-    
-    for (let j = 0; j <= str1.length; j++) {
-      matrix[0][j] = j;
-    }
-    
-    for (let i = 1; i <= str2.length; i++) {
-      for (let j = 1; j <= str1.length; j++) {
-        if (str2.charAt(i - 1) === str1.charAt(j - 1)) {
-          matrix[i][j] = matrix[i - 1][j - 1];
-        } else {
-          matrix[i][j] = Math.min(
-            matrix[i - 1][j - 1] + 1,
-            matrix[i][j - 1] + 1,
-            matrix[i - 1][j] + 1
-          );
-        }
-      }
-    }
-    
-    return matrix[str2.length][str1.length];
-  }, []);
 
   // Evaluate answer
   const evaluateAnswer = useCallback((userAnswer: string, correctAnswer: string) => {
@@ -505,34 +432,23 @@ export const PatternTrainingPage: React.FC = () => {
       speechSynthesis.speak(currentEnUtter);
     }
     
-    // Calculate similarity
-    console.log(`🔍 [${timestamp}] 유사도 계산 시작`);
-    const similarity = calculateSimilarity(userAnswer.toLowerCase(), correctAnswer.toLowerCase());
-    console.log(`🔍 [${timestamp}] 유사도 결과: ${(similarity * 100).toFixed(1)}%`);
+    // Use modular answer evaluation with contraction support
+    console.log(`🔍 [${timestamp}] 답변 평가 시작`);
+    const evaluation = evaluate(userAnswer, correctAnswer);
+    console.log(`🔍 [${timestamp}] 평가 결과: ${Math.round(evaluation.similarity * 100)}% (${evaluation.isCorrect ? '정답' : '오답'})`);
     
-    if (similarity > 0.8) {
-      console.log(`✅ [${timestamp}] 평가 결과: 훌륭함 (${(similarity * 100).toFixed(1)}%)`);
-      setEvaluationType('correct');
-      setAnswerEvaluation('🎉 훌륭합니다! 정확한 발음이에요.');
-    } else if (similarity > 0.6) {
-      console.log(`👍 [${timestamp}] 평가 결과: 좋음 (${(similarity * 100).toFixed(1)}%)`);
-      setEvaluationType('correct');
-      setAnswerEvaluation('✅ 좋아요! 조금 더 연습하면 완벽해요.');
-    } else {
-      console.log(`❌ [${timestamp}] 평가 결과: 부족함 (${(similarity * 100).toFixed(1)}%)`);
-      setEvaluationType('incorrect');
-      setAnswerEvaluation(`❌ 다시 한번! 정답: "${correctAnswer}"`);
-    }
+    setEvaluationType(evaluation.isCorrect ? 'correct' : 'incorrect');
+    setAnswerEvaluation(evaluation.feedback);
     
     // Wait 4 seconds before next question
     setCurrentPhase('waiting');
     setRemainingWaitTime(4);
-    setCountdownText('4초 후 다음 문제');
+    updateCountdownDisplay('waiting', 4);
     
     waitTimeoutRef.current = setInterval(() => {
       setRemainingWaitTime(prev => {
         const newTime = prev - 1;
-        setCountdownText(`${newTime}초 후 다음 문제`);
+        updateCountdownDisplay('waiting', newTime);
         
         if (newTime <= 0) {
           if (waitTimeoutRef.current) {
@@ -546,7 +462,7 @@ export const PatternTrainingPage: React.FC = () => {
         return newTime;
       });
     }, 1000);
-  }, [calculateSimilarity]);
+  }, [evaluate]);
 
   // Start web speech recognition
   const startWebSpeechRecognition = useCallback((correctAnswer: string) => {
@@ -582,14 +498,14 @@ export const PatternTrainingPage: React.FC = () => {
     recognitionCountdownRef.current = setInterval(() => {
       setRemainingRecognitionTime(prev => {
         const newTime = prev - 1;
-        setCountdownText(`${newTime}초 남음`);
+        // 단일 책임 원칙: 통합된 타이머 표시 함수 사용
+        updateCountdownDisplay('recognition', newTime);
         
         if (newTime <= 0) {
           if (recognitionCountdownRef.current) {
             clearInterval(recognitionCountdownRef.current);
             recognitionCountdownRef.current = null;
           }
-          setCountdownText('시간 종료!');
         }
         
         return newTime;
@@ -697,7 +613,11 @@ export const PatternTrainingPage: React.FC = () => {
       
       setCurrentPhase('idle');
       
-      // B안: speechResult 참조 제거 - 컴포넌트에서 처리
+      // 모듈화된 문제 진행: 음성인식 시간초과 시 다음 문제로 진행
+      console.log(`⏭️ [${new Date().toLocaleTimeString()}] 음성인식 시간초과 → nextQuestion 호출`);
+      setTimeout(() => {
+        nextQuestion();
+      }, 1000); // 1초 후 다음 문제로 (사용자 경험 고려)
     }, 6000);
   }, [evaluateAnswer]);
 
@@ -706,8 +626,17 @@ export const PatternTrainingPage: React.FC = () => {
     setShowSpeechArea(true);
     setAnswerEvaluation('');
     
-    // Stage-based countdown (1:3sec, 2:2sec, 3:1sec)
-    const waitTime = currentStage === 1 ? 3 : currentStage === 2 ? 2 : 1;
+    // Level/Stage-based smart countdown using modular logic
+    const recommendedSpeedLevel = getRecommendedSpeedLevel(levelNumber, stageNumber);
+    const waitTime = (() => {
+      // Priority 1: Level-based smart recommendation (Level 1 = 1 second)
+      if (recommendedSpeedLevel === 'fast') return 1;
+      if (recommendedSpeedLevel === 'medium') return 2;
+      if (recommendedSpeedLevel === 'slow') return 3;
+      
+      // Priority 2: User's manual stage selection override
+      return currentStage === 1 ? 3 : currentStage === 2 ? 2 : 1;
+    })();
     console.log(`⏳ [${new Date().toLocaleTimeString()}] 사고시간 카운트다운 시작 - ${waitTime}초 대기`);
     
     setCurrentPhase('countdown');
@@ -716,7 +645,8 @@ export const PatternTrainingPage: React.FC = () => {
     countdownIntervalRef.current = setInterval(() => {
       setRemainingCountdownTime(prev => {
         const newTime = prev - 1;
-        setCountdownText(`${newTime}초 후 음성 인식 시작...`);
+        // 단일 책임 원칙: 통합된 타이머 표시 함수 사용
+        updateCountdownDisplay('thinking', newTime);
         
         if (newTime <= 0) {
           if (countdownIntervalRef.current) {
@@ -828,31 +758,36 @@ export const PatternTrainingPage: React.FC = () => {
     const timestamp = new Date().toLocaleTimeString();
     console.log(`⏭️ [${timestamp}] ===== nextQuestion 호출 시작 =====`);
     
-    setCurrentIndex(prev => {
-      const newIndex = prev + 1;
-      console.log(`⏭️ [${timestamp}] 인덱스 변경: ${prev} → ${newIndex} (전체: ${currentQuestions.length}개)`);
-      
-      if (newIndex >= currentQuestions.length) {
-        console.log(`🎉 [${timestamp}] 훈련 완료! 모든 문제 완료됨`);
-        // Training complete
-        setIsRunning(false);
-        alert(`🎉 Stage ${stageNumber} 훈련 완료!\n\n모든 고급 문법 패턴을 연습했습니다.\n계속해서 다른 스테이지도 도전해보세요!`);
-        return prev;
-      }
-      
-      console.log(`➡️ [${timestamp}] 다음 문제로 이동: ${newIndex + 1}/${currentQuestions.length}`);
-      console.log(`⏭️ [${timestamp}] ===== nextQuestion 완료 - useEffect가 showNextQuestion 호출할 예정 =====`);
-      
-      return newIndex;
-    });
-  }, [currentQuestions.length, stageNumber, showNextQuestion, isPaused]);
+    const nextIndex = currentIndex + 1;
+    console.log(`⏭️ [${timestamp}] 다음 인덱스 계산: ${currentIndex} → ${nextIndex} (전체: ${currentQuestions.length}개)`);
+    
+    if (nextIndex >= currentQuestions.length) {
+      console.log(`🎉 [${timestamp}] 훈련 완료! 모든 문제 완료됨`);
+      setIsRunning(false);
+      alert(`🎉 Stage ${stageNumber} 훈련 완료!\n\n모든 고급 문법 패턴을 연습했습니다.\n계속해서 다른 스테이지도 도전해보세요!`);
+      return;
+    }
+    
+    // Update index and directly call showNextQuestion
+    setCurrentIndex(nextIndex);
+    console.log(`⏭️ [${timestamp}] 인덱스 업데이트 완료: ${nextIndex}`);
+    
+    // Small delay to ensure state update, then show next question
+    setTimeout(() => {
+      console.log(`⏭️ [${timestamp}] showNextQuestion 직접 호출`);
+      showNextQuestion();
+    }, 10);
+    
+    console.log(`⏭️ [${timestamp}] ===== nextQuestion 완료 =====`);
+  }, [currentQuestions.length, stageNumber, showNextQuestion]); // 순환 의존성 제거: currentIndex 제거
 
   // Resume functions for pause/resume
   const resumeCountdown = useCallback(() => {
     countdownIntervalRef.current = setInterval(() => {
       setRemainingCountdownTime(prev => {
         const newTime = prev - 1;
-        setCountdownText(`${newTime}초 후 음성 인식 시작...`);
+        // 단일 책임 원칙: 통합된 타이머 표시 함수 사용
+        updateCountdownDisplay('thinking', newTime);
         
         if (newTime <= 0) {
           if (countdownIntervalRef.current) {
@@ -914,7 +849,7 @@ export const PatternTrainingPage: React.FC = () => {
     waitTimeoutRef.current = setInterval(() => {
       setRemainingWaitTime(prev => {
         const newTime = prev - 1;
-        setCountdownText(`${newTime}초 후 다음 문제`);
+        updateCountdownDisplay('waiting', newTime);
         
         if (newTime <= 0) {
           if (waitTimeoutRef.current) {
@@ -1064,20 +999,20 @@ export const PatternTrainingPage: React.FC = () => {
     loadLevelData();
   }, [loadLevelData]);
 
-  // 상태 세팅 완료 이후에 첫 문제를 자동 재생
+  // 상태 세팅 완료 이후에 문제를 자동 재생 (인덱스 변경 시마다)
   useEffect(() => {
     if (
       isRunning &&
       !isPaused &&
       currentQuestions.length > 0 &&
-      currentIndex === 0 &&
-      currentPhase === 'idle'
+      currentPhase === 'idle' &&
+      currentIndex < currentQuestions.length
     ) {
-      // 첫 문제: 한국어 TTS → 카운트다운 → 비프 → STT로 진입
+      // 각 문제마다: 한국어 TTS → 카운트다운 → 비프 → STT로 진입
+      console.log(`🎯 [useEffect] 인덱스 ${currentIndex}번 문제 시작 트리거됨`);
       showNextQuestion();
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isRunning, isPaused, currentQuestions.length, currentIndex, currentPhase]);
+  }, [isRunning, isPaused, currentQuestions.length, currentIndex, currentPhase, showNextQuestion]);
 
   // Cleanup on unmount
   useEffect(() => {
@@ -1183,7 +1118,18 @@ export const PatternTrainingPage: React.FC = () => {
               >
                 <div>{stage}단계</div>
                 <div className="text-sm font-normal">
-                  {stage === 1 ? '순서대로 (3초)' : stage === 2 ? '조금 섞기 (2초)' : '완전 섞기 (1초)'}
+                  {(() => {
+                    const baseDescription = stage === 1 ? '순서대로' : stage === 2 ? '조금 섞기' : '완전 섞기';
+                    const recommendedSpeed = getRecommendedSpeedLevel(levelNumber, stageNumber);
+                    const recommendedTime = recommendedSpeed === 'fast' ? '1초' : recommendedSpeed === 'medium' ? '2초' : '3초';
+                    const userSelectedTime = stage === 1 ? '3초' : stage === 2 ? '2초' : '1초';
+                    
+                    // Level 1에서 1단계 선택 시 스마트 추천 표시
+                    if (levelNumber === 1 && stage === 1) {
+                      return `${baseDescription} (추천: ${recommendedTime})`;
+                    }
+                    return `${baseDescription} (${userSelectedTime})`;
+                  })()}
                 </div>
               </button>
             ))}

@@ -1,0 +1,330 @@
+{
+  "stage_id": "Lv1-P4-S14",
+  "title": "인사말",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Greeting expressions",
+  "examples": [
+    "Hello!",
+    "How are you? I'm fine."
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
+  "phase": 4,
+  "stage_number": 14,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv1-P4-S14-001",
+      "kr": "그는llo. 나는 am f나는ne.",
+      "en": "Hello. I am fine.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-002",
+      "kr": "Good after아니요on!",
+      "en": "Good afternoon!",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-003",
+      "kr": "T그는re 나는s t그는 cook 그는re.",
+      "en": "There is the cook here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-004",
+      "kr": "T그는re 나는s t그는 farmer 그는re.",
+      "en": "There is the farmer here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-005",
+      "kr": "T그는re 나는s a car 그는re.",
+      "en": "There is a car here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-006",
+      "kr": "How are 너는. 나는 am f나는ne.",
+      "en": "How are you. I am fine.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-007",
+      "kr": "H나는!",
+      "en": "Hi!",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-008",
+      "kr": "T그는re 나는s a wr나는ter 그는re.",
+      "en": "There is a writer here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-009",
+      "kr": "Good morn나는ng. 나는 am f나는ne.",
+      "en": "Good morning. I am fine.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-010",
+      "kr": "T그는re 나는s t그는 computer 그는re.",
+      "en": "There is the computer here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-011",
+      "kr": "그는llo!",
+      "en": "Hello!",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-012",
+      "kr": "T그는re 나는s a actor 그는re.",
+      "en": "There is a actor here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-013",
+      "kr": "T그는re 나는s t그는 table 그는re.",
+      "en": "There is the table here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-014",
+      "kr": "Good after아니요on. 나는 am f나는ne.",
+      "en": "Good afternoon. I am fine.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-015",
+      "kr": "Good morn나는ng!",
+      "en": "Good morning!",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-016",
+      "kr": "T그는re 나는s t그는 pa나는nter 그는re.",
+      "en": "There is the painter here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-017",
+      "kr": "T그는re 나는s t그는 dr나는ver 그는re.",
+      "en": "There is the driver here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-018",
+      "kr": "T그는re 나는s a table 그는re.",
+      "en": "There is a table here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-019",
+      "kr": "T그는re 나는s a book 그는re.",
+      "en": "There is a book here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-020",
+      "kr": "How are 너는!",
+      "en": "How are you!",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-021",
+      "kr": "T그는re 나는s 학생입니다 그는re.",
+      "en": "There is a student here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-022",
+      "kr": "T그는re 나는s 의사입니다 그는re.",
+      "en": "There is a doctor here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-023",
+      "kr": "T그는re 나는s t그는 bag 그는re.",
+      "en": "There is the bag here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-024",
+      "kr": "T그는re 나는s 요리사입니다 그는re.",
+      "en": "There is a cook here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-025",
+      "kr": "T그는re 나는s a bag 그는re.",
+      "en": "There is a bag here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-026",
+      "kr": "H나는. 나는 am f나는ne.",
+      "en": "Hi. I am fine.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-027",
+      "kr": "T그는re 나는s t그는 doctor 그는re.",
+      "en": "There is the doctor here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-028",
+      "kr": "T그는re 나는s t그는 student 그는re.",
+      "en": "There is the student here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-029",
+      "kr": "T그는re 나는s a phone 그는re.",
+      "en": "There is a phone here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-030",
+      "kr": "T그는re 나는s a pen 그는re.",
+      "en": "There is a pen here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-031",
+      "kr": "T그는re 나는s t그는 ball 그는re.",
+      "en": "There is the ball here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-032",
+      "kr": "T그는re 나는s a s나는nger 그는re.",
+      "en": "There is a singer here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-033",
+      "kr": "T그는re 나는s t그는 s나는nger 그는re.",
+      "en": "There is the singer here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-034",
+      "kr": "T그는re 나는s a ball 그는re.",
+      "en": "There is a ball here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-035",
+      "kr": "T그는re 나는s a dr나는ver 그는re.",
+      "en": "There is a driver here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-036",
+      "kr": "T그는re 나는s t그는 차를c그는r 그는re.",
+      "en": "There is the teacher here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-037",
+      "kr": "T그는re 나는s a 차를c그는r 그는re.",
+      "en": "There is a teacher here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-038",
+      "kr": "T그는re 나는s a farmer 그는re.",
+      "en": "There is a farmer here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-039",
+      "kr": "T그는re 나는s t그는 book 그는re.",
+      "en": "There is the book here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-040",
+      "kr": "T그는re 나는s t그는 car 그는re.",
+      "en": "There is the car here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-041",
+      "kr": "T그는re 나는s a computer 그는re.",
+      "en": "There is a computer here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-042",
+      "kr": "T그는re 나는s a sc나는ent나는st 그는re.",
+      "en": "There is a scientist here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-043",
+      "kr": "T그는re 나는s t그는 phone 그는re.",
+      "en": "There is the phone here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-044",
+      "kr": "T그는re 나는s t그는 sc나는ent나는st 그는re.",
+      "en": "There is the scientist here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-045",
+      "kr": "T그는re 나는s t그는 nurse 그는re.",
+      "en": "There is the nurse here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-046",
+      "kr": "T그는re 나는s a pa나는nter 그는re.",
+      "en": "There is a painter here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-047",
+      "kr": "T그는re 나는s t그는 pen 그는re.",
+      "en": "There is the pen here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-048",
+      "kr": "T그는re 나는s t그는 actor 그는re.",
+      "en": "There is the actor here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-049",
+      "kr": "T그는re 나는s t그는 wr나는ter 그는re.",
+      "en": "There is the writer here.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P4-S14-050",
+      "kr": "T그는re 나는s 간호사입니다 그는re.",
+      "en": "There is a nurse here.",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 50,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L1_Sequential_Generation_v2.2.0_improved",
+  "metadata": {
+    "generated_at": "2025-09-01T21:34:20.385Z",
+    "generation_version": "2.2.0_improved",
+    "sequential_learning_verified": true,
+    "quality_control_applied": true
+  }
+}

@@ -7,6 +7,80 @@
   "learning_points": "현재진행과 비교하여 시점의 차이를 이해하도록 지도",
   "phase": 1,
   "stage_number": 3,
-  "count": 0,
-  "sentences": []
+  "count": 10,
+  "sentences": [
+    {
+      "id": "Lv2-P1-S03-001",
+      "kr": "나는 밤 10시에 잠을 자고 있었습니다.",
+      "en": "I was sleeping at 10 pm.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P1-S03-002",
+      "kr": "우리는 강의 중에 듣고 있지 않았습니다.",
+      "en": "We were not listening during the lecture.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv2-P1-S03-003",
+      "kr": "그들은 무엇을 하고 있었습니까?",
+      "en": "What were they doing?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P1-S03-004",
+      "kr": "그녀는 책을 읽고 있었습니다.",
+      "en": "She was reading a book.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P1-S03-005",
+      "kr": "비가 내리고 있었습니까?",
+      "en": "Was it raining?",
+      "form": "yn_q"
+    },
+    {
+      "id": "Lv2-P1-S03-006",
+      "kr": "아이들은 밖에서 놀고 있었습니다.",
+      "en": "The children were playing outside.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P1-S03-007",
+      "kr": "그는 일하고 있지 않았습니다.",
+      "en": "He was not working.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv2-P1-S03-008",
+      "kr": "당신은 어디에서 기다리고 있었습니까?",
+      "en": "Where were you waiting?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P1-S03-009",
+      "kr": "우리는 영화를 보고 있었습니다.",
+      "en": "We were watching a movie.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P1-S03-010",
+      "kr": "그들은 언제 운동하고 있었습니까?",
+      "en": "When were they exercising?",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 5,
+    "neg": 2,
+    "wh_q": 3,
+    "yn_q": 1
+  },
+  "status": "incomplete",
+  "batch": "10_sentence_generation_batch_4",
+  "metadata": {
+    "generated_at": "2025-01-09",
+    "generator": "claude_code_v1", 
+    "grammar_constraints": ["past_continuous", "was_were_ing", "all_level_1_grammar"]
+  }
 }

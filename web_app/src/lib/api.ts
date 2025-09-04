@@ -1,7 +1,7 @@
 // API utilities for DASI English backend
 import type { FeedbackResponse, DrillCard, StudySession, ApiResponse } from '@/types';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8081/api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8081';
 
 class ApiClient {
   private baseUrl: string;

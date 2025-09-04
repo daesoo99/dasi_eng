@@ -7,6 +7,80 @@
   "learning_points": "현재진행형 긍정/부정/의문문 모든 형태 연습",
   "phase": 1,
   "stage_number": 1,
-  "count": 0,
-  "sentences": []
+  "count": 10,
+  "sentences": [
+    {
+      "id": "Lv2-P1-S01-001",
+      "kr": "나는 지금 점심을 먹고 있습니다.",
+      "en": "I am eating lunch now.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P1-S01-002",
+      "kr": "그녀는 공부하고 있지 않습니다.",
+      "en": "She is not studying.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv2-P1-S01-003",
+      "kr": "그들은 공원에서 놀고 있습니다.",
+      "en": "They are playing in the park.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P1-S01-004",
+      "kr": "너는 무엇을 하고 있니?",
+      "en": "What are you doing?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P1-S01-005",
+      "kr": "그는 책을 읽고 있습니다.",
+      "en": "He is reading a book.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P1-S01-006",
+      "kr": "우리는 영화를 보고 있지 않습니다.",
+      "en": "We are not watching a movie.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv2-P1-S01-007",
+      "kr": "당신은 듣고 있습니까?",
+      "en": "Are you listening?",
+      "form": "yn_q"
+    },
+    {
+      "id": "Lv2-P1-S01-008",
+      "kr": "비가 오고 있습니다.",
+      "en": "It is raining.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P1-S01-009",
+      "kr": "아이들은 뛰어다니고 있습니다.",
+      "en": "The children are running.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P1-S01-010",
+      "kr": "그녀는 어디에서 일하고 있습니까?",
+      "en": "Where is she working?",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 6,
+    "neg": 2,
+    "wh_q": 2,
+    "yn_q": 1
+  },
+  "status": "incomplete",
+  "batch": "10_sentence_generation_batch_2",
+  "metadata": {
+    "generated_at": "2025-01-09",
+    "generator": "claude_code_v1",
+    "grammar_constraints": ["present_continuous", "all_level_1_grammar"]
+  }
 }

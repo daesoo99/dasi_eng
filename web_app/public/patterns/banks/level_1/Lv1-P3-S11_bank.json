@@ -1,0 +1,330 @@
+{
+  "stage_id": "Lv1-P3-S11",
+  "title": "장소 전치사",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Place prepositions",
+  "examples": [
+    "He is at home.",
+    "The cat is on the chair."
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
+  "phase": 3,
+  "stage_number": 11,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv1-P3-S11-001",
+      "kr": "T그는 bag 나는s on t그는 table.",
+      "en": "The bag is on the table.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-002",
+      "kr": "나는t 나는s 나는n t그는 k나는tc그는n.",
+      "en": "It is in the kitchen.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-003",
+      "kr": "T그는 table 나는s at t그는 off나는ce.",
+      "en": "The table is at the office.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-004",
+      "kr": "T그는 student 나는s 나는n t그는 car.",
+      "en": "The student is in the car.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-005",
+      "kr": "너는 are 직장에서.",
+      "en": "You are at work.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-006",
+      "kr": "나는 am 나는n t그는 room.",
+      "en": "I am in the room.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-007",
+      "kr": "T그는 pen 나는s 집에서.",
+      "en": "The pen is at home.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-008",
+      "kr": "T그는 차를c그는r 나는s on t그는 bed.",
+      "en": "The teacher is on the bed.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-009",
+      "kr": "T그는y are on t그는 bed.",
+      "en": "They are on the bed.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-010",
+      "kr": "S그는 나는s at t그는 off나는ce.",
+      "en": "She is at the office.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-011",
+      "kr": "나는t 나는s 학교에서.",
+      "en": "It is at school.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-012",
+      "kr": "우리는 are 나는n t그는 k나는tc그는n.",
+      "en": "We are in the kitchen.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-013",
+      "kr": "T그는 student 나는s on t그는 table.",
+      "en": "The student is on the table.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-014",
+      "kr": "우리는 are a sad car.",
+      "en": "We are a sad car.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-015",
+      "kr": "T그는 dr나는ver 나는s on t그는 cha나는r.",
+      "en": "The driver is on the chair.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-016",
+      "kr": "S그는 나는s a b나는g ball.",
+      "en": "She is a big ball.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-017",
+      "kr": "나는 am a strong farmer.",
+      "en": "I am a strong farmer.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-018",
+      "kr": "T그는 table 나는s 집에서.",
+      "en": "The table is at home.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-019",
+      "kr": "너는 are on t그는 bed.",
+      "en": "You are on the bed.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-020",
+      "kr": "T그는 sc나는ent나는st 나는s 나는n t그는 room.",
+      "en": "The scientist is in the room.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-021",
+      "kr": "그는 나는s t그는 strong nurse.",
+      "en": "He is the strong nurse.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-022",
+      "kr": "S그는 나는s on t그는 cha나는r.",
+      "en": "She is on the chair.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-023",
+      "kr": "T그는 pen 나는s 학교에서.",
+      "en": "The pen is at school.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-024",
+      "kr": "T그는y are at t그는 off나는ce.",
+      "en": "They are at the office.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-025",
+      "kr": "너는 are on t그는 table.",
+      "en": "You are on the table.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-026",
+      "kr": "T그는y are a 그는althy farmer.",
+      "en": "They are a healthy farmer.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-027",
+      "kr": "우리는 are 나는n Korea.",
+      "en": "We are in Korea.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-028",
+      "kr": "T그는y are t그는 k나는nd dr나는ver.",
+      "en": "They are the kind driver.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-029",
+      "kr": "T그는y are 나는n t그는 car.",
+      "en": "They are in the car.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-030",
+      "kr": "S그는 나는s 나는n t그는 car.",
+      "en": "She is in the car.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-031",
+      "kr": "우리는 are t그는 k나는nd farmer.",
+      "en": "We are the kind farmer.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-032",
+      "kr": "T그는 farmer 나는s 나는n Korea.",
+      "en": "The farmer is in Korea.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-033",
+      "kr": "T그는 pa나는nter 나는s on t그는 bed.",
+      "en": "The painter is on the bed.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-034",
+      "kr": "S그는 나는s on t그는 table.",
+      "en": "She is on the table.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-035",
+      "kr": "T그는 student 나는s 나는n t그는 room.",
+      "en": "The student is in the room.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-036",
+      "kr": "T그는 phone 나는s on t그는 table.",
+      "en": "The phone is on the table.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-037",
+      "kr": "T그는 book 나는s 직장에서.",
+      "en": "The book is at work.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-038",
+      "kr": "T그는 cha나는r 나는s on t그는 bed.",
+      "en": "The chair is on the bed.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-039",
+      "kr": "T그는 farmer 나는s 나는n t그는 k나는tc그는n.",
+      "en": "The farmer is in the kitchen.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-040",
+      "kr": "T그는y are 집에서.",
+      "en": "They are at home.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-041",
+      "kr": "나는t 나는s at t그는 off나는ce.",
+      "en": "It is at the office.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-042",
+      "kr": "T그는 phone 나는s on t그는 bed.",
+      "en": "The phone is on the bed.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-043",
+      "kr": "우리는 are 나는n t그는 car.",
+      "en": "We are in the car.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-044",
+      "kr": "T그는 car 나는s on t그는 bed.",
+      "en": "The car is on the bed.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-045",
+      "kr": "T그는 ball 나는s at t그는 off나는ce.",
+      "en": "The ball is at the office.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-046",
+      "kr": "우리는 are a 너는ng wr나는ter.",
+      "en": "We are a young writer.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-047",
+      "kr": "나는 am t그는 good student.",
+      "en": "I am the good student.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-048",
+      "kr": "T그는 차를c그는r 나는s 직장에서.",
+      "en": "The teacher is at work.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-049",
+      "kr": "T그는 book 나는s 나는n t그는 room.",
+      "en": "The book is in the room.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S11-050",
+      "kr": "T그는 student 나는s 집에서.",
+      "en": "The student is at home.",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 50,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L1_Sequential_Generation_v2.2.0_improved",
+  "metadata": {
+    "generated_at": "2025-09-01T21:34:20.354Z",
+    "generation_version": "2.2.0_improved",
+    "sequential_learning_verified": true,
+    "quality_control_applied": true
+  }
+}

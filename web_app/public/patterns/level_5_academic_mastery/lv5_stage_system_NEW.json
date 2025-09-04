@@ -1,0 +1,45 @@
+{
+  "levelInfo": {
+    "level": 5,
+    "title": "학술적 의사소통 마스터리",
+    "description": "학술 환경에서의 토론, 발표, 논문 작성을 위한 고급 영어 표현을 배웁니다.",
+    "totalPhases": 6,
+    "totalStages": 30,
+    "estimatedHours": 75
+  },
+  "phases": [
+    {
+      "phase": 1,
+      "title": "학술 토론 기초",
+      "description": "학술적 토론을 위한 기본 표현",
+      "stages": [
+        {
+          "stageId": "Lv5-P1-S01",
+          "title": "논점 제시 및 근거 설명",
+          "sentences": [
+            {
+              "ko": "연구 결과에 따르면 이 방법이 효과적입니다",
+              "en": "According to research findings, this method is effective"
+            },
+            {
+              "ko": "이론적 관점에서 볼 때 다음과 같습니다",
+              "en": "From a theoretical perspective, it appears that"
+            },
+            {
+              "ko": "실증적 증거가 이를 뒷받침합니다",
+              "en": "Empirical evidence supports this claim"
+            },
+            {
+              "ko": "이 가설을 검증하기 위해 실험을 설계했습니다",
+              "en": "We designed an experiment to test this hypothesis"
+            },
+            {
+              "ko": "통계적으로 유의한 차이가 발견되었습니다",
+              "en": "A statistically significant difference was found"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

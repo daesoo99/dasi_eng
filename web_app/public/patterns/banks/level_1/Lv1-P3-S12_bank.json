@@ -1,0 +1,330 @@
+{
+  "stage_id": "Lv1-P3-S12",
+  "title": "시간 전치사",
+  "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
+  "grammar_pattern": "Time prepositions",
+  "examples": [
+    "My birthday is in March.",
+    "Let's meet on Friday."
+  ],
+  "learning_points": "Level 1 target grammar and expressions with practical usage examples",
+  "phase": 3,
+  "stage_number": 12,
+  "count": 50,
+  "sentences": [
+    {
+      "id": "Lv1-P3-S12-001",
+      "kr": "나는 work last month.",
+      "en": "I work last month.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-002",
+      "kr": "나는 work last n나는ght.",
+      "en": "I work last night.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-003",
+      "kr": "우리는 meet last 우리는ek.",
+      "en": "We meet last week.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-004",
+      "kr": "우리는 meet last month.",
+      "en": "We meet last month.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-005",
+      "kr": "나는 work 어제.",
+      "en": "I work yesterday.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-006",
+      "kr": "나는 am on t그는 cha나는r.",
+      "en": "I am on the chair.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-007",
+      "kr": "S그는 나는s on t그는 table.",
+      "en": "She is on the table.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-008",
+      "kr": "우리는 meet 어제.",
+      "en": "We meet yesterday.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-009",
+      "kr": "T그는y are 나는n t그는 car.",
+      "en": "They are in the car.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-010",
+      "kr": "T그는y are 학교에서.",
+      "en": "They are at school.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-011",
+      "kr": "S그는 나는s 나는n t그는 car.",
+      "en": "She is in the car.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-012",
+      "kr": "나는 work last 우리는ek.",
+      "en": "I work last week.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-013",
+      "kr": "그는 나는s on t그는 cha나는r.",
+      "en": "He is on the chair.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-014",
+      "kr": "S그는 나는s 직장에서.",
+      "en": "She is at work.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-015",
+      "kr": "T그는y are on t그는 table.",
+      "en": "They are on the table.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-016",
+      "kr": "나는 am 나는n Korea.",
+      "en": "I am in Korea.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-017",
+      "kr": "나는t 나는s 나는n Korea.",
+      "en": "It is in Korea.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-018",
+      "kr": "나는 am 나는n t그는 car.",
+      "en": "I am in the car.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-019",
+      "kr": "너는 are on t그는 cha나는r.",
+      "en": "You are on the chair.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-020",
+      "kr": "나는t 나는s on t그는 bed.",
+      "en": "It is on the bed.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-021",
+      "kr": "너는 are on t그는 bed.",
+      "en": "You are on the bed.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-022",
+      "kr": "너는 are 학교에서.",
+      "en": "You are at school.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-023",
+      "kr": "그는 나는s 나는n t그는 room.",
+      "en": "He is in the room.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-024",
+      "kr": "우리는 are 나는n t그는 room.",
+      "en": "We are in the room.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-025",
+      "kr": "나는t 나는s on t그는 table.",
+      "en": "It is on the table.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-026",
+      "kr": "그는 나는s 나는n t그는 car.",
+      "en": "He is in the car.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-027",
+      "kr": "우리는 are on t그는 bed.",
+      "en": "We are on the bed.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-028",
+      "kr": "나는 am 나는n t그는 k나는tc그는n.",
+      "en": "I am in the kitchen.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-029",
+      "kr": "우리는 meet last n나는ght.",
+      "en": "We meet last night.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-030",
+      "kr": "S그는 나는s on t그는 cha나는r.",
+      "en": "She is on the chair.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-031",
+      "kr": "나는 am 집에서.",
+      "en": "I am at home.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-032",
+      "kr": "그는 나는s 학교에서.",
+      "en": "He is at school.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-033",
+      "kr": "우리는 are 나는n Korea.",
+      "en": "We are in Korea.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-034",
+      "kr": "너는 are 직장에서.",
+      "en": "You are at work.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-035",
+      "kr": "우리는 are 집에서.",
+      "en": "We are at home.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-036",
+      "kr": "우리는 are 나는n t그는 car.",
+      "en": "We are in the car.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-037",
+      "kr": "나는t 나는s 나는n t그는 room.",
+      "en": "It is in the room.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-038",
+      "kr": "S그는 나는s at t그는 off나는ce.",
+      "en": "She is at the office.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-039",
+      "kr": "그는 나는s on t그는 bed.",
+      "en": "He is on the bed.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-040",
+      "kr": "너는 are 나는n t그는 k나는tc그는n.",
+      "en": "You are in the kitchen.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-041",
+      "kr": "T그는y are on t그는 bed.",
+      "en": "They are on the bed.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-042",
+      "kr": "너는 are at t그는 off나는ce.",
+      "en": "You are at the office.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-043",
+      "kr": "너는 are 집에서.",
+      "en": "You are at home.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-044",
+      "kr": "우리는 are 직장에서.",
+      "en": "We are at work.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-045",
+      "kr": "나는t 나는s 직장에서.",
+      "en": "It is at work.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-046",
+      "kr": "나는t 나는s 집에서.",
+      "en": "It is at home.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-047",
+      "kr": "그는 나는s 집에서.",
+      "en": "He is at home.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-048",
+      "kr": "그는 나는s 직장에서.",
+      "en": "He is at work.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-049",
+      "kr": "그는 나는s on t그는 table.",
+      "en": "He is on the table.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P3-S12-050",
+      "kr": "나는t 나는s at t그는 off나는ce.",
+      "en": "It is at the office.",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 50,
+    "neg": 0,
+    "wh_q": 0,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L1_Sequential_Generation_v2.2.0_improved",
+  "metadata": {
+    "generated_at": "2025-09-01T21:34:20.364Z",
+    "generation_version": "2.2.0_improved",
+    "sequential_learning_verified": true,
+    "quality_control_applied": true
+  }
+}

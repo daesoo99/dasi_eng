@@ -1,0 +1,187 @@
+{
+  "architecture": {
+    "score": 100,
+    "details": {
+      "layerSeparation": 100,
+      "dependencyDirection": 100,
+      "domainPurity": 100
+    },
+    "violations": []
+  },
+  "plugins": {
+    "score": 87,
+    "details": {
+      "interfaceBasedDesign": 100,
+      "replaceability": 60,
+      "extensibility": 100
+    },
+    "plugins": [
+      "CachedContentAdapter",
+      "FsContentAdapter",
+      "MemorySessionAdapter",
+      "BasicScoreAdapter"
+    ]
+  },
+  "modularity": {
+    "score": 7826,
+    "details": {
+      "cohesion": 67,
+      "coupling": 88,
+      "singleResponsibility": 80
+    },
+    "modules": [
+      {
+        "name": "CachedContentAdapter",
+        "path": "C:/Users/kimdaesoo/source/claude/DaSi_eng/backend/src/adapters/cache/CachedContentAdapter.ts",
+        "imports": [
+          "../../domain/ports/ContentPort;",
+          "../../shared/types/core;"
+        ],
+        "exports": [
+          "1 exports"
+        ],
+        "responsibilities": 2,
+        "cyclomaticComplexity": 18
+      },
+      {
+        "name": "FirebaseAuthAdapter",
+        "path": "C:/Users/kimdaesoo/source/claude/DaSi_eng/backend/src/adapters/firebase/FirebaseAuthAdapter.ts",
+        "imports": [
+          "firebase-admin;",
+          "../../shared/errors/DomainError;"
+        ],
+        "exports": [
+          "3 exports"
+        ],
+        "responsibilities": 3,
+        "cyclomaticComplexity": 20
+      },
+      {
+        "name": "FsContentAdapter",
+        "path": "C:/Users/kimdaesoo/source/claude/DaSi_eng/backend/src/adapters/fs/FsContentAdapter.ts",
+        "imports": [
+          "../../domain/ports/ContentPort;",
+          "../../shared/types/core;",
+          "fs;",
+          "path;"
+        ],
+        "exports": [
+          "1 exports"
+        ],
+        "responsibilities": 1,
+        "cyclomaticComplexity": 12
+      },
+      {
+        "name": "MemorySessionAdapter",
+        "path": "C:/Users/kimdaesoo/source/claude/DaSi_eng/backend/src/adapters/memory/MemorySessionAdapter.ts",
+        "imports": [
+          "../../domain/ports/SessionPort;",
+          "../../domain/entities/StudySession;"
+        ],
+        "exports": [
+          "1 exports"
+        ],
+        "responsibilities": 1,
+        "cyclomaticComplexity": 10
+      },
+      {
+        "name": "BasicScoreAdapter",
+        "path": "C:/Users/kimdaesoo/source/claude/DaSi_eng/backend/src/adapters/score/BasicScoreAdapter.ts",
+        "imports": [
+          "../../domain/ports/ScorePort;",
+          "../../shared/types/core;"
+        ],
+        "exports": [
+          "1 exports"
+        ],
+        "responsibilities": 1,
+        "cyclomaticComplexity": 25
+      },
+      {
+        "name": "ApplicationBootstrap",
+        "path": "C:/Users/kimdaesoo/source/claude/DaSi_eng/backend/src/app/ApplicationBootstrap.ts",
+        "imports": [
+          "../container/ServiceRegistry;",
+          "../container/AdapterFactory;",
+          "../config/ConfigManager;",
+          "express;",
+          "../domain/ports/ContentPort;",
+          "../domain/ports/ScorePort;",
+          "../routes/RouteIntegrator;"
+        ],
+        "exports": [
+          "4 exports"
+        ],
+        "responsibilities": 4,
+        "cyclomaticComplexity": 12
+      },
+      {
+        "name": "cacheConfig",
+        "path": "C:/Users/kimdaesoo/source/claude/DaSi_eng/backend/src/config/cacheConfig.ts",
+        "imports": [],
+        "exports": [
+          "6 exports"
+        ],
+        "responsibilities": 5,
+        "cyclomaticComplexity": 28
+      },
+      {
+        "name": "ConfigManager",
+        "path": "C:/Users/kimdaesoo/source/claude/DaSi_eng/backend/src/config/ConfigManager.ts",
+        "imports": [],
+        "exports": [
+          "8 exports"
+        ],
+        "responsibilities": 8,
+        "cyclomaticComplexity": 19
+      },
+      {
+        "name": "firebase",
+        "path": "C:/Users/kimdaesoo/source/claude/DaSi_eng/backend/src/config/firebase.ts",
+        "imports": [
+          "firebase-admin;"
+        ],
+        "exports": [
+          "7 exports"
+        ],
+        "responsibilities": 7,
+        "cyclomaticComplexity": 11
+      },
+      {
+        "name": "middleware",
+        "path": "C:/Users/kimdaesoo/source/claude/DaSi_eng/backend/src/config/middleware.ts",
+        "imports": [
+          "express;",
+          "helmet;",
+          "cors;",
+          "express-rate-limit;",
+          "pino-http;",
+          "on-finished;",
+          "./prometheus;"
+        ],
+        "exports": [
+          "1 exports"
+        ],
+        "responsibilities": 7,
+        "cyclomaticComplexity": 3
+      }
+    ]
+  },
+  "looseCoupling": {
+    "score": 85,
+    "details": {
+      "dependencyInversion": 55,
+      "interfaceSegregation": 100,
+      "circularDependencies": 100
+    },
+    "issues": [
+      "Direct dependency on concrete class in C:/Users/kimdaesoo/source/claude/DaSi_eng/backend/src/controllers/contentController.ts",
+      "Direct dependency on concrete class in C:/Users/kimdaesoo/source/claude/DaSi_eng/backend/src/controllers/expController.ts",
+      "Direct dependency on concrete class in C:/Users/kimdaesoo/source/claude/DaSi_eng/backend/src/controllers/userController.ts"
+    ]
+  },
+  "overallScore": 2025,
+  "recommendations": [
+    "✨ Excellent architecture! Consider documenting patterns for team guidance"
+  ]
+}

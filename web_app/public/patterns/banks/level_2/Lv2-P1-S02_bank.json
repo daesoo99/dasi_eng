@@ -7,6 +7,80 @@
   "learning_points": "질문 대화 패턴으로 실제 상황을 가정해 말해 보기",
   "phase": 1,
   "stage_number": 2,
-  "count": 0,
-  "sentences": []
+  "count": 10,
+  "sentences": [
+    {
+      "id": "Lv2-P1-S02-001",
+      "kr": "어디로 가고 있습니까?",
+      "en": "Where are you going?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P1-S02-002",
+      "kr": "나는 상점에 가고 있습니다.",
+      "en": "I am going to the store.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P1-S02-003",
+      "kr": "무엇을 요리하고 있습니까?",
+      "en": "What are you cooking?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P1-S02-004",
+      "kr": "그들은 무엇을 찾고 있습니까?",
+      "en": "What are they looking for?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P1-S02-005",
+      "kr": "우리는 집으로 걸어가고 있습니다.",
+      "en": "We are walking home.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P1-S02-006",
+      "kr": "그녀는 누구와 이야기하고 있습니까?",
+      "en": "Who is she talking to?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P1-S02-007",
+      "kr": "나는 저녁을 만들고 있습니다.",
+      "en": "I am making dinner.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P1-S02-008",
+      "kr": "언제 떠나고 있습니까?",
+      "en": "When are you leaving?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P1-S02-009",
+      "kr": "그는 왜 뛰고 있습니까?",
+      "en": "Why is he running?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P1-S02-010",
+      "kr": "아이들은 놀이터에서 놀고 있습니다.",
+      "en": "The children are playing at the playground.",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "wh_q": 6,
+    "aff": 4,
+    "neg": 0,
+    "yn_q": 0
+  },
+  "status": "incomplete",
+  "batch": "10_sentence_generation_batch_3",
+  "metadata": {
+    "generated_at": "2025-01-09",
+    "generator": "claude_code_v1",
+    "grammar_constraints": ["present_continuous", "wh_questions", "all_level_1_grammar"]
+  }
 }

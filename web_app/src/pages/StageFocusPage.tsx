@@ -4,6 +4,7 @@ import { StageSelector } from '@/components/StageSelector';
 import { StageFocusSessionComponent } from '@/components/StageFocusSession';
 import { useUser } from '@/store/useAppStore';
 import type { StageFocusSettings, SpeedLevel, RepeatCount } from '@/services/stageFocusMode';
+import { getRecommendedSettings, SPEED_LEVEL_DESCRIPTIONS, REPEAT_COUNT_DESCRIPTIONS } from '@/utils/stageFocusDefaults';
 
 type PageMode = 'level_select' | 'stage_select' | 'settings' | 'session' | 'results';
 
@@ -14,14 +15,17 @@ const StageFocusPage: React.FC = () => {
   const [currentMode, setCurrentMode] = useState<PageMode>('level_select');
   const [selectedLevel, setSelectedLevel] = useState<number>(user.level || 3);
   const [selectedStage, setSelectedStage] = useState<number>(1);
-  const [settings, setSettings] = useState<StageFocusSettings>({
-    level: selectedLevel,
-    stage: 1,
-    speedLevel: 'medium' as SpeedLevel,
-    repeatCount: 6 as RepeatCount,
-    immediateCorrection: true,
-    autoPlayCorrectAnswer: true,
-    shuffleQuestions: true
+  const [settings, setSettings] = useState<StageFocusSettings>(() => {
+    const recommendedDefaults = getRecommendedSettings(selectedLevel, 1);
+    return {
+      level: selectedLevel,
+      stage: 1,
+      speedLevel: recommendedDefaults.speedLevel,
+      repeatCount: recommendedDefaults.repeatCount,
+      immediateCorrection: recommendedDefaults.immediateCorrection,
+      autoPlayCorrectAnswer: recommendedDefaults.autoPlayCorrectAnswer,
+      shuffleQuestions: recommendedDefaults.shuffleQuestions
+    };
   });
   const [sessionResults, setSessionResults] = useState<any>(null);
 
@@ -43,7 +47,14 @@ const StageFocusPage: React.FC = () => {
 
   const handleStageSelect = (stage: number) => {
     setSelectedStage(stage);
-    setSettings(prev => ({ ...prev, stage }));
+    const recommendedSettings = getRecommendedSettings(selectedLevel, stage);
+    setSettings(prev => ({ 
+      ...prev, 
+      stage,
+      // 스테이지 변경 시 권장 설정으로 업데이트 (사용자가 이미 커스터마이징한 경우 유지)
+      speedLevel: recommendedSettings.speedLevel,
+      repeatCount: recommendedSettings.repeatCount
+    }));
     setCurrentMode('settings');
   };
 
@@ -143,22 +154,19 @@ const StageFocusPage: React.FC = () => {
               연습 속도 (문제 간 지연시간)
             </label>
             <div className="grid grid-cols-3 gap-3">
-              {[
-                { key: 'slow', label: '느림 (3초)', icon: '🐌' },
-                { key: 'medium', label: '보통 (2초)', icon: '🚀' },
-                { key: 'fast', label: '빠름 (1초)', icon: '⚡' }
-              ].map((speed) => (
+              {(Object.entries(SPEED_LEVEL_DESCRIPTIONS) as Array<[SpeedLevel, typeof SPEED_LEVEL_DESCRIPTIONS[SpeedLevel]]>).map(([key, desc]) => (
                 <button
-                  key={speed.key}
-                  onClick={() => setSettings(prev => ({ ...prev, speedLevel: speed.key as SpeedLevel }))}
+                  key={key}
+                  onClick={() => setSettings(prev => ({ ...prev, speedLevel: key }))}
                   className={`p-3 rounded-lg border-2 transition-all ${
-                    settings.speedLevel === speed.key
+                    settings.speedLevel === key
                       ? 'border-blue-500 bg-blue-50 text-blue-700'
                       : 'border-gray-200 hover:border-gray-300'
                   }`}
                 >
-                  <div className="text-lg mb-1">{speed.icon}</div>
-                  <div className="text-sm font-medium">{speed.label}</div>
+                  <div className="text-lg mb-1">{desc.label.split(' ')[0]}</div>
+                  <div className="text-sm font-medium">{desc.label}</div>
+                  <div className="text-xs text-gray-600">{desc.description}</div>
                 </button>
               ))}
             </div>
@@ -167,7 +175,7 @@ const StageFocusPage: React.FC = () => {
           {/* 문장 수 설정 */}
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-3">
-              연습 문장 수: {settings.repeatCount}개
+              연습 문장 수: {REPEAT_COUNT_DESCRIPTIONS[settings.repeatCount]}
             </label>
             <input
               type="range"
@@ -178,8 +186,8 @@ const StageFocusPage: React.FC = () => {
               className="w-full"
             />
             <div className="flex justify-between text-xs text-gray-500 mt-1">
-              <span>5개 (빠른 연습)</span>
-              <span>8개 (완전 마스터)</span>
+              <span>{REPEAT_COUNT_DESCRIPTIONS[5]}</span>
+              <span>{REPEAT_COUNT_DESCRIPTIONS[8]}</span>
             </div>
           </div>
 

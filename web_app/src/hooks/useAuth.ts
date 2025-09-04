@@ -63,7 +63,7 @@ export const useAuth = () => {
     };
 
     setupAuthListener();
-  }, [setAppUser, userProgress]);
+  }, [setAppUser]);
 
   const loadUserProgress = async (userId: string): Promise<UserProgress | null> => {
     try {

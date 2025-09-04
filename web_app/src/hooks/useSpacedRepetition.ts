@@ -8,6 +8,16 @@ import {
   StorageManager 
 } from './useLocalStorage';
 
+// 🔄 LEGACY ADAPTER: 새 SRS 시스템으로 점진적 마이그레이션 중
+// 2025-01-12: useSRSEngine.ts를 사용하는 것을 권장합니다
+import { useSRSEngine } from './useSRSEngine';
+import { ReviewCard } from '@/services/srs/SRSEngine';
+
+/**
+ * @deprecated 이 훅은 레거시입니다. 새 프로젝트에서는 useSRSEngine.ts를 사용하세요.
+ * 기존 호환성을 위해 SSOT SRS 시스템의 어댑터로 작동합니다.
+ */
+
 // 망각곡선 복습 간격 (밀리초)
 export const REVIEW_INTERVALS = {
   FIRST: 1 * 24 * 60 * 60 * 1000,    // 1일
@@ -58,6 +68,14 @@ export interface UseSpacedRepetitionReturn {
 }
 
 export const useSpacedRepetition = (): UseSpacedRepetitionReturn => {
+  
+  // 🔄 ADAPTER PATTERN: SSOT SRS 시스템 사용
+  const srsEngine = useSRSEngine({ 
+    userId: 'legacy-user', 
+    storageKey: 'legacy-srs-cards'
+  });
+  
+  // 기존 로컬스토리지 시스템 (점진적 이전 중)
   const { 
     value: mistakes, 
     updateValue: updateMistakes 
@@ -68,78 +86,126 @@ export const useSpacedRepetition = (): UseSpacedRepetitionReturn => {
     updateValue: updateStatsValue 
   } = useLocalStorage(STORAGE_KEYS.USER_STATS);
 
-  // Get due reviews (mistakes that need to be reviewed now)
+  // Get due reviews (SSOT 시스템 + 레거시 호환)
   const dueReviews = useMemo(() => {
+    // 🔄 NEW: SSOT 시스템에서 복습 예정 카드들 가져오기
+    const newDueCards = srsEngine.dueCards;
+    
+    // 🔄 LEGACY: 기존 mistakes 시스템 (점진적 제거 예정)
     const now = Date.now();
-    return mistakes.filter(mistake => 
+    const legacyDueReviews = mistakes.filter(mistake => 
       !mistake.mastered && mistake.nextReview <= now
     );
-  }, [mistakes]);
+
+    // 🔗 ADAPTER: 레거시 형태로 변환하여 반환
+    const adaptedNewCards = newDueCards.map(card => ({
+      id: card.id,
+      korean: card.content.korean,
+      english: card.content.english,
+      pattern: card.content.pattern || 'unknown',
+      level: card.content.level,
+      stage: card.content.stage,
+      nextReview: card.memory.nextReview.getTime(),
+      mastered: card.memory.strength > 0.9, // 높은 기억력 = 마스터
+      reviewCount: card.memory.reviewCount,
+      mistakeCount: card.performance.mistakes
+    } as MistakeItem));
+
+    // 우선: SSOT 시스템, 대체: 레거시 시스템
+    return adaptedNewCards.length > 0 ? adaptedNewCards : legacyDueReviews;
+  }, [srsEngine.dueCards, mistakes]);
 
   // Statistics
   const mistakeCount = mistakes.length;
   const reviewCount = mistakes.filter(m => m.reviewCount > 0).length;
   const masteredCount = mistakes.filter(m => m.mastered).length;
 
-  // Add a new mistake
+  // Add a new mistake (SSOT 어댑터)
   const addMistake = useCallback((mistake: MistakeData) => {
-    updateMistakes(prevMistakes => {
-      const now = Date.now();
-      const newMistakes = [...prevMistakes];
+    console.warn('⚠️ [DEPRECATED] useSpacedRepetition.addMistake는 deprecated입니다. useSRSEngine을 사용하세요.');
+    
+    // 🔄 NEW: SSOT 시스템에 추가
+    try {
+      const newCard = srsEngine.addCard({
+        korean: mistake.korean,
+        english: mistake.english,
+        level: mistake.level,
+        stage: mistake.stage,
+        pattern: mistake.pattern
+      });
       
-      // Check if this mistake already exists
-      const existingIndex = newMistakes.findIndex(m => 
-        m.korean === mistake.korean && 
-        m.english === mistake.english &&
-        m.pattern === mistake.pattern
-      );
-
-      if (existingIndex >= 0) {
-        // Update existing mistake
-        const existing = newMistakes[existingIndex];
-        newMistakes[existingIndex] = {
-          ...existing,
-          mistakeCount: existing.mistakeCount + 1,
-          lastMistake: now,
-          totalResponseTime: existing.totalResponseTime + mistake.responseTime,
-          averageResponseTime: (existing.totalResponseTime + mistake.responseTime) / (existing.mistakeCount + 1),
-          // Reset review schedule (start from 1 day again since they got it wrong again)
-          nextReview: now + REVIEW_INTERVALS.FIRST,
-          reviewStage: 0,
-          lastUserAnswer: mistake.userAnswer
-        };
+      // 틀린 답안을 반영한 리뷰 세션 처리
+      srsEngine.processReviewSession(newCard.id, {
+        userAnswer: mistake.userAnswer,
+        correctAnswer: mistake.english,
+        isCorrect: false,
+        responseTime: mistake.responseTime,
+        difficulty: 'medium',
+        confidence: 0.3
+      });
+      
+      console.log(`✅ [NEW SRS] 새 틀린 문제 추가: ${mistake.korean}`);
+      
+    } catch (error) {
+      console.error('NEW SRS 시스템에 추가 실패, 레거시 시스템 사용:', error);
+      
+      // 🔄 FALLBACK: 레거시 시스템에 추가
+      updateMistakes(prevMistakes => {
+        const now = Date.now();
+        const newMistakes = [...prevMistakes];
         
-        console.log(`기존 틀린 문제 업데이트: ${mistake.korean} (총 ${newMistakes[existingIndex].mistakeCount}번 틀림)`);
-      } else {
-        // Add new mistake
-        const newMistake: MistakeItem = {
-          id: `mistake_${now}_${Math.random().toString(36).substr(2, 9)}`,
-          level: mistake.level,
-          stage: mistake.stage,
-          korean: mistake.korean,
-          english: mistake.english,
-          pattern: mistake.pattern,
-          verb: mistake.verb,
-          userAnswer: mistake.userAnswer,
-          mistakeCount: 1,
-          firstMistake: now,
-          lastMistake: now,
-          nextReview: now + REVIEW_INTERVALS.FIRST,
-          reviewStage: 0,
-          reviewCount: 0,
-          difficulty: mistake.difficulty,
-          totalResponseTime: mistake.responseTime,
-          averageResponseTime: mistake.responseTime,
-          mastered: false
-        };
-        
-        newMistakes.push(newMistake);
-        console.log(`새 틀린 문제 추가: ${mistake.korean}`);
-      }
+        const existingIndex = newMistakes.findIndex(m => 
+          m.korean === mistake.korean && 
+          m.english === mistake.english &&
+          m.pattern === mistake.pattern
+        );
 
-      return newMistakes;
-    });
-  }, [updateMistakes]);
+        if (existingIndex >= 0) {
+          // Update existing mistake
+          const existing = newMistakes[existingIndex];
+          newMistakes[existingIndex] = {
+            ...existing,
+            mistakeCount: existing.mistakeCount + 1,
+            lastMistake: now,
+            totalResponseTime: existing.totalResponseTime + mistake.responseTime,
+            averageResponseTime: (existing.totalResponseTime + mistake.responseTime) / (existing.mistakeCount + 1),
+            nextReview: now + REVIEW_INTERVALS.FIRST,
+            reviewStage: 0,
+            lastUserAnswer: mistake.userAnswer
+          };
+          
+          console.log(`📦 [LEGACY] 기존 틀린 문제 업데이트: ${mistake.korean}`);
+        } else {
+          // Add new mistake
+          const newMistake: MistakeItem = {
+            id: `mistake_${now}_${Math.random().toString(36).substr(2, 9)}`,
+            level: mistake.level,
+            stage: mistake.stage,
+            korean: mistake.korean,
+            english: mistake.english,
+            pattern: mistake.pattern,
+            verb: mistake.verb,
+            userAnswer: mistake.userAnswer,
+            mistakeCount: 1,
+            firstMistake: now,
+            lastMistake: now,
+            nextReview: now + REVIEW_INTERVALS.FIRST,
+            reviewStage: 0,
+            reviewCount: 0,
+            difficulty: mistake.difficulty,
+            totalResponseTime: mistake.responseTime,
+            averageResponseTime: mistake.responseTime,
+            mastered: false
+          };
+          
+          newMistakes.push(newMistake);
+          console.log(`📦 [LEGACY] 새 틀린 문제 추가: ${mistake.korean}`);
+        }
+
+        return newMistakes;
+      });
+    }
+  }, [srsEngine, updateMistakes]);
 
   // Complete a review (mark as correct or incorrect)
   const completedReview = useCallback((mistakeId: string, isCorrect: boolean) => {

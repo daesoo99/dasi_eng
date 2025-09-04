@@ -1,16 +1,16 @@
 {
   "stage_id": "Lv1-P1-S02",
   "title": "일반동사 현재형",
-  "description": "일반동사를 활용한 현재 습관/일반사실 표현 - 3인칭 단수 -s 규칙 학습",
-  "grammar_pattern": "Simple present tense with regular verbs",
+  "description": "일반동사를 활용해 현재 습관/일반사실을 말하는 연습입니다. 주어 + 동사원형 형태로 '~한다'를 표현합니다.",
+  "grammar_pattern": "Simple present tense",
   "examples": [
     "I live in Seoul.",
     "He likes coffee."
   ],
-  "learning_points": "일반동사 현재형과 3인칭 단수 -s 규칙을 통한 습관과 일반사실 표현",
+  "learning_points": "3인칭 단수일 때 동사에 -s 붙이기, 현재 습관 표현",
   "phase": 1,
   "stage_number": 2,
-  "count": 50,
+  "count": 10,
   "sentences": [
     {
       "id": "Lv1-P1-S02-001",
@@ -19,15 +19,15 @@
       "form": "aff"
     },
     {
-      "id": "Lv1-P1-S02-002",
+      "id": "Lv1-P1-S02-002", 
       "kr": "그는 커피를 좋아해요.",
       "en": "He likes coffee.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S02-003",
-      "kr": "그녀는 매일 운동해요.",
-      "en": "She exercises every day.",
+      "kr": "그녀는 책을 읽어요.",
+      "en": "She reads books.",
       "form": "aff"
     },
     {
@@ -44,20 +44,20 @@
     },
     {
       "id": "Lv1-P1-S02-006",
-      "kr": "나는 책을 읽어요.",
-      "en": "I read books.",
+      "kr": "나는 매일 운동해요.",
+      "en": "I exercise every day.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S02-007",
-      "kr": "그는 일찍 일어나요.",
-      "en": "He wakes up early.",
+      "kr": "그는 학교에 가요.",
+      "en": "He goes to school.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S02-008",
-      "kr": "그녀는 요리를 잘해요.",
-      "en": "She cooks well.",
+      "kr": "그녀는 요리를 해요.",
+      "en": "She cooks food.",
       "form": "aff"
     },
     {
@@ -68,264 +68,24 @@
     },
     {
       "id": "Lv1-P1-S02-010",
-      "kr": "그들은 학교에 가요.",
-      "en": "They go to school.",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-011",
       "kr": "나는 물을 마셔요.",
       "en": "I drink water.",
       "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-012",
-      "kr": "그는 축구를 해요.",
-      "en": "He plays soccer.",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-013",
-      "kr": "그녀는 한국어를 말해요.",
-      "en": "She speaks Korean.",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-014",
-      "kr": "우리는 집에서 먹어요.",
-      "en": "We eat at home.",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-015",
-      "kr": "그들은 버스를 타요.",
-      "en": "They take the bus.",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-016",
-      "kr": "나는 친구를 만나요.",
-      "en": "I meet friends.",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-017",
-      "kr": "그는 신문을 읽어요.",
-      "en": "He reads newspapers.",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-018",
-      "kr": "그녀는 편지를 써요.",
-      "en": "She writes letters.",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-019",
-      "kr": "우리는 노래를 불러요.",
-      "en": "We sing songs.",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-020",
-      "kr": "그들은 게임을 해요.",
-      "en": "They play games.",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-021",
-      "kr": "나는 일찍 자요.",
-      "en": "I sleep early.",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-022",
-      "kr": "그는 돈을 벌어요.",
-      "en": "He earns money.",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-023",
-      "kr": "그녀는 꽃을 좋아해요.",
-      "en": "She likes flowers.",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-024",
-      "kr": "우리는 여행을 해요.",
-      "en": "We travel.",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-025",
-      "kr": "그들은 숙제를 해요.",
-      "en": "They do homework.",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-026",
-      "kr": "나는 차를 운전해요.",
-      "en": "I drive a car.",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-027",
-      "kr": "그는 기타를 쳐요.",
-      "en": "He plays guitar.",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-028",
-      "kr": "그녀는 춤을 춰요.",
-      "en": "She dances.",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-029",
-      "kr": "우리는 산에 올라가요.",
-      "en": "We climb mountains.",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-030",
-      "kr": "그들은 수영을 해요.",
-      "en": "They swim.",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-031",
-      "kr": "나는 사진을 찍어요.",
-      "en": "I take photos.",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-032",
-      "kr": "그는 농구를 해요.",
-      "en": "He plays basketball.",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-033",
-      "kr": "그녀는 시를 써요.",
-      "en": "She writes poems.",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-034",
-      "kr": "우리는 정원을 가꿔요.",
-      "en": "We garden.",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-035",
-      "kr": "그들은 자전거를 타요.",
-      "en": "They ride bicycles.",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P1-S02-036",
-      "kr": "나는 커피를 마시지 않아요.",
-      "en": "I do not drink coffee.",
-      "form": "neg"
-    },
-    {
-      "id": "Lv1-P1-S02-037",
-      "kr": "그는 담배를 피우지 않아요.",
-      "en": "He does not smoke.",
-      "form": "neg"
-    },
-    {
-      "id": "Lv1-P1-S02-038",
-      "kr": "그녀는 고기를 먹지 않아요.",
-      "en": "She does not eat meat.",
-      "form": "neg"
-    },
-    {
-      "id": "Lv1-P1-S02-039",
-      "kr": "우리는 늦게 자지 않아요.",
-      "en": "We do not sleep late.",
-      "form": "neg"
-    },
-    {
-      "id": "Lv1-P1-S02-040",
-      "kr": "그들은 TV를 보지 않아요.",
-      "en": "They do not watch TV.",
-      "form": "neg"
-    },
-    {
-      "id": "Lv1-P1-S02-041",
-      "kr": "나는 게임을 하지 않아요.",
-      "en": "I do not play games.",
-      "form": "neg"
-    },
-    {
-      "id": "Lv1-P1-S02-042",
-      "kr": "그는 술을 마시지 않아요.",
-      "en": "He does not drink alcohol.",
-      "form": "neg"
-    },
-    {
-      "id": "Lv1-P1-S02-043",
-      "kr": "그녀는 운전을 하지 않아요.",
-      "en": "She does not drive.",
-      "form": "neg"
-    },
-    {
-      "id": "Lv1-P1-S02-044",
-      "kr": "너는 어디에 살아요?",
-      "en": "Where do you live?",
-      "form": "wh_q"
-    },
-    {
-      "id": "Lv1-P1-S02-045",
-      "kr": "그는 무엇을 해요?",
-      "en": "What does he do?",
-      "form": "wh_q"
-    },
-    {
-      "id": "Lv1-P1-S02-046",
-      "kr": "그녀는 언제 운동해요?",
-      "en": "When does she exercise?",
-      "form": "wh_q"
-    },
-    {
-      "id": "Lv1-P1-S02-047",
-      "kr": "우리는 어떻게 가요?",
-      "en": "How do we go?",
-      "form": "wh_q"
-    },
-    {
-      "id": "Lv1-P1-S02-048",
-      "kr": "왜 그들은 공부해요?",
-      "en": "Why do they study?",
-      "form": "wh_q"
-    },
-    {
-      "id": "Lv1-P1-S02-049",
-      "kr": "누가 요리를 해요?",
-      "en": "Who cooks?",
-      "form": "wh_q"
-    },
-    {
-      "id": "Lv1-P1-S02-050",
-      "kr": "어느 것을 좋아해요?",
-      "en": "Which do you like?",
-      "form": "wh_q"
     }
   ],
   "forms_distribution": {
-    "aff": 35,
-    "neg": 8,
-    "wh_q": 7,
+    "aff": 10,
+    "neg": 0,
+    "wh_q": 0,
     "unknown": 0
   },
   "status": "complete",
-  "batch": "L1_Stage2_Correction_Batch",
+  "batch": "L1_Manual_Creation_v2",
   "metadata": {
-    "corrected_at": "2025-08-30T00:00:00.000Z",
-    "correction_version": "2.2.0",
-    "source_files": [
-      "web_app\\public\\patterns\\banks\\level_1\\Lv1-P1-S02_bank.json"
-    ]
+    "created_at": "2025-09-01T21:30:00.000Z",
+    "creation_method": "manual_sequential_learning",
+    "grammar_scope": ["be_verb_present", "simple_present"],
+    "max_sentence_length": 8,
+    "vocabulary_level": "beginner"
   }
 }

@@ -1,0 +1,104 @@
+{
+  "levelInfo": {
+    "level": 4,
+    "title": "비즈니스 영어 및 고급 표현",
+    "description": "비즈니스 환경에서 사용되는 고급 영어 표현과 회의, 프레젠테이션 등의 실무 상황 대화를 배웁니다.",
+    "totalPhases": 6,
+    "totalStages": 32,
+    "estimatedHours": 80
+  },
+  "phases": [
+    {
+      "phase": 1,
+      "title": "비즈니스 회의 기초",
+      "description": "회의 진행 및 참여를 위한 기본 표현",
+      "stages": [
+        {
+          "stageId": "Lv4-P1-S01",
+          "title": "회의 시작 및 안건 소개",
+          "sentences": [
+            {
+              "ko": "오늘 회의를 시작하겠습니다",
+              "en": "Let's begin today's meeting"
+            },
+            {
+              "ko": "첫 번째 안건은 예산 검토입니다",
+              "en": "The first item on the agenda is budget review"
+            },
+            {
+              "ko": "이번 분기 성과에 대해 논의하겠습니다",
+              "en": "We'll discuss this quarter's performance"
+            },
+            {
+              "ko": "모든 참석자분들 환영합니다",
+              "en": "Welcome everyone to the meeting"
+            },
+            {
+              "ko": "오늘의 주요 목적은 전략 수정입니다",
+              "en": "The main purpose today is strategy revision"
+            }
+          ]
+        },
+        {
+          "stageId": "Lv4-P1-S02",
+          "title": "의견 제시 및 토론",
+          "sentences": [
+            {
+              "ko": "이 점에 대해 의견이 있으십니까",
+              "en": "Do you have any thoughts on this point"
+            },
+            {
+              "ko": "저는 다른 관점을 제시하고 싶습니다",
+              "en": "I'd like to offer a different perspective"
+            },
+            {
+              "ko": "이 제안에 대해 어떻게 생각하십니까",
+              "en": "What are your thoughts on this proposal"
+            },
+            {
+              "ko": "더 구체적으로 설명해 주실 수 있나요",
+              "en": "Could you elaborate on that point"
+            },
+            {
+              "ko": "이 데이터가 우리 결정에 도움이 될 것입니다",
+              "en": "This data will help inform our decision"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "title": "프레젠테이션 스킬",
+      "description": "효과적인 프레젠테이션을 위한 표현",
+      "stages": [
+        {
+          "stageId": "Lv4-P2-S03",
+          "title": "프레젠테이션 시작",
+          "sentences": [
+            {
+              "ko": "오늘 프레젠테이션을 시작하겠습니다",
+              "en": "I'll begin today's presentation"
+            },
+            {
+              "ko": "주요 포인트 세 가지를 다루겠습니다",
+              "en": "I'll cover three main points"
+            },
+            {
+              "ko": "질문은 마지막에 받겠습니다",
+              "en": "I'll take questions at the end"
+            },
+            {
+              "ko": "이 차트가 현재 상황을 보여줍니다",
+              "en": "This chart shows the current situation"
+            },
+            {
+              "ko": "다음 슬라이드로 넘어가겠습니다",
+              "en": "Let's move to the next slide"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

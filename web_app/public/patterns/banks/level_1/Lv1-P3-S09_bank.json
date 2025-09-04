@@ -1,11 +1,11 @@
 {
   "stage_id": "Lv1-P3-S09",
-  "title": "Stage Lv1-P3-S09",
+  "title": "인칭대명사 활용",
   "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
-  "grammar_pattern": "Basic sentence patterns",
+  "grammar_pattern": "Personal pronouns",
   "examples": [
-    "I am at home. (variant 1)",
-    "She is at school. (variant 1)"
+    "I love you.",
+    "She gave me her book."
   ],
   "learning_points": "Level 1 target grammar and expressions with practical usage examples",
   "phase": 3,
@@ -14,318 +14,317 @@
   "sentences": [
     {
       "id": "Lv1-P3-S09-001",
-      "kr": "나는 집에 있습니다. (v1)",
-      "en": "I am at home. (variant 1)",
+      "kr": "우리는 l나는sten to mus나는c.",
+      "en": "We listen to music.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-002",
-      "kr": "그녀는 학교에 있습니다. (v1)",
-      "en": "She is at school. (variant 1)",
+      "kr": "나는 dr나는nk 차를.",
+      "en": "I drink tea.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-003",
-      "kr": "책이 테이블 위에 있습니다. (v1)",
-      "en": "The book is on the table. (variant 1)",
+      "kr": "너는 l나는sten to mus나는c.",
+      "en": "You listen to music.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-004",
-      "kr": "그는 방 안에 있습니다. (v1)",
-      "en": "He is in the room. (variant 1)",
+      "kr": "너는 go home.",
+      "en": "You go home.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-005",
-      "kr": "우리는 직장에 있습니다. (v1)",
-      "en": "We are at work. (variant 1)",
+      "kr": "T그는y 그는lp my fam나는ly.",
+      "en": "They help my family.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-006",
-      "kr": "고양이가 침대 위에 있습니다. (v1)",
-      "en": "The cat is on the bed. (variant 1)",
+      "kr": "그는 call t그는 doctor.",
+      "en": "He call the doctor.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-007",
-      "kr": "그들은 한국에 있습니다. (v1)",
-      "en": "They are in Korea. (variant 1)",
+      "kr": "T그는y come to school.",
+      "en": "They come to school.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-008",
-      "kr": "나는 병원에 있습니다. (v1)",
-      "en": "I am at the hospital. (variant 1)",
+      "kr": "S그는 study math.",
+      "en": "She study math.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-009",
-      "kr": "펜이 책상 위에 있습니다. (v1)",
-      "en": "The pen is on the desk. (variant 1)",
+      "kr": "그는 eat bread.",
+      "en": "He eat bread.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-010",
-      "kr": "그는 차 안에 있습니다. (v1)",
-      "en": "He is in the car. (variant 1)",
+      "kr": "S그는 call my fr나는end.",
+      "en": "She call my friend.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-011",
-      "kr": "나는 집에 있습니다. (v2)",
-      "en": "I am at home. (variant 2)",
+      "kr": "나는 dr나는nk 커피를.",
+      "en": "I drink coffee.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-012",
-      "kr": "그녀는 학교에 있습니다. (v2)",
-      "en": "She is at school. (variant 2)",
+      "kr": "너는 watch news.",
+      "en": "You watch news.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-013",
-      "kr": "책이 테이블 위에 있습니다. (v2)",
-      "en": "The book is on the table. (variant 2)",
+      "kr": "T그는y love my fam나는ly.",
+      "en": "They love my family.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-014",
-      "kr": "그는 방 안에 있습니다. (v2)",
-      "en": "He is in the room. (variant 2)",
+      "kr": "나는t l나는ve 집에서.",
+      "en": "It live at home.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-015",
-      "kr": "우리는 직장에 있습니다. (v2)",
-      "en": "We are at work. (variant 2)",
+      "kr": "우리는 have a phone.",
+      "en": "We have a phone.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-016",
-      "kr": "고양이가 침대 위에 있습니다. (v2)",
-      "en": "The cat is on the bed. (variant 2)",
+      "kr": "우리는 come home.",
+      "en": "We come home.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-017",
-      "kr": "그들은 한국에 있습니다. (v2)",
-      "en": "They are in Korea. (variant 2)",
+      "kr": "나는t 그는lp my fam나는ly.",
+      "en": "It help my family.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-018",
-      "kr": "나는 병원에 있습니다. (v2)",
-      "en": "I am at the hospital. (variant 2)",
+      "kr": "S그는 go home.",
+      "en": "She go home.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-019",
-      "kr": "펜이 책상 위에 있습니다. (v2)",
-      "en": "The pen is on the desk. (variant 2)",
+      "kr": "너는 play games.",
+      "en": "You play games.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-020",
-      "kr": "그는 차 안에 있습니다. (v2)",
-      "en": "He is in the car. (variant 2)",
+      "kr": "나는 play soccer.",
+      "en": "I play soccer.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-021",
-      "kr": "나는 집에 있습니다. (v3)",
-      "en": "I am at home. (variant 3)",
+      "kr": "너는 come home.",
+      "en": "You come home.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-022",
-      "kr": "그녀는 학교에 있습니다. (v3)",
-      "en": "She is at school. (variant 3)",
+      "kr": "우리는 l나는ke mov나는es.",
+      "en": "We like movies.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-023",
-      "kr": "책이 테이블 위에 있습니다. (v3)",
-      "en": "The book is on the table. (variant 3)",
+      "kr": "너는 see t그는 doctor.",
+      "en": "You see the doctor.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-024",
-      "kr": "그는 방 안에 있습니다. (v3)",
-      "en": "He is in the room. (variant 3)",
+      "kr": "S그는 come to school.",
+      "en": "She come to school.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-025",
-      "kr": "우리는 직장에 있습니다. (v3)",
-      "en": "We are at work. (variant 3)",
+      "kr": "S그는 come home.",
+      "en": "She come home.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-026",
-      "kr": "고양이가 침대 위에 있습니다. (v3)",
-      "en": "The cat is on the bed. (variant 3)",
+      "kr": "나는t see a mov나는e.",
+      "en": "It see a movie.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-027",
-      "kr": "그들은 한국에 있습니다. (v3)",
-      "en": "They are in Korea. (variant 3)",
+      "kr": "너는 l나는ke 책들을.",
+      "en": "You like books.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-028",
-      "kr": "나는 병원에 있습니다. (v3)",
-      "en": "I am at the hospital. (variant 3)",
+      "kr": "나는 meet my fr나는end.",
+      "en": "I meet my friend.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-029",
-      "kr": "펜이 책상 위에 있습니다. (v3)",
-      "en": "The pen is on the desk. (variant 3)",
+      "kr": "나는 see my fr나는end.",
+      "en": "I see my friend.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-030",
-      "kr": "그는 차 안에 있습니다. (v3)",
-      "en": "He is in the car. (variant 3)",
+      "kr": "T그는y study 학교에서.",
+      "en": "They study at school.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-031",
-      "kr": "나는 집에 있습니다. (v4)",
-      "en": "I am at home. (variant 4)",
+      "kr": "우리는 gave me t그는 {object}.",
+      "en": "We gave me the {object}.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-032",
-      "kr": "그녀는 학교에 있습니다. (v4)",
-      "en": "She is at school. (variant 4)",
+      "kr": "나는 {verb} t그는m.",
+      "en": "I {verb} them.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-033",
-      "kr": "책이 테이블 위에 있습니다. (v4)",
-      "en": "The book is on the table. (variant 4)",
+      "kr": "나는 {verb} h나는m.",
+      "en": "I {verb} him.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-034",
-      "kr": "그는 방 안에 있습니다. (v4)",
-      "en": "He is in the room. (variant 4)",
+      "kr": "나는t gave me a {object}.",
+      "en": "It gave me a {object}.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-035",
-      "kr": "우리는 직장에 있습니다. (v4)",
-      "en": "We are at work. (variant 4)",
+      "kr": "나는 l나는sten to t그는 차를c그는r.",
+      "en": "I listen to the teacher.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-036",
-      "kr": "고양이가 침대 위에 없습니다. (v4)",
-      "en": "The cat is not on the bed. (variant 4)",
-      "form": "neg"
+      "kr": "너는 l나는sten to t그는 차를c그는r.",
+      "en": "You listen to the teacher.",
+      "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-037",
-      "kr": "그들은 한국에 없습니다. (v4)",
-      "en": "They are not in Korea. (variant 4)",
-      "form": "neg"
+      "kr": "그는 gave me a {object}.",
+      "en": "He gave me a {object}.",
+      "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-038",
-      "kr": "나는 병원에 없습니다. (v4)",
-      "en": "I am not at the hospital. (variant 4)",
-      "form": "neg"
+      "kr": "나는 gave me a {object}.",
+      "en": "I gave me a {object}.",
+      "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-039",
-      "kr": "펜이 책상 위에 없습니다. (v4)",
-      "en": "The pen is not on the desk. (variant 4)",
-      "form": "neg"
+      "kr": "우리는 go home.",
+      "en": "We go home.",
+      "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-040",
-      "kr": "그는 차 안에 없습니다. (v4)",
-      "en": "He is not in the car. (variant 4)",
-      "form": "neg"
+      "kr": "나는 {verb} 그는r.",
+      "en": "I {verb} her.",
+      "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-041",
-      "kr": "나는 집에 있습니다. (v5)",
-      "en": "I am at home. (variant 5)",
+      "kr": "너는 work 학교에서.",
+      "en": "You work at school.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-042",
-      "kr": "그녀는 학교에 있습니다. (v5)",
-      "en": "She is at school. (variant 5)",
+      "kr": "너는 gave me t그는 {object}.",
+      "en": "You gave me the {object}.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-043",
-      "kr": "책이 테이블 위에 있습니다. (v5)",
-      "en": "The book is on the table. (variant 5)",
+      "kr": "나는 {verb} us.",
+      "en": "I {verb} us.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-044",
-      "kr": "그는 방 안에 있습니다. (v5)",
-      "en": "He is in the room. (variant 5)",
+      "kr": "너는 study 학교에서.",
+      "en": "You study at school.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-045",
-      "kr": "우리는 직장에 있습니다. (v5)",
-      "en": "We are at work. (variant 5)",
+      "kr": "나는t work 나는n t그는 off나는ce.",
+      "en": "It work in the office.",
       "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-046",
-      "kr": "어디에 고양이가 있습니까? (v5)",
-      "en": "Where is the cat? (variant 5)",
-      "form": "wh_q"
+      "kr": "너는 gave me a {object}.",
+      "en": "You gave me a {object}.",
+      "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-047",
-      "kr": "누가 한국에 있습니까? (v5)",
-      "en": "Who is in Korea? (variant 5)",
-      "form": "wh_q"
+      "kr": "그는 read 책들을.",
+      "en": "He read books.",
+      "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-048",
-      "kr": "언제 나는 병원에 있습니까? (v5)",
-      "en": "When am I at the hospital? (variant 5)",
-      "form": "wh_q"
+      "kr": "S그는 gave me a {object}.",
+      "en": "She gave me a {object}.",
+      "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-049",
-      "kr": "무엇이 책상 위에 있습니까? (v5)",
-      "en": "What is on the desk? (variant 5)",
-      "form": "wh_q"
+      "kr": "T그는y gave me t그는 {object}.",
+      "en": "They gave me the {object}.",
+      "form": "aff"
     },
     {
       "id": "Lv1-P3-S09-050",
-      "kr": "왜 그는 차 안에 있습니까? (v5)",
-      "en": "Why is he in the car? (variant 5)",
-      "form": "wh_q"
+      "kr": "우리는 love mus나는c.",
+      "en": "We love music.",
+      "form": "aff"
     }
   ],
   "forms_distribution": {
-    "aff": 40,
-    "neg": 5,
-    "wh_q": 5,
+    "aff": 50,
+    "neg": 0,
+    "wh_q": 0,
     "unknown": 0
   },
   "status": "complete",
-  "batch": "L1_Reorganization_Batch",
+  "batch": "L1_Sequential_Generation_v2.2.0_improved",
   "metadata": {
-    "reorganized_at": "2025-08-28T11:08:55.364Z",
-    "reorganization_version": "2.2.0",
-    "source_files": [
-      "web_app\\public\\patterns\\banks\\level_1\\Lv1-P3-S09_bank.json"
-    ]
+    "generated_at": "2025-09-01T21:34:20.338Z",
+    "generation_version": "2.2.0_improved",
+    "sequential_learning_verified": true,
+    "quality_control_applied": true
   }
 }

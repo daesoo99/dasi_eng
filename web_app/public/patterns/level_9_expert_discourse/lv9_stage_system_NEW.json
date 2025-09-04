@@ -1,0 +1,44 @@
+{
+  "levelInfo": {
+    "level": 9,
+    "title": "전문가 수준 담화",
+    "description": "학술적·전문적 환경에서의 고도로 정교한 언어 사용과 복합적 개념 표현을 배웁니다.",
+    "totalPhases": 8,
+    "totalStages": 48,
+    "estimatedHours": 120
+  },
+  "phases": [
+    {
+      "phase": 1,
+      "title": "전문 분야 의사소통",
+      "stages": [
+        {
+          "stageId": "Lv9-P1-S01",
+          "title": "복합적 개념 설명",
+          "sentences": [
+            {
+              "ko": "이 현상의 다면적 특성을 고려할 때 단순한 해석은 부적절합니다",
+              "en": "Given the multifaceted nature of this phenomenon, simplistic interpretations are inadequate"
+            },
+            {
+              "ko": "상호 연관된 요소들의 복잡한 상호작용을 분석해야 합니다",
+              "en": "We must analyze the complex interactions between interconnected elements"
+            },
+            {
+              "ko": "이론적 틀과 실증적 증거 사이의 괴리를 어떻게 해석할 것인가",
+              "en": "How do we interpret the discrepancy between theoretical frameworks and empirical evidence"
+            },
+            {
+              "ko": "메타분석 결과는 이전 연구들의 한계점을 명확히 보여줍니다",
+              "en": "Meta-analysis results clearly demonstrate the limitations of previous studies"
+            },
+            {
+              "ko": "패러다임의 전환이 필요한 시점이라고 판단됩니다",
+              "en": "I believe we've reached a point where a paradigm shift is necessary"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

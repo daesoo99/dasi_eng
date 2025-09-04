@@ -4,14 +4,18 @@
  */
 
 export enum ErrorCategory {
-  DOMAIN = 'DOMAIN',           // 비즈니스 규칙 위반 → 400
-  AUTHENTICATION = 'AUTH',     // 인증 실패 → 401  
-  AUTHORIZATION = 'AUTHZ',     // 권한 부족 → 403
-  VALIDATION = 'VALIDATION',   // 입력 검증 → 400
-  CONFLICT = 'CONFLICT',       // 리소스 충돌 → 409
-  RATE_LIMIT = 'RATE_LIMIT',   // 사용량 초과 → 429
-  EXTERNAL = 'EXTERNAL',       // 외부 서비스 → 503
-  SYSTEM = 'SYSTEM'            // 시스템 오류 → 500
+  BUSINESS_RULE = 'BUSINESS_RULE', // 비즈니스 규칙 위반 → 400
+  AUTHENTICATION = 'AUTH',         // 인증 실패 → 401  
+  AUTHORIZATION = 'AUTHZ',         // 권한 부족 → 403
+  VALIDATION = 'VALIDATION',       // 입력 검증 → 400
+  NOT_FOUND = 'NOT_FOUND',        // 리소스 없음 → 404
+  CONFLICT = 'CONFLICT',          // 리소스 충돌 → 409
+  RATE_LIMIT = 'RATE_LIMIT',      // 사용량 초과 → 429
+  EXTERNAL = 'EXTERNAL',          // 외부 서비스 → 503
+  SYSTEM = 'SYSTEM',              // 시스템 오류 → 500
+  
+  // 기존 호환성
+  DOMAIN = 'BUSINESS_RULE'
 }
 
 export class DomainError extends Error {
@@ -26,15 +30,16 @@ export class DomainError extends Error {
   }
 
   toHttpError(): { statusCode: number; body: any } {
-    const statusMap = {
-      [ErrorCategory.DOMAIN]: 400,
-      [ErrorCategory.AUTHENTICATION]: 401,
-      [ErrorCategory.AUTHORIZATION]: 403,
-      [ErrorCategory.VALIDATION]: 400,
-      [ErrorCategory.CONFLICT]: 409,
-      [ErrorCategory.RATE_LIMIT]: 429,
-      [ErrorCategory.EXTERNAL]: 503,
-      [ErrorCategory.SYSTEM]: 500
+    const statusMap: Record<string, number> = {
+      'BUSINESS_RULE': 400,
+      'AUTH': 401,
+      'AUTHZ': 403,
+      'VALIDATION': 400,
+      'NOT_FOUND': 404,
+      'CONFLICT': 409,
+      'RATE_LIMIT': 429,
+      'EXTERNAL': 503,
+      'SYSTEM': 500
     };
 
     return {

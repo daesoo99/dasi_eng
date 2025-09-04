@@ -98,6 +98,85 @@ export interface AttemptRecord {
   cardId: string;
   timestamp: Date;
   success: boolean;
+  quality: number;        // 0-5 (SRS quality rating)
+  interval: number;       // Next review interval in days
+  easinessFactor: number; // SRS ease factor
+}
+
+// User Management Types
+export interface UserReviewStats {
+  totalReviews: number;
+  correctAnswers: number;
+  accuracy: number;       // 0-1
+  avgQuality: number;     // 0-5
+  lastReviewDate: Date;
+}
+
+export interface LearningAnalytics {
+  userId: string;
+  period: {
+    days: number;
+    start: number;        // timestamp
+    end: number;          // timestamp
+  };
+  stats: {
+    totalReviews: number;
+    correctAnswers: number;
+    accuracy: number;
+    averageQuality: number;
+    totalCards: number;
+    masteredCards: number;
+    learningCards: number;
+    newCards: number;
+  };
+  recentActivity: ReviewRecord[];
+}
+
+export interface ReviewRecord {
+  id: string;
+  userId: string;
+  cardId: string;
+  quality: number;        // 0-5
+  interval: number;       // days
+  easinessFactor: number;
+  reviewedAt: Date;
+  responseTime: number;   // milliseconds
+}
+
+export interface UserCard {
+  id: string;
+  userId: string;
+  cardId: string;
+  learningState: 'NEW' | 'LEARNING' | 'REVIEW' | 'RELEARNING';
+  repetitions: number;
+  interval: number;       // days
+  easinessFactor: number;
+  lastReviewed?: Date;
+  nextReview?: Date;
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+// Review Engine Types
+export interface ReviewEngineOptions {
+  maxReviews?: number;
+  includeNew?: boolean;
+  schedulingAlgorithm?: 'SM2' | 'FSRS';
+}
+
+export interface BatchReviewInput {
+  userId: string;
+  itemId: string;
+  quality: number;
+  responseTime?: number;
+}
+
+export interface BatchReviewResult {
+  success: boolean;
+  userId: string;
+  itemId: string;
+  interval?: number;
+  error?: string;
   score: number;
   responseTime: number;
 }
@@ -113,4 +192,13 @@ export interface RetentionScore {
   probability: number;    // 0-1 (기억할 확률)
   confidence: number;     // 0-1 (예측 신뢰도)
   daysSinceLastReview: number;
+}
+
+// TTS Types
+export interface TTSResult {
+  url: string;
+  duration: number;
+  voice: string;
+  text: string;
+  createdAt: string;
 }

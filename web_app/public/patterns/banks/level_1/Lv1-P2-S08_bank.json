@@ -1,11 +1,11 @@
 {
   "stage_id": "Lv1-P2-S08",
-  "title": "명령문 익히기",
+  "title": "명령문",
   "description": "Level 1 grammar practice focusing on stage-specific patterns and expressions.",
-  "grammar_pattern": "Basic sentence patterns",
+  "grammar_pattern": "Imperatives",
   "examples": [
-    "I don't like coffee. (variant 1)",
-    "You don't play soccer. (variant 1)"
+    "Sit down, please.",
+    "Don't touch that."
   ],
   "learning_points": "Level 1 target grammar and expressions with practical usage examples",
   "phase": 2,
@@ -13,319 +13,318 @@
   "count": 50,
   "sentences": [
     {
-      "id": "Lv1-P3-S08-001",
-      "kr": "나는 커피를 좋아하지 않습니다. (v1)",
-      "en": "I don't like coffee. (variant 1)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-002",
-      "kr": "너는 축구를 하지 않습니다. (v1)",
-      "en": "You don't play soccer. (variant 1)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-003",
-      "kr": "그는 TV를 보지 않습니다. (v1)",
-      "en": "He doesn't watch TV. (variant 1)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-004",
-      "kr": "그녀는 음악을 듣지 않습니다. (v1)",
-      "en": "She doesn't listen to music. (variant 1)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-005",
-      "kr": "그것은 빨리 달리지 않습니다. (v1)",
-      "en": "It doesn't run fast. (variant 1)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-006",
-      "kr": "우리는 영어를 공부하지 않습니다. (v1)",
-      "en": "We don't study English. (variant 1)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-007",
-      "kr": "그들은 일하지 않습니다. (v1)",
-      "en": "They don't work. (variant 1)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-008",
-      "kr": "나는 책을 읽지 않습니다. (v1)",
-      "en": "I don't read books. (variant 1)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-009",
-      "kr": "너는 학교에 가지 않습니다. (v1)",
-      "en": "You don't go to school. (variant 1)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-010",
-      "kr": "그는 물을 마시지 않습니다. (v1)",
-      "en": "He doesn't drink water. (variant 1)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-011",
-      "kr": "나는 커피를 좋아하지 않습니다. (v2)",
-      "en": "I do not like coffee. (variant 2)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-012",
-      "kr": "너는 축구를 하지 않습니다. (v2)",
-      "en": "You do not play soccer. (variant 2)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-013",
-      "kr": "그는 TV를 보지 않습니다. (v2)",
-      "en": "He does not watch TV. (variant 2)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-014",
-      "kr": "그녀는 음악을 듣지 않습니다. (v2)",
-      "en": "She does not listen to music. (variant 2)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-015",
-      "kr": "그것은 빨리 달리지 않습니다. (v2)",
-      "en": "It does not run fast. (variant 2)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-016",
-      "kr": "우리는 영어를 공부하지 않습니다. (v2)",
-      "en": "We do not study English. (variant 2)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-017",
-      "kr": "그들은 일하지 않습니다. (v2)",
-      "en": "They do not work. (variant 2)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-018",
-      "kr": "나는 책을 읽지 않습니다. (v2)",
-      "en": "I do not read books. (variant 2)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-019",
-      "kr": "너는 학교에 가지 않습니다. (v2)",
-      "en": "You do not go to school. (variant 2)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-020",
-      "kr": "그는 물을 마시지 않습니다. (v2)",
-      "en": "He does not drink water. (variant 2)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-021",
-      "kr": "나는 커피를 좋아하지 않습니다. (v3)",
-      "en": "I don't like coffee. (variant 3)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-022",
-      "kr": "너는 축구를 하지 않습니다. (v3)",
-      "en": "You don't play soccer. (variant 3)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-023",
-      "kr": "그는 TV를 보지 않습니다. (v3)",
-      "en": "He doesn't watch TV. (variant 3)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-024",
-      "kr": "그녀는 음악을 듣지 않습니다. (v3)",
-      "en": "She doesn't listen to music. (variant 3)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-025",
-      "kr": "그것은 빨리 달리지 않습니다. (v3)",
-      "en": "It doesn't run fast. (variant 3)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-026",
-      "kr": "우리는 영어를 공부하지 않습니다. (v3)",
-      "en": "We don't study English. (variant 3)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-027",
-      "kr": "그들은 일하지 않습니다. (v3)",
-      "en": "They don't work. (variant 3)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-028",
-      "kr": "나는 책을 읽지 않습니다. (v3)",
-      "en": "I don't read books. (variant 3)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-029",
-      "kr": "너는 학교에 가지 않습니다. (v3)",
-      "en": "You don't go to school. (variant 3)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-030",
-      "kr": "그는 물을 마시지 않습니다. (v3)",
-      "en": "He doesn't drink water. (variant 3)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-031",
-      "kr": "나는 커피를 좋아하지 않습니다. (v4)",
-      "en": "I don't like coffee. (variant 4)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-032",
-      "kr": "너는 축구를 하지 않습니다. (v4)",
-      "en": "You don't play soccer. (variant 4)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-033",
-      "kr": "그는 TV를 보지 않습니다. (v4)",
-      "en": "He doesn't watch TV. (variant 4)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-034",
-      "kr": "그녀는 음악을 듣지 않습니다. (v4)",
-      "en": "She doesn't listen to music. (variant 4)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-035",
-      "kr": "그것은 빨리 달리지 않습니다. (v4)",
-      "en": "It doesn't run fast. (variant 4)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-036",
-      "kr": "나는 커피를 좋아합니다. (v4)",
-      "en": "I like coffee. (variant 4)",
-      "form": "neg"
-    },
-    {
-      "id": "Lv1-P3-S08-037",
-      "kr": "너는 축구를 합니다. (v4)",
-      "en": "You play soccer. (variant 4)",
-      "form": "neg"
-    },
-    {
-      "id": "Lv1-P3-S08-038",
-      "kr": "그는 TV를 봅니다. (v4)",
-      "en": "He watches TV. (variant 4)",
-      "form": "neg"
-    },
-    {
-      "id": "Lv1-P3-S08-039",
-      "kr": "그녀는 음악을 듣습니다. (v4)",
-      "en": "She listens to music. (variant 4)",
-      "form": "neg"
-    },
-    {
-      "id": "Lv1-P3-S08-040",
-      "kr": "그것은 빨리 달립니다. (v4)",
-      "en": "It runs fast. (variant 4)",
-      "form": "neg"
-    },
-    {
-      "id": "Lv1-P3-S08-041",
-      "kr": "나는 커피를 좋아하지 않습니다. (v5)",
-      "en": "I don't like coffee. (variant 5)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-042",
-      "kr": "너는 축구를 하지 않습니다. (v5)",
-      "en": "You don't play soccer. (variant 5)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-043",
-      "kr": "그는 TV를 보지 않습니다. (v5)",
-      "en": "He doesn't watch TV. (variant 5)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-044",
-      "kr": "그녀는 음악을 듣지 않습니다. (v5)",
-      "en": "She doesn't listen to music. (variant 5)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-045",
-      "kr": "그것은 빨리 달리지 않습니다. (v5)",
-      "en": "It doesn't run fast. (variant 5)",
-      "form": "aff"
-    },
-    {
-      "id": "Lv1-P3-S08-046",
-      "kr": "무엇을 나는 좋아하지 않습니까? (v5)",
-      "en": "What don't I like? (variant 5)",
+      "id": "Lv1-P2-S08-001",
+      "kr": "무엇을 do 너는 meet?",
+      "en": "What do you meet?",
       "form": "wh_q"
     },
     {
-      "id": "Lv1-P3-S08-047",
-      "kr": "누가 축구를 하지 않습니까? (v5)",
-      "en": "Who doesn't play soccer? (variant 5)",
+      "id": "Lv1-P2-S08-002",
+      "kr": "l나는sten to t그는 차를c그는r, please.",
+      "en": "listen to the teacher, please.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-003",
+      "kr": "~하지 않아요 l나는sten to t그는 차를c그는r.",
+      "en": "Do not listen to the teacher.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S08-004",
+      "kr": "~하지 않아요 watch news.",
+      "en": "Do not watch news.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S08-005",
+      "kr": "S그는 watch mov나는es.",
+      "en": "She watch movies.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-006",
+      "kr": "무엇을 do 너는 study?",
+      "en": "What do you study?",
       "form": "wh_q"
     },
     {
-      "id": "Lv1-P3-S08-048",
-      "kr": "언제 그는 TV를 보지 않습니까? (v5)",
-      "en": "When doesn't he watch TV? (variant 5)",
+      "id": "Lv1-P2-S08-007",
+      "kr": "[한국어]",
+      "en": "go to work, please.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-008",
+      "kr": "l나는ve 집에서, please.",
+      "en": "live at home, please.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-009",
+      "kr": "~하지 않아요 l나는ve 나는n Korea.",
+      "en": "Do not live in Korea.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S08-010",
+      "kr": "~하지 않아요 love mov나는es.",
+      "en": "Do not love movies.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S08-011",
+      "kr": "무엇을 do 너는 그는lp?",
+      "en": "What do you help?",
       "form": "wh_q"
     },
     {
-      "id": "Lv1-P3-S08-049",
-      "kr": "어디서 그녀는 음악을 듣지 않습니까? (v5)",
-      "en": "Where doesn't she listen to music? (variant 5)",
+      "id": "Lv1-P2-S08-012",
+      "kr": "~하지 않아요 see t그는 doctor.",
+      "en": "Do not see the doctor.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S08-013",
+      "kr": "나는t love my fam나는ly.",
+      "en": "It love my family.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-014",
+      "kr": "무엇을 do 너는 eat?",
+      "en": "What do you eat?",
       "form": "wh_q"
     },
     {
-      "id": "Lv1-P3-S08-050",
-      "kr": "왜 그것은 빨리 달리지 않습니까? (v5)",
-      "en": "Why doesn't it run fast? (variant 5)",
+      "id": "Lv1-P2-S08-015",
+      "kr": "무엇을 do 너는 play?",
+      "en": "What do you play?",
       "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P2-S08-016",
+      "kr": "그는lp my fam나는ly, please.",
+      "en": "help my family, please.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-017",
+      "kr": "[한국어]",
+      "en": "come to school, please.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-018",
+      "kr": "나는 study math.",
+      "en": "I study math.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-019",
+      "kr": "~하지 않아요 l나는ve 집에서.",
+      "en": "Do not live at home.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S08-020",
+      "kr": "[한국어]",
+      "en": "eat bread, please.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-021",
+      "kr": "무엇을 do 너는 l나는ke?",
+      "en": "What do you like?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P2-S08-022",
+      "kr": "무엇을 do 너는 work?",
+      "en": "What do you work?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P2-S08-023",
+      "kr": "그는 work 학교에서.",
+      "en": "He work at school.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-024",
+      "kr": "그는 dr나는nk 커피를.",
+      "en": "He drink coffee.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-025",
+      "kr": "~하지 않아요 go to work.",
+      "en": "Do not go to work.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S08-026",
+      "kr": "나는t dr나는nk water.",
+      "en": "It drink water.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-027",
+      "kr": "나는 l나는ve 나는n Korea.",
+      "en": "I live in Korea.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-028",
+      "kr": "~하지 않아요 have a book.",
+      "en": "Do not have a book.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S08-029",
+      "kr": "무엇을 do 너는 love?",
+      "en": "What do you love?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P2-S08-030",
+      "kr": "무엇을 do 너는 l나는sten?",
+      "en": "What do you listen?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P2-S08-031",
+      "kr": "그는 dr나는nk water.",
+      "en": "He drink water.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-032",
+      "kr": "~하지 않아요 그는lp my fam나는ly.",
+      "en": "Do not help my family.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S08-033",
+      "kr": "~하지 않아요 play games.",
+      "en": "Do not play games.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S08-034",
+      "kr": "우리는 work 학교에서.",
+      "en": "We work at school.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-035",
+      "kr": "나는 play mus나는c.",
+      "en": "I play music.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-036",
+      "kr": "dr나는nk 차를, please.",
+      "en": "drink tea, please.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-037",
+      "kr": "무엇을 do 너는 read?",
+      "en": "What do you read?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv1-P2-S08-038",
+      "kr": "그는 love my fam나는ly.",
+      "en": "He love my family.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-039",
+      "kr": "S그는 l나는ve 나는n Amer나는ca.",
+      "en": "She live in America.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-040",
+      "kr": "watch mov나는es, please.",
+      "en": "watch movies, please.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-041",
+      "kr": "l나는ve 나는n Korea, please.",
+      "en": "live in Korea, please.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-042",
+      "kr": "나는 go to school.",
+      "en": "I go to school.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-043",
+      "kr": "l나는ve 나는n Amer나는ca, please.",
+      "en": "live in America, please.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-044",
+      "kr": "l나는ke mov나는es, please.",
+      "en": "like movies, please.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-045",
+      "kr": "S그는 meet t그는 차를c그는r.",
+      "en": "She meet the teacher.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-046",
+      "kr": "[한국어]",
+      "en": "have a book, please.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-047",
+      "kr": "S그는 have a phone.",
+      "en": "She have a phone.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-048",
+      "kr": "너는 l나는ke 커피를.",
+      "en": "You like coffee.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-049",
+      "kr": "meet t그는 차를c그는r, please.",
+      "en": "meet the teacher, please.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P2-S08-050",
+      "kr": "그는 watch news.",
+      "en": "He watch news.",
+      "form": "aff"
     }
   ],
   "forms_distribution": {
-    "aff": 40,
-    "neg": 5,
-    "wh_q": 5,
+    "aff": 30,
+    "neg": 10,
+    "wh_q": 10,
     "unknown": 0
   },
   "status": "complete",
-  "batch": "L1_Reorganization_Batch",
+  "batch": "L1_Sequential_Generation_v2.2.0_improved",
   "metadata": {
-    "reorganized_at": "2025-08-28T11:08:55.363Z",
-    "reorganization_version": "2.2.0",
-    "source_files": [
-      "web_app\\public\\patterns\\banks\\level_1\\Lv1-P2-S08_bank.json"
-    ]
+    "generated_at": "2025-09-01T21:34:20.329Z",
+    "generation_version": "2.2.0_improved",
+    "sequential_learning_verified": true,
+    "quality_control_applied": true
   }
 }

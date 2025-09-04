@@ -1,0 +1,70 @@
+{
+  "version": "2.2.0",
+  "environment": "development",
+  
+  "stages": {
+    "Lv1-P1-S01": {
+      "level": 1,
+      "phase": 1,
+      "stage": 1,
+      "grammarFocus": ["be-verb-present"],
+      "vocabularyDifficulty": "basic",
+      "sentenceComplexity": "simple",
+      "targetSentenceCount": 50,
+      "allowedGrammarFromStages": [1],
+      "culturalContext": "korean-learner"
+    },
+    "Lv1-P1-S02": {
+      "level": 1,
+      "phase": 1,
+      "stage": 2,
+      "grammarFocus": ["be-verb-present", "basic-adjectives"],
+      "vocabularyDifficulty": "basic",
+      "sentenceComplexity": "simple",
+      "targetSentenceCount": 50,
+      "allowedGrammarFromStages": [1, 2],
+      "culturalContext": "korean-learner"
+    }
+  },
+  
+  "generationRules": {
+    "sequentialLearning": {
+      "strictMode": true,
+      "allowableExceptions": [],
+      "grammarProgressionValidation": true
+    },
+    "qualityAssurance": {
+      "minVariation": 85,
+      "maxRepetition": 8,
+      "naturalLanguageScore": 90,
+      "koreanLearnerOptimization": true
+    },
+    "metadata": {
+      "includePhonetics": true,
+      "includeCulturalNotes": true,
+      "generateUsageTips": true
+    }
+  },
+  
+  "aiProvider": {
+    "provider": "anthropic",
+    "model": "claude-3-sonnet-20240229",
+    "temperature": 0.7,
+    "maxTokens": 2000,
+    "systemPrompt": "You are an expert English curriculum designer for Korean learners. Generate natural, practical sentences following strict sequential learning principles. Never use grammar patterns from future stages.",
+    "fallbackProviders": ["openai"]
+  },
+  
+  "output": {
+    "fileNamingPattern": "Lv{level}-P{phase}-S{stage:02d}_bank.json",
+    "backupLocation": "../backups/curriculum/",
+    "validationLocation": "../docs/validation/"
+  },
+  
+  "plugins": {
+    "sentenceGenerator": "ai-sentence-generator",
+    "grammarValidator": "sequential-grammar-validator",
+    "metadataEnhancer": "korean-metadata-enhancer",
+    "qualityAssurance": "curriculum-qa-validator"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "levelInfo": {
+    "level": 7,
+    "title": "고급 비즈니스 영어",
+    "description": "전략적 사고와 리더십 커뮤니케이션, 글로벌 비즈니스 환경에서의 고급 표현을 배웁니다.",
+    "totalPhases": 6,
+    "totalStages": 42,
+    "estimatedHours": 105
+  },
+  "phases": [
+    {
+      "phase": 1,
+      "title": "전략적 커뮤니케이션",
+      "stages": [
+        {
+          "stageId": "Lv7-P1-S01",
+          "title": "전략 수립 및 실행 계획",
+          "sentences": [
+            {
+              "ko": "장기적 관점에서 이 전략이 유리할 것입니다",
+              "en": "From a long-term perspective, this strategy will be advantageous"
+            },
+            {
+              "ko": "시장 진입 전략을 다각도로 검토해야 합니다",
+              "en": "We need to examine market entry strategies from multiple angles"
+            },
+            {
+              "ko": "경쟁 우위를 확보하기 위한 방안을 모색하고 있습니다",
+              "en": "We're exploring ways to secure competitive advantages"
+            },
+            {
+              "ko": "투자 수익률을 극대화하는 것이 핵심 목표입니다",
+              "en": "Maximizing return on investment is our key objective"
+            },
+            {
+              "ko": "이해관계자들의 의견을 종합하여 결정하겠습니다",
+              "en": "We'll make decisions based on stakeholder feedback"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

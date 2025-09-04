@@ -29,4 +29,24 @@ export interface ContentPort {
    * 난이도별 카드 필터링
    */
   getCardsByDifficulty(level: number, difficulty: number): Promise<DrillCard[]>;
+
+  /**
+   * 레벨 정보 조회
+   */
+  getLevel(levelId: string): Promise<any>;
+  
+  /**
+   * 모든 레벨 조회
+   */
+  getLevels(): Promise<any[]>;
+  
+  /**
+   * 스테이지 정보 조회
+   */
+  getStage(stageId: string): Promise<any>;
+  
+  /**
+   * 카드 목록 조회 (필터 지원)
+   */
+  getCards(filters: any): Promise<any[]>;
 }

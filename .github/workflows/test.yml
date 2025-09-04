@@ -1,0 +1,94 @@
+name: Test with Firebase Emulators
+on: 
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          cache-dependency-path: '**/package-lock.json'
+      
+      - name: Install dependencies
+        run: |
+          cd backend && npm ci
+          cd ../web_app && npm ci
+          
+      - name: Setup Java (for Firebase Emulators)
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '11'
+          
+      - name: Install Firebase CLI
+        run: npm install -g firebase-tools
+        
+      - name: Setup Firebase config
+        run: |
+          cd backend
+          echo '{
+            "type": "service_account",
+            "project_id": "demo-test",
+            "private_key_id": "fake-key-id",
+            "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC7VJTUt9Us8cKB\n-----END PRIVATE KEY-----\n",
+            "client_email": "fake-email@demo-test.iam.gserviceaccount.com"
+          }' > service-account-key.json
+          
+      - name: Start Firebase Emulators
+        run: |
+          cd backend
+          firebase emulators:start --only auth,firestore,storage --project demo-test --token fake-token &
+          sleep 15
+          
+      - name: Run TypeScript compilation
+        run: |
+          cd backend && npm run typecheck
+          cd ../web_app && npm run typecheck
+          
+      - name: Run unit tests
+        run: cd backend && npm test
+        
+      - name: Run contract tests
+        run: cd backend && npm run test:contracts
+        env:
+          NODE_ENV: test
+          FIRESTORE_EMULATOR_HOST: localhost:8080
+          FIREBASE_AUTH_EMULATOR_HOST: localhost:9099
+          FIREBASE_STORAGE_EMULATOR_HOST: localhost:9199
+          
+      - name: Run integration tests
+        run: cd backend && npm run test:integration
+        env:
+          NODE_ENV: test
+          FIRESTORE_EMULATOR_HOST: localhost:8080
+          FIREBASE_AUTH_EMULATOR_HOST: localhost:9099
+          
+      - name: Run security tests
+        run: cd backend && npm run test:security
+        
+      - name: Generate test coverage
+        run: |
+          cd backend && npm run test:coverage
+          cd ../web_app && npm run test:coverage
+          
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          directory: ./backend/coverage/
+          
+      - name: Stop Firebase Emulators
+        if: always()
+        run: |
+          cd backend
+          firebase emulators:exec --only auth,firestore,storage "echo 'Stopping emulators'" --project demo-test || true

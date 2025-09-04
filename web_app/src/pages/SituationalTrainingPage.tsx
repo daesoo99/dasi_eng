@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
+import { useAnswerEvaluation } from '@/hooks/useAnswerEvaluation';
 
 interface Sentence {
   id: string;
@@ -34,6 +35,13 @@ export const SituationalTrainingPage: React.FC = () => {
   const level = searchParams.get('level');
   const group = searchParams.get('group');
   const groupTitle = searchParams.get('title');
+
+  // Answer evaluation hook with level-appropriate settings
+  const { evaluate } = useAnswerEvaluation({
+    level: parseInt(level || '4'),
+    mode: 'situational',
+    enableLogging: true
+  });
 
   // Level별 그룹 스테이지 ID 매핑
   const levelGroupMapping: { [key: string]: { [key: string]: string[] } } = {
@@ -106,19 +114,17 @@ export const SituationalTrainingPage: React.FC = () => {
   const checkAnswer = () => {
     if (!currentSentence) return;
 
-    const correctAnswer = currentSentence.en.toLowerCase().trim();
-    const userAnswer = userInput.toLowerCase().trim();
-
-    const isCorrect = correctAnswer === userAnswer;
+    // Use modular answer evaluation with contraction support
+    const evaluation = evaluate(userInput, currentSentence.en);
     
     setScore(prev => ({
-      correct: prev.correct + (isCorrect ? 1 : 0),
+      correct: prev.correct + (evaluation.isCorrect ? 1 : 0),
       total: prev.total + 1
     }));
 
     setFeedback({
-      type: isCorrect ? 'correct' : 'incorrect',
-      message: isCorrect ? '정답입니다! 🎉' : `정답: ${currentSentence.en}`
+      type: evaluation.isCorrect ? 'correct' : 'incorrect',
+      message: evaluation.isCorrect ? '정답입니다! 🎉' : evaluation.feedback
     });
 
     // 2초 후 다음 문제로

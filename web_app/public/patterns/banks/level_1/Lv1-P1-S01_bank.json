@@ -14,309 +14,309 @@
   "sentences": [
     {
       "id": "Lv1-P1-S01-001",
-      "kr": "나는 학생입니다. (v1)",
-      "en": "I am a student. (variant 1)",
+      "kr": "나는 행복합니다.",
+      "en": "I am happy.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-002",
-      "kr": "너는 내 친구입니다. (v1)",
-      "en": "You are my friend. (variant 1)",
+      "kr": "너는 내 친구입니다.",
+      "en": "You are my friend.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-003",
-      "kr": "그는 선생님입니다. (v1)",
-      "en": "He is a teacher. (variant 1)",
+      "kr": "그는 선생님입니다.",
+      "en": "He is a teacher.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-004",
-      "kr": "그녀는 의사입니다. (v1)",
-      "en": "She is a doctor. (variant 1)",
+      "kr": "그녀는 의사입니다.",
+      "en": "She is a doctor.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-005",
-      "kr": "그것은 책입니다. (v1)",
-      "en": "It is a book. (variant 1)",
+      "kr": "그것은 책입니다.",
+      "en": "It is a book.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-006",
-      "kr": "우리는 한국인입니다. (v1)",
-      "en": "We are Korean. (variant 1)",
+      "kr": "우리는 한국인입니다.",
+      "en": "We are Korean.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-007",
-      "kr": "그들은 학생들입니다. (v1)",
-      "en": "They are students. (variant 1)",
+      "kr": "그들은 학생들입니다.",
+      "en": "They are students.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-008",
-      "kr": "나는 행복합니다. (v1)",
-      "en": "I am happy. (variant 1)",
+      "kr": "나는 행복합니다.",
+      "en": "I am happy.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-009",
-      "kr": "너는 똑똑합니다. (v1)",
-      "en": "You are smart. (variant 1)",
+      "kr": "너는 똑똑합니다.",
+      "en": "You are smart.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-010",
-      "kr": "그는 키가 큽니다. (v1)",
-      "en": "He is tall. (variant 1)",
+      "kr": "그는 키가 큽니다.",
+      "en": "He is tall.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-011",
-      "kr": "나는 학생입니다. (v2)",
-      "en": "I am a student. (variant 2)",
+      "kr": "나는 학생입니다.",
+      "en": "I am a student.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-012",
-      "kr": "너는 내 친구입니다. (v2)",
-      "en": "You are my friend. (variant 2)",
+      "kr": "너는 좋은 사람입니다.",
+      "en": "You are a good person.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-013",
-      "kr": "그는 선생님입니다. (v2)",
-      "en": "He is a teacher. (variant 2)",
+      "kr": "그는 요리사입니다.",
+      "en": "He is a cook.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-014",
-      "kr": "그녀는 의사입니다. (v2)",
-      "en": "She is a doctor. (variant 2)",
+      "kr": "그녀는 예쁩니다.",
+      "en": "She is pretty.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-015",
-      "kr": "그것은 책입니다. (v2)",
-      "en": "It is a book. (variant 2)",
+      "kr": "그것은 연필입니다.",
+      "en": "It is a pencil.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-016",
-      "kr": "우리는 한국인입니다. (v2)",
-      "en": "We are Korean. (variant 2)",
+      "kr": "우리는 친구들입니다.",
+      "en": "We are friends.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-017",
-      "kr": "그들은 학생들입니다. (v2)",
-      "en": "They are students. (variant 2)",
+      "kr": "그들은 바쁩니다.",
+      "en": "They are busy.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-018",
-      "kr": "나는 행복합니다. (v2)",
-      "en": "I am happy. (variant 2)",
+      "kr": "나는 피곤합니다.",
+      "en": "I am tired.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-019",
-      "kr": "너는 똑똑합니다. (v2)",
-      "en": "You are smart. (variant 2)",
+      "kr": "너는 젊습니다.",
+      "en": "You are young.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-020",
-      "kr": "그는 키가 큽니다. (v2)",
-      "en": "He is tall. (variant 2)",
+      "kr": "그는 친절합니다.",
+      "en": "He is kind.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-021",
-      "kr": "나는 학생입니다. (v3)",
-      "en": "I am a student. (variant 3)",
+      "kr": "나는 운전자입니다.",
+      "en": "I am a driver.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-022",
-      "kr": "너는 내 친구입니다. (v3)",
-      "en": "You are my friend. (variant 3)",
+      "kr": "너는 강합니다.",
+      "en": "You are strong.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-023",
-      "kr": "그는 선생님입니다. (v3)",
-      "en": "He is a teacher. (variant 3)",
+      "kr": "그는 농부입니다.",
+      "en": "He is a farmer.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-024",
-      "kr": "그녀는 의사입니다. (v3)",
-      "en": "She is a doctor. (variant 3)",
+      "kr": "그녀는 작가입니다.",
+      "en": "She is a writer.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-025",
-      "kr": "그것은 책입니다. (v3)",
-      "en": "It is a book. (variant 3)",
+      "kr": "그것은 컴퓨터입니다.",
+      "en": "It is a computer.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-026",
-      "kr": "우리는 한국인입니다. (v3)",
-      "en": "We are Korean. (variant 3)",
+      "kr": "우리는 가족입니다.",
+      "en": "We are family.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-027",
-      "kr": "그들은 학생들입니다. (v3)",
-      "en": "They are students. (variant 3)",
+      "kr": "그들은 어립니다.",
+      "en": "They are young.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-028",
-      "kr": "나는 행복합니다. (v3)",
-      "en": "I am happy. (variant 3)",
+      "kr": "나는 건강합니다.",
+      "en": "I am healthy.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-029",
-      "kr": "너는 똑똑합니다. (v3)",
-      "en": "You are smart. (variant 3)",
+      "kr": "너는 특별합니다.",
+      "en": "You are special.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-030",
-      "kr": "그는 키가 큽니다. (v3)",
-      "en": "He is tall. (variant 3)",
+      "kr": "그는 성실합니다.",
+      "en": "He is honest.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-031",
-      "kr": "나는 학생입니다. (v4)",
-      "en": "I am a student. (variant 4)",
+      "kr": "나는 가수입니다.",
+      "en": "I am a singer.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-032",
-      "kr": "너는 내 친구입니다. (v4)",
-      "en": "You are my friend. (variant 4)",
+      "kr": "너는 중요합니다.",
+      "en": "You are important.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-033",
-      "kr": "그는 선생님입니다. (v4)",
-      "en": "He is a teacher. (variant 4)",
+      "kr": "그는 화가입니다.",
+      "en": "He is a painter.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-034",
-      "kr": "그녀는 의사입니다. (v4)",
-      "en": "She is a doctor. (variant 4)",
+      "kr": "그녀는 조용합니다.",
+      "en": "She is quiet.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-035",
-      "kr": "그것은 책입니다. (v4)",
-      "en": "It is a book. (variant 4)",
+      "kr": "그것은 의자입니다.",
+      "en": "It is a chair.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-036",
-      "kr": "우리는 한국인이 아닙니다. (v4)",
-      "en": "We are not Korean. (variant 4)",
-      "form": "neg"
+      "kr": "우리는 이웃입니다.",
+      "en": "We are neighbors.",
+      "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-037",
-      "kr": "그들은 학생들이 아닙니다. (v4)",
-      "en": "They are not students. (variant 4)",
-      "form": "neg"
+      "kr": "그들은 새롭습니다.",
+      "en": "They are new.",
+      "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-038",
-      "kr": "나는 행복하지 않습니다. (v4)",
-      "en": "I am not happy. (variant 4)",
-      "form": "neg"
+      "kr": "나는 경찰관입니다.",
+      "en": "I am a police officer.",
+      "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-039",
-      "kr": "너는 똑똑하지 않습니다. (v4)",
-      "en": "You are not smart. (variant 4)",
-      "form": "neg"
+      "kr": "너는 용감합니다.",
+      "en": "You are brave.",
+      "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-040",
-      "kr": "그는 키가 크지 않습니다. (v4)",
-      "en": "He is not tall. (variant 4)",
-      "form": "neg"
+      "kr": "그는 똑똑합니다.",
+      "en": "He is smart.",
+      "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-041",
-      "kr": "나는 학생입니다. (v5)",
-      "en": "I am a student. (variant 5)",
+      "kr": "나는 배우입니다.",
+      "en": "I am an actor.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-042",
-      "kr": "너는 내 친구입니다. (v5)",
-      "en": "You are my friend. (variant 5)",
+      "kr": "너는 재미있습니다.",
+      "en": "You are funny.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-043",
-      "kr": "그는 선생님입니다. (v5)",
-      "en": "He is a teacher. (variant 5)",
+      "kr": "그는 정직합니다.",
+      "en": "He is honest.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-044",
-      "kr": "그녀는 의사입니다. (v5)",
-      "en": "She is a doctor. (variant 5)",
+      "kr": "그녀는 상냥합니다.",
+      "en": "She is nice.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-045",
-      "kr": "그것은 책입니다. (v5)",
-      "en": "It is a book. (variant 5)",
+      "kr": "그것은 공입니다.",
+      "en": "It is a ball.",
       "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-046",
-      "kr": "너는 누구입니까? (v5)",
-      "en": "Who are you? (variant 5)",
-      "form": "wh_q"
+      "kr": "우리는 팀입니다.",
+      "en": "We are a team.",
+      "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-047",
-      "kr": "그것은 무엇입니까? (v5)",
-      "en": "What is it? (variant 5)",
-      "form": "wh_q"
+      "kr": "그들은 빠릅니다.",
+      "en": "They are fast.",
+      "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-048",
-      "kr": "그는 어디에 있습니까? (v5)",
-      "en": "Where is he? (variant 5)",
-      "form": "wh_q"
+      "kr": "나는 과학자입니다.",
+      "en": "I am a scientist.",
+      "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-049",
-      "kr": "왜 너는 행복합니까? (v5)",
-      "en": "Why are you happy? (variant 5)",
-      "form": "wh_q"
+      "kr": "너는 안전합니다.",
+      "en": "You are safe.",
+      "form": "aff"
     },
     {
       "id": "Lv1-P1-S01-050",
-      "kr": "언제 그는 올까요? (v5)",
-      "en": "When is he coming? (variant 5)",
-      "form": "wh_q"
+      "kr": "그는 정상입니다.",
+      "en": "He is normal.",
+      "form": "aff"
     }
   ],
   "forms_distribution": {
-    "aff": 40,
-    "neg": 5,
-    "wh_q": 5,
+    "aff": 50,
+    "neg": 0,
+    "wh_q": 0,
     "unknown": 0
   },
   "status": "complete",

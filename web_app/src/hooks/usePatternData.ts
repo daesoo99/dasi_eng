@@ -1,5 +1,6 @@
-import { useState, useCallback, useMemo } from 'react';
+import { useState, useCallback, useMemo, useEffect } from 'react';
 import { QuestionItem, LevelSystemData, PatternDataManager } from '@/data/patternData';
+import { LevelServiceFactory } from '@/services/curriculum/LevelServiceFactory';
 
 export interface UsePatternDataProps {
   levelSystemData?: LevelSystemData | null;
@@ -41,17 +42,42 @@ export const usePatternData = ({
 }: UsePatternDataProps = {}): UsePatternDataReturn => {
   const [currentStage, setCurrentStage] = useState(initialStage);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentQuestions, setCurrentQuestions] = useState<QuestionItem[]>([]);
+  const [isLoading, setIsLoading] = useState(false);
 
-  // Generate questions based on mode
-  const currentQuestions = useMemo(() => {
-    if (reviewQuestions.length > 0) {
-      console.log('복습 모드: 복습 문제 사용', reviewQuestions.length);
-      return reviewQuestions;
-    }
-    
-    const generated = PatternDataManager.generateQuestions(levelSystemData, currentStage);
-    console.log('일반 모드: 생성된 문제', generated.length);
-    return generated;
+  // Generate questions with useEffect for async handling
+  useEffect(() => {
+    const generateQuestions = async () => {
+      if (reviewQuestions.length > 0) {
+        console.log('복습 모드: 복습 문제 사용', reviewQuestions.length);
+        setCurrentQuestions(reviewQuestions);
+        return;
+      }
+
+      if (!levelSystemData) {
+        setCurrentQuestions([]);
+        return;
+      }
+
+      setIsLoading(true);
+      
+      try {
+        // 백엔드 API에서 올바른 JSON 데이터를 가져오므로 클라이언트 생성 불필요
+        console.log(`📋 데이터는 백엔드 API에서 제공: Level ${levelSystemData.level}, Stage ${currentStage}`);
+        // StudyPage는 api.getCards()를 통해 백엔드에서 데이터를 가져옴
+        setCurrentQuestions([]); // 이 hook은 StudyPage에서 사용되지 않음
+      } catch (error) {
+        console.error('❌ 문제 생성 오류:', error);
+        // 오류 시 기존 방식으로 폴백
+        const generated = PatternDataManager.generateQuestions(levelSystemData, currentStage);
+        console.log('🔄 폴백: 기존 방식 사용', generated.length);
+        setCurrentQuestions(generated);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    generateQuestions();
   }, [levelSystemData, currentStage, reviewQuestions]);
 
   // Current question

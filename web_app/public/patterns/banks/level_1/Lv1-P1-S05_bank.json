@@ -1,0 +1,89 @@
+{
+  "stage_id": "Lv1-P2-S05",
+  "title": "€8 Ìä0",
+  "description": "do/does notü be notD ¬©\ €8 ðµ",
+  "grammar_pattern": "Negative sentences with do/does not and be not",
+  "examples": [
+    "I do not like spiders.",
+    "He is not busy."
+  ],
+  "learning_points": "€8 lp uˆ0 - don't/doesn't •} ðµ",
+  "phase": 2,
+  "stage_number": 5,
+  "count": 10,
+  "sentences": [
+    {
+      "id": "Lv1-P2-S05-001",
+      "kr": "˜” ä<| ‹DXÀ JµÈä.",
+      "en": "I do not like coffee.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S05-002", 
+      "kr": "ø” ÑÐ ˆÀ JµÈä.",
+      "en": "He is not at home.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S05-003",
+      "kr": "ø@”  ÝØt DÙÈä.",
+      "en": "She is not a teacher.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S05-004",
+      "kr": "°¬” YÝät DÙÈä.",
+      "en": "We are not students.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S05-005",
+      "kr": "˜” T| ôÀ JµÈä.",
+      "en": "I do not watch movies.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S05-006",
+      "kr": "°@ ED }À JµÈä.", 
+      "en": "Tom does not read books.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S05-007",
+      "kr": "øƒ@ DøÀ JµÈä.",
+      "en": "It is not expensive.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S05-008",
+      "kr": "øä@ \m´| ÐXÀ JµÈä.",
+      "en": "They do not speak Korean.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S05-009",
+      "kr": "˜” ‰õXÀ JµÈä.",
+      "en": "I am not happy.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv1-P2-S05-010",
+      "kr": "ø@” ”¬XÀ JµÈä.",
+      "en": "She does not cook.",
+      "form": "neg"
+    }
+  ],
+  "forms_distribution": {
+    "neg": 10,
+    "aff": 0,
+    "wh_q": 0,
+    "yn_q": 0
+  },
+  "status": "incomplete",
+  "batch": "10_sentence_generation_batch_1",
+  "metadata": {
+    "generated_at": "2025-01-09",
+    "generator": "claude_code_v1",
+    "grammar_constraints": ["do/does not", "be not", "stages 1-4 grammar only"]
+  }
+}

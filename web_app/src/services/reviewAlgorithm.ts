@@ -1,4 +1,16 @@
-// 고급 복습 알고리즘 서비스
+/**
+ * @deprecated 이 서비스는 deprecated입니다.
+ * 새 프로젝트에서는 services/srs/SRSEngine.ts를 사용하세요.
+ * 
+ * 마이그레이션 가이드:
+ * - ReviewAlgorithmService → SRSEngine
+ * - calculateNextReview() → SRSEngine.updateCard() 
+ * - getTodayReviewSentences() → SRSEngine.getCardsForReview()
+ * 
+ * 2025-01-12: SSOT 시스템으로 통합 중
+ */
+
+// 고급 복습 알고리즘 서비스  
 // 간격 반복 학습 (Spaced Repetition) + 망각 곡선 기반
 
 interface ReviewSession {
@@ -293,4 +305,11 @@ class ReviewAlgorithmService {
   }
 }
 
+/**
+ * @deprecated reviewAlgorithmService는 deprecated입니다.
+ * 대신 services/srs/SRSEngine.ts를 사용하세요:
+ * 
+ * import { SRSEngine } from '@/services/srs/SRSEngine';
+ * const srsEngine = new SRSEngine();
+ */
 export const reviewAlgorithmService = new ReviewAlgorithmService();

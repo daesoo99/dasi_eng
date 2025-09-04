@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import ProgressDashboard from '../components/ProgressDashboard';
 
 const ProgressManagementPage: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<'overview' | 'detailed' | 'analytics'>('overview');
+  const [activeTab, setActiveTab] = useState<'overview' | 'detailed' | 'analytics'>('detailed'); // 기본값을 detailed로
+  const navigate = useNavigate();
   const userId = 'dev-user'; // 실제로는 auth context에서 가져옴
 
   const renderTabContent = () => {
@@ -233,7 +235,18 @@ const ProgressManagementPage: React.FC = () => {
       {/* 헤더 */}
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-6xl mx-auto px-6 py-4">
-          <h1 className="text-2xl font-bold text-gray-900 mb-4">📊 진도 관리</h1>
+          <div className="flex items-center gap-4 mb-4">
+            <button
+              onClick={() => navigate('/')}
+              className="flex items-center gap-2 px-3 py-2 text-gray-600 hover:text-indigo-600 hover:bg-gray-50 rounded-lg transition-colors"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+              </svg>
+              뒤로가기
+            </button>
+            <h1 className="text-2xl font-bold text-gray-900">📊 진도 관리</h1>
+          </div>
           
           {/* 탭 네비게이션 */}
           <div className="flex gap-1">
