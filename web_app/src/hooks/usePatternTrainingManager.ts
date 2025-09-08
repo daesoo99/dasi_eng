@@ -164,8 +164,7 @@ export const usePatternTrainingManager = (
     return eventManagerRef.current.handleCompletion(completionId, () => {
       config.onCompletionEvent?.(stageId);
       
-      // 완료 알림 표시
-      alert(`🎉 Stage ${stageId} 훈련 완료!\n\n모든 고급 문법 패턴을 연습했습니다.\n계속해서 다른 스테이지도 도전해보세요!`);
+      // 완료 알림은 onCompletionEvent에서 처리되므로 중복 제거
     });
   }, [config]);
 

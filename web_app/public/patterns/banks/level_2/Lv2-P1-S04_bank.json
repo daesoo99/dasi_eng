@@ -7,6 +7,80 @@
   "learning_points": "진행형 시제 종합 비교로 시점 차이 완벽 이해",
   "phase": 1,
   "stage_number": 4,
-  "count": 0,
-  "sentences": []
+  "count": 10,
+  "sentences": [
+    {
+      "id": "Lv2-P1-S04-001",
+      "kr": "그는 내일 늦게까지 일하고 있을 것입니다.",
+      "en": "He will be working late tomorrow.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P1-S04-002",
+      "kr": "나는 5시에 공부하고 있을 것입니다.",
+      "en": "I will be studying at 5.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P1-S04-003",
+      "kr": "그들은 회의를 하고 있을 것입니까?",
+      "en": "Will they be having a meeting?",
+      "form": "yn_q"
+    },
+    {
+      "id": "Lv2-P1-S04-004",
+      "kr": "우리는 저녁에 TV를 보고 있을 것입니다.",
+      "en": "We will be watching TV in the evening.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P1-S04-005",
+      "kr": "그녀는 점심시간에 무엇을 하고 있을 것입니까?",
+      "en": "What will she be doing at lunchtime?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P1-S04-006",
+      "kr": "아이들은 공원에서 놀고 있지 않을 것입니다.",
+      "en": "The children will not be playing in the park.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv2-P1-S04-007",
+      "kr": "나는 지금 공부하고 있습니다.",
+      "en": "I am studying now.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P1-S04-008",
+      "kr": "그는 어제 5시에 일하고 있었습니다.",
+      "en": "He was working at 5 yesterday.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P1-S04-009",
+      "kr": "당신은 내일 이 시간에 어디에 있을 것입니까?",
+      "en": "Where will you be at this time tomorrow?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P1-S04-010",
+      "kr": "비가 내일 내리고 있을 것입니다.",
+      "en": "It will be raining tomorrow.",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 6,
+    "neg": 1,
+    "wh_q": 2,
+    "yn_q": 1
+  },
+  "status": "complete",
+  "batch": "level2_completion_batch_1",
+  "metadata": {
+    "generated_at": "2025-01-12",
+    "generator": "claude_code_v2",
+    "grammar_constraints": ["future_continuous", "will_be_ing", "tense_comparison", "all_level_1_grammar"]
+  }
 }

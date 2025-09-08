@@ -13,6 +13,7 @@
 import React, { useState, useCallback, useMemo, useRef, useEffect } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { usePatternTrainingManager, type PatternTrainingManagerConfig } from '@/hooks/usePatternTrainingManager';
+import { useSpeakingStage } from '@/store/useAppStore';
 import { evaluateAnswer } from '@/utils/answerNormalization';
 
 // 타입 정의
@@ -41,6 +42,7 @@ const PatternTrainingPageV2: React.FC = () => {
   // Navigation 
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
+  const { stage: speakingStage } = useSpeakingStage();
 
   // URL 파라미터에서 level, phase, stage 추출 및 검증
   const levelNumber = Math.max(1, parseInt(searchParams.get('level') || '1', 10));
@@ -939,10 +941,24 @@ const PatternTrainingPageV2: React.FC = () => {
         <div className="max-w-4xl mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-2xl font-bold text-gray-800">
-                패턴 훈련 (Level {levelNumber} - Phase {phaseNumber} - Stage {stageNumber})
-              </h1>
-              <p className="text-sm text-gray-600 mt-1">
+              <div className="flex items-center gap-3 mb-2">
+                <h1 className="text-2xl font-bold text-gray-800">
+                  패턴 훈련 (Level {levelNumber} - Phase {phaseNumber} - Stage {stageNumber})
+                </h1>
+                {/* 3단계 표시 배지 */}
+                <span
+                  className={`px-3 py-1 rounded-full text-sm font-semibold ${
+                    speakingStage === 1
+                      ? 'bg-green-100 text-green-700 border border-green-200'
+                      : speakingStage === 2
+                      ? 'bg-blue-100 text-blue-700 border border-blue-200'
+                      : 'bg-purple-100 text-purple-700 border border-purple-200'
+                  }`}
+                >
+                  {speakingStage}단계 ({speakingStage === 1 ? '3초' : speakingStage === 2 ? '2초' : '1초'} 응답)
+                </span>
+              </div>
+              <p className="text-sm text-gray-600">
                 문제 {currentIndex + 1} / {currentQuestions.length}
               </p>
             </div>

@@ -1,7 +1,8 @@
 import React, { useEffect, useState, useCallback, useMemo, memo } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
-import { useAppStore, useUser } from '@/store/useAppStore';
+import { useAppStore, useUser, useTheme, useSpeakingStage, useStageProgress } from '@/store/useAppStore';
 import { useStatistics } from '@/hooks/useStatistics';
+import { useThemedInlineStyles } from '@/hooks/useThemedStyles';
 
 export const DashboardHome: React.FC = memo(() => {
   const navigate = useNavigate();
@@ -11,6 +12,16 @@ export const DashboardHome: React.FC = memo(() => {
   const [selectedStage, setSelectedStage] = useState<number | string | null>(null);
   const [currentView, setCurrentView] = useState<'levels' | 'stage' | 'review' | 'stats' | 'curve' | 'situational'>('levels');
   const [currentTab, setCurrentTab] = useState<'pattern' | 'situational'>('pattern');
+  
+  // Theme System
+  const { themeMode, setThemeMode } = useTheme();
+  const inlineStyles = useThemedInlineStyles();
+  
+  // Speaking Stage System (3단계 선택)
+  const { stage: speakingStage, setSpeakingStage } = useSpeakingStage();
+  
+  // Stage Progress System (3단계 진행률 관리)
+  const { getStageProgress } = useStageProgress();
 
   // 사용자 상태 및 통계 Hook
   const user = useUser();
@@ -453,7 +464,7 @@ export const DashboardHome: React.FC = memo(() => {
           className={`level-card ${isCompleted ? 'completed' : (isUnlocked ? 'unlocked' : 'locked')}`}
           onClick={isUnlocked ? () => showStageView(level.level) : undefined}
           style={{
-            background: isCompleted ? 'linear-gradient(135deg, #fef3c7, #fbbf24)' : 'linear-gradient(135deg, #f8fafc, #e2e8f0)',
+            background: '#ffffff',
             borderRadius: '15px',
             padding: '25px',
             cursor: isUnlocked ? 'pointer' : 'not-allowed',
@@ -511,7 +522,8 @@ export const DashboardHome: React.FC = memo(() => {
     setCurrentView('stage');
   };
 
-  // 스테이지 스텝 생성
+  // 스테이지 스텝 생성 (실제 진행률 데이터 사용)
+
   const createStageSteps = (level: any) => {
     const userLevelData = userProgress.levels.find(l => l.level === level.level);
     const userStages = userLevelData?.stages || [];
@@ -520,6 +532,10 @@ export const DashboardHome: React.FC = memo(() => {
     
     for (let i = 1; i <= level.stages; i++) {
       const stageData = userStages.find(s => s.stage === i);
+      const stageProgress = getStageProgress(level.level, i); // [1단계, 2단계, 3단계] 완료 여부 - 실제 데이터 사용
+      const completedSteps = stageProgress.filter(Boolean).length; // 완료된 단계 수
+      const progressPercentage = (completedSteps / 3) * 100; // 진행률
+      
       let stepClass = 'step';
       let title = '';
       
@@ -542,29 +558,95 @@ export const DashboardHome: React.FC = memo(() => {
       steps.push(
         <div
           key={i}
-          className={stepClass}
-          title={title}
-          onClick={() => !stepClass.includes('locked') && selectStage(level.level, i)}
           style={{
-            width: '50px',
-            height: '50px',
-            borderRadius: '50%',
             display: 'flex',
+            flexDirection: 'column',
             alignItems: 'center',
-            justifyContent: 'center',
-            fontWeight: 'bold',
-            cursor: stepClass.includes('locked') ? 'not-allowed' : 'pointer',
-            transition: 'all 0.3s',
-            fontSize: '14px',
-            background: stepClass.includes('completed') ? '#10b981' : 
-                       stepClass.includes('current') ? '#3b82f6' : '#e5e7eb',
-            color: stepClass.includes('locked') ? '#9ca3af' : 'white',
-            animation: stepClass.includes('current') ? 'pulse 2s infinite' : 'none',
-            border: selectedStage === i ? '3px solid #f59e0b' : '2px solid transparent',
-            boxShadow: selectedStage === i ? '0 0 0 2px rgba(245, 158, 11, 0.3)' : 'none'
+            gap: '8px'
           }}
         >
-          {i}
+          {/* 스테이지 원 */}
+          <div
+            className={stepClass}
+            title={title}
+            onClick={() => !stepClass.includes('locked') && selectStage(level.level, i)}
+            style={{
+              width: '50px',
+              height: '50px',
+              borderRadius: '50%',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              fontWeight: 'bold',
+              cursor: stepClass.includes('locked') ? 'not-allowed' : 'pointer',
+              transition: 'all 0.3s',
+              fontSize: '14px',
+              background: stepClass.includes('completed') ? '#10b981' : 
+                         stepClass.includes('current') ? '#3b82f6' : '#e5e7eb',
+              color: stepClass.includes('locked') ? '#9ca3af' : 'white',
+              animation: stepClass.includes('current') ? 'pulse 2s infinite' : 'none',
+              border: selectedStage === i ? '3px solid #f59e0b' : '2px solid transparent',
+              boxShadow: selectedStage === i ? '0 0 0 2px rgba(245, 158, 11, 0.3)' : 'none'
+            }}
+          >
+            {i}
+          </div>
+          
+          {/* 3단계 진행률 표시 */}
+          <div style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            gap: '4px',
+            width: '60px'
+          }}>
+            {/* 진행률 바 */}
+            <div style={{
+              width: '100%',
+              height: '4px',
+              backgroundColor: '#e5e7eb',
+              borderRadius: '2px',
+              overflow: 'hidden'
+            }}>
+              <div style={{
+                width: `${progressPercentage}%`,
+                height: '100%',
+                backgroundColor: progressPercentage === 100 ? '#10b981' : progressPercentage > 0 ? '#3b82f6' : '#e5e7eb',
+                borderRadius: '2px',
+                transition: 'width 0.3s ease'
+              }}></div>
+            </div>
+            
+            {/* 3단계 점 표시 */}
+            <div style={{
+              display: 'flex',
+              gap: '3px',
+              alignItems: 'center'
+            }}>
+              {stageProgress.map((completed, stepIndex) => (
+                <div
+                  key={stepIndex}
+                  style={{
+                    width: '6px',
+                    height: '6px',
+                    borderRadius: '50%',
+                    backgroundColor: completed ? '#10b981' : '#d1d5db',
+                    transition: 'background-color 0.3s ease'
+                  }}
+                  title={`${stepIndex + 1}단계 ${completed ? '완료' : '미완료'}`}
+                />
+              ))}
+            </div>
+            
+            {/* 진행률 텍스트 */}
+            <div style={{
+              fontSize: '10px',
+              color: '#6b7280',
+              textAlign: 'center'
+            }}>
+              {completedSteps}/3
+            </div>
+          </div>
         </div>
       );
     }
@@ -669,25 +751,27 @@ export const DashboardHome: React.FC = memo(() => {
   return (
     <div style={{
       fontFamily: "'Segoe UI', Arial, sans-serif",
-      background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+      background: inlineStyles.base,
       minHeight: '100vh',
       padding: '20px'
     }}>
       <div style={{
         maxWidth: '1200px',
         margin: '0 auto',
-        background: 'white',
+        background: inlineStyles.secondary,
         borderRadius: '20px',
-        boxShadow: '0 20px 40px rgba(0,0,0,0.3)',
-        overflow: 'hidden'
+        boxShadow: '0 20px 40px rgba(0,0,0,0.1)',
+        overflow: 'hidden',
+        border: `1px solid ${inlineStyles.border}`
       }}>
         {/* 헤더 */}
         <div style={{
-          background: 'linear-gradient(135deg, #4338ca, #7c3aed)',
-          color: 'white',
+          background: inlineStyles.secondary,
+          color: inlineStyles.text,
           padding: '30px',
           textAlign: 'center',
-          position: 'relative'
+          position: 'relative',
+          borderBottom: `1px solid ${inlineStyles.border}`
         }}>
           {/* 홈 버튼 */}
           <button
@@ -906,7 +990,7 @@ export const DashboardHome: React.FC = memo(() => {
                       className={`situational-card ${isCompleted ? 'completed' : 'available'}`}
                       onClick={() => navigate(`/situational-training?level=4&group=${group.group}&title=${encodeURIComponent(group.title)}`)}
                       style={{
-                        background: isCompleted ? 'linear-gradient(135deg, #fef3c7, #fbbf24)' : 'linear-gradient(135deg, #f8fafc, #e2e8f0)',
+                        background: '#ffffff',
                         borderRadius: '15px',
                         padding: '25px',
                         cursor: 'pointer',
@@ -984,7 +1068,7 @@ export const DashboardHome: React.FC = memo(() => {
                       className={`situational-card ${isCompleted ? 'completed' : 'available'}`}
                       onClick={() => navigate(`/situational-training?level=5&group=${group.group}&title=${encodeURIComponent(group.title)}`)}
                       style={{
-                        background: isCompleted ? 'linear-gradient(135deg, #fef3c7, #fbbf24)' : 'linear-gradient(135deg, #f0f9ff, #e0f2fe)',
+                        background: '#ffffff',
                         borderRadius: '15px',
                         padding: '25px',
                         cursor: 'pointer',
@@ -1062,7 +1146,7 @@ export const DashboardHome: React.FC = memo(() => {
                       className={`situational-card ${isCompleted ? 'completed' : 'available'}`}
                       onClick={() => navigate(`/situational-training?level=6&group=${group.group}&title=${encodeURIComponent(group.title)}`)}
                       style={{
-                        background: isCompleted ? 'linear-gradient(135deg, #fef3c7, #fbbf24)' : 'linear-gradient(135deg, #fdf4ff, #fae8ff)',
+                        background: '#ffffff',
                         borderRadius: '15px',
                         padding: '25px',
                         cursor: 'pointer',
@@ -1218,11 +1302,131 @@ export const DashboardHome: React.FC = memo(() => {
               </div>
             </div>
 
+            {/* 3단계 선택 버튼 */}
+            <div style={{
+              marginTop: '30px',
+              marginBottom: '20px'
+            }}>
+              <div style={{
+                textAlign: 'center',
+                marginBottom: '15px'
+              }}>
+                <h3 style={{ color: '#1f2937', marginBottom: '5px', fontSize: '18px' }}>학습 단계 선택</h3>
+                <p style={{ color: '#64748b', fontSize: '14px' }}>속도에 따라 단계를 선택하세요</p>
+              </div>
+              
+              <div style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(3, 1fr)',
+                gap: '15px',
+                maxWidth: '400px',
+                margin: '0 auto'
+              }}>
+                <button
+                  onClick={() => setSpeakingStage(1)}
+                  style={{
+                    padding: '15px',
+                    border: speakingStage === 1 ? '2px solid #10b981' : '2px solid #d1d5db',
+                    borderRadius: '10px',
+                    background: speakingStage === 1 ? '#f0fdf4' : '#ffffff',
+                    color: speakingStage === 1 ? '#065f46' : '#374151',
+                    cursor: 'pointer',
+                    transition: 'all 0.2s ease',
+                    textAlign: 'center'
+                  }}
+                  onMouseEnter={(e) => {
+                    if (speakingStage !== 1) {
+                      e.currentTarget.style.borderColor = '#10b981';
+                      e.currentTarget.style.background = '#f0fdf4';
+                    }
+                  }}
+                  onMouseLeave={(e) => {
+                    if (speakingStage !== 1) {
+                      e.currentTarget.style.borderColor = '#d1d5db';
+                      e.currentTarget.style.background = '#ffffff';
+                    }
+                  }}
+                >
+                  <div style={{ fontSize: '18px', fontWeight: 'bold', marginBottom: '4px' }}>1단계</div>
+                  <div style={{ fontSize: '12px', color: '#6b7280' }}>3초 응답</div>
+                </button>
+                
+                <button
+                  onClick={() => setSpeakingStage(2)}
+                  style={{
+                    padding: '15px',
+                    border: speakingStage === 2 ? '2px solid #3b82f6' : '2px solid #d1d5db',
+                    borderRadius: '10px',
+                    background: speakingStage === 2 ? '#eff6ff' : '#ffffff',
+                    color: speakingStage === 2 ? '#1e40af' : '#374151',
+                    cursor: 'pointer',
+                    transition: 'all 0.2s ease',
+                    textAlign: 'center'
+                  }}
+                  onMouseEnter={(e) => {
+                    if (speakingStage !== 2) {
+                      e.currentTarget.style.borderColor = '#3b82f6';
+                      e.currentTarget.style.background = '#eff6ff';
+                    }
+                  }}
+                  onMouseLeave={(e) => {
+                    if (speakingStage !== 2) {
+                      e.currentTarget.style.borderColor = '#d1d5db';
+                      e.currentTarget.style.background = '#ffffff';
+                    }
+                  }}
+                >
+                  <div style={{ fontSize: '18px', fontWeight: 'bold', marginBottom: '4px' }}>2단계</div>
+                  <div style={{ fontSize: '12px', color: '#6b7280' }}>2초 응답</div>
+                </button>
+                
+                <button
+                  onClick={() => setSpeakingStage(3)}
+                  style={{
+                    padding: '15px',
+                    border: speakingStage === 3 ? '2px solid #8b5cf6' : '2px solid #d1d5db',
+                    borderRadius: '10px',
+                    background: speakingStage === 3 ? '#f3f4f6' : '#ffffff',
+                    color: speakingStage === 3 ? '#5b21b6' : '#374151',
+                    cursor: 'pointer',
+                    transition: 'all 0.2s ease',
+                    textAlign: 'center'
+                  }}
+                  onMouseEnter={(e) => {
+                    if (speakingStage !== 3) {
+                      e.currentTarget.style.borderColor = '#8b5cf6';
+                      e.currentTarget.style.background = '#f3f4f6';
+                    }
+                  }}
+                  onMouseLeave={(e) => {
+                    if (speakingStage !== 3) {
+                      e.currentTarget.style.borderColor = '#d1d5db';
+                      e.currentTarget.style.background = '#ffffff';
+                    }
+                  }}
+                >
+                  <div style={{ fontSize: '18px', fontWeight: 'bold', marginBottom: '4px' }}>3단계</div>
+                  <div style={{ fontSize: '12px', color: '#6b7280' }}>1초 응답</div>
+                </button>
+              </div>
+              
+              <div style={{
+                textAlign: 'center',
+                marginTop: '10px'
+              }}>
+                <p style={{ fontSize: '12px', color: '#6b7280' }}>
+                  현재 선택: <span style={{ fontWeight: '600', color: '#374151' }}>
+                    {speakingStage}단계 ({speakingStage === 1 ? '3초' : speakingStage === 2 ? '2초' : '1초'} 응답)
+                  </span>
+                </p>
+              </div>
+            </div>
+
             <div style={{
               display: 'flex',
               justifyContent: 'center',
               gap: '20px',
-              marginTop: '30px'
+              marginTop: '20px'
             }}>
               <button
                 onClick={startStage}

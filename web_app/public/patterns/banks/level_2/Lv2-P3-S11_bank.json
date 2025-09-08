@@ -7,6 +7,82 @@
   "learning_points": "must(개인적 의무/결심) vs have to(외부적 필요) 뉘앙스 차이",
   "phase": 3,
   "stage_number": 11,
-  "count": 0,
-  "sentences": []
+  "count": 10,
+  "sentences": [
+    {
+      "id": "Lv2-P3-S11-001",
+      "kr": "나는 오늘 이것을 끝내야 해. (강한 결심)",
+      "en": "I must finish this today.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P3-S11-002",
+      "kr": "나는 이번 주말에 일해야 해. (외부 요인)",
+      "en": "I have to work this weekend.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P3-S11-003",
+      "kr": "그는 더 열심히 공부해야 해. (결심)",
+      "en": "He must study harder.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P3-S11-004",
+      "kr": "우리는 버스를 타야 해. (필요)",
+      "en": "We have to take the bus.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P3-S11-005",
+      "kr": "그녀는 의사를 만나야 해. (중요함)",
+      "en": "She must see a doctor.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P3-S11-006",
+      "kr": "나는 9시까지 가야 해. (외부 요인)",
+      "en": "I have to go by 9.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P3-S11-007",
+      "kr": "그들은 진실을 말해야 해. (도덕적 의무)",
+      "en": "They must tell the truth.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P3-S11-008",
+      "kr": "우리는 숙제를 해야 해. (외부 요인)",
+      "en": "We have to do homework.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P3-S11-009",
+      "kr": "나는 집에 가야 해. (개인적 필요)",
+      "en": "I must go home.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P3-S11-010",
+      "kr": "그는 일찍 일어나야 해. (외부 요인)",
+      "en": "He has to wake up early.",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 10,
+    "neg": 0,
+    "yn_q": 0,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L2_Sequential_Generation",
+  "metadata": {
+    "created_at": "2025-09-05T10:45:00.000Z",
+    "creation_method": "sequential_learning_compliant",
+    "grammar_scope": ["must_modal", "have_to", "obligation_expressions"],
+    "max_sentence_length": 7,
+    "vocabulary_level": "beginner_plus"
+  }
 }

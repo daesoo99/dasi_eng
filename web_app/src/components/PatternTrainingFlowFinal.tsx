@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { useLocalStorage, STORAGE_KEYS } from '@/hooks/useLocalStorage';
+import { getCountdownDuration, type SpeakingStage } from '@/utils/speakingStageUtils';
 
 // 🔒 모듈 스코프 가드: StrictMode 재마운트까지 차단
 const __autoStartGuards = new Set<string>();
@@ -62,14 +63,13 @@ export const PatternTrainingFlowFinal: React.FC<PatternTrainingFlowFinalProps> =
     isCleaningUp: false
   });
 
-  // Get stage-based timing
+  // Get stage-based timing using utility function
   const getCountdownTime = () => {
-    switch (stage) {
-      case 1: return 3;
-      case 2: return 2;
-      case 3: return 1;
-      default: return 2;
+    // 정규 단계는 유틸리티 함수 사용, 기타는 기본값 2초
+    if (stage >= 1 && stage <= 3) {
+      return getCountdownDuration(stage as SpeakingStage);
     }
+    return 2; // 기본값: 2초
   };
 
   // Force cleanup all timers and recognition

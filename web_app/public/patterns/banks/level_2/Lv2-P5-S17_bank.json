@@ -7,6 +7,80 @@
   "learning_points": "다양한 예문을 통해 두 표현을 번갈아 연습하고, 질문형까지 다뤄서 완벽히 숙지",
   "phase": 5,
   "stage_number": 17,
-  "count": 0,
-  "sentences": []
+  "count": 10,
+  "sentences": [
+    {
+      "id": "Lv2-P5-S17-001",
+      "kr": "테이블 위에 책이 있습니다.",
+      "en": "There is a book on the table.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P5-S17-002",
+      "kr": "그것은 책입니다.",
+      "en": "It is a book.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P5-S17-003",
+      "kr": "지금은 5시입니다.",
+      "en": "It is 5 o'clock.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P5-S17-004",
+      "kr": "방에 두 개의 창문이 있습니다.",
+      "en": "There are two windows in the room.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P5-S17-005",
+      "kr": "오늘은 화요일입니다.",
+      "en": "It is Tuesday today.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P5-S17-006",
+      "kr": "테이블에 무엇이 있습니까?",
+      "en": "What is there on the table?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P5-S17-007",
+      "kr": "그것은 무엇입니까?",
+      "en": "What is it?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P5-S17-008",
+      "kr": "공원에 많은 나무들이 있습니다.",
+      "en": "There are many trees in the park.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P5-S17-009",
+      "kr": "날씨가 춥습니다.",
+      "en": "It is cold.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P5-S17-010",
+      "kr": "여기에 문제가 있습니까?",
+      "en": "Is there a problem here?",
+      "form": "yn_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 7,
+    "neg": 0,
+    "wh_q": 2,
+    "yn_q": 1
+  },
+  "status": "complete",
+  "batch": "level2_completion_batch_1",
+  "metadata": {
+    "generated_at": "2025-01-12",
+    "generator": "claude_code_v2",
+    "grammar_constraints": ["there_is_vs_it_is", "existence_vs_identification", "all_level_1_grammar"]
+  }
 }

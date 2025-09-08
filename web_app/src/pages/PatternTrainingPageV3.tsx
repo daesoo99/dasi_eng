@@ -14,7 +14,9 @@ import { usePatternTrainingManager, type PatternTrainingManagerConfig } from '@/
 import { useStageData, type Question } from '@/hooks/useStageData';
 import { useAudioManager } from '@/hooks/useAudioManager';
 import { useSimpleSpeechRecognition } from '@/hooks/useSimpleSpeechRecognition';
+import { useSpeakingStage, useStageProgress } from '@/store/useAppStore';
 import { evaluateAnswer } from '@/utils/answerNormalization';
+import { getCountdownDuration, getStageName } from '@/utils/speakingStageUtils';
 
 // UI Components
 import { LoadingOverlay } from '@/components/LoadingOverlay';
@@ -31,6 +33,12 @@ const PatternTrainingPageV3: React.FC = () => {
   const levelNumber = Math.max(1, parseInt(searchParams.get('level') || '1', 10));
   const phaseNumber = Math.max(1, parseInt(searchParams.get('phase') || '1', 10));
   const stageNumber = Math.max(1, parseInt(searchParams.get('stage') || '1', 10));
+  
+  // 스피킹 단계 상태 가져오기
+  const { stage: speakingStage } = useSpeakingStage();
+  const { updateStageProgress } = useStageProgress();
+  
+  // 스피킹 단계별 설정은 유틸리티 함수 사용
 
   // URL 파라미터 검증 로깅
   useEffect(() => {
@@ -38,7 +46,8 @@ const PatternTrainingPageV3: React.FC = () => {
       console.warn('⚠️ 잘못된 URL 파라미터가 감지되어 기본값으로 설정됨');
     }
     console.log(`🔗 URL 파라미터 로드: Level=${levelNumber}, Phase=${phaseNumber}, Stage=${stageNumber}`);
-  }, [levelNumber, phaseNumber, stageNumber]);
+    console.log(`⏱️ 스피킹 단계: ${getStageName(speakingStage)}`);
+  }, [levelNumber, phaseNumber, stageNumber, speakingStage]);
 
   // 상태 관리
   const [currentIndex, setCurrentIndex] = useState<number>(0);
@@ -46,10 +55,12 @@ const PatternTrainingPageV3: React.FC = () => {
   const [isPaused, setIsPaused] = useState<boolean>(false);
   const [currentPhase, setCurrentPhase] = useState<Phase>('idle');
   const [countdownText, setCountdownText] = useState<string>('');
+  const [recognitionTimeText, setRecognitionTimeText] = useState<string>('');
   const [showAnswer, setShowAnswer] = useState<boolean>(false);
   const [answerEvaluation, setAnswerEvaluation] = useState<string>('');
   const [evaluationType, setEvaluationType] = useState<EvaluationType>('correct');
   const [recognitionResult, setRecognitionResult] = useState<string>('');
+  const [interimResult, setInterimResult] = useState<string>('');
 
   // Refs for state consistency
   const currentQuestionsRef = useRef<Question[]>([]);
@@ -65,27 +76,77 @@ const PatternTrainingPageV3: React.FC = () => {
 
   const { playKoreanTTS, playBeepSound } = useAudioManager();
 
+  // 실시간 정답 판정 처리 함수
+  const handleAnswerEvaluation = useCallback((userAnswer: string, isRealtime = false) => {
+    const currentQuestions = currentQuestionsRef.current;
+    const currentIndex = currentIndexRef.current;
+    const currentQuestion = currentQuestions[currentIndex];
+    
+    if (!currentQuestion) {
+      console.warn('❌ currentQuestion이 없음 - currentIndex:', currentIndex, 'questions.length:', currentQuestions.length);
+      return false;
+    }
+
+    const correctAnswer = currentQuestion.en;
+    const evaluation = evaluateAnswer(userAnswer, correctAnswer, levelNumber, 'pattern');
+    
+    if (evaluation.isCorrect) {
+      console.log(`🎤 ${isRealtime ? '실시간' : '최종'} 정답 인식:`, userAnswer, '/ 정답:', correctAnswer);
+      
+      // 음성인식 타이머 즉시 중지
+      manager.current.stopAllTimers();
+      stopRecognition();
+      setRecognitionTimeText('');
+
+      setAnswerEvaluation('✅ 정답입니다!');
+      setEvaluationType('correct');
+      setRecognitionResult(userAnswer);
+      // 실시간 정답 시 즉시, 최종 정답 시 1초 후
+      setTimeout(moveToNextQuestion, isRealtime ? 500 : 1000);
+      return true;
+    }
+    
+    return false;
+  }, [levelNumber, moveToNextQuestion, stopRecognition]);
+
   const { startRecognition, stopRecognition } = useSimpleSpeechRecognition({
+    onInterimResult: useCallback((userAnswer: string, confidence: number) => {
+      // 실시간 중간 결과 UI 업데이트
+      setInterimResult(userAnswer);
+      
+      // 실시간 중간 결과로 정답 판정 (높은 신뢰도일 때만)
+      if (confidence > 0.7) {
+        const wasCorrect = handleAnswerEvaluation(userAnswer, true);
+        if (wasCorrect) {
+          console.log('⚡ 실시간 정답 처리로 즉시 진행!');
+          setInterimResult(''); // 정답 처리 후 중간 결과 클리어
+        }
+      }
+    }, [handleAnswerEvaluation]),
+    
     onResult: useCallback((userAnswer: string) => {
+      // 최종 결과 처리 (실시간으로 이미 처리되지 않은 경우)
       const currentQuestions = currentQuestionsRef.current;
       const currentIndex = currentIndexRef.current;
       const currentQuestion = currentQuestions[currentIndex];
       
-      if (!currentQuestion) {
-        console.warn('❌ currentQuestion이 없음 - currentIndex:', currentIndex, 'questions.length:', currentQuestions.length);
-        return;
-      }
+      if (!currentQuestion) return;
 
       const correctAnswer = currentQuestion.en;
-      console.log('🎤 사용자 답변:', userAnswer, '/ 정답:', correctAnswer);
+      console.log('🎤 사용자 최종 답변:', userAnswer, '/ 정답:', correctAnswer);
       
       const evaluation = evaluateAnswer(userAnswer, correctAnswer, levelNumber, 'pattern');
       
+      // 음성인식 타이머 즉시 중지
+      manager.current.stopAllTimers();
+      stopRecognition();
+      setRecognitionTimeText('');
+
       if (evaluation.isCorrect) {
         setAnswerEvaluation('✅ 정답입니다!');
         setEvaluationType('correct');
         setRecognitionResult(userAnswer);
-        setTimeout(moveToNextQuestion, 1500);
+        setTimeout(moveToNextQuestion, 1000);
       } else {
         setAnswerEvaluation(`❌ 틀렸습니다. 정답: ${correctAnswer}`);
         setEvaluationType('incorrect');
@@ -94,13 +155,13 @@ const PatternTrainingPageV3: React.FC = () => {
         setTimeout(() => {
           setShowAnswer(false);
           moveToNextQuestion();
-        }, 3000);
+        }, 2000);
       }
-    }, [levelNumber])
+    }, [levelNumber, handleAnswerEvaluation, moveToNextQuestion, stopRecognition])
   });
 
   // 패턴 훈련 매니저 설정
-  const managerConfig: PatternTrainingManagerConfig = {
+  const managerConfig: PatternTrainingManagerConfig = useCallback(() => ({
     onCountdownTick: (remainingTime: number) => {
       setCountdownText(remainingTime.toString());
     },
@@ -108,14 +169,25 @@ const PatternTrainingPageV3: React.FC = () => {
       setCurrentPhase('recognition');
       playBeepSound('recognition');
       startRecognition();
+      // 음성인식 타이머 시작 (10초 제한)
+      manager.current.startRecognition(10);
+    },
+    onRecognitionTick: (remainingTime: number) => {
+      setRecognitionTimeText(remainingTime.toString());
     },
     onRecognitionComplete: () => {
       setCurrentPhase('waiting');
+      setRecognitionTimeText('');
+      // 음성인식 시간 초과 시 자동으로 다음 문제로
+      moveToNextQuestion();
     },
     onCompletionEvent: (stageId: string) => {
-      alert(`🎉 Stage ${stageId} 훈련 완료!`);
+      // 해당 스피킹 단계를 완료로 표시
+      updateStageProgress(levelNumber, stageNumber, speakingStage, true);
+      console.log(`✅ 진행률 업데이트: Level ${levelNumber}, Stage ${stageNumber}, ${speakingStage}단계 완료`);
+      alert(`🎉 Stage ${stageNumber} (${speakingStage}단계) 훈련 완료!\n\n${getStageName(speakingStage)}를 성공했습니다!`);
     }
-  };
+  }), [levelNumber, stageNumber, speakingStage, updateStageProgress, playBeepSound, startRecognition])();
 
   const manager = useRef(usePatternTrainingManager(managerConfig));
 
@@ -135,8 +207,11 @@ const PatternTrainingPageV3: React.FC = () => {
   const moveToNextQuestion = useCallback(() => {
     setCurrentIndex(prevIndex => {
       const nextIndex = prevIndex + 1;
+      const questions = currentQuestionsRef.current;
       
-      if (nextIndex >= currentQuestions.length) {
+      console.log(`🔍 [DEBUG] moveToNextQuestion: currentIndex=${prevIndex}, nextIndex=${nextIndex}, questions.length=${questions.length}`);
+      
+      if (nextIndex >= questions.length) {
         // 모든 문제 완료
         setIsTraining(false);
         setCurrentPhase('idle');
@@ -151,21 +226,23 @@ const PatternTrainingPageV3: React.FC = () => {
         setCurrentPhase('tts');
         setAnswerEvaluation('');
         setRecognitionResult('');
+        setInterimResult('');
         setShowAnswer(false);
         
         // 다음 문제 TTS 재생
-        const nextQuestion = currentQuestions[nextIndex];
+        const nextQuestion = questions[nextIndex];
         playBeepSound('start');
         playKoreanTTS(nextQuestion.ko).then(() => {
           setCurrentPhase('countdown');
           playBeepSound('countdown');
-          manager.current.startCountdown(3);
+          const countdownTime = getCountdownDuration(speakingStage);
+          manager.current.startCountdown(countdownTime);
         });
         
         return nextIndex;
       }
     });
-  }, [currentQuestions, levelNumber, phaseNumber, stageNumber, playKoreanTTS, playBeepSound]);
+  }, [levelNumber, phaseNumber, stageNumber, speakingStage, playKoreanTTS, playBeepSound]);
 
   // 훈련 시작
   const startTraining = useCallback(() => {
@@ -184,9 +261,10 @@ const PatternTrainingPageV3: React.FC = () => {
     playKoreanTTS(firstQuestion.ko).then(() => {
       setCurrentPhase('countdown');
       playBeepSound('countdown');
-      manager.current.startCountdown(3);
+      const countdownTime = getCountdownDuration(speakingStage);
+      manager.current.startCountdown(countdownTime);
     });
-  }, [currentQuestions, playKoreanTTS, playBeepSound]);
+  }, [currentQuestions, speakingStage, playKoreanTTS, playBeepSound]);
 
   // 훈련 일시정지
   const pauseTraining = useCallback(() => {
@@ -241,10 +319,12 @@ const PatternTrainingPageV3: React.FC = () => {
           currentQuestion={currentQuestion}
           currentPhase={currentPhase}
           countdownText={countdownText}
+          recognitionTimeText={recognitionTimeText}
           showAnswer={showAnswer}
           answerEvaluation={answerEvaluation}
           evaluationType={evaluationType}
           recognitionResult={recognitionResult}
+          interimResult={interimResult}
         />
 
         {/* 컨트롤 패널 */}

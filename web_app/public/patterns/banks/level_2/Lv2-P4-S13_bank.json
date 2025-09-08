@@ -7,6 +7,83 @@
   "learning_points": "사물/장소/시간 정보를 묻는 다양한 질문 패턴",
   "phase": 4,
   "stage_number": 13,
-  "count": 0,
-  "sentences": []
+  "count": 10,
+  "sentences": [
+    {
+      "id": "Lv2-P4-S13-001",
+      "kr": "이것은 영어로 뭐라고 해요?",
+      "en": "What is this called in English?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P4-S13-002",
+      "kr": "어디에 살아요?",
+      "en": "Where do you live?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P4-S13-003",
+      "kr": "영화가 언제 시작해요?",
+      "en": "When does the movie start?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P4-S13-004",
+      "kr": "뭘 하고 있어요?",
+      "en": "What are you doing?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P4-S13-005",
+      "kr": "학교가 어디에 있어요?",
+      "en": "Where is your school?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P4-S13-006",
+      "kr": "언제 집에 가요?",
+      "en": "When do you go home?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P4-S13-007",
+      "kr": "무슨 음식을 좋아해요?",
+      "en": "What food do you like?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P4-S13-008",
+      "kr": "어디에서 만날까요?",
+      "en": "Where should we meet?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P4-S13-009",
+      "kr": "언제 시험을 봐요?",
+      "en": "When do you take the test?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P4-S13-010",
+      "kr": "무슨 색을 좋아해요?",
+      "en": "What color do you like?",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 0,
+    "neg": 0,
+    "yn_q": 0,
+    "wh_q": 10,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L2_Sequential_Generation",
+  "metadata": {
+    "created_at": "2025-09-05T10:55:00.000Z",
+    "creation_method": "sequential_learning_compliant",
+    "grammar_scope": ["what_where_when_questions", "wh_question_formation", "basic_auxiliaries"],
+    "max_sentence_length": 7,
+    "vocabulary_level": "beginner_plus"
+  }
 }

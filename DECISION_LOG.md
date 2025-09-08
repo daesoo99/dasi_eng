@@ -199,4 +199,30 @@ LocalStorage          ←→     Firebase Firestore
 
 ---
 
+## 🗂️ 2025-09-05: 문서 구조 정리 완료
+
+### 루트 디렉토리 MD 파일 정리
+**결정**: 루트 디렉토리를 3개 핵심 파일만 유지하고 나머지는 적절한 위치로 이동
+**맥락**: 10개 MD 파일이 루트에 산재하여 혼란 야기, AI 세션 초기화 시 핵심 문서 식별 어려움
+**구현**:
+- **유지 (루트)**: `CLAUDE.local.md`, `DECISION_LOG.md`, `PROJECT_STRUCTURE.md`
+- **이동**: `DOCKER_GUIDE.md` → `docs/deployment/`, `MULTI_PROJECT_SPLIT_GUIDE.md` → `docs/architecture/`
+- **아카이브**: 완료된 작업 문서들 → `docs/archive/`
+- **삭제**: `README_DOCKER.md` (중복), `docs/README.md` (틀린 정보)
+
+### PROJECT_CONTEXT.md 기술 스택 정보 통합
+**결정**: `docs/README.md`의 유용한 기술 정보를 `PROJECT_CONTEXT.md`에 통합 후 삭제
+**맥락**: 잘못된 레벨 설명과 오래된 진행 상황으로 혼란 야기
+**구현**:
+- AI 모델 스택 (GPT-4o, Claude 3.5, Whisper v3, ElevenLabs) 추가
+- 기술 스택 (React/TypeScript, Node.js/Express, Firebase) 정리
+- 틀린 레벨별 설명 (Newborn/Toddler 등) 완전 삭제
+
+**결과**: 
+- 루트 디렉토리 깔끔한 정리 (10개 → 3개)
+- AI가 상황별 문서 자동 참조 가능 (CLAUDE.local.md 규칙 추가)
+- 중복/틀린 정보 제거로 일관성 확보
+
+---
+
 **🤖 AI 에이전트 참고**: 이 문서의 결정사항들은 프로젝트 전체 아키텍처에 영향을 미치는 중요한 선택들입니다. 새로운 기능 구현 시 반드시 이 맥락을 고려하여 일관성을 유지해 주세요.

@@ -10,7 +10,7 @@
   "learning_points": "3인칭 단수일 때 동사에 -s 붙이기, 현재 습관 표현",
   "phase": 1,
   "stage_number": 2,
-  "count": 10,
+  "count": 50,
   "sentences": [
     {
       "id": "Lv1-P1-S02-001",
@@ -71,12 +71,252 @@
       "kr": "나는 물을 마셔요.",
       "en": "I drink water.",
       "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-011",
+      "kr": "그들은 공원에서 걸어요.",
+      "en": "They walk in the park.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-012",
+      "kr": "나는 친구와 이야기해요.",
+      "en": "I talk with my friend.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-013",
+      "kr": "그는 엄마를 도와요.",
+      "en": "He helps his mom.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-014",
+      "kr": "그녀는 고양이를 사랑해요.",
+      "en": "She loves her cat.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-015",
+      "kr": "우리는 새 집을 원해요.",
+      "en": "We want a new house.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-016",
+      "kr": "그들은 도움이 필요해요.",
+      "en": "They need help.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-017",
+      "kr": "나는 밤에 자요.",
+      "en": "I sleep at night.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-018",
+      "kr": "그는 게임을 해요.",
+      "en": "He plays games.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-019",
+      "kr": "그녀는 사무실에서 일해요.",
+      "en": "She works at the office.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-020",
+      "kr": "우리는 아침을 먹어요.",
+      "en": "We eat breakfast.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-021",
+      "kr": "나는 부산에 살아요.",
+      "en": "I live in Busan.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-022",
+      "kr": "그는 차를 좋아해요.",
+      "en": "He likes cars.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-023",
+      "kr": "그녀는 신문을 읽어요.",
+      "en": "She reads the newspaper.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-024",
+      "kr": "우리는 수학을 공부해요.",
+      "en": "We study math.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-025",
+      "kr": "그들은 라디오를 들어요.",
+      "en": "They listen to the radio.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-026",
+      "kr": "나는 주말에 운동해요.",
+      "en": "I exercise on weekends.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-027",
+      "kr": "그는 병원에 가요.",
+      "en": "He goes to the hospital.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-028",
+      "kr": "그녀는 저녁을 요리해요.",
+      "en": "She cooks dinner.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-029",
+      "kr": "우리는 TV를 봐요.",
+      "en": "We watch TV.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-030",
+      "kr": "나는 차를 마셔요.",
+      "en": "I drink tea.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-031",
+      "kr": "그들은 해변에서 걸어요.",
+      "en": "They walk on the beach.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-032",
+      "kr": "나는 선생님과 이야기해요.",
+      "en": "I talk with the teacher.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-033",
+      "kr": "그는 아빠를 도와요.",
+      "en": "He helps his dad.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-034",
+      "kr": "그녀는 강아지를 사랑해요.",
+      "en": "She loves her dog.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-035",
+      "kr": "우리는 휴식이 필요해요.",
+      "en": "We need rest.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-036",
+      "kr": "그는 테니스를 쳐요.",
+      "en": "He plays tennis.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-037",
+      "kr": "그녀는 편지를 써요.",
+      "en": "She writes letters.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-038",
+      "kr": "나는 빵을 먹어요.",
+      "en": "I eat bread.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-039",
+      "kr": "우리는 집을 청소해요.",
+      "en": "We clean the house.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-040",
+      "kr": "그들은 버스를 타요.",
+      "en": "They take the bus.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-041",
+      "kr": "나는 친구를 만나요.",
+      "en": "I meet my friend.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-042",
+      "kr": "그는 피아노를 쳐요.",
+      "en": "He plays the piano.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-043",
+      "kr": "그녀는 꽃을 기르요.",
+      "en": "She grows flowers.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-044",
+      "kr": "우리는 사진을 찍어요.",
+      "en": "We take pictures.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-045",
+      "kr": "그들은 춤을 춰요.",
+      "en": "They dance.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-046",
+      "kr": "나는 시장에 가요.",
+      "en": "I go to the market.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-047",
+      "kr": "그는 자전거를 타요.",
+      "en": "He rides a bicycle.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-048",
+      "kr": "그녀는 노래를 불러요.",
+      "en": "She sings songs.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-049",
+      "kr": "우리는 영화관에 가요.",
+      "en": "We go to the cinema.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv1-P1-S02-050",
+      "kr": "그들은 축구를 해요.",
+      "en": "They play soccer.",
+      "form": "aff"
     }
   ],
   "forms_distribution": {
-    "aff": 10,
+    "aff": 50,
     "neg": 0,
-    "wh_q": 0,
+    "yn_q": 0,
     "unknown": 0
   },
   "status": "complete",

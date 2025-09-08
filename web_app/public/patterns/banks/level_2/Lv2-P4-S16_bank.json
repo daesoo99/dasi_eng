@@ -7,6 +7,84 @@
   "learning_points": "배운 표현들을 맥락 속에서 자연스럽게 구사할 수 있도록",
   "phase": 4,
   "stage_number": 16,
-  "count": 0,
-  "sentences": []
+  "count": 10,
+  "sentences": [
+    {
+      "id": "Lv2-P4-S16-001",
+      "kr": "소금 좀 건네줄 수 있어요?",
+      "en": "Could you pass the salt?",
+      "form": "yn_q"
+    },
+    {
+      "id": "Lv2-P4-S16-002",
+      "kr": "네, 여기 있어요.",
+      "en": "Sure, here you go.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P4-S16-003",
+      "kr": "이것을 어디에 둘까요?",
+      "en": "Where should I put this?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P4-S16-004",
+      "kr": "그냥 거기 놔두세요.",
+      "en": "Just leave it there.",
+      "form": "imp"
+    },
+    {
+      "id": "Lv2-P4-S16-005",
+      "kr": "몇 시에 만날까요?",
+      "en": "What time should we meet?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P4-S16-006",
+      "kr": "3시는 어때요?",
+      "en": "How about 3 o'clock?",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P4-S16-007",
+      "kr": "창문을 열어도 될까요?",
+      "en": "Can I open the window?",
+      "form": "yn_q"
+    },
+    {
+      "id": "Lv2-P4-S16-008",
+      "kr": "물론이죠.",
+      "en": "Of course.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P4-S16-009",
+      "kr": "이것을 어떻게 사용해요?",
+      "en": "How do you use this?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P4-S16-010",
+      "kr": "이 버튼을 누르세요.",
+      "en": "Press this button.",
+      "form": "imp"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 3,
+    "neg": 0,
+    "yn_q": 2,
+    "wh_q": 3,
+    "imp": 2,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L2_Sequential_Generation",
+  "metadata": {
+    "created_at": "2025-09-05T11:10:00.000Z",
+    "creation_method": "sequential_learning_compliant",
+    "grammar_scope": ["conversation_patterns", "mixed_question_types", "polite_responses"],
+    "max_sentence_length": 7,
+    "vocabulary_level": "beginner_plus"
+  }
 }

@@ -7,6 +7,83 @@
   "learning_points": "실물 혹은 그림을 보면서 상황에 따라 지시어 바꿔 말하기 게임으로 자연스럽게 익히기. 발음: 디스/댓/디즈/도즈 차이도 교정",
   "phase": 5,
   "stage_number": 18,
-  "count": 0,
-  "sentences": []
+  "count": 10,
+  "sentences": [
+    {
+      "id": "Lv2-P5-S18-001",
+      "kr": "이것은 내 핸드폰이에요.",
+      "en": "This is my phone.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P5-S18-002",
+      "kr": "저것들은 거기 있는 내 열쇠들이에요.",
+      "en": "Those are my keys over there.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P5-S18-003",
+      "kr": "저것은 무엇이에요?",
+      "en": "What is that?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P5-S18-004",
+      "kr": "이것들은 내 책들이에요.",
+      "en": "These are my books.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P5-S18-005",
+      "kr": "저 학생은 누구예요?",
+      "en": "Who is that student?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P5-S18-006",
+      "kr": "이 사과들이 맛있어요.",
+      "en": "These apples are delicious.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P5-S18-007",
+      "kr": "저것은 내 차가 아니에요.",
+      "en": "That is not my car.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv2-P5-S18-008",
+      "kr": "이것은 좋은 아이디어예요.",
+      "en": "This is a good idea.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P5-S18-009",
+      "kr": "저 건물들이 새로 지어졌어요.",
+      "en": "Those buildings are new.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P5-S18-010",
+      "kr": "이 영화가 재미있어요?",
+      "en": "Is this movie interesting?",
+      "form": "yn_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 6,
+    "neg": 1,
+    "yn_q": 1,
+    "wh_q": 2,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L2_Sequential_Generation",
+  "metadata": {
+    "created_at": "2025-09-05T11:15:00.000Z",
+    "creation_method": "sequential_learning_compliant",
+    "grammar_scope": ["demonstratives", "this_that_these_those", "singular_plural_distinction"],
+    "max_sentence_length": 8,
+    "vocabulary_level": "beginner_plus"
+  }
 }

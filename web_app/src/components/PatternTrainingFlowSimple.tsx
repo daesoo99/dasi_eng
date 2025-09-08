@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { useLocalStorage, STORAGE_KEYS } from '@/hooks/useLocalStorage';
+import { getCountdownDuration, type SpeakingStage } from '@/utils/speakingStageUtils';
 
 interface PatternTrainingFlowSimpleProps {
   koreanText: string;
@@ -49,14 +50,13 @@ export const PatternTrainingFlowSimple: React.FC<PatternTrainingFlowSimpleProps>
   const recordingTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const timerIntervalRef = useRef<NodeJS.Timeout | null>(null);
 
-  // Get stage-based timing
+  // Get stage-based timing using utility function
   const getCountdownTime = () => {
-    switch (stage) {
-      case 1: return 3; // 3초 사고시간
-      case 2: return 2; // 2초 사고시간
-      case 3: return 1; // 1초 사고시간
-      default: return 2; // ALL mode: 2초
+    // ALL mode나 기타 단계는 2초, 정규 단계는 유틸리티 함수 사용
+    if (stage >= 1 && stage <= 3) {
+      return getCountdownDuration(stage as SpeakingStage);
     }
+    return 2; // ALL mode: 2초
   };
 
   /**

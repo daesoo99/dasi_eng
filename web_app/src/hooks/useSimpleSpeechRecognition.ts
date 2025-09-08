@@ -6,6 +6,7 @@ import { useRef, useCallback } from 'react';
 
 interface UseSimpleSpeechRecognitionConfig {
   onResult: (transcript: string) => void;
+  onInterimResult?: (transcript: string, confidence: number) => void;
   onError?: (error: any) => void;
   onEnd?: () => void;
 }
@@ -18,6 +19,7 @@ interface UseSimpleSpeechRecognitionReturn {
 
 export const useSimpleSpeechRecognition = ({
   onResult,
+  onInterimResult,
   onError,
   onEnd
 }: UseSimpleSpeechRecognitionConfig): UseSimpleSpeechRecognitionReturn => {
@@ -42,7 +44,7 @@ export const useSimpleSpeechRecognition = ({
       const recognition = new (window as any).webkitSpeechRecognition();
       recognition.lang = 'en-US';
       recognition.continuous = false;
-      recognition.interimResults = false;
+      recognition.interimResults = true; // 실시간 중간 결과 활성화
       recognition.maxAlternatives = 1;
 
       recognition.onstart = () => {
@@ -51,9 +53,19 @@ export const useSimpleSpeechRecognition = ({
 
       recognition.onresult = (event: any) => {
         if (event.results && event.results.length > 0) {
-          const transcript = event.results[0][0].transcript.trim();
-          console.log('🎤 음성인식 결과:', transcript);
-          onResult(transcript);
+          const lastResult = event.results[event.results.length - 1];
+          const transcript = lastResult[0].transcript.trim();
+          const confidence = lastResult[0].confidence || 0;
+          
+          if (lastResult.isFinal) {
+            // 최종 결과
+            console.log('🎤 음성인식 최종 결과:', transcript, 'confidence:', confidence);
+            onResult(transcript);
+          } else {
+            // 실시간 중간 결과
+            console.log('🎤 음성인식 중간 결과:', transcript, 'confidence:', confidence);
+            onInterimResult?.(transcript, confidence);
+          }
         }
       };
 
@@ -82,7 +94,7 @@ export const useSimpleSpeechRecognition = ({
         onError(error);
       }
     }
-  }, [onResult, onError, onEnd]);
+  }, [onResult, onInterimResult, onError, onEnd]);
 
   /**
    * 음성인식 중지

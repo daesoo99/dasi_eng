@@ -7,6 +7,85 @@
   "learning_points": "정중한 지시, 부정 명령, 정중한 도움 요청 등 상황별 표현",
   "phase": 4,
   "stage_number": 15,
-  "count": 0,
-  "sentences": []
+  "count": 10,
+  "sentences": [
+    {
+      "id": "Lv2-P4-S15-001",
+      "kr": "불을 꺼 주세요.",
+      "en": "Turn off the light, please.",
+      "form": "imp"
+    },
+    {
+      "id": "Lv2-P4-S15-002",
+      "kr": "내일 늦지 마세요.",
+      "en": "Don't be late tomorrow.",
+      "form": "neg_imp"
+    },
+    {
+      "id": "Lv2-P4-S15-003",
+      "kr": "이것 좀 도와주세요.",
+      "en": "Please help me with this.",
+      "form": "imp"
+    },
+    {
+      "id": "Lv2-P4-S15-004",
+      "kr": "문을 열어 주세요.",
+      "en": "Open the door, please.",
+      "form": "imp"
+    },
+    {
+      "id": "Lv2-P4-S15-005",
+      "kr": "시끄럽게 하지 마세요.",
+      "en": "Don't make noise.",
+      "form": "neg_imp"
+    },
+    {
+      "id": "Lv2-P4-S15-006",
+      "kr": "앉으세요.",
+      "en": "Please sit down.",
+      "form": "imp"
+    },
+    {
+      "id": "Lv2-P4-S15-007",
+      "kr": "담배를 피우지 마세요.",
+      "en": "Don't smoke here.",
+      "form": "neg_imp"
+    },
+    {
+      "id": "Lv2-P4-S15-008",
+      "kr": "천천히 말해 주세요.",
+      "en": "Speak slowly, please.",
+      "form": "imp"
+    },
+    {
+      "id": "Lv2-P4-S15-009",
+      "kr": "걱정하지 마세요.",
+      "en": "Don't worry.",
+      "form": "neg_imp"
+    },
+    {
+      "id": "Lv2-P4-S15-010",
+      "kr": "이쪽으로 오세요.",
+      "en": "Please come this way.",
+      "form": "imp"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 0,
+    "neg": 0,
+    "yn_q": 0,
+    "wh_q": 0,
+    "imp": 5,
+    "neg_imp": 5,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L2_Sequential_Generation",
+  "metadata": {
+    "created_at": "2025-09-05T11:05:00.000Z",
+    "creation_method": "sequential_learning_compliant",
+    "grammar_scope": ["imperatives", "polite_requests", "negative_imperatives"],
+    "max_sentence_length": 6,
+    "vocabulary_level": "beginner_plus"
+  }
 }

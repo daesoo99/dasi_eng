@@ -7,6 +7,80 @@
   "learning_points": "'캔'(can)과 '캔트'(can't) 발음 구별에도 주의",
   "phase": 3,
   "stage_number": 9,
-  "count": 0,
-  "sentences": []
+  "count": 10,
+  "sentences": [
+    {
+      "id": "Lv2-P3-S09-001",
+      "kr": "나는 수영을 할 수 있습니다.",
+      "en": "I can swim.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P3-S09-002",
+      "kr": "나는 운전을 할 수 없습니다.",
+      "en": "I can't drive.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv2-P3-S09-003",
+      "kr": "창문을 열어도 될까요?",
+      "en": "Can I open the window?",
+      "form": "yn_q"
+    },
+    {
+      "id": "Lv2-P3-S09-004",
+      "kr": "그녀는 피아노를 연주할 수 있습니다.",
+      "en": "She can play the piano.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P3-S09-005",
+      "kr": "당신은 도움을 줄 수 있습니까?",
+      "en": "Can you help me?",
+      "form": "yn_q"
+    },
+    {
+      "id": "Lv2-P3-S09-006",
+      "kr": "우리는 여기서 기다릴 수 없습니다.",
+      "en": "We can't wait here.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv2-P3-S09-007",
+      "kr": "그들은 영어를 말할 수 있습니다.",
+      "en": "They can speak English.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P3-S09-008",
+      "kr": "제가 질문을 해도 될까요?",
+      "en": "Can I ask a question?",
+      "form": "yn_q"
+    },
+    {
+      "id": "Lv2-P3-S09-009",
+      "kr": "그는 요리를 할 수 없습니다.",
+      "en": "He can't cook.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv2-P3-S09-010",
+      "kr": "아이들은 공원에서 놀 수 있습니다.",
+      "en": "Children can play in the park.",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 5,
+    "neg": 3,
+    "wh_q": 0,
+    "yn_q": 2
+  },
+  "status": "complete",
+  "batch": "level2_completion_batch_1",
+  "metadata": {
+    "generated_at": "2025-01-12",
+    "generator": "claude_code_v2",
+    "grammar_constraints": ["can_ability", "can_permission", "all_level_1_grammar"]
+  }
 }

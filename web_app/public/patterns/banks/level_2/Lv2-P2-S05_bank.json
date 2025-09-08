@@ -7,6 +7,80 @@
   "learning_points": "부사의 위치에 따라 의미가 달라지지 않음을 확인하며 자연스럽게 습관 말하기 연습",
   "phase": 2,
   "stage_number": 5,
-  "count": 0,
-  "sentences": []
+  "count": 10,
+  "sentences": [
+    {
+      "id": "Lv2-P2-S05-001",
+      "kr": "나는 항상 7시에 일어납니다.",
+      "en": "I always get up at 7.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P2-S05-002",
+      "kr": "그는 때때로 축구를 합니다.",
+      "en": "He sometimes plays soccer.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P2-S05-003",
+      "kr": "그녀는 보통 학교에 갑니다.",
+      "en": "She usually goes to school.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P2-S05-004",
+      "kr": "우리는 결코 늦지 않습니다.",
+      "en": "We never are late.",
+      "form": "neg"
+    },
+    {
+      "id": "Lv2-P2-S05-005",
+      "kr": "그들은 자주 영화를 봅니다.",
+      "en": "They often watch movies.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P2-S05-006",
+      "kr": "나는 항상 행복합니다.",
+      "en": "I am always happy.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P2-S05-007",
+      "kr": "그는 보통 바쁩니다.",
+      "en": "He is usually busy.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P2-S05-008",
+      "kr": "그들은 때때로 집에 있습니다.",
+      "en": "They are sometimes at home.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P2-S05-009",
+      "kr": "나는 자주 책을 읽습니다.",
+      "en": "I often read books.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P2-S05-010",
+      "kr": "그녀는 결코 화나지 않습니다.",
+      "en": "She is never angry.",
+      "form": "neg"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 8,
+    "neg": 2,
+    "wh_q": 0,
+    "yn_q": 0
+  },
+  "status": "complete",
+  "batch": "level2_completion_batch_1",
+  "metadata": {
+    "generated_at": "2025-01-12",
+    "generator": "claude_code_v2",
+    "grammar_constraints": ["frequency_adverbs", "adverb_position", "all_level_1_grammar"]
+  }
 }

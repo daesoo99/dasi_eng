@@ -71,7 +71,13 @@
       "mcp__playwright__browser_press_key",
       "Bash(git push:*)",
       "Bash(timeout 60 npm run build:check)",
-      "Bash(del manual-srs-test.js)"
+      "Bash(del manual-srs-test.js)",
+      "Bash(git reset:*)",
+      "Bash(for:*)",
+      "Bash(done)",
+      "Bash(jq:*)",
+      "Bash(do echo -n \"$file: \")",
+      "mcp__playwright__browser_type"
     ],
     "deny": [],
     "ask": [],

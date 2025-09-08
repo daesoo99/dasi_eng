@@ -25,7 +25,7 @@ const AudioV2TestPage = lazy(() => import('@/pages/AudioV2TestPage').then(m => (
 const SpeedModePage = lazy(() => import('@/pages/SpeedModePage'));
 const StageFocusPage = lazy(() => import('@/pages/StageFocusPage'));
 const AllModePage = lazy(() => import('@/pages/AllModePage').then(m => ({ default: m.AllModePage })));
-const PatternTrainingPage = lazy(() => import('@/pages/PatternTrainingPageV2').then(m => ({ default: m.default })));
+const PatternTrainingPage = lazy(() => import('@/pages/PatternTrainingPageV3').then(m => ({ default: m.default })));
 const PatternTestPage = lazy(() => import('@/pages/PatternTestPage').then(m => ({ default: m.PatternTestPage })));
 const SituationalTrainingPage = lazy(() => import('@/pages/SituationalTrainingPage').then(m => ({ default: m.SituationalTrainingPage })));
 const SentenceServiceTest = lazy(() => import('@/components/SentenceServiceTest').then(m => ({ default: m.SentenceServiceTest })));

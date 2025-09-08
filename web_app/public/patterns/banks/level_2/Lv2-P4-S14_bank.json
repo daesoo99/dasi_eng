@@ -7,6 +7,83 @@
   "learning_points": "의문사에 따른 어순 변화를 계속 강조",
   "phase": 4,
   "stage_number": 14,
-  "count": 0,
-  "sentences": []
+  "count": 10,
+  "sentences": [
+    {
+      "id": "Lv2-P4-S14-001",
+      "kr": "당신의 가장 친한 친구는 누구예요?",
+      "en": "Who is your best friend?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P4-S14-002",
+      "kr": "오늘 왜 늦었어요?",
+      "en": "Why are you late today?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P4-S14-003",
+      "kr": "이 음식을 어떻게 요리해요?",
+      "en": "How do you cook this dish?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P4-S14-004",
+      "kr": "누가 이 노래를 불러요?",
+      "en": "Who sings this song?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P4-S14-005",
+      "kr": "왜 영어를 공부해요?",
+      "en": "Why do you study English?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P4-S14-006",
+      "kr": "어떻게 학교에 가요?",
+      "en": "How do you go to school?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P4-S14-007",
+      "kr": "누가 이 일을 할 수 있어요?",
+      "en": "Who can do this job?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P4-S14-008",
+      "kr": "왜 그렇게 생각해요?",
+      "en": "Why do you think so?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P4-S14-009",
+      "kr": "어떻게 이것을 사용해요?",
+      "en": "How do you use this?",
+      "form": "wh_q"
+    },
+    {
+      "id": "Lv2-P4-S14-010",
+      "kr": "누가 우리를 도와줄 수 있어요?",
+      "en": "Who can help us?",
+      "form": "wh_q"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 0,
+    "neg": 0,
+    "yn_q": 0,
+    "wh_q": 10,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L2_Sequential_Generation",
+  "metadata": {
+    "created_at": "2025-09-05T11:00:00.000Z",
+    "creation_method": "sequential_learning_compliant",
+    "grammar_scope": ["who_why_how_questions", "wh_question_formation", "auxiliary_verbs"],
+    "max_sentence_length": 8,
+    "vocabulary_level": "beginner_plus"
+  }
 }

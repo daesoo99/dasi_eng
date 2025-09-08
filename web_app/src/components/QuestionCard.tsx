@@ -16,20 +16,24 @@ interface QuestionCardProps {
   currentQuestion: Question;
   currentPhase: Phase;
   countdownText: string;
+  recognitionTimeText: string;
   showAnswer: boolean;
   answerEvaluation: string;
   evaluationType: EvaluationType;
   recognitionResult: string;
+  interimResult: string;
 }
 
 export const QuestionCard: React.FC<QuestionCardProps> = ({
   currentQuestion,
   currentPhase,
   countdownText,
+  recognitionTimeText,
   showAnswer,
   answerEvaluation,
   evaluationType,
-  recognitionResult
+  recognitionResult,
+  interimResult
 }) => {
   const getPhaseDisplay = () => {
     switch (currentPhase) {
@@ -56,10 +60,24 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
       case 'recognition':
         return (
           <div className="bg-red-100 border border-red-300 rounded-lg p-4 mb-4">
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center mb-2">
               <div className="animate-pulse w-4 h-4 bg-red-500 rounded-full mr-3"></div>
               <span className="text-red-700 font-medium">음성 인식 중... 말씀하세요</span>
             </div>
+            {recognitionTimeText && (
+              <div className="text-center mb-2">
+                <span className="text-2xl font-bold text-red-600">{recognitionTimeText}초</span>
+                <span className="text-sm text-red-500 ml-2">남음</span>
+              </div>
+            )}
+            {/* 실시간 중간 결과 표시 */}
+            {interimResult && (
+              <div className="mt-2 p-2 bg-yellow-50 border border-yellow-200 rounded">
+                <span className="text-sm text-gray-500">실시간 인식: </span>
+                <span className="font-medium text-gray-700 italic">{interimResult}...</span>
+              </div>
+            )}
+            {/* 최종 결과 표시 */}
             {recognitionResult && (
               <div className="mt-2 p-2 bg-white rounded border">
                 <span className="text-sm text-gray-600">인식된 내용: </span>

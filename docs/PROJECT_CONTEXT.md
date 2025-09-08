@@ -35,6 +35,24 @@ DaSi_eng/
 | **🔄 리뷰 서비스** | `src/services/review/smartReviewService.js` | 백엔드 SRS 처리 | 🔄 통합 예정 |
 | **🗄️ 데이터베이스** | Firebase Firestore | 사용자 학습 데이터 | ✅ 운영 중 |
 
+### 🤖 AI 모델 스택
+
+| 기능 | 모델 | 역할 |
+|------|------|------|
+| **대화 생성** | GPT-4o, Claude 3.5 Sonnet | 레벨별 맞춤 대화, 피드백 제공 |
+| **음성 인식** | Whisper Large v3 | 정확한 전사, 발음 분석 |
+| **음성 합성** | ElevenLabs TTS | 자연스러운 음성 출력 |
+| **복습 엔진** | Python + Firebase | 망각곡선 기반 개인화 복습 |
+
+### 💻 기술 스택
+
+| 계층 | 기술 | 용도 |
+|------|------|------|
+| **Frontend** | React (TypeScript) | 사용자 인터페이스 |
+| **Backend** | Node.js (Express) | API 서버 |
+| **Database** | Firebase Firestore | 학습 데이터 저장 |
+| **AI Services** | OpenAI, Anthropic | 학습 피드백 생성 |
+
 ---
 
 ## ⚠️ 2. 절대 금지 규칙 (AI 필수 준수)

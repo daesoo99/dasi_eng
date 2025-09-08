@@ -4,6 +4,15 @@ import type { AppSettings, StudyState, DrillCard, StudySession, FeedbackResponse
 
 export type LearningMode = 'writing' | 'speaking';
 
+export type ThemeMode = 'default' | 'personal';
+
+export interface PersonalTheme {
+  primary: string;    // #4A90E2 (차분한 블루)
+  secondary: string;  // #7B68EE (미디엄 퍼플)
+  accent: string;     // #FF8A80 (따뜻한 코랄)
+  base: string;       // #F5F7FA (부드러운 화이트)
+}
+
 interface AppStore {
   // Settings
   settings: AppSettings;
@@ -16,6 +25,17 @@ interface AppStore {
   // Speaking Stage (1단계 3초, 2단계 2초, 3단계 1초)
   speakingStage: 1 | 2 | 3;
   setSpeakingStage: (stage: 1 | 2 | 3) => void;
+  
+  // Stage Progress for 3-step system
+  stageProgress: Record<string, boolean[]>; // key: "level-stage" => [1단계완료, 2단계완료, 3단계완료]
+  updateStageProgress: (level: number, stage: number, speakingStage: 1 | 2 | 3, completed: boolean) => void;
+  getStageProgress: (level: number, stage: number) => boolean[];
+
+  // Theme System
+  themeMode: ThemeMode;
+  personalTheme: PersonalTheme;
+  setThemeMode: (mode: ThemeMode) => void;
+  setPersonalTheme: (theme: Partial<PersonalTheme>) => void;
 
   // User state
   user: {
@@ -95,6 +115,13 @@ const initialUIState = {
   notification: null,
 };
 
+const initialPersonalTheme: PersonalTheme = {
+  primary: '#6b7280',    // 회색 (기본 테마와 동일)
+  secondary: '#ffffff',  // 흰색 (기본 테마와 동일)
+  accent: '#4b5563',     // 어두운 회색 (기본 테마와 동일)
+  base: '#f9fafb',       // 연한 회색 배경 (기본 테마와 동일)
+};
+
 export const useAppStore = create<AppStore>()(
   persist(
     (set, get) => ({
@@ -117,6 +144,40 @@ export const useAppStore = create<AppStore>()(
       setSpeakingStage: (stage) =>
         set((state) => ({
           speakingStage: stage,
+        })),
+      
+      // Stage Progress
+      stageProgress: {},
+      updateStageProgress: (level, stage, speakingStage, completed) =>
+        set((state) => {
+          const key = `${level}-${stage}`;
+          const currentProgress = state.stageProgress[key] || [false, false, false];
+          const newProgress = [...currentProgress];
+          newProgress[speakingStage - 1] = completed; // 0-based index
+          
+          return {
+            stageProgress: {
+              ...state.stageProgress,
+              [key]: newProgress
+            }
+          };
+        }),
+      getStageProgress: (level, stage) => {
+        const state = get();
+        const key = `${level}-${stage}`;
+        return state.stageProgress[key] || [false, false, false];
+      },
+
+      // Theme System
+      themeMode: 'default', // 기본값: 깔끔한 테마
+      personalTheme: initialPersonalTheme,
+      setThemeMode: (mode) =>
+        set((state) => ({
+          themeMode: mode,
+        })),
+      setPersonalTheme: (theme) =>
+        set((state) => ({
+          personalTheme: { ...state.personalTheme, ...theme },
         })),
 
       // User
@@ -235,11 +296,13 @@ export const useAppStore = create<AppStore>()(
     }),
     {
       name: 'dasi-english-store',
-      // Only persist settings, user data, and learning mode, not study state
+      // Only persist settings, user data, learning mode, and stage progress
       partialize: (state) => ({
         settings: state.settings,
         user: state.user,
         learningMode: state.learningMode,
+        speakingStage: state.speakingStage,
+        stageProgress: state.stageProgress,
       }),
     }
   )
@@ -268,4 +331,17 @@ export const useStageSelection = () => useAppStore((state) => ({
   setSelectedLevel: state.setSelectedLevel,
   setStageModalOpen: state.setStageModalOpen,
   selectLevelAndStage: state.selectLevelAndStage,
+}));
+
+export const useTheme = () => useAppStore((state) => ({
+  themeMode: state.themeMode,
+  personalTheme: state.personalTheme,
+  setThemeMode: state.setThemeMode,
+  setPersonalTheme: state.setPersonalTheme,
+}));
+
+export const useStageProgress = () => useAppStore((state) => ({
+  stageProgress: state.stageProgress,
+  updateStageProgress: state.updateStageProgress,
+  getStageProgress: state.getStageProgress,
 }));

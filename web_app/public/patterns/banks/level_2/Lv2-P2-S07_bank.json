@@ -7,6 +7,82 @@
   "learning_points": "익숙한 일상 동사 표현들을 제공하고, 학습자가 자기 루틴에 맞게 문장을 만들어 말하도록 유도",
   "phase": 2,
   "stage_number": 7,
-  "count": 0,
-  "sentences": []
+  "count": 10,
+  "sentences": [
+    {
+      "id": "Lv2-P2-S07-001",
+      "kr": "나는 보통 7시에 일어나요.",
+      "en": "I usually get up at 7.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P2-S07-002",
+      "kr": "나는 항상 아침을 먹어요.",
+      "en": "I always eat breakfast.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P2-S07-003",
+      "kr": "나는 보통 8시에 학교에 가요.",
+      "en": "I usually go to school at 8.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P2-S07-004",
+      "kr": "나는 가끔 친구들과 점심을 먹어요.",
+      "en": "I sometimes eat lunch with friends.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P2-S07-005",
+      "kr": "나는 보통 5시에 집에 와요.",
+      "en": "I usually come home at 5.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P2-S07-006",
+      "kr": "나는 항상 숙제를 해요.",
+      "en": "I always do my homework.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P2-S07-007",
+      "kr": "나는 가끔 TV를 봐요.",
+      "en": "I sometimes watch TV.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P2-S07-008",
+      "kr": "나는 보통 10시에 자요.",
+      "en": "I usually sleep at 10.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P2-S07-009",
+      "kr": "나는 자주 책을 읽어요.",
+      "en": "I often read books.",
+      "form": "aff"
+    },
+    {
+      "id": "Lv2-P2-S07-010",
+      "kr": "나는 보통 주말에 쇼핑해요.",
+      "en": "I usually go shopping on weekends.",
+      "form": "aff"
+    }
+  ],
+  "forms_distribution": {
+    "aff": 10,
+    "neg": 0,
+    "yn_q": 0,
+    "unknown": 0
+  },
+  "status": "complete",
+  "batch": "L2_Sequential_Generation",
+  "metadata": {
+    "created_at": "2025-09-05T10:30:00.000Z",
+    "creation_method": "sequential_learning_compliant",
+    "grammar_scope": ["frequency_adverbs", "simple_present", "be_verb", "basic_prepositions"],
+    "max_sentence_length": 8,
+    "vocabulary_level": "beginner_plus"
+  }
 }
