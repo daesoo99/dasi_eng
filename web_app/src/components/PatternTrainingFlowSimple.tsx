@@ -184,14 +184,17 @@ export const PatternTrainingFlowSimple: React.FC<PatternTrainingFlowSimpleProps>
         }
       }
       
-      // 🔧 플러그인을 통한 TTS 중지
+      // 🔧 플러그인을 통한 TTS 중지 (동기적으로 처리)
       try {
-        const ServiceContainer = (await import('@/container/ServiceContainer')).default;
-        const container = ServiceContainer.getInstanceSync();
-        const speechService = container.getSpeechProcessingService();
-        speechService.stopAllSpeech();
+        import('@/container/ServiceContainer').then((module) => {
+          const container = module.default.getInstanceSync();
+          const speechService = container.getSpeechProcessingService();
+          speechService.stopAllSpeech();
+        }).catch((error) => {
+          console.warn('🔧 Error stopping TTS (plugin):', error);
+        });
       } catch (error) {
-        console.warn('🔧 Error stopping TTS (plugin):', error);
+        console.warn('🔧 Error importing ServiceContainer:', error);
       }
       
       setIsRecording(false);
@@ -520,13 +523,16 @@ export const PatternTrainingFlowSimple: React.FC<PatternTrainingFlowSimpleProps>
         }
         
         try {
-          // 🔧 플러그인을 통한 TTS 중지
-          const ServiceContainer = (await import('@/container/ServiceContainer')).default;
-          const container = ServiceContainer.getInstanceSync();
-          const speechService = container.getSpeechProcessingService();
-          speechService.stopAllSpeech();
+          // 🔧 플러그인을 통한 TTS 중지 (동기적으로 처리)
+          import('@/container/ServiceContainer').then((module) => {
+            const container = module.default.getInstanceSync();
+            const speechService = container.getSpeechProcessingService();
+            speechService.stopAllSpeech();
+          }).catch((error) => {
+            console.warn('🔧 Error stopping TTS on unmount (plugin):', error);
+          });
         } catch (error) {
-          console.warn('🔧 Error stopping TTS on unmount (plugin):', error);
+          console.warn('🔧 Error importing ServiceContainer on unmount:', error);
         }
         
         console.log('PatternTrainingFlowSimple cleanup completed');
