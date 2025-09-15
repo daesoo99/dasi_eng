@@ -73,7 +73,7 @@ export class MockAudioFlowStateMachine implements IAudioFlowStateMachine {
     return actionMap[this.currentState] || [];
   }
 
-  async executeAction(action: string, data?: any): Promise<ActionResult> {
+  async executeAction(action: string, _data?: any): Promise<ActionResult> {
     this.calls.executeAction++;
     console.log(`[MockStateMachine] Executing action: ${action} in state: ${this.currentState}`);
     
@@ -134,7 +134,7 @@ export class MockAudioFlowStateMachine implements IAudioFlowStateMachine {
     return { success: true };
   }
 
-  async playAnswerAndNext(answerText?: string): Promise<ActionResult> {
+  async playAnswerAndNext(_answerText?: string): Promise<ActionResult> {
     this.calls.playAnswerAndNext++;
     return { success: true };
   }

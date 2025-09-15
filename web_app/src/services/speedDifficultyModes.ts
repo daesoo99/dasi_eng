@@ -471,7 +471,7 @@ class SpeedDifficultyService {
   
   // Mock data methods (실제로는 DB에서 조회)
   
-  private async getUserLevel(userId: string): Promise<number> {
+  private async getUserLevel(_userId: string): Promise<number> {
     return 3; // Mock
   }
   

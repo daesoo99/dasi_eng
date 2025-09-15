@@ -80,7 +80,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
             {/* 최종 결과 표시 */}
             {recognitionResult && (
               <div className="mt-2 p-2 bg-white rounded border">
-                <span className="text-sm text-gray-600">인식된 내용: </span>
+                <span className="text-sm text-gray-600 dark:text-gray-300">인식된 내용: </span>
                 <span className="font-medium">{recognitionResult}</span>
               </div>
             )}
@@ -111,22 +111,22 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({
   };
 
   return (
-    <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
+    <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 mb-8 transition-colors duration-300">
       <div className="text-center mb-8">
         {/* Phase 상태 표시 */}
         {getPhaseDisplay()}
         
         {/* 한국어 문제 */}
         <div className="mb-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
             {currentQuestion.ko || '문제를 불러오는 중...'}
           </h2>
         </div>
         
         {/* 영어 답안 (필요시 표시) */}
         {showAnswer && (
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-            <p className="text-lg text-blue-700 font-medium">
+          <div className="bg-blue-50 dark:bg-blue-900 border border-blue-200 dark:border-blue-700 rounded-lg p-4">
+            <p className="text-lg text-blue-700 dark:text-blue-300 font-medium">
               정답: {currentQuestion.en}
             </p>
           </div>

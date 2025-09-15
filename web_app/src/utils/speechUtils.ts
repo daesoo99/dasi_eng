@@ -15,12 +15,12 @@ export interface STTResult {
 
 // Browser-based Speech-to-Text using Web Speech API
 export class BrowserSTT {
-  private recognition: SpeechRecognition | null = null;
+  private recognition: any | null = null;
   private isSupported = false;
 
   constructor() {
     // Check browser support
-    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
     if (SpeechRecognition) {
       this.recognition = new SpeechRecognition();
       this.isSupported = true;
@@ -51,7 +51,7 @@ export class BrowserSTT {
       this.recognition!.continuous = options.continuous || false;
       this.recognition!.interimResults = options.interim || false;
 
-      this.recognition!.onresult = (event) => {
+      this.recognition!.onresult = (event: any) => {
         const result = event.results[0];
         if (result) {
           const transcript = result[0].transcript.trim();
@@ -64,7 +64,7 @@ export class BrowserSTT {
         }
       };
 
-      this.recognition!.onerror = (event) => {
+      this.recognition!.onerror = (event: any) => {
         reject(new Error(`Speech recognition error: ${event.error}`));
       };
 
@@ -89,14 +89,13 @@ export class BrowserSTT {
 
 // Text-to-Speech utilities
 export class BrowserTTS {
-  private synth: SpeechSynthesis;
+  private synth: SpeechSynthesis = window.speechSynthesis;
   private isSupported = false;
   private currentUtterance: SpeechSynthesisUtterance | null = null;
   private utteranceQueue: SpeechSynthesisUtterance[] = [];
 
   constructor() {
     if ('speechSynthesis' in window) {
-      this.synth = window.speechSynthesis;
       this.isSupported = true;
     }
   }
@@ -247,7 +246,11 @@ export class CloudSTT {
         const result = reader.result as string;
         // Remove data URL prefix (data:audio/webm;base64,)
         const base64 = result.split(',')[1];
-        resolve(base64);
+        if (base64) {
+          resolve(base64);
+        } else {
+          reject(new Error('Failed to extract base64 from result'));
+        }
       };
       reader.onerror = reject;
       reader.readAsDataURL(blob);
@@ -319,10 +322,4 @@ export class AudioRecorder {
   }
 }
 
-// Declare global speech recognition interfaces
-declare global {
-  interface Window {
-    SpeechRecognition: typeof SpeechRecognition;
-    webkitSpeechRecognition: typeof SpeechRecognition;
-  }
-}
+// SpeechRecognition 타입은 env.d.ts에서 전역으로 정의됨

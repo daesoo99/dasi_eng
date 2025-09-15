@@ -105,11 +105,23 @@ export const ReviewSessionCard: React.FC<ReviewSessionCardProps> = ({
         setPhase('reviewing');
         setQuestionStartTime(Date.now());
       } else {
-        // 세션 완료
+        // 세션 완료 - sessionStartTime 활용한 통계 생성
+        const totalSessionTime = Date.now() - sessionStartTime;
+        const correctCount = results.filter(r => r.isCorrect).length;
+        const accuracy = (correctCount / results.length) * 100;
+        const averageResponseTime = results.reduce((sum, r) => sum + r.responseTime, 0) / results.length;
+        
+        console.log('🎯 SRS Session completed:', {
+          totalTime: `${Math.round(totalSessionTime / 1000)}s`,
+          accuracy: `${accuracy.toFixed(1)}%`,
+          avgResponseTime: `${Math.round(averageResponseTime / 1000)}s`,
+          cardsReviewed: results.length
+        });
+        
         setPhase('completed');
       }
     }, 2000);
-  }, [currentCard, userAnswer, questionStartTime, currentIndex, cards.length, srsEngine]);
+  }, [currentCard, userAnswer, questionStartTime, currentIndex, cards.length, srsEngine, sessionStartTime, results]);
 
   // 건너뛰기
   const skipCard = useCallback(() => {

@@ -17,7 +17,7 @@ interface SpeechRecorderProps {
 export const SpeechRecorder: React.FC<SpeechRecorderProps> = memo(({
   onResult,
   onError,
-  phraseHints = [],
+  phraseHints = [], // 음성 인식 힌트 (향후 구현 예정)
   disabled = false,
   className = '',
   autoFlow = false,
@@ -153,6 +153,18 @@ export const SpeechRecorder: React.FC<SpeechRecorderProps> = memo(({
       recognition.interimResults = false;
       recognition.lang = 'en-US';
       recognition.maxAlternatives = 1;
+      
+      // phraseHints 활용 (grammar 힌트 제공)
+      if (phraseHints.length > 0) {
+        console.log('🎯 Speech recognition hints applied:', phraseHints);
+        // 실제 구현: 브라우저별로 다른 방식으로 힌트 적용
+        if (recognition.grammars) {
+          const grammarList = new (window as any).SpeechGrammarList();
+          const grammar = `#JSGF V1.0; grammar phrases; public <phrase> = ${phraseHints.join(' | ')};`;
+          grammarList.addFromString(grammar, 1);
+          recognition.grammars = grammarList;
+        }
+      }
       
       let isCompleted = false; // 핵심: 중복 처리 방지
       

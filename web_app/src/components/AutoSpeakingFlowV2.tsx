@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useCallback } from 'react';
-import { useAudioFlowController, type FlowState } from '@/hooks/useAudioFlowController';
+import { useAudioFlowController } from '@/hooks/useAudioFlowController';
 import { pluginManager, getSpeechPlugin } from '@/plugins/PluginManager';
 import { getServiceContainer } from '@/container/ServiceContainer';
 
@@ -21,13 +21,48 @@ export const AutoSpeakingFlowV2: React.FC<AutoSpeakingFlowV2Props> = React.memo(
   onTimeout,
   isActive,
   recordingDuration = 10,
-  serviceContainer
+  serviceContainer,
+  usePluginSystem = true
 }) => {
+  // 플러그인 시스템 활용
+  const speechPlugin = useMemo(() => {
+    if (usePluginSystem) {
+      try {
+        return getSpeechPlugin();
+      } catch (error) {
+        console.warn('Speech plugin not available, falling back to default:', error);
+        return null;
+      }
+    }
+    return null;
+  }, [usePluginSystem]);
+
+  // 플러그인 매니저를 통한 기능 확장
+  const enhancedFeatures = useMemo(() => {
+    if (!usePluginSystem) return null;
+    
+    try {
+      // 플러그인 매니저에서 고급 기능들 가져오기
+      const analyticsPlugin = pluginManager.getPlugin('analytics');
+      const speechEnhancer = pluginManager.getPlugin('speech-enhancer');
+      
+      return {
+        analytics: analyticsPlugin?.isEnabled() ? analyticsPlugin : null,
+        speechEnhancer: speechEnhancer?.isEnabled() ? speechEnhancer : null,
+        hasAdvancedFeatures: Boolean(analyticsPlugin || speechEnhancer)
+      };
+    } catch (error) {
+      console.warn('Plugin manager features not available:', error);
+      return null;
+    }
+  }, [usePluginSystem]);
+
   const controller = useAudioFlowController({
     onSpeechResult,
     onTimeout,
     recordingDuration,
-    serviceContainer
+    serviceContainer,
+    speechPlugin
   });
 
   // 카드 식별자 메모이제이션
@@ -39,19 +74,28 @@ export const AutoSpeakingFlowV2: React.FC<AutoSpeakingFlowV2Props> = React.memo(
   // 카드 텍스트 메모이제이션
   const koreanText = useMemo(() => 
     currentCard ? (currentCard.front_ko || currentCard.kr || '문제를 확인해주세요') : '',
-    [currentCard?.front_ko, currentCard?.kr]
+    [currentCard]
   );
 
   // 카드 변경 시 자동 시작
   useEffect(() => {
     if (currentCard && isActive && controller.flowState === 'idle' && koreanText) {
       controller.startFlow(koreanText);
+      
+      // 분석 플러그인이 있으면 이벤트 추적
+      if (enhancedFeatures?.analytics) {
+        enhancedFeatures.analytics.trackEvent('speech_flow_started', {
+          cardId: cardId,
+          hasKoreanText: Boolean(koreanText),
+          recordingDuration
+        });
+      }
     }
-  }, [cardId, isActive, controller.flowState, controller.startFlow, koreanText]);
+  }, [cardId, isActive, currentCard, controller, koreanText, enhancedFeatures?.analytics, recordingDuration]);
 
   // 상태 머신에서 UI 정보 가져오기 - 메모이제이션
   const displayInfo = useMemo(() => {
-    return controller.getDisplayInfo?.() || {
+    const baseInfo = controller.getDisplayInfo?.() || {
       message: '',
       progressPercent: 0,
       statusColor: 'bg-gray-500',
@@ -61,7 +105,17 @@ export const AutoSpeakingFlowV2: React.FC<AutoSpeakingFlowV2Props> = React.memo(
       canStop: false,
       showProgress: false,
     };
-  }, [controller.getDisplayInfo, controller.flowState, controller.remainingTime]);
+
+    // Speech enhancer 플러그인이 있으면 메시지 개선
+    if (enhancedFeatures?.speechEnhancer) {
+      const enhancedMessage = enhancedFeatures.speechEnhancer.enhanceStatusMessage?.(baseInfo.message, controller.flowState);
+      if (enhancedMessage) {
+        baseInfo.message = enhancedMessage;
+      }
+    }
+
+    return baseInfo;
+  }, [controller, enhancedFeatures?.speechEnhancer]);
 
   // 진행률 계산 메모이제이션
   const progressWidth = useMemo(() => {
@@ -75,8 +129,17 @@ export const AutoSpeakingFlowV2: React.FC<AutoSpeakingFlowV2Props> = React.memo(
   const handlePlayAnswer = useCallback(() => {
     if (currentCard?.target_en) {
       controller.playAnswerAndNext(currentCard.target_en);
+      
+      // 분석 플러그인으로 정답 재생 추적
+      if (enhancedFeatures?.analytics) {
+        enhancedFeatures.analytics.trackEvent('answer_played', {
+          cardId: cardId,
+          answerText: currentCard.target_en,
+          currentState: controller.flowState
+        });
+      }
     }
-  }, [controller.playAnswerAndNext, currentCard?.target_en]);
+  }, [controller, currentCard?.target_en, enhancedFeatures?.analytics, cardId]);
 
   if (!isActive || controller.flowState === 'idle') {
     return null;

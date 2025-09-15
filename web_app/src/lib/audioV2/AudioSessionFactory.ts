@@ -121,7 +121,7 @@ export class AudioSessionFactory {
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
       stream.getTracks().forEach(track => track.stop());
-    } catch (error) {
+    } catch (_error) {
       throw new Error('Microphone access denied or not available');
     }
   }

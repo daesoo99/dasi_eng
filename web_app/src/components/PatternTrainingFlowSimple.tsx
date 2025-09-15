@@ -60,66 +60,37 @@ export const PatternTrainingFlowSimple: React.FC<PatternTrainingFlowSimpleProps>
   };
 
   /**
-   * Initialize TTS to handle browser autoplay policies
+   * 🔧 플러그인을 통한 TTS 초기화
    */
-  const initializeTTS = useCallback(() => {
-    if (!window.speechSynthesis || ttsInitialized) {
+  const initializeTTS = useCallback(async () => {
+    if (ttsInitialized) {
       return Promise.resolve();
     }
 
-    return new Promise<void>((resolve) => {
-      // Create a silent utterance to initialize TTS after user interaction
-      const testUtterance = new SpeechSynthesisUtterance('');
-      testUtterance.volume = 0;
-      testUtterance.rate = 10;
-      testUtterance.pitch = 1;
-      
-      const initTimeout = setTimeout(() => {
-        console.log('TTS 초기화 완료 (타임아웃)');
-        setTtsInitialized(true);
-        resolve();
-      }, 1000);
+    try {
+      console.log('🔧 플러그인 TTS 초기화 시작...');
 
-      testUtterance.onend = () => {
-        clearTimeout(initTimeout);
-        console.log('TTS 초기화 완료');
-        setTtsInitialized(true);
-        resolve();
-      };
+      // ServiceContainer를 통해 speechService 사용
+      const ServiceContainer = (await import('@/container/ServiceContainer')).default;
+      const container = ServiceContainer.getInstanceSync();
+      const speechService = container.getSpeechProcessingService();
 
-      testUtterance.onerror = () => {
-        clearTimeout(initTimeout);
-        console.log('TTS 초기화 완료 (오류 무시)');
-        setTtsInitialized(true);
-        resolve();
-      };
-
-      try {
-        window.speechSynthesis.speak(testUtterance);
-        // Immediately cancel the silent utterance
-        setTimeout(() => {
-          window.speechSynthesis.cancel();
-        }, 10);
-      } catch (error) {
-        clearTimeout(initTimeout);
-        console.warn('TTS 초기화 오류:', error);
-        setTtsInitialized(true);
-        resolve();
-      }
-    });
+      // 플러그인을 통한 초기화 (실제 음성 없이 준비만)
+      console.log('🔧 플러그인 TTS 초기화 완료');
+      setTtsInitialized(true);
+      return Promise.resolve();
+    } catch (error) {
+      console.warn('🔧 플러그인 TTS 초기화 오류:', error);
+      setTtsInitialized(true);
+      return Promise.resolve();
+    }
   }, [ttsInitialized]);
 
   /**
-   * Text-to-Speech function with voice settings support and autoplay policy handling
+   * 🔧 플러그인 시스템을 통한 Text-to-Speech 함수
    */
   const speakText = useCallback(async (text: string, lang: 'ko' | 'en' = 'ko'): Promise<void> => {
-    return new Promise(async (resolve) => {
-      if (!window.speechSynthesis) {
-        console.warn('음성 합성을 지원하지 않는 브라우저입니다.');
-        resolve();
-        return;
-      }
-
+    try {
       // Initialize TTS if not already done
       if (!ttsInitialized) {
         await initializeTTS();
@@ -127,102 +98,58 @@ export const PatternTrainingFlowSimple: React.FC<PatternTrainingFlowSimpleProps>
 
       // Check if voice is enabled for this language
       if (lang === 'ko' && !voiceSettings.koreanEnabled) {
-        resolve();
         return;
       }
       if (lang === 'en' && !voiceSettings.englishEnabled) {
-        resolve();
         return;
       }
 
-      // Wait for voices to be loaded
-      const waitForVoices = () => {
-        return new Promise<void>((voicesResolve) => {
-          const voices = window.speechSynthesis.getVoices();
-          if (voices.length > 0) {
-            voicesResolve();
-            return;
-          }
-          
-          let attempts = 0;
-          const checkVoices = () => {
-            const voices = window.speechSynthesis.getVoices();
-            attempts++;
-            if (voices.length > 0 || attempts > 10) {
-              voicesResolve();
-            } else {
-              setTimeout(checkVoices, 100);
-            }
-          };
-          
-          // Try to trigger voice loading
-          window.speechSynthesis.onvoiceschanged = () => {
-            voicesResolve();
-          };
-          
-          setTimeout(checkVoices, 100);
-        });
-      };
+      // ServiceContainer를 통해 speechService 사용
+      const ServiceContainer = (await import('@/container/ServiceContainer')).default;
+      const container = ServiceContainer.getInstanceSync();
+      const speechService = container.getSpeechProcessingService();
 
-      await waitForVoices();
+      // 기존 TTS 중지
+      speechService.stopAllSpeech();
 
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.rate = voiceSettings.speed;
-      utterance.pitch = 1.0;
-      utterance.volume = 1.0;
+      // 플러그인을 통해 TTS 실행
+      await speechService.speakAnswer(text, {
+        language: lang === 'ko' ? 'ko-KR' : 'en-US',
+        rate: voiceSettings.speed,
+        volume: 1.0,
+        pitch: 1.0
+      });
 
-      if (lang === 'ko') {
-        utterance.lang = 'ko-KR';
-        if (voiceSettings.koreanVoice) {
-          const voices = window.speechSynthesis.getVoices();
-          const selectedVoice = voices.find(v => v.name === voiceSettings.koreanVoice);
-          if (selectedVoice) utterance.voice = selectedVoice;
-        }
-      } else {
-        utterance.lang = 'en-US';
-        if (voiceSettings.englishVoice) {
-          const voices = window.speechSynthesis.getVoices();
-          const selectedVoice = voices.find(v => v.name === voiceSettings.englishVoice);
-          if (selectedVoice) utterance.voice = selectedVoice;
-        }
-      }
+      console.log(`🔧 ${lang.toUpperCase()} TTS 완료 (플러그인)`);
 
-      // Set up timeout to prevent TTS from hanging
-      const ttsTimeout = setTimeout(() => {
-        console.warn('TTS 타임아웃 - 강제 종료');
-        try {
-          window.speechSynthesis.cancel();
-        } catch (error) {
-          console.warn('Error cancelling TTS on timeout:', error);
-        }
-        resolve();
-      }, 10000); // 10 second timeout (increased for better reliability)
+    } catch (error) {
+      console.error(`🔧 [PatternTrainingFlowSimple] Speech service error:`, error);
 
-      utterance.onend = () => {
-        clearTimeout(ttsTimeout);
-        console.log(`${lang.toUpperCase()} TTS 완료`);
-        resolve();
-      };
-
-      utterance.onerror = (event) => {
-        clearTimeout(ttsTimeout);
-        console.warn(`TTS 오류 (건너뜀):`, event.error);
-        resolve();
-      };
-
+      // 🔧 플러그인 fallback: AdvancedSpeechPlugin 시도
       try {
-        // Clear any pending utterances before speaking
-        window.speechSynthesis.cancel();
-        // Small delay to ensure cancel is processed
-        setTimeout(() => {
-          window.speechSynthesis.speak(utterance);
-        }, 10);
-      } catch (error) {
-        clearTimeout(ttsTimeout);
-        console.warn('Error starting TTS:', error);
-        resolve();
+        const ServiceContainer = (await import('@/container/ServiceContainer')).default;
+        const container = ServiceContainer.getInstanceSync();
+        const advancedPlugin = container.getAdvancedSpeechPlugin();
+
+        if (advancedPlugin) {
+          // 기존 TTS 중지
+          advancedPlugin.stopAll();
+
+          await advancedPlugin.speakText(text, {
+            language: lang === 'ko' ? 'ko-KR' : 'en-US',
+            rate: voiceSettings.speed,
+            volume: 1.0,
+            pitch: 1.0
+          });
+
+          console.log(`🔧 ${lang.toUpperCase()} TTS 완료 (고급 플러그인)`);
+        } else {
+          console.warn(`🔧 [PatternTrainingFlowSimple] No speech plugins available`);
+        }
+      } catch (pluginError) {
+        console.error(`🔧 [PatternTrainingFlowSimple] All speech plugins failed:`, pluginError);
       }
-    });
+    }
   }, [voiceSettings, ttsInitialized, initializeTTS]);
 
   /**
@@ -257,11 +184,14 @@ export const PatternTrainingFlowSimple: React.FC<PatternTrainingFlowSimpleProps>
         }
       }
       
-      // Cancel TTS safely
+      // 🔧 플러그인을 통한 TTS 중지
       try {
-        window.speechSynthesis.cancel();
+        const ServiceContainer = (await import('@/container/ServiceContainer')).default;
+        const container = ServiceContainer.getInstanceSync();
+        const speechService = container.getSpeechProcessingService();
+        speechService.stopAllSpeech();
       } catch (error) {
-        console.warn('Error canceling TTS:', error);
+        console.warn('🔧 Error stopping TTS (plugin):', error);
       }
       
       setIsRecording(false);
@@ -590,9 +520,13 @@ export const PatternTrainingFlowSimple: React.FC<PatternTrainingFlowSimpleProps>
         }
         
         try {
-          window.speechSynthesis.cancel();
+          // 🔧 플러그인을 통한 TTS 중지
+          const ServiceContainer = (await import('@/container/ServiceContainer')).default;
+          const container = ServiceContainer.getInstanceSync();
+          const speechService = container.getSpeechProcessingService();
+          speechService.stopAllSpeech();
         } catch (error) {
-          console.warn('Error cancelling TTS on unmount:', error);
+          console.warn('🔧 Error stopping TTS on unmount (plugin):', error);
         }
         
         console.log('PatternTrainingFlowSimple cleanup completed');

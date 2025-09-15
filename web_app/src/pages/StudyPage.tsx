@@ -4,13 +4,15 @@ import { useAppStore, useUser, useStudy, useUI, useLearningMode, useSpeakingStag
 import { SpeechRecorder } from '@/components/SpeechRecorder';
 import { SpeakingStageSelector } from '@/components/SpeakingStageSelector';
 import { SpeakingFlowController } from '@/components/SpeakingFlowController';
-import { PatternTrainingFlow } from '@/components/PatternTrainingFlow';
+// import { PatternTrainingFlow } from '@/components/PatternTrainingFlow';\n// TODO: Migrate to new modularized PatternTrainingPageV3 system\nimport { PatternTrainingFlowFinal } from '@/components/PatternTrainingFlowFinal';
 import { FeedbackPanel } from '@/components/FeedbackPanel';
 import { WritingModeInput } from '@/components/WritingModeInput';
 import { WritingModeFeedback } from '@/components/WritingModeFeedback';
 import { useSpeech } from '@/hooks/useSpeech';
 import { api } from '@/lib/api';
-import { srsService } from '@/services/srsService';
+// import { srsService } from '@/services/srsService';
+// TODO: Migrate to new SRS Engine system
+import { useSRSEngine } from '@/hooks/useSRSEngine';
 import { useAuthService } from '@/services/authService';
 import type { DrillCard, FeedbackResponse } from '@/types';
 import type { WritingFeedback } from '@/services/writingMode';
@@ -704,7 +706,7 @@ export const StudyPage: React.FC = memo(() => {
             </div>
           ) : (
             <div className="bg-white rounded-lg shadow-lg p-8">
-              <PatternTrainingFlow
+              <PatternTrainingFlowFinal
                 koreanText={study.currentCard.front_ko}
                 expectedEnglish={study.currentCard.target_en}
                 onResult={handlePatternTrainingResult}

@@ -15,6 +15,8 @@ import type {
 import type { FlowCallbacks as StateMachineCallbacks } from '@/state/types';
 
 export class MockServiceContainer {
+  private services: Map<string, any> = new Map();
+  private adapters: any = null;
   private mockStateMachine: MockAudioFlowStateMachine;
   private mockSpeechService: MockSpeechProcessingService;
   private mockScoreService: MockScoreCalculationService;
@@ -25,6 +27,10 @@ export class MockServiceContainer {
     this.mockStateMachine = new MockAudioFlowStateMachine();
     this.mockSpeechService = new MockSpeechProcessingService();
     this.mockScoreService = new MockScoreCalculationService();
+    
+    // 서비스들을 Map에 등록 (실제 ServiceContainer와 호환성 유지)
+    this.services.set('speechProcessing', this.mockSpeechService);
+    this.services.set('scoreCalculation', this.mockScoreService);
   }
 
   /**
@@ -61,6 +67,42 @@ export class MockServiceContainer {
   }
 
   /**
+   * 서비스 초기화 (실제 ServiceContainer 호환)
+   */
+  initializeServices(): void {
+    console.log('[MockServiceContainer] Services initialized');
+  }
+
+  /**
+   * ScoreCalculationService 등록 (실제 ServiceContainer 호환)
+   */
+  registerScoreCalculationService(): void {
+    this.services.set('scoreCalculation', this.mockScoreService);
+  }
+
+  /**
+   * SpeechProcessingService 등록 (실제 ServiceContainer 호환)
+   */
+  registerSpeechProcessingService(): void {
+    this.services.set('speechProcessing', this.mockSpeechService);
+  }
+
+  /**
+   * AudioFlowOrchestrator 생성 (실제 ServiceContainer 호환)
+   */
+  createAudioFlowOrchestrator(_callbacks: any, _options?: any): any {
+    return {
+      startFlow: jest.fn(),
+      pauseFlow: jest.fn(),
+      resumeFlow: jest.fn(),
+      stopFlow: jest.fn(),
+      playAnswerAndNext: jest.fn(),
+      getStatus: jest.fn(() => ({ state: 'idle' })),
+      cleanup: jest.fn()
+    };
+  }
+
+  /**
    * Mock 설정 반환
    */
   getConfiguration(): ServiceConfiguration {
@@ -77,8 +119,46 @@ export class MockServiceContainer {
   /**
    * Mock 서비스 등록
    */
-  registerService<T>(serviceName: string, service: T): void {
+  registerService<T>(serviceName: string, _service: T): void {
     console.log(`[MockServiceContainer] Registering mock service: ${serviceName}`);
+  }
+
+  /**
+   * 어댑터 반환 (실제 ServiceContainer 호환)
+   */
+  getAdapters(): any {
+    return this.adapters || {};
+  }
+
+  /**
+   * 설정 업데이트 (실제 ServiceContainer 호환)
+   */
+  updateConfiguration(config: Partial<ServiceConfiguration>): void {
+    this.configuration = { ...this.configuration, ...config };
+  }
+
+  /**
+   * 서비스 재초기화 (실제 ServiceContainer 호환)
+   */
+  reinitializeServices(): void {
+    console.log('[MockServiceContainer] Reinitializing services');
+  }
+
+  /**
+   * 서비스 상태 반환 (실제 ServiceContainer 호환)
+   */
+  getServicesStatus(): any {
+    return {
+      speechProcessing: 'active',
+      scoreCalculation: 'active'
+    };
+  }
+
+  /**
+   * 의존성 검증 (실제 ServiceContainer 호환)
+   */
+  validateDependencies(): boolean {
+    return true;
   }
 
   /**

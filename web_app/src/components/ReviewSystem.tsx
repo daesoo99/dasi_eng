@@ -1,5 +1,5 @@
 import React, { useState, memo, useCallback } from 'react';
-import { useSpacedRepetition } from '@/hooks/useSpacedRepetition';
+import { useSRSEngine } from '@/hooks/useSRSEngine';
 import { QuestionItem } from '@/data/patternData';
 
 export interface ReviewSystemProps {
@@ -7,23 +7,50 @@ export interface ReviewSystemProps {
 }
 
 export const ReviewSystem: React.FC<ReviewSystemProps> = memo(({ className = '' }) => {
-  const {
-    dueReviews,
-    mistakeCount,
-    reviewCount,
-    masteredCount,
-    getReviewQuestions,
-    debugPrint
-  } = useSpacedRepetition();
+  // 🔧 새 SRS 시스템 사용
+  const srsEngine = useSRSEngine({ userId: 'current-user' });
+
+  // 레거시 API와의 호환성을 위한 어댑터 로직
+  const dueReviews = srsEngine.cards.filter(card => card.isDue);
+  const mistakeCount = srsEngine.stats.totalReviews - srsEngine.stats.correctReviews;
+  const reviewCount = srsEngine.stats.totalReviews;
+  const masteredCount = srsEngine.cards.filter(card => card.memory.interval > 14).length;
 
   const [selectedMode, setSelectedMode] = useState<'all' | 'pattern' | 'weak-patterns'>('all');
   const [selectedPattern, setSelectedPattern] = useState<string>('');
   const [reviewQuestions, setReviewQuestions] = useState<QuestionItem[]>([]);
 
-  // Get unique patterns from mistakes
+  // 🔧 새 SRS 시스템과 호환되도록 어댑터 구현
   const availablePatterns = Array.from(new Set(
-    dueReviews.map(review => review.pattern)
+    dueReviews.map(review => review.content.korean || '기본 패턴')
   )).sort();
+
+  const getReviewQuestions = useCallback((mode: string, pattern?: string): QuestionItem[] => {
+    // 새 SRS 시스템에서 복습 카드를 QuestionItem 형태로 변환
+    const filteredCards = srsEngine.cards.filter(card => {
+      if (!card.isDue) return false;
+
+      if (mode === 'pattern' && pattern) {
+        return card.content.korean?.includes(pattern) || card.content.english?.includes(pattern);
+      }
+      if (mode === 'weak-patterns') {
+        return card.memory.easeFactor < 2.0; // 어려운 카드만
+      }
+      return true; // 'all' mode
+    });
+
+    // ReviewCard를 QuestionItem으로 변환
+    return filteredCards.map(card => ({
+      id: card.id,
+      korean: card.content.korean || '',
+      english: card.content.english || '',
+      level: card.content.level || 1,
+      stage: 1, // 기본값
+      pattern: card.content.korean || '기본 패턴',
+      verb: '',
+      timestamp: Date.now()
+    }));
+  }, [srsEngine.cards]);
 
   const handleStartReview = useCallback(() => {
     const questions = getReviewQuestions(selectedMode, selectedPattern);
@@ -263,7 +290,7 @@ export const ReviewSystem: React.FC<ReviewSystemProps> = memo(({ className = '' 
             </h4>
           </div>
           <div className="max-h-64 overflow-y-auto">
-            {dueReviews.slice(0, 10).map((review, index) => (
+            {dueReviews.slice(0, 10).map((review, _index) => (
               <div key={review.id} className="px-6 py-4 border-b border-gray-100 last:border-b-0 hover:bg-gradient-to-r hover:from-gray-50 hover:to-blue-50 transition-all duration-200">
                 <div className="flex justify-between items-start">
                   <div className="flex-1">
@@ -300,7 +327,7 @@ export const ReviewSystem: React.FC<ReviewSystemProps> = memo(({ className = '' 
       {process.env.NODE_ENV === 'development' && (
         <div className="mt-6">
           <button
-            onClick={debugPrint}
+            onClick={() => console.log('SRS Engine Debug:', srsEngine)}
             className="px-4 py-2 bg-gradient-to-r from-gray-600 to-gray-700 text-white rounded-lg hover:from-gray-700 hover:to-gray-800 transition-all duration-200 text-sm shadow-md hover:shadow-lg transform hover:scale-105"
             aria-label="개발용 디버그 정보 출력"
           >

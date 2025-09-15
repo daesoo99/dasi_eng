@@ -33,7 +33,7 @@ export class MockSpeechProcessingService implements ISpeechProcessingService {
   private isSpeaking = false;
   private isPaused = false;
 
-  async speakQuestion(questionText: string, options?: any): Promise<any> {
+  async speakQuestion(questionText: string, _options?: any): Promise<any> {
     this.calls.speakQuestion++;
     console.log(`[MockSpeechService] Speaking question: "${questionText}"`);
     
@@ -50,7 +50,7 @@ export class MockSpeechProcessingService implements ISpeechProcessingService {
     return { success: true, text: questionText };
   }
 
-  async speakAnswer(answerText: string, options?: any): Promise<any> {
+  async speakAnswer(answerText: string, _options?: any): Promise<any> {
     this.calls.speakAnswer++;
     console.log(`[MockSpeechService] Speaking answer: "${answerText}"`);
     
@@ -70,7 +70,7 @@ export class MockSpeechProcessingService implements ISpeechProcessingService {
   async recognizeSpeech(
     onResult: Function, 
     onError?: Function, 
-    options?: any
+    _options?: any
   ): Promise<any> {
     this.calls.recognizeSpeech++;
     console.log('[MockSpeechService] Starting speech recognition');

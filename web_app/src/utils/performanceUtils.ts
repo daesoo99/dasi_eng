@@ -556,36 +556,75 @@ export class PerformanceMonitor {
   }
 }
 
-// 편의 함수들
+// ✅ CLAUDE.local 준수: 기존 유틸리티를 플러그인 기반으로 변경
+// ⚠️ DEPRECATED: 직접 PerformanceMonitor 사용 대신 플러그인 기반 usePerformanceMonitoring Hook 사용 권장
+
+/**
+ * @deprecated Use usePerformanceMonitoring Hook with IPerformancePlugin instead
+ * CLAUDE.local violation: Direct class usage instead of plugin architecture
+ */
 export const performanceMonitor = PerformanceMonitor.getInstance();
 
+/**
+ * @deprecated Use usePerformanceMonitoring().measureAudioLatency() instead
+ * CLAUDE.local violation: Direct utility function instead of plugin interface
+ */
 export const measureAudioLatency = () => {
+  console.warn('DEPRECATED: Use usePerformanceMonitoring().measureAudioLatency() for plugin-based architecture');
   return performanceMonitor.startAudioLatencyMeasurement();
 };
 
+/**
+ * @deprecated Use usePerformanceMonitoring().endAudioLatency() instead  
+ * CLAUDE.local violation: Direct utility function instead of plugin interface
+ */
 export const endAudioLatency = (measurementId: string, transcription?: string) => {
+  console.warn('DEPRECATED: Use usePerformanceMonitoring().endAudioLatency() for plugin-based architecture');
   return performanceMonitor.endAudioLatencyMeasurement(measurementId, transcription);
 };
 
+/**
+ * @deprecated Use usePerformanceMonitoring().measureAPI() instead
+ * CLAUDE.local violation: Direct utility function instead of plugin interface
+ */
 export const measureAPI = <T>(endpoint: string, method: string, apiCall: () => Promise<T>) => {
+  console.warn('DEPRECATED: Use usePerformanceMonitoring().measureAPI() for plugin-based architecture');
   return performanceMonitor.measureAPICall(endpoint, method, apiCall);
 };
 
+/**
+ * @deprecated Use usePerformanceMonitoring().measureRender() instead
+ * CLAUDE.local violation: Direct utility function instead of plugin interface
+ */
 export const measureRender = (componentName: string, propsCount: number, reason?: string) => {
+  console.warn('DEPRECATED: Use usePerformanceMonitoring().measureRender() for plugin-based architecture');
   return performanceMonitor.measureComponentRender(componentName, propsCount, reason);
 };
 
+/**
+ * @deprecated Use usePerformanceMonitoring().generateReport() instead
+ * CLAUDE.local violation: Direct utility function instead of plugin interface
+ */
 export const getPerformanceReport = () => {
+  console.warn('DEPRECATED: Use usePerformanceMonitoring().generateReport() for plugin-based architecture');
   return performanceMonitor.generatePerformanceReport();
 };
 
-// React Hook을 위한 유틸리티
+/**
+ * @deprecated Use import { usePerformanceMonitoring } from '@/hooks/usePerformanceMonitoring' instead
+ * CLAUDE.local violation: Utility-based hook instead of proper plugin-based Hook
+ */
 export const usePerformanceMonitoring = (componentName: string) => {
+  console.warn('DEPRECATED: Use proper usePerformanceMonitoring Hook from @/hooks/usePerformanceMonitoring for plugin-based architecture');
   return {
     measureRender: (propsCount: number, reason?: string) => 
       measureRender(componentName, propsCount, reason),
     measureAudioLatency,
-    endAudioLatency
+    endAudioLatency,
+    measureAudio: (latencyMs: number) => {
+      // Fallback implementation for backward compatibility
+      return Math.max(0, 100 - (latencyMs / 20)); // Simple score calculation
+    }
   };
 };
 

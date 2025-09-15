@@ -90,44 +90,40 @@ export const SpeakingFlowController: React.FC<SpeakingFlowControllerProps> = ({
     setIsCompleted(false);
     
     try {
-      // 1. 한국어 TTS 재생
-      console.log('🔊 TTS 재생 시작:', card.front_ko);
-      
-      if ('speechSynthesis' in window) {
+      // 🔧 플러그인을 통한 한국어 TTS 재생
+      console.log('🔊 TTS 재생 시작 (플러그인):', card.front_ko);
+
+      try {
+        const ServiceContainer = (await import('@/container/ServiceContainer')).default;
+        const container = ServiceContainer.getInstanceSync();
+        const speechService = container.getSpeechProcessingService();
+
         // 기존 TTS 중지
-        speechSynthesis.cancel();
-        
-        const utterance = new SpeechSynthesisUtterance(card.front_ko);
-        utterance.lang = 'ko-KR';
-        utterance.rate = 0.8;
-        
-        utterance.onstart = () => {
-          console.log('🔊 TTS 시작됨:', card.front_ko);
-        };
-        
-        utterance.onend = () => {
-          console.log('🔊 TTS 완료됨:', card.front_ko);
-          setTimeout(() => {
-            if (!isCompleted) startCountdown();
-          }, 1000);
-        };
-        
-        utterance.onerror = (event) => {
-          console.error('🔊 TTS 오류:', event);
-          setTimeout(() => {
-            if (!isCompleted) startCountdown();
-          }, 2000);
-        };
-        
-        speechSynthesis.speak(utterance);
-      } else {
-        // TTS가 없으면 2초 후 카운트다운 시작
+        speechService.stopAllSpeech();
+
+        console.log('🔊 TTS 시작됨 (플러그인):', card.front_ko);
+
+        await speechService.speakAnswer(card.front_ko, {
+          language: 'ko-KR',
+          rate: 0.8,
+          volume: 1.0,
+          pitch: 1.0
+        });
+
+        console.log('🔊 TTS 완료됨 (플러그인):', card.front_ko);
+        setTimeout(() => {
+          if (!isCompleted) startCountdown();
+        }, 1000);
+
+      } catch (speechError) {
+        console.error('🔊 TTS 플러그인 오류:', speechError);
+        // 플러그인 실패시 카운트다운 시작
         setTimeout(() => {
           if (!isCompleted) startCountdown();
         }, 2000);
       }
     } catch (error) {
-      console.error('TTS 오류:', error);
+      console.error('🔧 TTS 시스템 오류:', error);
       if (onError) {
         onError('음성 재생에 실패했습니다.');
       }

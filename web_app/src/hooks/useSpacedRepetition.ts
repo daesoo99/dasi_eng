@@ -14,8 +14,16 @@ import { useSRSEngine } from './useSRSEngine';
 import { ReviewCard } from '@/services/srs/SRSEngine';
 
 /**
- * @deprecated 이 훅은 레거시입니다. 새 프로젝트에서는 useSRSEngine.ts를 사용하세요.
- * 기존 호환성을 위해 SSOT SRS 시스템의 어댑터로 작동합니다.
+ * @deprecated 이 훅은 완전히 레거시입니다.
+ * ⚠️  더 이상 사용하지 마세요.
+ * ✅  대신 useSRSEngine.ts를 사용하세요.
+ *
+ * 마이그레이션 가이드:
+ * 1. import { useSpacedRepetition } → import { useSRSEngine }
+ * 2. const { dueReviews } = useSpacedRepetition() → const srs = useSRSEngine({ userId })
+ * 3. srs.cards.filter(card => card.isDue) 사용
+ *
+ * 2025-01-12: 이 파일은 다음 버전에서 제거될 예정입니다.
  */
 
 // 망각곡선 복습 간격 (밀리초)

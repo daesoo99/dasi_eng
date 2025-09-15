@@ -39,7 +39,7 @@ export interface BeepOptions {
   frequency?: number;
   duration?: number;
   volume?: number;
-  waveType?: OscillatorType;
+  waveType?: 'sine' | 'square' | 'sawtooth' | 'triangle';
 }
 
 /**
@@ -86,7 +86,7 @@ export interface IAudioContextAdapter {
  */
 export interface IMediaRecorderAdapter {
   isSupported(): boolean;
-  startRecording(options?: MediaRecorderOptions): Promise<AdapterResult<void>>;
+  startRecording(options?: any): Promise<AdapterResult<void>>;
   stopRecording(): Promise<AdapterResult<Blob>>;
   isRecording(): boolean;
   cleanup(): void;

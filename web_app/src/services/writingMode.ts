@@ -117,7 +117,7 @@ class WritingModeService {
   /**
    * 문법 오류 검출 (룰 기반 + AI 보조)
    */
-  private async detectGrammarErrors(userInput: string, targetAnswer: string): Promise<GrammarError[]> {
+  private async detectGrammarErrors(userInput: string, _targetAnswer: string): Promise<GrammarError[]> {
     const errors: GrammarError[] = [];
     
     // 기본적인 문법 룰 체크
@@ -194,7 +194,7 @@ class WritingModeService {
     
     const words = userInput.toLowerCase().match(/\b\w+\b/g) || [];
     
-    words.forEach((word, index) => {
+    words.forEach((word, _index) => {
       if (commonMisspellings[word]) {
         const start = userInput.toLowerCase().indexOf(word);
         const end = start + word.length;

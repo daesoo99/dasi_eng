@@ -36,7 +36,29 @@ export class ModularSRSEngine implements ISRSEngine {
 
   updateConfig(config: Partial<SRSConfig>): void {
     // 설정 업데이트 로직
-    // configProvider를 통해 변경사항 저장
+    console.log('Updating SRS config:', config);
+    
+    try {
+      // configProvider를 통해 변경사항 저장
+      this.configProvider.updateConfig(config);
+      
+      // 설정 변경 이벤트 발생
+      this.emitEvent({
+        type: 'config_updated',
+        timestamp: new Date(),
+        data: { updatedFields: Object.keys(config), config }
+      });
+      
+      console.log('✅ SRS config updated successfully');
+    } catch (error) {
+      console.error('❌ Failed to update SRS config:', error);
+      this.emitEvent({
+        type: 'config_update_failed', 
+        timestamp: new Date(),
+        data: { error: error.message, attemptedConfig: config }
+      });
+      throw error;
+    }
   }
 
   // ============= 카드 생명주기 =============
@@ -98,6 +120,27 @@ export class ModularSRSEngine implements ISRSEngine {
       timeSinceLastReview
     );
 
+    // config를 활용한 추가 검증 및 조정
+    let adjustedInterval = newInterval;
+    if (config.minInterval && newInterval < config.minInterval) {
+      adjustedInterval = config.minInterval;
+      console.log(`Adjusted interval from ${newInterval} to ${adjustedInterval} (min constraint)`);
+    }
+    if (config.maxInterval && newInterval > config.maxInterval) {
+      adjustedInterval = config.maxInterval;
+      console.log(`Adjusted interval from ${newInterval} to ${adjustedInterval} (max constraint)`);
+    }
+
+    // timeSinceLastReview를 활용한 지연 패널티 적용
+    const expectedReviewTime = card.memory.interval * 24 * 60 * 60 * 1000; // 밀리초 변환
+    const reviewDelayRatio = timeSinceLastReview / expectedReviewTime;
+    
+    if (reviewDelayRatio > 1.5) { // 예정보다 50% 이상 늦게 복습
+      const delayPenalty = Math.min(reviewDelayRatio - 1, 0.3); // 최대 30% 패널티
+      adjustedInterval = Math.round(adjustedInterval * (1 - delayPenalty));
+      console.log(`Applied delay penalty: ${(delayPenalty * 100).toFixed(1)}%, interval adjusted to ${adjustedInterval}`);
+    }
+
     // 성능 히스토리 업데이트
     const updatedCard: ReviewCard = {
       ...card,
@@ -105,10 +148,10 @@ export class ModularSRSEngine implements ISRSEngine {
         ...card.memory,
         strength: newStrength,
         easeFactor: newEaseFactor,
-        interval: newInterval,
+        interval: adjustedInterval, // config와 지연 패널티가 적용된 간격 사용
         reviewCount: card.memory.reviewCount + 1,
         lastReviewed: session.timestamp,
-        nextReview: new Date(session.timestamp.getTime() + newInterval * 24 * 60 * 60 * 1000)
+        nextReview: new Date(session.timestamp.getTime() + adjustedInterval * 24 * 60 * 60 * 1000)
       },
       performance: {
         accuracy: [...card.performance.accuracy.slice(-9), session.isCorrect ? 1 : 0],

@@ -8,8 +8,12 @@ import { SpeechProcessingService } from '@/services/SpeechProcessingService';
 import { AudioFlowOrchestrator } from '@/services/AudioFlowOrchestrator';
 import { ScoreCalculationService } from '@/services/ScoreCalculationService';
 import { AudioFlowStateMachine } from '@/state/AudioFlowStateMachine';
+import { PerformancePluginFactory } from '@/plugins/performance/PerformancePluginFactory';
+import { AdvancedSpeechPlugin } from '@/plugins/simple/AdvancedSpeechPlugin';
 import type { FlowCallbacks, FlowOptions } from '@/services/AudioFlowOrchestrator';
 import type { FlowCallbacks as StateMachineCallbacks } from '@/state/types';
+import type { IPerformancePlugin, PerformancePluginConfig } from '@/plugins/performance/IPerformancePlugin';
+import type { IAdvancedSpeechPlugin } from '@/plugins/simple/AdvancedPluginSystem';
 
 // 서비스 인터페이스 정의
 export interface ISpeechProcessingService {
@@ -63,6 +67,7 @@ export interface ServiceConfiguration {
     confidenceThreshold?: number;
   };
   flowOptions?: FlowOptions;
+  performanceOptions?: PerformancePluginConfig;
   environment?: 'development' | 'production' | 'test';
 }
 
@@ -71,6 +76,8 @@ export class ServiceContainer {
   private static instance: ServiceContainer | null = null;
   private services: Map<string, any> = new Map();
   private adapters: AudioAdapters | null = null;
+  private performancePlugin: IPerformancePlugin | null = null;
+  private advancedSpeechPlugin: IAdvancedSpeechPlugin | null = null;
   private configuration: ServiceConfiguration;
 
   private constructor(config: ServiceConfiguration = {}) {
@@ -86,16 +93,42 @@ export class ServiceContainer {
         recordingDuration: 10,
         ...config.flowOptions
       },
+      performanceOptions: {
+        enableAudioTracking: true,
+        enableAPITracking: true,
+        enableRenderTracking: true,
+        enableMemoryTracking: true,
+        maxMetricsCount: 1000,
+        latencyThresholds: {
+          audio: 2000,
+          api: 5000,
+          render: 16
+        },
+        memoryWarningThreshold: 0.8,
+        ...config.performanceOptions
+      },
       environment: config.environment || 'development'
     };
 
-    this.initializeServices();
+    // 비동기 초기화는 getInstance에서 처리
+    this.initializeServicesSync();
   }
 
   /**
    * 싱글톤 인스턴스 반환
    */
-  public static getInstance(config?: ServiceConfiguration): ServiceContainer {
+  public static async getInstance(config?: ServiceConfiguration): Promise<ServiceContainer> {
+    if (!ServiceContainer.instance) {
+      ServiceContainer.instance = new ServiceContainer(config);
+      await ServiceContainer.instance.initializeAsyncServices();
+    }
+    return ServiceContainer.instance;
+  }
+
+  /**
+   * 동기 싱글톤 인스턴스 반환 (Performance Plugin 제외)
+   */
+  public static getInstanceSync(config?: ServiceConfiguration): ServiceContainer {
     if (!ServiceContainer.instance) {
       ServiceContainer.instance = new ServiceContainer(config);
     }
@@ -110,9 +143,9 @@ export class ServiceContainer {
   }
 
   /**
-   * 서비스들 초기화
+   * 동기 서비스들 초기화
    */
-  private initializeServices(): void {
+  private initializeServicesSync(): void {
     try {
       // 어댑터 초기화
       this.adapters = AdapterFactory.createAdaptersForEnvironment(
@@ -123,9 +156,23 @@ export class ServiceContainer {
       this.registerScoreCalculationService();
       this.registerSpeechProcessingService();
 
-      console.log('[ServiceContainer] Services initialized successfully');
+      console.log('[ServiceContainer] Sync services initialized successfully');
     } catch (error) {
-      console.error('[ServiceContainer] Failed to initialize services:', error);
+      console.error('[ServiceContainer] Failed to initialize sync services:', error);
+      throw error;
+    }
+  }
+
+  /**
+   * 비동기 서비스들 초기화 (Performance Plugin, Advanced Speech Plugin)
+   */
+  private async initializeAsyncServices(): Promise<void> {
+    try {
+      await this.registerPerformancePlugin();
+      await this.registerAdvancedSpeechPlugin();
+      console.log('[ServiceContainer] Async services initialized successfully');
+    } catch (error) {
+      console.error('[ServiceContainer] Failed to initialize async services:', error);
       throw error;
     }
   }
@@ -153,6 +200,49 @@ export class ServiceContainer {
     );
 
     this.services.set('speechProcessing', speechService);
+  }
+
+  /**
+   * PerformancePlugin 등록 (비동기)
+   */
+  private async registerPerformancePlugin(): Promise<void> {
+    try {
+      const factory = new PerformancePluginFactory();
+      const pluginResult = await factory.create(this.configuration.performanceOptions);
+      
+      if (pluginResult.success && pluginResult.data) {
+        this.performancePlugin = pluginResult.data;
+        this.services.set('performance', this.performancePlugin);
+        console.log('[ServiceContainer] Performance plugin registered successfully');
+      } else {
+        console.warn('[ServiceContainer] Failed to create performance plugin:', pluginResult.error);
+      }
+    } catch (error) {
+      console.error('[ServiceContainer] Error registering performance plugin:', error);
+    }
+  }
+
+  /**
+   * AdvancedSpeechPlugin 등록 (비동기)
+   */
+  private async registerAdvancedSpeechPlugin(): Promise<void> {
+    try {
+      const plugin = new AdvancedSpeechPlugin();
+      const initResult = await plugin.initialize({
+        maxConcurrency: 3,
+        queuePolicy: 'priority'
+      });
+      
+      if (initResult.success) {
+        this.advancedSpeechPlugin = plugin;
+        this.services.set('advancedSpeech', plugin);
+        console.log('[ServiceContainer] Advanced speech plugin registered successfully');
+      } else {
+        console.warn('[ServiceContainer] Failed to initialize advanced speech plugin:', initResult.error);
+      }
+    } catch (error) {
+      console.error('[ServiceContainer] Error registering advanced speech plugin:', error);
+    }
   }
 
   /**
@@ -218,6 +308,50 @@ export class ServiceContainer {
   }
 
   /**
+   * PerformancePlugin 반환
+   */
+  public getPerformancePlugin(): IPerformancePlugin | null {
+    return this.performancePlugin;
+  }
+
+  /**
+   * AdvancedSpeechPlugin 반환
+   */
+  public getAdvancedSpeechPlugin(): IAdvancedSpeechPlugin | null {
+    return this.advancedSpeechPlugin;
+  }
+
+  /**
+   * PerformancePlugin이 초기화되었는지 확인
+   */
+  public async ensurePerformancePlugin(): Promise<IPerformancePlugin> {
+    if (!this.performancePlugin) {
+      await this.initializeAsyncServices();
+    }
+    
+    if (!this.performancePlugin) {
+      throw new Error('PerformancePlugin initialization failed');
+    }
+    
+    return this.performancePlugin;
+  }
+
+  /**
+   * AdvancedSpeechPlugin이 초기화되었는지 확인
+   */
+  public async ensureAdvancedSpeechPlugin(): Promise<IAdvancedSpeechPlugin> {
+    if (!this.advancedSpeechPlugin) {
+      await this.initializeAsyncServices();
+    }
+    
+    if (!this.advancedSpeechPlugin) {
+      throw new Error('AdvancedSpeechPlugin initialization failed');
+    }
+    
+    return this.advancedSpeechPlugin;
+  }
+
+  /**
    * 어댑터들 반환
    */
   public getAdapters(): AudioAdapters {
@@ -260,6 +394,11 @@ export class ServiceContainer {
 
     // 설정 변경 시 관련 서비스들 다시 초기화
     this.reinitializeServices();
+    
+    // Performance Plugin도 재초기화
+    if (config.performanceOptions) {
+      this.reinitializePerformancePlugin();
+    }
   }
 
   /**
@@ -277,6 +416,29 @@ export class ServiceContainer {
   }
 
   /**
+   * Performance Plugin 재초기화
+   */
+  private async reinitializePerformancePlugin(): Promise<void> {
+    try {
+      // 기존 Performance Plugin 정리
+      if (this.performancePlugin) {
+        if (typeof this.performancePlugin.cleanup === 'function') {
+          this.performancePlugin.cleanup();
+        }
+        this.performancePlugin = null;
+        this.services.delete('performance');
+      }
+      
+      // 새로운 Performance Plugin 생성
+      await this.registerPerformancePlugin();
+      
+      console.log('[ServiceContainer] Performance plugin reinitialized with new configuration');
+    } catch (error) {
+      console.error('[ServiceContainer] Failed to reinitialize performance plugin:', error);
+    }
+  }
+
+  /**
    * 현재 설정 반환
    */
   public getConfiguration(): ServiceConfiguration {
@@ -289,12 +451,16 @@ export class ServiceContainer {
   public getServicesStatus(): {
     scoreCalculation: boolean;
     speechProcessing: boolean;
+    performancePlugin: boolean;
+    advancedSpeechPlugin: boolean;
     adapters: boolean;
     totalServices: number;
   } {
     return {
       scoreCalculation: this.hasService('scoreCalculation'),
       speechProcessing: this.hasService('speechProcessing'),
+      performancePlugin: this.hasService('performance'),
+      advancedSpeechPlugin: this.hasService('advancedSpeech'),
       adapters: this.adapters !== null,
       totalServices: this.services.size
     };
@@ -303,7 +469,7 @@ export class ServiceContainer {
   /**
    * 컨테이너 정리
    */
-  public cleanup(): void {
+  public async cleanup(): Promise<void> {
     console.log('[ServiceContainer] Cleaning up services...');
 
     // 각 서비스의 cleanup 호출
@@ -316,6 +482,30 @@ export class ServiceContainer {
         console.warn(`[ServiceContainer] Failed to cleanup service ${name}:`, error);
       }
     });
+
+    // Performance Plugin 정리
+    if (this.performancePlugin) {
+      try {
+        if (typeof this.performancePlugin.cleanup === 'function') {
+          this.performancePlugin.cleanup();
+        }
+      } catch (error) {
+        console.warn('[ServiceContainer] Failed to cleanup performance plugin:', error);
+      }
+      this.performancePlugin = null;
+    }
+
+    // Advanced Speech Plugin 정리
+    if (this.advancedSpeechPlugin) {
+      try {
+        if (typeof this.advancedSpeechPlugin.dispose === 'function') {
+          await this.advancedSpeechPlugin.dispose();
+        }
+      } catch (error) {
+        console.warn('[ServiceContainer] Failed to cleanup advanced speech plugin:', error);
+      }
+      this.advancedSpeechPlugin = null;
+    }
 
     // 어댑터 정리
     if (this.adapters) {
@@ -332,9 +522,9 @@ export class ServiceContainer {
   /**
    * 싱글톤 인스턴스 재설정 (테스트용)
    */
-  public static resetInstance(): void {
+  public static async resetInstance(): Promise<void> {
     if (ServiceContainer.instance) {
-      ServiceContainer.instance.cleanup();
+      await ServiceContainer.instance.cleanup();
       ServiceContainer.instance = null;
     }
   }
@@ -386,8 +576,11 @@ export class ServiceContainer {
 }
 
 // 편의 함수들
-export const getServiceContainer = (config?: ServiceConfiguration) => 
-  ServiceContainer.getInstance(config);
+export const getServiceContainer = async (config?: ServiceConfiguration) => 
+  await ServiceContainer.getInstance(config);
+
+export const getServiceContainerSync = (config?: ServiceConfiguration) =>
+  ServiceContainer.getInstanceSync(config);
 
 export const createTestServiceContainer = (config?: ServiceConfiguration) =>
   ServiceContainer.createTestInstance(config);

@@ -9,6 +9,22 @@ export interface AnswerComparisonResult {
   normalizedUser: string;
   normalizedCorrect: string;
   feedback: string;
+  score?: number;
+  normalizedScore?: number;
+  qualityAssessment?: 'high' | 'medium' | 'low';
+  normalizationEffect?: {
+    originalScore: number;
+    normalizedScore: number;
+    improvement: number;
+    userInput: {
+      original: string;
+      normalized: string;
+    };
+    correctAnswer: {
+      original: string;
+      normalized: string;
+    };
+  };
 }
 
 /**
@@ -147,6 +163,7 @@ export function compareAnswers(
   return {
     isCorrect,
     similarity,
+    score: similarity, // similarity를 score로도 사용
     normalizedUser,
     normalizedCorrect,
     feedback
@@ -196,25 +213,67 @@ export function evaluateAnswer(
   // 기본 비교 수행
   const result = compareAnswers(userAnswer, correctAnswer);
   
-  // 최종 정답 여부 재평가
-  const isCorrect = result.similarity >= finalThreshold;
+  // 정규화된 답변으로 추가 분석 수행
+  const normalizedComparison = compareAnswers(normalizedUser, normalizedCorrect);
   
-  // 레벨/모드별 맞춤 피드백
+  // 정규화 효과 분석 - 정규화 전후 점수 차이로 답변 품질 평가
+  const normalizationImprovement = normalizedComparison.score - result.score;
+  const answerQuality = normalizationImprovement < 0.1 ? 'high' : normalizationImprovement < 0.3 ? 'medium' : 'low';
+  
+  // 향상된 결과 구성
+  const enhancedResult: AnswerComparisonResult = {
+    ...result,
+    score: Math.max(result.score, normalizedComparison.score), // 더 높은 점수 사용
+    normalizedScore: normalizedComparison.score,
+    qualityAssessment: answerQuality,
+    normalizationEffect: {
+      originalScore: result.score,
+      normalizedScore: normalizedComparison.score,
+      improvement: normalizationImprovement,
+      userInput: {
+        original: userAnswer,
+        normalized: normalizedUser
+      },
+      correctAnswer: {
+        original: correctAnswer,
+        normalized: normalizedCorrect
+      }
+    }
+  };
+  
+  // enhancedResult를 기반으로 최종 정답 여부 재평가
+  const isCorrect = enhancedResult.score >= finalThreshold;
+  
+  // 레벨/모드별 맞춤 피드백 (정규화 효과 포함)
   let feedback = '';
   if (isCorrect) {
-    if (result.similarity === 1.0) {
+    if (enhancedResult.score === 1.0) {
       feedback = level >= 7 ? '🏆 완벽한 발음입니다!' : '🎉 완벽합니다!';
     } else {
-      feedback = mode === 'speed' ? '⚡ 빠르고 정확해요!' : '✅ 잘했습니다!';
+      const qualityEmoji = answerQuality === 'high' ? '✨' : answerQuality === 'medium' ? '⚡' : '💪';
+      feedback = mode === 'speed' ? `${qualityEmoji} 빠르고 정확해요!` : `${qualityEmoji} 잘했습니다!`;
     }
-  } else if (result.similarity > finalThreshold - 0.1) {
-    feedback = `🔶 아쉬워요! (${Math.round(result.similarity * 100)}%) 다시 도전해보세요.`;
+    
+    // 정규화로 인한 개선이 있었다면 추가 피드백
+    if (normalizationImprovement > 0.1) {
+      feedback += ` (자동 보정: +${Math.round(normalizationImprovement * 100)}%)`;
+    }
+  } else if (enhancedResult.score > finalThreshold - 0.1) {
+    feedback = `🔶 아쉬워요! (${Math.round(enhancedResult.score * 100)}%) 다시 도전해보세요.`;
+    
+    // 정규화된 점수가 더 높다면 힌트 제공
+    if (normalizedComparison.score > result.score + 0.1) {
+      feedback += ` 발음을 더 또렷하게 해보세요.`;
+    }
   } else {
     feedback = `❌ 정답: "${correctAnswer}"`;
+    if (answerQuality === 'low') {
+      feedback += ` (더 명확한 발음이 필요해요)`;
+    }
   }
   
   return {
-    ...result,
+    ...enhancedResult,
     isCorrect,
     feedback
   };

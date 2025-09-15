@@ -248,40 +248,39 @@ export const useResponsiveDesign = () => {
   }, []);
 
   /**
-   * Performance-optimized media query hook
+   * Performance-optimized media query utility (not a hook)
    */
-  const useMediaQuery = useCallback((query: string) => {
-    const [matches, setMatches] = useState(() => {
-      if (typeof window === 'undefined') return false;
-      return window.matchMedia(query).matches;
-    });
-
-    useEffect(() => {
-      const mediaQuery = window.matchMedia(query);
-      setMatches(mediaQuery.matches);
-
-      const handleChange = (e: MediaQueryListEvent) => {
-        setMatches(e.matches);
-      };
-
-      if (mediaQuery.addEventListener) {
-        mediaQuery.addEventListener('change', handleChange);
-        return () => mediaQuery.removeEventListener('change', handleChange);
-      }
-    }, [query]);
-
-    return matches;
+  const checkMediaQuery = useCallback((query: string) => {
+    if (typeof window === 'undefined') return false;
+    return window.matchMedia(query).matches;
   }, []);
 
-  /**
-   * Print styles detection
-   */
-  const isPrint = useMediaQuery('print');
+  // 미디어 쿼리들을 컴포넌트 내부에서 직접 사용
+  const [isPrint, setIsPrint] = useState(false);
+  const [prefersDarkMode, setPrefersDarkMode] = useState(false);
 
-  /**
-   * Dark mode detection
-   */
-  const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+
+    const printQuery = window.matchMedia('print');
+    const darkModeQuery = window.matchMedia('(prefers-color-scheme: dark)');
+
+    setIsPrint(printQuery.matches);
+    setPrefersDarkMode(darkModeQuery.matches);
+
+    const handlePrintChange = (e: MediaQueryListEvent) => setIsPrint(e.matches);
+    const handleDarkModeChange = (e: MediaQueryListEvent) => setPrefersDarkMode(e.matches);
+
+    if (printQuery.addEventListener) {
+      printQuery.addEventListener('change', handlePrintChange);
+      darkModeQuery.addEventListener('change', handleDarkModeChange);
+      
+      return () => {
+        printQuery.removeEventListener('change', handlePrintChange);
+        darkModeQuery.removeEventListener('change', handleDarkModeChange);
+      };
+    }
+  }, []);
 
   /**
    * High DPI display detection
@@ -314,7 +313,7 @@ export const useResponsiveDesign = () => {
     // Safe area support
     safeAreaInsets,
     
-    // Media query hook
-    useMediaQuery
+    // Media query utility
+    checkMediaQuery
   };
 };

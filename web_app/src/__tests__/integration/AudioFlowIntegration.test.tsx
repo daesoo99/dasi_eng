@@ -32,7 +32,7 @@ describe('AudioFlow Integration Tests', () => {
     onTimeout: mockOnTimeout,
     isActive: true,
     recordingDuration: 5,
-    serviceContainer: mockServiceContainer,
+    serviceContainer: mockServiceContainer as any,
   };
 
   beforeEach(() => {

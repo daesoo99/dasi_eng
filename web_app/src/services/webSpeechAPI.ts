@@ -1,4 +1,15 @@
-// 간단한 Web Speech API 래퍼
+/**
+ * 🔧 Web Speech API 래퍼 클래스
+ * 
+ * @description 
+ * 이 클래스는 플러그인 시스템의 구현체(Implementation Layer)로
+ * Direct Web API 호출이 허용됩니다.
+ * 
+ * @architecture_note
+ * - 이 파일에서 speechSynthesis.* 직접 호출은 정상적인 패턴입니다
+ * - 다른 컴포넌트/훅은 이 클래스나 ServiceContainer를 통해 사용해야 합니다
+ * - Direct Web API 호출 금지는 비즈니스 로직 레이어에만 적용됩니다
+ */
 export class SimpleWebSpeechAPI {
   /**
    * TTS 지원 확인

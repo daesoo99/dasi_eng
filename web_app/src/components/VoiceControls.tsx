@@ -22,22 +22,30 @@ export const VoiceControls: React.FC<VoiceControlsProps> = memo(({
   const [availableVoices, setAvailableVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [isExpanded, setIsExpanded] = useState(false);
 
-  // Load available voices
+  // 🔧 플러그인을 통한 음성 목록 로드
   useEffect(() => {
-    const loadVoices = () => {
-      const voices = window.speechSynthesis.getVoices();
-      setAvailableVoices(voices);
+    const loadVoices = async () => {
+      try {
+        const ServiceContainer = (await import('@/container/ServiceContainer')).default;
+        const container = ServiceContainer.getInstanceSync();
+        const speechService = container.getSpeechProcessingService();
+
+        // 플러그인이 getAvailableVoices를 지원하는지 확인
+        if (typeof speechService.getAvailableVoices === 'function') {
+          const voices = await speechService.getAvailableVoices();
+          setAvailableVoices(voices || []);
+        } else {
+          // fallback: 기본 음성 목록 설정
+          setAvailableVoices([]);
+          console.warn('🔧 Speech plugin does not support getAvailableVoices');
+        }
+      } catch (error) {
+        console.error('🔧 [VoiceControls] Failed to load voices:', error);
+        setAvailableVoices([]);
+      }
     };
 
-    // Load immediately if available
     loadVoices();
-
-    // Also listen for the voiceschanged event (Chrome needs this)
-    window.speechSynthesis.addEventListener('voiceschanged', loadVoices);
-
-    return () => {
-      window.speechSynthesis.removeEventListener('voiceschanged', loadVoices);
-    };
   }, []);
 
   // Filter voices by language
@@ -56,31 +64,25 @@ export const VoiceControls: React.FC<VoiceControlsProps> = memo(({
     onVoiceSettingsChange?.(updated);
   }, [voiceSettings, setVoiceSettings, onVoiceSettingsChange]);
 
-  // Test voice function
-  const testVoice = useCallback((text: string, lang: 'ko' | 'en') => {
-    if (!window.speechSynthesis) return;
+  // 🔧 플러그인을 통한 음성 테스트 함수
+  const testVoice = useCallback(async (text: string, lang: 'ko' | 'en') => {
+    try {
+      const ServiceContainer = (await import('@/container/ServiceContainer')).default;
+      const container = ServiceContainer.getInstanceSync();
+      const speechService = container.getSpeechProcessingService();
 
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.rate = voiceSettings.speed;
-    utterance.pitch = 1.0;
-    utterance.volume = 1.0;
+      await speechService.speakAnswer(text, {
+        language: lang === 'ko' ? 'ko-KR' : 'en-US',
+        rate: voiceSettings.speed,
+        volume: 1.0,
+        pitch: 1.0
+      });
 
-    if (lang === 'ko') {
-      utterance.lang = 'ko-KR';
-      if (voiceSettings.koreanVoice) {
-        const voice = availableVoices.find(v => v.name === voiceSettings.koreanVoice);
-        if (voice) utterance.voice = voice;
-      }
-    } else {
-      utterance.lang = 'en-US';
-      if (voiceSettings.englishVoice) {
-        const voice = availableVoices.find(v => v.name === voiceSettings.englishVoice);
-        if (voice) utterance.voice = voice;
-      }
+      console.log(`🔧 [VoiceControls] Voice test completed: ${lang}`);
+    } catch (error) {
+      console.error(`🔧 [VoiceControls] Voice test failed for ${lang}:`, error);
     }
-
-    window.speechSynthesis.speak(utterance);
-  }, [voiceSettings, availableVoices]);
+  }, [voiceSettings]);
 
   return (
     <div 

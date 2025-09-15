@@ -6,6 +6,7 @@ import { ErrorBoundary } from '@/components/ErrorBoundary';
 import { useAuth } from '@/hooks/useAuth';
 import UserProfile from '@/components/UserProfile';
 import AuthModal from '@/components/AuthModal';
+import PerformanceDashboard from '@/components/PerformanceDashboard';
 import { initializeAdvancedPluginSystem } from '@/plugins/simple/AdvancedIntegration';
 
 // Lazy load pages for better performance
@@ -25,15 +26,17 @@ const AudioV2TestPage = lazy(() => import('@/pages/AudioV2TestPage').then(m => (
 const SpeedModePage = lazy(() => import('@/pages/SpeedModePage'));
 const StageFocusPage = lazy(() => import('@/pages/StageFocusPage'));
 const AllModePage = lazy(() => import('@/pages/AllModePage').then(m => ({ default: m.AllModePage })));
-const PatternTrainingPage = lazy(() => import('@/pages/PatternTrainingPageV3').then(m => ({ default: m.default })));
+const PatternTrainingPage = lazy(() => import('@/pages/PatternTrainingPage'));
 const PatternTestPage = lazy(() => import('@/pages/PatternTestPage').then(m => ({ default: m.PatternTestPage })));
 const SituationalTrainingPage = lazy(() => import('@/pages/SituationalTrainingPage').then(m => ({ default: m.SituationalTrainingPage })));
 const SentenceServiceTest = lazy(() => import('@/components/SentenceServiceTest').then(m => ({ default: m.SentenceServiceTest })));
 const CurriculumDemo = lazy(() => import('@/services/curriculum/CurriculumDemo').then(m => ({ default: m.CurriculumDemo })));
+const AchievementsPage = lazy(() => import('@/pages/AchievementsPage'));
+const VocabularyPage = lazy(() => import('@/pages/VocabularyPage'));
 
 function App() {
   const { setUser } = useAppStore();
-  const { isLoading, isAuthenticated, user } = useAuth();
+  const { isLoading, isAuthenticated } = useAuth();
   const [showAuthModal, setShowAuthModal] = React.useState(false);
 
   // 고급 플러그인 시스템 초기화
@@ -104,17 +107,20 @@ function App() {
       // Here you could send error reports to a service like Sentry
     }}>
       <Router>
-        <div className="App">
+        <div className="App min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
           {/* 헤더 - 사용자 프로필 */}
-          <header className="bg-white shadow-sm border-b z-50 sticky top-0">
+          <header className="bg-white dark:bg-gray-900 shadow-sm border-b border-gray-200 dark:border-gray-700 z-50 sticky top-0">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <div className="flex justify-between items-center h-16">
                 <div className="flex items-center space-x-4">
-                  <Link to="/" className="text-xl font-bold text-gray-900 hover:text-indigo-600 transition-colors cursor-pointer">
+                  <Link to="/" className="text-xl font-bold text-gray-900 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors cursor-pointer">
                     DaSi English
                   </Link>
                 </div>
-                <UserProfile />
+                
+                <div className="flex items-center space-x-4">
+                  <UserProfile />
+                </div>
               </div>
             </div>
           </header>
@@ -142,6 +148,8 @@ function App() {
           <Route path="/situational-training" element={<SituationalTrainingPage />} />
           <Route path="/sentence-test" element={<SentenceServiceTest />} />
           <Route path="/curriculum-demo" element={<CurriculumDemo />} />
+          <Route path="/achievements" element={<AchievementsPage />} />
+          <Route path="/vocabulary" element={<VocabularyPage />} />
           {/* 안전장치: 알 수 없는 경로는 랜딩으로 */}
           <Route path="*" element={<LandingHome />} />
             </Routes>
@@ -155,6 +163,9 @@ function App() {
         onClose={handleCloseAuthModal}
         onAuthSuccess={handleAuthSuccess}
       />
+      
+      {/* 성능 대시보드 */}
+      <PerformanceDashboard />
     </ErrorBoundary>
   );
 }

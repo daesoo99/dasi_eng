@@ -112,17 +112,17 @@ const AudioTest: React.FC = () => {
 
   // ====== 임시 로깅 함수들 ======
   
-  const componentLog = (message: string, data?: any) => {
+  const componentLog = useCallback((message: string, data?: any) => {
     console.log(`[AudioTest] ${message}`, data);
-  };
+  }, []);
 
-  const measureRender = (id: number, name: string) => {
+  const measureRender = useCallback((_id: number, name: string) => {
     const start = performance.now();
     return () => {
       const end = performance.now();
       console.log(`[AudioTest] ${name} 렌더링 시간: ${end - start}ms`);
     };
-  };
+  }, []);
 
   const logInfo = (category: string, message: string, data?: any) => {
     console.log(`[${category}] ${message}`, data);
@@ -236,7 +236,7 @@ const AudioTest: React.FC = () => {
     
     endRenderMeasure();
     componentLog('마이크 테스트 시작');
-  }, [state.microphoneLevel, startMicrophoneMonitoring, measureRender, componentLog]);
+  }, [state.microphoneLevel, startMicrophoneMonitoring, measureRender, componentLog, addTestResult, stopMicrophoneTest]);
 
   const stopMicrophoneTest = useCallback(() => {
     setState(prev => ({ ...prev, currentTest: null }));
@@ -482,7 +482,7 @@ const AudioTest: React.FC = () => {
     setCurrentPronunciationTest(null);
     
     componentLog('발음 분석 완료', { score, transcript, word: currentPronunciationTest.word });
-  }, [currentPronunciationTest, componentLog]);
+  }, [currentPronunciationTest, componentLog, addTestResult, calculateSimilarity]);
 
   const analyzeQuality = useCallback((transcript: string, confidence: number) => {
     if (!currentSentence) return;
@@ -514,11 +514,11 @@ const AudioTest: React.FC = () => {
     setCurrentSentence('');
     
     componentLog('음성 품질 분석 완료', { score, transcript });
-  }, [currentSentence, componentLog]);
+  }, [currentSentence, componentLog, addTestResult]);
 
   // ====== 유틸리티 함수들 ======
 
-  const calculateSimilarity = (str1: string, str2: string): number => {
+  const calculateSimilarity = useCallback((str1: string, str2: string): number => {
     const longer = str1.length > str2.length ? str1 : str2;
     const shorter = str1.length > str2.length ? str2 : str1;
     
@@ -526,7 +526,7 @@ const AudioTest: React.FC = () => {
     
     const distance = levenshteinDistance(longer, shorter);
     return (longer.length - distance) / longer.length;
-  };
+  }, []);
 
   const levenshteinDistance = (str1: string, str2: string): number => {
     const matrix = [];
@@ -575,7 +575,7 @@ const AudioTest: React.FC = () => {
       score,
       recommendation
     });
-  }, []);
+  }, [LogCategory.USER_ACTION]);
 
   const clearResults = useCallback(() => {
     setState(prev => ({ ...prev, testResults: [] }));

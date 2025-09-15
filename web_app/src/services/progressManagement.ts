@@ -388,12 +388,12 @@ class ProgressManagementService {
     // Firestore 저장 로직
   }
   
-  private async getAllStageProgresses(userId: string, level: number): Promise<UserProgress[]> {
+  private async getAllStageProgresses(_userId: string, _level: number): Promise<UserProgress[]> {
     // 해당 레벨의 모든 스테이지 진도 조회
     return [];
   }
   
-  private async getRecentIncorrectAnswers(userId: string, since: Date): Promise<IncorrectAnswer[]> {
+  private async getRecentIncorrectAnswers(_userId: string, _since: Date): Promise<IncorrectAnswer[]> {
     // 최근 오답 기록 조회
     return [];
   }
@@ -409,7 +409,7 @@ class ProgressManagementService {
     return levelProgresses.length; // 모든 레벨 완료
   }
   
-  private async getTotalSentencesStudied(userId: string): Promise<number> {
+  private async getTotalSentencesStudied(_userId: string): Promise<number> {
     // 총 학습한 문장 수 계산
     return 0;
   }

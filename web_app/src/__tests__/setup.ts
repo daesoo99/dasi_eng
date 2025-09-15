@@ -209,6 +209,7 @@ declare global {
   namespace jest {
     interface Matchers<R> {
       toBeCalledWithExactly(...args: any[]): R;
+      toBeInTheDocument(): R;
     }
   }
 }

@@ -5,12 +5,28 @@
  * @version 1.0.0
  */
 
-// 기본 로깅 함수
+// 로그 카테고리 타입
+export type LogCategory = 'PERFORMANCE' | 'API' | 'AUDIO' | 'SRS' | 'PLUGIN' | 'GENERAL';
+
+// 개별 로깅 함수들 (플러그인 시스템에서 사용)
+export const logInfo = (message: string, category?: LogCategory) =>
+  console.log(`[INFO]${category ? `[${category}]` : ''} ${message}`);
+
+export const logWarn = (message: string, category?: LogCategory) =>
+  console.warn(`[WARN]${category ? `[${category}]` : ''} ${message}`);
+
+export const logError = (message: string, category?: LogCategory) =>
+  console.error(`[ERROR]${category ? `[${category}]` : ''} ${message}`);
+
+export const logDebug = (message: string, category?: LogCategory) =>
+  console.debug(`[DEBUG]${category ? `[${category}]` : ''} ${message}`);
+
+// 기본 로깅 함수 (레거시 호환성)
 export const logger = {
-  info: (message: string, category?: string) => console.log(`[INFO]${category ? `[${category}]` : ''} ${message}`),
-  warn: (message: string, category?: string) => console.warn(`[WARN]${category ? `[${category}]` : ''} ${message}`),
-  error: (message: string, category?: string) => console.error(`[ERROR]${category ? `[${category}]` : ''} ${message}`),
-  debug: (message: string, category?: string) => console.debug(`[DEBUG]${category ? `[${category}]` : ''} ${message}`)
+  info: logInfo,
+  warn: logWarn,
+  error: logError,
+  debug: logDebug
 };
 
 // 기본 에러 핸들러

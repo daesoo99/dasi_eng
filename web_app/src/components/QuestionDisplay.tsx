@@ -6,12 +6,21 @@ interface Props {
 }
 
 const QuestionDisplay: React.FC<Props> = ({ question, isLoading }) => {
-  const playTextToSpeech = () => {
-    if ('speechSynthesis' in window) {
-      const utterance = new SpeechSynthesisUtterance(question);
-      utterance.lang = 'en-US'; // Changed to English
-      utterance.rate = 0.9;
-      speechSynthesis.speak(utterance);
+  const playTextToSpeech = async () => {
+    try {
+      // 🔧 플러그인을 통한 TTS
+      const ServiceContainer = (await import('@/container/ServiceContainer')).default;
+      const container = ServiceContainer.getInstanceSync();
+      const speechService = container.getSpeechProcessingService();
+
+      await speechService.speakAnswer(question, {
+        language: 'en-US',
+        rate: 0.9,
+        volume: 1.0,
+        pitch: 1.0
+      });
+    } catch (error) {
+      console.error('🔧 [QuestionDisplay] TTS failed:', error);
     }
   };
 

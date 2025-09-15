@@ -348,12 +348,12 @@ class IncorrectPriorityService {
     // Firestore에 저장
   }
   
-  private async getAllIncorrectRecords(userId: string): Promise<IncorrectRecord[]> {
+  private async getAllIncorrectRecords(_userId: string): Promise<IncorrectRecord[]> {
     // 모든 오답 기록 조회
     return [];
   }
   
-  private async calculateImprovementRate(userId: string): Promise<number> {
+  private async calculateImprovementRate(_userId: string): Promise<number> {
     // 개선율 계산 (임시값)
     return 0.15; // 15% 개선
   }

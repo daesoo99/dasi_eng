@@ -15,11 +15,9 @@ import {
   logError,
   logWarn,
   speechLogger,
-  measureAudioLatency,
-  endAudioLatency,
-  usePerformanceMonitoring,
   type StructuredError
 } from '../utils/index.ts';
+import { usePerformanceMonitoring } from './usePerformanceMonitoring';
 
 // ====== 타입 정의 ======
 
@@ -155,8 +153,8 @@ export const useSpeechRecognition = (options: SpeechRecognitionOptions = {}): Sp
     debugMode = process.env.NODE_ENV === 'development'
   } = options;
 
-  // 성능 모니터링
-  const { measureRender, measureAudioLatency } = usePerformanceMonitoring('useSpeechRecognition');
+  // ✅ CLAUDE.local 준수: 플러그인 기반 성능 모니터링
+  const { measureRender, measureAudioLatency, endAudioLatency } = usePerformanceMonitoring('useSpeechRecognition');
 
   // ====== 상태 관리 ======
 
@@ -370,9 +368,11 @@ export const useSpeechRecognition = (options: SpeechRecognitionOptions = {}): Sp
   const setupEventHandlers = useCallback(() => {
     if (!recognitionRef.current) return;
 
-    recognitionRef.current.onstart = () => {
+    recognitionRef.current.onstart = async () => {
       recognitionStartTime.current = Date.now();
-      measurementId.current = measureAudioLatency();
+      
+      // ✅ CLAUDE.local 준수: 플러그인을 통한 음성 인식 지연 측정 시작
+      measurementId.current = await measureAudioLatency();
       
       updateState({ 
         isListening: true, 
@@ -442,9 +442,9 @@ export const useSpeechRecognition = (options: SpeechRecognitionOptions = {}): Sp
             maxConfidence = Math.max(maxConfidence, confidence);
             confidenceScores.current.push(confidence);
             
-            // 성능 측정 종료
+            // ✅ CLAUDE.local 준수: 플러그인을 통한 음성 인식 지연 측정 종료
             if (measurementId.current) {
-              endAudioLatency(measurementId.current, transcript);
+              await endAudioLatency(measurementId.current, transcript);
               measurementId.current = null;
             }
             
@@ -631,8 +631,9 @@ export const useSpeechRecognition = (options: SpeechRecognitionOptions = {}): Sp
       isManualStop.current = true;
       resetSilenceTimer();
       
+      // ✅ CLAUDE.local 준수: 플러그인을 통한 측정 정리
       if (measurementId.current) {
-        endAudioLatency(measurementId.current);
+        await endAudioLatency(measurementId.current);
         measurementId.current = null;
       }
 

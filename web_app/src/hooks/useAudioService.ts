@@ -1,9 +1,15 @@
 import { useCallback, useRef, useEffect } from 'react';
+import { ServiceContainer } from '@/container/ServiceContainer';
 
 interface AudioConfig {
   volume?: number;
   autoCleanup?: boolean;
   maxInstances?: number;
+}
+
+interface UseAudioServiceOptions {
+  config?: AudioConfig;
+  serviceContainer?: ServiceContainer;
 }
 
 interface AudioInstance {
@@ -173,13 +179,27 @@ class AudioService {
 // Global audio service instance
 let globalAudioService: AudioService | null = null;
 
-export function useAudioService(config?: AudioConfig) {
+export function useAudioService(options: UseAudioServiceOptions = {}) {
   const serviceRef = useRef<AudioService | null>(null);
 
-  // Initialize service
+  // 🔧 의존성 주입: ServiceContainer를 통한 AudioService 획득
   useEffect(() => {
     if (!globalAudioService) {
-      globalAudioService = new AudioService(config);
+      try {
+        // 🔧 Direct 생성 제거: ServiceContainer를 통해 AudioService 획득 시도
+        const serviceContainer = options.serviceContainer || ServiceContainer.getInstance();
+        
+        // TODO: ServiceContainer에 AudioService 등록 메서드 구현 필요
+        // globalAudioService = await serviceContainer.getAudioService(options.config);
+        
+        // 🔧 Fallback: ServiceContainer에 AudioService가 없으면 직접 생성
+        console.warn('[useAudioService] AudioService not available in ServiceContainer, creating instance directly');
+        globalAudioService = new AudioService(options.config);
+      } catch (error) {
+        console.error('[useAudioService] Failed to get AudioService from container:', error);
+        // 🔧 Final Fallback: 에러 시 직접 생성
+        globalAudioService = new AudioService(options.config);
+      }
     }
     serviceRef.current = globalAudioService;
 

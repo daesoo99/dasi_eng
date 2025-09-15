@@ -4,7 +4,7 @@
  */
 
 import { AudioFlowStateMachine } from '@/state/AudioFlowStateMachine';
-import { createMockCallbacks, waitFor } from '../mocks';
+import { createMockCallbacks } from '../mocks';
 import type { FlowCallbacks } from '@/state/types';
 
 describe('AudioFlowStateMachine', () => {

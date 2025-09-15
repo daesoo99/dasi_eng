@@ -749,21 +749,8 @@ export const DashboardHome: React.FC = memo(() => {
   const currentLevel = currentViewLevel ? levelData.find(l => l.level === currentViewLevel) : null;
 
   return (
-    <div style={{
-      fontFamily: "'Segoe UI', Arial, sans-serif",
-      background: inlineStyles.base,
-      minHeight: '100vh',
-      padding: '20px'
-    }}>
-      <div style={{
-        maxWidth: '1200px',
-        margin: '0 auto',
-        background: inlineStyles.secondary,
-        borderRadius: '20px',
-        boxShadow: '0 20px 40px rgba(0,0,0,0.1)',
-        overflow: 'hidden',
-        border: `1px solid ${inlineStyles.border}`
-      }}>
+    <div className="font-sans bg-gray-50 dark:bg-gray-900 min-h-screen p-5 transition-colors duration-300">
+      <div className="max-w-6xl mx-auto bg-white dark:bg-gray-800 rounded-3xl shadow-xl overflow-hidden border border-gray-200 dark:border-gray-700 transition-colors duration-300">
         {/* 헤더 */}
         <div style={{
           background: inlineStyles.secondary,

@@ -44,15 +44,15 @@ export const ControlPanel: React.FC<ControlPanelProps> = ({
   };
 
   return (
-    <div className="bg-white rounded-xl shadow-lg p-6">
+    <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 transition-colors duration-300">
       <div className="flex flex-col space-y-4">
         {/* 상태 표시 */}
         <div className="text-center">
-          <div className="text-sm text-gray-500 mb-2">현재 상태</div>
+          <div className="text-sm text-gray-500 dark:text-gray-400 mb-2">현재 상태</div>
           <div className={`inline-flex items-center px-3 py-1 rounded-full text-sm font-medium ${
             isTraining 
-              ? (isPaused ? 'bg-yellow-100 text-yellow-700' : 'bg-green-100 text-green-700')
-              : 'bg-gray-100 text-gray-700'
+              ? (isPaused ? 'bg-yellow-100 dark:bg-yellow-900 text-yellow-700 dark:text-yellow-300' : 'bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300')
+              : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300'
           }`}>
             <div className={`w-2 h-2 rounded-full mr-2 ${
               isTraining
@@ -65,9 +65,9 @@ export const ControlPanel: React.FC<ControlPanelProps> = ({
 
         {/* 진행률 바 */}
         {hasQuestions && (
-          <div className="w-full bg-gray-200 rounded-full h-2">
+          <div className="w-full bg-gray-200 dark:bg-gray-600 rounded-full h-2">
             <div 
-              className="bg-blue-500 h-2 rounded-full transition-all duration-300"
+              className="bg-blue-500 dark:bg-blue-400 h-2 rounded-full transition-all duration-300"
               style={{ width: `${((currentIndex + 1) / totalQuestions) * 100}%` }}
             ></div>
           </div>
@@ -78,14 +78,14 @@ export const ControlPanel: React.FC<ControlPanelProps> = ({
           {!hasQuestions ? (
             <button
               onClick={onLoadData}
-              className="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors font-medium"
+              className="px-6 py-3 bg-blue-500 dark:bg-blue-600 text-white rounded-lg hover:bg-blue-600 dark:hover:bg-blue-700 transition-colors font-medium"
             >
               데이터 로드
             </button>
           ) : !isTraining ? (
             <button
               onClick={onStartTraining}
-              className="px-6 py-3 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors font-medium"
+              className="px-6 py-3 bg-green-500 dark:bg-green-600 text-white rounded-lg hover:bg-green-600 dark:hover:bg-green-700 transition-colors font-medium"
             >
               훈련 시작
             </button>
@@ -94,14 +94,14 @@ export const ControlPanel: React.FC<ControlPanelProps> = ({
               {!isPaused ? (
                 <button
                   onClick={onPauseTraining}
-                  className="px-4 py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600 transition-colors"
+                  className="px-4 py-2 bg-yellow-500 dark:bg-yellow-600 text-white rounded-lg hover:bg-yellow-600 dark:hover:bg-yellow-700 transition-colors"
                 >
                   일시정지
                 </button>
               ) : (
                 <button
                   onClick={onResumeTraining}
-                  className="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors"
+                  className="px-4 py-2 bg-green-500 dark:bg-green-600 text-white rounded-lg hover:bg-green-600 dark:hover:bg-green-700 transition-colors"
                 >
                   재개
                 </button>
@@ -133,20 +133,20 @@ export const ControlPanel: React.FC<ControlPanelProps> = ({
 
         {/* 통계 정보 */}
         {hasQuestions && (
-          <div className="grid grid-cols-3 gap-4 pt-4 border-t border-gray-200">
+          <div className="grid grid-cols-3 gap-4 pt-4 border-t border-gray-200 dark:border-gray-600">
             <div className="text-center">
-              <div className="text-lg font-bold text-gray-900">{currentIndex + 1}</div>
-              <div className="text-xs text-gray-500">현재 문제</div>
+              <div className="text-lg font-bold text-gray-900 dark:text-white">{currentIndex + 1}</div>
+              <div className="text-xs text-gray-500 dark:text-gray-400">현재 문제</div>
             </div>
             <div className="text-center">
-              <div className="text-lg font-bold text-gray-900">{totalQuestions}</div>
-              <div className="text-xs text-gray-500">전체 문제</div>
+              <div className="text-lg font-bold text-gray-900 dark:text-white">{totalQuestions}</div>
+              <div className="text-xs text-gray-500 dark:text-gray-400">전체 문제</div>
             </div>
             <div className="text-center">
-              <div className="text-lg font-bold text-blue-600">
+              <div className="text-lg font-bold text-blue-600 dark:text-blue-400">
                 {Math.round(((currentIndex + 1) / totalQuestions) * 100)}%
               </div>
-              <div className="text-xs text-gray-500">진행률</div>
+              <div className="text-xs text-gray-500 dark:text-gray-400">진행률</div>
             </div>
           </div>
         )}

@@ -6,7 +6,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { 
   getMetricsDashboardData, 
-  sloMonitor, 
   releaseGateValidator,
   PRODUCTION_SLO,
   SLOViolation 
@@ -58,13 +57,13 @@ function getHealthColor(health: string): string {
   }
 }
 
-function getSLOColor(value: number, target: number, isHigherBetter = true): string {
-  const ratio = isHigherBetter ? value / target : target / value;
-  
-  if (ratio >= 1.0) return 'text-green-600';
-  if (ratio >= 0.95) return 'text-yellow-600';
-  return 'text-red-600';
-}
+// function getSLOColor(value: number, target: number, isHigherBetter = true): string {
+//   const ratio = isHigherBetter ? value / target : target / value;
+//   
+//   if (ratio >= 1.0) return 'text-green-600';
+//   if (ratio >= 0.95) return 'text-yellow-600';
+//   return 'text-red-600';
+// }
 
 // ===== Metric Card Component =====
 

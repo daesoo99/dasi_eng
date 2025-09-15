@@ -6,7 +6,9 @@ export const STORAGE_KEYS = {
   REVIEW_SCHEDULE: 'dasi_review_schedule',
   USER_STATS: 'dasi_user_stats',
   VOICE_SETTINGS: 'dasi_voice_settings',
-  PROGRESS: 'dasi_progress'
+  PROGRESS: 'dasi_progress',
+  ACHIEVEMENTS: 'dasi_achievements',
+  VOCABULARY_PROGRESS: 'dasi_vocabulary_progress'
 } as const;
 
 // Storage interface for type safety
@@ -16,6 +18,8 @@ export interface StorageItem {
   [STORAGE_KEYS.USER_STATS]: UserStats;
   [STORAGE_KEYS.VOICE_SETTINGS]: VoiceSettings;
   [STORAGE_KEYS.PROGRESS]: ProgressData;
+  [STORAGE_KEYS.ACHIEVEMENTS]: AchievementData;
+  [STORAGE_KEYS.VOCABULARY_PROGRESS]: any[]; // UserVocabularyProgress[] 타입은 나중에 추가
 }
 
 // Data interfaces
@@ -65,6 +69,16 @@ export interface VoiceSettings {
   speed: number;
   koreanVoice?: string;
   englishVoice?: string;
+  
+  // 고급 TTS 설정
+  pitch: number; // 0.1-2.0, 기본값 1.0
+  volume: number; // 0.1-1.0, 기본값 1.0
+  voiceQuality: 'basic' | 'enhanced'; // 무료 vs 최적화 모드
+  naturalPauses: boolean; // 자연스러운 쉼 추가
+  emphasizeKeyWords: boolean; // 주요 단어 강조
+  slowLearnerMode: boolean; // 초보자용 명확한 발음
+  sentenceBreaking: boolean; // 문장 단위로 나누어 읽기
+  pronunciationClarity: 'normal' | 'clear' | 'extra-clear'; // 발음 명확도
 }
 
 export interface ProgressData {
@@ -73,6 +87,27 @@ export interface ProgressData {
   lastSession: number;
   completedLevels: number[];
   completedStages: { [key: string]: number[] };
+}
+
+// Achievement 시스템 인터페이스
+export interface Achievement {
+  id: string;
+  title: string;
+  description: string;
+  type: 'learning' | 'performance' | 'milestone';
+  icon: string;
+  badge: string;
+  unlockedAt?: number;
+  progress?: number; // 0-100, 달성 진행률
+  target?: number; // 목표치 (예: 100문제, 10일 등)
+  current?: number; // 현재 진행률
+}
+
+export interface AchievementData {
+  unlockedAchievements: string[]; // 획득한 업적 ID 배열
+  achievementProgress: { [key: string]: { current: number; target: number; }; }; // 진행 중인 업적들
+  lastChecked: number; // 마지막 업적 체크 시각
+  newBadges: string[]; // 새로 획득했지만 아직 확인하지 않은 배지들
 }
 
 // Default values
@@ -95,7 +130,17 @@ const DEFAULT_VALUES: StorageItem = {
     englishEnabled: true,
     speed: 0.8,
     koreanVoice: undefined,
-    englishVoice: undefined
+    englishVoice: undefined,
+    
+    // 고급 TTS 기본값
+    pitch: 1.0,
+    volume: 1.0,
+    voiceQuality: 'enhanced' as const,
+    naturalPauses: true,
+    emphasizeKeyWords: true,
+    slowLearnerMode: false,
+    sentenceBreaking: true,
+    pronunciationClarity: 'clear' as const
   },
   [STORAGE_KEYS.PROGRESS]: {
     currentLevel: 1,
@@ -103,6 +148,12 @@ const DEFAULT_VALUES: StorageItem = {
     lastSession: Date.now(),
     completedLevels: [],
     completedStages: {}
+  },
+  [STORAGE_KEYS.ACHIEVEMENTS]: {
+    unlockedAchievements: [],
+    achievementProgress: {},
+    lastChecked: Date.now(),
+    newBadges: []
   }
 };
 

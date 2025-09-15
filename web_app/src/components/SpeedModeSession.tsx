@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { speedDifficultyService, type SpeedSession, type SpeedQuestion, type SpeedModeSettings } from '@/services/speedDifficultyModes';
+import { useSpeedTraining } from '@/hooks/useSpeedTraining';
+import { type SpeedQuestion, type SpeedModeSettings, type DifficultyMode } from '@/services/speedDifficultyModes';
 
 interface SpeedModeSessionProps {
   userId: string;
@@ -16,7 +17,9 @@ export const SpeedModeSession: React.FC<SpeedModeSessionProps> = ({
   onComplete,
   onExit
 }) => {
-  const [session, setSession] = useState<SpeedSession | null>(null);
+  // ✅ CLAUDE.local 규칙 준수: 플러그인 우선 아키텍처
+  const speedTraining = useSpeedTraining(true);
+  
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [userAnswer, setUserAnswer] = useState('');
   const [timeLeft, setTimeLeft] = useState(0);
@@ -28,19 +31,34 @@ export const SpeedModeSession: React.FC<SpeedModeSessionProps> = ({
   // 세션 초기화
   useEffect(() => {
     const initSession = async () => {
+      if (!speedTraining.isPluginReady) {
+        console.log('⏳ Waiting for Speed Training Plugin to be ready...');
+        return;
+      }
+
       try {
-        const newSession = await speedDifficultyService.createFastSession(userId, settings, questionCount);
-        setSession(newSession);
-        setTimeLeft(settings.timeLimit);
-        setIsAnswering(true);
-        setStartTime(Date.now());
+        console.log('🚀 Creating speed training session via plugin...');
+        const sessionOptions = {
+          userId,
+          mode: 'fast' as DifficultyMode,
+          settings,
+          questionCount
+        };
+        
+        const newSession = await speedTraining.createSession(sessionOptions);
+        if (newSession) {
+          setTimeLeft(settings.timeLimit);
+          setIsAnswering(true);
+          setStartTime(Date.now());
+          console.log('✅ Session created successfully via plugin');
+        }
       } catch (error) {
-        console.error('세션 초기화 실패:', error);
+        console.error('❌ 세션 초기화 실패:', error);
       }
     };
 
     initSession();
-  }, [userId, settings, questionCount]);
+  }, [userId, settings, questionCount, speedTraining]);
 
   // 타이머
   useEffect(() => {
@@ -57,51 +75,60 @@ export const SpeedModeSession: React.FC<SpeedModeSessionProps> = ({
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [isAnswering, settings.showTimer]);
+  }, [isAnswering, settings.showTimer, handleTimeUp]);
 
   // 시간 초과 처리
   const handleTimeUp = useCallback(() => {
-    if (!session) return;
+    if (!speedTraining.currentSession) return;
     
     const responseTime = Date.now() - startTime;
     processAnswer(userAnswer || '', responseTime, true);
-  }, [session, userAnswer, startTime]);
+  }, [speedTraining.currentSession, userAnswer, startTime, processAnswer]);
 
-  // 답변 처리
-  const processAnswer = async (answer: string, responseTime: number, timeExceeded = false) => {
-    if (!session) return;
+  // 답변 처리  
+  const processAnswer = useCallback(async (answer: string, responseTime: number, timeExceeded = false) => {
+    const { currentSession } = speedTraining;
+    if (!currentSession) return;
 
     setIsAnswering(false);
     
     try {
-      const currentQuestion = session.questions[currentQuestionIndex];
-      const result = await speedDifficultyService.processAnswer(
-        session.sessionId,
+      const currentQuestion = currentSession.questions[currentQuestionIndex];
+      console.log('📝 Processing answer via plugin...', { 
+        questionId: currentQuestion.questionId,
+        answer, 
+        responseTime 
+      });
+      
+      // ✅ CLAUDE.local 규칙 준수: 플러그인을 통한 답변 처리
+      const result = await speedTraining.processAnswer(
         currentQuestion.questionId,
         answer,
         responseTime
       );
 
-      result.timeExceeded = timeExceeded;
-      setResults(prev => [...prev, result]);
+      if (result) {
+        result.timeExceeded = timeExceeded;
+        setResults(prev => [...prev, result]);
 
-      // 다음 문제 또는 완료
-      setTimeout(() => {
-        if (currentQuestionIndex < session.questions.length - 1) {
-          setCurrentQuestionIndex(prev => prev + 1);
-          setUserAnswer('');
-          setTimeLeft(settings.timeLimit);
-          setIsAnswering(true);
-          setStartTime(Date.now());
-        } else {
-          completeSession();
-        }
-      }, 1500);
+        // 다음 문제 또는 완료
+        setTimeout(() => {
+          if (currentQuestionIndex < currentSession.questions.length - 1) {
+            setCurrentQuestionIndex(prev => prev + 1);
+            setUserAnswer('');
+            setTimeLeft(settings.timeLimit);
+            setIsAnswering(true);
+            setStartTime(Date.now());
+          } else {
+            completeSession();
+          }
+        }, 1500);
+      }
 
     } catch (error) {
-      console.error('답변 처리 실패:', error);
+      console.error('❌ 답변 처리 실패:', error);
     }
-  };
+  }, [speedTraining, currentQuestionIndex, settings, completeSession]);
 
   // 답변 제출
   const handleSubmit = () => {
@@ -110,19 +137,41 @@ export const SpeedModeSession: React.FC<SpeedModeSessionProps> = ({
   };
 
   // 세션 완료
-  const completeSession = async () => {
-    if (!session) return;
+  const completeSession = useCallback(async () => {
+    const { currentSession } = speedTraining;
+    if (!currentSession) return;
 
     try {
-      const finalResults = await speedDifficultyService.completeSession(session.sessionId);
-      setShowResult(true);
-      onComplete(finalResults);
+      console.log('🏁 Completing session via plugin...');
+      // ✅ CLAUDE.local 규칙 준수: 플러그인을 통한 세션 완료
+      const finalResults = await speedTraining.completeSession();
+      if (finalResults) {
+        setShowResult(true);
+        onComplete(finalResults);
+        console.log('✅ Session completed successfully via plugin');
+      }
     } catch (error) {
-      console.error('세션 완료 실패:', error);
+      console.error('❌ 세션 완료 실패:', error);
     }
-  };
+  }, [speedTraining, onComplete]);
 
-  if (!session) {
+  // Plugin loading state
+  if (!speedTraining.isPluginReady) {
+    return (
+      <div className="flex items-center justify-center min-h-screen">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto mb-4"></div>
+          <div className="text-gray-600">Speed Training Plugin을 로딩 중...</div>
+          {speedTraining.pluginError && (
+            <div className="text-red-600 mt-2">오류: {speedTraining.pluginError}</div>
+          )}
+        </div>
+      </div>
+    );
+  }
+
+  // Session loading state  
+  if (!speedTraining.currentSession) {
     return (
       <div className="flex items-center justify-center min-h-screen">
         <div className="text-center">
@@ -133,8 +182,19 @@ export const SpeedModeSession: React.FC<SpeedModeSessionProps> = ({
     );
   }
 
-  const currentQuestion = session.questions[currentQuestionIndex];
-  const progress = ((currentQuestionIndex + 1) / session.questions.length) * 100;
+  const currentQuestion: SpeedQuestion = speedTraining.currentSession.questions[currentQuestionIndex];
+  const progress = ((currentQuestionIndex + 1) / speedTraining.currentSession.questions.length) * 100;
+  
+  // SpeedQuestion 타입의 모든 속성 활용한 문제 메타데이터
+  const questionMeta = {
+    id: currentQuestion.questionId,
+    level: currentQuestion.level,
+    stage: currentQuestion.stage,
+    difficulty: currentQuestion.difficulty,
+    tags: currentQuestion.tags,
+    timeLimit: currentQuestion.timeLimit || settings.timeLimit,
+    content: currentQuestion.content
+  };
 
   if (showResult) {
     return (
@@ -190,7 +250,12 @@ export const SpeedModeSession: React.FC<SpeedModeSessionProps> = ({
           <div>
             <h1 className="text-2xl font-bold text-gray-900">⚡ 빠른 모드</h1>
             <p className="text-gray-600">
-              문제 {currentQuestionIndex + 1} / {session.questions.length}
+              문제 {currentQuestionIndex + 1} / {speedTraining.currentSession.questions.length}
+              {speedTraining.sessionProgress && (
+                <span className="ml-2 text-sm">
+                  (정답: {speedTraining.sessionProgress.correctAnswers})
+                </span>
+              )}
             </p>
           </div>
           
@@ -218,19 +283,33 @@ export const SpeedModeSession: React.FC<SpeedModeSessionProps> = ({
         <div className="mb-6">
           <div className="flex items-center gap-2 mb-4">
             <span className="bg-blue-100 text-blue-800 text-xs font-medium px-2.5 py-0.5 rounded">
-              Level {currentQuestion.level}
+              Level {questionMeta.level} - Stage {questionMeta.stage}
             </span>
             <span className={`text-xs font-medium px-2.5 py-0.5 rounded ${
-              currentQuestion.difficulty === 'easy' ? 'bg-green-100 text-green-800' :
-              currentQuestion.difficulty === 'medium' ? 'bg-yellow-100 text-yellow-800' :
+              questionMeta.difficulty === 'easy' ? 'bg-green-100 text-green-800' :
+              questionMeta.difficulty === 'medium' ? 'bg-yellow-100 text-yellow-800' :
               'bg-red-100 text-red-800'
             }`}>
-              {currentQuestion.difficulty}
+              {questionMeta.difficulty}
+            </span>
+            <span className="bg-purple-100 text-purple-800 text-xs font-medium px-2.5 py-0.5 rounded">
+              {questionMeta.timeLimit}초 제한
             </span>
           </div>
           
+          {/* 태그 표시 */}
+          {questionMeta.tags.length > 0 && (
+            <div className="flex flex-wrap gap-1 mb-3">
+              {questionMeta.tags.map((tag, index) => (
+                <span key={index} className="bg-gray-100 text-gray-600 text-xs px-2 py-0.5 rounded">
+                  #{tag}
+                </span>
+              ))}
+            </div>
+          )}
+          
           <h2 className="text-2xl font-semibold text-gray-900 mb-4">
-            {currentQuestion.content}
+            {questionMeta.content}
           </h2>
         </div>
 

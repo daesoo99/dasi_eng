@@ -245,28 +245,28 @@ class ReviewAlgorithmService {
   }
   
   // Private helper methods
-  private async getScheduledReviews(userId: string, date: Date): Promise<string[]> {
+  private async getScheduledReviews(_userId: string, _date: Date): Promise<string[]> {
     // Firestore에서 오늘 복습 예정인 문장들 조회
     // 실제 구현에서는 Firestore 쿼리 사용
     return [];
   }
   
-  private async getWeakSentences(userId: string, count: number): Promise<string[]> {
+  private async getWeakSentences(_userId: string, _count: number): Promise<string[]> {
     // 기억 강도가 낮은 문장들 조회
     return [];
   }
   
-  private async getNewSentences(userId: string, count: number): Promise<string[]> {
+  private async getNewSentences(_userId: string, _count: number): Promise<string[]> {
     // 아직 복습하지 않은 새로운 문장들 조회
     return [];
   }
   
-  private async getRecentSessions(userId: string, days: number): Promise<ReviewSession[]> {
+  private async getRecentSessions(_userId: string, _days: number): Promise<ReviewSession[]> {
     // 최근 복습 세션들 조회
     return [];
   }
   
-  private async calculateRetentionRate(userId: string): Promise<number> {
+  private async calculateRetentionRate(_userId: string): Promise<number> {
     // 7일 후 복습 성공률 계산
     return 0.7; // 임시값
   }
@@ -279,7 +279,7 @@ class ReviewAlgorithmService {
     return 'beginner';
   }
   
-  private async getUserActivityPattern(userId: string): Promise<{
+  private async getUserActivityPattern(_userId: string): Promise<{
     peakHours: string[];
     preferredDuration: number;
     consistency: number;

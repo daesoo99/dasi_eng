@@ -56,7 +56,7 @@ export class SpeechRecognitionAdapter implements ISpeechRecognitionAdapter {
   private setupEventHandlers(): void {
     if (!this.recognition) return;
 
-    this.recognition.onresult = (event: SpeechRecognitionEvent) => {
+    this.recognition.onresult = (event: any) => {
       try {
         const result = event.results[0];
         if (result && this.resultCallback) {
@@ -81,7 +81,7 @@ export class SpeechRecognitionAdapter implements ISpeechRecognitionAdapter {
       }
     };
 
-    this.recognition.onerror = (event: SpeechRecognitionErrorEvent) => {
+    this.recognition.onerror = (event: any) => {
       console.error('[SpeechRecognitionAdapter] Recognition error:', event.error);
       this.handleError(event.error);
     };

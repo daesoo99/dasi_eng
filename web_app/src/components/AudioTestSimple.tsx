@@ -6,7 +6,7 @@ interface Props {
   onExit?: () => void;
 }
 
-const AudioTestSimple: React.FC<Props> = memo(({ onExit }) => {
+const AudioTestSimple: React.FC<Props> = memo(({ onExit: _onExit }) => {
   const [currentTest, setCurrentTest] = useState<string | null>(null);
   const [testResults, setTestResults] = useState<any[]>([]);
   const [showResult, setShowResult] = useState<any>(null);

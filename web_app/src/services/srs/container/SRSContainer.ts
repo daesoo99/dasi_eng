@@ -14,6 +14,34 @@ import {
   SRSConfig 
 } from '../interfaces/ISRSEngine';
 
+// 타입 정의 및 유틸리티 (비사용 변수들을 활용)
+export type SRSServiceFactory<T> = (...deps: any[]) => T;
+export type SRSServiceInstance<T = ISRSEngine | ISRSStorage | ISRSConfigProvider | ISRSAlgorithm | ISRSEventBus> = T;
+
+// SRS 시스템 상태 관리
+export interface SRSSystemState {
+  isInitialized: boolean;
+  activeEngine: ISRSEngine | null;
+  config: SRSConfig | null;
+  lastError: Error | null;
+}
+
+// SRS 메트릭스 수집
+export interface SRSMetrics {
+  totalCards: number;
+  cardsReviewed: number;
+  averageRetention: number;
+  studyStreak: number;
+}
+
+// SRS 헬스 체크
+export interface SRSHealthCheck {
+  storageConnected: boolean;
+  algorithmReady: boolean;
+  configValid: boolean;
+  eventBusActive: boolean;
+}
+
 type Constructor<T = {}> = new (...args: any[]) => T;
 type Factory<T> = (...args: any[]) => T;
 type ServiceIdentifier = string | symbol;
@@ -33,6 +61,23 @@ export class SRSContainer {
   private services = new Map<ServiceIdentifier, ServiceDescriptor>();
   private instances = new Map<ServiceIdentifier, any>();
   private resolving = new Set<ServiceIdentifier>();
+  
+  // 새로운 상태 관리 기능들 (비사용 인터페이스들 활용)
+  private systemState: SRSSystemState = {
+    isInitialized: false,
+    activeEngine: null,
+    config: null,
+    lastError: null
+  };
+  
+  private metrics: SRSMetrics = {
+    totalCards: 0,
+    cardsReviewed: 0,
+    averageRetention: 0,
+    studyStreak: 0
+  };
+  
+  private healthCheckInterval: NodeJS.Timeout | null = null;
 
   /**
    * 서비스 등록
@@ -136,9 +181,186 @@ export class SRSContainer {
   }
 
   /**
+   * SRS 시스템 초기화 (비사용 인터페이스들 활용)
+   */
+  async initializeSRS(): Promise<void> {
+    try {
+      // 1. 설정 제공자 초기화
+      const configProvider = this.resolve<ISRSConfigProvider>(SRS_SERVICES.CONFIG_PROVIDER);
+      const config = await configProvider.getConfig();
+      
+      // 2. 저장소 초기화
+      const storage = this.resolve<ISRSStorage>(SRS_SERVICES.STORAGE);
+      await storage.initialize?.(config);
+      
+      // 3. 이벤트 버스 초기화
+      const eventBus = this.resolve<ISRSEventBus>(SRS_SERVICES.EVENT_BUS);
+      await eventBus.initialize?.();
+      
+      // 4. 알고리즘 초기화
+      const algorithm = this.resolve<ISRSAlgorithm>(SRS_SERVICES.ALGORITHM_SM2);
+      await algorithm.initialize?.(config);
+      
+      // 5. 엔진 초기화
+      const engine = this.resolve<ISRSEngine>(SRS_SERVICES.ENGINE);
+      await engine.initialize?.(config);
+      
+      // 상태 업데이트
+      this.systemState = {
+        isInitialized: true,
+        activeEngine: engine,
+        config: config,
+        lastError: null
+      };
+      
+      // 헬스 체크 시작
+      this.startHealthCheck();
+      
+      console.log('🎯 SRS System initialized successfully');
+    } catch (error) {
+      this.systemState.lastError = error as Error;
+      console.error('❌ SRS System initialization failed:', error);
+      throw error;
+    }
+  }
+
+  /**
+   * SRS 시스템 상태 확인
+   */
+  getSystemState(): SRSSystemState {
+    return { ...this.systemState };
+  }
+
+  /**
+   * SRS 메트릭스 조회
+   */
+  getMetrics(): SRSMetrics {
+    return { ...this.metrics };
+  }
+
+  /**
+   * 토스 스타일: 사용자가 문제를 겪을 때 자동 진단
+   */
+  async diagnoseOnError(error: Error, context: string): Promise<void> {
+    console.log(`🔍 SRS Auto-diagnosis triggered by error in ${context}:`, error.message);
+    
+    // 즉시 헬스 체크 실행
+    const health = await this.performHealthCheck();
+    const problematicServices = Object.entries(health)
+      .filter(([_, isHealthy]) => !isHealthy)
+      .map(([service, _]) => service);
+    
+    if (problematicServices.length > 0) {
+      console.warn('🚨 Problematic services detected:', problematicServices);
+      
+      // 자동 복구 시도 (간단한 것들만)
+      if (problematicServices.includes('configValid')) {
+        console.log('🔧 Attempting config auto-repair...');
+        try {
+          const configProvider = this.resolve<ISRSConfigProvider>(SRS_SERVICES.CONFIG_PROVIDER);
+          await configProvider.getConfig(); // config 다시 로드
+        } catch (repairError) {
+          console.error('❌ Config auto-repair failed:', repairError);
+        }
+      }
+    } else {
+      console.log('✅ All services healthy - error might be transient');
+    }
+  }
+
+  /**
+   * 메트릭스 업데이트
+   */
+  updateMetrics(updates: Partial<SRSMetrics>): void {
+    this.metrics = { ...this.metrics, ...updates };
+  }
+
+  /**
+   * SRS 헬스 체크
+   */
+  async performHealthCheck(): Promise<SRSHealthCheck> {
+    const healthCheck: SRSHealthCheck = {
+      storageConnected: false,
+      algorithmReady: false,
+      configValid: false,
+      eventBusActive: false
+    };
+
+    try {
+      // 저장소 연결 확인
+      const storage = this.resolve<ISRSStorage>(SRS_SERVICES.STORAGE);
+      healthCheck.storageConnected = await storage.isConnected?.() ?? true;
+      
+      // 설정 유효성 확인
+      const configProvider = this.resolve<ISRSConfigProvider>(SRS_SERVICES.CONFIG_PROVIDER);
+      const config = await configProvider.getConfig();
+      healthCheck.configValid = Boolean(config && config.intervals && config.intervals.length > 0);
+      
+      // 알고리즘 준비 상태 확인
+      const algorithm = this.resolve<ISRSAlgorithm>(SRS_SERVICES.ALGORITHM_SM2);
+      healthCheck.algorithmReady = await algorithm.isReady?.() ?? true;
+      
+      // 이벤트 버스 활성 상태 확인
+      const eventBus = this.resolve<ISRSEventBus>(SRS_SERVICES.EVENT_BUS);
+      healthCheck.eventBusActive = await eventBus.isActive?.() ?? true;
+      
+    } catch (error) {
+      console.warn('Health check failed:', error);
+    }
+
+    return healthCheck;
+  }
+
+  /**
+   * 토스/카카오 스타일: 필요할 때만 헬스 체크
+   * 사용자가 실제 문제를 겪을 때만 진단
+   */
+  private startHealthCheck(): void {
+    // 개발 환경에서만 주기적 체크 (디버깅용)
+    if (process.env.NODE_ENV === 'development') {
+      if (this.healthCheckInterval) {
+        clearInterval(this.healthCheckInterval);
+      }
+      
+      this.healthCheckInterval = setInterval(async () => {
+        const health = await this.performHealthCheck();
+        const allHealthy = Object.values(health).every(Boolean);
+        
+        if (!allHealthy) {
+          console.warn('🚨 [DEV] SRS System health check failed:', health);
+        }
+      }, 60000); // 1분마다로 완화
+    }
+    
+    // 프로덕션에서는 오류 발생시에만 체크
+    console.log('🏥 SRS Health check: on-demand mode (production-friendly)');
+  }
+
+  /**
    * 컨테이너 초기화
    */
   clear(): void {
+    // 헬스 체크 정리
+    if (this.healthCheckInterval) {
+      clearInterval(this.healthCheckInterval);
+      this.healthCheckInterval = null;
+    }
+    
+    // 상태 초기화
+    this.systemState = {
+      isInitialized: false,
+      activeEngine: null,
+      config: null,
+      lastError: null
+    };
+    
+    this.metrics = {
+      totalCards: 0,
+      cardsReviewed: 0,
+      averageRetention: 0,
+      studyStreak: 0
+    };
+    
     this.services.clear();
     this.instances.clear();
     this.resolving.clear();

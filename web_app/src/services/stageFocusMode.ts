@@ -415,7 +415,7 @@ class StageFocusService {
     }
   }
   
-  private generateEncouragement(isCorrect: boolean, repeatIndex: number): string {
+  private generateEncouragement(isCorrect: boolean, _repeatIndex: number): string {
     if (isCorrect) {
       const positive = [
         '정확합니다! 👏',
@@ -447,7 +447,7 @@ class StageFocusService {
     }, {} as Record<string, StageFocusResult[]>);
   }
   
-  private analyzeIncorrectPatterns(incorrectResults: StageFocusResult[]): string[] {
+  private analyzeIncorrectPatterns(_incorrectResults: StageFocusResult[]): string[] {
     // 간단한 패턴 분석 (실제로는 더 정교한 AI 분석)
     const patterns = ['future', 'grammar', 'vocabulary', 'structure'];
     return patterns.slice(0, 2); // 임시로 2개 반환

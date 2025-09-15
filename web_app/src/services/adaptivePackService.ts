@@ -1,6 +1,8 @@
 // Adaptive Pack Service - 오답 + 망각곡선 + 패턴 완전 자동화
 
-import { srsService, type SRSCard } from './srsService';
+// import { srsService, type SRSCard } from './srsService';
+// TODO: Migrate to new SRS Engine system
+import type { ReviewCard } from './srs/SRSEngine';
 import { api } from '@/lib/api';
 import type { DrillCard } from '@/types';
 

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { io, Socket } from 'socket.io-client';
-import ProgressIndicator from './ProgressIndicator';
+// import ProgressIndicator from './ProgressIndicator';
 
 interface FileStatus {
   file: string;
@@ -21,7 +21,7 @@ export const MigrationDashboard: React.FC = () => {
   const [files, setFiles] = useState<FileStatus[]>([]);
   const [stats, setStats] = useState<MigrationStats>({ total: 0, completed: 0, failed: 0, inProgress: 0 });
   const [isConnected, setIsConnected] = useState(false);
-  const [operation, setOperation] = useState<'migrate' | 'validate'>('migrate');
+  // const [operation, setOperation] = useState<'migrate' | 'validate'>('migrate');
 
   useEffect(() => {
     const socketConnection = io('http://localhost:8081');

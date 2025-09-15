@@ -21,10 +21,7 @@ export const StageSelectionModal: React.FC<StageSelectionModalProps> = ({
   const [stageMetadata, setStageMetadata] = useState<StageMetadata | null>(null);
   const [isLoading, setIsLoading] = useState(false);
 
-  if (!isStageModalOpen || !selectedLevel) return null;
-
   const levelInfo = availableLevels.find(l => l.level === selectedLevel);
-  if (!levelInfo) return null;
 
   // 개선된 메타데이터 로딩 - 서비스 사용
   useEffect(() => {
@@ -48,6 +45,8 @@ export const StageSelectionModal: React.FC<StageSelectionModalProps> = ({
       setIsLoading(false);
     }
   }, [selectedStageNum, selectedLevel]);
+
+  if (!isStageModalOpen || !selectedLevel) return null;
 
   const handleStageHover = (stage: number) => {
     setSelectedStageNum(stage);
@@ -82,39 +81,39 @@ export const StageSelectionModal: React.FC<StageSelectionModalProps> = ({
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
       {/* 개선된 모달 - 설정 기반 크기 */}
-      <div className={`bg-gradient-to-br from-blue-50 via-white to-purple-50 rounded-xl shadow-2xl ${maxWidth} w-full ${maxHeight} overflow-y-auto`}>
+      <div className={`bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-800 dark:via-gray-900 dark:to-gray-800 rounded-xl shadow-2xl ${maxWidth} w-full ${maxHeight} overflow-y-auto transition-colors duration-300`}>
         
         {/* Header - 스피킹 화면 스타일의 깔끔함 + 홈화면의 통통튀는 느낌 */}
-        <div className="bg-gradient-to-r from-blue-50 to-purple-50 border-b border-blue-200 p-6 rounded-t-xl shadow-sm">
+        <div className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-gray-700 dark:to-gray-800 border-b border-blue-200 dark:border-gray-600 p-6 rounded-t-xl shadow-sm transition-colors duration-300">
           <div className="flex items-center justify-between">
             <div>
-              <h2 className="text-2xl font-bold text-gray-800">Level {selectedLevel}</h2>
-              <h3 className="text-lg text-gray-600">{levelInfo.title}</h3>
-              <p className="text-sm text-gray-500 mt-1">{levelInfo.description}</p>
+              <h2 className="text-2xl font-bold text-gray-800 dark:text-white">Level {selectedLevel}</h2>
+              <h3 className="text-lg text-gray-600 dark:text-gray-300">{levelInfo?.title}</h3>
+              <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">{levelInfo?.description}</p>
             </div>
             <button
               onClick={handleClose}
-              className="text-gray-400 hover:text-gray-600 transition-colors text-3xl font-light"
+              className="text-gray-400 dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-300 transition-colors text-3xl font-light"
             >
               ×
             </button>
           </div>
         </div>
 
-        <div className="p-8">
+        <div className="p-8 bg-white dark:bg-gray-900 transition-colors duration-300">
           {/* 제목 - 스피킹 화면의 깔끔한 스타일 */}
           <div className="text-center mb-6">
-            <h4 className="text-xl font-bold text-gray-800 mb-2">
+            <h4 className="text-xl font-bold text-gray-800 dark:text-white mb-2">
               스테이지를 선택하세요
             </h4>
-            <p className="text-gray-600">총 {levelInfo.stages}개 스테이지로 구성되어 있습니다</p>
+            <p className="text-gray-600 dark:text-gray-300">총 {levelInfo?.stages}개 스테이지로 구성되어 있습니다</p>
           </div>
 
           {/* 3단계 선택 버튼 */}
           <div className="mb-8">
             <div className="text-center mb-4">
-              <h5 className="text-lg font-semibold text-gray-700 mb-2">학습 단계 선택</h5>
-              <p className="text-sm text-gray-500">속도에 따라 단계를 선택하세요</p>
+              <h5 className="text-lg font-semibold text-gray-700 dark:text-gray-300 mb-2">학습 단계 선택</h5>
+              <p className="text-sm text-gray-500 dark:text-gray-400">속도에 따라 단계를 선택하세요</p>
             </div>
             
             <div className="grid grid-cols-3 gap-4 max-w-md mx-auto">
@@ -122,49 +121,49 @@ export const StageSelectionModal: React.FC<StageSelectionModalProps> = ({
                 onClick={() => setSpeakingStage(1)}
                 className={`p-4 rounded-lg border-2 transition-all duration-200 ${
                   speakingStage === 1
-                    ? 'border-green-500 bg-green-50 text-green-700'
-                    : 'border-gray-300 hover:border-green-300 hover:bg-green-50'
+                    ? 'border-green-500 bg-green-50 dark:bg-green-900 text-green-700 dark:text-green-300'
+                    : 'border-gray-300 dark:border-gray-600 hover:border-green-300 dark:hover:border-green-500 hover:bg-green-50 dark:hover:bg-green-900 text-gray-700 dark:text-gray-300'
                 }`}
               >
                 <div className="text-lg font-bold mb-1">1단계</div>
-                <div className="text-xs text-gray-600">3초 응답</div>
+                <div className="text-xs text-gray-600 dark:text-gray-400">3초 응답</div>
               </button>
               
               <button
                 onClick={() => setSpeakingStage(2)}
                 className={`p-4 rounded-lg border-2 transition-all duration-200 ${
                   speakingStage === 2
-                    ? 'border-blue-500 bg-blue-50 text-blue-700'
-                    : 'border-gray-300 hover:border-blue-300 hover:bg-blue-50'
+                    ? 'border-blue-500 bg-blue-50 dark:bg-blue-900 text-blue-700 dark:text-blue-300'
+                    : 'border-gray-300 dark:border-gray-600 hover:border-blue-300 dark:hover:border-blue-500 hover:bg-blue-50 dark:hover:bg-blue-900 text-gray-700 dark:text-gray-300'
                 }`}
               >
                 <div className="text-lg font-bold mb-1">2단계</div>
-                <div className="text-xs text-gray-600">2초 응답</div>
+                <div className="text-xs text-gray-600 dark:text-gray-400">2초 응답</div>
               </button>
               
               <button
                 onClick={() => setSpeakingStage(3)}
                 className={`p-4 rounded-lg border-2 transition-all duration-200 ${
                   speakingStage === 3
-                    ? 'border-purple-500 bg-purple-50 text-purple-700'
-                    : 'border-gray-300 hover:border-purple-300 hover:bg-purple-50'
+                    ? 'border-purple-500 bg-purple-50 dark:bg-purple-900 text-purple-700 dark:text-purple-300'
+                    : 'border-gray-300 dark:border-gray-600 hover:border-purple-300 dark:hover:border-purple-500 hover:bg-purple-50 dark:hover:bg-purple-900 text-gray-700 dark:text-gray-300'
                 }`}
               >
                 <div className="text-lg font-bold mb-1">3단계</div>
-                <div className="text-xs text-gray-600">1초 응답</div>
+                <div className="text-xs text-gray-600 dark:text-gray-400">1초 응답</div>
               </button>
             </div>
             
             <div className="text-center mt-3">
-              <p className="text-xs text-gray-500">
-                현재 선택: <span className="font-semibold text-gray-700">{speakingStage}단계 ({speakingStage === 1 ? '3초' : speakingStage === 2 ? '2초' : '1초'} 응답)</span>
+              <p className="text-xs text-gray-500 dark:text-gray-400">
+                현재 선택: <span className="font-semibold text-gray-700 dark:text-gray-300">{speakingStage}단계 ({speakingStage === 1 ? '3초' : speakingStage === 2 ? '2초' : '1초'} 응답)</span>
               </p>
             </div>
           </div>
           
           {/* 모듈화된 스테이지 그리드 */}
           <StageGrid
-            stages={levelInfo.stages}
+            stages={levelInfo?.stages || 0}
             currentLevel={selectedLevel}
             currentStage={user.stage}
             selectedStage={selectedStageNum}

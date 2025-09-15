@@ -1,99 +1,183 @@
 /**
- * useAudioManager - TTS 및 오디오 관리 훅
+ * useAudioManager - TTS 및 오디오 관리 훅 (플러그인 기반)
+ * - 플러그인 아키텍처를 통한 TTS 관리
+ * - 고급 TTS 설정 지원  
+ * - 자연스러운 음성 출력
+ * - 개인화된 음성 설정 적용
  */
 
-import { useCallback } from 'react';
+import { useCallback, useEffect, useState } from 'react';
+import { useLocalStorage, STORAGE_KEYS, type VoiceSettings } from './useLocalStorage';
+import { getSpeechPlugin, type ISpeechPlugin } from '@/plugins';
+import { NonEmptyString } from '@/types/core';
 
 interface UseAudioManagerReturn {
   playKoreanTTS: (text: string) => Promise<void>;
-  playBeepSound: (type?: 'start' | 'countdown' | 'recognition') => void;
+  playEnglishTTS: (text: string) => Promise<void>;
+  playBeepSound: (type?: 'start' | 'countdown' | 'recognition') => Promise<void>;
+  stopAllAudio: () => void;
+  isPlaying: boolean;
 }
 
 export const useAudioManager = (): UseAudioManagerReturn => {
+  const { value: voiceSettings } = useLocalStorage(STORAGE_KEYS.VOICE_SETTINGS);
+  const [speechPlugin, setSpeechPlugin] = useState<ISpeechPlugin | null>(null);
+  const [isPlayingState, setIsPlayingState] = useState(false);
+
+  // 플러그인 초기화
+  useEffect(() => {
+    const initializePlugin = async () => {
+      try {
+        const plugin = await getSpeechPlugin();
+        if (plugin) {
+          setSpeechPlugin(plugin);
+          console.log('🔊 SpeechPlugin 초기화 완료');
+        }
+      } catch (error) {
+        console.error('❌ SpeechPlugin 초기화 실패:', error);
+      }
+    };
+
+    initializePlugin();
+  }, []);
+
+
   /**
-   * 한국어 TTS 재생
+   * 한국어 TTS 재생 - 100% 플러그인 기반
    */
-  const playKoreanTTS = useCallback((text: string): Promise<void> => {
-    return new Promise((resolve) => {
-      if (!('speechSynthesis' in window)) {
-        console.error('❌ Speech Synthesis API 지원 안함');
-        resolve();
+  const playKoreanTTS = useCallback(async (text: string): Promise<void> => {
+    if (!voiceSettings.koreanEnabled) {
+      console.log('🔇 한국어 음성이 비활성화됨');
+      return;
+    }
+
+    if (!speechPlugin) {
+      console.warn('⚠️ SpeechPlugin 미초기화 - 한국어 TTS 스킵');
+      return;
+    }
+
+    try {
+      // 기존 음성 중단
+      speechPlugin.stopAll();
+      
+      // 플러그인을 통한 TTS 실행
+      const result = await speechPlugin.speakText(text as NonEmptyString, {
+        language: 'ko-KR' as NonEmptyString,
+        rate: voiceSettings.speed,
+        volume: voiceSettings.volume,
+        pitch: voiceSettings.pitch
+      });
+
+      if (result.isErr) {
+        console.error('❌ 한국어 TTS 플러그인 오류:', result.error);
+        // 플러그인 실패 시에도 폴백하지 않음 (100% 플러그인 원칙)
         return;
       }
 
-      speechSynthesis.cancel();
-      
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = 'ko-KR';
-      utterance.rate = 0.9;
-      utterance.pitch = 1.0;
-      utterance.volume = 0.8;
-
-      // 한국어 음성 선택
-      const voices = speechSynthesis.getVoices();
-      const koreanVoice = voices.find(voice => 
-        voice.lang.includes('ko') || voice.lang.includes('KR')
-      );
-      
-      if (koreanVoice) {
-        utterance.voice = koreanVoice;
-        console.log(`🔊 한국어 음성 선택: ${koreanVoice.name}`);
-      }
-
-      utterance.onend = () => {
-        console.log('🔊 한국어 TTS 완료');
-        resolve();
-      };
-
-      utterance.onerror = (e) => {
-        console.error('❌ 한국어 TTS 오류:', e);
-        resolve();
-      };
-
-      // 타임아웃 안전장치 (5초)
-      setTimeout(() => {
-        console.log('🔊 한국어 TTS 타임아웃 - 강제 resolve');
-        resolve();
-      }, 5000);
-
-      speechSynthesis.speak(utterance);
-    });
-  }, []);
+      console.log('🔊 한국어 TTS 완료 (플러그인)');
+    } catch (error) {
+      console.error('❌ 한국어 TTS 예외:', error);
+    }
+  }, [speechPlugin, voiceSettings]);
 
   /**
-   * 삐소리 재생 함수 (Web Audio API)
+   * 영어 TTS 재생 - 100% 플러그인 기반
    */
-  const playBeepSound = useCallback((type: 'start' | 'countdown' | 'recognition' = 'start'): void => {
-    try {
-      const audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
-      const oscillator = audioContext.createOscillator();
-      const gainNode = audioContext.createGain();
-      
-      oscillator.connect(gainNode);
-      gainNode.connect(audioContext.destination);
-      
-      const frequencies = {
-        start: 800,        // 시작 삐소리
-        countdown: 600,    // 카운트다운 삐소리
-        recognition: 1000  // 인식 시작 삐소리
-      };
-      
-      oscillator.frequency.setValueAtTime(frequencies[type], audioContext.currentTime);
-      oscillator.type = 'sine';
-      gainNode.gain.setValueAtTime(0.1, audioContext.currentTime);
-      gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.2);
-      
-      oscillator.start(audioContext.currentTime);
-      oscillator.stop(audioContext.currentTime + 0.2);
-      
-      console.log(`🔊 ${type} 삐소리 재생`);
-    } catch (error) {
-      console.error('❌ 삐소리 재생 오류:', error);
+  const playEnglishTTS = useCallback(async (text: string): Promise<void> => {
+    if (!voiceSettings.englishEnabled) {
+      console.log('🔇 영어 음성이 비활성화됨');
+      return;
     }
-  }, []);
+
+    if (!speechPlugin) {
+      console.warn('⚠️ SpeechPlugin 미초기화 - 영어 TTS 스킵');
+      return;
+    }
+
+    try {
+      // 기존 음성 중단
+      speechPlugin.stopAll();
+      
+      // 플러그인을 통한 TTS 실행
+      const result = await speechPlugin.speakText(text as NonEmptyString, {
+        language: 'en-US' as NonEmptyString,
+        rate: voiceSettings.speed,
+        volume: voiceSettings.volume,
+        pitch: voiceSettings.pitch
+      });
+
+      if (result.isErr) {
+        console.error('❌ 영어 TTS 플러그인 오류:', result.error);
+        // 플러그인 실패 시에도 폴백하지 않음 (100% 플러그인 원칙)
+        return;
+      }
+
+      console.log('🔊 영어 TTS 완료 (플러그인)');
+    } catch (error) {
+      console.error('❌ 영어 TTS 예외:', error);
+    }
+  }, [speechPlugin, voiceSettings]);
+
+  /**
+   * 모든 음성 재생 중단 - 100% 플러그인 기반
+   */
+  const stopAllAudio = useCallback((): void => {
+    if (!speechPlugin) {
+      console.warn('⚠️ SpeechPlugin 미초기화 - 음성 중단 불가');
+      return;
+    }
+
+    const result = speechPlugin.stopAll();
+    if (result.isErr) {
+      console.error('❌ 플러그인 음성 중단 오류:', result.error);
+    }
+  }, [speechPlugin]);
+
+  // 음성 재생 상태를 실시간으로 업데이트
+  useEffect(() => {
+    if (!speechPlugin) return;
+    
+    const checkPlayingStatus = () => {
+      const currentlyPlaying = speechPlugin.isProcessing();
+      setIsPlayingState(currentlyPlaying);
+    };
+    
+    // 100ms마다 재생 상태 확인
+    const interval = setInterval(checkPlayingStatus, 100);
+    return () => clearInterval(interval);
+  }, [speechPlugin]);
+
+  /**
+   * 삐소리 재생 함수 - 100% 플러그인 기반
+   */
+  const playBeepSound = useCallback(async (type: 'start' | 'countdown' | 'recognition' = 'start'): Promise<void> => {
+    if (!speechPlugin) {
+      console.warn('⚠️ SpeechPlugin 미초기화 - 삐소리 재생 불가');
+      return;
+    }
+
+    const frequencies = {
+      start: 800,
+      countdown: 600,
+      recognition: 1000
+    };
+    
+    const result = await speechPlugin.playBeep({
+      frequency: frequencies[type],
+      duration: 200,
+      volume: 0.1
+    });
+    
+    if (result.isErr) {
+      console.error('❌ 플러그인 삐소리 재생 오류:', result.error);
+    }
+  }, [speechPlugin]);
 
   return {
     playKoreanTTS,
-    playBeepSound
+    playEnglishTTS,
+    playBeepSound,
+    stopAllAudio,
+    isPlaying: isPlayingState
   };
 };

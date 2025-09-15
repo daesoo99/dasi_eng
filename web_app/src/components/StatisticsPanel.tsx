@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { useSpacedRepetition } from '@/hooks/useSpacedRepetition';
+import { useSRSEngine } from '@/hooks/useSRSEngine';
 
 export interface StatisticsPanelProps {
   className?: string;
@@ -16,7 +16,14 @@ export const StatisticsPanel: React.FC<StatisticsPanelProps> = ({
   currentScore = 0,
   sessionStartTime
 }) => {
-  const { stats, mistakeCount, reviewCount, masteredCount } = useSpacedRepetition();
+  // 🔧 새 SRS 시스템 사용
+  const srsEngine = useSRSEngine({ userId: 'current-user' });
+
+  // 레거시 API와의 호환성을 위한 어댑터 로직
+  const stats = srsEngine.stats;
+  const mistakeCount = srsEngine.stats.totalReviews - srsEngine.stats.correctReviews;
+  const reviewCount = srsEngine.stats.totalReviews;
+  const masteredCount = srsEngine.cards.filter(card => card.memory.interval > 14).length;
 
   // Current session calculations
   const currentProgress = totalQuestions > 0 ? Math.round((currentQuestionIndex / totalQuestions) * 100) : 0;

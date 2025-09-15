@@ -77,7 +77,11 @@
       "Bash(done)",
       "Bash(jq:*)",
       "Bash(do echo -n \"$file: \")",
-      "mcp__playwright__browser_type"
+      "mcp__playwright__browser_type",
+      "Bash(npm audit:*)",
+      "Bash(npm update firebase)",
+      "Bash(npx eslint:*)",
+      "Bash(timeout 60 npm run build)"
     ],
     "deny": [],
     "ask": [],

@@ -15,16 +15,16 @@ const ProgressManagementPage: React.FC = () => {
       case 'detailed':
         return (
           <div className="max-w-6xl mx-auto p-6">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">📋 상세 진도 분석</h2>
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white dark:text-white mb-6">📋 상세 진도 분석</h2>
             
             {/* 스테이지별 상세 분석 */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
               {/* 완료율 분포 */}
-              <div className="bg-white border border-gray-200 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-4">📊 완료율 분포</h3>
+              <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-6 transition-colors duration-300">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white dark:text-white mb-4">📊 완료율 분포</h3>
                 <div className="space-y-4">
                   <div className="flex items-center justify-between">
-                    <span className="text-sm text-gray-600">90% 이상 (마스터)</span>
+                    <span className="text-sm text-gray-600 dark:text-gray-300">90% 이상 (마스터)</span>
                     <div className="flex items-center gap-2">
                       <div className="w-24 bg-gray-200 rounded-full h-2">
                         <div className="bg-green-500 h-2 rounded-full" style={{ width: '35%' }}></div>
@@ -33,7 +33,7 @@ const ProgressManagementPage: React.FC = () => {
                     </div>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span className="text-sm text-gray-600">70-89% (완료)</span>
+                    <span className="text-sm text-gray-600 dark:text-gray-300">70-89% (완료)</span>
                     <div className="flex items-center gap-2">
                       <div className="w-24 bg-gray-200 rounded-full h-2">
                         <div className="bg-blue-500 h-2 rounded-full" style={{ width: '45%' }}></div>
@@ -42,7 +42,7 @@ const ProgressManagementPage: React.FC = () => {
                     </div>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span className="text-sm text-gray-600">50-69% (진행중)</span>
+                    <span className="text-sm text-gray-600 dark:text-gray-300">50-69% (진행중)</span>
                     <div className="flex items-center gap-2">
                       <div className="w-24 bg-gray-200 rounded-full h-2">
                         <div className="bg-yellow-500 h-2 rounded-full" style={{ width: '20%' }}></div>
@@ -51,7 +51,7 @@ const ProgressManagementPage: React.FC = () => {
                     </div>
                   </div>
                   <div className="flex items-center justify-between">
-                    <span className="text-sm text-gray-600">50% 미만 (시작)</span>
+                    <span className="text-sm text-gray-600 dark:text-gray-300">50% 미만 (시작)</span>
                     <div className="flex items-center gap-2">
                       <div className="w-24 bg-gray-200 rounded-full h-2">
                         <div className="bg-red-500 h-2 rounded-full" style={{ width: '15%' }}></div>
@@ -63,29 +63,29 @@ const ProgressManagementPage: React.FC = () => {
               </div>
 
               {/* 학습 패턴 */}
-              <div className="bg-white border border-gray-200 rounded-lg p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-4">⏰ 학습 패턴</h3>
+              <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg transition-colors duration-300 p-6">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">⏰ 학습 패턴</h3>
                 <div className="space-y-4">
                   <div>
-                    <div className="flex justify-between text-sm text-gray-600 mb-1">
+                    <div className="flex justify-between text-sm text-gray-600 dark:text-gray-300 mb-1">
                       <span>가장 활발한 시간</span>
                       <span className="font-medium text-blue-600">오후 7-9시</span>
                     </div>
                   </div>
                   <div>
-                    <div className="flex justify-between text-sm text-gray-600 mb-1">
+                    <div className="flex justify-between text-sm text-gray-600 dark:text-gray-300 mb-1">
                       <span>평균 세션 시간</span>
                       <span className="font-medium text-green-600">25분</span>
                     </div>
                   </div>
                   <div>
-                    <div className="flex justify-between text-sm text-gray-600 mb-1">
+                    <div className="flex justify-between text-sm text-gray-600 dark:text-gray-300 mb-1">
                       <span>주간 학습 일수</span>
                       <span className="font-medium text-purple-600">5.2일</span>
                     </div>
                   </div>
                   <div>
-                    <div className="flex justify-between text-sm text-gray-600 mb-1">
+                    <div className="flex justify-between text-sm text-gray-600 dark:text-gray-300 mb-1">
                       <span>연속 학습 기록</span>
                       <span className="font-medium text-orange-600">12일</span>
                     </div>
@@ -95,8 +95,8 @@ const ProgressManagementPage: React.FC = () => {
             </div>
 
             {/* 월별 진도 그래프 */}
-            <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">📈 월별 진도 변화</h3>
+            <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg transition-colors duration-300 p-6">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">📈 월별 진도 변화</h3>
               <div className="h-64 flex items-end justify-between gap-2">
                 {['1월', '2월', '3월', '4월', '5월', '6월'].map((month, index) => {
                   const height = Math.random() * 200 + 20;
@@ -109,7 +109,7 @@ const ProgressManagementPage: React.FC = () => {
                           style={{ height: `${(height / 200) * 100}%`, marginTop: 'auto' }}
                         ></div>
                       </div>
-                      <div className="text-xs text-gray-600 mt-2">{month}</div>
+                      <div className="text-xs text-gray-600 dark:text-gray-300 mt-2">{month}</div>
                       <div className="text-xs font-medium text-blue-600">{completedStages}개</div>
                     </div>
                   );
@@ -122,31 +122,31 @@ const ProgressManagementPage: React.FC = () => {
       case 'analytics':
         return (
           <div className="max-w-6xl mx-auto p-6">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">🔍 고급 분석</h2>
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">🔍 고급 분석</h2>
             
             {/* 실력 변화 추이 */}
-            <div className="bg-white border border-gray-200 rounded-lg p-6 mb-8">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">📊 실력 변화 추이</h3>
+            <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg transition-colors duration-300 p-6 mb-8">
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">📊 실력 변화 추이</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <h4 className="font-medium text-gray-700 mb-3">정확도 변화</h4>
+                  <h4 className="font-medium text-gray-700 dark:text-gray-300 mb-3">정확도 변화</h4>
                   <div className="space-y-3">
                     <div className="flex items-center justify-between">
-                      <span className="text-sm text-gray-600">이번 주</span>
+                      <span className="text-sm text-gray-600 dark:text-gray-300">이번 주</span>
                       <div className="flex items-center gap-2">
                         <span className="text-sm font-medium">85%</span>
                         <span className="text-xs text-green-600">↗ +3%</span>
                       </div>
                     </div>
                     <div className="flex items-center justify-between">
-                      <span className="text-sm text-gray-600">지난 주</span>
+                      <span className="text-sm text-gray-600 dark:text-gray-300">지난 주</span>
                       <div className="flex items-center gap-2">
                         <span className="text-sm font-medium">82%</span>
                         <span className="text-xs text-green-600">↗ +1%</span>
                       </div>
                     </div>
                     <div className="flex items-center justify-between">
-                      <span className="text-sm text-gray-600">이번 달 평균</span>
+                      <span className="text-sm text-gray-600 dark:text-gray-300">이번 달 평균</span>
                       <div className="flex items-center gap-2">
                         <span className="text-sm font-medium">83%</span>
                         <span className="text-xs text-green-600">↗ +5%</span>
@@ -156,24 +156,24 @@ const ProgressManagementPage: React.FC = () => {
                 </div>
                 
                 <div>
-                  <h4 className="font-medium text-gray-700 mb-3">응답 속도 변화</h4>
+                  <h4 className="font-medium text-gray-700 dark:text-gray-300 mb-3">응답 속도 변화</h4>
                   <div className="space-y-3">
                     <div className="flex items-center justify-between">
-                      <span className="text-sm text-gray-600">이번 주</span>
+                      <span className="text-sm text-gray-600 dark:text-gray-300">이번 주</span>
                       <div className="flex items-center gap-2">
                         <span className="text-sm font-medium">4.2초</span>
                         <span className="text-xs text-blue-600">↘ -0.3초</span>
                       </div>
                     </div>
                     <div className="flex items-center justify-between">
-                      <span className="text-sm text-gray-600">지난 주</span>
+                      <span className="text-sm text-gray-600 dark:text-gray-300">지난 주</span>
                       <div className="flex items-center gap-2">
                         <span className="text-sm font-medium">4.5초</span>
                         <span className="text-xs text-blue-600">↘ -0.2초</span>
                       </div>
                     </div>
                     <div className="flex items-center justify-between">
-                      <span className="text-sm text-gray-600">이번 달 평균</span>
+                      <span className="text-sm text-gray-600 dark:text-gray-300">이번 달 평균</span>
                       <div className="flex items-center gap-2">
                         <span className="text-sm font-medium">4.7초</span>
                         <span className="text-xs text-blue-600">↘ -0.8초</span>
@@ -186,13 +186,13 @@ const ProgressManagementPage: React.FC = () => {
 
             {/* 학습 권장사항 */}
             <div className="bg-gradient-to-r from-blue-50 to-purple-50 border border-blue-200 rounded-lg p-6">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">💡 개인 맞춤 학습 권장사항</h3>
+              <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">💡 개인 맞춤 학습 권장사항</h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <span className="text-green-500 text-xl">🎯</span>
                   <div>
-                    <h4 className="font-medium text-gray-900">집중 학습 영역</h4>
-                    <p className="text-sm text-gray-600">
+                    <h4 className="font-medium text-gray-900 dark:text-white">집중 학습 영역</h4>
+                    <p className="text-sm text-gray-600 dark:text-gray-300">
                       Level 3의 관계대명사와 Level 4의 비즈니스 표현에서 정확도가 낮습니다. 
                       이 영역을 집중적으로 복습하는 것을 권장합니다.
                     </p>
@@ -202,8 +202,8 @@ const ProgressManagementPage: React.FC = () => {
                 <div className="flex items-start gap-3">
                   <span className="text-blue-500 text-xl">⏰</span>
                   <div>
-                    <h4 className="font-medium text-gray-900">최적 학습 시간</h4>
-                    <p className="text-sm text-gray-600">
+                    <h4 className="font-medium text-gray-900 dark:text-white">최적 학습 시간</h4>
+                    <p className="text-sm text-gray-600 dark:text-gray-300">
                       오후 7-9시에 가장 좋은 성과를 보이고 있습니다. 
                       이 시간대에 어려운 내용을 학습하시면 더 효과적입니다.
                     </p>
@@ -213,8 +213,8 @@ const ProgressManagementPage: React.FC = () => {
                 <div className="flex items-start gap-3">
                   <span className="text-purple-500 text-xl">📚</span>
                   <div>
-                    <h4 className="font-medium text-gray-900">학습량 조절</h4>
-                    <p className="text-sm text-gray-600">
+                    <h4 className="font-medium text-gray-900 dark:text-white">학습량 조절</h4>
+                    <p className="text-sm text-gray-600 dark:text-gray-300">
                       현재 일일 25분씩 학습하고 있습니다. 
                       조금 더 늘려서 30-35분으로 하면 더 빠른 진전을 볼 수 있습니다.
                     </p>
@@ -231,21 +231,21 @@ const ProgressManagementPage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
       {/* 헤더 */}
-      <div className="bg-white border-b border-gray-200">
+      <div className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 transition-colors duration-300">
         <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex items-center gap-4 mb-4">
             <button
               onClick={() => navigate('/')}
-              className="flex items-center gap-2 px-3 py-2 text-gray-600 hover:text-indigo-600 hover:bg-gray-50 rounded-lg transition-colors"
+              className="flex items-center gap-2 px-3 py-2 text-gray-600 dark:text-gray-300 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-lg transition-colors"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
               </svg>
               뒤로가기
             </button>
-            <h1 className="text-2xl font-bold text-gray-900">📊 진도 관리</h1>
+            <h1 className="text-2xl font-bold text-gray-900 dark:text-white dark:text-white">📊 진도 관리</h1>
           </div>
           
           {/* 탭 네비게이션 */}
@@ -261,7 +261,7 @@ const ProgressManagementPage: React.FC = () => {
                 className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
                   activeTab === tab.key
                     ? 'bg-blue-600 text-white'
-                    : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
+                    : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:text-white hover:bg-gray-100'
                 }`}
               >
                 {tab.icon} {tab.label}

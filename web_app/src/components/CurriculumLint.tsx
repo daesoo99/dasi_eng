@@ -6,7 +6,7 @@
  */
 
 import React, { useState, useEffect } from 'react';
-import { curriculumLintService, LintReport, LintIssue } from '../services/curriculumLint';
+import { curriculumLintService, LintReport } from '../services/curriculumLint';
 import { logger, LogCategory } from '../utils/index';
 
 interface LintState {

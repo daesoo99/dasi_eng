@@ -25,8 +25,8 @@ export const StageGrid: React.FC<StageGridProps> = ({
   onStageSelect,
 }) => {
   const stageNumbers = Array.from({ length: stages }, (_, i) => i + 1);
-  const { columns, gap } = STAGE_CONFIG.gridLayout;
-  const { width, height } = STAGE_CONFIG.buttonSizes.stage;
+  const { columns: _columns, gap: _gap } = STAGE_CONFIG.gridLayout;
+  const { width: _width, height: _height } = STAGE_CONFIG.buttonSizes.stage;
 
   return (
     <div className="grid grid-cols-8 gap-4 mb-8 justify-items-center">

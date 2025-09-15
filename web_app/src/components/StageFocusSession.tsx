@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useCallback } from 'react';
-import { stageFocusService, type StageFocusSettings, type StageFocusSession, type StageFocusQuestion, type SpeedLevel } from '@/services/stageFocusMode';
+import React, { useState, useEffect } from 'react';
+import { stageFocusService, type StageFocusSettings, type StageFocusSession, type SpeedLevel } from '@/services/stageFocusMode';
 
 interface StageFocusSessionProps {
   userId: string;
@@ -134,13 +134,42 @@ export const StageFocusSessionComponent: React.FC<StageFocusSessionProps> = ({
     }
   };
 
-  // TTS 함수 (실제 구현에서는 Web Speech API 또는 외부 TTS 서비스 사용)
-  const speakText = (text: string) => {
-    if ('speechSynthesis' in window) {
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = 'en-US';
-      utterance.rate = 0.9;
-      speechSynthesis.speak(utterance);
+  // 🔧 플러그인 시스템을 통한 TTS 구현
+  const speakText = async (text: string) => {
+    try {
+      // ServiceContainer를 통해 speechService 사용
+      const serviceContainer = (await import('@/container/ServiceContainer')).default;
+      const container = serviceContainer.getInstanceSync();
+      const speechService = container.getSpeechProcessingService();
+
+      await speechService.speakAnswer(text, {
+        language: 'en-US',
+        rate: 0.9,
+        volume: 1.0,
+        pitch: 1.0
+      });
+    } catch (error) {
+      console.error('[StageFocusSession] Speech service error:', error);
+
+      // 🔧 플러그인 fallback: AdvancedSpeechPlugin 시도
+      try {
+        const serviceContainer = (await import('@/container/ServiceContainer')).default;
+        const container = serviceContainer.getInstanceSync();
+        const advancedPlugin = container.getAdvancedSpeechPlugin();
+
+        if (advancedPlugin) {
+          await advancedPlugin.speakText(text, {
+            language: 'en-US',
+            rate: 0.9,
+            volume: 1.0,
+            pitch: 1.0
+          });
+        } else {
+          throw new Error('No speech plugins available');
+        }
+      } catch (pluginError) {
+        console.error('[StageFocusSession] All speech plugins failed:', pluginError);
+      }
     }
   };
 

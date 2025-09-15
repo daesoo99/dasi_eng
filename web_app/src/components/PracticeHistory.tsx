@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useCallback, useMemo, memo } from 'react';
+import React, { useState, useEffect, useRef, useCallback, memo } from 'react';
 import { interviewStorage, InterviewRecord } from '../services/interviewStorage.ts';
 import { webSpeechAPI } from '../services/webSpeechAPI.ts';
 

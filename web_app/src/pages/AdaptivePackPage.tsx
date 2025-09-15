@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useUser, useAppStore, useLearningMode } from '@/store/useAppStore';
 import { adaptivePackService, type AdaptivePack, type LearningAnalytics, type AdaptivePackCard } from '@/services/adaptivePackService';
-import { srsService } from '@/services/srsService';
+import { useSRSEngine } from '@/hooks/useSRSEngine';
 import { WritingModeInput } from '@/components/WritingModeInput';
 import { WritingModeFeedback } from '@/components/WritingModeFeedback';
 import { SpeechRecorder } from '@/components/SpeechRecorder';
@@ -179,11 +179,13 @@ export const AdaptivePackPage: React.FC = () => {
           else quality = 3;
         }
 
-        await srsService.updateCardAfterReview(user.id, currentCard.cardId, {
-          quality,
-          responseTime,
-          isCorrect
-        });
+        // TODO: Migrate to new SRS Engine system
+        // const srsEngine = useSRSEngine();
+        // await srsEngine.updateCard(currentCard.cardId, {
+        //   quality,
+        //   responseTime,
+        //   isCorrect
+        // });
       }
 
       // Play TTS if available and answer was incorrect

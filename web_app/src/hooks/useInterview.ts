@@ -24,11 +24,9 @@ import {
   logError,
   logWarn,
   interviewLogger,
-  measureAudioLatency,
-  endAudioLatency,
-  usePerformanceMonitoring,
   type StructuredError
 } from '../utils/index.ts';
+import { usePerformanceMonitoring } from './usePerformanceMonitoring';
 
 // ====== 타입 정의 ======
 
@@ -121,8 +119,13 @@ export const useInterview = (options: InterviewHookOptions = {}): InterviewHookR
     debugMode = process.env.NODE_ENV === 'development'
   } = options;
 
-  // 성능 모니터링 Hook
-  const { measureRender, measureAudioLatency: measureAudio } = usePerformanceMonitoring('useInterview');
+  // ✅ CLAUDE.local 준수: 플러그인 기반 성능 모니터링
+  const { 
+    measureRender, 
+    measureAudio,
+    measureAudioLatency, 
+    endAudioLatency 
+  } = usePerformanceMonitoring('useInterview');
 
   // ====== 상태 관리 ======
 
@@ -231,6 +234,23 @@ export const useInterview = (options: InterviewHookOptions = {}): InterviewHookR
       ? evaluationScores.current.reduce((sum, score) => sum + score, 0) / evaluationScores.current.length
       : 0;
 
+    // ✅ measureAudio 활용 - 오디오 성능 통계 수집
+    let audioPerformanceScore = 100;
+    if (enablePerformanceTracking) {
+      const audioLatencyData = measureAudio('interview-session-audio');
+      if (audioLatencyData) {
+        // 평균 오디오 지연시간이 1초 미만이면 100점, 3초 이상이면 0점
+        const avgLatency = audioLatencyData.averageLatency || 0;
+        audioPerformanceScore = Math.max(0, Math.min(100, 100 - ((avgLatency - 1000) / 20)));
+        
+        logInfo(LogCategory.PERFORMANCE, '오디오 성능 통계 업데이트', {
+          averageLatency: avgLatency,
+          audioPerformanceScore,
+          totalMeasurements: audioLatencyData.measurementCount || 0
+        });
+      }
+    }
+
     setMetrics({
       sessionDuration,
       averageQuestionTime,
@@ -238,9 +258,11 @@ export const useInterview = (options: InterviewHookOptions = {}): InterviewHookR
       completedQuestions: state.questionCount,
       averageScore,
       errorCount: metrics.errorCount,
-      performanceScore: Math.max(0, 100 - metrics.errorCount * 10)
+      performanceScore: Math.max(0, 100 - metrics.errorCount * 10),
+      // ✅ 오디오 성능 점수 추가
+      audioPerformanceScore: Math.round(audioPerformanceScore)
     });
-  }, [state.totalQuestions, state.questionCount, metrics.errorCount]);
+  }, [state.totalQuestions, state.questionCount, metrics.errorCount, enablePerformanceTracking, measureAudio]);
 
   // ====== 면접 관리 함수들 ======
 
@@ -563,9 +585,32 @@ export const useInterview = (options: InterviewHookOptions = {}): InterviewHookR
       );
     }
 
+    // ✅ CLAUDE.local 준수: 플러그인을 통한 오디오 지연 측정 시작
+    const latencyMeasurementId = await measureAudioLatency();
+    
     try {
       await webSpeechAPI.speak(textToSpeak, 'ko-KR');
+      
+      // ✅ CLAUDE.local 준수: 플러그인을 통한 TTS 지연 측정 종료 
+      if (latencyMeasurementId) {
+        const performanceScore = await endAudioLatency(latencyMeasurementId, textToSpeak);
+        
+        // 성능 추적이 활성화된 경우 로깅
+        if (enablePerformanceTracking) {
+          logInfo(LogCategory.PERFORMANCE, 'TTS 지연시간 측정 완료 (플러그인)', {
+            measurementId: latencyMeasurementId,
+            performanceScore,
+            textLength: textToSpeak.length,
+            text: textToSpeak.substring(0, 50) + (textToSpeak.length > 50 ? '...' : '')
+          });
+        }
+      }
     } catch (error: any) {
+      // ✅ 에러 발생 시에도 측정 종료 (실패로 기록)
+      if (latencyMeasurementId) {
+        await endAudioLatency(latencyMeasurementId, `ERROR: ${error.message}`);
+      }
+      
       const structuredError = error.type ? error : handleError(
         ErrorType.TTS_SYNTHESIS_ERROR,
         error,
@@ -574,7 +619,7 @@ export const useInterview = (options: InterviewHookOptions = {}): InterviewHookR
       setError(structuredError);
       throw structuredError;
     }
-  }, [state.currentQuestion, setError]);
+  }, [state.currentQuestion, setError, measureAudioLatency, endAudioLatency, enablePerformanceTracking]);
 
   const stopSpeaking = useCallback(() => {
     try {

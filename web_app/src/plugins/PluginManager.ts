@@ -9,6 +9,10 @@ import { pluginLifecycle } from './core/PluginLifecycleManager';
 import { pluginConfig, PluginConfigEntry } from './config/PluginConfig';
 import { ISpeechPlugin } from './speech/ISpeechPlugin';
 import { WebSpeechPluginFactory } from './speech/WebSpeechPluginFactory';
+import { ISpeedTrainingPlugin } from './speed/ISpeedTrainingPlugin';
+import { SpeedTrainingPluginFactory } from './speed/SpeedTrainingPluginFactory';
+import { IPerformancePlugin } from './performance/IPerformancePlugin';
+import { PerformancePluginFactory } from './performance/PerformancePluginFactory';
 import { NonEmptyString, Result, Ok, Err, assertNonEmptyString, isNonEmptyString } from '@/types/core';
 
 // 플러그인 초기화 옵션
@@ -97,6 +101,14 @@ export class PluginManager {
       {
         name: assertNonEmptyString('speech', 'plugin name'),
         factory: new WebSpeechPluginFactory()
+      },
+      {
+        name: assertNonEmptyString('speed-training', 'plugin name'),
+        factory: new SpeedTrainingPluginFactory()
+      },
+      {
+        name: assertNonEmptyString('performance', 'plugin name'),
+        factory: new PerformancePluginFactory()
       }
       // 향후 다른 플러그인들 추가
     ];
@@ -148,6 +160,20 @@ export class PluginManager {
    */
   async getSpeechPlugin(): Promise<Result<ISpeechPlugin>> {
     return this.getPlugin<ISpeechPlugin>('speech');
+  }
+
+  /**
+   * Speed Training 플러그인 가져오기 (타입 안전)
+   */
+  async getSpeedTrainingPlugin(): Promise<Result<ISpeedTrainingPlugin>> {
+    return this.getPlugin<ISpeedTrainingPlugin>('speed-training');
+  }
+
+  /**
+   * Performance 플러그인 가져오기 (타입 안전)
+   */
+  async getPerformancePlugin(): Promise<Result<IPerformancePlugin>> {
+    return this.getPlugin<IPerformancePlugin>('performance');
   }
 
   /**
@@ -402,5 +428,7 @@ export const pluginManager = PluginManager.getInstance();
 
 // 편의 함수들
 export const getSpeechPlugin = () => pluginManager.getSpeechPlugin();
+export const getSpeedTrainingPlugin = () => pluginManager.getSpeedTrainingPlugin();
+export const getPerformancePlugin = () => pluginManager.getPerformancePlugin();
 export const getPlugin = <T extends IPlugin>(name: string) => pluginManager.getPlugin<T>(name);
 export const isPluginAvailable = (name: string) => pluginManager.isPluginAvailable(name);

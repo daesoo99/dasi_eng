@@ -1,0 +1,6433 @@
+{
+  "statistics": {
+    "totalUniqueWords": 326,
+    "level1OnlyWords": 130,
+    "level2OnlyWords": 125,
+    "sharedWords": 71,
+    "categoryDistribution": {
+      "place": 6,
+      "noun": 44,
+      "verb": 41,
+      "other": 191,
+      "adjective": 28,
+      "time": 14,
+      "number": 2
+    },
+    "difficultyDistribution": {
+      "1": 25,
+      "2": 49,
+      "3": 114,
+      "4": 100,
+      "5": 38
+    },
+    "topWords": [
+      {
+        "word": "there",
+        "level1Count": 86,
+        "level2Count": 7,
+        "totalCount": 93,
+        "firstAppearance": 1,
+        "category": "place",
+        "stages": [
+          "Lv1-P4-S13",
+          "Lv1-P4-S14",
+          "Lv2-P4-S16",
+          "Lv2-P5-S17",
+          "Lv2-P5-S18"
+        ],
+        "difficulty": 2,
+        "prevalence": "high"
+      },
+      {
+        "word": "home",
+        "level1Count": 43,
+        "level2Count": 5,
+        "totalCount": 48,
+        "firstAppearance": 1,
+        "category": "noun",
+        "stages": [
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S06",
+          "Lv1-P2-S07",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P3-S11",
+          "Lv1-P3-S12",
+          "Lv1-P4-S13",
+          "Lv1-P4-S15",
+          "Lv1-P4-S16",
+          "Lv2-P1-S02",
+          "Lv2-P2-S05",
+          "Lv2-P2-S07",
+          "Lv2-P3-S11",
+          "Lv2-P4-S13"
+        ],
+        "difficulty": 1,
+        "prevalence": "high"
+      },
+      {
+        "word": "here",
+        "level1Count": 42,
+        "level2Count": 5,
+        "totalCount": 47,
+        "firstAppearance": 1,
+        "category": "place",
+        "stages": [
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P4-S14",
+          "Lv2-P3-S09",
+          "Lv2-P3-S12",
+          "Lv2-P4-S15",
+          "Lv2-P4-S16",
+          "Lv2-P5-S17"
+        ],
+        "difficulty": 2,
+        "prevalence": "high"
+      },
+      {
+        "word": "work",
+        "level1Count": 44,
+        "level2Count": 1,
+        "totalCount": 45,
+        "firstAppearance": 1,
+        "category": "verb",
+        "stages": [
+          "Lv1-P1-S02",
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S06",
+          "Lv1-P2-S07",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P3-S10",
+          "Lv1-P3-S11",
+          "Lv1-P3-S12",
+          "Lv1-P4-S13",
+          "Lv1-P4-S15",
+          "Lv1-P4-S16",
+          "Lv2-P3-S11"
+        ],
+        "difficulty": 1,
+        "prevalence": "high"
+      },
+      {
+        "word": "go",
+        "level1Count": 29,
+        "level2Count": 12,
+        "totalCount": 41,
+        "firstAppearance": 1,
+        "category": "verb",
+        "stages": [
+          "Lv1-P1-S02",
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S07",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P4-S16",
+          "Lv2-P2-S05",
+          "Lv2-P2-S06",
+          "Lv2-P2-S07",
+          "Lv2-P3-S10",
+          "Lv2-P3-S11",
+          "Lv2-P3-S12",
+          "Lv2-P4-S13",
+          "Lv2-P4-S14",
+          "Lv2-P4-S16"
+        ],
+        "difficulty": 1,
+        "prevalence": "high"
+      },
+      {
+        "word": "school",
+        "level1Count": 37,
+        "level2Count": 4,
+        "totalCount": 41,
+        "firstAppearance": 1,
+        "category": "noun",
+        "stages": [
+          "Lv1-P1-S02",
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S06",
+          "Lv1-P2-S07",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P3-S10",
+          "Lv1-P3-S11",
+          "Lv1-P3-S12",
+          "Lv1-P4-S13",
+          "Lv1-P4-S15",
+          "Lv1-P4-S16",
+          "Lv2-P2-S05",
+          "Lv2-P2-S07",
+          "Lv2-P4-S13",
+          "Lv2-P4-S14"
+        ],
+        "difficulty": 1,
+        "prevalence": "high"
+      },
+      {
+        "word": "friend",
+        "level1Count": 31,
+        "level2Count": 5,
+        "totalCount": 36,
+        "firstAppearance": 1,
+        "category": "noun",
+        "stages": [
+          "Lv1-P1-S01",
+          "Lv1-P1-S02",
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S06",
+          "Lv1-P2-S07",
+          "Lv1-P3-S09",
+          "Lv1-P3-S10",
+          "Lv1-P4-S15",
+          "Lv2-P2-S06",
+          "Lv2-P2-S07",
+          "Lv2-P4-S14",
+          "Lv2-P5-S20"
+        ],
+        "difficulty": 1,
+        "prevalence": "high"
+      },
+      {
+        "word": "book",
+        "level1Count": 24,
+        "level2Count": 10,
+        "totalCount": 34,
+        "firstAppearance": 1,
+        "category": "noun",
+        "stages": [
+          "Lv1-P1-S01",
+          "Lv1-P1-S02",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S06",
+          "Lv1-P2-S07",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P3-S10",
+          "Lv1-P3-S11",
+          "Lv1-P4-S13",
+          "Lv1-P4-S14",
+          "Lv1-P4-S15",
+          "Lv2-P1-S01",
+          "Lv2-P1-S03",
+          "Lv2-P2-S05",
+          "Lv2-P2-S06",
+          "Lv2-P2-S07",
+          "Lv2-P5-S17",
+          "Lv2-P5-S18",
+          "Lv2-P5-S19",
+          "Lv2-P5-S20"
+        ],
+        "difficulty": 1,
+        "prevalence": "high"
+      },
+      {
+        "word": "music",
+        "level1Count": 32,
+        "level2Count": 2,
+        "totalCount": 34,
+        "firstAppearance": 1,
+        "category": "noun",
+        "stages": [
+          "Lv1-P1-S02",
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S06",
+          "Lv1-P2-S07",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P3-S10",
+          "Lv1-P4-S16",
+          "Lv2-P2-S08",
+          "Lv2-P5-S19"
+        ],
+        "difficulty": 2,
+        "prevalence": "high"
+      },
+      {
+        "word": "movie",
+        "level1Count": 26,
+        "level2Count": 8,
+        "totalCount": 34,
+        "firstAppearance": 1,
+        "category": "noun",
+        "stages": [
+          "Lv1-P1-S02",
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S06",
+          "Lv1-P2-S07",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P3-S10",
+          "Lv2-P1-S01",
+          "Lv2-P1-S03",
+          "Lv2-P2-S05",
+          "Lv2-P2-S06",
+          "Lv2-P3-S10",
+          "Lv2-P4-S13",
+          "Lv2-P5-S18",
+          "Lv2-P5-S19"
+        ],
+        "difficulty": 2,
+        "prevalence": "high"
+      },
+      {
+        "word": "help",
+        "level1Count": 28,
+        "level2Count": 5,
+        "totalCount": 33,
+        "firstAppearance": 1,
+        "category": "verb",
+        "stages": [
+          "Lv1-P1-S02",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S06",
+          "Lv1-P2-S07",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P3-S10",
+          "Lv1-P4-S16",
+          "Lv2-P3-S09",
+          "Lv2-P3-S10",
+          "Lv2-P3-S12",
+          "Lv2-P4-S14",
+          "Lv2-P4-S15"
+        ],
+        "difficulty": 2,
+        "prevalence": "high"
+      },
+      {
+        "word": "play",
+        "level1Count": 29,
+        "level2Count": 3,
+        "totalCount": 32,
+        "firstAppearance": 1,
+        "category": "verb",
+        "stages": [
+          "Lv1-P1-S02",
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S06",
+          "Lv1-P2-S07",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P3-S10",
+          "Lv2-P2-S05",
+          "Lv2-P3-S09"
+        ],
+        "difficulty": 1,
+        "prevalence": "high"
+      },
+      {
+        "word": "like",
+        "level1Count": 18,
+        "level2Count": 12,
+        "totalCount": 30,
+        "firstAppearance": 1,
+        "category": "verb",
+        "stages": [
+          "Lv1-P1-S02",
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S06",
+          "Lv1-P2-S07",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P4-S16",
+          "Lv2-P4-S13",
+          "Lv2-P5-S19"
+        ],
+        "difficulty": 1,
+        "prevalence": "high"
+      },
+      {
+        "word": "meet",
+        "level1Count": 27,
+        "level2Count": 3,
+        "totalCount": 30,
+        "firstAppearance": 1,
+        "category": "verb",
+        "stages": [
+          "Lv1-P1-S02",
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S06",
+          "Lv1-P2-S07",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P3-S10",
+          "Lv1-P3-S12",
+          "Lv1-P4-S15",
+          "Lv1-P4-S16",
+          "Lv2-P2-S06",
+          "Lv2-P4-S13",
+          "Lv2-P4-S16"
+        ],
+        "difficulty": 2,
+        "prevalence": "high"
+      },
+      {
+        "word": "study",
+        "level1Count": 24,
+        "level2Count": 4,
+        "totalCount": 28,
+        "firstAppearance": 1,
+        "category": "verb",
+        "stages": [
+          "Lv1-P1-S02",
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S06",
+          "Lv1-P2-S07",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P3-S10",
+          "Lv1-P4-S16",
+          "Lv2-P3-S10",
+          "Lv2-P3-S11",
+          "Lv2-P4-S14",
+          "Lv2-P5-S19"
+        ],
+        "difficulty": 1,
+        "prevalence": "high"
+      },
+      {
+        "word": "car",
+        "level1Count": 27,
+        "level2Count": 1,
+        "totalCount": 28,
+        "firstAppearance": 1,
+        "category": "noun",
+        "stages": [
+          "Lv1-P1-S02",
+          "Lv1-P2-S06",
+          "Lv1-P2-S07",
+          "Lv1-P3-S10",
+          "Lv1-P3-S11",
+          "Lv1-P3-S12",
+          "Lv1-P4-S13",
+          "Lv1-P4-S14",
+          "Lv2-P5-S18"
+        ],
+        "difficulty": 2,
+        "prevalence": "high"
+      },
+      {
+        "word": "table",
+        "level1Count": 26,
+        "level2Count": 2,
+        "totalCount": 28,
+        "firstAppearance": 1,
+        "category": "noun",
+        "stages": [
+          "Lv1-P3-S10",
+          "Lv1-P3-S11",
+          "Lv1-P3-S12",
+          "Lv1-P4-S13",
+          "Lv1-P4-S14",
+          "Lv1-P4-S15",
+          "Lv1-P4-S16",
+          "Lv2-P5-S17"
+        ],
+        "difficulty": 2,
+        "prevalence": "high"
+      },
+      {
+        "word": "doctor",
+        "level1Count": 24,
+        "level2Count": 3,
+        "totalCount": 27,
+        "firstAppearance": 1,
+        "category": "noun",
+        "stages": [
+          "Lv1-P1-S01",
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S06",
+          "Lv1-P2-S07",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P3-S10",
+          "Lv1-P4-S13",
+          "Lv1-P4-S14",
+          "Lv1-P4-S15",
+          "Lv2-P3-S10",
+          "Lv2-P3-S11",
+          "Lv2-P3-S12"
+        ],
+        "difficulty": 3,
+        "prevalence": "high"
+      },
+      {
+        "word": "teacher",
+        "level1Count": 26,
+        "level2Count": 0,
+        "totalCount": 26,
+        "firstAppearance": 1,
+        "category": "noun",
+        "stages": [
+          "Lv1-P1-S01",
+          "Lv1-P1-S02",
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P2-S06",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P3-S10",
+          "Lv1-P3-S11",
+          "Lv1-P4-S13",
+          "Lv1-P4-S14",
+          "Lv1-P4-S16"
+        ],
+        "difficulty": 3,
+        "prevalence": "high"
+      },
+      {
+        "word": "live",
+        "level1Count": 24,
+        "level2Count": 1,
+        "totalCount": 25,
+        "firstAppearance": 1,
+        "category": "verb",
+        "stages": [
+          "Lv1-P1-S02",
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S06",
+          "Lv1-P2-S07",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P3-S10",
+          "Lv2-P4-S13"
+        ],
+        "difficulty": 2,
+        "prevalence": "high"
+      },
+      {
+        "word": "watch",
+        "level1Count": 21,
+        "level2Count": 4,
+        "totalCount": 25,
+        "firstAppearance": 1,
+        "category": "verb",
+        "stages": [
+          "Lv1-P1-S02",
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S06",
+          "Lv1-P2-S07",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P3-S10",
+          "Lv1-P4-S16",
+          "Lv2-P2-S05",
+          "Lv2-P2-S06",
+          "Lv2-P2-S07",
+          "Lv2-P3-S10"
+        ],
+        "difficulty": 2,
+        "prevalence": "high"
+      },
+      {
+        "word": "eat",
+        "level1Count": 22,
+        "level2Count": 3,
+        "totalCount": 25,
+        "firstAppearance": 1,
+        "category": "verb",
+        "stages": [
+          "Lv1-P1-S02",
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S06",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P3-S10",
+          "Lv1-P4-S16",
+          "Lv2-P2-S07",
+          "Lv2-P3-S10"
+        ],
+        "difficulty": 1,
+        "prevalence": "high"
+      },
+      {
+        "word": "object",
+        "level1Count": 24,
+        "level2Count": 0,
+        "totalCount": 24,
+        "firstAppearance": 1,
+        "category": "other",
+        "stages": [
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P3-S09"
+        ],
+        "difficulty": 3,
+        "prevalence": "high"
+      },
+      {
+        "word": "see",
+        "level1Count": 23,
+        "level2Count": 1,
+        "totalCount": 24,
+        "firstAppearance": 1,
+        "category": "verb",
+        "stages": [
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S06",
+          "Lv1-P2-S07",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P3-S10",
+          "Lv1-P4-S16",
+          "Lv2-P3-S11"
+        ],
+        "difficulty": 2,
+        "prevalence": "high"
+      },
+      {
+        "word": "love",
+        "level1Count": 23,
+        "level2Count": 0,
+        "totalCount": 23,
+        "firstAppearance": 1,
+        "category": "verb",
+        "stages": [
+          "Lv1-P1-S02",
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S06",
+          "Lv1-P2-S07",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P4-S16"
+        ],
+        "difficulty": 1,
+        "prevalence": "high"
+      },
+      {
+        "word": "read",
+        "level1Count": 18,
+        "level2Count": 4,
+        "totalCount": 22,
+        "firstAppearance": 1,
+        "category": "verb",
+        "stages": [
+          "Lv1-P1-S02",
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S06",
+          "Lv1-P2-S07",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P4-S16",
+          "Lv2-P2-S05",
+          "Lv2-P2-S06",
+          "Lv2-P2-S07",
+          "Lv2-P5-S19"
+        ],
+        "difficulty": 1,
+        "prevalence": "high"
+      },
+      {
+        "word": "listen",
+        "level1Count": 22,
+        "level2Count": 0,
+        "totalCount": 22,
+        "firstAppearance": 1,
+        "category": "verb",
+        "stages": [
+          "Lv1-P1-S02",
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S06",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P4-S16"
+        ],
+        "difficulty": 3,
+        "prevalence": "high"
+      },
+      {
+        "word": "drink",
+        "level1Count": 20,
+        "level2Count": 2,
+        "totalCount": 22,
+        "firstAppearance": 1,
+        "category": "verb",
+        "stages": [
+          "Lv1-P1-S02",
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S06",
+          "Lv1-P2-S07",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P3-S10",
+          "Lv1-P4-S16",
+          "Lv2-P5-S20"
+        ],
+        "difficulty": 1,
+        "prevalence": "high"
+      },
+      {
+        "word": "family",
+        "level1Count": 20,
+        "level2Count": 0,
+        "totalCount": 20,
+        "firstAppearance": 1,
+        "category": "noun",
+        "stages": [
+          "Lv1-P1-S01",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S06",
+          "Lv1-P2-S07",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P4-S15"
+        ],
+        "difficulty": 1,
+        "prevalence": "high"
+      },
+      {
+        "word": "chair",
+        "level1Count": 20,
+        "level2Count": 0,
+        "totalCount": 20,
+        "firstAppearance": 1,
+        "category": "noun",
+        "stages": [
+          "Lv1-P1-S01",
+          "Lv1-P3-S10",
+          "Lv1-P3-S11",
+          "Lv1-P3-S12",
+          "Lv1-P4-S13"
+        ],
+        "difficulty": 2,
+        "prevalence": "high"
+      },
+      {
+        "word": "last",
+        "level1Count": 20,
+        "level2Count": 0,
+        "totalCount": 20,
+        "firstAppearance": 1,
+        "category": "other",
+        "stages": [
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P3-S12",
+          "Lv1-P4-S13"
+        ],
+        "difficulty": 2,
+        "prevalence": "high"
+      },
+      {
+        "word": "korea",
+        "level1Count": 20,
+        "level2Count": 0,
+        "totalCount": 20,
+        "firstAppearance": 1,
+        "category": "place",
+        "stages": [
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P2-S07",
+          "Lv1-P2-S08",
+          "Lv1-P3-S10",
+          "Lv1-P3-S11",
+          "Lv1-P3-S12",
+          "Lv1-P4-S13",
+          "Lv1-P4-S15"
+        ],
+        "difficulty": 2,
+        "prevalence": "high"
+      },
+      {
+        "word": "come",
+        "level1Count": 15,
+        "level2Count": 4,
+        "totalCount": 19,
+        "firstAppearance": 1,
+        "category": "verb",
+        "stages": [
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S07",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv2-P2-S07",
+          "Lv2-P3-S10",
+          "Lv2-P3-S12",
+          "Lv2-P4-S15"
+        ],
+        "difficulty": 2,
+        "prevalence": "high"
+      },
+      {
+        "word": "please",
+        "level1Count": 13,
+        "level2Count": 6,
+        "totalCount": 19,
+        "firstAppearance": 1,
+        "category": "other",
+        "stages": [
+          "Lv1-P2-S08",
+          "Lv2-P4-S15"
+        ],
+        "difficulty": 3,
+        "prevalence": "high"
+      },
+      {
+        "word": "office",
+        "level1Count": 17,
+        "level2Count": 0,
+        "totalCount": 17,
+        "firstAppearance": 1,
+        "category": "noun",
+        "stages": [
+          "Lv1-P1-S02",
+          "Lv1-P2-S05",
+          "Lv1-P3-S09",
+          "Lv1-P3-S11",
+          "Lv1-P3-S12",
+          "Lv1-P4-S13",
+          "Lv1-P4-S15",
+          "Lv1-P4-S16"
+        ],
+        "difficulty": 3,
+        "prevalence": "high"
+      },
+      {
+        "word": "phone",
+        "level1Count": 14,
+        "level2Count": 2,
+        "totalCount": 16,
+        "firstAppearance": 1,
+        "category": "noun",
+        "stages": [
+          "Lv1-P1-S03",
+          "Lv1-P2-S05",
+          "Lv1-P2-S06",
+          "Lv1-P2-S07",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P3-S10",
+          "Lv1-P3-S11",
+          "Lv1-P4-S13",
+          "Lv1-P4-S14",
+          "Lv1-P4-S15",
+          "Lv2-P2-S08",
+          "Lv2-P5-S18"
+        ],
+        "difficulty": 2,
+        "prevalence": "high"
+      },
+      {
+        "word": "bed",
+        "level1Count": 16,
+        "level2Count": 0,
+        "totalCount": 16,
+        "firstAppearance": 1,
+        "category": "other",
+        "stages": [
+          "Lv1-P3-S11",
+          "Lv1-P3-S12",
+          "Lv1-P4-S13"
+        ],
+        "difficulty": 2,
+        "prevalence": "high"
+      },
+      {
+        "word": "thanks",
+        "level1Count": 16,
+        "level2Count": 0,
+        "totalCount": 16,
+        "firstAppearance": 1,
+        "category": "other",
+        "stages": [
+          "Lv1-P4-S15",
+          "Lv1-P4-S16"
+        ],
+        "difficulty": 3,
+        "prevalence": "high"
+      },
+      {
+        "word": "student",
+        "level1Count": 14,
+        "level2Count": 1,
+        "totalCount": 15,
+        "firstAppearance": 1,
+        "category": "noun",
+        "stages": [
+          "Lv1-P1-S01",
+          "Lv1-P3-S10",
+          "Lv1-P3-S11",
+          "Lv1-P4-S13",
+          "Lv1-P4-S14",
+          "Lv2-P5-S18"
+        ],
+        "difficulty": 3,
+        "prevalence": "high"
+      },
+      {
+        "word": "call",
+        "level1Count": 14,
+        "level2Count": 1,
+        "totalCount": 15,
+        "firstAppearance": 1,
+        "category": "verb",
+        "stages": [
+          "Lv1-P1-S03",
+          "Lv1-P2-S05",
+          "Lv1-P2-S07",
+          "Lv1-P3-S09",
+          "Lv1-P3-S10",
+          "Lv1-P4-S16",
+          "Lv2-P3-S10"
+        ],
+        "difficulty": 2,
+        "prevalence": "high"
+      },
+      {
+        "word": "week",
+        "level1Count": 12,
+        "level2Count": 3,
+        "totalCount": 15,
+        "firstAppearance": 1,
+        "category": "other",
+        "stages": [
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P3-S12",
+          "Lv1-P4-S13",
+          "Lv2-P2-S06"
+        ],
+        "difficulty": 2,
+        "prevalence": "high"
+      },
+      {
+        "word": "coffee",
+        "level1Count": 13,
+        "level2Count": 1,
+        "totalCount": 14,
+        "firstAppearance": 1,
+        "category": "noun",
+        "stages": [
+          "Lv1-P1-S02",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P3-S10",
+          "Lv1-P4-S16",
+          "Lv2-P5-S19"
+        ],
+        "difficulty": 3,
+        "prevalence": "high"
+      },
+      {
+        "word": "cook",
+        "level1Count": 10,
+        "level2Count": 3,
+        "totalCount": 13,
+        "firstAppearance": 1,
+        "category": "verb",
+        "stages": [
+          "Lv1-P1-S01",
+          "Lv1-P1-S02",
+          "Lv1-P3-S10",
+          "Lv1-P4-S13",
+          "Lv1-P4-S14",
+          "Lv2-P3-S09",
+          "Lv2-P4-S14",
+          "Lv2-P5-S19"
+        ],
+        "difficulty": 2,
+        "prevalence": "high"
+      },
+      {
+        "word": "scientist",
+        "level1Count": 13,
+        "level2Count": 0,
+        "totalCount": 13,
+        "firstAppearance": 1,
+        "category": "other",
+        "stages": [
+          "Lv1-P1-S01",
+          "Lv1-P3-S10",
+          "Lv1-P3-S11",
+          "Lv1-P4-S13",
+          "Lv1-P4-S14",
+          "Lv1-P4-S15",
+          "Lv1-P4-S16"
+        ],
+        "difficulty": 3,
+        "prevalence": "high"
+      },
+      {
+        "word": "news",
+        "level1Count": 13,
+        "level2Count": 0,
+        "totalCount": 13,
+        "firstAppearance": 1,
+        "category": "noun",
+        "stages": [
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P2-S05",
+          "Lv1-P2-S07",
+          "Lv1-P2-S08",
+          "Lv1-P3-S09",
+          "Lv1-P3-S10"
+        ],
+        "difficulty": 2,
+        "prevalence": "high"
+      },
+      {
+        "word": "month",
+        "level1Count": 12,
+        "level2Count": 1,
+        "totalCount": 13,
+        "firstAppearance": 1,
+        "category": "other",
+        "stages": [
+          "Lv1-P1-S03",
+          "Lv1-P1-S04",
+          "Lv1-P3-S12",
+          "Lv1-P4-S13",
+          "Lv2-P2-S06"
+        ],
+        "difficulty": 2,
+        "prevalence": "high"
+      },
+      {
+        "word": "thank",
+        "level1Count": 13,
+        "level2Count": 0,
+        "totalCount": 13,
+        "firstAppearance": 1,
+        "category": "other",
+        "stages": [
+          "Lv1-P4-S15",
+          "Lv1-P4-S16"
+        ],
+        "difficulty": 2,
+        "prevalence": "high"
+      },
+      {
+        "word": "sure",
+        "level1Count": 12,
+        "level2Count": 1,
+        "totalCount": 13,
+        "firstAppearance": 1,
+        "category": "other",
+        "stages": [
+          "Lv1-P4-S16",
+          "Lv2-P4-S16"
+        ],
+        "difficulty": 2,
+        "prevalence": "high"
+      },
+      {
+        "word": "lot",
+        "level1Count": 11,
+        "level2Count": 1,
+        "totalCount": 12,
+        "firstAppearance": 1,
+        "category": "other",
+        "stages": [
+          "Lv1-P4-S15",
+          "Lv1-P4-S16",
+          "Lv2-P5-S20"
+        ],
+        "difficulty": 2,
+        "prevalence": "high"
+      },
+      {
+        "word": "absolutely",
+        "level1Count": 12,
+        "level2Count": 0,
+        "totalCount": 12,
+        "firstAppearance": 1,
+        "category": "other",
+        "stages": [
+          "Lv1-P4-S16"
+        ],
+        "difficulty": 3,
+        "prevalence": "high"
+      }
+    ]
+  },
+  "vocabularyData": [
+    {
+      "word": "there",
+      "level1Count": 86,
+      "level2Count": 7,
+      "totalCount": 93,
+      "firstAppearance": 1,
+      "category": "place",
+      "stages": [
+        "Lv1-P4-S13",
+        "Lv1-P4-S14",
+        "Lv2-P4-S16",
+        "Lv2-P5-S17",
+        "Lv2-P5-S18"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "home",
+      "level1Count": 43,
+      "level2Count": 5,
+      "totalCount": 48,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P3-S11",
+        "Lv1-P3-S12",
+        "Lv1-P4-S13",
+        "Lv1-P4-S15",
+        "Lv1-P4-S16",
+        "Lv2-P1-S02",
+        "Lv2-P2-S05",
+        "Lv2-P2-S07",
+        "Lv2-P3-S11",
+        "Lv2-P4-S13"
+      ],
+      "difficulty": 1,
+      "prevalence": "high"
+    },
+    {
+      "word": "here",
+      "level1Count": 42,
+      "level2Count": 5,
+      "totalCount": 47,
+      "firstAppearance": 1,
+      "category": "place",
+      "stages": [
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P4-S14",
+        "Lv2-P3-S09",
+        "Lv2-P3-S12",
+        "Lv2-P4-S15",
+        "Lv2-P4-S16",
+        "Lv2-P5-S17"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "work",
+      "level1Count": 44,
+      "level2Count": 1,
+      "totalCount": 45,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P3-S10",
+        "Lv1-P3-S11",
+        "Lv1-P3-S12",
+        "Lv1-P4-S13",
+        "Lv1-P4-S15",
+        "Lv1-P4-S16",
+        "Lv2-P3-S11"
+      ],
+      "difficulty": 1,
+      "prevalence": "high"
+    },
+    {
+      "word": "go",
+      "level1Count": 29,
+      "level2Count": 12,
+      "totalCount": 41,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P4-S16",
+        "Lv2-P2-S05",
+        "Lv2-P2-S06",
+        "Lv2-P2-S07",
+        "Lv2-P3-S10",
+        "Lv2-P3-S11",
+        "Lv2-P3-S12",
+        "Lv2-P4-S13",
+        "Lv2-P4-S14",
+        "Lv2-P4-S16"
+      ],
+      "difficulty": 1,
+      "prevalence": "high"
+    },
+    {
+      "word": "school",
+      "level1Count": 37,
+      "level2Count": 4,
+      "totalCount": 41,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P3-S10",
+        "Lv1-P3-S11",
+        "Lv1-P3-S12",
+        "Lv1-P4-S13",
+        "Lv1-P4-S15",
+        "Lv1-P4-S16",
+        "Lv2-P2-S05",
+        "Lv2-P2-S07",
+        "Lv2-P4-S13",
+        "Lv2-P4-S14"
+      ],
+      "difficulty": 1,
+      "prevalence": "high"
+    },
+    {
+      "word": "friend",
+      "level1Count": 31,
+      "level2Count": 5,
+      "totalCount": 36,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P3-S09",
+        "Lv1-P3-S10",
+        "Lv1-P4-S15",
+        "Lv2-P2-S06",
+        "Lv2-P2-S07",
+        "Lv2-P4-S14",
+        "Lv2-P5-S20"
+      ],
+      "difficulty": 1,
+      "prevalence": "high"
+    },
+    {
+      "word": "book",
+      "level1Count": 24,
+      "level2Count": 10,
+      "totalCount": 34,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P1-S02",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P3-S10",
+        "Lv1-P3-S11",
+        "Lv1-P4-S13",
+        "Lv1-P4-S14",
+        "Lv1-P4-S15",
+        "Lv2-P1-S01",
+        "Lv2-P1-S03",
+        "Lv2-P2-S05",
+        "Lv2-P2-S06",
+        "Lv2-P2-S07",
+        "Lv2-P5-S17",
+        "Lv2-P5-S18",
+        "Lv2-P5-S19",
+        "Lv2-P5-S20"
+      ],
+      "difficulty": 1,
+      "prevalence": "high"
+    },
+    {
+      "word": "music",
+      "level1Count": 32,
+      "level2Count": 2,
+      "totalCount": 34,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P3-S10",
+        "Lv1-P4-S16",
+        "Lv2-P2-S08",
+        "Lv2-P5-S19"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "movie",
+      "level1Count": 26,
+      "level2Count": 8,
+      "totalCount": 34,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P3-S10",
+        "Lv2-P1-S01",
+        "Lv2-P1-S03",
+        "Lv2-P2-S05",
+        "Lv2-P2-S06",
+        "Lv2-P3-S10",
+        "Lv2-P4-S13",
+        "Lv2-P5-S18",
+        "Lv2-P5-S19"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "help",
+      "level1Count": 28,
+      "level2Count": 5,
+      "totalCount": 33,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P3-S10",
+        "Lv1-P4-S16",
+        "Lv2-P3-S09",
+        "Lv2-P3-S10",
+        "Lv2-P3-S12",
+        "Lv2-P4-S14",
+        "Lv2-P4-S15"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "play",
+      "level1Count": 29,
+      "level2Count": 3,
+      "totalCount": 32,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P3-S10",
+        "Lv2-P2-S05",
+        "Lv2-P3-S09"
+      ],
+      "difficulty": 1,
+      "prevalence": "high"
+    },
+    {
+      "word": "like",
+      "level1Count": 18,
+      "level2Count": 12,
+      "totalCount": 30,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P4-S16",
+        "Lv2-P4-S13",
+        "Lv2-P5-S19"
+      ],
+      "difficulty": 1,
+      "prevalence": "high"
+    },
+    {
+      "word": "meet",
+      "level1Count": 27,
+      "level2Count": 3,
+      "totalCount": 30,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P3-S10",
+        "Lv1-P3-S12",
+        "Lv1-P4-S15",
+        "Lv1-P4-S16",
+        "Lv2-P2-S06",
+        "Lv2-P4-S13",
+        "Lv2-P4-S16"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "study",
+      "level1Count": 24,
+      "level2Count": 4,
+      "totalCount": 28,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P3-S10",
+        "Lv1-P4-S16",
+        "Lv2-P3-S10",
+        "Lv2-P3-S11",
+        "Lv2-P4-S14",
+        "Lv2-P5-S19"
+      ],
+      "difficulty": 1,
+      "prevalence": "high"
+    },
+    {
+      "word": "car",
+      "level1Count": 27,
+      "level2Count": 1,
+      "totalCount": 28,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P3-S10",
+        "Lv1-P3-S11",
+        "Lv1-P3-S12",
+        "Lv1-P4-S13",
+        "Lv1-P4-S14",
+        "Lv2-P5-S18"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "table",
+      "level1Count": 26,
+      "level2Count": 2,
+      "totalCount": 28,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P3-S10",
+        "Lv1-P3-S11",
+        "Lv1-P3-S12",
+        "Lv1-P4-S13",
+        "Lv1-P4-S14",
+        "Lv1-P4-S15",
+        "Lv1-P4-S16",
+        "Lv2-P5-S17"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "doctor",
+      "level1Count": 24,
+      "level2Count": 3,
+      "totalCount": 27,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P3-S10",
+        "Lv1-P4-S13",
+        "Lv1-P4-S14",
+        "Lv1-P4-S15",
+        "Lv2-P3-S10",
+        "Lv2-P3-S11",
+        "Lv2-P3-S12"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "teacher",
+      "level1Count": 26,
+      "level2Count": 0,
+      "totalCount": 26,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S06",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P3-S10",
+        "Lv1-P3-S11",
+        "Lv1-P4-S13",
+        "Lv1-P4-S14",
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "live",
+      "level1Count": 24,
+      "level2Count": 1,
+      "totalCount": 25,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P3-S10",
+        "Lv2-P4-S13"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "watch",
+      "level1Count": 21,
+      "level2Count": 4,
+      "totalCount": 25,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P3-S10",
+        "Lv1-P4-S16",
+        "Lv2-P2-S05",
+        "Lv2-P2-S06",
+        "Lv2-P2-S07",
+        "Lv2-P3-S10"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "eat",
+      "level1Count": 22,
+      "level2Count": 3,
+      "totalCount": 25,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P3-S10",
+        "Lv1-P4-S16",
+        "Lv2-P2-S07",
+        "Lv2-P3-S10"
+      ],
+      "difficulty": 1,
+      "prevalence": "high"
+    },
+    {
+      "word": "object",
+      "level1Count": 24,
+      "level2Count": 0,
+      "totalCount": 24,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P3-S09"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "see",
+      "level1Count": 23,
+      "level2Count": 1,
+      "totalCount": 24,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P3-S10",
+        "Lv1-P4-S16",
+        "Lv2-P3-S11"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "love",
+      "level1Count": 23,
+      "level2Count": 0,
+      "totalCount": 23,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 1,
+      "prevalence": "high"
+    },
+    {
+      "word": "read",
+      "level1Count": 18,
+      "level2Count": 4,
+      "totalCount": 22,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P4-S16",
+        "Lv2-P2-S05",
+        "Lv2-P2-S06",
+        "Lv2-P2-S07",
+        "Lv2-P5-S19"
+      ],
+      "difficulty": 1,
+      "prevalence": "high"
+    },
+    {
+      "word": "listen",
+      "level1Count": 22,
+      "level2Count": 0,
+      "totalCount": 22,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "drink",
+      "level1Count": 20,
+      "level2Count": 2,
+      "totalCount": 22,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P3-S10",
+        "Lv1-P4-S16",
+        "Lv2-P5-S20"
+      ],
+      "difficulty": 1,
+      "prevalence": "high"
+    },
+    {
+      "word": "family",
+      "level1Count": 20,
+      "level2Count": 0,
+      "totalCount": 20,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 1,
+      "prevalence": "high"
+    },
+    {
+      "word": "chair",
+      "level1Count": 20,
+      "level2Count": 0,
+      "totalCount": 20,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P3-S10",
+        "Lv1-P3-S11",
+        "Lv1-P3-S12",
+        "Lv1-P4-S13"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "last",
+      "level1Count": 20,
+      "level2Count": 0,
+      "totalCount": 20,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P3-S12",
+        "Lv1-P4-S13"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "korea",
+      "level1Count": 20,
+      "level2Count": 0,
+      "totalCount": 20,
+      "firstAppearance": 1,
+      "category": "place",
+      "stages": [
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S10",
+        "Lv1-P3-S11",
+        "Lv1-P3-S12",
+        "Lv1-P4-S13",
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "come",
+      "level1Count": 15,
+      "level2Count": 4,
+      "totalCount": 19,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv2-P2-S07",
+        "Lv2-P3-S10",
+        "Lv2-P3-S12",
+        "Lv2-P4-S15"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "please",
+      "level1Count": 13,
+      "level2Count": 6,
+      "totalCount": 19,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P2-S08",
+        "Lv2-P4-S15"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "office",
+      "level1Count": 17,
+      "level2Count": 0,
+      "totalCount": 17,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P2-S05",
+        "Lv1-P3-S09",
+        "Lv1-P3-S11",
+        "Lv1-P3-S12",
+        "Lv1-P4-S13",
+        "Lv1-P4-S15",
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "phone",
+      "level1Count": 14,
+      "level2Count": 2,
+      "totalCount": 16,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S03",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P3-S10",
+        "Lv1-P3-S11",
+        "Lv1-P4-S13",
+        "Lv1-P4-S14",
+        "Lv1-P4-S15",
+        "Lv2-P2-S08",
+        "Lv2-P5-S18"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "bed",
+      "level1Count": 16,
+      "level2Count": 0,
+      "totalCount": 16,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P3-S11",
+        "Lv1-P3-S12",
+        "Lv1-P4-S13"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "thanks",
+      "level1Count": 16,
+      "level2Count": 0,
+      "totalCount": 16,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S15",
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "student",
+      "level1Count": 14,
+      "level2Count": 1,
+      "totalCount": 15,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P3-S10",
+        "Lv1-P3-S11",
+        "Lv1-P4-S13",
+        "Lv1-P4-S14",
+        "Lv2-P5-S18"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "call",
+      "level1Count": 14,
+      "level2Count": 1,
+      "totalCount": 15,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S03",
+        "Lv1-P2-S05",
+        "Lv1-P2-S07",
+        "Lv1-P3-S09",
+        "Lv1-P3-S10",
+        "Lv1-P4-S16",
+        "Lv2-P3-S10"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "week",
+      "level1Count": 12,
+      "level2Count": 3,
+      "totalCount": 15,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P3-S12",
+        "Lv1-P4-S13",
+        "Lv2-P2-S06"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "coffee",
+      "level1Count": 13,
+      "level2Count": 1,
+      "totalCount": 14,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P3-S10",
+        "Lv1-P4-S16",
+        "Lv2-P5-S19"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "cook",
+      "level1Count": 10,
+      "level2Count": 3,
+      "totalCount": 13,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P1-S02",
+        "Lv1-P3-S10",
+        "Lv1-P4-S13",
+        "Lv1-P4-S14",
+        "Lv2-P3-S09",
+        "Lv2-P4-S14",
+        "Lv2-P5-S19"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "scientist",
+      "level1Count": 13,
+      "level2Count": 0,
+      "totalCount": 13,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P3-S10",
+        "Lv1-P3-S11",
+        "Lv1-P4-S13",
+        "Lv1-P4-S14",
+        "Lv1-P4-S15",
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "news",
+      "level1Count": 13,
+      "level2Count": 0,
+      "totalCount": 13,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P3-S10"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "month",
+      "level1Count": 12,
+      "level2Count": 1,
+      "totalCount": 13,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P3-S12",
+        "Lv1-P4-S13",
+        "Lv2-P2-S06"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "thank",
+      "level1Count": 13,
+      "level2Count": 0,
+      "totalCount": 13,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S15",
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "sure",
+      "level1Count": 12,
+      "level2Count": 1,
+      "totalCount": 13,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S16",
+        "Lv2-P4-S16"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "lot",
+      "level1Count": 11,
+      "level2Count": 1,
+      "totalCount": 12,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S15",
+        "Lv1-P4-S16",
+        "Lv2-P5-S20"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "absolutely",
+      "level1Count": 12,
+      "level2Count": 0,
+      "totalCount": 12,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "singer",
+      "level1Count": 11,
+      "level2Count": 0,
+      "totalCount": 11,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P4-S13",
+        "Lv1-P4-S14",
+        "Lv1-P4-S15",
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "next",
+      "level1Count": 11,
+      "level2Count": 0,
+      "totalCount": 11,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S04"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "room",
+      "level1Count": 10,
+      "level2Count": 1,
+      "totalCount": 11,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P3-S11",
+        "Lv1-P3-S12",
+        "Lv1-P4-S13",
+        "Lv2-P5-S17"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "sorry",
+      "level1Count": 11,
+      "level2Count": 0,
+      "totalCount": 11,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "good",
+      "level1Count": 9,
+      "level2Count": 1,
+      "totalCount": 10,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P3-S10",
+        "Lv1-P3-S11",
+        "Lv1-P4-S14",
+        "Lv1-P4-S15",
+        "Lv2-P5-S18"
+      ],
+      "difficulty": 1,
+      "prevalence": "high"
+    },
+    {
+      "word": "driver",
+      "level1Count": 10,
+      "level2Count": 0,
+      "totalCount": 10,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P3-S10",
+        "Lv1-P3-S11",
+        "Lv1-P4-S13",
+        "Lv1-P4-S14",
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "farmer",
+      "level1Count": 10,
+      "level2Count": 0,
+      "totalCount": 10,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P3-S10",
+        "Lv1-P3-S11",
+        "Lv1-P4-S14",
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "actor",
+      "level1Count": 10,
+      "level2Count": 0,
+      "totalCount": 10,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P3-S10",
+        "Lv1-P4-S13",
+        "Lv1-P4-S14",
+        "Lv1-P4-S15",
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "america",
+      "level1Count": 10,
+      "level2Count": 0,
+      "totalCount": 10,
+      "firstAppearance": 1,
+      "category": "place",
+      "stages": [
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S10",
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "pen",
+      "level1Count": 10,
+      "level2Count": 0,
+      "totalCount": 10,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P3-S10",
+        "Lv1-P3-S11",
+        "Lv1-P4-S13",
+        "Lv1-P4-S14",
+        "Lv1-P4-S15",
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "computer",
+      "level1Count": 9,
+      "level2Count": 0,
+      "totalCount": 9,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P3-S10",
+        "Lv1-P4-S13",
+        "Lv1-P4-S14",
+        "Lv1-P4-S15",
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "ball",
+      "level1Count": 9,
+      "level2Count": 0,
+      "totalCount": 9,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P3-S10",
+        "Lv1-P3-S11",
+        "Lv1-P4-S13",
+        "Lv1-P4-S14",
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "water",
+      "level1Count": 7,
+      "level2Count": 2,
+      "totalCount": 9,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv2-P5-S20"
+      ],
+      "difficulty": 1,
+      "prevalence": "high"
+    },
+    {
+      "word": "breakfast",
+      "level1Count": 8,
+      "level2Count": 1,
+      "totalCount": 9,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P4-S15",
+        "Lv2-P2-S07"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "soccer",
+      "level1Count": 8,
+      "level2Count": 1,
+      "totalCount": 9,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P2-S07",
+        "Lv1-P3-S09",
+        "Lv2-P2-S05"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "yesterday",
+      "level1Count": 8,
+      "level2Count": 1,
+      "totalCount": 9,
+      "firstAppearance": 1,
+      "category": "time",
+      "stages": [
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P3-S12",
+        "Lv1-P4-S13",
+        "Lv2-P1-S04"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "always",
+      "level1Count": 0,
+      "level2Count": 9,
+      "totalCount": 9,
+      "firstAppearance": 2,
+      "category": "time",
+      "stages": [
+        "Lv2-P2-S05",
+        "Lv2-P2-S07",
+        "Lv2-P2-S08"
+      ],
+      "difficulty": 4,
+      "prevalence": "high"
+    },
+    {
+      "word": "strong",
+      "level1Count": 8,
+      "level2Count": 0,
+      "totalCount": 8,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P3-S10",
+        "Lv1-P3-S11"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "english",
+      "level1Count": 4,
+      "level2Count": 4,
+      "totalCount": 8,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P2-S05",
+        "Lv1-P2-S07",
+        "Lv2-P3-S09",
+        "Lv2-P3-S12",
+        "Lv2-P4-S13",
+        "Lv2-P4-S14"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "night",
+      "level1Count": 8,
+      "level2Count": 0,
+      "totalCount": 8,
+      "firstAppearance": 1,
+      "category": "time",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P3-S12",
+        "Lv1-P4-S13"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "game",
+      "level1Count": 7,
+      "level2Count": 1,
+      "totalCount": 8,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P2-S05",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv2-P2-S08"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "math",
+      "level1Count": 8,
+      "level2Count": 0,
+      "totalCount": 8,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P2-S05",
+        "Lv1-P2-S07",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "take",
+      "level1Count": 3,
+      "level2Count": 5,
+      "totalCount": 8,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P4-S15",
+        "Lv2-P2-S06",
+        "Lv2-P3-S11",
+        "Lv2-P3-S12",
+        "Lv2-P4-S13"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "lunch",
+      "level1Count": 6,
+      "level2Count": 2,
+      "totalCount": 8,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S04",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv1-P4-S15",
+        "Lv2-P1-S01",
+        "Lv2-P2-S07"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "tomorrow",
+      "level1Count": 4,
+      "level2Count": 4,
+      "totalCount": 8,
+      "firstAppearance": 1,
+      "category": "time",
+      "stages": [
+        "Lv1-P1-S04",
+        "Lv2-P1-S04",
+        "Lv2-P4-S15"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "gave",
+      "level1Count": 8,
+      "level2Count": 0,
+      "totalCount": 8,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P3-S09"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "bag",
+      "level1Count": 8,
+      "level2Count": 0,
+      "totalCount": 8,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P3-S10",
+        "Lv1-P3-S11",
+        "Lv1-P4-S13",
+        "Lv1-P4-S14",
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "right",
+      "level1Count": 8,
+      "level2Count": 0,
+      "totalCount": 8,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "healthy",
+      "level1Count": 7,
+      "level2Count": 0,
+      "totalCount": 7,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P3-S10",
+        "Lv1-P3-S11"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "dinner",
+      "level1Count": 6,
+      "level2Count": 1,
+      "totalCount": 7,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv2-P1-S02"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "tv",
+      "level1Count": 4,
+      "level2Count": 3,
+      "totalCount": 7,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P2-S05",
+        "Lv1-P2-S06",
+        "Lv2-P1-S04",
+        "Lv2-P2-S07",
+        "Lv2-P2-S08"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "tea",
+      "level1Count": 7,
+      "level2Count": 0,
+      "totalCount": 7,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P1-S03",
+        "Lv1-P2-S05",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09",
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "tonight",
+      "level1Count": 7,
+      "level2Count": 0,
+      "totalCount": 7,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S04"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "nurse",
+      "level1Count": 7,
+      "level2Count": 0,
+      "totalCount": 7,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P3-S10",
+        "Lv1-P3-S11",
+        "Lv1-P4-S13",
+        "Lv1-P4-S14"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "kitchen",
+      "level1Count": 7,
+      "level2Count": 0,
+      "totalCount": 7,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P3-S11",
+        "Lv1-P3-S12",
+        "Lv1-P4-S13"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "much",
+      "level1Count": 5,
+      "level2Count": 2,
+      "totalCount": 7,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S15",
+        "Lv1-P4-S16",
+        "Lv2-P5-S20"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "usually",
+      "level1Count": 0,
+      "level2Count": 7,
+      "totalCount": 7,
+      "firstAppearance": 2,
+      "category": "time",
+      "stages": [
+        "Lv2-P2-S05",
+        "Lv2-P2-S07"
+      ],
+      "difficulty": 4,
+      "prevalence": "high"
+    },
+    {
+      "word": "must",
+      "level1Count": 0,
+      "level2Count": 7,
+      "totalCount": 7,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P3-S11",
+        "Lv2-P3-S12"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "young",
+      "level1Count": 6,
+      "level2Count": 0,
+      "totalCount": 6,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P3-S10",
+        "Lv1-P3-S11"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "kind",
+      "level1Count": 6,
+      "level2Count": 0,
+      "totalCount": 6,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P2-S05",
+        "Lv1-P3-S10",
+        "Lv1-P3-S11"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "painter",
+      "level1Count": 6,
+      "level2Count": 0,
+      "totalCount": 6,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P3-S11",
+        "Lv1-P4-S13",
+        "Lv1-P4-S14",
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "fine",
+      "level1Count": 6,
+      "level2Count": 0,
+      "totalCount": 6,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S14",
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 2,
+      "prevalence": "high"
+    },
+    {
+      "word": "often",
+      "level1Count": 0,
+      "level2Count": 6,
+      "totalCount": 6,
+      "firstAppearance": 2,
+      "category": "time",
+      "stages": [
+        "Lv2-P2-S05",
+        "Lv2-P2-S06",
+        "Lv2-P2-S07"
+      ],
+      "difficulty": 4,
+      "prevalence": "high"
+    },
+    {
+      "word": "don",
+      "level1Count": 0,
+      "level2Count": 6,
+      "totalCount": 6,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P4-S15",
+        "Lv2-P5-S19",
+        "Lv2-P5-S20"
+      ],
+      "difficulty": 3,
+      "prevalence": "high"
+    },
+    {
+      "word": "happy",
+      "level1Count": 4,
+      "level2Count": 1,
+      "totalCount": 5,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P3-S10",
+        "Lv2-P2-S05"
+      ],
+      "difficulty": 1,
+      "prevalence": "medium"
+    },
+    {
+      "word": "pencil",
+      "level1Count": 5,
+      "level2Count": 0,
+      "totalCount": 5,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P4-S15",
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 3,
+      "prevalence": "medium"
+    },
+    {
+      "word": "writer",
+      "level1Count": 5,
+      "level2Count": 0,
+      "totalCount": 5,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P3-S10",
+        "Lv1-P3-S11",
+        "Lv1-P4-S14"
+      ],
+      "difficulty": 3,
+      "prevalence": "medium"
+    },
+    {
+      "word": "exercise",
+      "level1Count": 2,
+      "level2Count": 3,
+      "totalCount": 5,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv2-P2-S06",
+        "Lv2-P3-S10"
+      ],
+      "difficulty": 4,
+      "prevalence": "medium"
+    },
+    {
+      "word": "park",
+      "level1Count": 1,
+      "level2Count": 4,
+      "totalCount": 5,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv2-P1-S01",
+        "Lv2-P1-S04",
+        "Lv2-P3-S09",
+        "Lv2-P5-S17"
+      ],
+      "difficulty": 3,
+      "prevalence": "medium"
+    },
+    {
+      "word": "watched",
+      "level1Count": 5,
+      "level2Count": 0,
+      "totalCount": 5,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S03",
+        "Lv1-P1-S04",
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 3,
+      "prevalence": "medium"
+    },
+    {
+      "word": "bad",
+      "level1Count": 5,
+      "level2Count": 0,
+      "totalCount": 5,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P2-S06",
+        "Lv1-P3-S10"
+      ],
+      "difficulty": 1,
+      "prevalence": "medium"
+    },
+    {
+      "word": "very",
+      "level1Count": 5,
+      "level2Count": 0,
+      "totalCount": 5,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S15",
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 3,
+      "prevalence": "medium"
+    },
+    {
+      "word": "playing",
+      "level1Count": 0,
+      "level2Count": 5,
+      "totalCount": 5,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S01",
+        "Lv2-P1-S02",
+        "Lv2-P1-S03",
+        "Lv2-P1-S04",
+        "Lv2-P2-S08"
+      ],
+      "difficulty": 4,
+      "prevalence": "medium"
+    },
+    {
+      "word": "child",
+      "level1Count": 0,
+      "level2Count": 5,
+      "totalCount": 5,
+      "firstAppearance": 2,
+      "category": "noun",
+      "stages": [
+        "Lv2-P1-S01",
+        "Lv2-P1-S02",
+        "Lv2-P1-S03",
+        "Lv2-P1-S04",
+        "Lv2-P3-S09"
+      ],
+      "difficulty": 4,
+      "prevalence": "medium"
+    },
+    {
+      "word": "working",
+      "level1Count": 0,
+      "level2Count": 5,
+      "totalCount": 5,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S01",
+        "Lv2-P1-S03",
+        "Lv2-P1-S04",
+        "Lv2-P2-S08"
+      ],
+      "difficulty": 4,
+      "prevalence": "medium"
+    },
+    {
+      "word": "late",
+      "level1Count": 0,
+      "level2Count": 5,
+      "totalCount": 5,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S04",
+        "Lv2-P2-S05",
+        "Lv2-P3-S12",
+        "Lv2-P4-S14",
+        "Lv2-P4-S15"
+      ],
+      "difficulty": 4,
+      "prevalence": "medium"
+    },
+    {
+      "word": "constantly",
+      "level1Count": 0,
+      "level2Count": 5,
+      "totalCount": 5,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P2-S08"
+      ],
+      "difficulty": 5,
+      "prevalence": "medium"
+    },
+    {
+      "word": "tall",
+      "level1Count": 4,
+      "level2Count": 0,
+      "totalCount": 4,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P2-S05",
+        "Lv1-P3-S10"
+      ],
+      "difficulty": 3,
+      "prevalence": "medium"
+    },
+    {
+      "word": "tired",
+      "level1Count": 4,
+      "level2Count": 0,
+      "totalCount": 4,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P2-S06",
+        "Lv1-P3-S10"
+      ],
+      "difficulty": 3,
+      "prevalence": "medium"
+    },
+    {
+      "word": "funny",
+      "level1Count": 4,
+      "level2Count": 0,
+      "totalCount": 4,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P3-S10"
+      ],
+      "difficulty": 3,
+      "prevalence": "medium"
+    },
+    {
+      "word": "fast",
+      "level1Count": 3,
+      "level2Count": 1,
+      "totalCount": 4,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P3-S10",
+        "Lv2-P3-S10"
+      ],
+      "difficulty": 3,
+      "prevalence": "medium"
+    },
+    {
+      "word": "bread",
+      "level1Count": 4,
+      "level2Count": 0,
+      "totalCount": 4,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P2-S06",
+        "Lv1-P2-S08",
+        "Lv1-P3-S09"
+      ],
+      "difficulty": 3,
+      "prevalence": "medium"
+    },
+    {
+      "word": "called",
+      "level1Count": 3,
+      "level2Count": 1,
+      "totalCount": 4,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S03",
+        "Lv2-P4-S13"
+      ],
+      "difficulty": 3,
+      "prevalence": "medium"
+    },
+    {
+      "word": "sad",
+      "level1Count": 4,
+      "level2Count": 0,
+      "totalCount": 4,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P2-S06",
+        "Lv1-P3-S10",
+        "Lv1-P3-S11"
+      ],
+      "difficulty": 1,
+      "prevalence": "medium"
+    },
+    {
+      "word": "verb",
+      "level1Count": 4,
+      "level2Count": 0,
+      "totalCount": 4,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P3-S09"
+      ],
+      "difficulty": 3,
+      "prevalence": "medium"
+    },
+    {
+      "word": "excuse",
+      "level1Count": 4,
+      "level2Count": 0,
+      "totalCount": 4,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 3,
+      "prevalence": "medium"
+    },
+    {
+      "word": "course",
+      "level1Count": 3,
+      "level2Count": 1,
+      "totalCount": 4,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S16",
+        "Lv2-P4-S16"
+      ],
+      "difficulty": 3,
+      "prevalence": "medium"
+    },
+    {
+      "word": "so",
+      "level1Count": 1,
+      "level2Count": 3,
+      "totalCount": 4,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S16",
+        "Lv2-P3-S10",
+        "Lv2-P3-S12",
+        "Lv2-P4-S14"
+      ],
+      "difficulty": 2,
+      "prevalence": "medium"
+    },
+    {
+      "word": "speak",
+      "level1Count": 1,
+      "level2Count": 3,
+      "totalCount": 4,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P4-S16",
+        "Lv2-P3-S09",
+        "Lv2-P3-S12",
+        "Lv2-P4-S15"
+      ],
+      "difficulty": 3,
+      "prevalence": "medium"
+    },
+    {
+      "word": "now",
+      "level1Count": 0,
+      "level2Count": 4,
+      "totalCount": 4,
+      "firstAppearance": 2,
+      "category": "time",
+      "stages": [
+        "Lv2-P1-S01",
+        "Lv2-P1-S04",
+        "Lv2-P3-S10"
+      ],
+      "difficulty": 1,
+      "prevalence": "medium"
+    },
+    {
+      "word": "studying",
+      "level1Count": 0,
+      "level2Count": 4,
+      "totalCount": 4,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S01",
+        "Lv2-P1-S04",
+        "Lv2-P2-S08"
+      ],
+      "difficulty": 5,
+      "prevalence": "medium"
+    },
+    {
+      "word": "doing",
+      "level1Count": 0,
+      "level2Count": 4,
+      "totalCount": 4,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S01",
+        "Lv2-P1-S03",
+        "Lv2-P1-S04",
+        "Lv2-P4-S13"
+      ],
+      "difficulty": 4,
+      "prevalence": "medium"
+    },
+    {
+      "word": "watching",
+      "level1Count": 0,
+      "level2Count": 4,
+      "totalCount": 4,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S01",
+        "Lv2-P1-S03",
+        "Lv2-P1-S04",
+        "Lv2-P2-S08"
+      ],
+      "difficulty": 5,
+      "prevalence": "medium"
+    },
+    {
+      "word": "sometimes",
+      "level1Count": 0,
+      "level2Count": 4,
+      "totalCount": 4,
+      "firstAppearance": 2,
+      "category": "time",
+      "stages": [
+        "Lv2-P2-S05",
+        "Lv2-P2-S07"
+      ],
+      "difficulty": 5,
+      "prevalence": "medium"
+    },
+    {
+      "word": "open",
+      "level1Count": 0,
+      "level2Count": 4,
+      "totalCount": 4,
+      "firstAppearance": 2,
+      "category": "verb",
+      "stages": [
+        "Lv2-P3-S09",
+        "Lv2-P3-S12",
+        "Lv2-P4-S15",
+        "Lv2-P4-S16"
+      ],
+      "difficulty": 4,
+      "prevalence": "medium"
+    },
+    {
+      "word": "shouldn",
+      "level1Count": 0,
+      "level2Count": 4,
+      "totalCount": 4,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P3-S10",
+        "Lv2-P3-S12"
+      ],
+      "difficulty": 4,
+      "prevalence": "medium"
+    },
+    {
+      "word": "many",
+      "level1Count": 0,
+      "level2Count": 4,
+      "totalCount": 4,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P5-S17",
+        "Lv2-P5-S20"
+      ],
+      "difficulty": 4,
+      "prevalence": "medium"
+    },
+    {
+      "word": "smart",
+      "level1Count": 3,
+      "level2Count": 0,
+      "totalCount": 3,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P3-S10"
+      ],
+      "difficulty": 3,
+      "prevalence": "medium"
+    },
+    {
+      "word": "new",
+      "level1Count": 2,
+      "level2Count": 1,
+      "totalCount": 3,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P1-S02",
+        "Lv2-P5-S18"
+      ],
+      "difficulty": 2,
+      "prevalence": "medium"
+    },
+    {
+      "word": "nice",
+      "level1Count": 3,
+      "level2Count": 0,
+      "totalCount": 3,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P2-S06",
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 3,
+      "prevalence": "medium"
+    },
+    {
+      "word": "every",
+      "level1Count": 1,
+      "level2Count": 2,
+      "totalCount": 3,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv2-P2-S06"
+      ],
+      "difficulty": 3,
+      "prevalence": "medium"
+    },
+    {
+      "word": "day",
+      "level1Count": 1,
+      "level2Count": 2,
+      "totalCount": 3,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv2-P2-S06"
+      ],
+      "difficulty": 2,
+      "prevalence": "medium"
+    },
+    {
+      "word": "need",
+      "level1Count": 3,
+      "level2Count": 0,
+      "totalCount": 3,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 3,
+      "prevalence": "medium"
+    },
+    {
+      "word": "sleep",
+      "level1Count": 1,
+      "level2Count": 2,
+      "totalCount": 3,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv2-P2-S07",
+        "Lv2-P3-S12"
+      ],
+      "difficulty": 3,
+      "prevalence": "medium"
+    },
+    {
+      "word": "write",
+      "level1Count": 3,
+      "level2Count": 0,
+      "totalCount": 3,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 1,
+      "prevalence": "medium"
+    },
+    {
+      "word": "bus",
+      "level1Count": 1,
+      "level2Count": 2,
+      "totalCount": 3,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv2-P3-S11",
+        "Lv2-P3-S12"
+      ],
+      "difficulty": 2,
+      "prevalence": "medium"
+    },
+    {
+      "word": "liked",
+      "level1Count": 3,
+      "level2Count": 0,
+      "totalCount": 3,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S03",
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 3,
+      "prevalence": "medium"
+    },
+    {
+      "word": "helped",
+      "level1Count": 3,
+      "level2Count": 0,
+      "totalCount": 3,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S03",
+        "Lv1-P1-S04"
+      ],
+      "difficulty": 3,
+      "prevalence": "medium"
+    },
+    {
+      "word": "morning",
+      "level1Count": 3,
+      "level2Count": 0,
+      "totalCount": 3,
+      "firstAppearance": 1,
+      "category": "time",
+      "stages": [
+        "Lv1-P4-S14",
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 3,
+      "prevalence": "medium"
+    },
+    {
+      "word": "apologize",
+      "level1Count": 3,
+      "level2Count": 0,
+      "totalCount": 3,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 4,
+      "prevalence": "medium"
+    },
+    {
+      "word": "maybe",
+      "level1Count": 3,
+      "level2Count": 0,
+      "totalCount": 3,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 3,
+      "prevalence": "medium"
+    },
+    {
+      "word": "understand",
+      "level1Count": 3,
+      "level2Count": 0,
+      "totalCount": 3,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 4,
+      "prevalence": "medium"
+    },
+    {
+      "word": "feel",
+      "level1Count": 3,
+      "level2Count": 0,
+      "totalCount": 3,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 3,
+      "prevalence": "medium"
+    },
+    {
+      "word": "listening",
+      "level1Count": 0,
+      "level2Count": 3,
+      "totalCount": 3,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S01",
+        "Lv2-P1-S03",
+        "Lv2-P2-S08"
+      ],
+      "difficulty": 5,
+      "prevalence": "medium"
+    },
+    {
+      "word": "raining",
+      "level1Count": 0,
+      "level2Count": 3,
+      "totalCount": 3,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S01",
+        "Lv2-P1-S03",
+        "Lv2-P1-S04"
+      ],
+      "difficulty": 4,
+      "prevalence": "medium"
+    },
+    {
+      "word": "time",
+      "level1Count": 0,
+      "level2Count": 3,
+      "totalCount": 3,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S04",
+        "Lv2-P4-S16",
+        "Lv2-P5-S20"
+      ],
+      "difficulty": 4,
+      "prevalence": "medium"
+    },
+    {
+      "word": "swim",
+      "level1Count": 0,
+      "level2Count": 3,
+      "totalCount": 3,
+      "firstAppearance": 2,
+      "category": "verb",
+      "stages": [
+        "Lv2-P3-S09",
+        "Lv2-P3-S12",
+        "Lv2-P5-S19"
+      ],
+      "difficulty": 4,
+      "prevalence": "medium"
+    },
+    {
+      "word": "window",
+      "level1Count": 0,
+      "level2Count": 3,
+      "totalCount": 3,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P3-S09",
+        "Lv2-P3-S12",
+        "Lv2-P4-S16"
+      ],
+      "difficulty": 4,
+      "prevalence": "medium"
+    },
+    {
+      "word": "today",
+      "level1Count": 0,
+      "level2Count": 3,
+      "totalCount": 3,
+      "firstAppearance": 2,
+      "category": "time",
+      "stages": [
+        "Lv2-P3-S11",
+        "Lv2-P4-S14",
+        "Lv2-P5-S17"
+      ],
+      "difficulty": 1,
+      "prevalence": "medium"
+    },
+    {
+      "word": "10",
+      "level1Count": 0,
+      "level2Count": 2,
+      "totalCount": 2,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S03",
+        "Lv2-P2-S07"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "busy",
+      "level1Count": 1,
+      "level2Count": 1,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv2-P2-S05"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "honest",
+      "level1Count": 2,
+      "level2Count": 0,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P1-S01"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "police",
+      "level1Count": 2,
+      "level2Count": 0,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "officer",
+      "level1Count": 2,
+      "level2Count": 0,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S01",
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "food",
+      "level1Count": 1,
+      "level2Count": 1,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv2-P4-S13"
+      ],
+      "difficulty": 1,
+      "prevalence": "low"
+    },
+    {
+      "word": "walk",
+      "level1Count": 2,
+      "level2Count": 0,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "talk",
+      "level1Count": 2,
+      "level2Count": 0,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "house",
+      "level1Count": 2,
+      "level2Count": 0,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "weekends",
+      "level1Count": 1,
+      "level2Count": 1,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv2-P2-S07"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "piano",
+      "level1Count": 1,
+      "level2Count": 1,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv2-P3-S09"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "dance",
+      "level1Count": 1,
+      "level2Count": 1,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv2-P5-S19"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "sing",
+      "level1Count": 1,
+      "level2Count": 1,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv2-P4-S14"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "song",
+      "level1Count": 1,
+      "level2Count": 1,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02",
+        "Lv2-P4-S14"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "studied",
+      "level1Count": 2,
+      "level2Count": 0,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S03",
+        "Lv1-P1-S04"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "lived",
+      "level1Count": 2,
+      "level2Count": 0,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S04"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "old",
+      "level1Count": 2,
+      "level2Count": 0,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P3-S10"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "hello",
+      "level1Count": 2,
+      "level2Count": 0,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S14"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "afternoon",
+      "level1Count": 2,
+      "level2Count": 0,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "time",
+      "stages": [
+        "Lv1-P4-S14"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "hi",
+      "level1Count": 2,
+      "level2Count": 0,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S14"
+      ],
+      "difficulty": 2,
+      "prevalence": "low"
+    },
+    {
+      "word": "man",
+      "level1Count": 2,
+      "level2Count": 0,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S15",
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "evening",
+      "level1Count": 1,
+      "level2Count": 1,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "time",
+      "stages": [
+        "Lv1-P4-S15",
+        "Lv2-P1-S04"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "got",
+      "level1Count": 2,
+      "level2Count": 0,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "knew",
+      "level1Count": 2,
+      "level2Count": 0,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "hate",
+      "level1Count": 2,
+      "level2Count": 0,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "perhaps",
+      "level1Count": 2,
+      "level2Count": 0,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "probably",
+      "level1Count": 2,
+      "level2Count": 0,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "think",
+      "level1Count": 1,
+      "level2Count": 1,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P4-S16",
+        "Lv2-P4-S14"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "hear",
+      "level1Count": 2,
+      "level2Count": 0,
+      "totalCount": 2,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "reading",
+      "level1Count": 0,
+      "level2Count": 2,
+      "totalCount": 2,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S01",
+        "Lv2-P1-S03"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "running",
+      "level1Count": 0,
+      "level2Count": 2,
+      "totalCount": 2,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S01",
+        "Lv2-P1-S02"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "going",
+      "level1Count": 0,
+      "level2Count": 2,
+      "totalCount": 2,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S02"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "talking",
+      "level1Count": 0,
+      "level2Count": 2,
+      "totalCount": 2,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S02",
+        "Lv2-P2-S08"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "waiting",
+      "level1Count": 0,
+      "level2Count": 2,
+      "totalCount": 2,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S03",
+        "Lv2-P2-S08"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "get",
+      "level1Count": 0,
+      "level2Count": 2,
+      "totalCount": 2,
+      "firstAppearance": 2,
+      "category": "verb",
+      "stages": [
+        "Lv2-P2-S05",
+        "Lv2-P2-S07"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "never",
+      "level1Count": 0,
+      "level2Count": 2,
+      "totalCount": 2,
+      "firstAppearance": 2,
+      "category": "time",
+      "stages": [
+        "Lv2-P2-S05"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "three",
+      "level1Count": 0,
+      "level2Count": 2,
+      "totalCount": 2,
+      "firstAppearance": 2,
+      "category": "number",
+      "stages": [
+        "Lv2-P2-S06"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "times",
+      "level1Count": 0,
+      "level2Count": 2,
+      "totalCount": 2,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P2-S06"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "twice",
+      "level1Count": 0,
+      "level2Count": 2,
+      "totalCount": 2,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P2-S06"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "homework",
+      "level1Count": 0,
+      "level2Count": 2,
+      "totalCount": 2,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P2-S07",
+        "Lv2-P3-S11"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "wait",
+      "level1Count": 0,
+      "level2Count": 2,
+      "totalCount": 2,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P3-S09",
+        "Lv2-P3-S12"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "earlier",
+      "level1Count": 0,
+      "level2Count": 2,
+      "totalCount": 2,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P3-S10",
+        "Lv2-P3-S12"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "more",
+      "level1Count": 0,
+      "level2Count": 2,
+      "totalCount": 2,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P3-S10"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "start",
+      "level1Count": 0,
+      "level2Count": 2,
+      "totalCount": 2,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P3-S10",
+        "Lv2-P4-S13"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "smoke",
+      "level1Count": 0,
+      "level2Count": 2,
+      "totalCount": 2,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P3-S12",
+        "Lv2-P4-S15"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "test",
+      "level1Count": 0,
+      "level2Count": 2,
+      "totalCount": 2,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P3-S12",
+        "Lv2-P4-S13"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "use",
+      "level1Count": 0,
+      "level2Count": 2,
+      "totalCount": 2,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P4-S14",
+        "Lv2-P4-S16"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "clock",
+      "level1Count": 0,
+      "level2Count": 2,
+      "totalCount": 2,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P4-S16",
+        "Lv2-P5-S17"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "apples",
+      "level1Count": 0,
+      "level2Count": 2,
+      "totalCount": 2,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P5-S18",
+        "Lv2-P5-S19"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "some",
+      "level1Count": 0,
+      "level2Count": 2,
+      "totalCount": 2,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P5-S20"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "any",
+      "level1Count": 0,
+      "level2Count": 2,
+      "totalCount": 2,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P5-S20"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "money",
+      "level1Count": 0,
+      "level2Count": 2,
+      "totalCount": 2,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P5-S20"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "candies",
+      "level1Count": 0,
+      "level2Count": 2,
+      "totalCount": 2,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P5-S20"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "korean",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S01"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "person",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S01"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "pretty",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P1-S01"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "special",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P1-S01"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "important",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P1-S01"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "quiet",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P1-S01"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "neighbors",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S01"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "brave",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P1-S01"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "team",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S01"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "safe",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P1-S01"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "normal",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P1-S01"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "seoul",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "place",
+      "stages": [
+        "Lv1-P1-S02"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "mom",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S02"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "cat",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S02"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "want",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "busan",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "place",
+      "stages": [
+        "Lv1-P1-S02"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "newspaper",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S02"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "radio",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "hospital",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "beach",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S02"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "dad",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S02"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "dog",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S02"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "rest",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S02"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "tennis",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "letter",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "clean",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "grow",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "flower",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "picture",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "market",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "ride",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P1-S02"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "bicycle",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "cinema",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "noun",
+      "stages": [
+        "Lv1-P1-S02"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "listened",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S03"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "worked",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P1-S03"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "small",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P3-S10"
+      ],
+      "difficulty": 1,
+      "prevalence": "low"
+    },
+    {
+      "word": "short",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P3-S10"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "apple",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P3-S10"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "big",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "adjective",
+      "stages": [
+        "Lv1-P3-S11"
+      ],
+      "difficulty": 1,
+      "prevalence": "low"
+    },
+    {
+      "word": "thought",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "goodbye",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "boy",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "loved",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "went",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "girl",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "care",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S15"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "name",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "other",
+      "stages": [
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "know",
+      "level1Count": 1,
+      "level2Count": 0,
+      "totalCount": 1,
+      "firstAppearance": 1,
+      "category": "verb",
+      "stages": [
+        "Lv1-P4-S16"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "eating",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S01"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "store",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S02"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "cooking",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S02"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "looking",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S02"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "walking",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S02"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "making",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S02"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "leaving",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S02"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "playground",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S02"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "sleeping",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S03"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "pm",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S03"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "lecture",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S03"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "outside",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S03"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "exercising",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S03"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "having",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S04"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "meeting",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S04"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "lunchtime",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P1-S04"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "angry",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P2-S05"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "travel",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P2-S06"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "shops",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P2-S06"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "once",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P2-S06"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "vacations",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P2-S06"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "year",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P2-S06"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "library",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P2-S06"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "medicine",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P2-S06"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "shopping",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P2-S07"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "checking",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P2-S08"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "worrying",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P2-S08"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "fighting",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P2-S08"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "drive",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "verb",
+      "stages": [
+        "Lv2-P3-S09"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "ask",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "verb",
+      "stages": [
+        "Lv2-P3-S09"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "question",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P3-S09"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "finish",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P3-S11"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "weekend",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "time",
+      "stages": [
+        "Lv2-P3-S11"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "harder",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P3-S11"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "by",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P3-S11"
+      ],
+      "difficulty": 3,
+      "prevalence": "low"
+    },
+    {
+      "word": "tell",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P3-S11"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "truth",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P3-S11"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "wake",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "verb",
+      "stages": [
+        "Lv2-P3-S11"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "early",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P3-S11"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "well",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P3-S12"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "color",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P4-S13"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "best",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P4-S14"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "dish",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P4-S14"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "job",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P4-S14"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "turn",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P4-S15"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "off",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P4-S15"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "light",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P4-S15"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "door",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P4-S15"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "make",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "verb",
+      "stages": [
+        "Lv2-P4-S15"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "noise",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P4-S15"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "sit",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P4-S15"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "down",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P4-S15"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "slowly",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P4-S15"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "worry",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P4-S15"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "way",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P4-S15"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "pass",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P4-S16"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "salt",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P4-S16"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "put",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "verb",
+      "stages": [
+        "Lv2-P4-S16"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "just",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P4-S16"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "leave",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P4-S16"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "press",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P4-S16"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "button",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P4-S16"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "two",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "number",
+      "stages": [
+        "Lv2-P5-S17"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "windows",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P5-S17"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "tuesday",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P5-S17"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "trees",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P5-S17"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "cold",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P5-S17"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "problem",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P5-S17"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "keys",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P5-S18"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "over",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P5-S18"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "delicious",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P5-S18"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "idea",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P5-S18"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "buildings",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P5-S18"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "interesting",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P5-S18"
+      ],
+      "difficulty": 5,
+      "prevalence": "low"
+    },
+    {
+      "word": "doesn",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P5-S19"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    },
+    {
+      "word": "pizza",
+      "level1Count": 0,
+      "level2Count": 1,
+      "totalCount": 1,
+      "firstAppearance": 2,
+      "category": "other",
+      "stages": [
+        "Lv2-P5-S19"
+      ],
+      "difficulty": 4,
+      "prevalence": "low"
+    }
+  ],
+  "levelStats": {
+    "1": {
+      "happy": 4,
+      "friend": 31,
+      "teacher": 26,
+      "doctor": 24,
+      "book": 24,
+      "korean": 1,
+      "student": 14,
+      "smart": 3,
+      "tall": 4,
+      "good": 9,
+      "person": 1,
+      "cook": 10,
+      "pretty": 1,
+      "pencil": 5,
+      "busy": 1,
+      "tired": 4,
+      "young": 6,
+      "kind": 6,
+      "driver": 10,
+      "strong": 8,
+      "farmer": 10,
+      "writer": 5,
+      "computer": 9,
+      "family": 20,
+      "healthy": 7,
+      "special": 1,
+      "honest": 2,
+      "singer": 11,
+      "important": 1,
+      "painter": 6,
+      "quiet": 1,
+      "chair": 20,
+      "neighbors": 1,
+      "new": 2,
+      "police": 2,
+      "officer": 2,
+      "brave": 1,
+      "actor": 10,
+      "funny": 4,
+      "nice": 3,
+      "ball": 9,
+      "team": 1,
+      "fast": 3,
+      "scientist": 13,
+      "safe": 1,
+      "normal": 1,
+      "live": 24,
+      "seoul": 1,
+      "like": 18,
+      "coffee": 13,
+      "read": 18,
+      "study": 24,
+      "english": 4,
+      "listen": 22,
+      "music": 32,
+      "exercise": 2,
+      "every": 1,
+      "day": 1,
+      "go": 29,
+      "school": 37,
+      "food": 1,
+      "watch": 21,
+      "movie": 26,
+      "drink": 20,
+      "water": 7,
+      "walk": 2,
+      "park": 1,
+      "talk": 2,
+      "help": 28,
+      "mom": 1,
+      "love": 23,
+      "cat": 1,
+      "want": 1,
+      "house": 2,
+      "need": 3,
+      "sleep": 1,
+      "night": 8,
+      "play": 29,
+      "game": 7,
+      "work": 44,
+      "office": 17,
+      "eat": 22,
+      "breakfast": 8,
+      "busan": 1,
+      "car": 27,
+      "newspaper": 1,
+      "math": 8,
+      "radio": 1,
+      "weekends": 1,
+      "hospital": 1,
+      "dinner": 6,
+      "tv": 4,
+      "tea": 7,
+      "beach": 1,
+      "dad": 1,
+      "dog": 1,
+      "rest": 1,
+      "tennis": 1,
+      "write": 3,
+      "letter": 1,
+      "bread": 4,
+      "clean": 1,
+      "take": 3,
+      "bus": 1,
+      "meet": 27,
+      "piano": 1,
+      "grow": 1,
+      "flower": 1,
+      "picture": 1,
+      "dance": 1,
+      "market": 1,
+      "ride": 1,
+      "bicycle": 1,
+      "sing": 1,
+      "song": 1,
+      "cinema": 1,
+      "soccer": 8,
+      "come": 15,
+      "call": 14,
+      "news": 13,
+      "home": 43,
+      "america": 10,
+      "phone": 14,
+      "called": 3,
+      "object": 24,
+      "yesterday": 8,
+      "listened": 1,
+      "last": 20,
+      "week": 12,
+      "liked": 3,
+      "studied": 2,
+      "month": 12,
+      "worked": 1,
+      "helped": 3,
+      "watched": 5,
+      "korea": 20,
+      "see": 23,
+      "lunch": 6,
+      "tonight": 7,
+      "next": 11,
+      "tomorrow": 4,
+      "here": 42,
+      "lived": 2,
+      "bad": 5,
+      "sad": 4,
+      "please": 13,
+      "gave": 8,
+      "verb": 4,
+      "bag": 8,
+      "nurse": 7,
+      "small": 1,
+      "short": 1,
+      "old": 2,
+      "table": 26,
+      "apple": 1,
+      "pen": 10,
+      "kitchen": 7,
+      "room": 10,
+      "bed": 16,
+      "big": 1,
+      "there": 86,
+      "hello": 2,
+      "fine": 6,
+      "afternoon": 2,
+      "hi": 2,
+      "morning": 3,
+      "thank": 13,
+      "very": 5,
+      "much": 5,
+      "thanks": 16,
+      "apologize": 3,
+      "man": 2,
+      "lot": 11,
+      "excuse": 4,
+      "thought": 1,
+      "goodbye": 1,
+      "sorry": 11,
+      "evening": 1,
+      "got": 2,
+      "knew": 2,
+      "boy": 1,
+      "loved": 1,
+      "went": 1,
+      "girl": 1,
+      "care": 1,
+      "course": 3,
+      "maybe": 3,
+      "hate": 2,
+      "absolutely": 12,
+      "right": 8,
+      "understand": 3,
+      "sure": 12,
+      "perhaps": 2,
+      "probably": 2,
+      "think": 1,
+      "so": 1,
+      "speak": 1,
+      "name": 1,
+      "feel": 3,
+      "hear": 2,
+      "know": 1
+    },
+    "2": {
+      "10": 2,
+      "eating": 1,
+      "lunch": 2,
+      "now": 4,
+      "studying": 4,
+      "playing": 5,
+      "park": 4,
+      "doing": 4,
+      "reading": 2,
+      "book": 10,
+      "watching": 4,
+      "movie": 8,
+      "listening": 3,
+      "raining": 3,
+      "child": 5,
+      "running": 2,
+      "working": 5,
+      "going": 2,
+      "store": 1,
+      "cooking": 1,
+      "looking": 1,
+      "walking": 1,
+      "home": 5,
+      "talking": 2,
+      "making": 1,
+      "dinner": 1,
+      "leaving": 1,
+      "playground": 1,
+      "sleeping": 1,
+      "pm": 1,
+      "lecture": 1,
+      "outside": 1,
+      "waiting": 2,
+      "exercising": 1,
+      "late": 5,
+      "tomorrow": 4,
+      "having": 1,
+      "meeting": 1,
+      "tv": 3,
+      "evening": 1,
+      "lunchtime": 1,
+      "yesterday": 1,
+      "time": 3,
+      "always": 9,
+      "get": 2,
+      "sometimes": 4,
+      "play": 3,
+      "soccer": 1,
+      "usually": 7,
+      "go": 12,
+      "school": 4,
+      "never": 2,
+      "often": 6,
+      "watch": 4,
+      "happy": 1,
+      "busy": 1,
+      "read": 4,
+      "angry": 1,
+      "exercise": 3,
+      "three": 2,
+      "times": 2,
+      "week": 3,
+      "every": 2,
+      "day": 2,
+      "travel": 1,
+      "twice": 2,
+      "month": 1,
+      "shops": 1,
+      "once": 1,
+      "meet": 3,
+      "friend": 5,
+      "take": 5,
+      "vacations": 1,
+      "year": 1,
+      "library": 1,
+      "medicine": 1,
+      "eat": 3,
+      "breakfast": 1,
+      "come": 4,
+      "homework": 2,
+      "sleep": 2,
+      "shopping": 1,
+      "weekends": 1,
+      "game": 1,
+      "constantly": 5,
+      "checking": 1,
+      "phone": 2,
+      "music": 2,
+      "worrying": 1,
+      "fighting": 1,
+      "swim": 3,
+      "drive": 1,
+      "open": 4,
+      "window": 3,
+      "piano": 1,
+      "help": 5,
+      "wait": 2,
+      "here": 5,
+      "speak": 3,
+      "english": 4,
+      "ask": 1,
+      "question": 1,
+      "cook": 3,
+      "doctor": 3,
+      "shouldn": 4,
+      "so": 3,
+      "fast": 1,
+      "call": 1,
+      "earlier": 2,
+      "study": 4,
+      "more": 2,
+      "start": 2,
+      "must": 7,
+      "finish": 1,
+      "today": 3,
+      "work": 1,
+      "weekend": 1,
+      "harder": 1,
+      "bus": 2,
+      "see": 1,
+      "by": 1,
+      "tell": 1,
+      "truth": 1,
+      "wake": 1,
+      "early": 1,
+      "smoke": 2,
+      "test": 2,
+      "well": 1,
+      "called": 1,
+      "live": 1,
+      "food": 1,
+      "like": 12,
+      "color": 1,
+      "best": 1,
+      "dish": 1,
+      "sing": 1,
+      "song": 1,
+      "job": 1,
+      "think": 1,
+      "use": 2,
+      "turn": 1,
+      "off": 1,
+      "light": 1,
+      "please": 6,
+      "don": 6,
+      "door": 1,
+      "make": 1,
+      "noise": 1,
+      "sit": 1,
+      "down": 1,
+      "slowly": 1,
+      "worry": 1,
+      "way": 1,
+      "pass": 1,
+      "salt": 1,
+      "sure": 1,
+      "put": 1,
+      "just": 1,
+      "leave": 1,
+      "there": 7,
+      "clock": 2,
+      "course": 1,
+      "press": 1,
+      "button": 1,
+      "table": 2,
+      "two": 1,
+      "windows": 1,
+      "room": 1,
+      "tuesday": 1,
+      "many": 4,
+      "trees": 1,
+      "cold": 1,
+      "problem": 1,
+      "keys": 1,
+      "over": 1,
+      "student": 1,
+      "apples": 2,
+      "delicious": 1,
+      "car": 1,
+      "good": 1,
+      "idea": 1,
+      "buildings": 1,
+      "new": 1,
+      "interesting": 1,
+      "dance": 1,
+      "coffee": 1,
+      "doesn": 1,
+      "pizza": 1,
+      "much": 2,
+      "water": 2,
+      "drink": 2,
+      "lot": 1,
+      "some": 2,
+      "any": 2,
+      "money": 2,
+      "candies": 2
+    }
+  },
+  "generatedAt": "2025-09-09T13:45:34.309Z"
+}

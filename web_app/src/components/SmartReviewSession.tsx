@@ -1,7 +1,7 @@
-import React, { useState, useEffect, useMemo, useCallback, memo } from 'react';
+import React, { useState, useEffect, useCallback, memo } from 'react';
 import { reviewAlgorithmService } from '../services/reviewAlgorithm';
 import { ErrorBoundary } from './ErrorBoundary';
-import { getRandomSentences, type RandomSentenceResult } from '../services/sentenceService';
+import { getRandomSentences } from '../services/sentenceService';
 
 interface ReviewSentence {
   id: string;

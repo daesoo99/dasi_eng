@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import { getRandomSentence, getRandomSentences, type RandomSentenceResult } from '../services/sentenceService';
+import { getRandomSentence, type RandomSentenceResult } from '../services/sentenceService';
 
 interface TestResult {
   level: number;

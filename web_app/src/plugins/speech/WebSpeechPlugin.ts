@@ -477,14 +477,27 @@ export class WebSpeechPlugin extends BasePlugin implements ISpeechPlugin {
   }
 
   /**
-   * 모든 처리 중지
+   * 모든 처리 중지 - 브라우저 호환성 강화
    */
   stopAll(): Result<void> {
     try {
-      // TTS 중지
-      if (this.speechSynthesis && this._processingState === 'speaking') {
+      // TTS 중지 - 다중 취소 시도로 브라우저 호환성 확보
+      if (this.speechSynthesis) {
         this.speechSynthesis.cancel();
         this.currentUtterance = undefined;
+        
+        // 브라우저별 안전을 위해 여러 번 시도
+        setTimeout(() => {
+          if (this.speechSynthesis && this.speechSynthesis.speaking) {
+            this.speechSynthesis.cancel();
+          }
+        }, 10);
+        
+        setTimeout(() => {
+          if (this.speechSynthesis && this.speechSynthesis.speaking) {
+            this.speechSynthesis.cancel();
+          }
+        }, 100);
       }
 
       // 음성 인식 중지
@@ -494,8 +507,17 @@ export class WebSpeechPlugin extends BasePlugin implements ISpeechPlugin {
       }
 
       this.setProcessingState('idle');
+      
+      this.emitSpeechEvent({
+        type: 'end',
+        timestamp: Date.now(),
+        data: { state: 'idle' }
+      });
+      
+      console.log('🔇 모든 음성 처리 중단 (플러그인)');
       return Ok(undefined);
     } catch (error) {
+      console.error('❌ 음성 중단 오류 (플러그인):', error);
       return Err(error as Error);
     }
   }

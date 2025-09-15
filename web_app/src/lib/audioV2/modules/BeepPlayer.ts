@@ -9,7 +9,7 @@ export class BeepPlayer {
     try {
       this.audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
       this.isInitialized = true;
-    } catch (error) {
+    } catch (_error) {
       throw new Error('Failed to initialize audio context for beep player');
     }
   }

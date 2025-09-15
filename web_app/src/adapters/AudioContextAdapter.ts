@@ -79,7 +79,7 @@ export class AudioContextAdapter implements IAudioContextAdapter {
         frequency: options.frequency || 800,
         duration: options.duration || 0.5,
         volume: options.volume || 0.3,
-        waveType: options.waveType || 'sine' as OscillatorType
+        waveType: (options.waveType || 'sine') as ('sine' | 'square' | 'sawtooth' | 'triangle')
       };
 
       return new Promise((resolve) => {
@@ -194,8 +194,8 @@ export class AudioContextAdapter implements IAudioContextAdapter {
   }
 
   // 오디오 컨텍스트 상태 조회 메서드들
-  getState(): AudioContextState | null {
-    return this.audioContext?.state || null;
+  getState(): 'suspended' | 'running' | 'closed' | null {
+    return (this.audioContext?.state as ('suspended' | 'running' | 'closed')) || null;
   }
 
   async resumeContext(): Promise<boolean> {

@@ -1,7 +1,10 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useUser, useAppStore, useLearningMode } from '@/store/useAppStore';
-import { srsService, type SRSCard, type SRSReviewSession } from '@/services/srsService';
+// import { srsService, type SRSCard, type SRSReviewSession } from '@/services/srsService';
+// TODO: Migrate to new SRS Engine system - useSRSEngine hook from @/hooks/useSRSEngine
+import { useSRSEngine } from '@/hooks/useSRSEngine';
+import type { ReviewCard } from '@/services/srs/SRSEngine';
 import { WritingModeInput } from '@/components/WritingModeInput';
 import { WritingModeFeedback } from '@/components/WritingModeFeedback';
 import { SpeechRecorder } from '@/components/SpeechRecorder';
@@ -21,8 +24,10 @@ export const AllModePage: React.FC = React.memo(() => {
   const { setLoading, setError, clearError } = useAppStore();
 
   // SRS 관련 상태
-  const [reviewSession, setReviewSession] = useState<SRSReviewSession | null>(null);
-  const [currentSRSCard, setCurrentSRSCard] = useState<SRSCard | null>(null);
+  // const [reviewSession, setReviewSession] = useState<SRSReviewSession | null>(null);
+  // const [currentSRSCard, setCurrentSRSCard] = useState<SRSCard | null>(null);
+  const [reviewSession, setReviewSession] = useState<any | null>(null);
+  const [currentSRSCard, setCurrentSRSCard] = useState<ReviewCard | null>(null);
   const [currentCardData, setCurrentCardData] = useState<DrillCard | null>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -68,7 +73,8 @@ export const AllModePage: React.FC = React.memo(() => {
     if (!user.id) return;
     
     try {
-      const stats = await srsService.getSRSStats(user.id);
+      // const stats = await srsService.getSRSStats(user.id);
+      // TODO: Migrate to new SRS Engine system
       setSrsStats(stats);
     } catch (error) {
       console.error('SRS 통계 로드 실패:', error);
@@ -109,7 +115,7 @@ export const AllModePage: React.FC = React.memo(() => {
     clearError();
 
     try {
-      let session: SRSReviewSession;
+      let session: any; // TODO: Use new SRS Engine types
       
       if (mode === 'due') {
         // 복습이 필요한 카드들

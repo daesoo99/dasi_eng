@@ -25,12 +25,12 @@ export const TrainingHeader: React.FC<TrainingHeaderProps> = ({
   const { stage: speakingStage } = useSpeakingStage();
 
   return (
-    <div className="bg-white shadow-sm border-b sticky top-16 z-40">
+    <div className="bg-white dark:bg-gray-800 shadow-sm border-b border-gray-200 dark:border-gray-700 sticky top-16 z-40 transition-colors duration-300">
       <div className="max-w-4xl mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div>
             <div className="flex items-center gap-3 mb-2">
-              <h1 className="text-2xl font-bold text-gray-800">
+              <h1 className="text-2xl font-bold text-gray-800 dark:text-white">
                 패턴 훈련 (Level {levelNumber} - Phase {phaseNumber} - Stage {stageNumber})
               </h1>
               {/* 3단계 표시 배지 */}
@@ -46,7 +46,7 @@ export const TrainingHeader: React.FC<TrainingHeaderProps> = ({
                 {speakingStage}단계 ({speakingStage === 1 ? '3초' : speakingStage === 2 ? '2초' : '1초'} 응답)
               </span>
             </div>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-gray-600 dark:text-gray-300">
               문제 {currentIndex + 1} / {totalQuestions}
             </p>
           </div>

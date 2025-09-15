@@ -54,7 +54,7 @@ describe('useAudioFlowController', () => {
       
       renderHook(() => useAudioFlowController({
         ...defaultProps,
-        serviceContainer: customContainer,
+        serviceContainer: customContainer as any,
       }));
 
       // 커스텀 컨테이너가 사용되었는지 확인 (실제로는 다른 방식으로 검증 필요)

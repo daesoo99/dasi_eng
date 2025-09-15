@@ -31,7 +31,7 @@ export const PatternTrainingFlowFinal: React.FC<PatternTrainingFlowFinalProps> =
   disabled = false,
   autoStart = false,
   className = '',
-  mistakeId,
+  mistakeId: _mistakeId,
   showCorrectAnswer = true
 }) => {
   // Single state object to prevent re-render issues
@@ -97,9 +97,14 @@ export const PatternTrainingFlowFinal: React.FC<PatternTrainingFlowFinalProps> =
         flowRef.current.recognition.stop();
       }
       
-      // Cancel TTS
-      if (window.speechSynthesis) {
-        window.speechSynthesis.cancel();
+      // 🔧 플러그인을 통한 TTS 중지
+      try {
+        const ServiceContainer = (await import('@/container/ServiceContainer')).default;
+        const container = ServiceContainer.getInstanceSync();
+        const speechService = container.getSpeechProcessingService();
+        speechService.stopAllSpeech();
+      } catch (error) {
+        console.warn('Plugin TTS stop failed:', error);
       }
       
       setFlowState(prev => ({ ...prev, isRecording: false }));
@@ -110,49 +115,59 @@ export const PatternTrainingFlowFinal: React.FC<PatternTrainingFlowFinalProps> =
     }
   }, [flowState.isRecording]);
 
-  // TTS function
+  // 🔧 플러그인 시스템을 통한 TTS 함수
   const speakText = useCallback(async (text: string, lang: 'ko' | 'en' = 'ko'): Promise<void> => {
-    return new Promise(async (resolve) => {
-      if (!window.speechSynthesis) {
-        resolve();
-        return;
-      }
-
+    try {
       // Check voice settings
       if (lang === 'ko' && !voiceSettings.koreanEnabled) {
-        resolve();
         return;
       }
       if (lang === 'en' && !voiceSettings.englishEnabled) {
-        resolve();
         return;
       }
 
-      window.speechSynthesis.cancel();
+      // ServiceContainer를 통해 speechService 사용
+      const ServiceContainer = (await import('@/container/ServiceContainer')).default;
+      const container = ServiceContainer.getInstanceSync();
+      const speechService = container.getSpeechProcessingService();
 
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.rate = voiceSettings.speed;
-      utterance.pitch = 1.0;
-      utterance.volume = 1.0;
-      utterance.lang = lang === 'ko' ? 'ko-KR' : 'en-US';
+      // 기존 TTS 중지
+      speechService.stopAllSpeech();
 
-      const timeout = setTimeout(() => {
-        window.speechSynthesis.cancel();
-        resolve();
-      }, 8000);
+      // 플러그인을 통해 TTS 실행
+      await speechService.speakAnswer(text, {
+        language: lang === 'ko' ? 'ko-KR' : 'en-US',
+        rate: voiceSettings.speed,
+        volume: 1.0,
+        pitch: 1.0
+      });
 
-      utterance.onend = () => {
-        clearTimeout(timeout);
-        resolve();
-      };
+    } catch (error) {
+      console.error('[PatternTrainingFlowFinal] Speech service error:', error);
 
-      utterance.onerror = () => {
-        clearTimeout(timeout);
-        resolve();
-      };
+      // 🔧 플러그인 fallback: AdvancedSpeechPlugin 시도
+      try {
+        const ServiceContainer = (await import('@/container/ServiceContainer')).default;
+        const container = ServiceContainer.getInstanceSync();
+        const advancedPlugin = container.getAdvancedSpeechPlugin();
 
-      window.speechSynthesis.speak(utterance);
-    });
+        if (advancedPlugin) {
+          // 기존 TTS 중지
+          advancedPlugin.stopAll();
+
+          await advancedPlugin.speakText(text, {
+            language: lang === 'ko' ? 'ko-KR' : 'en-US',
+            rate: voiceSettings.speed,
+            volume: 1.0,
+            pitch: 1.0
+          });
+        } else {
+          console.warn('[PatternTrainingFlowFinal] No speech plugins available');
+        }
+      } catch (pluginError) {
+        console.error('[PatternTrainingFlowFinal] All speech plugins failed:', pluginError);
+      }
+    }
   }, [voiceSettings]);
 
   // Play beep sound

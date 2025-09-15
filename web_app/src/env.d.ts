@@ -13,3 +13,93 @@ interface ImportMetaEnv {
 interface ImportMeta {
   readonly env: ImportMetaEnv
 }
+
+// Web API 타입 보강
+declare global {
+  // Speech Recognition API
+  interface Window {
+    SpeechRecognition?: typeof SpeechRecognition;
+    webkitSpeechRecognition?: typeof SpeechRecognition;
+  }
+
+  // SpeechRecognition 클래스 정의
+  declare var SpeechRecognition: {
+    prototype: SpeechRecognition;
+    new(): SpeechRecognition;
+  };
+
+  interface SpeechRecognition extends EventTarget {
+    continuous: boolean;
+    interimResults: boolean;
+    lang: string;
+    maxAlternatives: number;
+    serviceURI: string;
+    grammars: SpeechGrammarList;
+    
+    start(): void;
+    stop(): void;
+    abort(): void;
+    
+    onaudiostart: ((this: SpeechRecognition, ev: Event) => any) | null;
+    onaudioend: ((this: SpeechRecognition, ev: Event) => any) | null;
+    onend: ((this: SpeechRecognition, ev: Event) => any) | null;
+    onerror: ((this: SpeechRecognition, ev: SpeechRecognitionErrorEvent) => any) | null;
+    onnomatch: ((this: SpeechRecognition, ev: SpeechRecognitionEvent) => any) | null;
+    onresult: ((this: SpeechRecognition, ev: SpeechRecognitionEvent) => any) | null;
+    onsoundstart: ((this: SpeechRecognition, ev: Event) => any) | null;
+    onsoundend: ((this: SpeechRecognition, ev: Event) => any) | null;
+    onspeechstart: ((this: SpeechRecognition, ev: Event) => any) | null;
+    onspeechend: ((this: SpeechRecognition, ev: Event) => any) | null;
+    onstart: ((this: SpeechRecognition, ev: Event) => any) | null;
+  }
+
+  interface SpeechRecognitionEvent extends Event {
+    readonly resultIndex: number;
+    readonly results: SpeechRecognitionResultList;
+  }
+
+  interface SpeechRecognitionErrorEvent extends Event {
+    readonly error: string;
+    readonly message?: string;
+  }
+
+  // Performance API 보강
+  interface PerformanceMeasure extends PerformanceEntry {
+    readonly detail?: any;
+  }
+
+  // 누락된 Web API 타입들
+  interface SpeechGrammarList {
+    readonly length: number;
+    item(index: number): SpeechGrammar;
+    addFromURI(src: string, weight?: number): void;
+    addFromString(string: string, weight?: number): void;
+  }
+
+  interface SpeechGrammar {
+    src: string;
+    weight: number;
+  }
+
+  interface SpeechRecognitionResultList {
+    readonly length: number;
+    item(index: number): SpeechRecognitionResult;
+    [index: number]: SpeechRecognitionResult;
+  }
+
+  interface SpeechRecognitionResult {
+    readonly length: number;
+    readonly isFinal: boolean;
+    item(index: number): SpeechRecognitionAlternative;
+    [index: number]: SpeechRecognitionAlternative;
+  }
+
+  interface SpeechRecognitionAlternative {
+    readonly transcript: string;
+    readonly confidence: number;
+  }
+
+  // Permission API 타입들
+  type PermissionState = "granted" | "denied" | "prompt";
+  type PermissionName = "microphone" | "camera" | "geolocation" | "notifications";
+}
