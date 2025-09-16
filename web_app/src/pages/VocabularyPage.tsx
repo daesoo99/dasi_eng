@@ -312,6 +312,7 @@ export const VocabularyPage: React.FC = () => {
                 key={word.id}
                 word={word}
                 viewMode={viewMode}
+                isPlaying={isPlaying}
                 onStatusChange={handleWordStatusChange}
                 onToggleFavorite={handleToggleFavorite}
                 onPlayWord={() => playWordPronunciation(word)}
@@ -342,6 +343,7 @@ export const VocabularyPage: React.FC = () => {
 interface VocabularyWordItemProps {
   word: VocabularyWord;
   viewMode: 'list' | 'cards';
+  isPlaying: boolean;
   onStatusChange: (wordId: string, status: UserVocabularyProgress['status']) => void;
   onToggleFavorite: (wordId: string) => void;
   onPlayWord: () => void;
@@ -352,6 +354,7 @@ interface VocabularyWordItemProps {
 const VocabularyWordItem: React.FC<VocabularyWordItemProps> = ({
   word,
   viewMode,
+  isPlaying,
   onStatusChange,
   onToggleFavorite,
   onPlayWord,

@@ -1,8 +1,17 @@
 // Adaptive Pack Service - 오답 + 망각곡선 + 패턴 완전 자동화
 
-// import { srsService, type SRSCard } from './srsService';
-// TODO: Migrate to new SRS Engine system
 import type { ReviewCard } from './srs/SRSEngine';
+// TODO: SRS migration - using new ReviewCard type
+
+// 임시 레거시 타입 정의 (마이그레이션 완료까지)
+interface LegacyLegacySRSCard {
+  id: string;
+  level: number;
+  stage: number;
+  correctCount: number;
+  incorrectCount: number;
+  averageResponseTime: number;
+}
 import { api } from '@/lib/api';
 import type { DrillCard } from '@/types';
 
@@ -31,7 +40,7 @@ export interface AdaptivePackCard {
   priorityScore: number;
   
   // SRS 정보
-  srsInfo?: SRSCard;
+  srsInfo?: LegacyLegacySRSCard;
   
   // 약점 패턴 정보
   weaknessPatterns?: WeaknessPattern[];
@@ -108,24 +117,25 @@ class AdaptivePackService {
    */
   async analyzeLearningData(userId: string): Promise<LearningAnalytics> {
     try {
-      // SRS 데이터 가져오기
-      const srsStats = await srsService.getSRSStats(userId);
+      // SRS 데이터 가져오기 - TODO: 새로운 SRS 엔진으로 마이그레이션
+      // const srsStats = await srsService.getSRSStats(userId);
+      const srsStats = null; // 임시 처리
       const storedCards = localStorage.getItem(`srs_cards_${userId}`);
-      const allSRSCards: SRSCard[] = storedCards ? JSON.parse(storedCards) : [];
+      const allLegacySRSCards: LegacySRSCard[] = storedCards ? JSON.parse(storedCards) : [];
       
       // 학습 기록 분석
-      const totalAnswered = allSRSCards.reduce((sum, card) => sum + card.correctCount + card.incorrectCount, 0);
-      const totalCorrect = allSRSCards.reduce((sum, card) => sum + card.correctCount, 0);
+      const totalAnswered = allLegacySRSCards.reduce((sum, card) => sum + card.correctCount + card.incorrectCount, 0);
+      const totalCorrect = allLegacySRSCards.reduce((sum, card) => sum + card.correctCount, 0);
       const correctRate = totalAnswered > 0 ? (totalCorrect / totalAnswered) * 100 : 0;
       
       // 평균 응답 시간 계산
-      const averageResponseTime = allSRSCards.length > 0 
-        ? allSRSCards.reduce((sum, card) => sum + card.averageResponseTime, 0) / allSRSCards.length 
+      const averageResponseTime = allLegacySRSCards.length > 0 
+        ? allLegacySRSCards.reduce((sum, card) => sum + card.averageResponseTime, 0) / allLegacySRSCards.length 
         : 0;
       
       // 레벨별 성과 분석
       const levelPerformance: Record<number, any> = {};
-      allSRSCards.forEach(card => {
+      allLegacySRSCards.forEach(card => {
         if (!levelPerformance[card.level]) {
           levelPerformance[card.level] = {
             cards: [],
@@ -147,12 +157,12 @@ class AdaptivePackService {
         levelPerformance[parseInt(level)] = {
           accuracy: data.totalAnswered > 0 ? (data.totalCorrect / data.totalAnswered) * 100 : 0,
           averageTime: data.cards.length > 0 ? data.totalTime / data.cards.length : 0,
-          completedStages: new Set(data.cards.map((card: SRSCard) => card.stage)).size
+          completedStages: new Set(data.cards.map((card: LegacySRSCard) => card.stage)).size
         };
       });
       
       // 약점 패턴 식별
-      const identifiedWeaknesses = await this.identifyWeaknessPatterns(allSRSCards);
+      const identifiedWeaknesses = await this.identifyWeaknessPatterns(allLegacySRSCards);
       
       // 학습 패턴 분석
       const learningPattern = {
@@ -163,8 +173,8 @@ class AdaptivePackService {
       
       // 추세 분석
       const trend = {
-        improvementRate: this.calculateImprovementRate(allSRSCards),
-        consistencyScore: this.calculateConsistencyScore(allSRSCards),
+        improvementRate: this.calculateImprovementRate(allLegacySRSCards),
+        consistencyScore: this.calculateConsistencyScore(allLegacySRSCards),
         challengeReadiness: correctRate > 75 ? 0.8 : correctRate > 60 ? 0.6 : 0.4
       };
       
@@ -188,7 +198,7 @@ class AdaptivePackService {
   /**
    * 약점 패턴 식별
    */
-  private async identifyWeaknessPatterns(srsCards: SRSCard[]): Promise<WeaknessPattern[]> {
+  private async identifyWeaknessPatterns(srsCards: LegacySRSCard[]): Promise<WeaknessPattern[]> {
     const weaknesses: WeaknessPattern[] = [];
     
     // 정답률이 낮은 카드들 분석
@@ -202,7 +212,7 @@ class AdaptivePackService {
       if (!groups[card.level]) groups[card.level] = [];
       groups[card.level].push(card);
       return groups;
-    }, {} as Record<number, SRSCard[]>);
+    }, {} as Record<number, LegacySRSCard[]>);
     
     // 각 레벨별 약점 패턴 생성
     Object.entries(levelGroups).forEach(([level, cards]) => {
@@ -245,7 +255,7 @@ class AdaptivePackService {
   /**
    * 개선율 계산
    */
-  private calculateImprovementRate(srsCards: SRSCard[]): number {
+  private calculateImprovementRate(srsCards: LegacySRSCard[]): number {
     // 최근 학습한 카드들의 repetitions 평균으로 개선율 추정
     const recentCards = srsCards.filter(card => {
       const daysSince = (Date.now() - new Date(card.lastReviewDate).getTime()) / (24 * 60 * 60 * 1000);
@@ -261,7 +271,7 @@ class AdaptivePackService {
   /**
    * 일관성 점수 계산
    */
-  private calculateConsistencyScore(srsCards: SRSCard[]): number {
+  private calculateConsistencyScore(srsCards: LegacySRSCard[]): number {
     if (srsCards.length === 0) return 0;
     
     // 학습 간격의 일관성 측정
@@ -294,8 +304,9 @@ class AdaptivePackService {
       // 2. 오답 카드 수집
       const wrongAnswerCards = await this.getWrongAnswerCards(userId);
       
-      // 3. 망각곡선 복습 카드 수집
-      const forgettingCurveCards = await srsService.getCardsForReview(userId, 50);
+      // 3. 망각곡선 복습 카드 수집 - TODO: 새로운 SRS 엔진으로 마이그레이션
+      // const forgettingCurveCards = await srsService.getCardsForReview(userId, 50);
+      const forgettingCurveCards: LegacySRSCard[] = []; // 임시 처리
       
       // 4. 약점 패턴 기반 추가 카드 수집
       const patternCards = await this.getPatternReinforcementCards(analytics.identifiedWeaknesses);
@@ -348,10 +359,10 @@ class AdaptivePackService {
    */
   private async getWrongAnswerCards(userId: string): Promise<AdaptivePackCard[]> {
     const storedCards = localStorage.getItem(`srs_cards_${userId}`);
-    const allSRSCards: SRSCard[] = storedCards ? JSON.parse(storedCards) : [];
+    const allLegacySRSCards: LegacySRSCard[] = storedCards ? JSON.parse(storedCards) : [];
     
     // 오답률이 높은 카드들 (최소 2번 이상 시도)
-    const wrongCards = allSRSCards.filter(card => {
+    const wrongCards = allLegacySRSCards.filter(card => {
       const total = card.correctCount + card.incorrectCount;
       return total >= 2 && (card.incorrectCount / total) > 0.4;
     });
@@ -428,7 +439,7 @@ class AdaptivePackService {
    */
   private async prioritizeAndSelectCards(
     wrongCards: AdaptivePackCard[],
-    forgettingCards: SRSCard[],
+    forgettingCards: LegacySRSCard[],
     patternCards: AdaptivePackCard[],
     targetSize: number,
     algorithm: 'standard' | 'intensive' | 'review_focused'

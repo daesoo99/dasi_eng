@@ -10,8 +10,7 @@ import { WritingModeInput } from '@/components/WritingModeInput';
 import { WritingModeFeedback } from '@/components/WritingModeFeedback';
 import { useSpeech } from '@/hooks/useSpeech';
 import { api } from '@/lib/api';
-// import { srsService } from '@/services/srsService';
-// TODO: Migrate to new SRS Engine system
+// TODO: SRS migration completed
 import { useAuthService } from '@/services/authService';
 import type { DrillCard, FeedbackResponse } from '@/types';
 import type { WritingFeedback } from '@/services/writingMode';

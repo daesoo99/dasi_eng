@@ -1,6 +1,5 @@
 import React, { useState, useCallback, useMemo, memo } from 'react';
 import { useAuth } from '../hooks/useAuth';
-import AuthModal from './AuthModal';
 
 export const UserProfile: React.FC = memo(() => {
   const { user, userProgress, logout, isLoading, isAuthenticated, isAnonymous } = useAuth();

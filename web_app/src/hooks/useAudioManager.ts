@@ -7,7 +7,7 @@
  */
 
 import { useCallback, useEffect, useState } from 'react';
-import { useLocalStorage, STORAGE_KEYS, type VoiceSettings } from './useLocalStorage';
+import { useLocalStorage, STORAGE_KEYS } from './useLocalStorage';
 import { getSpeechPlugin, type ISpeechPlugin } from '@/plugins';
 import { NonEmptyString } from '@/types/core';
 
@@ -28,13 +28,15 @@ export const useAudioManager = (): UseAudioManagerReturn => {
   useEffect(() => {
     const initializePlugin = async () => {
       try {
-        const plugin = await getSpeechPlugin();
-        if (plugin) {
-          setSpeechPlugin(plugin);
+        const result = await getSpeechPlugin();
+        if (result.isOk) {
+          setSpeechPlugin(result.value);
           console.log('🔊 SpeechPlugin 초기화 완료');
+        } else {
+          console.error('❌ SpeechPlugin 초기화 실패:', result.error);
         }
       } catch (error) {
-        console.error('❌ SpeechPlugin 초기화 실패:', error);
+        console.error('❌ SpeechPlugin 초기화 예외:', error);
       }
     };
 
@@ -59,7 +61,8 @@ export const useAudioManager = (): UseAudioManagerReturn => {
     try {
       // 기존 음성 중단
       speechPlugin.stopAll();
-      
+      setIsPlayingState(true);
+
       // 플러그인을 통한 TTS 실행
       const result = await speechPlugin.speakText(text as NonEmptyString, {
         language: 'ko-KR' as NonEmptyString,
@@ -70,13 +73,15 @@ export const useAudioManager = (): UseAudioManagerReturn => {
 
       if (result.isErr) {
         console.error('❌ 한국어 TTS 플러그인 오류:', result.error);
-        // 플러그인 실패 시에도 폴백하지 않음 (100% 플러그인 원칙)
+        setIsPlayingState(false);
         return;
       }
 
-      console.log('🔊 한국어 TTS 완료 (플러그인)');
+      console.log('🔊 한국어 TTS 완룼 (플러그인)');
+      setIsPlayingState(false);
     } catch (error) {
       console.error('❌ 한국어 TTS 예외:', error);
+      setIsPlayingState(false);
     }
   }, [speechPlugin, voiceSettings]);
 
@@ -97,7 +102,8 @@ export const useAudioManager = (): UseAudioManagerReturn => {
     try {
       // 기존 음성 중단
       speechPlugin.stopAll();
-      
+      setIsPlayingState(true);
+
       // 플러그인을 통한 TTS 실행
       const result = await speechPlugin.speakText(text as NonEmptyString, {
         language: 'en-US' as NonEmptyString,
@@ -108,13 +114,15 @@ export const useAudioManager = (): UseAudioManagerReturn => {
 
       if (result.isErr) {
         console.error('❌ 영어 TTS 플러그인 오류:', result.error);
-        // 플러그인 실패 시에도 폴백하지 않음 (100% 플러그인 원칙)
+        setIsPlayingState(false);
         return;
       }
 
       console.log('🔊 영어 TTS 완료 (플러그인)');
+      setIsPlayingState(false);
     } catch (error) {
       console.error('❌ 영어 TTS 예외:', error);
+      setIsPlayingState(false);
     }
   }, [speechPlugin, voiceSettings]);
 
@@ -128,6 +136,8 @@ export const useAudioManager = (): UseAudioManagerReturn => {
     }
 
     const result = speechPlugin.stopAll();
+    setIsPlayingState(false);
+
     if (result.isErr) {
       console.error('❌ 플러그인 음성 중단 오류:', result.error);
     }

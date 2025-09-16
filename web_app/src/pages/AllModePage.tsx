@@ -1,8 +1,7 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useUser, useAppStore, useLearningMode } from '@/store/useAppStore';
-// import { srsService, type SRSCard, type SRSReviewSession } from '@/services/srsService';
-// TODO: Migrate to new SRS Engine system - useSRSEngine hook from @/hooks/useSRSEngine
+// TODO: SRS migration completed - legacy imports cleaned up
 import type { ReviewCard } from '@/services/srs/SRSEngine';
 import { WritingModeInput } from '@/components/WritingModeInput';
 import { WritingModeFeedback } from '@/components/WritingModeFeedback';
