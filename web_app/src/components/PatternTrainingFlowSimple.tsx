@@ -73,7 +73,7 @@ export const PatternTrainingFlowSimple: React.FC<PatternTrainingFlowSimpleProps>
       // ServiceContainer를 통해 speechService 사용
       const ServiceContainer = (await import('@/container/ServiceContainer')).default;
       const container = ServiceContainer.getInstanceSync();
-      const speechService = container.getSpeechProcessingService();
+      container.getSpeechProcessingService(); // 초기화만 수행
 
       // 플러그인을 통한 초기화 (실제 음성 없이 준비만)
       console.log('🔧 플러그인 TTS 초기화 완료');
