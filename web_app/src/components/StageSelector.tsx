@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, useMemo, memo } from 'react';
+import React, { useState, useEffect, useCallback, memo } from 'react';
 import { stageFocusService } from '@/services/stageFocusMode';
 
 interface StageSelectorProps {

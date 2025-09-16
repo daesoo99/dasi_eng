@@ -114,9 +114,9 @@ export const useInterview = (options: InterviewHookOptions = {}): InterviewHookR
   const {
     autoStartSpeech = true,
     enablePerformanceTracking = true,
-    maxRetries = 3,
+    _maxRetries = 3,
     sessionTimeout = 30 * 60 * 1000, // 30분
-    debugMode = process.env.NODE_ENV === 'development'
+    _debugMode = process.env.NODE_ENV === 'development'
   } = options;
 
   // ✅ CLAUDE.local 준수: 플러그인 기반 성능 모니터링

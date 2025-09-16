@@ -1,6 +1,5 @@
 import { useState, useCallback, useMemo, useEffect } from 'react';
 import { QuestionItem, LevelSystemData, PatternDataManager } from '@/data/patternData';
-import { LevelServiceFactory } from '@/services/curriculum/LevelServiceFactory';
 
 export interface UsePatternDataProps {
   levelSystemData?: LevelSystemData | null;

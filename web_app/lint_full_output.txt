@@ -1,0 +1,414 @@
+
+> dasi-english-web@1.0.0 lint
+> eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0
+
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\components\AutoSpeakingFlow.tsx
+   83:6  warning  React Hook useEffect has missing dependencies: 'flowState' and 'startAutomaticFlow'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  174:6  warning  React Hook useEffect has a missing dependency: 'speech.confidence'. Either include it or remove the dependency array                     react-hooks/exhaustive-deps
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\components\ErrorBoundary.tsx
+  160:17  warning  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\components\ExplanationModeSession.tsx
+  71:6  warning  React Hook useCallback has a missing dependency: 'proceedToNext'. Either include it or remove the dependency array    react-hooks/exhaustive-deps
+  86:6  warning  React Hook useCallback has a missing dependency: 'completeSession'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\components\PatternTrainingFlowFinal.tsx
+   67:9  warning  The 'getCountdownTime' function makes the dependencies of useCallback Hook (at line 358) change on every render. Move it inside the useCallback callback. Alternatively, wrap the definition of 'getCountdownTime' in its own useCallback() Hook  react-hooks/exhaustive-deps
+  273:6  warning  React Hook useCallback has missing dependencies: 'handleResult' and 'handleTimeout'. Either include them or remove the dependency array                                                                                                           react-hooks/exhaustive-deps
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\components\PatternTrainingFlowSimple.tsx
+   54:9  warning  The 'getCountdownTime' function makes the dependencies of useCallback Hook (at line 461) change on every render. To fix this, wrap the definition of 'getCountdownTime' in its own useCallback() Hook    react-hooks/exhaustive-deps
+  339:6  warning  React Hook useCallback has missing dependencies: 'currentPhase', 'evaluateAndSubmitAnswer', 'handleRecognitionTimeout', and 'stopSpeechRecognition'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  399:6  warning  React Hook useCallback has an unnecessary dependency: 'voiceSettings.englishEnabled'. Either exclude it or remove the dependency array                                                                   react-hooks/exhaustive-deps
+  506:6  warning  React Hook useEffect has missing dependencies: 'autoStart', 'currentPhase', 'disabled', and 'startFlow'. Either include them or remove the dependency array                                              react-hooks/exhaustive-deps
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\components\PerformanceDashboard.tsx
+  63:6  warning  React Hook useEffect has a missing dependency: 'container'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  86:6  warning  React Hook useEffect has a missing dependency: 'container'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\components\PracticeHistory.tsx
+  21:6  warning  React Hook useEffect has missing dependencies: 'loadInterviews' and 'loadStorageInfo'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  28:6  warning  React Hook useEffect has a missing dependency: 'stopAllAudio'. Either include it or remove the dependency array                            react-hooks/exhaustive-deps
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\components\ProgressDashboard.tsx
+  37:6  warning  React Hook useEffect has a missing dependency: 'loadProgressData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\components\ProgressIndicator.tsx
+  96:6  warning  React Hook useEffect has a missing dependency: 'status?.step'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\components\SmartReviewSession.tsx
+   44:6  warning  React Hook useEffect has a missing dependency: 'initializeSession'. Either include it or remove the dependency array                            react-hooks/exhaustive-deps
+  170:6  warning  React Hook useCallback has missing dependencies: 'calculateAccuracy' and 'completeSession'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  194:6  warning  React Hook useCallback has a missing dependency: 'analyzeImprovementAreas'. Either include it or remove the dependency array                    react-hooks/exhaustive-deps
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\components\SpeakingFlowController.tsx
+  70:6  warning  React Hook useEffect has missing dependencies: 'currentPhase' and 'startSpeakingFlow'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\components\SpeechRecorder.tsx
+   61:6  warning  React Hook useEffect has missing dependencies: 'autoFlow', 'autoFlowState', and 'handleAutoFlowStart'. Either include them or remove the dependency array                                                                                                  react-hooks/exhaustive-deps
+   69:6  warning  React Hook useEffect has missing dependencies: 'autoTimeout' and 'timerInterval'. Either include them or remove the dependency array                                                                                                                       react-hooks/exhaustive-deps
+  316:6  warning  React Hook useEffect has missing dependencies: 'onResult' and 'speech.confidence'. Either include them or remove the dependency array. If 'onResult' changes too often, find the parent component that defines it and wrap that definition in useCallback  react-hooks/exhaustive-deps
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\components\StageSelector.tsx
+  1:51  warning  'useMemo' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\components\srs\ReviewSessionCard.tsx
+  110:30   warning  'results' is not defined                                                                                                                                                                                                              no-undef
+  111:42   warning  'results' is not defined                                                                                                                                                                                                              no-undef
+  112:37   warning  'results' is not defined                                                                                                                                                                                                              no-undef
+  112:91   warning  'results' is not defined                                                                                                                                                                                                              no-undef
+  118:26   warning  'results' is not defined                                                                                                                                                                                                              no-undef
+  124:6    warning  React Hook useCallback has an unnecessary dependency: 'results'. Either exclude it or remove the dependency array. Outer scope values like 'results' aren't valid dependencies because mutating them doesn't re-render the component  react-hooks/exhaustive-deps
+  124:108  warning  'results' is not defined                                                                                                                                                                                                              no-undef
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\hooks\useAccessibility.ts
+  1:44  warning  'useRef' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\hooks\useAnimations.ts
+  33:25  warning  The ref value 'animationTimeouts.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'animationTimeouts.current' to a variable inside the effect, and use that variable in the cleanup function  react-hooks/exhaustive-deps
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\hooks\useAudioService.ts
+  190:15  warning  'serviceContainer' is assigned a value but never used. Allowed unused vars must match /^_/u                                                         @typescript-eslint/no-unused-vars
+  210:6   warning  React Hook useEffect has missing dependencies: 'options.config' and 'options.serviceContainer'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\hooks\useAuth.ts
+  66:6  warning  React Hook useEffect has missing dependencies: 'userProgress?.level' and 'userProgress?.stage'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\hooks\useInterview.ts
+  117:5  warning  'maxRetries' is assigned a value but never used. Allowed unused vars must match /^_/u                                                @typescript-eslint/no-unused-vars
+  119:5  warning  'debugMode' is assigned a value but never used. Allowed unused vars must match /^_/u                                                 @typescript-eslint/no-unused-vars
+  346:6  warning  React Hook useCallback has missing dependencies: 'setError' and 'speakQuestion'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  431:6  warning  React Hook useCallback has a missing dependency: 'speakQuestion'. Either include it or remove the dependency array                   react-hooks/exhaustive-deps
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\hooks\usePatternData.ts
+   3:10  warning  'LevelServiceFactory' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+  46:10  warning  'isLoading' is assigned a value but never used. Allowed unused vars must match /^_/u   @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\hooks\usePatternTrainingManager.ts
+  62:23  warning  The ref value 'timerManagerRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'timerManagerRef.current' to a variable inside the effect, and use that variable in the cleanup function  react-hooks/exhaustive-deps
+  63:23  warning  The ref value 'eventManagerRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'eventManagerRef.current' to a variable inside the effect, and use that variable in the cleanup function  react-hooks/exhaustive-deps
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\hooks\usePerformanceMonitoring.ts
+  87:26  warning  The ref value 'eventHandlersRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'eventHandlersRef.current' to a variable inside the effect, and use that variable in the cleanup function  react-hooks/exhaustive-deps
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\hooks\usePluginSpeech.ts
+   9:42  warning  'Result' is defined but never used. Allowed unused vars must match /^_/u                     @typescript-eslint/no-unused-vars
+  79:5   warning  'fallbackToWebAPI' is assigned a value but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\hooks\useQuestionProgress.ts
+  111:33  warning  'index' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\hooks\useSpacedRepetition.ts
+   14:10  warning  'ReviewCard' is defined but never used. Allowed unused vars must match /^_/u         @typescript-eslint/no-unused-vars
+  268:13  warning  'accuracy' is assigned a value but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\hooks\useSpeech.ts
+   47:45  warning  'phraseHints' is assigned a value but never used. Allowed unused args must match /^_/u                       @typescript-eslint/no-unused-vars
+   71:44  warning  'phraseHints' is assigned a value but never used. Allowed unused args must match /^_/u                       @typescript-eslint/no-unused-vars
+  129:6   warning  React Hook useCallback has a missing dependency: 'speech'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  178:6   warning  React Hook useCallback has a missing dependency: 'speech'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  181:39  warning  'frequency' is assigned a value but never used. Allowed unused args must match /^_/u                         @typescript-eslint/no-unused-vars
+  181:64  warning  'duration' is assigned a value but never used. Allowed unused args must match /^_/u                          @typescript-eslint/no-unused-vars
+  198:6   warning  React Hook useCallback has a missing dependency: 'speech'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  204:6   warning  React Hook useCallback has a missing dependency: 'speech'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  252:6   warning  React Hook useCallback has a missing dependency: 'speech'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  287:6   warning  React Hook useCallback has a missing dependency: 'speech'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\hooks\useSpeechRecognition.ts
+   89:44  warning  'PermissionState' is not defined                                                                                                                                                                                                    no-undef
+  264:67  warning  'PermissionState' is not defined                                                                                                                                                                                                    no-undef
+  266:80  warning  'PermissionName' is not defined                                                                                                                                                                                                     no-undef
+  364:6   warning  React Hook useCallback has a missing dependency: 'setupEventHandlers'. Either include it or remove the dependency array                                                                                                             react-hooks/exhaustive-deps
+  534:6   warning  React Hook useCallback has missing dependencies: 'endAudioLatency', 'maxAlternatives', 'measureAudioLatency', 'resetSilenceTimer', 'restartListening', and 'startSilenceTimer'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  560:6   warning  React Hook useCallback has a missing dependency: 'stopListening'. Either include it or remove the dependency array                                                                                                                  react-hooks/exhaustive-deps
+  648:6   warning  React Hook useCallback has a missing dependency: 'endAudioLatency'. Either include it or remove the dependency array                                                                                                                react-hooks/exhaustive-deps
+  754:18  warning  '_error' is defined but never used                                                                                                                                                                                                  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\hooks\useSpeedTraining.ts
+   14:3   warning  'SpeedTrainingEvent' is defined but never used. Allowed unused vars must match /^_/u                                                                                                                                                                                             @typescript-eslint/no-unused-vars
+   20:3   warning  'DifficultyMode' is defined but never used. Allowed unused vars must match /^_/u                                                                                                                                                                                                 @typescript-eslint/no-unused-vars
+   94:26  warning  The ref value 'eventHandlersRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'eventHandlersRef.current' to a variable inside the effect, and use that variable in the cleanup function  react-hooks/exhaustive-deps
+  240:6   warning  React Hook useCallback has a missing dependency: 'getSessionProgress'. Either include it or remove the dependency array                                                                                                                                                          react-hooks/exhaustive-deps
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\hooks\useThemedStyles.ts
+  115:6  warning  React Hook useMemo has an unnecessary dependency: 'personalTheme'. Either exclude it or remove the dependency array  react-hooks/exhaustive-deps
+  144:6  warning  React Hook useMemo has an unnecessary dependency: 'personalTheme'. Either exclude it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\hooks\useVoiceGuidance.ts
+    2:33  warning  'ISpeechProcessingService' is defined but never used. Allowed unused vars must match /^_/u                             @typescript-eslint/no-unused-vars
+  153:6   warning  React Hook useCallback has a missing dependency: 'serviceContainer'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  181:6   warning  React Hook useCallback has a missing dependency: 'serviceContainer'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\lib\api.ts
+  15:14  warning  'RequestInit' is not defined  no-undef
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\lib\audioV2\AudioSessionFactory.ts
+  124:14  warning  '_error' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\lib\audioV2\modules\BeepPlayer.ts
+  12:14  warning  '_error' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\pages\AchievementsPage.tsx
+    3:64  warning  'AchievementData' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+  117:9   warning  'user' is assigned a value but never used. Allowed unused vars must match /^_/u    @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\pages\AdaptivePackPage.tsx
+   18:33  warning  'clearError' is assigned a value but never used. Allowed unused vars must match /^_/u                          @typescript-eslint/no-unused-vars
+   51:6   warning  React Hook useEffect has a missing dependency: 'loadData'. Either include it or remove the dependency array    react-hooks/exhaustive-deps
+   65:6   warning  React Hook useEffect has a missing dependency: 'finishPack'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   80:14  warning  '_error' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+  108:14  warning  '_error' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+  142:11  warning  'responseTime' is assigned a value but never used. Allowed unused vars must match /^_/u                        @typescript-eslint/no-unused-vars
+  177:16  warning  'quality' is assigned a value but never used. Allowed unused vars must match /^_/u                             @typescript-eslint/no-unused-vars
+  196:14  warning  '_error' is defined but never used                                                                             @typescript-eslint/no-unused-vars
+  318:25  warning  'nextCard' is not defined                                                                                      no-undef
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\pages\AllModePage.tsx
+    1:38  warning  'useMemo' is defined but never used. Allowed unused vars must match /^_/u                                           @typescript-eslint/no-unused-vars
+    1:47  warning  'useCallback' is defined but never used. Allowed unused vars must match /^_/u                                       @typescript-eslint/no-unused-vars
+   60:6   warning  React Hook useEffect has a missing dependency: 'loadSRSStats'. Either include it or remove the dependency array     react-hooks/exhaustive-deps
+   67:6   warning  React Hook useEffect has a missing dependency: 'loadCurrentCard'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   75:19  warning  'stats' is not defined                                                                                              no-undef
+  103:14  warning  '_error' is defined but never used                                                                                  @typescript-eslint/no-unused-vars
+  119:25  warning  'srsService' is not defined                                                                                         no-undef
+  122:35  warning  'srsService' is not defined                                                                                         no-undef
+  142:14  warning  '_error' is defined but never used                                                                                  @typescript-eslint/no-unused-vars
+  180:14  warning  '_error' is defined but never used                                                                                  @typescript-eslint/no-unused-vars
+  273:11  warning  'srsService' is not defined                                                                                         no-undef
+  495:25  warning  'nextCard' is not defined                                                                                           no-undef
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\pages\DashboardHome.tsx
+    3:10  warning  'useAppStore' is defined but never used. Allowed unused vars must match /^_/u             @typescript-eslint/no-unused-vars
+   17:11  warning  'themeMode' is assigned a value but never used. Allowed unused vars must match /^_/u      @typescript-eslint/no-unused-vars
+   17:22  warning  'setThemeMode' is assigned a value but never used. Allowed unused vars must match /^_/u   @typescript-eslint/no-unused-vars
+   29:5   warning  'metrics' is assigned a value but never used. Allowed unused vars must match /^_/u        @typescript-eslint/no-unused-vars
+   30:5   warning  'levelProgress' is assigned a value but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+   34:14  warning  'refreshStats' is assigned a value but never used. Allowed unused vars must match /^_/u   @typescript-eslint/no-unused-vars
+  696:11  warning  'level' is assigned a value but never used. Allowed unused vars must match /^_/u          @typescript-eslint/no-unused-vars
+  698:11  warning  'stageData' is assigned a value but never used. Allowed unused vars must match /^_/u      @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\pages\HomePage.tsx
+   1:17  warning  'useState' is defined but never used. Allowed unused vars must match /^_/u                    @typescript-eslint/no-unused-vars
+   3:91  warning  'LearningMode' is defined but never used. Allowed unused vars must match /^_/u                @typescript-eslint/no-unused-vars
+  46:9   warning  'handleLevelSelect' is assigned a value but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\pages\ImitationPage.tsx
+  13:20  warning  'setAudioUrl' is assigned a value but never used. Allowed unused vars must match /^_/u         @typescript-eslint/no-unused-vars
+  14:27  warning  'setCurrentSentence' is assigned a value but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+  15:20  warning  'setFeedback' is assigned a value but never used. Allowed unused vars must match /^_/u         @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\pages\LandingHome.tsx
+   11:24  warning  'isDark' is assigned a value but never used. Allowed unused vars must match /^_/u                @typescript-eslint/no-unused-vars
+  124:11  warning  'currentLevelProgress' is assigned a value but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+  169:71  warning  'EventListener' is not defined                                                                   no-undef
+  172:76  warning  'EventListener' is not defined                                                                   no-undef
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\pages\PatternPage.tsx
+  24:10  warning  'currentPattern' is assigned a value but never used. Allowed unused vars must match /^_/u     @typescript-eslint/no-unused-vars
+  24:26  warning  'setCurrentPattern' is assigned a value but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\pages\PatternTrainingPage.tsx
+  211:8   warning  React Hook useCallback has an unnecessary dependency: 'handleAnswerEvaluation'. Either exclude it or remove the dependency array  react-hooks/exhaustive-deps
+  240:25  warning  'stageId' is defined but never used. Allowed unused args must match /^_/u                                                         @typescript-eslint/no-unused-vars
+  246:7   warning  React Hook useCallback has a missing dependency: 'moveToNextQuestion'. Either include it or remove the dependency array           react-hooks/exhaustive-deps
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\pages\ProgressManagementPage.tsx
+  101:67  warning  'index' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\pages\ResultPage.tsx
+  23:9  warning  'user' is assigned a value but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\pages\ReviewPage.tsx
+    8:15  warning  'DrillCard' is defined but never used. Allowed unused vars must match /^_/u                                         @typescript-eslint/no-unused-vars
+   44:6   warning  React Hook useEffect has a missing dependency: 'resetStudyState'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   77:14  warning  '_error' is defined but never used                                                                                  @typescript-eslint/no-unused-vars
+  112:14  warning  '_error' is defined but never used                                                                                  @typescript-eslint/no-unused-vars
+  119:57  warning  'confidence' is defined but never used. Allowed unused args must match /^_/u                                        @typescript-eslint/no-unused-vars
+  122:11  warning  'responseTime' is assigned a value but never used. Allowed unused vars must match /^_/u                             @typescript-eslint/no-unused-vars
+  150:14  warning  '_error' is defined but never used                                                                                  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\pages\ScenarioDialoguePage.tsx
+  19:10  warning  'currentTurn' is assigned a value but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\pages\SituationPage.tsx
+  11:11  warning  'Situation' is defined but never used. Allowed unused vars must match /^_/u                 @typescript-eslint/no-unused-vars
+  28:10  warning  'currentScenario' is assigned a value but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\pages\SituationalTrainingPage.tsx
+  104:6  warning  React Hook useEffect has a missing dependency: 'levelGroupMapping'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\pages\SmartReviewPage.tsx
+  1:27  warning  'useEffect' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\pages\StudyPage.tsx
+    4:10  warning  'SpeechRecorder' is defined but never used. Allowed unused vars must match /^_/u                                                                @typescript-eslint/no-unused-vars
+    5:10  warning  'SpeakingStageSelector' is defined but never used. Allowed unused vars must match /^_/u                                                         @typescript-eslint/no-unused-vars
+    6:10  warning  'SpeakingFlowController' is defined but never used. Allowed unused vars must match /^_/u                                                        @typescript-eslint/no-unused-vars
+   15:15  warning  'DrillCard' is defined but never used. Allowed unused vars must match /^_/u                                                                     @typescript-eslint/no-unused-vars
+   15:26  warning  'FeedbackResponse' is defined but never used. Allowed unused vars must match /^_/u                                                              @typescript-eslint/no-unused-vars
+   37:10  warning  'sessionStartTime' is assigned a value but never used. Allowed unused vars must match /^_/u                                                     @typescript-eslint/no-unused-vars
+   44:10  warning  'speakingFlowState' is assigned a value but never used. Allowed unused vars must match /^_/u                                                    @typescript-eslint/no-unused-vars
+   51:9   warning  'sessionConfig' is assigned a value but never used. Allowed unused vars must match /^_/u                                                        @typescript-eslint/no-unused-vars
+  138:6   warning  React Hook useEffect has missing dependencies: 'autoNextTimeoutId', 'setError', and 'user'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  145:6   warning  React Hook useEffect has a missing dependency: 'startSession'. Either include it or remove the dependency array                                 react-hooks/exhaustive-deps
+  171:14  warning  'error' is defined but never used                                                                                                               @typescript-eslint/no-unused-vars
+  283:17  warning  'srsService' is not defined                                                                                                                     no-undef
+  421:15  warning  'srsService' is not defined                                                                                                                     no-undef
+  429:14  warning  'error' is defined but never used                                                                                                               @typescript-eslint/no-unused-vars
+  561:14  warning  'error' is defined but never used                                                                                                               @typescript-eslint/no-unused-vars
+  707:16  warning  'PatternTrainingFlowFinal' is not defined                                                                                                       no-undef
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\pages\VocabularyPage.tsx
+   20:5   warning  'vocabularyWords' is assigned a value but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+  358:3   warning  'onStatusChange' is defined but never used. Allowed unused args must match /^_/u            @typescript-eslint/no-unused-vars
+  361:3   warning  'onPlayExample' is defined but never used. Allowed unused args must match /^_/u             @typescript-eslint/no-unused-vars
+  495:21  warning  'isPlaying' is not defined                                                                  no-undef
+  499:29  warning  'isPlaying' is not defined                                                                  no-undef
+  501:20  warning  'isPlaying' is not defined                                                                  no-undef
+  579:27  warning  'isPlaying' is not defined                                                                  no-undef
+  583:35  warning  'isPlaying' is not defined                                                                  no-undef
+  585:26  warning  'isPlaying' is not defined                                                                  no-undef
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\plugins\PluginManager.ts
+    9:24  warning  'PluginConfigEntry' is defined but never used. Allowed unused vars must match /^_/u    @typescript-eslint/no-unused-vars
+  267:13  warning  'loadedInfo' is assigned a value but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\plugins\config\PluginConfig.ts
+  6:10  warning  'NonEmptyString' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\plugins\core\BasePlugin.ts
+  227:34  warning  'config' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+  235:28  warning  'config' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\plugins\core\PluginLifecycleManager.ts
+   10:3   warning  'PluginEvent' is defined but never used. Allowed unused vars must match /^_/u         @typescript-eslint/no-unused-vars
+   11:3   warning  'PluginEventHandler' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+   15:43  warning  'isNonEmptyString' is defined but never used. Allowed unused vars must match /^_/u    @typescript-eslint/no-unused-vars
+  476:33  warning  'newConfig' is defined but never used. Allowed unused args must match /^_/u           @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\plugins\core\PluginRegistry.ts
+  15:43  warning  'isNonEmptyString' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\plugins\index.ts
+  56:51  warning  'PluginManagerOptions' is not defined  no-undef
+  57:10  warning  'pluginManager' is not defined         no-undef
+  61:10  warning  'pluginManager' is not defined         no-undef
+  66:19  warning  'pluginManager' is not defined         no-undef
+  67:25  warning  'pluginManager' is not defined         no-undef
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\plugins\simple\AdvancedIntegration.ts
+  13:10  warning  'AdvancedSpeechPlugin' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\plugins\simple\AdvancedPluginSystem.ts
+   9:3  warning  'Err' is defined but never used. Allowed unused vars must match /^_/u      @typescript-eslint/no-unused-vars
+  10:3  warning  'ErrCode' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\plugins\simple\MetricsAndSLOs.ts
+  529:9  warning  'originalRecognizeSpeech' is assigned a value but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+  530:9  warning  'originalPlayBeep' is assigned a value but never used. Allowed unused vars must match /^_/u         @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\plugins\simple\SimpleSpeechPlugin.ts
+  16:3  warning  'TimeoutController' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\plugins\speech\WebSpeechPlugin.ts
+  26:3   warning  'assertPositiveNumber' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+  70:32  warning  'config' is defined but never used. Allowed unused args must match /^_/u                @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\services\AudioFlowOrchestrator.ts
+  11:3  warning  'AdapterResult' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\services\ScoreCalculationService.ts
+  70:13  warning  'isCorrect' is assigned a value but never used. Allowed unused vars must match /^_/u     @typescript-eslint/no-unused-vars
+  70:43  warning  'responseTime' is assigned a value but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\services\adaptivePackService.ts
+    3:15  warning  'ReviewCard' is defined but never used. Allowed unused vars must match /^_/u         @typescript-eslint/no-unused-vars
+  122:13  warning  'srsStats' is assigned a value but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+  124:32  warning  'LegacySRSCard' is not defined                                                       no-undef
+  160:58  warning  'LegacySRSCard' is not defined                                                       no-undef
+  201:52  warning  'LegacySRSCard' is not defined                                                       no-undef
+  215:29  warning  'LegacySRSCard' is not defined                                                       no-undef
+  258:46  warning  'LegacySRSCard' is not defined                                                       no-undef
+  274:47  warning  'LegacySRSCard' is not defined                                                       no-undef
+  309:35  warning  'LegacySRSCard' is not defined                                                       no-undef
+  362:30  warning  'LegacySRSCard' is not defined                                                       no-undef
+  442:22  warning  'LegacySRSCard' is not defined                                                       no-undef
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\services\api.ts
+   8:32  warning  'AxiosRequestConfig' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+   8:52  warning  'AxiosResponse' is defined but never used. Allowed unused vars must match /^_/u       @typescript-eslint/no-unused-vars
+  11:3   warning  'errorHandler' is defined but never used. Allowed unused vars must match /^_/u        @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\services\authService.ts
+    9:11  warning  'ProgressUpdateParams' is defined but never used. Allowed unused vars must match /^_/u     @typescript-eslint/no-unused-vars
+  147:13  warning  'backendSuccess' is assigned a value but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\services\curriculum\LevelServiceFactory.ts
+  6:10  warning  'Level4Service' is defined but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\services\events\EventLifecycleManager.ts
+  65:75  warning  'EventListener' is not defined  no-undef
+  83:75  warning  'EventListener' is not defined  no-undef
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\services\incorrectPriorityService.ts
+  347:37  warning  'record' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\services\patternDataLoader.ts
+  135:16  warning  '_error' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\services\progressManagement.ts
+  179:64  warning  'currentDate' is defined but never used. Allowed unused args must match /^_/u      @typescript-eslint/no-unused-vars
+  383:41  warning  'progress' is defined but never used. Allowed unused args must match /^_/u         @typescript-eslint/no-unused-vars
+  387:48  warning  'incorrectAnswer' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\services\reviewAlgorithm.ts
+  295:64  warning  'activity' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\services\scenarioDialogue.ts
+  372:31  warning  'userInput' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\services\speedDifficultyModes.ts
+  169:11  warning  'userLevel' is assigned a value but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+  216:5   warning  'settings' is defined but never used. Allowed unused args must match /^_/u            @typescript-eslint/no-unused-vars
+  478:38  warning  'level' is defined but never used. Allowed unused args must match /^_/u               @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\services\srs\algorithms\MockSM2Algorithm.ts
+  65:5  warning  'timeSinceLastReview' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\services\srs\engines\ModularSRSEngine.ts
+  183:14  warning  'cardId' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\services\stageFocusMode.ts
+  459:5   warning  'masteredCount' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+  480:28  warning  'sessionId' is defined but never used. Allowed unused args must match /^_/u      @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\services\statistics\StatisticsCalculator.ts
+   43:14  warning  '_error' is defined but never used                                                @typescript-eslint/no-unused-vars
+  179:11  warning  'today' is assigned a value but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\services\timers\TimerManager.ts
+  129:17  warning  'id' is assigned a value but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+  160:17  warning  'id' is assigned a value but never used. Allowed unused vars must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\services\vocabularyService.ts
+  335:49  warning  'userStage' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\services\writingMode.ts
+  220:5  warning  'question' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\state\AudioFlowStateMachine.ts
+  148:75  warning  'data' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\store\useAppStore.ts
+  138:14  warning  'state' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+  145:14  warning  'state' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+  175:14  warning  'state' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+  265:14  warning  'state' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+
+C:\Users\kimdaesoo\source\claude\DaSi_eng\web_app\src\utils\index.ts
+  40:44  warning  'context' is defined but never used. Allowed unused args must match /^_/u  @typescript-eslint/no-unused-vars
+
+✖ 237 problems (0 errors, 237 warnings)
+
