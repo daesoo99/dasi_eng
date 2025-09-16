@@ -2,10 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useUser, useAppStore, useLearningMode } from '@/store/useAppStore';
 import { adaptivePackService, type AdaptivePack, type LearningAnalytics, type AdaptivePackCard } from '@/services/adaptivePackService';
-import { useSRSEngine } from '@/hooks/useSRSEngine';
 import { WritingModeInput } from '@/components/WritingModeInput';
 import { WritingModeFeedback } from '@/components/WritingModeFeedback';
-import { SpeechRecorder } from '@/components/SpeechRecorder';
 import { AutoSpeakingFlowV2 } from '@/components/AutoSpeakingFlowV2';
 import { FeedbackPanel } from '@/components/FeedbackPanel';
 import { useSpeech } from '@/hooks/useSpeech';
@@ -79,7 +77,7 @@ export const AdaptivePackPage: React.FC = () => {
       
       setAnalytics(analyticsData);
       setSavedPacks(packsData);
-    } catch (error) {
+    } catch (_error) {
       setError('데이터 로드에 실패했습니다');
     } finally {
       setLoading(false);
@@ -107,7 +105,7 @@ export const AdaptivePackPage: React.FC = () => {
         setCurrentIndex(0);
         setIsStudying(true);
       }
-    } catch (error) {
+    } catch (_error) {
       setError('학습팩 생성에 실패했습니다');
     } finally {
       setLoading(false);
@@ -195,7 +193,7 @@ export const AdaptivePackPage: React.FC = () => {
         }, 1500);
       }
 
-    } catch (error) {
+    } catch (_error) {
       setError('답변 처리 중 오류가 발생했습니다');
     } finally {
       setLoading(false);

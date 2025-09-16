@@ -751,7 +751,7 @@ export const useSpeechRecognition = (options: SpeechRecognitionOptions = {}): Sp
       if (recognitionRef.current) {
         try {
           recognitionRef.current.stop();
-        } catch (error) {
+        } catch (_error) {
           // 정리 중 에러는 무시
         }
       }

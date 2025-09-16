@@ -74,7 +74,7 @@ export const ReviewPage: React.FC = () => {
       } else {
         setError(response.error || '복습 카드를 불러오는데 실패했습니다');
       }
-    } catch (error) {
+    } catch (_error) {
       setError('네트워크 오류가 발생했습니다');
     } finally {
       setLoading(false);
@@ -109,7 +109,7 @@ export const ReviewPage: React.FC = () => {
       } else {
         setError(response.error || '오답 복습 카드를 불러오는데 실패했습니다');
       }
-    } catch (error) {
+    } catch (_error) {
       setError('네트워크 오류가 발생했습니다');
     } finally {
       setLoading(false);
@@ -147,7 +147,7 @@ export const ReviewPage: React.FC = () => {
       } else {
         setError(feedbackResponse.error || '피드백을 받는데 실패했습니다');
       }
-    } catch (error) {
+    } catch (_error) {
       setError('피드백 처리 중 오류가 발생했습니다');
     } finally {
       setLoading(false);

@@ -3,11 +3,9 @@ import { useNavigate } from 'react-router-dom';
 import { useUser, useAppStore, useLearningMode } from '@/store/useAppStore';
 // import { srsService, type SRSCard, type SRSReviewSession } from '@/services/srsService';
 // TODO: Migrate to new SRS Engine system - useSRSEngine hook from @/hooks/useSRSEngine
-import { useSRSEngine } from '@/hooks/useSRSEngine';
 import type { ReviewCard } from '@/services/srs/SRSEngine';
 import { WritingModeInput } from '@/components/WritingModeInput';
 import { WritingModeFeedback } from '@/components/WritingModeFeedback';
-import { SpeechRecorder } from '@/components/SpeechRecorder';
 import { AutoSpeakingFlowV2 } from '@/components/AutoSpeakingFlowV2';
 import { FeedbackPanel } from '@/components/FeedbackPanel';
 import { useSpeech } from '@/hooks/useSpeech';
@@ -103,7 +101,7 @@ export const AllModePage: React.FC = React.memo(() => {
       } else {
         setError(response.error || '카드를 불러오는데 실패했습니다');
       }
-    } catch (error) {
+    } catch (_error) {
       setError('네트워크 오류가 발생했습니다');
     }
   };
@@ -142,7 +140,7 @@ export const AllModePage: React.FC = React.memo(() => {
       setReviewSession(session);
       setCurrentIndex(0);
       setIsSessionActive(true);
-    } catch (error) {
+    } catch (_error) {
       setError('세션 시작에 실패했습니다');
     } finally {
       setLoading(false);
@@ -180,7 +178,7 @@ export const AllModePage: React.FC = React.memo(() => {
         await updateSRSRecord(evaluationResult, responseTime);
       }
 
-    } catch (error) {
+    } catch (_error) {
       handleAnswerProcessingError();
     } finally {
       setLoading(false);
