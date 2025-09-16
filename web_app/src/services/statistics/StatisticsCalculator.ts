@@ -40,7 +40,7 @@ export class StatisticsCalculator implements IStatisticsCalculator {
         totalStudyTime,
         weakAreas
       };
-    } catch (error) {
+    } catch (_error) {
       throw new StatisticsError(
         'Failed to calculate overall metrics',
         'CALCULATION_ERROR',

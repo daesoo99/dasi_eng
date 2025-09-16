@@ -132,7 +132,7 @@ class PatternDataLoader {
           console.log(`[DEBUG] ✅ Local fallback success: ${path}`);
           return data;
         }
-      } catch (error) {
+      } catch (_error) {
         // Continue to next path
       }
     }
