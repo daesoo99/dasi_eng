@@ -2,7 +2,7 @@
 
 **📋 Purpose**: 이 문서는 AI와의 바이브코딩(Vibe-coding) 시 컨텍스트 유지를 위한 **단일한 진실의 원본(SSOT)**입니다.  
 **🎯 Target**: Claude, GPT 등 모든 AI 에이전트가 새 세션 시작 시 반드시 참조해야 하는 프로젝트 가이드  
-**📅 Last Updated**: 2024-12-06 (SRS 시스템 통합 완료)
+**📅 Last Updated**: 2025-09-16 (Plugin Architecture 완전 마이그레이션 완료)
 
 ---
 
@@ -108,7 +108,54 @@ DaSi_eng/
 
 ---
 
-## 🎯 3. 현재 SRS 시스템 아키텍처 (SSOT)
+## 🔌 3. Plugin Architecture 시스템 (SSOT)
+
+### 🎯 **Plugin Architecture 완전 마이그레이션 완료 (2025-09-16)**
+
+**핵심 성과**: Direct Web API 호출 24개를 ServiceContainer 기반 플러그인 시스템으로 100% 전환
+
+```
+Plugin Architecture Pattern
+─────────────────────────────
+비즈니스 로직 레이어          Implementation 레이어
+─────────────────────         ──────────────────────
+Components/Hooks        →     ServiceContainer
+     ↓                             ↓
+speechService.speakAnswer()   WebSpeechPlugin.ts
+speechService.stopAllSpeech() SpeechSynthesisAdapter.ts
+     ↓                             ↓
+Plugin Interface (추상)       Direct Web API (구현)
+ISpeechPlugin               speechSynthesis.speak()
+```
+
+### ✅ **마이그레이션 완료된 파일들**
+
+| 파일명 | Direct API 호출 수 | 상태 | 전환 방식 |
+|-------|-----------------|------|----------|
+| `PatternTrainingFlowSimple.tsx` | 12개 | ✅ | ServiceContainer → speechService |
+| `SettingsPage.tsx` | 5개 | ✅ | 음성 테스트 플러그인화 |
+| `QuestionDisplay.tsx` | 1개 | ✅ | TTS 재생 플러그인화 |
+| `SpeakingFlowController.tsx` | 2개 | ✅ | 말하기 플로우 플러그인화 |
+| `VoiceControls.tsx` | 4개 | ✅ | 음성 설정 플러그인화 |
+| **총합** | **24개** | **✅ 100%** | **플러그인 아키텍처** |
+
+### 🏗️ **플러그인 아키텍처 구성요소**
+
+**허용된 Direct API 사용 (Implementation Layer)**:
+- `WebSpeechPlugin.ts` - 플러그인 구현체
+- `webSpeechAPI.ts` - 레거시 래퍼 클래스
+- `AdapterFactory.ts` - 어댑터 팩토리
+- `WebSpeechPluginFactory.ts` - 플러그인 팩토리
+
+**금지된 Direct API 사용 (Business Logic Layer)**:
+- ❌ `speechSynthesis.speak()` 직접 호출
+- ❌ `speechSynthesis.cancel()` 직접 호출
+- ✅ `speechService.speakAnswer()` 플러그인 경유
+- ✅ `speechService.stopAllSpeech()` 플러그인 경유
+
+---
+
+## 🎯 4. 현재 SRS 시스템 아키텍처 (SSOT)
 
 ### 📊 **통합 완료된 SRS 구조**
 
