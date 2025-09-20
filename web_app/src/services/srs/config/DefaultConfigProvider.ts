@@ -13,7 +13,7 @@ export class DefaultConfigProvider implements ISRSConfigProvider {
     easeBonus: 0.15,
     easePenalty: -0.20,
     minInterval: 1,
-    maxInterval: 36500, // ~100 years
+    maxInterval: 90, // ~3개월 최대 (언어학습 최적화)
     learningSteps: [1, 10], // minutes
     graduatingInterval: 1, // days
     easyInterval: 4, // days

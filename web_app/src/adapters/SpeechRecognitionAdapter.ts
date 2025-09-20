@@ -10,8 +10,10 @@ import {
   RecognitionOptions
 } from './BrowserAPIAdapter';
 
+// SpeechRecognition 타입은 env.d.ts에서 전역으로 정의됨
+
 export class SpeechRecognitionAdapter implements ISpeechRecognitionAdapter {
-  private recognition: SpeechRecognition | null = null;
+  private recognition: any = null;
   private isInitialized = false;
   
   // 콜백 저장
@@ -244,10 +246,4 @@ export class SpeechRecognitionAdapter implements ISpeechRecognitionAdapter {
   }
 }
 
-// 글로벌 타입 선언 확장
-declare global {
-  interface Window {
-    SpeechRecognition: typeof SpeechRecognition;
-    webkitSpeechRecognition: typeof SpeechRecognition;
-  }
-}
+// env.d.ts에 이미 정의됨 - 중복 제거

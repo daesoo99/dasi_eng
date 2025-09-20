@@ -62,7 +62,7 @@ class EventLifecycleManager {
 
     // DOM 이벤트 리스너 등록
     if (config.element && config.eventName) {
-      config.element.addEventListener(config.eventName, config.handler as EventListener);
+      config.element.addEventListener(config.eventName, config.handler as (evt: Event) => void);
       console.log(`📡 [EventManager] DOM 이벤트 등록: ${config.eventName} on ${config.element.constructor.name}`);
     }
 
@@ -80,7 +80,7 @@ class EventLifecycleManager {
 
     // DOM 이벤트 리스너 제거
     if (state.element && state.eventName) {
-      state.element.removeEventListener(state.eventName, state.handler as EventListener);
+      state.element.removeEventListener(state.eventName, state.handler as (evt: Event) => void);
       console.log(`📡 [EventManager] DOM 이벤트 제거: ${state.eventName}`);
     }
 

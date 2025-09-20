@@ -161,8 +161,9 @@ export class SpeechSynthesisAdapter implements ISpeechSynthesisAdapter {
     } else {
       // 언어에 맞는 기본 음성 선택
       const voices = this.getVoices();
-      const matchingVoice = voices.find(voice => 
-        voice.lang.startsWith(utterance.lang.split('-')[0])
+      const langCode = utterance.lang || 'en-US';
+      const matchingVoice = voices.find(voice =>
+        voice.lang.startsWith(langCode?.split('-')[0] || 'en')
       );
       if (matchingVoice) {
         utterance.voice = matchingVoice;

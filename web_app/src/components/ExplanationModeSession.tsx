@@ -68,7 +68,7 @@ export const ExplanationModeSession: React.FC<ExplanationModeSessionProps> = mem
     } catch (error) {
       console.error('답변 처리 실패:', error);
     }
-  }, [session, isAnswering, currentQuestionIndex, userAnswer, results, settings.showDetailedFeedback]);
+  }, [session, isAnswering, currentQuestionIndex, userAnswer, results, settings.showDetailedFeedback, proceedToNext]);
 
   // 다음 문제로 진행
   const proceedToNext = useCallback(() => {
@@ -83,7 +83,7 @@ export const ExplanationModeSession: React.FC<ExplanationModeSessionProps> = mem
     } else {
       completeSession();
     }
-  }, [session, currentQuestionIndex]);
+  }, [session, currentQuestionIndex, completeSession]);
 
   // 세션 완료
   const completeSession = useCallback(async () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useLocalStorage, STORAGE_KEYS, type Achievement, type AchievementData } from '@/hooks/useLocalStorage';
+import { useLocalStorage, STORAGE_KEYS, type Achievement } from '@/hooks/useLocalStorage';
 import { useUser } from '@/store/useAppStore';
 
 // 기본 업적 정의
@@ -114,7 +114,7 @@ const AVAILABLE_ACHIEVEMENTS: Achievement[] = [
 
 export const AchievementsPage: React.FC = () => {
   const navigate = useNavigate();
-  const user = useUser();
+  const _user = useUser();
   const { value: achievementData, updateValue } = useLocalStorage(STORAGE_KEYS.ACHIEVEMENTS);
 
   // 업적 달성 상태 계산

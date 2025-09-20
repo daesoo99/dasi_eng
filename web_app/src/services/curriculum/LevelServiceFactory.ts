@@ -3,7 +3,7 @@
  * 느슨한 결합을 위해 팩토리 패턴 적용
  */
 
-import { Level4Service } from './Level4Service';
+import { Level4Service as _Level4Service } from './Level4Service';
 import { Level4ServiceQuick } from './Level4ServiceQuick';
 import { LegacyQuestionItem } from './types/CurriculumTypes';
 

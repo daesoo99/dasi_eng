@@ -62,7 +62,7 @@ export class MockSM2Algorithm implements ISRSAlgorithm {
   updateMemoryStrength(
     currentStrength: number,
     quality: number,
-    timeSinceLastReview: number
+    _timeSinceLastReview: number
   ): number {
     // 간단한 강화/약화 로직
     const reviewBonus = quality / 5; // 0-1 범위

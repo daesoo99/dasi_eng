@@ -83,7 +83,9 @@
       "Bash(npx eslint:*)",
       "Bash(timeout 60 npm run build)",
       "Bash(timeout 30 npm run build)",
-      "Read(//c//**)"
+      "Read(//c//**)",
+      "Bash(timeout 30 npm run typecheck)",
+      "Read(//c/c/Users/kimdaesoo/source/claude/DaSi_eng/**)"
     ],
     "deny": [],
     "ask": [],

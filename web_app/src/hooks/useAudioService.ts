@@ -187,7 +187,7 @@ export function useAudioService(options: UseAudioServiceOptions = {}) {
     if (!globalAudioService) {
       try {
         // 🔧 Direct 생성 제거: ServiceContainer를 통해 AudioService 획득 시도
-        const serviceContainer = options.serviceContainer || ServiceContainer.getInstance();
+        const _serviceContainer = options.serviceContainer || ServiceContainer.getInstance();
         
         // TODO: ServiceContainer에 AudioService 등록 메서드 구현 필요
         // globalAudioService = await serviceContainer.getAudioService(options.config);

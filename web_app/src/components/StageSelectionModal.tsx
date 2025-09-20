@@ -1,10 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import { useStageSelection, useUser, useSpeakingStage } from '@/store/useAppStore';
+import { useStageSelection, useUser, useSpeakingStage, useStageProgress } from '@/store/useAppStore';
 import { STAGE_CONFIG } from '@/config/stageConfig';
 import { StageMetadataService, StageMetadata } from '@/services/stageMetadataService';
 import { NavigationService, LevelInfo } from '@/services/navigationService';
 import { StageGrid } from '@/components/ui/StageGrid';
 import { StageInfoPanel } from '@/components/ui/StageInfoPanel';
+import {
+  isSpeakingStageUnlocked,
+  getLockMessage,
+  getUnlockMessage
+} from '@/utils/stageUnlockUtils';
 
 interface StageSelectionModalProps {
   availableLevels: LevelInfo[];
@@ -16,10 +21,16 @@ export const StageSelectionModal: React.FC<StageSelectionModalProps> = ({
   const { stageSelection, setStageModalOpen, selectLevelAndStage } = useStageSelection();
   const { selectedLevel, isStageModalOpen } = stageSelection;
   const { stage: speakingStage, setSpeakingStage } = useSpeakingStage();
+  const { getStageProgress } = useStageProgress();
   const user = useUser();
   const [selectedStageNum, setSelectedStageNum] = useState<number | null>(null);
   const [stageMetadata, setStageMetadata] = useState<StageMetadata | null>(null);
   const [isLoading, setIsLoading] = useState(false);
+
+  // 현재 선택된 스테이지의 진행률 가져오기
+  const currentStageProgress = selectedStageNum
+    ? getStageProgress(selectedLevel || 1, selectedStageNum)
+    : [false, false, false];
 
   const levelInfo = availableLevels.find(l => l.level === selectedLevel);
 
@@ -117,6 +128,7 @@ export const StageSelectionModal: React.FC<StageSelectionModalProps> = ({
             </div>
             
             <div className="grid grid-cols-3 gap-4 max-w-md mx-auto">
+              {/* 1단계 - 항상 잠금 해제 */}
               <button
                 onClick={() => setSpeakingStage(1)}
                 className={`p-4 rounded-lg border-2 transition-all duration-200 ${
@@ -125,32 +137,63 @@ export const StageSelectionModal: React.FC<StageSelectionModalProps> = ({
                     : 'border-gray-300 dark:border-gray-600 hover:border-green-300 dark:hover:border-green-500 hover:bg-green-50 dark:hover:bg-green-900 text-gray-700 dark:text-gray-300'
                 }`}
               >
-                <div className="text-lg font-bold mb-1">1단계</div>
-                <div className="text-xs text-gray-600 dark:text-gray-400">3초 응답</div>
+                <div className="text-lg font-bold mb-1">
+                  1단계
+                  {currentStageProgress[0] && <span className="text-green-500 ml-1">✓</span>}
+                </div>
+                <div className="text-xs text-gray-600 dark:text-gray-400">3초 응답 (연습)</div>
               </button>
-              
+
+              {/* 2단계 - 1단계 완료 시 잠금 해제 */}
               <button
-                onClick={() => setSpeakingStage(2)}
-                className={`p-4 rounded-lg border-2 transition-all duration-200 ${
-                  speakingStage === 2
+                onClick={() => {
+                  if (isSpeakingStageUnlocked(2, currentStageProgress)) {
+                    setSpeakingStage(2);
+                  } else {
+                    alert(getLockMessage(2));
+                  }
+                }}
+                disabled={!isSpeakingStageUnlocked(2, currentStageProgress)}
+                className={`p-4 rounded-lg border-2 transition-all duration-200 relative ${
+                  !isSpeakingStageUnlocked(2, currentStageProgress)
+                    ? 'border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 text-gray-400 dark:text-gray-600 cursor-not-allowed'
+                    : speakingStage === 2
                     ? 'border-blue-500 bg-blue-50 dark:bg-blue-900 text-blue-700 dark:text-blue-300'
                     : 'border-gray-300 dark:border-gray-600 hover:border-blue-300 dark:hover:border-blue-500 hover:bg-blue-50 dark:hover:bg-blue-900 text-gray-700 dark:text-gray-300'
                 }`}
               >
-                <div className="text-lg font-bold mb-1">2단계</div>
-                <div className="text-xs text-gray-600 dark:text-gray-400">2초 응답</div>
+                <div className="text-lg font-bold mb-1">
+                  2단계
+                  {!isSpeakingStageUnlocked(2, currentStageProgress) && <span className="text-red-500 ml-1">🔒</span>}
+                  {currentStageProgress[1] && <span className="text-blue-500 ml-1">✓</span>}
+                </div>
+                <div className="text-xs text-gray-600 dark:text-gray-400">2초 응답 (연습)</div>
               </button>
-              
+
+              {/* 3단계 - 2단계 완료 시 잠금 해제 */}
               <button
-                onClick={() => setSpeakingStage(3)}
-                className={`p-4 rounded-lg border-2 transition-all duration-200 ${
-                  speakingStage === 3
+                onClick={() => {
+                  if (isSpeakingStageUnlocked(3, currentStageProgress)) {
+                    setSpeakingStage(3);
+                  } else {
+                    alert(getLockMessage(3));
+                  }
+                }}
+                disabled={!isSpeakingStageUnlocked(3, currentStageProgress)}
+                className={`p-4 rounded-lg border-2 transition-all duration-200 relative ${
+                  !isSpeakingStageUnlocked(3, currentStageProgress)
+                    ? 'border-gray-200 dark:border-gray-700 bg-gray-100 dark:bg-gray-800 text-gray-400 dark:text-gray-600 cursor-not-allowed'
+                    : speakingStage === 3
                     ? 'border-purple-500 bg-purple-50 dark:bg-purple-900 text-purple-700 dark:text-purple-300'
                     : 'border-gray-300 dark:border-gray-600 hover:border-purple-300 dark:hover:border-purple-500 hover:bg-purple-50 dark:hover:bg-purple-900 text-gray-700 dark:text-gray-300'
                 }`}
               >
-                <div className="text-lg font-bold mb-1">3단계</div>
-                <div className="text-xs text-gray-600 dark:text-gray-400">1초 응답</div>
+                <div className="text-lg font-bold mb-1">
+                  3단계
+                  {!isSpeakingStageUnlocked(3, currentStageProgress) && <span className="text-red-500 ml-1">🔒</span>}
+                  {currentStageProgress[2] && <span className="text-purple-500 ml-1">✓</span>}
+                </div>
+                <div className="text-xs text-gray-600 dark:text-gray-400">1초 응답 (실전)</div>
               </button>
             </div>
             
@@ -170,6 +213,7 @@ export const StageSelectionModal: React.FC<StageSelectionModalProps> = ({
             onStageHover={handleStageHover}
             onStageLeave={handleStageLeave}
             onStageSelect={handleStageSelect}
+            getStageProgress={getStageProgress}
           />
 
           {/* ALL Button - 설정 기반 크기 */}

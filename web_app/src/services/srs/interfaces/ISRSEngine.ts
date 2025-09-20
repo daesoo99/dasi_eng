@@ -101,6 +101,29 @@ export interface PerformanceAnalysis {
 }
 
 /**
+ * SRS 분석 설정 인터페이스
+ */
+export interface AnalysisConfig {
+  // 패턴 분석 임계값
+  weakPatternThreshold: number;     // 약한 패턴 정확률 임계값 (기본: 0.6)
+  strongPatternThreshold: number;   // 강한 패턴 정확률 임계값 (기본: 0.8)
+  minSampleSize: number;           // 분석에 필요한 최소 샘플 수 (기본: 3)
+
+  // 속도 분석 임계값
+  slowResponseThreshold: number;    // 느린 응답 시간 임계값 ms (기본: 10000)
+  fastResponseThreshold: number;    // 빠른 응답 시간 임계값 ms (기본: 5000)
+
+  // 마스터리 추정 설정
+  avgReviewsNeeded: number;        // 마스터리까지 평균 복습 횟수 (기본: 8)
+  avgDaysPerReview: number;        // 복습 간격 평균 일수 (기본: 3)
+
+  // 마스터리 판정 기준
+  masteryAccuracyThreshold: number; // 마스터리 정확률 임계값 (기본: 0.9)
+  masteryMinReviews: number;       // 마스터리 최소 복습 횟수 (기본: 5)
+  masteryMinStreak: number;        // 마스터리 최소 연속 정답 (기본: 3)
+}
+
+/**
  * SRS 저장소 인터페이스
  */
 export interface ISRSStorage {
@@ -165,4 +188,29 @@ export interface ISRSEventBus {
   emit(event: SRSEvent): void;
   on(eventType: SRSEvent['type'], handler: (event: SRSEvent) => void): void;
   off(eventType: SRSEvent['type'], handler: (event: SRSEvent) => void): void;
+}
+
+/**
+ * 기본 분석 설정값 제공
+ */
+export function getDefaultAnalysisConfig(): AnalysisConfig {
+  return {
+    // 패턴 분석 임계값
+    weakPatternThreshold: 0.6,     // 60% 미만이면 약한 패턴
+    strongPatternThreshold: 0.8,   // 80% 초과면 강한 패턴
+    minSampleSize: 3,             // 최소 3번 시도해야 분석
+
+    // 속도 분석 임계값
+    slowResponseThreshold: 10000, // 10초 초과면 느림
+    fastResponseThreshold: 5000,  // 5초 미만이면 빠름
+
+    // 마스터리 추정 설정
+    avgReviewsNeeded: 6,          // 평균 6번 복습 필요
+    avgDaysPerReview: 1,          // 평균 1일마다 복습 (언어학습 최적화)
+
+    // 마스터리 판정 기준
+    masteryAccuracyThreshold: 0.9, // 90% 정확률
+    masteryMinReviews: 5,         // 최소 5번 복습
+    masteryMinStreak: 3           // 최소 3연속 정답
+  };
 }

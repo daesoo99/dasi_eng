@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import { useSpeech } from '@/hooks/useSpeech';
 import { useCountdown } from '@/hooks/useCountdown';
 
@@ -80,7 +80,7 @@ export const AutoSpeakingFlow: React.FC<AutoSpeakingFlowProps> = ({
     if (currentCard && isActive && flowState === 'idle') {
       startAutomaticFlow();
     }
-  }, [currentCard, isActive]);
+  }, [currentCard, isActive, flowState, startAutomaticFlow]);
 
   // 컴포넌트 언마운트 시 정리
   useEffect(() => {
@@ -91,16 +91,16 @@ export const AutoSpeakingFlow: React.FC<AutoSpeakingFlowProps> = ({
     };
   }, [countdown, autoTimeout, speech]);
 
-  const startAutomaticFlow = async () => {
+  const startAutomaticFlow = useCallback(async () => {
     if (!currentCard) return;
-    
+
     console.log('🎤 자동 Speaking 플로우 시작');
     setFlowState('tts');
-    
+
     // 1. 한국어 TTS 재생
     if (speech.isTTSAvailable) {
       await speech.speak(currentCard.front_ko, 'ko-KR');
-      
+
       // TTS 완료 후 1초 대기
       setTimeout(() => {
         playBeepAndStartRecording();
@@ -111,47 +111,47 @@ export const AutoSpeakingFlow: React.FC<AutoSpeakingFlowProps> = ({
         playBeepAndStartRecording();
       }, 2000);
     }
-  };
+  }, [currentCard, speech, playBeepAndStartRecording]);
 
-  const playBeepAndStartRecording = () => {
+  const playBeepAndStartRecording = useCallback(() => {
     console.log('🔔 비프음 재생 및 녹음 시작');
     setFlowState('beep');
-    
+
     // 비프음 재생
     playBeep();
-    
+
     // 비프음 후 500ms 대기 후 녹음 시작
     setTimeout(() => {
       if (!isPaused) {
         setFlowState('recording');
         speech.startRecording();
-        
+
         // 10초 카운트다운 시작
         countdown.start(10);
       }
     }, 500);
-  };
+  }, [isPaused, speech, countdown, playBeep]);
 
-  const playBeep = () => {
+  const playBeep = useCallback(() => {
     // Web Audio API로 비프음 생성
     try {
       const audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
       const oscillator = audioContext.createOscillator();
       const gainNode = audioContext.createGain();
-      
+
       oscillator.connect(gainNode);
       gainNode.connect(audioContext.destination);
-      
+
       oscillator.frequency.setValueAtTime(800, audioContext.currentTime);
       oscillator.type = 'sine';
       gainNode.gain.setValueAtTime(0.3, audioContext.currentTime);
-      
+
       oscillator.start();
       oscillator.stop(audioContext.currentTime + 0.2);
     } catch (error) {
       console.error('비프음 재생 실패:', error);
     }
-  };
+  }, []);
 
   // 음성 인식 결과 처리
   useEffect(() => {
@@ -171,7 +171,7 @@ export const AutoSpeakingFlow: React.FC<AutoSpeakingFlowProps> = ({
       // 상태 초기화
       setFlowState('idle');
     }
-  }, [speech.transcript, flowState, countdown, autoTimeout, onSpeechResult]);
+  }, [speech.transcript, speech.confidence, flowState, countdown, autoTimeout, onSpeechResult]);
 
   const getStatusMessage = () => {
     switch (flowState) {

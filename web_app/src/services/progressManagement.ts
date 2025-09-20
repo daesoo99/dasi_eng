@@ -176,7 +176,7 @@ class ProgressManagementService {
   /**
    * 오답 가중치 계산 (최근 3일 기준)
    */
-  private calculateIncorrectWeight(recentMistakeCount: number, currentDate: Date): number {
+  private calculateIncorrectWeight(recentMistakeCount: number, _currentDate: Date): number {
     // 기본 가중치: 1.0
     // 최근 3일 내 실수가 많을수록 가중치 증가
     const baseWeight = 1.0;
@@ -380,11 +380,11 @@ class ProgressManagementService {
     };
   }
   
-  private async saveProgressToFirestore(progress: UserProgress): Promise<void> {
+  private async saveProgressToFirestore(_progress: UserProgress): Promise<void> {
     // Firestore 저장 로직
   }
   
-  private async saveIncorrectAnswerToFirestore(incorrectAnswer: IncorrectAnswer): Promise<void> {
+  private async saveIncorrectAnswerToFirestore(_incorrectAnswer: IncorrectAnswer): Promise<void> {
     // Firestore 저장 로직
   }
   

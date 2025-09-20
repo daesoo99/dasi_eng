@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { CurriculumLint } from '../components/CurriculumLint';
 
-export const CurriculumLintPage: React.FC = () => {
+const CurriculumLintPage: React.FC = () => {
   const navigate = useNavigate();
 
   return (
@@ -22,3 +22,5 @@ export const CurriculumLintPage: React.FC = () => {
     </div>
   );
 };
+
+export default CurriculumLintPage;

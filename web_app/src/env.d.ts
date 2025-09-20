@@ -20,10 +20,17 @@ declare global {
   interface Window {
     SpeechRecognition?: typeof SpeechRecognition;
     webkitSpeechRecognition?: typeof SpeechRecognition;
+    webkitAudioContext?: typeof AudioContext;
   }
 
   // SpeechRecognition 클래스 정의
-  declare var SpeechRecognition: {
+  var SpeechRecognition: {
+    prototype: SpeechRecognition;
+    new(): SpeechRecognition;
+  };
+
+  // webkitSpeechRecognition 클래스 정의
+  var webkitSpeechRecognition: {
     prototype: SpeechRecognition;
     new(): SpeechRecognition;
   };
@@ -102,4 +109,40 @@ declare global {
   // Permission API 타입들
   type PermissionState = "granted" | "denied" | "prompt";
   type PermissionName = "microphone" | "camera" | "geolocation" | "notifications";
+
+  // Fetch API 타입 보강
+  type HeadersInit = Headers | string[][] | Record<string, string>;
+  type BodyInit = Blob | BufferSource | FormData | URLSearchParams | string;
+  type ReferrerPolicy = "" | "no-referrer" | "no-referrer-when-downgrade" | "origin" | "origin-when-cross-origin" | "same-origin" | "strict-origin" | "strict-origin-when-cross-origin" | "unsafe-url";
+  type RequestMode = "cors" | "navigate" | "no-cors" | "same-origin";
+  type RequestCredentials = "include" | "omit" | "same-origin";
+  type RequestCache = "default" | "force-cache" | "no-cache" | "no-store" | "only-if-cached" | "reload";
+  type RequestRedirect = "error" | "follow" | "manual";
+
+  interface RequestInit {
+    method?: string;
+    headers?: HeadersInit;
+    body?: BodyInit | null;
+    referrer?: string;
+    referrerPolicy?: ReferrerPolicy;
+    mode?: RequestMode;
+    credentials?: RequestCredentials;
+    cache?: RequestCache;
+    redirect?: RequestRedirect;
+    integrity?: string;
+    keepalive?: boolean;
+    signal?: AbortSignal | null;
+    window?: any;
+  }
+
+  // Event Listener 타입들
+  interface EventListener {
+    (evt: Event): void;
+  }
+
+  interface EventListenerObject {
+    handleEvent(object: Event): void;
+  }
+
+  type EventListenerOrEventListenerObject = EventListener | EventListenerObject;
 }

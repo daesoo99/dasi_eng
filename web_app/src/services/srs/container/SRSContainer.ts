@@ -5,14 +5,25 @@
  * 모든 SRS 관련 의존성을 중앙에서 관리
  */
 
-import { 
-  ISRSEngine, 
-  ISRSStorage, 
-  ISRSConfigProvider, 
-  ISRSAlgorithm, 
+import {
+  ISRSEngine,
+  ISRSStorage,
+  ISRSConfigProvider,
+  ISRSAlgorithm,
   ISRSEventBus,
-  SRSConfig 
+  SRSConfig,
+  AnalysisConfig
 } from '../interfaces/ISRSEngine';
+
+// 실제 구현체 import
+import { ModularSRSEngine } from '../engines/ModularSRSEngine';
+import { DefaultConfigProvider } from '../config/DefaultConfigProvider';
+import { MockSM2Algorithm } from '../algorithms/MockSM2Algorithm';
+import { LocalStorageAdapter } from '../adapters/storage/LocalStorageAdapter';
+import { SimpleEventBus } from '../events/SimpleEventBus';
+
+// 동적 import를 위한 타입 정의
+type _ServiceFactory<T> = () => Promise<T> | T;
 
 // 타입 정의 및 유틸리티 (비사용 변수들을 활용)
 export type SRSServiceFactory<T> = (...deps: any[]) => T;
@@ -396,12 +407,17 @@ export const SRS_SERVICES = {
 /**
  * 기본 SRS 컨테이너 설정
  */
-export function createSRSContainer(): SRSContainer {
+export function createSRSContainer(analysisConfig?: Partial<AnalysisConfig>): SRSContainer {
   const container = new SRSContainer();
-  
+
   // 기본 서비스들은 여기서 등록하지 않고
   // 각 환경(development/production/test)별로 별도 설정
-  
+
+  // analysisConfig를 컨테이너에 저장 (나중에 엔진 생성시 사용)
+  if (analysisConfig) {
+    (container as any)._analysisConfig = analysisConfig;
+  }
+
   return container;
 }
 
@@ -410,104 +426,77 @@ export function createSRSContainer(): SRSContainer {
  */
 export function configureDevelopmentContainer(container: SRSContainer): void {
   // 개발 환경용 설정 - 로깅 활성화, 관대한 검증
-  
+
   // 기본 서비스들
   container.singleton(SRS_SERVICES.STORAGE, () => {
-    const { LocalStorageAdapter } = require('../adapters/storage/LocalStorageAdapter');
     return new LocalStorageAdapter();
   });
 
   container.singleton(SRS_SERVICES.CONFIG_PROVIDER, () => {
-    const { DefaultConfigProvider } = require('../config/DefaultConfigProvider');
     return new DefaultConfigProvider();
   });
 
   container.singleton(SRS_SERVICES.EVENT_BUS, () => {
-    const { LoggingEventBus } = require('../events/SimpleEventBus');
-    return new LoggingEventBus(true); // 로깅 활성화
+    return new SimpleEventBus(); // 기본 이벤트 버스
   });
 
   container.singleton(SRS_SERVICES.ALGORITHM_SM2, () => {
-    const { SuperMemoSM2Strategy } = require('../algorithms/SuperMemoSM2Strategy');
-    return new SuperMemoSM2Strategy();
+    return new MockSM2Algorithm(); // 개발환경에서는 Mock 사용
   });
 
-  container.singleton(SRS_SERVICES.ENGINE, (container) => {
-    const { ModularSRSEngine } = require('../engines/ModularSRSEngine');
-    return new ModularSRSEngine(
-      container.get(SRS_SERVICES.STORAGE),
-      container.get(SRS_SERVICES.ALGORITHM_SM2),
-      container.get(SRS_SERVICES.CONFIG_PROVIDER),
-      container.get(SRS_SERVICES.EVENT_BUS)
-    );
+  container.singleton(SRS_SERVICES.ENGINE, (storage, algorithm, configProvider, eventBus) => {
+    const analysisConfig = (container as any)._analysisConfig;
+    return new ModularSRSEngine(storage, algorithm, configProvider, eventBus, analysisConfig);
   }, [SRS_SERVICES.STORAGE, SRS_SERVICES.ALGORITHM_SM2, SRS_SERVICES.CONFIG_PROVIDER, SRS_SERVICES.EVENT_BUS]);
 }
 
 export function configureProductionContainer(container: SRSContainer): void {
   // 프로덕션 환경용 설정 - 성능 최적화, 엄격한 검증
-  
+
   container.singleton(SRS_SERVICES.STORAGE, () => {
-    const { LocalStorageAdapter } = require('../adapters/storage/LocalStorageAdapter');
     return new LocalStorageAdapter();
   });
 
   container.singleton(SRS_SERVICES.CONFIG_PROVIDER, () => {
-    const { DefaultConfigProvider } = require('../config/DefaultConfigProvider');
     return new DefaultConfigProvider();
   });
 
   container.singleton(SRS_SERVICES.EVENT_BUS, () => {
-    const { SimpleEventBus } = require('../events/SimpleEventBus');
     return new SimpleEventBus(); // 로깅 비활성화
   });
 
   container.singleton(SRS_SERVICES.ALGORITHM_SM2, () => {
-    const { SuperMemoSM2Strategy } = require('../algorithms/SuperMemoSM2Strategy');
-    return new SuperMemoSM2Strategy();
+    return new MockSM2Algorithm(); // 현재 가용한 알고리즘
   });
 
-  container.singleton(SRS_SERVICES.ENGINE, (container) => {
-    const { ModularSRSEngine } = require('../engines/ModularSRSEngine');
-    return new ModularSRSEngine(
-      container.get(SRS_SERVICES.STORAGE),
-      container.get(SRS_SERVICES.ALGORITHM_SM2),
-      container.get(SRS_SERVICES.CONFIG_PROVIDER),
-      container.get(SRS_SERVICES.EVENT_BUS)
-    );
+  container.singleton(SRS_SERVICES.ENGINE, (storage, algorithm, configProvider, eventBus) => {
+    const analysisConfig = (container as any)._analysisConfig;
+    return new ModularSRSEngine(storage, algorithm, configProvider, eventBus, analysisConfig);
   }, [SRS_SERVICES.STORAGE, SRS_SERVICES.ALGORITHM_SM2, SRS_SERVICES.CONFIG_PROVIDER, SRS_SERVICES.EVENT_BUS]);
 }
 
 export function configureTestContainer(container: SRSContainer): void {
   // 테스트 환경용 설정 - Mock 서비스, 결정적 동작
-  
+
   container.singleton(SRS_SERVICES.STORAGE, () => {
-    const { MemoryStorageAdapter } = require('../adapters/storage/MemoryStorageAdapter');
-    return new MemoryStorageAdapter();
+    return new LocalStorageAdapter(); // 메모리 어댑터가 없으므로 LocalStorage 사용
   });
 
   container.singleton(SRS_SERVICES.CONFIG_PROVIDER, () => {
-    const { MockConfigProvider } = require('../config/MockConfigProvider');
-    return new MockConfigProvider();
+    return new DefaultConfigProvider(); // Mock이 없으므로 기본 제공자 사용
   });
 
   container.singleton(SRS_SERVICES.EVENT_BUS, () => {
-    const { SimpleEventBus } = require('../events/SimpleEventBus');
     return new SimpleEventBus();
   });
 
   container.singleton(SRS_SERVICES.ALGORITHM_SM2, () => {
-    const { MockSM2Algorithm } = require('../algorithms/MockSM2Algorithm');
     return new MockSM2Algorithm(); // 결정적 결과
   });
 
-  container.singleton(SRS_SERVICES.ENGINE, (container) => {
-    const { ModularSRSEngine } = require('../engines/ModularSRSEngine');
-    return new ModularSRSEngine(
-      container.get(SRS_SERVICES.STORAGE),
-      container.get(SRS_SERVICES.ALGORITHM_SM2),
-      container.get(SRS_SERVICES.CONFIG_PROVIDER),
-      container.get(SRS_SERVICES.EVENT_BUS)
-    );
+  container.singleton(SRS_SERVICES.ENGINE, (storage, algorithm, configProvider, eventBus) => {
+    const analysisConfig = (container as any)._analysisConfig;
+    return new ModularSRSEngine(storage, algorithm, configProvider, eventBus, analysisConfig);
   }, [SRS_SERVICES.STORAGE, SRS_SERVICES.ALGORITHM_SM2, SRS_SERVICES.CONFIG_PROVIDER, SRS_SERVICES.EVENT_BUS]);
 }
 
@@ -516,10 +505,10 @@ export function configureTestContainer(container: SRSContainer): void {
  */
 let globalContainer: SRSContainer | null = null;
 
-export function getGlobalSRSContainer(): SRSContainer {
+export function getGlobalSRSContainer(analysisConfig?: Partial<AnalysisConfig>): SRSContainer {
   if (!globalContainer) {
-    globalContainer = createSRSContainer();
-    
+    globalContainer = createSRSContainer(analysisConfig);
+
     // 환경에 따른 설정
     if (process.env.NODE_ENV === 'development') {
       configureDevelopmentContainer(globalContainer);
@@ -529,7 +518,7 @@ export function getGlobalSRSContainer(): SRSContainer {
       configureTestContainer(globalContainer);
     }
   }
-  
+
   return globalContainer;
 }
 

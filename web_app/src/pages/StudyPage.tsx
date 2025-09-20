@@ -4,7 +4,9 @@ import { useAppStore, useUser, useStudy, useUI, useLearningMode, useSpeakingStag
 import { SpeechRecorder } from '@/components/SpeechRecorder';
 import { SpeakingStageSelector } from '@/components/SpeakingStageSelector';
 import { SpeakingFlowController } from '@/components/SpeakingFlowController';
-// import { PatternTrainingFlow } from '@/components/PatternTrainingFlow';\n// TODO: Migrate to new modularized PatternTrainingPageV3 system\nimport { PatternTrainingFlowFinal } from '@/components/PatternTrainingFlowFinal';
+// import { PatternTrainingFlow } from '@/components/PatternTrainingFlow';
+// TODO: Migrate to new modularized PatternTrainingPageV3 system
+import { PatternTrainingFlowFinal } from '@/components/PatternTrainingFlowFinal';
 import { FeedbackPanel } from '@/components/FeedbackPanel';
 import { WritingModeInput } from '@/components/WritingModeInput';
 import { WritingModeFeedback } from '@/components/WritingModeFeedback';
@@ -279,12 +281,14 @@ export const StudyPage: React.FC = memo(() => {
         }
 
         // SRS 시스템에 카드 추가 (첫 학습 시)
+        // TODO: Implement with new SRS Engine
         try {
-          await srsService.addCardToSRS(user.id, study.currentCard.id, {
-            level: user.level,
-            stage: user.stage,
-            difficulty: 'medium'
-          });
+          // await srsService.addCardToSRS(user.id, study.currentCard.id, {
+          //   level: user.level,
+          //   stage: user.stage,
+          //   difficulty: 'medium'
+          // });
+          console.log('[StudyPage] SRS card addition skipped - awaiting SRS Engine integration');
         } catch (error) {
           console.error('SRS 카드 추가 실패:', error);
         }
@@ -417,12 +421,14 @@ export const StudyPage: React.FC = memo(() => {
       }
 
       // SRS 시스템에 카드 추가 (Writing 모드)
+      // TODO: Implement with new SRS Engine
       try {
-        await srsService.addCardToSRS(user.id, study.currentCard.id, {
-          level: user.level,
-          stage: user.stage,
-          difficulty: 'medium'
-        });
+        // await srsService.addCardToSRS(user.id, study.currentCard.id, {
+        //   level: user.level,
+        //   stage: user.stage,
+        //   difficulty: 'medium'
+        // });
+        console.log('[StudyPage] SRS card addition skipped - awaiting SRS Engine integration');
       } catch (error) {
         console.error('SRS 카드 추가 실패:', error);
       }

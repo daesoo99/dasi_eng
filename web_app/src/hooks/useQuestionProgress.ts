@@ -108,7 +108,7 @@ export function usePatternTrainingProgress(
 ) {
   return useQuestionProgress({
     questions,
-    onQuestionStart: (question, index) => {
+    onQuestionStart: (question, _index) => {
       console.log(`🎤 [${new Date().toLocaleTimeString()}] TTS 재생 시작: "${question.ko}"`);
       // TTS 재생 로직은 컴포넌트에서 처리
       onTTSComplete(question);

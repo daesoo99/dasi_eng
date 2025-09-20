@@ -163,11 +163,13 @@ ISpeechPlugin               speechSynthesis.speak()
 Frontend SRS (React)              Backend SRS (Node.js)
 ─────────────────────             ──────────────────────
 useSRSEngine.ts (메인)      ←→     smartReviewService.js
-useReviewSchedule.ts              
+useReviewSchedule.ts
      ↓                                   ↓
-SRSEngine.ts (코어 엔진)          (동일 알고리즘 적용)
+ModularSRSEngine.ts (코어 엔진)   (동일 알고리즘 적용)
      ↓
-SuperMemoSM2.ts + ForgettingCurve.ts
+ISRSEngine + SRSContainer (의존성 주입)
+     ↓
+SuperMemoSM2Strategy.ts + 다양한 Adapters
      ↓
 LocalStorage ↔ Firebase Firestore
 ```
@@ -176,9 +178,11 @@ LocalStorage ↔ Firebase Firestore
 
 **프론트엔드 SRS 파일들** (총 106개 파일):
 - ✅ `useSRSEngine.ts` - **메인 통합 SRS 시스템**
-- ✅ `services/srs/SRSEngine.ts` - **코어 엔진 (SSOT)**
-- ✅ `services/srs/algorithms/SuperMemoSM2.ts` - SM-2 알고리즘
-- ✅ `services/srs/algorithms/ForgettingCurve.ts` - 망각곡선
+- ✅ `services/srs/engines/ModularSRSEngine.ts` - **코어 엔진 (SSOT)**
+- ✅ `services/srs/interfaces/ISRSEngine.ts` - 인터페이스 정의
+- ✅ `services/srs/container/SRSContainer.ts` - 의존성 주입 컨테이너
+- ✅ `services/srs/algorithms/SuperMemoSM2Strategy.ts` - SM-2 알고리즘
+- 🔄 `services/srs/SRSEngine.ts` - **레거시 (참고용)**
 - 🔄 `useSpacedRepetition.ts` - **레거시 (통합 예정)**
 - 🔄 `services/reviewAlgorithm.ts` - **레거시 (통합 예정)**
 - 🔄 `services/srsService.ts` - **레거시 (통합 예정)**
@@ -269,7 +273,8 @@ const { cards, addCard, processReviewSession, stats } = useSRSEngine({ userId })
 |----------|------|--------------|-----------|
 | `useSpacedRepetition.ts` | 🟡 병존 | 레거시 시스템 | 🔄 통합 예정 |
 | `reviewAlgorithm.ts` | 🟡 병존 | 중복 로직 | 🔄 통합 예정 |
-| `services/srs/` | ✅ 메인 | **단일 진실 원본** | 🎯 **우선 사용** |
+| `services/srs/SRSEngine.ts` | 🟡 레거시 | 이전 SSOT | 🔄 참고용 |
+| `services/srs/engines/ModularSRSEngine.ts` | ✅ 메인 | **현재 SSOT** | 🎯 **우선 사용** |
 
 ---
 

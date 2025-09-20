@@ -1,6 +1,5 @@
 // Adaptive Pack Service - 오답 + 망각곡선 + 패턴 완전 자동화
 
-import type { ReviewCard } from './srs/SRSEngine';
 // TODO: SRS migration - using new ReviewCard type
 
 // 임시 레거시 타입 정의 (마이그레이션 완료까지)

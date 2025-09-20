@@ -128,21 +128,21 @@ export const useAppStore = create<AppStore>()(
       // Settings
       settings: initialSettings,
       updateSettings: (newSettings) =>
-        set((state) => ({
+        set((_state) => ({
           settings: { ...state.settings, ...newSettings },
         })),
 
       // Global Learning Mode
       learningMode: 'speaking', // 기본값은 기존 방식(speaking)
       setLearningMode: (mode) =>
-        set((state) => ({
+        set((_state) => ({
           learningMode: mode,
         })),
       
       // Speaking Stage
       speakingStage: 1, // 기본값: 1단계 (3초)
       setSpeakingStage: (stage) =>
-        set((state) => ({
+        set((_state) => ({
           speakingStage: stage,
         })),
       
@@ -172,28 +172,28 @@ export const useAppStore = create<AppStore>()(
       themeMode: 'default', // 기본값: 깔끔한 테마
       personalTheme: initialPersonalTheme,
       setThemeMode: (mode) =>
-        set((state) => ({
+        set((_state) => ({
           themeMode: mode,
         })),
       setPersonalTheme: (theme) =>
-        set((state) => ({
+        set((_state) => ({
           personalTheme: { ...state.personalTheme, ...theme },
         })),
 
       // User
       user: initialUserState,
       setUser: (userData) =>
-        set((state) => ({
+        set((_state) => ({
           user: { ...state.user, ...userData },
         })),
       
       setUserLevel: (level) =>
-        set((state) => ({
+        set((_state) => ({
           user: { ...state.user, level },
         })),
       
       setUserStage: (stage) =>
-        set((state) => ({
+        set((_state) => ({
           user: { ...state.user, stage },
         })),
 
@@ -201,17 +201,17 @@ export const useAppStore = create<AppStore>()(
       stageSelection: initialStageSelectionState,
       
       setSelectedLevel: (level) =>
-        set((state) => ({
+        set((_state) => ({
           stageSelection: { ...state.stageSelection, selectedLevel: level },
         })),
 
       setStageModalOpen: (isOpen) =>
-        set((state) => ({
+        set((_state) => ({
           stageSelection: { ...state.stageSelection, isStageModalOpen: isOpen },
         })),
 
       selectLevelAndStage: (level, stage) =>
-        set((state) => ({
+        set((_state) => ({
           user: { 
             ...state.user, 
             level, 
@@ -227,12 +227,12 @@ export const useAppStore = create<AppStore>()(
       study: initialStudyState,
       
       setCurrentSession: (session) =>
-        set((state) => ({
+        set((_state) => ({
           study: { ...state.study, currentSession: session },
         })),
 
       setCurrentCard: (card, index) =>
-        set((state) => ({
+        set((_state) => ({
           study: { 
             ...state.study, 
             currentCard: card, 
@@ -242,27 +242,27 @@ export const useAppStore = create<AppStore>()(
         })),
 
       setCards: (cards) =>
-        set((state) => ({
+        set((_state) => ({
           study: { ...state.study, cards },
         })),
 
       setRecording: (isRecording) =>
-        set((state) => ({
+        set((_state) => ({
           study: { ...state.study, isRecording },
         })),
 
       setProcessing: (isProcessing) =>
-        set((state) => ({
+        set((_state) => ({
           study: { ...state.study, isProcessing },
         })),
 
       setFeedback: (feedback) =>
-        set((state) => ({
+        set((_state) => ({
           study: { ...state.study, feedback },
         })),
 
       resetStudyState: () =>
-        set((state) => ({
+        set((_state) => ({
           study: initialStudyState,
         })),
 
@@ -270,27 +270,27 @@ export const useAppStore = create<AppStore>()(
       ui: initialUIState,
 
       setLoading: (isLoading) =>
-        set((state) => ({
+        set((_state) => ({
           ui: { ...state.ui, isLoading },
         })),
 
       setError: (error) =>
-        set((state) => ({
+        set((_state) => ({
           ui: { ...state.ui, error },
         })),
 
       setNotification: (notification) =>
-        set((state) => ({
+        set((_state) => ({
           ui: { ...state.ui, notification },
         })),
 
       clearError: () =>
-        set((state) => ({
+        set((_state) => ({
           ui: { ...state.ui, error: null },
         })),
 
       clearNotification: () =>
-        set((state) => ({
+        set((_state) => ({
           ui: { ...state.ui, notification: null },
         })),
     }),

@@ -8,21 +8,22 @@ import UserProfile from '@/components/UserProfile';
 import AuthModal from '@/components/AuthModal';
 import PerformanceDashboard from '@/components/PerformanceDashboard';
 import { initializeAdvancedPluginSystem } from '@/plugins/simple/AdvancedIntegration';
+import { initializePlugins } from '@/plugins';
 
 // Lazy load pages for better performance
 const LandingHome = lazy(() => import('@/pages/LandingHome').then(m => ({ default: m.LandingHome })));
 const DashboardHome = lazy(() => import('@/pages/DashboardHome').then(m => ({ default: m.DashboardHome })));
 const StudyPage = lazy(() => import('@/pages/StudyPage').then(m => ({ default: m.StudyPage })));
-const ReviewPage = lazy(() => import('@/pages/ReviewPage'));
+const ReviewPage = lazy(() => import('@/pages/ReviewPage').then(m => ({ default: m.ReviewPage })));
 const ResultPage = lazy(() => import('@/pages/ResultPage').then(m => ({ default: m.ResultPage })));
 const SettingsPage = lazy(() => import('@/pages/SettingsPage').then(m => ({ default: m.SettingsPage })));
 const AdaptivePackPage = lazy(() => import('@/pages/AdaptivePackPage').then(m => ({ default: m.AdaptivePackPage })));
 const ScenarioDialoguePage = lazy(() => import('@/pages/ScenarioDialoguePage'));
 const SmartReviewPage = lazy(() => import('@/pages/SmartReviewPage'));
 const ProgressManagementPage = lazy(() => import('@/pages/ProgressManagementPage'));
-const CurriculumTestPage = lazy(() => import('@/pages/CurriculumTestPage').then(m => ({ default: m.CurriculumTestPage })));
-const CurriculumLintPage = lazy(() => import('@/pages/CurriculumLintPage').then(m => ({ default: m.CurriculumLintPage })));
-const AudioV2TestPage = lazy(() => import('@/pages/AudioV2TestPage').then(m => ({ default: m.AudioV2TestPage })));
+const CurriculumTestPage = lazy(() => import('@/pages/CurriculumTestPage'));
+const CurriculumLintPage = lazy(() => import('@/pages/CurriculumLintPage'));
+const AudioV2TestPage = lazy(() => import('@/pages/AudioV2TestPage'));
 const SpeedModePage = lazy(() => import('@/pages/SpeedModePage'));
 const StageFocusPage = lazy(() => import('@/pages/StageFocusPage'));
 const AllModePage = lazy(() => import('@/pages/AllModePage').then(m => ({ default: m.AllModePage })));
@@ -39,14 +40,23 @@ function App() {
   const { isLoading, isAuthenticated } = useAuth();
   const [showAuthModal, setShowAuthModal] = React.useState(false);
 
-  // 고급 플러그인 시스템 초기화
+  // 플러그인 시스템 초기화
   useEffect(() => {
-    const initAdvancedPlugins = async () => {
+    const initPluginSystems = async () => {
       try {
+        // 1. 기본 플러그인 매니저 초기화
+        console.log('🔌 Initializing Core Plugin System...');
+        const coreResult = await initializePlugins();
+        if (coreResult?.success) {
+          console.log('✅ Core Plugin System ready!');
+        } else {
+          console.error('❌ Core Plugin System failed:', coreResult?.error || 'Unknown error');
+        }
+
+        // 2. 고급 플러그인 시스템 초기화
         console.log('🚀 Initializing Advanced Plugin System...');
-        
         const result = await initializeAdvancedPluginSystem();
-        
+
         if (result.success) {
           console.log('✅ Advanced Plugin System ready!');
           console.log('📦 Loaded plugins:', result.loadedPlugins);
@@ -55,11 +65,11 @@ function App() {
           console.error('❌ Advanced Plugin System failed:', result.error);
         }
       } catch (error) {
-        console.error('❌ Advanced Plugin System error:', error);
+        console.error('❌ Plugin System error:', error);
       }
     };
-    
-    initAdvancedPlugins();
+
+    initPluginSystems();
     
     // 컴포넌트 언마운트 시 플러그인 시스템 정리
     return () => {

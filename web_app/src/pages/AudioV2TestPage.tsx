@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AudioV2Test } from '../components/AudioV2Test';
 
-export const AudioV2TestPage: React.FC = () => {
+const AudioV2TestPage: React.FC = () => {
   const navigate = useNavigate();
 
   return (
@@ -22,3 +22,5 @@ export const AudioV2TestPage: React.FC = () => {
     </div>
   );
 };
+
+export default AudioV2TestPage;

@@ -190,8 +190,8 @@ export const waitForTime = (ms: number) => new Promise(resolve => setTimeout(res
 // 커스텀 매처
 expect.extend({
   toBeCalledWithExactly(received: jest.Mock, ...expected: any[]) {
-    const pass = received.mock.calls.length === 1 && 
-                  received.mock.calls[0].every((arg, index) => 
+    const pass = received.mock.calls.length === 1 &&
+                  received.mock.calls[0].every((arg: any, index: number) =>
                     Object.is(arg, expected[index])
                   );
     
@@ -210,6 +210,12 @@ declare global {
     interface Matchers<R> {
       toBeCalledWithExactly(...args: any[]): R;
       toBeInTheDocument(): R;
+      toHaveStyle(style: string | object): R;
+      toHaveClass(className: string): R;
+      toHaveAttribute(attribute: string, value?: string): R;
+      toBeVisible(): R;
+      toBeDisabled(): R;
+      toBeEnabled(): R;
     }
   }
 }

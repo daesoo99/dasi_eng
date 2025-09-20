@@ -1,7 +1,6 @@
 import React, { useState, useCallback, memo, useMemo } from 'react';
 import { getAuthService } from '../lib/firebase';
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile, signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
-import { auth } from '../lib/firebase';
 
 interface AuthModalProps {
   isOpen: boolean;
@@ -47,11 +46,13 @@ export const AuthModal: React.FC<AuthModalProps> = memo(({ isOpen, onClose, onAu
     console.log(`[DEBUG] 📧 이메일 ${authMode} 시도:`, { email, hasPassword: !!password });
 
     try {
+      // 🎯 모듈화: Firebase Auth 서비스를 동적으로 로드
+      const auth = await getAuthService();
       let userCredential;
-      
+
       if (authMode === 'signup') {
         userCredential = await createUserWithEmailAndPassword(auth, email, password);
-        
+
         // 회원가입 시 displayName 설정
         if (displayName && userCredential.user) {
           await updateProfile(userCredential.user, {
@@ -77,13 +78,15 @@ export const AuthModal: React.FC<AuthModalProps> = memo(({ isOpen, onClose, onAu
   const handleGoogleAuth = useCallback(async () => {
     setIsLoading(true);
     setError(null);
-    
+
     console.log('[DEBUG] 🔍 구글 로그인 시도');
 
     try {
+      // 🎯 모듈화: Firebase Auth 서비스를 동적으로 로드
+      const auth = await getAuthService();
       const provider = new GoogleAuthProvider();
       const userCredential = await signInWithPopup(auth, provider);
-      
+
       console.log('[DEBUG] ✅ 구글 로그인 성공:', userCredential.user.uid);
       onAuthSuccess(userCredential.user);
       onClose();

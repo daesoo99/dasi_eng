@@ -6,7 +6,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { getSpeechPlugin, isPluginAvailable } from '@/plugins';
 import type { ISpeechPlugin, SpeechProcessingState } from '@/plugins/speech/ISpeechPlugin';
-import { NonEmptyString, PositiveNumber, Result } from '@/types/core';
+import { NonEmptyString, PositiveNumber } from '@/types/core';
 
 // Hook 옵션
 export interface UsePluginSpeechOptions {
@@ -76,7 +76,7 @@ export interface UsePluginSpeechReturn {
 export function usePluginSpeech(options: UsePluginSpeechOptions = {}): UsePluginSpeechReturn {
   const {
     autoInitialize = true,
-    fallbackToWebAPI = true,
+    fallbackToWebAPI: _fallbackToWebAPI = true,
     onStateChange,
     onError
   } = options;

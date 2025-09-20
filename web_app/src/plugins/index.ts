@@ -44,13 +44,16 @@ export type {
   PluginInfo 
 } from './PluginManager';
 
-export { 
+export {
   PluginManager,
   pluginManager,
   getSpeechPlugin,
   getPlugin,
-  isPluginAvailable 
+  isPluginAvailable
 } from './PluginManager';
+
+// Import pluginManager for utility functions
+import { pluginManager } from './PluginManager';
 
 // Utility functions for easy initialization
 export const initializePlugins = async (options?: PluginManagerOptions) => {

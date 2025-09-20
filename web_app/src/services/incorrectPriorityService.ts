@@ -344,7 +344,7 @@ class IncorrectPriorityService {
     };
   }
   
-  private async saveIncorrectRecord(record: IncorrectRecord): Promise<void> {
+  private async saveIncorrectRecord(_record: IncorrectRecord): Promise<void> {
     // Firestore에 저장
   }
   

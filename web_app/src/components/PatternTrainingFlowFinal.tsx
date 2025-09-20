@@ -64,19 +64,19 @@ export const PatternTrainingFlowFinal: React.FC<PatternTrainingFlowFinalProps> =
   });
 
   // Get stage-based timing using utility function
-  const getCountdownTime = () => {
+  const getCountdownTime = useCallback(() => {
     // 정규 단계는 유틸리티 함수 사용, 기타는 기본값 2초
     if (stage >= 1 && stage <= 3) {
       return getCountdownDuration(stage as SpeakingStage);
     }
     return 2; // 기본값: 2초
-  };
+  }, [stage]);
 
   // Force cleanup all timers and recognition
-  const forceCleanup = useCallback(() => {
+  const forceCleanup = useCallback(async () => {
     if (flowRef.current.isCleaningUp) return;
     flowRef.current.isCleaningUp = true;
-    
+
     try {
       // Clear all intervals and timeouts
       if (flowRef.current.countdownInterval) {
@@ -91,12 +91,12 @@ export const PatternTrainingFlowFinal: React.FC<PatternTrainingFlowFinalProps> =
         clearInterval(flowRef.current.timerInterval);
         flowRef.current.timerInterval = null;
       }
-      
+
       // Stop speech recognition
       if (flowRef.current.recognition && flowState.isRecording) {
         flowRef.current.recognition.stop();
       }
-      
+
       // 🔧 플러그인을 통한 TTS 중지
       try {
         const ServiceContainer = (await import('@/container/ServiceContainer')).default;
@@ -106,7 +106,7 @@ export const PatternTrainingFlowFinal: React.FC<PatternTrainingFlowFinalProps> =
       } catch (error) {
         console.warn('Plugin TTS stop failed:', error);
       }
-      
+
       setFlowState(prev => ({ ...prev, isRecording: false }));
     } catch (error) {
       console.warn('Cleanup error:', error);
@@ -274,7 +274,7 @@ export const PatternTrainingFlowFinal: React.FC<PatternTrainingFlowFinalProps> =
 
   // Handle recognition result
   const handleResult = useCallback((userAnswer: string, confidence: number) => {
-    forceCleanup();
+    forceCleanup().catch(console.error);
     
     const isCorrect = userAnswer.toLowerCase().trim() === expectedEnglish.toLowerCase().trim();
     const responseTime = flowState.recognitionStartTime ? Date.now() - flowState.recognitionStartTime : 0;
@@ -299,7 +299,7 @@ export const PatternTrainingFlowFinal: React.FC<PatternTrainingFlowFinalProps> =
 
   // Handle timeout
   const handleTimeout = useCallback(() => {
-    forceCleanup();
+    forceCleanup().catch(console.error);
     
     setFlowState(prev => ({
       ...prev,
@@ -371,7 +371,8 @@ export const PatternTrainingFlowFinal: React.FC<PatternTrainingFlowFinalProps> =
   // Cleanup on unmount
   useEffect(() => {
     return () => {
-      forceCleanup();
+      // React cleanup functions must be synchronous, so we fire-and-forget
+      forceCleanup().catch(console.error);
     };
   }, [forceCleanup]);
 

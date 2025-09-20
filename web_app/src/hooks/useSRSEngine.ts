@@ -8,8 +8,8 @@
  * - 학습 통계 제공
  */
 
-import { useCallback, useMemo, useRef } from 'react';
-import { useLocalStorage } from './useLocalStorage';
+import { useCallback, useMemo, useRef, useState, useEffect } from 'react';
+import { StorageManager } from './useLocalStorage';
 import { 
   ISRSEngine, 
   ReviewCard, 
@@ -83,16 +83,45 @@ export const useSRSEngine = ({
     engineRef.current = engine;
   }
   
-  // 로컬 스토리지에서 카드 데이터 관리
-  const { 
-    value: cards, 
-    updateValue: setCards 
-  } = useLocalStorage<ReviewCard[]>(`${storageKey}-${userId}`, []);
+  // 로컬 스토리지에서 카드 데이터 관리 (직접 구현)
+  const [cards, setCardsState] = useState<ReviewCard[]>([]);
+  const fullStorageKey = `${storageKey}-${userId}`;
+
+  // 초기 데이터 로드
+  useEffect(() => {
+    try {
+      const stored = localStorage.getItem(fullStorageKey);
+      if (stored) {
+        const parsedCards = JSON.parse(stored);
+        if (Array.isArray(parsedCards)) {
+          setCardsState(parsedCards);
+        }
+      }
+    } catch (error) {
+      console.error('Failed to load SRS cards:', error);
+      setCardsState([]);
+    }
+  }, [fullStorageKey]);
+
+  // 카드 업데이트 함수
+  const setCards = useCallback((updater: (prev: ReviewCard[]) => ReviewCard[]) => {
+    setCardsState(prevCards => {
+      const newCards = updater(prevCards);
+      try {
+        localStorage.setItem(fullStorageKey, JSON.stringify(newCards));
+      } catch (error) {
+        console.error('Failed to save SRS cards:', error);
+      }
+      return newCards;
+    });
+  }, [fullStorageKey]);
 
   // 복습 예정 카드들 (메모이제이션)
   const dueCards = useMemo(() => {
     if (!engineRef.current) return [];
-    return engineRef.current.getCardsForReview(cards);
+    // 방어적 코딩: cards가 undefined이거나 배열이 아닌 경우 빈 배열 전달
+    const safeCards = Array.isArray(cards) ? cards : [];
+    return engineRef.current.getCardsForReview(safeCards);
   }, [cards]);
 
   // 학습 통계 (메모이제이션)
@@ -108,7 +137,9 @@ export const useSRSEngine = ({
         avgResponseTime: 0
       };
     }
-    return engineRef.current.calculateStats(cards);
+    // 방어적 코딩: cards가 undefined이거나 배열이 아닌 경우 빈 배열 전달
+    const safeCards = Array.isArray(cards) ? cards : [];
+    return engineRef.current.calculateStats(safeCards);
   }, [cards]);
 
   // 새 카드 추가
@@ -169,11 +200,15 @@ export const useSRSEngine = ({
   // 복습 예정 카드들 가져오기
   const getDueCards = useCallback(() => {
     if (!engineRef.current) return [];
-    return engineRef.current.getCardsForReview(cards);
+    // 방어적 코딩: cards가 undefined이거나 배열이 아닌 경우 빈 배열 전달
+    const safeCards = Array.isArray(cards) ? cards : [];
+    return engineRef.current.getCardsForReview(safeCards);
   }, [cards]);
 
   // ID로 카드 찾기
   const getCardById = useCallback((cardId: string) => {
+    // 방어적 코딩: cards가 undefined이거나 배열이 아닌 경우 undefined 반환
+    if (!Array.isArray(cards)) return undefined;
     return cards.find(card => card.id === cardId);
   }, [cards]);
 

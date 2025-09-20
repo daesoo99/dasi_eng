@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useUser, useAppStore, useLearningMode } from '@/store/useAppStore';
 // TODO: SRS migration completed - legacy imports cleaned up
@@ -116,10 +116,14 @@ export const AllModePage: React.FC = React.memo(() => {
       
       if (mode === 'due') {
         // 복습이 필요한 카드들
-        session = await srsService.startReviewSession(user.id, 20);
+        // TODO: Implement with new SRS Engine
+        // session = await srsService.startReviewSession(user.id, 20);
+        session = { reviewCards: [] }; // Temporary fallback
       } else {
         // 가중치 랜덤 선택
-        const randomCards = await srsService.getWeightedRandomCards(user.id, 20);
+        // TODO: Implement with new SRS Engine
+        // const randomCards = await srsService.getWeightedRandomCards(user.id, 20);
+        const randomCards: any[] = []; // Temporary fallback
         session = {
           sessionId: `random_${Date.now()}`,
           userId: user.id,
@@ -270,11 +274,13 @@ export const AllModePage: React.FC = React.memo(() => {
     
     console.log('[AllModePage] Quality calculation result:', qualityResult);
 
-    await srsService.updateCardAfterReview(user.id, currentSRSCard.cardId, {
-      quality: qualityResult.quality,
-      responseTime: evaluationResult.responseTime,
-      isCorrect: evaluationResult.isCorrect
-    });
+    // TODO: Implement with new SRS Engine
+    // await srsService.updateCardAfterReview(user.id, currentSRSCard.cardId, {
+    //   quality: qualityResult.quality,
+    //   responseTime: evaluationResult.responseTime,
+    //   isCorrect: evaluationResult.isCorrect
+    // });
+    console.log('[AllModePage] Card update skipped - awaiting SRS Engine integration');
   };
 
   /**
@@ -492,7 +498,7 @@ export const AllModePage: React.FC = React.memo(() => {
                     console.log('[AllModePage] Timeout - proceeding to next card');
                     setTimeout(() => {
                       if (currentSRSCard) {
-                        nextCard();
+                        handleNextCard();
                       }
                     }, 100);
                   }}

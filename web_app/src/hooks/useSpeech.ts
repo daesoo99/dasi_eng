@@ -44,7 +44,7 @@ export const useSpeech = (options: UseSpeechOptions = {}) => {
   const isTTSAvailable = !speech.isLoading && !speech.error;
 
   // Start recording and transcription
-  const startRecording = useCallback(async (phraseHints: string[] = []) => {
+  const startRecording = useCallback(async (_phraseHints: string[] = []) => {
     if (speech.isLoading || speech.error) {
       setState(prev => ({
         ...prev,
@@ -68,7 +68,7 @@ export const useSpeech = (options: UseSpeechOptions = {}) => {
   }, [speech.isLoading, speech.error]);
 
   // Stop recording and get transcription
-  const stopRecording = useCallback(async (phraseHints: string[] = []): Promise<STTResult | null> => {
+  const stopRecording = useCallback(async (_phraseHints: string[] = []): Promise<STTResult | null> => {
     if (speech.isLoading || speech.error) {
       setState(prev => ({
         ...prev,
@@ -178,7 +178,7 @@ export const useSpeech = (options: UseSpeechOptions = {}) => {
   }, [speech.isLoading, speech.error, speech.speakText, speech.error, options.language]);
 
   // Play beep sound with control
-  const playBeep = useCallback(async (frequency: number = 800, duration: number = 500) => {
+  const playBeep = useCallback(async (_frequency: number = 800, _duration: number = 500) => {
     if (speech.isLoading || speech.error) {
       // Fallback: create a brief pause
       return new Promise<void>(resolve => setTimeout(resolve, 300));

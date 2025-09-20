@@ -11,7 +11,6 @@ import {
 // 🔄 LEGACY ADAPTER: 새 SRS 시스템으로 점진적 마이그레이션 중
 // 2025-01-12: useSRSEngine.ts를 사용하는 것을 권장합니다
 import { useSRSEngine } from './useSRSEngine';
-import { ReviewCard } from '@/services/srs/SRSEngine';
 
 /**
  * @deprecated 이 훅은 완전히 레거시입니다.
@@ -265,8 +264,8 @@ export const useSpacedRepetition = (): UseSpacedRepetitionReturn => {
     studyTime: number;
   }) => {
     updateStatsValue(prevStats => {
-      const accuracy = sessionData.totalQuestions > 0 
-        ? (sessionData.correctAnswers / sessionData.totalQuestions) * 100 
+      const _accuracy = sessionData.totalQuestions > 0
+        ? (sessionData.correctAnswers / sessionData.totalQuestions) * 100
         : 0;
 
       const newTotalQuestions = prevStats.totalQuestions + sessionData.totalQuestions;

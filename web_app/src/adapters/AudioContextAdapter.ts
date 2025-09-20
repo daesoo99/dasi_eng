@@ -50,7 +50,7 @@ export class AudioContextAdapter implements IAudioContextAdapter {
   // Public Methods
 
   isSupported(): boolean {
-    return this.isInitialized && (window.AudioContext || (window as any).webkitAudioContext);
+    return this.isInitialized && !!(window.AudioContext || (window as any).webkitAudioContext);
   }
 
   async createBeep(options: BeepOptions = {}): Promise<AdapterResult<void>> {

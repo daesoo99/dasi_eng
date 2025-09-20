@@ -180,24 +180,36 @@ export class PluginManager {
    * 특정 타입의 플러그인 가져오기
    */
   async getPlugin<T extends IPlugin>(name: string): Promise<Result<T>> {
+    console.log(`🔍 [DEBUG] getPlugin called for: ${name}`);
+
     if (!isNonEmptyString(name)) {
+      console.log(`🔍 [DEBUG] Invalid plugin name: ${name}`);
       return Err(new Error('Plugin name must be non-empty'));
     }
 
     const pluginName = name as NonEmptyString;
-    
+
     // 이미 로드된 경우
     const loadedPlugins = pluginLifecycle.getLoadedPlugins();
+    console.log(`🔍 [DEBUG] Loaded plugins:`, Array.from(loadedPlugins.keys()));
+
     const loadedPlugin = loadedPlugins.get(pluginName);
-    
+    console.log(`🔍 [DEBUG] Plugin '${name}' in loaded plugins:`, !!loadedPlugin?.instance);
+
     if (loadedPlugin?.instance) {
+      console.log(`🔍 [DEBUG] Returning loaded plugin: ${name}`);
       return Ok(loadedPlugin.instance as T);
     }
 
     // 온디맨드 로딩
     const config = pluginConfig.getPluginConfig(name);
+    console.log(`🔍 [DEBUG] Plugin '${name}' config:`, config);
+
     if (config?.enabled) {
+      console.log(`🔍 [DEBUG] Loading plugin on-demand: ${name}`);
       const loadResult = await pluginLifecycle.loadPlugin(pluginName);
+      console.log(`🔍 [DEBUG] Load result for '${name}':`, loadResult);
+
       if (loadResult.success) {
         return Ok(loadResult.data as T);
       }

@@ -15,7 +15,7 @@ export const AdaptivePackPage: React.FC = () => {
   const navigate = useNavigate();
   const user = useUser();
   const learningMode = useLearningMode();
-  const { setLoading, setError, clearError } = useAppStore();
+  const { setLoading, setError, clearError: _clearError } = useAppStore();
 
   // Analytics & Packs
   const [analytics, setAnalytics] = useState<LearningAnalytics | null>(null);
@@ -315,7 +315,7 @@ export const AdaptivePackPage: React.FC = () => {
                     console.log('[AdaptivePackPage] Timeout - proceeding to next card');
                     setTimeout(() => {
                       if (currentCard) {
-                        nextCard();
+                        handleNextCard();
                       }
                     }, 100);
                   }}

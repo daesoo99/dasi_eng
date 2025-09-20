@@ -139,7 +139,7 @@ const AudioTest: React.FC = () => {
     interimResults: true,
     language: 'ko-KR',
     minConfidence: 0.1,
-    debugMode: process.env.NODE_ENV === 'development',
+    debugMode: process.env['NODE_ENV'] === 'development',
     onResult: (transcript, isFinal, confidence) => {
       if (isFinal && state.currentTest === 'pronunciation') {
         analyzePronunciation(transcript, confidence);
@@ -214,35 +214,56 @@ const AudioTest: React.FC = () => {
 
   // ====== 테스트 함수들 ======
 
-  const startMicrophoneTest = useCallback(async () => {
-    const endRenderMeasure = measureRender(1, 'startMicrophoneTest');
-    
-    setState(prev => ({ ...prev, currentTest: 'microphone' }));
-    await startMicrophoneMonitoring();
-    
-    // 10초 후 자동 종료
-    setTimeout(() => {
-      const level = state.microphoneLevel;
-      const score = level > 50 ? 100 : level > 30 ? 80 : level > 10 ? 60 : 40;
-      const recommendation = level > 50 
-        ? '마이크가 정상적으로 작동합니다.' 
-        : level > 30 
-        ? '마이크 볼륨을 조금 높여보세요.'
-        : '마이크가 너무 조용합니다. 설정을 확인해주세요.';
-      
-      addTestResult('microphone', score, { maxLevel: level }, recommendation);
-      stopMicrophoneTest();
-    }, 10000);
-    
-    endRenderMeasure();
-    componentLog('마이크 테스트 시작');
-  }, [state.microphoneLevel, startMicrophoneMonitoring, measureRender, componentLog, addTestResult, stopMicrophoneTest]);
+  const addTestResult = useCallback((type: AudioTestResult['type'], score: number, details: any, recommendation: string) => {
+    const result: AudioTestResult = {
+      id: `${type}_${Date.now()}`,
+      type,
+      timestamp: Date.now(),
+      score,
+      details,
+      recommendation
+    };
+
+    setState(prev => ({
+      ...prev,
+      testResults: [...prev.testResults, result]
+    }));
+
+    logInfo(LogCategory.USER_ACTION, `오디오 테스트 완료: ${type}`, {
+      score,
+      recommendation
+    });
+  }, [LogCategory.USER_ACTION]);
 
   const stopMicrophoneTest = useCallback(() => {
     setState(prev => ({ ...prev, currentTest: null }));
     stopMicrophoneMonitoring();
     componentLog('마이크 테스트 종료');
   }, [stopMicrophoneMonitoring, componentLog]);
+
+  const startMicrophoneTest = useCallback(async () => {
+    const endRenderMeasure = measureRender(1, 'startMicrophoneTest');
+
+    setState(prev => ({ ...prev, currentTest: 'microphone' }));
+    await startMicrophoneMonitoring();
+
+    // 10초 후 자동 종료
+    setTimeout(() => {
+      const level = state.microphoneLevel;
+      const score = level > 50 ? 100 : level > 30 ? 80 : level > 10 ? 60 : 40;
+      const recommendation = level > 50
+        ? '마이크가 정상적으로 작동합니다.'
+        : level > 30
+        ? '마이크 볼륨을 조금 높여보세요.'
+        : '마이크가 너무 조용합니다. 설정을 확인해주세요.';
+
+      addTestResult('microphone', score, { maxLevel: level }, recommendation);
+      stopMicrophoneTest();
+    }, 10000);
+
+    endRenderMeasure();
+    componentLog('마이크 테스트 시작');
+  }, [state.microphoneLevel, startMicrophoneMonitoring, measureRender, componentLog, addTestResult, stopMicrophoneTest]);
 
   const startPronunciationTest = useCallback((category?: string, skipAnnouncement?: boolean) => {
     const endRenderMeasure = measureRender(1, 'startPronunciationTest');
@@ -252,14 +273,19 @@ const AudioTest: React.FC = () => {
       : PRONUNCIATION_TESTS;
     
     const randomTest = filteredTests[Math.floor(Math.random() * filteredTests.length)];
+    if (!randomTest) {
+      console.error('No pronunciation test available');
+      return;
+    }
+
     setCurrentPronunciationTest(randomTest);
     setState(prev => ({ ...prev, currentTest: 'pronunciation' }));
-    
+
     // TTS로 단어 읽어주기 (생략 가능)
     if (!skipAnnouncement && webSpeechAPI.isTTSSupported()) {
       webSpeechAPI.speak(`다음 단어를 따라 읽어보세요. ${randomTest.word}`, 'ko-KR');
     }
-    
+
     endRenderMeasure();
     componentLog('발음 테스트 시작', { word: randomTest.word, category: randomTest.category });
   }, [measureRender, componentLog]);
@@ -268,6 +294,7 @@ const AudioTest: React.FC = () => {
     const endRenderMeasure = measureRender(1, 'startQualityTest');
     
     const randomSentence = SAMPLE_SENTENCES[Math.floor(Math.random() * SAMPLE_SENTENCES.length)];
+    if (!randomSentence) return;
     setCurrentSentence(randomSentence);
     setState(prev => ({ ...prev, currentTest: 'quality' }));
     
@@ -341,10 +368,10 @@ const AudioTest: React.FC = () => {
       mediaRecorder.start(100); // 100ms마다 데이터 수집
       
       setState(prev => {
-        const newState = { 
-          ...prev, 
-          currentTest: 'recording',
-          isRecording: true 
+        const newState: AudioTestState = {
+          ...prev,
+          currentTest: 'recording' as const,
+          isRecording: true
         };
         console.log('[AudioTest] 녹음 시작 - 상태 업데이트:', newState);
         return newState;
@@ -451,6 +478,48 @@ const AudioTest: React.FC = () => {
     componentLog('녹음 삭제');
   }, [componentLog]);
 
+  // ====== 유틸리티 함수들 ======
+
+  const levenshteinDistance = (str1: string, str2: string): number => {
+    const matrix: number[][] = [];
+
+    for (let i = 0; i <= str2.length; i++) {
+      matrix[i] = [i];
+    }
+
+    for (let j = 0; j <= str1.length; j++) {
+      if (!matrix[0]) matrix[0] = [];
+      matrix[0][j] = j;
+    }
+
+    for (let i = 1; i <= str2.length; i++) {
+      if (!matrix[i]) matrix[i] = [];
+      for (let j = 1; j <= str1.length; j++) {
+        if (str2.charAt(i - 1) === str1.charAt(j - 1)) {
+          matrix[i]![j] = matrix[i - 1]?.[j - 1] ?? 0;
+        } else {
+          matrix[i]![j] = Math.min(
+            (matrix[i - 1]?.[j - 1] ?? 0) + 1, // substitution
+            (matrix[i]?.[j - 1] ?? 0) + 1,     // insertion
+            (matrix[i - 1]?.[j] ?? 0) + 1      // deletion
+          );
+        }
+      }
+    }
+
+    return matrix[str2.length]?.[str1.length] ?? 0;
+  };
+
+  const calculateSimilarity = useCallback((str1: string, str2: string): number => {
+    const longer = str1.length > str2.length ? str1 : str2;
+    const shorter = str1.length > str2.length ? str2 : str1;
+
+    if (longer.length === 0) return 1.0;
+
+    const distance = levenshteinDistance(longer, shorter);
+    return (longer.length - distance) / longer.length;
+  }, []);
+
   // ====== 분석 함수들 ======
 
   const analyzePronunciation = useCallback((transcript: string, confidence: number) => {
@@ -515,67 +584,6 @@ const AudioTest: React.FC = () => {
     
     componentLog('음성 품질 분석 완료', { score, transcript });
   }, [currentSentence, componentLog, addTestResult]);
-
-  // ====== 유틸리티 함수들 ======
-
-  const calculateSimilarity = useCallback((str1: string, str2: string): number => {
-    const longer = str1.length > str2.length ? str1 : str2;
-    const shorter = str1.length > str2.length ? str2 : str1;
-    
-    if (longer.length === 0) return 1.0;
-    
-    const distance = levenshteinDistance(longer, shorter);
-    return (longer.length - distance) / longer.length;
-  }, []);
-
-  const levenshteinDistance = (str1: string, str2: string): number => {
-    const matrix = [];
-    
-    for (let i = 0; i <= str2.length; i++) {
-      matrix[i] = [i];
-    }
-    
-    for (let j = 0; j <= str1.length; j++) {
-      matrix[0][j] = j;
-    }
-    
-    for (let i = 1; i <= str2.length; i++) {
-      for (let j = 1; j <= str1.length; j++) {
-        if (str2.charAt(i - 1) === str1.charAt(j - 1)) {
-          matrix[i][j] = matrix[i - 1][j - 1];
-        } else {
-          matrix[i][j] = Math.min(
-            matrix[i - 1][j - 1] + 1,
-            matrix[i][j - 1] + 1,
-            matrix[i - 1][j] + 1
-          );
-        }
-      }
-    }
-    
-    return matrix[str2.length][str1.length];
-  };
-
-  const addTestResult = useCallback((type: AudioTestResult['type'], score: number, details: any, recommendation: string) => {
-    const result: AudioTestResult = {
-      id: `${type}_${Date.now()}`,
-      type,
-      timestamp: Date.now(),
-      score,
-      details,
-      recommendation
-    };
-    
-    setState(prev => ({
-      ...prev,
-      testResults: [...prev.testResults, result]
-    }));
-    
-    logInfo(LogCategory.USER_ACTION, `오디오 테스트 완료: ${type}`, {
-      score,
-      recommendation
-    });
-  }, [LogCategory.USER_ACTION]);
 
   const clearResults = useCallback(() => {
     setState(prev => ({ ...prev, testResults: [] }));
@@ -1270,7 +1278,7 @@ const AudioTest: React.FC = () => {
               </button>
 
               <button
-                onClick={startQualityTest}
+                onClick={() => startQualityTest()}
                 style={{
                   padding: '20px',
                   background: 'linear-gradient(135deg, #FF9800, #F57C00)',

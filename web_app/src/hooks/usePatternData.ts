@@ -42,7 +42,7 @@ export const usePatternData = ({
   const [currentStage, setCurrentStage] = useState(initialStage);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [currentQuestions, setCurrentQuestions] = useState<QuestionItem[]>([]);
-  const [isLoading, setIsLoading] = useState(false);
+  const [_isLoading, setIsLoading] = useState(false);
 
   // Generate questions with useEffect for async handling
   useEffect(() => {

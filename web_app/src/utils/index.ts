@@ -37,7 +37,7 @@ export const errorHandler = {
 };
 
 // API 에러 핸들링 함수
-export const handleApiError = (error: any, context?: any) => {
+export const handleApiError = (error: any, _context?: any) => {
   const errorMessage = error?.response?.data?.message || error?.message || 'API Error';
   logger.error(`API Error: ${errorMessage}`, 'API');
   return {

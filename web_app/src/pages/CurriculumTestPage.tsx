@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { CurriculumSmokeTest } from '../components/CurriculumSmokeTest';
 
-export const CurriculumTestPage: React.FC = () => {
+const CurriculumTestPage: React.FC = () => {
   const navigate = useNavigate();
 
   return (
@@ -22,3 +22,5 @@ export const CurriculumTestPage: React.FC = () => {
     </div>
   );
 };
+
+export default CurriculumTestPage;
